@@ -1,0 +1,444 @@
+{
+  "project": "剑来有声小说自动生成",
+  "chapter": "第一章 小镇少年",
+  "global": {
+    "pitch": "+0Hz",
+    "channels": 1,
+    "voice_volume": "+0%",
+    "bgm_volume": "-18%",
+    "effect_volume": "-10%"
+  },
+  "roles_definition": {
+    "旁白": {
+      "desc": "旁白，沉稳大气、古风叙事、江湖感",
+      "fixed_voice": {
+        "role_voice": "zh-CN-YunyangNeural",
+        "pitch": "+0Hz",
+        "volume": "+0%",
+        "speed": "-5%"
+      }
+    },
+    "陈平安": {
+      "desc": "少年主角，温和坚韧、干净内敛",
+      "fixed_voice": {
+        "role_voice": "zh-CN-YunxiNeural",
+        "pitch": "+0Hz",
+        "volume": "+0%",
+        "speed": "-2%"
+      }
+    },
+    "villager": {
+      "desc": "街坊路人，语气平淡冷漠",
+      "fixed_voice": {
+        "role_voice": "zh-CN-YunpengNeural",
+        "pitch": "+0Hz",
+        "volume": "-1%",
+        "speed": "-3%"
+      }
+    }
+  },
+  "data": [
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "大千世界，无奇不有。有天，有地，有山，有水，有人，有神，有鬼，有妖，有魔。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "古风小镇清晨，悠远宁静，轻柔笛子与古筝，缓慢节奏，空灵氛围，低音量不压人声",
+            "scene_en": "Ancient Chinese town early morning, peaceful and distant, soft bamboo flute and guzheng, slow rhythm, ethereal atmosphere, low volume without overwhelming voice",
+            "fade_in": 0.5,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "cover_voice"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "bgm_fade_in_then_voice",
+        "voice_delay": 0.5
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "在东南一隅，有一方天地，名骊珠洞天。洞天之内，有一座小镇，不大不小，平平无奇。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "古风小镇舒缓背景音乐，平静温和，简单弦乐，轻节奏，叙事感，适合旁白",
+            "scene_en": "Gentle background music of ancient town, calm and mild, simple strings, light rhythm, narrative sense, suitable for narration",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "小镇巷弄深处，一户人家，木门吱呀一声被推开，走出一位身穿旧布衫的少年。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "古风小巷安静背景音乐，清淡柔和，轻微环境底噪，悠远干净",
+            "scene_en": "Quiet background music of ancient alley, light and soft, slight ambient noise, distant and clean",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": [
+          {
+            "params": {
+              "name": "木门吱呀",
+              "sound_cn": "老旧木门缓慢推开的吱呀声，短音效，真实质感，中等音量，不刺耳",
+              "sound_en": "Squeak of old wooden door slowly opening, short sound effect, realistic texture, medium volume, not harsh",
+              "volume": "-10%",
+              "pitch": "+0Hz"
+            },
+            "trigger_delay": 0.3,
+            "duration": 0.8
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "又是一天。",
+            "role": "陈平安",
+            "role_voice": "zh-CN-YunxiNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "温柔轻柔古风音乐，温暖干净，适合少年角色，低音量",
+            "scene_en": "Soft and gentle ancient style music, warm and clean, suitable for young character, low volume",
+            "fade_in": 0,
+            "fade_out": 0.5,
+            "volume": "-30%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": [
+          {
+            "params": {
+              "name": "衣物摩擦",
+              "sound_cn": "轻柔布衣摩擦声，短音效，安静自然，贴近人物动作，清晰可闻",
+              "sound_en": "Soft cloth friction sound, short sound effect, quiet and natural, close to character movement, clearly audible",
+              "volume": "+5%",
+              "pitch": "+0Hz"
+            },
+            "trigger_delay": 0.0,
+            "duration": 1.0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "少年约莫十四五岁年纪，身形单薄，穿着洗得发白、打了好几块补丁的粗布短衫，袖口挽到小臂，露出两条干瘦却结实的胳膊。他面容清秀，只是脸色有些苍白，眼神却很亮，像藏着两颗小星星，干净，纯粹，却又带着一丝与年龄不符的沉静。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "安静叙事背景音乐，清淡细腻，无打击乐，适合人物描写",
+            "scene_en": "Quiet narrative background music, light and delicate, no percussion, suitable for character description",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "少年名叫陈平安，在这座小镇里，算是最不起眼的那一类人。父母早亡，只留下一间破旧的土坯房，还有屋前一小块勉强能种些青菜的菜地。他没有亲人，也没有朋友，平日里靠着帮镇上的人家劈柴、挑水、送信，换些粮食和碎银，勉强糊口。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "平缓叙事古风音乐，温和稳重，适合讲述身世背景",
+            "scene_en": "Gentle narrative ancient style music, mild and steady, suitable for telling life experience",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "这几年，小镇上的日子也不好过，天地间灵气稀薄，连带着镇上的生意也清淡了许多。陈平安性子闷，不大会说话，也不会讨好别人，所以常常被人欺负，换得的粮食也比别人少上一些，但他从不抱怨，只是默默忍着，每天天不亮就起床，忙到天黑才回家。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇清晨",
+            "scene_cn": "略带伤感但平静的古风音乐，细腻温柔，适合人物内心描写",
+            "scene_en": "Slightly sad but calm ancient style music, delicate and gentle, suitable for inner character description",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "陈平安反手带上木门，木门又吱呀一声，像是在叹息。他沿着巷弄慢慢往前走，巷子里很安静，只有他的脚步声，轻缓而坚定，踩在青石板路上，发出嗒、嗒的轻响。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇街巷",
+            "scene_cn": "小巷安静环境音，微风轻响，极淡底噪，真实小镇清晨",
+            "scene_en": "Quiet alley ambient sound, gentle breeze, very light noise, realistic early morning in small town",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": [
+          {
+            "params": {
+              "name": "脚步声",
+              "sound_cn": "轻缓脚步声，青石板路面，安静清晰，节奏平稳，短间隔",
+              "sound_en": "Soft and slow footsteps on bluestone road, quiet and clear, steady rhythm, short interval",
+              "volume": "-12%",
+              "pitch": "+0Hz"
+            },
+            "trigger_delay": 0,
+            "duration": 2
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "巷口传来几声狗吠，紧接着，有早起的街坊推开房门，看到陈平安，脸上露出几分淡漠，甚至有人轻轻撇了撇嘴，没人和他打招呼。陈平安对此早已习惯，只是微微低下头，加快了脚步，避开了那些目光。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇街巷",
+            "scene_cn": "小镇街道清晨环境音，安静自然，轻微生活气息",
+            "scene_en": "Early morning ambient sound of town street, quiet and natural, slight life atmosphere",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": [
+          {
+            "params": {
+              "name": "狗吠",
+              "sound_cn": "远处几声短狗叫，清晰不吵，远场距离，真实乡村小镇",
+              "sound_en": "A few short dog barks in distance, clear but not noisy, far field, realistic rural town",
+              "volume": "-8%",
+              "pitch": "+0Hz"
+            },
+            "trigger_delay": 0.5,
+            "duration": 1
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "villager",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "这孩子，又去劈柴啊？真是个闷葫芦。",
+            "role": "villager",
+            "role_voice": "zh-CN-YunpengNeural",
+            "speed": "+0%",
+            "volume": "+5%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇街巷",
+            "scene_cn": "街道背景音，极淡，压低音量，不影响对话",
+            "scene_en": "Street background sound, very light, low volume, not affecting dialogue",
+            "fade_in": 0,
+            "fade_out": 0,
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "lower",
+          "lower_db": 6
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "陈平安没有回头，也没有应声，只是继续往前走。他知道，镇上的人大多不喜欢他，觉得他是个没爹没妈的孩子，晦气，又性子孤僻，不合群。但他不在乎，他只想好好活着，好好守住那间破旧的房子，守住父母留下的最后一点念想。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+5%",
+            "pitch": "+0Hz"
+          }
+        },
+        "bgm": {
+          "params": {
+            "scene": "小镇街巷",
+            "scene_cn": "沉静收尾音乐，温和坚定，略带希望，适合章节结尾",
+            "scene_en": "Calm ending music, gentle and firm, slightly hopeful, suitable for chapter end",
+            "fade_in": 0,
+            "fade_out": 1,
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          "play_mode": "keep"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    }
+  ]
+}

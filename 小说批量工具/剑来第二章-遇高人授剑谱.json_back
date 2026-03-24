@@ -1,0 +1,307 @@
+{
+  "character_voice_map": {
+    "旁白": "zh-CN-YunxiNeural",
+    "徐凤年（少年）": "zh-CN-YunjianNeural",
+    "李淳罡（老者）": "zh-CN-YunxiNeural",
+    "道童（少年）": "zh-CN-YunxiNeural"
+  },
+  "character_settings": {
+    "旁白": {
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz"
+    },
+    "徐凤年（少年）": {
+      "volume": "45%",
+      "rate": "0%",
+      "pitch": "0Hz"
+    },
+    "李淳罡（老者）": {
+      "volume": "55%",
+      "rate": "-5%",
+      "pitch": "-5Hz"
+    },
+    "道童（少年）": {
+      "volume": "48%",
+      "rate": "2%",
+      "pitch": "1Hz"
+    }
+  },
+  "data": [
+    {
+      "id": "para_1",
+      "role": "旁白",
+      "text": "第二章 遇高人授剑谱",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "audio_notes": "章节标题，语气沉稳，富有磁性，营造武侠氛围",
+      "scene_id": "scene_2",
+      "bgm": {
+        "scene_name": "山顶道观",
+        "scene_description": "徐凤年终于登上青峰山山顶，看到一座古朴的道观，周围云雾缭绕，环境清幽",
+        "bgm_type": "peaceful",
+        "bgm_description": "平和的道观背景音，带有轻微的钟磬声和风声，营造出宁静祥和的氛围",
+        "duration": "5.0",
+        "bgm_description_en": "Peaceful Taoist temple background sound with gentle bell chimes and wind"
+      },
+      "sfx":
+        {
+          "name": "bell",
+          "description": "道观传来的钟声，清晰而悠远，营造出神秘的氛围",
+          "description_en": "Temple bell sound creating a mysterious atmosphere",
+          "volume": "0.5",
+          "duration": "2.5",
+          "start_time": "1.0"
+        }
+    },
+    {
+      "id": "para_2",
+      "text": "徐凤年沿着石阶一步步登上山顶，当他终于站在山顶的平台上时，眼前出现了一座古朴的道观。道观的门楣上挂着一块木牌，上面写着‘青峰观’三个苍劲有力的大字。道观周围种着几棵古松，松树的枝干盘根错节，看起来已经有几百年的历史了。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述山顶道观的景色，语气平缓，带有画面感",
+      "scene_id": "scene_2",
+      "sfx":
+        {
+          "name": "wind",
+          "description": "山顶的风声，比山脚更强烈一些，带着松涛声",
+          "description_en": "Wind sound at mountain top with pine tree rustling",
+          "volume": "0.7",
+          "duration": "6.0",
+          "start_time": "0.5"
+        }
+    },
+    {
+      "id": "para_3",
+      "text": "吱呀一声，道观的门被打开了，一个身穿灰色道袍的道童走了出来。他看起来十四五岁的样子，眉清目秀，脸上带着好奇的神色。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述道童的出现，语气平缓，带有画面感",
+      "scene_id": "scene_2",
+      "sfx":
+        {
+          "name": "door_creak",
+          "description": "道观门的吱呀声，营造出古老的氛围",
+          "description_en": "Old door creaking sound creating an ancient atmosphere",
+          "volume": "0.4",
+          "duration": "1.5",
+          "start_time": "0.5"
+        }
+    },
+    {
+      "id": "para_4",
+      "text": "小道士，我叫徐凤年，是来拜入青峰观学艺的。",
+      "voice": "zh-CN-YunjianNeural",
+      "volume": "45%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "dialogue",
+      "role": "徐凤年（少年）",
+      "audio_notes": "徐凤年的自我介绍，语气诚恳，带有期待",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_5",
+      "text": "哦？你要拜入青峰观学艺？师父已经很久没有收徒弟了。不过师父刚才还说，今天会有一个有缘人上山，让我在此等候。你先跟我进来吧。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "48%",
+      "rate": "2%",
+      "pitch": "1Hz",
+      "type": "dialogue",
+      "role": "道童（少年）",
+      "audio_notes": "道童的回应，语气好奇，带有一丝惊喜",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_6",
+      "text": "徐凤年跟着道童走进道观，道观内部很是简陋，只有几间房屋和一个院子。院子里种着几棵桃树，现在正是桃花盛开的季节，粉色的桃花在微风中轻轻摇曳。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述道观内部的景色，语气平缓，带有画面感",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_7",
+      "text": "道童带着徐凤年来到一间主殿，殿内供奉着三清神像。一个身穿白色道袍的老者正背对着他们，站在神像前。老者的头发和胡须都已经花白，但看起来精神矍铄。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述老者的出现，语气平缓，带有画面感",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_8",
+      "text": "师父，这位就是徐凤年，他说要来拜您为师学艺。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "48%",
+      "rate": "2%",
+      "pitch": "1Hz",
+      "type": "dialogue",
+      "role": "道童（少年）",
+      "audio_notes": "道童向师父介绍徐凤年，语气恭敬",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_9",
+      "text": "老者缓缓转过身来，他的目光如炬，仿佛能看透人的内心。他上下打量了徐凤年一番，然后缓缓说道：你叫徐凤年？来自哪里？为什么想要拜入我青峰观学艺？",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "55%",
+      "rate": "-5%",
+      "pitch": "-5Hz",
+      "type": "dialogue",
+      "role": "李淳罡（老者）",
+      "audio_notes": "李淳罡的询问，语气威严，带有一丝审视",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_10",
+      "text": "回师父的话，我来自离阳王朝的北凉，父亲是北凉王徐骁。我想要学习武艺，保护我想要保护的人。",
+      "voice": "zh-CN-YunjianNeural",
+      "volume": "45%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "dialogue",
+      "role": "徐凤年（少年）",
+      "audio_notes": "徐凤年的回答，语气诚恳，带有坚定",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_11",
+      "text": "哦？北凉王徐骁的儿子？看来你的身份不简单啊。不过，想要拜我为师，光有身份是不够的。我需要看看你的资质如何。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "55%",
+      "rate": "-5%",
+      "pitch": "-5Hz",
+      "type": "dialogue",
+      "role": "李淳罡（老者）",
+      "audio_notes": "李淳罡的回应，语气威严，带有一丝惊讶",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_12",
+      "text": "李淳罡伸出手，轻轻按在徐凤年的肩膀上。徐凤年只觉得一股温热的气流从李淳罡的手中传来，沿着他的经脉游走全身。这股气流让他感到非常舒服，仿佛全身都充满了力量。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述李淳罡检查徐凤年资质的过程，语气平缓，带有神秘色彩",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_13",
+      "text": "嗯，不错。你的资质很好，是个练武的好苗子。不过，练武之路非常艰辛，你确定你能坚持下来吗？",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "55%",
+      "rate": "-5%",
+      "pitch": "-5Hz",
+      "type": "dialogue",
+      "role": "李淳罡（老者）",
+      "audio_notes": "李淳罡的评价，语气威严，带有一丝赞赏",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_14",
+      "text": "我确定！无论多苦，我都能坚持下来！",
+      "voice": "zh-CN-YunjianNeural",
+      "volume": "45%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "dialogue",
+      "role": "徐凤年（少年）",
+      "audio_notes": "徐凤年的坚定回答，语气激昂，带有决心",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_15",
+      "text": "好！既然如此，我就收你为徒。从明天开始，你就跟着我学习武艺。不过，在学习武艺之前，你需要先学习做人的道理。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "55%",
+      "rate": "-5%",
+      "pitch": "-5Hz",
+      "type": "dialogue",
+      "role": "李淳罡（老者）",
+      "audio_notes": "李淳罡的决定，语气威严，带有一丝欣慰",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_16",
+      "text": "多谢师父！徒儿一定谨遵师父教诲！",
+      "voice": "zh-CN-YunjianNeural",
+      "volume": "45%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "dialogue",
+      "role": "徐凤年（少年）",
+      "audio_notes": "徐凤年的感谢，语气诚恳，带有激动",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_17",
+      "text": "很好。你先去休息吧，明天一早开始练功。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "55%",
+      "rate": "-5%",
+      "pitch": "-5Hz",
+      "type": "dialogue",
+      "role": "李淳罡（老者）",
+      "audio_notes": "李淳罡的安排，语气威严，带有一丝慈祥",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_18",
+      "text": "是，师父！",
+      "voice": "zh-CN-YunjianNeural",
+      "volume": "45%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "dialogue",
+      "role": "徐凤年（少年）",
+      "audio_notes": "徐凤年的回应，语气恭敬，带有激动",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_19",
+      "text": "道童带着徐凤年来到一间客房，客房里只有一张床和一张桌子，非常简陋。但徐凤年却感到非常满足，因为他终于拜入了青峰观，成为了李淳罡的徒弟。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述徐凤年的感受，语气平缓，带有满足感",
+      "scene_id": "scene_2"
+    },
+    {
+      "id": "para_20",
+      "text": "看着窗外盛开的桃花，徐凤年想起了父亲的话：想要保护别人，首先要让自己变得强大。他暗下决心，一定要好好跟着李淳罡学习武艺，成为一名强大的剑客，保护他想要保护的人。",
+      "voice": "zh-CN-YunxiNeural",
+      "volume": "50%",
+      "rate": "0%",
+      "pitch": "0Hz",
+      "type": "narrative",
+      "role": "旁白",
+      "audio_notes": "描述徐凤年的决心，语气平缓，带有坚定感",
+      "scene_id": "scene_2"
+    }
+  ]
+}

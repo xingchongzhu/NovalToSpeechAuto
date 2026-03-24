@@ -1,0 +1,66 @@
+# Python项目通用忽略规则
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+ENV/
+env/
+*.venv/
+
+# 数据库文件
+*.sqlite3
+*.db
+
+# 日志文件
+*.log
+logs/
+
+# 配置文件
+*.ini
+*.cfg
+*.conf
+.env
+.env.local
+.env.*.local
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 构建文件
+build/
+dist/
+*.egg-info/
+
+# 测试文件
+.pytest_cache/
+coverage/
+
+# 音频生成输出
+output/
+*.wav
+*.mp3
+*.ogg
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker相关
+.dockerignore
+Dockerfile*
+
+# 批量工具临时文件
+小说批量工具/输出/
+小说批量工具/临时文件/
