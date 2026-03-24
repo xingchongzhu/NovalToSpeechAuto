@@ -33,6 +33,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# 禁用输出缓冲，确保日志实时显示
+sys.stdout.reconfigure(line_buffering=True)  # Python 3.7+
+os.environ['PYTHONUNBUFFERED'] = '1'  # 环境变量方式，兼容所有Python版本
+
 # 忽略音频处理库的无关警告
 warnings.filterwarnings("ignore")
 
@@ -261,7 +265,7 @@ class AudioEngine:
             duration_int = int(round(duration))
             # 根据音频类型设置最大时长限制（不超过模型支持的max_duration）
             if audio_type == "music":
-                # BGM最长10秒（模型限制）
+                # BGM最长10秒（模型实际限制）
                 if duration_int > 10:
                     duration_int = 10
                     print("[AudioEngine] BGM最长10秒，已调整时长为10秒")
@@ -280,14 +284,15 @@ class AudioEngine:
             # 调用magnet_test_tool.py生成音频
             import subprocess
             try:
+                # magnet_test_tool.py默认生成3个变体，文件会有_1、_2、_3后缀
+                cmd = ["python3", magnet_script, desc_en, "--type", audio_type, "--duration", str(duration_int), "--output-path", temp_output_path]
+                
                 result = subprocess.run(
-                    ["python3", magnet_script, desc_en,
-                     "--type", audio_type,
-                     "--duration", str(duration_int),
-                     "--output-path", temp_output_path],
-                    capture_output=True,
+                    cmd,
+                    capture_output=False,
                     text=True,
-                    timeout=180  # 增加超时时间
+                    timeout=300,  # 增加超时时间到5分钟
+                    bufsize=0  # 禁用缓冲
                 )
                 
                 # 打印magnet_test_tool.py脚本的输出
@@ -389,23 +394,41 @@ class AudioEngine:
         print(f"[MixEngine] 混音模式: {mix_config.mode}")
         
         # 基础初始化
-        final_audio = AudioSegment.silent(duration=0, frame_rate=self.sample_rate)
         voice_duration = len(voice)
-        bgm = bgm[:voice_duration]  # 裁剪BGM到语音长度
+        
+        # 如果BGM存在且长度大于0，确保BGM时长与配音匹配
+        if len(bgm) > 0:
+            if len(bgm) < voice_duration:
+                # BGM太短，循环播放以匹配语音时长
+                loop_count = voice_duration // len(bgm)
+                remaining = voice_duration % len(bgm)
+                bgm = bgm * loop_count + bgm[:remaining]
+            else:
+                # BGM太长，裁剪到语音长度
+                bgm = bgm[:voice_duration]
 
         # 按混音模式处理
         if mix_config.mode == "bgm_fade_in_then_voice":
             # BGM淡入后播放语音
             bgm = bgm.fade_in(int(mix_config.voice_delay * 1000))
-            final_audio = bgm.overlay(voice, position=int(mix_config.voice_delay * 1000))
+            # 以BGM为基础，语音在指定延迟后叠加
+            final_audio = bgm
+            if voice_duration > len(bgm):
+                # 如果语音更长，扩展BGM到语音长度
+                final_audio = bgm + AudioSegment.silent(duration=voice_duration - len(bgm))
+            final_audio = final_audio.overlay(voice, position=int(mix_config.voice_delay * 1000))
         
         elif mix_config.mode == "voice_on_bgm":
-            # 语音叠加在BGM上
-            final_audio = bgm.overlay(voice)
+            # 以语音为基础，BGM叠加在上面，确保最终长度与语音一致
+            final_audio = voice
+            if len(bgm) > 0:
+                final_audio = final_audio.overlay(bgm)
         
         elif mix_config.mode == "mix":
-            # 语音+BGM+音效混合
-            final_audio = bgm.overlay(voice)
+            # 以语音为基础，BGM和音效叠加在上面
+            final_audio = voice
+            if len(bgm) > 0:
+                final_audio = final_audio.overlay(bgm)
             for effect in effects:
                 final_audio = final_audio.overlay(effect)
         
@@ -568,6 +591,11 @@ class AudioGenerator:
             bgm_audio.export(bgm_output_path, format="wav")
             print(f"💾 单句BGM已保存: {bgm_output_path}")
         
+        # 全局降低BGM音量 2dB（让所有BGM都更低一点）
+        bgm_global_reduce = 2.0  # 降低的dB数
+        bgm_audio = bgm_audio - bgm_global_reduce
+        print(f"🔊 BGM全局降低 {bgm_global_reduce}dB")
+        
         # 3. 生成音效，使用英文提示词
         effect_audios = []
         for i, effect_param in enumerate(line_config.effect_params):
@@ -624,7 +652,7 @@ class AudioGenerator:
                 sample_rate=44100,
                 channels=self.config["global"]["channels"],
                 api_endpoint=self.api_endpoint,
-                easyvoice_temp_dir=self.easyvoice_temp_dir
+                easyvoice_temp_dir=self.easyvoice_temp_dir if hasattr(self, 'easyvoice_temp_dir') else None
             )
             
             # 临时替换当前实例的audio_engine
@@ -657,9 +685,10 @@ class AudioGenerator:
         # 生成所有音频（并行处理）
         print(f"[DEBUG] 开始并行处理 {len(line_configs)} 句音频")
         
-        # 创建进程池，使用CPU核心数的一半作为进程数
-        num_processes = max(1, multiprocessing.cpu_count() // 2)
-        print(f"[DEBUG] 使用 {num_processes} 个进程并行处理")
+        # 创建进程池，只使用1个进程来避免资源争用
+        # BGM生成依赖GPU资源，过多进程会导致资源争用和超时
+        num_processes = 1
+        print(f"[DEBUG] 使用 {num_processes} 个进程并行处理（避免资源争用）")
         
         # 使用functools.partial来创建一个可以在进程中安全执行的函数
         partial_process_line = partial(self._process_single_line_worker)
