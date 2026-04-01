@@ -30,11 +30,13 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson"):
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson", tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
         self.script_dir = script_dir  # 小说剧本目录
         self.output_dir = output_dir  # 输出目录
         self.temp_dir = temp_dir      # 临时目录
         self.api_endpoint = api_endpoint  # API端点
+        self.tts_engine = tts_engine  # TTS引擎类型
+        self.qwen_model_path = qwen_model_path  # Qwen TTS模型路径
         self.script_path = os.path.dirname(os.path.abspath(__file__))  # 脚本所在目录
         
         # 创建目录
@@ -46,6 +48,11 @@ class NovelBatchGenerator:
         
     def check_and_start_service(self) -> bool:
         """检查并启动服务"""
+        # 只有当使用easyvoice引擎时才需要启动Docker服务
+        if self.tts_engine != "easyvoice":
+            logger.info(f"使用{self.tts_engine}引擎，不需要启动Docker服务")
+            return True
+        
         try:
             # 检查是否有旧的Docker容器在运行
             result = subprocess.run(["docker", "ps", "-a", "--filter", "name=easyvoice"], 
@@ -104,7 +111,9 @@ class NovelBatchGenerator:
                 self.audio_processing_module,
                 "--json-path", json_file,
                 "--output-dir", self.output_dir,
-                "--api-endpoint", self.api_endpoint
+                "--api-endpoint", self.api_endpoint,
+                "--tts-engine", self.tts_engine,
+                "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-model"
             ]
             
             result = subprocess.run(cmd, stdout=sys.stdout, stderr=sys.stderr, text=True, check=False)
@@ -166,14 +175,23 @@ class NovelBatchGenerator:
 def main():
     """主函数"""
     parser = argparse.ArgumentParser(description="小说自动批量生成工具")
+    # 获取脚本所在目录的绝对路径
+    script_path = os.path.dirname(os.path.abspath(__file__))
+    # 计算项目根目录的绝对路径（脚本目录的上两级）
+    project_root = os.path.abspath(os.path.join(script_path, "../.."))
+    
     parser.add_argument("--script-dir", type=str, default="./小说剧本", 
                        help="小说剧本目录路径")
-    parser.add_argument("--output-dir", type=str, default="./output", 
+    parser.add_argument("--output-dir", type=str, default=os.path.join(project_root, "output"), 
                        help="输出目录路径")
-    parser.add_argument("--temp-dir", type=str, default="./temp", 
+    parser.add_argument("--temp-dir", type=str, default=os.path.join(script_path, "temp"), 
                        help="临时目录路径")
     parser.add_argument("--api-endpoint", type=str, default="http://localhost:3000/api/v1/tts/generateJson", 
                        help="API端点")
+    parser.add_argument("--tts-engine", type=str, default="qwen3-tts", 
+                       help="TTS引擎类型 (easyvoice 或 qwen3-tts)")
+    parser.add_argument("--qwen-model-path", type=str, default="/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-model", 
+                       help="Qwen TTS模型路径")
     parser.add_argument("--keep-segments", action="store_true", 
                        help="保留临时片段文件")
     parser.add_argument("--debug", action="store_true", 
@@ -199,7 +217,9 @@ def main():
         script_dir=script_dir,
         output_dir=output_dir,
         temp_dir=temp_dir,
-        api_endpoint=args.api_endpoint
+        api_endpoint=args.api_endpoint,
+        tts_engine=args.tts_engine,
+        qwen_model_path=args.qwen_model_path
     )
     
     try:

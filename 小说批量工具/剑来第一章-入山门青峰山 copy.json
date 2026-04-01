@@ -13,15 +13,15 @@
       "desc": "旁白，沉稳大气、古风叙事、江湖感",
       "fixed_voice": {
         "role_voice": "zh-CN-YunyangNeural",
-        "pitch": "0Hz",
-        "volume": "0%",
-        "speed": "0%"
+        "pitch": "+0Hz",
+        "volume": "+0%",
+        "speed": "-5%"
       },
       "qwen_voice": {
         "role_voice": "uncle_fu",
-        "pitch": "0Hz",
-        "volume": "0%",
-        "speed": "0%"
+        "pitch": "+0Hz",
+        "volume": "+0%",
+        "speed": "-5%"
       }
     },
     "陈平安": {
@@ -33,7 +33,7 @@
         "speed": "-2%"
       },
       "qwen_voice": {
-        "role_voice": "aiden",
+        "role_voice": "ryan",
         "pitch": "+0Hz",
         "volume": "+0%",
         "speed": "-2%"
@@ -48,7 +48,7 @@
         "speed": "-3%"
       },
       "qwen_voice": {
-        "role_voice": "eric",
+        "role_voice": "dylan",
         "pitch": "+0Hz",
         "volume": "-1%",
         "speed": "-3%"
@@ -62,21 +62,20 @@
       "api": {
         "voice": {
           "params": {
-            "text": "第一章 小镇少年。大千世界，无奇不有。有天，有地，有山，有水，有人，有神，有鬼，有妖，有魔。在东南一隅，有一方天地，名骊珠洞天。洞天之内，有一座小镇，不大不小，平平无奇。",
+            "text": "第一章 小镇少年",
             "role": "旁白",
             "role_voice": "zh-CN-YunyangNeural",
-            "speed": "0%",
-            "volume": "+0%",
-            "pitch": "0Hz"
+            "speed": "-5%",
+            "volume": "+5%",
+            "pitch": "+2Hz"
           },
           "qwen_params": {
-            "text": "第一章 小镇少年。大千世界，无奇不有。有天，有地，有山，有水，有人，有神，有鬼，有妖，有魔。在东南一隅，有一方天地，名骊珠洞天。洞天之内，有一座小镇，不大不小，平平无奇。",
+            "text": "第一章 小镇少年",
             "role": "旁白",
             "role_voice": "uncle_fu",
-            "speed": "0%",
-            "volume": "0%",
-            "pitch": "0Hz",
-            "instruct": "沉稳大气、古风叙事、江湖感，以说书人的语气开场"
+            "speed": "-5%",
+            "volume": "+5%",
+            "pitch": "+2Hz"
           }
         },
         "effects": []
@@ -91,10 +90,66 @@
       "api": {
         "voice": {
           "params": {
+            "text": "大千世界，无奇不有。有天，有地，有山，有水，有人，有神，有鬼，有妖，有魔。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          },
+          "qwen_params": {
+            "text": "大千世界，无奇不有。有天，有地，有山，有水，有人，有神，有鬼，有妖，有魔。",
+            "role": "旁白",
+            "role_voice": "uncle_fu",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "在东南一隅，有一方天地，名骊珠洞天。洞天之内，有一座小镇，不大不小，平平无奇。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          },
+          "qwen_params": {
+            "text": "在东南一隅，有一方天地，名骊珠洞天。洞天之内，有一座小镇，不大不小，平平无奇。",
+            "role": "旁白",
+            "role_voice": "uncle_fu",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
             "text": "小镇巷弄深处，一户人家，木门吱呀一声被推开，走出一位身穿旧布衫的少年。",
             "role": "旁白",
             "role_voice": "zh-CN-YunyangNeural",
-            "speed": "0%",
+            "speed": "+0%",
             "volume": "+0%",
             "pitch": "+0Hz"
           },
@@ -102,10 +157,9 @@
             "text": "小镇巷弄深处，一户人家，木门吱呀一声被推开，走出一位身穿旧布衫的少年。",
             "role": "旁白",
             "role_voice": "uncle_fu",
-            "speed": "0%",
-            "volume": "0%",
-            "pitch": "0Hz",
-            "instruct": "温和细腻，描述小镇清晨的宁静场景，带有画面感"
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
           }
         },
         "bgm": {
@@ -124,8 +178,8 @@
           {
             "params": {
               "name": "木门吱呀",
-              "sound_cn": "老旧实木门被缓慢推开，门轴因长期锈蚀、干涩，先发出细微的摩擦嗡鸣，随后逐渐转为低沉、绵长的吱呀声，带有金属与木材共振的闷响，声音缓慢起伏、略带颤抖，整体松弛老旧，无尖锐刺耳感，充满年代感与陈旧质感。",
-              "sound_en": "Slowly opening an old solid wooden door. The long-rusted and dry hinge first produces a faint, low-frequency friction hum, then gradually transitions into a deep, prolonged creak with resonant wood and metal texture. The sound rises and falls slowly with slight tremors, mellow and aged, no sharp harshness, full of vintage and worn-out atmosphere.",
+              "sound_cn": "老旧木门缓慢推开时发出的吱呀声，木质纹理摩擦的真实质感，清晰悠长，不刺耳，有节奏，仿佛门轴已经使用了很久的样子",
+              "sound_en": "Long creaking sound of an old wooden door being slowly opened, realistic wood texture friction, clear and prolonged, not harsh, rhythmic, no abrupt noise, as if the door hinge has been used for a long time",
               "volume": "-10%",
               "pitch": "+0Hz"
             },
@@ -140,7 +194,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 4,
       "role": "陈平安",
       "api": {
         "voice": {
@@ -148,47 +202,58 @@
             "text": "又是一天。",
             "role": "陈平安",
             "role_voice": "zh-CN-YunxiNeural",
-            "speed": "+5%",
+            "speed": "+0%",
             "volume": "+0%",
             "pitch": "+0Hz"
           },
           "qwen_params": {
             "text": "又是一天。",
             "role": "陈平安",
-            "role_voice": "aiden",
-            "speed": "+5%",
+            "role_voice": "ryan",
+            "speed": "+0%",
             "volume": "+0%",
-            "pitch": "+0Hz",
-            "instruct": "温和平静，带有一丝对生活的无奈和坚韧，少年的沉稳内敛"
+            "pitch": "+0Hz"
           }
         },
-        "effects": []
+        "effects": [
+          {
+            "params": {
+              "name": "衣物摩擦",
+              "sound_cn": "旧布衫在移动时发出的轻柔摩擦声，布料纤维之间的自然摩擦，短音效，安静自然",
+              "sound_en": "Soft friction sound of old cloth when moving, natural friction between fabric fibers, short sound effect, quiet and natural, close to character movement, clearly audible but not abrupt, no harsh sound",
+              "volume": "+5%",
+              "pitch": "+0Hz"
+            },
+            "trigger_delay": 0.0,
+            "duration": 1.2,
+            "process_mode": "mix"
+          }
+        ]
       },
       "mix": {
         "mode": "mix"
       }
     },
     {
-      "id": 3,
+      "id": 5,
       "role": "旁白",
       "api": {
         "voice": {
           "params": {
-            "text": "少年约莫十四五岁年纪，身形单薄，穿着洗得发白、打了好几块补丁的粗布短衫，袖口挽到小臂，露出两条干瘦却结实的胳膊。他面容清秀，只是脸色有些苍白，眼神却很亮，像藏着两颗小星星，干净，纯粹，却又带着一丝与年龄不符的沉静。少年名叫陈平安，在这座小镇里，算是最不起眼的那一类人。父母早亡，只留下一间破旧的土坯房，还有屋前一小块勉强能种些青菜的菜地。他没有亲人，也没有朋友，平日里靠着帮镇上的人家劈柴、挑水、送信，换些粮食和碎银，勉强糊口。这几年，小镇上的日子也不好过，天地间灵气稀薄，连带着镇上的生意也清淡了许多。陈平安性子闷，不大会说话，也不会讨好别人，所以常常被人欺负，换得的粮食也比别人少上一些，但他从不抱怨，只是默默忍着，每天天不亮就起床，忙到天黑才回家。",
+            "text": "少年约莫十四五岁年纪，身形单薄，穿着洗得发白、打了好几块补丁的粗布短衫，袖口挽到小臂，露出两条干瘦却结实的胳膊。他面容清秀，只是脸色有些苍白，眼神却很亮，像藏着两颗小星星，干净，纯粹，却又带着一丝与年龄不符的沉静。",
             "role": "旁白",
             "role_voice": "zh-CN-YunyangNeural",
-            "speed": "0%",
+            "speed": "+0%",
             "volume": "+0%",
             "pitch": "+0Hz"
           },
           "qwen_params": {
-            "text": "少年约莫十四五岁年纪，身形单薄，穿着洗得发白、打了好几块补丁的粗布短衫，袖口挽到小臂，露出两条干瘦却结实的胳膊。他面容清秀，只是脸色有些苍白，眼神却很亮，像藏着两颗小星星，干净，纯粹，却又带着一丝与年龄不符的沉静。少年名叫陈平安，在这座小镇里，算是最不起眼的那一类人。父母早亡，只留下一间破旧的土坯房，还有屋前一小块勉强能种些青菜的菜地。他没有亲人，也没有朋友，平日里靠着帮镇上的人家劈柴、挑水、送信，换些粮食和碎银，勉强糊口。这几年，小镇上的日子也不好过，天地间灵气稀薄，连带着镇上的生意也清淡了许多。陈平安性子闷，不大会说话，也不会讨好别人，所以常常被人欺负，换得的粮食也比别人少上一些，但他从不抱怨，只是默默忍着，每天天不亮就起床，忙到天黑才回家。",
+            "text": "少年约莫十四五岁年纪，身形单薄，穿着洗得发白、打了好几块补丁的粗布短衫，袖口挽到小臂，露出两条干瘦却结实的胳膊。他面容清秀，只是脸色有些苍白，眼神却很亮，像藏着两颗小星星，干净，纯粹，却又带着一丝与年龄不符的沉静。",
             "role": "旁白",
             "role_voice": "uncle_fu",
-            "speed": "0%",
-            "volume": "0%",
-            "pitch": "0Hz",
-            "instruct": "沉稳平和，带有同情和温暖，突出少年的坚韧和纯净，以叙事者的角度讲述人物背景"
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
           }
         },
         "effects": []
@@ -198,7 +263,63 @@
       }
     },
     {
-      "id": 4,
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "少年名叫陈平安，在这座小镇里，算是最不起眼的那一类人。父母早亡，只留下一间破旧的土坯房，还有屋前一小块勉强能种些青菜的菜地。他没有亲人，也没有朋友，平日里靠着帮镇上的人家劈柴、挑水、送信，换些粮食和碎银，勉强糊口。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          },
+          "qwen_params": {
+            "text": "少年名叫陈平安，在这座小镇里，算是最不起眼的那一类人。父母早亡，只留下一间破旧的土坯房，还有屋前一小块勉强能种些青菜的菜地。他没有亲人，也没有朋友，平日里靠着帮镇上的人家劈柴、挑水、送信，换些粮食和碎银，勉强糊口。",
+            "role": "旁白",
+            "role_voice": "uncle_fu",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "params": {
+            "text": "这几年，小镇上的日子也不好过，天地间灵气稀薄，连带着镇上的生意也清淡了许多。陈平安性子闷，不大会说话，也不会讨好别人，所以常常被人欺负，换得的粮食也比别人少上一些，但他从不抱怨，只是默默忍着，每天天不亮就起床，忙到天黑才回家。",
+            "role": "旁白",
+            "role_voice": "zh-CN-YunyangNeural",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          },
+          "qwen_params": {
+            "text": "这几年，小镇上的日子也不好过，天地间灵气稀薄，连带着镇上的生意也清淡了许多。陈平安性子闷，不大会说话，也不会讨好别人，所以常常被人欺负，换得的粮食也比别人少上一些，但他从不抱怨，只是默默忍着，每天天不亮就起床，忙到天黑才回家。",
+            "role": "旁白",
+            "role_voice": "uncle_fu",
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
+          }
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 8,
       "role": "旁白",
       "api": {
         "voice": {
@@ -206,7 +327,7 @@
             "text": "陈平安反手带上木门，木门又吱呀一声，像是在叹息。他沿着巷弄慢慢往前走，巷子里很安静，只有他的脚步声，轻缓而坚定，踩在青石板路上，发出嗒、嗒的轻响。",
             "role": "旁白",
             "role_voice": "zh-CN-YunyangNeural",
-            "speed": "0%",
+            "speed": "+0%",
             "volume": "+0%",
             "pitch": "+0Hz"
           },
@@ -214,10 +335,9 @@
             "text": "陈平安反手带上木门，木门又吱呀一声，像是在叹息。他沿着巷弄慢慢往前走，巷子里很安静，只有他的脚步声，轻缓而坚定，踩在青石板路上，发出嗒、嗒的轻响。",
             "role": "旁白",
             "role_voice": "uncle_fu",
-            "speed": "0%",
-            "volume": "0%",
-            "pitch": "0Hz",
-            "instruct": "安静沉稳，带有一丝淡淡的忧伤，突出巷弄的静谧和人物的孤独前行"
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
           }
         },
         "bgm": {
@@ -264,7 +384,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 9,
       "role": "旁白",
       "api": {
         "voice": {
@@ -272,7 +392,7 @@
             "text": "巷口传来几声狗吠，紧接着，有早起的街坊推开房门，看到陈平安，脸上露出几分淡漠，甚至有人轻轻撇了撇嘴，没人和他打招呼。陈平安对此早已习惯，只是微微低下头，加快了脚步，避开了那些目光。",
             "role": "旁白",
             "role_voice": "zh-CN-YunyangNeural",
-            "speed": "0%",
+            "speed": "+0%",
             "volume": "+0%",
             "pitch": "+0Hz"
           },
@@ -280,10 +400,9 @@
             "text": "巷口传来几声狗吠，紧接着，有早起的街坊推开房门，看到陈平安，脸上露出几分淡漠，甚至有人轻轻撇了撇嘴，没人和他打招呼。陈平安对此早已习惯，只是微微低下头，加快了脚步，避开了那些目光。",
             "role": "旁白",
             "role_voice": "uncle_fu",
-            "speed": "0%",
-            "volume": "0%",
-            "pitch": "0Hz",
-            "instruct": "沉稳平静，带有一丝同情，描述街坊的冷漠和陈平安的无奈与坚韧"
+            "speed": "+0%",
+            "volume": "+0%",
+            "pitch": "+0Hz"
           }
         },
         "effects": [
@@ -306,7 +425,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 10,
       "role": "villager",
       "api": {
         "voice": {
@@ -314,18 +433,17 @@
             "text": "这孩子，又去劈柴啊？真是个闷葫芦。",
             "role": "villager",
             "role_voice": "zh-CN-YunxiNeural",
-            "speed": "-5%",
+            "speed": "+0%",
             "volume": "+5%",
             "pitch": "+0Hz"
           },
           "qwen_params": {
             "text": "这孩子，又去劈柴啊？真是个闷葫芦。",
             "role": "villager",
-            "role_voice": "eric",
-            "speed": "-5%",
+            "role_voice": "dylan",
+            "speed": "+0%",
             "volume": "+5%",
-            "pitch": "+0Hz",
-            "instruct": "冷漠不屑，带有一丝嫌弃，表现出街坊对陈平安的轻视"
+            "pitch": "+0Hz"
           }
         },
         "bgm": {
@@ -348,7 +466,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 11,
       "role": "旁白",
       "api": {
         "voice": {
@@ -356,18 +474,17 @@
             "text": "陈平安没有回头，也没有应声，只是继续往前走。他知道，镇上的人大多不喜欢他，觉得他是个没爹没妈的孩子，晦气，又性子孤僻，不合群。但他不在乎，他只想好好活着，好好守住那间破旧的房子，守住父母留下的最后一点念想。",
             "role": "旁白",
             "role_voice": "zh-CN-YunyangNeural",
-            "speed": "0%",
-            "volume": "+0%",
+            "speed": "+0%",
+            "volume": "+5%",
             "pitch": "+0Hz"
           },
           "qwen_params": {
             "text": "陈平安没有回头，也没有应声，只是继续往前走。他知道，镇上的人大多不喜欢他，觉得他是个没爹没妈的孩子，晦气，又性子孤僻，不合群。但他不在乎，他只想好好活着，好好守住那间破旧的房子，守住父母留下的最后一点念想。",
             "role": "旁白",
             "role_voice": "uncle_fu",
-            "speed": "0%",
-            "volume": "0%",
-            "pitch": "0Hz",
-            "instruct": "沉稳有力，带有希望和坚定，突出陈平安的内心信念和对生活的执着"
+            "speed": "+0%",
+            "volume": "+5%",
+            "pitch": "+0Hz"
           }
         },
         "bgm": {

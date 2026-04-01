@@ -17,6 +17,7 @@ import time
 import requests
 import sys
 import logging
+import numpy as np
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Optional, Any
 import warnings
@@ -60,6 +61,7 @@ class VoiceParams:
     speed: str  # 百分比格式，如 "+35%"
     volume: str  # 百分比格式，如 "+0%"
     pitch: str   # 赫兹格式，如 "+0Hz"
+    instruct: Optional[str] = None  # 可选的语音指令，用于控制语气和情绪
 
 @dataclass
 class BGMAudioParams:
@@ -97,7 +99,7 @@ class LineAudioConfig:
     id: int
     role: str
     voice_params: VoiceParams
-    bgm_params: BGMAudioParams
+    bgm_params: Optional[BGMAudioParams]
     effect_params: List[EffectAudioParams]
     mix_config: MixConfig
 
@@ -106,51 +108,182 @@ class LineAudioConfig:
 class AudioEngine:
     """音频引擎基类，预留对接实际TTS/文生音频接口"""
     
-    def __init__(self, temp_dir: str = "./temp_audio", sample_rate: int = 44100, channels: int = 1, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson", easyvoice_temp_dir: str = None):
+    def __init__(self, temp_dir: str = "./temp_audio", sample_rate: int = 44100, channels: int = 1, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson", easyvoice_temp_dir: str = None, tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
         self.temp_dir = temp_dir
         self.sample_rate = sample_rate
         self.channels = channels
         self.audio_format = "wav"
         self.api_endpoint = api_endpoint
-        self.easyvoice_temp_dir = easyvoice_temp_dir or "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/audio"
+        self.easyvoice_temp_dir = easyvoice_temp_dir  # 不再使用默认值，避免在项目根目录创建audio目录
+        self.tts_engine = tts_engine
+        self.qwen_model_path = qwen_model_path
+        self.qwen_tts_model = None
         os.makedirs(self.temp_dir, exist_ok=True)
+        
+        # 初始化指定的TTS引擎
+        if self.tts_engine == "qwen3-tts":
+            self._init_qwen_tts_model()
+        # EasyVoice引擎无需额外初始化
+
+    def _init_qwen_tts_model(self):
+        """
+        初始化Qwen3-TTS模型
+        """
+        try:
+            # 导入前设置日志级别，抑制Qwen3-TTS库的INFO日志
+            import logging
+            logging.getLogger('qwen_tts').setLevel(logging.WARNING)
+            logging.getLogger('transformers').setLevel(logging.WARNING)
+            logging.getLogger('torch').setLevel(logging.WARNING)
+            
+            from qwen_tts import Qwen3TTSModel
+            import torch
+            
+            print("[TTSEngine] 初始化Qwen3-TTS模型...")
+            
+            # 使用本地模型路径或默认的HuggingFace模型
+            model_path = self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+            
+            self.qwen_tts_model = Qwen3TTSModel.from_pretrained(
+                model_path,
+                device_map="mps",  # 使用Apple Silicon GPU加速
+                dtype=torch.float16,
+            )
+            
+            print(f"[TTSEngine] Qwen3-TTS模型初始化成功! 使用模型路径: {model_path}")
+        except Exception as e:
+            print(f"[TTSEngine] 初始化Qwen3-TTS模型失败: {e}")
+            print("[TTSEngine] 切换到EasyVoice引擎")
+            self.tts_engine = "easyvoice"
 
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """
-        文本转语音接口，调用TTS API生成语音
+        文本转语音接口，根据配置调用不同的TTS引擎
         :param params: 语音参数
         :return: 生成的语音音频段
         """
-        print(f"\n[TTSEngine] 生成[{params.role}]语音: {params.text[:20]}...")
+        print(f"\n[TTSEngine] 使用引擎: {self.tts_engine}")
+        print(f"[TTSEngine] 生成[{params.role}]语音: {params.text[:20]}...")
         print(f"  - 音色: {params.role_voice} | 语速: {params.speed} | 音量: {params.volume} | 音调: {params.pitch}")
         
-        # 构建API请求JSON - 匹配EasyVoice API格式
+        try:
+            if self.tts_engine == "qwen3-tts":
+                return self._text_to_speech_qwen(params)
+            elif self.tts_engine == "easyvoice":
+                return self._text_to_speech_easyvoice(params)
+            else:
+                raise ValueError(f"未知的TTS引擎: {self.tts_engine}")
+        except Exception as e:
+            print(f"[TTSEngine] 语音生成失败: {e}")
+            print("[TTSEngine] 切换到EasyVoice引擎作为备选")
+            self.tts_engine = "easyvoice"
+            return self._text_to_speech_easyvoice(params)
+            
+    def _text_to_speech_qwen(self, params: VoiceParams) -> AudioSegment:
+        """
+        使用Qwen3-TTS引擎生成语音
+        :param params: 语音参数
+        :return: 生成的语音音频段
+        """
+        if self.qwen_tts_model is None:
+            print("[TTSEngine] Qwen3-TTS模型未初始化，尝试初始化...")
+            self._init_qwen_tts_model()
+            if self.qwen_tts_model is None:
+                raise Exception("Qwen3-TTS模型初始化失败")
+        
+        print("[TTSEngine] 使用Qwen3-TTS生成语音...")
+        
+        # Qwen3-TTS支持的speaker列表
+        supported_speakers = ['aiden', 'dylan', 'eric', 'ono_anna', 'ryan', 'serena', 'sohee', 'uncle_fu', 'vivian']
+        
+        # 获取speaker参数，如果不存在则使用默认值
+        qwen_speaker = params.role_voice if params.role_voice else "aiden"
+        
+        # 如果speaker不在支持列表中，使用默认值
+        if qwen_speaker not in supported_speakers:
+            print(f"[TTSEngine] Speaker '{qwen_speaker}' not supported, using default: 'aiden'")
+            qwen_speaker = "aiden"
+        
+        # 处理instruct参数
+        # 1. 如果VoiceParams中有instruct字段且不为空，使用该instruct
+        # 2. 否则，使用默认的语速指令
+        if params.instruct and params.instruct.strip():
+            instruct = params.instruct.strip()
+        else:
+            # 语速转换：将百分比转换为数值（-5% -> -5）
+            speed_value = int(params.speed.replace('%', '')) if '%' in params.speed else 0
+            instruct = f"语速{speed_value}"
+        
+        # 调试信息
+        print(f"[DEBUG] 参数详情 - 角色: {params.role}, 文本: '{params.text}', 音色: {qwen_speaker}")
+        print(f"[DEBUG] instruct参数: {instruct}")
+        
+        # 调用Qwen3-TTS生成语音
+        wavs, sr = self.qwen_tts_model.generate_custom_voice(
+            text=params.text,
+            speaker=qwen_speaker,
+            language="chinese",  # 使用中文
+            instruct=instruct
+        )
+        
+        print("[TTSEngine] Qwen3-TTS语音生成成功！")
+        
+        # 将numpy数组转换为AudioSegment
+        audio_data = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+        
+        # 确保音频数据在[-1, 1]范围内
+        audio_data = np.clip(audio_data, -1, 1)
+        
+        # 转换为16位整数
+        audio_data_int16 = (audio_data * 32767).astype(np.int16)
+        
+        # 创建AudioSegment对象
+        audio = AudioSegment(
+            audio_data_int16.tobytes(),
+            frame_rate=sr,
+            sample_width=audio_data_int16.dtype.itemsize,
+            channels=1
+        )
+        
+        # 转换采样率和声道数
+        audio = audio.set_frame_rate(self.sample_rate)
+        audio = audio.set_channels(self.channels)
+        
+        return audio
+        
+    def _text_to_speech_easyvoice(self, params: VoiceParams) -> AudioSegment:
+        """
+        使用EasyVoice引擎生成语音
+        :param params: 语音参数
+        :return: 生成的语音音频段
+        """
+        
+        # 如果使用EasyVoice引擎或Qwen3-TTS失败，则使用原有逻辑
+        # 构建API请求JSON - 为generate端点构造正确的格式（不需要data数组包装）
         request_data = {
-            "data": [
-                {
-                    "desc": params.role,
-                    "text": params.text,
-                    "voice": params.role_voice,
-                    "rate": params.speed,
-                    "volume": params.volume,
-                    "pitch": params.pitch
-                }
-            ]
+            "text": params.text,
+            "voice": params.role_voice,
+            "rate": params.speed,
+            "volume": params.volume,
+            "pitch": params.pitch
         }
         
         # 生成临时输出文件路径
         temp_output = os.path.join(self.temp_dir, f"temp_tts_{time.time()}.mp3")
         
-        max_retries = 3
-        retry_delay = 5  # 重试间隔秒数
+        max_retries = 5  # 增加重试次数
+        retry_delay = 8  # 增加重试间隔秒数
         
         # 重试机制
         for retry in range(max_retries):
             try:
                 print(f"[TTSEngine] 第 {retry+1}/{max_retries} 次尝试生成语音...")
+                
                 # 发送请求并保存响应，增加超时时间
+                # 构造正确的API端点 - 使用/generate而不是/generateJson
+                generate_endpoint = self.api_endpoint.replace("/generateJson", "/generate")
                 response = requests.post(
-                    self.api_endpoint,
+                    generate_endpoint,
                     headers={"Content-Type": "application/json"},
                     json=request_data,
                     timeout=60  # 增加超时时间到60秒
@@ -158,50 +291,94 @@ class AudioEngine:
                 
                 # 检查响应状态
                 if response.status_code == 200:
-                    with open(temp_output, "wb") as f:
-                        f.write(response.content)
-                    
-                    # 读取生成的音频文件
-                    audio = AudioSegment.from_mp3(temp_output)
-                    
-                    # 调整音频格式
-                    audio = audio.set_frame_rate(self.sample_rate)
-                    audio = audio.set_channels(self.channels)
-                    
-                    # 清理临时文件
-                    os.remove(temp_output)
-                    
-                    print("[TTSEngine] 语音生成成功！")
-                    
-                    # 清理EasyVoice服务在挂载目录生成的临时文件
-                    # 这些文件以音色+文本+时间戳命名，格式如：zh-CN-YunxiNeural-又是一天。-1772722007715.mp3
                     try:
-                        # 生成EasyVoice可能创建的文件名模式
-                        import re
-                        safe_text = re.sub(r'[\/:*?"<>|]', '-', params.text[:10])
-                        file_pattern = f"{params.role_voice}-{safe_text}-*.mp3"
+                        # 解析JSON响应
+                        result = response.json()
+                        if result.get("success") and result.get("data"):
+                            # 获取生成的音频文件名
+                            audio_file = result["data"]["file"]
+                            
+                            # 从挂载的audio目录中读取音频文件 - 使用正确的路径
+                            base_dir = os.path.dirname(os.path.abspath(__file__))
+                            audio_dir = os.path.join(base_dir, "../audio")
+                            audio_path = os.path.join(audio_dir, audio_file)
+                            if os.path.exists(audio_path):
+                                # 读取生成的音频文件
+                                audio = AudioSegment.from_mp3(audio_path)
+                                
+                                # 调整音频格式
+                                audio = audio.set_frame_rate(self.sample_rate)
+                                audio = audio.set_channels(self.channels)
+                                
+                                # 清理生成的临时音频文件
+                                os.remove(audio_path)
+                                
+                                print("[TTSEngine] 语音生成成功！")
+                            else:
+                                print(f"[TTSEngine] 生成的音频文件不存在: {audio_path}")
+                                continue
+                        else:
+                            print(f"[TTSEngine] 语音生成失败: {result}")
+                            continue
+                    except ValueError:
+                        # 如果响应不是JSON，可能是直接返回的音频数据（旧版本兼容）
+                        with open(temp_output, "wb") as f:
+                            f.write(response.content)
                         
-                        # 使用glob查找匹配的文件
-                        import glob
-                        matching_files = glob.glob(os.path.join(self.easyvoice_temp_dir, file_pattern))
+                        # 读取生成的音频文件
+                        audio = AudioSegment.from_mp3(temp_output)
                         
-                        # 将文件移动到tmp目录
-                        for file_path in matching_files:
-                            # 获取文件名
-                            file_name = os.path.basename(file_path)
-                            # 生成目标路径
-                            target_path = os.path.join(self.temp_dir, file_name)
-                            # 移动文件
-                            os.rename(file_path, target_path)
-                            print(f"📁 将临时文件移动到tmp目录: {target_path}")
-                    except Exception as e:
-                        print(f"⚠️ 清理EasyVoice临时文件失败: {e}")
+                        # 调整音频格式
+                        audio = audio.set_frame_rate(self.sample_rate)
+                        audio = audio.set_channels(self.channels)
+                        
+                        # 清理临时文件
+                        os.remove(temp_output)
+                        
+                        print("[TTSEngine] 语音生成成功！")
+                    
+                    # 清理EasyVoice服务生成的临时文件 - 已在前面处理
                         
                     return audio
                 else:
                     print(f"[TTSEngine] 语音生成失败: {response.status_code} - {response.text}")
-            except Exception as e:
+            except (requests.ConnectionError, requests.Timeout, requests.RequestException) as e:
                 print(f"[TTSEngine] 语音生成异常: {e}")
+                
+                # 如果是连接错误，尝试检查服务状态
+                if "Connection refused" in str(e) or "Remote end closed connection" in str(e):
+                    print("[TTSEngine] 检测到服务连接问题，尝试重新启动服务...")
+                    try:
+                        # 导入subprocess模块
+                        import subprocess
+                        
+                        # 停止并删除旧容器
+                        subprocess.run(["docker", "stop", "easyvoice"], capture_output=True, check=False)
+                        subprocess.run(["docker", "rm", "easyvoice"], capture_output=True, check=False)
+                        
+                        # 启动新容器
+                        base_dir = os.path.dirname(os.path.abspath(__file__))
+                        audio_dir = os.path.join(base_dir, "../audio")
+                        subprocess.run([
+                            "docker", "run", "-d", "--name", "easyvoice", "-p", "3000:3000", 
+                            "-v", f"{audio_dir}:/app/audio", "--workdir", "/app/audio",
+                            "-e", "DEBUG=true",
+                            "-e", "OPENAI_BASE_URL=https://api.openai.com/v1/",
+                            "cosincox/easyvoice:latest"
+                        ], capture_output=True, text=True, check=True)
+                        
+                        # 等待服务启动
+                        print("[TTSEngine] 服务正在重启，请稍候...")
+                        time.sleep(10)
+                        
+                        # 检查服务是否正常运行
+                        health_response = requests.get("http://localhost:3000/api/v1/tts/health", timeout=10)
+                        if health_response.status_code == 200:
+                            print("✅ 服务重启成功，继续生成语音")
+                        else:
+                            print("❌ 服务重启失败")
+                    except Exception as restart_e:
+                        print(f"⚠️ 服务重启失败: {restart_e}")
             
             # 如果不是最后一次尝试，等待后重试
             if retry < max_retries - 1:
@@ -240,14 +417,18 @@ class AudioEngine:
             print("[AudioEngine] 警告：检测到中文提示词，MAGNeT模型对英文提示词效果更好")
             # 可以考虑添加自动翻译功能
         
-        # 生成临时输出文件路径
-        import uuid
-        temp_file_name = f"temp_audio_{uuid.uuid4().hex}"
-        temp_output_path = os.path.join(self.temp_dir, temp_file_name)
+        # 生成固定文件名（基于描述词、时长、音频类型），确保相同参数生成相同文件名
+        import hashlib
+        # 使用描述词、时长、音频类型生成哈希值，确保相同参数生成相同文件名
+        audio_params = f"{desc_en}_{duration}_{audio_type}"
+        audio_hash = hashlib.md5(audio_params.encode()).hexdigest()[:16]
+        # 生成固定的输出文件名（临时文件）
+        fixed_file_name = f"{audio_type}_{audio_hash}_{int(duration)}"
+        fixed_output_path = os.path.join(self.temp_dir, fixed_file_name)
         
         try:
-            # 检查输出文件是否已存在
-            actual_output_file = f"{temp_output_path}.wav"
+            # 检查固定输出文件是否已存在
+            actual_output_file = f"{fixed_output_path}.wav"
             if os.path.exists(actual_output_file) and os.path.getsize(actual_output_file) > 0:
                 print(f"[AudioEngine] 音频文件已存在，跳过生成: {actual_output_file}")
                 audio = AudioSegment.from_wav(actual_output_file)
@@ -284,8 +465,8 @@ class AudioEngine:
             # 调用magnet_test_tool.py生成音频
             import subprocess
             try:
-                # magnet_test_tool.py默认生成3个变体，文件会有_1、_2、_3后缀
-                cmd = ["python3", magnet_script, desc_en, "--type", audio_type, "--duration", str(duration_int), "--output-path", temp_output_path]
+                # 使用固定输出路径，确保相同参数生成的文件可以被复用
+                cmd = ["python3", magnet_script, desc_en, "--type", audio_type, "--duration", str(duration_int), "--output-path", fixed_output_path]
                 
                 result = subprocess.run(
                     cmd,
@@ -302,7 +483,7 @@ class AudioEngine:
                     print(f"[AudioEngine] magnet_test_tool错误: {result.stderr.strip()}")
                 
                 # 检查生成结果
-                actual_output_file = f"{temp_output_path}.wav"
+                actual_output_file = f"{fixed_output_path}.wav"
                 if result.returncode == 0 and os.path.exists(actual_output_file) and os.path.getsize(actual_output_file) > 0:
                     print(f"[AudioEngine] 音频生成成功: {actual_output_file}")
                     print(f"[AudioEngine] 文件大小: {os.path.getsize(actual_output_file)} 字节")
@@ -374,10 +555,15 @@ class AudioEngine:
         audio = audio._spawn(audio.raw_data, overrides={"frame_rate": new_frame_rate})
         audio = audio.set_frame_rate(self.sample_rate)
 
-        # 3. 调整音调（需安装ffmpeg，复杂调整可使用librosa）
+        # 3. 调整音调（使用简单实现方式，避免依赖复杂库）
         pitch_hz = float(pitch.replace("Hz", ""))
         if pitch_hz != 0:
-            audio = effects.pitch_shift(audio, self.sample_rate, n_steps=pitch_hz/10)
+            # 使用简单的音调调整方法（通过调整采样率）
+            # 注意：这只是一个近似实现，精确调整需要更复杂的算法
+            pitch_ratio = 2 ** (pitch_hz / 1200)  # 基于十二平均律的音调调整
+            new_frame_rate = int(self.sample_rate * pitch_ratio)
+            audio = audio._spawn(audio.raw_data, overrides={"frame_rate": new_frame_rate})
+            audio = audio.set_frame_rate(self.sample_rate)
 
         return audio
 
@@ -386,7 +572,7 @@ class AudioEngine:
         """
         按规则混音
         :param voice: 语音音频
-        :param bgm: BGM音频
+        :param bgm: BGM音频 (可选)
         :param effects: 音效列表
         :param mix_config: 混音配置
         :return: 混音后的音频
@@ -395,6 +581,10 @@ class AudioEngine:
         
         # 基础初始化
         voice_duration = len(voice)
+        
+        # 处理BGM为None的情况
+        if bgm is None:
+            bgm = AudioSegment.silent(duration=voice_duration)
         
         # 如果BGM存在且长度大于0，确保BGM时长与配音匹配
         if len(bgm) > 0:
@@ -432,6 +622,14 @@ class AudioEngine:
             for effect in effects:
                 final_audio = final_audio.overlay(effect)
         
+        elif mix_config.mode == "voice_only":
+            # 只有语音，没有BGM和音效
+            final_audio = voice
+        
+        else:
+            # 默认模式：只有语音
+            final_audio = voice
+        
         # 音效已经在上面的混音模式中处理过，不需要重复添加
 
         return final_audio
@@ -447,12 +645,18 @@ class AudioEngine:
 class AudioGenerator:
     """剑来有声小说音频生成器"""
     
-    def __init__(self, json_path: str, output_dir: str = "./output_audio", api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson"):
+    def __init__(self, json_path: str, output_dir: str = None, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson", tts_engine: str = "easyvoice", qwen_model_path: str = None):
+        # 设置默认输出目录为项目根目录
+        if output_dir is None:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            output_dir = os.path.join(base_dir, "../../output")
         self.json_path = json_path
         self.api_endpoint = api_endpoint
+        self.tts_engine = tts_engine
+        self.qwen_model_path = qwen_model_path
         
         # 加载JSON配置
-        self.config = self._load_json_config()
+        self.config = self.load_config()
         self.chapter_name = self.config["chapter"]
         
         # 提取小说名称和章节名称
@@ -477,28 +681,29 @@ class AudioGenerator:
         os.makedirs(self.mix_dir, exist_ok=True)
         os.makedirs(self.tmp_dir, exist_ok=True)
         
-        # 创建EasyVoice临时文件章节目录
-        self.easyvoice_temp_dir = os.path.join("/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/audio", self.novel_name, self.chapter_clean_name)
-        os.makedirs(self.easyvoice_temp_dir, exist_ok=True)
-        
         # 初始化音频引擎，使用小说章节下的tmp目录作为临时目录
         self.audio_engine = AudioEngine(
             temp_dir=self.tmp_dir,
             sample_rate=44100,  # 可从global配置读取
             channels=self.config["global"]["channels"],
             api_endpoint=api_endpoint,
-            easyvoice_temp_dir=self.easyvoice_temp_dir
+            easyvoice_temp_dir=None,  # 不使用easyvoice临时目录
+            tts_engine=self.tts_engine,
+            qwen_model_path=self.qwen_model_path
         )
 
-    def _load_json_config(self) -> Dict[str, Any]:
-        """
-        加载并解析JSON配置文件
-        """
+    def load_config(self) -> Dict[str, Any]:
+        """加载JSON配置"""
         try:
             with open(self.json_path, "r", encoding="utf-8") as f:
                 config = json.load(f)
             print(f"✅ 成功加载JSON配置: {self.json_path}")
             print(f"📖 章节: {config['chapter']} | 总行数: {len(config['data'])}")
+            
+            # 保存角色定义
+            self.roles_definition = config.get("roles_definition", {})
+            print(f"👥 角色定义数量: {len(self.roles_definition)}")
+            
             return config
         except Exception as e:
             print(f"❌ 加载JSON失败: {e}")
@@ -506,22 +711,60 @@ class AudioGenerator:
 
     def _parse_line_config(self, line: Dict[str, Any]) -> LineAudioConfig:
         """解析单句配置"""
+        # 获取角色信息
+        role = line["role"]
+        
+        # 根据引擎类型选择对应的语音参数
+        if hasattr(self, 'audio_engine') and hasattr(self.audio_engine, 'tts_engine'):
+            tts_engine = self.audio_engine.tts_engine
+        else:
+            tts_engine = "easyvoice"
+        
+        print(f"[ConfigParser] 当前引擎: {tts_engine} | 角色: {role}")
+        
+        # 初始化语音参数
+        voice_params_dict = None
+        
+        # 如果使用Qwen3-TTS引擎
+        if tts_engine == "qwen3-tts":
+            # 1. 优先使用voice.qwen_params（如果存在）
+            if "qwen_params" in line["api"]["voice"]:
+                voice_params_dict = line["api"]["voice"]["qwen_params"].copy()
+                print(f"[ConfigParser] 使用台词条目自定义的qwen_params")
+            # 2. 否则使用角色定义中的qwen_voice配置（如果存在）
+            elif hasattr(self, 'roles_definition') and role in self.roles_definition:
+                role_def = self.roles_definition[role]
+                if 'qwen_voice' in role_def:
+                    # 合并原始参数和qwen_voice参数
+                    voice_params_dict = line["api"]["voice"]["params"].copy()
+                    qwen_params = role_def['qwen_voice']
+                    voice_params_dict.update(qwen_params)
+                    print(f"[ConfigParser] 为角色'{role}'应用角色定义中的qwen_voice配置: {qwen_params}")
+        
+        # 如果没有找到Qwen3-TTS参数或使用其他引擎，使用默认参数
+        if voice_params_dict is None:
+            voice_params_dict = line["api"]["voice"]["params"].copy()
+            print(f"[ConfigParser] 使用默认参数")
+        
         # 解析语音参数
-        voice_params = VoiceParams(**line["api"]["voice"]["params"])
+        voice_params = VoiceParams(**voice_params_dict)
         
-        # 解析BGM参数
-        bgm_params = BGMAudioParams(
-            **line["api"]["bgm"]["params"],
-            play_mode=line["api"]["bgm"]["play_mode"],
-            lower_db=line["api"]["bgm"].get("lower_db")
-        )
+        # 解析BGM参数（可选）
+        bgm_params = None
+        if "bgm" in line["api"]:
+            bgm_params = BGMAudioParams(
+                **line["api"]["bgm"]["params"],
+                play_mode=line["api"]["bgm"]["play_mode"],
+                lower_db=line["api"]["bgm"].get("lower_db")
+            )
         
-        # 解析音效参数
+        # 解析音效参数（可选）
         effect_params = []
-        for effect in line["api"]["effects"]:
-            effect_params.append(EffectAudioParams(**effect["params"],
-                                                  trigger_delay=effect["trigger_delay"],
-                                                  duration=effect["duration"]))
+        if "effects" in line["api"]:
+            for effect in line["api"]["effects"]:
+                effect_params.append(EffectAudioParams(**effect["params"],
+                                                      trigger_delay=effect["trigger_delay"],
+                                                      duration=effect["duration"]))
         
         # 解析混音配置
         mix_config = MixConfig(**line["mix"])
@@ -569,41 +812,50 @@ class AudioGenerator:
             voice_audio.export(voice_output_path, format="wav")
             print(f"💾 单句配音已保存: {voice_output_path}")
         
-        # 2. 生成BGM，使用英文提示词
-        # BGM时长使用语音时长，但最多30秒
-        bgm_duration = min(len(voice_audio) / 1000.0, 30.0)
-        bgm_scene_cn = line_config.bgm_params.scene.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
-        bgm_output_path = os.path.join(self.bgm_dir, f"bgm_line_{bgm_scene_cn}_{line_config.id}.wav")
-        if os.path.exists(bgm_output_path):
-            print(f"✅ BGM文件已存在，跳过生成: {bgm_output_path}")
-            bgm_audio = AudioSegment.from_wav(bgm_output_path)
-        else:
-            bgm_audio = self.audio_engine.text_to_audio(
-                desc_en=line_config.bgm_params.scene_en,  # 使用英文提示词
-                volume=line_config.bgm_params.volume,
-                pitch=line_config.bgm_params.pitch,
-                duration=bgm_duration,  # BGM时长为语音时长或最多10秒
-                audio_type="music"  # 音频类型为音乐
-            )
-            # 处理BGM播放模式
-            if line_config.bgm_params.play_mode == "lower" and line_config.bgm_params.lower_db:
-                bgm_audio = bgm_audio - line_config.bgm_params.lower_db
-            bgm_audio.export(bgm_output_path, format="wav")
-            print(f"💾 单句BGM已保存: {bgm_output_path}")
-        
-        # 全局降低BGM音量 2dB（让所有BGM都更低一点）
-        bgm_global_reduce = 2.0  # 降低的dB数
-        bgm_audio = bgm_audio - bgm_global_reduce
-        print(f"🔊 BGM全局降低 {bgm_global_reduce}dB")
+        # 2. 生成BGM，使用英文提示词（可选）
+        bgm_audio = None
+        if line_config.bgm_params is not None:
+            # BGM时长使用语音时长，但最多30秒
+            bgm_duration = min(len(voice_audio) / 1000.0, 30.0)
+            bgm_scene_cn = line_config.bgm_params.scene.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
+            # 生成符合用户要求的BGM文件名：bgm_line_小镇街巷_1.wav（包含场景名和场景序号）
+            scene_bgm_output_path = os.path.join(self.bgm_dir, f"bgm_line_{bgm_scene_cn}_{line_config.id}.wav")
+            
+            # 检查场景特定BGM文件是否存在
+            if os.path.exists(scene_bgm_output_path):
+                print(f"✅ 场景BGM文件已存在，跳过生成: {scene_bgm_output_path}")
+                bgm_audio = AudioSegment.from_wav(scene_bgm_output_path)
+            else:
+                bgm_audio = self.audio_engine.text_to_audio(
+                    desc_en=line_config.bgm_params.scene_en,  # 使用英文提示词
+                    volume=line_config.bgm_params.volume,
+                    pitch=line_config.bgm_params.pitch,
+                    duration=bgm_duration,  # BGM时长为语音时长或最多10秒
+                    audio_type="music"  # 音频类型为音乐
+                )
+                # 处理BGM播放模式
+                if line_config.bgm_params.play_mode == "lower" and line_config.bgm_params.lower_db:
+                    bgm_audio = bgm_audio - line_config.bgm_params.lower_db
+                # 保存场景特定BGM文件（方便复用）
+                bgm_audio.export(scene_bgm_output_path, format="wav")
+                print(f"💾 场景BGM已保存: {scene_bgm_output_path}")
+            
+            # 全局降低BGM音量 2dB（让所有BGM都更低一点）
+            bgm_global_reduce = 2.0  # 降低的dB数
+            bgm_audio = bgm_audio - bgm_global_reduce
+            print(f"🔊 BGM全局降低 {bgm_global_reduce}dB")
         
         # 3. 生成音效，使用英文提示词
         effect_audios = []
         for i, effect_param in enumerate(line_config.effect_params):
             effect_name = effect_param.name.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
-            effect_output_path = os.path.join(self.effect_dir, f"effect_line_{effect_name}_{line_config.id}.wav")
-            if os.path.exists(effect_output_path):
-                print(f"✅ 音效文件已存在，跳过生成: {effect_output_path}")
-                effect_audio = AudioSegment.from_wav(effect_output_path)
+            # 生成符合用户要求的音效文件名：effect_line_脚步声_1.wav（包含音效名和场景序号）
+            effect_specific_output_path = os.path.join(self.effect_dir, f"effect_line_{effect_name}_{line_config.id}.wav")
+            
+            # 检查音效特定文件是否存在
+            if os.path.exists(effect_specific_output_path):
+                print(f"✅ 特定音效文件已存在，跳过生成: {effect_specific_output_path}")
+                effect_audio = AudioSegment.from_wav(effect_specific_output_path)
             else:
                 effect_audio = self.audio_engine.text_to_audio(
                     desc_en=effect_param.sound_en,  # 使用英文提示词
@@ -614,8 +866,9 @@ class AudioGenerator:
                 )
                 # 裁剪音效时长
                 effect_audio = effect_audio[:int(effect_param.duration * 1000)]
-                effect_audio.export(effect_output_path, format="wav")
-                print(f"💾 单句音效已保存: {effect_output_path}")
+                # 保存音效特定文件（方便复用）
+                effect_audio.export(effect_specific_output_path, format="wav")
+                print(f"💾 特定音效已保存: {effect_specific_output_path}")
             effect_audios.append(effect_audio)
         
         # 4. 混音
@@ -637,7 +890,67 @@ class AudioGenerator:
         """
         生成整章音频（合并所有句子）
         """
-        return self.generate_chapter_audio_parallel()
+        # 检查整章音频是否已经存在，如果存在则直接返回
+        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_full.wav")
+        if os.path.exists(chapter_output_path):
+            print(f"✅ 整章音频已存在，跳过生成: {chapter_output_path}")
+            return chapter_output_path
+        
+        # 当使用Qwen3-TTS引擎时，使用串行处理以避免多进程导致的PyTorch MPS问题
+        if self.tts_engine == "qwen3-tts":
+            return self.generate_chapter_audio_serial()
+        else:
+            return self.generate_chapter_audio_parallel()
+    
+    def generate_chapter_audio_serial(self) -> str:
+        """
+        串行生成整章音频（合并所有句子）
+        用于Qwen3-TTS引擎，避免多进程导致的PyTorch MPS问题
+        """
+        print(f"\n🚀 开始串行生成《{self.chapter_name}》完整音频")
+        start_time = time.time()
+        
+        # 解析所有行配置
+        line_configs = []
+        for line in self.config["data"]:
+            line_configs.append(self._parse_line_config(line))
+        
+        # 串行处理所有行配置，直接使用已初始化的audio_engine
+        results = []
+        for line_config in line_configs:
+            try:
+                # 直接生成单句音频，使用同一个audio_engine实例
+                line_audio = self.generate_single_line(line_config)
+                results.append((line_config.id, line_audio))
+            except Exception as e:
+                print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
+                results.append((line_config.id, None))
+        
+        # 按ID排序结果
+        results.sort(key=lambda x: x[0])
+        
+        # 合并所有音频
+        merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
+        for line_id, line_audio in results:
+            if line_audio is not None:
+                print(f"[DEBUG] 合并第 {line_id} 句音频 (时长: {len(line_audio)} ms)")
+                merged_audio += line_audio
+                print(f"[DEBUG] 合并后总时长: {len(merged_audio)} ms")
+            else:
+                print(f"[DEBUG] 跳过第 {line_id} 句音频 (生成失败)")
+        
+        # 保存整章音频
+        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_full.wav")
+        merged_audio.export(chapter_output_path, format="wav")
+        
+        # 清理临时文件
+        self.audio_engine.clean_temp_files()
+        
+        end_time = time.time()
+        print(f"\n🎉 整章音频串行生成完成！耗时: {end_time - start_time:.2f} 秒")
+        print(f"📂 输出路径: {chapter_output_path}")
+        
+        return chapter_output_path
 
     def _process_single_line_worker(self, line_config: LineAudioConfig) -> AudioSegment:
         """
@@ -652,7 +965,9 @@ class AudioGenerator:
                 sample_rate=44100,
                 channels=self.config["global"]["channels"],
                 api_endpoint=self.api_endpoint,
-                easyvoice_temp_dir=self.easyvoice_temp_dir if hasattr(self, 'easyvoice_temp_dir') else None
+                easyvoice_temp_dir=self.easyvoice_temp_dir if hasattr(self, 'easyvoice_temp_dir') else None,
+                tts_engine=self.tts_engine if hasattr(self, 'tts_engine') else "easyvoice",
+                qwen_model_path=self.qwen_model_path if hasattr(self, 'qwen_model_path') else None
             )
             
             # 临时替换当前实例的audio_engine
@@ -731,22 +1046,29 @@ class NovelAudioSynthesizer:
     支持背景音、音效和配音的生成与混合
     """
     
-    def __init__(self, script_dir: str = None, output_dir: str = None, temp_dir: str = None, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson"):
+    def __init__(self, script_dir: str = None, output_dir: str = None, temp_dir: str = None, api_endpoint: str = "http://localhost:3000/api/v1/tts/generateJson", tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
         """
         初始化小说音频合成器
         :param script_dir: 小说剧本目录
         :param output_dir: 音频输出目录
         :param temp_dir: 临时文件目录
         :param api_endpoint: TTS API端点
+        :param tts_engine: TTS引擎类型
+        :param qwen_model_path: Qwen TTS模型路径
         """
         # 获取脚本所在目录
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         
         # 设置默认目录
         self.script_dir = script_dir or os.path.join(self.base_dir, "../小说剧本")
-        self.output_dir = output_dir or os.path.join(self.base_dir, "../audio")
-        self.temp_dir = temp_dir or os.path.join(self.base_dir, "temp")
+        # 统一输出目录到项目根目录
+        self.output_dir = output_dir or os.path.join(self.base_dir, "../../output")
+        # 统一临时目录到项目根目录的output下
+        self.temp_dir = temp_dir or os.path.join(self.output_dir, "temp")
         self.api_endpoint = api_endpoint
+        self.tts_engine = tts_engine
+        # 支持两种模型类型：custom_voice（内置音色）和base（语音克隆）
+        self.qwen_model_path = qwen_model_path if qwen_model_path else "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model"
         
         # 创建必要的目录
         os.makedirs(self.output_dir, exist_ok=True)
@@ -798,6 +1120,11 @@ class NovelAudioSynthesizer:
         """
         print("\n=== 服务管理 ===")
         
+        # 只有当使用easyvoice引擎时才需要启动Docker服务
+        if self.tts_engine != "easyvoice":
+            print(f"✅ 使用{self.tts_engine}引擎，不需要启动Docker服务")
+            return True
+        
         # 检查Docker是否安装
         try:
             import subprocess
@@ -825,7 +1152,9 @@ class NovelAudioSynthesizer:
             # 启动容器时设置工作目录为/app/audio，让EasyVoice直接在audio目录下生成文件
             result = subprocess.run([
                 "docker", "run", "-d", "--name", "easyvoice", "-p", "3000:3000", 
-                "-v", f"{audio_dir}:/app/audio", "--workdir", "/app/audio", 
+                "-v", f"{audio_dir}:/app/audio", "--workdir", "/app/audio",
+                "-e", "DEBUG=true",
+                "-e", "OPENAI_BASE_URL=https://api.openai.com/v1/",
                 "cosincox/easyvoice:latest"
             ], capture_output=True, text=True, check=True)
             print("✅ easyVoice 服务启动成功")
@@ -861,7 +1190,9 @@ class NovelAudioSynthesizer:
         generator = AudioGenerator(
             json_path=json_file,
             output_dir=self.output_dir,
-            api_endpoint=self.api_endpoint
+            api_endpoint=self.api_endpoint,
+            tts_engine=self.tts_engine,
+            qwen_model_path=self.qwen_model_path
         )
         
         # 生成整章音频
@@ -986,13 +1317,17 @@ if __name__ == "__main__":
     parser.add_argument("--json-path", type=str, help="小说剧本JSON文件路径")
     parser.add_argument("--output-dir", type=str, help="音频输出目录")
     parser.add_argument("--api-endpoint", type=str, default="http://localhost:3000/api/v1/tts/generateJson", help="TTS API端点")
+    parser.add_argument("--tts-engine", type=str, default="qwen3-tts", help="TTS引擎类型 (easyvoice 或 qwen3-tts)")
+    parser.add_argument("--qwen-model-path", type=str, default="/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-model", help="Qwen TTS模型路径")
     
     args = parser.parse_args()
     
     # 初始化合成器
     synthesizer = NovelAudioSynthesizer(
         output_dir=args.output_dir,
-        api_endpoint=args.api_endpoint
+        api_endpoint=args.api_endpoint,
+        tts_engine=args.tts_engine,
+        qwen_model_path=args.qwen_model_path
     )
     
     # 运行合成器
