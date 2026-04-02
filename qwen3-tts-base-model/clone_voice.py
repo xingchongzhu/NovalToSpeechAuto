@@ -64,6 +64,11 @@ def generate_voice_list(output_dir, tts_model=None):
 
 def process_single_audio(tts_model, ref_audio_path, output_path):
     """处理单个音频文件，提取并保存speaker embedding"""
+    # 检查输出文件是否已存在，如果存在则跳过
+    if os.path.exists(output_path):
+        print(f"\n跳过已存在的音色文件: {output_path}")
+        return output_path
+    
     print(f"\n正在处理音频: {ref_audio_path}")
     
     # 1. 加载音频

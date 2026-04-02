@@ -190,7 +190,7 @@ def main():
                        help="API端点")
     parser.add_argument("--tts-engine", type=str, default="qwen3-tts", 
                        help="TTS引擎类型 (easyvoice 或 qwen3-tts)")
-    parser.add_argument("--qwen-model-path", type=str, default="/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-model", 
+    parser.add_argument("--qwen-model-path", type=str, default="/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model", 
                        help="Qwen TTS模型路径")
     parser.add_argument("--keep-segments", action="store_true", 
                        help="保留临时片段文件")

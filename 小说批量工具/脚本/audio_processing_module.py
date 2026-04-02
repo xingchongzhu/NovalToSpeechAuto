@@ -141,20 +141,24 @@ class AudioEngine:
             
             print("[TTSEngine] 初始化Qwen3-TTS模型...")
             
-            # 使用本地模型路径或默认的HuggingFace模型
-            model_path = self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+            # 使用本地的base模型路径，支持语音克隆
+            model_path = self.qwen_model_path if self.qwen_model_path else "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model"
             
             self.qwen_tts_model = Qwen3TTSModel.from_pretrained(
                 model_path,
-                device_map="mps",  # 使用Apple Silicon GPU加速
-                dtype=torch.float16,
+                device_map="auto",  # 自动选择设备
+                dtype=torch.bfloat16,  # 使用bfloat16数据类型，与test脚本一致
             )
             
+            # 保存模型类型，以便后续使用
+            self.qwen_model_type = getattr(self.qwen_tts_model.model, 'tts_model_type', 'unknown')
             print(f"[TTSEngine] Qwen3-TTS模型初始化成功! 使用模型路径: {model_path}")
+            print(f"[TTSEngine] 模型类型: {self.qwen_model_type}")
         except Exception as e:
             print(f"[TTSEngine] 初始化Qwen3-TTS模型失败: {e}")
             print("[TTSEngine] 切换到EasyVoice引擎")
             self.tts_engine = "easyvoice"
+            self.qwen_model_type = "unknown"
 
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """
@@ -167,10 +171,19 @@ class AudioEngine:
         print(f"  - 音色: {params.role_voice} | 语速: {params.speed} | 音量: {params.volume} | 音调: {params.pitch}")
         
         try:
+            start_time = time.time()
             if self.tts_engine == "qwen3-tts":
-                return self._text_to_speech_qwen(params)
+                print("[TTSEngine] 开始生成语音，预计需要几秒钟...")
+                audio = self._text_to_speech_qwen(params)
+                elapsed_time = time.time() - start_time
+                print(f"[TTSEngine] 语音生成完成，耗时: {elapsed_time:.2f} 秒")
+                return audio
             elif self.tts_engine == "easyvoice":
-                return self._text_to_speech_easyvoice(params)
+                print("[TTSEngine] 开始生成语音，预计需要几秒钟...")
+                audio = self._text_to_speech_easyvoice(params)
+                elapsed_time = time.time() - start_time
+                print(f"[TTSEngine] 语音生成完成，耗时: {elapsed_time:.2f} 秒")
+                return audio
             else:
                 raise ValueError(f"未知的TTS引擎: {self.tts_engine}")
         except Exception as e:
@@ -193,16 +206,11 @@ class AudioEngine:
         
         print("[TTSEngine] 使用Qwen3-TTS生成语音...")
         
-        # Qwen3-TTS支持的speaker列表
+        # Qwen3-TTS支持的内置speaker列表
         supported_speakers = ['aiden', 'dylan', 'eric', 'ono_anna', 'ryan', 'serena', 'sohee', 'uncle_fu', 'vivian']
         
         # 获取speaker参数，如果不存在则使用默认值
         qwen_speaker = params.role_voice if params.role_voice else "aiden"
-        
-        # 如果speaker不在支持列表中，使用默认值
-        if qwen_speaker not in supported_speakers:
-            print(f"[TTSEngine] Speaker '{qwen_speaker}' not supported, using default: 'aiden'")
-            qwen_speaker = "aiden"
         
         # 处理instruct参数
         # 1. 如果VoiceParams中有instruct字段且不为空，使用该instruct
@@ -217,14 +225,88 @@ class AudioEngine:
         # 调试信息
         print(f"[DEBUG] 参数详情 - 角色: {params.role}, 文本: '{params.text}', 音色: {qwen_speaker}")
         print(f"[DEBUG] instruct参数: {instruct}")
+        print(f"[DEBUG] 模型类型: {self.qwen_model_type}")
         
-        # 调用Qwen3-TTS生成语音
-        wavs, sr = self.qwen_tts_model.generate_custom_voice(
-            text=params.text,
-            speaker=qwen_speaker,
-            language="chinese",  # 使用中文
-            instruct=instruct
-        )
+        # 检查是否是克隆语音
+        is_cloned_voice = qwen_speaker not in supported_speakers
+        ref_audio_path = None
+        
+        if is_cloned_voice:
+            # 尝试寻找参考音频文件
+            print(f"[TTSEngine] 尝试使用克隆语音: {qwen_speaker}")
+            for ext in ['.mp3', '.wav']:
+                potential_path = os.path.join("/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model/clone-audio", f"{qwen_speaker}{ext}")
+                if os.path.exists(potential_path):
+                    ref_audio_path = potential_path
+                    break
+            
+            if ref_audio_path:
+                print(f"[TTSEngine] 找到克隆音频文件: {ref_audio_path}")
+                try:
+                    # 检查模型是否支持语音克隆
+                    if hasattr(self.qwen_tts_model, 'generate_voice_clone'):
+                        # 使用克隆语音生成
+                        wavs, sr = self.qwen_tts_model.generate_voice_clone(
+                            text=params.text,  # 要生成语音的文本内容
+                            language="chinese",  # 生成语音的语言，这里为中文
+                            ref_audio=ref_audio_path,  # 参考音频文件路径，用于提取说话人特征
+                            ref_text="",  # 参考文本，空文本表示仅使用语音特征进行克隆
+                            x_vector_only_mode=True,  # 仅使用说话人嵌入进行克隆，忽略参考文本
+                            style=params.instruct if params.instruct else "neutral"  # 情绪风格参数
+                        )
+                    else:
+                        print(f"[TTSEngine] 当前模型不支持语音克隆功能")
+                        print(f"[TTSEngine] 使用默认speaker: 'aiden'")
+                        qwen_speaker = "aiden"
+                        is_cloned_voice = False
+                except Exception as e:
+                    print(f"[TTSEngine] 生成克隆语音失败: {e}")
+                    print(f"[TTSEngine] 使用默认speaker: 'aiden'")
+                    qwen_speaker = "aiden"
+                    is_cloned_voice = False
+            else:
+                print(f"[TTSEngine] 找不到参考音频文件: {qwen_speaker}.mp3 或 {qwen_speaker}.wav")
+                print(f"[TTSEngine] 使用默认speaker: 'aiden'")
+                qwen_speaker = "aiden"
+                is_cloned_voice = False
+        
+        if not is_cloned_voice:
+            # 确保speaker在支持列表中
+            if qwen_speaker not in supported_speakers:
+                print(f"[TTSEngine] Speaker '{qwen_speaker}' not supported, using default: 'aiden'")
+                qwen_speaker = "aiden"
+            
+            # 对于base模型，使用generate_voice_clone方法，即使是内置speaker
+            # 这里使用默认的参考音频文件
+            print(f"[TTSEngine] 使用base模型，内置speaker: {qwen_speaker}")
+            
+            # 尝试使用默认的参考音频文件
+            default_ref_audio = None
+            for ext in ['.mp3', '.wav']:
+                potential_path = os.path.join("/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model/clone-audio", f"{qwen_speaker}{ext}")
+                if os.path.exists(potential_path):
+                    default_ref_audio = potential_path
+                    break
+            
+            if default_ref_audio:
+                print(f"[TTSEngine] 使用默认参考音频: {default_ref_audio}")
+                try:
+                    wavs, sr = self.qwen_tts_model.generate_voice_clone(
+                        text=params.text,
+                        language="chinese",
+                        ref_audio=default_ref_audio,
+                        ref_text="",
+                        x_vector_only_mode=True
+                    )
+                except Exception as e:
+                    print(f"[TTSEngine] 生成语音失败: {e}")
+                    print("[TTSEngine] 切换到EasyVoice引擎作为备选")
+                    raise
+            else:
+                # 如果没有默认参考音频，切换到EasyVoice引擎
+                print(f"[TTSEngine] 找不到默认参考音频: {qwen_speaker}.mp3 或 {qwen_speaker}.wav")
+                print("[TTSEngine] 切换到EasyVoice引擎作为备选")
+                raise Exception("找不到默认参考音频文件")
         
         print("[TTSEngine] Qwen3-TTS语音生成成功！")
         
@@ -917,7 +999,9 @@ class AudioGenerator:
         
         # 串行处理所有行配置，直接使用已初始化的audio_engine
         results = []
-        for line_config in line_configs:
+        total_lines = len(line_configs)
+        for i, line_config in enumerate(line_configs):
+            print(f"[进度] 处理第 {i+1}/{total_lines} 句 (角色: {line_config.role})")
             try:
                 # 直接生成单句音频，使用同一个audio_engine实例
                 line_audio = self.generate_single_line(line_config)

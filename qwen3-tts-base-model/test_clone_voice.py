@@ -7,8 +7,8 @@ import os
 
 def main():
     parser = argparse.ArgumentParser(description="测试Qwen3-TTS base模型的语音克隆功能")
-    parser.add_argument("--ref_audio", type=str, help="参考音频文件路径")
-    parser.add_argument("--ref_text", type=str, help="参考音频对应的文本")
+    parser.add_argument("--ref_audio", type=str, default="clone-audio/云健-中年男性磁性声音.mp3", help="参考音频文件路径")
+    parser.add_argument("--ref_text", type=str, default="", help="参考音频对应的文本")
     parser.add_argument("--target_text", type=str, default="大家好，我是克隆出来的专属配音，这是一个测试。", help="要生成的文本")
     parser.add_argument("--output_path", type=str, default="cloned_voice.wav", help="输出音频文件路径")
     parser.add_argument("--model_path", type=str, default="./", help="模型路径")
@@ -21,7 +21,6 @@ def main():
         args.model_path,
         device_map="auto",
         dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
     )
     
     # 检查模型类型
@@ -49,7 +48,7 @@ def main():
         ref_audio=args.ref_audio,
         ref_text=args.ref_text,
         x_vector_only_mode=True,  # 仅使用说话人嵌入
-        temperature=0.7
+        temperature=0.7,  # 控制生成的随机性，值越大越随机，值越小越确定
     )
     
     # 保存生成的音频
