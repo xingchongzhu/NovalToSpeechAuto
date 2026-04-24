@@ -13,7 +13,6 @@ SCRIPT_BASE_DIR="$SCRIPT_DIR/../小说剧本"
 OUTPUT_BASE_DIR="$SCRIPT_DIR/../../output"
 # 统一临时目录到项目根目录的output下
 TEMP_BASE_DIR="$OUTPUT_BASE_DIR/temp"
-API_ENDPOINT="http://localhost:3000/api/v1/tts/generateJson"
 # 默认TTS引擎
 TTS_ENGINE="qwen3-tts"
 
@@ -72,7 +71,6 @@ show_help() {
   echo "  --script-dir <目录>  指定小说剧本目录 (默认: $SCRIPT_BASE_DIR)"
   echo "  --output-dir <目录>  指定输出目录 (默认: $OUTPUT_BASE_DIR)"
   echo "  --temp-dir <目录>    指定临时目录 (默认: $TEMP_BASE_DIR)"
-  echo "  --api-endpoint <URL> 指定API端点 (默认: $API_ENDPOINT)"
   echo "  --keep-segments      保留临时片段文件"
   echo "  --debug              启用调试模式"
   echo "  -h, --help           显示帮助信息"
@@ -149,20 +147,6 @@ check_python_deps() {
     fi
   fi
   
-  # 检查Docker是否安装（只有当使用easyvoice时需要）
-  if [ "$TTS_ENGINE" = "easyvoice" ]; then
-    if ! docker --version >/dev/null 2>&1; then
-      log_error "Docker 未安装，请先安装Docker"
-      return 1
-    fi
-    
-    # 检查Docker是否正在运行
-    if ! docker info >/dev/null 2>&1; then
-      log_error "Docker 未运行，请先启动Docker"
-      return 1
-    fi
-  fi
-  
   log_success "所有依赖检查通过"
   return 0
 }
@@ -173,7 +157,6 @@ main() {
   local script_dir="$SCRIPT_BASE_DIR"
   local output_dir="$OUTPUT_BASE_DIR"
   local temp_dir="$TEMP_BASE_DIR"
-  local api_endpoint="$API_ENDPOINT"
   local tts_engine="$TTS_ENGINE"
   local keep_segments=""
   local debug=""
@@ -190,10 +173,6 @@ main() {
         ;;
       --temp-dir)
         temp_dir="$2"
-        shift 2
-        ;;
-      --api-endpoint)
-        api_endpoint="$2"
         shift 2
         ;;
       --keep-segments)
@@ -243,7 +222,6 @@ main() {
     --script-dir "$script_dir" \
     --output-dir "$output_dir" \
     --temp-dir "$temp_dir" \
-    --api-endpoint "$api_endpoint" \
     --tts-engine "$tts_engine" \
     $keep_segments \
     $debug

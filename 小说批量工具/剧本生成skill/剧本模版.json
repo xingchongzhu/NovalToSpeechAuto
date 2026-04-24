@@ -1,0 +1,1334 @@
+{
+  "project": "剑来有声小说自动生成",
+  "chapter": "第1章 惊蛰",
+  "global": {
+    "pitch": "+0Hz",
+    "channels": 1,
+    "voice_volume": "+0%",
+    "bgm_volume": "-18%",
+    "effect_volume": "-10%"
+  },
+  "roles_definition": {
+    "旁白": {
+      "desc": "旁白，沉稳大气、古风叙事、江湖感",
+      "voice": {
+        "role_voice": "云健-中年男性磁性声音",
+        "pitch": "0Hz",
+        "volume": "0%",
+        "speed": "-10%"
+      }
+    },
+    "陈平安": {
+      "desc": "少年主角，温和坚韧、干净内敛",
+      "voice": {
+        "role_voice": "云-男青年多语言",
+        "pitch": "+0Hz",
+        "volume": "+0%",
+        "speed": "-2%"
+      }
+    },
+    "宋集薪": {
+      "desc": "小镇少年，傲气刻薄、玩世不恭",
+      "voice": {
+        "role_voice": "云扬-男青年",
+        "pitch": "+3Hz",
+        "volume": "+2%",
+        "speed": "+2%"
+      }
+    },
+    "稚圭": {
+      "desc": "怯弱少女，声音轻柔胆小",
+      "voice": {
+        "role_voice": "云夏-女青年",
+        "pitch": "+4Hz",
+        "volume": "-1%",
+        "speed": "-1%"
+      }
+    },
+    "锦衣少年": {
+      "desc": "外乡少年，从容随性、略带傲气",
+      "voice": {
+        "role_voice": "云杰-男青年",
+        "pitch": "+1Hz",
+        "volume": "+1%",
+        "speed": "0%"
+      }
+    },
+    "吴爷爷": {
+      "desc": "随行老者，沉稳和蔼、目光锐利",
+      "voice": {
+        "role_voice": "云泽-男中年",
+        "pitch": "-6Hz",
+        "volume": "+0%",
+        "speed": "-8%"
+      }
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "第1章 惊蛰",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "沉稳大气、古风叙事、江湖感，说书人语气开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二月二，龙抬头。暮色里，小镇名叫泥瓶巷的僻静地方，有位孤苦伶仃的清瘦少年，此时他正按照习俗，一手持蜡烛，一手持桃枝，照耀房梁、墙壁、木床等处，用桃枝敲敲打打，试图借此驱赶蛇蝎、蜈蚣等，嘴里念念有词，是这座小镇祖祖辈辈传下来的老话。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平和细腻，描绘小镇暮色，氛围安静"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇夜晚，轻柔古筝与竹笛",
+          "scene_en": "Ancient Chinese town twilight, gentle guzheng and bamboo flute, peaceful atmosphere",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "烛火摇曳",
+            "sound_cn": "蜡烛轻微燃烧声",
+            "sound_en": "Candle soft burning crackle, gentle flame flickering, clear ambient sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "桃枝敲打",
+            "sound_cn": "桃枝轻敲木墙声",
+            "sound_en": "Peach branch tapping wooden wall, clear tapping sounds, gentle and rhythmic",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "二月二，烛照梁，桃打墙，人间蛇虫无处藏。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "-1%",
+          "pitch": "+0Hz",
+          "instruct": "低声念叨，淳朴认真，少年内敛语气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "少年姓陈，名平安，爹娘早逝。小镇的瓷器极负盛名，本朝开国以来，就担当起“奉诏监烧献陵祭器”的重任，有朝廷官员常年驻扎此地，监理官窑事务。无依无靠的少年，很早就当起了烧瓷的窑匠，起先只能做些杂事粗活，跟着一个脾气糟糕的半路师傅，辛苦熬了几年，刚刚琢磨到一点烧瓷的门道，结果世事无常，小镇突然失去了官窑造办这张护身符，小镇周边数十座形若卧龙的窑炉，一夜之间全部被官府勒令关闭熄火。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "沉稳叙述，交代小镇背景与少年身世"
+        },
+        "effects": [
+          {
+            "trigger_delay": 26,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "窑炉熄火",
+            "sound_cn": "窑炉熄灭的轻微闷响",
+            "sound_en": "Kiln fire slowly fading, deep rumble dying down, clear distant crackling",
+            "volume": "-15%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安放下新折的那根桃枝，吹灭蜡烛，走出屋子后，坐在台阶上，仰头望去，星空璀璨。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "安静舒缓，画面感强，突出少年孤独"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜，轻柔古琴",
+          "scene_en": "Ancient Chinese quiet night, gentle guqin, peaceful starry sky atmosphere",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "-1Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "吹灭蜡烛",
+            "sound_cn": "吹灭烛火声",
+            "sound_en": "Candle blowing out, clear whoosh sound, wisp of smoke",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "少年至今仍然清晰记得，那个只肯认自己做半个徒弟的老师傅，姓姚，在去年暮秋时分的清晨，被人发现坐在一张小竹椅子上，正对着窑头方向，闭眼了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "低沉怀念，略带伤感"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "不过如姚老头这般钻牛角尖的人，终究少数。世世代代都只会烧瓷一事的小镇匠人，既不敢僭越烧制贡品官窑，也不敢将库藏瓷器私自贩卖给百姓，只得纷纷另谋出路，十四岁的陈平安也被扫地出门，回到泥瓶巷后，继续守着这栋早已破败不堪的老宅，差不多是家徒四壁的惨淡场景，便是陈平安想要当败家子，也无从下手。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平实叙述，突出少年生活艰难"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "当了一段时间飘来荡去的孤魂野鬼，少年实在找不到挣钱的营生，靠着那点微薄积蓄，少年勉强填饱肚子，前几天听说几条街外的骑龙巷，来了个姓阮的外乡老铁匠，对外宣称要收七八个打铁的学徒，不给工钱，但管饭，陈平安就赶紧跑去碰运气，不曾想老人只是斜瞥了他一眼，就把他拒之门外。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平实叙述，突出少年生活艰难"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 8,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "难道打铁这门活计，不是看臂力大小，而是看面相好坏？",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "+0%",
+          "pitch": "+0Hz",
+          "instruct": "低声自语，困惑不解，少年单纯语气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "要知道陈平安虽然看着孱弱，但力气不容小觑，这是少年那些年烧瓷拉坯锻炼出来的身体底子，除此之外，陈平安还跟着姓姚的老人，跑遍了小镇方圆百里的山山水水，尝遍了四周各种土壤的滋味，任劳任怨，什么脏活累活都愿意做，毫不拖泥带水。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "客观陈述，略带同情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "可惜老姚始终不喜欢陈平安，嫌弃少年没有悟性，是榆木疙瘩不开窍，远远不如大徒弟刘羡阳，这也怪不得老人偏心，师父领进门，修行在个人，例如同样是枯燥乏味的拉坯，刘羡阳短短半年的功力，就抵得上陈平安辛苦三年的水准。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "客观陈述，略带同情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "虽然这辈子都未必用得着这门手艺，但陈平安仍是像以往一般，闭上眼睛，想象自己身前搁置有青石板和轱辘车，开始练习拉坯，熟能生巧。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-9%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "温和赞许，突出少年坚韧自律"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "独处练习",
+          "scene_cn": "安静古风，轻柔弦乐",
+          "scene_en": "Quiet ancient style, soft string instruments, focused atmosphere",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-22%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "大概每过一刻钟，少年就会歇息稍许时分，抖抖手腕，如此循环反复，直到整个人彻底精疲力尽，陈平安这才起身，一边在院中散步，一边缓缓舒展筋骨。从来没有人教过陈平安这些，是他自己瞎琢磨出来的门道。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-9%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "温和赞许，突出少年坚韧自律"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "天地间原本万籁寂静，陈平安听到一声刺耳的讥讽笑声，停下脚步，果不其然，看到那个同龄人蹲在墙头上，咧着嘴，毫不掩饰他的鄙夷神色。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "语气一转，带出冲突感"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "lower_db": 6,
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张感古风音乐",
+          "scene_en": "Slightly tense ancient music, subtle tension building",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "此人是陈平安的老邻居，据说更是前任监造大人的私生子，那位大人唯恐清流非议、言官弹劾，最后孤身返回京城述职，把孩子交由颇有私交情谊的接任官员，帮着看管照拂。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "清晰介绍人物身份，语气平淡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "如今小镇莫名其妙地失去官窑烧制资格，负责替朝廷监理窑务的督造大人，自己都泥菩萨过江自身难保了，哪里还顾得上官场同僚的私生子，丢下一些银钱，就火急火燎赶往京城打点关系。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "清晰介绍人物身份，语气平淡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "不知不觉已经沦为弃子的邻居少年，日子倒是依旧过得优哉游哉，成天带着他的贴身丫鬟，在小镇内外逛荡，一年到头游手好闲，也从来不曾为银子发过愁。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "清晰介绍人物身份，语气平淡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "泥瓶巷家家户户的黄土院墙都很低矮，其实邻居少年完全不用踮起脚跟，就可以看到这边院子的景象，可每次跟陈平安说话，偏偏喜欢蹲在墙头上。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "清晰介绍人物身份，语气平淡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "相比陈平安这个名字的粗浅俗气，邻居少年就要雅致许多，叫宋集薪，就连与他相依为命的婢女，也有个文绉绉的称呼，稚圭。少女此时就站在院墙那边，她有一双杏眼，怯怯弱弱。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "清晰介绍人物身份，语气平淡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "院门那边，有个嗓音响起。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "语气平缓，引出来客"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 20,
+      "role": "锦衣少年",
+      "api": {
+        "voice": {
+          "text": "你这婢女卖不卖？",
+          "role": "锦衣少年",
+          "role_voice": "云杰-男青年",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "instruct": "从容随意，漫不经心，外乡少年语气"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "外乡来客",
+          "scene_cn": "轻快古风，略带疏离感",
+          "scene_en": "Light ancient style, slightly distant, mysterious visitor atmosphere",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪愣了愣，循着声音转头望去，是个眉眼含笑的锦衣少年，站在院外，一张全然陌生的面孔。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平稳叙述人物反应"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "锦衣少年身边站着一位身材高大的老者，面容白皙，脸色和蔼，轻轻眯眼打量着两座毗邻院落的少年少女。老者的视线在陈平安一扫而过，并无停滞，但是在宋集薪和婢女身上，多有停留，笑意渐渐浓郁。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平稳叙述人物反应"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 23,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "卖！怎么不卖！",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+3%",
+          "volume": "+3%",
+          "pitch": "+4Hz",
+          "instruct": "赌气嚣张，故意抬杠"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "锦衣少年",
+      "api": {
+        "voice": {
+          "text": "那你说个价。",
+          "role": "锦衣少年",
+          "role_voice": "云杰-男青年",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "instruct": "淡定平静，不为所动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "少女瞪大眼眸，满脸匪夷所思，像一头惊慌失措的年幼麋鹿。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "轻柔叙述，突出少女惊慌"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 26,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "（轻呼）少爷！",
+          "role": "稚圭",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-2%",
+          "pitch": "+4Hz",
+          "instruct": "惊慌怯弱，小声急呼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "白银一万两！",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+2%",
+          "volume": "+3%",
+          "pitch": "+3Hz",
+          "instruct": "故意狮子大开口，嚣张得意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "锦衣少年",
+      "api": {
+        "voice": {
+          "text": "好。",
+          "role": "锦衣少年",
+          "role_voice": "云杰-男青年",
+          "speed": "-1%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "instruct": "平静干脆，出乎意料"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "是黄金万两！",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+3%",
+          "volume": "+4%",
+          "pitch": "+4Hz",
+          "instruct": "色厉内荏，急忙改口"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "锦衣少年",
+      "api": {
+        "voice": {
+          "text": "逗你玩的。",
+          "role": "锦衣少年",
+          "role_voice": "云杰-男青年",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "instruct": "轻描淡写，略带戏谑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪脸色阴沉。锦衣少年不再理睬宋集薪，偏移视线，望向陈平安。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "节奏明快，转换人物焦点"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 32,
+      "role": "锦衣少年",
+      "api": {
+        "voice": {
+          "text": "今天多亏了你，我才能买到那条鲤鱼，买回去后，我越看越欢喜，想着一定要当面跟你道一声谢，于是就让吴爷爷带我连夜来找你。",
+          "role": "锦衣少年",
+          "role_voice": "云杰-男青年",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "instruct": "坦然真诚，语气随和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "锦衣少年",
+      "api": {
+        "voice": {
+          "text": "这是酬谢，你我就算两清了。",
+          "role": "锦衣少年",
+          "role_voice": "云杰-男青年",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "instruct": "干脆利落，说完即走"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "钱袋抛掷",
+            "sound_cn": "绣袋抛掷落地声",
+            "sound_en": "Silk purse throwing, clear thud on ground, coins clinking inside",
+            "volume": "-15%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "他丢出一只沉甸甸的绣袋，抛给陈平安，笑脸灿烂，转身便离去。陈平安皱了皱眉头。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "回溯往事，语气平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "白天自己无意间看到有个中年人，提着只鱼篓走在大街上，捕获了一尾巴掌长短的金黄鲤鱼，它在竹篓里蹦跳得厉害，陈平安只瞥了一眼，就觉得很喜庆，于是开口询问，能不能用十文钱买下它。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "回溯往事，语气平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "中年人本来只是想着犒劳犒劳自己的五脏庙，眼见有利可图，就坐地起价，狮子大开口，非要三十文钱才肯卖。囊中羞涩的陈平安哪里有这么多闲钱，又实在舍不得那条金灿灿的鲤鱼，就眼馋跟着中年人，软磨硬泡，想着把价格砍到十五文，哪怕是二十文也行。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "回溯往事，语气平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "就在中年人有松口迹象的时候，锦衣少年和高大老人正好路过，他们二话不说，用五十文钱买走了鲤鱼和鱼篓，陈平安只能眼睁睁看着他们扬长而去，无可奈何。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "回溯往事，语气平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪死死盯住那对爷孙愈行愈远的背影，收回恶狠狠的眼神后，跳下墙头，似乎记起什么，对陈平安说道。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "转换场景，语气压低"
+        },
+        "effects": [
+          {
+            "trigger_delay": 9,
+            "duration": 1.5,
+            "process_mode": "insert",
+            "name": "跳下墙头",
+            "sound_cn": "跳下墙头落地声",
+            "sound_en": "Jumping off wall, feet landing on dirt ground, clear landing sound",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "你还记得正月里的那条四脚吗？",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+1%",
+          "volume": "+2%",
+          "pitch": "+2Hz",
+          "instruct": "压低声音，略带神秘"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "lower_db": 5,
+          "scene": "诡异低语",
+          "scene_cn": "轻微诡异氛围音",
+          "scene_en": "Slightly eerie atmosphere, mysterious whispering tone",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-22%",
+          "pitch": "-1Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "记得。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "+0%",
+          "pitch": "+0Hz",
+          "instruct": "简短平静，语气沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "怎么会不记得，简直就是记忆犹新。按照这座小镇传承数百年的风俗，如果有蛇类往自家屋子钻，是好兆头，主人绝对不要将其驱逐打杀。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "交代风俗，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪在正月初一的时候，坐在门槛上晒太阳，然后就有只俗称四脚蛇的小玩意儿，在他的眼皮子底下往屋里窜，宋集薪一把抓住就往院子里摔出去，不曾想那条已经摔得七荤八素的四脚蛇，愈挫愈勇，一次次，把从来不信鬼神之说的宋集薪给气得不行，一怒之下就把它甩到了陈平安院子。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "交代风俗，营造悬念"
+        },
+        "effects": [
+          {
+            "trigger_delay": 16,
+            "duration": 1.5,
+            "process_mode": "insert",
+            "name": "摔扔动作",
+            "sound_cn": "轻微摔扔东西声响",
+            "sound_en": "Quick throwing motion, clear thud on ground, reptile sliding sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "哪里想到，宋集薪第二天就在自己床底下，看到了那条盘踞蜷缩起来的四脚蛇。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "交代风俗，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪察觉到少女扯了扯自己袖子。少年与她心有灵犀，下意识就将已经到了嘴边的话语，重新咽回肚子。他想说的是，那条奇丑无比的四脚蛇，最近额头上有隆起，如头顶生角。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-9%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "营造悬念，语气压低"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "悬念氛围",
+          "scene_cn": "神秘古风，低沉古琴",
+          "scene_en": "Mysterious ancient style, deep guqin, suspenseful atmosphere",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "-1Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "我和稚圭可能下个月就要离开这里了。",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "instruct": "随意平淡，略带无所谓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安叹了口气。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "轻柔平缓，配合叹气动作"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.2,
+            "process_mode": "insert",
+            "name": "叹气声",
+            "sound_cn": "轻声叹气",
+            "sound_en": "Soft quiet sigh, clear subtle breath out",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "路上小心。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "+0%",
+          "pitch": "+0Hz",
+          "instruct": "温和礼貌，真诚朴素"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪半真半假道。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平稳叙述语气状态"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 49,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "有些物件我肯定搬不走，你可别趁我家没人，就肆无忌惮地偷东西。",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "刻薄嘴硬，故作警惕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安摇了摇头。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "简洁叙述动作"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪蓦然哈哈大笑，用手指点了点陈平安，嬉皮笑脸道。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-9%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "配合大笑与指人动作，语气明快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "duration": 1.5,
+            "process_mode": "insert",
+            "name": "哈哈大笑",
+            "sound_cn": "豪放大笑",
+            "sound_en": "Bold unrestrained laughter, clear deep hearty laugh, heroic open sound",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "胆小如鼠，难怪寒门无贵子，莫说是这辈子贫贱任人欺，说不定下辈子也逃不掉。",
+          "role": "宋集薪",
+          "role_voice": "云扬-男青年",
+          "speed": "+3%",
+          "volume": "+4%",
+          "pitch": "+4Hz",
+          "instruct": "刻薄嘲讽，极尽挖苦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安默不作声。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "低沉安静，突出沉默状态"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "各自返回屋子，陈平安关上门，躺在坚硬的木板床上，贫寒少年闭上眼睛，小声呢喃。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "安静低沉，突出少年孤独"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "深夜独处",
+          "scene_cn": "静夜轻柔古琴",
+          "scene_en": "Quiet night guqin, peaceful and lonely atmosphere",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "-1Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "关门声",
+            "sound_cn": "木门轻轻关闭声",
+            "sound_en": "Wooden door creaking shut, clear gentle thud, solitude atmosphere",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "碎碎平，岁岁安，碎碎平安，岁岁平安……",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-3%",
+          "volume": "-2%",
+          "pitch": "+0Hz",
+          "instruct": "低声祈祷，轻柔坚定，充满期许"
+        },
+        "bgm": {
+          "play_mode": "fade",
+          "scene": "希望微光",
+          "scene_cn": "悠远希望古风音乐",
+          "scene_en": "Distant hopeful ancient music, gentle and reassuring",
+          "fade_in": 1,
+          "fade_out": 4,
+          "volume": "-15%",
+          "pitch": "+1Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    }
+  ]
+}

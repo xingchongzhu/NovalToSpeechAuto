@@ -1,0 +1,1668 @@
+{
+  "project": "剑来有声小说自动生成",
+  "chapter": "剑来第2章-开门",
+  "global": {
+    "pitch": "+0Hz",
+    "channels": 1,
+    "voice_volume": "+0%",
+    "bgm_volume": "-18%",
+    "effect_volume": "-10%"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-中年男性磁性声音",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "陈平安": {
+      "role_voice": "风发少年-男声-潇洒,磁性",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "宋集薪": {
+      "role_voice": "元气少年-男声-磁性,性感",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    },
+    "看门汉子": {
+      "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "高冠年轻人": {
+      "role_voice": "明朗-男声-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "红衣男孩": {
+      "role_voice": "正太-童声-天真,活泼",
+      "pitch": "+8Hz",
+      "volume": "0%",
+      "speed": "+5%"
+    },
+    "粉雕女孩": {
+      "role_voice": "萝莉-女声-甜美,可爱",
+      "pitch": "+10Hz",
+      "volume": "-1%",
+      "speed": "+3%"
+    },
+    "中年妇人": {
+      "role_voice": "黄阿姨-女声-冷漠,愤怒",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "魁梧老人": {
+      "role_voice": "云泽-男中年",
+      "pitch": "-8Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "第二章 开门",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "庄重开场"
+        },
+        "bgm": {},
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "天微微亮，尚未鸡鸣，陈平安就已经起床，单薄的被褥，实在留不住热气，而且陈平安在烧瓷学徒的时候，也养成了早起晚睡的习惯。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安打开屋门，来到泥土松软的小院子，深呼吸一口气后，伸了个懒腰，走出院子，转头看到一个纤弱身影，弯着腰，双手拎着一木桶水，正用肩膀顶开自家院门，正是宋集薪的婢女，她应该是刚从杏花巷那边的铁锁井打水回来。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "木门开启",
+            "sound_cn": "木门吱呀开启声",
+            "sound_en": "Wooden Door Opening",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "duration": 3,
+            "process_mode": "insert",
+            "name": "木桶晃动",
+            "sound_cn": "水桶晃动水声",
+            "sound_en": "Water Bucket Swaying",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安收回视线，穿街过巷，一路小跑向小镇东面，泥瓶巷在小镇西边，最东边的城门，有个人负责小镇商旅进出和夜禁巡防，平时也收取、转交一些从外边寄回来的家书，陈平安接下来要做的事情，就是把那些信送给小镇百姓，酬劳是一封信一枚铜钱，这还是他好不容易求来的挣钱门路，陈平安已经跟那边约好，在二月二龙抬头之后，就开始接手这摊子买卖。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "duration": 8,
+            "process_mode": "insert",
+            "name": "脚步轻踏",
+            "sound_cn": "奔跑脚步声",
+            "sound_en": "Running Footsteps",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "用宋集薪的话说就是天生穷苦命，哪怕有福气进了家门，他陈平安也兜不住留不下。宋集薪经常说一些晦涩难懂的话语，约莫是从书籍上搬来的内容，陈平安总是听不太懂，例如前两天念叨什么料峭春寒冻杀少年，陈平安就完全不明白，至于每年熬过了冬天，入春之后有段时日反而更冷，少年倒是切身体会，宋集薪说那就叫倒春寒，跟沙场上的回马枪一样厉害，所以很多人会死在这些个鬼门关上。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "小镇并无城墙环绕，毕竟别说流寇匪徒，就是小偷蟊贼都少有，所以名义上是城门，其实就是一排东倒西歪的老旧栅栏，马马虎虎有那么个让行人车辆通过的地方，就算是这座小镇的脸面了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安小跑路过杏花巷的时候，看到不少妇人孩子聚在铁锁井旁，水井轱辘一直在吱呀作响。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5,
+            "duration": 4,
+            "process_mode": "insert",
+            "name": "轱辘转动",
+            "sound_cn": "水井轱辘吱呀声",
+            "sound_en": "Well Pulley Creaking",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "再绕过一条街，陈平安就听到不远处传来一阵熟悉的读书声，那里有座乡塾，是小镇几个大户人家合伙凑钱开的，教书先生是外乡人，陈平安小的时候，经常跑去躲在窗外，偷偷蹲着，竖起耳朵。那位先生虽然教书的时候极为严苛，但是对陈平安这些“蹭读书蹭蒙学”的孩子，也不呵斥拦阻，后来陈平安去了小镇外的一座龙窑做学徒，就再没有去过学塾。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带回忆"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "再往前，陈平安路过一座石牌坊，由于牌坊楼修建有十二根石柱，当地人喜欢把它称为螃蟹牌坊，这座牌坊的真实名字，宋集薪和刘阳羡的说法很不一样，宋集薪信誓旦旦说在一本叫地方县志的老书上，称这里为大学士坊，是皇帝老爷的御赐牌坊，为了纪念历史上一位大官的文治武功。与陈平安一般土包子的刘阳羡，则说这就是螃蟹坊，咱们都喊了几百年了，没理由叫什么狗屁不通的大学士坊。刘阳羡还问宋集薪一个问题，“大学士的官帽子到底有多大，是不是比铁锁井的井口还大”，问得宋集薪满脸涨红。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "此时陈平安绕着十二脚牌坊跑了一圈，每一面都有四个大字，字体古怪，显得各不相同，分别是“当仁不让”，“希言自然”，“莫向外求”和“气冲斗牛”。听宋集薪说，除了某四个字，其余三处匾额石刻，都曾被涂抹、篡改过。陈平安对这些懵懵懂懂，从未深思，当然，就算少年想要刨根问底，也是徒劳，他连宋集薪经常挂在嘴边的地方县志，到底是什么书都不知道。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "过了牌坊没多远，很快就看到一棵枝繁叶茂的老槐树，树底下，有一根不知被谁挪来此地的树干，略作劈砍后，首尾两端下边，垫着两块青石板，这截大树便被当做了简易的长凳。每年夏天的时候，小镇百姓都喜欢在这边乘凉，家境富裕的人家，长辈还会从水井里捞出一篮子的冰镇瓜果，孩子们吃饱喝足，就拉帮结派，在树荫下嬉戏打闹。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安习惯了上山下水，跑到栅栏门口附近，在那座孤零零的黄泥房门口停下，心不跳气不喘。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "小镇外人来往得不多，照理说，如今官窑烧制这棵摇钱树都倒了，就更加不会有新面孔。姚老头在世的时候，曾经有次喝高了，就跟陈平安和刘羡阳这些徒弟说，咱们做的是天底下独一份的官窑生意，是给皇帝陛下和皇后娘娘的御用瓷器，其他老百姓哪怕再有钱，哪怕当的官再大，胆敢沾碰，那可都是要被砍头的。那天的姚老头，精神气格外不一样。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带感慨"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Quiet Night with Stars",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "今天陈平安望向栅栏外，却发现好些人在等着开城门，不下七八人之多，男女老少，都有。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带惊讶"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "而且都是陌生人，小镇当地百姓的进进出出，无论是去烧瓷还是做庄稼活，都很少走东门，理由很简单，小镇东门的道路延伸出去，没有什么龙窑和田地。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "此时陈平安和那些外乡人，双方隔着一道木栅栏，两两相望。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "那一刻，穿着自编草鞋的少年，只是有些羡慕那些人身上的厚实衣衫，肯定很暖和，能挨冻。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "门外那些人，明显分作好几拨，并不是一伙人，但都望向门内的清瘦少年，大多脸色漠然，偶有一两人，视线早已越过少年的身影，望向小镇更远处。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安有些奇怪，难道这些人还不知道朝廷已经封禁了所有龙窑？还是说他们正因为知道真相，所以觉得有机可乘？",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带疑惑"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "有个头戴古怪高冠的年轻人，身材修长，腰间悬有一块绿色玉佩，他似乎等得不耐烦了，独自走出人群，就想要去推开本就无锁的栅栏大门，只是在他手指就要触碰到木门的时候，他突然猛然停下，缓缓收回手，双手负后，笑眯眯望向门内的草鞋少年，也不说话，就是笑。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带紧张"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安的眼角余光，无意间发现年轻人身后的那些人，好像有人失望，有人玩味，有人皱眉，有人讥讽，情绪微妙，各不相同。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "小王八蛋，是不是掉钱眼里了？这么早就来催命叫魂，你赶着投胎去见你死鬼爹娘啊？！",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "粗鲁呵斥"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "木门开启",
+            "sound_cn": "木门砰然开启声",
+            "sound_en": "Door Slamming Open",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安翻了个白眼，对这些尖酸刻薄的言语，少年并不以为意，一来生活在这座总共没几本书籍的乡野地方，如果被人骂几句就恼火，干脆找口水井跳下去得了，省心省事。二来这个看门的中年光棍，本身就是个经常被小镇百姓取笑打趣的对象，尤其是那些胆大泼辣的妇人，别说嘴上骂他，动手打他的都有不少。加上这人还极其喜欢跟穿开裆裤的小孩吹牛，比如什么老子当年在城门口，好一场厮杀，打得五六个大汉满地找牙，满地都是血，城门前整条两丈宽的道路，就跟下雨天的泥泞道路差不多！",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带调侃"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "你那点破烂事，等会儿再说。",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "不耐烦"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "小镇没谁把这个家伙当回事。但是外乡人能不能进入小镇，男人却掌握着生杀大权。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "他一边走向木栅栏门，一边伸手掏着裤裆。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "duration": 3,
+            "process_mode": "insert",
+            "name": "脚步轻踏",
+            "sound_cn": "走向栅栏的脚步声",
+            "sound_en": "Footsteps Towards Gate",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "这个背对着陈平安的男人，打开门后，时不时跟人收取一个小绣袋，放入自己袖口，然后一一放行。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "木门开启",
+            "sound_cn": "栅栏门吱呀开启",
+            "sound_en": "Gate Creaking Open",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "绣袋交接",
+            "sound_cn": "绣袋放入袖口声",
+            "sound_en": "Pouch Being Taken",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安很早就让出道路，八个人大致分作五批，走向小镇，除了那个头戴高冠、腰悬绿佩的年轻人，还先后走过两个七八岁的孩子，男孩穿着一件颜色喜庆的红色袍子，女孩长得粉粉嫩嫩，跟上好瓷器似的。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4,
+            "duration": 5,
+            "process_mode": "insert",
+            "name": "脚步轻踏",
+            "sound_cn": "多人脚步声",
+            "sound_en": "Multiple Footsteps",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "男孩比陈平安要矮大半个脑袋，孩子跟他擦身而过的时候，张了张嘴，虽然并没有发出声响，但是有明显的口型，应该是说了两个字，充满了挑衅。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带紧张"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "中年妇人",
+      "api": {
+        "voice": {
+          "text": "咳。",
+          "role": "中年妇人",
+          "role_voice": "黄阿姨-女声-冷漠,愤怒",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "instruct": "轻声咳嗽"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "妇人男孩身后的小女孩，被一位满头霜雪的魁梧老人牵着，她转头对着陈平安说了一大串话，不忘对身前同龄人男孩指指点点。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带好奇"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安根本听不懂女孩在说什么，不过猜得出，她是在告状。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "魁梧老人斜瞥了一眼草鞋少年。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "只是被人有意无意看了一眼，陈平安纯粹下意识地后退了一步。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带紧张"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "如鼠见猫。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "看到这一幕后，原本叽叽喳喳像只小黄雀的小女孩，顿时没了煽风点火的兴致，转过头不再多看陈平安一眼，好像再多看一眼就会脏了她的眼睛。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带嘲讽"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "少年陈平安的确没见过世面，但不等于看不懂脸色。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "想不想知道他们说了什么？",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "戏谑"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 38,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "想啊。",
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "好奇"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 39,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "夸你长得好看呢，全是好话。",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "戏谑"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安扯了扯嘴角，心想你当我傻啊？",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "内心独白"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "你要是不傻，老子能让你来送信？",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "得意"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安没敢反驳，生怕惹恼了这家伙，即将到手的铜钱就要飞走了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "刚才那婆娘，两条腿能夹死人啊。",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "猥琐"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 44,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "那位夫人练过武？",
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "好奇"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 45,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "你小子，是真傻。",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "无奈"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "少年一头雾水。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "他让陈平安等着，大踏步走向屋子，回来的时候，手里多了一摞信封，不厚不薄，约莫十来份，汉子递给陈平安后，问道：",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "duration": 3,
+            "process_mode": "insert",
+            "name": "脚步轻踏",
+            "sound_cn": "走向屋子的脚步声",
+            "sound_en": "Footsteps to House",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "信封交接",
+            "sound_cn": "信封递交声",
+            "sound_en": "Envelopes Handed Over",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "傻人有傻福，好人有好报。你信不信？",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "故作深沉"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 49,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "说好了一封信一文钱的。",
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "认真"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 50,
+      "role": "看门汉子",
+      "api": {
+        "voice": {
+          "text": "剩下五文钱，先欠着！",
+          "role": "看门汉子",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "恼羞成怒"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "街巷对峙",
+          "scene_cn": "轻微紧张",
+          "scene_en": "Street Confrontation",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "铜钱拍打",
+            "sound_cn": "铜钱拍在手心",
+            "sound_en": "Coins Slapping Hand",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    }
+  ]
+}

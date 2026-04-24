@@ -1,0 +1,107 @@
+{
+  "chapter": "第一章：开始",
+  "global": {
+    "channels": 2,
+    "sample_rate": 44100
+  },
+  "roles_definition": {
+    "旁白": {
+      "voice": {
+        "role": "旁白",
+        "role_voice": "旁白",
+        "speed": "+0%",
+        "volume": "+0%",
+        "pitch": "+0Hz"
+      }
+    },
+    "张三": {
+      "voice": {
+        "role": "张三",
+        "role_voice": "zhangsan",
+        "speed": "+0%",
+        "volume": "+0%",
+        "pitch": "+0Hz"
+      }
+    },
+    "李四": {
+      "voice": {
+        "role": "李四",
+        "role_voice": "lisi",
+        "speed": "+0%",
+        "volume": "+0%",
+        "pitch": "+0Hz"
+      }
+    }
+  },
+  "data": [
+    {
+      "id": 1,
+      "role": "旁白",
+      "text": "这是一个测试章节。",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "+0%",
+          "volume": "+0%",
+          "pitch": "+0Hz"
+        }
+      },
+      "mix": {
+        "fade_in": 0.5,
+        "fade_out": 0.5,
+        "gap_before": 0.3,
+        "gap_after": 0.3,
+        "volume": "+0%",
+        "bgm_volume": "+0%",
+        "effect_volume": "+0%"
+      }
+    },
+    {
+      "id": 2,
+      "role": "张三",
+      "text": "你好，我是张三。",
+      "api": {
+        "voice": {
+          "role": "张三",
+          "role_voice": "zhangsan",
+          "speed": "+0%",
+          "volume": "+0%",
+          "pitch": "+0Hz"
+        }
+      },
+      "mix": {
+        "fade_in": 0.3,
+        "fade_out": 0.3,
+        "gap_before": 0.2,
+        "gap_after": 0.2,
+        "volume": "+0%",
+        "bgm_volume": "+0%",
+        "effect_volume": "+0%"
+      }
+    },
+    {
+      "id": 3,
+      "role": "李四",
+      "text": "你好张三，我是李四。",
+      "api": {
+        "voice": {
+          "role": "李四",
+          "role_voice": "lisi",
+          "speed": "+0%",
+          "volume": "+0%",
+          "pitch": "+0Hz"
+        }
+      },
+      "mix": {
+        "fade_in": 0.3,
+        "fade_out": 0.3,
+        "gap_before": 0.2,
+        "gap_after": 0.2,
+        "volume": "+0%",
+        "bgm_volume": "+0%",
+        "effect_volume": "+0%"
+      }
+    }
+  ]
+}

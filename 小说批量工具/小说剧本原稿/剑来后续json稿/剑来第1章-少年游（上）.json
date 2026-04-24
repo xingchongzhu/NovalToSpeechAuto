@@ -1,0 +1,1726 @@
+{
+  "project": "剑来有声小说自动生成",
+  "chapter": "第1章 少年游（上）",
+  "global": {
+    "pitch": "+0Hz",
+    "channels": 1,
+    "voice_volume": "+0%",
+    "bgm_volume": "-18%",
+    "effect_volume": "-10%"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-中年男性磁性声音",
+      "speed": "-10%",
+      "pitch": "0Hz",
+      "volume": "0%"
+    },
+    "陈平安": {
+      "role_voice": "云-男青年多语言",
+      "speed": "-2%",
+      "pitch": "0Hz",
+      "volume": "0%"
+    },
+    "宁姚": {
+      "role_voice": "云夏-女青年",
+      "speed": "-1%",
+      "pitch": "+4Hz",
+      "volume": "-1%"
+    },
+    "崔东山": {
+      "role_voice": "云扬-男青年",
+      "speed": "+2%",
+      "pitch": "+3Hz",
+      "volume": "+2%"
+    },
+    "谢狗": {
+      "role_voice": "云杰-男青年",
+      "speed": "0%",
+      "pitch": "+1Hz",
+      "volume": "+1%"
+    },
+    "郭竹酒": {
+      "role_voice": "云夏-女青年",
+      "speed": "-1%",
+      "pitch": "+4Hz",
+      "volume": "-1%"
+    },
+    "老秀才": {
+      "role_voice": "云泽-男中年",
+      "speed": "-8%",
+      "pitch": "-6Hz",
+      "volume": "0%"
+    },
+    "竹素": {
+      "role_voice": "云-男青年多语言",
+      "speed": "-2%",
+      "pitch": "0Hz",
+      "volume": "0%"
+    },
+    "齐廷济": {
+      "role_voice": "云泽-男中年",
+      "speed": "-8%",
+      "pitch": "-6Hz",
+      "volume": "0%"
+    },
+    "长命": {
+      "role_voice": "云-男青年多语言",
+      "speed": "-2%",
+      "pitch": "0Hz",
+      "volume": "0%"
+    },
+    "朱敛": {
+      "role_voice": "云泽-男中年",
+      "speed": "-8%",
+      "pitch": "-6Hz",
+      "volume": "0%"
+    },
+    "黄花神": {
+      "role_voice": "云杰-男青年",
+      "speed": "0%",
+      "pitch": "+1Hz",
+      "volume": "+1%"
+    },
+    "刘羡阳": {
+      "role_voice": "云扬-男青年",
+      "speed": "+2%",
+      "pitch": "+3Hz",
+      "volume": "+2%"
+    },
+    "顾璨": {
+      "role_voice": "云-男青年多语言",
+      "speed": "-2%",
+      "pitch": "0Hz",
+      "volume": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "第1章 少年游",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "沉稳大气、古风叙事"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_only" }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "一到落魄山霁色峰，陈平安就醒了，身在祖师堂白玉广场，宁姚将他扶好，一起凭栏而立。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "风吹衣袂",
+            "sound_cn": "风吹动衣袂",
+            "sound_en": "wind blowing clothes",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "月色静谧，青山滴翠，云雾氤氲如铺絮，也许是受心境浸染的缘故，好像人间从未如此安详过。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带感慨"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 3,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "刚才怎么回事？",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "疑惑关切"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "好像一觉睡得太饱了，陈平安此刻脑子还有点昏昏沉沉，伸手揉着眼睛，开口说道：",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "揉眼睛",
+            "sound_cn": "揉眼睛的声音",
+            "sound_en": "rubbing eyes",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 5,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "恍惚间，好像看见了好些了不得的人。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带疲惫，若有所思"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 6,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "什么意思？",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "好奇追问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 7,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "你怎么样？",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "关切询问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 8,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "你觉得我能怎么样？",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "白眼，略带嗔怪"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 9,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "我觉得可以连喝两顿喜酒。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "小声，略带调侃"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宁姚微微脸红。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 11,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "还好吧？",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "心疼，温柔询问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 12,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "无妨，至多就是重新修炼温养个几十年。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "平静淡然"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 13,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "小陌和谢狗怎么样了？",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "轻声询问，关切"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 14,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "还行，表面上是谢狗更惨一点，三场散道，把三十多条远古道脉都散完了，跌落到了元婴境。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 15,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "其实是小陌折损更多，本命飞剑藕丝与被飞剑牵引的那颗天外星辰都已经碎了，他再想返回十四境，难了。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "略带惋惜"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 16,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "反而是谢狗在得失之间见大道。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 17,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "崔东山没能拦住姜尚真，还是祭出了那片柳叶，也碎了。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "听到这里，陈平安使劲揉了揉脸颊，大概这就是真正意义上的共襄盛举吧？",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带感慨"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 19,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "就没有一句都怪我？",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "略带调侃的疑问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 20,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "这可怪不着我，谁让他们摊上我这么个山主。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "神色清爽，眼神明亮，带笑"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 21,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "我们那位吴宫主真是个旱涝保收的土财主。如何选择一条合道之路，果然大有学问。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "啧啧笑着，阴阳怪气"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "一把太白剑尖、龙君法袍炼化而成的夜游剑，已经毁了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带惋惜"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "那把脱胎于半截剑气长城、铭刻有雷池在内多个城头刻字的佩剑浮萍，也没有了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "但是这两把长剑，好像如此结局，才是最好的。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带释然"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "先前陈平安递剑之时，心中便有两份玄之又玄的灵感，两把佩剑各有一部分剑意，分别自行去了初一和十五当中。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "本命飞剑北斗已经失去了与天外星辰的牵引，估计将来还要走趟天外。就是不清楚需要耗时多久才能重返飞升境？",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "听闻人声在峭壁下，陈平安趴在栏杆上，探出脑袋瞧了瞧，只见一座幽绿色的水潭附近，有四五樵夫在大石那边吃上了宵夜，竹筒饭就咸菜。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "他们看似是进山砍柴、捡些枯枝，一起捆缚下山，实则是来水潭这边砍伐一种落魄山特产的碧竹，再从溪涧当中捡取一袋子石子，碧竹可以编织小竹篓、打磨成扇骨，鹅卵石五颜六色，虽说皆非仙家青睐的神异之物，但是对于普通百姓而言，拿去州城偷偷卖了，便是一笔不菲的收入。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "这些年西边群山变了天，当年变卖祖宅搬去州城的小镇百姓，年轻人大多已经败完了家产，连累好些老人就只好重操旧业，或是去了龙窑当烧瓷的窑工，或是上山采药、下地干活，尤其是落魄山有了神仙居住，不知是谁率先发现霁色峰下边的水潭和溪涧，就跟个不起眼的聚宝盆似的，他们每隔一段时日就会假冒樵夫，进山捡钱往返一趟。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 30,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "这些年都是这样的，不管管？",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "疑惑询问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 31,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "一开始陈灵均是打算吓唬他们一下的，后来发现他们做事情比较有分寸，一直没有呼朋唤友，乌泱泱成群结队，好些年都是这几张熟悉面孔，至多就是多了两三个家族晚辈，我们也就没怎么管。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "笑着摇头解释"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "此话当然不假，不过更多还是因为当年山主，瞧见队伍当中有个粗布黢黑的消瘦少年，大概是第一次做这种偷窃营生，大冬天走在溪涧边上，紧张得手心冒汗，柴刀每次劈砍碧竹，便要到处张望一番，好像每一次砍竹子发出的声音，都是跟此山地主大声宣扬一句我来偷东西了，少年的慌张窘态，惹来几位老者青壮的笑话不已。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带笑意"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 25,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "劈竹声",
+            "sound_cn": "柴刀劈砍竹子",
+            "sound_en": "chopping bamboo",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "那座被私底下传得很玄乎的水潭，若是白天，日光照耀，金碧交荡，光怪陆离，确实跟志怪书上描绘的龙潭有几分相像。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "潭水流溢，经由漫长的经年累月，造就出一条溪涧槽道，夏季大雨时分，溪水暴涨，如一尾黄龙破峡而出。槐黄县志记载，名为太平溪。如一匹白练界青山，溪涧不与龙尾河汇流，绕过山外大片田畴，每岁孟冬拂晓，有白气横水，恍若银龙。最终流入铁符江。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，描绘景色"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5,
+            "duration": 3,
+            "process_mode": "insert",
+            "name": "水流声",
+            "sound_cn": "溪水流动",
+            "sound_en": "stream flowing",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 35,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "我如今可是堂堂一境的大修士啊。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "双手笼袖，深呼吸，乐不可支"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 36,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "站在山脚的下五境，还给你骄傲上了？",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "气笑，调侃"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 37,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "少年学成登山法，怕什么。何况武道境界还在。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "自信坚定"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 38,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "好好休息，才能好好修行。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "轻声安慰"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 39,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "挑个时候，我们沿着当年入山的道路从头走一遍吧？",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "伸手抓住宁姚的手，温柔提议"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 40,
+      "role": "宁姚",
+      "api": {
+        "voice": {
+          "text": "好的。不过这次没钱给你赚。",
+          "role": "宁姚",
+          "role_voice": "云夏-女青年",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "微笑，调侃"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安入山次数，要远远多于一般的窑工。夏天要比寒冬好，毕竟酷暑能躲，每逢汗流浃背，轻轻绞衣曝晒石上，独自嚼着干粮，躲在水边的树荫里，一双草鞋伸入溪涧中。苦耶？自在耶？",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带感慨"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "沿着霁色峰和集灵峰之间的那条山路，一起走到了台阶那边，宁姚期间询问一事，道士仙尉以后还看不看门了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "脚步声",
+            "sound_cn": "行走在山路上",
+            "sound_en": "footsteps on mountain path",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 43,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "text": "自己觉得没有这个必要了，其实可以带着徒弟去香火山那边的私人道场结茅修行，但是仙尉他自己是怎么想的，还会不会继续留在山门那边，不好说。",
+          "role": "陈平安",
+          "role_voice": "云-男青年多语言",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安抬头看了眼重新让位给一轮明月的夜空，马上就是五月五了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "台阶这边，人不多。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "崔东山和姜尚真，一白袍一青衫，旁边站着个也没把自己当外人的魏夜游。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "郭竹酒和裴钱站在一起，青衣小童和粉裙女童将黑衣小姑娘护在中间……",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "小陌神色和煦，做着鬼脸的谢狗想要亲昵挽住他的胳膊，却被伸手按住貂帽。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述，略带笑意"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "事实上，别说花影峰和莺语峰就根本不清楚发生了什么，就连披云山那边也一样迷迷糊糊，所以魏檗就赶来了这边一问究竟。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "只是刚才老秀才已经跟大伙儿通过气了，不准多问什么，至少近期且忍着，青山不改绿水长流的，都不着急。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "朱敛，先前在老秀才的建议和劝说之下，朱敛还是重新覆了两层面皮。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "大骊地支一脉也刚好路过此山，然后就被魏檗请去自家神君府落脚，周海镜他们却是没有去披云山的想法，让夜游神君帮忙捎几句话给陈先生，说他们跟吾洲打过照面了，聊得不错，她已经返回青冥天下养伤了，如果陈先生哪天做客青冥天下，可以找她叙旧，道场就位于最小的那个州，届时直呼其名即可。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陈平安与先生作揖，老秀才轻轻扶着这位得意弟子的手臂，再拍了拍关门弟子的肩膀，笑道：",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 54,
+      "role": "老秀才",
+      "api": {
+        "voice": {
+          "text": "终于可以再自由些了。",
+          "role": "老秀才",
+          "role_voice": "云泽-男中年",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "欣慰微笑"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 55,
+      "role": "老秀才",
+      "api": {
+        "voice": {
+          "text": "中土文庙那边，韩夫子大动肝火，一口一个他妈的，这位副教主已经黑着脸亲自去了大绶王朝。",
+          "role": "老秀才",
+          "role_voice": "云泽-男中年",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "instruct": "小声，略带笑意"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "voice_on_bgm" }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "先生学生一起率先挪步，陈平安微微弯腰低头，与自家先生窃窃私语起来，老秀才时而点头时而摇头，不过他们各有笑声。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "隔壁的天都峰，从中土神洲重返此处道场的陆神，身边换了个人站着，不再是邹子，而是刘飨。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "静夜星空",
+          "scene_cn": "古风静夜",
+          "scene_en": "Ancient night",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": { "mode": "mix" }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "陆神说到做到，与文庙那位经生熹平一起演道，希望能够助陈平安一臂之力，可惜效果不显，陆神还跌境了，若非经生熹平承担了更多的神道压制，别说跌境到仙人，陆神能不能回到人间都两说。看来这位阴阳家陆氏家主要在天都峰道场待上更长的年月了。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音
