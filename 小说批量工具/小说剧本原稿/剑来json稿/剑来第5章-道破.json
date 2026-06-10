@@ -1,0 +1,1129 @@
+{
+  "project": "剑来有声小说自动生成",
+  "chapter": "剑来第5章-道破",
+  "global": {
+    "pitch": "+0Hz",
+    "channels": 1,
+    "voice_volume": "+0%",
+    "bgm_volume": "-18%",
+    "effect_volume": "-10%"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-中年男性磁性声音",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "宋集薪": {
+      "role_voice": "元气少年-男声-磁性,性感",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    },
+    "稚圭": {
+      "role_voice": "傲娇女友-女声-甜美,优雅",
+      "pitch": "+4Hz",
+      "volume": "-1%",
+      "speed": "-1%"
+    },
+    "说书先生": {
+      "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "陈平安": {
+      "role_voice": "风发少年-男声-潇洒,磁性",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "年轻道人": {
+      "role_voice": "隔壁小哥-男声-清澈,文雅",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "第五章 道破",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "庄重开场"
+        },
+        "bgm": {},
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪带着婢女稚圭来到老槐树下，发现树荫里人满为患，将近半百号人，坐在自家搬来的板凳椅子上，陆陆续续还有孩童扯着长辈过来凑热闹。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "duration": 5,
+            "process_mode": "insert",
+            "name": "街市喧嚣",
+            "sound_cn": "人群嘈杂声",
+            "sound_en": "Crowd Ambience",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪和她并肩站在树荫边缘，看到一个老人站在树底下，一手托大白碗，一手负身后，神色激昂，正大声说道：",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "生动描述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "说书先生",
+      "api": {
+        "voice": {
+          "text": "方才说过了大致的龙脉走向，我再来说说这真龙，啧啧，这可就真了不得了，约莫三千年前，天底下出了一位了不得的神仙人物，先是在某座洞天福地潜心修行，证了大道，便独自仗剑游历天下，手中三尺气概，锋芒毕露。不知为何，此人偏偏与蛟龙不对付，整整三百个春秋，有蛟龙处斩蛟龙，杀得世间再无真龙，这才罢休，最后不知所踪，有人说他是去了极高的道法张本之地，与道祖坐而论道，也有说是去了极远的西方净土佛国，与佛陀辩经说法，更有人说他亲自坐镇酆都地府的大门，防止魑魅魍魉为祸人间……",
+          "role": "说书先生",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "instruct": "激昂说书"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "老先生说得唾沫四溅，底下所有小镇百姓都无动于衷，人人满脸茫然。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "略带调侃"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "三尺气概是什么？",
+          "role": "稚圭",
+          "role_voice": "傲娇女友-女声-甜美,优雅",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "好奇低声"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 6,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "就是剑。",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "轻松解答"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 7,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "公子，这位老人家，也忒喜欢卖弄学问了，话也不好好说。",
+          "role": "稚圭",
+          "role_voice": "傲娇女友-女声-甜美,优雅",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "没好气抱怨"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 8,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "咱们小镇识字的没几个，这位说书先生算是媚眼抛给瞎子看了。",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "幸灾乐祸"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 9,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "洞天福地又是什么？世上真有人能够活三百岁吗？还有那酆都地府，不是死人才能去的地方吗？",
+          "role": "稚圭",
+          "role_voice": "傲娇女友-女声-甜美,优雅",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "好奇追问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 10,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "尽是胡说八道，估计看过几本不入流的稗官野史，拿来糊弄乡野村夫的。",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "随口敷衍"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "这一刻，宋集薪敏锐发现那老人，有意无意看了自己一眼，虽然只是蜻蜓点水的视线，很快就一掠而过，但宋集薪仍是细心捕捉到了，只是少年也就没有上心，只当是巧合而已。婢女抬头望向老槐树，细细碎碎的光线透过树叶缝隙，洒落下来，她下意识眯起眼眸。宋集薪转头望去，突然愣住了。如今自己这位婢女，有着一张刚开始褪去婴儿肥的侧脸，她好像跟记忆里那个瘦瘦小小、干干瘪瘪的小丫鬟，有了很大的出入。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "按照小镇的习俗，女子嫁人时，便会有聘请一位父母子女皆健在的福气齐全人，请她绞去新娘脸上的绒毛，剪齐额发和鬓角，谓之开面，或是升眉。宋集薪还从书上听说一个小镇没有的习俗，所以在稚圭十二岁那年，他便买了小镇最好的新酿之酒，搬出那只偷藏而来的瓷瓶，釉色极美，犹如青梅，把酒倒入其中后，将其小心泥封，最后埋入地下。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "温暖叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "稚圭，虽说姓陈的家伙，按照我们读书人老祖宗的说法，属于\u2018朽木不可雕也，粪土之墙不可圬\u2019，但是不管怎么说，他这辈子总算还是做了一件有意义的事情。",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "忽然开口"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "婢女并未答话，低敛眼眉，依稀可见睫毛微微颤动。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "陈平安呢，人倒是不坏，就是性子太死板，做什么事情只认死理，所以当了窑匠，意味着他再勤劳苦练，也注定做不出一件有灵气的好东西来，所以刘羡阳的师父，那个姚老头儿，对陈平安死活看不上眼，是有其独到眼光的，这叫朽木不可雕。至于粪土之墙不可圬嘛，大致意思就是说陈平安这种穷酸鬼，哪怕你给他穿上件龙袍，他照样是个土里土气的泥腿子……",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "自顾自说着"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 16,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "我其实比陈平安还惨。",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "自嘲"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "她不知道如何安慰自家公子。宋集薪和他的婢女，在这座小镇上，一直是福禄街和桃叶巷的富人们，在茶余饭后的重要谈资，这要归功于宋集薪的那个便宜老爹，宋大人。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "小镇没有什么大人物，也没有什么风浪，故而被朝廷派驻此地的窑务督造官，无疑就是戏本上的那种青天大老爷，在历史上数十位督造官中，又以上任督造官宋大人，最得民心，宋大人不像之前那些高高在上的官老爷，宋大人不但没有躲在官署，修身养气，也没有闭门谢客，一心在书斋治学，而是对官窑瓷器的烧造事宜，事必躬亲，简直比匠户窑工更像是乡野百姓，十余年间，这位原本满身书卷气的宋大人，肌肤被晒得黝黑发亮，平日里装束与庄稼汉无异，待人接物，从无架子，只可惜小镇龙窑烧造而出的御用瓷器，无论是釉色品相，还是大器小件的形制，始终不尽如人意，准确说来，比起以往水准，甚至还要稍逊一筹，让老窑头们百思不得其解。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "回忆叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "最后大概朝廷那边觉得兢兢业业的宋大人，没有功劳也有苦劳，将其调回京城的吏部敕令文书上，好歹得了个良的考评。宋大人在返京之前，竟然千金散尽，出资建造了一座廊桥，后来发现宋大人离去车队当中，没有捎带某个孩子后，小镇几个大姓门庭便恍然大悟。可以说，宋大人与小镇积攒下过一份不俗的香火情，加上现任督造官的刻意照拂，少年宋集薪这些年在小镇的生活，衣食无忧，逍遥自在。如今改名为稚圭的丫鬟，关于她的身世来历，众说纷纭，住在泥瓶巷的当地人，说是一个鹅毛大雪的冬天，有个外地女孩沿路乞讨至此，昏死在宋集薪家的院门口，如果不是有人发现的早，就要去阎王爷那边转世投胎了。官署那边做杂事的老人，有另外的说法，信誓旦旦说是宋大人早年让人从别地买下的孤儿，为的就是给私生子宋集薪物色一个知冷暖的体己人，弥补一下父子不得相认的亏欠。不管如何，婢女被少年取名为稚圭后，算是彻底坐实了两人的父子关系，因为小镇大族豪绅都晓得，宋大人最钟情于一方砚台，便刻有稚圭二字。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "回忆叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "不知为何，想起那只死皮赖脸的四脚蛇了，稚圭你想啊，我都把它摔到陈平安的院子了，它依然要往咱们家窜，你说陈平安的狗窝，得是多么不遭人待见，才会寒酸到连一条小蛇都不愿意进去？",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "笑脸灿烂"
+        },
+        "bgm": {
+          "play_mode": "lower",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 21,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "有些事，也讲缘分的吧？",
+          "role": "稚圭",
+          "role_voice": "傲娇女友-女声-甜美,优雅",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "认真思量"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 22,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "正是这个道理！他陈平安就是个缘浅福薄之人，能活着就知足吧。",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "开怀赞同"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "她没有说话。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "咱们离开小镇后，屋子里的东西交由陈平安照看，这家伙会不会监守自盗啊？",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "自言自语"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 25,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "公子，不至于吧？",
+          "role": "稚圭",
+          "role_voice": "傲娇女友-女声-甜美,优雅",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "轻声反问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 26,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "呦，稚圭，监守自盗的意思也懂？",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "惊讶调侃"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 27,
+      "role": "稚圭",
+      "api": {
+        "voice": {
+          "text": "难道不是字面意思？",
+          "role": "稚圭",
+          "role_voice": "傲娇女友-女声-甜美,优雅",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "instruct": "眨眼反问"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 28,
+      "role": "宋集薪",
+      "api": {
+        "voice": {
+          "text": "我听说京城那个地方的藏书，比我们小镇的花草树木还要多！",
+          "role": "宋集薪",
+          "role_voice": "元气少年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "instruct": "心神向往"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "就在此时，说书先生正说道：世上虽已无真龙，龙之从属，如蛟、虬、螭等等，仍是真真正正、实实在在活在人世间，说不定就……老人故意卖了一关子，眼见听众们无动于衷，根本不懂得捧场，只得继续说道：",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "生动描述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "说书先生",
+      "api": {
+        "voice": {
+          "text": "说不定就隐匿在我们身边，道教神仙称之为潜龙在渊！",
+          "role": "说书先生",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "instruct": "卖弄悬念"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-25%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "宋集薪打了个哈欠。头顶突然飘落一片槐叶，苍翠欲滴，刚好落在少年额头上。宋集薪伸手抓住树叶，双指拧转叶柄。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "树叶飘落",
+            "sound_cn": "树叶飘落声",
+            "sound_en": "Leaf Falling",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "想着还是去城东门讨债一次的少年，在临近老槐树的时候，也看到了眼前有槐叶飘落，只是他加快步子，想要伸手去接住。只是一阵清风拂过，树叶从他手边滑过。草鞋少年身形矫健，快速横移一步，想要拦截下这片树叶。偏偏树叶在空中又打了一个旋儿。少年不信邪，几次辗转腾挪，最后仍是没能抓住槐叶。少年陈平安无可奈何。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "生动描述"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-18%",
+          "pitch": "+0Hz"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "脚步声",
+            "sound_cn": "少年奔跑脚步声",
+            "sound_en": "Running Footsteps",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "duration": 1,
+            "process_mode": "insert",
+            "name": "风吹声",
+            "sound_cn": "清风拂过声",
+            "sound_en": "Breeze Passing",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "一个乡塾逃学的青衫少年，与陈平安擦肩而过。青衫少年自己都不知道，肩头上不知何时停留一片槐叶。陈平安继续去往城东门，哪怕要不到钱，催一催也是好的。",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "平静叙述"
+        },
+        "bgm": {
+          "play_mode": "keep",
+          "scene": "小镇暮色",
+          "scene_cn": "古风小镇白天",
+          "scene_en": "Ancient Town Daytime",
+          "fade_in": 0,
+          "fade_out": 0,
+          "volume": "-20%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "远处算命摊子那边，年轻道人闭目养神，自言自语道：",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "instruct": "收尾转场"
+        },
+        "bgm": {
+          "play_mode": "switch",
+          "scene": "悬念氛围",
+          "scene_cn": "神秘古风",
+          "scene_en": "Mysterious Atmosphere",
+          "fade_in": 1,
+          "fade_out": 0,
+          "volume": "-28%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "年轻道人",
+      "api": {
+        "voice": {
+          "text": "是谁说天运循环无厚薄？",
+          "role": "年轻道人",
+          "role_voice": "隔壁小哥-男声-清澈,文雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "instruct": "闭目自语"
+        },
+        "bgm": {
+          "play_mode": "fade",
+          "scene": "悬念氛围",
+          "scene_cn": "神秘古风",
+          "scene_en": "Mysterious Atmosphere",
+          "fade_in": 0,
+          "fade_out": 3,
+          "volume": "-28%",
+          "pitch": "+0Hz"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    }
+  ]
+}

@@ -15,6 +15,8 @@ OUTPUT_BASE_DIR="$SCRIPT_DIR/../../output"
 TEMP_BASE_DIR="$OUTPUT_BASE_DIR/temp"
 # 默认TTS引擎
 TTS_ENGINE="qwen3-tts"
+# 默认音效生成引擎
+SFX_ENGINE="woosh"
 
 # 确保所有目录存在
 mkdir -p "$TEMP_BASE_DIR"
@@ -72,6 +74,7 @@ show_help() {
   echo "  --output-dir <目录>  指定输出目录 (默认: $OUTPUT_BASE_DIR)"
   echo "  --temp-dir <目录>    指定临时目录 (默认: $TEMP_BASE_DIR)"
   echo "  --keep-segments      保留临时片段文件"
+  echo "  --sfx-engine <引擎>  音效引擎: woosh | stable-audio-open (默认: $SFX_ENGINE)"
   echo "  --debug              启用调试模式"
   echo "  -h, --help           显示帮助信息"
   echo ""
@@ -158,6 +161,7 @@ main() {
   local output_dir="$OUTPUT_BASE_DIR"
   local temp_dir="$TEMP_BASE_DIR"
   local tts_engine="$TTS_ENGINE"
+  local sfx_engine="$SFX_ENGINE"
   local keep_segments=""
   local debug=""
   
@@ -181,6 +185,10 @@ main() {
         ;;
       --tts-engine)
         tts_engine="$2"
+        shift 2
+        ;;
+      --sfx-engine)
+        sfx_engine="$2"
         shift 2
         ;;
       --debug)
@@ -217,12 +225,17 @@ main() {
   log_info "小说剧本目录: $script_dir"
   log_info "输出目录: $output_dir"
   log_info "临时目录: $temp_dir"
+  log_info "音效引擎: $sfx_engine"
+  
+  # 设置环境变量禁用Hugging Face Hub的repo_id验证
+  export HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION=1
   
   python3 "$SCRIPT_DIR/novel_batch_executor.py" \
     --script-dir "$script_dir" \
     --output-dir "$output_dir" \
     --temp-dir "$temp_dir" \
     --tts-engine "$tts_engine" \
+    --sfx-engine "$sfx_engine" \
     $keep_segments \
     $debug
   

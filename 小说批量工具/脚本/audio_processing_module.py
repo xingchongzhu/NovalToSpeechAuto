@@ -11,8 +11,10 @@ Audio Processing Module
 - 音频混音功能
 """
 
-import json
 import os
+os.environ['HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION'] = '1'
+
+import json
 import time
 import requests
 import sys
@@ -25,26 +27,74 @@ from dataclasses import dataclass, asdict
 from typing import Dict, List, Optional, Any
 import warnings
 
-# 导入generate_audio模块
+# ======================== 音效生成引擎注册 ========================
+# 支持 sfx_engine 参数灵活切换: "woosh" | "stable-audio-open"
+
+# Stable Audio Open 引擎
 try:
-    from stabilityai_stable_generate_audio import generate_audio_batch
-    GENERATE_AUDIO_AVAILABLE = True
+    from stabilityai_stable_generate_audio import generate_audio_batch as _stable_generate_audio_batch
+    _STABLE_AUDIO_AVAILABLE = True
 except Exception as e:
-    print(f"[AudioEngine] 导入generate_audio模块失败: {e}")
-    GENERATE_AUDIO_AVAILABLE = False
-    
-    def generate_audio_batch(tasks, max_workers=5):
-        """批量生成的降级实现"""
+    print(f"[AudioEngine] 导入 stable-audio-open 模块失败: {e}")
+    _STABLE_AUDIO_AVAILABLE = False
+
+# Woosh-DFlow 引擎
+try:
+    from woosh_generate_audio import generate_audio_batch as _woosh_generate_audio_batch
+    _WOOSH_AVAILABLE = True
+except Exception as e:
+    print(f"[AudioEngine] 导入 woosh 模块失败: {e}")
+    _WOOSH_AVAILABLE = False
+
+
+def get_sfx_engine(engine_name: str = "woosh"):
+    """
+    获取音效生成引擎的 generate_audio_batch 函数
+
+    :param engine_name: 引擎名称，支持 "woosh" 或 "stable-audio-open"
+    :return: generate_audio_batch 函数
+    """
+    if engine_name == "woosh":
+        if _WOOSH_AVAILABLE:
+            print(f"[AudioEngine] 使用音效引擎: Woosh-DFlow")
+            return _woosh_generate_audio_batch
+        else:
+            print(f"[AudioEngine] Woosh 不可用，降级到 stable-audio-open")
+            engine_name = "stable-audio-open"
+
+    if engine_name == "stable-audio-open":
+        if _STABLE_AUDIO_AVAILABLE:
+            print(f"[AudioEngine] 使用音效引擎: Stable Audio Open")
+            return _stable_generate_audio_batch
+        else:
+            print(f"[AudioEngine] stable-audio-open 不可用，降级到空引擎")
+
+    # 所有引擎都不可用时的降级实现
+    print(f"[AudioEngine] 无可用音效引擎，音效生成将被跳过")
+    def _fallback_generate_audio_batch(tasks, max_workers=1):
         results = []
         for task in tasks:
             try:
                 prompt = task["prompt"] if isinstance(task, dict) else task[0]
                 output_path = task["output_path"] if isinstance(task, dict) else task[2]
-                print(f"[AudioEngine] 跳过批量生成（模块未导入）: {output_path}")
+                print(f"[AudioEngine] 跳过音效生成（无可用引擎）: {output_path}")
                 results.append(None)
             except:
                 results.append(None)
         return results
+    return _fallback_generate_audio_batch
+
+# 导入多音字处理模块
+try:
+    from polyphone_processor import process_polyphone_text
+    POLYPHONE_PROCESSOR_AVAILABLE = True
+except Exception as e:
+    print(f"[AudioEngine] 导入多音字处理模块失败: {e}")
+    POLYPHONE_PROCESSOR_AVAILABLE = False
+    
+    def process_polyphone_text(text):
+        """多音字处理的降级实现"""
+        return text
 
 
 # 配置日志
@@ -122,7 +172,6 @@ class LineAudioConfig:
     effect_params: List[EffectAudioParams]
     mix_config: MixConfig
 
-
 # ======================== 音频引擎接口 ========================
 class AudioEngine:
     """音频引擎类，提供语音合成和文生音频功能"""
@@ -136,6 +185,7 @@ class AudioEngine:
         self.tts_engine = tts_engine
         self.qwen_model_path = qwen_model_path
         self.qwen_tts_model = None
+        self._voice_clone_prompt_cache = {}  # 缓存角色->voice_clone_prompt，避免重复编码参考音频
         
         os.makedirs(self.temp_dir, exist_ok=True)
         
@@ -156,12 +206,26 @@ class AudioEngine:
             print("[TTSEngine] 初始化Qwen3-TTS模型...")
             
             model_path = self.qwen_model_path if self.qwen_model_path else \
-                "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model"
+                "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+            
+            # 自动选择最优设备：MPS(Apple GPU) > CUDA > CPU
+            if torch.backends.mps.is_available():
+                device = "mps"
+                dtype = torch.float16
+                print(f"[TTSEngine] 检测到Apple MPS，使用GPU加速 + float16")
+            elif torch.cuda.is_available():
+                device = "cuda:0"
+                dtype = torch.bfloat16
+                print(f"[TTSEngine] 检测到CUDA GPU，使用GPU加速 + bfloat16")
+            else:
+                device = "cpu"
+                dtype = torch.float32
+                print(f"[TTSEngine] 未检测到GPU，使用CPU + float32（速度较慢）")
             
             self.qwen_tts_model = Qwen3TTSModel.from_pretrained(
                 model_path,
-                device_map="cpu",
-                dtype=torch.float32,
+                device_map=device,
+                dtype=dtype,
             )
             
             self.qwen_model_type = getattr(self.qwen_tts_model.model, 'tts_model_type', 'unknown')
@@ -209,9 +273,48 @@ class AudioEngine:
                     return potential_path
             return None
         
+        def _get_cached_prompt(ref_audio_path, x_vector_only_mode=True):
+            """获取缓存的voice_clone_prompt，同一参考音频只编码一次"""
+            cache_key = f"{ref_audio_path}|{x_vector_only_mode}"
+            if cache_key in self._voice_clone_prompt_cache:
+                return self._voice_clone_prompt_cache[cache_key]
+            
+            prompt_items = self.qwen_tts_model.create_voice_clone_prompt(
+                ref_audio=ref_audio_path,
+                ref_text="",
+                x_vector_only_mode=x_vector_only_mode,
+            )
+            prompt_dict = self.qwen_tts_model._prompt_items_to_voice_clone_prompt(prompt_items)
+            self._voice_clone_prompt_cache[cache_key] = prompt_dict
+            print(f"[TTSEngine] 缓存voice_clone_prompt: {ref_audio_path}")
+            return prompt_dict
+        
         def _generate_voice(ref_audio, x_vector_only_mode=True):
+            # 多音字处理
+            processed_text = process_polyphone_text(params.text)
+            if processed_text != params.text and POLYPHONE_PROCESSOR_AVAILABLE:
+                print(f"[TTSEngine] 多音字处理: {params.text[:30]}... -> {processed_text[:30]}...")
+            
+            text_len = len(processed_text)
+            max_tokens = min(2048, max(512, text_len * 8))
+            
+            # 优先使用缓存的prompt，避免重复编码参考音频
+            if ref_audio is not None:
+                cached_prompt = _get_cached_prompt(ref_audio, x_vector_only_mode)
+                return self.qwen_tts_model.generate_voice_clone(
+                    text=processed_text,
+                    language="chinese",
+                    voice_clone_prompt=cached_prompt,
+                    style=params.instruct if params.instruct else "neutral",
+                    temperature=0.7,
+                    top_p=0.9,
+                    top_k=50,
+                    repetition_penalty=1.05,
+                    max_new_tokens=max_tokens
+                )
+            
             return self.qwen_tts_model.generate_voice_clone(
-                text=params.text,
+                text=processed_text,
                 language="chinese",
                 ref_audio=ref_audio,
                 ref_text="",
@@ -219,7 +322,9 @@ class AudioEngine:
                 style=params.instruct if params.instruct else "neutral",
                 temperature=0.7,
                 top_p=0.9,
-                repetition_penalty=1.0
+                top_k=50,
+                repetition_penalty=1.05,
+                max_new_tokens=max_tokens
             )
         
         wavs, sr = None, None
@@ -331,7 +436,7 @@ class AudioEngine:
                 bgm = bgm * loop_count + bgm[:remaining]
             else:
                 bgm = bgm[:voice_duration]
-            bgm = bgm - 12
+            bgm = bgm - 6
         
         if mix_config.mode == "bgm_fade_in_then_voice":
             bgm = bgm.fade_in(int(mix_config.voice_delay * 1000))
@@ -381,8 +486,9 @@ class AudioEngine:
 class AudioGenerator:
     """小说有声书音频生成器"""
     
-    def __init__(self, json_path: str, output_dir: str = None, 
-                 tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
+    def __init__(self, json_path: str, output_dir: str = None,
+                 tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
+                 sfx_engine: str = "woosh"):
         if output_dir is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
             output_dir = os.path.join(base_dir, "../../output")
@@ -390,6 +496,10 @@ class AudioGenerator:
         self.json_path = json_path
         self.tts_engine = tts_engine
         self.qwen_model_path = qwen_model_path
+        self.sfx_engine = sfx_engine
+        
+        # 初始化音效生成引擎
+        self._generate_audio_batch = get_sfx_engine(self.sfx_engine)
         
         self.config = self.load_config()
         self.chapter_name = self.config["chapter"]
@@ -503,7 +613,8 @@ class AudioGenerator:
 
     def generate_single_line(self, line_config: LineAudioConfig) -> AudioSegment:
         """生成单句音频"""
-        print(f"\n=== 处理章节: {self.chapter_name} 第 {line_config.id} 句 | 角色: {line_config.role} ===")
+        text_preview = line_config.voice_params.text[:40].replace('\n', ' ')
+        print(f"\n=== 角色: {line_config.role} | 文本: {text_preview}...")
         
         voice_output_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
         if os.path.exists(voice_output_path):
@@ -528,19 +639,20 @@ class AudioGenerator:
             bgm_output_path = os.path.join(self.bgm_dir, f"bgm_line_{bgm_scene_cn}_{line_config.id}.wav")
             
             #屏蔽背景音
-            #if not os.path.exists(bgm_output_path):
-            #    batch_tasks.append({
-            #        "prompt": line_config.bgm_params.scene_en,
-            #        "duration": bgm_duration,
-            #        "output_path": bgm_output_path
-            #    })
+            if not os.path.exists(bgm_output_path):
+                batch_tasks.append({
+                    "prompt": line_config.bgm_params.scene_en,
+                    "duration": bgm_duration,
+                    "output_path": bgm_output_path
+                })
         
         for i, effect_param in enumerate(line_config.effect_params):
             effect_name = effect_param.name.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
             effect_output_path = os.path.join(self.effect_dir, f"effect_line_{effect_name}_{line_config.id}.wav")
             effect_output_paths.append(effect_output_path)
-            
+            #屏蔽音效
             if not os.path.exists(effect_output_path):
+                # 直接使用AI生成音效
                 batch_tasks.append({
                     "prompt": effect_param.sound_en,
                     "duration": effect_param.duration,
@@ -548,14 +660,20 @@ class AudioGenerator:
                 })
         
         if batch_tasks:
-            print(f"🔄 开始多线程批量生成 {len(batch_tasks)} 个音频...")
-            generate_audio_batch(batch_tasks)
+            print(f"🔄 开始批量生成 {len(batch_tasks)} 个音频 (引擎: {self.sfx_engine})...")
+            self._generate_audio_batch(batch_tasks)
         
         if bgm_output_path and os.path.exists(bgm_output_path):
             bgm_audio = AudioSegment.from_wav(bgm_output_path)
+            if line_config.bgm_params.volume:
+                bgm_audio = self.audio_engine._adjust_audio_params(
+                    bgm_audio,
+                    speed="+0%",
+                    volume=line_config.bgm_params.volume,
+                    pitch=line_config.bgm_params.pitch
+                )
             if line_config.bgm_params.play_mode == "lower" and line_config.bgm_params.lower_db:
-                bgm_audio = bgm_audio - line_config.bgm_params.lower_db
-            bgm_audio = bgm_audio - 2.0
+                bgm_audio = bgm_audio - min(line_config.bgm_params.lower_db, 6)
         
         for i, effect_output_path in enumerate(effect_output_paths):
             if os.path.exists(effect_output_path):
@@ -599,14 +717,32 @@ class AudioGenerator:
         
         results = []
         total_lines = len(line_configs)
+        total_chars = sum(len(lc.voice_params.text) for lc in line_configs)
+        
+        avg_time_per_char = 1.0
+        line_times = []
+        
         for i, line_config in enumerate(line_configs):
-            print(f"[进度] 处理第 {i+1}/{total_lines} 句 (角色: {line_config.role})")
+            line_start = time.time()
+            line_chars = len(line_config.voice_params.text)
+            remaining_chars = sum(len(lc.voice_params.text) for lc in line_configs[i:])
+            avg_time_per_char = 1.0 if not line_times else sum(line_times) / sum(len(lc.voice_params.text) for lc in line_configs[:i])
+            eta = remaining_chars * avg_time_per_char
+            
+            print(f"\n{'='*60}")
+            print(f"[进度] 《{self.chapter_name}》 {i+1}/{total_lines} | 剩余: {eta:.0f}秒 | 系数: {avg_time_per_char:.2f}秒/字")
+            print(f"{'='*60}")
+            
             try:
                 line_audio = self.generate_single_line(line_config)
                 results.append((line_config.id, line_audio))
             except Exception as e:
                 print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
                 results.append((line_config.id, None))
+            
+            elapsed = time.time() - line_start
+            line_times.append(elapsed)
+            print(f"[完成] 第 {i+1} 句 | 耗时: {elapsed:.1f}秒 | 字数: {line_chars} | 实际: {elapsed/line_chars:.2f}秒/字")
         
         results.sort(key=lambda x: x[0])
         
@@ -662,21 +798,24 @@ class AudioGenerator:
 class NovelAudioSynthesizer:
     """小说音频合成器，用于生成单个或多个小说章节的完整音频"""
     
-    def __init__(self, script_dir: str = None, output_dir: str = None, 
-                 tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
+    def __init__(self, script_dir: str = None, output_dir: str = None,
+                 tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
+                 sfx_engine: str = "woosh"):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         
         self.script_dir = script_dir or os.path.join(self.base_dir, "../小说剧本")
         self.output_dir = output_dir or os.path.join(self.base_dir, "../../output")
         self.tts_engine = tts_engine
         self.qwen_model_path = qwen_model_path if qwen_model_path else \
-            "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model"
+            "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+        self.sfx_engine = sfx_engine
         
         os.makedirs(self.output_dir, exist_ok=True)
         
         print("=== Novel Audio Synthesizer 初始化完成 ===")
         print(f"📁 剧本目录: {self.script_dir}")
         print(f"📁 输出目录: {self.output_dir}")
+        print(f"🔊 音效引擎: {self.sfx_engine}")
 
     def check_environment(self) -> bool:
         """检查环境"""
@@ -722,7 +861,8 @@ class NovelAudioSynthesizer:
             json_path=json_file,
             output_dir=self.output_dir,
             tts_engine=self.tts_engine,
-            qwen_model_path=self.qwen_model_path
+            qwen_model_path=self.qwen_model_path,
+            sfx_engine=self.sfx_engine
         )
         
         return generator.generate_chapter_audio()
@@ -793,7 +933,9 @@ if __name__ == "__main__":
     parser.add_argument("--script-dir", type=str, help="小说剧本目录路径")
     parser.add_argument("--output-dir", type=str, help="音频输出目录")
     parser.add_argument("--tts-engine", type=str, default="qwen3-tts", help="TTS引擎类型")
-    parser.add_argument("--qwen-model-path", type=str, default="/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model", 
+    parser.add_argument("--sfx-engine", type=str, default="woosh",
+                        help="音效生成引擎: woosh | stable-audio-open (默认: woosh)")
+    parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                         help="Qwen TTS模型路径")
     
     args = parser.parse_args()
@@ -802,7 +944,8 @@ if __name__ == "__main__":
         script_dir=args.script_dir,
         output_dir=args.output_dir,
         tts_engine=args.tts_engine,
-        qwen_model_path=args.qwen_model_path
+        qwen_model_path=args.qwen_model_path,
+        sfx_engine=args.sfx_engine
     )
     
     if args.json_path:

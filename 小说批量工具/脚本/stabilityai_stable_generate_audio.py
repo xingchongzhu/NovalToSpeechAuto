@@ -3,6 +3,7 @@ import torchaudio
 import os
 import threading
 import time
+import hashlib
 import concurrent.futures
 from einops import rearrange
 from stable_audio_tools import get_pretrained_model
@@ -13,11 +14,13 @@ model_config = None
 sample_rate = None
 device = "cpu"
 
-DEFAULT_STEPS = 60
-DEFAULT_CFG_SCALE = 7
-DEFAULT_SIGMA_MIN = 0.3
+DEFAULT_STEPS = 100
+DEFAULT_CFG_SCALE = 10
+DEFAULT_SIGMA_MIN = 0.2
 DEFAULT_SIGMA_MAX = 500
 DEFAULT_SAMPLER_TYPE = "dpmpp-3m-sde"
+# 固定随机种子，保证同一提示词生成结果一致
+DEFAULT_SEED = 42
 # ========== 优化参数配置 ==========
 # 根据官方文档：https://huggingface.co/stabilityai/stable-audio-open-1.0
 # 最大生成时长：47秒
@@ -60,12 +63,13 @@ def initialize_model():
     elapsed = time.time() - start_time
     print(f"✅ 模型加载完成！耗时: {elapsed:.2f} 秒")
 
-def generate_audio(prompt, duration=10, output_path=None):
+def generate_audio(prompt, duration=10, output_path=None, seed=None):
     """
     生成单个音频（主接口，不包含模型初始化检查）
     :param prompt: 提示词
     :param duration: 时长（秒），最大47秒
     :param output_path: 输出路径
+    :param seed: 随机种子，None则使用DEFAULT_SEED
     :return: 生成的音频文件路径
     """
     global model, model_config, sample_rate, device
@@ -86,6 +90,13 @@ def generate_audio(prompt, duration=10, output_path=None):
     
     print_parameters(prompt, duration, output_path)
     
+    # 固定随机种子，保证可复现
+    if seed is None:
+        seed = DEFAULT_SEED
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed(seed)
+    
     # 计算采样大小
     sample_size = int(round(sample_rate * duration))
     sample_size = max(1024, min(sample_size, sample_rate * MAX_DURATION))
@@ -96,7 +107,7 @@ def generate_audio(prompt, duration=10, output_path=None):
         "seconds_total": duration
     }]
     
-    print(f"开始生成音频...")
+    print(f"开始生成音频... (seed={seed})")
     with torch.no_grad():
         output = generate_diffusion_cond(
             model,
@@ -117,12 +128,13 @@ def generate_audio(prompt, duration=10, output_path=None):
     print(f"✅ 音频生成完成: {output_path}")
     return output_path
 
-def generate_audio_with_init(prompt, duration=10, output_path=None):
+def generate_audio_with_init(prompt, duration=10, output_path=None, seed=None):
     """
     生成单个音频（包含模型初始化检查的公共接口）
     :param prompt: 提示词
     :param duration: 时长（秒），最大47秒
     :param output_path: 输出路径
+    :param seed: 随机种子
     :return: 生成的音频文件路径
     """
     global model
@@ -130,15 +142,17 @@ def generate_audio_with_init(prompt, duration=10, output_path=None):
     if model is None:
         initialize_model()
     
-    return generate_audio(prompt, duration, output_path)
+    return generate_audio(prompt, duration, output_path, seed=seed)
 
 def generate_audio_task(task):
     """
-    单个音频生成任务（用于多线程）
+    单个音频生成任务（用于多线程），包含重试机制
     :param task: 任务参数，可以是：
                  - 元组格式: (prompt, duration, output_path)
                  - 字典格式: {"prompt": "...", "duration": 10, "output_path": None}
     """
+    MAX_RETRIES = 3
+    
     if isinstance(task, dict):
         prompt = task.get("prompt")
         duration = task.get("duration", 10)
@@ -149,13 +163,23 @@ def generate_audio_task(task):
     if output_path is None:
         output_path = os.path.join(OUTPUT_DIR, f"generated_audio_{int(torch.rand(1).item() * 10000)}.wav")
     
-    try:
-        return generate_long_audio(prompt, duration, output_path)
-    except Exception as e:
-        print(f"❌ 生成失败 {output_path}: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            # 每次重试使用不同seed（基于prompt hash + attempt）
+            seed = (int(hashlib.md5(prompt.encode()).hexdigest()[:8], 16) + attempt) % (2**31)
+            result = generate_long_audio(prompt, duration, output_path)
+            if result is not None:
+                return result
+        except Exception as e:
+            print(f"❌ 生成失败 (第{attempt}/{MAX_RETRIES}次) {output_path}: {e}")
+            if attempt == MAX_RETRIES:
+                import traceback
+                traceback.print_exc()
+                return None
+            print(f"  🔄 重试中...")
+            time.sleep(1)
+    
+    return None
 
 def generate_audio_batch(tasks, max_workers=5):
     """
@@ -219,9 +243,12 @@ def generate_long_audio(prompt, duration, output_path=None):
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
     
+    # 基于prompt生成确定性seed
+    prompt_seed = int(hashlib.md5(prompt.encode()).hexdigest()[:8], 16) % (2**31)
+    
     if duration <= MAX_DURATION:
         print(f"⏱️  目标时长 {duration}秒 <= {MAX_DURATION}秒，直接生成")
-        return generate_audio(prompt, duration, output_path)
+        return generate_audio(prompt, duration, output_path, seed=prompt_seed)
     
     print("=" * 60)
     print(f"🔊 生成长音频: {duration}秒（超过{MAX_DURATION}秒限制）")
@@ -254,7 +281,8 @@ def generate_long_audio(prompt, duration, output_path=None):
         segment_prompt = prompt + time_context
         
         try:
-            generated_path = generate_audio(segment_prompt, segment_duration, segment_output_path)
+            segment_seed = prompt_seed + i  # 每个片段用不同但确定的seed
+            generated_path = generate_audio(segment_prompt, segment_duration, segment_output_path, seed=segment_seed)
             segment_paths.append(generated_path)
         except Exception as e:
             print(f"❌ 生成片段 {i+1} 失败: {e}")

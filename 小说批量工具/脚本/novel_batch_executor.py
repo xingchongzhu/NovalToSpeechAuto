@@ -30,11 +30,12 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh"):
         self.script_dir = script_dir  # 小说剧本目录
         self.output_dir = output_dir  # 输出目录
         self.temp_dir = temp_dir      # 临时目录
         self.tts_engine = tts_engine  # TTS引擎类型
+        self.sfx_engine = sfx_engine  # 音效生成引擎
         self.qwen_model_path = qwen_model_path  # Qwen TTS模型路径
         self.script_path = os.path.dirname(os.path.abspath(__file__))  # 脚本所在目录
         
@@ -100,7 +101,8 @@ class NovelBatchGenerator:
                 "--script-dir", self.script_dir,
                 "--output-dir", self.output_dir,
                 "--tts-engine", self.tts_engine,
-                "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model"
+                "--sfx-engine", self.sfx_engine,
+                "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
             ]
             
             logger.info("开始批量处理小说...")
@@ -157,7 +159,9 @@ def main():
                        help="临时目录路径")
     parser.add_argument("--tts-engine", type=str, default="qwen3-tts", 
                        help="TTS引擎类型 (qwen3-tts)")
-    parser.add_argument("--qwen-model-path", type=str, default="/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/qwen3-tts-base-model", 
+    parser.add_argument("--sfx-engine", type=str, default="woosh",
+                       help="音效生成引擎: woosh | stable-audio-open (默认: woosh)")
+    parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                        help="Qwen TTS模型路径")
     parser.add_argument("--keep-segments", action="store_true", 
                        help="保留临时片段文件")
@@ -185,7 +189,8 @@ def main():
         output_dir=output_dir,
         temp_dir=temp_dir,
         tts_engine=args.tts_engine,
-        qwen_model_path=args.qwen_model_path
+        qwen_model_path=args.qwen_model_path,
+        sfx_engine=args.sfx_engine
     )
     
     try:
