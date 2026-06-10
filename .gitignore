@@ -1,18 +1,36 @@
-# 忽略目录
+# 输出与临时目录
 output/
-qwen3-tts/
-qwen3-tts-base-model/
-.venv/
-
-# 忽略文件类型
-.DS_Store
-*.pyc
-__pycache__/
-*.egg-info/
-
-# 日志文件
 *.log
-
-# 临时文件
 *.tmp
 *.temp
+
+# Python 缓存与虚拟环境
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# 系统文件
+.DS_Store
+
+# 本地模型与第三方仓库
+Woosh/
+qwen3-tts/
+qwen3-tts-base-model/
+qwen3-tts-model/
+models/
+.cache/
+
+# 大模型权重
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# 音频产物
+*.wav
+*.mp3
+*.m4a
+*.flac
