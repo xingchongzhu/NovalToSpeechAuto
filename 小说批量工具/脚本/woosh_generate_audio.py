@@ -120,9 +120,12 @@ def generate_segment(prompt, seed=None, cfg=7.0, num_steps=4):
         audio_fake = ldm.autoencoder.inverse(x_fake)
 
     audio_fake = audio_fake.cpu()
-    max_abs = torch.max(torch.abs(audio_fake[0]))
+    audio = audio_fake[0]
+    if audio.dim() > 1:
+        audio = audio.mean(dim=0)
+    max_abs = torch.max(torch.abs(audio))
     norm_factor = max_abs if max_abs > 1.0 else 1.0
-    scaled = audio_fake[0] / norm_factor
+    scaled = audio / norm_factor
     return scaled
 
 # 主入口：从 stdin 读取 JSON 任务列表
@@ -182,6 +185,8 @@ if __name__ == "__main__":
                 final = final[:target_samples]
 
             os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+            if final.dim() == 1:
+                final = final.unsqueeze(0)
             torchaudio.save(output_path, final, sample_rate=48000)
             print(json.dumps({"status": "ok", "output": output_path, "segments": num_segments, "duration": target_duration}))
 
@@ -346,11 +351,11 @@ def _run_woosh_subprocess(tasks):
         )
 
         if result.returncode != 0:
-            print(f"[Woosh] 子进程错误: {result.stderr[:500]}")
+            print(f"[Woosh] 子进程错误: {result.stderr[:4000]}")
             return [{"status": "error", "error": result.stderr[:200]} for _ in tasks]
 
         if result.stderr.strip():
-            print(f"[Woosh] 子进程 stderr: {result.stderr[:1000]}")
+            print(f"[Woosh] 子进程 stderr: {result.stderr[:4000]}")
 
         # 解析输出（每行一个 JSON 结果）
         results = []

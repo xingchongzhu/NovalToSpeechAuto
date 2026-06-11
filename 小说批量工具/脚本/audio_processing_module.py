@@ -47,42 +47,53 @@ except Exception as e:
     _WOOSH_AVAILABLE = False
 
 
-def get_sfx_engine(engine_name: str = "woosh"):
+def get_audio_engine(engine_name: str = "woosh", engine_role: str = "音效"):
     """
-    获取音效生成引擎的 generate_audio_batch 函数
+    获取音频生成引擎的 generate_audio_batch 函数
 
     :param engine_name: 引擎名称，支持 "woosh" 或 "stable-audio-open"
+    :param engine_role: 引擎用途，用于日志区分
     :return: generate_audio_batch 函数
     """
     if engine_name == "woosh":
         if _WOOSH_AVAILABLE:
-            print(f"[AudioEngine] 使用音效引擎: Woosh-DFlow")
+            print(f"[AudioEngine] 使用{engine_role}引擎: Woosh-DFlow")
             return _woosh_generate_audio_batch
         else:
-            print(f"[AudioEngine] Woosh 不可用，降级到 stable-audio-open")
+            print(f"[AudioEngine] {engine_role}引擎 Woosh 不可用，降级到 stable-audio-open")
             engine_name = "stable-audio-open"
 
     if engine_name == "stable-audio-open":
         if _STABLE_AUDIO_AVAILABLE:
-            print(f"[AudioEngine] 使用音效引擎: Stable Audio Open")
+            print(f"[AudioEngine] 使用{engine_role}引擎: Stable Audio Open")
             return _stable_generate_audio_batch
         else:
-            print(f"[AudioEngine] stable-audio-open 不可用，降级到空引擎")
+            print(f"[AudioEngine] {engine_role}引擎 stable-audio-open 不可用，降级到空引擎")
 
     # 所有引擎都不可用时的降级实现
-    print(f"[AudioEngine] 无可用音效引擎，音效生成将被跳过")
+    print(f"[AudioEngine] 无可用{engine_role}引擎，生成将被跳过")
     def _fallback_generate_audio_batch(tasks, max_workers=1):
         results = []
         for task in tasks:
             try:
                 prompt = task["prompt"] if isinstance(task, dict) else task[0]
                 output_path = task["output_path"] if isinstance(task, dict) else task[2]
-                print(f"[AudioEngine] 跳过音效生成（无可用引擎）: {output_path}")
+                print(f"[AudioEngine] 跳过{engine_role}生成（无可用引擎）: {output_path}")
                 results.append(None)
             except:
                 results.append(None)
         return results
     return _fallback_generate_audio_batch
+
+
+def get_sfx_engine(engine_name: str = "woosh"):
+    """获取音效生成引擎，默认 Woosh。"""
+    return get_audio_engine(engine_name, "音效")
+
+
+def get_bgm_engine(engine_name: str = "stable-audio-open"):
+    """获取背景音生成引擎，默认 Stable Audio Open。"""
+    return get_audio_engine(engine_name, "背景音")
 
 # 导入多音字处理模块
 try:
@@ -488,7 +499,7 @@ class AudioGenerator:
     
     def __init__(self, json_path: str, output_dir: str = None,
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
-                 sfx_engine: str = "woosh"):
+                 sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-open"):
         if output_dir is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
             output_dir = os.path.join(base_dir, "../../output")
@@ -497,9 +508,11 @@ class AudioGenerator:
         self.tts_engine = tts_engine
         self.qwen_model_path = qwen_model_path
         self.sfx_engine = sfx_engine
-        
-        # 初始化音效生成引擎
-        self._generate_audio_batch = get_sfx_engine(self.sfx_engine)
+        self.bgm_engine = bgm_engine
+
+        # 初始化音效与背景音生成引擎
+        self._generate_sfx_batch = get_sfx_engine(self.sfx_engine)
+        self._generate_bgm_batch = get_bgm_engine(self.bgm_engine)
         
         self.config = self.load_config()
         self.chapter_name = self.config["chapter"]
@@ -630,7 +643,8 @@ class AudioGenerator:
         bgm_output_path = None
         effect_output_paths = []
         
-        batch_tasks = []
+        bgm_tasks = []
+        sfx_tasks = []
         MAX_DURATION = 47
         
         if line_config.bgm_params is not None:
@@ -640,7 +654,7 @@ class AudioGenerator:
             
             #屏蔽背景音
             if not os.path.exists(bgm_output_path):
-                batch_tasks.append({
+                bgm_tasks.append({
                     "prompt": line_config.bgm_params.scene_en,
                     "duration": bgm_duration,
                     "output_path": bgm_output_path
@@ -653,15 +667,19 @@ class AudioGenerator:
             #屏蔽音效
             if not os.path.exists(effect_output_path):
                 # 直接使用AI生成音效
-                batch_tasks.append({
+                sfx_tasks.append({
                     "prompt": effect_param.sound_en,
                     "duration": effect_param.duration,
                     "output_path": effect_output_path
                 })
         
-        if batch_tasks:
-            print(f"🔄 开始批量生成 {len(batch_tasks)} 个音频 (引擎: {self.sfx_engine})...")
-            self._generate_audio_batch(batch_tasks)
+        if bgm_tasks:
+            print(f"🔄 开始批量生成 {len(bgm_tasks)} 个背景音 (引擎: {self.bgm_engine})...")
+            self._generate_bgm_batch(bgm_tasks)
+
+        if sfx_tasks:
+            print(f"🔄 开始批量生成 {len(sfx_tasks)} 个音效 (引擎: {self.sfx_engine})...")
+            self._generate_sfx_batch(sfx_tasks)
         
         if bgm_output_path and os.path.exists(bgm_output_path):
             bgm_audio = AudioSegment.from_wav(bgm_output_path)
@@ -800,7 +818,7 @@ class NovelAudioSynthesizer:
     
     def __init__(self, script_dir: str = None, output_dir: str = None,
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
-                 sfx_engine: str = "woosh"):
+                 sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-open"):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         
         self.script_dir = script_dir or os.path.join(self.base_dir, "../小说剧本")
@@ -809,6 +827,7 @@ class NovelAudioSynthesizer:
         self.qwen_model_path = qwen_model_path if qwen_model_path else \
             "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
         self.sfx_engine = sfx_engine
+        self.bgm_engine = bgm_engine
         
         os.makedirs(self.output_dir, exist_ok=True)
         
@@ -816,6 +835,7 @@ class NovelAudioSynthesizer:
         print(f"📁 剧本目录: {self.script_dir}")
         print(f"📁 输出目录: {self.output_dir}")
         print(f"🔊 音效引擎: {self.sfx_engine}")
+        print(f"🎼 背景音引擎: {self.bgm_engine}")
 
     def check_environment(self) -> bool:
         """检查环境"""
@@ -862,7 +882,8 @@ class NovelAudioSynthesizer:
             output_dir=self.output_dir,
             tts_engine=self.tts_engine,
             qwen_model_path=self.qwen_model_path,
-            sfx_engine=self.sfx_engine
+            sfx_engine=self.sfx_engine,
+            bgm_engine=self.bgm_engine
         )
         
         return generator.generate_chapter_audio()
@@ -935,6 +956,8 @@ if __name__ == "__main__":
     parser.add_argument("--tts-engine", type=str, default="qwen3-tts", help="TTS引擎类型")
     parser.add_argument("--sfx-engine", type=str, default="woosh",
                         help="音效生成引擎: woosh | stable-audio-open (默认: woosh)")
+    parser.add_argument("--bgm-engine", type=str, default="stable-audio-open",
+                        help="背景音生成引擎: stable-audio-open | woosh (默认: stable-audio-open)")
     parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                         help="Qwen TTS模型路径")
     
@@ -945,7 +968,8 @@ if __name__ == "__main__":
         output_dir=args.output_dir,
         tts_engine=args.tts_engine,
         qwen_model_path=args.qwen_model_path,
-        sfx_engine=args.sfx_engine
+        sfx_engine=args.sfx_engine,
+        bgm_engine=args.bgm_engine
     )
     
     if args.json_path:

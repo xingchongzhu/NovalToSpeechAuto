@@ -17,6 +17,8 @@ TEMP_BASE_DIR="$OUTPUT_BASE_DIR/temp"
 TTS_ENGINE="qwen3-tts"
 # 默认音效生成引擎
 SFX_ENGINE="woosh"
+# 默认背景音生成引擎
+BGM_ENGINE="stable-audio-open"
 
 # 确保所有目录存在
 mkdir -p "$TEMP_BASE_DIR"
@@ -75,6 +77,7 @@ show_help() {
   echo "  --temp-dir <目录>    指定临时目录 (默认: $TEMP_BASE_DIR)"
   echo "  --keep-segments      保留临时片段文件"
   echo "  --sfx-engine <引擎>  音效引擎: woosh | stable-audio-open (默认: $SFX_ENGINE)"
+  echo "  --bgm-engine <引擎>  背景音引擎: stable-audio-open | woosh (默认: $BGM_ENGINE)"
   echo "  --debug              启用调试模式"
   echo "  -h, --help           显示帮助信息"
   echo ""
@@ -162,6 +165,7 @@ main() {
   local temp_dir="$TEMP_BASE_DIR"
   local tts_engine="$TTS_ENGINE"
   local sfx_engine="$SFX_ENGINE"
+  local bgm_engine="$BGM_ENGINE"
   local keep_segments=""
   local debug=""
   
@@ -189,6 +193,10 @@ main() {
         ;;
       --sfx-engine)
         sfx_engine="$2"
+        shift 2
+        ;;
+      --bgm-engine)
+        bgm_engine="$2"
         shift 2
         ;;
       --debug)
@@ -226,6 +234,7 @@ main() {
   log_info "输出目录: $output_dir"
   log_info "临时目录: $temp_dir"
   log_info "音效引擎: $sfx_engine"
+  log_info "背景音引擎: $bgm_engine"
   
   # 设置环境变量禁用Hugging Face Hub的repo_id验证
   export HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION=1
@@ -236,6 +245,7 @@ main() {
     --temp-dir "$temp_dir" \
     --tts-engine "$tts_engine" \
     --sfx-engine "$sfx_engine" \
+    --bgm-engine "$bgm_engine" \
     $keep_segments \
     $debug
   

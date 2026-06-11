@@ -30,12 +30,13 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh"):
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-open"):
         self.script_dir = script_dir  # 小说剧本目录
         self.output_dir = output_dir  # 输出目录
         self.temp_dir = temp_dir      # 临时目录
         self.tts_engine = tts_engine  # TTS引擎类型
         self.sfx_engine = sfx_engine  # 音效生成引擎
+        self.bgm_engine = bgm_engine  # 背景音生成引擎
         self.qwen_model_path = qwen_model_path  # Qwen TTS模型路径
         self.script_path = os.path.dirname(os.path.abspath(__file__))  # 脚本所在目录
         
@@ -102,6 +103,7 @@ class NovelBatchGenerator:
                 "--output-dir", self.output_dir,
                 "--tts-engine", self.tts_engine,
                 "--sfx-engine", self.sfx_engine,
+                "--bgm-engine", self.bgm_engine,
                 "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
             ]
             
@@ -161,6 +163,8 @@ def main():
                        help="TTS引擎类型 (qwen3-tts)")
     parser.add_argument("--sfx-engine", type=str, default="woosh",
                        help="音效生成引擎: woosh | stable-audio-open (默认: woosh)")
+    parser.add_argument("--bgm-engine", type=str, default="stable-audio-open",
+                       help="背景音生成引擎: stable-audio-open | woosh (默认: stable-audio-open)")
     parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                        help="Qwen TTS模型路径")
     parser.add_argument("--keep-segments", action="store_true", 
@@ -190,7 +194,8 @@ def main():
         temp_dir=temp_dir,
         tts_engine=args.tts_engine,
         qwen_model_path=args.qwen_model_path,
-        sfx_engine=args.sfx_engine
+        sfx_engine=args.sfx_engine,
+        bgm_engine=args.bgm_engine
     )
     
     try:
