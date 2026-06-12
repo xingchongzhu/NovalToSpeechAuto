@@ -9,7 +9,7 @@ import glob
 # ============================================================
 # PART 1: Parse the markdown file to extract all available voice names
 # ============================================================
-md_path = os.path.expanduser("~/Documents/trae_projects/NovelToSpeechAutoTool/小说批量工具/剧本生成skill/克隆音频角色列表说明.md")
+md_path = os.path.expanduser("~/Documents/trae_projects/NovelToSpeechAutoTool/.comate/skills/novel-to-script/references/克隆音频角色列表说明.md")
 
 voice_names = set()
 

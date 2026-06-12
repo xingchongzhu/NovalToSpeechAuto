@@ -21,35 +21,29 @@
       "volume": "0%",
       "speed": "-2%"
     },
-    "卢家仆人": {
-      "role_voice": "云杰-男青年",
-      "pitch": "0Hz",
+    "桃叶巷老人": {
+      "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+      "pitch": "-4Hz",
       "volume": "0%",
-      "speed": "0%"
-    },
-    "矮小老人": {
-      "role_voice": "云泽-男中年",
-      "pitch": "-6Hz",
-      "volume": "0%",
-      "speed": "-8%"
+      "speed": "-6%"
     },
     "年轻道人": {
-      "role_voice": "明朗-男声-阳光少年,情感",
-      "pitch": "+2Hz",
+      "role_voice": "儒雅青年-男声-磁性,性感",
+      "pitch": "+1Hz",
       "volume": "+1%",
-      "speed": "0%"
+      "speed": "+2%"
     },
     "教书先生": {
-      "role_voice": "云健-中年男性磁性声音",
-      "pitch": "-2Hz",
-      "volume": "+1%",
-      "speed": "-8%"
+      "role_voice": "王几-儒雅男声",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-5%"
     },
     "蒙学孩童": {
-      "role_voice": "正太-童声-天真,活泼",
-      "pitch": "+6Hz",
+      "role_voice": "小北-童声-清脆",
+      "pitch": "+4Hz",
       "volume": "0%",
-      "speed": "+3%"
+      "speed": "0%"
     }
   },
   "data": [
@@ -58,15 +52,14 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "第三章 日出",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "第三章 日出",
           "instruct": "庄重开场"
         },
-        "bgm": {},
         "effects": []
       },
       "mix": {
@@ -78,25 +71,46 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "小镇不大不小，六百多户人家，镇上穷苦人家的门户，陈平安大多认得，至于家底殷实的有钱人家，门槛高，泥腿子少年可跨不进去，一些个大户扎堆的宽敞巷弄，陈平安甚至都没有踏足过，那边的街道，多铺以大块大块的青石板，下雨天，绝不会一脚踩下去泥浆四溅。那些质地极佳的青石板，经过千百年来人马车辆的踩踏碾压，早已摩挲得光滑如镜。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "小镇不大不小，六百多[duō]户人家，镇上穷苦人家的门户，陈平安大多认得，至于家底殷实的有钱人家，门槛高，泥腿子少年可跨不进去，一些个大户扎堆的宽敞巷弄，陈平安甚至都[dōu]没有踏足过，那边的街道，多铺以大块大块的青石板，下雨天，绝不会一脚踩下去泥浆四溅。那些质地极佳的青石板，经过千百年来人马车辆的踩踏碾压，早已摩挲得光滑如镜。卢、李、赵、宋四个姓氏，在小镇这边是大姓，乡塾就是这几家出的钱，在城外大多拥有两三座大龙窑。历任窑务督造官的官邸，就和这几户人家在一条街上。不凑巧，陈平安今天要送的十封信，几乎全是小镇出了名的阔绰户，这也很合情合理，龙生龙凤生凤，老鼠生儿打地洞，能够寄信回家的远方游子，家世肯定不差，否则也没那底气出门远行[xíng]。其中九封信，陈平安其实就去了两个地方，福鹿街和桃叶巷，当他第一次踩在大如床板的青石板上，少年有些忐忑，放缓了脚步，竟然有些自惭形秽，忍不住觉得自己的草鞋脏了街面。陈平安送出去的第一封信，是祖上得到过一柄皇帝御赐玉如意的卢家，当少年站在门口，愈发局促不安。有钱人家就是讲究多，卢家宅子大不说，门口还[hái]摆放两尊石狮子，等人高，气势凌人。宋集薪说这玩意儿能够避凶镇邪，陈平安根本不清楚何谓凶邪，只是很好奇等人高的狮子嘴里，好像还含着[zhe]一粒圆滚滚的石球，这又是如何雕琢出来的？陈平安强忍住去触摸石球的冲动，走上台阶，扣响那个青铜狮子门首，很快就有个年轻人开门走出，一听说是来送信的，那人面无表情，用双指捻住信封一角，接过那封家书后，便转身快步走入宅子，重[zhòng]重关上贴有彩绘财神像的大门。之后少年的送信过程，也是这般平淡无奇，桃叶巷街角有户名声不显的人家，开门的是个慈眉善目的矮小老人，收起信后，笑着说了句。",
           "instruct": "平静叙述"
         },
-        "bgm": {
-          "play_mode": "switch",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 1,
-          "fade_out": 0,
-          "volume": "-18%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
+        "effects": [
+          {
+            "trigger_delay": 67.8,
+            "duration": 4,
+            "process_mode": "insert",
+            "name": "草鞋踏石",
+            "sound_cn": "草鞋踩上青石板声",
+            "sound_en": "straw sandals stepping carefully on smooth bluestone street, soft dry foot taps, quiet wealthy alley",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 112.4,
+            "duration": 3,
+            "process_mode": "insert",
+            "name": "青铜门环",
+            "sound_cn": "青铜门环扣门声",
+            "sound_en": "bronze lion door knocker striking heavy wooden gate, metallic knock resonance, wealthy mansion entrance",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 126.0,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "大门重关",
+            "sound_cn": "宅院大门重重关上声",
+            "sound_en": "heavy painted wooden mansion door closing hard, deep wooden thud, door latch rattling loudly",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
       },
       "mix": {
         "mode": "mix"
@@ -104,26 +118,16 @@
     },
     {
       "id": 2,
-      "role": "旁白",
+      "role": "桃叶巷老人",
       "api": {
         "voice": {
-          "text": "卢、李、赵、宋四个姓氏，在小镇这边是大姓，乡塾就是这几家出的钱，在城外大多拥有两三座大龙窑。历任窑务督造官的官邸，就和这几户人家在一条街上。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
+          "role": "桃叶巷老人",
+          "role_voice": "幽默大爷-男声-沙哑,烟嗓",
+          "speed": "-6%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-18%",
-          "pitch": "+0Hz"
+          "pitch": "-4Hz",
+          "text": "小伙子，辛苦了。要不要进来歇歇，喝口热水？",
+          "instruct": "慈祥温和"
         },
         "effects": []
       },
@@ -136,33 +140,33 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "不凑巧，陈平安今天要送的十封信，几乎全是小镇出了名的阔绰户，这也很合情合理，龙生龙凤生凤，老鼠生儿打地洞，能够寄信回家的远方游子，家世肯定不差，否则也没那底气出门远行。其中九封信，陈平安其实就去了两个地方，福鹿街和桃叶巷，当他第一次踩在大如床板的青石板上，少年有些忐忑，放缓了脚步，竟然有些自惭形秽，忍不住觉得自己的草鞋脏了街面。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "略带羞涩"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-18%",
-          "pitch": "+0Hz"
+          "text": "少年腼腆笑了笑，摇摇头，跑着[zhe]离去。老人将那封家书轻轻放入袖子，没有着急回去宅院，抬头望向远方，视线浑浊。最后视线，由高到低，由远及近，凝视着街道两旁的桃树，貌似[sì]老朽昏聩的老人，这才挤出一丝笑意。老人转身离去。没过多久，一只颜色可爱的小黄雀停到桃树枝头，喙啄犹嫩，轻轻嘶鸣。留到最后的那封信，陈平安需要送去给乡塾授业的教书先生，期间[jiān]路过一座算命摊子，是个身穿老旧道袍的年轻道士，挺直腰杆坐镇桌后，他头戴一顶高冠，像一朵绽放的莲花。年轻道人看到快步跑过的少年后，赶紧打招呼道。",
+          "instruct": "略带神秘"
         },
         "effects": [
           {
-            "trigger_delay": 8,
-            "duration": 6,
+            "trigger_delay": 23.2,
+            "duration": 3,
             "process_mode": "insert",
-            "name": "脚步轻踏",
-            "sound_cn": "青石板上的脚步声",
-            "sound_en": "Footsteps on Stone Slabs",
-            "volume": "-25%",
+            "name": "黄雀落枝",
+            "sound_cn": "小黄雀落到桃枝声",
+            "sound_en": "small yellow bird landing on peach tree branch, tiny claws gripping twig, soft feather flutter",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 26.2,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "黄雀轻鸣",
+            "sound_cn": "小黄雀轻微鸟鸣声",
+            "sound_en": "small yellow bird chirping softly on peach blossom branch, delicate high bird call, quiet street",
+            "volume": "-22%",
             "pitch": "+0Hz"
           }
         ]
@@ -173,26 +177,16 @@
     },
     {
       "id": 4,
-      "role": "旁白",
+      "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "陈平安送出去的第一封信，是祖上得到过一柄皇帝御赐玉如意的卢家，当少年站在门口，愈发局促不安。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带紧张"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-18%",
-          "pitch": "+0Hz"
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "年轻人，走过路过不要错过，来抽一支[zhī]签，贫道帮你算上一卦，可以帮你预知吉凶福祸。",
+          "instruct": "热情招揽"
         },
         "effects": []
       },
@@ -205,56 +199,15 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "有钱人家就是讲究多，卢家宅子大不说，门口还摆放两尊石狮子，等人高，气势凌人。宋集薪说这玩意儿能够避凶镇邪，陈平安根本不清楚何谓凶邪，只是很好奇等人高的狮子嘴里，好像还含着一粒圆滚滚的石球，这又是如何雕琢出来的？陈平安强忍住去触摸石球的冲动，走上台阶，扣响那个青铜狮子门首，很快就有个年轻人开门走出，一听说是来送信的，那人面无表情，用双指捻住信封一角，接过那封家书后，便转身快步走入宅子，重重关上贴有彩绘财神像的大门。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "陈平安没有停下脚步，不过转[zhuǎn]过头，摆摆手。道人犹不死心，身体前倾，提高嗓门。",
           "instruct": "平静叙述"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-18%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 12,
-            "duration": 2,
-            "process_mode": "insert",
-            "name": "门环敲打",
-            "sound_cn": "青铜门环叩门声",
-            "sound_en": "Knocking on Brass Door Knocker",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 16,
-            "duration": 2,
-            "process_mode": "insert",
-            "name": "木门开启",
-            "sound_cn": "大门开启声",
-            "sound_en": "Door Opening",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 22,
-            "duration": 2,
-            "process_mode": "insert",
-            "name": "木门关闭",
-            "sound_cn": "大门重重关闭",
-            "sound_en": "Door Slamming Shut",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -262,26 +215,16 @@
     },
     {
       "id": 6,
-      "role": "旁白",
+      "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "之后少年的送信过程，也是这般平淡无奇，桃叶巷街角有户名声不显的人家，开门的是个慈眉善目的矮小老人，收起信后，笑着说了句：",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-18%",
-          "pitch": "+0Hz"
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "年轻人，往日贫道替人解签，要收十文钱，今儿破个例，只收你三文钱！当然了，若是抽出了一支[zhī]上签，你不妨再多加一文喜钱，如果鸿运当头，是上上签，那贫道也只收你五文钱，如何？",
+          "instruct": "循循善诱"
         },
         "effects": []
       },
@@ -291,68 +234,37 @@
     },
     {
       "id": 7,
-      "role": "矮小老人",
-      "api": {
-        "voice": {
-          "text": "小伙子，辛苦了。要不要进来歇歇，喝口热水？",
-          "role": "矮小老人",
-          "role_voice": "云泽-男中年",
-          "speed": "-8%",
-          "volume": "0%",
-          "pitch": "-6Hz",
-          "instruct": "和蔼"
-        },
-        "bgm": {
-          "play_mode": "lower",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 8,
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "少年腼腆笑了笑，摇摇头，跑着离去。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
+          "text": "远处陈平安的脚步，明显停顿了一下，年轻道人已经火速起身，趁热打铁，高声道。",
+          "instruct": "略带调侃"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "年轻道人",
+      "api": {
+        "voice": {
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "大早上的，年轻人你是头位客人，贫道干脆就好人做到底，只要你坐下抽签，实不相瞒，贫道会写一些黄纸符文，可以帮你为先人祈福，积攒阴德，以贫道的能耐，不敢说一定让人投个大富大贵的好胎，可要说多出一两分福报，终归是尝试一下的。",
+          "instruct": "加紧劝说"
         },
-        "effects": [
-          {
-            "trigger_delay": 2,
-            "duration": 4,
-            "process_mode": "insert",
-            "name": "脚步轻踏",
-            "sound_cn": "跑开的脚步声",
-            "sound_en": "Running Away Footsteps",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -363,23 +275,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "老人将那封家书轻轻放入袖子，没有着急回去宅院，抬头望向远方，视线浑浊。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "略带感慨"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "陈平安愣了愣，将信将疑地转身返回，坐在摊子前的长凳上。一朴素道士，一寒酸少年，两个大小穷光蛋，相对而坐。道人笑着伸出手，示意少年拿起签筒。陈平安犹豫不决，突然说道。",
+          "instruct": "平静叙述"
         },
         "effects": []
       },
@@ -389,26 +291,16 @@
     },
     {
       "id": 10,
-      "role": "旁白",
+      "role": "陈平安",
       "api": {
         "voice": {
-          "text": "最后视线，由高到低，由远及近，凝视着街道两旁的桃树，貌似老朽昏聩的老人，这才挤出一丝笑意。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "我不抽签，你只帮我写一份黄纸符文，行[xíng]不行[xíng]？",
+          "instruct": "认真试探"
         },
         "effects": []
       },
@@ -421,62 +313,23 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "老人转身离去。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 12,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "没过多久，一只颜色可爱的小黄雀停到桃树枝头，喙啄犹嫩，轻轻嘶鸣。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "在陈平安的记忆中，好像这位云游至此的年轻道爷，在小镇已经待了最少[shǎo]五六年，模样倒[dào]是没什么变化，对谁也都[dōu]和和气气的，平时就是帮人摸骨看[kàn]相、算卦抽签，偶尔也能代写家书，有意思的是，桌案上那只[zhī]拥簇着一百零八支[zhī]竹签的签筒，这么多年来，小镇男男女女抽签，既没有谁抽出过上上签，也没有谁从签筒摇晃出一支下签，仿佛整整一百零八签，签签中上[zhòng]上无坏签。所以若是逢年过节，纯粹为了讨个好彩头，小镇百姓花上十文钱，也能接受，可真遇上烦心事，肯定不会有人愿意来这里当冤大头。若说这个道士是彻头彻尾的骗子，倒[dào]也冤枉了人家，小镇就这么大，如果真只会装神弄鬼、坑蒙拐骗，早就给[gěi]人撵了出去。所以说这位年轻道人的功力，肯定不在相术、解签两事上。倒[dào]是有些小病小灾，很多人喝了道人的一碗符水，很快就能痊愈，颇为灵验。年轻道人摇头道。",
+          "instruct": "略带调侃"
         },
         "effects": [
           {
-            "trigger_delay": 4,
+            "trigger_delay": 19.0,
             "duration": 3,
             "process_mode": "insert",
-            "name": "黄雀嘶鸣",
-            "sound_cn": "黄雀鸣叫声",
-            "sound_en": "Sparrow Chirping",
-            "volume": "-28%",
+            "name": "签筒竹签",
+            "sound_cn": "签筒竹签轻晃声",
+            "sound_en": "bamboo fortune sticks shifting inside wooden cylinder, dry bamboo clatter, fortune telling table ambience",
+            "volume": "-24%",
             "pitch": "+0Hz"
           }
         ]
@@ -486,27 +339,36 @@
       }
     },
     {
-      "id": 13,
-      "role": "旁白",
+      "id": 12,
+      "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "留到最后的那封信，陈平安需要送去给乡塾授业的教书先生，期间路过一座算命摊子，是个身穿老旧道袍的年轻道士，挺直腰杆坐镇桌后，他头戴一顶高冠，像一朵绽放的莲花。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "贫道行[xíng]事，童叟无欺，说好了解签加写符一起，收你五文钱的。",
+          "instruct": "一本正经"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "陈平安",
+      "api": {
+        "voice": {
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "是三文钱。",
+          "instruct": "低声反驳"
         },
         "effects": []
       },
@@ -519,28 +381,18 @@
       "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "年轻人，走过路过不要错过，来抽一支签，贫道帮你算上一卦，可以帮你预知吉凶福祸。",
           "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
           "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "热情招揽"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "pitch": "+1Hz",
+          "text": "万一抽出上上签，可不就是五文钱了嘛。",
+          "instruct": "哈哈一笑"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -548,23 +400,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "陈平安没有停下脚步，不过转过头，摆摆手。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "陈平安下定决心，伸手去拿签筒，突然抬头问道。",
+          "instruct": "认真"
         },
         "effects": []
       },
@@ -574,31 +416,21 @@
     },
     {
       "id": 16,
-      "role": "年轻道人",
+      "role": "陈平安",
       "api": {
         "voice": {
-          "text": "年轻人，往日贫道替人解签，要收十文钱，今儿破个例，只收你三文钱！当然了，若是抽出了一支上签，你不妨再多加一文喜钱，如果鸿运当头，是上上签，那贫道也只收你五文钱，如何？",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "极力劝说"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "道长是如何知道我身上恰好有五文钱？",
+          "instruct": "警觉询问"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -606,23 +438,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "远处陈平安的脚步，明显停顿了一下，年轻道人已经火速起身，趁热打铁，高声道：",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "道人正襟危坐。",
           "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
         },
         "effects": []
       },
@@ -635,28 +457,18 @@
       "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "大早上的，年轻人你是头位客人，贫道干脆就好人做到底，只要你坐下抽签，实不相瞒，贫道会写一些黄纸符文，可以帮你为先人祈福，积攒阴德，以贫道的能耐，不敢说一定让人投个大富大贵的好胎，可要说多出一两分福报，终归是尝试一下的。",
           "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
           "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "循循善诱"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "pitch": "+1Hz",
+          "text": "贫道看人福气厚薄，财运多寡，一向很准。",
+          "instruct": "故作高深"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -664,46 +476,15 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "陈平安愣了愣，将信将疑地转身返回，坐在摊子前的长凳上。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "略带犹豫"
+          "text": "陈平安想了想，拿起那只签筒。道人微笑道。",
+          "instruct": "平静叙述"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 3,
-            "duration": 3,
-            "process_mode": "insert",
-            "name": "脚步轻踏",
-            "sound_cn": "返回的脚步声",
-            "sound_en": "Footsteps Returning",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 6,
-            "duration": 1,
-            "process_mode": "insert",
-            "name": "木凳吱呀",
-            "sound_cn": "坐下时木凳声响",
-            "sound_en": "Wooden Bench Creak",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -711,26 +492,16 @@
     },
     {
       "id": 20,
-      "role": "旁白",
+      "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "一朴素道士，一寒酸少年，两个大小穷光蛋，相对而坐。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带调侃"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "年轻人，不要紧张，命里有时终须有，命里无时莫强求，以平常心看待无常事，便是第一等万全法。",
+          "instruct": "温和劝慰"
         },
         "effects": []
       },
@@ -743,23 +514,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "道人笑着伸出手，示意少年拿起签筒。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "陈平安重新将签筒放回桌上，神情郑重，问道。",
+          "instruct": "郑重"
         },
         "effects": []
       },
@@ -772,28 +533,18 @@
       "role": "陈平安",
       "api": {
         "voice": {
-          "text": "我不抽签，你只帮我写一份黄纸符文，行不行？",
           "role": "陈平安",
           "role_voice": "风发少年-男声-潇洒,磁性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "犹豫"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "道长，我把五文钱都给你，也不抽签了，只请道长将那张黄纸符文，写得比平时更[gèng]好一些，行[xíng]不行[xíng]？",
+          "instruct": "郑重恳切"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -801,23 +552,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "在陈平安的记忆中，好像这位云游至此的年轻道爷，在小镇已经待了最少五六年，模样倒是没什么变化，对谁也都和和气气的，平时就是帮人摸骨看相、算卦抽签，偶尔也能代写家书，有意思的是，桌案上那只拥簇着一百零八支竹签的签筒，这么多年来，小镇男男女女抽签，既没有谁抽出过上上签，也没有谁从签筒摇晃出一支下签，仿佛整整一百零八签，签签中上无坏签。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "道人笑意如常，略作思量，点头道。",
           "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
         },
         "effects": []
       },
@@ -827,26 +568,16 @@
     },
     {
       "id": 24,
-      "role": "旁白",
+      "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "所以若是逢年过节，纯粹为了讨个好彩头，小镇百姓花上十文钱，也能接受，可真遇上烦心事，肯定不会有人愿意来这里当冤大头。若说这个道士是彻头彻尾的骗子，倒也冤枉了人家，小镇就这么大，如果真只会装神弄鬼、坑蒙拐骗，早就给人撵了出去。所以说这位年轻道人的功力，肯定不在相术、解签两事上。倒是有些小病小灾，很多人喝了道人的一碗符水，很快就能痊愈，颇为灵验。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "可。",
+          "instruct": "简短应允"
         },
         "effects": []
       },
@@ -856,113 +587,56 @@
     },
     {
       "id": 25,
-      "role": "年轻道人",
-      "api": {
-        "voice": {
-          "text": "贫道行事，童叟无欺，说好了解签加写符一起，收你五文钱的。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "一本正经"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 26,
-      "role": "陈平安",
-      "api": {
-        "voice": {
-          "text": "是三文钱。",
-          "role": "陈平安",
-          "role_voice": "风发少年-男声-潇洒,磁性",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "认真纠正"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 27,
-      "role": "年轻道人",
-      "api": {
-        "voice": {
-          "text": "万一抽出上上签，可不就是五文钱了嘛。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "狡黠"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 28,
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "陈平安下定决心，伸手去拿签筒，突然抬头问道：",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
+          "text": "桌案上，笔墨砚纸早就备好，道人仔细问过了陈平安爹娘的姓名籍贯生辰，抽出一张黄色符纸，很快就写完，一气呵成。至于写了什么，陈平安茫然不知。搁下笔，提起那张符纸，年轻道人吹了吹墨迹。",
+          "instruct": "略带神秘"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+        "effects": [
+          {
+            "trigger_delay": 6.6,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "符纸抽出",
+            "sound_cn": "黄纸符纸抽出声",
+            "sound_en": "thin yellow talisman paper pulled from stack, dry paper sliding, quiet fortune telling table",
+            "volume": "-25%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.4,
+            "duration": 4,
+            "process_mode": "insert",
+            "name": "毛笔写符",
+            "sound_cn": "毛笔在黄纸上书写声",
+            "sound_en": "soft brush writing quickly on yellow talisman paper, ink strokes, paper rustling on wooden table",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "年轻道人",
+      "api": {
+        "voice": {
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "拿回家后，人站在门槛内，将黄纸烧在门槛外，就行了。",
+          "instruct": "认真叮嘱"
         },
         "effects": []
       },
@@ -971,32 +645,101 @@
       }
     },
     {
-      "id": 29,
-      "role": "陈平安",
+      "id": 27,
+      "role": "旁白",
       "api": {
         "voice": {
-          "text": "道长是如何知道我身上恰好有五文钱？",
-          "role": "陈平安",
-          "role_voice": "风发少年-男声-潇洒,磁性",
-          "speed": "-2%",
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "好奇"
+          "text": "少年郑重其事地接过那张符纸，小心翼翼珍藏[cáng]起来后，没有忘记把五枚铜钱放在桌案上，鞠躬致谢。年轻道人挥挥手，示意少年忙自己的事情去。陈平安撒开腿跑去送最后一封信。道人懒洋洋靠在椅子上，瞥了眼铜钱，弯腰伸手将它们搂到身前。就在此时，一只小巧玲珑的黄雀，从高空飞扑到桌面上，轻啄了一下某颗铜钱，很快便没了兴致，振翅远去。",
+          "instruct": "生动描述"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+        "effects": [
+          {
+            "trigger_delay": 5.8,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "铜钱放桌",
+            "sound_cn": "铜钱放到木桌声",
+            "sound_en": "five copper coins placed on wooden table, small metallic clinks, coins settling on old desk",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 24.0,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "黄雀落桌",
+            "sound_cn": "黄雀飞落桌面声",
+            "sound_en": "small yellow bird fluttering down onto wooden table, rapid tiny wing flaps, light landing tap",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 26.6,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "鸟喙啄钱",
+            "sound_cn": "鸟喙轻啄铜钱声",
+            "sound_en": "tiny bird beak pecking copper coin, small metallic tick, delicate quick tap on table",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30.2,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "黄雀振翅",
+            "sound_cn": "黄雀振翅飞走声",
+            "sound_en": "small yellow bird taking off from table, rapid feather flutter, tiny wings fading away",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "年轻道人",
+      "api": {
+        "voice": {
+          "role": "年轻道人",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "黄雀始欲衔花来，君家种桃花未开。",
+          "instruct": "悠悠念诗"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "道人悠悠然念完这句诗词后，故作潇洒地轻轻挥袖，叹气道。",
+          "instruct": "略带调侃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1004,52 +747,13 @@
       "role": "年轻道人",
       "api": {
         "voice": {
-          "text": "贫道看人福气厚薄，财运多寡，一向很准。",
           "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
+          "role_voice": "儒雅青年-男声-磁性,性感",
+          "speed": "+2%",
           "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "故作高深"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 31,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "陈平安想了想，拿起那只签筒。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "pitch": "+1Hz",
+          "text": "命里八尺，莫求一丈啊。",
+          "instruct": "故作潇洒"
         },
         "effects": []
       },
@@ -1058,32 +762,72 @@
       }
     },
     {
-      "id": 32,
-      "role": "年轻道人",
+      "id": 31,
+      "role": "旁白",
       "api": {
         "voice": {
-          "text": "年轻人，不要紧张，命里有时终须有，命里无时莫强求，以平常心看待无常事，便是第一等万全法。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "语重心长"
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这一挥袖，就有两支竹签从袖子里滑落，掉在地上，道人哎呦一声，赶紧捡起来，然后鬼鬼祟祟四处[chù]张望，发现暂时无人留心这边，这才如释重负，重新将那两支竹签藏[cáng]入宽松的袖口。年轻道人咳嗽一声，板起脸，继续守株待兔，等待下一位客人。他有些感慨，果然还是赚女子的钱，更容易一些。其实，年轻道人袖中所藏两支竹签，一支是最上签，一支是最下签，都是用来挣大钱的。不足为[wéi]外人道也。少年自然不清楚这些奥妙玄机，一路脚步轻盈，来到那座乡塾馆舍外，附近竹林郁郁，绿意欲滴。陈平安放缓脚步，屋内响起中年人的醇厚嗓音。",
+          "instruct": "轻松调侃转温和"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+        "effects": [
+          {
+            "trigger_delay": 1.4,
+            "duration": 2,
+            "process_mode": "insert",
+            "name": "竹签掉落",
+            "sound_cn": "两支竹签掉在地上声",
+            "sound_en": "two bamboo fortune sticks slipping from sleeve, dry bamboo clacking on ground, sudden small drop",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 38.4,
+            "duration": 4,
+            "process_mode": "insert",
+            "name": "轻快脚步",
+            "sound_cn": "少年轻快跑步声",
+            "sound_en": "light youthful footsteps running on quiet street, straw sandals tapping softly, brisk morning pace",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 41.8,
+            "duration": 4,
+            "process_mode": "insert",
+            "name": "竹林风声",
+            "sound_cn": "竹林轻风声",
+            "sound_en": "soft breeze through bamboo grove, leaves rustling gently, calm school courtyard ambience",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "教书先生",
+      "api": {
+        "voice": {
+          "role": "教书先生",
+          "role_voice": "王几-儒雅男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "日出有曜，羔裘如濡。",
+          "instruct": "醇厚诵读"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -1091,23 +835,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "陈平安重新将签筒放回桌上，神情郑重，问道：",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "随后便有一阵齐整清脆的稚嫩嗓音响起。",
           "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
         },
         "effects": []
       },
@@ -1117,97 +851,56 @@
     },
     {
       "id": 34,
-      "role": "陈平安",
+      "role": "蒙学孩童",
       "api": {
         "voice": {
-          "text": "道长，我把五文钱都给你，也不抽签了，只请道长将那张黄纸符文，写得比平时更好一些，行不行？",
-          "role": "陈平安",
-          "role_voice": "风发少年-男声-潇洒,磁性",
-          "speed": "-2%",
+          "role": "蒙学孩童",
+          "role_voice": "小北-童声-清脆",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "诚恳"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "pitch": "+4Hz",
+          "text": "日出有曜，羔裘如濡。",
+          "instruct": "齐声朗读"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
       "id": 35,
-      "role": "年轻道人",
-      "api": {
-        "voice": {
-          "text": "可。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "干脆"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 36,
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "桌案上，笔墨砚纸早就备好，道人仔细问过了陈平安爹娘的姓名籍贯生辰，抽出一张黄色符纸，很快就写完，一气呵成。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
+          "text": "陈平安抬头望去，旭日东升，煌煌泱泱。少年怔怔出神。等他回过神，蒙学孩童正在摇头晃脑，按照先生的要求，娴熟背诵一段文章。",
+          "instruct": "明亮温暖"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "蒙学孩童",
+      "api": {
+        "voice": {
+          "role": "蒙学孩童",
+          "role_voice": "小北-童声-清脆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+4Hz",
+          "text": "惊蛰时分[fēn]，天地生发，万物始荣。夜卧早行[xíng]，广步于庭，君子缓行[xíng]，以便[biàn]生志……",
+          "instruct": "齐声背诵"
         },
-        "effects": [
-          {
-            "trigger_delay": 4,
-            "duration": 5,
-            "process_mode": "insert",
-            "name": "毛笔书写",
-            "sound_cn": "毛笔写字声",
-            "sound_en": "Writing with Brush",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1218,23 +911,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "至于写了什么，陈平安茫然不知。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "text": "陈平安站在学塾门口，欲言又止。两鬓微霜的中年儒士转[zhuǎn]头望来，轻轻走出屋子。陈平安将书信双手递出去，恭敬道。",
+          "instruct": "温和叙述"
         },
         "effects": []
       },
@@ -1244,31 +927,21 @@
     },
     {
       "id": 38,
-      "role": "年轻道人",
+      "role": "陈平安",
       "api": {
         "voice": {
-          "text": "拿回家后，人站在门槛内，将黄纸烧在门槛外，就行了。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "平静"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "role": "陈平安",
+          "role_voice": "风发少年-男声-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这是先生的书信。",
+          "instruct": "恭敬"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -1276,36 +949,15 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "少年郑重其事地接过那张符纸，小心翼翼珍藏起来后，没有忘记把五枚铜钱放在桌案上，鞠躬致谢。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "一袭青衫的高大男人接过信封后，温声说道。",
           "instruct": "平静叙述"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 6,
-            "duration": 1,
-            "process_mode": "insert",
-            "name": "铜钱放置",
-            "sound_cn": "铜钱放在桌上",
-            "sound_en": "Coins Placed on Table",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1313,31 +965,21 @@
     },
     {
       "id": 40,
-      "role": "年轻道人",
+      "role": "教书先生",
       "api": {
         "voice": {
-          "text": "去吧。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "随意"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "role": "教书先生",
+          "role_voice": "王几-儒雅男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "以后无事的时候，你可以多来这里旁听。",
+          "instruct": "温和鼓励"
         },
         "effects": []
       },
       "mix": {
-        "mode": "voice_on_bgm"
+        "mode": "mix"
       }
     },
     {
@@ -1345,36 +987,15 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "陈平安撒开腿跑去送最后一封信。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
+          "text": "陈平安有些为难，毕竟他未必真有时间来此听这位先生教书，少年不愿欺骗他。男人笑了笑，善解人意道。",
           "instruct": "平静叙述"
         },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 1,
-            "duration": 4,
-            "process_mode": "insert",
-            "name": "脚步轻踏",
-            "sound_cn": "奔跑脚步声",
-            "sound_en": "Running Footsteps",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1382,26 +1003,16 @@
     },
     {
       "id": 42,
-      "role": "旁白",
+      "role": "教书先生",
       "api": {
         "voice": {
-          "text": "道人懒洋洋靠在椅子上，瞥了眼铜钱，弯腰伸手将它们搂到身前。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
+          "role": "教书先生",
+          "role_voice": "王几-儒雅男声",
+          "speed": "-5%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带调侃"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
+          "pitch": "-1Hz",
+          "text": "无妨，道理全在书上，做人却在书外。你去忙吧。",
+          "instruct": "温和通达"
         },
         "effects": []
       },
@@ -1414,734 +1025,13 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "就在此时，一只小巧玲珑的黄雀，从高空飞扑到桌面上，轻啄了一下某颗铜钱，很快便没了兴致，振翅远去。",
           "role": "旁白",
           "role_voice": "云健-中年男性磁性声音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 2,
-            "duration": 2,
-            "process_mode": "insert",
-            "name": "黄雀啄食",
-            "sound_cn": "黄雀轻啄铜钱",
-            "sound_en": "Sparrow Pecking Coin",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 44,
-      "role": "年轻道人",
-      "api": {
-        "voice": {
-          "text": "黄雀始欲衔花来，君家种桃花未开。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "-5%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "悠然念诗"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 45,
-      "role": "年轻道人",
-      "api": {
-        "voice": {
-          "text": "命里八尺，莫求一丈啊。",
-          "role": "年轻道人",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "-5%",
-          "volume": "+1%",
-          "pitch": "+2Hz",
-          "instruct": "感慨"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 46,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "这一挥袖，就有两支竹签从袖子里滑落，掉在地上，道人哎呦一声，赶紧捡起来，然后鬼鬼祟祟四处张望，发现暂时无人留心这边，这才如释重负，重新将那两支竹签藏入宽松的袖口。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带戏谑"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 2,
-            "duration": 1,
-            "process_mode": "insert",
-            "name": "竹签掉落",
-            "sound_cn": "竹签掉地声",
-            "sound_en": "Bamboo Sticks Falling",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 47,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "年轻道人咳嗽一声，板起脸，继续守株待兔，等待下一位客人。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 48,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "他有些感慨，果然还是赚女子的钱，更容易一些。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "内心独白"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 49,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "其实，年轻道人袖中所藏两支竹签，一支是最上签，一支是最下签，都是用来挣大钱的。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 50,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "不足为外人道也。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "神秘"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 51,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "少年自然不清楚这些奥妙玄机，一路脚步轻盈，来到那座乡塾馆舍外，附近竹林郁郁，绿意欲滴。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 52,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "陈平安放缓脚步，屋内响起中年人的醇厚嗓音：",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 53,
-      "role": "教书先生",
-      "api": {
-        "voice": {
-          "text": "日出有曜，羔裘如濡。",
-          "role": "教书先生",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-8%",
-          "volume": "+1%",
-          "pitch": "-2Hz",
-          "instruct": "庄重"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 54,
-      "role": "蒙学孩童",
-      "api": {
-        "voice": {
-          "text": "日出有曜，羔裘如濡。",
-          "role": "蒙学孩童",
-          "role_voice": "正太-童声-天真,活泼",
-          "speed": "+3%",
-          "volume": "0%",
-          "pitch": "+6Hz",
-          "instruct": "齐整朗读"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 55,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "陈平安抬头望去，旭日东升，煌煌泱泱。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 56,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "少年怔怔出神。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 57,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "等他回过神，蒙学孩童正在摇头晃脑，按照先生的要求，娴熟背诵一段文章：\"惊蛰时分，天地生发，万物始荣。夜卧早行，广步于庭，君子缓行，以便生志……\"",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 58,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "陈平安站在学塾门口，欲言又止。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带犹豫"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 59,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "两鬓微霜的中年儒士转头望来，轻轻走出屋子。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-25%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 3,
-            "duration": 2,
-            "process_mode": "insert",
-            "name": "脚步轻踏",
-            "sound_cn": "走出屋子的脚步声",
-            "sound_en": "Footsteps Out of House",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 60,
-      "role": "陈平安",
-      "api": {
-        "voice": {
-          "text": "这是先生的书信。",
-          "role": "陈平安",
-          "role_voice": "风发少年-男声-潇洒,磁性",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "恭敬"
-        },
-        "bgm": {
-          "play_mode": "lower",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-28%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 61,
-      "role": "教书先生",
-      "api": {
-        "voice": {
-          "text": "以后无事的时候，你可以多来这里旁听。",
-          "role": "教书先生",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-8%",
-          "volume": "+1%",
-          "pitch": "-2Hz",
-          "instruct": "温和"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-28%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 62,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "陈平安有些为难，毕竟他未必真有时间来此听这位先生教书，少年不愿欺骗他。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带犹豫"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-28%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 63,
-      "role": "教书先生",
-      "api": {
-        "voice": {
-          "text": "无妨，道理全在书上，做人却在书外。你去忙吧。",
-          "role": "教书先生",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-8%",
-          "volume": "+1%",
-          "pitch": "-2Hz",
-          "instruct": "善解人意"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-28%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_on_bgm"
-      }
-    },
-    {
-      "id": 64,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "陈平安松了口气，告辞离去。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-28%",
-          "pitch": "+0Hz"
-        },
-        "effects": [
-          {
-            "trigger_delay": 1,
-            "duration": 3,
-            "process_mode": "insert",
-            "name": "脚步轻踏",
-            "sound_cn": "告辞离去的脚步声",
-            "sound_en": "Footsteps Leaving",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 65,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "少年跑出去很远后，鬼使神差地转头回望。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "平静叙述"
-        },
-        "bgm": {
-          "play_mode": "keep",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 0,
-          "volume": "-28%",
-          "pitch": "+0Hz"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 66,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "只见那位先生始终站在门口，身影沐浴在阳光中，远远望去，恍若神人。",
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "instruct": "略带崇敬"
-        },
-        "bgm": {
-          "play_mode": "fade",
-          "scene": "小镇暮色",
-          "scene_cn": "古风小镇清晨",
-          "scene_en": "Ancient Town Morning",
-          "fade_in": 0,
-          "fade_out": 3,
-          "volume": "-28%",
-          "pitch": "+0Hz"
+          "text": "陈平安松了口气，告辞离去。少年跑出去很远后，鬼使神差地转[zhuǎn]头回望。只见那位先生始终站在门口，身影沐浴在阳光中，远远望去，恍若神人。",
+          "instruct": "明亮收束"
         },
         "effects": []
       },
@@ -2149,5 +1039,52 @@
         "mode": "mix"
       }
     }
-  ]
+  ],
+  "soundscape": {
+    "version": "1.0",
+    "strategy": "scene_layers",
+    "engine": "stable-audio-open",
+    "description": "场景级连续背景音配置；不使用逐句 api.bgm；点状动作声由 effects 处理。",
+    "scene_layers": [
+      {
+        "name": "福鹿街送信清晨",
+        "start_line": 1,
+        "end_line": 2,
+        "prompt": "very subtle low volume cinematic background ambience, wealthy ancient town street in clear morning, broad smooth bluestone slabs reflecting pale sunrise, tall mansion gates and bronze door knockers in quiet distance, restrained sense of class distance and boyish unease, soft dawn air moving through empty rich alleys, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no footsteps, no voices, no music, no melody, no sharp foreground sounds, no prominent events, no repetitive loop feeling, no noise bursts",
+        "duration": 47,
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "桃叶巷黄雀与算命摊",
+        "start_line": 3,
+        "end_line": 32,
+        "prompt": "very subtle low volume cinematic background ambience, quiet peach tree alley and fortune telling stall in ancient town morning, pale sunlight through sparse peach branches, faint paper talisman and bamboo fortune-stick table texture, small yellow bird presence as distant delicate nature color, playful mysterious market-corner mood, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no readable voices, no music, no melody, no sharp foreground sounds, no prominent events, no repetitive loop feeling, no noise bursts",
+        "duration": 47,
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "乡塾日出朗读",
+        "start_line": 33,
+        "end_line": 43,
+        "prompt": "very subtle low volume cinematic background ambience, bamboo grove school courtyard at sunrise, warm clear morning light over old wooden classroom, faint bamboo leaves moving in soft air, distant paper ink and classroom room tone without readable speech, calm scholarly atmosphere with quiet hope and awe, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no readable voices, no music, no melody, no sharp foreground sounds, no prominent events, no repetitive loop feeling, no noise bursts",
+        "duration": 47,
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
 }
