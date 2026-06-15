@@ -83,7 +83,7 @@
           {
             "trigger_delay": 3.9,
             "duration": 8,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "烛火摇曳",
             "sound_cn": "蜡烛燃烧摇曳声",
             "sound_en": "Candle Flickering",
@@ -93,7 +93,7 @@
           {
             "trigger_delay": 9.9,
             "duration": 6,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "桃枝敲打",
             "sound_cn": "桃枝敲墙声",
             "sound_en": "Peach Branch Tapping",
@@ -103,7 +103,7 @@
           {
             "trigger_delay": 67.9,
             "duration": 2,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "吹灭蜡烛",
             "sound_cn": "吹灭蜡烛声",
             "sound_en": "Blowing Out Candle",
@@ -113,7 +113,7 @@
           {
             "trigger_delay": 70.9,
             "duration": 3,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "脚步踏上台阶声",
             "sound_en": "Footsteps on Steps",
@@ -123,7 +123,7 @@
           {
             "trigger_delay": 207.1,
             "duration": 5,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "散步脚步声",
             "sound_en": "Walking Steps",
@@ -133,7 +133,7 @@
           {
             "trigger_delay": 310.3,
             "duration": 2,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "脚步声由远及近",
             "sound_en": "Footsteps Approaching",
@@ -448,7 +448,7 @@
           {
             "trigger_delay": 0,
             "duration": 2,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "钱袋抛掷",
             "sound_cn": "钱袋落地声",
             "sound_en": "Money Pouch Dropping",
@@ -497,7 +497,7 @@
           {
             "trigger_delay": 2,
             "duration": 3,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "脚步声远去",
             "sound_en": "Footsteps Fading Away",
@@ -721,17 +721,12 @@
     }
   ],
   "soundscape": {
-    "version": "1.0",
-    "strategy": "chapter_bed_plus_scene_layers",
-    "engine": "stable-audio-open",
-    "description": "场景级连续背景音配置：scene_layers 按行号覆盖局部场景；不使用贯穿整章的 chapter_bed，避免持续底噪影响听感；点状动作声仍由 effects/Woosh 生成。",
     "scene_layers": [
       {
         "name": "少年屋内驱蛇虫",
         "start_line": 1,
         "end_line": 3,
-        "prompt": "very subtle low volume cinematic background ambience, poor clay-walled room at night during early spring, soft candle warmth against old timber beams and thin bedding, faint cold air seeping from courtyard cracks, distant ancient town stillness beyond the door, intimate lonely boyhood atmosphere, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
-        "duration": 35,
+        "prompt": "very subtle low volume cinematic background ambience, small worn wooden room at night, dim candlelight flicker, faint old timber room tone, slight cold air leaking through cracks, restrained and intimate village night atmosphere, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
         "volume": "-22%",
         "fade_in": 2,
         "fade_out": 2,
@@ -743,8 +738,7 @@
         "name": "星空下的孤独",
         "start_line": 4,
         "end_line": 4,
-        "prompt": "very subtle low volume cinematic background ambience, quiet starry night over a small ancient village, cool open night air above low yellow mud walls, extremely sparse soft insects far away, faint courtyard room tone behind the boy, wide lonely sky feeling with restrained sadness, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no chirp bursts, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no distortion",
-        "duration": 47,
+        "prompt": "very subtle low volume cinematic background ambience, quiet starry night above an ancient village courtyard, gentle night breeze moving past low mud walls, sparse summer insects far away, faint open-sky stillness and cool night air, lonely reflective atmosphere under bright stars, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
         "volume": "-22%",
         "fade_in": 2,
         "fade_out": 2,
@@ -756,8 +750,7 @@
         "name": "街巷人物交锋",
         "start_line": 5,
         "end_line": 25,
-        "prompt": "very subtle low volume cinematic background ambience, narrow ancient town alley at night, low yellow mud walls and old courtyard gates, soft wind moving through empty lanes, restrained tension around wall-top confrontation, distant village night texture without clear events, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no footsteps, no crowd voices, no sharp foreground sounds, no prominent events, no music, no melody, no repetitive loop feeling, no noise bursts",
-        "duration": 47,
+        "prompt": "very subtle low volume cinematic background ambience, narrow ancient town alley at night, low mud walls and closed courtyard doors on both sides, soft wind brushing the lane, faint distant household room tone, restrained tension between neighboring homes, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no footsteps, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
         "volume": "-22%",
         "fade_in": 2,
         "fade_out": 2,
@@ -769,8 +762,7 @@
         "name": "夜色悬念收束",
         "start_line": 26,
         "end_line": 30,
-        "prompt": "very subtle low volume cinematic background ambience, mysterious quiet night in an ancient town after confrontation, cold air around old wooden doors and empty lanes, faint distant insect texture fading in and out, restrained dark suspense with lonely warmth underneath, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no heavy drone, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
-        "duration": 47,
+        "prompt": "very subtle low volume cinematic background ambience, deep quiet night in an ancient small town, soft wind through empty lane corners, faint distant insects and sleeping houses, restrained suspense settling back into stillness, dark but calm nocturnal air, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
         "volume": "-22%",
         "fade_in": 2,
         "fade_out": 3,

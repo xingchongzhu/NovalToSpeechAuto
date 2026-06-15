@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-open"):
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3"):
         self.script_dir = script_dir  # 小说剧本目录
         self.output_dir = output_dir  # 输出目录
         self.temp_dir = temp_dir      # 临时目录
@@ -160,11 +160,11 @@ def main():
     parser.add_argument("--temp-dir", type=str, default=os.path.join(script_path, "temp"), 
                        help="临时目录路径")
     parser.add_argument("--tts-engine", type=str, default="qwen3-tts", 
-                       help="TTS引擎类型 (qwen3-tts)")
+                       help="TTS引擎类型 (voxcpm | qwen3-tts)")
     parser.add_argument("--sfx-engine", type=str, default="woosh",
-                       help="音效生成引擎: woosh | stable-audio-open (默认: woosh)")
-    parser.add_argument("--bgm-engine", type=str, default="stable-audio-open",
-                       help="背景音生成引擎: stable-audio-open | woosh (默认: stable-audio-open)")
+                       help="音效生成引擎: woosh | stable-audio-3 (默认: woosh)")
+    parser.add_argument("--bgm-engine", type=str, default="stable-audio-3",
+                       help="背景音生成引擎: stable-audio-3 | woosh (默认: stable-audio-3)")
     parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                        help="Qwen TTS模型路径")
     parser.add_argument("--keep-segments", action="store_true", 

@@ -18,7 +18,7 @@ TTS_ENGINE="qwen3-tts"
 # 默认音效生成引擎
 SFX_ENGINE="woosh"
 # 默认背景音生成引擎
-BGM_ENGINE="stable-audio-open"
+BGM_ENGINE="stable-audio-3"
 
 # 确保所有目录存在
 mkdir -p "$TEMP_BASE_DIR"
@@ -76,8 +76,8 @@ show_help() {
   echo "  --output-dir <目录>  指定输出目录 (默认: $OUTPUT_BASE_DIR)"
   echo "  --temp-dir <目录>    指定临时目录 (默认: $TEMP_BASE_DIR)"
   echo "  --keep-segments      保留临时片段文件"
-  echo "  --sfx-engine <引擎>  音效引擎: woosh | stable-audio-open (默认: $SFX_ENGINE)"
-  echo "  --bgm-engine <引擎>  背景音引擎: stable-audio-open | woosh (默认: $BGM_ENGINE)"
+  echo "  --sfx-engine <引擎>  音效引擎: woosh | stable-audio-3 (默认: $SFX_ENGINE)"
+  echo "  --bgm-engine <引擎>  背景音引擎: stable-audio-3 | woosh (默认: $BGM_ENGINE)"
   echo "  --debug              启用调试模式"
   echo "  -h, --help           显示帮助信息"
   echo ""

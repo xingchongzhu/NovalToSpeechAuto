@@ -25,20 +25,21 @@ import hashlib
 import subprocess
 import tempfile
 import pickle
+import concurrent.futures
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Optional, Any
 import warnings
 
-# ======================== 音效生成引擎注册 ========================
-# 支持 sfx_engine 参数灵活切换: "woosh" | "stable-audio-open"
+# ======================== 音效/背景音生成引擎注册 ========================
+# 支持 sfx_engine / bgm_engine 参数灵活切换: "woosh" | "stable-audio-3"
 
-# Stable Audio Open 引擎
+# Stable Audio 3 MLX 引擎
 try:
-    from stabilityai_stable_generate_audio import generate_audio_batch as _stable_generate_audio_batch
-    _STABLE_AUDIO_AVAILABLE = True
+    from stable_audio3_background_generate_audio import generate_audio_batch as _stable_audio3_generate_audio_batch
+    _STABLE_AUDIO3_AVAILABLE = True
 except Exception as e:
-    print(f"[AudioEngine] 导入 stable-audio-open 模块失败: {e}")
-    _STABLE_AUDIO_AVAILABLE = False
+    print(f"[AudioEngine] 导入 stable-audio-3 模块失败: {e}")
+    _STABLE_AUDIO3_AVAILABLE = False
 
 # Woosh-DFlow 引擎
 try:
@@ -50,39 +51,28 @@ except Exception as e:
 
 
 def get_audio_engine(engine_name: str = "woosh", engine_role: str = "音效"):
-    """
-    获取音频生成引擎的 generate_audio_batch 函数
-
-    :param engine_name: 引擎名称，支持 "woosh" 或 "stable-audio-open"
-    :param engine_role: 引擎用途，用于日志区分
-    :return: generate_audio_batch 函数
-    """
+    """获取音频生成引擎的 generate_audio_batch 函数，仅支持 woosh / stable-audio-3。"""
     if engine_name == "woosh":
         if _WOOSH_AVAILABLE:
             print(f"[AudioEngine] 使用{engine_role}引擎: Woosh-DFlow")
             return _woosh_generate_audio_batch
-        else:
-            print(f"[AudioEngine] {engine_role}引擎 Woosh 不可用，降级到 stable-audio-open")
-            engine_name = "stable-audio-open"
+        print(f"[AudioEngine] {engine_role}引擎 Woosh 不可用，降级到空引擎")
+    elif engine_name == "stable-audio-3":
+        if _STABLE_AUDIO3_AVAILABLE:
+            print(f"[AudioEngine] 使用{engine_role}引擎: Stable Audio 3 MLX")
+            return _stable_audio3_generate_audio_batch
+        print(f"[AudioEngine] {engine_role}引擎 stable-audio-3 不可用，降级到空引擎")
+    else:
+        print(f"[AudioEngine] 不支持的{engine_role}引擎: {engine_name}，仅支持 woosh | stable-audio-3")
 
-    if engine_name == "stable-audio-open":
-        if _STABLE_AUDIO_AVAILABLE:
-            print(f"[AudioEngine] 使用{engine_role}引擎: Stable Audio Open")
-            return _stable_generate_audio_batch
-        else:
-            print(f"[AudioEngine] {engine_role}引擎 stable-audio-open 不可用，降级到空引擎")
-
-    # 所有引擎都不可用时的降级实现
-    print(f"[AudioEngine] 无可用{engine_role}引擎，生成将被跳过")
     def _fallback_generate_audio_batch(tasks, max_workers=1):
         results = []
         for task in tasks:
             try:
-                prompt = task["prompt"] if isinstance(task, dict) else task[0]
                 output_path = task["output_path"] if isinstance(task, dict) else task[2]
                 print(f"[AudioEngine] 跳过{engine_role}生成（无可用引擎）: {output_path}")
                 results.append(None)
-            except:
+            except Exception:
                 results.append(None)
         return results
     return _fallback_generate_audio_batch
@@ -93,8 +83,8 @@ def get_sfx_engine(engine_name: str = "woosh"):
     return get_audio_engine(engine_name, "音效")
 
 
-def get_bgm_engine(engine_name: str = "stable-audio-open"):
-    """获取背景音生成引擎，默认 Stable Audio Open。"""
+def get_bgm_engine(engine_name: str = "stable-audio-3"):
+    """获取背景音生成引擎，默认 Stable Audio 3。"""
     return get_audio_engine(engine_name, "背景音")
 
 # 导入多音字处理模块
@@ -217,7 +207,8 @@ class AudioEngine:
         self.qwen_tts_model = None
         self._voice_clone_prompt_cache = {}  # 进程内缓存，避免当前运行重复编码参考音频
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-        self.voice_prompt_cache_dir = os.path.join(project_root, "clone-audio", ".qwen_prompt_cache")
+        self.clone_audio_dir = os.path.join(project_root, "clone-audio")
+        self.voice_prompt_cache_dir = os.path.join(self.clone_audio_dir, ".qwen_prompt_cache")
         
         os.makedirs(self.temp_dir, exist_ok=True)
         os.makedirs(self.voice_prompt_cache_dir, exist_ok=True)
@@ -281,8 +272,7 @@ class AudioEngine:
                 print(f"[TTSEngine] 语音生成完成，耗时: {elapsed_time:.2f} 秒")
                 audio = self._adjust_audio_params(audio, params.speed, params.volume, params.pitch)
                 return audio
-            else:
-                raise ValueError(f"未知的TTS引擎: {self.tts_engine}")
+            raise ValueError(f"未知的TTS引擎: {self.tts_engine}")
         except Exception as e:
             print(f"[TTSEngine] 语音生成失败: {e}")
             raise
@@ -297,7 +287,7 @@ class AudioEngine:
         qwen_speaker = params.role_voice if params.role_voice else "阿传-男声-低沉,浑厚"
         instruct = params.instruct.strip() if params.instruct else "neutral"
         
-        clone_audio_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/clone-audio"
+        clone_audio_dir = self.clone_audio_dir
         
         def _find_audio_file(speaker_name):
             for ext in ['.mp3', '.wav']:
@@ -727,7 +717,7 @@ class AudioGenerator:
     
     def __init__(self, json_path: str, output_dir: str = None,
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
-                 sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-open",
+                 sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
                  persist_intermediate_audio: bool = False):
         if output_dir is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -793,12 +783,14 @@ class AudioGenerator:
 
         chapter_bed = soundscape.get("chapter_bed")
         if chapter_bed:
+            chapter_start_line = int(chapter_bed.get("start_line", 0))
+            chapter_end_line = int(chapter_bed.get("end_line", self.config["data"][-1]["id"]))
             layers.append(SoundscapeLayer(
                 name=chapter_bed.get("name", "chapter_bed"),
                 prompt=chapter_bed.get("prompt", ""),
-                start_line=int(chapter_bed.get("start_line", 0)),
-                end_line=int(chapter_bed.get("end_line", self.config["data"][-1]["id"])),
-                duration=float(chapter_bed.get("duration", 47)),
+                start_line=chapter_start_line,
+                end_line=chapter_end_line,
+                duration=float(chapter_bed.get("duration", self._estimate_soundscape_duration(chapter_start_line, chapter_end_line))),
                 volume=chapter_bed.get("volume", "-16%"),
                 fade_in=float(chapter_bed.get("fade_in", 3)),
                 fade_out=float(chapter_bed.get("fade_out", 3)),
@@ -809,12 +801,14 @@ class AudioGenerator:
             ))
 
         for scene_layer in soundscape.get("scene_layers", []):
+            scene_start_line = int(scene_layer.get("start_line", 0))
+            scene_end_line = int(scene_layer.get("end_line", scene_layer.get("start_line", 0)))
             layers.append(SoundscapeLayer(
                 name=scene_layer.get("name", "scene_layer"),
                 prompt=scene_layer.get("prompt", ""),
-                start_line=int(scene_layer.get("start_line", 0)),
-                end_line=int(scene_layer.get("end_line", scene_layer.get("start_line", 0))),
-                duration=float(scene_layer.get("duration", 47)),
+                start_line=scene_start_line,
+                end_line=scene_end_line,
+                duration=float(scene_layer.get("duration", self._estimate_soundscape_duration(scene_start_line, scene_end_line))),
                 volume=scene_layer.get("volume", "-17%"),
                 fade_in=float(scene_layer.get("fade_in", 2)),
                 fade_out=float(scene_layer.get("fade_out", 2)),
@@ -825,6 +819,58 @@ class AudioGenerator:
             ))
 
         return [layer for layer in layers if layer.prompt]
+
+    def _estimate_soundscape_duration(self, start_line: int, end_line: int) -> float:
+        """根据段落文字量和语速估算 soundscape 背景音时长，优先贴合当前场景跨度"""
+        if not self.config.get("data"):
+            return 30.0
+
+        def _parse_speed_multiplier(speed_value: Any) -> float:
+            try:
+                speed_text = str(speed_value).strip()
+                if not speed_text.endswith('%'):
+                    return 1.0
+                speed_percent = float(speed_text[:-1])
+                multiplier = 1.0 + (speed_percent / 100.0)
+                return max(0.4, multiplier)
+            except Exception:
+                return 1.0
+
+        clamped_start = max(0, start_line)
+        clamped_end = max(clamped_start, end_line)
+        selected_lines = [
+            item for item in self.config.get("data", [])
+            if clamped_start <= int(item.get("id", -1)) <= clamped_end
+        ]
+        if not selected_lines:
+            return 30.0
+
+        line_count = len(selected_lines)
+        estimated_voice_seconds = 0.0
+        total_chars = 0
+
+        for item in selected_lines:
+            voice_data = (item.get("api") or {}).get("voice", {})
+            text = str(voice_data.get("text") or item.get("text", "")).strip()
+            char_count = len(text)
+            total_chars += char_count
+
+            speed_multiplier = _parse_speed_multiplier(voice_data.get("speed", "0%"))
+            base_chars_per_second = 4.6
+            estimated_voice_seconds += char_count / (base_chars_per_second * speed_multiplier)
+
+        line_transition_padding = max(2.0, line_count * 0.8)
+        estimated_seconds = estimated_voice_seconds + line_transition_padding
+
+        if total_chars <= 60:
+            estimated_seconds = min(estimated_seconds, 18.0)
+        elif line_count <= 2:
+            estimated_seconds = min(estimated_seconds, 28.0)
+        elif line_count <= 6:
+            estimated_seconds = min(estimated_seconds, 42.0)
+
+        estimated_seconds = max(10.0, estimated_seconds)
+        return round(estimated_seconds + 1.5, 2)
 
     def _soundscape_layer_path(self, layer: SoundscapeLayer) -> str:
         """获取 soundscape 背景音文件路径"""
@@ -847,7 +893,7 @@ class AudioGenerator:
             if not os.path.exists(output_path):
                 tasks.append({
                     "prompt": layer.prompt,
-                    "duration": min(layer.duration, 47),
+                    "duration": layer.duration,
                     "output_path": output_path
                 })
 
@@ -934,22 +980,20 @@ class AudioGenerator:
         
         voice_params_dict = None
         voice_data = line["api"].get("voice", {})
-        
+
         if tts_engine == "qwen3-tts":
-            if voice_data:
-                voice_params_dict = voice_data.copy()
+            if isinstance(voice_data, dict):
+                voice_params_dict = (voice_data.get("qwen_params") or voice_data).copy()
             elif hasattr(self, 'roles_definition') and role in self.roles_definition:
                 role_def = self.roles_definition[role]
-                if 'voice' in role_def:
-                    voice_params_dict = role_def['voice'].copy()
-        
+                voice_params_dict = (role_def.get('qwen_voice') or role_def.get('voice') or role_def).copy()
+
         if voice_params_dict is None:
-            if voice_data:
+            if isinstance(voice_data, dict) and voice_data:
                 voice_params_dict = voice_data.copy()
             elif hasattr(self, 'roles_definition') and role in self.roles_definition:
                 role_def = self.roles_definition[role]
-                if 'voice' in role_def:
-                    voice_params_dict = role_def['voice'].copy()
+                voice_params_dict = (role_def.get('voice') or role_def).copy()
         
         if voice_params_dict and 'text' not in voice_params_dict:
             voice_params_dict['text'] = line.get('text', '')
@@ -1004,8 +1048,18 @@ class AudioGenerator:
             f"\n🎙️ [{self.novel_name} / {self.chapter_name}] 第{current_index}/{self.total_lines}句 | 角色: {line_config.role} | 文本: {text_preview}..."
         )
         
-        voice_output_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
-        single_output_path = os.path.join(self.mix_dir, f"mixed_line_{line_config.id}.wav")
+        voice_fingerprint = hashlib.md5(json.dumps({
+            "tts_engine": self.tts_engine,
+            "role": line_config.role,
+            "role_voice": line_config.voice_params.role_voice,
+            "text": line_config.voice_params.text,
+            "speed": line_config.voice_params.speed,
+            "volume": line_config.voice_params.volume,
+            "pitch": line_config.voice_params.pitch,
+            "instruct": line_config.voice_params.instruct,
+        }, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:10]
+        voice_output_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}_{voice_fingerprint}.wav")
+        single_output_path = os.path.join(self.mix_dir, f"mixed_line_{line_config.id}_{voice_fingerprint}.wav")
         generated_new_audio = False
         remixed_audio = False
         
@@ -1039,19 +1093,17 @@ class AudioGenerator:
         
         bgm_tasks = []
         sfx_tasks = []
-        MAX_DURATION = 47
         
         if line_config.bgm_params is not None and not self.config.get("soundscape"):
-            bgm_duration = min(len(voice_audio) / 1000.0, MAX_DURATION)
+            bgm_duration = len(voice_audio) / 1000.0
             bgm_scene_cn = line_config.bgm_params.scene.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
             bgm_output_path = os.path.join(self.bgm_dir, f"bgm_line_{bgm_scene_cn}_{line_config.id}.wav")
-            #屏蔽背景音
-            #if not os.path.exists(bgm_output_path):
-            #    bgm_tasks.append({
-            #        "prompt": line_config.bgm_params.scene_en,
-            #        "duration": bgm_duration,
-            #        "output_path": bgm_output_path
-            #    })
+            if not os.path.exists(bgm_output_path):
+                bgm_tasks.append({
+                    "prompt": line_config.bgm_params.scene_en,
+                    "duration": bgm_duration,
+                    "output_path": bgm_output_path
+                })
         
         for i, effect_param in enumerate(line_config.effect_params):
             effect_name = effect_param.name.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
@@ -1129,8 +1181,7 @@ class AudioGenerator:
         
         if self.tts_engine == "qwen3-tts":
             return self.generate_chapter_audio_serial()
-        else:
-            return self.generate_chapter_audio_parallel()
+        return self.generate_chapter_audio_parallel()
 
     def generate_chapter_audio_serial(self) -> str:
         """串行生成整章音频"""
@@ -1138,9 +1189,7 @@ class AudioGenerator:
         start_time = time.time()
         
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
-        #屏蔽背景音
-        #soundscape_layers = self._parse_soundscape_layers()
-        soundscape_layers = None
+        soundscape_layers = self._parse_soundscape_layers()
 
         merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
         line_ranges = {}
@@ -1180,9 +1229,7 @@ class AudioGenerator:
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
-       #屏蔽背景音
-        #soundscape_layers = self._parse_soundscape_layers()
-        soundscape_layers = None
+        soundscape_layers = self._parse_soundscape_layers()
 
         results = []
         total_lines = len(line_configs)
@@ -1238,7 +1285,7 @@ class NovelAudioSynthesizer:
     
     def __init__(self, script_dir: str = None, output_dir: str = None,
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
-                 sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-open",
+                 sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
                  persist_intermediate_audio: bool = False):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         
@@ -1376,11 +1423,11 @@ if __name__ == "__main__":
     parser.add_argument("--json-path", type=str, help="小说剧本JSON文件路径")
     parser.add_argument("--script-dir", type=str, help="小说剧本目录路径")
     parser.add_argument("--output-dir", type=str, help="音频输出目录")
-    parser.add_argument("--tts-engine", type=str, default="qwen3-tts", help="TTS引擎类型")
+    parser.add_argument("--tts-engine", type=str, default="qwen3-tts", help="TTS引擎类型: qwen3-tts")
     parser.add_argument("--sfx-engine", type=str, default="woosh",
-                        help="音效生成引擎: woosh | stable-audio-open (默认: woosh)")
-    parser.add_argument("--bgm-engine", type=str, default="stable-audio-open",
-                        help="背景音生成引擎: stable-audio-open | woosh (默认: stable-audio-open)")
+                        help="音效生成引擎: woosh | stable-audio-3 (默认: woosh)")
+    parser.add_argument("--bgm-engine", type=str, default="stable-audio-3",
+                        help="背景音生成引擎: stable-audio-3 | woosh (默认: stable-audio-3)")
     parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                         help="Qwen TTS模型路径")
     parser.add_argument("--persist-intermediate-audio", action="store_true",

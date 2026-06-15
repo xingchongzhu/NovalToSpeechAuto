@@ -99,6 +99,7 @@ description: >
 - 同一角色连续内容必须合并，即使场景、情绪、动作或音效变化也不额外切片。
 - `某人道：“台词”` 拆成旁白动作和角色台词，例如 `某人道。` 属于旁白，`台词` 属于对应角色配音。
 - 动作和音效不触发分段，放到当前片段 `effects`，并按动作在合并后文本中的实际位置计算 `trigger_delay`；默认全部使用 `overlay` 混音叠加，避免打断播报。
+- 除非用户明确要求做插入式音效表现，否则禁止使用 `insert`；常规小说剧本中的音效一律按混音叠加处理。
 - 背景音不触发分段，背景场景变化写入顶层 `soundscape.scene_layers`，通过 `start_line/end_line` 覆盖合并后的片段范围。
 - 拟人发声（笑/叹/哭）可根据剧情需要写入 `effects`，也可写进 `text` 与 `instruct`；如果作为音效，必须短促自然且不盖过配音。
 - 剧本生成完成后，必须逐条复核所有 `effects` 是否与文本动作点对齐，不能只生成字段后直接交付。
@@ -225,17 +226,12 @@ JSON 顶层必须包含：
 
 ```json
 "soundscape": {
-  "version": "1.0",
-  "strategy": "scene_layers",
-  "engine": "stable-audio-open",
-  "description": "场景级连续背景音配置；不使用逐句 api.bgm；点状动作声由 effects 处理。",
   "scene_layers": [
     {
       "name": "场景名",
       "start_line": 1,
       "end_line": 8,
       "prompt": "very subtle low volume cinematic background ambience, [time and weather], [specific location materials], [distant natural texture], [subtle indoor or street tone], [emotional atmosphere], slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
-      "duration": 47,
       "volume": "-22%",
       "fade_in": 2,
       "fade_out": 2,
@@ -249,14 +245,22 @@ JSON 顶层必须包含：
 
 编写规则：
 - `scene_layers` 按场景氛围覆盖连续片段，`start_line/end_line` 指向合并后的 `data.id`。
-- `prompt` 必须丰富到能支撑 35~47 秒背景音，不能只写 `quiet alley`、`soft wind` 这类单调短提示词。
-- 推荐结构：低音量连续背景 + 时间天气 + 具体地点材质 + 远处自然纹理 + 近处空间底色 + 情绪氛围 + 缓慢变化层次 + 负面约束。
+- `soundscape` 顶层不要再写 `version`、`strategy`、`engine`、`description` 这类模板性元信息，默认只保留真正参与生成的 `scene_layers`。
+- 背景音不再手写 `duration` 字段，默认交给系统根据场景覆盖范围、段落文字量和语速自动估算时长。
+- `prompt` 必须丰富到能支撑连续场景背景音生成，不能只写 `quiet alley`、`soft wind` 这类单调短提示词。
+- 推荐结构：低音量连续背景 + 时间天气 + 具体地点材质 + 远处自然纹理 + 近处空间底色 + 情绪氛围 + 负面约束。
+- 必须把场景写具体，至少交代清楚“什么时候、什么地方、空气/天气如何、有什么自然或环境纹理、整体情绪是什么”，不要只给抽象氛围词。
+- 推荐优先写出的具体维度包括：昼夜（清晨/午后/黄昏/深夜）、天气（微风/闷热/潮湿/薄雾/细雨/寒意）、空间材质（土路/石板路/木窗/屋檐/院墙/竹林/水井）、自然声源（树叶轻响/夏夜虫鸣/远处鸟声/河水流动/风穿过檐角），以及这些元素的远近、强弱和连续性。
+- 例如不要只写 `night ambience`，应写成类似：`quiet summer night under starry sky, faint breeze moving through tree leaves, sparse insects chirping far away, old village courtyard with wooden eaves, calm and lonely atmosphere`。
+- 例如不要只写 `mysterious town`，应写成类似：`late night ancient town alley, thin cold wind brushing bluestone street, distant loose shutters and subtle leaf rustle, restrained suspense, no foreground events`。
 - 必须包含低音量与连续性：`very subtle low volume cinematic background ambience`、`smooth continuous ambience bed`。
 - 必须包含缓慢变化，避免循环感：`slow evolving layered soundscape`、`gentle variation over time`、`no repetitive loop feeling`。
-- 可以写入轻微、远处、非突出的环境纹理，如 `distant soft wind through old wooden eaves`、`faint morning air over bluestone street`、`subtle room tone of clay walls and old timber`，但不要写成前景事件。
+- 可以写入轻微、远处、非突出的环境纹理，如 `distant soft wind through old wooden eaves`、`faint morning air over bluestone street`、`subtle room tone of clay walls and old timber`、`soft summer insects far away under starry night`、`gentle leaves rustling in night breeze`，但不要写成前景事件。
 - 禁止突出事件、人声、旋律、脚步、尖锐音、噪声爆点：使用 `no sharp foreground sounds, no prominent events, no voices, no music, no melody, no noise bursts`。
+
 - 默认 `volume` 可用 `-22%`；干扰人声时降到 `-28%~-32%`，太小时调到 `-18%~-22%`。
 - 默认 `target_dbfs=-30`、`high_pass_hz=90`、`low_pass_hz=3800~4200`。
+- 如果旧剧本或历史模板里存在 `scene_layers[].duration`，优化时默认应删除，改为使用自动时长估算；除非用户明确要求手动锁定背景音时长。
 
 ### 音效配置 `effects`
 
@@ -305,12 +309,14 @@ JSON 顶层必须包含：
 - 旁白语速可按约 3~5 字/秒估算；延迟时间（秒）≈ 动作前字数 ÷ 语速。
 - 对话短句内动作音效通常使用 `0~2` 秒；长旁白中的动作音效要结合动作出现位置，不能全部写 `0`。
 - `process_mode` 默认使用 `overlay`，让音效与配音做叠加混音；不要使用会打断播报的插入式播放。
+- 如果历史 JSON、旧模板或示例中出现 `insert`，在生成新剧本或优化旧剧本时，默认应改回 `overlay`，除非用户明确要求保留插入式表现。
 - 明显不合理的时间必须主动修正，例如动作词在文本前段，却把 `trigger_delay` 写到句尾附近；这种情况不能交付。
 
 生成后音效校验：
 - 剧本写完后，必须扫描整章所有带 `effects` 的片段，逐条检查音效名、动作词、`trigger_delay`、`duration`、`process_mode` 是否匹配文本语义。
 - 重点检查长旁白中的动作音效，确认触发时间是否落在动作词附近，而不是滑到句尾。
 - 重点检查所有音效都使用 `overlay` 叠加混音，确认不会打断配音播报。
+- 如果发现 `effects[].process_mode` 不是 `overlay`，应视为默认校验失败项，除非用户明确说明该音效需要插入式处理。
 - 像风声、云雾、水流、虫鸣这类持续环境纹理，优先考虑放入顶层 `soundscape.scene_layers`，不要滥用逐句 `effects`。
 - 交付前要输出一份简短音效校验结论：本章共有几处 `effects`，哪些已确认对齐，哪些做过时间修正。
 
@@ -347,6 +353,7 @@ JSON 顶层必须包含：
 - 对旁白片段要额外检查：若同时出现明确人物动作主语 + 强主观口吻（如 `我`、`老子` 等），应判为疑似角色内心独白，必须拆出对应角色配音。
 - `data[].api` 不包含逐句 `bgm` 字段，背景音统一使用顶层 `soundscape`。
 - `soundscape.scene_layers[].start_line/end_line` 指向存在的 `data.id`。
+- `soundscape.scene_layers` 默认不应包含 `duration` 字段；如出现旧字段，需在交付前删除并改用自动时长估算。
 - 角色 voice 配置与 `roles_definition` 一致。
 - `roles_definition` 严格匹配对应小说角色配音表。
 - 新角色已先补充到对应小说角色配音表，不能只存在于单章 JSON。
@@ -358,6 +365,7 @@ JSON 顶层必须包含：
 - 突发冲击音（雷声/闪电/碰撞）的 `volume` 已增强至 `-8%~-15%`。
 - 音量遵循：人声 > 音效 > soundscape 背景音。
 - 所有 `effects` 已做生成后音效校验，`trigger_delay` 与文本动作点基本对齐。
+- 所有 `effects[].process_mode` 默认必须为 `overlay`；若不是 `overlay`，必须有用户明确授权或场景理由。
 - 明显不适合作为逐句 `effects` 的持续环境声，已回收为 `soundscape.scene_layers` 或重新调整。
 - 文本 100% 还原原著无修改。
 
@@ -371,4 +379,5 @@ JSON 顶层必须包含：
 - 禁止为了追求速度，使用批量脚本一次性生成多章剧本后再抽样检查。
 - 禁止把“可被正则匹配”当作“已经理解剧情和说话人”。
 - 禁止在未逐章审阅的情况下，把批处理结果直接作为最终交付。
+- 禁止默认使用 `insert` 作为音效 `process_mode`；除非用户明确提出需要插入式表现，否则所有音效都应使用 `overlay` 混音模式。
 - 若用户要求生成某章剧本，默认应采用单章智能处理；若用户要求继续多章，也应按章逐个处理，而不是脚本批量扫出成品。

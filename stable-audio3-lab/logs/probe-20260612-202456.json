@@ -1,0 +1,14 @@
+{
+  "env": {
+    "python": "3.11.15",
+    "platform": "darwin",
+    "cwd": "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool",
+    "torch_error": "No module named 'torch'"
+  },
+  "args": {
+    "mode": "small-music",
+    "seconds": 15,
+    "prompt": "ambient background music, calm and relaxing, soft piano, gentle rain, distant forest birds, no drums, no vocals, smooth loop, seamless transition, high fidelity stereo",
+    "output": null
+  }
+}
