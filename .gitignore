@@ -15,6 +15,7 @@ __pycache__/
 
 # 本地模型与第三方仓库
 Woosh/
+CosyVoice/
 qwen3-tts/
 qwen3-tts-base-model/
 qwen3-tts-model/
@@ -28,6 +29,12 @@ models/
 *.pth
 *.bin
 *.onnx
+
+# Fish Speech 测试环境
+fish-speech-test/checkpoints/
+fish-speech-test/output/
+fish-speech-test/.venv-fish/
+fish-speech-test/fish-speech/
 
 # 音频产物
 *.wav

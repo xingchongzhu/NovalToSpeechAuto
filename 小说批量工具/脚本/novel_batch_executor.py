@@ -30,15 +30,17 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3"):
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3", platform: str = "default", sort_mode: str = "pinyin"):
         self.script_dir = script_dir  # 小说剧本目录
         self.output_dir = output_dir  # 输出目录
         self.temp_dir = temp_dir      # 临时目录
         self.tts_engine = tts_engine  # TTS引擎类型
         self.sfx_engine = sfx_engine  # 音效生成引擎
         self.bgm_engine = bgm_engine  # 背景音生成引擎
+        self.platform = platform      # 输出平台
         self.qwen_model_path = qwen_model_path  # Qwen TTS模型路径
         self.script_path = os.path.dirname(os.path.abspath(__file__))  # 脚本所在目录
+        self.sort_mode = sort_mode    # 排序模式: pinyin(拼音) | chapter(章节号) | name(文件名)
         
         # 创建目录
         os.makedirs(self.output_dir, exist_ok=True)
@@ -46,24 +48,111 @@ class NovelBatchGenerator:
         
         # 获取其他脚本路径
         self.audio_processing_module = os.path.join(self.script_path, "audio_processing_module.py")
+    
+    def extract_chapter_number(self, file_name: str) -> int:
+        """从文件名中提取章节号
         
+        支持的格式:
+        - 第1章、第1回、第1节、第1话
+        - 第01章、第001回
+        - 第壹章 (中文数字)
+        
+        Args:
+            file_name: 文件名
+            
+        Returns:
+            章节号，如果无法提取返回99999
+        """
+        import re
+        
+        # 尝试匹配各种章节格式
+        patterns = [
+            r'第(\d+)章',      # 第1章
+            r'第(\d+)回',      # 第1回
+            r'第(\d+)节',      # 第1节
+            r'第(\d+)话',      # 第1话
+            r'第(\d+)幕',      # 第1幕
+            r'第(\d+)篇',      # 第1篇
+            r'第(\d+)卷',      # 第1卷
+            r'第(\d+)部',      # 第1部
+            r'第(\d+)集',      # 第1集
+            r'第(\d+)小节',    # 第1小节
+            r'(\d+)章',        # 1章（无前缀）
+            r'(\d+)回',        # 1回（无前缀）
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, file_name)
+            if match:
+                return int(match.group(1))
+        
+        # 尝试匹配中文数字
+        chinese_nums = {'零': 0, '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, 
+                       '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+                       '百': 100, '千': 1000, '万': 10000}
+        
+        # 匹配"第X章"格式（中文数字）
+        chinese_pattern = r'第([零一二三四五六七八九十百千万]+)章'
+        match = re.search(chinese_pattern, file_name)
+        if match:
+            chinese_num = match.group(1)
+            total = 0
+            current = 0
+            for char in chinese_num:
+                if char in chinese_nums:
+                    value = chinese_nums[char]
+                    if value >= 10:
+                        total += current * value
+                        current = 0
+                    else:
+                        current = value
+            total += current
+            return total if total > 0 else 99999
+        
+        # 无法提取章节号，返回一个很大的数放在最后
+        return 99999
+    
+    def get_pinyin_key(self, text: str) -> str:
+        """获取文本的拼音排序键（通用中文拼音排序）
+        
+        Args:
+            text: 中文字符串
+            
+        Returns:
+            拼音字符串，用于排序
+        """
+        try:
+            from pypinyin import lazy_pinyin
+            return ''.join(lazy_pinyin(text))
+        except ImportError:
+            import locale
+            try:
+                locale.setlocale(locale.LC_COLLATE, 'zh_CN.UTF-8')
+                return locale.strxfrm(text)
+            except:
+                return text
+    
     def find_novel_json_files(self) -> List[str]:
-        """查找所有小说JSON文件"""
+        """查找所有小说JSON文件并按指定方式排序"""
         novel_json_files = []
         
-        # 遍历小说剧本目录
         for item in os.listdir(self.script_dir):
             item_path = os.path.join(self.script_dir, item)
             if os.path.isdir(item_path):
-                # 遍历子目录下的JSON文件
                 for file_name in os.listdir(item_path):
                     if file_name.endswith(".json"):
                         json_file = os.path.join(item_path, file_name)
                         novel_json_files.append(json_file)
             elif item.endswith(".json"):
-                # 直接处理当前目录中的JSON文件
                 json_file = os.path.join(self.script_dir, item)
                 novel_json_files.append(json_file)
+        
+        if self.sort_mode == "chapter":
+            novel_json_files.sort(key=lambda x: self.extract_chapter_number(os.path.basename(x)))
+        elif self.sort_mode == "pinyin":
+            novel_json_files.sort(key=lambda x: self.get_pinyin_key(os.path.basename(x)))
+        else:
+            novel_json_files.sort()
         
         return novel_json_files
     
@@ -73,10 +162,11 @@ class NovelBatchGenerator:
             logger.info(f"开始处理小说: {json_file}")
             
             # 即使没有提取到输出路径，也返回一个默认的输出路径
-            # 默认输出路径为：输出目录/小说名称/章节名称.wav
+            # 默认输出路径为：输出目录/小说名称/章节名称.格式
             novel_name = os.path.basename(os.path.dirname(json_file))
             chapter_name = os.path.splitext(os.path.basename(json_file))[0]
-            default_output_path = os.path.join(self.output_dir, novel_name, f"{chapter_name}.wav")
+            output_ext = "mp3" if self.platform == "ximalaya" else "wav"
+            default_output_path = os.path.join(self.output_dir, novel_name, f"{chapter_name}.{output_ext}")
             
             return default_output_path
             
@@ -104,6 +194,7 @@ class NovelBatchGenerator:
                 "--tts-engine", self.tts_engine,
                 "--sfx-engine", self.sfx_engine,
                 "--bgm-engine", self.bgm_engine,
+                "--platform", self.platform,
                 "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
             ]
             
@@ -121,7 +212,8 @@ class NovelBatchGenerator:
             for json_file in novel_json_files:
                 novel_name = os.path.basename(os.path.dirname(json_file))
                 chapter_name = os.path.splitext(os.path.basename(json_file))[0]
-                output_path = os.path.join(self.output_dir, novel_name, f"{chapter_name}.wav")
+                output_ext = "mp3" if self.platform == "ximalaya" else "wav"
+                output_path = os.path.join(self.output_dir, novel_name, f"{chapter_name}.{output_ext}")
                 output_paths.append(output_path)
             
             return output_paths
@@ -167,10 +259,14 @@ def main():
                        help="背景音生成引擎: stable-audio-3 | woosh (默认: stable-audio-3)")
     parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
                        help="Qwen TTS模型路径")
+    parser.add_argument("--platform", type=str, default="ximalaya",
+                       help="输出平台配置，如 default | ximalaya")
     parser.add_argument("--keep-segments", action="store_true", 
                        help="保留临时片段文件")
     parser.add_argument("--debug", action="store_true", 
                        help="启用调试日志")
+    parser.add_argument("--sort-mode", type=str, default="pinyin", 
+                       help="排序模式: pinyin(拼音排序，默认) | chapter(章节号排序) | name(文件名排序)")
     
     args = parser.parse_args()
     
@@ -195,8 +291,12 @@ def main():
         tts_engine=args.tts_engine,
         qwen_model_path=args.qwen_model_path,
         sfx_engine=args.sfx_engine,
-        bgm_engine=args.bgm_engine
+        bgm_engine=args.bgm_engine,
+        platform=args.platform,
+        sort_mode=args.sort_mode,
     )
+    
+    logger.info(f"排序模式: {args.sort_mode}")
     
     try:
         # 批量处理

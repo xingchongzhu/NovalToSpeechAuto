@@ -1,0 +1,1045 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第二十一回 金罗汉访友紫金泷 许飞娘传书五云步",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "法元": {
+      "role_voice": "龙小诚-磁性低音",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "许飞娘": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "廉红药": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "追云叟": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "醉道人": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "周轻云": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "周淳": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "魏青": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "孙南": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "齐灵云": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "朱梅": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "妙一夫人": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "齐金蝉": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第二十一回 金罗汉访友紫金泷 许飞娘传书五云步",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话说金身罗汉法元，在九华与齐灵云斗剑，正在难解难分之际，巧遇许飞娘赶到，明为解围，暗中点破，才知道那女子是乾坤正气妙一真人齐漱溟的女儿，暗暗吃惊。恐怕吃了眼前亏，便借着台阶就下。等到离却前山，正要往金顶走去，不由叫了一声苦。心想：九华既作了齐漱溟的别府，不消说得，那狮子天王龙化与紫面伽蓝雷音，一定在此存身不得，此番来到金顶，岂非徒劳？他虽然如此想法，到底心还不死。好在金顶离此并不多远，不消半顿饭时候，便已赶到。只见那龙化与雷音所住的归元寺，山门大开，山门前败草枯叶，狼藉满地，不像庙中有人住的神气。进入内殿一看，殿中神佛、庙貌依然，只是灰尘密布。蝙蝠看见有人进来，绕檐乱飞。更没有一个人影。便知二人一定不在庙中。再走进禅房一看，尘垢四积。门前一柄黑漆的禅杖，断为两截在地上，不知被什么兵刃斩为两段。那禅杖原是纯钢打就，知是龙化用的兵器。进屋看时，地下还有一摊血迹，因为山高天寒，业已冻成血冰。估量庙中无人，为期当在不远。正在凝思之际，忽想起此地既是峨眉派剑仙洞府，在此住居的人未必只齐漱溟一个人。他们人多势众，不要被他们遇见，又惹晦气。想到此间，便急忙离了归元寺，下了金顶。心想：此番出游，原为多寻几个帮手，谁想都扑了一个空。那许飞娘自从教祖死去，同门中人因为她不肯出力报仇，多看不起她。直到近年，才听说她的忍辱负重，别存深意。适才山下相遇，想是从外面倦游归来。黄山近在咫尺，何不去看望她一番，顺便约她相助？即便她不允帮忙，看在当年同门之谊，也不至于反面无情呀。主意打定，便往黄山五云步而来。不大工夫，已到了五云步落雁峰下。那五云步在黄山的西北角上，山势险峻，常人足迹难到。法元到了山脚，便把剑光收敛，步行上去。走了半晌，已到了半山。忽听一阵琴声，隐隐从山腰传出。法元知是飞娘在弹琴，便加紧脚步往上走去。转过几个峰头，已到了落雁峰上。只见一座洞府，洞门半开半掩，琴声便从洞中传出。法元便轻轻叩门。只听里面有人问道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "蝙蝠惊飞",
+            "sound_cn": "蝙蝠被惊动，扑棱棱绕檐乱飞，翅膀拍打声",
+            "sound_en": "bats startled, fluttering around the eaves, wings flapping",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "琴声隐约",
+            "sound_cn": "隐约的琴声从山腰飘来，清越悠扬",
+            "sound_en": "faint zither music drifting from the mountainside, clear and melodious",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "叩门声",
+            "sound_cn": "手指轻轻叩击洞门的声响，木石相碰",
+            "sound_en": "fingers lightly knocking on the stone door, wood and stone tapping",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "里面有人问道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "何人到此？",
+          "instruct": "询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元答道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "故人法元来访。",
+          "instruct": "平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "里面又道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "原来是法元师兄，请进来吧。",
+          "instruct": "客气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元便推门进去。那洞府收拾得十分干净，琴书列具，架上牙签满目，中设丹炉。飞娘正坐在石凳上弄琴。见法元进来，便停了手，让坐。法元便问她别后情形。飞娘道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "推门声",
+            "sound_cn": "石门被轻轻推开的摩擦声",
+            "sound_en": "stone door pushed open with a grating sound",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "琴弦停歇",
+            "sound_cn": "琴声戛然而止，手指离开琴弦的轻响",
+            "sound_en": "zither music suddenly stops, fingers lifting off strings with a light sound",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "自先师遭劫之后，我便隐居此山，闭门思过，不问世事。师兄此来，有何见教？",
+          "instruct": "平静中带疏离"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元便把年来各派情形，与自己要约请帮手的意思，说了一遍。又说及各派收徒，以及慈云寺智通等情形，一一说明。请飞娘出山相助。飞娘听罢，摇首道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我已皈依正教，不问外事。师兄休来说我。",
+          "instruct": "拒绝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元见她不肯应允，便又用言激她道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "师妹既已隐居，我也不敢相强。只是我以为师妹卧薪尝胆，别有深意，谁知竟是真的灰心世事，这样看来，倒是我多疑了。",
+          "instruct": "激将"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "飞娘被他这一激，不觉脸上变色，便答道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "师兄休得小觑于我。我虽隐居此山，心中未尝忘情大事。只是时机未到，不便轻举妄动罢了。既师兄有约，我当如命。只是我有一件事，要先与师兄说明。",
+          "instruct": "动容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "师妹有何见教，请说不妨。",
+          "instruct": "诚恳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "飞娘道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我近年来收了一个徒弟，名叫廉红药，根基甚厚，我已教了她三年。现在我那徒弟的父亲，被仇人惨杀，她立志要报父仇。我已许她，待她道法有成，便带她下山，访寻仇人。你我两方争斗，我自知一人力量有限，如今我的徒弟既在门下，我当尽我心力，助她报仇成功，然后再说其他。你可答应么？",
+          "instruct": "郑重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "师妹既有此意，我当从命。只是不知廉红药的父亲，是被何人所害？",
+          "instruct": "询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "飞娘便把前事说了一遍。法元听了，便道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "原来如此。既是师妹的高徒，自然义不容辞。待我回寺之后，便着人打听那杀害令徒父亲的凶手，以便慢慢图谋。",
+          "instruct": "承诺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "飞娘道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我那仇人，本领厉害，法力高强，你我恐非其敌。我已探知，那仇人便是峨眉派的追云叟白谷逸。只是他行踪无定，一时不易寻见。且等慈云寺之事办完，再作计较吧。",
+          "instruct": "沉重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元听说追云叟，不由变色道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "追云叟既已出世，这事更棘手了。我们须要格外小心才是。",
+          "instruct": "惊惧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "飞娘道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "师兄休长他人志气，灭自己威风。那追云叟虽然厉害，我也有法应付。只是如今时机未到，不便明说。你且先回慈云寺去，等我的徒弟道法有成，我便带她下山，前来助你一臂之力。",
+          "instruct": "自信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元听了大喜，便告辞而去。飞娘待法元走后，便唤出廉红药来。廉红药便上前拜见师父。飞娘道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "脚步声渐远",
+            "sound_cn": "法元告辞离去的脚步声，渐行渐远",
+            "sound_en": "footsteps of Fa Yuan leaving, fading away",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我已对法元说了，待你道法有成，便带你去报仇。那追云叟白谷逸，虽然厉害，我自有法降他。只是你却不可性急，须要依我的言语行事。你可知道么？",
+          "instruct": "叮嘱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "廉红药听了，满心欢喜，便道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "廉红药",
+      "api": {
+        "voice": {
+          "role": "廉红药",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "弟子谨遵师命。只是弟子心中焦急，望师父早些带弟子下山。",
+          "instruct": "恳切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "飞娘道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "许飞娘",
+      "api": {
+        "voice": {
+          "role": "许飞娘",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你且耐心等待。我已算就，明年正月初一，便是破慈云寺的日期。到了那时，你我同去，正好相机行事。你如今只用功修炼便了。",
+          "instruct": "安抚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "廉红药听了，便又叩头拜谢。飞娘又教了她一些法术，便自入内定坐去了。廉红药便在洞中修炼，等候时机不题。再说那追云叟自从在慈云寺外树林中，用灵雾障困住毛太、俞德之后，便带了醉道人与周轻云回到碧筠庵，与周淳、魏青等相聚。追云叟便对众人道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "追云叟",
+      "api": {
+        "voice": {
+          "role": "追云叟",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "慈云寺智通等一班妖人，罪恶滔天，不可不除。我已约请各派能人，在明年正月初一，共同破那慈云寺，剪除这一班妖孽。你等可在此安心修炼，待时而动便了。",
+          "instruct": "慷慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "周淳、魏青等俱各领命。追云叟又对醉道人道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "追云叟",
+      "api": {
+        "voice": {
+          "role": "追云叟",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "周轻云那孩子，根基甚好，你可好好教导她。待破寺之后，我再带她去拜妙一真人为师便了。",
+          "instruct": "嘱咐"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人领命，追云叟便别了众人，往各处去请能人相助。按下法元与追云叟两边分头行事不提。却说那孙南与齐灵云、朱梅，自那日与法元斗剑之后，便回转九华。到了洞府，灵云便将前后事情告知母亲。妙一夫人听了，便对孙南道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你既已入门不久，便遇见这大敌，将来正不可限量。只是那法元既已逃脱，将来必来报仇。你等须要随时防备，不可大意。",
+          "instruct": "叮嘱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "孙南领命。灵云又把那肉芝移植洞府之事说了一遍。夫人便叫金蝉把那肉芝取来观看。那肉芝见了夫人，便跪拜在地。夫人便将它种在洞府灵泉之旁，朝夕吸取天地灵气，以便早日成就道行。这且按下不表。却说那廉红药自从拜飞娘为师之后，每日用心修炼，不觉过了数月。这一日，正在洞中打坐，忽然听见洞外有人唤她。便走出来一看，只见一个白衣少年，站在洞外。廉红药认得那少年，正是师父新收的徒弟，名叫周轻云。只是从未交谈，不知他为何而来。欲知后事如何，且看下回分解。",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "呼唤声",
+            "sound_cn": "洞外传来一声呼唤，声音清脆",
+            "sound_en": "a call from outside the cave, clear voice",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "九华山金顶归元寺",
+        "name_en": "九华山金顶归元寺，冬日午后，荒凉破败，尘垢满地，蝙蝠乱飞，气氛萧瑟",
+        "start_line": 1,
+        "end_line": 1,
+        "prompt": "very subtle low volume background ambience, winter afternoon at Jiuhua Mountain summit, a deserted temple, dust and cobwebs, broken steel staff on ground, frozen bloodstains, bats fluttering, cold wind through broken windows, bleak and desolate atmosphere, distant wind howl, subtle xiao flute melancholy, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "黄山五云步洞府",
+        "name_en": "黄山五云步落雁峰洞府内，琴书雅致，丹炉香烟，氛围清幽而暗藏机锋",
+        "start_line": 2,
+        "end_line": 35,
+        "prompt": "very subtle low volume background ambience, inside a cave dwelling on Huangshan mountain, elegant furnishings, zither and books, incense smoke from alchemy furnace, quiet and refined, hidden tension beneath calm conversation, soft guqin resonance, occasional distant birdsong, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "碧筠庵",
+        "name_en": "碧筠庵内，冬日，众人齐聚，商议破寺大计，气氛庄重而激昂",
+        "start_line": 36,
+        "end_line": 40,
+        "prompt": "very subtle low volume background ambience, inside Biyun Temple, winter day, people gathered discussing plans, solemn and spirited atmosphere, soft tea steam, occasional rustle of robes, distant temple bell, warm erhu hum in background, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "九华洞府",
+        "name_en": "九华洞府内，灵泉之旁，肉芝初植，氛围祥和安宁",
+        "start_line": 41,
+        "end_line": 42,
+        "prompt": "very subtle low volume background ambience, inside Jiuhua cave, by the spiritual spring, newly planted lingzhi, peaceful and serene atmosphere, soft water trickling, faint fragrance, subtle yangqin shimmer, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

@@ -1,0 +1,1218 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第二十二回 晤薛蟒 三上紫金泷 访异人 结嫌白鹿洞",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "法元": {
+      "role_voice": "龙小诚-磁性低音",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "秦朗": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "鹿清": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "薛蟒": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "朱洪": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第二十二回 晤薛蟒 三上紫金泷 访异人 结嫌白鹿洞",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话说金身罗汉法元见病维摩朱洪神情冷淡，正待往别处找寻能人相助，忽见正南方飞来了几道红线，知是秦朗打此经过，连忙上前唤住，二人相见，各把前事述说了一遍。秦朗道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "剑光破空",
+            "sound_cn": "数道红色剑光划破长空，发出尖锐凛冽的破风呼啸声，由远及近急速飞来",
+            "sound_en": "several sharp red sword lights piercing through the sky, producing a shrill and cold whistling sound, approaching rapidly from afar",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "衣袂风声",
+            "sound_cn": "法元抬手唤住秦朗时，宽大僧袍在风中猎猎作响，衣料翻飞",
+            "sound_en": "Fa Yuan's wide monk robes flapping loudly in the wind as he raises his hand to call Qin Lang",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "秦朗",
+      "api": {
+        "voice": {
+          "role": "秦朗",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "此次到打箭炉，晓月禅师业已他去，路遇滇西红教中传灯和尚，才知禅师隐居黄山紫金泷。后来路过慈云寺，见了知客马元，听说发生许多事故，师父出外寻找帮手。弟子想师父定不知道晓月禅师住址，特来代请，约他下山，到慈云寺相助。",
+          "instruct": "急切叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你哪里知道。我自到九华后，人未约成，反与齐漱溟的女儿斗了一次剑。后来飞娘赶来解围，又叫人与我送信，才知道晓月禅师在此。等我寻到此地，他两个徒弟又说他出外云游去了，是否人在紫金泷，无从判断。如果在家，成心不见，去也无益，我们另寻别人吧。",
+          "instruct": "无奈低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "秦朗道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "秦朗",
+      "api": {
+        "voice": {
+          "role": "秦朗",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我知道晓月禅师西来，一则爱此地清静；二则听说此地发现一样宝物，名为断玉钩，乃是战国时人所铸，在这泷下泉眼中，所以驻锡在此，以便设法取到手中，决不会出门远去。莫如弟子同师父再去一趟，先问晓月禅师是否他去。别处不是没有能人，能制服追云叟的，还是真少。他老人家相助，胜别人十倍。师父以为如何？",
+          "instruct": "分析说服"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元闻言，也甚以为然，便同秦朗回了原路。刚刚走到泷前，便见鹿清正在洞外，见他二人回来，好似很不痛快，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "山路脚步声",
+            "sound_cn": "师徒二人走在布满碎石与落叶的山路上，脚步沉稳而略显焦急，沙沙声伴随轻微踩碎枯枝的脆响",
+            "sound_en": "two people walking steadily yet anxiously on a mountain road covered with gravel and fallen leaves, rustling sounds accompanied by subtle cracking of dry twigs",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "林间风声",
+            "sound_cn": "紫金泷山间松涛阵阵，风穿过层层松针时发出如海浪般细密绵长的沙响",
+            "sound_en": "wind rustling through layers of pine needles in the Zijinlong forest, producing a dense and long rustling sound like ocean waves",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "鹿清",
+      "api": {
+        "voice": {
+          "role": "鹿清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "大和尚又回来则甚？我师父不在洞中，出外办事去了。老实说吧，就是在家，他老人家已参破尘劫，不愿加入你们去胡闹了。",
+          "instruct": "不耐烦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "令师乃是我辈的忘年交，此番前来拜访，实有紧急之事，务乞小师兄行个方便，代为传禀。如禅师他出，也请小师兄将地方说知，我等当亲自去找。",
+          "instruct": "恭敬恳切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元把好话说了许多，鹿清只是摇头，不吐一句真言。反说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "鹿清",
+      "api": {
+        "voice": {
+          "role": "鹿清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我师父实实不在山中。他出外云游，向无地址。至于归洞之期，也许一天半天，也许一年半载才回，那可是说不定。如果你真有要事，何妨稍候两日再来，也许家师回来，也未可知。",
+          "instruct": "敷衍推脱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，道一声“得罪”，便转向崖后自去。法元见了这般景况，如生不快，但是无可如何。秦朗见鹿清出言傲慢，也是满心大怒，因晓月禅师道法高深，不敢有所举动，只得随了法元，离了紫金泷，往山脚下走去。师徒二人正要商量往别处寻人，忽然空中一道黑影，带着破空声音，箭也似的，眨眨眼已飞下一个相貌奇丑的少年，穿着不僧不道的衣服。秦朗疑心此人来意不善，忙作准备。法元连忙止住。那少年见了法元，躬身施礼，说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "黑影破空",
+            "sound_cn": "一道黑影撕裂空气，发出尖锐刺耳的坠落摩擦声，速度快如闪电",
+            "sound_en": "a black shadow tearing through the air with a sharp and piercing falling friction sound, moving as fast as lightning",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.8,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "沉重落地",
+            "sound_cn": "薛蟒双足重重踏在地面上，溅起尘土，发出沉闷有力的撞击声",
+            "sound_en": "Xue Mang's feet landing heavily on the ground, kicking up dust with a dull and forceful thud",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "衣袍翻飞",
+            "sound_cn": "薛蟒落地后，身上不僧不道的古怪衣袍因惯性仍在翻滚飘动，布料摩擦作响",
+            "sound_en": "after landing, Xue Mang's strange robe fluttering and rolling due to inertia, fabric rustling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "薛蟒",
+      "api": {
+        "voice": {
+          "role": "薛蟒",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子三眼红蜕薛蟒，奉了恩师许飞娘之命，知道大师轻易见不着晓月禅师，叫我来说，禅师并未离此他去，请大师千万不要灰心短气。如今峨眉派剑侠不久就在成都碧筠庵聚齐，去破慈云寺，非晓月禅师下山，无法抵敌。家师剑未炼就，暂时不能下山相助。望大师继续进行，必有效果，家师业与晓月禅师飞剑传书去了。",
+          "instruct": "恭敬转达"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我已去过两次，均被他徒弟鹿清托辞拒绝。既蒙令师盛意，我再专诚去一回便了。",
+          "instruct": "感激应允"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "薛蟒闻言，便告辞走去。走不几步，忽然回头，又问法元道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "转身离去",
+            "sound_cn": "薛蟒转身迈步离开，脚步踏在沙土上渐行渐远，突然停下转身，衣角摩擦带起一阵轻响",
+            "sound_en": "Xue Mang turning and walking away, footsteps on sandy ground gradually fading, then suddenly stopping and turning back, fabric brushing lightly",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "薛蟒",
+      "api": {
+        "voice": {
+          "role": "薛蟒",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "昨日我师兄苦孩儿司徒平送信的时节，可曾与大师见面亲交？",
+          "instruct": "探问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "昨日他将书信原是从空中抛下，不想被文笔峰前两个女子抢去。我去要时，那两个女子执意不肯，双方几乎动武。你师兄才下来解围，费了半天唇舌，才把书信取转。见了令师，就说我们一切心照，我自按书信行事便了。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "薛蟒道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "薛蟒",
+      "api": {
+        "voice": {
+          "role": "薛蟒",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那晓月禅师的徒弟鹿清，家师曾对他有恩，大师再到紫金泷，就说我薛蟒致意，他自会引大师去见晓月禅师的。",
+          "instruct": "叮嘱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便自作别而去。法元师徒二人等薛蟒走后，便整了整僧衣，二人虔心诚意往紫金泷而去。那晓月禅师是何派剑仙？为何使法元等这般敬重？这里便再补述两笔。那晓月禅师也是峨眉派剑仙鼻祖长眉真人的徒弟，生来气量偏狭，见他师弟乾坤正气妙一真人齐漱溟末学新进，反倒后来居上，有些不服。只是长眉真人道法高深，越发不赞成他的举动，渐渐对他疏淡。晓月含恨在心。等到长眉真人临去时，把众弟子叫到面前，把道统传与了玄真子与齐漱溟。差点没把晓月肚皮气炸，又奈何他们不得。他早先在道教中，原名灭尘子。真人又对众弟子道：“此番承继道统，原看那人的根行厚薄、功夫深浅为标准，不以入门先后论次序。不过人心难测，各人又都身怀绝技，难免日后为非作歹，遗羞门户。我走后，倘有不守清规者，我自有制裁之法。”说罢，取出一个石匣，说道：“这石匣内，有我炼魔时用的飞剑，交与齐漱溟掌管。无论门下何人，只要犯了清规，便由玄真子与齐漱溟调查确实，只须朝石匣跪倒默祝，这匣中之剑，便会凌空而起，去取那人的首级。如果你二人所闻非实，或颠倒是非，就是怎样默祝，这石匣也不会开，甚或反害了自己。大家须要紧记。”长眉真人吩咐已毕，便自升仙而去。众同门俱都来与齐漱溟和玄真子致贺，惟有晓月满心不快，强打笑颜，敷衍了一阵。后来越想越气，假说下山行道，便打算跑到庐山隐居，所谓眼不见心不烦。因知寡不敌众，又有长眉真人留下的石匣，倒也并不想叛教。不想在庐山住了几年，静极思动，便游天台雁荡。在插虹涧遇见追云叟，因论道统问题，晓月恼羞成怒，二人动起手来，被众同门知道，都派他不对。他才一怒投到贵州野人山，去削发归佛，拜了长狄洞的哈哈老祖为师，炼了许多异派的法术。到底他根基还厚，除记恨玄真子与齐漱溟而外，并未为非作歹。众同门得知此信，只替他惋惜，叹了几口气，也未去干涉他。后来他又收了打箭炉一个富户儿子名叫朱洪的为徒，便常在打箭炉居住。那里乃是川滇的孔道，因此又认得了许多佛教中人。他偶游至黄山，爱那紫金泷之胜，便在那里居住。他同许飞娘的关系，是因为有一年为陷空老祖所困，遇见许飞娘前来解围，因此承她一点情。他早知法元要来寻他，因为近年来勤修苦炼，不似从前气盛，虽仍记前嫌，知齐漱溟、玄真子功行进步，不敢造次。所以法元来了两次，俱命鹿清等设辞拒绝。法元第二次走后，便接到许飞娘的飞剑传书，心神交战了好一会，结果心中默默盘算了一会，觉得暂时仍不露面为是。便把鹿清叫在面前，嘱咐了几句，并说若是法元再来，你就如此如彼地对答他。鹿清连声说“遵命”。暂且不提。且说法元师徒二人一秉至诚，步行到紫金泷，早已看见鹿清站在涧岸旁边。鹿清看见法元师徒回转，不待法元张口，便迎上前来说道：",
+          "instruct": "庄重讲述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "duration": 25,
+            "process_mode": "overlay",
+            "name": "山涧流水与鸟鸣",
+            "sound_cn": "紫金泷山涧清澈溪水持续潺潺流淌，撞击在卵石上发出清脆悦耳的水花声，远处林间偶尔传来几声悠扬的鸟鸣和秋虫低吟",
+            "sound_en": "clear mountain stream continuously gurgling in Zijinlong, splashing melodiously against pebbles, occasional distant birdsong and autumn insect chirps from the woods",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "鹿清",
+      "api": {
+        "voice": {
+          "role": "鹿清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "适才家师回转，已知二位来意，叫我转致二位，请二位放心回庙，到了紧急时节，自会前来相助。今日另有要事，不及等二位前来叙谈，他老人家又匆匆下山去了。",
+          "instruct": "转述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元尚疑鹿清又是故意推辞，正待发言，那秦朗已把薛蟒吩咐之言，照样说了一遍。鹿清闻得秦朗提起薛蟒致意，果然换了一副喜欢面孔，先问秦朗的姓名，然后问他因何与薛蟒相熟。谈了几句后，渐渐投机。三人便在涧石上面坐下，又谈了一阵。法元乘机请他帮忙，请晓月禅师下山。鹿清知道法元心中疑虑，便向他说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "涧边落座",
+            "sound_cn": "三人依次在涧边平整的青石上坐下，粗布衣料与粗糙石面摩擦，发出细微的窸窣声响",
+            "sound_en": "three people sitting down one by one on smooth bluestones by the stream, coarse fabric rubbing against rough stone surface with slight rustling",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "石面微响",
+            "sound_cn": "坐下时腰间悬挂的玉佩或法器轻微碰撞石头边缘，发出清脆的玉石敲击声",
+            "sound_en": "jade pendants or magic tools hanging from waists lightly tapping the stone edges while sitting, producing clear jade clinks",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "鹿清",
+      "api": {
+        "voice": {
+          "role": "鹿清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我师父生平从不打诳语，说了就算数，二位只管放心吧。",
+          "instruct": "诚恳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元方才深信不疑。又问鹿清道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "当初我同令师见面，已是三十年前。后来他老人家搬到打箭炉，便很少去问候。小师父是几时才拜入门墙，功行就这样精进？",
+          "instruct": "感叹询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "鹿清道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "鹿清",
+      "api": {
+        "voice": {
+          "role": "鹿清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你要问我出家的根由么？就连我自己也不知道。我只记得我小时候，是生长在四川一个荒山石洞里面，我倒没有娘，喂我乳的是一只梅花鹿。有一天，我师父他老人家路过那山，我正跟一群鹿在那里跑，我师父说我生有异禀，日后还可和我生身父母见面，便把我带到打箭炉，传我剑术，到现今已十二年了。那个薛蟒的师父，曾经帮过我师父的忙，我要是早知道二位跟她认识，我也就早跟你们交好了。",
+          "instruct": "天真回忆"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元见鹿清说话胸无城府，也不知道什么礼节称呼，纯然一片天真，非常可爱。正想同他多谈几句，想打听晓月禅师在此隐居，是否为觅那断玉钩？方要张口，便听崖后洞中有一个病人的声音唤道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "洞中回声",
+            "sound_cn": "朱洪的声音从崖后幽深的山洞中穿透出来，带着病弱的喘息和空旷回音，显得沉闷遥远",
+            "sound_en": "Zhu Hong's voice penetrating from the deep cave behind the cliff, carrying weak breath and hollow echo, sounding dull and distant",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "朱洪",
+      "api": {
+        "voice": {
+          "role": "朱洪",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "清师弟，话说完了，快回来吧，我有事找你呢。",
+          "instruct": "病弱低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "鹿清闻言，便忙向二人作辞道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "鹿清",
+      "api": {
+        "voice": {
+          "role": "鹿清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我家师不在洞中，未便让二位进去。现在我师兄唤我，异日有缘，相见再谈。",
+          "instruct": "匆匆告辞"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便急忙走去。法元与秦朗见鹿清走后，师徒二人一同离了紫金泷，计算时日还早，便想起到庐山白鹿洞去寻雷音的师叔八手观音飞龙师太下山相助，顺便打听雷音、龙化的下落。剑光迅速，不一日便到了庐山白鹿洞前。降下剑光，正待举步，忽见一阵腥风起处，连忙定睛看时，只见洞内蹿出一只吊睛白额猛虎，望着二人扑来。法元知是飞龙师太喂的家畜，不肯用剑伤它，忙望旁边一闪。刚刚避过，又见眼前一亮，由洞内又飞出一条独角白鳞大蟒，箭也似一般疾，直向秦朗扑去。那秦朗哪知其中玄妙，喊一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "腥风骤起",
+            "sound_cn": "庐山白鹿洞前猛然卷起一阵浓烈刺鼻的腥风，夹杂着猛兽洞穴特有的潮湿与野性气息",
+            "sound_en": "sudden strong and pungent foul wind sweeping in front of the Bailu Cave, mixed with damp and wild odor typical of a beast's den",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "猛虎咆哮",
+            "sound_cn": "吊睛白额猛虎张开血盆大口，发出一声震撼山林的狂啸，声波震得树叶簌簌作响",
+            "sound_en": "the fierce tiger with white forehead opening its huge mouth, letting out a earth-shaking roar that makes leaves tremble",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "猛虎扑击",
+            "sound_cn": "猛虎后腿猛蹬地面，巨大的身躯裹挟着风声朝法元猛扑过去，虎爪掠过地面掀起碎石",
+            "sound_en": "tiger pushing off fiercely with hind legs, its massive body lunging at Fa Yuan with a whoosh, claws scraping gravel",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "巨蟒窜出",
+            "sound_cn": "独角白鳞大蟒如离弦之箭从洞内激射而出，粗壮鳞片与地面剧烈摩擦，发出密集的沙沙刮擦声",
+            "sound_en": "the white one-horned python shooting out of the cave like an arrow, thick scales grating against the ground with dense rustling and scraping",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "秦朗剑光出鞘",
+            "sound_cn": "秦朗反应极快，脑后几道红线瞬间飞起，剑光破空发出凌厉的铮鸣",
+            "sound_en": "Qin Lang reacting swiftly, several red sword lights rising from behind his head instantly, producing a sharp and powerful clang",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "秦朗",
+      "api": {
+        "voice": {
+          "role": "秦朗",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "来得好！",
+          "instruct": "兴奋大喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "脑后一拍，几道红线飞起。法元忙喊：",
+          "instruct": "紧张叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "休要冒失！",
+          "instruct": "急切阻止"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "已来不及，剑光过去，把那三丈来长的白蟒挥成两段。那只黑虎见它同伴被杀，将前足微伸，后足伏地，一条长尾，把地打得山响，正要作势前扑。法元见白蟒被秦朗所杀，知道闯下大祸，又听得洞内有阵阵雷声，便知不妙。也不及说话，伸手将秦朗一拉，喊一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "剑斩蟒身",
+            "sound_cn": "凌厉剑光横扫而过，锋利剑刃切割蟒蛇鳞甲与血肉，发出裂帛般的锐响",
+            "sound_en": "sharp sword light sweeping across, sharp edge cutting through python scales and flesh with a crisp tearing sound",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "蟒身两段坠地",
+            "sound_cn": "被斩断的蟒蛇两截残躯重重砸落地面，发出沉闷沉重的肉体撞击声，尘土飞扬",
+            "sound_en": "the two severed halves of the python falling heavily to the ground with a dull and heavy thud, kicking up dust",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "虎尾猛击地面",
+            "sound_cn": "黑虎见同伴被杀，暴怒之下粗壮铁尾如钢鞭般猛烈抽打地面，发出震耳欲聋的啪啪巨响",
+            "sound_en": "the black tiger, enraged by its companion's death, violently lashing the ground with its thick iron-like tail, producing deafening loud cracks",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "洞中雷声滚滚",
+            "sound_cn": "白鹿洞深处传来阵阵沉闷滚动的雷声，伴随着低沉的轰鸣和大地轻微的颤抖，预示巨大危险即将降临",
+            "sound_en": "deep rumbling thunder rolling from inside the Bailu Cave, accompanied by low booming and slight trembling of the ground, foretelling immense danger",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "法元拽拉秦朗",
+            "sound_cn": "法元情急之下伸手猛拉秦朗衣袖，衣料被扯紧发出紧绷的摩擦声",
+            "sound_en": "Fa Yuan urgently grabbing Qin Lang's sleeve, fabric tightening with a tense friction sound",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "快逃！",
+          "instruct": "惊恐急喊"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "双剑齐飞破空",
+            "sound_cn": "两人同时催动剑光冲天而起，两道光芒划破空气，伴随着尖锐的呼啸声急速向远方遁去",
+            "sound_en": "both of them simultaneously driving their sword lights to soar into the sky, two beams of light tearing through the air with sharp whistling, fleeing rapidly into the distance",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人剑光起处，飞身破空而去。法元在路上埋怨秦朗道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "高空风声",
+            "sound_cn": "剑光飞行至高空，耳边只剩下持续而猛烈的风流呼啸声，衣袍被狂风吹得猎猎作响",
+            "sound_en": "flying at high altitude, continuous and fierce wind roaring past the ears, robes flapping violently in the gale",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你怎么这般鲁莽？我连声喊你不可冒失，你怎还把飞龙师大看守洞府的蛇、虎给毁了一个？这位老太婆性如烈火，非常难惹。她对人向来是无分善恶，完全以对方同自己有无感情为主旨。我同她虽然认识，也只是由于雷音的引见，并无深交。请她下山相助，也无把握，只是希望能先打一个招呼。此人本最守信用，但求她不帮助峨眉派与我们为敌罢了。如今人未请成，反伤了她的灵蟒，她如知道，岂肯甘休？尚喜我们走得快，她如出来看见，岂非又是一场祸事？",
+          "instruct": "埋怨担忧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "秦朗见师父埋怨，情知做错，也无可奈何。他虽入道多年，嗜欲未尽，尚不能辟谷。法元虽能数日不饥，一样不能断绝烟火。二人见雷音找不着，无处可请别人，算计日期还早，本想回慈云寺去。又想起峨眉剑仙暂时不来寺中寻事，是因为自己不在寺中，表示余人不堪一击的原故。此时回寺，难免独力难支。他是知道追云叟的厉害的，便不想早回去。偶然想起每次往返武昌，并未下去沽饮，又在山中数日，未动荤腥，便想下去饮食游玩，沿路不再御剑飞行，一路沿江而上，观赏风景。秦朗自然更是赞成。师徒二人，于是到了汉阳，找了个僻静所在，按下剑光落地。然后雇了一只小船，往江中游玩一番，再渡江上黄鹤楼上去沽饮。上楼之后，只见楼上酒客如云，非常热闹，便找了一个靠窗的座头坐下。自有酒保上前招呼，他师徒二人便叫把上等酒菜只管拿来。随即凭窗遥望，见那一片晴川，历历远树，几点轻帆，出没在烟波浩渺中，非常有趣。移时酒保端来酒菜，他二人便自开怀畅饮。不提。",
+          "instruct": "平静收束"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "江波荡漾",
+            "sound_cn": "汉阳江边，清波粼粼，江水轻柔地拍打着岸边岩石和停泊的船身，发出规律而舒缓的水声",
+            "sound_en": "at Hanyang riverbank, clear rippling water gently lapping against rocks and moored boats, producing rhythmic and soothing water sounds",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "木船吱呀",
+            "sound_cn": "他们雇的小木船在江面上随波轻轻摇晃，老旧的木板和船桨发出吱吱呀呀的摩擦声",
+            "sound_en": "the hired small wooden boat gently swaying on the river waves, old planks and oars creaking with friction",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "黄鹤楼喧嚣",
+            "sound_cn": "黄鹤楼上人声鼎沸，酒客们高谈阔论、划拳行令，杯盘碰撞声、说笑声交织成一片热闹的市井交响",
+            "sound_en": "bustling noise on Yellow Crane Tower, drinkers chatting loudly, playing finger-guessing games, clinking of cups and plates, laughter interweaving into a lively market symphony",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "酒坛杯盏碰撞",
+            "sound_cn": "酒保端上酒菜，粗瓷碗和陶质酒坛放在木桌上发出沉闷的碰撞声，筷子搁在碗沿上清脆一响",
+            "sound_en": "waiter serving wine and dishes, coarse porcelain bowls and clay wine jars landing on wooden table with dull thuds, chopsticks resting on bowl rims with a clear clink",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "紫金泷山间秘境",
+        "start_line": 1,
+        "end_line": 34,
+        "prompt": "very subtle low volume cinematic background ambience, ancient pine forest deep in Huangshan mountain during late spring afternoon, thin mist lingering among the trees, gentle mountain breeze carrying scent of damp earth and fallen pine needles, soft continuous rustling of pine branches overhead, distant clear mountain stream murmuring over mossy pebbles, occasional chirping of unknown birds echoing between cliffs, subtle creaking of an old wooden bridge in the distance, calm and meditative atmosphere with a hint of secluded mystery, deep breath of xiao flute fading in and out, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "庐山白鹿洞险境",
+        "start_line": 35,
+        "end_line": 41,
+        "prompt": "very subtle low volume cinematic background ambience, remote cliffside cave at Lushan mountain, humid and heavy mist swirling around jagged rocks, dense overgrown vegetation with wild vines hanging down, tense and dangerous predatory atmosphere, faint low-frequency growling vibrations echoing from deep within the cave, subtle dripping of underground water on cold stone with hollow reverberation, oppressive threat lingering in the air, low rumble of approaching thunderstorm deep in the mountains, muted resonance of a war drum struck from afar, no voices, no music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "汉阳江上黄鹤楼",
+        "start_line": 42,
+        "end_line": 43,
+        "prompt": "very subtle low volume cinematic background ambience, early evening twilight over the vast Yangtze River near Hanyang, broad river surface reflecting golden-orange sunset glow, gentle waves slapping rhythmically against wooden hulls of moored fishing boats, distant sailing ships disappearing into the misty horizon, soft moist river wind carrying smells of fish and waterweed, bustling tavern atmosphere on the shore with low continuous murmur of drinkers, occasional clinking of ceramic cups and bowls, warm nostalgic and leisurely human atmosphere, sparse pipa plucks resonating from a nearby pleasure boat, no prominent foreground events, no voices clearly defined, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

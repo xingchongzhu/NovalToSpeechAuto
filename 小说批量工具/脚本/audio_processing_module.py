@@ -25,9 +25,11 @@ import hashlib
 import subprocess
 import tempfile
 import pickle
+import base64
 import concurrent.futures
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Optional, Any
+import re
 import warnings
 
 # ======================== 音效/背景音生成引擎注册 ========================
@@ -192,18 +194,62 @@ class LineAudioConfig:
     effect_params: List[EffectAudioParams]
     mix_config: MixConfig
 
+@dataclass
+class AudioPlatformProfile:
+    """平台音频产出配置"""
+    name: str
+    output_format: str = "wav"
+    sample_rate: int = 44100
+    channels: int = 1
+    bitrate: Optional[str] = None
+    intro_template: Optional[str] = None
+    outro_template: Optional[str] = None
+    min_chapter_ms: Optional[int] = None
+    max_chapter_ms: Optional[int] = None
+    max_silence_ms: Optional[int] = None
+    target_voice_dbfs: Optional[float] = None
+
+
+PLATFORM_PROFILES: Dict[str, AudioPlatformProfile] = {
+    "default": AudioPlatformProfile(name="default"),
+    "ximalaya": AudioPlatformProfile(
+        name="ximalaya",
+        output_format="mp3",
+        sample_rate=44100,
+        channels=2,
+        bitrate="192k",
+        intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，作者{author}，演播{speaker}，欢迎订阅。",
+        outro_template="听众朋友，本集已播讲完毕，请订阅专辑，下集精彩继续。",
+        min_chapter_ms=5 * 60 * 1000,
+        max_chapter_ms=15 * 60 * 1000,
+        max_silence_ms=5000,
+        target_voice_dbfs=-18.0,
+    ),
+}
+
+
+def get_platform_profile(platform_name: Optional[str]) -> AudioPlatformProfile:
+    """获取平台配置，未知平台回退到 default。"""
+    normalized = (platform_name or "default").strip().lower()
+    return PLATFORM_PROFILES.get(normalized, PLATFORM_PROFILES["default"])
+
+
 # ======================== 音频引擎接口 ========================
 class AudioEngine:
     """音频引擎类，提供语音合成和文生音频功能"""
     
     def __init__(self, temp_dir: str = "./temp_audio", sample_rate: int = 44100, 
-                 channels: int = 1, tts_engine: str = "qwen3-tts", qwen_model_path: str = None):
+                 channels: int = 1, tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
+                 fish_api_url: str = "http://localhost:8080",
+                 target_voice_dbfs: Optional[float] = None):
         self.temp_dir = temp_dir
         self.sample_rate = sample_rate
         self.channels = channels
         self.audio_format = "wav"
         self.tts_engine = tts_engine
         self.qwen_model_path = qwen_model_path
+        self.fish_api_url = fish_api_url.rstrip("/") if fish_api_url else "http://localhost:8080"
+        self.target_voice_dbfs = target_voice_dbfs
         self.qwen_tts_model = None
         self._voice_clone_prompt_cache = {}  # 进程内缓存，避免当前运行重复编码参考音频
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
@@ -215,6 +261,8 @@ class AudioEngine:
         
         if self.tts_engine == "qwen3-tts":
             self._init_qwen_tts_model()
+        elif self.tts_engine == "fish-speech":
+            print("[TTSEngine] 使用 Fish Speech API 引擎，地址: " + self.fish_api_url)
 
     def _init_qwen_tts_model(self):
         """初始化Qwen3-TTS模型"""
@@ -258,6 +306,35 @@ class AudioEngine:
             print(f"[TTSEngine] 初始化Qwen3-TTS模型失败: {e}")
             raise Exception("Qwen3-TTS模型初始化失败")
 
+    @staticmethod
+    def _split_long_tts_text(text: str) -> list:
+        """长文本保守语义断句（Fish Speech 复用）"""
+        hard_splits = "。！？；!?;"
+        max_chunk = 200
+
+        stripped = text.strip()
+        if len(stripped) <= max_chunk:
+            return [stripped]
+
+        segments = []
+        current = ""
+        for ch in stripped:
+            current += ch
+            if ch in hard_splits and len(current) >= 60:
+                segments.append(current)
+                current = ""
+        if current.strip():
+            segments.append(current.strip())
+
+        # 合并过短的尾段
+        merged = []
+        for seg in segments:
+            if merged and len(seg) < 30:
+                merged[-1] += seg
+            else:
+                merged.append(seg)
+        return merged if merged else [stripped]
+
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """文本转语音接口"""
         print(f"\n[TTSEngine] 使用引擎: {self.tts_engine}")
@@ -268,11 +345,14 @@ class AudioEngine:
             start_time = time.time()
             if self.tts_engine == "qwen3-tts":
                 audio = self._text_to_speech_qwen(params)
-                elapsed_time = time.time() - start_time
-                print(f"[TTSEngine] 语音生成完成，耗时: {elapsed_time:.2f} 秒")
-                audio = self._adjust_audio_params(audio, params.speed, params.volume, params.pitch)
-                return audio
-            raise ValueError(f"未知的TTS引擎: {self.tts_engine}")
+            elif self.tts_engine == "fish-speech":
+                audio = self._text_to_speech_fish(params)
+            else:
+                raise ValueError(f"未知的TTS引擎: {self.tts_engine}")
+            elapsed_time = time.time() - start_time
+            print(f"[TTSEngine] 语音生成完成，耗时: {elapsed_time:.2f} 秒")
+            audio = self._adjust_audio_params(audio, params.speed, params.volume, params.pitch)
+            return audio
         except Exception as e:
             print(f"[TTSEngine] 语音生成失败: {e}")
             raise
@@ -284,7 +364,7 @@ class AudioEngine:
         
         import torch
         
-        qwen_speaker = params.role_voice if params.role_voice else "阿传-男声-低沉,浑厚"
+        qwen_speaker = params.role_voice if params.role_voice else "麦克-纪录片之王,麦克阿瑟"
         instruct = params.instruct.strip() if params.instruct else "neutral"
         
         clone_audio_dir = self.clone_audio_dir
@@ -349,17 +429,17 @@ class AudioEngine:
             text = text.replace('\u2018', '').replace('\u2019', '')
             return text
 
-        def _split_long_tts_text(text: str) -> List[str]:
+        def _split_long_qwen_text(text: str) -> List[str]:
             """对超长文本做保守语义断句，避免长句TTS过慢。"""
             hard_split_chars = "。！？；!?;"
             soft_split_chars = "，、：,:"
             preferred_soft_tokens = ["但是", "不过", "然后", "于是", "所以", "只是", "而且", "因为", "如果", "虽然", "然而", "并且", "同时", "并非", "只是说", "况且", "此外"]
             protected_prefix_tokens = ["就像", "这也是", "比如", "例如", "即便", "哪怕", "如果", "虽然", "但是", "不过", "而且", "并且", "于是", "所以", "只是", "然而", "同时", "却", "却会", "也会", "都", "就", "便", "还会", "仍然"]
             protected_suffix_tokens = ["来说", "的话", "而言", "之一", "那边", "位置", "原因"]
-            min_split_length = 36
-            target_chunk_length = 78
-            max_chunk_length = 110
-            absolute_max_chunk_length = 140
+            min_split_length = 80
+            target_chunk_length = 180
+            max_chunk_length = 240
+            absolute_max_chunk_length = 300
             min_tail_merge_length = 18
 
             stripped_text = text.strip()
@@ -517,7 +597,7 @@ class AudioEngine:
             if processed_text != process_polyphone_text(params.text):
                 print(f"[TTSEngine] 文本清理: 去除中文引号等特殊标点")
 
-            text_segments = _split_long_tts_text(processed_text)
+            text_segments = _split_long_qwen_text(processed_text)
             all_wavs = []
             sample_rate = None
             for index, text_segment in enumerate(text_segments, start=1):
@@ -531,42 +611,22 @@ class AudioEngine:
             if len(all_wavs) == 1:
                 return all_wavs[0], sample_rate
 
-            crossfade_ms = 60
-            crossfade_samples = int(sample_rate * crossfade_ms / 1000)
-            merged_audio = all_wavs[0]
-            for chunk_audio in all_wavs[1:]:
-                if crossfade_samples > 0 and len(merged_audio) > crossfade_samples and len(chunk_audio) > crossfade_samples:
-                    fade_out = np.linspace(1.0, 0.0, crossfade_samples, dtype=np.float32)
-                    fade_in = np.linspace(0.0, 1.0, crossfade_samples, dtype=np.float32)
-                    overlap = merged_audio[-crossfade_samples:] * fade_out + chunk_audio[:crossfade_samples] * fade_in
-                    merged_audio = np.concatenate([
-                        merged_audio[:-crossfade_samples],
-                        overlap,
-                        chunk_audio[crossfade_samples:]
-                    ])
-                else:
-                    merged_audio = np.concatenate([merged_audio, chunk_audio])
-
+            merged_audio = np.concatenate(all_wavs)
             return merged_audio, sample_rate
         
         wavs, sr = None, None
-        
+
         try:
             print(f"[TTSEngine] 尝试使用克隆语音: {qwen_speaker}")
             ref_audio_path = _find_audio_file(qwen_speaker)
-            
-            if ref_audio_path and hasattr(self.qwen_tts_model, 'generate_voice_clone'):
-                wavs, sr = _generate_voice(ref_audio_path)
-            else:
-                print(f"[TTSEngine] 使用默认克隆声音")
-                default_clone_audio = os.path.join(clone_audio_dir, 
-                    "晓辰-女青年.mp3" if ("女" in params.role or "宁姚" in params.role or "稚圭" in params.role) 
-                    else "知浩-男青年.mp3")
-                
-                if os.path.exists(default_clone_audio):
-                    wavs, sr = _generate_voice(default_clone_audio)
-                else:
-                    wavs, sr = _generate_voice(None, x_vector_only_mode=False)
+
+            if not ref_audio_path:
+                raise FileNotFoundError(
+                    f"找不到克隆音频文件: clone-audio/ 下未找到 '{qwen_speaker}.mp3' 或 '{qwen_speaker}.wav'。"
+                    f"请检查 role_voice='{params.role_voice}' 是否与 clone-audio/ 中的音频文件名完全一致。"
+                )
+
+            wavs, sr = _generate_voice(ref_audio_path)
         except Exception as e:
             print(f"[TTSEngine] 生成语音失败: {e}")
             raise
@@ -587,16 +647,126 @@ class AudioEngine:
         )
         
         audio = audio.set_frame_rate(self.sample_rate).set_channels(self.channels)
+        if self.target_voice_dbfs is not None and audio.rms > 0:
+            gain_change = self.target_voice_dbfs - audio.dBFS
+            audio = audio.apply_gain(gain_change)
         audio = audio.fade_in(100)
-        
-        silent_threshold = -60
-        for i in range(0, len(audio), 10):
-            if audio[i:i+10].dBFS > silent_threshold:
-                audio = audio[i:]
-                break
-        
-        audio = audio.fade_in(100)
+
         return audio
+
+
+    def _text_to_speech_fish(self, params: VoiceParams) -> AudioSegment:
+        """使用 Fish Speech API 引擎生成语音"""
+        
+        # 查找参考音频
+        def _find_audio_file(speaker_name):
+            import glob as _glob
+            # 精确匹配
+            for ext in ['.mp3', '.wav']:
+                potential_path = os.path.join(self.clone_audio_dir, f"{speaker_name}{ext}")
+                if os.path.exists(potential_path):
+                    return potential_path
+            # 前缀匹配
+            pattern = os.path.join(self.clone_audio_dir, f"{speaker_name}-*.mp3")
+            matches = _glob.glob(pattern)
+            if matches:
+                return matches[0]
+            return None
+        
+        voice_name = params.role_voice if params.role_voice else "麦克-纪录片之王,麦克阿瑟"
+        ref_audio_path = _find_audio_file(voice_name)
+        if not ref_audio_path:
+            print(f"[TTSEngine][Fish] ⚠️ 未找到参考音频 '{voice_name}'，使用零样本生成")
+        
+        # 读取参考音频 + 查找参考文本
+        ref_audio_b64 = ""
+        ref_text = ""
+        if ref_audio_path:
+            with open(ref_audio_path, "rb") as f:
+                ref_audio_b64 = base64.b64encode(f.read()).decode("utf-8")
+            prompt_file = os.path.join(self.clone_audio_dir, "prompt_texts.json")
+            if os.path.exists(prompt_file):
+                with open(prompt_file, "r", encoding="utf-8") as f:
+                    prompts = json.load(f)
+                for key in [voice_name, f"{voice_name}.mp3", f"{voice_name}.wav"]:
+                    if key in prompts:
+                        ref_text = prompts[key]
+                        break
+                if not ref_text:
+                    for key in prompts:
+                        if key.startswith(voice_name):
+                            ref_text = prompts[key]
+                            break
+        
+        text = params.text.strip()
+        if not text:
+            raise ValueError("合成文本为空")
+        
+        text_len = len(text)
+        if text_len > 200:
+            segments = _split_long_tts_text(text)
+        else:
+            segments = [text]
+        
+        full_audio = AudioSegment.silent(duration=0)
+        total_segments = len(segments)
+        
+        for i, segment in enumerate(segments):
+            print(f"[TTSEngine][Fish] 分段 {i+1}/{total_segments}: {segment[:30]}...")
+            
+            payload = {
+                "text": segment,
+                "reference_audio": ref_audio_b64,
+                "reference_text": ref_text,
+            }
+            
+            api_url = f"{self.fish_api_url}/v1/tts"
+            start = time.time()
+            
+            try:
+                resp = requests.post(api_url, json=payload, timeout=120)
+                elapsed = time.time() - start
+                
+                if resp.status_code != 200:
+                    raise RuntimeError(f"API 返回 {resp.status_code}: {resp.text[:200]}")
+                
+                result = resp.json()
+                
+                # 解码返回的音频
+                if "audio" in result:
+                    wav_bytes = base64.b64decode(result["audio"])
+                elif "data" in result:
+                    wav_bytes = base64.b64decode(result["data"])
+                else:
+                    raise RuntimeError(f"JSON missing audio: {list(result.keys())}")
+                
+                print(f"[TTSEngine][Fish] 分段 {i+1} 完成，耗时 {elapsed:.1f}s")
+                
+            except requests.exceptions.ConnectionError:
+                raise RuntimeError(f"无法连接到 {api_url}，请确保 Fish Speech 服务已启动")
+            except Exception as e:
+                raise RuntimeError(f"Fish Speech API 失败: {e}")
+            
+            tmp_wav = os.path.join(self.temp_dir, f"_fish_{os.getpid()}_{i}.wav")
+            with open(tmp_wav, "wb") as f:
+                f.write(wav_bytes)
+            
+            seg_audio = AudioSegment.from_file(tmp_wav, format="wav")
+            os.remove(tmp_wav)
+            
+            full_audio += seg_audio
+        
+        if full_audio.frame_rate != self.sample_rate:
+            full_audio = full_audio.set_frame_rate(self.sample_rate)
+        if full_audio.channels != self.channels:
+            full_audio = full_audio.set_channels(self.channels)
+        
+        if self.target_voice_dbfs is not None and full_audio.rms > 0:
+            gain_change = self.target_voice_dbfs - full_audio.dBFS
+            full_audio = full_audio.apply_gain(gain_change)
+        full_audio = full_audio.fade_in(100)
+        
+        return full_audio
 
     def _adjust_audio_params(self, audio: AudioSegment, speed: str, volume: str, pitch: str) -> AudioSegment:
         """调整音频参数（语速/音量）"""
@@ -718,7 +888,8 @@ class AudioGenerator:
     def __init__(self, json_path: str, output_dir: str = None,
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
-                 persist_intermediate_audio: bool = False):
+                 persist_intermediate_audio: bool = False,
+                 platform: str = "default"):
         if output_dir is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
             output_dir = os.path.join(base_dir, "../../output")
@@ -729,6 +900,8 @@ class AudioGenerator:
         self.sfx_engine = sfx_engine
         self.bgm_engine = bgm_engine
         self.persist_intermediate_audio = persist_intermediate_audio
+        self.platform_profile = get_platform_profile(platform)
+        self.platform_name = self.platform_profile.name
 
         # 初始化音效与背景音生成引擎
         self._generate_sfx_batch = get_sfx_engine(self.sfx_engine)
@@ -742,39 +915,245 @@ class AudioGenerator:
         
         self.output_dir = os.path.join(output_dir, self.novel_name)
         self.chapter_dir = os.path.join(self.output_dir, self.chapter_clean_name)
+        self.intro_outro_dir = os.path.join(self.output_dir, "片头片尾")
         
         self.voice_dir = os.path.join(self.chapter_dir, "配音")
         self.bgm_dir = os.path.join(self.chapter_dir, "背景音")
         self.effect_dir = os.path.join(self.chapter_dir, "音效")
         self.mix_dir = os.path.join(self.chapter_dir, "混音")
         self.tmp_dir = os.path.join(self.chapter_dir, "tmp")
-        
+
+        os.makedirs(self.intro_outro_dir, exist_ok=True)
         os.makedirs(self.voice_dir, exist_ok=True)
         os.makedirs(self.bgm_dir, exist_ok=True)
         os.makedirs(self.effect_dir, exist_ok=True)
         os.makedirs(self.mix_dir, exist_ok=True)
         os.makedirs(self.tmp_dir, exist_ok=True)
+
+        # 错误段落追踪：记录本章合成失败的行 {line_id: {role, text, error, timestamp}}
+        self.failed_lines: Dict[int, Dict[str, Any]] = {}
+        # 已持久化到磁盘的失败记录路径
+        self.failed_lines_log_path = os.path.join(self.chapter_dir, "failed_lines.json")
         
+        platform_channels = self.platform_profile.channels or 1
         self.audio_engine = AudioEngine(
             temp_dir=self.tmp_dir,
-            sample_rate=44100,
-            channels=self.config["global"]["channels"],
+            sample_rate=self.platform_profile.sample_rate,
+            channels=platform_channels,
             tts_engine=self.tts_engine,
-            qwen_model_path=self.qwen_model_path
+            qwen_model_path=self.qwen_model_path,
+            target_voice_dbfs=self.platform_profile.target_voice_dbfs,
         )
         self.total_lines = len(self.config.get("data", []))
+
+    @staticmethod
+    def _sanitize_metadata_value(value: Optional[str], fallback: str) -> str:
+        text = str(value).strip() if value is not None else ""
+        return text if text else fallback
+
+    def _extract_platform_metadata(self) -> Dict[str, str]:
+        metadata = self.config.get("metadata") or {}
+        intro_config = self.config.get("片头") or {}
+        chapter_label = self.chapter_name
+        chapter_match = re.search(r"第[^\s，。,:：]*[章节回小节集卷部篇幕话]", self.chapter_name)
+        if chapter_match:
+            chapter_label = chapter_match.group(0)
+
+        return {
+            "novel_name": self._sanitize_metadata_value(
+                intro_config.get("novel_name") or metadata.get("novel_name") or self.novel_name,
+                self.novel_name,
+            ),
+            "author": self._sanitize_metadata_value(
+                intro_config.get("author") or metadata.get("author"),
+                "佚名",
+            ),
+            "speaker": self._sanitize_metadata_value(
+                intro_config.get("speaker") or metadata.get("speaker") or metadata.get("narrator"),
+                "AI演播",
+            ),
+            "role_voice": self._sanitize_metadata_value(
+                intro_config.get("role_voice") or self.roles_definition.get("旁白", {}).get("role_voice"),
+                "麦克-纪录片之王,麦克阿瑟",
+            ),
+            "chapter_label": self._sanitize_metadata_value(
+                intro_config.get("chapter_label") or metadata.get("chapter_label") or chapter_label,
+                self.chapter_name,
+            ),
+        }
+
+    def _platform_asset_path(self, asset_type: str, text: str) -> str:
+        output_ext = self.platform_profile.output_format
+        text_hash = hashlib.md5(text.encode("utf-8")).hexdigest()[:10]
+        return os.path.join(self.intro_outro_dir, f"{asset_type}_{text_hash}.{output_ext}")
+
+    def _generate_platform_asset(self, asset_type: str, text: str) -> Optional[str]:
+        if not text:
+            return None
+
+        asset_path = self._platform_asset_path(asset_type, text)
+        if os.path.exists(asset_path):
+            return asset_path
+
+        platform_metadata = self._extract_platform_metadata()
+        platform_role_voice = platform_metadata.get("role_voice", "麦克-纪录片之王,麦克阿瑟")
+
+        if asset_type == "片头":
+            voice_params = VoiceParams(
+                text=text,
+                role="平台片头",
+                role_voice=platform_role_voice,
+                speed="-8%",
+                volume="+0%",
+                pitch="+0Hz",
+                instruct="庄重开场",
+            )
+        else:
+            voice_params = VoiceParams(
+                text=text,
+                role="平台片尾",
+                role_voice=platform_role_voice,
+                speed="-5%",
+                volume="+0%",
+                pitch="+0Hz",
+                instruct="温和收束",
+            )
+
+        asset_audio = self.audio_engine.text_to_speech(voice_params)
+        export_kwargs = {"format": self.platform_profile.output_format}
+        if self.platform_profile.bitrate:
+            export_kwargs["bitrate"] = self.platform_profile.bitrate
+        asset_audio.export(asset_path, **export_kwargs)
+        print(f"💾 已生成固定{asset_type}: {asset_path}")
+        return asset_path
+
+    def _load_platform_asset_audio(self, asset_type: str, text: str) -> Optional[AudioSegment]:
+        asset_path = self._generate_platform_asset(asset_type, text)
+        if not asset_path or not os.path.exists(asset_path):
+            return None
+        return AudioSegment.from_file(asset_path).set_frame_rate(self.platform_profile.sample_rate).set_channels(self.platform_profile.channels)
+
+    def _build_platform_audio(self, merged_audio: AudioSegment) -> AudioSegment:
+        print(f"\n📻 开始拼接平台音频（{self.platform_profile.name}）...")
+        result = merged_audio.set_frame_rate(self.platform_profile.sample_rate).set_channels(self.platform_profile.channels)
+        metadata = self._extract_platform_metadata()
+        intro_text = None
+        outro_text = None
+        if self.platform_profile.intro_template:
+            intro_text = self.platform_profile.intro_template.format(**metadata)
+        if self.platform_profile.outro_template:
+            outro_text = self.platform_profile.outro_template.format(**metadata)
+
+        intro_audio = self._load_platform_asset_audio("片头", intro_text)
+        if intro_audio is not None:
+            print(f"  ✅ 片头已加载（{len(intro_audio) / 1000:.1f}s），拼接到正文前")
+            result = intro_audio + AudioSegment.silent(duration=300, frame_rate=self.platform_profile.sample_rate) + result
+        else:
+            print(f"  ⚠️ 片头未生成，跳过")
+
+        outro_audio = self._load_platform_asset_audio("片尾", outro_text)
+        if outro_audio is not None:
+            print(f"  ✅ 片尾已加载（{len(outro_audio) / 1000:.1f}s），拼接到正文后")
+            result = result + AudioSegment.silent(duration=300, frame_rate=self.platform_profile.sample_rate) + outro_audio
+        else:
+            print(f"  ⚠️ 片尾未生成，跳过")
+
+        duration_ms = len(result)
+        print(f"  📏 最终音频总时长: {duration_ms / 1000:.1f}s / {duration_ms / 60000:.2f}min")
+        if self.platform_profile.min_chapter_ms and duration_ms < self.platform_profile.min_chapter_ms:
+            print(f"⚠️ 当前章节总时长约 {duration_ms / 60000:.2f} 分钟，低于 {self.platform_profile.name} 要求的 5 分钟下限")
+        if self.platform_profile.max_chapter_ms and duration_ms > self.platform_profile.max_chapter_ms:
+            print(f"⚠️ 当前章节总时长约 {duration_ms / 60000:.2f} 分钟，超过 {self.platform_profile.name} 建议的 15 分钟上限")
+
+        return result
+
+    def _export_chapter_audio(self, merged_audio: AudioSegment) -> str:
+        print(f"\n📦 开始导出最终章节音频...")
+        final_audio = self._build_platform_audio(merged_audio)
+        output_ext = self.platform_profile.output_format
+        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}.{output_ext}")
+        export_kwargs = {"format": output_ext}
+        if self.platform_profile.bitrate:
+            export_kwargs["bitrate"] = self.platform_profile.bitrate
+        print(f"  📡 正在编码导出，格式: {output_ext.upper()}/{self.platform_profile.channels}ch/{self.platform_profile.sample_rate}Hz...")
+        final_audio.export(chapter_output_path, **export_kwargs)
+        print(f"  💾 导出完成: {chapter_output_path}")
+        return chapter_output_path
 
     def load_config(self) -> Dict[str, Any]:
         """加载JSON配置"""
         try:
             with open(self.json_path, "r", encoding="utf-8") as f:
                 config = json.load(f)
-            
+
             self.roles_definition = config.get("roles_definition", {})
             return config
         except Exception as e:
             print(f"❌ 加载JSON失败: {e}")
             raise
+
+    def record_failed_line(self, line_config: LineAudioConfig, error: Exception):
+        """记录合成失败的单句段落
+
+        Why: 整章合成时若个别行失败，需要保留现场便于事后排查；同时用于在最后合成整章音频前判断是否允许继续。
+        How to apply: 在 generate_chapter_audio_serial / parallel 的 except 分支中调用。
+        """
+        text_preview = (line_config.voice_params.text or "").replace('\n', ' ')[:80]
+        entry = {
+            "line_id": line_config.id,
+            "role": line_config.role,
+            "text": text_preview,
+            "error": str(error),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        self.failed_lines[line_config.id] = entry
+        print(
+            f"⚠️ [失败记录] 第{line_config.id + 1}/{self.total_lines}句 | 角色: {line_config.role} | "
+            f"文本: {text_preview}... | 错误: {error}"
+        )
+
+    def persist_failed_lines(self):
+        """把当前章节的错误段落记录写入 failed_lines.json
+
+        无错误段落时若日志文件已存在则清理，避免历史脏数据。
+        """
+        if not self.failed_lines:
+            if os.path.exists(self.failed_lines_log_path):
+                try:
+                    os.remove(self.failed_lines_log_path)
+                except Exception:
+                    pass
+            return
+
+        try:
+            payload = {
+                "novel_name": self.novel_name,
+                "chapter": self.chapter_name,
+                "total_lines": self.total_lines,
+                "failed_count": len(self.failed_lines),
+                "failed_lines": list(self.failed_lines.values()),
+            }
+            os.makedirs(self.chapter_dir, exist_ok=True)
+            with open(self.failed_lines_log_path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+            print(f"💾 失败段落记录已保存: {self.failed_lines_log_path}")
+        except Exception as e:
+            print(f"⚠️ 保存失败段落记录时出错: {e}")
+
+    def has_failed_lines(self) -> bool:
+        """是否记录到失败的段落"""
+        return bool(self.failed_lines)
+
+    def summarize_failed_lines(self) -> str:
+        """生成失败段落的可读摘要（用于提示用户）"""
+        if not self.failed_lines:
+            return ""
+        sorted_entries = sorted(self.failed_lines.values(), key=lambda x: x["line_id"])
+        lines = [
+            f"  - 第{e['line_id'] + 1}句 [{e['role']}]: {e['text']} ({e['error']})"
+            for e in sorted_entries
+        ]
+        return "\n".join(lines)
 
     def _parse_soundscape_layers(self) -> List[SoundscapeLayer]:
         """解析顶层 soundscape 背景音配置"""
@@ -1048,18 +1427,8 @@ class AudioGenerator:
             f"\n🎙️ [{self.novel_name} / {self.chapter_name}] 第{current_index}/{self.total_lines}句 | 角色: {line_config.role} | 文本: {text_preview}..."
         )
         
-        voice_fingerprint = hashlib.md5(json.dumps({
-            "tts_engine": self.tts_engine,
-            "role": line_config.role,
-            "role_voice": line_config.voice_params.role_voice,
-            "text": line_config.voice_params.text,
-            "speed": line_config.voice_params.speed,
-            "volume": line_config.voice_params.volume,
-            "pitch": line_config.voice_params.pitch,
-            "instruct": line_config.voice_params.instruct,
-        }, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:10]
-        voice_output_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}_{voice_fingerprint}.wav")
-        single_output_path = os.path.join(self.mix_dir, f"mixed_line_{line_config.id}_{voice_fingerprint}.wav")
+        voice_output_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
+        single_output_path = os.path.join(self.mix_dir, f"mixed_line_{line_config.id}.wav")
         generated_new_audio = False
         remixed_audio = False
         
@@ -1174,7 +1543,10 @@ class AudioGenerator:
 
     def generate_chapter_audio(self) -> str:
         """生成整章音频"""
-        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_full.wav")
+        chapter_output_path = os.path.join(
+            self.chapter_dir,
+            f"{self.chapter_clean_name}.{self.platform_profile.output_format}",
+        )
         if os.path.exists(chapter_output_path):
             print(f"✅ 整章音频已存在，跳过生成: {chapter_output_path}")
             return chapter_output_path
@@ -1187,7 +1559,7 @@ class AudioGenerator:
         """串行生成整章音频"""
         print(f"\n🚀 开始串行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
         start_time = time.time()
-        
+
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
         soundscape_layers = self._parse_soundscape_layers()
 
@@ -1206,21 +1578,35 @@ class AudioGenerator:
                     merged_audio += AudioSegment.silent(duration=1000, frame_rate=44100)
             except Exception as e:
                 print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
-        
+                self.record_failed_line(line_config, e)
+
+        # 持久化失败段落记录，无论是否继续合成都保留现场
+        self.persist_failed_lines()
+
+        # 失败段落导致整章不完整，跳过整章音频合成
+        if self.has_failed_lines():
+            failed_count = len(self.failed_lines)
+            print(
+                f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，整章音频不完整，跳过最终整章合成。"
+            )
+            print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
+            print(f"💡 请修复失败段落后重新运行，错误记录见: {self.failed_lines_log_path}")
+            self.audio_engine.clean_temp_files()
+            return None
+
         if soundscape_layers:
             print("\n🎼 配音和音效已合成完成，开始最后生成并叠加 soundscape 背景音...")
             self._prepare_soundscape_layers(soundscape_layers)
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
-        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_full.wav")
-        merged_audio.export(chapter_output_path, format="wav")
-        
+        chapter_output_path = self._export_chapter_audio(merged_audio)
+
         self.audio_engine.clean_temp_files()
-        
+
         end_time = time.time()
         print(f"\n🎉 整章音频串行生成完成！耗时: {end_time - start_time:.2f} 秒")
         print(f"📂 输出路径: {chapter_output_path}")
-        
+
         return chapter_output_path
 
     def generate_chapter_audio_parallel(self) -> str:
@@ -1248,8 +1634,23 @@ class AudioGenerator:
                     results.append((line_config.id, line_audio))
                 except Exception as e:
                     print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
+                    self.record_failed_line(line_config, e)
 
         results.sort(key=lambda item: item[0])
+
+        # 持久化失败段落记录，无论是否继续合成都保留现场
+        self.persist_failed_lines()
+
+        # 失败段落导致整章不完整，跳过整章音频合成
+        if self.has_failed_lines():
+            failed_count = len(self.failed_lines)
+            print(
+                f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，整章音频不完整，跳过最终整章合成。"
+            )
+            print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
+            print(f"💡 请修复失败段落后重新运行，错误记录见: {self.failed_lines_log_path}")
+            self.audio_engine.clean_temp_files()
+            return None
 
         merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
         line_ranges = {}
@@ -1267,8 +1668,7 @@ class AudioGenerator:
             self._prepare_soundscape_layers(soundscape_layers)
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
-        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_full.wav")
-        merged_audio.export(chapter_output_path, format="wav")
+        chapter_output_path = self._export_chapter_audio(merged_audio)
 
         self.audio_engine.clean_temp_files()
 
@@ -1286,7 +1686,8 @@ class NovelAudioSynthesizer:
     def __init__(self, script_dir: str = None, output_dir: str = None,
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
-                 persist_intermediate_audio: bool = False):
+                 persist_intermediate_audio: bool = False,
+                 platform: str = "default"):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         
         self.script_dir = script_dir or os.path.join(self.base_dir, "../小说剧本")
@@ -1297,6 +1698,7 @@ class NovelAudioSynthesizer:
         self.sfx_engine = sfx_engine
         self.bgm_engine = bgm_engine
         self.persist_intermediate_audio = persist_intermediate_audio
+        self.platform = platform
         
         os.makedirs(self.output_dir, exist_ok=True)
         
@@ -1305,6 +1707,7 @@ class NovelAudioSynthesizer:
         print(f"📁 输出目录: {self.output_dir}")
         print(f"🔊 音效引擎: {self.sfx_engine}")
         print(f"🎼 背景音引擎: {self.bgm_engine}")
+        print(f"📺 输出平台: {self.platform}")
 
     def check_environment(self) -> bool:
         """检查环境"""
@@ -1338,7 +1741,8 @@ class NovelAudioSynthesizer:
             chapter_clean_name = chapter_name.replace("\n", "").replace(" ", "_").replace(":", "-")
             
             chapter_dir = os.path.join(self.output_dir, os.path.basename(os.path.dirname(json_file)), chapter_clean_name)
-            chapter_output_path = os.path.join(chapter_dir, f"{chapter_clean_name}_full.wav")
+            output_ext = get_platform_profile(self.platform).output_format
+            chapter_output_path = os.path.join(chapter_dir, f"{chapter_clean_name}.{output_ext}")
             
             if os.path.exists(chapter_output_path):
                 print(f"✅ 整章音频已存在，跳过生成: {chapter_output_path}")
@@ -1353,14 +1757,95 @@ class NovelAudioSynthesizer:
             qwen_model_path=self.qwen_model_path,
             sfx_engine=self.sfx_engine,
             bgm_engine=self.bgm_engine,
-            persist_intermediate_audio=self.persist_intermediate_audio
+            persist_intermediate_audio=self.persist_intermediate_audio,
+            platform=self.platform,
         )
         
         return generator.generate_chapter_audio()
 
-    def process_all_novels(self) -> List[str]:
-        """处理所有小说章节"""
-        print(f"\n=== 处理所有小说章节 ===")
+    def _extract_chapter_number(self, file_name: str) -> int:
+        """从文件名中提取章节号
+        
+        支持的格式:
+        - 第1章、第1回、第1节、第1话
+        - 第01章、第001回
+        - 第壹章 (中文数字)
+        
+        Args:
+            file_name: 文件名
+            
+        Returns:
+            章节号，如果无法提取返回99999
+        """
+        import re
+        
+        # 尝试匹配各种章节格式
+        patterns = [
+            r'第(\d+)章',      # 第1章
+            r'第(\d+)回',      # 第1回
+            r'第(\d+)节',      # 第1节
+            r'第(\d+)话',      # 第1话
+            r'第(\d+)幕',      # 第1幕
+            r'第(\d+)篇',      # 第1篇
+            r'第(\d+)卷',      # 第1卷
+            r'第(\d+)部',      # 第1部
+            r'第(\d+)集',      # 第1集
+            r'第(\d+)小节',    # 第1小节
+            r'(\d+)章',        # 1章（无前缀）
+            r'(\d+)回',        # 1回（无前缀）
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, file_name)
+            if match:
+                return int(match.group(1))
+        
+        # 尝试匹配中文数字
+        chinese_nums = {'零': 0, '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, 
+                       '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+                       '百': 100, '千': 1000, '万': 10000}
+        
+        # 匹配"第X章"格式（中文数字）
+        chinese_pattern = r'第([零一二三四五六七八九十百千万]+)章'
+        match = re.search(chinese_pattern, file_name)
+        if match:
+            chinese_num = match.group(1)
+            total = 0
+            current = 0
+            for char in chinese_num:
+                if char in chinese_nums:
+                    value = chinese_nums[char]
+                    if value >= 10:
+                        total += current * value
+                        current = 0
+                    else:
+                        current = value
+            total += current
+            return total if total > 0 else 99999
+        
+        # 无法提取章节号，返回一个很大的数放在最后
+        return 99999
+    
+    def _get_pinyin_key(self, text: str) -> str:
+        """获取文本的拼音排序键（通用中文拼音排序）"""
+        try:
+            from pypinyin import lazy_pinyin
+            return ''.join(lazy_pinyin(text))
+        except ImportError:
+            import locale
+            try:
+                locale.setlocale(locale.LC_COLLATE, 'zh_CN.UTF-8')
+                return locale.strxfrm(text)
+            except:
+                return text
+    
+    def process_all_novels(self, sort_mode: str = "pinyin") -> List[str]:
+        """处理所有小说章节（按指定方式排序）
+        
+        Args:
+            sort_mode: 排序模式: pinyin(拼音) | chapter(章节号) | name(文件名)
+        """
+        print(f"\n=== 处理所有小说章节 (排序模式: {sort_mode}) ===")
         
         output_paths = []
         
@@ -1371,17 +1856,26 @@ class NovelAudioSynthesizer:
             
             print(f"\n📖 处理小说: {novel_name}")
             
+            json_files = []
             for json_file in os.listdir(novel_dir):
-                if not json_file.endswith(".json"):
-                    continue
-                
+                if json_file.endswith(".json"):
+                    json_files.append(json_file)
+            
+            if sort_mode == "chapter":
+                json_files.sort(key=lambda x: self._extract_chapter_number(x))
+            elif sort_mode == "pinyin":
+                json_files.sort(key=lambda x: self._get_pinyin_key(x))
+            else:
+                json_files.sort()
+            
+            for json_file in json_files:
                 json_path = os.path.join(novel_dir, json_file)
                 output_path = self.process_novel(json_path)
                 output_paths.append(output_path)
         
         return output_paths
 
-    def run(self, json_file: str = None) -> List[str]:
+    def run(self, json_file: str = None, sort_mode: str = "pinyin") -> List[str]:
         """运行小说音频合成器"""
         if not self.check_environment():
             return []
@@ -1390,7 +1884,7 @@ class NovelAudioSynthesizer:
             output_path = self.process_novel(json_file)
             output_paths = [output_path] if output_path else []
         else:
-            output_paths = self.process_all_novels()
+            output_paths = self.process_all_novels(sort_mode=sort_mode)
         
         print(f"\n🗑️ 清理临时文件...")
         audio_dir = os.path.join(self.base_dir, "../audio")
@@ -1432,6 +1926,10 @@ if __name__ == "__main__":
                         help="Qwen TTS模型路径")
     parser.add_argument("--persist-intermediate-audio", action="store_true",
                         help="保留单句配音/混音等中间音频文件，默认尽量减少落盘")
+    parser.add_argument("--platform", type=str, default="ximalaya",
+                        help="输出平台配置，如 default | ximalaya")
+    parser.add_argument("--sort-mode", type=str, default="pinyin",
+                        help="排序模式: pinyin(拼音排序，默认) | chapter(章节号排序) | name(文件名排序)")
     
     args = parser.parse_args()
     
@@ -1442,10 +1940,11 @@ if __name__ == "__main__":
         qwen_model_path=args.qwen_model_path,
         sfx_engine=args.sfx_engine,
         bgm_engine=args.bgm_engine,
-        persist_intermediate_audio=args.persist_intermediate_audio
+        persist_intermediate_audio=args.persist_intermediate_audio,
+        platform=args.platform,
     )
     
     if args.json_path:
-        synthesizer.run(json_file=args.json_path)
+        synthesizer.run(json_file=args.json_path, sort_mode=args.sort_mode)
     else:
-        synthesizer.run()
+        synthesizer.run(sort_mode=args.sort_mode)

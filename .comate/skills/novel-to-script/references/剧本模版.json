@@ -1,12 +1,11 @@
 {
   "project": "剑来有声小说自动生成",
   "chapter": "剑来第1章-惊蛰",
-  "global": {
-    "pitch": "+0Hz",
-    "channels": 1,
-    "voice_volume": "+0%",
-    "bgm_volume": "-18%",
-    "effect_volume": "-10%"
+  "片头": {
+    "novel_name": "剑来",
+    "author": "烽火戏诸侯",
+    "speaker": "AI合成",
+    "role_voice": "云健-中年男性磁性声音"
   },
   "roles_definition": {
     "旁白": {
@@ -83,7 +82,7 @@
           {
             "trigger_delay": 3.9,
             "duration": 8,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "烛火摇曳",
             "sound_cn": "蜡烛燃烧摇曳声",
             "sound_en": "Candle Flickering",
@@ -93,7 +92,7 @@
           {
             "trigger_delay": 9.9,
             "duration": 6,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "桃枝敲打",
             "sound_cn": "桃枝敲墙声",
             "sound_en": "Peach Branch Tapping",
@@ -103,7 +102,7 @@
           {
             "trigger_delay": 67.9,
             "duration": 2,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "吹灭蜡烛",
             "sound_cn": "吹灭蜡烛声",
             "sound_en": "Blowing Out Candle",
@@ -113,7 +112,7 @@
           {
             "trigger_delay": 70.9,
             "duration": 3,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "脚步踏上台阶声",
             "sound_en": "Footsteps on Steps",
@@ -123,7 +122,7 @@
           {
             "trigger_delay": 207.1,
             "duration": 5,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "散步脚步声",
             "sound_en": "Walking Steps",
@@ -133,7 +132,7 @@
           {
             "trigger_delay": 310.3,
             "duration": 2,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "脚步声由远及近",
             "sound_en": "Footsteps Approaching",
@@ -448,7 +447,7 @@
           {
             "trigger_delay": 0,
             "duration": 2,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "钱袋抛掷",
             "sound_cn": "钱袋落地声",
             "sound_en": "Money Pouch Dropping",
@@ -497,7 +496,7 @@
           {
             "trigger_delay": 2,
             "duration": 3,
-            "process_mode": "insert",
+            "process_mode": "overlay",
             "name": "脚步轻踏",
             "sound_cn": "脚步声远去",
             "sound_en": "Footsteps Fading Away",
@@ -623,109 +622,10 @@
       "mix": {
         "mode": "mix"
       }
-    },
-    {
-      "id": 26,
-      "role": "宋集薪",
-      "api": {
-        "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "有些物件我肯定搬不走，你可别趁我家没人，就肆无忌惮地偷东西。",
-          "instruct": "戏谑"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 27,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "陈平安摇了摇头。宋集薪蓦然哈哈大笑，用手指点了点陈平安，嬉皮笑脸道。",
-          "instruct": "嘲讽"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 28,
-      "role": "宋集薪",
-      "api": {
-        "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "胆小如鼠，难怪寒门无贵子，莫说是这辈子贫贱任人欺，说不定下辈子也逃不掉。",
-          "instruct": "嘲讽"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 29,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "陈平安默不作声。各自返回屋子，陈平安关上门，躺在坚硬的木板床上，贫寒少年闭上眼睛，小声呢喃道。",
-          "instruct": "平静叙述"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 30,
-      "role": "陈平安",
-      "api": {
-        "voice": {
-          "role": "陈平安",
-          "role_voice": "风发少年-男声-潇洒,磁性",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "碎碎平，岁岁安，碎碎平安，岁岁平安……",
-          "instruct": "轻声呢喃"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "voice_only"
-      }
     }
   ],
   "soundscape": {
-    "version": "1.0",
-    "strategy": "chapter_bed_plus_scene_layers",
-    "engine": "stable-audio-open",
-    "description": "场景级连续背景音配置：scene_layers 按行号覆盖局部场景；不使用贯穿整章的 chapter_bed，避免持续底噪影响听感；点状动作声仍由 effects/Woosh 生成。",
-    "scene_layers": [
+       "scene_layers": [
       {
         "name": "少年屋内驱蛇虫",
         "start_line": 1,
@@ -761,19 +661,6 @@
         "volume": "-22%",
         "fade_in": 2,
         "fade_out": 2,
-        "target_dbfs": -30,
-        "high_pass_hz": 90,
-        "low_pass_hz": 4200
-      },
-      {
-        "name": "夜色悬念收束",
-        "start_line": 26,
-        "end_line": 30,
-        "prompt": "very subtle low volume background ambience, mysterious quiet night in an ancient town, restrained calm suspense, soft smooth wind, continuous dark ambience bed, no sharp sounds, no prominent events, no voices, no music, no melody, no noise bursts, no heavy drone",
-        "duration": 47,
-        "volume": "-22%",
-        "fade_in": 2,
-        "fade_out": 3,
         "target_dbfs": -30,
         "high_pass_hz": 90,
         "low_pass_hz": 4200

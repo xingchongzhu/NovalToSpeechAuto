@@ -18,6 +18,54 @@ description: >
 - 音效可包含动作、环境声和必要的人声类发声，但人声音效必须短促自然、音量低于角色配音。
 - 禁止使用脚本批量化、模板批处理或正则一键扫全书的方式直接生成剧本成品；每一章都必须基于具体上下文做智能场景识别、角色识别、对白归属和音效判断，逐章单独处理，保证结果合理、自然、可听。
 
+## 小说章节下载规则
+
+### 下载来源优先级
+1. 优先使用可靠的正版小说平台：fanqienovel.com、qq.com 等
+2. 备选来源：kepub.net、nwczrj.qq.com 等
+3. 禁止使用明显盗版或内容残缺的网站
+
+### 内容完整性检查
+下载每章内容后，必须执行以下完整性检查：
+
+#### 1. 章节标题验证
+- 检查标题是否完整，包含"第X回/章"和章节名称
+- 检查标题是否与目录列表一致
+
+#### 2. 内容完整性验证
+- **字数检查**：正常章节字数应在 5000-20000 字范围内
+- **结尾完整性**：检查是否以完整句子或段落结尾，而非突兀截断
+- **标志性结尾检查**：检查是否包含"欲知后事如何，且看下回分解"等标准结尾句
+- **段落完整性**：检查最后一段是否完整，不出现半句结尾
+
+#### 3. 格式检查
+- 检查是否存在大量乱码、特殊字符
+- 检查是否存在明显的广告插入
+- 检查章节内容是否被替换为"小说被禁用"、"内容已删除"等提示
+
+#### 4. 连续性检查
+- 下载完成后，检查当前章节结尾是否与下一章开头存在合理衔接
+- 检查章节顺序是否正确
+
+### 下载失败处理
+1. 单个章节下载失败：记录失败原因，尝试备用来源
+2. 连续多个章节无法获取：停止下载，向用户报告并提供替代方案
+3. 内容不完整：自动尝试重新获取，如仍不完整则标记待人工处理
+
+### 输出目录规范
+- TXT 原稿：`小说批量工具/小说剧本原稿/{小说名}/{小说名}第X回-章节名.txt`
+- 下载日志：`小说批量工具/小说剧本原稿/{小说名}/下载日志.md`
+
+### 下载日志格式
+每章下载完成后，在下载日志中记录：
+- 章节编号和标题
+- 下载时间
+- 来源 URL
+- 文件大小
+- 字数统计
+- 完整性检查结果（通过/待审核/不完整）
+- 备注信息
+
 ## 内置资源和项目路径
 
 本 Skill 的完整剧本格式规范就在本文件中，生成剧本时不再读取单独的格式参考文档。
@@ -127,29 +175,32 @@ description: >
 JSON 顶层必须包含：
 - `project`：项目名称，如 `{小说名}有声小说自动生成`。
 - `chapter`：章节名称，如 `第1章 惊蛰`。
-- `global`：全局配置。
+- `片头`：小说级固定片头信息，用于后续平台片头片尾合成。
 - `roles_definition`：角色定义（全书统一）。
 - `data`：剧本片段数组（按顺序播放）。
 - `soundscape`：场景级连续背景音配置，替代逐句 `bgm`。
 
-### 全局配置 `global`
+### 片头配置 `片头`
 
 ```json
 {
-  "pitch": "+0Hz",
-  "channels": 1,
-  "voice_volume": "+0%",
-  "bgm_volume": "-18%",
-  "effect_volume": "-10%"
+  "novel_name": "剑来",
+  "author": "烽火戏诸侯",
+  "speaker": "AI合成",
+  "role_voice": "云健-中年男性磁性声音"
 }
 ```
 
 字段说明：
-- `pitch`：全局音调偏移，默认 `+0Hz`。
-- `channels`：音频通道数，默认 `1`。
-- `voice_volume`：人声基准音量，默认 `+0%`。
-- `bgm_volume`：背景音基准音量，默认 `-18%`。
-- `effect_volume`：音效基准音量，默认 `-10%`。
+- `novel_name`：小说名，整部小说固定一致。
+- `author`：作者名，整部小说固定一致。
+- `speaker`：演播文案，当前项目默认写 `AI合成`，整部小说固定一致。
+- `role_voice`：用于片头片尾固定播报的音色，必须来自已知克隆音色库；通常与旁白音色一致，也可按项目要求单独指定。
+
+生成要求：
+- `片头` 放在顶层，位于 `chapter` 之后、`roles_definition` 之前。
+- 同一部小说所有章节的 `片头.novel_name`、`片头.author`、`片头.speaker`、`片头.role_voice` 必须保持一致。
+- 如果已有同小说 JSON，可优先复用其 `片头` 配置；若与当前角色配音表冲突，先核对并统一后再交付。
 
 ### 角色定义 `roles_definition`
 
@@ -182,24 +233,7 @@ JSON 顶层必须包含：
 - `role` 使用全称，不缩写、不简写、无错别字。
 - 新剧本不在 `data[].api` 中写逐句 `bgm` 字段。
 - `voice.text` 100% 还原原著，不增删、不改写、不添加注释。
-- `text` 中遇到易读错的多音字时，可在汉字后用方括号标注拼音，如 `行[háng]`、`重[zhòng]`。
-- 多音字只标注容易读错的，不确定的可不标注。
-
-常见多音字参考：
-- 差：差不多 `chā`，差劲 `chà`。
-- 藏：收藏 `cáng`，宝藏 `zàng`。
-- 似：似乎 `sì`，似的 `shì`。
-- 更：更加 `gèng`，更改 `gēng`。
-- 为：沦为 `wéi`，因为 `wèi`。
-- 间：人间 `jiān`，间隔 `jiàn`。
-- 看：看管 `kān`，看见 `kàn`。
-- 还：还是 `hái`，归还 `huán`。
-- 行：修行 `xíng`，银行 `háng`。
-- 只：只是 `zhǐ`，一只 `zhī`。
-- 当：充当 `dāng`，恰当 `dàng`。
-- 朝：朝廷 `cháo`，朝阳 `zhāo`。
-- 分：时分 `fēn`，本分 `fèn`。
-- 角：牛角 `jiǎo`，角色 `jué`。
+- 多音字标注由音频合成阶段的 `polyphone_processor.py` 统一处理，剧本生成时无需手动标注。
 
 ### 语音配置 `voice`
 
@@ -218,7 +252,11 @@ JSON 顶层必须包含：
 要求：
 - `role_voice` 与 `roles_definition` 和小说角色配音表一致。
 - `speed`、`volume`、`pitch` 对同一角色保持全书一致。
-- `instruct` 描述语气、情绪、说话状态，不改写正文。
+- `instruct` 必须描述具体语气、情绪、说话状态，不改写正文。应使用明确的情绪词汇，如：
+  - 叙述类：平静叙述、紧张叙述、神秘叙述、庄重叙述、悲伤叙述、喜悦叙述
+  - 对话类：激动、愤怒、悲伤、喜悦、疑惑、温柔、严厉、急切、低沉、高亢、嘲讽、得意、无奈
+  - 动作类：轻声叙述、急切叙述、郑重叙述
+- `片头.role_voice` 必须来自已知音色，并与项目约定一致；如无特殊要求，优先复用旁白音色。
 
 ### 背景音配置 `soundscape`
 
@@ -229,9 +267,10 @@ JSON 顶层必须包含：
   "scene_layers": [
     {
       "name": "场景名",
+      "name_en": "对 prompt 的中文翻译",
       "start_line": 1,
       "end_line": 8,
-      "prompt": "very subtle low volume cinematic background ambience, [time and weather], [specific location materials], [distant natural texture], [subtle indoor or street tone], [emotional atmosphere], slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+      "prompt": "very subtle low volume cinematic background ambience, [time and weather], [specific location materials], [distant natural texture], [subtle indoor or street tone], [real-world sound sources], [emotional atmosphere], slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
       "volume": "-22%",
       "fade_in": 2,
       "fade_out": 2,
@@ -243,20 +282,43 @@ JSON 顶层必须包含：
 }
 ```
 
+`name_en` 编写规则：
+- `name_en` 是对 `prompt` 的中文翻译，用于描述场景的详细内容。
+- 格式要求：完整的中文句子，描述场景的时间、地点、氛围等。
+- 示例：`name: "月夜江上"` → `name_en: "长江月夜，江水轻波，远山剪影，微风拂过，古木舟漂浮，远处竹笛隐约，宁静怀旧氛围"`。
+
+**场景划分原则**：
+- 按剧情自然段落划分，避免过长或过短的场景。
+- 场景切换应与剧情转折同步（如时间变化、地点转换、情绪转变）。
+- 建议每章划分 4-8 个场景层，使背景音更贴合剧情。
+- 常见场景类型：自然风光、室内空间、特定时间氛围、情绪场景等。
+
+**场景命名规范**：
+| 场景类型 | 命名示例 | 说明 |
+|----------|----------|------|
+| 自然风光 | 峨眉山景、月夜江上、清晨赶路 | 突出地点和时间 |
+| 室内空间 | 周淳居所、客店大堂 | 突出地点特征 |
+| 情绪场景 | 江边夜话、村口送行 | 突出场景氛围 |
+| 特殊场景 | 庭院练剑、寺庙钟声 | 突出核心活动 |
+
 编写规则：
 - `scene_layers` 按场景氛围覆盖连续片段，`start_line/end_line` 指向合并后的 `data.id`。
 - `soundscape` 顶层不要再写 `version`、`strategy`、`engine`、`description` 这类模板性元信息，默认只保留真正参与生成的 `scene_layers`。
 - 背景音不再手写 `duration` 字段，默认交给系统根据场景覆盖范围、段落文字量和语速自动估算时长。
 - `prompt` 必须丰富到能支撑连续场景背景音生成，不能只写 `quiet alley`、`soft wind` 这类单调短提示词。
-- 推荐结构：低音量连续背景 + 时间天气 + 具体地点材质 + 远处自然纹理 + 近处空间底色 + 情绪氛围 + 负面约束。
+- 推荐结构：低音量连续背景 + 时间天气 + 具体地点材质 + 远处自然纹理 + 近处空间底色 + 真实环境声源 + 乐器底音 + 情绪氛围 + 负面约束。
 - 必须把场景写具体，至少交代清楚“什么时候、什么地方、空气/天气如何、有什么自然或环境纹理、整体情绪是什么”，不要只给抽象氛围词。
 - 推荐优先写出的具体维度包括：昼夜（清晨/午后/黄昏/深夜）、天气（微风/闷热/潮湿/薄雾/细雨/寒意）、空间材质（土路/石板路/木窗/屋檐/院墙/竹林/水井）、自然声源（树叶轻响/夏夜虫鸣/远处鸟声/河水流动/风穿过檐角），以及这些元素的远近、强弱和连续性。
-- 例如不要只写 `night ambience`，应写成类似：`quiet summer night under starry sky, faint breeze moving through tree leaves, sparse insects chirping far away, old village courtyard with wooden eaves, calm and lonely atmosphere`。
-- 例如不要只写 `mysterious town`，应写成类似：`late night ancient town alley, thin cold wind brushing bluestone street, distant loose shutters and subtle leaf rustle, restrained suspense, no foreground events`。
+- 例如不要只写 `night ambience`，应写成类似：`quiet summer night under starry sky, faint breeze moving through tree leaves, sparse insects chirping far away, old village courtyard with wooden eaves, gentle water dripping from eaves onto bluestone, subtle bamboo wind chime tinkling in night breeze, calm and lonely atmosphere, soft distant xiao flute breath`。
+- 例如不要只写 `mysterious town`，应写成类似：`late night ancient town alley, thin cold wind brushing bluestone street, distant loose shutters creaking and subtle leaf rustle, faint echo of distant temple bell, restrained suspense, deep guqin low resonance, no foreground events`。
 - 必须包含低音量与连续性：`very subtle low volume cinematic background ambience`、`smooth continuous ambience bed`。
 - 必须包含缓慢变化，避免循环感：`slow evolving layered soundscape`、`gentle variation over time`、`no repetitive loop feeling`。
-- 可以写入轻微、远处、非突出的环境纹理，如 `distant soft wind through old wooden eaves`、`faint morning air over bluestone street`、`subtle room tone of clay walls and old timber`、`soft summer insects far away under starry night`、`gentle leaves rustling in night breeze`，但不要写成前景事件。
+- 可以写入轻微、远处、非突出的环境纹理，如 `distant soft wind through old wooden eaves`、`faint morning air over bluestone street`、`subtle room tone of clay walls and old timber`、`soft summer insects far away under starry night`、`gentle leaves rustling in night breeze`、`soft crackle of a small charcoal brazier`、`distant temple bell tolling once`、`water softly dripping from eaves onto stone`，但不要写成前景事件。
 - 禁止突出事件、人声、旋律、脚步、尖锐音、噪声爆点：使用 `no sharp foreground sounds, no prominent events, no voices, no music, no melody, no noise bursts`。
+- 必须根据场景添加明确的真实场景声音源或乐器音色，避免空洞无声：每个场景 prompt 至少包含 1 个具象环境声源（如 `distant temple bell tolling`、`water dripping from eaves onto stone`、`soft crackle of a small oil lamp`、`faint bamboo wind chime tinkling in breeze`、`river water flowing gently over pebbles`、`subtle creak of old wooden beams`），并结合场景情绪添加 1 种乐器底音（如 `deep guqin resonance`、`soft xiao flute distant and breathy`、`sparse pipa plucks`、`warm erhu hum`、`subtle yangqin shimmer`），避免纯无声低音导致生成器输出空洞无内容的底噪。
+- 室内场景优先考虑：木炭火盆轻微的噼啪声、老旧木梁偶尔的嘎吱、窗外竹帘或风铃被风拨动的细响、水滴或漏壶声、烛火轻响、茶炉微沸。
+- 室外场景优先考虑：远处更夫或钟楼声、河水或溪流的持续流动、风声穿过松竹或檐角的啸叫、虫鸣或鸟声作为自然衬底、石板路或土路上的脚步回响（远处、轻微）、农舍或街巷中偶尔的犬吠鸡鸣。
+- 乐器选择遵循场景基调：静谧感用古琴/尺八的绵长低吟、紧张悬疑用中阮/大鼓的闷沉低频、悠闲感用箫/笛的悠扬气声、热闹市井用琵琶/扬琴的零碎点奏。
 
 - 默认 `volume` 可用 `-22%`；干扰人声时降到 `-28%~-32%`，太小时调到 `-18%~-22%`。
 - 默认 `target_dbfs=-30`、`high_pass_hz=90`、`low_pass_hz=3800~4200`。
@@ -264,7 +326,14 @@ JSON 顶层必须包含：
 
 ### 音效配置 `effects`
 
-允许使用：烛火摇曳、桃枝敲打、吹灭蜡烛、关门声、脚步声、跳下墙头、抛掷钱袋、窑炉熄火、劈竹声、水流声、风吹声、鸟声、风声、雨声、笑声、哭声、叹气、冷哼、喘息、嘶吼等。
+允许使用的音效类型：
+
+| 音效类别 | 示例 | 说明 |
+|----------|------|------|
+| **环境自然音** | 风声、雨声、流水声、鸟鸣、虫鸣 | 用于营造场景氛围 |
+| **动作音效** | 脚步声、关门声、拔剑声、杯盏碰撞 | 配合角色动作 |
+| **人声音效** | 笑声、哭声、叹气、惊呼、喘息 | 作为对话的补充 |
+| **特殊音效** | 剑击声、钟声、风铃、雷声 | 突出关键情节 |
 
 人声/拟人发声音效可以保留，但需要符合剧情和画面：
 - 适合作为环境或动作补充时才添加，不强行添加。
@@ -280,12 +349,17 @@ JSON 顶层必须包含：
   "duration": 2,
   "process_mode": "overlay",
   "name": "动作+材质",
-  "sound_cn": "中文描述",
+  "sound_cn": "对 sound_en 的中文翻译",
   "sound_en": "英文详细描述（必须≥8个英文单词）",
   "volume": "-20%",
   "pitch": "+0Hz"
 }
 ```
+
+`sound_cn` 编写规则：
+- `sound_cn` 是对 `sound_en` 的中文翻译，用于描述音效的详细内容。
+- 格式要求：完整的中文句子，描述音效的动作、材质、环境等。
+- 示例：`sound_en: "small wooden boat gently bobbing on river water..."` → `sound_cn: "小木船在河水上轻轻摇晃，水波轻拍船身，古木船顺流而下，老旧木材微微作响，宁静祥和的河流氛围"`。
 
 `sound_en` 编写规则：
 - 音效由 Woosh-DFlow 模型生成，单次生成固定约 5 秒音频，48kHz 高质量。
@@ -295,6 +369,20 @@ JSON 顶层必须包含：
 - 示例：`old wooden door creaking open slowly, rusty hinges squeaking, heavy wood swinging`。
 - 示例：`light footsteps with straw sandals on stone alley, soft tapping, walking pace`。
 - 示例：`metal coin tossed in air and caught, coin spinning, metallic clink, copper coin jingling`。
+
+**音效添加原则**：
+- 每章建议添加 8-15 个音效，分布在关键场景和动作点。
+- 音效应与剧情紧密结合，突出关键动作和情绪变化。
+- 避免过度使用音效，保持听觉舒适度。
+- 不同场景使用不同类型的音效，增强场景区分度。
+
+**音效音量建议**：
+| 音效类型 | 音量范围 | 说明 |
+|----------|----------|------|
+| 环境持续音 | -20%~-28% | 雨声、风声、流水等 |
+| 突发冲击音 | -8%~-15% | 雷声、剑击、碰撞等 |
+| 轻微动作音 | -20%~-24% | 脚步、纸张、杯盏等 |
+| 人声音效 | -24%~-28% | 笑声、哭声、叹气等 |
 
 复合音效拆分规则：
 - 当一个场景需要多种不同类型音效同时存在时，必须拆分为多个独立 `effects` 条目，分别生成后由混音引擎叠加。
@@ -306,7 +394,7 @@ JSON 顶层必须包含：
 触发延迟计算：
 - 音效不作为分段理由，应放入当前角色片段的 `effects` 数组。
 - 合并片段后，`trigger_delay` 必须按动作在合并后 `text` 中的实际位置重新估算。
-- 旁白语速可按约 3~5 字/秒估算；延迟时间（秒）≈ 动作前字数 ÷ 语速。
+- 旁白语速可按约 2.5~3.5 字/秒估算；延迟时间（秒）≈ 动作前字数 ÷ 语速。
 - 对话短句内动作音效通常使用 `0~2` 秒；长旁白中的动作音效要结合动作出现位置，不能全部写 `0`。
 - `process_mode` 默认使用 `overlay`，让音效与配音做叠加混音；不要使用会打断播报的插入式播放。
 - 如果历史 JSON、旧模板或示例中出现 `insert`，在生成新剧本或优化旧剧本时，默认应改回 `overlay`，除非用户明确要求保留插入式表现。
@@ -341,10 +429,22 @@ JSON 顶层必须包含：
 `小说批量工具/小说剧本原稿/{小说名}json稿/{小说名}第X章-章节名.json`
 
 写入后必须自动校验并修复；这一步默认立即执行，不需要再次征求用户是否继续：
+
+### 段落划分合理性检查
+
+**基础规则校验：**
 - JSON 语法合法。
 - `data[].id` 从 0 开始连续递增，不重复、不跳号。
 - 除 `id=0` 标题外，不存在连续两个相同 `role` 的片段。
 - 分段符合标题单独分段、角色切换分段、同角色连续内容合并规则。
+
+**段落划分合理性检查：**
+- 检查角色切换是否合理：确保每个段落只包含一个角色的台词或旁白，不出现角色混杂。
+- 检查对白归属正确性：确保所有带引号的对话都正确归属到对应角色，不遗漏、不错配。
+- 检查提示词完整性：`某人说道：`、`某人问道：` 等提示词后必须有对应的角色台词，不丢句、不串句。
+- 检查隐式台词识别：动作描写后接强口语、第一人称或腹诽内容时，应正确识别为角色内心独白或台词。
+- 检查场景连贯性：同一场景中的连续旁白应合并，不因音效或动作描写而无意义分割。
+- 检查段落逻辑：确保段落划分不破坏叙事逻辑，不出现"话没说完就分段"的情况。
 - 旁白中不残留应拆分的角色引号对白，`某人道：“台词”` 已拆成旁白动作 + 角色台词。
 - 不存在“旁白片段中混入角色直引语、下一句却直接变成另一角色回应”的错位结构。
 - 不存在“角色A台词被旁白念出，但角色B回应被单独拆出”的结构错误。
@@ -354,10 +454,15 @@ JSON 顶层必须包含：
 - `data[].api` 不包含逐句 `bgm` 字段，背景音统一使用顶层 `soundscape`。
 - `soundscape.scene_layers[].start_line/end_line` 指向存在的 `data.id`。
 - `soundscape.scene_layers` 默认不应包含 `duration` 字段；如出现旧字段，需在交付前删除并改用自动时长估算。
+- 顶层 `片头` 字段存在且位置正确，包含 `novel_name`、`author`、`speaker`、`role_voice`。
+- 同一部小说各章节的 `片头` 字段保持一致。
 - 角色 voice 配置与 `roles_definition` 一致。
 - `roles_definition` 严格匹配对应小说角色配音表。
 - 新角色已先补充到对应小说角色配音表，不能只存在于单章 JSON。
 - 历史 JSON 与角色配音表冲突时，以角色配音表为准。
+- **角色一致性强制检查**：剧本中所有角色的 `role_voice`、`speed`、`volume`、`pitch` 必须与对应小说角色配音表完全一致，不允许使用配音表中未定义的自定义音色名。
+- **角色配置扫描**：扫描 `data[]` 中所有片段的 `role_voice`，确保每个角色的配音参数在全章保持统一，且与 `roles_definition` 中的定义一致。
+- **音色存在性验证**：所有 `role_voice` 必须存在于 `references/克隆音频角色列表说明.md` 中，禁止使用不存在的音色名称。
 - 所有 `role_voice` 来自已知音色。
 - 人声类音效如存在，需符合剧情、短促自然、音量低于角色配音。
 - 所有 `sound_en` 为详细描述（≥8 个英文单词），无简短提示词。
@@ -368,6 +473,7 @@ JSON 顶层必须包含：
 - 所有 `effects[].process_mode` 默认必须为 `overlay`；若不是 `overlay`，必须有用户明确授权或场景理由。
 - 明显不适合作为逐句 `effects` 的持续环境声，已回收为 `soundscape.scene_layers` 或重新调整。
 - 文本 100% 还原原著无修改。
+- `soundscape.scene_layers[].prompt` 每段必须至少包含 1 个具象环境声源和 1 种乐器底音，不得全由抽象描述组成；发现空洞 prompt 必须补写后再交付。
 
 校验通过后，向用户报告输出路径、片段数、角色列表、soundscape 场景数和关键校验结果。
 - 报告时默认直接给出：本章已完成哪些自动校验、修正了哪些明显问题、还剩哪些需要后续继续精修的点。
