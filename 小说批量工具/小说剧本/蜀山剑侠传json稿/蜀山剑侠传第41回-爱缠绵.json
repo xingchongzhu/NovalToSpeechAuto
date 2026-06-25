@@ -1,0 +1,1585 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第四十一回 爱缠绵 采药上名山 惊摇落 携女游城市",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "矮叟朱梅": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "追云叟白谷逸": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-5Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "齐灵云": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "金蝉": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "朱文": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "顽石大师": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "七星手施林": {
+      "role_voice": "云澈-温柔,男声,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "李宁": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "李英琼": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "广慧": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "余英男": {
+      "role_voice": "活泼女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第四十一回 爱缠绵 采药上名山 惊摇落 携女游城市",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时战场上敌人的尸体，已被众剑仙用消骨散化去。风火道人吴元智的尸首，业由众剑仙帮助套上法衣，静等二老、苦行头陀等到来举行火葬。七星手施林正守着他师父的尸首哀哀痛哭，立誓与他师父报仇雪恨。那顽石大师左臂中了龙飞的九子母阴魂剑，女神童朱文受了晓月禅师的十二都天神煞，虽然与她二人服了元元大师的九转夺命神丹，依旧是昏迷不醒。最关心的是金蝉，陪在朱文卧榻前眼泪汪汪，巴望二老和苦行头陀快些回来施治。此次比剑，虽然峨眉派大获全胜，可也有一位剑仙被害，两位受伤，不似昔年峨眉斗剑，能够全师而返。各位剑仙正在心中难过之际，二老、苦行头陀同众剑仙一齐回转。矮叟朱梅连忙从身旁取出几块丹药，分一半给追云叟，请他去医治顽石大师，矮叟朱梅自己便往朱文身旁走来。金蝉姊弟见朱梅过来，急忙上前招呼。朱梅见金蝉一脸愁苦之状，不禁心中一动。当下便唤齐灵云取了一碗清水，将一块丹药化开。然后用剪刀将朱文衣袖剪破，只见她左臂紫黑，肿有二寸许高下，当中有一个米粒大的伤口在流黄水。矮叟朱梅不住地说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "施林痛哭",
+            "sound_cn": "七星手施林跪在师父吴元智的尸首旁失声痛哭，哭声悲切凄厉如杜鹃啼血，在空旷的大殿中久久回荡，令人心碎，泪水浸湿了衣襟",
+            "sound_en": "Shi Lin kneeling beside his master's body, weeping bitterly like a cuckoo's cry, his mournful sobs echoing through the empty hall, heart-wrenching, tears soaking his robe",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "二老与苦行头陀归来",
+            "sound_cn": "三道剑光从夜空如流星般划落，二老与苦行头陀衣袂翻飞落地有声，剑光敛去时发出三声低沉的嗡鸣如战鼓余音，衣袍在风中猎猎作响",
+            "sound_en": "three sword lights descending like meteors from the night sky, the two elders and Kuxing Toutuo landing with robes flapping, the lights fading with three low hums like lingering war drums, robes rustling in the wind",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "矮叟朱梅",
+      "api": {
+        "voice": {
+          "role": "矮叟朱梅",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "好险！如不是此女根行深厚，又服过元元大师的神丹，此命休矣！",
+          "instruct": "沙哑感叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "朱梅摇头叹息",
+            "sound_cn": "矮叟朱梅边说边连连摇头，发出一声沉重的叹息，眉头紧锁，神色凝重",
+            "sound_en": "Aishou Zhu Mei shaking his head repeatedly as he speaks, letting out a heavy sigh, his brow furrowed with concern",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "边说边取了一粒丹药，塞在朱文的伤口上。又命灵云将调好的丹药将她左臂连胸敷遍。一会工夫，黄水止住。朱梅又取两粒丹药，命灵云撬开朱文的牙关，塞人她口中，等她融化自咽。然后对灵云姊弟说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "剪衣袖声",
+            "sound_cn": "朱梅手持剪刀剪开朱文左臂衣袖，布料裂开发出清脆的嘶啦声，露出紫黑肿胀的伤口，黄水正从米粒大的伤口中渗出",
+            "sound_en": "Zhu Mei cutting through Zhu Wen's sleeve with scissors, fabric tearing with a crisp rip, revealing the purple-black swollen wound, yellow fluid seeping from the small opening",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "丹药化水",
+            "sound_cn": "丹药被投入清水碗中，发出一声轻响如珠落玉盘，随即在清水中迅速融化，散发出淡淡的药香，水色转为琥珀",
+            "sound_en": "the pill being dropped into the bowl of water with a light sound like a pearl on a jade plate, dissolving quickly, releasing a faint medicinal fragrance, the water turning amber",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "敷药声",
+            "sound_cn": "齐灵云将调好的药膏轻轻敷在朱文左臂上，药膏与皮肤接触发出轻微的黏腻声响",
+            "sound_en": "Qi Lingyun gently applying the prepared ointment to Zhu Wen's left arm, a faint sticky sound as it meets the skin",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "矮叟朱梅",
+      "api": {
+        "voice": {
+          "role": "矮叟朱梅",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "那十二都天神煞，好不歹毒。我等尚且不敢轻易涉险，她如何能行？此次虽然得保性命，恐怕好了，左臂也不能使用，并且于修道练剑上大有妨碍。她这样好的资质，真正可惜极了！使我最奇怪的是，晓月贼秃使用妖法时，连我同诸位根行深厚的道友，只看见一片阴云绿火同一些火龙，看不见他藏身之所。何以金蝉能看得那样清楚，会把朱文从九死一生之下抢了回来？",
+          "instruct": "沙哑思索"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "朱梅踱步",
+            "sound_cn": "朱梅一边说话一边在榻前缓缓踱步，脚步在青砖地上发出轻微的声响，显示出内心的思索与不安",
+            "sound_en": "Zhu Mei pacing slowly before the couch as he speaks, his footsteps on the blue bricks betraying his inner thought and unease",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云便把九华斩妖蛇，芝仙感恩舐目之事说了一遍。矮叟朱梅忽然哈哈大笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "矮叟朱梅",
+      "api": {
+        "voice": {
+          "role": "矮叟朱梅",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "这般说来，朱文有了救了。不但有救，连顽石大师也有了救，而且说不定还可遭遇仙缘，得些异宝。真是一件痛快的事。",
+          "instruct": "沙哑欣喜"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "朱梅大笑",
+            "sound_cn": "矮叟朱梅仰头发出一阵沙哑爽朗的大笑声，笑声如破锣却充满欣喜，在大殿中回荡不绝，震得烛火摇曳，众剑仙纷纷投来惊异的目光",
+            "sound_en": "Aishou Zhu Mei throwing his head back and letting out a hoarse and hearty laugh, like a cracked gong but filled with joy, echoing through the hall, making the candle flames tremble, the immortals casting surprised glances",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一面说，一面招呼追云叟快来，请顽石大师且放宽心。追云叟用药去救顽石大师，虽然救转，但左臂业已斩断，骨骼连皮只有两三分，周身黑紫，伤处痛如刀割。顽石大师受不住痛苦，几番打算自己用兵解化去，俱被追云叟止住。那金蝉先听朱梅说朱文不能复原，要成残废，一阵心酸，几乎哭出声来。后来听到朱梅说朱文有了救星，忧喜交加，心头不住地怦怦跳动。又不敢轻易动问怎样救法，睁着一双秀目，眼巴巴望着朱梅的脸。招得一班小弟兄们看见他的呆相，当着许多师父前辈，要笑又不敢笑。真是事不关心，关心者乱；前缘既定，无可解脱。那追云叟何尝不知他二人不是没有解法，但是知道求之大难，所以不作此想。及至听朱梅呼唤，先请元元大师等监视顽石大师，防她自己兵解。急忙走了过来，悄声问道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "金蝉紧张",
+            "sound_cn": "金蝉屏息凝神地注视着朱梅，心跳声急促如鼓点敲击胸膛，衣角被紧紧攥住发出细微的摩擦声，额上渗出细密的汗珠，嘴唇微微颤抖",
+            "sound_en": "Jin Chan staring intently at Zhu Mei, his heart pounding like a drum against his chest, his robe hem clenched tightly with faint friction sounds, beads of sweat on his forehead, his lips trembling slightly",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "顽石忍痛",
+            "sound_cn": "顽石大师忍痛发出一声低沉的呻吟，牙齿咬得咯咯作响，额上冷汗淋漓，面色苍白如纸",
+            "sound_en": "Wanshi Dashi letting out a low groan of pain, her teeth grinding audibly, cold sweat on her forehead, her face pale as paper",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "小弟兄窃笑",
+            "sound_cn": "一旁的小兄弟们看着金蝉的呆相，想笑又不敢笑，发出极力压抑的噗嗤声",
+            "sound_en": "the younger disciples suppressing laughter at Jin Chan's foolish expression, barely stifled snickers",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "追云叟白谷逸",
+      "api": {
+        "voice": {
+          "role": "追云叟白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "朱道友，你说他二人有救，敢莫是说桂花山福仙潭里的千年何首乌同乌风草么？这还用你说，一时间哪里去寻那一双生就天眼通的慧根童男女呢？",
+          "instruct": "沙哑低语"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅哈哈大笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "朱梅再笑",
+            "sound_cn": "矮叟朱梅又发出一阵沙哑的大笑，笑声中透着得意与神秘，眼睛闪着狡黠的光芒",
+            "sound_en": "Aishou Zhu Mei laughing again with a hoarse voice, tinged with pride and mystery, his eyes gleaming with cunning",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "矮叟朱梅",
+      "api": {
+        "voice": {
+          "role": "矮叟朱梅",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你在自是个名驰人表的老剑仙，你难道就不知福仙潭那个大老妖红花婆的几个臭条件吗？她因为当年失意的事，发下宏愿，专与世人为仇。把住了桂花山福仙潭，利用潭里的几个妖物，喷出许多妖云毒雾，将潭口封锁。她自己用了许多法术，把一个洞天福地变成了阿鼻地狱。当年长眉真人因见她把天才地宝霸占成个人私产，不肯公之于世，有失济人利物之旨，曾经亲身到桂花山寻她理论。她事先知道信息，便在山前山后设下许多惊人异法，俱被长眉真人破去。末后同长眉真人斗剑斗法，也都失败。长眉真人便要她撤去福仙潭的封锁同妖云毒雾，她仍是不甘屈服。彼时她说的话，也未始没有理由。她说：'天生异宝灵物，原留待夙根深厚的有缘人来享用。如果任人予取予携，早晚就要绝种，白白地便宜了许多不相干的人；真正根行深厚的人，反倒不得享受。我虽然因为一时的气愤，将福仙潭封锁，那是人类与我无缘，不完全是我厌恶人类。如要叫我撤去封锁，我就要应昔日的誓言。现在我也很后悔当时的意气用事。潭底下布的埋伏，并非绝无破法，只要来人是一对三世童身，生具夙根的童男女，经我同意之后，就进得去。不过乌风草生长在雾眼之中，随雾隐现，更有神鳄、毒石护持。来人如果不是生就一双慧眼，能看彻九幽，且剑术通元，下临无地，就三世童身，我也是爱莫能助。就是应允你，现在就撤去埋伏，你也无法下去。'长眉真人当下对她笑道：'你说的也是实话。七十年后，我教下自有人来寻你，只要你心口相应，除已有设备外，不再另外同他为难就是了。'其实，长眉真人何尝不能破她潭中法术同那护持灵药的两样厉害东西，只因时机未到，乐得利用她偏狭的心理，让她去代为保护。并使门下弟子，知道天生灵物，得之非易。自从长眉真人同她办交涉以后，不知有多少异派中人到福仙潭去，寻求那两样灵药，有的知难而退，有的简直就葬身雾眼之内。后来也就无人敢去问津了。近年来，大老妖红花婆阅历也深了，道术也精进了，气也平了，前些年又得了一部道书，越加深参造化，只苦于昔日誓言，不得脱身，巴不得有这么两个去破她的封锁，铲除毒石，收服神鳄，她好早日飞升。所以现在去取这样灵药，正是绝好的机会。今日我见金蝉竟能飞身到晓月贼秃妖云毒雾之中将朱文救回，很觉希奇，当时因为急于破寺，未及细问。适才灵云对我说起他在九华日夕受芝仙精液洗濯的原故，他同朱文俱是好几世的童身，由他同朱文前往桂花山求药，借此多带些回来，制成丹药，以备异日峨眉斗剑之用，岂非绝妙？",
+          "instruct": "沙哑讲述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "轻拍案桌",
+            "sound_cn": "朱梅说到得意处轻拍了一下案桌，发出清脆的声响，显示出他的兴奋与自信",
+            "sound_en": "Zhu Mei lightly slapping the table in triumph, a crisp sound, revealing his excitement and confidence",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "追云叟道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "追云叟白谷逸",
+      "api": {
+        "voice": {
+          "role": "追云叟白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "适才顽石大师几次要自行兵解，都被我拦住。我本想到桂花山的乌风草，可以祛毒生肌，只苦于无有适当的人前去。想不到金蝉一念之仁，得此大功，免却异日许多道友的灾难，真是妙极！我看事不宜迟，慈云寺既破，我等就此分别回山。由我将顽石大师带往衡山调养，等候金蝉将灵药取回，再行敷用。金蝉到底年幼，如今异派仇人大多，就由灵云护送他同朱文前往云南桂花山，去见红花姥姥，求取灵药便了。",
+          "instruct": "沙哑决断"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "追云叟拍案",
+            "sound_cn": "追云叟说着在案上轻轻一拍，语气坚定，显示出事不宜迟的决断",
+            "sound_en": "Zhuiyun Sou lightly striking the table as he speaks, his tone firm, showing the urgency of the matter",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时朱文服用朱梅丹药之后，渐渐醒转。她的痛苦与顽石大师不同，只觉着左半身麻木，右半身通体火热，十分难过。见二老在旁，便要下床行礼。朱梅连忙止住，又把前事与她说了一遍。追云叟也把桂花山取药之事告诉顽石大师，劝她暂时宽心忍耐。顽石大师伤处肿痛，难以动转，事到如今，也只好暂忍痛苦。众人议定之后，天已微明，便为风火道人吴元智举行火葬。众剑仙在吴元智的灵前，见他的弟子七星手施林抱着吴元智尸首哀哀痛哭，俱各伤感万分。火葬之后，七星手施林眼含痛泪，走将过来，朝着众位剑仙跪下，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "朱文醒转",
+            "sound_cn": "朱文悠悠醒转，发出一声低弱而痛苦的呻吟，手指微微颤动，眼皮缓缓睁开，眼神迷离",
+            "sound_en": "Zhu Wen waking slowly, letting out a weak and pained groan, her fingers twitching slightly, her eyelids fluttering open, her gaze dazed",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.2,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "火葬声",
+            "sound_cn": "火焰吞噬尸身的噼啪爆响与铁器摩擦声交织，众剑仙低声诵经的嗡嗡声与木柴燃烧的爆裂声融合，火光映红了每个人的脸庞，热浪扑面",
+            "sound_en": "flames consuming the body with crackling explosions and the sound of iron tools, the low chanting of the immortals mingling with the crack of burning wood, firelight illuminating every face, heat waves rolling",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "七星手施林",
+      "api": {
+        "voice": {
+          "role": "七星手施林",
+          "role_voice": "云澈-温柔,男声,标准男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "各位老师在上，先师苦修百十年，今日遭此劫数，门下只有弟子与徐祥鹅二人。可怜弟子资质驽钝，功行未就，不能承继先师道统。先师若在，当可朝夕相从，努力上进。如今先师已死，弟子如同失途之马，无所依归。还望诸位老师念在先师薄面，收归门下，使弟子得以专心学业，异日手刃仇人，与先师报仇雪恨。",
+          "instruct": "悲痛哽咽"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "施林跪哭",
+            "sound_cn": "施林双膝跪倒在地放声大哭，额头重重撞击地面发出沉闷的叩击声，衣袍拂地沙沙作响，泪珠大颗大颗滚落，声音哽咽而悲切",
+            "sound_en": "Shi Lin kneeling and weeping loudly, his forehead hitting the ground with heavy thuds, robe rustling, tears streaming down his face, his voice choked with grief",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，放声大哭。众剑仙眷念旧好，也都十分沧凄。追云叟道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "众剑叹息",
+            "sound_cn": "众剑仙纷纷发出沉重的叹息声，叹息声此起彼伏如秋风扫过林间，满含哀悼与无奈，有人低声诵念往生咒",
+            "sound_en": "the immortals letting out heavy sighs one after another, like autumn wind through the woods, filled with mourning and helplessness, some chanting low funeral prayers",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "追云叟白谷逸",
+      "api": {
+        "voice": {
+          "role": "追云叟白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "人死不能复生，这也是劫数使然。你的事，适才我已有安排。祥鹅日后自有机缘成就他，不妨就着他在山中守墓。你快快起来听我吩咐，不必这般悲痛。",
+          "instruct": "沙哑安慰"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "追云叟扶起",
+            "sound_cn": "追云叟伸手虚扶施林，袍袖轻拂带起一丝风声",
+            "sound_en": "Zhuiyun Sou making a gesture to lift Shi Lin, his sleeve brushing the air with a soft sound",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "施林闻言，含泪起来。追云叟又道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "施林起身",
+            "sound_cn": "施林含泪缓缓站起身，衣袍摩擦声轻响，衣袖擦拭泪水发出细微的沙沙声",
+            "sound_en": "Shi Lin rising slowly with tears, robe rustling softly, his sleeve brushing away tears with a light sound",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "追云叟白谷逸",
+      "api": {
+        "voice": {
+          "role": "追云叟白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "我见你为人正直，向道之心颇坚，早就期许。你将你师父灵骨背回山去，速与他寻一块净土安葬。然后就到衡山寻我，在我山中，与周淳他们一同修炼便了。",
+          "instruct": "沙哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "施林闻言，哀喜交集，便上前朝追云叟拜了八拜，又向各位前辈及同门道友施礼已毕，自将他师父骨灰背回山去安葬。不提。灵云姊弟因朱文身受重伤，不便御剑飞行，只得沿路雇用车轿前去。便由玉清大师命张琪兄妹回家取来应用行李川资。灵云也是男子装扮。打点齐备后，追云叟与朱梅又对三人分别嘱咐相机进行之策。天光大亮后，灵云等三人先到了张琪兄妹家中，见过张母，便由张家用了一乘轿子，两匹川马，送他三人上道。不提。追云叟等灵云三人走后，众剑仙正在分别告辞，互约后会之期，忽然一道金光穿窗而入。追云叟接剑一看，原来是乾坤正气妙一真人从东海来的飞剑传书。大意说是云、贵、川、湘一带，如今出了好些邪教。那五台、华山两派的余孽，失了统驭，渐渐明目张胆，到处胡为；有的更献身异族，想利用胡儿的势力，与峨眉派为难。请本派各位道友不必回山，仔细寻访根行深厚的青年男女，以免被异派中人物色了去，助纣为虐。同时计算年头，正是小一辈门人建立外功之期，请二老、苦行头陀将他们分作几方面出发等语。追云叟看完来书，便同众剑仙商量了一阵。除二老、苦行头陀要回山一行和顽石大师要随追云叟回山养病外，当下前辈剑仙各人俱向自己预定目的地进发。小兄弟或三人一组，或两人一组，由二老指派地点，分别化装前往，行道救人。以后每隔一年，指定一个时期，到峨眉聚首一次，报告各人自己功过。如果教祖不在洞中，便由驻洞的值年师伯师叔纠察赏罚。派定以后，众剑仙由玉清大师、素因大师恭送出玉清观外，分别自去。除周轻云、女空空吴文琪在成都府一带活动仍住玉清观不走外，各人俱按指定的地点进发。笑和尚因同金蝉莫逆，自己请求同黑孩儿尉迟火往云南全省行道，以便得与金蝉相遇之后，结伴同行。二老也知他可以胜任，便点头应允。笑和尚打算先到昆明去，立下一点功绩，再往回走，来追金蝉等三人。当下便向玉清大师等告别，同黑孩儿尉迟火上路。至于灵云姊弟陪朱文到桂花山求取灵药，以及峨眉门下这些小剑客的许多奇异事迹，后文自有交代。那本书中最重要的女侠李宁之女英琼，自前文中出现后，久已不与阅者相见。现在成都比剑已经告一段落，从今日起，便要归入英琼等的本传，引出英琼峨眉学剑，偶遇昆仑派赤城子接引莽苍山，月夜梅花林中斗龙，巧得紫郢剑，重牛岭斩山魈，百余马熊感恩搭熊桥，五侠战八魔等故事，均为全书中最精采处，尚祈阅者注意为幸。闲话少提，书归正传。话说李宁父女，自周淳下山后，转瞬秋尽冬来。又见周淳去了多日，并无音信回来，好生替他忧急。这日早起，李宁对英琼说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "飞剑传书",
+            "sound_cn": "一道金色剑光穿窗而入如流星破空划出一道耀眼的弧线，落在追云叟手中时发出清越的铮鸣如龙吟，剑光敛去化作一封书信，纸页微颤",
+            "sound_en": "a golden sword light flying through the window like a meteor tracing a brilliant arc, landing in Zhuiyun Sou's hand with a clear ring like a dragon's cry, the light fading into a letter, the paper trembling slightly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你周叔父下山两个多月了，蜀山高寒，不久大雪封山，日用物品便无法下山去买。我意欲再过一二日，便同你到山下去，买一些油盐米菜腊肉等类，准备我父女二人在山上过年。到明年开春后，再往成都去寻你周叔父的下落。你看可好？",
+          "instruct": "沧桑温和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼在山中住了多日，很爱山中的景致。加以她近来用一根绳子绑在两棵树梢之上，练习轻身术，颇有进展，恐怕下山耽搁了用功。本想让她父亲一人前去，又恐李宁一人搬运东西费力。寻思了一会，便决定随着李宁前往。且喜连日晴朗。到了第二天，李宁父女便用石块将洞门封闭，然后下山。二人在山中住了些日子，道路业已熟悉，便不从舍身岩险道下去，改由后山捷径越过歌凤溪，再走不远，便到了歌凤桥。桥下百丈寒泉，涧中如挟风雨而来，洪涛翻滚，惊心骇目，震荡成一片巨响，煞是天地奇观。父女二人在桥旁赏玩了一阵飞瀑，再由宝掌峰由右转左，经过大峨山，上有明督学郭子章刻的",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "歌凤桥飞瀑",
+            "sound_cn": "歌凤桥下百丈寒泉从悬崖飞泻而下如银河倒挂九天，洪涛翻滚似挟风雨雷电而来，水声如雷震荡成一片惊天巨响震耳欲聋，水雾弥漫如烟如纱，寒气逼人刺骨",
+            "sound_en": "the hundred-zhang cold spring beneath Gefeng Bridge thundering down like the Milky Way from the heavens, the torrent rolling as if carrying wind and rain and thunder, the roar shaking the heavens like thunder, deafening, mist rising like smoke, cold air piercing to the bone",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "山风松涛",
+            "sound_cn": "山风穿过古松林带起阵阵松涛如浪潮般起伏回荡，松针在风中沙沙作响如细语，与远处瀑布的轰鸣交织成大自然的交响乐章",
+            "sound_en": "mountain wind through ancient pines creating waves of sound like the tide, pine needles rustling like whispers, interweaving with the distant waterfall's roar into nature's symphony",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵陵太妙之天",
+          "instruct": "低诵"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "六个擘窠大字。二人又在那里瞻仰片刻，才走正心桥、袁店子、马鞍山，到楠枰，走向下山大路。楠枰之得名，是由于一株大可数抱的千年楠树。每到春夏之交，这高约数丈、笔一般直的楠树，枝柯盘郁，绿荫如盖，荫覆亩许方圆。人经其下，披襟迎风，烦暑一祛，所以又有木凉伞的名称。可惜这时已届冬初，享不着这样清福了。李宁把山中古迹对英琼谈说，英琼越听越有趣。便问道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "山中行路",
+            "sound_cn": "父女二人在山路上并肩前行，脚步踏在碎石与枯叶上发出沙沙的脆响如秋日私语，山雀在林间偶尔啼鸣清脆悦耳，秋日午后的阳光透过稀疏的树冠洒下斑驳光影，暖意融融",
+            "sound_en": "the father and daughter walking side by side on the mountain path, footsteps crunching on gravel and fallen leaves like autumn whispers, occasional birdsong from the woods, warm afternoon sunlight filtering through the sparse canopy, casting dappled shadows",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "爹爹虽在江湖上多年，峨眉还是初到，怎么就知道得这般详细？莫非从前来过？",
+          "instruct": "好奇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你这孩子，一天只顾拿刀动剑，跳高纵远，在自给你预备了那么多的书，你也不看。我无论到哪一处去，对于那一处地方的民情风土，名胜形势，总要设法明了。我所说的，一半是你周叔父所说，一半是从峨眉县志上看来的。人只要肯留心，什么都可以知道，这又何足为奇呢？",
+          "instruct": "沧桑教导"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人且行且说，一会儿工夫便到了华岩堠。这时日已中午，李宁觉着腹中饥饿。英琼便把带来的干粮取出，正要去寻水源，舀点泉水来就着吃。李宁忙道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "取干粮声",
+            "sound_cn": "英琼解开蓝布包袱取出干粮，布包摩擦发出轻微的窸窣声，干粮在手中发出干燥的碰撞声响，布角在风中轻轻飘动",
+            "sound_en": "Yingqiong unwrapping the blue cloth bundle and taking out dry rations, the cloth rustling softly, the rations clinking dryly in her hands, the cloth corners fluttering in the breeze",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "无须。此地离山下只有十五里，好在今晚是住在城里，何苦有现成福不享？我听你周叔父说，离此不远有一个解脱庵，那里素斋甚好，我们何妨去饱饱口福？",
+          "instruct": "沧桑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，带着英琼又往前走了不远，便到了解脱坡。坡的右边，果然有一座小庵，梵呗之声隐隐随风吹到。走近庵前一看，只见两扇庵门紧闭。李宁轻轻叩了两下。庵门开处，出来一个年老佛婆。李宁对她说明来意，老佛婆便引李宁父女去到禅堂落座，送上两盏清茶，便到里面去了。不多一会，唪经声停歇，出来一个四十多岁的老尼姑。互相问过姓名法号之后，李宁便说游山饥渴，意欲在她香积厨内扰一顿素斋。那尼姑名唤广慧，闻言答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "叩门声",
+            "sound_cn": "李宁轻轻叩响解脱庵的木门，门环与门板碰撞发出清脆而悠长的响声如古寺钟鸣，在山间回荡不绝",
+            "sound_en": "Li Ning knocking gently on the wooden gate of Jietuo Nunnery, the door knocker meeting the wood with a clear and lingering sound like an ancient temple bell, echoing through the mountains",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "梵呗钟磬",
+            "sound_cn": "庵中隐约传来低沉庄严的诵经声如潮水起伏，伴随着木鱼笃笃的敲击声与铜磬清越的余响，节奏舒缓而肃穆，随风飘出庵外，令人心神宁静",
+            "sound_en": "faint low chanting from the nunnery like waves rising and falling, accompanied by the rhythm of wooden fish and the clear lingering echo of copper bells, slow and solemn, carried by the wind, calming the mind",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "庵门开启",
+            "sound_cn": "庵门缓缓打开，门轴转动发出轻微的吱呀声如老旧时光的叹息，一位老佛婆出现在门内，双手合十",
+            "sound_en": "the nunnery gate slowly opening, the hinge creaking softly like a sigh of old time, an old Buddhist laywoman appearing at the door, palms pressed together",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "广慧",
+      "api": {
+        "voice": {
+          "role": "广慧",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "李施主，不瞒你说，这解脱庵昔日本是我师兄广明参修之所，虽不富足，尚有几顷山田竹园，她又做得一手的好素斋，历年朝山的居士，都喜欢到此地来用一点素斋。谁想她在上月圆寂后，被两个师侄将庙产偷卖与地方上一些痞棍。后来被我知道，不愿将这一所清净佛地凭空葬送，才赶到此间将这座小庵盘顶过来，只是那已经售出去的庙产无力赎回。现在小庵十分清苦，施主如不嫌草率，我便叫小徒英男作两碗素面来，与施主用可好？",
+          "instruct": "温和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁见广慧谈吐明朗，相貌清奇，二目神光内敛，知是世外高人，连忙躬身施谢。广慧便唤佛婆传话下去。又对李宁道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "李宁躬身",
+            "sound_cn": "李宁躬身施礼，衣料发出轻微的摩擦声，态度极为恭敬",
+            "sound_en": "Li Ning bowing respectfully, fabric rustling softly, his manner extremely deferential",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "广慧",
+      "api": {
+        "voice": {
+          "role": "广慧",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "女公子一身仙骨，只是眉心这两粒红痣生得煞气太重。异日得志，千万要多存几分慈悲之心，休忘本性，便可逢凶化吉，遇难呈祥了。",
+          "instruct": "温和告诫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁便请广慧指点英琼的迷途及自己将来结果。广慧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "广慧",
+      "api": {
+        "voice": {
+          "role": "广慧",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "施主本是佛门弟子，令嫒不久也将得遇机缘。贫尼仅就相法上略知一二，在施主面前献丑，哪里知道甚么前因后果呢？",
+          "instruct": "温和推辞"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁仍是再三求教，广慧只用言语支吾，不肯明言。一会，有一个蓄发小女孩，从后面端了两大碗素面汤出来。李宁父女正在腹中饥饿，再加上那两碗素面是用笋片、松仁、香菌作成，清香适口，二人吃得非常之香。吃完之后，那小女孩端上漱口水。英琼见她生得面容秀美，目如朗星，身材和自己差不多高下，十分羡爱，不住用两目去打量。那小女孩见英琼一派秀眉英风，姿容绝世，也不住用目朝英琼观看。二人都是惺惺惜惺惺，心中有了默契。李宁见英琼这般景况，不等女儿说话，便问广慧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "端面碗声",
+            "sound_cn": "余英男端了两大碗热气腾腾的素面从后堂走出，碗碟放在桌上发出清脆的陶瓷碰撞声如珠落玉盘，热气升腾带着笋片、松仁和香菌的清香扑面而来",
+            "sound_en": "Yu Yingnan bringing out two steaming bowls of vegetarian noodles from the back, the bowls meeting the table with crisp ceramic clinks like pearls on a jade plate, steam rising with the fragrance of bamboo shoots, pine nuts, and mushrooms",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "吃面声",
+            "sound_cn": "李宁父女吃面的轻微吸吮声与碗筷碰撞声交织，二人吃得十分香甜，碗筷偶尔碰撞发出清脆的叮当声",
+            "sound_en": "the soft sounds of father and daughter eating noodles, chopsticks and bowls clinking lightly, eating with relish, the occasional crisp ring of porcelain",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "这位小师父法号怎么称呼？这般打扮，想是带发修行的了。",
+          "instruct": "沧桑询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "广慧闻言，叹道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "广慧叹息",
+            "sound_cn": "广慧发出一声深长的叹息如秋风萧瑟，带着悲悯与感慨，眼中闪过一丝复杂的情绪",
+            "sound_en": "Guanghui letting out a deep and long sigh like autumn wind, filled with compassion and emotion, a complex glimmer in her eyes",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "广慧",
+      "api": {
+        "voice": {
+          "role": "广慧",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "她也是命多磨劫。出世不满三年，家庭便遭奇冤惨祸，被贫尼带入空门。因为她虽然生具夙根，可惜不是空门中人，并且她身上背着血海奇冤，早晚还要前去报仇，所以不曾与她落发。她原姓余，英男的名字是贫尼所取。也同令媛本有一番因果，不过此时尚不是时候。现在天已不早，施主如果进城，也该走了，迟了恐怕城门关闭，进不去。贫尼也要到后面做功课去了。",
+          "instruct": "温和叹息"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁见广慧大有逐客之意，就率英琼告辞，并从身上取了二两散碎银子作为香资。广慧先是不收，经不起李宁情意甚殷，只好留下。广慧笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "取银声",
+            "sound_cn": "李宁从怀中取出两小块碎银，银两在掌中碰撞发出清脆悦耳的叮当声如风铃轻响",
+            "sound_en": "Li Ning taking out two small pieces of silver from his bosom, the coins clinking crisply and pleasantly in his palm like wind chimes",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "广慧",
+      "api": {
+        "voice": {
+          "role": "广慧",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "小庵虽然清苦，尚可自给。好在这身外之物，施主不久也要它无用。我就暂时留着，替施主散给山下贫民吧。",
+          "instruct": "温和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁作别起身，广慧推说要做功课，便往里面走去，只由名唤英男的小女孩代送出来。行到庵门，李宁父女正要作别举步，那英男忽然问英琼道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "庵门再开",
+            "sound_cn": "庵门被从内打开，门轴转动发出轻微的吱呀声如晨鸟初啼，余英男的身影出现在门内，阳光在她的发梢上跳跃",
+            "sound_en": "the nunnery gate being opened from inside, the hinge creaking softly like morning birds, Yu Yingnan appearing at the door, sunlight dancing on her hair",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "活泼女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "适才我不知姊姊到来，不曾请教贵姓。请问姊姊，敢莫就是后山顶上隐居的李老英雄父女吗？",
+          "instruct": "活泼询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁闻言，暗自惊异，正要答言，英琼抢着说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我正是后山顶上住的李英琼，这便是我爹爹。你是如何知道的？",
+          "instruct": "活泼好奇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "余英男闻言，立刻喜容满面，答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "活泼女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "果然我的猜想不差，不然我师父怎肯叫我去做面给你们吃呢？你有事先去吧，我们是一家人，早晚我自会到后山去寻你。",
+          "instruct": "活泼欣喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到此间，忽听那老佛婆唤道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英姑，师太唤你快去呢。余英男一面答应",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "老佛婆唤声",
+            "sound_cn": "老佛婆的声音从庵内传来，带着几分催促与关切，声音苍老而慈祥",
+            "sound_en": "the old Buddhist laywoman's voice calling from inside the nunnery, with a hint of urgency and concern, aged and kind",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "活泼女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "来了",
+          "instruct": "活泼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "，一面对英琼说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "活泼女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我名叫余英男，是广慧师太的徒弟。你以后不要忘记了。",
+          "instruct": "活泼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，不俟英琼答言，竟自转身回去，将门关上。李宁见这庵中的小女孩，居然知道自己行藏，好生奇怪。想要二次进庵时，因见适才广慧情景，去见也未必肯说，只得罢休。好在广慧一脸正气，她师徒所说的一番话俱无恶意，便打算由城中回来，再去探问个详细。那英琼在山中居住，正愁无伴，平空遇见一个心貌相合的伴侣，也恨不得由城中回来，立刻和英男订交。父女二人各有心思，一面走，一面想，连山景也无暇赏玩。不知不觉过了凉风洞，从伏虎寺门前经过，穿古树林，从冠峨场，经瑜伽河，由儒林桥走到胜风门，那就是县城的南门。二人进了南门，先寻了一所客店住下。往热闹街市上买了许多油盐酱醋米肉糖食等类，因为要差不多够半年食用，买得很多，不便携带，俱都分别嘱咐原卖铺家，派人送往客店之内。然后再去添买一些御寒之具同针线刀尺等类。正走在街旁，忽听一声呼号，声如洪钟。李宁急忙回头看时，只见一个红脸白眉的高大和尚，背着一个布袋，正向一家铺子化缘。川人信佛者居多，峨眉全县寺观林立，人多乐于行善。那家铺子便随即给了那和尚几个钱。那和尚也不争多论少，接过钱便走。这时李宁正同那和尚擦肩而过。那和尚上下打量李宁父女两眼，又走向别家募化去了。李宁见那和尚生得那般雄伟，知道是江湖上异人，本想上前设法问讯。后来一想，自己是避地之人，何必再生枝节？匆匆同了英琼买完东西，回转店房。叫店家备了几色可口酒肴，父女二人一面喝酒吃菜，一面商谈回山怎样过冬之计。李宁闯荡半生，如今英雄末路，来到峨眉这种仙境福地住了数月，眼看大好江山沦于异族，国破家亡，匡复无术，伤心已极，便起了出尘遗世之想。只因爱女尚未长成，不忍割舍。英琼又爱学武，并且立誓不嫁，口口声声陪侍父亲一世。他眼看这粉装玉琢、冰雪聪明的一个爱女，怎肯将她配给庸夫俗子。长在深山隐居，目前固好，将来如何与她择配，自是问题，几杯浊酒下去，登时勾起心事，眼睛望着英琼，只是沉吟不语。英琼见父亲饮酒犯愁思，正要婉言宽慰，忽听店门内一阵喧哗。欲知后事如何，且听下回分解。",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "峨眉市井声",
+            "sound_cn": "峨眉县城中街市喧闹如沸水翻腾，小贩的叫卖声此起彼伏如潮起潮落，车马辚辚碾压青石板路发出沉重的回响，行人语声、讨价还价声交织成一片热闹而杂乱的生活交响",
+            "sound_en": "the bustling market street of Emei county boiling with noise, hawkers' calls rising and falling like the tide, cart wheels rumbling on bluestone with heavy echoes, pedestrians' voices and bargaining interweaving into a lively and chaotic symphony of life",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "僧人呼号",
+            "sound_cn": "一声洪钟般的呼号从街旁传来如雷贯耳，声如洪钟在闹市中格外清晰刺耳，震得行人纷纷侧目驻足，声音中带着不可言说的威严",
+            "sound_en": "a thunderous call like a great bell from the street side, clear and startling amid the bustle, making passersby turn their heads and pause, a voice carrying unspoken authority",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "铜钱落袋",
+            "sound_cn": "几枚铜钱被投入和尚的布袋中，发出叮叮当当的金属碰撞声如风铃摇曳，清脆悦耳，在喧闹的市井中格外分明",
+            "sound_en": "several copper coins being dropped into the monk's cloth bag, clinking metallically like swaying wind chimes, crisp and pleasant, distinct amid the noisy market",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "擦肩而过",
+            "sound_cn": "李宁与那高大和尚擦肩而过，衣料摩擦发出轻微的声响，两人目光短暂交接",
+            "sound_en": "Li Ning brushing past the tall monk, fabric rubbing lightly, their eyes meeting briefly",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "酒杯轻碰",
+            "sound_cn": "李宁与英琼在客店中对坐饮酒，酒杯与桌面碰撞发出沉闷的声响，几杯浊酒入喉，愁绪上涌化作一声叹息",
+            "sound_en": "Li Ning and Yingqiong drinking in the inn, wine cups meeting the table with dull sounds, a few cups of wine down, worries rising with a sigh",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "店门喧哗",
+            "sound_cn": "客店门口突然传来一阵喧哗声，人声嘈杂如蜂群涌动，打断了父女二人的沉思，夹杂着店小二的吆喝与客人的争执声",
+            "sound_en": "sudden commotion at the inn's entrance, noisy voices like a swarm of bees, breaking the father and daughter's contemplation, mingled with the innkeeper's shouts and guests' arguments",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "玉清观战后议事与安排",
+        "name_en": "辟邪村玉清观大殿中，烛火通明如昼，众剑仙战后相聚，气氛凝重而肃穆；施林痛哭失声如泣如诉，朱梅与追云叟商议为朱文和顽石大师求取灵药，金蝉守在朱文榻前忧心如焚，紧张与希望交织在一起",
+        "start_line": 1,
+        "end_line": 19,
+        "prompt": "very subtle low volume cinematic background ambience, solemn hall in Yuqing Temple at Poxie Village after the great battle, candlelight illuminating worried faces like a thousand stars, a young disciple weeping over his master's body, the wounded being tended to with desperate care, a young boy watching over his beloved with anxious hope, tense and anxious atmosphere mingled with newfound hope, candle flames flickering in the draft like restless souls, deep guqin resonance with somber yet hopeful, longing undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "峨眉山路秋色与父女同行",
+        "name_en": "深秋的峨眉山层林尽染金红如画，歌凤桥飞瀑如雷震撼山谷，古木参天蔽日，山风送爽，李宁父女沿着山路悠然下行，父女相携谈天说地，秋色如画诗情盎然",
+        "start_line": 20,
+        "end_line": 28,
+        "prompt": "very subtle low volume cinematic background ambience, late autumn on Mount Emei, forests ablaze with gold and red like a painter's palette, the thunder of Gefeng Bridge waterfall shaking the valley, ancient towering trees reaching to the sky, cool mountain breeze, father and daughter walking together through the stunning scenery, warm and peaceful atmosphere, fallen leaves crunching underfoot like autumn's whispers, birds calling in the distance, a journey into the unknown with a sense of timeless beauty, soft xiao flute with gentle and nostalgic, poetic and reflective undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "解脱庵清谈相遇",
+        "name_en": "解脱庵禅堂中佛香袅袅如云，梵呗钟磬声声入耳如天籁，广慧师太与李宁父女对谈，余英男端来素面清香四溢，两个少女初遇便惺惺相惜，清净中暗藏玄机，缘分已悄然开启",
+        "start_line": 29,
+        "end_line": 51,
+        "prompt": "very subtle low volume cinematic background ambience, quiet meditation hall in Jietuo Nunnery, incense smoke rising gently like prayers ascending, the soft rhythm of chanting and wooden fish from the back like a heartbeat, a wise nun speaking in riddles and half-truths, two young girls meeting for the first time with an instant connection, a sense of destiny quietly unfolding like a flower in the night, warm and serene yet mysterious atmosphere, soft temple bell tolling in the distance like a call from fate across time, guqin with tranquil and mystical, fateful undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "峨眉城中市井与父女独酌",
+        "name_en": "峨眉县城街市繁华喧闹人声鼎沸，车水马龙；夜幕降临时客店中烛光摇曳如豆，李宁父女对坐饮酒，李宁心怀国破家亡之痛与女儿前途之忧，沉吟不语，窗外街灯阑珊如泪，秋意渐浓如愁",
+        "start_line": 52,
+        "end_line": 52,
+        "prompt": "very subtle low volume cinematic background ambience, bustling day market in Emei county giving way to evening's quiet, father and daughter drinking in a small inn, the weight of the world on the father's shoulders like a mountain, the warm glow of candlelight on their faces, quiet and melancholic atmosphere, distant sounds of the fading market like a retreating tide, a sense of peace intertwined with sorrow and uncertainty about the future, soft erhu with wistful and reflective, poignant and deeply human undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

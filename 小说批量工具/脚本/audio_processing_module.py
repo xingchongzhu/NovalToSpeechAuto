@@ -31,6 +31,8 @@ from dataclasses import dataclass, asdict
 from typing import Dict, List, Optional, Any
 import re
 import warnings
+import gc
+import psutil
 
 # ======================== 音效/背景音生成引擎注册 ========================
 # 支持 sfx_engine / bgm_engine 参数灵活切换: "woosh" | "stable-audio-3"
@@ -218,7 +220,8 @@ PLATFORM_PROFILES: Dict[str, AudioPlatformProfile] = {
         sample_rate=44100,
         channels=2,
         bitrate="192k",
-        intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，作者{author}，演播{speaker}，欢迎订阅。",
+        #intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，作者{author}，演播{speaker}，欢迎订阅。",
+        intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，欢迎订阅。",
         outro_template="听众朋友，本集已播讲完毕，请订阅专辑，下集精彩继续。",
         min_chapter_ms=5 * 60 * 1000,
         max_chapter_ms=15 * 60 * 1000,
@@ -724,7 +727,7 @@ class AudioEngine:
             start = time.time()
             
             try:
-                resp = requests.post(api_url, json=payload, timeout=120)
+                resp = requests.post(api_url, json=payload, timeout=300)
                 elapsed = time.time() - start
                 
                 if resp.status_code != 200:
@@ -1294,17 +1297,23 @@ class AudioGenerator:
         """柔化背景音，降低突兀杂音和整体响度"""
         result = audio.set_frame_rate(self.audio_engine.sample_rate).set_channels(self.audio_engine.channels)
         if layer.high_pass_hz > 0:
-            result = result.high_pass_filter(layer.high_pass_hz)
+            try:
+                result = result.high_pass_filter(layer.high_pass_hz)
+            except (IndexError, Exception):
+                pass
         if layer.low_pass_hz > 0:
-            result = result.low_pass_filter(layer.low_pass_hz)
+            try:
+                result = result.low_pass_filter(layer.low_pass_hz)
+            except (IndexError, Exception):
+                pass
         if result.dBFS != float("-inf") and result.dBFS > layer.target_dbfs:
             result = result + (layer.target_dbfs - result.dBFS)
         return result.fade_in(800).fade_out(800)
 
     def _fit_audio_duration(self, audio: AudioSegment, duration_ms: int, loop: bool = True) -> AudioSegment:
         """循环或裁剪音频到指定时长"""
-        if duration_ms <= 0:
-            return AudioSegment.silent(duration=0, frame_rate=audio.frame_rate)
+        if duration_ms <= 0 or len(audio) <= 0:
+            return AudioSegment.silent(duration=0, frame_rate=self.audio_engine.sample_rate)
         if len(audio) >= duration_ms:
             return audio[:duration_ms]
         if not loop:
@@ -1556,50 +1565,91 @@ class AudioGenerator:
         return self.generate_chapter_audio_parallel()
 
     def generate_chapter_audio_serial(self) -> str:
-        """串行生成整章音频"""
+        """串行生成整章音频（流式写入优化）"""
         print(f"\n🚀 开始串行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
         soundscape_layers = self._parse_soundscape_layers()
 
-        merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
+        # 创建临时目录存放每句音频
+        stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
+        os.makedirs(stream_tmp_dir, exist_ok=True)
+
         line_ranges = {}
+        current_ms = 0
+        tmp_files = []
 
         for line_config in line_configs:
             try:
                 print(f"📊 当前进度: 第{line_config.id + 1}/{self.total_lines}句")
                 line_audio = self.generate_single_line(line_config)
-                start_ms = len(merged_audio)
-                merged_audio += line_audio
-                end_ms = len(merged_audio)
+                
+                # 记录时间范围
+                start_ms = current_ms
+                duration_ms = len(line_audio)
+                end_ms = start_ms + duration_ms
                 line_ranges[line_config.id] = (start_ms, end_ms)
+                current_ms = end_ms
+                
+                # 流式写入临时文件
+                tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
+                line_audio.export(tmp_file, format="wav")
+                tmp_files.append((line_config.id, tmp_file))
+                
+                # 第一句后添加1秒静音
                 if line_config.id == 0:
-                    merged_audio += AudioSegment.silent(duration=1000, frame_rate=44100)
+                    silent_audio = AudioSegment.silent(duration=1000, frame_rate=44100)
+                    silent_file = os.path.join(stream_tmp_dir, f"silent_0.wav")
+                    silent_audio.export(silent_file, format="wav")
+                    tmp_files.append((-1, silent_file))
+                    current_ms += 1000
+                
+                # 释放内存
+                del line_audio
+                
             except Exception as e:
                 print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
                 self.record_failed_line(line_config, e)
 
-        # 持久化失败段落记录，无论是否继续合成都保留现场
+        # 持久化失败段落记录
         self.persist_failed_lines()
 
-        # 失败段落导致整章不完整，跳过整章音频合成
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
-            print(
-                f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，整章音频不完整，跳过最终整章合成。"
-            )
+            print(f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，跳过整章合成")
             print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
-            print(f"💡 请修复失败段落后重新运行，错误记录见: {self.failed_lines_log_path}")
             self.audio_engine.clean_temp_files()
             return None
 
+        # 合并所有临时文件
+        print(f"\n� 合并 {len(tmp_files)} 个音频片段...")
+        merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
+        tmp_files.sort(key=lambda x: x[0])
+        
+        for line_id, tmp_file in tmp_files:
+            segment = AudioSegment.from_wav(tmp_file)
+            merged_audio += segment
+            del segment  # 释放内存
+
         if soundscape_layers:
-            print("\n🎼 配音和音效已合成完成，开始最后生成并叠加 soundscape 背景音...")
+            print("\n🎼 开始叠加 soundscape 背景音...")
             self._prepare_soundscape_layers(soundscape_layers)
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
         chapter_output_path = self._export_chapter_audio(merged_audio)
+
+        # 清理临时文件
+        print(f"\n🗑️ 清理流式临时文件...")
+        for _, tmp_file in tmp_files:
+            try:
+                os.remove(tmp_file)
+            except:
+                pass
+        try:
+            os.rmdir(stream_tmp_dir)
+        except:
+            pass
 
         self.audio_engine.clean_temp_files()
 
@@ -1610,14 +1660,18 @@ class AudioGenerator:
         return chapter_output_path
 
     def generate_chapter_audio_parallel(self) -> str:
-        """并行生成整章音频"""
+        """并行生成整章音频（流式写入优化）"""
         print(f"\n🚀 开始并行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
         soundscape_layers = self._parse_soundscape_layers()
 
-        results = []
+        # 创建临时目录存放每句音频
+        stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
+        os.makedirs(stream_tmp_dir, exist_ok=True)
+
+        tmp_files = []
         total_lines = len(line_configs)
         max_workers = min(3, total_lines)
 
@@ -1631,44 +1685,71 @@ class AudioGenerator:
                 print(f"\n📊 [{self.novel_name} / {self.chapter_name}] 已完成 {index}/{total_lines} 句 | 当前返回: 第{line_config.id + 1}句")
                 try:
                     line_audio = future.result()
-                    results.append((line_config.id, line_audio))
+                    # 流式写入临时文件
+                    tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
+                    line_audio.export(tmp_file, format="wav")
+                    tmp_files.append((line_config.id, tmp_file))
+                    # 释放内存
+                    del line_audio
                 except Exception as e:
                     print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
                     self.record_failed_line(line_config, e)
 
-        results.sort(key=lambda item: item[0])
-
-        # 持久化失败段落记录，无论是否继续合成都保留现场
+        # 持久化失败段落记录
         self.persist_failed_lines()
 
-        # 失败段落导致整章不完整，跳过整章音频合成
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
-            print(
-                f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，整章音频不完整，跳过最终整章合成。"
-            )
+            print(f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，跳过整章合成")
             print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
-            print(f"💡 请修复失败段落后重新运行，错误记录见: {self.failed_lines_log_path}")
             self.audio_engine.clean_temp_files()
             return None
 
+        # 合并所有临时文件
+        print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
+        tmp_files.sort(key=lambda x: x[0])
+        
         merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
         line_ranges = {}
-        for line_id, line_audio in results:
-            if line_audio is not None:
-                start_ms = len(merged_audio)
-                merged_audio += line_audio
-                end_ms = len(merged_audio)
-                line_ranges[line_id] = (start_ms, end_ms)
-                if line_id == 0:
-                    merged_audio += AudioSegment.silent(duration=1000, frame_rate=44100)
+        current_ms = 0
+        
+        for line_id, tmp_file in tmp_files:
+            segment = AudioSegment.from_wav(tmp_file)
+            start_ms = current_ms
+            duration_ms = len(segment)
+            end_ms = start_ms + duration_ms
+            line_ranges[line_id] = (start_ms, end_ms)
+            current_ms = end_ms
+            
+            merged_audio += segment
+            
+            # 第一句后添加1秒静音
+            if line_id == 0:
+                silent_audio = AudioSegment.silent(duration=1000, frame_rate=44100)
+                merged_audio += silent_audio
+                current_ms += 1000
+                del silent_audio
+            
+            del segment  # 释放内存
 
         if soundscape_layers:
-            print("\n🎼 配音和音效已合成完成，开始最后生成并叠加 soundscape 背景音...")
+            print("\n🎼 开始叠加 soundscape 背景音...")
             self._prepare_soundscape_layers(soundscape_layers)
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
         chapter_output_path = self._export_chapter_audio(merged_audio)
+
+        # 清理临时文件
+        print(f"\n🗑️ 清理流式临时文件...")
+        for _, tmp_file in tmp_files:
+            try:
+                os.remove(tmp_file)
+            except:
+                pass
+        try:
+            os.rmdir(stream_tmp_dir)
+        except:
+            pass
 
         self.audio_engine.clean_temp_files()
 
@@ -1839,6 +1920,47 @@ class NovelAudioSynthesizer:
             except:
                 return text
     
+    def _check_memory_usage(self) -> float:
+        """检查系统内存使用情况
+        
+        Returns:
+            可用内存百分比 (0-100)
+        """
+        try:
+            memory = psutil.virtual_memory()
+            available_percent = (memory.available / memory.total) * 100
+            return available_percent
+        except Exception as e:
+            print(f"⚠️ 获取内存信息失败: {e}")
+            return 100.0
+    
+    def _garbage_collect(self):
+        """执行垃圾回收，释放内存"""
+        print("\n🗑️ 内存不足，执行垃圾回收...")
+        
+        gc.collect()
+        
+        try:
+            import torch
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+                print("  🧹 已清理 CUDA 缓存")
+            if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                torch.mps.empty_cache()
+                print("  🧹 已清理 MPS 缓存")
+        except Exception:
+            pass
+        
+        try:
+            import gc
+            gc.collect()
+        except Exception:
+            pass
+        
+        memory = psutil.virtual_memory()
+        available_percent = (memory.available / memory.total) * 100
+        print(f"  ✅ 回收后可用内存: {available_percent:.1f}%")
+    
     def process_all_novels(self, sort_mode: str = "pinyin") -> List[str]:
         """处理所有小说章节（按指定方式排序）
         
@@ -1872,6 +1994,12 @@ class NovelAudioSynthesizer:
                 json_path = os.path.join(novel_dir, json_file)
                 output_path = self.process_novel(json_path)
                 output_paths.append(output_path)
+                
+                available_percent = self._check_memory_usage()
+                print(f"\n📊 当前可用内存: {available_percent:.1f}%")
+                
+                if available_percent < 10.0:
+                    self._garbage_collect()
         
         return output_paths
 

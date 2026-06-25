@@ -241,13 +241,13 @@ def process_polyphone_text(text: str) -> str:
     # 处理顺序很重要：先处理特例词汇（如"了得"、"得道"），再处理通用模式
     # 否则通用模式可能先把某个字替换成拼音，导致后续模式无法匹配
 
-    text = _process_le_character(text)   # 了 le/liǎo
-    text = _process_de_character(text)   # 的 de/dí/dì
-    text = _process_de2_character(text)  # 得 de/dé/děi
-    text = _process_zhe_character(text)  # 着 zhe/zháo/zhuó
-    text = _process_wei_character(text)  # 为 wèi/wéi
-    text = _process_hai_character(text)  # 还 hái/huán
-    text = _process_di_de_character(text)  # 地 de/dì
+    #text = _process_le_character(text)   # 了 le/liǎo
+    #text = _process_de_character(text)   # 的 de/dí/dì
+    #text = _process_de2_character(text)  # 得 de/dé/děi
+    #text = _process_zhe_character(text)  # 着 zhe/zháo/zhuó
+    #text = _process_wei_character(text)  # 为 wèi/wéi
+    #text = _process_hai_character(text)  # 还 hái/huán
+    #text = _process_di_de_character(text)  # 地 de/dì
 
     return text
 

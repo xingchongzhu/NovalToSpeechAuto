@@ -14,6 +14,8 @@ Fish Speech 本地测试脚本
 - 默认 API 地址 http://localhost:8080
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import json
