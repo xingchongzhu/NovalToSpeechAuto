@@ -7,7 +7,7 @@ from scraper import TechNewsScraper
 
 def main():
     parser = argparse.ArgumentParser(description='科技AI资讯抓取工具')
-    parser.add_argument('-c', '--count', type=int, default=20, help='显示/保存资讯数量')
+    parser.add_argument('-c', '--count', type=int, default=10, help='显示/保存资讯数量')
     parser.add_argument('-d', '--detail', action='store_true', help='是否抓取新闻详情')
     parser.add_argument('-o', '--output', type=str, default=None, help='输出文件名')
     parser.add_argument('-a', '--audio', action='store_true', help='是否生成音频')

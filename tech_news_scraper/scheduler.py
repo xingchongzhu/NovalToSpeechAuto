@@ -46,11 +46,11 @@ def run_news_scraper():
         scraper = TechNewsScraper()
         
         print_progress("正在抓取新闻...")
-        news = scraper.scrape_all(fetch_detail=False, limit=20)
+        news = scraper.scrape_all(fetch_detail=True, limit=10)
         
         if news:
             print_progress("新闻抓取完成，正在保存...")
-            scraper.print_news(count=20, show_summary=True)
+            scraper.print_news(count=10, show_summary=True)
             output_path = scraper.save_to_file()
             
             if output_path:

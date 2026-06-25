@@ -133,11 +133,15 @@ class TechNewsScraper:
                 rf'{source_name}\s+消息',
                 rf'{source_name}\s*讯',
                 rf'来源[:：]\s*{source_name}',
-                rf'{source_name}\s*报道'
+                rf'{source_name}\s*报道',
+                rf'{source_name}\s*注意到[，,，\s]*',
+                rf'{source_name}\s*了解[到至][，,，\s]*',
             ]
             for pattern in patterns:
                 simplified = re.sub(pattern, '', simplified)
         
+        # 删除推广语句
+        simplified = re.sub(r'#欢迎关注[^#]*#?\s*', '', simplified)
         simplified = re.sub(r'【[^】]+】', '', simplified)
         simplified = re.sub(r'（[^）]+）', '', simplified)
         simplified = re.sub(r'\([^)]+\)', '', simplified)
@@ -211,6 +215,8 @@ class TechNewsScraper:
                         if not summary:
                             summary = full_content
                         simplified_content = self.simplify_content(full_content, source)
+                    elif summary:
+                        simplified_content = self.simplify_content(summary, source)
                 elif summary:
                     simplified_content = self.simplify_content(summary, source)
                 
@@ -311,12 +317,20 @@ class TechNewsScraper:
                 print(f"抓取 {name} 失败: {e}")
             time.sleep(0.5)
         
+        # 按字数筛选：simplified_content 须在 300~3000 字之间，无内容则直接丢弃整条新闻
         filtered_news = []
         for news in self.news_data:
             title = news.get('title', '')
-            if not any(keyword in title for keyword in exclude_keywords):
-                filtered_news.append(news)
-        
+            if any(keyword in title for keyword in exclude_keywords):
+                continue
+
+            simplified = (news.get('simplified_content') or '').strip()
+            char_count = len(simplified)
+            if char_count < 300 or char_count > 3000:
+                continue
+
+            filtered_news.append(news)
+
         self.news_data = filtered_news
         self.news_data.sort(key=lambda x: x['time'], reverse=True)
         self.news_data = self.news_data[:limit]
