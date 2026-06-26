@@ -5,11 +5,11 @@
     "novel_name": "蜀山剑侠传",
     "author": "还珠楼主",
     "speaker": "AI合成",
-    "role_voice": "云健-中年男性磁性声音"
+    "role_voice": "云健-低沉"
   },
   "roles_definition": {
     "旁白": {
-      "role_voice": "云健-中年男性磁性声音",
+      "role_voice": "云健-低沉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-10%"
@@ -166,7 +166,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -185,7 +185,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -223,7 +223,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -261,7 +261,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -299,7 +299,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -337,7 +337,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -375,7 +375,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -413,7 +413,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -472,7 +472,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -521,7 +521,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -570,7 +570,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -619,7 +619,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -657,7 +657,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -695,7 +695,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -744,7 +744,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -793,7 +793,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -831,7 +831,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -869,7 +869,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -907,7 +907,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -945,7 +945,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1014,7 +1014,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1063,7 +1063,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1101,7 +1101,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1160,7 +1160,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1209,7 +1209,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1247,7 +1247,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1296,7 +1296,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1345,7 +1345,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1383,7 +1383,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1442,7 +1442,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1480,7 +1480,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1539,7 +1539,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1588,7 +1588,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1637,7 +1637,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
