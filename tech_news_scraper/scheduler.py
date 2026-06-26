@@ -9,6 +9,7 @@
 import os
 import sys
 import time
+import glob
 import logging
 from datetime import datetime
 from threading import Thread
@@ -40,27 +41,47 @@ def run_news_scraper():
         logger.info("开始执行新闻抓取任务...")
         print_progress("开始执行新闻抓取任务...")
         
-        from scraper import TechNewsScraper
+        today_date_str = datetime.now().strftime('%Y-%m-%d')
+        news_dir = os.path.join('news', today_date_str)
         
-        print_progress("初始化爬虫...")
-        scraper = TechNewsScraper()
+        # 检查今天是否已有新闻数据
+        existing_json = []
+        if os.path.isdir(news_dir):
+            existing_json = glob.glob(os.path.join(news_dir, 'tech_news_*.json'))
         
-        print_progress("正在抓取新闻...")
-        news = scraper.scrape_all(fetch_detail=True, limit=10)
-        
-        if news:
+        if existing_json:
+            # 当天新闻已抓取，直接使用已有 JSON 合成音频
+            existing_json.sort(reverse=True)
+            output_path = existing_json[0]
+            print_progress(f"当天新闻已存在，跳过抓取: {output_path}")
+            logger.info(f"当天新闻已存在，跳过抓取，使用: {output_path}")
+        else:
+            from scraper import TechNewsScraper
+            
+            print_progress("初始化爬虫...")
+            scraper = TechNewsScraper()
+            
+            print_progress("正在抓取新闻...")
+            news = scraper.scrape_all(fetch_detail=True, limit=10)
+            
+            if not news:
+                logger.warning("未获取到任何新闻")
+                print_progress("未获取到任何新闻")
+                print()
+                return
+            
             print_progress("新闻抓取完成，正在保存...")
             scraper.print_news(count=10, show_summary=True)
             output_path = scraper.save_to_file()
-            
-            if output_path:
-                print_progress("正在生成音频...")
-                from news_to_audio import news_to_audio
-                news_to_audio(
-                    news_json_path=output_path,
-                    output_dir='news',
-                    voice_name="阿辉-官方新闻,资讯"
-                )
+        
+        if output_path:
+            print_progress("正在生成音频...")
+            from news_to_audio import news_to_audio
+            news_to_audio(
+                news_json_path=output_path,
+                output_dir='news',
+                voice_name="阿辉-官方新闻,资讯"
+            )
         
         logger.info("新闻抓取任务完成")
         print_progress("任务完成！")

@@ -136,6 +136,16 @@ class TechNewsScraper:
                 rf'{source_name}\s*报道',
                 rf'{source_name}\s*注意到[，,，\s]*',
                 rf'{source_name}\s*了解[到至][，,，\s]*',
+                # 删除文中出现的来源引用短语（如 "据IT之家了解,"、"IT之家查询参数表获悉" 等）
+                rf'据{source_name}.+?[，,]',
+                rf'{source_name}从.+?[，,]',
+                rf'{source_name}查询.{{0,10}}?[，,]',
+                rf'{source_name}附上[^：:]+?[：:]',
+                rf'{source_name}注[：:，,]\s*',
+                rf'据{source_name}',
+                rf'{source_name}从',
+                rf'{source_name}查询',
+                rf'{source_name}附上',
             ]
             for pattern in patterns:
                 simplified = re.sub(pattern, '', simplified)
@@ -345,7 +355,7 @@ class TechNewsScraper:
         if not filename:
             date_str = datetime.now().strftime('%Y-%m-%d')
             time_str = datetime.now().strftime('%H%M%S')
-            filename = f"news/tech_news_{date_str}_{time_str}.json"
+            filename = f"news/{date_str}/tech_news_{date_str}_{time_str}.json"
         
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         

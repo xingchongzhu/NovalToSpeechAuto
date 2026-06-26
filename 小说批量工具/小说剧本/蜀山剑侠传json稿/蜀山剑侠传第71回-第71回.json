@@ -1,0 +1,2145 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第71回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "白琦": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "戴衡玉": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "佟元奇": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "玉清大师": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "铁蓑道人": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "怪叫花": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "+2%",
+      "speed": "-8%"
+    },
+    "法元": {
+      "role_voice": "龙小诚-磁性低音",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "姚开江": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "罗九": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-3Hz",
+      "volume": "+2%",
+      "speed": "-4%"
+    },
+    "黄人瑜": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "柳雄飞": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "何玫": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "柳燕娘": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "魏青": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "岳大鹏": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "林秋水": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "薛蟒": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "郭云璞": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "毛太": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "郁次谷": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "吕宪明": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "孔灵子": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "曹飞": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "崔绮": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "周轻云": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "吴文琪": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "虞舜农": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第71回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "打擂试登萍\n有意藏奸\n无心出丑轻身行白刃\n淫人丧命\n荡女挥拳话说双方到了广场，戴家场的人由佟元奇率领，至东芦棚上入座；吕村的人由白琦陪着法元、姚开江前导，送到西芦棚上落座。东西两棚均派得有十名长工招呼茶水。大家表面上都极客气，绝不似顷刻就要拼个你死我活的样儿。当大众往外走时，那怪叫花首先起立，也不用人招呼，径自往外就走。此时到了芦棚上面，已不知他往哪里去了。白琦安顿好了吕村诸人，回转东芦棚，见怪叫花不在。一眼看见林秋水正和大家介绍适才领到席上的两位远客，才知那两人是苏州太湖金庭山玉柱洞隐居的吴中双侠姜渭渔、潘绣虎。白琦也随着上前相见。原来岳、黄、林三人把守谷口，忽见谷外号旗举处，远远有二人如飞而至。近前相见，认出是昔日旧友吴中双侠，也是到善化去访罗新，听楚鸣球说起戴家场之事，并说湘江五侠也在那里，特地赶来相助一臂之力。彼此寒暄了几句，又见从回路上来了一个叫花，一个大汉。黄、林二人俱认得那大汉是陆地金龙魏青，知他是在吕村卧底。那叫花却不认得。先问魏青到此何事。魏青道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "广场人声",
+            "sound_cn": "广场上人群走动，芦棚搭建，长工招呼茶水，声音嘈杂",
+            "sound_en": "crowd moving in the square, straw sheds set up, servants serving tea, bustling noise",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "瓷碗轻碰",
+            "sound_cn": "长工端茶送水，瓷碗碰撞声",
+            "sound_en": "servants serving tea, porcelain cups clinking",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "怪叫花起身",
+            "sound_cn": "怪叫花突然起身，破鞋踢趿声",
+            "sound_en": "strange beggar suddenly standing, shuffling footsteps",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "谷口来人",
+            "sound_cn": "谷口号旗挥动，两人如飞而至，脚步声急促",
+            "sound_en": "signal flag waving at valley entrance, two arriving swiftly, urgent footsteps",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "魏青",
+      "api": {
+        "voice": {
+          "role": "魏青",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我妻子在吕村，我恐吕、郭二人见疑，故意随他们前来赴会，却叫我妻子偷偷由戴姑娘所说的那条僻径逃出。适才鱼神洞山峰崩倒时，我正站离峰脚不远，眼看那峰头朝我顶上压下，知道不及逃避，只好闭目等死。却被这位穷爷恩人如飞跑来，将我一把夹起，跳出有百十丈远近，才保住这条小命。后来向这位穷爷道谢救命之恩，才知他是戴家场新请来的帮手，知道我是自己人才肯救我。他又对我说，我妻子走错了路，被一个白猿擒去，叫我快去搭救。他说我要去得晚时，那白猿还准备送我一顶绿帽子呢。谁希罕猴崽子的帽子，倒是救我妻子要紧。",
+          "instruct": "感激"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "魏青喘息",
+            "sound_cn": "魏青说完后粗重喘息，惊魂未定",
+            "sound_en": "Wei Qing breathing heavily, still shaken",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便要走去。岳、黄、林、姜、潘五人便商量分两个人陪去相助。那叫花道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "用不着你等，那白猿虽然有点道行，却与这莽汉有许多渊源，最好他一人前去，你们去了，反而给他误事。",
+          "instruct": "沙哑懒散"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "怪叫花咂嘴",
+            "sound_cn": "怪叫花说完咂了咂嘴，满不在乎",
+            "sound_en": "strange beggar smacking lips, nonchalant",
+            "volume": "-26%",
+            "pitch": "-4Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "岳大鹏见叫花出言侮慢，好生不服。林秋水在五侠当中最有见识，听魏青说叫花救他的那一番话，已知不是常人；再看他那一双奇怪眼睛，又听是本村主人请来，越发不敢怠慢。抢先答道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "林秋水",
+      "api": {
+        "voice": {
+          "role": "林秋水",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "兄台既有高见先知，我们不去就是。",
+          "instruct": "恭谨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "魏青本没有意思请他五人帮忙，闻言急匆匆出谷去了。那叫花道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "魏青急步",
+            "sound_cn": "魏青急匆匆出谷，脚步声急促远去",
+            "sound_en": "Wei Qing hurrying out of the valley, rapid footsteps fading",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "现在人已到齐，里面还给我们留下一桌好酒席。主人见我腿快，打发我来叫你们前去吃酒。吕村来的这些兔崽子，回头一个也跑不了。少时我那老贤侄章彰还要来呢。这时不去，看人家把席撤了，没有你们的座位。",
+          "instruct": "戏谑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "林、黄二人一听叫花称他师父朱砂吼章彰是他的老贤侄，自己立刻矮了两辈，适才称他兄台岂非不对？又想自己师父远隔台湾海岛，业已多年不曾出山，今日哪会来此？见他疯疯癫癫，不知是真是假，只得强忍闷气，问道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "林秋水",
+      "api": {
+        "voice": {
+          "role": "林秋水",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前辈既和家师相熟，适才因和魏兄说话，未及请教前辈名讳，多有冒犯，请前辈见示大名，愚弟兄也好称呼。",
+          "instruct": "恭敬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "叫花笑道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "沙哑笑声",
+            "sound_cn": "怪叫花沙哑的笑声，带着玩世不恭",
+            "sound_en": "strange beggar's raspy laugh, cynical",
+            "volume": "-20%",
+            "pitch": "-4Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "原来小章儿是你们师父么？你要问我名姓，我就叫穷神，别的没有名字了。班辈称呼，我向不计较，你们如看得起我，就叫我穷神，或者叫我的别号怪叫花也好。",
+          "instruct": "懒散"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄、林二人闻言，将信将疑，只是怪叫花三字听去耳熟，怎么想也想不出他的来历，估量决非等闲之辈。还待用言试探，吴中双侠素来稳当，倒不怎样，岳大鹏早已不耐，说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "岳大鹏",
+      "api": {
+        "voice": {
+          "role": "岳大鹏",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "这位穷爷既说敌人已到，主人候我等人入席，我们就去吧，有什么话回头再说多好。",
+          "instruct": "急躁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "怪叫花哈哈笑道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "怪笑",
+            "sound_cn": "怪叫花哈哈怪笑，声音刺耳",
+            "sound_en": "strange beggar's cackling laugh",
+            "volume": "-18%",
+            "pitch": "-4Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "还是他说的话对我心思，我忙了一早晨饿了，赶快吃一顿正好。",
+          "instruct": "懒散"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "岳大鹏想藉此看看叫花本领，脚下一使劲，飞一般往前面走去。怪叫花冷笑一声，在后面高叫道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "岳大鹏飞步",
+            "sound_cn": "岳大鹏脚下一使劲，飞步向前，衣袂风声",
+            "sound_en": "Yue Dapeng speeding forward, cloth rustling",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "你们慢些走，我上了几岁年纪，迫不上，看在你师父分上，等我一等呀！",
+          "instruct": "假装气喘"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，拖着一双破草鞋在后面直赶。黄、林等五人只装不听见，仍往前面飞跑，不一会便听不见叫花喊声，知已相隔甚远，众人心中又好气，又好笑。林秋水虽然随着四人行动，猛想起：“这人既连轻身之术都不会，主人又请他到来做甚？况且魏青是个不会说诳的人，依他说此人本领更在自己之上，何以又这样不济呢？莫非是故意做作吗？”且行且想，己到戴家门前。忽见怪叫花从里面跑了出来道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "破鞋踢趿",
+            "sound_cn": "怪叫花拖着破草鞋追赶，踢趿声由远及近",
+            "sound_en": "strange beggar shuffling after them, footsteps approaching",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "林秋水自语",
+            "sound_cn": "林秋水边走边低声自语，语气困惑",
+            "sound_en": "Lin Qiushui muttering to himself, puzzled",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "你们腿快，却不敌我路径熟，会抄近路，还比你们先到一步。",
+          "instruct": "得意"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "怪叫花拍手",
+            "sound_cn": "怪叫花得意地拍了拍手",
+            "sound_en": "strange beggar clapping hands in satisfaction",
+            "volume": "-24%",
+            "pitch": "-4Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "岳大鹏等闻言，知道这条路别无捷径，他是故意如此说法，不由大吃一惊，俱各改了轻视之念，不好明白赔话，只得含糊答应。叫花又道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "主人请你五人进去，各自归座吃喝，不要多说话。我跟在你五人身后，你们千万不要提起我的来历，留神将那些兔崽子吓跑了，没处去寻他们。",
+          "instruct": "神秘"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "压低声音",
+            "sound_cn": "怪叫花压低声音说话，带着警惕",
+            "sound_en": "strange beggar lowering voice, cautious",
+            "volume": "-24%",
+            "pitch": "-4Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄、林五人自是唯唯遵命。进去以后，果然照他所言而行。那叫花竟自坐在首席，大吃大喝。适才捉蛇，身上惹的那一身腥气同那一双脏手，别人倒还不觉怎样，岳大鹏哪里吞吃得下，只是望着林秋水敢怒而不敢言。林秋水满不在乎，反倒殷勤相劝。怪叫花道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "宴席声",
+            "sound_cn": "宴席上杯盘碰撞，吃喝声，怪叫花大嚼声",
+            "sound_en": "banquet sounds, clinking cups, eating, strange beggar chewing loudly",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "岳大鹏作呕",
+            "sound_cn": "岳大鹏被怪叫花脏手腥气熏得几欲作呕",
+            "sound_en": "Yue Dapeng gagging at the stench",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "你这个人倒怪有意思的，也不在我来此救你们一场。",
+          "instruct": "懒散"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "林秋水虽不明白用意，准知今日这一场恶斗决非寻常，此人必甚关紧要。及至席散出场，林秋水便紧跟他身后，几次用言语试探，都不得要领，一晃眼的工夫，便不见他的踪迹。这会见了白琦，把经过略说了一遍。听说玉清大师对他如此重视，越觉自己目力不差。只是时间太迫，没有工夫问玉清大师，他与师父朱砂吼章彰是何渊源罢了。白琦与众人略谈了几句，佟元奇便命他头一个登台比武。白琦领命，先从棚前纵到第一个莲花桩上，提气凝神，用了个金鸡独立的架势。这时正是二月初旬天气，春光明丽，山坡上杂花盛开，桃红柳绿，和风徐徐。白琦人本生得英俊，又穿了一身白色壮士衣冠，站在那莲花桩上纹丝不动，拱手向西芦棚指名请陈长泰答话。态度安闲，英姿飒爽，真是不可一世。西席棚上法元见白琦出面，高声向佟元奇大喝道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "纵身登桩",
+            "sound_cn": "白琦纵身跃上莲花桩，轻巧落地，木桩微响",
+            "sound_en": "Bai Qi leaping onto the lotus stake, landing lightly, wood creak",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "春风吹拂",
+            "sound_cn": "和风徐徐，吹动衣袂，花瓣飘落沙沙",
+            "sound_en": "gentle spring breeze, cloth fluttering, petals falling with soft rustle",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "适才言明先比武艺，而白庄主精通法术，在鱼神洞时已然领教了，陈庄主武功虽然高强，怎是敌手？如果先比法术，待贫僧与白庄主一比短长吧。",
+          "instruct": "大喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "佟元奇闻言，这才想起法元因鱼神洞破法之事，错疑白琦也会法术，恐白琦吃亏，不俟法元起身，连忙高声答道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "佟元奇",
+      "api": {
+        "voice": {
+          "role": "佟元奇",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "禅师且慢！贫道只知白庄主内外武功俱臻绝顶，却不知他也精通道法。既然禅师多疑，我着他回来，另换别位上前领教就是。",
+          "instruct": "沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便着戴衡玉去替白琦回来。这一种登萍渡水、踏沙飞行之法，原是白、戴、许三人练熟了的。衡玉领命起身，朝着棚下将身一纵，恰好白琦纵回，就在这一上一下之际，二人迎了个对面，只见他二人将身一偏，俱都擦肩而过。白琦到了台上时，衡玉也安安稳稳地站在莲花桩上，使了个鱼鹰倦立的架势，朝西芦棚道声：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "纵身换人",
+            "sound_cn": "白琦纵回，戴衡玉纵出，二人空中擦肩而过，衣袂风声",
+            "sound_en": "Bai Qi leaping back, Dai Hengyu leaping out, passing in midair, cloth rustling",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "站稳桩上",
+            "sound_cn": "戴衡玉稳稳落在莲花桩上，木桩轻响",
+            "sound_en": "Dai Hengyu landing steadily on lotus stake, wood creak",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "戴衡玉",
+      "api": {
+        "voice": {
+          "role": "戴衡玉",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "请！",
+          "instruct": "沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "西芦棚中陈长泰慢说不会这种轻身功夫，连看也未看见过。罗九适才见了佟元奇，虽然仗着自己已拜在法元门下，到底有三分畏惧，不敢公然头一仗就出去。偏偏陈长泰见衡玉叫阵，直拿眼睛朝他使眼色。自己食人之禄，说不过去，只得起身。往台前一看，见这三个莲花桩、一道沙堤和一道刀堤，不是内外功到了绝顶的人休想上去，幸而自己还能对付。当下便对法元道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "罗九起身",
+            "sound_cn": "罗九起身，衣料摩擦声",
+            "sound_en": "Luo Jiu standing up, cloth rustle",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "罗九",
+      "api": {
+        "voice": {
+          "role": "罗九",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-4%",
+          "volume": "+2%",
+          "pitch": "-3Hz",
+          "text": "弟子去会这厮。",
+          "instruct": "无奈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，也将身纵到西芦棚下一个莲花桩上。衡玉见来了罗九，不敢怠慢，站在莲花桩上朝对面拱手，道一声：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "罗九纵桩",
+            "sound_cn": "罗九纵身跃上莲花桩，木桩微响",
+            "sound_en": "Luo Jiu leaping onto lotus stake, soft thud",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "戴衡玉",
+      "api": {
+        "voice": {
+          "role": "戴衡玉",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "请！",
+          "instruct": "沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "然后将身往沙堤上面纵去。脚尖刚着沙堤，两手倏地分开，收转来到腰间往上一端，稳住下沉之力，使用登萍渡水的功夫，疾走如飞，纵到第二个莲花桩上。罗九虽不会这种草上飞的功夫，到底练过剑术的人，气功极有根底。他见那其细如雪的黄沙，堆成上尖下削的沙堤，慢说是人，就是飞鸟在上面走过，也不能不留脚印。只得运动真气，将身体提住，凭虚在沙上行走，居然到了沙堤尽头的莲花桩上。佟元奇命白、戴二人先见头阵，无非是因为白、戴、许三人是主体，满拟指名要陈长泰出面，不想却换了罗九。知道衡玉武功虽好，却不会剑术，绝不是罗九的敌手。但是已经临场，说不出不算来，只得暗中留神。罗九不性急放剑便罢，如若情急放剑，再行上去将他结果，正在心中盘算，忽听玉清大师道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "沙堤飞奔",
+            "sound_cn": "衡玉在沙堤上疾走如飞，沙沙声",
+            "sound_en": "Dai Hengyu running swiftly on sand embankment, soft crunch",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "罗九凭虚",
+            "sound_cn": "罗九凭虚行走，衣袂无声，步履如风",
+            "sound_en": "Luo Jiu walking on air, silent, light as wind",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌老前辈又在台前出现，我们今日必胜无疑。",
+          "instruct": "轻语"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "佟元奇闻言朝前看时，台桩底下倚着适才所见那个怪叫花，所靠的那一根柱子却正挡着西芦棚目光，不禁点头会意。这时衡玉已与罗九对面，交代了两句江湖上的套语，便往刀堤上纵去。罗九觉刀堤比沙堤易走得多，冷笑一声，也往上便纵。二人俱是行走如飞，一霎时便已走尽。衡玉纵到莲花桩上，刚要对罗九拱手道“请”，纵到擂台上去，忽听喀嚓一声，罗九站的那根莲花桩忽然折倒，将罗九跌翻在地。罗九正要逞强行凶，佟元奇、法元各从东西芦棚双双飞到。佟元奇一面招呼衡玉回去，一面大声说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "刀堤行走",
+            "sound_cn": "二人在刀堤上行走，脚步轻点刀刃，金属轻响",
+            "sound_en": "two walking on blade embankment, light steps on steel, soft clinks",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "莲花桩折断",
+            "sound_cn": "莲花桩咔嚓折断，木裂声脆响",
+            "sound_en": "lotus stake snapping with a sharp crack",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "罗九跌翻",
+            "sound_cn": "罗九跌倒在地，沉重声响，尘土飞扬",
+            "sound_en": "Luo Jiu falling to the ground, heavy thud, dust puff",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "佟法双飞",
+            "sound_cn": "佟元奇、法元从东西芦棚双双飞出，衣袂破风",
+            "sound_en": "Tong Yuanqi and Fa Yuan flying from opposite sheds, cloth whooshing",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "佟元奇",
+      "api": {
+        "voice": {
+          "role": "佟元奇",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "头一场胜负已分，请禅师另派别人登台吧。",
+          "instruct": "高声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "罗九见佟元奇到来，到底有三分畏惧，不敢多言，只得满面羞惭，飞回西芦棚去了。法元起先见罗九忽然跌下莲花桩来，非常诧异。见佟元奇飞出，急忙也跟着前来。一听佟元奇发言，先不还言，急忙拾起地下折断的莲花桩，又把衡玉上的那一根莲花桩拾起，细细比看。只见这两根莲花桩都是虚飘飘地插在土内，东西一般无二，分明罗九用力稍猛，将它折断。再检看两面刀堤时，也是一般轻重深浅插在浮土之内。只不过罗九走过的依然完好如新；衡玉走过的刀锋尽卷，着土半截，却一丝不歪斜。这种轻身功夫中所暗藏的劲功，真也少有。即使莲花桩不倒，罗九已输了一关。不过罗九既然暗驭剑气，提着身子在上行走，何以会将莲花桩折断？明明中了旁人暗算。但是自己既查看不出一些形迹，倒不如认输，另派能手登场显得光明。便对佟元奇道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "法元查桩",
+            "sound_cn": "法元拾起折断的木桩和完好木桩细比，木料摩擦声",
+            "sound_en": "Fa Yuan picking up broken and intact stakes, wood scraping and comparing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "刀堤查看",
+            "sound_cn": "法元检视两面刀堤，手指划过刀刃",
+            "sound_en": "Fa Yuan examining blade embankments, fingers brushing blades",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "罗九一时不留神，有此失着。待贫僧另叫别人登台领教吧。",
+          "instruct": "勉强"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "佟元奇道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "佟元奇",
+      "api": {
+        "voice": {
+          "role": "佟元奇",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "今日之事，原说各按自己功行能力交手。适才贫道因见白庄主是主体，故此命他出场。禅师疑他精通法术，贫道才命戴庄主出来。原指明与陈庄主领教，想教双方主体人物先见一胜负，再由双方所请嘉客登场，谁知禅师却教罗九上来。此人本是贫道逐出门外的孽徒，颇知剑术。贫道也知戴庄主不是敌手，只是既已登场，遇强便退，有失江湖体面。只要罗九不倚剑术欺人，一任他强存弱亡。不料罗九昔年在贫道门下以为学习剑术便可无敌，对于武功不屑力求深造。到了沙堤，便用驭气飞行之法，不敢将脚一沾沙面，已经有些暗中取巧。后来上了刀堤，仍用前法，却不知这登萍渡水与行刀折刃的软硬功夫。行沙是要脚不扬尘，不留痕迹；行刀却要身不动，所行之处刀锋全折，才算合格。刀不折刃，已然输了一着；末后又不留神，将莲花桩折断。如非贫道知机赶来，他便要恃强暗用飞剑，岂非无耻之尤！禅师认输，足见高明。不过首场既先比武功，此番登场人务请量才派遣，免犯江湖上规矩。",
+          "instruct": "严正"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，不俟法元答言，将手一拱，飞身回棚去了。法元受了一顿奚落，不由切齿痛恨。心想：“你们休要得理不让人，少时便叫你知我们的厉害！”回转芦棚，先唤过罗九来问怎么跌下来的。罗九道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "佟元奇飞回",
+            "sound_cn": "佟元奇飞身回棚，衣袂风声",
+            "sound_en": "Tong Yuanqi flying back to shed, cloth rustle",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "法元咬牙",
+            "sound_cn": "法元切齿痛恨，牙关紧咬声",
+            "sound_en": "Fa Yuan gritting teeth in anger, grinding",
+            "volume": "-22%",
+            "pitch": "-3Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "罗九",
+      "api": {
+        "voice": {
+          "role": "罗九",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-4%",
+          "volume": "+2%",
+          "pitch": "-3Hz",
+          "text": "弟子一上去，便用驭剑轻身之法，始终没有沾着堤面。到了刀堤尽处，刚往莲花桩上一纵，原是一个虚式，还未上台，好似被一人拉住弟子双脚一扯，便跌下来了。",
+          "instruct": "愤懑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元也知罗九虽不会渡水登萍的功夫，但是无论如何也不会从桩上跌了下来。猜定敌人暗中使坏，存心要他当众丢丑。便问罗九跌时可曾看见什么形迹，罗九回答无有。法元知不能拿揣度的话向人家理论，只好恨在心里。这回该西芦棚派人登场，法元便问何人先往。当下便有柳燕娘的兄弟粉牡丹穿云燕子柳雄飞起立应声：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "柳雄飞",
+      "api": {
+        "voice": {
+          "role": "柳雄飞",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "弟子愿往。",
+          "instruct": "爽朗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元知他所练轻功已臻绝顶，因为鉴于罗九受了暗算，再三嘱咐柳雄飞注意。同时自己运用眼睛觑定两堤，准备看出一些动静，再与敌人理论。这时台前莲花桩已被白琦命人换好新的。佟元奇见法元派柳雄飞出场，便对众人道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "换新桩",
+            "sound_cn": "白琦命人换上新的莲花桩，木桩入土声",
+            "sound_en": "Bai Qi ordering new lotus stakes, wood planting",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "佟元奇",
+      "api": {
+        "voice": {
+          "role": "佟元奇",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来者是西川路上有名淫贼，何人愿去会他？",
+          "instruct": "询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "湘江五侠中的黄人瑜应声愿往。黄、柳二人各由东西芦棚走完沙堤，到了莲花桩上。柳雄飞问起对方姓名，知是湘江五侠之一，不敢怠慢，将手一拱，步上刀堤，走到尽头莲花桩上，分外留神，且喜不曾出了差错。双双纵上台去，各人取出兵器，摆开门户交起手来。黄人瑜使的是一根九截量天尺，柳雄飞使的是链子抓。才一交手，黄人瑜一摆量天尺，朝柳雄飞额前点去。柳雄飞见黄人瑜使的是短兵刃，自己链子抓长，觉着有些便宜可占。见黄人瑜量天尺点到，将脚一点，明着往后倒退，暗中却同时将左手链子抓发出。黄人瑜见链子抓当头抓来，不慌不忙，将量天尺对准抓头轻轻一点。刚将抓点荡开去，柳雄飞的右手抓又发将出来。黄人瑜见柳雄飞把这一对链子抓使得笔管一般直，如狂风骤雨一般打来，暗想：“这厮本领着实不弱，可惜太不务正，且教他死在我的量天尺下。”湘江五侠的武艺，练的是太极乙字功夫，使的是短兵器，专讲以静制动，敌人使的兵刃越长越吃亏。柳雄飞起初还不觉察，后来见自己双抓发将出去，黄人瑜若无其事一般，单掌护胸，右手横拿着又短又小的量天尺，不管那双抓使什么巧妙解数打去，他只身子不动，将量天尺两头点去，便即荡开。有时使力稍为大一点，柳雄飞便觉虎口震得生疼。知道遇见劲敌，越加小心在意。打了有好一会，见敌人只将双目注定自己，并不转动，静等抓来便即点开，神态自然，毫不费劲使力。心想：“这样打到什么时候才完？明明敌人想将自己力量使尽，再行发招。”眼看有输无赢，一着急，不由打出一条主意：故意装出气衰力竭，招数散漫，想诱黄人瑜进招。人瑜久经大敌，岂有看不出的道理。心想：“我想让你多活些时，你倒想在我面前卖弄。不如早些打发你回去，好再收拾别的余党。”想到这里，恰好柳雄飞左手抓一举，卖了个虚招，右手抓往下三路扫来；同时左手抓由虚变实，使了个枯树盘根的解数打到。黄人瑜喊一声：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "刀堤行走",
+            "sound_cn": "二人在刀堤上快速行走，脚步轻点刀刃",
+            "sound_en": "two walking swiftly on blade path, light steps on steel",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "链子抓破空",
+            "sound_cn": "链子抓带着风声抓来，链子哗啦作响",
+            "sound_en": "chain claw whipping through air, clattering loudly",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "量天尺点抓",
+            "sound_cn": "量天尺轻点抓头，金属碰撞声清脆",
+            "sound_en": "ruler tapping claw head, crisp metallic clink",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "双抓齐出",
+            "sound_cn": "柳雄飞双抓齐出，链声响成一片",
+            "sound_en": "Liu Xiongfei attacking with both claws, chains clattering together",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "黄人瑜",
+      "api": {
+        "voice": {
+          "role": "黄人瑜",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来得好！",
+          "instruct": "低喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "倏地往后退了一步半，敌人双抓同时落空，提起量天尺，横着往两抓头上分头点去，手法敏捷，疾若闪电一般。柳雄飞见双抓落空，知道不好，刚想掣动抓杆，收回前劲，另换招数，已来不及。只听当当两声，被黄人瑜尺头分别点个正着。立时觉得虎口震开，险些把握不住，暗喊：“不好！”急中生智，忙起身一纵，倒退出去有两丈远近。正要使回头望月败中取胜的绝招，不知怎的，腰腿上被黄人瑜点了一下，立刻丢抓跌倒在地。再看黄人瑜正站在前面，仍是若无其事一般。那台上预备的长工早拥上前来，将柳雄飞搭往西芦棚去了。要说柳雄飞的轻身功夫确已臻绝顶，适才纵退时身手非常敏捷，竟一点声响也不曾听见。但终究被黄人瑜追来点倒，湘江五侠本领于此可见。只气得西芦棚上人个个咬牙痛恨。再看黄人瑜，早已下台，回转东芦棚去了。等到长工将柳雄飞搭上台来一看，先还以为有救，及至细看柳雄飞的伤处，已被黄人瑜在死穴上下了内功重手，七日之内准死无疑。柳燕娘猛将银牙一错，也不向法元请命，由西芦棚一飞身，便到擂台之上，指名要适才仇人答话。正在张狂，耳中忽听一声娇叱道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "尺点双抓",
+            "sound_cn": "量天尺连点两下，叮当两声脆响",
+            "sound_en": "ruler striking twice, two crisp clangs",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "柳雄飞倒地",
+            "sound_cn": "柳雄飞被点中腰腿，摔倒台上，沉闷一声",
+            "sound_en": "Liu Xiongfei struck and falling, dull thud on stage",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "长工拥上",
+            "sound_cn": "长工们拥上前来抬人，脚步声杂乱",
+            "sound_en": "servants rushing forward, chaotic footsteps",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "柳燕娘飞身",
+            "sound_cn": "柳燕娘飞身登台，衣袂破风",
+            "sound_en": "Liu Yanniang leaping onto stage, cloth rustling",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "何玫",
+      "api": {
+        "voice": {
+          "role": "何玫",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贼淫婢休要不守信义，任意猖狂！何玫来了！",
+          "instruct": "娇叱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，东芦棚方面纵上个黑衣女子。柳燕娘明知对面有好些克星，只因报仇心切，忘了危险。及至登台说了一番狂话，才想起对面敌人有吴文琪、周轻云等在内，好生踌躇，但是话已发出，说不出不算来。言还未了，便听一个女子答言，不由吓了一跳。及至见面，来的女子并非吴、周二人，略放宽心。暗想：“对面能人甚多，除非法元、姚开江能够取胜，余人未必敌得住。莫如将此女打发回去，自己捞一个面子，就回转西芦棚，日后再寻湘江五侠报仇。”主意已定，反不着急，问道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "何玫登台",
+            "sound_cn": "何玫纵身上台，黑衣猎猎",
+            "sound_en": "He Mei leaping onto stage, black clothes flapping",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "柳燕娘",
+      "api": {
+        "voice": {
+          "role": "柳燕娘",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "来人休得出口伤人。你可知俺九尾天狐柳燕娘的厉害？",
+          "instruct": "娇媚带狠"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "何玫冷笑道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "何玫冷笑",
+            "sound_cn": "何玫一声冷笑，充满鄙夷",
+            "sound_en": "He Mei's cold sneer",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "何玫",
+      "api": {
+        "voice": {
+          "role": "何玫",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我早知你这贱婢淫贼十恶不赦，特来取你的狗命！",
+          "instruct": "冷厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，两手一分，使了个玉女拳中独掌擎天的架势，摆开门户，道一声：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "何玫",
+      "api": {
+        "voice": {
+          "role": "何玫",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "请！",
+          "instruct": "冷喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随着右掌往柳燕娘脸上一晃，纵身起左掌，力劈华岳，当头打到。柳燕娘见何玫步法轻捷，掌法精奇，更不怠慢，先使了个门户。见何玫掌到，忙用托梁抽柱的招数，单掌往上一架，随着黑虎掏心，当胸一掌打去。何玫喊一声：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "拳掌破空",
+            "sound_cn": "二人拳掌相交，风声呼呼，衣袂急响",
+            "sound_en": "fists and palms meeting, wind sound, cloth flapping",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "何玫",
+      "api": {
+        "voice": {
+          "role": "何玫",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来得好！",
+          "instruct": "低喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "左掌倏地往左一翻，反从下面穿进内圈，往燕娘脉门斫去。同时右掌朝下一翻，拨开燕娘的拳，顺势也往燕娘腕上斫去，将燕娘双手同时隔散，破了招数，门户大开。更不容燕娘还手，往前一进步，就两手一分之际，一个仙鹤舒爪，侧转身一偏腿，往燕娘胸前蹴去。燕娘万没料到何玫掌法如此变化无穷，幸而退身得快，被何玫的脚在腰眼上扫着一点，已觉疼痛非常，暗骂狠心贱婢，知道难以抵敌，也将多年未用的八卦仙人掌使将出来，与何玫打在一起，同挥皓腕，上下翻飞。恰好二人都是一样主意：谁都吃过比剑的亏，不知敌人虚实，谁也不肯放出剑来。不到数十个回合，柳燕娘也不知经了多少险，吃了多少亏，情知非败不可。先见何玫身上不带兵刃，越猜想她必有来历，未敢造次。后来被何玫逼紧，只得咬牙将心一狠，打着打着，倏地飞纵出去，将手往身旁一拍，将飞剑放将出来。何玫早已防备，也将身一摇，放起飞剑。各人运用精神，任那两道剑光绞作一团。燕娘见敌人飞剑不弱，越自惊心。正在危急之际，西芦棚上急坏了三眼红蜺薛蟒。原来他在慈云寺之役被朱文刺瞎了一只真眼，只剩了当中一只假眼，与右眼相配一对，好不伤心痛恨，便想回黄山去见师父许飞娘哭诉，请她代自己报仇。半路上遇见柳燕娘，两人勾搭成了临时夫妇，非常恩爱。这时见燕娘危急，不问青红皂白，脑后一拍，便有一道青光飞起。东芦棚上黄玄极见了，也将飞剑放出迎敌。一会工夫，便乱了章法。先是西芦棚上孔灵子、曹飞、郁次谷、吕宪明、郭云璞、毛太六人飞身上前，放出剑光。东芦棚上周轻云、吴文琪、崔绮三位女侠，同铁蓑道人、湘江五侠中的虞舜农，分头飞剑迎住。佟元奇见敌人不照预先约定，乱杀起来，忙叫白琦同凌操翁婿、戴衡玉、岳大鹏、黄人瑜、黄人龙、许超、张琪兄妹、凌云凤、戴湘英，从棚后下去，将广场圈住。因为佟元奇与玉清大师要用全神看住法元与那山人姚开江，怕对面那一干群贼趁两下比剑忙乱之际，扰害戴家眷属同村民。知道湘江五侠中的木鸡与林秋水俱会剑术，便命他二人驾剑光分头接应白琦等，以防遇见对面群贼中有会剑术的不好应付。白琦等刚绕至广场正面分散开来，果然西芦棚上群盗纷纷蹿了下来，俱都奔往戴家门前一路冲杀过来。同时法元也放出飞剑，姚开江也放出炼就的飞刀，数十道红丝与三道绿光朝东芦棚飞去。佟元奇、玉清大师不敢怠慢，当下分头飞起剑光迎住。这一场大战好不热闹，满空中俱是飞剑光华，五色缤纷，金光闪耀。罗九见佟元奇在场，本不敢上前。忽见佟元奇敌住法元，不得分神，便同花花道人姚素修也将剑光飞起，想捡对面剑术低的人便宜。这时双方差不多势均力敌，除何玫在擂台上敌住柳燕娘外，黄玄极敌住三眼红蜺薛蟒，周轻云敌住孔灵子，吴文琪敌住曹飞，崔绮敌住郁次谷，虞舜农敌住吕宪明，铁蓑道人双战郭云璞与毛太。罗九见崔绮迎敌郁次谷，看去好似吃力，悄悄告诉姚素修，想趁一个冷不防放剑出去，先助郁次谷除了崔绮再说。这时崔绮正敌郁次谷不下，忽见敌人阵上又有两道黄光朝自己飞来，大吃一惊。神一散，郁次谷的剑光愈加得势，同时罗九、姚素修的剑光也一起朝崔绮飞到。玉清大师迎敌山人姚开江，忽见崔绮受了敌人夹攻，危险万状，正要设法分剑光去救。忽然法元身后倏地闪出适才那个怪叫花，一现身就打了法元一个大嘴巴，骂道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "拳脚破空",
+            "sound_cn": "何玫与柳燕娘拳掌相交，风声凌厉，掌风霍霍",
+            "sound_en": "He Mei and Liu Yanniang exchanging blows, sharp wind, palm strikes",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "飞剑出鞘",
+            "sound_cn": "柳燕娘放出飞剑，剑光破空，嗡鸣一声",
+            "sound_en": "Liu Yanniang releasing flying sword, whoosh, hum",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "何玫放剑",
+            "sound_cn": "何玫也放出飞剑，两道剑光绞作一团，金属碰撞声",
+            "sound_en": "He Mei also releasing sword, two lights intertwining, metallic clangs",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "薛蟒放剑",
+            "sound_cn": "薛蟒放出青光，黄玄极迎上，剑光碰撞铿锵",
+            "sound_en": "Xue Mang releasing green light, Huang Xuanji meeting it, clang",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 9.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "群剑乱飞",
+            "sound_cn": "双方多人同时放出飞剑，空中剑光交错，破空声连绵如雨",
+            "sound_en": "multiple sword lights launching, crisscrossing in air, continuous whooshes like rain",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 13.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "法元放剑",
+            "sound_cn": "法元放出飞剑，姚开江放出飞刀，红丝绿光齐飞，呼啸声",
+            "sound_en": "Fa Yuan releasing sword, Yao Kaijiang releasing flying knives, red and green lights with howls",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "罗九姚素修夹攻",
+            "sound_cn": "罗九和姚素修放出两道黄光夹攻崔绮，剑光呼啸",
+            "sound_en": "Luo Jiu and Yao Suxiu attacking Cui Qi with yellow lights, whooshing",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "大家讲好一个对一个，不许两打一，你偏要叫你手下毛贼欺负女娃娃。",
+          "instruct": "怒骂"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "打嘴巴",
+            "sound_cn": "怪叫花打了法元一个大嘴巴，清脆响亮",
+            "sound_en": "strange beggar slapping Fa Yuan, loud crack",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "打罢，两脚一纵，竟比剑还快，追上罗九与姚素修的剑光，只用手一抓，便抓在手中，一阵揉搓，立刻化成流星四散。又一纵，纵到剑光丛中，先将郭云璞的剑光抓住，说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "抓剑光",
+            "sound_cn": "怪叫花纵身抓住飞剑，剑光熄灭声，嗡鸣骤止",
+            "sound_en": "strange beggar grabbing flying sword, light extinguishing, hum ceasing",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "揉搓剑光",
+            "sound_cn": "剑光被揉搓成流星四散，嗞嗞声，火花迸溅",
+            "sound_en": "sword light crumpled into sparks, sizzling, sparks flying",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "不许两打一，你偏要两打一。这口剑倒还不错，可惜有点邪气。老乞婆，你留着送人吧。",
+          "instruct": "戏谑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "掷剑光",
+            "sound_cn": "怪叫花将剑光掷向西北角，破空声凌厉",
+            "sound_en": "throwing sword light to northwest, sharp whoosh",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "他这一下不要紧，西芦棚上众人见这破烂叫花不着地飞行于剑光丛中，如入无人之境，只凭两手一抓，便收去了三口飞剑，只吓得胆落魂飞，不知如何是好。幸而那叫花收了三口飞剑便即住手，落下地来，高声说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "众人惊呼",
+            "sound_cn": "西芦棚上众人胆落魂飞，惊呼声四起，一片慌乱",
+            "sound_en": "crowd in west shed crying out in terror, chaotic panic",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "怪叫花落地",
+            "sound_cn": "怪叫花落在地面，尘土微扬",
+            "sound_en": "strange beggar landing, dust puff",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "怪叫花",
+      "api": {
+        "voice": {
+          "role": "怪叫花",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "+2%",
+          "pitch": "-4Hz",
+          "text": "我也不赶尽杀绝，只不许你们两打一！",
+          "instruct": "高声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，一闪身形，便己不见。慢说法元见了心惊，就连玉清大师与佟元奇知他根底的人，也觉得此公本领毕竟不凡。听他口喊老乞婆接剑，暗想：“莫非他的老伴也来参加，敌人方面更不用想占胜着了。”自是越加安心迎敌。不提。",
+          "instruct": "叙述结尾"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "怪叫花消失",
+            "sound_cn": "怪叫花一闪身形，消失无踪，风声顿息",
+            "sound_en": "strange beggar disappearing, wind ceasing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "剑光渐息",
+            "sound_cn": "空中剑光逐渐平息，归于寂静，余音袅袅",
+            "sound_en": "sword lights gradually fading, silence returning, fading echoes",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "法元心颤",
+            "sound_cn": "法元心惊，一声低沉的喘息",
+            "sound_en": "Fa Yuan gasping in shock",
+            "volume": "-22%",
+            "pitch": "-3Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "芦棚会面",
+        "start_line": 1,
+        "end_line": 24,
+        "prompt": "very subtle low volume cinematic background ambience, two straw sheds facing each other across the square, crowd gathering in spring sunshine, distant birdsong, faint smell of tea and straw, tense but restrained atmosphere, subtle erhu hum beneath, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "擂台比武",
+        "start_line": 25,
+        "end_line": 60,
+        "prompt": "very subtle low volume cinematic background ambience, open arena with lotus stakes and sand embankments, sounds of martial arts combat, crowd gasps and cheers, spring breeze, tension and excitement building, sparse pipa plucks adding rhythm, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "混战剑光",
+        "start_line": 61,
+        "end_line": 67,
+        "prompt": "very subtle low volume cinematic background ambience, chaotic battle with flying swords of many colors, intense clashes echoing across the square, shouts and cries, the sudden appearance of the strange beggar turning the tide, deep drum-like resonance beneath, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3600
+      }
+    ]
+  }
+}

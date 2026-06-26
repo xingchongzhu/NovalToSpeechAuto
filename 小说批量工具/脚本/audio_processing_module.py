@@ -1564,13 +1564,28 @@ class AudioGenerator:
             return self.generate_chapter_audio_serial()
         return self.generate_chapter_audio_parallel()
 
+    def _cleanup_chapter_intermediate_dirs(self):
+        """清理整章的中间产物目录（配音、背景音、音效、混音），节省磁盘存储"""
+        import shutil
+        intermediate_dirs = [
+            self.mix_dir,
+            self.bgm_dir
+        ]
+        for d in intermediate_dirs:
+            if os.path.isdir(d):
+                try:
+                    shutil.rmtree(d)
+                    print(f"  🗑️ 已清理目录: {os.path.basename(d)}/")
+                except Exception as e:
+                    print(f"  ⚠️ 清理目录失败 {os.path.basename(d)}/: {e}")
+
     def generate_chapter_audio_serial(self) -> str:
         """串行生成整章音频（流式写入优化）"""
         print(f"\n🚀 开始串行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
-        soundscape_layers = self._parse_soundscape_layers()
+        soundscape_layers = []  # self._parse_soundscape_layers()  # 已屏蔽背景音解析
 
         # 创建临时目录存放每句音频
         stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
@@ -1599,11 +1614,11 @@ class AudioGenerator:
                 
                 # 第一句后添加1秒静音
                 if line_config.id == 0:
-                    silent_audio = AudioSegment.silent(duration=1000, frame_rate=44100)
+                    silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
                     silent_file = os.path.join(stream_tmp_dir, f"silent_0.wav")
                     silent_audio.export(silent_file, format="wav")
                     tmp_files.append((-1, silent_file))
-                    current_ms += 1000
+                    current_ms += 600
                 
                 # 释放内存
                 del line_audio
@@ -1653,6 +1668,9 @@ class AudioGenerator:
 
         self.audio_engine.clean_temp_files()
 
+        # 清理整章中间产物目录（配音、背景音、音效、混音），节省存储
+        self._cleanup_chapter_intermediate_dirs()
+
         end_time = time.time()
         print(f"\n🎉 整章音频串行生成完成！耗时: {end_time - start_time:.2f} 秒")
         print(f"📂 输出路径: {chapter_output_path}")
@@ -1665,7 +1683,7 @@ class AudioGenerator:
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
-        soundscape_layers = self._parse_soundscape_layers()
+        soundscape_layers = []  # self._parse_soundscape_layers()  # 已屏蔽背景音解析
 
         # 创建临时目录存放每句音频
         stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
@@ -1725,9 +1743,9 @@ class AudioGenerator:
             
             # 第一句后添加1秒静音
             if line_id == 0:
-                silent_audio = AudioSegment.silent(duration=1000, frame_rate=44100)
+                silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
                 merged_audio += silent_audio
-                current_ms += 1000
+                current_ms += 600
                 del silent_audio
             
             del segment  # 释放内存
@@ -1752,6 +1770,9 @@ class AudioGenerator:
             pass
 
         self.audio_engine.clean_temp_files()
+
+        # 清理整章中间产物目录（配音、背景音、音效、混音），节省存储
+        self._cleanup_chapter_intermediate_dirs()
 
         end_time = time.time()
         print(f"\n🎉 整章音频并行生成完成！耗时: {end_time - start_time:.2f} 秒")
@@ -1951,11 +1972,7 @@ class NovelAudioSynthesizer:
         except Exception:
             pass
         
-        try:
-            import gc
-            gc.collect()
-        except Exception:
-            pass
+        gc.collect()
         
         memory = psutil.virtual_memory()
         available_percent = (memory.available / memory.total) * 100
