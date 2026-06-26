@@ -179,6 +179,8 @@ class EffectAudioParams:
     trigger_delay: float
     duration: float
     process_mode: str = "overlay"
+    trigger_keyword: str = ""        # 音效对应的文本关键字（2~6字），用于精确对齐
+    trigger_offset: float = 0.0      # 相对关键字的偏移秒数，负数=提前触发
 
 @dataclass
 class MixConfig:
@@ -439,11 +441,11 @@ class AudioEngine:
             preferred_soft_tokens = ["但是", "不过", "然后", "于是", "所以", "只是", "而且", "因为", "如果", "虽然", "然而", "并且", "同时", "并非", "只是说", "况且", "此外"]
             protected_prefix_tokens = ["就像", "这也是", "比如", "例如", "即便", "哪怕", "如果", "虽然", "但是", "不过", "而且", "并且", "于是", "所以", "只是", "然而", "同时", "却", "却会", "也会", "都", "就", "便", "还会", "仍然"]
             protected_suffix_tokens = ["来说", "的话", "而言", "之一", "那边", "位置", "原因"]
-            min_split_length = 80
-            target_chunk_length = 180
-            max_chunk_length = 240
-            absolute_max_chunk_length = 300
-            min_tail_merge_length = 18
+            min_split_length = 120
+            target_chunk_length = 280
+            max_chunk_length = 380
+            absolute_max_chunk_length = 500
+            min_tail_merge_length = 24
 
             stripped_text = text.strip()
             if len(stripped_text) <= max_chunk_length:
@@ -572,7 +574,7 @@ class AudioEngine:
                     temperature=0.7,
                     top_p=0.9,
                     top_k=50,
-                    repetition_penalty=1.05,
+                    repetition_penalty=1.2,
                     max_new_tokens=max_tokens
                 )
 
@@ -605,7 +607,7 @@ class AudioEngine:
             sample_rate = None
             for index, text_segment in enumerate(text_segments, start=1):
                 if len(text_segments) > 1:
-                    print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)}: {text_segment[:24]}...")
+                    print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
                 wavs, sr = _generate_voice_chunk(text_segment, ref_audio, x_vector_only_mode)
                 chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
                 all_wavs.append(chunk_audio)
@@ -815,8 +817,17 @@ class AudioEngine:
         return audio
 
     def mix_audio(self, voice: AudioSegment, bgm: AudioSegment, effects: List[AudioSegment], 
-                  mix_config: MixConfig, effect_params: List = None) -> AudioSegment:
-        """按规则混音"""
+                  mix_config: MixConfig, effect_params: List = None, voice_text: str = "") -> AudioSegment:
+        """按规则混音
+        
+        Args:
+            voice: 人声音频
+            bgm: 背景音
+            effects: 音效列表
+            mix_config: 混音配置
+            effect_params: 音效参数列表（含 trigger_keyword / trigger_offset）
+            voice_text: 当前句文本，用于 trigger_keyword 精确对齐估算
+        """
         print(f"[MixEngine] 混音模式: {mix_config.mode}")
         
         voice_duration = len(voice)
@@ -853,8 +864,16 @@ class AudioEngine:
                 process_mode = "overlay"
                 delay_ms = 0
                 if effect_params and i < len(effect_params):
-                    delay_ms = max(0, int(effect_params[i].trigger_delay * 1000))
-                    process_mode = getattr(effect_params[i], "process_mode", "overlay") or "overlay"
+                    ep = effect_params[i]
+                    process_mode = getattr(ep, "process_mode", "overlay") or "overlay"
+                    # trigger_keyword 优先：根据关键字在文本中的位置 + 标点加权估算延迟
+                    keyword = getattr(ep, "trigger_keyword", "")
+                    if keyword and voice_text:
+                        offset = getattr(ep, "trigger_offset", 0.0)
+                        delay_ms = self._estimate_delay_by_keyword(voice_text, keyword, offset)
+                    else:
+                        # 兜底：使用 trigger_delay
+                        delay_ms = max(0, int(ep.trigger_delay * 1000))
 
                 if process_mode == "insert":
                     insert_position = min(delay_ms, len(final_audio))
@@ -876,6 +895,35 @@ class AudioEngine:
         final_audio = final_audio + pause
         
         return final_audio
+
+    def _estimate_delay_by_keyword(self, text: str, keyword: str, offset: float = 0.0) -> int:
+        """根据关键字在文本中的位置估算延迟毫秒数（标点加权）。
+        
+        用于 trigger_keyword 精确对齐的兜底方案（未来接入 TTS 字级时间戳后可替换）。
+        
+        Args:
+            text: 当前片段完整文本
+            keyword: 要匹配的关键字
+            offset: 相对关键字的偏移秒数（负数=提前）
+        Returns:
+            延迟毫秒数
+        """
+        idx = text.find(keyword)
+        if idx == -1:
+            return 0
+        prefix = text[:idx + len(keyword)]
+        # 标点加权：句号/感叹号/问号 +0.5s，逗号/分号 +0.3s，冒号 +0.4s
+        pause_weight = 0.0
+        for ch in prefix:
+            if ch in '。！？!?':
+                pause_weight += 0.5
+            elif ch in '，,；;':
+                pause_weight += 0.3
+            elif ch in '：:':
+                pause_weight += 0.4
+        chars = len(prefix)
+        delay_seconds = chars / 3.0 + pause_weight + offset
+        return max(0, int(delay_seconds * 1000))
 
     def clean_temp_files(self):
         """清理临时音频文件"""
@@ -1414,7 +1462,9 @@ class AudioGenerator:
                     pitch=effect.get("pitch", "+0Hz"),
                     trigger_delay=effect.get("trigger_delay", 0),
                     duration=effect.get("duration", 1),
-                    process_mode=effect.get("process_mode", "overlay")
+                    process_mode=effect.get("process_mode", "overlay"),
+                    trigger_keyword=effect.get("trigger_keyword", ""),
+                    trigger_offset=effect.get("trigger_offset", 0.0)
                 ))
         
         mix_config = MixConfig(**line["mix"])
@@ -1536,7 +1586,8 @@ class AudioGenerator:
             bgm=bgm_audio,
             effects=effect_audios,
             mix_config=line_config.mix_config,
-            effect_params=line_config.effect_params
+            effect_params=line_config.effect_params,
+            voice_text=line_config.voice_params.text
         )
         
         if self.persist_intermediate_audio or generated_new_audio or remixed_audio:
