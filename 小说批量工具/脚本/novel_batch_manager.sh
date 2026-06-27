@@ -245,8 +245,9 @@ main() {
   log_info "背景音引擎: $bgm_engine"
   log_info "输出平台: $platform"
   
-  # 设置环境变量禁用Hugging Face Hub的repo_id验证
+  # 设置环境变量使用HuggingFace本地缓存，避免网络请求
   export HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION=1
+  export HF_HUB_OFFLINE=1
   
   python3 "$SCRIPT_DIR/novel_batch_executor.py" \
     --script-dir "$script_dir" \

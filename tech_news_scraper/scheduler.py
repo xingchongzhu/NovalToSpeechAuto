@@ -147,7 +147,7 @@ def scheduler_loop():
     print("启动时立即执行一次新闻抓取任务...")
     run_news_scraper()
     
-    while True:
+    while False:
         seconds, next_target = get_seconds_until_next_target()
         
         hours = int(seconds // 3600)

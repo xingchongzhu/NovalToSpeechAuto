@@ -42,7 +42,7 @@ def _process_de_character(text: str) -> str:
     return text
 
 def _process_zhe_character(text: str) -> str:
-    return text
+    return _process_zhe_character1(text)
 
 def _process_zhe_character1(text: str) -> str:
     """自动处理"着"字的正确读音
@@ -99,12 +99,14 @@ def _process_de2_character(text: str) -> str:
     text = re.sub(r'(得)(到|知|罪|意|逞|法|体|闲|救|胜|力|分|名|宠|人|志)', r'dé\2', text)
     text = re.sub(r'([获取得记认晓得值舍难心])(得)', r'\1dé', text)
     text = re.sub(r'(不)(得)(?!已)', r'\1dé', text)  # 不得（不能）
-    text = re.sub(r'(了|免)(得)', r'\1dé', text)
+    # 了得/免得 — 也匹配"了"已被替换为拼音的情况
+    text = re.sub(r'(了|免|liǎo|miǎn)(得)', r'\1dé', text)
     text = re.sub(r'(得)(当)', r'dé\2', text)  # 得当
 
     # 再处理 děi：必须（得去、得做、得注意）
     text = re.sub(r'(得)(去|做|说|看|走|问|管|想|注)', r'děi\2', text)
-    text = re.sub(r'(总|还|也|就)(得)', r'\1děi', text)
+    # 还得/总得/也得/就得 — 也匹配"还"已被替换为拼音的情况
+    text = re.sub(r'(总|还|也|就|hái|zǒng|yě|jiù)(得)', r'\1děi', text)
 
     # 最后处理 de：补语标志（V+得+补语、Adj+得+很）
     text = re.sub(r'([\u4e00-\u9fa5])(得)(很|紧|远|多|快|慢|好)', r'\1de\3', text)
@@ -218,6 +220,9 @@ def _process_di_de_character(text: str) -> str:
     text = re.sub(r'([\u4e00-\u9fa5][\u4e00-\u9fa5])(地)(说|走|跑|笑|哭|看|听|想)', r'\1de\3', text)
     # "X地"作为状语标志（X为形容词）
     text = re.sub(r'(高兴|认真|仔细|努力|热切|坚决|愤怒|悲恸|急促)(地)', r'\1de', text)
+    # 通用状语标志：任意长度中文短语+地+动作动词
+    # 如"低声下气地指点""不约而同地说""小心翼翼地问"
+    text = re.sub(r'([\u4e00-\u9fa5]{3,})(地)(说|走|跑|笑|哭|看|听|想|指|答|问|做|写|读|唱|讲|谈|叫|喊|道|叹)', r'\1de\3', text)
 
     return text
 
@@ -238,16 +243,28 @@ def process_polyphone_text(text: str) -> str:
     Returns:
         处理后的文本，多音字用拼音替换
     """
-    # 处理顺序很重要：先处理特例词汇（如"了得"、"得道"），再处理通用模式
-    # 否则通用模式可能先把某个字替换成拼音，导致后续模式无法匹配
+    # 处理顺序很重要：先处理特例词汇，再处理通用模式
+    # 顺序原则：
+    #   1. 为（因为"为了"→wèile，必须在"了"之前）
+    #   2. 了（因为"了得"→liǎodé，必须在"得"之前）
+    #   3. 还（独立）
+    #   4. 着（独立）
+    #   5. 得（受"了得""不得"等影响，需在"了"之后）
+    #   6. 地（和"的"共享 de 读音，需在"的"之前避免通用模式误匹配）
+    #   7. 的（最后处理，避免通用模式干扰其他字）
 
-    #text = _process_le_character(text)   # 了 le/liǎo
-    #text = _process_de_character(text)   # 的 de/dí/dì
-    #text = _process_de2_character(text)  # 得 de/dé/děi
-    #text = _process_zhe_character(text)  # 着 zhe/zháo/zhuó
-    #text = _process_wei_character(text)  # 为 wèi/wéi
-    #text = _process_hai_character(text)  # 还 hái/huán
-    #text = _process_di_de_character(text)  # 地 de/dì
+    # 注意：Qwen3-TTS 的 Qwen2 tokenizer 是 Byte-level BPE，
+    # 带声调的拼音（如 dì、zhuó、wéi）不在词表中，会被拆成乱码。
+    # 因此裸拼音替换方案无效，回退到纯中文让模型自行消歧。
+    # 保留各处理函数以备将来 TTS 引擎支持。
+
+    #text = _process_wei_character(text)   # 为 wèi/wéi
+    #text = _process_le_character(text)    # 了 le/liǎo
+    #text = _process_hai_character(text)   # 还 hái/huán
+    #text = _process_zhe_character(text)   # 着 zhe/zháo/zhuó
+    #text = _process_de2_character(text)   # 得 de/dé/děi
+    #text = _process_di_de_character(text) # 地 de/dì
+    #text = _process_de_character(text)    # 的 de/dí/dì
 
     return text
 

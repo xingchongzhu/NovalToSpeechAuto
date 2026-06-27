@@ -13,6 +13,7 @@ Audio Processing Module
 
 import os
 os.environ['HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION'] = '1'
+os.environ['HF_HUB_OFFLINE'] = '1'
 
 import io
 import json
@@ -30,6 +31,7 @@ import concurrent.futures
 from dataclasses import dataclass, asdict
 from typing import Dict, List, Optional, Any
 import re
+import threading
 import warnings
 import gc
 import psutil
@@ -343,7 +345,7 @@ class AudioEngine:
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """文本转语音接口"""
         print(f"\n[TTSEngine] 使用引擎: {self.tts_engine}")
-        print(f"[TTSEngine] 生成[{params.role}]语音: {params.text[:20]}...")
+        print(f"[TTSEngine] 生成[{params.role}]语音 ({len(params.text)}字): {params.text[:20]}...")
         print(f"  - 音色: {params.role_voice} | 语速: {params.speed} | 音量: {params.volume}")
         
         try:
@@ -563,34 +565,61 @@ class AudioEngine:
             text_len = len(processed_text)
             max_tokens = min(2048, max(512, text_len * 8))
 
-            # 优先使用缓存的prompt，避免重复编码参考音频
-            if ref_audio is not None:
-                cached_prompt = _get_cached_prompt(ref_audio, x_vector_only_mode)
-                return self.qwen_tts_model.generate_voice_clone(
-                    text=processed_text,
-                    language="chinese",
-                    voice_clone_prompt=cached_prompt,
-                    style=params.instruct if params.instruct else "neutral",
-                    temperature=0.7,
-                    top_p=0.9,
-                    top_k=50,
-                    repetition_penalty=1.2,
-                    max_new_tokens=max_tokens
-                )
+            result_holder = {}
+            exception_holder = {}
+            done_flag = threading.Event()
 
-            return self.qwen_tts_model.generate_voice_clone(
-                text=processed_text,
-                language="chinese",
-                ref_audio=ref_audio,
-                ref_text="",
-                x_vector_only_mode=x_vector_only_mode,
-                style=params.instruct if params.instruct else "neutral",
-                temperature=0.7,
-                top_p=0.9,
-                top_k=50,
-                repetition_penalty=1.05,
-                max_new_tokens=max_tokens
-            )
+            def _run_generate():
+                try:
+                    if ref_audio is not None:
+                        cached_prompt = _get_cached_prompt(ref_audio, x_vector_only_mode)
+                        res = self.qwen_tts_model.generate_voice_clone(
+                            text=processed_text,
+                            language="chinese",
+                            voice_clone_prompt=cached_prompt,
+                            style=params.instruct if params.instruct else "neutral",
+                            temperature=0.7,
+                            top_p=0.9,
+                            top_k=50,
+                            repetition_penalty=1.2,
+                            max_new_tokens=max_tokens
+                        )
+                    else:
+                        res = self.qwen_tts_model.generate_voice_clone(
+                            text=processed_text,
+                            language="chinese",
+                            ref_audio=ref_audio,
+                            ref_text="",
+                            x_vector_only_mode=x_vector_only_mode,
+                            style=params.instruct if params.instruct else "neutral",
+                            temperature=0.7,
+                            top_p=0.9,
+                            top_k=50,
+                            repetition_penalty=1.05,
+                            max_new_tokens=max_tokens
+                        )
+                    result_holder["result"] = res
+                except Exception as e:
+                    exception_holder["error"] = e
+                finally:
+                    done_flag.set()
+
+            t = threading.Thread(target=_run_generate, daemon=True)
+            t.start()
+            dots = 0
+            dot_interval = 3  # 每 3 秒打印一个点
+            while not done_flag.wait(timeout=dot_interval):
+                dots += 1
+                elapsed = dots * dot_interval
+                sys.stdout.write(f"\r[TTSEngine]   生成中 ({text_len}字, 已耗时{elapsed}s)...")
+                sys.stdout.flush()
+            if dots > 0:
+                sys.stdout.write("\n")
+                sys.stdout.flush()
+            t.join()
+            if "error" in exception_holder:
+                raise exception_holder["error"]
+            return result_holder["result"]
 
         def _generate_voice(ref_audio, x_vector_only_mode=True):
             # 多音字处理
@@ -1118,18 +1147,211 @@ class AudioGenerator:
 
         return result
 
-    def _export_chapter_audio(self, merged_audio: AudioSegment) -> str:
+    def _find_chunk_splits(self, line_ranges: Dict[int, tuple], total_duration_ms: int,
+                           target_chunk_seconds: int = 600, min_tail_seconds: int = 300) -> List[int]:
+        """根据句子边界时间戳找到最佳片段切分点。
+
+        Args:
+            line_ranges: {line_id: (start_ms, end_ms)}，按 id 升序
+            total_duration_ms: 音频总时长（毫秒）
+            target_chunk_seconds: 目标片段时长（秒），默认 600（10 分钟）
+            min_tail_seconds: 最后一段低于此时长则不单独切（秒），默认 300（5 分钟）
+
+        Returns:
+            每个切片的起始 line_id 列表，如 [0, 128, 256]
+        """
+        target_chunk_ms = target_chunk_seconds * 1000
+        min_tail_ms = min_tail_seconds * 1000
+
+        sorted_ids = sorted(line_ranges.keys())
+        chunk_starts = [sorted_ids[0]]
+        next_cut_at_ms = target_chunk_ms
+
+        for i, lid in enumerate(sorted_ids[1:], start=1):
+            _, end_ms = line_ranges[lid]
+            if end_ms >= next_cut_at_ms:
+                # 检查剩余部分是否足够单独成段
+                remaining_ms = total_duration_ms - line_ranges[lid][0]
+                if remaining_ms >= min_tail_ms:
+                    chunk_starts.append(lid)
+                    next_cut_at_ms = end_ms + target_chunk_ms
+
+        if len(chunk_starts) <= 1:
+            return chunk_starts
+
+        # 最后一段如果太短（< min_tail_ms），合并到倒数第二段
+        last_start = chunk_starts[-1]
+        last_duration = total_duration_ms - line_ranges[last_start][0]
+        if last_duration < min_tail_ms:
+            chunk_starts.pop()
+
+        return chunk_starts
+
+    @staticmethod
+    def _chunk_suffix(chunk_index: int, total_chunks: int) -> str:
+        """根据片段索引和总数返回命名后缀。
+
+        Args:
+            chunk_index: 0-based 片段索引
+            total_chunks: 总片段数
+
+        Returns:
+            命名后缀字符串，如 '_上'、'_中'、'_下'、''（不切片时）
+        """
+        if total_chunks <= 1:
+            return ""
+        labels_234 = ["_上", "_中", "_下", "_续"]
+        if total_chunks <= 4:
+            return labels_234[chunk_index]
+        return f"_{chunk_index + 1}"
+
+    def _export_chapter_audio(self, merged_audio: AudioSegment,
+                              line_ranges: Dict[int, tuple] = None) -> str:
         print(f"\n📦 开始导出最终章节音频...")
-        final_audio = self._build_platform_audio(merged_audio)
-        output_ext = self.platform_profile.output_format
-        chapter_output_path = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}.{output_ext}")
-        export_kwargs = {"format": output_ext}
-        if self.platform_profile.bitrate:
-            export_kwargs["bitrate"] = self.platform_profile.bitrate
-        print(f"  📡 正在编码导出，格式: {output_ext.upper()}/{self.platform_profile.channels}ch/{self.platform_profile.sample_rate}Hz...")
-        final_audio.export(chapter_output_path, **export_kwargs)
-        print(f"  💾 导出完成: {chapter_output_path}")
-        return chapter_output_path
+
+        total_ms = len(merged_audio)
+        total_seconds = total_ms / 1000.0
+
+        # 超过目标时长（默认 10 分钟）时按句子边界切分
+        target_chunk_seconds = int(os.environ.get("CHAPTER_CHUNK_MINUTES", "10")) * 60
+        min_tail_seconds = int(os.environ.get("MIN_TAIL_MINUTES", "5")) * 60
+
+        if line_ranges and total_seconds > target_chunk_seconds:
+            chunk_starts = self._find_chunk_splits(
+                line_ranges, total_ms,
+                target_chunk_seconds=target_chunk_seconds,
+                min_tail_seconds=min_tail_seconds
+            )
+            # 打印切分点日志，确认语句完整性
+            if len(chunk_starts) > 1:
+                print(f"\n📋 章节切分检查 ({len(chunk_starts)} 段):")
+                data_lines = self.config.get("data", [])
+                for ci in range(len(chunk_starts) - 1):
+                    cur_start = chunk_starts[ci]
+                    next_start = chunk_starts[ci + 1]
+                    # 上一段最后一句
+                    last_line = data_lines[next_start - 1] if next_start - 1 < len(data_lines) else {}
+                    last_text = last_line.get("api", {}).get("voice", {}).get("text", "")
+                    # 下一段第一句
+                    first_line = data_lines[next_start] if next_start < len(data_lines) else {}
+                    first_text = first_line.get("api", {}).get("voice", {}).get("text", "")
+                    last_role = last_line.get("role", "?")
+                    first_role = first_line.get("role", "?")
+                    suffix = self._chunk_suffix(ci, len(chunk_starts))
+                    next_suffix = self._chunk_suffix(ci + 1, len(chunk_starts))
+                    chunk_dur = (line_ranges[next_start][0] - line_ranges[cur_start][0]) / 1000.0
+                    print(f"  切分{suffix}→{next_suffix}: 段{ci+1}时长={chunk_dur/60:.1f}min | "
+                          f"段尾[{last_role}]: {last_text[-40:]} | "
+                          f"段头[{first_role}]: {first_text[:40]}")
+        else:
+            chunk_starts = [0]  # 不切分
+
+        total_chunks = len(chunk_starts)
+        sorted_ids = sorted(line_ranges.keys()) if (line_ranges and total_chunks > 1) else []
+        output_paths = []
+
+        for chunk_index, start_id in enumerate(chunk_starts):
+            # 确定当前片的起止位置
+            start_ms = line_ranges[start_id][0] if (line_ranges and start_id in line_ranges) else 0
+            if chunk_index < total_chunks - 1:
+                next_start_id = chunk_starts[chunk_index + 1]
+                end_ms = line_ranges[next_start_id][0] if line_ranges else total_ms
+            else:
+                end_ms = total_ms
+
+            chunk_body = merged_audio[start_ms:end_ms]
+
+            # 非首段追加章节标题前缀（例如 "第43回 中"）
+            if chunk_index > 0 and total_chunks > 1:
+                chapter_label = self._get_chapter_label(suffix)
+                title_audio = self._generate_chunk_title_audio(chapter_label)
+                if title_audio is not None:
+                    chunk_body = title_audio + AudioSegment.silent(
+                        duration=500, frame_rate=self.platform_profile.sample_rate
+                    ) + chunk_body
+                    print(f"  📢 已追加章节标题前缀: '{chapter_label}' ({len(title_audio) / 1000:.1f}s)")
+
+            # 每个片加上完整片头片尾
+            final_audio = self._build_platform_audio(chunk_body)
+            suffix = self._chunk_suffix(chunk_index, total_chunks)
+
+            output_ext = self.platform_profile.output_format
+            chapter_output_path = os.path.join(
+                self.chapter_dir, f"{self.chapter_clean_name}{suffix}.{output_ext}"
+            )
+            export_kwargs = {"format": output_ext}
+            if self.platform_profile.bitrate:
+                export_kwargs["bitrate"] = self.platform_profile.bitrate
+
+            chunk_label = f"[{chunk_index + 1}/{total_chunks}]" if total_chunks > 1 else ""
+            print(f"  📡 {chunk_label} 正在编码导出，格式: {output_ext.upper()}/{self.platform_profile.channels}ch/{self.platform_profile.sample_rate}Hz...")
+            final_audio.export(chapter_output_path, **export_kwargs)
+            print(f"  💾 导出完成: {chapter_output_path}")
+            output_paths.append(chapter_output_path)
+
+        return output_paths[0] if output_paths else ""
+
+    def _get_chapter_label(self, suffix: str) -> str:
+        """根据文件名后缀生成章节标签文本。
+
+        Args:
+            suffix: 文件名后缀，如 '_上'、'_中'、'_下'、'_续'、'_2' 等
+
+        Returns:
+            章节标签，如 "第43回 中"、"第43回 下"
+        """
+        chapter_name = self.config.get("chapter", "无名章节")
+        label = suffix.lstrip("_")
+        mapping = {"上": "上", "中": "中", "下": "下", "续": "续"}
+        label = mapping.get(label, f"第{label}集")
+        return f"{chapter_name} {label}"
+
+    def _generate_chunk_title_audio(self, chapter_label: str) -> Optional[AudioSegment]:
+        """为非首段生成章节标题前缀音频（缓存复用）。
+
+        使用旁白音色朗读章节标签，如"第43回 大雪空山… 中"。
+        缓存 key 基于标签文本 hash，避免重复合成。
+
+        Args:
+            chapter_label: 章节标签文本
+
+        Returns:
+            AudioSegment，或 None（合成失败时）
+        """
+        label_hash = hashlib.md5(chapter_label.encode("utf-8")).hexdigest()[:12]
+        cache_path = os.path.join(self.chapter_dir, f"chunk_title_{label_hash}.wav")
+        if os.path.exists(cache_path):
+            print(f"  📢 复用章节标题前缀缓存: {cache_path}")
+            return AudioSegment.from_wav(cache_path).set_frame_rate(
+                self.platform_profile.sample_rate
+            ).set_channels(self.platform_profile.channels)
+
+        narrator_role = self.roles_definition.get("旁白", {})
+        narrator_voice = narrator_role.get("role_voice", "云健-低沉")
+        narrator_speed = narrator_role.get("speed", "-10%")
+        narrator_volume = narrator_role.get("volume", "0%")
+        narrator_pitch = narrator_role.get("pitch", "0Hz")
+
+        try:
+            voice_params = VoiceParams(
+                text=chapter_label,
+                role="旁白",
+                role_voice=narrator_voice,
+                speed=narrator_speed,
+                volume=narrator_volume,
+                pitch=narrator_pitch,
+                instruct="庄重开场",
+            )
+            title_audio = self.audio_engine.text_to_speech(voice_params)
+            title_audio = title_audio.set_frame_rate(
+                self.platform_profile.sample_rate
+            ).set_channels(self.platform_profile.channels)
+            title_audio.export(cache_path, format="wav")
+            print(f"  📢 已生成章节标题前缀音频: {cache_path}")
+            return title_audio
+        except Exception as e:
+            print(f"  ⚠️ 生成章节标题前缀失败: {e}")
+            return None
 
     def load_config(self) -> Dict[str, Any]:
         """加载JSON配置"""
@@ -1603,13 +1825,20 @@ class AudioGenerator:
 
     def generate_chapter_audio(self) -> str:
         """生成整章音频"""
+        output_ext = self.platform_profile.output_format
         chapter_output_path = os.path.join(
             self.chapter_dir,
-            f"{self.chapter_clean_name}.{self.platform_profile.output_format}",
+            f"{self.chapter_clean_name}.{output_ext}",
         )
-        if os.path.exists(chapter_output_path):
-            print(f"✅ 整章音频已存在，跳过生成: {chapter_output_path}")
-            return chapter_output_path
+        # 同时检查未切分和已切分的输出文件
+        first_chunk_path = os.path.join(
+            self.chapter_dir,
+            f"{self.chapter_clean_name}_上.{output_ext}",
+        )
+        if os.path.exists(chapter_output_path) or os.path.exists(first_chunk_path):
+            exist_path = chapter_output_path if os.path.exists(chapter_output_path) else first_chunk_path
+            print(f"✅ 整章音频已存在，跳过生成: {exist_path}")
+            return exist_path
         
         if self.tts_engine == "qwen3-tts":
             return self.generate_chapter_audio_serial()
@@ -1703,7 +1932,7 @@ class AudioGenerator:
             self._prepare_soundscape_layers(soundscape_layers)
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
-        chapter_output_path = self._export_chapter_audio(merged_audio)
+        chapter_output_path = self._export_chapter_audio(merged_audio, line_ranges)
 
         # 清理临时文件
         print(f"\n🗑️ 清理流式临时文件...")
@@ -1806,7 +2035,7 @@ class AudioGenerator:
             self._prepare_soundscape_layers(soundscape_layers)
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
-        chapter_output_path = self._export_chapter_audio(merged_audio)
+        chapter_output_path = self._export_chapter_audio(merged_audio, line_ranges)
 
         # 清理临时文件
         print(f"\n🗑️ 清理流式临时文件...")
