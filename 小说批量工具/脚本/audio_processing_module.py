@@ -1039,6 +1039,10 @@ class AudioGenerator:
         if chapter_match:
             chapter_label = chapter_match.group(0)
 
+        # 切分章节时，片头模板里的 chapter_label 置空（标题由 _build_platform_audio 单独追加）
+        if getattr(self, '_current_chunk_suffix', ''):
+            chapter_label = ""
+
         return {
             "novel_name": self._sanitize_metadata_value(
                 intro_config.get("novel_name") or metadata.get("novel_name") or self.novel_name,
@@ -1127,7 +1131,22 @@ class AudioGenerator:
         intro_audio = self._load_platform_asset_audio("片头", intro_text)
         if intro_audio is not None:
             print(f"  ✅ 片头已加载（{len(intro_audio) / 1000:.1f}s），拼接到正文前")
-            result = intro_audio + AudioSegment.silent(duration=300, frame_rate=self.platform_profile.sample_rate) + result
+
+            # 切分章节时在片头后追加章节标题前缀（非首段，例如 "第1回，下"）
+            # 首段正文已天然包含章节标题，不再追加避免重复
+            is_first_chunk = getattr(self, '_is_first_chunk', True)
+            chunk_suffix = getattr(self, '_current_chunk_suffix', '')
+            if chunk_suffix and not is_first_chunk:
+                chapter_label = self._get_chapter_label(chunk_suffix)
+                chapter_label_with_pause = self._get_chapter_label_with_pause(chapter_label)
+                title_audio = self._generate_chunk_title_audio(chapter_label_with_pause)
+                if title_audio is not None:
+                    result = title_audio + AudioSegment.silent(
+                        duration=200, frame_rate=self.platform_profile.sample_rate
+                    ) + result
+                    print(f"  📢 已追加章节标题前缀: '{chapter_label_with_pause}' ({len(title_audio) / 1000:.1f}s)")
+
+            result = intro_audio + AudioSegment.silent(duration=200, frame_rate=self.platform_profile.sample_rate) + result
         else:
             print(f"  ⚠️ 片头未生成，跳过")
 
@@ -1200,6 +1219,8 @@ class AudioGenerator:
         """
         if total_chunks <= 1:
             return ""
+        if total_chunks == 2:
+            return "_上" if chunk_index == 0 else "_下"
         labels_234 = ["_上", "_中", "_下", "_续"]
         if total_chunks <= 4:
             return labels_234[chunk_index]
@@ -1260,18 +1281,11 @@ class AudioGenerator:
                 end_ms = total_ms
 
             chunk_body = merged_audio[start_ms:end_ms]
+            suffix = self._chunk_suffix(chunk_index, total_chunks)
 
-            # 非首段追加章节标题前缀（例如 "第43回 中"）
-            if chunk_index > 0 and total_chunks > 1:
-                chapter_label = self._get_chapter_label(suffix)
-                title_audio = self._generate_chunk_title_audio(chapter_label)
-                if title_audio is not None:
-                    chunk_body = title_audio + AudioSegment.silent(
-                        duration=500, frame_rate=self.platform_profile.sample_rate
-                    ) + chunk_body
-                    print(f"  📢 已追加章节标题前缀: '{chapter_label}' ({len(title_audio) / 1000:.1f}s)")
-
-            # 每个片加上完整片头片尾
+            # 切分时每段片头通过 _build_platform_audio 追加标题前缀（仅非首段）
+            self._current_chunk_suffix = suffix if total_chunks > 1 else ''
+            self._is_first_chunk = (chunk_index == 0)
             final_audio = self._build_platform_audio(chunk_body)
             suffix = self._chunk_suffix(chunk_index, total_chunks)
 
@@ -1305,6 +1319,14 @@ class AudioGenerator:
         mapping = {"上": "上", "中": "中", "下": "下", "续": "续"}
         label = mapping.get(label, f"第{label}集")
         return f"{chapter_name} {label}"
+
+    def _get_chapter_label_with_pause(self, chapter_label: str) -> str:
+        """在章节标签中插入停顿：在末尾的"上/中/下/续"前插入逗号。"""
+        for word in [" 上", " 中", " 下", " 续"]:
+            if chapter_label.endswith(word):
+                prefix = chapter_label[:-len(word)]
+                return f"{prefix}，{word.strip()}"
+        return chapter_label
 
     def _generate_chunk_title_audio(self, chapter_label: str) -> Optional[AudioSegment]:
         """为非首段生成章节标题前缀音频（缓存复用）。
