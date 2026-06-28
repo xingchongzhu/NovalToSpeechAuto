@@ -21,7 +21,6 @@ qwen3-tts/
 qwen3-tts-base-model/
 qwen3-tts-model/
 models/
-output/
 .cache/
 
 # 大模型权重

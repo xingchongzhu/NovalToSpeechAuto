@@ -225,7 +225,7 @@ PLATFORM_PROFILES: Dict[str, AudioPlatformProfile] = {
         channels=2,
         bitrate="192k",
         #intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，作者{author}，演播{speaker}，欢迎订阅。",
-        intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，欢迎订阅。",
+        intro_template="欢迎您收听《{novel_name}》",
         outro_template="听众朋友，本集已播讲完毕，请订阅专辑，下集精彩继续。",
         min_chapter_ms=5 * 60 * 1000,
         max_chapter_ms=15 * 60 * 1000,
@@ -1132,11 +1132,10 @@ class AudioGenerator:
         if intro_audio is not None:
             print(f"  ✅ 片头已加载（{len(intro_audio) / 1000:.1f}s），拼接到正文前")
 
-            # 切分章节时在片头后追加章节标题前缀（非首段，例如 "第1回，下"）
-            # 首段正文已天然包含章节标题，不再追加避免重复
+            # 切分章节时在片头后追加章节标题前缀（切分时 id=0 标题已跳过，所有段均需追加）
             is_first_chunk = getattr(self, '_is_first_chunk', True)
             chunk_suffix = getattr(self, '_current_chunk_suffix', '')
-            if chunk_suffix and not is_first_chunk:
+            if chunk_suffix:
                 chapter_label = self._get_chapter_label(chunk_suffix)
                 chapter_label_with_pause = self._get_chapter_label_with_pause(chapter_label)
                 title_audio = self._generate_chunk_title_audio(chapter_label_with_pause)
@@ -1168,7 +1167,12 @@ class AudioGenerator:
 
     def _find_chunk_splits(self, line_ranges: Dict[int, tuple], total_duration_ms: int,
                            target_chunk_seconds: int = 600, min_tail_seconds: int = 300) -> List[int]:
-        """根据句子边界时间戳找到最佳片段切分点。
+        """根据句子边界时间戳和角色切换点找到最佳片段切分点。
+
+        切分优先级：
+        1. 到达目标时长后，优先在角色切换点切分（保证不打断同一角色对白）
+        2. 若同一角色独白过长（超过最大段长），在最大段长处硬切作为兜底
+        3. 尾段过短则合并到前一段
 
         Args:
             line_ranges: {line_id: (start_ms, end_ms)}，按 id 升序
@@ -1180,7 +1184,15 @@ class AudioGenerator:
             每个切片的起始 line_id 列表，如 [0, 128, 256]
         """
         target_chunk_ms = target_chunk_seconds * 1000
+        max_chunk_ms = int(os.environ.get("CHAPTER_CHUNK_MAX_MINUTES", "15")) * 60 * 1000
         min_tail_ms = min_tail_seconds * 1000
+
+        data_lines = self.config.get("data", [])
+        def _role_at(line_id: int) -> str:
+            """获取指定 line 的 role，越界返回空字符串"""
+            if 0 <= line_id < len(data_lines):
+                return data_lines[line_id].get("role", "")
+            return ""
 
         sorted_ids = sorted(line_ranges.keys())
         chunk_starts = [sorted_ids[0]]
@@ -1188,12 +1200,31 @@ class AudioGenerator:
 
         for i, lid in enumerate(sorted_ids[1:], start=1):
             _, end_ms = line_ranges[lid]
-            if end_ms >= next_cut_at_ms:
-                # 检查剩余部分是否足够单独成段
-                remaining_ms = total_duration_ms - line_ranges[lid][0]
-                if remaining_ms >= min_tail_ms:
-                    chunk_starts.append(lid)
-                    next_cut_at_ms = end_ms + target_chunk_ms
+            if end_ms < next_cut_at_ms:
+                continue
+
+            # 到达目标时长：在此之后寻找角色切换点
+            remaining_ms_at_lid = total_duration_ms - line_ranges[lid][0]
+            if remaining_ms_at_lid < min_tail_ms:
+                # 剩余时长不足，不再继续切分
+                break
+
+            # 计算当前已累积的段长（从上一个 chunk_start 到当前 lid）
+            prev_start_id = chunk_starts[-1]
+            current_chunk_ms = line_ranges[lid][0] - line_ranges[prev_start_id][0]
+
+            # 从 lid 开始向后找第一个角色切换点
+            prev_start_id = chunk_starts[-1]
+            cut_id = self._find_role_transition_after(sorted_ids, i, _role_at,
+                                                       max_chunk_ms, total_duration_ms,
+                                                       min_tail_ms, line_ranges,
+                                                       prev_start_id)
+            if cut_id is None:
+                # 找不到合适的角色切换点，在当前位置硬切（兜底）
+                cut_id = lid
+
+            chunk_starts.append(cut_id)
+            next_cut_at_ms = line_ranges[cut_id][0] + target_chunk_ms
 
         if len(chunk_starts) <= 1:
             return chunk_starts
@@ -1205,6 +1236,70 @@ class AudioGenerator:
             chunk_starts.pop()
 
         return chunk_starts
+
+    @staticmethod
+    def _find_role_transition_after(sorted_ids: List[int], start_idx: int,
+                                     role_at, max_chunk_ms: int,
+                                     total_duration_ms: int, min_tail_ms: int,
+                                     line_ranges: Dict[int, tuple],
+                                     prev_chunk_start_id: int) -> Optional[int]:
+        """从 start_idx 位置向后查找第一个角色切换的 line_id。
+
+        遍历规则：
+        1. 优先在目标时长附近找角色切换点（role 与上一行不同）
+        2. 如果同一角色独白一直延续到超过 max_chunk_ms，在 max_chunk_ms 处硬切
+        3. 确保切完后尾段不低于 min_tail_ms
+
+        Args:
+            sorted_ids: 所有 line_id 的有序列表
+            start_idx: 开始搜索的索引位置
+            role_at: 获取指定 line_id 的 role 的函数
+            max_chunk_ms: 最大段长（毫秒），超过后兜底硬切
+            total_duration_ms: 总时长
+            min_tail_ms: 最小尾段时长
+            line_ranges: {line_id: (start_ms, end_ms)}
+            prev_chunk_start_id: 当前段起始 line_id
+
+        Returns:
+            切分起始 line_id，或 None（找不到合适切点）
+        """
+        prev_chunk_start_ms = line_ranges[prev_chunk_start_id][0] if prev_chunk_start_id in line_ranges else 0
+
+        best_by_role = None   # 找到的第一个角色切换点
+        fallback_by_max = None  # 超过 max_chunk_ms 时的兜底切点
+
+        for j in range(start_idx, len(sorted_ids)):
+            lid = sorted_ids[j]
+            current_start_ms, _ = line_ranges[lid]
+            chunk_duration_ms = current_start_ms - prev_chunk_start_ms
+
+            # 硬上限保护：超过最大段长，无论角色是否切换都切
+            if fallback_by_max is None and chunk_duration_ms >= max_chunk_ms:
+                remaining_ms = total_duration_ms - current_start_ms
+                if remaining_ms >= min_tail_ms:
+                    fallback_by_max = lid
+
+            # 查找角色切换点
+            prev_lid = sorted_ids[j - 1]
+            prev_role = role_at(prev_lid)
+            curr_role = role_at(lid)
+
+            if prev_role and curr_role and prev_role != curr_role:
+                # 角色切换了！检查尾段是否足够
+                remaining_ms = total_duration_ms - current_start_ms
+                if remaining_ms >= min_tail_ms:
+                    if best_by_role is None:
+                        best_by_role = lid
+                    # 找到角色切换点后继续走一段看看是否还在 max_chunk_ms 内，
+                    # 但如果已经到了兜底位置就不再找了
+                    if fallback_by_max is not None and lid >= fallback_by_max:
+                        break
+                else:
+                    # 角色切换了但尾段太短，这个切点不能用，继续往后
+                    pass
+
+        # 优先返回角色切换点，其次返回兜底切点
+        return best_by_role or fallback_by_max
 
     @staticmethod
     def _chunk_suffix(chunk_index: int, total_chunks: int) -> str:
@@ -1273,7 +1368,11 @@ class AudioGenerator:
 
         for chunk_index, start_id in enumerate(chunk_starts):
             # 确定当前片的起止位置
-            start_ms = line_ranges[start_id][0] if (line_ranges and start_id in line_ranges) else 0
+            # 切分时跳过 id=0 的章节标题（正文第一句），避免与片头叠加
+            actual_start = start_id
+            if total_chunks > 1 and start_id == 0 and 1 in line_ranges:
+                actual_start = 1
+            start_ms = line_ranges[actual_start][0] if (line_ranges and actual_start in line_ranges) else 0
             if chunk_index < total_chunks - 1:
                 next_start_id = chunk_starts[chunk_index + 1]
                 end_ms = line_ranges[next_start_id][0] if line_ranges else total_ms
