@@ -6,6 +6,7 @@ output/
 
 # Python 缓存与虚拟环境
 .venv/
+moss_sfx_venv/
 __pycache__/
 *.pyc
 *.egg-info/
