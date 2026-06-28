@@ -31,9 +31,3 @@ models/
 *.bin
 *.onnx
 
-# Fish Speech 测试环境
-fish-speech-test/checkpoints/
-fish-speech-test/output/
-fish-speech-test/.venv-fish/
-fish-speech-test/fish-speech/
-
