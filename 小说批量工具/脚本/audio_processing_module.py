@@ -1377,7 +1377,7 @@ class AudioGenerator:
         target_chunk_seconds = int(os.environ.get("CHAPTER_CHUNK_MINUTES", "10")) * 60
         min_tail_seconds = int(os.environ.get("MIN_TAIL_MINUTES", "8")) * 60
 
-        if line_ranges and total_seconds > target_chunk_seconds:
+        if line_ranges and total_seconds > target_chunk_seconds + min_tail_seconds:
             chunk_starts = self._find_chunk_splits(
                 line_ranges, total_ms,
                 target_chunk_seconds=target_chunk_seconds,

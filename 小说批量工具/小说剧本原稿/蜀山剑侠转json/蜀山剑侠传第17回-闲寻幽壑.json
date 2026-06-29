@@ -1,0 +1,1106 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第十七回 闲寻幽壑 巧遇肉芝 独劈华岩 惊逢巨蟒",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "孙南": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "餐霞大师": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "齐灵云": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "齐金蝉": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第十七回 闲寻幽壑 巧遇肉芝 独劈华岩 惊逢巨蟒",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我因为这场大祸，是我闯出来的，好多次请母亲去除灭它。母亲总说，这里头有一段因果，非等一个人来相助不可。孙南道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "孙南",
+      "api": {
+        "voice": {
+          "role": "孙南",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "照这样说来，那相助的人，一定是能力很大的了。",
+          "instruct": "推测"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "这倒不一定。据母亲说，此人如今本事倒不甚大，不过应在他来之时，便是妖蛇大数已尽的时候。而且这人的生辰八字，是午年五月端午日午时生，在生克上，是那妖蛇的硬对头，所以等他来相助，比较容易一些。",
+          "instruct": "认真解释"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "孙南听了，恍然大悟，说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "孙南",
+      "api": {
+        "voice": {
+          "role": "孙南",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "怪不得师伯要留我在此相助，我就是午年五月端午日午时生的呀。",
+          "instruct": "恍然大悟"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉闻言，大喜道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我这就好放心了。不瞒你说，我为此事，非常着急。因为姊姊本事大，几次求她瞒着母亲帮我去捉妖除害，她总怕母亲知道怪她。昨天母亲走后，我又求她，她还是不肯去。我本打算找你帮忙，因为刚才我看你同那贼和尚打时，你的剑光并不怎么出奇。偏偏姊姊刚才又赌气走了，更无办法。想不到你就是我母亲所说的帮手。今日已晚，明日正午，我便同你去除妖如何？",
+          "instruct": "欣喜邀约"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "孙南知道金蝉性情活泼，胆大包身。自己能力有限，虽然他母亲说除妖要应在自己身上，万一到时斗那妖不过，再要出点差错，这千斤重责，如何担法？欲待不答应，又恐金蝉笑他胆小。甚为两难。只得敷衍他道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "孙南",
+      "api": {
+        "voice": {
+          "role": "孙南",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我虽然能力有限，极愿帮你的忙，前去除妖。不过师伯出门，师姐又不在洞中，我陪你去涉险，师伯回来怪罪于我，如何是好？莫如设法先将师姐寻回，三人同去，岂不尽美尽善吗？",
+          "instruct": "犹豫推脱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉闻言，好生不快道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你们名为剑侠，作事一点不爽快，老是推三阻四。你想我头一次到醉仙崖，当时母亲就说它快要出世，到如今已经有两个月，说不定就在这一两天出世。我们老是迁延不决，养好贻患，将来一发，便不可收拾。古人说得好：'除恶务尽'；'先下手的为强，后下手的遭殃。'我日前在黄山，见着朱梅姊姊，谈起此事，她倒很慷慨地答应帮我。也是怕她师父见怪，悄悄地将餐霞大师的法宝偷借我好几样。刚才同贼和尚动手，我因为恐怕像金丸一样，被那贼和尚弄坏，将来还的时候，对不起朱梅姊姊，舍不得拿出来用，如今听你说出生辰八字，我欢喜极了，实指望你同我一样心理，除害安良，免去后患。谁想你也和我姊姊一样，看不起我这个小孩子，不肯帮我的忙。你要知道，我人虽小，心却不小。你们都不肯帮我，难道我就不会一个人去？我明天豁出一条小命，与那妖蛇拼个你死我活。你胆小怕事，我就独自去，也不要紧。",
+          "instruct": "不满激昂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，鼓着一张小嘴，好似连珠炮一般，说个不停。说完，绷着脸，怒容满面。孙南听了，知道这个小孩子说得出来，便做得出来。自己也是好胜的人，见金蝉说他胆小，越发不好意思。况且在人家这里作客，他是一个小孩子，如果让他前去闹出乱子，更觉难以为情。好在师父说自己生平尚无凶险，估量不妨事，莫如答应同他前去，到时见机行事，知难而退便了。当下便对金蝉道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "孙南",
+      "api": {
+        "voice": {
+          "role": "孙南",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师弟不要生气，我是特为试试你有胆子没有，并不是不愿同你前去。原想等你姊姊回来同去，实力更充足一些；况且她的剑术精深，我更是万分佩服，如有她同行，便万无一失，比较妥当得多。既然你执意要去，我们就明日去吧。",
+          "instruct": "答应同行"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉闻言，便转怒为喜，说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我原说孙师兄是好人呢！我还有几句心腹话未对你说。你看我姊姊这个人怎么样？",
+          "instruct": "转喜询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "孙南正要答言，忽然眼前一亮，灵云已站在面前，说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "现身微光",
+            "sound_cn": "一道微光闪现，人影骤然出现，衣袂轻响",
+            "sound_en": "a faint light flashes, figure appears suddenly, robes rustling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你这小东西，又要编排我些什么？",
+          "instruct": "带笑嗔怪"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉见姊姊回来，满心欢喜，便也就不往下深说了。原来灵云因常听父母说，自己尚要再堕尘劫，心中好生不痛快。偏偏孙南来时，又见母亲对他特别垂青，言语之中，很觉可疑，便疑心到昔日堕劫之言怕要应验。因为这百余年之功行，修来不易，便处处留神，竭力避免与孙南说话。在孙南方面，并无别念，只为敬重灵云的本领，所以时常诚心求教。灵云对母亲素来孝顺，从不违抗，心中虽然不愿，面子上只得照办。一个是志在请益，一个是先有成见。灵云为人和婉，又知道孙南正直光明，见他殷殷求教，怎肯以声音颜色拒人于千里之外。虽然知道自己也许误会了母亲的意思。自己素日本是落落大方，又加道行深厚，心如明镜，一尘不染。不知怎的，一见孙南，莫名其妙地起了一种特别感想，也不是爱，也不是恨，说不出所以然来。欲想不理人家吧，人家光明至诚，又别无错误；要理吧，无缘无故，又心中不安。实则并无缘故，自己偏偏要忸怩不安，有时自己都莫名其妙。适才金蝉当着飞娘，用言语讥讽，原是小孩的口没遮拦，随便说说，并无成见。不知为何，自己听了，简直羞得无地自容。忽然想起：我何不借个因由，避往黄山，每日在暗中窥视金蝉动静，以免发生事端。所以才故意同金蝉斗口，飞往黄山。刚刚起在半空，便遇餐霞大师问她何往。灵云脸色通红，也说不出所以然来。餐霞察言观色，即知深意。便道：",
+          "instruct": "叙述内心活动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "好孩子，你的心思我也知道，真可怜，和我当初入道情形简直一样。",
+          "instruct": "慈祥理解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云知道不能隐瞒，便跪请设法。餐霞大师道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "本山原有肉芝，可补你的功行。只要你能一尘不染，外魔来之，视如平常，便可不致堕劫，你怕它何来？",
+          "instruct": "点拨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云又问肉芝怎样才能到手。餐霞大师道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "这要视你有无仙缘。明日正是妖蛇伏诛之日，肉芝到手，看你们三人的造化如何，不过目前尚谈不到。最可笑的是，你一意避免尘缘，而我那朱梅小妮子，偏偏要往情网内钻。日前乘我不注意，将我两件镇洞之宝，偷偷借与你的兄弟，你说有多么痴顽呢！",
+          "instruct": "带笑感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云听了，又忙替金蝉赔罪，为朱梅讲情。餐霞大师道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "这倒没什么，哪能怪他们两小孩子？不过金蝉不知用法，明日我还叫朱梅前来助你们成功便了。",
+          "instruct": "宽慰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云谢了又谢，不便再往黄山，辞别大师回洞，藏在暗处，打算再让金蝉着急一夜，一面偷听他和孙南说些什么。正听见金蝉用言语激动孙南，孙南居然中计，不禁暗笑。后来又听见金蝉又说到自己身上，恐他乱说，才现身出来拦阻。金蝉见姊姊回来，心中虽然高兴，脸上却不露风，反说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你不是走了吗，回来做甚？莫不是也要明天同去看我孙师兄大显神通，擒妖除害吗？",
+          "instruct": "明知故问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云笑了笑道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "没羞。勾引你朱梅姊姊，去偷你师伯的镇山之宝，害得人家为你受了许多苦楚。如今师伯大怒，说要将她逐出门墙。你好意思吗？",
+          "instruct": "带笑吓唬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉听罢，又羞又急，慌不择地跑将过来，拉着灵云的衣袖说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "急步上前",
+            "sound_cn": "急促的脚步声，衣料摩擦，拉住衣袖的声音",
+            "sound_en": "hurried footsteps, cloth rustling, tugging at sleeve",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "好姊姊，这是真的吗？梅姊她偷大师镇山之宝，借与我去除妖，原是一番义气，不想为我害她到这般地步，叫人怎生过意得去，好姊姊，你看在兄弟的面上，向大师去求一求情，想个什么法子救救她吧。",
+          "instruct": "惊慌恳求"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云见金蝉小脸急得通红，那样着急的样子，不由心中暗暗好笑。便益发哄他道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你平日那样厉害，不听话，今天居然也有求我的时候。又不是我做的事，我管不着。大师那样喜欢你，你不会自己去求吗？",
+          "instruct": "故意逗他"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "好姊姊，你不要为难我了，我也够受的了。只要姊姊这次能帮我的忙，从今以后，无论姊姊说什么，做兄弟的再不敢不服从命令了。好姊姊，你就恕过兄弟这一回吧。",
+          "instruct": "低声下气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，两眼晕起红圈，几乎哭了出来。灵云知道金蝉性傲，见他这般景况，也就适可而止。便说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "好弟弟，不要着急。你再不听话，做姊姊的能跟你一般见识吗？何况你的梅姊姊又是那么好的一个人呢。我对你直说了吧，适才你不听话，我本要躲开你，到峨眉暂住。刚刚起到半空中，便遇着大师排云驭气而来。说起这除妖之事，关于你梅姊姊的窃盗官司，大师还在装聋作哑。是我再三求情，大师不但不责罚朱梅，反叫她明日前来助你成功。又劝我不要和你小孩子一般见识，我才回来的。你听了该喜欢吧？",
+          "instruct": "温和告知"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉果然欢喜得口都合不上了，说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你真是我的好姊姊！这样一说，明天连你同梅姊，都要帮我擒妖，那是万无一失的事了。我修道还未成功，就替人间除了这般大害，怎不叫人欢喜呢！",
+          "instruct": "欢喜若狂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你不要又发疯了。闻听母亲说，那妖蛇十分厉害，非同小可。如果是平常妖蛇，大师何必派朱梅来相助呢，你不要倚仗人多和有法宝。到了交战时，彼此不能相顾，吃了眼前亏，没处诉苦。",
+          "instruct": "提醒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "姊姊说得是。将才我不是说过吗，反正我们都听你支配，你叫怎样就怎样如何？",
+          "instruct": "顺从"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "只要你听话，事就好办了。如今你盗来的法宝，尚不知用法，只好等朱梅到来，再作商量。你何妨取出来，我们看看呢？",
+          "instruct": "提议"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉听了，忙往内洞取出餐霞大师镇洞之宝。这几样法宝，原是用一个尺许大的锦囊装好。等到金蝉倒将出来一看，里面有三寸直径的一粒大珠，黄光四射，耀眼欲花；其余尽是三尖两刃的小刀，共有一百零八把，长只五六寸，冷气森森，寒光射人。只是不知用法。灵云对金蝉道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "锦囊取宝",
+            "sound_cn": "锦囊被解开，法宝倒出的声响，轻微碰撞声",
+            "sound_en": "brocade pouch opened, treasures poured out, light clinking",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你看你够多荒唐，勾引良家女子做贼，偷来的东西连用法都不知道。你拿时也不问问怎样用吗？",
+          "instruct": "嗔怪"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉带愧说道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "日前我到黄山，大师不在家中。我同梅姊在洞外玩了一阵，后来谈起妖蛇的事，我便说我没有帮手，又没有法宝，空自心有余而力不足。万一妖蛇逃去，为害人间，岂不是我的罪过？我说时，连连叹气。她便用言语来安慰我，她说极愿帮我的忙，只是大师教规极严，无故不许离开洞府。她胆子又小，不敢向大师去说。后来看我神气沮丧，她说大师有十二样镇洞之宝，大师平日轻易不带出门，又归她保管，可以偷偷借与我用。事成之后，悄悄送还；万一败露，再叫我请母亲、姊姊去向大师求情。我自然是满心欢喜，她便挑了这两样给我。又对我说，这刀名叫诛邪刀，共是一百零八把，能放能收。那珠名叫天黄正气珠。她没有说出怎样用法，偏偏大师回来。我连忙将二宝藏在身旁，上前参见。临别时，大师对我微微一笑，好似已知道我们私弊。我恐怕梅姊受累，便想向大师自首，又有点作贼心虚，没有那般勇气。又妄想大师或者尚未知道，存一种侥幸心理，想借此宝助我成功。等到回来，天天受良心制裁，几次想偷偷前去送还，老是没有机会。",
+          "instruct": "惭愧解释"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云听了，正要答言，忽听洞外传进一种声音，非常凄厉，情知有异。连忙纵身出洞，往四下一看，只见星月皎洁，银河在天，适才那一种声音，夹着一阵极奇怪的笛声，由醉仙崖那边随风吹来。",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "凄厉笛声",
+            "sound_cn": "一阵凄厉的怪声和奇怪的笛声从远处随风飘来，刺耳阴森",
+            "sound_en": "eerie howling and strange flute sound drifting from distance, piercing and gloomy",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "九华洞府内",
+        "name_en": "九华洞府内，夜晚，石壁烛光，陈设雅致，金蝉与孙南交谈，气氛从争执到和解",
+        "start_line": 1,
+        "end_line": 17,
+        "prompt": "very subtle low volume background ambience, night inside a cave dwelling, candlelight flickering on stone walls, elegant furnishings, boys chatting, atmosphere shifting from argument to reconciliation, soft crackle of oil lamp, subtle guqin resonance, no sharp sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "九华洞府外",
+        "name_en": "九华洞府外，星月之夜，银河在天，山风轻拂，远处醉仙崖方向传来诡异声响",
+        "start_line": 18,
+        "end_line": 51,
+        "prompt": "very subtle low volume background ambience, starry night outside a mountain cave, bright moon and Milky Way, gentle mountain breeze, eerie sounds from distant Zuixian Cliff, tense and mysterious atmosphere, faint wind through pines, distant bird calls, subtle xiao flute adding unease, no sharp sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}
