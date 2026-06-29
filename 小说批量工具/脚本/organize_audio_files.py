@@ -190,7 +190,7 @@ def organize_audio_files():
             chapter_name_converted = convert_chinese_to_arabic(chapter_name)
             
             # 在结尾添加"_整书免费"
-            target_file = os.path.join(novel_audio_dir, f"{chapter_name_converted}_整书免费{ext}")
+            target_file = os.path.join(novel_audio_dir, f"{chapter_name_converted}{ext}")
             
             # 检查音频时长
             duration = get_audio_duration(source_file)

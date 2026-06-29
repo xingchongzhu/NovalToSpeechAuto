@@ -1,5 +1,6 @@
 # 输出与临时目录
 output/
+小说音频/
 *.log
 *.tmp
 *.temp
