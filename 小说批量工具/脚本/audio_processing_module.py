@@ -226,8 +226,8 @@ PLATFORM_PROFILES: Dict[str, AudioPlatformProfile] = {
         channels=2,
         bitrate="192k",
         #intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，作者{author}，演播{speaker}，欢迎订阅。",
-        intro_template="欢迎您收听《{novel_name}》",
-        outro_template="听众朋友，本集已播讲完毕，请订阅专辑，下集精彩继续。",
+        intro_template="欢迎收听《{novel_name}》",
+        outro_template="本集播讲完毕，请订阅专辑，下集精彩继续。",
         min_chapter_ms=5 * 60 * 1000,
         max_chapter_ms=15 * 60 * 1000,
         max_silence_ms=5000,
@@ -1458,7 +1458,7 @@ class AudioGenerator:
         Returns:
             章节标签，如 "第43回 中"、"第43回 下"
         """
-        chapter_name = self.config.get("chapter", "无名章节")
+        chapter_name = self.config["data"][0].get("api", {}).get("voice", {}).get("text") or self.config.get("chapter", "无名章节")
         label = suffix.lstrip("_")
         mapping = {"上": "上", "中": "中", "下": "下", "续": "续"}
         label = mapping.get(label, f"第{label}集")
