@@ -1168,12 +1168,13 @@ class AudioGenerator:
 
     def _find_chunk_splits(self, line_ranges: Dict[int, tuple], total_duration_ms: int,
                            target_chunk_seconds: int = 600, min_tail_seconds: int = 480) -> List[int]:
-        """根据总时长均分找到最佳切分点（优先在角色切换点切分）。
+        """根据总时长均分找到最佳切分点（优先在角色切换点切分，保证每段 ≥ 下限时长）。
 
         切分策略：
         1. 根据总时长和目标段长计算切分段数 N，将总时长均分为 N 段
         2. 为每个等分点就近选取角色切换点作为切分位置
-        3. 某段超过硬上限时插入兜底切点，尾段过短则合并到前一段
+        3. 段长不足下限（min_tail_seconds）时跳过该等分点，段长分摊到相邻段
+        4. 某段超过硬上限时插入兜底切点，尾段过短则合并到前一段
 
         Args:
             line_ranges: {line_id: (start_ms, end_ms)}，按 id 升序
@@ -1221,12 +1222,16 @@ class AudioGenerator:
             is_transition = bool(prev_role and curr_role and prev_role != curr_role)
             candidates.append((lid, start_ms, is_transition))
 
-        # 贪心分配：每个等分点找最近的候选点（优先角色切换点）
+        # 贪心分配：每个等分点找最近的可切候选（优先角色切换点），
+        # 段长不足下限则向后搜寻满足下限的最近候选
         used: set = set()
         selected_cuts: list = []
+        prev_cut_ms = line_ranges[sorted_ids[0]][0]
         for ideal_pos in ideal_cut_positions:
+            # 先找距离等分点最近的候选（优先角色切换点）
             best_lid = None
             best_score = float('inf')
+            best_start_ms = 0
             for lid, start_ms, is_transition in candidates:
                 if lid in used:
                     continue
@@ -1236,9 +1241,35 @@ class AudioGenerator:
                 if score < best_score:
                     best_score = score
                     best_lid = lid
-            if best_lid is not None:
-                selected_cuts.append(best_lid)
-                used.add(best_lid)
+                    best_start_ms = start_ms
+            if best_lid is None:
+                continue
+            chunk_dur = best_start_ms - prev_cut_ms
+            if chunk_dur < min_tail_ms:
+                # 段长不足下限，从候选池中找满足约束且最接近等分点的候选
+                best_lid = None
+                best_start_ms = 0
+                best_fallback_score = float('inf')
+                for lid, start_ms, is_transition in candidates:
+                    if lid in used:
+                        continue
+                    dur = start_ms - prev_cut_ms
+                    if dur < min_tail_ms:
+                        continue
+                    remaining_ms = total_duration_ms - start_ms
+                    if remaining_ms < min_tail_ms:
+                        continue
+                    # 优先选距离等分点近的候选（角色切换点优先）
+                    fscore = abs(start_ms - ideal_pos) + (0 if is_transition else target_chunk_ms)
+                    if fscore < best_fallback_score:
+                        best_fallback_score = fscore
+                        best_lid = lid
+                        best_start_ms = start_ms
+                if best_lid is None:
+                    continue  # 找不到满足条件的候选，跳过此等分点
+            selected_cuts.append(best_lid)
+            used.add(best_lid)
+            prev_cut_ms = best_start_ms
 
         selected_cuts.sort()
 
@@ -1377,7 +1408,7 @@ class AudioGenerator:
         target_chunk_seconds = int(os.environ.get("CHAPTER_CHUNK_MINUTES", "10")) * 60
         min_tail_seconds = int(os.environ.get("MIN_TAIL_MINUTES", "8")) * 60
 
-        if line_ranges and total_seconds > target_chunk_seconds + min_tail_seconds:
+        if line_ranges and total_seconds >= target_chunk_seconds + min_tail_seconds:
             chunk_starts = self._find_chunk_splits(
                 line_ranges, total_ms,
                 target_chunk_seconds=target_chunk_seconds,
