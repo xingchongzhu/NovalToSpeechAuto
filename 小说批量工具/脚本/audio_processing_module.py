@@ -1168,26 +1168,23 @@ class AudioGenerator:
 
     def _find_chunk_splits(self, line_ranges: Dict[int, tuple], total_duration_ms: int,
                            target_chunk_seconds: int = 600, min_tail_seconds: int = 480) -> List[int]:
-        """根据总时长均分找到最佳切分点（优先在角色切换点切分，保证每段 ≥ 下限时长）。
+        """根据总时长均分找到最佳切分点（优先在角色切换点切分，后处理保证每段 8~15min）。
 
-        切分策略：
-        1. 根据总时长和目标段长计算切分段数 N，将总时长均分为 N 段
-        2. 为每个等分点就近选取角色切换点作为切分位置
-        3. 段长不足下限（min_tail_seconds）时跳过该等分点，段长分摊到相邻段
-        4. 某段超过硬上限时插入兜底切点，尾段过短则合并到前一段
+        Phase 1: 贪心分配，均分后为每个等分点就近选角色切换点
+        Phase 2: 统一后处理 —— 过短合并 + 超长按句号边界切分，循环至稳定
 
         Args:
             line_ranges: {line_id: (start_ms, end_ms)}，按 id 升序
             total_duration_ms: 音频总时长（毫秒）
             target_chunk_seconds: 目标片段时长（秒），默认 600（10 分钟）
-            min_tail_seconds: 最后一段低于此时长则不单独切（秒），默认 480（8 分钟）
+            min_tail_seconds: 片段最低时长（秒），默认 480（8 分钟）
 
         Returns:
             每个切片的起始 line_id 列表，如 [0, 128, 256]
         """
         target_chunk_ms = target_chunk_seconds * 1000
         max_chunk_ms = int(os.environ.get("CHAPTER_CHUNK_MAX_MINUTES", "15")) * 60 * 1000
-        min_tail_ms = min_tail_seconds * 1000
+        min_seg_ms = min_tail_seconds * 1000
 
         sorted_ids = sorted(line_ranges.keys())
         if not sorted_ids:
@@ -1200,35 +1197,32 @@ class AudioGenerator:
                 return data_lines[line_id].get("role", "")
             return ""
 
-        # 计算等分段数
+        # ======================== Phase 1: 贪心分配 ========================
         num_chunks = max(1, math.ceil(total_duration_ms / target_chunk_ms))
         if num_chunks <= 1:
             return [sorted_ids[0]]
 
         ideal_cut_positions = [total_duration_ms * k / num_chunks for k in range(1, num_chunks)]
 
-        # 收集所有可用候选切点（满足尾段时长约束）
-        # (line_id, start_ms, is_role_transition)
+        # 收集所有候选切点 (line_id, start_ms, is_role_transition)
         candidates: list = []
         for i in range(1, len(sorted_ids)):
             lid = sorted_ids[i]
             start_ms = line_ranges[lid][0]
             remaining_ms = total_duration_ms - start_ms
-            if remaining_ms < min_tail_ms:
-                break  # 后续行尾段只会更短
+            if remaining_ms < min_seg_ms:
+                break
             prev_lid = sorted_ids[i - 1]
             prev_role = _role_at(prev_lid)
             curr_role = _role_at(lid)
             is_transition = bool(prev_role and curr_role and prev_role != curr_role)
             candidates.append((lid, start_ms, is_transition))
 
-        # 贪心分配：每个等分点找最近的可切候选（优先角色切换点），
-        # 段长不足下限则向后搜寻满足下限的最近候选
         used: set = set()
         selected_cuts: list = []
         prev_cut_ms = line_ranges[sorted_ids[0]][0]
+
         for ideal_pos in ideal_cut_positions:
-            # 先找距离等分点最近的候选（优先角色切换点）
             best_lid = None
             best_score = float('inf')
             best_start_ms = 0
@@ -1236,7 +1230,6 @@ class AudioGenerator:
                 if lid in used:
                     continue
                 dist = abs(start_ms - ideal_pos)
-                # 非角色切换点加足够大的惩罚，确保角色切换点优先
                 score = dist + (0 if is_transition else target_chunk_ms)
                 if score < best_score:
                     best_score = score
@@ -1245,8 +1238,8 @@ class AudioGenerator:
             if best_lid is None:
                 continue
             chunk_dur = best_start_ms - prev_cut_ms
-            if chunk_dur < min_tail_ms:
-                # 段长不足下限，从候选池中找满足约束且最接近等分点的候选
+            if chunk_dur < min_seg_ms:
+                # 段长不足，找满足段长约束的最近候选
                 best_lid = None
                 best_start_ms = 0
                 best_fallback_score = float('inf')
@@ -1254,62 +1247,111 @@ class AudioGenerator:
                     if lid in used:
                         continue
                     dur = start_ms - prev_cut_ms
-                    if dur < min_tail_ms:
+                    if dur < min_seg_ms or dur > max_chunk_ms:
                         continue
                     remaining_ms = total_duration_ms - start_ms
-                    if remaining_ms < min_tail_ms:
+                    if remaining_ms < min_seg_ms:
                         continue
-                    # 优先选距离等分点近的候选（角色切换点优先）
                     fscore = abs(start_ms - ideal_pos) + (0 if is_transition else target_chunk_ms)
                     if fscore < best_fallback_score:
                         best_fallback_score = fscore
                         best_lid = lid
                         best_start_ms = start_ms
                 if best_lid is None:
-                    continue  # 找不到满足条件的候选，跳过此等分点
+                    continue
             selected_cuts.append(best_lid)
             used.add(best_lid)
             prev_cut_ms = best_start_ms
 
         selected_cuts.sort()
 
-        # 构建 chunk_starts，同时校验硬上限
+        # 构建 chunk_starts
         chunk_starts = [sorted_ids[0]]
-        prev_start_ms = line_ranges[sorted_ids[0]][0]
-
+        prev_ms = line_ranges[sorted_ids[0]][0]
         for cut_id in selected_cuts:
-            cut_start_ms = line_ranges[cut_id][0]
-            chunk_dur = cut_start_ms - prev_start_ms
-            if chunk_dur > max_chunk_ms:
-                # 段长超过硬上限，在 candidates 中插入兜底切点
-                for lid, start_ms, is_transition in candidates:
-                    if lid in used:
-                        continue
-                    if start_ms - prev_start_ms >= max_chunk_ms:
-                        remaining_ms = total_duration_ms - start_ms
-                        if remaining_ms >= min_tail_ms:
-                            chunk_starts.append(lid)
-                            prev_start_ms = start_ms
-                            used.add(lid)
-                        break
+            cut_ms = line_ranges[cut_id][0]
             chunk_starts.append(cut_id)
-            prev_start_ms = cut_start_ms
+            prev_ms = cut_ms
 
-        # 合并过短尾段
-        if len(chunk_starts) > 1:
-            last_start = chunk_starts[-1]
-            last_duration = total_duration_ms - line_ranges[last_start][0]
-            if last_duration < min_tail_ms:
-                chunk_starts.pop()
+        # ======================== Phase 2: 统一后处理 ========================
+        # 从 sorted_ids 构建 start_ms 索引
+        id_to_ms = {lid: line_ranges[lid][0] for lid in sorted_ids}
 
-        if len(chunk_starts) <= 1:
-            return [sorted_ids[0]]
+        MAX_ITERS = 20
+        for _ in range(MAX_ITERS):
+            changed = False
 
-        # 去重（兜底切点可能与选中切点重叠）
+            # 2a. 合并过短段 (从前往后，尾段也要检查)
+            merged = [chunk_starts[0]]
+            i = 1
+            while i < len(chunk_starts):
+                seg_dur = id_to_ms[chunk_starts[i]] - id_to_ms[merged[-1]]
+                if seg_dur < min_seg_ms:
+                    i += 1
+                    changed = True
+                else:
+                    merged.append(chunk_starts[i])
+                    i += 1
+            # 检查尾段 — 只有合并后不会超上限才合并
+            last_tail_ms = total_duration_ms - id_to_ms[merged[-1]]
+            if len(merged) > 1 and last_tail_ms < min_seg_ms:
+                prev_start_ms = id_to_ms[merged[-2]]
+                if total_duration_ms - prev_start_ms <= max_chunk_ms:
+                    merged.pop()
+                    changed = True
+            chunk_starts = merged
+
+            # 2b. 切分超长段（逐段检查，含尾段；remaining 放宽至 6min）
+            new_starts = [chunk_starts[0]]
+            for i in range(1, len(chunk_starts) + 1):
+                seg_start_ms = id_to_ms[new_starts[-1]]
+                if i < len(chunk_starts):
+                    seg_end_ms = id_to_ms[chunk_starts[i]]
+                else:
+                    seg_end_ms = total_duration_ms
+                seg_dur = seg_end_ms - seg_start_ms
+
+                if seg_dur <= max_chunk_ms:
+                    if i < len(chunk_starts):
+                        new_starts.append(chunk_starts[i])
+                    continue
+
+                # 超长段，找离 target_ms 最近的句子边界（remaining ≥ 6min 以扩大窗口）
+                target_ms = seg_start_ms + max_chunk_ms
+                best_lid = None
+                best_dist = float('inf')
+                for lid in sorted_ids:
+                    if lid == 0:
+                        continue
+                    ms = id_to_ms[lid]
+                    dur = ms - seg_start_ms
+                    if dur < min_seg_ms or dur > max_chunk_ms:
+                        continue
+                    remaining = seg_end_ms - ms
+                    if remaining < 6 * 60 * 1000:
+                        continue
+                    dist = abs(ms - target_ms)
+                    if dist < best_dist:
+                        best_dist = dist
+                        best_lid = lid
+                if best_lid is not None:
+                    new_starts.append(best_lid)
+                    changed = True
+                if i < len(chunk_starts):
+                    new_starts.append(chunk_starts[i])
+
+            chunk_starts = new_starts
+            if not changed:
+                break
+
+        # 去重
         seen = []
         for lid in chunk_starts:
             if not seen or lid != seen[-1]:
                 seen.append(lid)
+
+        if len(seen) <= 1:
+            return [sorted_ids[0]]
 
         return seen
 
@@ -1408,7 +1450,8 @@ class AudioGenerator:
         target_chunk_seconds = int(os.environ.get("CHAPTER_CHUNK_MINUTES", "10")) * 60
         min_tail_seconds = int(os.environ.get("MIN_TAIL_MINUTES", "8")) * 60
 
-        if line_ranges and total_seconds >= target_chunk_seconds + min_tail_seconds:
+        # 超过平台硬上限 15 分钟（喜马拉雅 max_chapter_ms）时按句子边界切分
+        if line_ranges and total_seconds >= 15 * 60:
             chunk_starts = self._find_chunk_splits(
                 line_ranges, total_ms,
                 target_chunk_seconds=target_chunk_seconds,
