@@ -1,0 +1,2758 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第195回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "萧逸": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "萧珍": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "萧琏": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+4Hz",
+      "volume": "-1%",
+      "speed": "-1%"
+    },
+    "萧璇": {
+      "role_voice": "小巧-童声",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "瑶仙": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "畹秋": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "+1Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    },
+    "绛雪": {
+      "role_voice": "甜美小橘-甜妹",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "萧清": {
+      "role_voice": "元气少年-磁性,性感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "萧玉": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "郝潜夫": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "郝老": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第195回",
+          "instruct": "庄重开场"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "voice_only"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "临命尚凶机，不惜遗留娇女祸；深情成孽累，最难消受美人恩。瑶仙幼得乃母钟爱，从未受过斥责，闻言吓了一大跳。连忙强忍痛泪，把头抬起。见乃母面上狞容越发可怖，呜咽着答道：",
+          "instruct": "沉痛开篇，阴森压抑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "把头抬起",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "衣料摩擦",
+            "sound_cn": "抬起头时衣服与床褥的轻微摩擦声",
+            "sound_en": "fabric rustling against bedclothes as head lifts, soft movement, cotton shifting",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "妈，你适才所说的话，我都……",
+          "instruct": "呜咽颤抖，话未说完，惊恐悲伤"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "底下话未出口，畹秋恐被门外来人听去，忙伸手把她嘴捂住。回顾绛雪已经进房，把手一招，也唤至榻前，然后说道：",
+          "instruct": "紧张压抑，母亲急于制止"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "伸手把她嘴捂住",
+            "trigger_offset": 0.2,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "捂嘴闷声",
+            "sound_cn": "手掌捂住嘴巴时发出的闷响和布料摩擦声",
+            "sound_en": "palm pressing against mouth to silence, soft muffled sound, fabric rustling against face",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "trigger_keyword": "把手一招",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "轻声召唤",
+            "sound_cn": "招手唤人近前时衣服的细微声响",
+            "sound_en": "gesturing for someone to approach, subtle fabric rustle, slight movement",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "role": "畹秋",
+      "api": {
+        "voice": {
+          "role": "畹秋",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+1Hz",
+          "text": "妈一时不忿，气萧逸骗我，闹得如今身败名裂。最伤心的是雪中鬼迷，误伤你爹，使我死犹抱恨，如今悔已不及。本心等你爹今年落葬之后再行自尽，不想事情泄露，早随他去也好。你们尽哭有什用处？这是我自作自受，不能怪人。我死之后，村中请位尊长必定怜你孤苦，决不因我而对你不好。还有绛雪，分虽主仆，情若母女。你二人可在我死前，当着我结为姊妹。好在我儿婚事已成定局，日后绛雪如愿与你同事一夫最好，否则你夫妻可给她物色一个佳婿。你两个都是无父无母的孤儿，以后务要和好，千万以母为鉴，好好为人，不可忌恨别人，勿蹈妈的覆辙。妈此时静等他们传去，或是活埋，或是烧死，真说不定。话已说完，可乘此时近前来，由妈抱着你们亲热一阵吧。",
+          "instruct": "临终遗言，悲悔交织，语带哽咽，故作慈爱"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "外面诸人闻言，俱以为人之将死，其言也善，畹秋临命愧悔，还替室中二女可怜。谁想她这些话多半言不由衷，是想给女儿留地步，使人只怜她身世孤苦，不加防备，又借以洗刷暗杀亲夫的罪名。话一说完，便借亲热为名，把二人的头搂在胸前，又附耳低声向瑶仙说了许多机密的话。挨过一会，见外面尚无动静，估量死期将到，想再向来人说自己虽死，决不落于人手的话。忽想起门外人既未退，也未拍门吵闹，这事如奉长老、村主之命，决不会几句话就能喝住的。难道并非奉命，自己前来不成？因而又想起问绛雪的话，匆匆一问。绛雪把前事一说，才知自己毕竟受伤太重，为情势所慑，一时情急心慌，服毒太快，坐令母女二人这最终三五日的聚首，都因心粗葬送。眼看片刻工夫便要毒发身死，还有许多活不及细说。死时依旧粒米未沾，即便强吃，也咽不下。肚肠绞痛越来越烈，临死头上不禁又悔又恨，又惜命又伤心，百感交集，忍不住流下泪来。正在万分难过之际，忽听门外又有数人滑雪驰至，一到便高喊道：",
+          "instruct": "叙述由缓转急，阴森渐起"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "搂在胸前",
+            "trigger_offset": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "母女相拥",
+            "sound_cn": "将两个女儿搂在胸前的布料摩擦与轻微声响",
+            "sound_en": "pulling two daughters into an embrace, fabric rustling, soft breathing, emotional closeness",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "附耳低声",
+            "trigger_offset": 0.3,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "耳语低响",
+            "sound_cn": "附耳低语的细微气声",
+            "sound_en": "whispering closely into the ear, hushed secretive tones, breathy murmurs",
+            "volume": "-30%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 42,
+            "trigger_keyword": "滑雪驰至",
+            "trigger_offset": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "滑雪声",
+            "sound_cn": "数人滑雪快速驰来的声音",
+            "sound_en": "several people skiing rapidly toward the house, rhythmic scraping of skis on snow, swift approach",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此事已有诸位长老和村主主持，自会按照村规办理。适才传示全村，因你们路远，未曾走到。今天新年初一，要取全村吉利，百事暂时不究。她们满门孤弱，即便治罪，也有两分法外之仁，以示矜恤。你们不奉村主之命，行动躁妄，私自来此吵闹，成何体统？如今村主已经发怒，命我们前来传令快快回去，不可胡来。",
+          "instruct": "威严传令，不容置疑"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，众人略问来人几句，便边说边走，纷纷踏雪而散。原来这些来人相离最为僻远，萧逸先时命众门人晓谕村众时，去这一路的两个门人新年有事，以为这十几家雪深路远不会闻知，便没有去。谁知内中恰有二人与郝家父子至好，天一亮就往拜年，目睹魏氏自吐阴私，得信最早，回去便对众人一说，偏巧又有几个性情刚暴，疾恶如仇的人在内，当时愤怒。因魏氏人已疯狂，那里已有不少人知道，想必不肯甘休。崔家相离较近，又是首恶，十几个少年好事的聚在一起，略微商量，一面着人去向各长老、村主告发，一面纠集众人赶往崔家来拿元凶，押往村主那里，请照村规除此害马，为死者伸冤吐气。也知崔家一门孤寡，家无男丁，畹秋母女又是会家，万一倔强动手，男女不便，还特意带来十来个妇女。有几个年老宽和的劝阻不住，只得罢了。事属创举，去时各人气愤填胸，未暇深思，到后拍门辱骂，吃畹秋拿话问住。虽然无言可答，仍想等告发人的下落，不肯即散。也是畹秋恶贯满盈，不能苟延。所行所为一时传遍全村，激动公愤。这伙人路上虽遇村人，因知尚未奉到村主传谕，乐得让他们前去扰闹辱骂，好出胸中这口恶气。尽管设词推谢，不曾同来，谁也不肯说出村主适才已有传谕：此事须等过了破五，再行举发，治以应得之罪，所以这伙人依旧冒失前来。村中规令素严，来人虽被斥退，但是先前令未传到，事出无知，只不过扫兴忿忿而返，并无干系。畹秋幸免凌辱。众人散后，药得烈酒之力，毒已大发，一个支持不住，往后一仰，跌倒床里。疼得满床乱滚，面色成了铁灰，两眼突出如铃，血丝四布，满口银牙连同那嫩馥馥的舌尖一齐自己咬碎。先还口里不住咒骂萧逸全家，要二女给她报仇雪恨。后来舌头一碎，连血带残牙碎肉满口乱喷，声便含混不清。二女知道药毒无救，目睹这等惨状，替又替她不了，急得互相搂抱，撞头顿足，心已痛麻，哭都哭不出来。实则药性甚快，真正药毒发透不过半盏茶时，便可了帐。畹秋因是一半乘机忍痛做作，好使二女刻骨铭心，永记她死时之惨，所以闹得时候长些，势子也格外显得奇惨怕人。到了后来，畹秋心火烧干，肺肠寸断，无法延挨，惨叫一声：",
+          "instruct": "惨烈叙述，由缓转疾，恐怖骇人"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "踏雪而散",
+            "trigger_offset": 0.3,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "踏雪散去",
+            "sound_cn": "众人纷纷踏雪散去的杂乱脚步声",
+            "sound_en": "crowd dispersing in snow, multiple footsteps crunching, people walking away in different directions",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30,
+            "trigger_keyword": "拍门辱骂",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "拍门怒骂",
+            "sound_cn": "众人用力拍打木门并愤怒叫骂的嘈杂声",
+            "sound_en": "crowd pounding on wooden door and shouting angrily, loud banging and yelling",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 55,
+            "trigger_keyword": "跌倒床里",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "倒卧床榻",
+            "sound_cn": "身体重重倒在床上的闷响和床板嘎吱声",
+            "sound_en": "body collapsing heavily onto the bed, dull thud, mattress and wooden bed creaking",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 59,
+            "trigger_keyword": "满床乱滚",
+            "trigger_offset": 0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "剧烈翻滚",
+            "sound_cn": "毒发疼痛在床上来回翻滚的剧烈声响",
+            "sound_en": "writhing and rolling in bed in agony, violent thrashing, bed creaking and groaning",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 68,
+            "trigger_keyword": "一齐咬碎",
+            "trigger_offset": 0.2,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "咬碎牙舌",
+            "sound_cn": "牙齿将舌尖咬碎的恐怖咔嚓声",
+            "sound_en": "teeth biting through tongue and shattering, horrifying crackling and crunching sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 75,
+            "trigger_keyword": "连血带残牙",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "喷血含糊",
+            "sound_cn": "混着血的碎牙残肉从嘴里喷出的声响",
+            "sound_en": "spitting blood mixed with broken teeth and flesh, gurgling and splattering sounds",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 88,
+            "trigger_keyword": "惨叫一声",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "临死惨叫",
+            "sound_cn": "畹秋临死前的凄厉惨叫声",
+            "sound_en": "Wanqiu's agonizing scream before death, blood-curdling and piercing cry",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "role": "畹秋",
+      "api": {
+        "voice": {
+          "role": "畹秋",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+5Hz",
+          "text": "我还有话没说完呀！",
+          "instruct": "惨叫，绝望不甘，声嘶力竭"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "猛地两手握紧，把口一张，喷出大口鲜血和半段香舌，身体从床上跳起。二女连忙按住一看，眼珠暴凸眶外，七孔尽是鲜血，人已断气，双手尤自紧握不放。掰开一看，手指乌黑，平日水葱也似寸许长的十根指甲全数翻折，多半深嵌肉里，紫血淋漓，满手都是。二女出生以来，几曾见过这等惨状。瑶仙尤其是她亲生爱女，哪得不肝肠寸断，痛彻肺腑。",
+          "instruct": "极度惨烈，惊骇恐怖"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "喷出大口鲜血",
+            "trigger_offset": 0.2,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "喷血声",
+            "sound_cn": "鲜血与碎肉从口中喷出的恐怖声响",
+            "sound_en": "blood and flesh gushing out from mouth, horrifying spurt, liquid splattering and dripping",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "身体从床上跳起",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "躯体弹起",
+            "sound_cn": "尸体临死前从床上弹起的闷响",
+            "sound_en": "body convulsing and jolting up from the bed, sudden violent movement, thump",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "按住一看",
+            "trigger_offset": 0.3,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "惊慌按压",
+            "sound_cn": "慌忙按住尸体查看的杂乱声响",
+            "sound_en": "hurriedly pressing on the body and checking, panicked shuffling, gasping in horror",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妈呀一声悲号，立即晕死过去。绛雪顾念主恩，虽未痛晕死去，却也悲伤肠断，心如油煎。一面还要顾全瑶仙，好容易强忍悲痛，揉搓急喊，将瑶仙救醒，她也几乎晕倒。瑶仙醒来，望着死母呆了一呆，倏地顿足戟指，朝萧逸所居那一面骂道：",
+          "instruct": "悲痛欲绝，由哀转愤"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "妈呀一声",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "悲号",
+            "sound_cn": "瑶仙撕心裂肺的悲号声",
+            "sound_en": "Yaoxian's heart-wrenching wail, piercing cry of grief, sobbing uncontrollably",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "trigger_keyword": "揉搓急喊",
+            "trigger_offset": 0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "揉搓呼救",
+            "sound_cn": "揉搓身体并急切呼喊救醒的声音",
+            "sound_en": "rubbing the body and calling out urgently to revive the fainted person, panicked whispers and slapping",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 13,
+            "trigger_keyword": "顿足戟指",
+            "trigger_offset": 0.2,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "跺脚指骂",
+            "sound_cn": "顿足并戟指怒骂的声响",
+            "sound_en": "stamping foot and pointing finger in anger, sharp motion, fabric rustle",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "我不杀你全家，决非人类！",
+          "instruct": "咬牙切齿，满含仇恨，声泪俱下"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又回身哭道：",
+          "instruct": "平静转述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "妈放心随我爹爹去吧，你说的话，女儿一句也忘不了呀！",
+          "instruct": "哭诉告慰，声泪俱下"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说完，一着急，哇的一声，吐出一口血来。绛雪抱住瑶仙肩膀，泣劝道：",
+          "instruct": "急怒攻心，紧张转缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "吐出一口血",
+            "trigger_offset": 0.2,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "吐血声",
+            "sound_cn": "急怒攻心吐血的声响",
+            "sound_en": "spitting out blood in sudden distress, liquid splattering, desperate cough",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "trigger_keyword": "抱住瑶仙肩膀",
+            "trigger_offset": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "抱肩劝慰",
+            "sound_cn": "抱住肩膀轻声安慰的布料摩擦和低语声",
+            "sound_en": "hugging shoulder and comforting, fabric rustling, soft soothing voice",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小姐，如今大娘已被仇人逼死，身后还有多少事要办不说，你这样哭喊，被人听去，莫说大仇难报，我们还难在此立足呢。既打算报仇，第一保重身子，快些把大娘安葬，照她话去做才是。你尽伤心，人急坏了，白叫仇人称心看笑话，有什么用呢？",
+          "instruct": "强忍悲痛，冷静劝慰晓理"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "瑶仙闻言警觉，忙道：",
+          "instruct": "平静转述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "妹妹，你我现在已奉母命，成了患难姊妹，快莫如此称呼。你说得话对，但是妈一时失算，闹得全村都是仇敌。如今人死床上，叫我有什么脸面去听人家闲话？我此时方寸已乱。你虽是我妹妹，论年纪不过比我小了几天，请你设法作主吧。",
+          "instruct": "悲泣无助，完全依赖"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "既是妈和姊抬爱，妹子也不必再说虚话。按说死了死了，妈已自尽，他们决不会再和我们这苦命女儿成仇，也不会那么刻薄，还说闲话。妈做的事，平心而论，实在也难怪犯了众怒，只是他们不该逼人太狠。尤其萧逸该死，此仇不报，妈在九泉决难瞑目。姊姊出面找人安葬，村中照例应办的事，他们原无话说。不过姊姊此时人受大伤，心念母仇，难免词色太露。就此安葬也不易和仇人亲近。这事妹子义不容辞，姊姊就无病也装病，何况真地伤心过度，体力不济呢。姊姊可装作重病，睡在妈的身旁，见有人来，只管叩头痛哭，什话不说，一切由妹子出头去办。我看萧逸虽是大仇，一则此事少他不得；二则他自知行事对不起人，听他口气，如非萧家大娘发疯一闹，难保没有委屈求全之心，听妈惨死，必定可怜我们。乐得将计就计，乘虚而入。此时只寻他一人报丧，任他安排处置，立时可以办好了。玉哥兄弟，母病疯狂，泄露真情，妈今死去，萧家大娘病死不说，不病死也是要受全村欺凌，一样难免受害。他们虽与姓萧的是本家兄弟，但是情义不及崔、黄两家深厚，又是个起祸根苗，必更容他们不得。目前正是泥菩萨过江，自身难保的时候。适才前去探看，已有多人出入辱骂。这半天不来，可知情势危急。他和姊姊那么好法，在此处境，送信去徒使为难。而我们除了村主，只向他家报丧，岂不越显我们形迹亲密，老少两辈都是一党？徒自使人疑心，为异日之害，干事无补。当这忧疑危惧之际，不但现在不可现出和他弟兄亲密，便是将来合力报仇以前，当着众人面前，也是越疏远才越好呢。",
+          "instruct": "冷静分析，谋划深远，果决明断"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "瑶仙此时孤苦万状，举目无亲，除了绛雪，只有萧玉是她心目中的亲人。先还怪他一去不来，正想着绛雪与他报丧，就便略致幽怨，闻绛雪之言，方始醒悟。自知受伤过甚，心智迷惘，举措皆非，不如全由绛雪作主，还妥善些。便泣道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "好妹妹，我人已昏乱，该怎么办，你自作主好了。",
+          "instruct": "完全信任，悲泣依赖"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪自从主人在她难中救回之后，几与小主人同样看待，读书习武，俱在一起。见主人惨死，少主视同骨肉，越发感奋，早已立志锐身急难。闻言便道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "姊姊既然信我，你只伏在妈的身上，见了人来，悲哭不起好了。别的姊姊都不用管，切莫真个伤心，留得人在，才好成事。妹子去了。",
+          "instruct": "坚定果决，交代分明"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "瑶仙人已失魂落魄，一味悲急，不知如何是好。闻言甚觉有理，泣道：",
+          "instruct": "平静转述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "好妹妹，我此时也只好靠你了，快去快回吧。",
+          "instruct": "悲泣依赖"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪又劝道：",
+          "instruct": "平静转述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "趁这时候，就着桌上现成吃食，勉强吃些。既知人最要紧，便须保重。少时举办丧葬，当着外人，尚须做作，不到夜来人散，再肚饿想吃也吃不成了。妹子还不是一样伤心，比姊姊就想得开。事已想定，不必忙在一时，看姊姊吃点东西，我再走才放心呢。",
+          "instruct": "温言劝食，强作镇定"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说随把桌上现成过年点心拿起吃了些。瑶仙此时立志报仇，虽然勉抑悲怀，不曾哀毁过度，终是创巨痛深，五中如结，哪还吞吃得下。因见绛雪殷勤相劝，吃得甚是自然，不愿拂她好意，又在用人之际，怕她多心，勉强挣起，用筷子夹了一块八珍糕。还没进口，一眼望见上面有前两晚自己和乃母同剥的瓜仁果肉，忍不住扑簌簌又流下泪来。绛雪见状，叹了口气道：",
+          "instruct": "沉痛叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "夹了一块八珍糕",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "筷子夹糕",
+            "sound_cn": "筷子夹起糕点的轻微瓷碰声",
+            "sound_en": "chopsticks picking up a piece of pastry, gentle clink against porcelain plate",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我走后，姊姊要细想想。打算报仇，单是伤心无用，第一精力身体是要强壮才行的咧。我见姊姊这样，我也要勾起伤心，吃不下了，我还是拿些路上吃吧。反正村中都是仇人，我一个当丫头的照例馋嘴，也不怕他们笑话。",
+          "instruct": "强忍心酸，故作轻松"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "瑶仙也怕她难过，连忙擦干眼泪，将糕咬了一口。绛雪果把桌上点心拿了几件，起身出屋，穿上雪具，将口中食物吐出，连手中点心一齐丢掉，轻轻慨叹道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "穿上雪具",
+            "trigger_offset": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "穿戴雪具",
+            "sound_cn": "穿上雪地装备的布料和绑带声",
+            "sound_en": "putting on snow gear and skis, straps tightening, fabric rustling, equipment adjusting",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我又何曾真饿想吃呢！",
+          "instruct": "低声慨叹，自嘲悲凉"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，把满嘴银牙一错，朝雪中啐了一口，踏雪往萧逸家中驰去。行近峰前，便见峰上三三五五下来许多村人，知道又是为了畹秋和魏氏的事。暗忖：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "踏雪往萧逸家中驰去",
+            "trigger_offset": 0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "滑雪前进",
+            "sound_cn": "踏着雪橇向萧家快速滑行的声音",
+            "sound_en": "gliding swiftly on skis toward Xiao residence, rhythmic sliding, snow hissing beneath",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "她三人做的事也真狠毒阴险，莫怪众人痛恨不肯甘休。无奈自己出死入生，受她大恩卵翼，死前又认了母女姊妹，这有什么法呢？也罢，命该如此，譬如从前不遇她夫妻，早被恶人虐待磨折而死罢了。此时只有恩将恩报，哪还能再计其他的是非与将来自己和瑶仙的成败？且看事行事，到时再说吧。",
+          "instruct": "内心矛盾挣扎"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "边想边走，因畹秋已死，无庸再见人回避，见众村人迎面走过，也不闪避，依旧低头向前急行。村人俱都相识，众人因请处治二奸，萧逸不允急办，中有几人还吃了一顿抢白，路上纷纷议论，俱觉村主过于宽厚。见她跑往萧逸家中，料是畹秋派来请求宽宥解危的信使，虽未阻止喝问，语气都甚难听。绛雪闻人指摘，装没听见。行抵峰下，恰好村人业已过完。绛雪一夜未睡，终日未食，气虚火旺，跑了一段急路，颇觉吃力。刚打算一定神，略缓口气再上，脚上雪具方脱了一只，便听峰上喊道：",
+          "instruct": "紧张转向"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "迎面走过",
+            "trigger_offset": 0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "村人议论",
+            "sound_cn": "村人擦肩而过时的低声议论和指摘声",
+            "sound_en": "villagers passing by and gossiping, murmuring, critical whispers and pointed comments",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "脱了一只雪具",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "解开雪具",
+            "sound_cn": "解开脚上雪具的绑带声",
+            "sound_en": "unstrapping one ski, buckles clicking, equipment shifting, leather creaking",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪来了，她是我妈仇人家的丫头，定是狗婆娘叫她向爹爹捣鬼。哥哥快来打她，不许她上！",
+          "instruct": "稚嫩怒喊"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "绛雪来了",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "童声叫喊",
+            "sound_cn": "两个小孩从平台上向下叫喊的声音",
+            "sound_en": "children shouting from the platform above, young voices, aggressive and angry",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪抬头一看，正是萧璇、萧琏两小兄妹，各穿一件风披紧身，趴伏在平台石栏上。萧琏连声乱喊，萧璇一按石栏，身子前探，觑定下面。绛雪知道萧家这几个小孩都甚难惹，说得出做得到，连畹秋都吃了那样大亏。危难求助之中，哪敢招惹，忙装笑脸。方欲婉达来意，刚一面开口说了",
+          "instruct": "紧张叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "崔家",
+          "instruct": "打断停住"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "两字，底下话未出口，猛见萧璇把两只小手先后往下一扬，立时白乎乎打下两团暗器。绛雪因听萧琏高声乱喊，恐乃兄萧珍闻信由坡上赶来，吃了暗亏，脸朝上说话，眼睛却留神侧面的石级。不想萧璇更坏，悄没声地忽将暗器当头打来。等到发觉想躲，头一下已噗的一声打在头上，打了个满脸开花。幸尚是一大团雪，不是真暗器，未受大伤。但那雪团团得甚紧，由高下掷颇有力量，也把绛雪打个鼻青脸肿，头面冰凉刺痛，满嘴残雪，冷气攻心，第二下雪团更大，总算躲过，略扫着一点肩膀，未被打中。绛雪又疼又恨，恐防她再打，急得乱躲乱吐，又不敢丝毫发作，神情甚是狼狈。耳听两小兄妹在上面拍手欢呼，哈哈大笑。同时萧珍也在说话。一会萧璇又在上面喝骂：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "白乎乎打下两团暗器",
+            "trigger_offset": 0.2,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "雪球砸中",
+            "sound_cn": "雪球砸在脸上的噗声和飞溅声",
+            "sound_en": "snowball hitting face with a soft thud, impact of packed snow, snow scattering",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "trigger_keyword": "拍手欢呼",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "孩子欢笑",
+            "sound_cn": "两个小孩拍手欢呼和哈哈大笑声",
+            "sound_en": "two children clapping and laughing with delight, cheerful screams and laughter",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "role": "萧璇",
+      "api": {
+        "voice": {
+          "role": "萧璇",
+          "role_voice": "小巧-童声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "崔家丫头，快滚回去，我们就不打你。告诉我妈的仇人，叫她等着活埋。过了破五，全村的伯伯哥哥们要她给崔表叔和雷二娘抵命呢。",
+          "instruct": "稚气怒骂"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪暗骂：",
+          "instruct": "平静转述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小狗种们莫狂，早晚不要你父子给我娘抵命才怪。",
+          "instruct": "内心暗骂，咬牙切齿"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "有此三小作梗，决上不去。方想用什么方法去见萧逸，正在为难，还算好，萧逸见村人散后，不见三小兄妹，知他们又往平台上滑雪扑逐为戏，出来唤他们进去，闻声往下探看。绛雪见萧逸在栅栏上探头，慌不迭叫道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "在栅栏上探头",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "栅栏轻响",
+            "sound_cn": "从木栅栏上探身向下看时的轻微声响",
+            "sound_en": "leaning over wooden railing to look down, wood creaking softly, cautious movement",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "村主，我家主母已服毒死了。",
+          "instruct": "急促报丧，气喘吁吁"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧逸闻言，虽在意中，却不料畹秋会死得这么快。想起村中长老萧泽长所嘱之言，不禁把足一跺，一面喝住两小兄妹不许胡闹，一面命绛雪快上来。绛雪到了上面，按照想就言语，说道：",
+          "instruct": "震惊顿足"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "把足一跺",
+            "trigger_offset": 0.2,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "跺脚声",
+            "sound_cn": "懊恼地跺脚一声",
+            "sound_en": "stamping foot in frustration, heavy thud on wooden floor, sharp impact",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 44,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我家大娘今早受伤回去，万分愧悔。小姐先不知情，大娘一说详情，吃小姐一埋怨，觉得此后不可为人，遂萌死志。复接四老大爷一信，跟着村人围门辱骂凌逼，当时正在吃饭，不知何时被她用烈酒吞下一包毒药，就送了终。毒发了时，痛得满床乱滚，牙齿舌尖一齐咬碎，两只眼睛突出眶来通红。事前还在叮嘱小姐说：为娘一时负气，铸此大错。我一生好胜，不愿身落人手。事已至此，你萧表叔虽看在崔、黄两家至亲至好情分，百计维护，也难保我不受村人凌践。即得幸免，这等外惭清议，内疚神明，含悲茹痛的苦日子也没法过，逼得我不能不走死路。这事情实在是自己不好，不能丝毫怨人。不过我当年苦爱你萧表叔，后来许多乱子俱由这一念情痴而起。虽然落花有意，流水无情，可是我何以今日落到这样悲惨结果，你萧表叔不会不知道。即便因我行事狠辣怀恨，追源穷本，也必有几分怜悯之心，死了死了，罪人不孥。何况你一个孤弱少女，身世遭遇如此悲苦，他那样宽厚多情的人，此后对你必然另眼看待。这毒药没有解救，妈是不行的了。妈这些话，千万莫对人说。乖儿总要记住，亲的还是亲的。村中诸伯叔虽也非亲即友，能原谅我，不迁怒于你，又能扶助你长大成人，尽心照看的，除了你萧表叔，还没第二个。妈少时毒发即死，死后只向萧表叔一人报丧，他自会助你料理丧葬。别家谁都不要去，免得受人闲话，再说别人也未必怜借我们。正说之间，毒已发作。可怜她娘儿两个你抱我，我抱你，挤作一团。她更是疼得满头是汗，有黄豆大，话哪还说得出口，一个字一个字地挣着命哭叫。后来舌头、牙齿一碎，更听不清说些什么。想是毒发太快，话未说完，心里头明白，干着急，说不出话，待了一会，两脚一蹬，就死了，直到如今眼还没闭。小姐眼睛都哭流了血，当时伤心过度，晕死过去。好容易灌救回生，抱住大娘尸骨哭叫，死去活来两三次。屋里又没第三个人，真把人急死。我和小姐从昨晚等大娘回去，一直没合眼，水米不沾牙。我还勉强能支持，小姐简直连站都站不起来。她先想自来，怎么也走不动。是我再三劝说，大年初一，新死娘的人不能到人家去报死信。不像我是丫头，不是你们家人，倒不要紧。她也实在不能走动，我这才连忙滑雪跑来，路上连跌了两回才得跑到。请村主看在崔、黄两家已死老主人分上，赶紧派人前去，看是如何安殓。我说这些话，大娘再三叫我和小姐莫对人说，日后村主千万不要对小姐说，免她怪我。小姐正倒在大娘尸首旁边，人已一息奄奄，我还要赶紧回去服侍她呢。",
+          "instruct": "含泪陈说，半真半假，娓娓道来"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧逸压住村人，不使妄动，固然是念在至亲世好分上，给畹秋少留余地。一半也因萧泽长曾说：除夕推断，全村快有灾祸降临，元旦这日不宜再有丧亡，否则大凶。那封手谕，明是死符一道。实则早上得知魏氏疯狂自吐供状，因畹秋昨晚今朝连遭挫辱，恐知事败求死，故示以破五限期，好躲过元旦这一天的凶日。原料畹秋死志已决，但她忧怜爱女，必把这有限未日苟延过去，她为瑶仙熟计深思，一一叮嘱部署，务使完善，然后在全村公决之前从容就死。想不到那伙村人一闹，一时惶急，没有细想，误以为当日便要落于人手，受那奇耻大辱，匆匆服毒，连这区区三五日的残生都活不过去。虽是她孽满数尽，但是元旦有人横死，恰巧这日犯了六十甲子中最厉害的凶星，关系全村安危。闻报先自心惊，暗中叫不迭的糟。嗣又听绛雪绘影绘声说到畹秋死时那等奇惨，所遗孤女如此悲苦。萧逸本是多情种子，不由想起畹秋以前款款深情，相待之厚。只为求凰未遂，反爱成仇，转痴为恨，致闹出许多离合悲欢，生仇死恨。固属一念之差，仍由爱己而起，不禁生了怜惜之心，掉下两行泪来。当时只说人之将死，其言也善，哪知畹秋仇深恨重，临死仍伏祸机。加上这一女一婢都是机智深沉，念切薪胆，来日殷忧，尚犹未艾呢。萧逸听完绛雪之言，人死不能复生，空自悼怜，无可如何。便命绛雪先回照看瑶仙，免其悲深又寻短见。一面命人传话，去唤本月应值办理婚丧执事人等，前往崔家代为料理，先设灵筛停灵，明早再择吉备棺入殓。当时绛雪业已拜辞走去，还未走到峰脚，忽见一个童子披头散发，泪流满面，号陶痛哭而来。立定一看，原是自己心目中殷殷属望，思欲异日委身以重的萧玉之弟萧清。情知魏氏又步了畹秋的后尘，见状又是伤心，又是怜惜。一时情不自禁，不但没让路，反伸手一拦道：",
+          "instruct": "感慨叙述，暗含警示"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "掉下两行泪来",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "落泪轻响",
+            "sound_cn": "泪水滴落的细微声响",
+            "sound_en": "tears dripping down softly, slight wet sound, emotional pause",
+            "volume": "-30%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 46,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "清少爷，你怎这样伤心，莫非萧大娘病重了么？你不知我……",
+          "instruct": "关切拦问，话未说完"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "底下话未说出，萧清一向没把她看在眼里，此时正当伤心悲痛，急于求见萧逸之际，急匆匆哭喊着由石级往上飞跑，三五级做一步跨，恨不能一步便到了上面。忽然有人阻路，一见是她，因恨其主并及其婢，哪还有心肠和她答话。哑着声音急喝一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "飞跑",
+            "trigger_offset": 0.3,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "飞跑石阶",
+            "sound_cn": "在石级上急匆匆飞跑的脚步声",
+            "sound_en": "running up stone steps hurriedly, rapid footsteps, breathless and urgent pace",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "role": "萧清",
+      "api": {
+        "voice": {
+          "role": "萧清",
+          "role_voice": "元气少年-磁性,性感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "快些躲开！",
+          "instruct": "急喝，不耐烦"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话到手到，左手往旁一拨，人随着擦肩而过，接连几纵到了上面。绛雪因他素来情性温和，骤出不意，又当饥疲交加之际，如非崖栏挡住，几乎滑跌下去。心刚一冷，耳听上面萧清已向萧逸哭诉起来。忍不住又往上踅了几步，伏身崖畔，侧耳去听。原来魏氏自从服药之后，本来已较早晨安静了些。萧玉、萧清随侍在侧，因乃母阴谋败露，村规厉害，听萧逸口气，至多看她没有下手杀人，得从未减，仅能免死，重罚禁囚仍是难免。正在焦急之际，魏氏忽在梦中自言自语。先说雷二娘、崔文和相继到来，说在冥间告了萧元；她也是主谋要犯，并且事由她向畹秋讨好藏鞋而起，决难容她漏网，要拉她前去对质。说时，手足乱挥，一会哭诉，一会哀求，一会又自打自捶。萧玉弟兄见势不佳，连忙上前想将双手按住。不料魏氏力大如虎，不但按她不住，萧玉还挨了一个嘴巴，几乎连大牙都打掉；萧清也吃她一脚踹下床来。没等二次上前，魏氏已回过身来，自将双手反折一拧，咔嚓连响，十根手指骨除拇指外一齐折断。同时狂吼一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "擦肩而过",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "擦身疾风",
+            "sound_cn": "两人擦肩而过时的急促风声和衣料摩擦声",
+            "sound_en": "two people brushing past each other swiftly, sudden movement, fabric rustling, quick whoosh",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "自打自捶",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "捶打自伤",
+            "sound_cn": "梦中自打自捶的连续闷响",
+            "sound_en": "hitting and beating oneself in delirious dream, dull thuds, frantic movement",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16,
+            "trigger_keyword": "咔嚓连响",
+            "trigger_offset": 0.2,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "骨裂声",
+            "sound_cn": "手指骨被折断的连续咔嚓声",
+            "sound_en": "multiple finger bones snapping and cracking, horrifying breaking sounds, successive crunches",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20,
+            "trigger_keyword": "狂吼一声",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "狂吼",
+            "sound_cn": "魏氏临死前的疯狂吼叫",
+            "sound_en": "Weishi's frantic roar before death, wild and chilling scream of despair",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我的报应到了！",
+          "instruct": "惨厉叫声"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "猛地舌头伸得老长，上下牙齿恶狠狠一合，滋出好几股鲜血，舌头立即落了半截。紧跟着喉咙里一声闷叫，双足一挺，平躺床上。等到萧氏弟兄抢上前去，身子已僵硬，鼻孔气息全无，人已死去。萧氏弟兄心伤欲绝，哭喊灌救了一阵，并未回醒。萧清妄想救转，又往邻家，将郝老夫妻哭求请来，一看全身冰冷僵直，断气已久。萧氏弟兄听说回生绝望，不禁号陶大哭起来。萧玉更是顿足捶胸，悲号欲死。经郝老夫妻再三劝导：",
+          "instruct": "惨烈叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "滋出好几股鲜血",
+            "trigger_offset": 0.2,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "鲜血喷滋",
+            "sound_cn": "鲜血从口中滋出的声响",
+            "sound_en": "blood spurting from mouth, gushing liquid, splattering sound",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "号陶大哭",
+            "trigger_offset": 0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "兄弟痛哭",
+            "sound_cn": "两兄弟放声大哭的声音",
+            "sound_en": "two brothers crying loudly in grief, wailing and sobbing uncontrollably",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "role": "郝老",
+      "api": {
+        "voice": {
+          "role": "郝老",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "我们不是外人，什话都可说。照你母亲所作之事，至多挨过破五，必定难逃全村公判，谁也庇护不得。那时说重了，不是活埋，便是勒令自尽；说轻了，也须禁锢终身，不许再见天日。死活一样难受，还受千人指摘。你们年纪尚轻，眼看生身父母身败名裂，无法解救替免，怎能做人？这时不过早死三五日，免却多少羞辱罪孽，这正是你母子三人不幸之幸。你母新死，你父灵棺未葬。事已至此，不打算办理两老身后丧葬大事，日后好好为人，赎父母之罪，为祖宗争气，你们就哭死又有什用处？还落个不孝的恶名，永斩你家血食，岂非糊涂已极？",
+          "instruct": "沧桑劝慰，语重心长"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧氏兄弟闻言，才勉强抑止悲怀，跪谢教训。郝老又道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "role": "郝老",
+      "api": {
+        "voice": {
+          "role": "郝老",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "如照平时，你家有事，我们原可代为主持。但你父母俱犯村中大禁，虽说人死不究既往，但你父母以前并非同隐之人，情分本就稍差，平日又不会为人，更闹出这等乱子，村中人等必动众怒。恐村主要为惩一儆百之计，以戒将来，事尚难说。为今之计，我看村主素来器重清侄，人前背后时常夸赞，此时求他必有几分情面。玉侄为长子，可由我们相助，先将你母断舌纳入口中，揩净血迹，料理一切应办之事，以备人来即可停灵设主。清侄速去村主家中报丧，痛哭哀求，务请他代为主持。你母死时情景，都照直说，他一怜念你，必命执事之人好好治丧，顺理成章，照例做去。村人中纵有几个余忿不已，心中不服，只要他一出头，决无人敢违抗。此后你二人便力学好人，依傍着他，不特免了当时之祸，连你们异日都不致遭人皆议了。",
+          "instruct": "老成谋事，指路分明"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧氏兄弟闻言，心中醒悟，又急又怕又伤心，重又跪地磕头，谢教谢助之后，萧清忙即起身。行时，郝老又故意唤住说：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "跪地磕头",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "磕头声",
+            "sound_cn": "跪地磕头的沉闷声响",
+            "sound_en": "kneeling and kowtowing, head hitting floor with dull thuds, repeated impacts",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 56,
+      "role": "郝老",
+      "api": {
+        "voice": {
+          "role": "郝老",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你此去只往村主家中报丧，众恶所归，又是新春元旦，别家不可前往。尤以崔家是罪魁祸首，不问畹秋是死是活，以后不可再有来往，免受牢笼利用，与之同败。",
+          "instruct": "郑重告诫，语带深意"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，看了萧玉一眼。郝老知人晓事，早看出和瑶仙相爱，深知畹秋阴毒险狠，奸谋败露，必不忍辱求生，死时难保不责令乃女代为报仇。此女聪明不在乃母之下，萧元夫妇当初急难来投，假使不遇畹秋，村中事事公平，人人循分，焉知不为善良之士？算来这两人也是害在畹秋手里，何苦子蹈父辙，再饶上一辈？明知萧清决不会去，故意指东说西，原对他含有警惕深心。萧玉此时已落情网之中，非但没有省悟，反觉郝老言之过甚，其母有罪，其女何辜？自己弟兄既可免人訾议，瑶仙一个孤弱幼女，更该得人怜悯才是，怎倒亲近不得？好生不平，益发加了相思关切。只当时母丧在堂，身遭惨变，不便抽空前去探望罢了。郝老暗中察其神色，料他未曾觉悟，萧清去后，又拿话点了两下。萧玉只是低头悲泣，不发一言。郝老本只看得萧清一人重，对他原无什么，因怜遭际大苦，加以劝诫，既不受命，也就不去理他，只把应办之事相助料理。不提。萧清满腹悲苦，如飞驰往萧逸家中，见面之后，跪倒哭诉大概情形。说完已是号哭失声，泪眦欲裂。萧逸见他遭遇如此，甚是可怜。问知村人早散，乃母死时只有郝老夫妻在侧，便宽慰道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "role": "萧逸",
+      "api": {
+        "voice": {
+          "role": "萧逸",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "人死不能复生。实则这样倒好，既免我执法，又免你兄弟难为人子。郝老前辈素来隐恶扬善，我更不会对人提起。急速回去将形迹收拾干净。少时就命执事人去，今日设灵成主，明日再与崔家表婶分别入殓。我先到崔家，一会就到。",
+          "instruct": "宽慰叹息，语带安抚"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧清听了畹秋已死，也没心肠细问，匆匆拜谢辞别。绛雪隐身壁脚，听知经过，早把满腔幽怨去个干净，反觉萧清可怜，流下泪来。听完就走，先飞步往下跑去。二人前半截本是同道，原打算萧清脚程和自己差不多快，在前先跑，赶到离峰较远的无人之处，再假托瑶仙之言，将他唤住，诉说主人死况，托他带信向乃兄报丧，就便慰问一番。谁知女子终是气弱，加以眠食两缺，萧清来路较近，又因巨变骤膺，情急腿快，跑了不到半里来路，便快追上。绛雪偷偷回头一看，萧清脚上穿着一双雪橇，身左右雪尘如雾，低着个头飞也似驰来。眼看越隔越近，如跑到半路再行唤住，必早被他追过头去，万来不及。一看所行之处，正是一片田畴，当中大路。路侧两行槐柳，平日绿阴如幄，这时因白雪满树，都变成了玉树琼林，银花璀灿，耀眼生辉。那道中心的积雪，因村人连日随下随扫，除下层业已冻结外，上层雪较松散，俱被村人扫起，沿着道树成了两条又高又长的雪堤，蜿蜒曲折。休说新春初一，村人昨晚守岁，早晨团拜贺年，忙年积劳，又值大雪之后，除了通贯全村的两条大路而外，多半雪深数尺。就不补睡歇乏，也都约会至亲密友，或是会集全家老幼，关起门来，寻那新年乐事，谁也懒得出门走动。即便因事出来，被这墙一样的雪堤挡住目光，不到近前，也看不见。绛雪四顾无人，暗想：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "飞步往下",
+            "trigger_offset": 0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "下坡飞跑",
+            "sound_cn": "急速向下飞跑的脚步声",
+            "sound_en": "running swiftly downhill, rapid footsteps on snow, urgent pace, breathless",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "飞也似驰来",
+            "trigger_offset": 0.3,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "滑雪追赶",
+            "sound_cn": "雪橇在雪地上快速滑行追赶的声音",
+            "sound_en": "skis gliding rapidly over snow in pursuit, rhythmic sliding, snow hissing and spraying",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这里喊他不是一样，何必还要跑远？",
+          "instruct": "内心自语"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "念头才转，猛想起：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "他这人枉自聪明文雅，却性情偏直，跟他哥哥不一样。平时那么逗他喜欢，都没怎样和自己亲近。高兴时，还有说有笑，也肯随着他哥哥，与自己主仆做两对儿一处同玩；稍不高兴，就各走各的。尤其是在练武艺的时候，凡人不理。今天又死了娘，遭了这大祸事，更难怪他伤心。适才好心好意想问他几句话，你看他那个气急败坏的样儿，也不管雪地有多滑，把人推倒，也不扶，也不理，就往上跑，差点没跌到峰脚下去。后来听他上面说话，村主也曾提起崔家死人的事，他连回问一句都没有。好像除他那个死娘，谁也不在他的心上。这时正忙着赶回，莫又来个凡人不理，挨他打一下子。",
+          "instruct": "内心絮叨，患得患失"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 63,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "想到这里，不知如何是好。她这里只管胡思乱想，萧清忽然跑离身后不过丈许。绛雪闻得后面沙沙滑行之声，越走越近，主意还未打定，越发心慌。连忙脚底加劲，拼命抢行，急切间虽未被萧清追过，却已首尾相衔，相差不过数尺远近。似这样跑不多远，绛雪已力竭筋疲，不能再快。想由他自去，又觉这样独自相遇的良机难逢难遇，心中兀自不舍放过，已准备停步相唤。忽然急中生智，急出一条苦肉计来。这时也不细想地上冻结的冰雪有多么坚利，竟然装作失足滑跌，前足往前一溜，暗中用劲，后脚微虚，就着向前滑溜之势，身子往后一仰，倒了下去。总算还怕把头脸跌破，倒时身子一歪，手先撑地，没有伤头。可是情急慌乱，用得力猛，脚重身轻，失了重心，这一下，直滑跌出两三丈远。扑通一声，先是手和玉股同时着地。觉着左手着地之处，直如在刀锯上擦过一般奇痛非常。两股虽有棉衣裤护住，一样撞得生疼。这才想起冻雪坚硬得厉害，想要收住势子自然不及。身子偏又朝后仰，尚幸跌时防到，一见不好，拼命用力前挣，头虽幸免于难，因是往前力挣，又想停住，惶急之中，不觉四肢一齐用力。滑过一半，手脚朝天，脊梁贴地，成了个元宝形，又滑出丈许方止。绛雪身才后跌，先就急喊：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "沙沙滑行之声",
+            "trigger_offset": 0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "雪橇接近",
+            "sound_cn": "雪橇在雪地上越滑越近的沙沙声",
+            "sound_en": "skis gliding closer on snow, increasing scrape and hiss, rhythmic sliding approaching",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "装作失足滑跌",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "滑跌倒地",
+            "sound_cn": "人滑倒在坚冰上的扑通声和摩擦声",
+            "sound_en": "slipping and falling on hard ice, body hitting ground with a thud, sliding across frozen surface",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 64,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "哎呀！",
+          "instruct": "惊呼，半真半假"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这一弄假成真，按说更易动人怜救。谁知萧清此时心神俱已麻木，只知低头拼命向前急驶，连前面是谁都未看见。道又宽广，虽有两行雪堤，仍有三五人并行的路。身临切近，一发觉前面有人走，就准备绕过。雪上滑行不比行路，如欲越出前人，照例预先让开中间，偏向一旁，等到挨近，然后蓄势用力，双脚一登，由前人侧面急驶滑行过去，才不致于撞上，两下吃跌。绛雪原意，一跌倒便把身子横转，不容他不停步相救。然后再装跌伤太重，要他扶抱，以便亲近，略吐心曲。谁想事不遂心，跌时萧清离身太近，也正准备越过她去，差不多两下同时发动。萧清连日在雪中练习滑雪之戏，又下过功夫，绛雪身子未曾沾地，萧清已擦肩而过。这还不说，偏巧中间有一条小岔道，由此走向萧清家中，要抄近半里，积雪甚深，已无人行。因萧清心急图近，仗着熟练滑雪功夫，来去都走此路。绛雪身未停止，萧清身子一偏，早拐了弯。跑得正急，先还不知有人跌倒，身才拐入岔道，耳听呼痛之声。偏头回看，紧跟身后一个女子，背贴着地，手足向上乱登，正从岔道口外大路滑过，这才看出是上峰时遇的绛雪。心想：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "擦肩而过",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "擦身疾驰",
+            "sound_cn": "滑雪者从身侧疾驰而过的风声",
+            "sound_en": "skier speeding past from the side, swift whoosh of air, snow spraying from skis",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "拐了弯",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "急转岔道",
+            "sound_cn": "滑雪者急转拐入岔道的声音",
+            "sound_en": "skier sharply turning into a side path, skis scraping and shifting direction, snow crunches",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这样失足滑倒，常有的事，又非扑跌受什重伤，也值大惊小怪。到底女子无用的多，像婶娘那样的好本领，真找不出第二个人。",
+          "instruct": "内心轻蔑，不以为意"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 67,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "当时归心太急，以为无关紧要，只看了一眼，并未回救，依旧飞跑而去。绛雪急遽中并未看出萧清走了岔道，先是连真带假地惊呼求救，势停以后，便横卧道中，装作伤重不能起立，紧闭秀目，口中呻吟不已。心里还以为萧清无论如何也要走过，万无见死不救之理。待了一会，觉着背脊冰凉，腰股冷痛，没听半点声息。心中奇怪，微微睁眼偷觑，身侧哪有半条人影，不禁心里一空。抬起上半身，定睛往来路一看，雪地上只有一条条的橇印，并无人迹。再望去路，正是全路当中最平直的一段，一眼望出老远。两旁琼枝交覆，玉花稠叠，宛如银街，只有冰雪交辉，人却不见一个。人如打从身侧越过，也万无不觉之理。自己明明见萧清追临切近，才装跌倒，怎一晃眼的工夫，又没第二条路，人往哪里去了？知道绝望，暗骂：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "呻吟不已",
+            "trigger_offset": 0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "假装呻吟",
+            "sound_cn": "跌倒后装作疼痛的呻吟声",
+            "sound_en": "feigning groans of pain after falling, soft moaning, feigned distress",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "没有良心的东西！也许并不是他追来，或是没等追上，想起什要紧的事，返回去又找村主，慌慌张张没见我跌倒么？",
+          "instruct": "内心怨怒"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 69,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "自觉再坐无趣，站起身来一看，背股等处衣服俱被坚冰划破；腿股受了点轻伤，隐隐酸痛；一只右手也被冰擦破了好几条口子，丝丝血痕业已冻木红紫；半身都是残冰碎雪。还算脚底雪橇因跌得还顺，没有折断，否则连回去都大难。正没好气要走，就在这整束脚上雪橇的工夫，偶一眼望见前面大道边上雪地里，有一半圆形的新橇印不往直来，却朝右侧雪堤上弯去，心中一动。暗忖：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "站起身来",
+            "trigger_offset": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "起身拍雪",
+            "sound_cn": "从地上站起并拍打身上残雪的声音",
+            "sound_en": "standing up and brushing off snow from clothes, fabric rustling, snow falling and scattering",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "整束雪橇",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "整理雪橇",
+            "sound_cn": "弯腰整理脚上雪橇的绑带声",
+            "sound_en": "bending down to adjust skis, buckles clicking, leather creaking, equipment shifting",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 70,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这条路上岔道原多，因为积雪深厚，一连多日不消，村人忙于年事，只把几条通行全村的大道要路每日扫开，别的都等天暖自化。一路走来，所有岔道俱被雪堤阻断，道内的雪俱深数尺，高的竟与堤平，不细看道树，真分不出途径来。看这橇印甚新，又是向堤那旁弯去，堤旁还有一点崩雪，莫非这没有良心的负心人，竟然飞越雪堤，由道上绕了回去么？你真要这样不管人死活，二天看我肯饶你才怪。",
+          "instruct": "内心猜疑，由怨转恨"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "越想越不是滋味，急匆匆跑向回路一看，谁说不是，正是去萧清家的一条岔道。道侧堤尖已被雪橇冲裂出半尺深两个缺口，道内雪松，更深深地现出一条橇印。分明自己倒地时，他装着不闻不见，径由这里越堤滑去。当时气了个透心冰凉，几乎要哭。戟指怒骂：",
+          "instruct": "又气又恨"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "跑向回路",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "回头奔跑",
+            "sound_cn": "转身跑回查看的急促脚步声",
+            "sound_en": "turning and running back to check, hurried footsteps on snow, urgent and angry",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 72,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "小东西，你好，看我二天怎收拾你！",
+          "instruct": "咬牙切齿，恨声低骂"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 73,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "低头呆立了一阵，再听来路远处，又有数人滑雪而来，猛想起自身还有要事，尚未回去交代，万般无奈，只得垂头丧气走上归途。本就饥疲交加，适才拼命急驰，力已用尽，再受了点伤，又当失意之余，意冷心酸，越发觉着劳累。好容易回到家中，把雪具一脱，跑进房去。见畹秋生前那般花容月貌，此时攥拳握掌，七孔流血，目瞪唇掀，绿森森一张脸，满是狞厉之容，停尸床上。瑶仙眼泪被面，秀目圆睁，抱着尸臂，僵卧于侧。室中残羹冷饭尚未撤去，甚是零乱。炉火不温，冷冰冰若有鬼气，情形甚是凄惨，方觉悲酸难抑。瑶仙见她去了许久才回，便挣起身喊道：",
+          "instruct": "凄凉叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "跑进房去",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "推门进房",
+            "sound_cn": "推开房门跑进去的声响",
+            "sound_en": "pushing open the door and running into the room, door creaking, quick footsteps on wooden floor",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 74,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "妹妹，看你脸都冻紫了。快到这里来，我两个挨着说话，你暖和些。",
+          "instruct": "虚弱关怀，有气无力"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 75,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪见瑶仙双手齐抬，情真意厚，现于词色。想起途中之事，以彼例此，又是感激，又是内愧，不禁勾动伤心，忙扑了过去。瑶仙将她抱住，未容说话，绛雪再忍不住，哇的一声哭了起来。瑶仙见状，以为萧逸仇恨未消，绛雪受辱回来，祸犹未已，心中大惊。忙一把搂紧问道：",
+          "instruct": "紧张转悲"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "扑了过去",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "扑身抱拥",
+            "sound_cn": "扑过去紧紧相拥的布料摩擦和抽泣声",
+            "sound_en": "pouncing over and hugging tightly, fabric rustling, soft sobbing, emotional embrace",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 76,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "好妹妹，你怎这样伤心？妈已惨死，莫非仇人还不肯甘休，给你气受了么？",
+          "instruct": "惊疑担忧，急切询问"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 77,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪知她误解，这个时候虽有满腹委曲心事，怎好出口。恐瑶仙优急，忙把头连摇，抽抽噎噎地答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 78,
+      "role": "绛雪",
+      "api": {
+        "voice": {
+          "role": "绛雪",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "仇人倒还好，我刚把话才一说完，立即答应派人来此料理办丧，定在明日成殓，并且叫姐姐放心保重。我正走时，那萧家老二也赶去了……",
+          "instruct": "抽噎诉说，话中带泪"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 79,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到这里，眼泪又似断线珍珠一般落下，声音也益发哽咽起来。瑶仙见她悲伤不胜，便问：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "眼泪落下",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "落泪轻响",
+            "sound_cn": "眼泪滴落的细微声响",
+            "sound_en": "tears dripping down softly, subtle wet sounds, emotional moment",
+            "volume": "-30%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 80,
+      "role": "瑶仙",
+      "api": {
+        "voice": {
+          "role": "瑶仙",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "妹妹你还劝我，这是怎么了？",
+          "instruct": "关切疑问，虚弱无力"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 81,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绛雪勉强把所听的说完，只把跌倒一节以假为真，不提萧清坐视不救。只说因听魏氏同日身死，途中气苦劳累，快到时跌了一交，几难成步。进门重睹室中惨状，因此悲从中来，难于遏止。瑶仙伤心头上，也没想到她还有别的原故。想起她如此忠义，以后二人相依为命，甚是爱怜。免不了抚问劝勉，互相悲泣了一阵。二人俱已力竭神疲，心身两瘁，四肢虚软，无力劳作。又想教萧逸到来，目睹乃母死状奇惨。只同在尸旁盖了一张棉被，互相拥抱取暖，守候人来。绛雪因少时难免有事，又取了点现成糕点，劝着瑶仙一同强咽了一些。等约半个时辰，仍是萧逸同了几个门人子侄和两名村妇、火房先到。绛雪早就留神，遥听人声，立即站起。瑶仙仍伏卧尸侧，装作奄奄一息、积毁将绝神情。俟人进房，才由绛雪将她由尸侧扶起，双泪交流，悲号投地。萧逸见状，已甚凄然，命人扶起瑶仙，再四宽慰，晓以大义。一面又命随来村妇、火房帮同打扫，收拾器皿，升好火盆，煮水烧饭，以备应用，并令即日留住佣作。瑶仙乘机陈说绛雪聪明忠诚，乃母平日视若亲生，自己与她衣服易着，相待也无异骨肉，乃母临终遗命，已认了义女，如今结为姊妹等情。萧逸也常听到畹秋夸绛雪聪明能干，心想：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "升好火盆",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "火盆生火",
+            "sound_cn": "火盆生火时木炭燃烧和点燃的声音",
+            "sound_en": "lighting a brazier, crackling of charcoal catching fire, wood burning, soft warmth spreading",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 82,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "瑶仙孤苦无依，有此闺伴同居，也是佳事。她母女既已心愿，我当然更无话说。何况瑶仙身世处境可怜，正好顺她点意。",
+          "instruct": "内心思忖"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 83,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "立时答应，不日传知全村，作为崔家收养的义女，不得再以奴婢相待。绛雪闻言，也甚感激。不提。一会，村中治丧办事的执事人来，萧逸吩咐了几句，便带原来诸人，又往萧玉兄弟家中赶去。那执事人等原分两班前来，等萧逸走到萧玉家中，有一班已经先到相候。进去一看，魏氏虽遭鬼戮，死状却没有畹秋的惨。又有郝老夫妻和郝潜夫等近邻代为部署，有了章法。只等村主一到，立即分别举办，无需细说。萧逸又恨死人夫妻入骨，此来只看在萧清面上，不比畹秋娘、婆两家俱有厚谊，本人以前也还有几分香火情面。主谋虽说是她，如无萧元夫妻助恶帮凶，相安无事已有多年，也许不再发难。故此对于死者只有怀恨，毫无感情可言。只略坐一坐，吩咐几句，便别了郝老等人回去。萧清年幼聪明，从小亲热萧逸。萧逸爱他敏慧诚厚，也是独加青眼。萧玉近一二年苦恋瑶仙，无心用功，本就不得萧逸欢心；加以萧逸不喜瑶仙，不肯传授本门心法，与众人一般看待。瑶仙自视甚高，见萧逸相待落寞，常怀怨望，萧玉自然代抱委屈。见萧逸进来略看母尸，淡淡地分派几句；孝子叩头哀泣，一句慰问的话都没有，也无丝毫哀怜容色。反对郝老夫妻低声悄说：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "叩头哀泣",
+            "trigger_offset": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "叩头哭泣",
+            "sound_cn": "孝子叩头哭泣的声音",
+            "sound_en": "filial son kowtowing and crying, head hitting floor repeatedly, sobbing and wailing",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 84,
+      "role": "萧逸",
+      "api": {
+        "voice": {
+          "role": "萧逸",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "畹秋也在今日身死，这样倒好，活的省去许多为难，死人也可免却不少羞辱苦痛。",
+          "instruct": "低声感慨，语带深意"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 85,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "意在言外，乃母这样惨死，尚是便宜。后又说起畹秋死状凄惨，瑶仙哭母血泪皆枯，适去看时人已气息奄奄。只说此女机智深沉，饶有母风，想不到尚有如此至性。以后只盼她能安分守己，不蹈乃母前辙。看在崔、黄两家至亲仅剩这一点骨血，定当另眼相看，决不再念旧恶，因母及女。萧清回来，本没提说畹秋死信。萧玉这时正坠情网之中，一听心上人遭此惨祸，料定瑶仙模糊血泪，宛转呼号，玉容无主，柔肠寸断，不知怎样哀毁凋残，芳心痛裂，不禁又是怜借，又是伤心。当时真恨不得插翼飞到崔家，抱着瑶仙蜜爱轻怜，尽量温存慰问一番，才对心思。无奈母丧在堂，停尸入殓，身后一切刚在开始措办，在自悲急苦思，心如刀绞，一步也走开不得。同时想起瑶仙近来又为了进境甚快，一心深造，萧逸偏不肯传她上乘功夫，时常气郁。加以年前新遭父丧，气急带悲苦，常对自己说她成了多愁多病之身，哪再经得起这等惨祸。况且现在全村俱对她家深恶痛绝，好似比对自己父母恨得还要厉害，听萧逸口气，死前还有人去闹过。弱质怜仃，哀泣流血，连个亲人都没有。萧逸对自家已如此凉薄，她母是个中主谋，自必更无善状。万一悲切亡亲，再痛身世，积哀之余寻了短见，自己独活人间有何生趣，因为关心过度，念头越转越偏。又联想到事情难怪畹秋，都是萧逸一念好色，弃尊就卑，不惜以村主之尊，下偶贱婢，才激出如此事变。心上人更是无辜吃了种种亏，末了双亲相继惨死，受尽折磨。这回受创太重，还不知能否保得性命。万一哀毁过度，或是看出萧逸人死还要结冤，加以摧残刻薄，自觉以后日子难过，气不好受，寻了短见，岂不更冤？为报她相待恩情，那就不论什么叔侄师生，纵然粉身碎骨，也非给她报仇不可了。萧玉想到这里，萧逸已经起身作别。虽然满腹痛恨，还得随了兄弟出房跪谢，拜送一番。伤心愁急，泪如泉涌，众人俱当他孝思不匮，谁知一念情痴，神志已乖。不用瑶仙再照乃母遗策加以蛊惑，已起同仇敌忾之念，把萧逸全家视若仇敌了。人去以后，萧玉虽随治丧诸人设下灵堂，移灵成主，哭奠烧纸，静候明早备棺入殓，办那身后之事，一心仍念瑶仙安危苦痛，放心不下。只当着众人无法分身，心忧如焚。还算村人对死人夫妻俱无什好感，再一发现恶迹，越发添增厌恨；又是新春元旦，谁不想早些回家取乐。只为村规素严，令出惟行，这些人本月恰当轮值办理丧葬之事，村主之命不能不来。村主一走，各自匆匆忙忙，把当日应办之事七手八脚，不消个把时辰分别办好。除郝老夫妻念在紧邻，平日相处尚善，又怜爱萧清，诚心相助外，余人多是奉行故事，做到为止。把孝子认做凶人余孽，任他依礼哭前跪后，休说劝慰，理也未理。事毕，说声明早再来相助盛殓，便向郝老夫妻作别，各自归去。孝子跪地相送，众人头都不回。就这短短个把时辰，萧玉真比十天半月还要难过。好容易众人离去，郝老夫妻偏不知趣，看出萧玉悲哭无伦，似有别的心事，料是闻得畹秋凶信，心悬两地所致，好生鄙薄，也不理他。只向乃弟萧清一人叮咛劝勉，指示身后一切。并说：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 86,
+      "role": "郝老",
+      "api": {
+        "voice": {
+          "role": "郝老",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你逸叔居然还肯亲临存问，以后更禁人提说前事，不念旧恶，可见对你兄弟不差。尤其对你格外期爱，才能如此。从此务要好好为人，遇事谨慎三思，才不辜负他这一番德意呢。",
+          "instruct": "谆谆告诫，语重心长"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 87,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧清自是垂涕受命。萧玉只盼人早走，好偷偷前去看望心上人，一句也没入耳。郝老夫妻直等乃子郝潜夫来请回家消夜，才行别去。人走之后，萧玉如释重负，匆匆把房门一关，回转身，急瞪着一双泪眼，拉着萧清的手，半晌说不出话来。萧清惊问：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "把房门一关",
+            "trigger_offset": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "关门声",
+            "sound_cn": "关上房门的声响",
+            "sound_en": "closing the door firmly, wood clicking into frame, latch engaging, slight creak",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 88,
+      "role": "萧清",
+      "api": {
+        "voice": {
+          "role": "萧清",
+          "role_voice": "元气少年-磁性,性感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "哥哥如何这样？",
+          "instruct": "惊讶担忧"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 89,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "连问了几声，萧玉方哽咽着说道：",
+          "instruct": "平静转述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 90,
+      "role": "萧玉",
+      "api": {
+        "voice": {
+          "role": "萧玉",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "哥哥该死，快急死了！弟弟救我一救。",
+          "instruct": "哽咽求救，语无伦次"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 91,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧清因不知他在隔室偷听了萧逸的话，再三请问。萧玉方吞吞吐吐，假说自己和瑶仙彼此十分情爱，年前已随两家母亲说明。本定新正行聘，不想同遭祸变。今早崔家拜年，乃母又当面明说婚事。两人情深义重，生死不渝，谁也不能独活。如今瑶仙遭此惨祸，奄奄待毙，平日又极孝母，难免短见，非亲去劝慰不能解免。无奈母丧在堂，礼制所限，不能明往。乘此雪夜无人之际，意欲前往慰看，望兄弟代为隐瞒，不要泄露。萧清一听，两家都遭母丧，热孝在身，怎会有新春订聘的事？分明假话。况且崔家没有男子，彼此都遭连丧，停灵未殓。孤男寡女，昏夜相聚，不孝越礼，一旦被人发觉，终身不能做人，好生不以为然。先是婉言痛陈利害。继又说：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 92,
+      "role": "萧清",
+      "api": {
+        "voice": {
+          "role": "萧清",
+          "role_voice": "元气少年-磁性,性感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此事关系重大。如今村人对两家父母视若仇敌，全仗逸叔大力，免去若干耻辱。我们孤臣孽子，众恶所归，再如不知自爱，不但为先人增羞添垢，还要身败名裂。瑶仙表姊人极聪明，崔、黄两家就数她一人。稍微明白一点的人，便不会行那拙见，何况是她。如果立志殉母，你也拦她不住。此去如被人知，同负不孝无耻的恶名，以后更难在此立足，岂不爱之适反害之？既有深情于你，她有丫头可遣，不比我们两个孝子不能见人。尽可打发绛雪或是报丧，或是探问母亲病状；再不就作为绛雪闻得母亲去世，念平日对她恩厚，自己前来看望，代为达意。哪一样都可借口。她连丧都不肯来报，不问情真情假，可知定有顾忌。哥哥一个年轻男子，热孝头一天，半夜三更到一个孤寡新丧家去，如何使得？",
+          "instruct": "苦口劝诫，条理分明"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 93,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧玉对弟弟从来强横，以大压小惯了的，适才这一番商量，乃是天良犹未全丧，自知不合，尚畏物议，不得已腆颜相商。一听萧清再三劝阻，不禁恼羞成怒道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 94,
+      "role": "萧玉",
+      "api": {
+        "voice": {
+          "role": "萧玉",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "事已至此，她死我不独生，宁可身败名裂，也必前往。你是我兄弟，便代隐瞒，否则任便。",
+          "instruct": "恼羞成怒，决绝固执"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 95,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "萧清本有一点怯他，见状知他陷溺已深，神昏志乱，是非利害全不审计，无可挽劝，只得说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 96,
+      "role": "萧清",
+      "api": {
+        "voice": {
+          "role": "萧清",
+          "role_voice": "元气少年-磁性,性感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "哪有不代哥哥隐瞒之理？不过请哥哥诸事留心，去到那里稍微慰问即回，千万不可久停，免叫兄弟在家中提心吊胆。你和瑶姊恩爱，为她不惜身败名裂，须知父丧未葬，母亲才死头一天，尸骨未寒，灵还停在堂前木板上，没有入殓哩。",
+          "instruct": "含泪妥协，隐忍劝诫"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 97,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到末几句，已是悲哽不能成声，扑簌簌泪流不止。萧玉也觉自己问心不过，尤其不孝之罪无可推倭，见状好生惶愧。天人交战，呆立了一会，见萧清半睁着一双泪眼，还在仰面望他回答，心正难受。猛又想起此时瑶仙不知如何光景，当下把心一横，侧转脸低声喝道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 98,
+      "role": "萧玉",
+      "api": {
+        "voice": {
+          "role": "萧玉",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "不用你担心，我自晓得。只见一面，说几句要紧话，即时回来。",
+          "instruct": "低声决断，不容再劝"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 99,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，带了雪具，径由后面越房而出。到了外面穿上雪橇，四顾静夜无人，飞步往瑶仙家赶去。萧清见兄长执迷不悟，崔家母女俱是祸水，将来必有后患。又怕当晚的事被人发觉，不能做人。又急又伤心，伏在灵前，止不住哀哀痛哭起来。夜静无人，容易传远，不想被紧邻郝老夫妻听见。先听萧清哭声甚哀，只当他兄弟二人思念亡亲，感怀身世，情发于中，不能自己，颇为感叹。以为母子天性，外人无法劝解，也就听之，嗣听哭声越发凄楚，又听出只是萧清一人，没有萧玉哭声。这等悲恸之声，外人闻之也觉肠断，何况同为孤子，目睹同怀幼弟哀哭号泣，而不动心，太觉不近人情，心中奇怪。知道萧玉性情刚愎，疑心又出什么变故，加以自来怜爱萧清，意欲前往慰看。郝潜夫因昨晚守岁，二老也一夜未眠，本应日里补睡，偏生萧家出事，过去整忙了一天，不得安歇。饭后略谈，已将就枕，恐累了二老，再三劝阻，郝老便命代往。潜夫到了萧家门首，隔溪一看，一排房子都是黑洞洞的，只灵堂那间昏灯憧憧，略有微光，门户关闭甚紧。那哀哭之声，果只萧清一人，萧玉声息全无。知道那房沿溪傍崖而建，前门隔灵堂太远，打门不易听见。仗着学会踏雪无痕的轻身功夫，将身一纵，越溪飞过，正落在灵堂窗外。积雪深厚，北风一吹，多半冻结。落时脚步稍重，踏陷下去半尺，沙地响了一声。萧清耳目甚灵。这时正哭得伤心，恰值一阵寒风从窗隙吹入，吹得灵前那盏长明灯残焰摇摇，似明欲灭。因是亡人泉台照路神灯，恐怕熄了，慌不迭含着悲声站起，用骨棍刚把灯芯剔长一些。忽听窗外沙的一声雪响，有人纵落。以为萧玉回转，愁怀一放，不禁喊了一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "越房而出",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "越房落地",
+            "sound_cn": "人从房顶跃下落在雪地的声音",
+            "sound_en": "leaping over the house and landing on snow, soft thud, snow crunching under feet",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "穿上雪橇",
+            "trigger_offset": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "穿戴雪橇",
+            "sound_cn": "穿戴上雪橇的绑带和磕碰声",
+            "sound_en": "strapping on skis, buckles clicking, leather creaking, equipment adjusting",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "哀哀痛哭",
+            "trigger_offset": 0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "灵前哀哭",
+            "sound_cn": "萧清伏在灵前哀哀痛哭的声音",
+            "sound_en": "Xiao Qing sobbing and wailing bitterly before the funeral altar, heart-wrenching cries",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 48,
+            "trigger_keyword": "越溪飞过",
+            "trigger_offset": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "越溪落地",
+            "sound_cn": "越过溪流落在灵堂窗外的声音",
+            "sound_en": "leaping across the stream and landing outside the funeral hall window, soft thud on snow",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 53,
+            "trigger_keyword": "长明灯",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "长明灯火",
+            "sound_cn": "长明灯烛火摇曳的轻微声响",
+            "sound_en": "eternal flame candle flickering, wax melting softly, occasional sputter, draft causing sway",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 100,
+      "role": "萧清",
+      "api": {
+        "voice": {
+          "role": "萧清",
+          "role_voice": "元气少年-磁性,性感",
+          "speed": "0%",
+          "volume": "0%",

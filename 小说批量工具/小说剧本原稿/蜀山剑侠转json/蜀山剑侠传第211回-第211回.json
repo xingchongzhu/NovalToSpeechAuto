@@ -1,0 +1,4884 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第211回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "凌浑": {
+      "role_voice": "老伯-沧桑岁月爷",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "崔五姑": {
+      "role_voice": "和蔼奶奶-温暖,亲和",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "妙一夫人": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "阮纠": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "甘碧梧": {
+      "role_voice": "温婉女士-知性,温婉",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "丁嫦": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+3Hz",
+      "volume": "+1%",
+      "speed": "+1%"
+    },
+    "赤杖真人": {
+      "role_voice": "神秘法师-低沉,浑厚",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "杨成志": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "于建": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "餐霞大师": {
+      "role_voice": "云媛-情感,知心姐姐",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "黄猛": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "卓远峰": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-2Hz",
+      "volume": "+2%",
+      "speed": "0%"
+    },
+    "猿长老": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "吴讼": {
+      "role_voice": "龙小诚-磁性低音",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "洪大肚": {
+      "role_voice": "憨厚敦实-亲和,稳重",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "+2%"
+    },
+    "朱赤午": {
+      "role_voice": "元气少年-磁性,性感",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    },
+    "耿鲲": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "中年道者": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "道童": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "罗茵": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "众仙": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "青囊仙子": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "玉清大师": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "灵云": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "白云大师": {
+      "role_voice": "云媛-情感,知心姐姐",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "元元大师": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "顽石大师": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "向善": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "知非禅师": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "铁钟道人": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "司徒平": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "诸葛警我": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第211回",
+          "instruct": "庄重开场，沉稳有力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "火柱困霜鬟\n雷泽砂中援道侣蓝田餐玉实\n灵空天际见真人妙一夫人率领长幼两辈同门以及太元洞内各仙宾，齐出后洞，迎接怪叫花穷神凌浑，白发龙女崔五姑代约请来的几位仙人，刚到仁云亭前，便见东南天际有一朵彩云缓缓移动。青囊仙子华瑶崧和白云大师等人正说笑间，彩云倏地加急，冉冉驶来，晃眼便到了仁云亭上空。刚看出内中簇拥着几个美艳绝伦的仙女，妙一夫人待要飞身迎上前去，忽自云中飞射下两道金光。现身一看，正是滇西派教主凌浑、崔五姑夫妻二人，一落地，崔五姑首先朝妙一夫人举手为礼，笑道：",
+          "instruct": "生动叙述，仙气盎然，节奏舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "彩云缓缓",
+            "sound_cn": "彩云在远处缓缓移动，云层轻柔翻卷",
+            "sound_en": "colorful clouds moving slowly in the distance, layers of cloud gently rolling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "彩云缓缓",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 12.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "彩云加急",
+            "sound_cn": "彩云突然加速飞驰，风声骤起",
+            "sound_en": "colorful clouds suddenly speeding up, wind rising abruptly",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "彩云倏地",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 24.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金光飞射",
+            "sound_cn": "两道金光破空飞射而下，剑光破风声锐利",
+            "sound_en": "two golden beams of light shooting down through the air, sharp sword-light whooshing",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞射下两道",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 28.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "落地",
+            "sound_cn": "两人轻盈落地，衣袂飘动，脚步轻响",
+            "sound_en": "two people landing lightly, robes fluttering, soft footfalls",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "一落地",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我为齐道友代约了几位嘉宾，只说事出意外，不料诸位道友竟早前知了。",
+          "instruct": "温和欣喜，语气亲切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，彩云也已飞坠，现出全身。众人见来客共是男女七人，只有一个年约十四五的道童生相奇古，余者都是道骨仙风，丰神绝世。内中一个身着藕合色罗衫，腰系丝绦，肩披翠绿色娑罗云肩，罗袜朱履，手执拂尘，年约二十三四的少妇，和另一个身着薄如蝉翼的轻纱，胸挂金圈，腰围粉红色莲花短裙，年约十七八岁的少女，雪肤花貌，秀丽入骨，尤为个中翘楚。下余还有三个少女，一般浅黄宫装，各用一把朱竹为柄，紫玉为头的长柄鸭嘴花锄，挑着一个形式古雅的六角浅底的花篮，扛在玉肩之上，云鬓风鬟，仙姿绰约，都是万般美艳，年纪也差不多。男的除道童外，还有一个羽衣星冠的中年道者，在同来诸人中年纪虽长，却与三个肩挑花篮的少女做一起，随在后面，好似辈分尚在道童之后。妙一夫人等因是初见，连忙迎上，正要请问姓名法号，凌浑笑道：",
+          "instruct": "描绘仙家气象，语气赞叹，节奏从容"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "彩云飞坠",
+            "sound_cn": "彩云缓缓降落，气流轻拂，衣袂飘飞",
+            "sound_en": "colorful clouds descending gently, air currents brushing, robes fluttering",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "彩云也已",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "贤主嘉宾，均不在少数，请至仙府再行礼叙吧。",
+          "instruct": "爽朗豪迈，不拘小节"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人便向来客施礼，延请入洞。双方略致谦词，由白云大师前导，妙一夫人等陪客同行，众门人后面尾随同入。到了太元洞中，仍由凌浑夫妇代双方通名引见。宾主重又礼叙，互致敬慕，分别落座。原来这七位仙宾俱是东海尽头，落漈过去，高接天界的海上神山天蓬山绝顶灵峤宫中主者赤杖真人门下两辈弟子。为首三人，那虎面豹头，金发紫眉，金睛重瞳的道童，乃真人嫡传弟子赤杖仙童阮纠。那穿藕合罗衫的少妇，名叫甘碧梧。那身着白蝉翼纱的名叫丁媳，那三个挑花篮的少女，一名陈文玑，一名管青衣，一名赵蕙，乃甘、丁二女仙的弟子。那中年道者，名叫尹松云，反是阮纠的弟子。赤杖真人在唐时已经得道，成了散仙。自经过道家四九重劫以后，便在天蓬山绝顶建立仙府，率领两辈弟子隐居清修，度那仙山长生岁月，不曾再履尘世。那灵峤仙府地居极海穷边，中隔十万里流沙落漈，高几上接灵空天界。自顶万四千丈以下，山阳满是火山，终岁烟雾弥漫，烈焰飞扬，熔石流金，炎威如炽，人不能近。山阴又是亘古不消的万丈冰雪，寒威酷烈，罡风四起。两面都是寸草不生。要越过这些寒冰烈火之区，上升三万七千丈，冲过七层云带，始能渐入佳境，到那四季长春，美景无边的仙山胜地。真人师徒又不喜与外人交往，所以仙凡足迹俱不能到。凌、崔二人起初并不相识，说起认识，那还是在新近。原来白发龙女崔五姑偶往东海采药，忽在海滨发现一个鱼面人身的怪物，在海边沙窟之内奸淫妇女。那怪物口吐人言，并会妖法，身边还带有一根鸟羽。用禁法一拷问，才知是翼道人耿鲲的爱徒，背师远出为恶，已非一次。怪物看出五姑神色不善，那根充作求救信符的鸟羽没有用上，便被擒住。为求活命，又想引崔五姑去会乃师，自投罗网，便说天蓬山阳，丙火真精凝成的至宝雷泽神砂，近已出现，日夜发出奇光，照耀极海。其师为报三仙相助天狐宝相夫人伤他之仇，意欲采炼此宝，日后前往峨眉，将全山烧化，以报前仇。业已去了多日，尚未回转。并把取宝之法告知，以求免死。五姑知他心存叵测，淫恶穷凶，问完前情，便即诛戮。耿鲲妖法通神，又擅玄功变化，胁生双翼，来去如风，本就厉害。若将这前古纯阳真火蕴结孕育的奇珍得去，益发助长凶焰。反正无事，立照怪物所说途向赶去。以五姑的法力，还飞行了一天多才到。天蓬山远望，本就是愁云低幕，烟雾弥漫，天水相接，终古一片混茫，轻易看不出山的全貌。这时赶去一看，老远便见两很大火柱，矗立天际黑烟之中。因是烟雾浓烈，黑压压，仿佛天与海上下合成一体。但那火柱却是颜色鲜明已极，海上万重惊涛全被幻成异彩。五姑炼就一双慧眼，大敌当前，更是留心。初看以为火山爆发。等稍飞近，定睛细看，不特那火柱似有人在主持，并还杂有妖邪之气，不是山上原有烟雾。暗忖：",
+          "instruct": "叙述往事，语气沉稳而带有神秘感，节奏舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "入洞",
+            "sound_cn": "众人步入洞府，脚步声在石洞中回荡",
+            "sound_en": "people walking into a stone cave, footsteps echoing in the cavern",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "延请入洞",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 30.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "海浪",
+            "sound_cn": "东海海滨的波涛声，海水拍岸，海风呼啸",
+            "sound_en": "waves crashing on the seashore of the Eastern Sea, seawater hitting the shore, strong sea wind blowing",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "东海采药",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 65.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "烈焰飞扬",
+            "sound_cn": "火山烈焰猛烈燃烧，火焰升腾，热浪滚滚",
+            "sound_en": "volcanic flames burning fiercely, fire rising, heat waves rolling",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "烈焰飞扬",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 78.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "烟雾弥漫",
+            "sound_cn": "黑烟浓雾弥漫，低沉轰鸣",
+            "sound_en": "thick black smoke and fog spreading, low rumble",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "烟雾弥漫",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "自己虽然得道多年，但此山从未到过。以前只听师长提起，说山在东极，相隔三仙所居东海还有十几万里。终年为火云烟雾笼罩，高出天汉。中有罡风、冰雪、烈火之灾，山又不产生物，仙凡足迹皆所不至。偶有好奇的修士前往，意欲攀升绝顶，上去两三万丈，便看出无什意思，以为再到顶上也不过如此，又不能久耐罡风、冰雪、烈火的凶威，全都未尽而返。除已成道的金仙，不知有人去过没有。近数百年间，各岛洞散仙修士，谁也不知此山到底多高，山顶是否险阻更多，有什景物在上。似此凶险僻远之区，断定本来不会有人，定是神砂发现，启人觊觎，都想来此收取，据为己有。耿鲲也是其中之一，因而争斗起来。只是这样猛恶的神火困在其内，竟能禁受，此人法力也自不小。",
+          "instruct": "内心独白，语气凝重，带思考感"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时五姑相隔当地还有好几百里，因觉对方是个劲敌，只知有人被妖法困在火柱以内，被困人不知是何路数。若是翼道人耿鲲，自信还能抵御，若是别人，却不知深浅。忘约凌浑同来，人单势孤，恐有闪失，老远便把身形隐去，隐蔽遁光，加急飞行。正在查看火中人的邪正，飞行迅速，不觉快到。猛一眼看出烈焰之中裹住两幢彩云，知是玄门有道之士。同时又看出火柱前面有一胁生双翼的妖人，手持一剑，正在行法，加增火势。分明有两个同道中人为妖邪所困。眼看危急，惺惺相借，不禁起了疾恶同仇之感，立时加急赶去。也是五姑该当得此异宝，为他年夫妻抵御四九重劫之用。自觉大敌当前，救人心切，不知妖人有无余党，意欲一举成功。只把火柱当作耿鲲自炼纯阳之火，未怎顾忌，一直隐身前进，下手异常神速。事后才知临事疏忽，没有认清，所收竟是那极厉害的雷泽神砂，吃了一惊，宝物已经得手了。这一面，耿鲲又是素来骄横，以为穷边极海，敌人绝无后援，足可任意横行。哪知崔五姑突然隐身飞来，一到，先将自己多年苦功采取五岳轻云炼就的锦云兜放出，化为千百丈五色云幕，罩向两根火柱之上。同时取出七宝紫晶瓶往外一甩，立有一道紫金色光芒射向烟云之中。妖火已被烟云裹住，金光又将烟云吸住，直似长鲸吸水一般，嗖嗖两声，晃眼收尽。翼道人耿鲲正在一意施为，戟指怒喝火中所困敌人：",
+          "instruct": "紧张叙述，语气急促，节奏加快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "锦云兜释放",
+            "sound_cn": "锦云兜展开，绸缎声轻响，风声骤起",
+            "sound_en": "brocade cloud pouch unfolding, silk rustling, sudden wind rising",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "锦云兜放出",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "紫金光芒",
+            "sound_cn": "七宝紫晶瓶射出紫金色光芒，嗖嗖吸摄声",
+            "sound_en": "seven-treasure purple crystal bottle emitting purple-gold light, swooshing suction sound",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "紫金色光芒",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "嗖嗖收尽",
+            "sound_cn": "妖火被金光吸入，嗖嗖两声",
+            "sound_en": "demon fire being sucked in by golden light, two swooshing sounds",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "嗖嗖两声",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "耿鲲",
+      "api": {
+        "voice": {
+          "role": "耿鲲",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "速急降顺，免得骨化魂消！",
+          "instruct": "凶狠怒喝，语气霸道"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "猛觉彩云、金光相次飞射，知来了敌人，还没想到势子如此神速。因人未见，怒吼一声，朝金光来处将手一指，飞出一道赤红色的光华，如飞上前。忽听声音有异，回头一看，两根火柱齐化乌有，火中敌人已纷纷施展法宝，夹攻而来。同时崔五姑也已现身，一面放出飞剑，将那赤红色光华敌住，大喝：",
+          "instruct": "紧张激烈，语气急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞剑碰撞",
+            "sound_cn": "飞剑与赤红光华猛烈碰撞，金铁交鸣",
+            "sound_en": "flying sword colliding fiercely with red light, metal clashing",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞剑",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "怒吼",
+            "sound_cn": "一声怒吼，音波震荡",
+            "sound_en": "a roar of anger, sound waves vibrating",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "怒吼一声",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "扁毛妖孽，擅敢欺压良善！我绝不似东海三仙心软，叫你今日死无葬身之地！",
+          "instruct": "愤怒斥责，语气严厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，手扬处，太乙神雷雷火金光似雹雨一般迎面打去。耿鲲见敌人一现身，便将自己运用五行禁制，并将自己连日所收雷泽神砂所化的火柱收去，知道厉害，心气已馁。又见雷火猛烈，原困两敌人的法宝威力又非寻常之比，不由又惊又急，怒火中烧，把心一横，厉啸一声，振翼飞起。到了空中，略一展动，翅尖上即飞射出千万点火星红光，满空飞舞，聚而不散。一面抵敌雷火和飞剑宝光，一面准备施展玄功变化，拼个死活。哪知崔五姑早已防到，晴将三枝金刚神火箭取出。这里耿鲲未及施为，猛瞥见三枝火箭由满天火星光霞中直射过来。知道此箭专伤敌人元神，只要射上，至少耗去两三百年功力。再如三箭连中，更无幸理。尤厉害的是，此宝与敌人心灵相通，得隙即人，由心运用，最难抵御。自料再延下去，凶多吉少，急切间又无计可施。只得自断三根主翎，化为替身，抵挡三箭。倏地施展玄功，化为一片彗星般的火云，横空逝去，其疾如电，瞬息已杳。崔五姑知他飞遁神速，追赶不上。见那三个化身已有两个为火箭所伤，化为红烟飞散，知是鸟羽所化。忙将三箭招回，收下一看，那鸟羽足有三尺来长，钢翎细密，隐泛异彩。不舍毁却，便即行法禁制，免被妖人收转。刚刚停当，被困两人已飞身赶来相谢。崔五姑见来人乃是两个少女，俱都仪态万方，清丽出尘。一望而知是两个瑶宫仙侣，忙含笑还礼，互相落下。正要通名问讯，忽见一朵彩云自空飞坠，倏地现出一个美丽少妇、一个少女。见面便同声礼谢道：",
+          "instruct": "激烈战斗场景，语气急促，充满力量感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "太乙神雷",
+            "sound_cn": "太乙神雷炸响，雷火金光轰隆爆裂",
+            "sound_en": "Taiyi Divine Thunder exploding, thunderous boom of lightning and golden fire",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "太乙神雷",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "厉啸振翼",
+            "sound_cn": "厉啸一声，翅膀振动，风声呼啸",
+            "sound_en": "a sharp shriek, wings flapping, wind whistling",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "厉啸一声",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 14.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "火箭飞射",
+            "sound_cn": "三枝金刚神火箭破空飞射，尖啸声凌厉",
+            "sound_en": "three vajra divine fire arrows shooting through the air, sharp whistling",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金刚神火箭",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 22.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "火云飞逝",
+            "sound_cn": "彗星般的火云横空飞逝，呼啸声远去",
+            "sound_en": "comet-like fire cloud streaking across the sky, whistling fading away",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "火云",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "愚姊妹连日随侍家师赤杖真人，采取灵药苑的各种灵药以及小蓝田玉实，供炼灵丹，以为救度海内外有根行的散仙之用。不料小徒无知，偶然游戏，拨云下视，发现妖人在此取雷泽砂。此宝每七百九十年由本山火口内涌出一次，宫中原有，本可不去睬他。只因妖人心贪骄横，目中无人，意欲穷探火源，竭泽而渔。小徒恐他毁损本山奇景，泄了地肺灵气，一时轻举妄动，下来阻止，不料法力有限，反吃困住。愚姊妹和诸同门又当火候吃紧之际，无暇分身。眼看危急，多蒙道友仗义相救。家师隐居避地，己逾千年，各方道友均少往还，道友也许尚未深悉。此地不是讲话之所，家师所居灵峤宫，就在此山顶上，请到上面一叙如何？",
+          "instruct": "温柔致谢，语气诚恳，带仙家雅致"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑虽不知对方来历，一听这等说法，又见来人神情风度，知是天仙一类人物，奇缘遇合，心中大喜。因见对方师徒似在憎嫌山脚下的硝烟火气，匆匆略为谦谢，便即起身。行时，二女笑道：",
+          "instruct": "叙述心情，语气欣喜，节奏舒缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此山高接灵空，中隔七层云带。嘉宾远来，尚是首次，待愚姊妹献丑，同以片云接驾吧。",
+          "instruct": "语气谦和，带着仙家从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，少妇罗袂微扬，便由袖口内飘坠一朵彩云，晃眼便散布开来。崔五姑知道中途罡风猛烈，主人谦虚，故意如此说法，便随四女飞身其上，同往顶上升去。飞出万丈以上，罡风越来越厉。四女见五姑通如未觉，也颇钦服。少妇笑道：",
+          "instruct": "叙述飞行过程，语气舒缓，带有赞叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "彩云飘坠",
+            "sound_cn": "彩云从袖中飘出，云雾轻散，气流微动",
+            "sound_en": "colorful clouds drifting out from sleeve, mist dispersing gently, air currents stirring",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飘坠一朵",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "罡风呼啸",
+            "sound_cn": "万丈高空的罡风猛烈呼啸，风声凛冽",
+            "sound_en": "violent astral wind howling at ten thousand zhang altitude, fierce wind blowing",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "罡风",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此山罡风，实是惹厌，愚姊妹不愿下山，也是为此。",
+          "instruct": "语气中带着些许无奈，仙家气度"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随手指处，脚底彩云便反卷上来，将五人一齐包没。眼望云外，黑风潮涌，冰雪蔽空。但云中通没一点感觉，飞行更是迅速。似这样接连飞过好几层云带，冲破三四段寒冰风火之区，才到了有生物的所在，渐渐林木繁茂，珍禽奇兽往来不绝。五姑见景物已极佳妙，仙云还在上升，默算所经，已经升高了七八万丈。心方惊异，身子己由彩云拥着，又冲越过了一处云层。沿途景物益发灵秀，到处涧壑幽奇，瑶草琪花，触目都是。这才看见上面彩云环绕中，隐隐现出一所仙山楼阁。随又上升了千多丈，方始到达。早有好些仙侣迎将出来。仙云敛处，脚踏实地。五姑随众前行，一看这地方，真是自从成道以来，头一次见到的仙山景致。山头上一片平地，两面芳草成茴，繁花如绣。当中玉石甬路，又宽又长，其平如镜。尽头处，背山面湖，矗立着一座宫苑，广约数十百顷。内中殿宇巍峨，金碧辉煌，飞阁崇楼，掩映于灵峰嘉木，白石清泉之间。林木大部数抱以上，枝头奇花盛开，如灿烂云锦，多不知名。清风细细，时闻妙香，万花林中，时有幽鹤驯鹿成群翔集，结队嬉游。上面是碧空澄霁，白云缥缈；下面是琼楼玉宇，万户千门。更有奇峰撑空，清泉涌地，点尘不到，温暖如春。端的清丽灵奇，仙境无边，置身其中，令人耳目应接不暇。正在沿途观赏，对面走来一个中年道者，朝着为首少妇说道：",
+          "instruct": "描绘仙府奇景，语气充满赞叹与惊奇，节奏舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "彩云包没",
+            "sound_cn": "彩云轻柔包裹，风声隔绝，宁静祥和",
+            "sound_en": "colorful clouds wrapping gently, wind sounds muffled, peaceful and serene",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "彩云便反卷",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "珍禽奇兽",
+            "sound_cn": "林中珍禽鸣叫，鹤唳鹿鸣，清脆悦耳",
+            "sound_en": "rare birds singing in the forest, cranes calling and deer bleating, clear and pleasant",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "珍禽奇兽",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 28.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "清泉涌地",
+            "sound_cn": "清泉涌出，泉水叮咚，溪流潺潺",
+            "sound_en": "clear springs bubbling up, water dripping, stream gurgling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "清泉涌地",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "中年道者",
+      "api": {
+        "voice": {
+          "role": "中年道者",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师祖现在玉真殿相候，请师叔陪了来客人见。",
+          "instruct": "语气恭敬，沉稳平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "少妇将头微点，径引五姑沿着满植垂柳的长堤走去。走约一半，忽见长桥卧波。桥对面碧树红栏，宫廷隐隐。中间隔着一片林木，苍翠如沐。穿林出去，面前出现一片极富丽的殿宇，殿前一片玉石平台，气象甚是庄严。五姑虽然得道多年，到此也不觉心折。走到平台瑶阶之下，方欲以后辈之礼通名求见，请为首二女代为先容。忽一道童打扮的仙人接出，对五姑道：",
+          "instruct": "叙述仙府行进，语气舒缓，带有庄严感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "脚步玉石",
+            "sound_cn": "脚步走在玉石甬路上，轻脆回响",
+            "sound_en": "footsteps on the jade-paved path, crisp echoes",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "长堤走去",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "道童",
+      "api": {
+        "voice": {
+          "role": "道童",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "家师命我出迎，请崔道友不必太谦，径到殿上相见。",
+          "instruct": "语气清朗，恭敬有礼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑谦谢了两句，随众同进。见这殿甚是广大，俱是琼玉建成。一切陈设用具，无一不是精美绝伦，人间未见。殿当中并未设甚宝座，只东偏青玉榻上，坐着一个相貌清古的仙人。除前见道童外，还有七八个男女侍者在侧侍立。知是宫中主者赤杖真人。因真人得道已逾千年，理应以后辈之礼拜见。刚要拜倒，真人使命众女弟子掖住，笑道：",
+          "instruct": "叙述拜见真人，语气恭敬，节奏舒缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "赤杖真人",
+      "api": {
+        "voice": {
+          "role": "赤杖真人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我与道友并无渊源，如何敢当大礼？",
+          "instruct": "语气和蔼，带有长者的从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "弟子自从先师飞升以后，从未向人执过后辈之礼。并非有意谦恭，只为真人乃先进真仙，弟子适才又是先与门下诸位道友接谈订交，论哪一样也是后辈。尊长在前，怎敢失礼？",
+          "instruct": "语气诚恳，充满敬意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，依然拜了下去。真人一面还着半礼，并令众弟子扶起答谢。笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "赤杖真人",
+      "api": {
+        "voice": {
+          "role": "赤杖真人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "道友如此谦恭，我也不便再为峻拒。请坐叙谈吧。",
+          "instruct": "语气和蔼，带有赞许"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随命侍者往小蓝田采取鲜果款客。五姑见众在旁，仍然不肯就座。真人笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "赤杖真人",
+      "api": {
+        "voice": {
+          "role": "赤杖真人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我在此山清修多年，对于门下弟子礼节素宽。道友只管请坐，他们也要坐下。",
+          "instruct": "语气宽和，带着仙家气度"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑只得谢了。落座之后，除却第二辈弟子和宫中侍者外，众男女弟子都分别就座。五姑听真人说起来历，才知真人姓刘，与唐罗公远同时成道。本已修到天仙位业，只为到时差了一点火候，仍用肉体飞升，便须再转一劫。一则不耐尘世烦扰，又吃门下男女弟子苦口挽留，真人师徒情重，况且灵峰仙府高接天域，仙景无边，更有蓝田玉实，灵苑仙药，一样长生不老。拼着永为地仙，享受清福。成道以来，已历千年，未履尘世。历朝列仙未成道飞升以前，也从无一人来过。中间只有一个转劫散仙，名叫尹松云，受另一地仙指引，仗着一道灵符护身，由山脚下冒着冰雪与罡风、烈火之险，费时半年，步行上山，拜在真人大弟子赤杖仙童阮纠门下。另外还有三个再传女弟子，乃是南宋末年忠臣之后。宋亡，随着一家至戚遁逃海外，被飓风吹入落漈，全舟遇难，只三女共抱着一块船板，被风浪打到天蓬山脚海滨沙滩之上。醒来想起国破家亡，全家惨死，终日悲泣。正要相率投海，吃真人门下甘碧梧、丁媳二女弟子无心中拨云下视发现，禀明真人，度上山来，收归门下。甘、丁二女便是引五姑入宫的少妇和那少女。三女一名陈文玑，一名管青衣，便是五姑所救二女，还有一名叫赵蕙。此外宫中男女弟子侍者共有二三百人之多。除却再传弟子，每隔些年下山积修外功，就便接引些有根行的人上山外，这些头辈弟子也是千年不履尘世。那些侍者都是再传弟子引来。每次下山，踪迹均极隐秘，轻易不与外人交往争斗。仙法奥妙，法宝神奇。真人更具玄门无上法力，一切因果早经算就，预示先机，依言行事。有缘者加以引度，否则人前绝不泄露，因此不为世知，这次特许五姑入见，固因解救二女弟子之德，此外还有一段因果。并说：",
+          "instruct": "叙述真人来历，语气沉稳，节奏舒缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "赤杖真人",
+      "api": {
+        "voice": {
+          "role": "赤杖真人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "近拟着门下两辈弟子下山行道。目前妖邪横行，各方道友素无渊源，不久下山，还望代为引见接纳，以便有事时互相关照。只未下山前，暂勿宣泄。",
+          "instruct": "语气郑重，带着托付之意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑自是一口应诺。说时，侍者早把各种仙果，连同仙府灵泉取来奉上，五姑拜谢吃了。谈过些时，真人便命众弟子陪出游玩。五姑一边玩赏仙景，无心中谈起目前异派猖撅，以及峨眉不久开府盛会。众仙听了，颇觉有兴。尤以大弟子赤杖仙童阮纠和甘、丁二女为最留心。小一辈的陈文玑、管青衣、赵蕙三女也极起劲，不住询问。五姑看出众仙意颇向往，暗想：",
+          "instruct": "叙述游玩与交谈，语气平和"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "杯盏轻碰",
+            "sound_cn": "仙果杯盏轻碰，玉器清脆微响",
+            "sound_en": "fairy fruit cups clinking gently, crisp sound of jade utensils",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "仙果",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "到日，如将这些得道千年的地仙代约了去，岂非盛事？",
+          "instruct": "内心独白，语气欣喜期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "继一细想：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "对方素不和外人交往，适才真人虽有命众弟子下山行道之言，又嘱事前不可泄露，知道肯去与否？初见不便冒昧，且等日后再说。",
+          "instruct": "内心独白，语气犹豫，带思虑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话到口边，又复止住。游完全景，本欲告辞回去，众仙竟不放行，再三留住盘桓些日。五姑本定日内往白阳山花雨崖探看凌云凤，因见主人盛意挽留，又爱仙府美景，一算云凤食粮还有不少，不致空乏，就短少几天的，山中遍地黄精、首乌，更有别的山果可以充饥，云凤也会自出寻掘，无足挂心，便在宫中住了下来。一住多日，始得辞别。中间真人见过三次，末次并令五姑连凌浑也约了来。五姑知道真人道法高深，尤其小蓝田内灵药仙果甚多，能和其徒交往，得益不少，闻言自是越发心喜。起身时，甘、丁二女执意亲送下山。连日快聚，已成莫逆，五姑知道朋友情长，不是意存轻视，索性由她们用仙云护送同下。到了半山以下，五姑无须再往山脚，本应就空中御遁飞行，二女坚持要送过十万流沙方回。五姑再三推谢不获，只得应了。飞过流沙以后，二女说是千年以来不曾出山，左近不远小蓬莱有二散仙，乃千年前旧交，昔年为修天仙位业，备历艰辛，转劫三次，久已不通音问，不知还在岛上隐居没有，意欲便道往访。随与五姑殷殷话别，订了后会，各自飞去。五姑一算，凌云凤之约已过了好几日，先往白阳山赶去，助云凤脱了一难，送返原洞，略示机宜。便即回转青螺峪，告知丈夫凌浑，定日同往拜访。因记赤杖真人嘱咐，对众同道谁也不曾说起。这日正要起身，妙一真人忽命门人下帖延请凌浑夫妇，期前赶到。门人去后，凌浑笑说：",
+          "instruct": "叙述后续经历，语气舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "仙云飞送",
+            "sound_cn": "仙云托送，风声轻拂",
+            "sound_en": "fairy cloud carrying, wind gently brushing",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "仙云护送",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我们在自修仙多年，眼前放着这样仙境和前辈真仙，竟会毫无闻知，真是笑话。",
+          "instruct": "语气自嘲，爽朗中带感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "真人仙山清修，不喜外人烦扰，除偶有两位同辈地仙和灵空仙界中的昔年同道金仙拜访外，因有仙法妙用掩饰，休说深入仙府，就运玄功推算，也算不出他底细。据丁道友说，这多年来，也有几个灵慧有心之士，欲往穷源查探。不是功力尚浅，难禁前半十万丈风雪烈火之险。便是到了半山以上，为真人仙法所迷，现出一片穷荒阴晦的绝顶，来人以为走到地头，毫无所得，废然而返。行藏如此隐秘，地又如此险阻僻远，足迹难至，寻常想也想不到，怎会知晓？不过以我连日观察，真人实具无上法力。那些初传弟子也不在你我以下。妖人山下盗宝，困陷门人，事前万无不知之理。就算门人该有此难，炼丹大事，无暇分身，门下两辈弟子连同宫中侍者不下三百人，无一不是道术之士，更有不少神奇法宝足以应援，何以要等外人前往解救？后又说起不久将令弟子下山行道的话，并且还令我约你往见。两面印证，与以前隐秘行径不符，颇似有心给你我开门路。如非夙世因缘，便许将来有用你我之处，都说不定。",
+          "instruct": "语气分析，带着思索与推断"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我也如此想法。自你回山一说，我便接连两次默运玄机，虔心推算。不特没有算出对方用意，连那山顶仙府宫中主者都似并无其人。因此心中敬佩，亟欲往见。他那里灵药虽多，我素不愿假借草木之灵增我功力。倒是这位老前辈道行深厚，我夫妻天仙难望，走的正是他这一条道路。四九重劫，行将来到，仗我前得天书，峨眉诸道友师徒相助，与驼子等合力抵御，你又无意中得了纯阳至宝雷泽神砂，诸般凑巧，足可望平安度过。然而毕竟他师徒是过来人，能去讨教，岂不加倍稳妥？还有齐道友这次开府，仙宾云集，异派中人假名观光，心存叵测的也将不少，如能将他师徒代约了去，不特锦上添花，还可使众妖人见识见识。照你所说神气，即使真人不肯纡尊，门下弟子必肯凑趣，何不试上一试？这次观光诸友，有好些送贺礼的。寻常多是自炼的一两件法宝，准备主人汇集一起，分别传授门人，护身诛邪。郑颠仙因有元江之役，得了不少前古仙兵，送得最多。驼子是用五丁开山，将凝碧崖前通上面的云路，中间所有危崖怪石阻隔，全数一扫而空，多现出千亩方圆天空，却用五层云雾将它隔断。另外把北海水阙九龙真人所居玉螭宫外那座红玉牌坊，用他当年所得那粒困龙珠换了来，建在五府前面。朱霞映空，富丽堂皇，最为珍贵。白、朱二矮子更是狡猾，老早便用龙雀环，把紫云三女所炼一条神砂甬道，整个收来，凑了现成便宜，拿它当礼物，不特出色惊人，还可随心运用，无往不宜。我夫妻本来法宝不多，你虽有几件，俱都经你多年心血炼成，不能随便送人。我新创立教宗，法宝飞剑，也应了我外号的典，穷得自己门人都没甚用的，还在到处物色，如何还拿出去装大方？再说也不新鲜，随众附和，我向来不干，驼子为人尚可，决不能被两矮子比下去。急切间既无甚新奇礼物，莫如不送。且到天蓬一行，也许能想出一点花样。如能将人约去，岂不比送礼还强？",
+          "instruct": "语气豪迈，带着思考与谋划"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑闻言，先只寻思不语，忽然笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "有了，只不知人家肯借与否。",
+          "instruct": "语气带着灵机一动的欣喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑问故，五姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我见灵峤仙府千门万户，宫室众多，而且差不多俱有裳枕陈设。我问宫中怎有这么多人居宿？众道友答道：仙府花开四时，八节长春，仙景无边，不在灵宫天界诸仙府以下。尤其是灵药仙果甚多，内有数种天府奇珍，都是长年开花，结实却是三百六十五年一次，妙在同时成熟。灵空天界有好几位金仙，俱是真人昔年同门同道至交，每当结实之期，真人必以仙云传递玉简瑶章，邀约下降。中有两位仙宾带有不少侍人。每次宴集，均由仙果半熟起，直到全熟，采食之后方走，借此留连。仙府终岁光明，无日夕之分，来者又都是天上神仙，本用不着甚宿处。只因这些侍从各有清课，虽然作客，每隔七日，便须御气调元，依时修炼，时虽不多，必须安排一处净室。真人门下弟子又均好客喜事，一意踵事增华。自第一次请客起，便集全力采炼鲛绢文锦，美玉灵木，就着仙山形势，于原有宫室以外，另添建了数百所楼阁精舍。第二次会后，陈设益发富丽齐备。这还不奇，最奇的是仙法神妙，消长随心，大小取携，无不如意，可由仙宾人数而定。平日宫室楼阁也没这么多，此次因是仙果结实期近，又知这次仙宾较多，瑶章未寄，已有先来之讯，期前便有好些降临，为此早为布置。这些楼台亭榭，连同内中陈设用具，不用时，俱可缩为方寸收起；用时随地放置，立呈华屋。据说每会一次，必有一些不速之客，多为客人约了同来。惟恐临期匆促，备办不好，好在仙山岁月常是清闲，众道友闲中无事，便营建宫室，添置用具。每成一所，再用仙法缩小，以备到时应用。一切奇珍材料，本山均有极多出产，无须外取。于是越积越多，互相争奇竞丽，集仙法之大成，穷极工巧。直到二百年前，真人说眼前所有，已经足用，无须再建。尤其内中陈设，多是摆来好看，来客均用不着。近来衾褥之类，悉以本山天蚕所吐丝织成，虽然随吐随收，蚕不作茧，不曾伤害生命，终是虚耗物力。起初因众弟子长日清闲，共试法术，营建宫室，为延款仙宾之用，一举两得，不曾禁止。不料近日互相争奇斗胜，铺张扬厉，已入魔道，大非所宜，着即停止。并将内中格外精工奇丽，不似修道人所居的，各自收起，不许取用。众道友奉了法谕，方始停手。那已成未用的共有三百多间。此次峨眉开府，众异派妖人尚未闻有另备住处。如一律住在太元洞内，非但良莠混杂，还得多加小心。我们此行如能把人约去，再把这三百多间用具齐全、陈设华美的宫室借来一用，岂非绝妙之事么？",
+          "instruct": "语气详细叙述，带着兴奋与期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑闻言，大喜道：",
+          "instruct": "语气欣喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "有这样事？太妙了，开府期近，事不宜迟，今天就走吧。",
+          "instruct": "语气急切而兴奋"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "于建、杨成志闻说峨眉开府，刘、赵、俞、魏四人已经先往，早就心中盼望。看出师父、师母必由天蓬山约了仙宾同往赴会，不会再返青螺。于建和俞允中一样，人最本分，尽管师父平日不拘礼节，依然始终谨慎，不敢分毫放肆。心想：",
+          "instruct": "叙述门人心思，语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "于建",
+      "api": {
+        "voice": {
+          "role": "于建",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这类福缘，不可强求。",
+          "instruct": "内心独白，语气本分老实"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心虽盼望，不敢开口说。杨成志却忍不住问道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "杨成志",
+      "api": {
+        "voice": {
+          "role": "杨成志",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "师父还回来么？",
+          "instruct": "语气试探，带着期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑看了一眼，骂道：",
+          "instruct": "语气带着责备"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "没出息的东西！自不学好，人家不要你，被赶了出来。就我回山，莫非你还想老着脸皮跟了去么？这次各方道友是被请的，除非有甚不得已，或是洞府须人坐镇，差不多把所有门人全带了去。就是当时不得参与，会完师父回山，也可赶去看看，在仙府留连两日，受小辈同道款待。不特增长见闻，观赏奇景，妙一真人夫妇对这些后辈，不论是会前会后，只要是开府第一次登门的，或是法宝，或是灵药仙丹，按着来人缘福功行，各有赐与。以我和峨眉诸友至交，理应全数登门，独你一人不能前往。上次本心是想将你们四人引至峨眉门下，不料你没住几天，便谋害芝仙，做出那样残忍无耻之事。人家看我面上，不好意思处罚，借着我一句话，将你休了回来。连于建也跟着受累。我是向来说话算数，做事做彻，不能更改。你全仗这一点，才得收容。虽然在我门下，只要肯勤修，一样可以成就，到底不如人家容易方便，同门人多，异日下山积修外功，处处都有照应，少吃好些苦头。自己不知懊悔，发奋向道，一心只羡慕人家，想凑热闹，难道嫌脸没给我丢够么？",
+          "instruct": "语气严厉，带着恨铁不成钢的责备"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "杨成志因在峨眉住了些日，见众女弟子十九均美如天仙，尤其申若兰性情温柔，章南姑美秀和顺，不特可爱，还觉容易亲近。方在心中盘算，不料弄巧成拙，差点没有重返故乡，再入尘世。自来青螺，时涉遐想。可是他极聪明，知道凭自己这样，人家决看不上，尽管心不堪问，用功却是极勤。这次想去参与盛会，虽然为了妙一真人加恩后辈，想得一点好处，就便开开眼界，一多半还是别有用心，打算见机重向旧日诸男女同门拉拢，以为日后时常登门亲近之地。先听被请的人都把门徒带去，心想：",
+          "instruct": "叙述杨成志心理，语气略带讽刺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "杨成志",
+      "api": {
+        "voice": {
+          "role": "杨成志",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "师父和峨眉诸长老是至交，灵云来时又请所有门人一体前往，这还不是十拿九稳？",
+          "instruct": "内心独白，语气自信且充满期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "眼已巴盼望师父即日起身，或命自己和于建先期赶往，方称心意。见师父马上要走，还未提起，满腔热望，忍不住拿话一探口气，不特此次无望，便日后也休想登门。最生气的是，谁都有份，便是于建此时不能随往，会后仍可赶去，惟独自己一人无望。不禁又愧又急又伤心，满腔热念，立时冰消，半晌做声不得。追忆前事，心想：",
+          "instruct": "叙述杨成志失望心理，语气低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "杨成志",
+      "api": {
+        "voice": {
+          "role": "杨成志",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "自己虽然不该冒失，毕竟事出无知。师长未曾回山，尚不知情，当时灵云等人如肯担待掩饰，不是不可挽回。就说师长面前不能隐瞒，以师父的情面代为求说，也必可以从宽收容。为一草木之灵，并且还未伤着毫发，便这样视如寇仇，一任怎么苦求都是不允，连妙一真人面都未见，便作威作福，强给师父送了回来。自己和南姑姊弟原是一路，既不肯收容，理应一齐逐出才是。并且章虎儿与己还是同谋，只因南姑是个女的，和这几个主权的女同门日同卧起，近水楼台，容易巴结讨好，所以连章虎儿也被留下了。于建一个无辜的老实人，反做了替死鬼，连带受累，太不公平。",
+          "instruct": "内心独白，语气充满怨愤和不平"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "越想越觉不忿，把初来时恶念重又勾起。由此益发痛恨灵云、英琼诸女，立誓努力潜修，学成道法，以便异日去寻诸女报仇雪恨。凌浑见他脸涨通红，眼中都快流下泪来，笑叱道：",
+          "instruct": "叙述杨成志愤恨心理，语气转为阴沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我收徒弟只凭缘分和我心喜，不论资质如何，只要肯用功，我仍一体传授。可是学成以后，全仗自己修为善恶。好的，我决不使他吃人的亏；要是自作自受，甘趋下流，我却不护短，任他身受多惨，决不过问，稍加怜悯。等刘泉他们回山，便须传授法宝道术，学成下山行道。他年有无成就，是好是坏，就系于自己人禽关头一念之间了。",
+          "instruct": "语气严厉中带着告诫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "杨成志一心妒恨仇人，正在盘算未来，闻言只当闲谈，并未警觉。五姑觉着这等心术的人，便资质多好，也不该收他。既已收下，师徒之谊就应常加告诫，使其常自警惕，洗心革面，免致堕落，不应听其自然，一面又和别的门人一样传授，助长他的恶念。辨貌知心，老大不以这师徒二人为然。闻言方欲开口规诫，凌浑道：",
+          "instruct": "叙述五姑的担忧，语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "人各有心，不可勉强。我当年便是这样人性。不必多言，我们走吧。",
+          "instruct": "语气坚决，不容置疑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "崔五姑还要说话，见凌浑朝自己使眼色，知道丈夫性情如此，主意已定，强劝无用。可是这么一来，杨成志未来休咎，已可预知。人虽不是善良，资质却在中人以上，修炼更是勤奋敏悟，任其自趋败亡，未免可惜。料定丈夫必定另有用意，不便再为其说，只朝杨成志微微慨叹。杨成志满腔贪嗔痴妄，通未觉察。于建在旁却早听出师父语有深意，又见师母神色有异，益发心中谨畏。师兄弟二人各有心事。不提。凌浑说完，随同崔五姑起身，一路无话。过了十万里流沙落漈，遥见天蓬山在望。因山太高，中隔七层云空，为求迅速，不由山脚上升，相隔老远便催遁光，斜飞上去。刚飞过了四层云带，忽见对面高空中一片五色祥云，拥着一男二女三个仙人，由上而下斜飞迎来。五姑认出来人是赤杖仙童阮纠，同了甘碧梧、丁媳二女仙，忙即招呼凌浑，一同迎上。两下里都是飞行迅速，晃眼落在祥云之上。阮纠随将仙云掉转，缓缓斜飞上去。五姑给双方引见之后，一面称谢，笑问甘碧梧道：",
+          "instruct": "叙述飞行与重逢，语气舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "流沙落漈",
+            "sound_cn": "飞越流沙落漈，风声呼啸，沙粒翻涌",
+            "sound_en": "flying over the quicksand and falling tide, wind howling, sand surging",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "流沙落漈",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "祥云迎上",
+            "sound_cn": "五色祥云迎上，云层翻涌，气流轻动",
+            "sound_en": "five-colored auspicious clouds approaching, clouds churning, air currents stirring",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "五色祥云",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 17.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "晃眼落在祥云",
+            "sound_cn": "众人落在祥云之上，脚步轻响",
+            "sound_en": "people landing on the auspicious cloud, light footfalls",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "晃眼落在",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "诸位道友，端的道妙通玄，遇事前知，竟把十万里外之事了如指掌。",
+          "instruct": "语气赞叹，充满敬佩"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘碧梧笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我等不曾用心推算，哪有这深法力？这全是家师适才吩咐。不特贤夫妇驾到，便是此来用意，家师也早算出了呢。",
+          "instruct": "语气谦和，带着笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "五姑大喜，笑问道：",
+          "instruct": "语气欣喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "愚夫妇因和峨眉诸友至交，又是道家稀有盛事，不揣冒昧，所望甚奢。既欲奉请真人和诸位道友下降，以为光宠，又欲慷他人之慨，将道友前说灵峤三百余间仙馆楼阁，暂假峨眉诸道友一用。不知真人和诸位道友肯推爱玉成么？",
+          "instruct": "语气诚恳，带着期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁席插口笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "道友说话，何必如此谦虚？自从那日订交，便成知契，以后互相关照，情如一家，何须客气呢？家师近以上界仙宾不久下降，并闻还有玉敕颁来，灵空天界不比凡间，非等到日，不能预先推详，为此不便远离。日前我们听道友说起峨眉诸友法力和诸比丘灵异之迹，才知近来修士大不易为。人心日恶，魔随道长。功力途径虽然今古相同，因是妖邪众多，非具极大的降魔法力和防身本领，不能抵御。不似千年以前，修道人只须得有师承，觅一深山，隐居清修，时至道成，再去行道，一俟内外功行圆满，便可成就仙业。虽也不免灾劫，大都易于躲避。比较起来，如今要更难得多。又值凝碧开府之盛，私心向往。道友未说，不便启口，无因而往，作那不速之客。后和家师说起，才知道友原本有意代主人延客，正遂私愿。现由大师兄起，连同我等三四个小徒，共是七人，已经禀准家师。静俟贤夫妇到来，有人先容，与未去诸同门略作快聚，便即相偕同往了。至于灵峤仙馆所余那三百余间房舍，原是我等一时遣兴，游戏之作。只因营建部署之初刻意求工，一心模仿桂府宫室，力求华美，哪知只凭载籍传闻，不曾亲见，向壁虚拟，不特全无似处，建成之后，经家师和诸仙长点破，才知刻鹄画虎，全无是处。不但不像青女、素娥、玉楼仙史等天上神仙所居，连寻常修士也居之不宜。不过建时既费工夫，而内中的玉章锦茵、冰玄珠帐，以及一切零星陈设，无一不是成之非易。空费许多物力心力，拆毁未免可惜，废置至今已二百年，正苦无甚用处。休说借与峨眉诸道友应用，如不是物大富丽，不是修道人所宜，便全数奉赠，又有何妨？这类房舍什物，用来炫耀左道旁门中人耳目，使之惊奇，正得其用。甘师姊已命陈、管、赵三个同去的女弟子，用三只紫筠篮装好，随时都可带走。另外还有三十六枚篮田玉实，不腆之仪，聊以为敬。尚望代向峨眉诸友致意，分赠门下男女弟子，哂收为幸。",
+          "instruct": "语气活泼，快人快语，充满真诚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑见丁嫦得道千年，看去年纪不过十四五，容华秀丽，宛如仙露明珠，光彩照人。吐属更是朗润娴雅，吹气如兰。桂府仙娃，不过如此。阮纠和甘碧梧虽有丑美之分，而仙根道力，无不深厚，骨秀神清，丰姿飘逸。眼前同道中人，能到此者，竟没有几个。分明金仙一类人物，不知怎么会忽然折节下交，甚为惊异。甘碧梧以五姑极口称谢，笑道：",
+          "instruct": "叙述对仙人的观察与赞叹，语气舒缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "七师妹修道多年，见了外客怎还似当年心热气盛情景？心中有话，必欲一吐为快。到了上面，再行奉告不一样么？",
+          "instruct": "语气温和，带着姐姐般的宠溺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦微嗔道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "四师姊生性温柔，连说话也慢腾腾的。凡事该如何，便如何，有话便说，慢些什么？本来如此。那日听崔道友说起峨眉开府之事，偏不开口，非等师父有了口谕，崔道友已经来约，才行明告。反正一样，何如早些说出，人家喜欢多好呢！",
+          "instruct": "语气带着嗔怪和率真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘碧梧笑了笑。阮纠接口道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 74,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "七师妹心直计快，稚气终脱不掉，没有含蓄。我以前较她尤甚，近三百年才改了些。有时想起跟随师父隐居前许多旧事，都觉好笑。自来江山易改，本性难移。许是山居年久，未与外人交往，日常清暇无事，默化潜移，连性情也随以改变。这次奉命下山，许不似昔日躁妄。",
+          "instruct": "语气沉稳，带着长者的感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 75,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 76,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "你是大师兄，同门表率，自然要老成些，那似我和十六师妹的孩子气呢！仙山虽好，只是岁月清闲，无争无虑，连四师姊素来倜傥的人，也变得这等闲静雍容，没有从前有兴了。",
+          "instruct": "语气娇憨，带着少女的活泼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 77,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘碧梧笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 78,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "嫦妹你还要说些什么？当着崔、凌二位道友，也不怕人笑话？",
+          "instruct": "语气温柔，带着善意的提醒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 79,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "崔五姑笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 80,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "仙府长生岁月，仙景无边，已是令人羡煞；而诸位道友又是雍容恬逸，纯然一片天趣，真情款款，自然流露。真恨不得早生千百年，得附骥尾，可拜真人门下，便天仙位业也非所望呢。",
+          "instruct": "语气真诚，充满羡慕与赞叹"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 81,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阮纠道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 82,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "道友过誉。我们虽然幸窃福缘，得天独厚，终不能望到天仙位业，便为一情字所累呢。",
+          "instruct": "语气谦虚，带着些许感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 83,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑闻言，忍不住问道：",
+          "instruct": "语气带着好奇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 84,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "休说真人，便是诸位道友，哪一位不是神仪内莹，精华外映，明是天上金仙一流。听内人说，虽是男女道友同隶师门，并非合籍双修。即以千万功力而论，已具通天彻地，旋乾转坤之能，怎么情关一念便勘不破呢？",
+          "instruct": "语气充满不解与探寻"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 85,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阮纠笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 86,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此事说来话长，并且将来借重诸位道友，也是为此一字。不过暂时奉家师命，恕难奉告，且等峨眉会后，再作详谈吧。",
+          "instruct": "语气神秘，带着歉意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 87,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘、丁二女同声笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 88,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "大师兄才说改了性情，不又饶舌了么？",
+          "instruct": "语气带着调侃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 89,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑知道来时料中所说借重之事，至关重大，不便再为深问。五人言笑晏晏，不觉连越云层，到了天蓬绝顶灵峤宫外。阮、丁、甘三人领了凌、崔夫妇，先去拜见过了赤杖真人，略说命众弟子随往峨眉观礼之事，凌浑又略请教些应劫的话。便由阮、甘等门人陪出，先引凌浑把灵峤仙府风景游览了一周，然后去至甘碧梧所居的栖凤亭中小坐。众仙侣因凌浑初来，又命门人侍者去取灵泉甘露与各种仙果，前来款待。凌浑健谈，神情穿着又极滑稽，宾主双方越谈越投机。内中赤杖仙童阮纠和一个名叫兜元仙史邢曼的，尤为莫逆，由此成了至交。凌、崔二人因离庚辰正日没有几天，路隔太远，必须期前赶到。虽然飞行迅速，不致延误，当此多事之秋，受人之托，终是越早到越好，便起辞别。众仙再三挽留。阮纠并说：",
+          "instruct": "叙述游览与告别，语气舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "栖凤亭小坐",
+            "sound_cn": "在亭中落座，杯盏轻放，仙果摆放",
+            "sound_en": "sitting in the Qifeng Pavilion, cups and plates being set down, fairy fruits being placed",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "栖凤亭",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 90,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此行如何，家师已经算出，明早起身，到时恰好。因此次旁门中颇有几个能手，为了事前不使得知，道友到时，使用仙法隐蔽行藏，不到起身下山，谁也推算不出。据我想，也许峨眉诸道友都认作意外，到后方知呢。",
+          "instruct": "语气自信，带着谋划"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 91,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘碧梧和另一仙侣同声笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 92,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "大师兄话休说满。左道旁门中人，自难知道我们行藏。峨眉诸位道友何等高明，未必也瞒得过吧？",
+          "instruct": "语气带着质疑和笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 93,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阮纠笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 94,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我不是说准能瞒过。只为凌、崔二位道友此来，未向第二人提起，原定约了我们，突作不速之客，以博主人一笑。并且主人连日正忙，素昧平生，我们又非现时知名之士，念不及此，怎会前知？除非我们已经上路将到，主人久候凌道友夫妇不至，无意中占算行踪，那就难说了。",
+          "instruct": "语气带着自信的推测"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 95,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 96,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "这个我敢和大师兄打赌，我们此去，只一动身，峨眉诸道友便即知道。即便主人正忙，无心及此，你没听崔道友那日曾说，日前已是仙宾云集？师兄的转劫好友大方真人，和我们对头的两个克星也在那里，焉有不知之理？",
+          "instruct": "语气爽朗，带着自信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 97,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘碧梧笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 98,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "七师妹怎地胸无藏言？",
+          "instruct": "语气温和，带着提醒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 99,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦好似说走了嘴，面上一红，便不再说。阮纠笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 100,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我只臆度，哪个与你打赌？",
+          "instruct": "语气带着笑意和回避"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 101,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时也看了丁嫦一眼。凌浑暗忖：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 102,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "众仙千年不曾下山，法力如此深厚，怎会有甚对头？大方真人正是乙休，想不到他与赤杖仙童竟是历劫知交。见时一问，便知就里。",
+          "instruct": "内心独白，语气带着思考"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 103,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "故作没有在意，岔将过去。阮纠似已察觉，笑对凌、崔二人道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 104,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我们在此隐居清修，于仙于凡，两无所争，本无什么。只为家师奉到天敕，又值再传弟子和一些侍者建立外功之会，正好命两辈门人一同下山。好些事均属未来，家师默运玄机，为免众弟子将来有甚困阻，预为之备。其实事情尚早，家师只示了一点征兆，不曾明言。休说乙道友不能详悉，便我等也只略知梗概，此时未便奉告，盖由于此。",
+          "instruct": "语气郑重，带着解释之意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 105,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "崔五姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 106,
+      "role": "崔五姑",
+      "api": {
+        "voice": {
+          "role": "崔五姑",
+          "role_voice": "和蔼奶奶-温暖,亲和",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "想不到诸位道友清修千年，早已天仙无殊，怎会突然发生这些烦扰？",
+          "instruct": "语气带着惊讶和关切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 107,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "另一女仙罗茵笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 108,
+      "role": "罗茵",
+      "api": {
+        "voice": {
+          "role": "罗茵",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "按说，我们虽然道行浅薄，不能上升灵空天域，到那金仙位业，如论位业，却也不在天仙以下。尤其是清闲自如，既无职司，又无羁绊，不似天仙多有繁巨职掌。只自成道起，两千一百九十年中，有三次重劫，一次比一次厉害，是个讨厌的事。",
+          "instruct": "语气带着感慨和无奈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 109,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 110,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "罗六师妹倒说得好，假使地仙如此易为，似我们这等清福，那些天府仙官都愿退这一步，不再稀罕那天仙位业了。",
+          "instruct": "语气带着俏皮和反驳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 111,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌、崔二人闻言，心中一动，默计赤杖真人师徒成道岁月，正是道家四九重劫以后的第二难关快要到来。起初以为真人有无上法力，谁知仍难轻免，不禁骇然。天机难泄，无怪支吾不肯明言。便朝罗茵点了点头。众仙知道二人业已会意，便不再提起。又盘恒了些时，一算时间，已经过了一天。阮纠不等凌、崔二人开口，便请起身，二人要向真人拜别，众仙俱说：",
+          "instruct": "叙述众人心领神会，语气沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 112,
+      "role": "众仙",
+      "api": {
+        "voice": {
+          "role": "众仙",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "真人现正调元炼气，不须多礼。",
+          "instruct": "语气整齐，恭敬平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 113,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人便托众仙见时，代为致意。当下赤杖仙童阮纠、甘碧梧、丁嫦，率领三人的爱徒尹松云、陈文玑、管青衣、赵蕙，共是男女七人。由陈、管、赵三女，用仙府三柄紫玉锄，肩挑着装有三百间仙馆楼阁和蓝田玉实的紫筠篮。随了凌、崔二人，同驾一幢彩云往峨眉仙府进发。彩云一离天蓬山界，降到中层云下，便自加快，往前飞驰。其速并不在剑遁以下，并且一点也不见着力施为。上面是碧空冥冥，一片苍茫；下面是十万流沙，漫无涯际。等将落漈飞过，又是岛屿星分，波涛壮阔，碧海青天，若相涵吐。中间一片祥云，五色缤纷，簇拥着九个男女仙人，横空穿云而过。每当冲入迎面云层之中，因是飞行迅速，去势大急，将那如山如海的云堆一下冲破。所过之处，四外白云受不住激荡，纷纷散裂，化为一团团、一片片的断絮残棉，满空飞舞。再吃阳光一映，过后回顾，直似万丈云涛，撒了一天霞绮，随着残云之后，滚滚飞扬，奇丽无俦。仙云神速，飞近子夜，峨眉便已在望。阮、甘诸仙因此山乃千年前旧游之地，仙府只知是在后山亘古无人之区，不曾去过。刚刚把仙云势子改缓，在夜月清光之下指点林泉，一面追忆前尘，一面和凌、崔二人谈说，问询仙府所在。丁嫦忽指前面笑道：",
+          "instruct": "叙述飞行途中景象，语气壮丽，节奏舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "彩云飞驰",
+            "sound_cn": "彩云急速飞驰，风声呼啸，云层破开",
+            "sound_en": "colorful clouds speeding forward, wind howling, clouds parting",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "彩云一离",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 10.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "波涛壮阔",
+            "sound_cn": "下方波涛壮阔，海浪拍击，水声浩荡",
+            "sound_en": "vast waves below, waves crashing, water roaring",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "波涛壮阔",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冲破云层",
+            "sound_cn": "仙云冲破云层，发出裂帛般的声响",
+            "sound_en": "fairy cloud breaking through layers, sound like tearing silk",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "冲破",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 114,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "我说如何？你看前面崖上，洞口石亭均有人在守候，分明峨眉诸道友对于我们来意已前知了。",
+          "instruct": "语气得意，带着俏皮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 115,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑正和阮纠一样，心料妙一真人等不会想到会约仙侣同来，又是何等神奇隐秘。素无人知的地仙，还想突然降临，故作惊人之笔。又知妙一真人等如真前知，此时必是亲身出迎，而洞口崖亭中人，分明是几个轮值守候的门人。方对丁嫦笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 116,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "道友，你料错了，那是齐道友门下弟子，奉命在彼迎候嘉客的，正经主人并无一个，也许真不知道呢。",
+          "instruct": "语气带着笑意的反驳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 117,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话还未完，遥见洞门内倏地闪出好些人来。这时两处相隔尚远，乍见虽还不能辨认，必是长一辈的主人无疑。才知主人毕竟前知，这等大举出迎，自己面上也有光辉，好生欣喜。立即改口道：",
+          "instruct": "叙述转折，语气带着惊喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 118,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "想不到主人果是仙机灵妙，早已前知。大约凡是无甚要事的，都出洞来迎候嘉宾了。",
+          "instruct": "语气欣喜，充满赞许"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 119,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阮、甘、丁三人闻言，定睛一看，忙道：",
+          "instruct": "语气带着惊讶"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 120,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我等不速之客，主人竟如此盛意延款，何以克当？急速催云快去吧。",
+          "instruct": "语气带着谦逊和急切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 121,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，手指处，脚底仙云又复加急飞驰，晃眼到了后洞上空。三仙因想认一认为首主人，微一缓势间，凌、崔二人已先从云中飞坠。三仙又见妙一夫人似要飞身上迎，知是为首女主人，忙率尹、陈、管、赵四弟子一同下降。到了太元洞内，宾主分别礼见，由凌、崔二人代为略致来意。妙一夫人等自是极口称谢，敬佩不置。凌浑因阮纠与乙休有旧，闻说乙休同了百禽道人公冶黄、追云叟的大弟子岳雯，在仙籁顶旁危崖老松之下，相互对弈，恰值灵云领众弟子拜见仙宾，不曾走去，便命去唤。随问众人，那些异派中的恶宾不久即至，那三百问仙馆楼台如何布置？丁嫦笑道：",
+          "instruct": "叙述抵达与迎接，语气舒缓，带着宾主尽欢的融洽"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "仙云飞坠",
+            "sound_cn": "仙云飞坠落地，气流轻拂，衣袂飘动",
+            "sound_en": "fairy cloud descending and landing, air currents brushing, robes fluttering",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞坠",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 122,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "微末小技，极易布置。这些房舍大小隐现，无不如意。微仪已蒙主人晒收，房舍就在小徒肩挑筠篮之内，只须主人命二三高足领了小徒，指出适当地点，立可成就。",
+          "instruct": "语气轻快，充满自信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 123,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "青囊仙子华瑶崧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 124,
+      "role": "青囊仙子",
+      "api": {
+        "voice": {
+          "role": "青囊仙子",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "既然是能隐能现，索性先只安置，将形隐去。等那些恶宾到来，依次领往，随时出现，岂不更妙？",
+          "instruct": "语气带着建议，思维敏捷"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 125,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 126,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这样虽好，只是小徒们法力浅薄，不知仙法运用，万无重劳嘉宾之理，还是现出来吧。",
+          "instruct": "语气温和，带着主人家的谦让"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 127,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甘碧梧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 128,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "运用之法不难，一学就会。小徒们相助照料，有何不可？",
+          "instruct": "语气谦和，带着帮忙的诚意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 129,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "夫人再四谦谢，不欲劳动仙宾。嗣由凌浑折中，仍命门弟子执掌，由三仙先传运用之法。妙一夫人因来者不善，善者不来，引导来客就舍的人既要本领高强，又须机智沉着，始能应付，便命齐霞儿、秦紫玲、诸葛警我、林寒四人充任。三仙立即当众传了用法，并各赐了一道灵符，以备万一。四人拜谢领命，随引了尹松云、陈文玑、管青衣、赵蕙四人，分四路去讫。黄肿道人和伏魔真人姜庶重述适才所议方策，将人分散太元洞内。广堂之内，只留二三主人，等候外宾来见。余各自寻居处，不必长聚一起，以便暗中留意，相机应付。妙一夫人终因仙宾初来，尚未怎样款待，意欲多陪一会，等有异派人来，再作计较。三仙知道主人心意，力言彼此同道倾心，一见知己，无须如此谦礼。并说：",
+          "instruct": "叙述安排事务，语气有序"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 130,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "山居千年，极少新奇之事，此行专为观光，就便看看目前左道伎俩，如在太元仙府居住，难于一目了然。好在房舍现成，妖人将至，最好立时便请一位令高足领去，择一高旷之地，可以纵观全景，而又不当要冲，以便作壁上观，实为快事。",
+          "instruct": "语气真诚，带着观看热闹的兴致"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 131,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人见他们坚持，只得亲自陪往。一面并请玉清大师代作主人，时常陪伴。议定以后，除各主人外，一班外客欲睹仙馆之奇，仗着房舍众多，纷纷效尤；一般后辈更好奇喜事，渴欲见识。妙一夫人想：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 132,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这样把所有长幼来宾全都住在新添设的仙馆楼阁以内也好。",
+          "instruct": "内心独白，语气带着接纳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 133,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便陪了阮纠师徒，先往绣云涧去物色仙居。众人也相率走出。刚刚走出洞门，便见亭台楼阁，琼馆瑶榭，到处矗立，点缀得一座凝碧仙府霞蔚云蒸，祥光彻霄，瑞霭满地，绚丽无俦，仙家妙术，果真惊人。方在齐声赞妙，倏地光霞一闪而逝，所有楼台馆榭全数隐去。知四弟子已经布置停妥，正在试法。正陪仙宾前行，灵云忽然走来，对凌浑说：",
+          "instruct": "叙述仙馆显现，语气充满赞叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "仙馆显现",
+            "sound_cn": "仙馆楼阁凭空显现，霞光四射，祥云缭绕",
+            "sound_en": "fairy pavilions appearing out of thin air, radiant light glowing, auspicious clouds swirling",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "亭台楼阁",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "光霞一闪",
+            "sound_cn": "光霞一闪而逝，楼阁隐去",
+            "sound_en": "a flash of light, pavilions disappearing",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "光霞一闪",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 134,
+      "role": "灵云",
+      "api": {
+        "voice": {
+          "role": "灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "乙师伯胜了公冶真人一局，现和岳师兄对弈正酣。闻说阮仙长到此，只笑了笑。弟子久候无信，三次催请，乙师伯才说要请阮仙长往见。不知可否？",
+          "instruct": "语气恭敬，带着传话的认真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 135,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凌浑笑骂道：",
+          "instruct": "语气带着笑骂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 136,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "这老驼子真个棋迷，连老朋友来也不顾了。",
+          "instruct": "语气带着调侃和亲昵"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 137,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阮纠笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 138,
+      "role": "阮纠",
+      "api": {
+        "voice": {
+          "role": "阮纠",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "行客须拜坐主，原该我去见他才对。二位师妹可随主人往寻居处，令四弟子同住一起，不得妄自多事。我与大方道友久别，要作长谈，也许和他同住。到了正日会集，再相见了。",
+          "instruct": "语气从容，带着大师兄的安排"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 139,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 140,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "我们现时决不至于多事，师兄和大方真人在一起，却是难说呢。",
+          "instruct": "语气带着俏皮和暗示"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 141,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人方欲分人送往，凌浑对崔五姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 142,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "老伴，诸位道友是我夫妻请来，我二人也和主人差不许多。你和玉清道友陪伴甘、丁二位道友师徒，我自引阮道友去寻驼子去。",
+          "instruct": "语气随性，带着夫妻间的默契"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 143,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，同了阮纠自去。不提。妙一夫人等仍陪甘碧梧师徒六人走到绣云涧，正赶齐霞儿同管青衣二人一齐将仙馆设在涧侧高崖之上，刚刚停当，待要回洞复命，看见夫人等陪了众仙宾到来，连忙迎上。跟着秦紫玲同了赵蕙，林寒同了陈文玑，诸葛警我同了尹松云三起，也都各按所去的一带地方，相度形胜，设置停当，互相试验一回，隐去真形，回至中途，有的老远望见，有的经同门传说，相次赶来复命。妙一夫人便命齐霞儿将崖上仙馆现出。霞儿如法施为，手一指，崖上突然现出一座霞光四射的玉楼。众人见那楼阁共是三层，每层五间，形如重台梅花，通体碧玉砌成，琼槛瑶阶，金门翠栋，雕云镂月，气象庄严，奇丽无涛。再走上去一看，一层有一层的陈设，无不穷极艳丽，妙夺鬼工。至于设备之齐全，更无庸说。锦墩文几，玉案晶床，尽管华贵异常，却又不是富贵人家气象，于珠光宝气之中，现出古色古香，别有雍穆清雅之致。顶层五间开通，成一敞厅，似是准备仙宾暇日登楼凭眺观景之用。比起下两层设备还更精美，四面碧玉栏杆，嵌空玲珑。更有百十盏金灯点缀其间，燃将起来，灿如明星，夜间望去，更是奇景。众人落座，正在赞赏，诧为未见。玉清大师笑道：",
+          "instruct": "叙述仙馆详细景致，语气充满赞叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "玉楼现出",
+            "sound_cn": "玉楼凭空现出，霞光弥漫，玉石轻响",
+            "sound_en": "jade tower appearing out of thin air, radiant glow spreading, soft jade chime",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "玉楼",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金灯点燃",
+            "sound_cn": "金灯点燃，发出轻柔的火焰声",
+            "sound_en": "golden lamps lighting up, soft flame flickering",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金灯",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 144,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此崖虽然隐僻，却非最高之地。如再高出二三十丈，全景便在目下，一览无遗了。",
+          "instruct": "语气带着赞许和提议"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 145,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 146,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "这个容易，这些房舍原本可高可下。",
+          "instruct": "语气轻快，充满自信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 147,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，将手一指，只见祥云如带，横亘楼腰，二楼一段。便在隐约之间，顶层便于不知不党中升高了数十丈，仙府全景立现眼底。甘碧梧笑道：",
+          "instruct": "叙述仙法施展，语气赞叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "祥云升腾",
+            "sound_cn": "祥云升腾环绕，风声轻拂",
+            "sound_en": "auspicious clouds rising and swirling, wind gently brushing",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "祥云如带",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 148,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "区区末技，七师妹也要卖弄，不怕诸位道友齿冷？",
+          "instruct": "语气带着姐姐般的温柔调侃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 149,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "丁嫦笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 150,
+      "role": "丁嫦",
+      "api": {
+        "voice": {
+          "role": "丁嫦",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "我们承诸友不弃，一见如故，亲若一家，何用掩饰作态？",
+          "instruct": "语气真诚，带着率真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 151,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "先来长幼群仙，俱欲各觅居处，纷起作别，甘碧梧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 152,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "温婉女士-知性,温婉",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "事也真巧。当初原是同门师兄姊妹互弄小技，只顾争奇斗胜，忘了修道人的本色，又没见识过天仙第宅是什么形状，以致徒事纤巧，闹成了个四不像。此次所带楼舍，只这一所小琼楼乃二师姊姚瑟所建，还不过于离奇，恰被愚师徒数人占用。余者多半出诸七、九师妹之手。诸位道友虽然暂寄仙踪，逢场作戏，如见不堪之处，幸勿见笑。主人事忙，承五姑与玉清道友相伴，已感盛情，请自回吧。",
+          "instruct": "语气谦和，带着仙家的雅致"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 153,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人等也觉众异派中恶客行即到来，正当多事之秋，便也不作客套。一面吩咐霞儿等四人，引导各长幼仙宾，仍分四路送入仙馆安置。并请内中几个主要人物，各依方向，暗中监防。事完，便分两人一班，在太无洞中和另外两名弟子随侍，以便外客到来，见过主人之后，领往馆舍。随即分向甘、丁二女仙称谢辞别，各自依言行事，不提。经此一来，太元洞内诸仙十去八九。长一辈的，只剩下妙一夫人、元元大师、白云大师、顽石大师四个正主人。余者只神驼乙休、百禽道人公冶黄和新来的赤杖仙童阮纠、穷神凌浑，在仙籁顶危崖之上，与岳雯对弈；嵩山二老同麻冠道人司太虚，在前洞上面御敌未归；媖姆师徒在后洞石室之内，运用玄功，暗中戒备。此外都移往仙馆。一班后辈来宾，有的随着迎接诸仙之便，当时随往，各自觅了住处。有那随着本门中弟子散在各地游玩聚谈的，适才各地仙馆楼阁突然出现，相顾惊奇，纷纷赶往绣云涧，问知就里，俱都好奇，欲广经历。霞儿等再一说起，不问来客长幼，凡愿往仙馆居住的，均可迁入。众后辈闻言大喜，相率随同前往，各觅住所。本门弟子虽不得住入仙馆，也都想见识见识，除有重要职司，正在轮值的几个，也都跟去观赏。霞儿等四人分领了各仙宾，每到一处，便依法施为，一所玉宇琼楼立即显现。众仙宾早各约好同居仙侣，分别入内。妙一夫人等四主人到了太元洞前，回头一看，只见四方八面，一座接着一座的仙观楼阁，重又相继显现。虽不似适才全数毕现，也有二三十处。端的仙云缥缈，气象万千。再看男女弟子，只有陆蓉波、余英男、庄易、严人英四个在洞内外应班轮值，余人全都不在。笑道：",
+          "instruct": "叙述人事安排与景象，语气舒缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "仙云缥缈",
+            "sound_cn": "仙云缥缈，楼阁隐现，祥光流动",
+            "sound_en": "fairy clouds drifting, pavilions appearing and disappearing, auspicious light flowing",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "仙云缥缈",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 154,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无怪人情羡慕富贵华美。便众弟子虽然新进道浅，也都根器深厚，平日心情也极清静淡泊，此时见了这等富丽华贵之景，竟然如此钦慕，异派中人更不足论了。",
+          "instruct": "语气带着感慨和洞悉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 155,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白云大师笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 156,
+      "role": "白云大师",
+      "api": {
+        "voice": {
+          "role": "白云大师",
+          "role_voice": "云媛-情感,知心姐姐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我知他们并非钦慕，只是年轻好奇，想要见识罢了。",
+          "instruct": "语气带着温和的解释"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 157,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "元元大师道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 158,
+      "role": "元元大师",
+      "api": {
+        "voice": {
+          "role": "元元大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话虽如此，到底不该。所以赤杖真人力说，此举渐入魔道，不是修道人所宜。阮道友等说，此类楼观只宜左道中人居住，不便奉赠，确是实情呢。",
+          "instruct": "语气带着忧虑和反思"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 159,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "顽石大师笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 160,
+      "role": "顽石大师",
+      "api": {
+        "voice": {
+          "role": "顽石大师",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无怪人言，我辈同道中人，只师兄一人铁面冰心，最为刚直。前杀王娟娟，便是证明。无论仙凡，谁不想多见多闻，增长经历？他们又听来的是千年前成道的人物，又见仙法如此神妙，哪能无动于衷？想开一回眼界，所以连灵云和白云师兄门下三个已经入门多年、道力较深的人，都跟了去。就连金姥姥、萧十九妹、黄肿道人，青囊仙子、金钟岛主和两世修为的杨道友，他们论起功行法力，哪一位是在你我之下？他们虽然也有为监防妖人，有为而去的，但见猎心喜，也占一半。他们尚且如此，何况晚辈？",
+          "instruct": "语气豁达，带着理解的笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 161,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说得妙一夫人等俱笑了起来。刚刚入洞归座，先是黄山餐霞大师同了汉阳白龙庵素因大师，双双到来。见面谈不几句，杨鲤又引导他的前师南海聚萍岛白石洞散仙凌虚子崔海客和门下弟子虞重走进。恰巧齐霞儿等四人将众仙宾安置停妥，头一班是秦紫玲和林寒，正在侧随侍，宾主礼叙。妙一夫人知崔海客人极正直，便略告以实况。谈了片刻，便令林寒前导，亲身陪他师徒入居仙馆。林寒见他只有师徒二人，便引往洞侧山坡之上，行法现出一所共只三间的飞云亭来。夫人肃客入内。崔海客早见仙府之中，到处神仙楼阁，瑞霭祥光，及见林寒随手一指，便现出一座双层亭舍，益发惊奇，赞羡不置。夫人等仙厨中人献上酒果灵泉，便即辞出。这次回到太元洞内，便繁忙起来。先是铁钟道人、游龙子韦少少、小髯客向善和成都隐名剑仙钟先生等昆仑派中名宿，除却南川金佛寺方丈知非禅师要正日才到外，俱都各带门人，联袂偕来。这次妙一真人诸长老为要解却辟邪村误伤游龙子韦少少飞剑之嫌，对于以上诸人齐下请柬。韦少少本还不好意思前来，经知非禅师和小髯客向善力劝，说：",
+          "instruct": "叙述后续宾客到来，语气有序"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞云亭现出",
+            "sound_cn": "飞云亭凭空现出，玉石轻响，云雾缭绕",
+            "sound_en": "Flying Cloud Pavilion appearing out of thin air, jade chiming softly, clouds swirling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞云亭",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 162,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "上次对方事出无心。对方主者齐漱溟宽厚温和，极知礼让，素无嫌怨，今以礼来，不去反显我们小气。峨眉正当鼎盛之时，仍能谦虚待人，欲借此一会，释嫌修好，实不愧道家本色。乐得就此化敌为友，彼此都好。",
+          "instruct": "叙述劝解之言，语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 163,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "铁钟道人也力主同往，但又说：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 164,
+      "role": "铁钟道人",
+      "api": {
+        "voice": {
+          "role": "铁钟道人",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "峨眉势盛，易使后辈向往，门人不可多带。",
+          "instruct": "语气带着警惕和担忧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 165,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "偏生一干门人欲随往观光，纷纷向师求说。知非禅师只有一个嫡传弟子，必须留守，本人有事，又是后去，不在话下。其余四人，除钟先生是愿教徒弟见识，命即同去外，铁钟、韦、向三人均恐门人与对方交往，见异思迁，不令随行。于是愿去的好些俱没去成，而不甚心热，如上次在无华氏古妖尸墓穴中吃过亏的小仙童虞孝、铁鼓吏狄鸣歧之流，反因师命随行。行时，小髯客向善忽然想起还有两人未到，便问知非禅师道：",
+          "instruct": "叙述门人安排，语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 166,
+      "role": "向善",
+      "api": {
+        "voice": {
+          "role": "向善",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此次峨眉还请的有卫师弟夫妇，昨日还见在此，怎地不辞而别？",
+          "instruct": "语气带着疑惑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 167,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "知非禅师微叹道：",
+          "instruct": "语气带着叹息"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 168,
+      "role": "知非禅师",
+      "api": {
+        "voice": {
+          "role": "知非禅师",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "他二人近来行径荒谬。自从幻波池受了巨创归来，经我算出，对方应援迟缓，害他夫妇毁了道缘，实是不知圣姑禁法妙用。初发现有人被困时，固然略存私念，可是要想救也无从下手。那等危机四伏的险秘之地，加些小心，也是人情，何况还出死力相救。算起来只有救命之恩，决无仇怨可言。他们出来时不问当门的人是什道路，便下毒手伤人，已大不该，幸运那人是佛门高弟，未与计较。回来他夫妇只知痛惜道缘，贪得内中宝物，因闻前去二女仍要再往，竟打了恩将仇报主意。我再三苦口劝说，开导利害，终是不听。近更受了妖妇愚弄，益发倒行逆施，变本加厉。峨眉诸友正是那两女子的师长，如何会去？果真肯去时，他们见到峨眉那等气象，也许知难而退，不致将来自取灭亡了。他夫妇明明极好一对神仙眷属，论起功力法宝和所炼飞剑，都是本门有名人物，偏会一入迷途，便双双陷溺罔返。此乃劫数使然，无可挽回。此事不久发作，只盼他们到时知机，能就此兵解，不致形神皆灭，便是幸事。此时由他们去吧。",
+          "instruct": "语气充满感慨和无奈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 169,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "四人听了，叹息了一阵，便向知非禅师作别起身，一行共是师徒九人，同往峨眉飞去。妙一夫人早有妙一真人嘱咐，甚是优礼。一面又把妙一真人闭洞行法开府，须等正日开府始能出见；客多甚忙，接待简略，已经备下宾馆，不能随时奉陪的话说了。钟先生等见主人礼貌殷勤，各把前嫌消去，互致了几句谦词，便由林寒引导，餐霞大师陪客就舍，同往仙馆去讫。这里客才去，跟着南海地仙天乾山小男带了三连宫中三十六个仙童弟子，西海磨球岛离朱宫少阳神君带了日前曾来峨眉先送礼物谢请的火行者元柄等四个门下弟子，相继到来。以上两拨虽非同道至交，尚还是友非敌。等这两拨刚刚引入馆舍，忽然轮值弟子苦孩儿司徒平飞身入报：",
+          "instruct": "叙述宾客往来，语气有序"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 170,
+      "role": "司徒平",
+      "api": {
+        "voice": {
+          "role": "司徒平",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "后洞外来了三个相貌凶恶、装束诡异的道者，一个大头大肚、胸挂十八颗人头念珠的凶僧，随带着七个男女，到了飞雷崖仁云亭前。先由一名叫鬼焰儿朱赤午的妖童，向弟子等声称：",
+          "instruct": "语气急切，带着紧张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 171,
+      "role": "朱赤午",
+      "api": {
+        "voice": {
+          "role": "朱赤午",
+          "role_voice": "元气少年-磁性,性感",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "text": "我家师父等三道一僧，乃北岳恒山丁甲幢、火法真人黄猛、三化真人卓远峰、屠神子吴讼，率领门下弟子七煞手常鹤、鬼焰儿朱赤午、仙掌雷召富、大力仙童洪大肚、独角金刚阳健，以及江西部阳湖小螺洲金风寺方丈恶弥勒观在和号称龙山双艳的细腰仙娘柳如花、小金女童么凤，一行师徒共是十二人。因闻峨眉开府，心切观光，前来拜山，参与盛典。",
+          "instruct": "语气嚣张，带着傲气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 172,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "令弟子等入门通报。弟子来时，隐闻内中一个生相蠢俗不堪、名叫洪大肚的和那朱赤午说：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 173,
+      "role": "洪大肚",
+      "api": {
+        "voice": {
+          "role": "洪大肚",
+          "role_voice": "憨厚敦实-亲和,稳重",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你说这一路无甚防备，你看这洞设的不是那禁制么？",
+          "instruct": "语气带着疑惑和粗豪"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 174,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子因各位师尊早已算出未来，妖鬼徐完来过以后，只仙府上空还不免有妖人来此窥伺，已由白、朱二位师伯戒备，后洞已不会有事，所以不曾设伏。今早弟子等曾见雪山顶上有金光微闪，似往洞口飞来，细看又无形迹，来人不知怎会看出？这十二人均未接有请柬，容他进来与否，请示定夺。",
+          "instruct": "叙述弟子汇报，语气恭敬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "金光微闪",
+            "sound_cn": "雪山顶上金光微微一闪",
+            "sound_en": "a faint flash of golden light on the snow-capped peak",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光微闪",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 175,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人知道，来的这为首四人，明初已经得道，虽然出身旁门，已经躲过三劫，隐居修炼。除纵容门下弟子不时出山为恶外，本人踪迹俱甚隐秘，正邪各派俱无交往。料是受了仇敌蛊惑，来此相机行事，来意善恶尚还未定。既然以礼求见，自应以礼待承。便请餐霞大师代出迎导，就便暗中查看洞口禁制是哪位道友所设。大师去后，妙一夫人等因庚辰正日将近，敌友双方来客越多，一一陪叙，势难兼顾，便把五位主人分开，以便分别接待。又因来人师徒以前恶迹昭彰，幸逃天戮，已有餐霞大师接待，不愿多与周旋，便避了出去。这里餐霞大师到了洞外，见来人师徒都是一身邪气，知道虽是左道旁门，也不可轻视，便按主人之礼，上前通名致辞。原来这一干妖人，以前为了作恶多端，常受正派剑仙嫉视，备历险难，幸逃诛戮。先在恒山销声匿迹了七八十年，后始分居。由此学乖，不再彰明昭著，行事力求隐晦，也不与外人来往。近百年中，见同时一班厉害仇敌十九仙去，自问后起诸人莫我之敌，虽然渐萌故态，仍不轻于树敌。近年虽闻峨眉派发扬光大，人才辈出，因一向闭门不出，只由门下妖徒出外摄取妇女，回山采补，对方诸人均未见过。这次原是妖道门人受了与峨眉为仇的妖邪怂恿，言说仙府灵药众多，更有千年灵芝炼成的芝人、芝马。众妖人本为所习不正，必须常年采补，始能驻景延年，长生不老，如能得到芝仙服食，立可免去四九重劫，修成地仙，当时便被打动。自恃邪术高强，法宝厉害，更炼有几只灵禽猛兽，不问明夺暗取，十九可以如愿。对方有此灵物仙药，便为它树下强敌也值。因门下弟子到处闻人传说对方人才辈出，道法高强，剑术神奇，还存戒心。除将所有法宝和所豢养猛禽恶兽全数带在身旁备用外，并命卓远峰的爱徒青蛾仙童左心，去往陕西黄龙山青渺林，卑词约请以前同道中能手猿长老，许以啖肉芝的重利，使其率领门下五仙猿，赶往峨眉，假装不是一路，暗中相助。无论谁得了手，都是平分春色。行前原有人指点途径，一直便往仙府后洞门飞去。心想：",
+          "instruct": "叙述妖人来历与谋划，语气带着警惕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 176,
+      "role": "妖人",
+      "api": {
+        "voice": {
+          "role": "妖人",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "峨眉仇敌到处都是，这等盛举，为防敌人侵害，近洞一带必有防备重重。不分异同，一体接待，只是传闻。自己未奉到请柬，又非同道，弄巧还许不能进去，一到便动干戈。",
+          "instruct": "内心独白，语气阴沉自傲"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 177,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "及至飞到后山，沿途留心查看，只遥见洞门外立有两人，对过崖亭内也有两人，年纪均轻，似是守门延宾的弟子侍从，并无埋伏禁制。不由气焰渐长，以为人言过甚。照此情形，守门人如若见拒，便用法术变化隐形，硬行闯入，骤出不意，夺了仙芝便走。正寻思间，已经飞近。落下一看，首先入目的便是那四个轮值延宾的男女弟子，个个仙根深厚，道气精纯。又见对方闻言，入内通报时，人过处，洞口上空忽有金光一闪。妖人师徒俱都识货，定睛一看，竟是昔年吃过它苦头的佛家用来降魔的神光。才知对方盛名非由幸致，如不得到主人允许，要想进门，并非易事，不由把先前锐气为之一挫。等不一会，瞥见对面洞内飞出双道光华，跟着洞口现出两人：一个是入内通报的守门少年，另一人是个女道姑。单看遁光来势，已知不是寻常。再听说话口气，餐霞大师对于外人最是谦让，说得自己好似本派数不上的人物。妖人狂妄已惯，信以为真，觉得对方随便出来迎宾之人，已有如此本领，不禁又是一惊。但既已劳师动众，门人们又都在外夸下海口，无论如何也须勉为其难。想到法力高强，并还有极厉害的接应，心气又复一壮。火法真人黄猛最是强横，略向大师称谢道扰之后，便道：",
+          "instruct": "叙述妖人心态变化，语气带有讽刺"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金光一闪",
+            "sound_cn": "洞口上空金光一闪，佛光显现",
+            "sound_en": "golden light flashing above the cave entrance, Buddha's light appearing",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光一闪",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 11.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "光华飞出",
+            "sound_cn": "两道遁光从洞内飞出",
+            "sound_en": "two beams of light flying out from the cave",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞出双道光华",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 178,
+      "role": "黄猛",
+      "api": {
+        "voice": {
+          "role": "黄猛",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "贫道隐居恒山等地，清修避世，百余年来不曾与外人来往。因闻近来贵派昌隆，人才蔚起，又有这番千古难逢的盛举，不特贫道师徒亟欲观光，连贫道等平日豢养的两只虎面枭、一只金眼狍儿，也要随来见识。虽然它们通灵多年，能大能小，终嫌兽蹄鸟迹，有污仙府。不知道友可能容许它们进府么？",
+          "instruct": "语气强横，带着试探"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 179,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "餐霞大师知这两种俱是最猛恶的恶兽凶禽，妖人带了同来，心存叵测。故作不经意之状，微笑答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 180,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "云媛-情感,知心姐姐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "齐道友门下弟子也有几个豢养着猿、鹤之类灵物的，有主人在，当不至于放肆。不过，外客中也带有仙禽同来的，异类与人不同，物性有忌，带进无妨，主人一律款待，飨以美食，只请叮嘱它们不可离开道友，以免万一生性相克，争斗起来，不论何方受伤，主人俱觉难处。话须言明。幸勿介意。",
+          "instruct": "语气从容，带着主人的气度"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 181,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄猛暗笑：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 182,
+      "role": "黄猛",
+      "api": {
+        "voice": {
+          "role": "黄猛",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "猿、鹤之类也值一提？怕不做了枭、狍口中美食。",
+          "instruct": "内心独白，语气轻蔑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 183,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "故意笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 184,
+      "role": "黄猛",
+      "api": {
+        "voice": {
+          "role": "黄猛",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "它们多是野性未驯，特为瞻仰仙府而来，不惯拘束。不过只要不去撩拨它们，也不会冒犯的。生性相克，自是常事。贫道只恐它们无知冒犯，致失客礼；否则它们这次在外生事，如为别位道友珍禽异兽所伤，好借此儆戒下次，杀它火性，正是求之不得呢。",
+          "instruct": "语气带着虚伪的客气和威胁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 185,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，便听妖道妖僧袖中枭鸣狍啸，声甚猛厉。大师暗笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "枭鸣狍啸",
+            "sound_cn": "妖道袖中传出猛禽凶兽的鸣叫咆哮声",
+            "sound_en": "fierce bird and beast sounds coming from the sleeves of the evil daoists, sharp cries and roaring",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "枭鸣狍啸",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 186,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "云媛-情感,知心姐姐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不知死活的孽畜！不久便是劫数临头，还敢发威。",
+          "instruct": "内心独白，语气带着冷峻的讽刺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 187,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "故作未闻，笑答：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 188,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "云媛-情感,知心姐姐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这样便好，道友既不以此为意，那更好了。",
+          "instruct": "语气平淡，从容应对"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 189,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，方要延客入内，忽听破空之声，劲急异常。众妖人一听，便知是同党黄龙山青桫林猿长老，带了门下仙猿到来。故作不解道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "破空之声",
+            "sound_cn": "远处传来急速破空之声，由远及近",
+            "sound_en": "sharp sound of something breaking through the air from afar, approaching rapidly",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "破空之声",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 190,
+      "role": "众妖人",
+      "api": {
+        "voice": {
+          "role": "众妖人",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "道友，有客来了。",
+          "instruct": "语气装作不知，实则欣喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 191,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大师看出妖道面有欣喜之色，知是同党，便答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 192,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "云媛-情感,知心姐姐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不知何方道友驾临，有劳诸位道友稍待，一同延接也好。",
+          "instruct": "语气从容，尽显主人风范"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 193,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一言甫毕，一道白虹带着五道丈许长的青白光华，已一同自天飞坠。大师见来人身穿白麻布衫，猿臂鸢肩，满头须发，其白如银，两道白寿眉由两边眼角下垂及颊，面色鲜红，狮鼻阔口，满嘴银牙，两耳垂轮，色如丹砂，又长又厚，貌相奇古。通身衣履清洁，不着点尘。一对眯缝着的细长眼睛，睁合之间，精光闪闪，隐射凶芒。身后随着两苍三白五个通臂猿猴，看去身材没有仙府双猿高大，都是火眼金睛，铁爪长臂，动作矫健，顾盼威猛。双方通罢姓名之后，众妖人也故意与来人礼叙，互致仰慕。这猿长老初来时，神色颇做。及至大师延客同行，偶一眼望到洞门上面，立似吃了一惊，朝黄猛和妖僧观在看了一眼。大师早已看出，那是佛门降魔神光。料定不是芬陀，便是白眉禅师，不知何时路过，见仙府后洞只有几名弟子轮值，无甚别的设备，虽然无事，终启妖人侵侮之心，特意暗中设下，使来人知道戒慎的。见这些妖人以目示意，不禁暗笑，也不说破，故意前行引导，以示无他。直到太元洞中，宾主落座，略谈片刻，便唤当时轮值的诸葛警我、秦紫玲，将妖人师徒做一起，两女妖人做一起，猿长老一人五猿做一起，分别领往仙府安置，静候开府盛会。行时并嘱诸葛警我传示袁星：",
+          "instruct": "叙述猿长老到来及引路，语气带着审视"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "白虹飞坠",
+            "sound_cn": "一道白虹带着青白光华自天飞坠，破空声锐利",
+            "sound_en": "a white rainbow with blue-white light falling from the sky, sharp sound of breaking air",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "白虹",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 194,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "云媛-情感,知心姐姐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来客除猿长老，还有五位仙猿，须多备酒果款待外，黄道友等还带有虎面枭和金眼狍等珍禽异兽，它们俱不耐拘束，到了仙馆，许要放出。告知佛奴他们，遇上时小心，不要招惹，以免性克争斗。",
+          "instruct": "语气带着叮嘱，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 195,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人会意，随即答应：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 196,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子遵命。",
+          "instruct": "语气恭敬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 197,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大师也未亲陪，只送出太元洞口，便即作别回身，自寻妙一夫人等商议应付。不提。黄猛先见仙云楼观过于辉煌华丽，心想：",
+          "instruct": "叙述大师离去，语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 198,
+      "role": "黄猛",
+      "api": {
+        "voice": {
+          "role": "黄猛",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "这凝碧崖，对方才发现不久，门人十九新进，哪里会建立这许多的玉楼仙馆？必是卖弄玄虚，将寻常事物幻化点缀，故作惊人之举。弄巧十之八九皆是幻景，并非实物，都说不定。",
+          "instruct": "内心独白，语气带着怀疑和轻视"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 199,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "嗣见诸葛、秦二人到了地方，只随手一指，便由地上平空显现出一座亭榭，和前见一样，银壁云楼，金庭玉栋。内里陈设更是罗帏琼帐，冰奁珠缨，日用各物，无不毕具，光彩陆离，备极精丽。越以为主人号称玄门正宗修道之士，自居太元洞只是气象庄严，古雅朴实，无多陈设，两下里比较，远隔天渊。又想：",
+          "instruct": "叙述妖人观察，语气带有讽刺"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "仙馆显现",
+            "sound_cn": "仙馆凭空显现，玉石轻响，祥光流动",
+            "sound_en": "fairy pavilion appearing out of thin air, jade chiming softly, auspicious light flowing",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "随手一指",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 200,
+      "role": "黄猛",
+      "api": {
+        "voice": {
+          "role": "黄猛",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "这类楼台亭阁有好几十所，未现出的想必还有。休说通体琼瑶，难得如此成材的美玉，便室内陈设，也无一件不是人间稀见之珍，绝非寻常岁月可得聚敛。主人师徒正在勤于修为，岂有为了开府宾客数日之需，费上这样大的心血精力，物色营建，成此旷古未有的奇观巨制？",
+          "instruct": "内心独白，语气充满困惑和难以置信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 201,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "怎么想，也万无此理，益发断定前料不差，是个幻景。初来虚实未得，不便当着主人施为。等诸葛、秦二人转身辞出，黄、卓二人先取两件物事，用禁法一试，并无异状。再连房舍带用具依然行法解破，俱是原形未动。渐渐看出无一样是假的，才知敌人委实不可轻视，不禁大吃一惊。诸葛、秦二人原因九宫岩这几座馆舍与仙籁顶乙休下棋之所，以及诸神禽所居的老捕巢，相隔甚近，存心把众妖人安置在一起，明是分成三处，实则望衡对宇，相距咫尺。行时并说：",
+          "instruct": "叙述妖人试探后的震惊，语气带有讽刺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 202,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "开府尚有三数日，诸位师长事忙，无暇奉陪。各宾馆中如有同道，不问新知旧友，均可互作往还，结伴游行，宴集为乐。如需酒食，或仙猿仙兽们的食物，另有执役男女侍童，随时往来各处宾馆，略呼侍童，便即应声而至，一经示知，可立奉上。不过这些男女侍童都是入门未久，朴讷谨畏，师长法戒素严，只知执役承应，奉命惟谨，拙于应对。如有不周之处，尚乞原谅，免使受罚。",
+          "instruct": "语气恭敬，带着主人的安排"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 203,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一面又指给他们看。众妖人经过别的宾馆时，早就见到几个年约十二三的道装男女童子，都是一式打扮：男挽抓髻，女的垂髻，短发裁云，容颜美秀；一身碧绫短衣裤，上披翠叶云肩，白足如霜，下登葛履。手捧三尺玉盘，中贮酒果食物，贴地飞行，往来出入于各楼台亭馆之间。遇到高楼，径直飞上，也不见甚遁光云气随身。只是凌虚御空，上下如意，脚底好似有甚东西托住一样。最奇的是，不但装束相同，连年岁相貌，高矮胖瘦，无不相似。本来猜不透是什来历，听了主人之言，才知竟是仙府执役小童，十分惊异。接着一童子送了些酒果前来。其实这些童子是姜雪君前在仙山时，见洞庭东西两山有不少岁久通灵的古树，因是草木之灵，只凭日精月华与山川灵气滋润，尽管饶有灵性，均还未成气候，不能脱体变化。两山地大肥沃，居民日众，时受樵工砍伐，枉自咽风泣露，无计防御。觉着它们与人无害，成长修为不易，一时恻隐，趁着闲中无事，运用玄功和师门心法，度化了数十株，助其炼成形体，使其修为。近以成道在即，这些灵木功候仍差，既恐日后为恶人所伤，违了初愿；又恐樵工无知，妄加采伐。它们自恃有点法力，为了切身之痛，作怪伤人，无形造孽，多半已移向别处深山荒远之地。余剩还有三十六株，俱是杨梅、批粑、梅花之类，功候较深，又是东山名产。意欲乘着峨眉开府之便，采来点缀仙山，权当送妙一真人夫妻的礼物。因不愿徒众弟子为异派妖人执役，便令灵木的婴儿现形代替。这些木婴儿到底功候尚差，有的才只勉通人言，不能应对自如。虽仗媖姆仙法妙用，看去神奇，外人也不能加害，终与真人有异。黄猛等妖人俱都法力高强，远胜末流，只为初入仙府，便见许多灵异之迹，心志有点摇惑，以为敌人故意炫耀，这些侍童功力必然不浅。及至仙童送完酒果要走，卓远峰故意将他唤住，一问话，果然木讷，说话困难。再定睛仔细一看，目带青芒，面白似玉，尽管清秀绝伦，却是冷冷的，不带一丝血色。情知有异，方欲追诘询问，道童忙施礼回身外走。众妖人已经看出不是真人，只不知是甚精灵幻化。大力仙童洪大肚最是莽撞，见那道童生得灵秀可爱，见人却答不上话来，面有窘色，觉着好玩，想逗他一下，伸手便拉。哪知手才挨近，便似触电一般，当时反震回来，力大非常，人未拉着，手倒震得发麻。鬼焰儿朱赤午见状惊异，忙使妖法，将手一指，意欲将他禁住。哪知道童竟如无觉，连头也未回，便从容飞去。屠神子吴讼忙即拦阻，埋怨道：",
+          "instruct": "叙述侍童来历与妖人试探，语气从容"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "玉盘轻放",
+            "sound_cn": "侍童将玉盘轻轻放在桌上，瓷器轻碰",
+            "sound_en": "servant child setting down jade plate gently on the table, porcelain clinking softly",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "玉盘",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 42.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "反震",
+            "sound_cn": "手被反震回，闷响一声",
+            "sound_en": "hand bouncing back, a dull sound",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "反震",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 204,
+      "role": "吴讼",
+      "api": {
+        "voice": {
+          "role": "吴讼",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你们怎这般莽撞？我们与对方并无仇怨，此来为了何事？这些童子分明是樟柳神一类，主人用来执役，并无深意。正经事还未商议，却去考究这些无益之事则甚？我们成道多年，已入宝山，如若空手回去，休说要被外人耻笑，也实无以自解。我们只是看着好玩，无心作耍，倘因此引起敌人猜忌，下手岂不更难？黄道兄因见这些楼观陈设，便生戒心，其实不过是些珠玉珍宝，因有这么多，营建又如此精巧，便觉奇了。焉知不是七拼八凑，各处借来装点门面的呢？我们带有仙禽灵兽和猿长老的仙猿，都是极有力的帮手，哪能一点真实本领法力未见，便生退心？说出去也是笑话。我看不数日便是庚辰正日，敌人全数出面，党羽越多，闻说内中有不少能手。不乘他们忙于开府闭洞行法之时下手，到了正日，必更艰难。猿长老适才已当着敌人叙见，其实黄道兄过于谨慎，便做本来知交，又有何妨？你看人家将我们都安置在一起，哪有一点防备之心？敌人不是太傲，看不起我们，便是真个客多，人少事忙；正经主人又在洞内行法，不能分身，所以连个陪客的都没有，此时正好把那猿长老和龙山二妹请来此地，从长计议，赶紧下手，才是正理。时机稍纵即逝，悔之无及。",
+          "instruct": "语气阴沉，带着劝诫和谋划"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 205,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄猛道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 206,
+      "role": "黄猛",
+      "api": {
+        "voice": {
+          "role": "黄猛",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我因洞口的佛光，觉出洞中定有能者暗中主持。休看无甚防备，惟其托大，才见其有恃无恐。事情自是必办，不过总须慎重而行，免致闪失在这些后生小辈手里，将来无颜见人。",
+          "instruct": "语气带着谨慎和担忧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "峨眉仙府迎宾",
+        "start_line": 1,
+        "end_line": 5,
+        "prompt": "very subtle low volume background ambience, daytime at a celestial mountain peak, vast ancient stone plaza, gentle breeze carrying the scent of pines and cypresses, distant echoes of cranes and deer, majestic cloud-shrouded peaks, solemn yet welcoming atmosphere, deep guqin resonance subtly blending with the wind",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "东海海滨与天蓬山外",
+        "start_line": 5,
+        "end_line": 13,
+        "prompt": "very subtle low volume background ambience, desolate and rugged seashore, powerful waves crashing against cliffs, gulls crying in the distance, harsh wind blowing, sparse vegetation, the air is salty and humid, tense and unpredictable atmosphere, low rumbles of thunder",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "天蓬山绝顶灵峤宫",
+        "start_line": 17,
+        "end_line": 35,
+        "prompt": "very subtle low volume background ambience, high above the clouds on a mythical mountain, serene jade pavilions, gentle breeze through the branches of peach and apricot trees, soft rustling of leaves, distant sound of a waterfall, magical birds singing, pure and ethereal atmosphere, subtle yangqin shimmer in the background",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "青螺峪洞府内",
+        "start_line": 47,
+        "end_line": 61,
+        "prompt": "very subtle low volume background ambience, interior of a mountain cave dwelling, flickering light from an oil lamp, smooth stone walls, quiet and somewhat solemn, the air is still, a slight echo, faint sound of dripping water from a stalactite, contemplative and serious mood",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "天蓬山飞行与灵峤宫游历",
+        "start_line": 61,
+        "end_line": 110,
+        "prompt": "very subtle low volume background ambience, traveling through the sky on a cloud, vast expanse of sea and sky, sound of wind rushing past, a sense of speed and freedom, visiting magnificent celestial palaces, the atmosphere is lively and full of wonder, soft bamboo flute melody carried by the wind",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "前往峨眉途中",
+        "start_line": 111,
+        "end_line": 122,
+        "prompt": "very subtle low volume background ambience, flying swiftly across the night sky, moon and stars shining, clouds flowing like waves beneath, a vast and mystical celestial journey, silence of the void, wind howling gently, the group is heading towards a grand destination, a sense of quiet anticipation, pure and bright atmosphere, soft pipa plucks in the distance",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "峨眉仙府洞天（主殿与接待）",
+        "start_line": 123,
+        "end_line": 170,
+        "prompt": "very subtle low volume background ambience, inside the main hall of a celestial cave paradise, vast and grand, ancient timber and cool stone walls, gentle echo of footsteps, voices of immortals in conversation, harmonious and majestic atmosphere, a subtle and constant low hum of the earth's energy, punctuated by distant, clear chimes of jade",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "仙馆布置与绣云涧",
+        "start_line": 131,
+        "end_line": 160,
+        "prompt": "very subtle low volume background ambience, a quiet bamboo grove near a stream, gentle water sounds, occasional birdsong, the air is fresh and cool, small pavilions nestled among the rocks, a sense of secluded elegance, soft erhu melody in the distance",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "九宫岩仙馆群（妖人暂居）",
+        "start_line": 175,
+        "end_line": 206,
+        "prompt": "very subtle low volume background ambience, a cluster of resplendent pavilions at night, built of jade and gold, soft glow from lanterns, the atmosphere is deceptively peaceful, a subtle tension lingers, the air is still, a faint, distant sound of a wind chime, shifting and complex emotions, undercurrent of danger",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

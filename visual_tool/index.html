@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小说有声剧可视化工具</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:#0f0f14; color:#c9d1d9; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+/* ---- Top Nav ---- */
+#top-nav { background:#161b22; border-bottom:1px solid #30363d; padding:8px 16px; display:flex; align-items:center; gap:12px; flex-shrink:0; }
+#top-nav h1 { font-size:16px; color:#58a6ff; white-space:nowrap; }
+#top-nav button { background:#21262d; color:#c9d1d9; border:1px solid #30363d; padding:6px 14px; border-radius:6px; cursor:pointer; font-size:13px; }
+#top-nav button:hover { background:#30363d; }
+#top-nav button.accent { background:#238636; border-color:#2ea043; color:#fff; }
+#top-nav button.accent:hover { background:#2ea043; }
+#top-nav button.danger { background:#da3633; border-color:#f85149; color:#fff; }
+#gen-status { font-size:12px; color:#8b949e; margin-left:auto; }
+/* ---- Main Layout ---- */
+#main { display:flex; flex:1; overflow:hidden; }
+/* Panels */
+.panel { display:flex; flex-direction:column; border-right:1px solid #30363d; min-width:220px; }
+.panel:last-child { border-right:none; }
+.panel-header { background:#161b22; padding:10px 14px; font-size:13px; font-weight:600; color:#8b949e; border-bottom:1px solid #30363d; flex-shrink:0; display:flex; align-items:center; gap:8px; }
+.panel-body { flex:1; overflow-y:auto; padding:4px 0; }
+#left-panel { width:280px; }
+#center-panel { flex:1; min-width:360px; }
+#right-panel { width:340px; }
+/* ---- Tree ---- */
+.tree-item { padding:6px 16px; cursor:pointer; font-size:13px; display:flex; align-items:center; gap:6px; user-select:none; border-left:3px solid transparent; }
+.tree-item:hover { background:#1c2128; }
+.tree-item.selected { background:#1f2937; border-left-color:#58a6ff; }
+.tree-item .icon { font-size:14px; width:18px; text-align:center; flex-shrink:0; }
+.tree-item .name { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.tree-item .badge { font-size:11px; color:#8b949e; flex-shrink:0; }
+.tree-children { display:none; }
+.tree-children.open { display:block; }
+.tree-item.folder { color:#8b949e; }
+.checkbox { width:16px; height:16px; cursor:pointer; accent-color:#58a6ff; flex-shrink:0; }
+/* ---- Script Preview ---- */
+#script-preview { padding:16px; font-size:13px; line-height:1.6; }
+#script-preview h3 { color:#58a6ff; margin-bottom:8px; }
+.role-table { width:100%; border-collapse:collapse; margin:8px 0; font-size:12px; }
+.role-table th,.role-table td { border:1px solid #30363d; padding:4px 8px; text-align:left; }
+.role-table th { background:#161b22; color:#8b949e; }
+.script-line { padding:6px 0; border-bottom:1px solid #21262d; display:flex; gap:8px; }
+.script-line .lid { color:#8b949e; min-width:32px; font-size:11px; }
+.script-line .role { color:#d2a8ff; min-width:70px; font-size:11px; }
+.script-line .text { color:#c9d1d9; }
+/* ---- Output List ---- */
+.output-item { padding:8px 14px; border-bottom:1px solid #21262d; font-size:12px; }
+.output-item .ch-name { font-weight:600; margin-bottom:2px; }
+.output-item .audio-row { display:flex; align-items:center; gap:6px; margin-top:4px; }
+.output-item audio { height:28px; flex:1; min-width:0; }
+.output-item .dur { color:#8b949e; font-size:11px; white-space:nowrap; }
+.status-dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:6px; }
+.status-dot.generated { background:#3fb950; }
+.status-dot.none { background:#484f58; }
+/* ---- Log Panel ---- */
+#log-panel { height:200px; flex-shrink:0; border-top:1px solid #30363d; background:#0d1117; overflow-y:auto; padding:8px 14px; font-family:'Courier New',monospace; font-size:12px; line-height:1.5; display:none; }
+#log-panel .log-line { white-space:pre-wrap; word-break:break-all; }
+#log-panel .log-line.error { color:#f85149; }
+/* ---- Footer ---- */
+#footer { background:#161b22; border-top:1px solid #30363d; padding:6px 12px; font-size:11px; color:#484f58; flex-shrink:0; }
+/* Dark Audio */
+audio { filter:invert(0.85); }
+/* Loading */
+.spinner { display:inline-block; width:14px; height:14px; border:2px solid #30363d; border-top-color:#58a6ff; border-radius:50%; animation:spin 0.8s linear infinite; }
+@keyframes spin { to {transform:rotate(360deg);} }
+</style>
+</head>
+<body>
+
+<!-- Top Nav -->
+<div id="top-nav">
+  <h1>🎧 有声剧工具</h1>
+  <button onclick="refreshAll()">🔄 刷新</button>
+  <button class="accent" onclick="generateSelected()">▶ 生成选中</button>
+  <button class="accent" onclick="generateAll()">▶▶ 生成全部</button>
+  <button class="danger" onclick="cancelGenerate()" id="btn-cancel" style="display:none;">⏹ 取消</button>
+  <span id="gen-status"></span>
+</div>
+
+<!-- Main -->
+<div id="main">
+  <!-- Left: Script Tree -->
+  <div id="left-panel" class="panel">
+    <div class="panel-header">📁 剧本列表 <span style="font-size:11px;color:#484f58;">(多选)</span></div>
+    <div class="panel-body" id="script-tree"></div>
+  </div>
+
+  <!-- Center: Preview -->
+  <div id="center-panel" class="panel">
+    <div class="panel-header">
+      📄 内容预览
+      <span style="font-size:11px;cursor:pointer;margin-left:auto;color:#58a6ff;" onclick="toggleRawScripts()">📂 原稿</span>
+    </div>
+    <div class="panel-body" id="script-preview">
+      <div style="padding:40px;text-align:center;color:#484f58;">← 点击左侧剧本查看详情</div>
+    </div>
+  </div>
+
+  <!-- Right: Outputs -->
+  <div id="right-panel" class="panel">
+    <div class="panel-header">
+      📻 输出文件
+      <span style="font-size:11px;cursor:pointer;margin-left:8px;color:#3fb950;" onclick="openLab()">🔬 实验室</span>
+      <span style="font-size:11px;cursor:pointer;margin-left:auto;color:#58a6ff;" onclick="toggleVoices()">🎤 音色库</span>
+    </div>
+    <div class="panel-body" id="output-list"></div>
+  </div>
+</div>
+
+<!-- Log -->
+<div id="log-panel"></div>
+
+<!-- Footer -->
+<div id="footer">端口 8088 | 剧本路径: 小说批量工具/小说剧本 | 输出路径: output/</div>
+
+<!-- Raw Scripts Modal -->
+<div id="raw-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:40px;">
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:600px;margin:0 auto;max-height:80vh;display:flex;flex-direction:column;">
+    <div style="padding:12px 16px;border-bottom:1px solid #30363d;display:flex;align-items:center;">
+      <span style="font-weight:600;">📂 剧本原稿</span>
+      <span style="cursor:pointer;margin-left:auto;font-size:20px;" onclick="document.getElementById('raw-modal').style.display='none'">&times;</span>
+    </div>
+    <div class="panel-body" id="raw-list" style="padding:8px;"></div>
+  </div>
+</div>
+
+<!-- Voices Modal -->
+<div id="voices-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:40px;">
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:700px;margin:0 auto;max-height:80vh;display:flex;flex-direction:column;">
+    <div style="padding:12px 16px;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:8px;">
+      <span style="font-weight:600;">🎤 克隆音色库</span>
+      <input id="voice-search" placeholder="搜索音色..." style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:12px;flex:1;" oninput="filterVoices()">
+      <span style="cursor:pointer;margin-left:auto;font-size:20px;" onclick="document.getElementById('voices-modal').style.display='none'">&times;</span>
+    </div>
+    <div class="panel-body" id="voices-list" style="padding:8px;"></div>
+  </div>
+</div>
+
+<!-- Lab Modal -->
+<div id="lab-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:40px;">
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:700px;margin:0 auto;max-height:85vh;display:flex;flex-direction:column;">
+    <div style="padding:12px 16px;border-bottom:1px solid #30363d;display:flex;align-items:center;">
+      <span style="font-weight:600;">🔬 声音实验室</span>
+      <span style="cursor:pointer;margin-left:auto;font-size:20px;" onclick="document.getElementById('lab-modal').style.display='none'">&times;</span>
+    </div>
+    <div class="panel-body" id="lab-content" style="padding:16px;overflow-y:auto;">
+      <!-- TTS Tab -->
+      <h4 style="color:#58a6ff;margin-bottom:8px;">🗣 TTS 文本合成</h4>
+      <div style="display:flex;gap:8px;margin-bottom:4px;">
+        <input id="lab-tts-text" placeholder="输入要合成的文本..." style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:6px 10px;border-radius:4px;font-size:13px;">
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+        <input id="lab-tts-voice" list="lab-voice-list" placeholder="选择或输入音色名..." value="云健-低沉" style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:12px;">
+        <datalist id="lab-voice-list"></datalist>
+        <button onclick="previewLabVoice()" title="试听选中音色" style="padding:4px 10px;font-size:12px;">🔊 试听</button>
+        <select id="lab-tts-speed" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px;border-radius:4px;font-size:12px;width:80px;">
+          <option value="+0%">1.0x</option><option value="-10%">0.9x</option><option value="+10%">1.1x</option><option value="+20%">1.2x</option>
+        </select>
+        <select id="lab-tts-pitch" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px;border-radius:4px;font-size:12px;width:80px;">
+          <option value="+0Hz">0Hz</option><option value="+3Hz">+3Hz</option><option value="+6Hz">+6Hz</option><option value="-3Hz">-3Hz</option><option value="-6Hz">-6Hz</option>
+        </select>
+        <button class="accent" id="lab-tts-btn" onclick="labTTS()" style="padding:4px 12px;font-size:12px;">合成</button>
+      </div>
+      <div id="lab-tts-result" style="margin-bottom:12px;"></div>
+
+      <hr style="border-color:#30363d;margin:12px 0;">
+
+      <!-- SFX Tab -->
+      <h4 style="color:#58a6ff;margin-bottom:8px;">🎵 音效生成 (Woosh)</h4>
+      <div style="display:flex;gap:8px;margin-bottom:4px;">
+        <input id="lab-sfx-prompt" placeholder="英文提示词, e.g. old wooden door creaking open slowly..." style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:6px 10px;border-radius:4px;font-size:13px;">
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+        <label style="font-size:12px;color:#8b949e;">时长(s):</label>
+        <input id="lab-sfx-dur" type="number" value="5" min="1" max="30" step="0.5" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:12px;width:70px;">
+        <button class="accent" id="lab-sfx-btn" onclick="labSFX()" style="padding:4px 12px;font-size:12px;">生成音效</button>
+      </div>
+      <div id="lab-sfx-result" style="margin-bottom:12px;"></div>
+
+      <hr style="border-color:#30363d;margin:12px 0;">
+
+      <!-- BGM Tab -->
+      <h4 style="color:#58a6ff;margin-bottom:8px;">🎼 背景音生成 (Stable Audio 3)</h4>
+      <div style="display:flex;gap:8px;margin-bottom:4px;">
+        <input id="lab-bgm-prompt" placeholder="英文提示词, e.g. peaceful bamboo forest, birds chirping, gentle stream..." style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:6px 10px;border-radius:4px;font-size:13px;">
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
+        <label style="font-size:12px;color:#8b949e;">时长(s):</label>
+        <input id="lab-bgm-dur" type="number" value="30" min="10" max="300" step="5" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:12px;width:70px;">
+        <button class="accent" id="lab-bgm-btn" onclick="labBGM()" style="padding:4px 12px;font-size:12px;">生成背景音</button>
+      </div>
+      <div id="lab-bgm-result"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ---- State ----
+let scripts = [];
+let outputs = [];
+let selectedPaths = new Set();
+let currentTaskId = null;
+let currentPreviewPath = null;
+const expandedTree = new Set();  // 记录展开的小说节点，刷新/点击后保持
+
+// ---- API ----
+async function api(url, opts={}) {
+  const resp = await fetch(url, opts);
+  if (!resp.ok) throw new Error(`${resp.status}`);
+  const ct = resp.headers.get('Content-Type')||'';
+  if (ct.includes('json')) return resp.json();
+  return resp.text();
+}
+
+// ---- Refresh ----
+async function refreshAll() {
+  await Promise.all([loadScripts(), loadOutputs(), loadVoices()]);
+}
+
+async function loadVoices() {
+  try { voicesData = await api('/api/clone-voices'); } catch(e) {}
+}
+
+async function loadScripts() {
+  scripts = await api('/api/scripts');
+  renderScriptTree();
+}
+
+async function loadOutputs() {
+  outputs = await api('/api/outputs');
+  renderOutputs();
+}
+
+// ---- Render Script Tree ----
+function renderScriptTree() {
+  const el = document.getElementById('script-tree');
+  let html = '';
+  for (const novel of scripts) {
+    const nid = stableId('n', novel.name);
+    const isOpen = expandedTree.has(nid);
+    html += `<div class="tree-item folder" onclick="toggleTree('${nid}')">
+      <span class="icon">📁</span><span class="name">${esc(novel.name)}</span><span class="badge">${novel.chapters.length}章</span></div>`;
+    html += `<div class="tree-children${isOpen?' open':''}" id="${nid}">`;
+    // "全选/取消" 按钮
+    html += `<div class="tree-item" style="padding-left:32px;font-size:12px;color:#58a6ff;" onclick="event.stopPropagation();toggleNovelAll('${novel.name}')">全选/取消</div>`;
+    for (const ch of novel.chapters) {
+      const path = ch.path;
+      const checked = selectedPaths.has(path) ? 'checked' : '';
+      html += `<div class="tree-item ${currentPreviewPath===path?'selected':''}" style="padding-left:44px;" onclick="event.stopPropagation();previewScript('${escJS(path)}')">
+        <input type="checkbox" class="checkbox" ${checked} onchange="toggleChapter('${escJS(path)}',this.checked)" onclick="event.stopPropagation();">
+        <span class="icon">📜</span><span class="name">${esc(ch.name)}</span>
+        </div>`;
+    }
+    html += `</div>`;
+  }
+  el.innerHTML = html || '<div style="padding:16px;color:#484f58;">暂无剧本</div>';
+}
+
+function toggleTree(id) {
+  const el = document.getElementById(id);
+  el.classList.toggle('open');
+  if (el.classList.contains('open')) expandedTree.add(id);
+  else expandedTree.delete(id);
+}
+
+function toggleNovelAll(novelName) {
+  const novel = scripts.find(n => n.name === novelName);
+  if (!novel) return;
+  const allSelected = novel.chapters.every(c => selectedPaths.has(c.path));
+  for (const ch of novel.chapters) {
+    if (allSelected) selectedPaths.delete(ch.path);
+    else selectedPaths.add(ch.path);
+  }
+  renderScriptTree();
+}
+
+function toggleChapter(path, checked) {
+  if (checked) selectedPaths.add(path);
+  else selectedPaths.delete(path);
+}
+
+// ---- Preview ----
+let currentScriptData = null;
+
+async function previewScript(path) {
+  currentPreviewPath = path;
+  renderScriptTree();
+  try {
+    const data = await api(fileUrl(path));
+    currentScriptData = data;
+    renderPreview(data, path);
+  } catch(e) {
+    document.getElementById('script-preview').innerHTML = `<div style="padding:20px;color:#f85149;">加载失败: ${e.message}</div>`;
+  }
+}
+
+function renderPreview(data, scriptPath) {
+  const defs = data.roles_definition || {};
+  const lines = data.data || [];
+  const layers = (data.soundscape && data.soundscape.scene_layers) || [];
+  // 音色选项（来自已加载的克隆音色 + 剧本内出现的音色）
+  const voiceOpts = new Set(voicesData.map(v => v.name));
+  Object.values(defs).forEach(c => c.role_voice && voiceOpts.add(c.role_voice));
+  const voiceListId = 'preview-voice-list';
+
+  let html = `<div style="display:flex;align-items:center;gap:10px;margin-bottom:6px;">
+    <h3 style="margin:0;">${esc(data.chapter||'未命名')}</h3>
+    <button class="accent" onclick="saveScript()" style="padding:4px 14px;font-size:12px;" title="将当前所有编辑保存到剧本 JSON 文件（直接覆盖原文件）">💾 保存剧本</button>
+    <span id="save-status" style="font-size:12px;color:#8b949e;"></span>
+  </div>`;
+  html += `<p style="color:#8b949e;font-size:12px;">共 ${lines.length} 个片段 · ${Object.keys(defs).length} 个角色 · ${layers.length} 个背景音场景 · 修改后点「💾 保存剧本」写回文件；点行内「🔄」会先自动保存再重生成该行音频</p>`;
+  html += `<datalist id="${voiceListId}">${[...voiceOpts].map(v=>`<option value="${esc(v)}">`).join('')}</datalist>`;
+
+  // 背景音场景层
+  if (layers.length) {
+    html += `<h4 style="margin-top:12px;color:#58a6ff;">🎼 背景音场景</h4>`;
+    layers.forEach((layer, idx) => {
+      const rid = 'layer_' + idx;
+      html += `<div style="border:1px solid #30363d;border-radius:4px;padding:6px 8px;margin-bottom:6px;font-size:12px;">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <span style="color:#d2a8ff;">#${idx} ${esc(layer.name||'')}</span>
+          <span style="color:#484f58;">行 ${layer.start_line}~${layer.end_line}</span>
+          <button class="accent" id="${rid}_btn" style="padding:2px 10px;font-size:11px;margin-left:auto;" title="用下方提示词重新生成该场景背景音，替换 output/背景音/soundscape_layer_${idx}.wav" onclick="regenLayer('${escJS(scriptPath)}',${idx},'${rid}')">🔄 重生成背景音</button>
+        </div>
+        <div style="color:#8b949e;margin-top:2px;word-break:break-all;font-size:11px;">${esc((layer.prompt||'').substring(0,150))}${(layer.prompt||'').length>150?'…':''}</div>
+        <div id="${rid}_result"></div>
+      </div>`;
+    });
+  }
+
+  // 剧本片段（可编辑）
+  html += `<h4 style="margin-top:16px;color:#58a6ff;">📜 剧本片段（可编辑）</h4>`;
+  html += `<p style="color:#484f58;font-size:11px;margin-bottom:6px;">共 ${voiceOpts.size} 个音色可选；修改后点顶部「💾 保存剧本」写回，或点行内「🔄」自动保存并重生成</p>`;
+  const lblStyle = 'display:block;color:#6e7681;font-size:10px;margin-bottom:1px;';
+  for (const line of lines) {
+    const v = line.api?.voice || {};
+    const rid = 'line_' + line.id;
+    const effects = line.api?.effects || [];
+    const hasEffects = effects.length;
+    html += `<div class="edit-line" data-id="${line.id}" style="border:1px solid #21262d;border-radius:4px;padding:8px;margin-bottom:8px;">
+      <div style="display:flex;align-items:flex-end;gap:6px;margin-bottom:4px;">
+        <span style="color:#8b949e;font-size:11px;min-width:32px;padding-bottom:3px;">#${line.id}</span>
+        <div style="width:90px;"><label style="${lblStyle}">角色</label><input class="ed-role" value="${esc(line.role||'')}" title="角色名，如：旁白、魏青" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#d2a8ff;padding:2px 6px;border-radius:3px;font-size:11px;"></div>
+        <div style="flex:1;"><label style="${lblStyle}">音色（点击选择）</label><input class="ed-voice" list="${voiceListId}" value="${esc(v.role_voice||'')}" placeholder="点击选择音色" title="配音音色：点击弹出音色列表，或直接输入" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:2px 6px;border-radius:3px;font-size:11px;cursor:pointer;"></div>
+        <div style="width:56px;"><label style="${lblStyle}">语速</label><input class="ed-speed" value="${esc(v.speed||'+0%')}" title="语速，如 -10%(慢)/+0%/+10%(快)" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:2px 4px;border-radius:3px;font-size:11px;"></div>
+        <div style="width:56px;"><label style="${lblStyle}">音高</label><input class="ed-pitch" value="${esc(v.pitch||'+0Hz')}" title="音高，如 -3Hz(低)/+0Hz/+3Hz(高)" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:2px 4px;border-radius:3px;font-size:11px;"></div>
+        <button class="accent" id="${rid}_btn" style="padding:3px 10px;font-size:11px;" title="先自动保存本行，再重生成该行配音${hasEffects?'和全部音效':''}" onclick="regenLine('${escJS(scriptPath)}',${line.id},'${rid}')">🔄 配音</button>
+        <button id="${rid}_mix_btn" style="padding:3px 10px;font-size:11px;background:#21262d;color:#c9d1d9;border:1px solid #30363d;border-radius:6px;cursor:pointer;" title="按原逻辑重新混音该行（配音+音效），生成 混音/mixed_line_${line.id}.wav 查看效果" onclick="remixLine('${escJS(scriptPath)}',${line.id},'${rid}_mix')">🎚 混音</button>
+      </div>
+      <div id="${rid}_mix_result"></div>
+      <label style="${lblStyle}">台词文本</label>
+      <textarea class="ed-text" title="台词/旁白文本（TTS 合成内容）" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 6px;border-radius:3px;font-size:12px;min-height:38px;resize:vertical;">${esc(v.text||'')}</textarea>
+      <label style="${lblStyle}margin-top:2px;">语气指导 instruct</label>
+      <input class="ed-instruct" value="${esc(v.instruct||'')}" placeholder="如：庄重开场、感激、愤怒" title="语气/情绪指导，影响 TTS 情感表达" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 6px;border-radius:3px;font-size:11px;">`;
+
+    // 音效区块
+    if (hasEffects) {
+      html += `<div style="margin-top:6px;border-top:1px dashed #30363d;padding-top:4px;">
+        <label style="${lblStyle}">🎵 音效 (${effects.length})</label>`;
+      effects.forEach((eff, ei) => {
+        const eid = `${rid}_eff${ei}`;
+        html += `<div class="edit-effect" data-eidx="${ei}" style="background:#0d1117;border:1px solid #30363d;border-radius:3px;padding:4px 6px;margin-bottom:3px;">
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px;">
+            <input class="ef-name" value="${esc(eff.name||'')}" placeholder="音效名" title="音效名称（用于输出文件名）" style="width:110px;background:#161b22;border:1px solid #30363d;color:#d2a8ff;padding:1px 5px;border-radius:3px;font-size:11px;">
+            <input class="ef-keyword" value="${esc(eff.trigger_keyword||'')}" placeholder="触发关键词" title="从台词中截取的触发位置关键词" style="width:110px;background:#161b22;border:1px solid #30363d;color:#8b949e;padding:1px 5px;border-radius:3px;font-size:11px;">
+            <input class="ef-delay" value="${eff.trigger_delay!=null?eff.trigger_delay:''}" placeholder="延时s" title="trigger_delay 触发延时(秒)" style="width:50px;background:#161b22;border:1px solid #30363d;color:#8b949e;padding:1px 4px;border-radius:3px;font-size:11px;">
+            <input class="ef-dur" value="${eff.duration!=null?eff.duration:5}" placeholder="时长s" title="音效时长(秒)" style="width:50px;background:#161b22;border:1px solid #30363d;color:#8b949e;padding:1px 4px;border-radius:3px;font-size:11px;">
+            <button class="accent" id="${eid}_btn" style="padding:2px 8px;font-size:10px;margin-left:auto;" title="仅重生成该音效，替换 output/音效/effect_line_${esc(eff.name||'')}_${line.id}.wav" onclick="regenEffect('${escJS(scriptPath)}',${line.id},${ei},'${eid}')">🔄 重生成</button>
+          </div>
+          <textarea class="ef-prompt" title="sound_en 英文提示词（Woosh 生成依据）" style="width:100%;background:#161b22;border:1px solid #30363d;color:#c9d1d9;padding:2px 5px;border-radius:3px;font-size:11px;min-height:28px;resize:vertical;">${esc(eff.sound_en||'')}</textarea>
+          <input class="ef-cn" value="${esc(eff.sound_cn||'')}" placeholder="sound_cn 中文说明（对 sound_en 的翻译）" title="sound_cn 音效的中文描述，仅作说明，不影响生成" style="width:100%;margin-top:2px;background:#161b22;border:1px solid #30363d;color:#8b949e;padding:1px 5px;border-radius:3px;font-size:11px;">
+          <div id="${eid}_result"></div>
+        </div>`;
+      });
+      html += `</div>`;
+    }
+
+    html += `<div id="${rid}_result"></div></div>`;
+  }
+  document.getElementById('script-preview').innerHTML = html;
+  document.getElementById('script-preview').scrollTop = 0;
+}
+
+// 收集编辑后的行数据
+function collectEditedLines() {
+  const rows = document.querySelectorAll('#script-preview .edit-line');
+  const lines = [];
+  rows.forEach(row => {
+    const item = {
+      id: parseInt(row.dataset.id),
+      role: row.querySelector('.ed-role').value,
+      role_voice: row.querySelector('.ed-voice').value,
+      speed: row.querySelector('.ed-speed').value,
+      pitch: row.querySelector('.ed-pitch').value,
+      instruct: row.querySelector('.ed-instruct').value,
+      text: row.querySelector('.ed-text').value,
+    };
+    // 收集音效编辑
+    const effRows = row.querySelectorAll('.edit-effect');
+    if (effRows.length) {
+      item.effects = [];
+      effRows.forEach(er => {
+        item.effects.push({
+          idx: parseInt(er.dataset.eidx),
+          name: er.querySelector('.ef-name').value,
+          trigger_keyword: er.querySelector('.ef-keyword').value,
+          trigger_delay: parseFloat(er.querySelector('.ef-delay').value)||0,
+          duration: parseFloat(er.querySelector('.ef-dur').value)||5,
+          sound_en: er.querySelector('.ef-prompt').value,
+          sound_cn: er.querySelector('.ef-cn').value,
+        });
+      });
+    }
+    lines.push(item);
+  });
+  return lines;
+}
+
+async function saveScript() {
+  if (!currentPreviewPath) return;
+  const statusEl = document.getElementById('save-status');
+  statusEl.innerHTML = '<span class="spinner"></span> 保存中...';
+  try {
+    const lines = collectEditedLines();
+    const res = await api('/api/script/save', {method:'POST',body:JSON.stringify({script:currentPreviewPath,lines}),headers:{'Content-Type':'application/json'}});
+    if (res.error) { statusEl.innerHTML = `<span style="color:#f85149;">${esc(res.error)}</span>`; }
+    else { statusEl.innerHTML = `<span style="color:#3fb950;">✓ 已保存 ${res.lines} 行</span>`; setTimeout(()=>statusEl.textContent='',3000); }
+  } catch(e) { statusEl.innerHTML = `<span style="color:#f85149;">${e.message}</span>`; }
+}
+
+// 逐行重生成（先保存再重生成，确保用最新内容）
+async function regenLine(scriptPath, lineId, rid) {
+  await saveScript();  // 先保存编辑
+  labStreamRun(rid, '/api/script/regen-line', {script:scriptPath, line_id:lineId});
+}
+
+async function regenLayer(scriptPath, layerIndex, rid) {
+  labStreamRun(rid, '/api/script/regen-layer', {script:scriptPath, layer_index:layerIndex});
+}
+
+// 单个音效重生成（先保存再生成）
+async function regenEffect(scriptPath, lineId, effectIdx, eid) {
+  await saveScript();
+  labStreamRun(eid, '/api/script/regen-effect', {script:scriptPath, line_id:lineId, effect_idx:effectIdx});
+}
+
+// 按原逻辑重新混音该行（配音+音效）
+async function remixLine(scriptPath, lineId, mixRid) {
+  labStreamRun(mixRid, '/api/script/remix-line', {script:scriptPath, line_id:lineId});
+}
+
+// 通用：发起异步任务 + SSE 日志 + 停止切换（用于剧本编辑页的重生成）
+const streamState = {};
+async function labStreamRun(rid, url, payload) {
+  const btn = document.getElementById(`${rid}_btn`);
+  const resultEl = document.getElementById(`${rid}_result`);
+  if (streamState[rid]) {
+    if (streamState[rid].es) streamState[rid].es.close();
+    if (streamState[rid].taskId) api('/api/generate/cancel',{method:'POST',body:JSON.stringify({task_id:streamState[rid].taskId}),headers:{'Content-Type':'application/json'}});
+    streamState[rid] = null;
+    if(btn){btn.textContent='🔄 重生成';btn.classList.remove('danger');btn.classList.add('accent');}
+    resultEl.innerHTML = '<span style="color:#f0883e;font-size:11px;">已停止</span>';
+    return;
+  }
+  streamState[rid] = {};
+  if(btn){btn.textContent='⏹ 停止';btn.classList.remove('accent');btn.classList.add('danger');}
+  resultEl.innerHTML = '<div style="font-size:11px;color:#58a6ff;margin:4px 0 2px;"><span class="spinner"></span> 生成中...</div><div class="regen-log" style="max-height:220px;overflow-y:auto;background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:6px 8px;margin-top:2px;font-family:monospace;font-size:11px;line-height:1.5;color:#8b949e;white-space:pre-wrap;word-break:break-all;"></div>';
+  const logEl = resultEl.querySelector('.regen-log');
+  const statusLine = resultEl.firstElementChild;
+  try {
+    const res = await api(url, {method:'POST',body:JSON.stringify(payload),headers:{'Content-Type':'application/json'}});
+    if (res.error) { resultEl.innerHTML = `<span style="color:#f85149;font-size:11px;">${esc(res.error)}</span>`; streamState[rid]=null; if(btn){btn.textContent='🔄 重生成';btn.classList.remove('danger');btn.classList.add('accent');} return; }
+    const taskId = res.task_id;
+    if(streamState[rid]) streamState[rid].taskId = taskId;
+    const es = new EventSource(`/api/generate/log?task_id=${taskId}`);
+    if(streamState[rid]) streamState[rid].es = es;
+    es.onmessage = (ev) => {
+      try {
+        const d = JSON.parse(ev.data);
+        if (d.type==='log'||d.type==='error') {
+          logEl.innerHTML += `<div style="color:${d.type==='error'?'#f85149':'#8b949e'};">${esc(d.data)}</div>`;
+          logEl.scrollTop = logEl.scrollHeight;
+        } else if (d.type==='done') {
+          es.close(); streamState[rid]=null;
+          if(btn){btn.textContent='🔄 重生成';btn.classList.remove('danger');btn.classList.add('accent');}
+          if(statusLine) statusLine.innerHTML = '<span style="color:#3fb950;">✓ 生成完成，可到右侧输出列表试听</span>';
+          logEl.innerHTML += `<div style="color:#3fb950;">=== 完成 ===</div>`;
+          logEl.scrollTop = logEl.scrollHeight;
+          loadOutputs();
+        }
+      } catch(e) {}
+    };
+    es.onerror = () => { es.close(); streamState[rid]=null; if(btn){btn.textContent='🔄 重生成';btn.classList.remove('danger');btn.classList.add('accent');} };
+  } catch(e) {
+    resultEl.innerHTML = `<span style="color:#f85149;font-size:11px;">${e.message}</span>`;
+    streamState[rid]=null;
+  }
+}
+
+// ---- Outputs ----
+function fileUrl(path) {
+  // 逐段编码，保留斜杠
+  return '/api/file/' + path.split('/').map(encodeURIComponent).join('/');
+}
+
+// 记录展开状态（刷新后保持）
+const expandedEls = new Set();
+
+function stableId(prefix, key) {
+  // 基于内容生成稳定 ID
+  let h = 0;
+  for (let i = 0; i < key.length; i++) { h = ((h<<5)-h + key.charCodeAt(i))|0; }
+  return prefix + '_' + Math.abs(h).toString(36);
+}
+
+function renderOutputs() {
+  const el = document.getElementById('output-list');
+  let html = '';
+  let audioSeq = 0;
+  for (const novel of outputs) {
+    html += `<div style="padding:6px 14px;color:#8b949e;font-size:12px;font-weight:600;">📁 ${esc(novel.name)}</div>`;
+    for (const ch of novel.chapters) {
+      const chId = stableId('ch', novel.name + '|' + ch.name);
+      const chOpen = expandedEls.has(chId);
+      const totalCount = (ch.final_audios||[]).length + (ch.groups||[]).reduce((s,g)=>s+g.audios.length,0);
+      html += `<div class="output-item">
+        <div class="ch-name" style="cursor:pointer;" onclick="toggleEl('${chId}')">
+          <span class="status-dot ${ch.status}"></span>${esc(ch.name)}
+          <span style="color:#484f58;">${ch.status==='generated'? totalCount+'个音频':'未生成'}</span>
+          <span style="float:right;color:#484f58;">${chOpen?'▾':'▸'}</span>
+        </div>`;
+      html += `<div id="${chId}" style="display:${chOpen?'block':'none'};">`;
+      // 成品音频（顶层）
+      if ((ch.final_audios||[]).length) {
+        html += `<div style="padding:4px 0 2px 8px;font-size:11px;color:#3fb950;">🎬 成品音频</div>`;
+        for (const audio of ch.final_audios) {
+          html += audioRow(audio, ++audioSeq);
+        }
+      }
+      // 分组音频（每组默认折叠）
+      for (const g of (ch.groups||[])) {
+        const gId = stableId('g', novel.name + '|' + ch.name + '|' + g.name);
+        const gOpen = expandedEls.has(gId);
+        html += `<div style="padding:4px 0 2px 8px;font-size:11px;color:#d2a8ff;cursor:pointer;" onclick="toggleEl('${gId}')">📂 ${esc(g.name)} (${g.audios.length}) ${gOpen?'▾':'▸'}</div>`;
+        html += `<div id="${gId}" style="display:${gOpen?'block':'none'};">`;
+        for (const audio of g.audios) {
+          html += audioRow(audio, ++audioSeq);
+        }
+        html += `</div>`;
+      }
+      html += `</div></div>`;
+    }
+  }
+  el.innerHTML = html || '<div style="padding:16px;color:#484f58;">暂无输出</div>';
+}
+
+function audioRow(audio, seq) {
+  const rid = 'audio_' + seq;
+  const label = audio.line_id!=null ? `#${audio.line_id}` : '';
+  return `<div class="audio-row" style="padding-left:8px;flex-wrap:wrap;">
+    <span style="font-size:11px;flex:0 0 auto;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8b949e;" title="${esc(audio.name)}">${label} ${esc(audio.name)}</span>
+    <audio controls preload="none" src="${fileUrl(audio.path)}"></audio>
+    <span class="dur">${formatSize(audio.size)}</span>
+    <span style="font-size:12px;cursor:pointer;color:#58a6ff;" title="重新生成" onclick="showRegen('${escJS(audio.path)}','${rid}')">🔄</span>
+    <div id="${rid}" style="flex-basis:100%;"></div>
+  </div>`;
+}
+
+function toggleEl(id) {
+  const el = document.getElementById(id);
+  const open = el.style.display === 'none';
+  el.style.display = open ? 'block' : 'none';
+  if (open) expandedEls.add(id); else expandedEls.delete(id);
+  // 同步箭头
+  const header = el.previousElementSibling;
+  if (header) header.innerHTML = header.innerHTML.replace(open?'▸':'▾', open?'▾':'▸');
+}
+
+// ---- 单音频重新生成 ----
+const regenState = {};  // rid -> AbortController
+
+async function showRegen(path, rid) {
+  const box = document.getElementById(rid);
+  if (box.dataset.open === '1') { box.innerHTML=''; box.dataset.open='0'; return; }
+  box.dataset.open = '1';
+  box.innerHTML = '<span class="spinner"></span> 加载剧本信息...';
+  try {
+    const info = await api('/api/regen/info', {method:'POST',body:JSON.stringify({path}),headers:{'Content-Type':'application/json'}});
+    if (info.error) { box.innerHTML = `<div style="color:#f85149;font-size:11px;padding:4px;">${esc(info.error)}</div>`; return; }
+    box.innerHTML = renderRegenBox(info, path, rid);
+  } catch(e) {
+    box.innerHTML = `<div style="color:#f85149;font-size:11px;">${e.message}</div>`;
+  }
+}
+
+function renderRegenBox(info, path, rid) {
+  let inner = `<div style="background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:8px;margin:4px 0;font-size:12px;">`;
+  inner += `<div style="color:#8b949e;font-size:11px;margin-bottom:4px;">📜 ${esc(info.script||'')} · 第${info.line_id!=null?info.line_id:'?'}行</div>`;
+  if (info.regen_type === 'voice') {
+    inner += `<div style="margin-bottom:4px;"><span style="color:#d2a8ff;">${esc(info.role)}</span> <span style="color:#484f58;">[${esc(info.role_voice)}]</span></div>`;
+    inner += `<textarea id="${rid}_text" style="width:100%;background:#161b22;border:1px solid #30363d;color:#c9d1d9;padding:6px;border-radius:4px;font-size:12px;min-height:50px;resize:vertical;">${esc(info.text)}</textarea>`;
+    inner += `<button class="accent" id="${rid}_btn" style="padding:4px 12px;font-size:12px;margin-top:4px;" onclick="doRegen('${escJS(path)}','${rid}',true)">🔄 重新生成配音</button>`;
+  } else if (info.regen_type === 'sfx') {
+    inner += `<div style="margin-bottom:4px;color:#d2a8ff;">🎵 音效: ${esc(info.effect_name||'')}</div>`;
+    inner += `<div style="color:#8b949e;margin-bottom:4px;word-break:break-all;">${esc(info.prompt||'')}</div>`;
+    inner += `<button class="accent" id="${rid}_btn" style="padding:4px 12px;font-size:12px;" onclick="doRegen('${escJS(path)}','${rid}',false)">🔄 重新生成音效</button>`;
+  } else if (info.regen_type === 'bgm') {
+    inner += `<div style="margin-bottom:4px;color:#d2a8ff;">🎼 背景音: ${esc(info.scene_name||'')}</div>`;
+    inner += `<div style="color:#8b949e;margin-bottom:4px;word-break:break-all;">${esc(info.prompt||'')}</div>`;
+    inner += `<button class="accent" id="${rid}_btn" style="padding:4px 12px;font-size:12px;" onclick="doRegen('${escJS(path)}','${rid}',false)">🔄 重新生成背景音</button>`;
+  } else if (info.regen_type === 'chapter') {
+    inner += `<div style="margin-bottom:4px;color:#3fb950;">🎬 成品音频（整章）</div>`;
+    inner += `<div style="color:#f0883e;font-size:11px;margin-bottom:4px;">${esc(info.note||'')}（耗时较长，请耐心等待）</div>`;
+    inner += `<button class="accent" id="${rid}_btn" style="padding:4px 12px;font-size:12px;" onclick="doRegen('${escJS(path)}','${rid}',false)">🔄 重新合成整章</button>`;
+  } else {
+    inner += `<div style="color:#f0883e;">${esc(info.note||'该类型不支持单独重生成')}</div>`;
+  }
+  inner += `<div id="${rid}_result" style="margin-top:4px;"></div></div>`;
+  return inner;
+}
+
+async function doRegen(path, rid, useText) {
+  const btn = document.getElementById(`${rid}_btn`);
+  const resultEl = document.getElementById(`${rid}_result`);
+  // 停止逻辑
+  if (regenState[rid]) {
+    const st = regenState[rid];
+    if (st.es) st.es.close();
+    if (st.taskId) {
+      api('/api/generate/cancel', {method:'POST',body:JSON.stringify({task_id:st.taskId}),headers:{'Content-Type':'application/json'}});
+    }
+    regenState[rid] = null;
+    setRegenBtn(btn, false);
+    resultEl.innerHTML = '<span style="color:#f0883e;font-size:11px;">已停止</span>';
+    return;
+  }
+  regenState[rid] = {};
+  setRegenBtn(btn, true);
+  resultEl.innerHTML = '<span class="spinner"></span> 启动中...<div class="regen-log" style="max-height:100px;overflow-y:auto;background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:4px 6px;margin-top:4px;font-family:monospace;font-size:10px;line-height:1.4;color:#8b949e;"></div>';
+  const logEl = resultEl.querySelector('.regen-log');
+  const payload = {path};
+  if (useText) payload.text = document.getElementById(`${rid}_text`).value;
+  try {
+    const res = await api('/api/regen', {method:'POST',body:JSON.stringify(payload),headers:{'Content-Type':'application/json'}});
+    if (res.error) { resultEl.innerHTML = `<span style="color:#f85149;font-size:11px;">${esc(res.error)}</span>`; regenState[rid]=null; setRegenBtn(btn,false); return; }
+    const taskId = res.task_id;
+    if(regenState[rid]) regenState[rid].taskId = taskId;
+    // SSE 日志流
+    const es = new EventSource(`/api/generate/log?task_id=${taskId}`);
+    if(regenState[rid]) regenState[rid].es = es;
+    es.onmessage = (ev) => {
+      try {
+        const d = JSON.parse(ev.data);
+        if (d.type === 'log' || d.type === 'error') {
+          const color = d.type==='error'?'#f85149':'#8b949e';
+          logEl.innerHTML += `<div style="color:${color};">${esc(d.data)}</div>`;
+          logEl.scrollTop = logEl.scrollHeight;
+        } else if (d.type === 'done') {
+          es.close();
+          regenState[rid] = null;
+          setRegenBtn(btn, false);
+          // 拉取结果并展示
+          fetch(`/api/generate/status?task_id=${taskId}`).then(r=>r.json()).then(st=>{
+            resultEl.innerHTML = `<span style="color:#3fb950;font-size:11px;">✓ 已重新生成</span>
+              <audio controls autoplay src="${fileUrl(path)}?t=${Date.now()}" style="width:100%;margin-top:4px;"></audio>`;
+            loadOutputs();
+          });
+        }
+      } catch(e) {}
+    };
+    es.onerror = () => { es.close(); regenState[rid]=null; setRegenBtn(btn,false); };
+  } catch(e) {
+    resultEl.innerHTML = `<span style="color:#f85149;font-size:11px;">${e.message}</span>`;
+    regenState[rid] = null; setRegenBtn(btn, false);
+  }
+}
+
+function setRegenBtn(btn, running) {
+  if (!btn) return;
+  if (running) { btn.textContent='⏹ 停止'; btn.classList.remove('accent'); btn.classList.add('danger'); }
+  else { btn.textContent='🔄 重新生成'; btn.classList.remove('danger'); btn.classList.add('accent'); }
+}
+
+// ---- Generate ----
+async function generateSelected() {
+  if (selectedPaths.size === 0) { alert('请先勾选要生成的剧本'); return; }
+  const paths = Array.from(selectedPaths);
+  startGenTask(paths, {});
+}
+
+async function generateAll() {
+  if (!confirm('确定要生成全部剧本吗？这将执行 novel_batch_manager.sh')) return;
+  try {
+    const res = await api('/api/generate-all', {method:'POST',body:JSON.stringify({config:{}}),headers:{'Content-Type':'application/json'}});
+    currentTaskId = res.task_id;
+    startLogStream(currentTaskId);
+    document.getElementById('btn-cancel').style.display = 'inline-block';
+    document.getElementById('gen-status').innerHTML = '<span class="spinner"></span> 全量生成中...';
+  } catch(e) { alert('启动失败: '+e.message); }
+}
+
+async function startGenTask(paths, config) {
+  try {
+    const res = await api('/api/generate', {method:'POST',body:JSON.stringify({paths,config}),headers:{'Content-Type':'application/json'}});
+    currentTaskId = res.task_id;
+    startLogStream(currentTaskId);
+    document.getElementById('btn-cancel').style.display = 'inline-block';
+    document.getElementById('gen-status').innerHTML = `<span class="spinner"></span> 生成中 (${paths.length}章)...`;
+  } catch(e) { alert('启动失败: '+e.message); }
+}
+
+function startLogStream(taskId) {
+  const panel = document.getElementById('log-panel');
+  panel.style.display = 'block';
+  panel.innerHTML = '';
+  const es = new EventSource(`/api/generate/log?task_id=${taskId}`);
+  es.onmessage = (ev) => {
+    try {
+      const d = JSON.parse(ev.data);
+      if (d.type === 'log' || d.type === 'error') {
+        const cls = d.type === 'error' ? 'error' : '';
+        panel.innerHTML += `<div class="log-line ${cls}">${esc(d.data)}</div>`;
+        panel.scrollTop = panel.scrollHeight;
+      } else if (d.type === 'done') {
+        panel.innerHTML += `<div class="log-line" style="color:#3fb950;">=== 生成完成 ===</div>`;
+        panel.scrollTop = panel.scrollHeight;
+        es.close();
+        onGenDone();
+      }
+    } catch(e) {}
+  };
+  es.onerror = () => { es.close(); onGenDone(); };
+}
+
+function cancelGenerate() {
+  if (!currentTaskId) return;
+  api('/api/generate/cancel', {method:'POST',body:JSON.stringify({task_id:currentTaskId}),headers:{'Content-Type':'application/json'}});
+  onGenDone();
+}
+
+function onGenDone() {
+  currentTaskId = null;
+  document.getElementById('btn-cancel').style.display = 'none';
+  document.getElementById('gen-status').textContent = '';
+  loadOutputs();
+}
+
+// ---- Modals ----
+async function toggleRawScripts() {
+  const modal = document.getElementById('raw-modal');
+  if (modal.style.display === 'block') { modal.style.display='none'; return; }
+  modal.style.display = 'block';
+  try {
+    const data = await api('/api/raw-scripts');
+    renderRawList(data);
+  } catch(e) {
+    document.getElementById('raw-list').innerHTML = `<div style="padding:12px;color:#f85149;">加载失败</div>`;
+  }
+}
+
+function renderRawList(data) {
+  let html = '';
+  for (const group of data) {
+    html += `<div style="padding:4px 12px;color:#8b949e;font-size:12px;font-weight:600;">📁 ${esc(group.name)}</div>`;
+    for (const f of (group.files||[])) {
+      html += `<div class="tree-item" onclick="viewRawFile('${escJS(f.path)}')">📄 ${esc(f.name)}</div>`;
+    }
+  }
+  document.getElementById('raw-list').innerHTML = html || '<div style="padding:12px;">无原稿</div>';
+}
+
+async function viewRawFile(path) {
+  document.getElementById('raw-modal').style.display = 'none';
+  try {
+    const data = await api(`/api/raw-script/${encodeURI(path)}`);
+    if (typeof data === 'object') { currentScriptData = data; currentPreviewPath = path; renderPreview(data, path); }
+    else document.getElementById('script-preview').innerHTML = `<pre style="white-space:pre-wrap;padding:16px;font-size:12px;">${esc(data)}</pre>`;
+  } catch(e) {
+    document.getElementById('script-preview').innerHTML = `<div style="padding:20px;color:#f85149;">加载失败</div>`;
+  }
+}
+
+let voicesData = [];
+async function toggleVoices() {
+  const modal = document.getElementById('voices-modal');
+  if (modal.style.display === 'block') { modal.style.display='none'; return; }
+  modal.style.display = 'block';
+  voicesData = await api('/api/clone-voices');
+  renderVoices(voicesData);
+}
+
+function renderVoices(list) {
+  let html = '';
+  for (const v of list) {
+    html += `<div class="output-item" style="display:flex;align-items:center;gap:8px;">
+      <span style="flex:1;font-size:13px;">🎵 ${esc(v.name)}</span>
+      <audio controls preload="none" src="${fileUrl(v.path)}" style="height:24px;width:200px;"></audio>
+    </div>`;
+  }
+  document.getElementById('voices-list').innerHTML = html || '<div style="padding:12px;">无音色</div>';
+}
+
+function filterVoices() {
+  const q = document.getElementById('voice-search').value.toLowerCase();
+  renderVoices(voicesData.filter(v => v.name.toLowerCase().includes(q)));
+}
+
+// ---- Lab APIs ----
+async function openLab() {
+  document.getElementById('lab-modal').style.display = 'block';
+  // 加载音色列表填充 datalist
+  if (voicesData.length === 0) {
+    try { voicesData = await api('/api/clone-voices'); } catch(e) {}
+  }
+  const dl = document.getElementById('lab-voice-list');
+  dl.innerHTML = voicesData.map(v => `<option value="${esc(v.name)}">`).join('');
+}
+
+function previewLabVoice() {
+  const name = document.getElementById('lab-tts-voice').value;
+  const v = voicesData.find(x => x.name === name);
+  const resultEl = document.getElementById('lab-tts-result');
+  if (!v) { resultEl.innerHTML = `<span style="color:#f0883e;font-size:12px;">音色库中无「${esc(name)}」，将用零样本合成</span>`; return; }
+  resultEl.innerHTML = `<div style="font-size:11px;color:#8b949e;margin-bottom:2px;">🔊 音色试听: ${esc(v.name)}</div>
+    <audio controls autoplay src="${fileUrl(v.path)}" style="width:100%;"></audio>`;
+}
+
+// ---- Lab 生成状态管理 ----
+const labState = { tts: null, sfx: null, bgm: null };  // 存放各任务的 AbortController
+
+function setLabBtn(kind, running) {
+  const btn = document.getElementById(`lab-${kind}-btn`);
+  const labels = { tts: '合成', sfx: '生成音效', bgm: '生成背景音' };
+  if (running) {
+    btn.textContent = '⏹ 停止';
+    btn.classList.remove('accent');
+    btn.classList.add('danger');
+  } else {
+    btn.textContent = labels[kind];
+    btn.classList.remove('danger');
+    btn.classList.add('accent');
+  }
+}
+
+async function labRun(kind, url, payload, resultElId) {
+  const resultEl = document.getElementById(resultElId);
+  // 如果正在生成，点击即停止
+  if (labState[kind]) {
+    labState[kind].abort();
+    labState[kind] = null;
+    setLabBtn(kind, false);
+    resultEl.innerHTML = '<span style="color:#f0883e;font-size:12px;">已停止</span>';
+    return;
+  }
+  const ctrl = new AbortController();
+  labState[kind] = ctrl;
+  setLabBtn(kind, true);
+  resultEl.innerHTML = '<span class="spinner"></span> 生成中...（可点击停止）';
+  try {
+    const resp = await fetch(url, {
+      method: 'POST',
+      body: JSON.stringify(payload),
+      headers: { 'Content-Type': 'application/json' },
+      signal: ctrl.signal,
+    });
+    const res = await resp.json();
+    if (res.error) {
+      resultEl.innerHTML = `<span style="color:#f85149;">${esc(res.error)}</span>`;
+    } else {
+      resultEl.innerHTML = `<audio controls autoplay src="${fileUrl(res.path)}" style="width:100%;margin-top:4px;"></audio>
+        <span style="font-size:11px;color:#484f58;">${res.path}</span>`;
+    }
+  } catch (e) {
+    if (e.name === 'AbortError') {
+      resultEl.innerHTML = '<span style="color:#f0883e;font-size:12px;">已停止</span>';
+    } else {
+      resultEl.innerHTML = `<span style="color:#f85149;">${e.message}</span>`;
+    }
+  } finally {
+    labState[kind] = null;
+    setLabBtn(kind, false);
+  }
+}
+
+async function labTTS() {
+  const text = document.getElementById('lab-tts-text').value;
+  const voice = document.getElementById('lab-tts-voice').value||'云健-低沉';
+  const speed = document.getElementById('lab-tts-speed').value;
+  const pitch = document.getElementById('lab-tts-pitch').value;
+  if (!labState.tts && !text.trim()) { alert('请输入文本'); return; }
+  labRun('tts', '/api/lab/tts', {text,voice,speed,volume:'+0%',pitch}, 'lab-tts-result');
+}
+
+async function labSFX() {
+  const prompt = document.getElementById('lab-sfx-prompt').value;
+  const dur = parseFloat(document.getElementById('lab-sfx-dur').value)||5;
+  if (!labState.sfx && !prompt.trim()) { alert('请输入提示词'); return; }
+  labRun('sfx', '/api/lab/sfx', {prompt,duration:dur}, 'lab-sfx-result');
+}
+
+async function labBGM() {
+  const prompt = document.getElementById('lab-bgm-prompt').value;
+  const dur = parseFloat(document.getElementById('lab-bgm-dur').value)||30;
+  if (!labState.bgm && !prompt.trim()) { alert('请输入提示词'); return; }
+  labRun('bgm', '/api/lab/bgm', {prompt,duration:dur}, 'lab-bgm-result');
+}
+
+// ---- Utils ----
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function escJS(s) { return (s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"'); }
+function formatSize(b) { return b<1048576?`${(b/1024).toFixed(1)}KB`:`${(b/1048576).toFixed(1)}MB`; }
+
+// ---- Init ----
+refreshAll();
+</script>
+</body>
+</html>
