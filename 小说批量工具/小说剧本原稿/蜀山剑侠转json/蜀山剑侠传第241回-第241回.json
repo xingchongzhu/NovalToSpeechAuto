@@ -1,0 +1,2390 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第241回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-中年男性磁性声音"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-中年男性磁性声音",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "赵燕儿": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "周轻云": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "李英琼": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "癞姑": {
+      "role_voice": "云婷-电台,温柔",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "马湘": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "刘传德": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "刘传德兄": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "辛凌霄": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "妖尸崔盈": {
+      "role_voice": "九尾狐-魅惑,狐仙",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "0%"
+    },
+    "妖道": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第241回",
+          "instruct": "庄重开场，沉稳有力"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "voice_only"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "急难脱身 英云双遇险 玄机制敌 土木两无功 妖妇忙把飞刀放出，待要迎敌，并欲行使邪法暗下毒手。不防敌人来势神速已极，心念才动，青白两道剑光已经神龙驭空，交尾而至，迎着妖妇飞刀只一绞，便洒了半天血雨红星，在斜阳影里纷飞四散。同时妖妇邪法也正施为，扬手一片粉红色的香光，朝二人刚刚发出。一见飞刀被斩断，如此厉害，心胆皆寒，性命危急，哪还顾到邪法有无成效，不敢停留，怒啸一声，便纵遁光往回逃去。石、赵二人自是不舍，忙纵遁光追赶，晃眼追到妖窟。眼看妖妇飞星一般，往崖洞中斜射进去。石奇比较慎重，觉出妖妇伎俩不止于此，势穷力竭之际不往外逃，恐中诱敌之计，止住燕儿不令下去，自在空中将法宝、飞剑、本门太乙神雷一齐施为，向下打去。雷轰电舞，剑气纵横，不消半个时辰，便将燕儿先前未毁完的妖窟毁灭，连那危崖也被震塌。妖妇终未再见、拿不定妖妇是否潜伏在内。燕儿适才当先应敌，除恶心切，没防到妖妇血光之外又使妖法。虽然抵御尚远，扬手一雷，将那粉红色妖光震散，未被罩向身上，鼻间却已微微闻到一股腥香之气，渐觉四肢有些慵情，好似以前读书时春困情景。和石奇一说，料定中了一点邪毒，也甚疑虑。正想不出搜戮妖妇之策，忽见一点青萤破空而至，光小而强，晃眼将近，乃是一个高还不到二尺的小人。二人开府时，原见过凌云凤所收三小人。又知还有一个名叫玄儿的，现在韩仙子门下，正用灵药法力培养，使其成长。来人比云凤三小中的健儿虽大得多，但相貌相类，方疑是玄儿，果然料中，来者正是他。未等发问，便先述说：适才韩仙子在岷山水宫遥闻雷声，算知妖妇已由妖窟地底秘径遁走，因伏诛之期未至，不久自会相逢，不便穷追。还有燕儿已中妖妇迷阳香邪毒，仗着近日功力大进，又有开府时分赐的灵丹，虽无大害，但是邪毒已然侵入体内，久便蔓延，深入骨髓，不是寻常丹药可治。只有仙都鼎湖峰顶产有一种青灵草，性最寒凉，服后可以化去。此草峰上共有五株，根生石髓之中，不沾寸土，生根已逾千年。每三十年始一出生，过了生年，便即隐入石中不见。现正盛时，可速往采，以去邪毒，并备异日炼丹之用。事须从速，防被外人无心经过得去。说罢，作别自去。二人留他不住，只得回洞。燕儿忙取灵丹服下，才觉好些，依然阳旺。仗着童贞入道，根基又厚，尚能自制。除头脑时作昏胀，微微有些心烦性躁外，尚无大病。二人因所服灵药虽非上品，平日用以驱毒医病，却是药到回春，其效如神，而这次竟不能将邪毒去尽，大是惊讶。韩仙子又令速往，不敢耽延。好在洞中风雷禁制厉害，妖妇便来，也无妨害。又存有不少果实黄精之类，可以充饥，白猿无须外出觅食。便把仙都之行告知简氏兄妹，令和白猿守在洞中，谁也不许出洞一步。妖妇前来，无论使什伎俩，不可理会，决无他虑。为防万一，将洞口禁制照着师传灵符封闭，又用法术加上一层，以防白猿识得门户和出入方法，到洞外惹事。一切停当，同往浙江仙都山鼎湖峰飞去。刚把五株青灵草采到手内，便与周轻云相遇。燕儿和轻云曾在巫峡乌鸦嘴同学，原是总角之交，现又同门，情分比英琼更厚。燕儿说完前情，问知轻云此时无事，便邀她入川同除妖妇。轻云允了。燕儿把青灵草服了两叶，邪毒已去。当下三人一同赶回风火崖。一问简氏兄妹，妖妇去后并未再来。又同去把妖窟几乎翻了个过，也未寻到踪迹。轻云在洞中住了三日，作别回山修炼。燕儿因料妖妇必已逃远，急切间不敢来犯，挽留不住，欲送轻云一程。二人沿着巫峡上空飞行，燕儿忽想起前面不远正是乌鸦嘴儿时旧居，自从那年在云灵山被恩师髯仙度上峨眉，为了母老无依，向师哭求，蒙恩师亲带自己回家见母辞别，告以出家修道之事。慈云寺破后不久，恩师又托白云大师将老母接往成都，在辟邪村玉清观住了些日，再由玉清大师送往张琪兄妹家中居住，承张母以上宾之礼相待。自己还曾禀准恩师，先后省亲三次，连张母各奉服了两粒灵药。如今人极安健，可以放心。只蒙师马湘对己母子甚厚，头次归省，因初入师门，小心谨慎，又无灵药法力，只请母亲走后告知马湘出家之事，连面也未得见，以后便未再往旧居。久欲遇便前往探看，此时路过，又与轻云一路，正好同往拜访，送他两粒延年祛病的灵药，少报昔年恩义。便和轻云一说。轻云旧地重游，以马湘人好，又是父执至交，闻言连声赞好。略谈便即飞到，择一僻地降落，同往村中走进。寻到昔年蒙馆一同，才知马湘去年中举，蒙馆已然辞去。长寿县有一姓邓的财主，看中他人品学问，将女儿许配，今春迎娶，业已移居长寿县城内凤顶街。女家陪奁甚厚，夫妻相得，已不似昔年寒酸故态了。燕儿闻言好生欢喜，强要轻云折回长寿看望。周淳救马湘时，轻云已上黄山学道，只听乃父说马湘人品端正义气，不是寻常迂腐，乃患难之交。因回山心急，本想不去，禁不住燕儿小孩性情，一味软磨，只得把昔年与周、赵两家交好的几个村中父老分别略微看望，把准备救人的灵丹酬赠了些，重又往长寿县飞去。到了城外河坝无人之处落下，赶往城内凤顶街，迎头正遇马湘走来。燕儿喜叫了一声：",
+          "instruct": "舒缓叙述，节奏平和，交代前情，略带回忆沧桑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "青白两道剑光",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞剑破空",
+            "sound_cn": "青白两道剑光破空而出，龙吟般锐啸",
+            "sound_en": "sharp dragon-like whistle of green and white sword lights shooting through the air",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "trigger_keyword": "洒了半天血雨红星",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "血雨飞散",
+            "sound_cn": "飞刀被绞碎后血雨红星纷飞四散的细密声响",
+            "sound_en": "fine scattering sound of blood droplets and red sparks dispersing",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "怒啸一声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖妇怒啸",
+            "sound_cn": "妖妇惊愤怒啸的凄厉尖啸声，由近及远",
+            "sound_en": "piercing furious shriek of the demoness fading into distance",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "忙纵遁光追赶",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光急追",
+            "sound_cn": "二人遁光破空急追的呼啸声",
+            "sound_en": "rushing wind sound of two flying lights in pursuit",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "雷轰电舞",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神雷轰击",
+            "sound_cn": "太乙神雷连续轰击的震天巨响，山岳动摇",
+            "sound_en": "thunderous continuous explosions of divine thunder shaking the mountains",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "危崖也被震塌",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "崖壁崩塌",
+            "sound_cn": "危崖崩塌的巨大轰鸣声，碎石如雨滚落",
+            "sound_en": "loud rumbling collapse of the cliff, rocks tumbling like rain",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 24.0,
+            "trigger_keyword": "一点青萤破空而至",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青萤飞来",
+            "sound_cn": "青萤光点划破长空的尖细风声",
+            "sound_en": "faint whistling of a green firefly-like light approaching through the sky",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "作别自去",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青萤远去",
+            "sound_cn": "青萤光点飞离远去的渐弱风声",
+            "sound_en": "fading whistling sound of the green light departing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 35.0,
+            "trigger_keyword": "同往浙江仙都山鼎湖峰飞去",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "长途飞遁",
+            "sound_cn": "二人驾遁光长途飞行的持续破空声",
+            "sound_en": "sustained rushing wind of long-distance flying",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 42.0,
+            "trigger_keyword": "沿着巫峡上空飞行",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "巫峡飞遁",
+            "sound_cn": "沿巫峡上空飞行的风声，江水声隐约可闻",
+            "sound_en": "wind sound over Wuxia Gorge, faint river water below",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 48.0,
+            "trigger_keyword": "择一僻地降落",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "降落地面",
+            "sound_cn": "遁光降落的轻微风声，双脚落地声",
+            "sound_en": "soft landing sound as flying light descends, feet touching ground",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 52.0,
+            "trigger_keyword": "往城内凤顶街",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "街巷步行",
+            "sound_cn": "走在石板街巷的脚步声",
+            "sound_en": "footsteps on stone-paved street",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "马老师！",
+          "instruct": "惊喜呼喊，声音清亮充满喜悦"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "马湘早知燕儿遇仙学道之事，忽然相逢，又问知与好友之女同来访看，益发惊喜。忙把二人引去家内，匆匆说道：",
+          "instruct": "平静叙述，略带欢欣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "忙把二人引去家内",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "街巷脚步",
+            "sound_cn": "三人走在街巷中的脚步声",
+            "sound_en": "footsteps of three people walking together on the street",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "role": "马湘",
+      "api": {
+        "voice": {
+          "role": "马湘",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贤弟你来得好，尤妙的是与周贤侄女同来，这人一定可救了。",
+          "instruct": "惊喜欣慰，语气诚恳，带着多年重逢的激动"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿问故，才知马湘去年下场，病倒旅舍，多蒙一姓邓的老者延医赠银，百般照看，方得活命。中举之后，又以爱女许配。岳母除前房二子外，自生只此一女。全家待己均甚优礼。不料岳母和内弟媳日前忽患恶疮，群医束手，今已命在旦夕。邓家后园竹林中伏有怪异，时常为祟，婆媳二人病因也由于那日往后园竹林外走过而起。马湘适由邓家走出，欲往求神问卜，不料与周、赵二人相遇，知是仙人门下。那年燕儿归省走后，赵母服了髯仙留赐的灵丹，日益康强。听说轻云学道在前，想必法力更高，又是女子，难得不期而遇，认作天降救星，欲请轻云推情往治。轻云一口应诺。马湘大喜，立陪二人前往。先和乃岳说了，由马妻引轻云入内施治。燕儿闻说竹园有怪，欲往查看。邓家人已把后园视为畏途，均不敢往，仍是马湘陪去。刚近竹林，便闻到一股奇腥之味，马湘立说头晕要吐。燕儿料是极毒蛇虫，忙取一粒灵丹令马湘服了，退往前面。自入林中查看。马湘还不放心，燕儿立说无妨，井问竹林可否毁去。马湘说：",
+          "instruct": "叙述紧凑，渐入紧张，语速随情节推进渐快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "刚近竹林",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "踏入竹林",
+            "sound_cn": "踩在干枯竹叶上的沙沙脚步声",
+            "sound_en": "rustling footsteps on dry bamboo leaves",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "trigger_keyword": "一股奇腥之味",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "毒气嘶嘶",
+            "sound_cn": "毒气弥漫的轻微嘶嘶声，空气异常",
+            "sound_en": "faint hissing of toxic gas spreading through the air",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "立说头晕要吐",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "头晕声",
+            "sound_cn": "中毒者晕眩时发出的虚弱低吟",
+            "sound_en": "weak groan of dizziness and nausea",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "trigger_keyword": "忙取一粒灵丹",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "取药声",
+            "sound_cn": "从药瓶中取出丹药的细微碰撞声",
+            "sound_en": "soft clinking sound of taking a pill from the bottle",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "role": "马湘",
+      "api": {
+        "voice": {
+          "role": "马湘",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "主人久有此意，只恐引出怪物为害，未敢冒失。如今园门封锁，禁人走入。本想岳母愈后移居乡下，连园也不要了，何在这几百竿竹子？",
+          "instruct": "担忧谨慎，语气略显疲惫，带着后怕"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿便催马湘走去，略运玄功，屏着气息步入林内查看。这片竹林约有十亩方圆，俱是粗如碗口的大竹，翠竿入云，绿侵眉宇，密压压天光不透，看去景色阴森已极。那腥味只初到林边时随风吹来，入林反未闻到。燕儿自未把这类毒物放在心上，一路搜查过去。到处落叶满地，竹箭怒生，竹笋丛出，分明荒置已久。一会，把全林走了一多半，毫无迹兆，也不见有蛇虫怪物往来之迹。如非先闻奇腥之味，直以为是庸人自扰，事出猜疑。边想边往前走，忽见东北角上地势逐渐高起，成一土坡。顺坡前行，到了尽头，乃是一座假山。山旁土坡上有一竹亭，看出当初原是登临游观之地，只因年久失修，假山上半已然倾纪。山石纵横堆积，绿油油满生苔藓，肥鲜欲滴。因地势颇高，竹林俱在下面，坡上只有青草，稀落落长着十几竿竹子，俱不甚粗，天光独透。亭尚整齐未毁，石桌石墩俱全，由上望下，面前一片绿云，景颇清幽。看了一回，并无异处，正要走下。猛又闻到奇腥气味，好似就在身侧不远。忙又屏息看时，仍是一无所有，心疑怪物藏在假山腹内。方欲往假山脚下查看，忽听哧溜之声，起自亭外乱石堆中。寻声注视，猛见壁苔缝中有几点蓝光闪动，腥气也益发浓烈。定睛一看，那怪物果然藏在乱石堆中。那石缝阔仅数寸，看不见怪物头面身形，只现出黄豆大几只怪眼，蓝光闪变，明灭不已。怪物除目射蓝光外，余者似与苔藓一色。只听哧溜之声低而猛急，腥味随声而出，似在发怒喷毒，却看不见口在何处。燕儿因觉腥毒难闻，虽料怪物气候未成，只是毒重，无甚伎俩，但为防万一，先在前面下了禁制，挡住毒气，以防侵入，并防少时漏网。那怪物见人一味发威，急叫喷毒，凶睛闪闪，宛若星星，只不出来。燕儿准备停当，料它难逃，然后放出飞剑，一道青光射将上去，山石碎裂处，怪物一声怒啸，猛蹿出了半截身子。燕儿见这怪物形似壁虎，却长着一颗又扁又圆的如意头。前额生着一排怪眼，不下二三十只，明灭如电，光作暗蓝。眼下无鼻，阔腮之上生着一个寸许长的血口。口中无牙无舌，每一开张，便有一蓬十几根尺许长的红丝，蛇信一般喷将出来。每根上面各有如意形的小钩，出时又劲又直，收时却互相勾结，作成一个网形，往中缩进，吞吐绝快。腹下生着两列短足，前半身蹿出之势绝猛，到了地上伏定，一面仰望发威，一面身子不住伸缩。后半身行动却缓。待了一会，渐渐伸出全身，才知两半身强弱相差甚远。全长不过六尺，通体暗绿。前半截甚油滑坚细。后半身看去烂糟糟的，仿佛初蜕完的介贝之类，软若无骨，连行动也不方便。前后左右均有禁制阻隔，不能再进，初遇杀星，不知利害死活，还在喷毒，怒啸连声。燕儿越知无用，正待将它杀死，唤了主人来看。一眼瞥见怪物伏处，青草忽然焦黑了一大片，由怪物身侧起，好似野烧一般，往四外蔓延开去。才知怪物奇毒无比，如用飞剑杀死，难保不留下祸患，不敢冒失。忙将禁制缩小，将怪物困住，不令动转，并禁毒气流溢。然后飞身出林，欲令马湘请来轻云商议，想一善法处置。马湘说：",
+          "instruct": "紧张探索，步步惊心，语气随发现怪物而加剧，充满惊疑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "步入林内查看",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "竹叶沙沙",
+            "sound_cn": "在厚厚竹叶上走路的持续沙沙声",
+            "sound_en": "continuous rustling of walking through thick bamboo leaves",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "忽听哧溜之声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "哧溜怪声",
+            "sound_cn": "乱石堆中发出的低沉哧溜怪响",
+            "sound_en": "low sizzling and slithering sound from the rock pile",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "几点蓝光闪动",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "蓝光闪烁",
+            "sound_cn": "怪眼蓝光明灭闪烁的诡异微响",
+            "sound_en": "eerie soft pulsing of blue lights flickering",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "下了禁制",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "禁制施展",
+            "sound_cn": "施展禁制的低沉嗡鸣声",
+            "sound_en": "low hum of casting a magical restriction",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 17.0,
+            "trigger_keyword": "放出飞剑",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞剑出鞘",
+            "sound_cn": "飞剑出鞘的龙吟般清越剑鸣",
+            "sound_en": "clear dragon-like hum of the flying sword being released",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 19.0,
+            "trigger_keyword": "山石碎裂处",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "山石崩裂",
+            "sound_cn": "假山石被剑光击碎的爆裂声",
+            "sound_en": "cracking explosion of rocks splitting under sword light",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 21.0,
+            "trigger_keyword": "怪物一声怒啸",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "怪物怒啸",
+            "sound_cn": "怪物蹿出时的愤怒嘶啸声，尖利刺耳",
+            "sound_en": "sharp furious screech of the creature bursting out",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 27.0,
+            "trigger_keyword": "喷毒",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "毒气喷射",
+            "sound_cn": "红丝喷出毒气的嘶嘶喷射声",
+            "sound_en": "hissing sound of red filaments spraying venom",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 32.0,
+            "trigger_keyword": "青草忽然焦黑了一大片",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "毒草焦枯",
+            "sound_cn": "毒气使青草焦枯的轻微噼啪灼烧声",
+            "sound_en": "soft crackling of grass withering and blackening from poison",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 36.0,
+            "trigger_keyword": "飞身出林",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞身出林",
+            "sound_cn": "从林中飞身而出的破空声",
+            "sound_en": "whoosh of flying out from the bamboo grove",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "role": "马湘",
+      "api": {
+        "voice": {
+          "role": "马湘",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前闻了一点腥味，便觉头晕恶心。幸服灵丹后，待了一会，才得复原轻快。料知怪物毒重，不敢再进。以前岳家不时有人人园晕倒，往往大病数月，仅免于死。近日方始发觉园中有怪，可是为害已日烈。",
+          "instruct": "后怕担忧，语气凝重，带着劫后余生的感慨"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又说刚才久候燕儿不出，又无声息，心想燕儿尽管是仙人门下，终是年幼，学道日浅，正在愁急凝盼。一见安然走出，好生欣慰，忙问经过。燕儿笑答：",
+          "instruct": "叙述转为轻松"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "是个未成气候的怪东西，其形介乎壁虎、蜈蚣之间，毒重无比。除虽容易，恐留后患，拟请周师姊来，一同处置。",
+          "instruct": "轻松自信，语带笑意，不以为意"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正说之间，马湘的岳父邓和斋忽命下人前来探询，说妻媳二人本已疮毒溃发，同时晕绝，眼看不保，恰值周仙姑赶进房去，用身带灵丹半敷半服，将人救醒，当时所有奇痛奇痒、心烧体炙一齐止住。过了一会，人便能够起坐自如。仙嘱尚须静养，日内即可康复。全家感德万分。现因仙姑坚欲起身，因闻姑老爷陪了赵真人在后园除妖，主人正陪仙姑用茶，不能分身，特命前来探看事完也未。马湘把前事说未一半，主人父女已陪了周轻云一同走来。燕儿又说前事，轻云也未见过这类毒物。问知毒气已吃禁住，便邀主人、马湘一同往看。到了林内，见那怪物除首尾外，宛然一条七八尺的大蜈蚣，身上一样也有环节，尾上还有两个极锐利的钩子。看那形态，好似生自石堆之内，因山石太重，里面空隙仅容前半身，石缝又窄，急切间无法钻出。后半身又被紧压大石之下。先是蜷伏在内，日久长大，前半身尚能容纳，后半身难于回旋。及将空处填满以后，日常在石隙中磨挣，所以后半身较扁细，软烂如腐。照日前情状，似知石内难容，不能如愿，便发威狂喷毒气，不特奇腥难闻，喷射劲急，又在高处随风吹堕，落向竹林内外。人走过时，无心相值，或是闻到，或是被其沾身，均非受害不可。林间草木有十几处均现焦枯之状，便由于此。因染毒之处不大，又极零星，先未觉察。如此奇毒之物，气候已渐成长，早晚必被钻出。那时，人畜当之立毙，非但邓氏一家老少，全城生灵也无幸免。想不到无意之中去此大患，轻云自是欣慰称幸。略微商议，因毒太重，力求谨慎。燕儿又答应马湘，和轻云同去他家饮宴一回再走。主人闻说，又力请移尊，借地相款，略表寸心，意极真诚，不忍坚拒。轻云便令燕儿行法，将怪物就活的移往深山穷谷之中，用法力掘一深坑，再用大乙神雷将其火炼成灰，并且禁闭毒气腥味溢出地上，最后再用石土将坑填没，下上禁制。自己在当地运用法力，把怪物潜伏之处一齐用雷火炼过，并细搜查全园，有无同类遗孽潜伏，将这假山沉入地底深处，另起一座小山镇压其上，使无他虑，永绝后患。等到事完，分头走至马家相见，领了夜宴之后，一同起身。商议停当后，当下各施法力，依言行事。由于当初二人一到，便遇马湘，立即邀往邓家医疾除怪，事皆匆迫，却忘了嘱咐下人，又耽延了两个时辰，才行毕事。风声已传扬出去，左近得知邓家来了两位神仙，燕儿行前，又问附近可有什山野荒僻之地。主人答说：",
+          "instruct": "叙述平静，间有紧张，处理怪物过程"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "用太乙神雷将其火炼成灰",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "神雷炼怪",
+            "sound_cn": "太乙神雷轰击怪物，烈焰爆燃的震天巨响",
+            "sound_en": "loud explosion of divine thunder incinerating the creature in roaring flames",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "假山沉入地底深处",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "假山沉没",
+            "sound_cn": "假山缓缓沉入地底的沉闷轰鸣，大地震动",
+            "sound_en": "deep rumbling of the rockery sinking into the earth, ground trembling",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "role": "马湘",
+      "api": {
+        "voice": {
+          "role": "马湘",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "城外狮子山虽不甚高大，却有隐僻之地。",
+          "instruct": "平静应答"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿欲和马湘叙阔，只图近便，随口允了。一般好事乡邻，早就想入园中观看，主人再想隐秘，已是无及。下人恐主人斥责，不放进去，却告以神仙要往狮子山，雷劈妖怪，于是纷纷赶往。周、赵二人均未觉察，相隔不远，由燕儿相助，满园满林四处穷搜，迟延了些时，见无遗孽，才同起身。虽然飞行迅速，先行到达，可是坑刚掘好，众人跑得快的也相继赶到。燕儿人本随和，当地多是人家坟墓，埋怪之处虽然人不易至，到底太近，却又懒得再找远处。见人来看，事已众知，反觉可以借口传播，免得年久法力失效，被人误行发掘，万一毒气尚存，岂不又要害人？众见仙人是个不满二十岁的少年，甚是谦和，有问必答，便减去了好些敬畏之心，纷纷问长问短。燕儿一边随口应答，问出是由邓家下人泄露行藏，方悔忘了叮嘱。尚幸无多耽延，否则远近传扬。燕儿将怪物如法诛埋之后，正向众人分说：自己并非仙人，埋的乃是蜈蚣一类毒虫，也非怪物。有一师姊，只会治病，路过这里，少时即行。此举为免你们受害，不可招摇，使官府知道，当我姊弟妖言惑众，吃罪不起。忽见两人满头大汗飞跑而来，见了燕儿，便下拜道：",
+          "instruct": "叙述平缓，渐入突发，人群围观环境"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "纷纷赶往",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "人群嘈杂",
+            "sound_cn": "众人奔跑赶往狮子山的杂乱脚步声和喧哗声",
+            "sound_en": "chaotic running footsteps and murmuring of the crowd heading to Lion Mountain",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "众人跑得快的也相继赶到",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "人群聚拢",
+            "sound_cn": "人群围拢过来的嘈杂脚步声和说话声",
+            "sound_en": "sound of crowd gathering with footsteps and chatter",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "trigger_keyword": "两人满头大汗飞跑而来",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "急跑脚步",
+            "sound_cn": "两人急促奔跑而来的脚步声和喘息声",
+            "sound_en": "rapid running footsteps and heavy breathing approaching",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "role": "刘传德兄",
+      "api": {
+        "voice": {
+          "role": "刘传德兄",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "神仙老爷，快些救人！我们家老二被一丑妖怪捉向天上去了。",
+          "instruct": "焦急慌张，气喘吁吁，语无伦次"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿见这两人情急心慌，语无伦次，便道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你们有什事，要从头说。妖怪在哪里？",
+          "instruct": "耐心询问，语气平和，略带无奈"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "另一人边喘边答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "role": "刘传德",
+      "api": {
+        "voice": {
+          "role": "刘传德",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这是我大哥，他向来说不清白。我是他兄弟刘传德。在河坝一问刘家弟兄，哪个都晓得，不信，你老人家打听去。坟山上风水又好，我老二才进学当秀才没几天，怎么出这等怪事？不是天老爷不睁开眼睛吗？",
+          "instruct": "又急又乱，语速极快，带方言俚语"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿见这一个更不会说话，说了一大套，一句也未着题，旁观诸人都忍不住要笑。神态又极鄙俗，好生不耐，方欲令其解说正文。忽听叭的一声，先发话的一个喘息略定，猛伸手给刘传德一个嘴巴，骂道：",
+          "instruct": "叙述略带戏谑和无奈"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "叭的一声",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "掌掴声",
+            "sound_cn": "一记响亮清脆的耳光声",
+            "sound_en": "sharp and clear sound of a slap on the face",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "猛伸手给刘传德一个嘴巴",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "衣服摩擦",
+            "sound_cn": "伸手动作带动的衣料摩擦声",
+            "sound_en": "rustle of fabric as arm swings for the slap",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "role": "刘传德兄",
+      "api": {
+        "voice": {
+          "role": "刘传德兄",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "个老子你什么事都抢魂一样。你向神仙老爷说我不会说话，你会说话？老二被妖怪拖走好一阵，一句正经话莫说，反教龟儿子们好笑，看个老子弟兄报应。",
+          "instruct": "暴躁怒骂，粗鄙直率，方言浓重"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，刘传德停住了嘴，哎呀了几声，猛扑上去，一把抓住乃兄，怒喝：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "猛扑上去",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "拉扯声",
+            "sound_cn": "两人厮打拉扯时的衣料摩擦和扭打声",
+            "sound_en": "sounds of fabric rustling and grappling as they fight",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "role": "刘传德",
+      "api": {
+        "voice": {
+          "role": "刘传德",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "个老子好好跟神仙说话，你为什么要打我？个老子跟你妈的拼啦！",
+          "instruct": "愤怒回骂，方言粗俗，气急败坏"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿见这弟兄二人词色十分鄙俗，同胞兄弟有难正急，正话未说一句，先操同室之戈，不禁又好气又好笑。一面喝止，一面暗用禁法将二人隔开。正待追问，前面又跑来一人，接口道：",
+          "instruct": "叙述无奈带调侃"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "暗用禁法将二人隔开",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "禁法施展",
+            "sound_cn": "施展禁法的短暂嗡鸣，将二人分开",
+            "sound_en": "brief hum of magical restraint separating the two brothers",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "前面又跑来一人",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "跑近脚步声",
+            "sound_cn": "又一人跑近的脚步声",
+            "sound_en": "sound of another person running closer",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿见这人还比较明白，试一询问，才知刘家三兄弟中，老二传孝，文是秀才，又会武艺，人甚精明。日前在前村遇见一个相貌丑怪穿得极华丽的道姑，向一少年男子笑谈了几句，便随同走去。传孝和那少年素识，觉出道姑行径可疑，心中奇怪，尾随到了无人之处。道姑忽然回头，朝他做了一个媚眼，倏地抱了少年破空飞去。传孝不禁大惊，回来向人一说，都未深信。那少年又家在重庆，偶然经过，无从考实，也就拉倒。适才弟兄三人正在河坝给人管闲事，商量着由老二写状子，到县衙去托情。老二忽然走开，老大、老三因事要紧，非他不可，问人，说见他和一红衣道姑沿河走去。跟踪一追，果在前面。不禁想起前日所说，一追一喊，道姑便捉老二向空飞去，晃眼不见。刘氏兄弟先已听人说起邓家有神仙医病除害之事，因所管官司紧急，未暇随众往观。变生仓促，又有人一提醒，没命跑来。不料一个性暴，一个斯文，话未说明，自己弟兄反交了手。燕儿一听，便知弟兄三人均非善良，诛戮妖妇却所应为。又听说是个中年丑道姑，越发心动。再一细问相貌衣着，断定是夏三娘无疑，不由大怒。因已去远，恐追不上，不暇再掩众人耳目，立纵遁光，照所说方向追去。追出好几百里也未追上，只好回飞。归途忽见来路侧面山云开处，现出一片山峦。心想：“自己只照村民所指方向追赶，极易错过，沿途所见山岭，均非妖妇潜伏之地。这一小山稍微偏左，相隔甚近，妖妇虽然起身在前，但带着一个凡人，决飞不快，何不姑往一寻？”念头一转，立即便朝小山飞去。因见这山无什景致，方疑妖窟不会在彼，哪知山形甚奇：半面童秃平斜，无一足取，另一面却极险峻奇秀。刚一赶过山顶，便见有四亩大小一片平石，突出山腰危崖之上，云雾似海涛一般，正在滃然涌起。内中隐现一座极壮丽的楼观，飞楼一角，色彩鲜明，似新建成不久，尚未及被云包没。燕儿目力敏锐，一见便认出与前所毁妖妇旧居楼阁形式相同，又用的是左道中催云逼雾之法，料决无差。那云雾起得甚快，晃眼已将楼阁崖石一齐包没，稍缓须臾到来，便易被其瞒过。燕儿疾恶心甚，扬手把太乙神雷向前打去，一声霹雳，雷火横飞中，妖云先被震散，山石楼阁也被震塌了一大片。同时人也飞到，瞥见楼后还有崖洞。鉴于上次之失，恃有法宝护身，妖妇又是败将，一见楼倒塌处，只跑出一个赤身男子，哭倒在地，妖妇不见，立催遁光穿洞而入。进内一看，才知这洞也是新凿成不久，石色犹新，共只两层，并无出路。里层石室五间，四间尚未完成，只有一间修饰整齐，陈设华美。内中有一神态刁猾，秀才打扮的精壮少年，面上似现惊疑之色，妖妇并不在内。运用飞剑满洞扫荡，也无妖妇现出。喝问少年，正是刘传孝。估量妖妇就逃，也必不远，无心救此刁棍，便喝：",
+          "instruct": "叙述渐紧，追妖过程，充满紧张和果断"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "立纵遁光",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光飞起",
+            "sound_cn": "遁光冲天飞起的急促破空声",
+            "sound_en": "rushing wind as flying light shoots upward",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "追出好几百里",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "长途飞遁",
+            "sound_cn": "高速飞遁数百里的持续风声",
+            "sound_en": "sustained rushing wind of high-speed flying for hundreds of li",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "立即便朝小山飞去",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "转向飞行",
+            "sound_cn": "转向小山飞去的风声",
+            "sound_en": "wind sound of changing direction and flying toward the small mountain",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "扬手把太乙神雷向前打去",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "神雷轰击",
+            "sound_cn": "太乙神雷轰出的震天巨响，地动山摇",
+            "sound_en": "thunderous explosion of divine thunder, earth-shaking",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "山石楼阁也被震塌了一大片",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "楼阁崩塌",
+            "sound_cn": "楼阁和山石崩塌的轰鸣巨响",
+            "sound_en": "loud rumbling of pavilion and rocks collapsing",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 24.0,
+            "trigger_keyword": "立催遁光穿洞而入",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "穿洞而入",
+            "sound_cn": "飞身穿入洞内的破空风声",
+            "sound_en": "swishing sound of flying into the cave entrance",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "运用飞剑满洞扫荡",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞剑扫荡",
+            "sound_cn": "飞剑在洞内急速盘旋扫荡的剑鸣声",
+            "sound_en": "humming of flying sword rapidly circling and sweeping through the cave",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你被妖妇摄来，还不乘机逃回家去！",
+          "instruct": "急促催促，语气简短果断"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，未俟答言，便即匆匆退出。见败残楼阁已被雷火引燃。那赤身壮汉原已受了重伤，跪趴在地上挣命，见了燕儿，哭喊：",
+          "instruct": "叙述急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "败残楼阁已被雷火引燃",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "火焰燃烧",
+            "sound_cn": "楼阁被雷火引燃的噼啪燃烧声",
+            "sound_en": "crackling sound of flames burning the ruined pavilion",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿喝问：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "妖妇现在何处，你可知道？",
+          "instruct": "严厉质问，语气急促"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "壮汉答说：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿急道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我此时无心顾你，死活回头再说，也许有救。",
+          "instruct": "急促敷衍，全部注意力都在追敌上"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "声随人起，立纵遁光加紧赶去。燕儿遁光较快，追不一会，果见前面远远有暗赤光华闪动，算计可以追上，益发加紧飞驶，一味朝前猛追。满拟妖妇自来孤身独处，两次相逢，俱无党羽在侧，法力飞遁均不如己，早晚必可追上，为世除害。不料遁光太快，穷追已远，前面便是幻波池。妖妇与艳尸玉娘子崔盈本不相识，也是事有凑巧。妖妇自从上次旧巢穴中漏网，因看了仇人是峨眉门下，飞剑厉害，自知不敌，只得暂时息了报仇之想。另外觅了一个巢穴，用妖法建上楼阁，依然摄取壮男取补淫乐。行踪原极隐秘，偏是所居荒山恰当由川东去往依还岭的途间，空中时有妖人来往。那次妖妇出山，身才飞起，便遇见由幻波池被拒退出的一个相识妖人，见面互询别况。那妖人不知池中妖尸看他不上，还以为是圣姑遗偈不许男子入内，因而见拒，无意中告知妖妇，谈了一阵，便即别去。如今妖妇落荒逃走，见仇敌追赶甚急，眼看追上，忽然想起：“前面正是幻波池，崔盈与己虽不相识，同道人物，又当脱难之际，身是女子，不犯圣姑之禁，望门投止，必蒙延揽。即或洞门有仙法禁闭，未到开时，那地方深藏地底，上有灵泉神树掩蔽，外观不易看出，仇人必当穿地逃走。并且照前遇妖人所说，崔盈虽不能出，已能运用法力，多少可以得她之助。”想到这里，幻波池已在前面。妖妇以前曾经路过好几次，又得妖道日前指点，这时急不暇择，径直由密叶之中穿波而下。燕儿本觑准妖妇遁光急追，这一往下飞泻，看得更真。妖妇初次入池，下时慌张，瞥见树叶如刀，根根直立，又密又长，百忙中不暇行法开池将树枝揭起，穿入之处恰又在池的中心，灵泉环射成漩，往下急堕之处，势再一猛，池面头一层的树枝首被妖光扫折了一片，咔喳连声过处，现出一个丈许方圆的大洞，灵泉水光立即上映。因是不知底细，除当中水柱外，仅有灵泉射出的一层水幕，四面尽是空处。死星照命，一见有水，认定无差，没有避开正面，仍照直由水柱中心冲射下去。水被激起，高出池面，冒了一冒，再行下落。上面燕儿和妖妇几乎首尾相衔，百忙中先也以为妖妇想要穿地逃走，心中虽恐徒劳，追势并未少缓，反而更急。这一瞥见断枝丛中现出池面，因也初到，不知当地便是幻波池，只认作是长满水草的荒池，误疑妖妇想借水遁逃去，或是潜伏池中隐避一时。自己最近正精习水遁之术，正好一试，更不寻思，也往水中穿去。一心防备妖妇遁脱，正待运用水遁相机追索，偏巧入水稍侧，正是中心水柱边上。等到看出水幕下面空处，猛然想起当地形势与前在峨眉仙府李英琼所说的幻波池相同，遁光神速，又回落到下面。此时洞中妖尸王娘子崔盈因近日功候完满，只待时至脱身，想起圣姑玉牒连日又有几行不利的字迹顶示先机，中有两句，大意是说上面神树灵迹如有残毁，便是伏诛期近。因此心中害怕，戒备愈严，除原在洞中诸妖党外，再来的妖人十九以闭门羹对待。对那党羽众多后有靠山的，多借口圣姑遗偈不许男子涉足，洞门禁闭无法出入，脱困时至再当奉请，暂时难于延揽等，婉言拒绝。来人如再不知进退，强欲破关而入，也不强劝，只暗中运用原设禁制，使其知难而退。对于无什法力来历而又冒失妄想的寻常左道之士，便下手杀死，将生魂摄去祭炼妖法。用意是想借退去的人向外传说，真个脱困尚须三二年，以免呼朋引类，来往人多，生出枝节，于己不利；或将正教中仇人引了前来，难于应付。自从圣姑玉牒末次预言示警字迹出现，近两月来俱是如此作法，妖妇如何得知？这一误将遮盖池面的神树折断大片，更是犯忌。妖尸同了两个心腹，近来日常不断在前洞门内运用妖法回光返照，观察上面动静。这时正在计算圣姑预示所说，祸起之日将至，忽听池上枝叶断折及水响之声，紧跟着一道暗赤光华由中心水柱之中飞泻下来，大片残枝断叶也随着水云乱转，漩入水柱，飞舞而下。仰视上面水层，已映天光，现出一个大洞，不禁又急又怒。妖尸何等心毒手狠，也没等来人现身立定，一手指处，洞门开放，另一手便催动门口所设金水之禁，五行反应立生妙用。妖妇死得真冤枉，双足还未沾地，下降之势又是忒急，刚看出水柱之外环立五座洞门，尽多空处，欲遁出水外望门投止，叩关求见，猛觉身上一紧，那根水柱立变作一片金光裹向身上，才知不妙。因事出意外，想用法宝飞刀抵御，已是无及，连妖尸是什长相俱未看见，便已断送。总算妖尸要摄她生魂炼法，未用全力，只将其腰斩两段，没有被金水二遁绞成肉泥，形神俱灭罢了。事机绝快，妖尸刚把妖妇杀死，摄到生魂，又见一个道装少年驾着一道青光，由水柱外穿渡飞堕。认出是正教中人，心中一动，忽然变计，一面用妖法断了敌人退路，一面暗将禁法倒转，诱敌入网。燕儿刚发现妖妇被人腰斩，尸横地上，忽见身侧洞门开处，站定一个绝色道姑，正在扬手掐诀比划。燕儿知已误入幻波池，不是善地。此时如若知机回首往上强行冲出，去寻英琼等人计议，妖尸罗网未密，身又还能飞出洞外，也未始不能脱身。到底年幼气傲，好胜心重，见门内道姑神态妖淫，料定不是妖尸也是同党，方喝：",
+          "instruct": "叙述急剧紧张，追入幻波池，危机骤至"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "声随人起",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "纵身飞起",
+            "sound_cn": "纵身飞起的破空声",
+            "sound_en": "whoosh of launching into the air",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "暗赤光华闪动",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖光飞遁",
+            "sound_cn": "暗赤妖光在前方飞遁的呼啸声",
+            "sound_en": "whistling of dark red demonic light flying ahead",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "穿波而下",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "穿入池水",
+            "sound_cn": "冲入幻波池水面的巨大哗啦水声",
+            "sound_en": "loud splashing of plunging through the pool surface",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "咔喳连声过处",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "树枝折断",
+            "sound_cn": "神树枝叶被接连撞断的咔喳声响",
+            "sound_en": "series of cracking sounds as branches break",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "由中心水柱之中飞泻下来",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞泻入水",
+            "sound_cn": "妖光沿着水柱飞泻而下的水声",
+            "sound_en": "rushing water sound as demonic light descends through the water column",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "trigger_keyword": "水柱立变作一片金光",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金光爆发",
+            "sound_cn": "水柱骤然化为金光的剧烈嗡鸣",
+            "sound_en": "sudden intense hum as water column transforms into golden light",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "将其腰斩两段",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "腰斩声",
+            "sound_cn": "金光斩过身体的沉闷切割声响",
+            "sound_en": "dull cutting sound of golden light slicing through the body",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "道装少年驾着一道青光",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青光飞坠",
+            "sound_cn": "青色剑光飞坠入水的破空声",
+            "sound_en": "whistling of green sword light plunging down",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你是何人？这妖妇是否为你所杀？",
+          "instruct": "厉声质问，愤怒警惕，声音紧绷"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时迟，那时快，就这略一停顿之间，妖法已连原有禁制一齐发动，第三句话还未说完，猛觉天旋地转，道姑倏地失踪，眼前微微一暗。再仔细一观察，身已到了洞门以内，适见妖妇重又出现，一脸媚笑妖淫之态，手指燕儿，劝令降伏，免得死后还遭炼魂之惨。燕儿哪知厉害，闻言大怒，口中喝骂，手中连发太乙神雷，又施展法宝，身剑合一，朝妖尸飞去。妖尸也不发怒，飞了一个媚眼，一声巧笑，身形略晃，二次失踪。燕儿扑了一个空，地方又变，好似并非洞中，四外空荡荡地不见一人一物，只是暗雾沉沉，天似要低压到头上。燕儿还不知身已入阱，如非妖尸看中他的根骨神采和纯阳戒体，生了从来难有的爱心，早为五遁禁制所杀，步了妖妇后尘了。燕儿入伏失陷，暂且放过。且说周轻云在马湘夫妻家中久候燕儿不归，方在生疑，忽一下人奔入报说：",
+          "instruct": "叙述紧张，燕儿被困，转折急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "天旋地转",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "空间扭曲",
+            "sound_cn": "禁制发动时空间扭曲的低沉嗡鸣",
+            "sound_en": "low hum of spatial distortion as restriction activates",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "连发太乙神雷",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神雷连发",
+            "sound_cn": "太乙神雷在洞内连续轰击的巨响",
+            "sound_en": "continuous thunderous explosions of divine thunder within the cave",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "身剑合一",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "身剑合一",
+            "sound_cn": "身剑合一的剑鸣声",
+            "sound_en": "hum as body and sword merge into one",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云闻言大惊，暗怪燕儿疏忽，便追妖人，众目之下岂可如此炫露？人更好胜贪功，惟恐有失，急忙告辞，前往相助。主人见轻云神情匆迫，知难再留，只得允了。轻云不愿人们看见，仅问明所追方向，由主人陪往后院无人之处，匆匆破空而起。但因得信已迟，自难追上，去路方向却是正对。追了一阵，不见踪影，心中忧念，又疑追错方向。正在加紧前驶，沿途查看，拿不定主意，偶一回顾，后面追来一道光华，神速不在自己以下，光正不邪，但又不是峨眉、青城家数。料有原故，姑把遁光放缓一试。一会隔近，方觉出遁光眼熟，来人已经追到身前，竟是前在玉灵崖相助除妖的前辈女散仙青囊仙子华瑶崧。匆匆礼见之后，她便向轻云说：",
+          "instruct": "叙述转为焦急，轻云追出，节奏加快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "匆匆破空而起",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光起飞",
+            "sound_cn": "遁光急促破空飞起的呼啸声",
+            "sound_en": "rushing sound of flying light taking off hastily",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "后面追来一道光华",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "遁光靠近",
+            "sound_cn": "另一道遁光从后方快速接近的风声",
+            "sound_en": "wind sound of another flying light approaching from behind",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云闻说燕儿失陷幻波池内，好生愁急。久闻妖尸厉害，也不敢冒失孤身涉险。送走华瑶崧后，立催遁光，二次加紧飞驶。刚到依还岭上空，便遇神雕来迎，引去静琼谷中，与癞姑、英琼师徒相见，互相略说前事。英琼关心燕儿安危，听完又复催走。轻云道：",
+          "instruct": "叙述趋缓，商议对策"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "便遇神雕来迎",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣",
+            "sound_cn": "神雕高亢嘹亮的鸣叫声迎接",
+            "sound_en": "loud clear cry of the divine eagle greeting",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "雕翼风声",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "雕翼扑风",
+            "sound_cn": "神雕展翅飞来的强劲风声",
+            "sound_en": "strong wind sound of divine eagle's wings beating",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "青囊仙子曾说，此时不宜前往，少时还有妖尸两拨劲敌相继入洞。我们等第二拨人入洞，乘其应敌匆忙，无力兼顾之际前往，最为得计。只要步数不错，加点小心，连那两三日的洞中阻滞都可免去，岂不是好？事应今夜，心急恐反债事，还是听她的老谋深算，从容好些。",
+          "instruct": "冷静分析，沉稳持重，语气平和而坚定"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼因自己身带好几件至宝，中有两件开府新得的，又是圣姑所赐，可以抵御五遁之禁，再与轻云双剑合壁，更无吃人大亏之理。妖尸险毒，邪法厉害，易静尚且不敌，何况燕儿初出茅庐，法力有限，虽在开府时分得了两件法宝飞剑和师传道书，功力料是比昔精进，但决不是妖尸对手。身陷虎穴，人单势孤，夜长梦多，自以早去为是。闻言虽强不过，勉强应诺，但心中愁虑。挨到日落黄昏，袁星忽然入报，说有三男二女同时飞到幻波池旁山坡之上落下，匆匆密议了几句，两位道装女子首先飞入池底。内中一人正是前劝上官红拜她为师的金凫仙子辛凌霄；另一女子似是左道中人，法力颇高，却未见过，与辛凌霄一路同下。刚刚穿入池面波层，便见下面金光乱闪，妖尸五遁禁制似已发动。二女全不在意，由身侧发出一片五色精光护住全身，在金光环拥中，一路明灭变幻，往下飞堕，好似且斗且降，下势颇缓。遮盖池面的神树，先前已被妖妇夏三娘的遁光撞破了大片，现出池水。金光和彩光一斗，池上灵泉飞瀑立即干涸不流，只剩半截水柱和大片金光，拥着二女身外彩光，一同缓缓落了下去。一会，到了池底，二女便往东洞门内飞进，灵泉也未再喷出。跟着，与二女同来伏伺在侧的老少三人，面上各现喜色。内中一个黑髯道者，先由身畔取出三片形似树叶的法宝，分与每人一片，各取法宝在手，刚见遁光一闪，还未见其飞下，便同没了影子。看那行径，分明是令二女打头阵，诱敌开门，这老少三人却隐去身形，尾随在后，乘虚而入。钢羽隐身空中，注视下面，看得逼真。回令袁星入洞禀告，并说这男女五人只有那黑髯长身道者和一紫衣道装女子是有大来头的旁门人物，余下二男一女都是昆仑派中能手。英琼闻报，便对轻云说：",
+          "instruct": "叙述渐紧，时机将至，暗藏战前紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "三男二女同时飞到",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞遁落地",
+            "sound_cn": "五人先后降落在山坡上的风声",
+            "sound_en": "rushing sounds of five people landing on the slope",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "刚见遁光一闪",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "遁光闪没",
+            "sound_cn": "三人遁光一闪即没的轻响",
+            "sound_en": "soft flash and hum as three flying lights disappear",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "妖尸劲敌相次入洞，时机已至，可以去了。",
+          "instruct": "急切催促，语气坚定果断"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云却说：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这五人虽分两起入洞，实是卫仙客夫妻主持，仍只能算是一拨。并且事应夜间，此时尚早，欲速不达，早恐无益。",
+          "instruct": "冷静分析，从容不迫，条理分明"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼力说：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "燕弟年幼道浅，势孤力弱。妖尸凶毒无比，我也明知厉害，去了胜败难卜，但是我们宁愿陷身妖窟中三二日，也须先抢进去将人护住，才可无虑。万一因我二人去晚，出什差池，休说他娘青年守节，老来只此独子，我们也有失同门义气和平日好友情分，便爹爹和三叔，也必怪我二人见死不救。我看夜长梦多，难得池水不流，妖尸正对付那先后五个劲敌，此时乘虚而入定较容易。只要将燕师弟寻到，便暂时被困不能脱身，有我二人双剑和开府新得诸宝，人决不会为妖尸所伤。还是去吧。",
+          "instruct": "急切恳切，语气坚决，充满同门情义"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云也觉言之有理，正想向癞姑请教行止，如若一同失陷在内，如何应援。话未出口，忽听燕儿在幻波池洞门传音告急求救，三人忙取法牌如法静听。原来燕儿起初已然陷身在先天上遁禁制以内，因妖尸看出他道心坚定，神明朗澈，急切间不易摇动；又不舍当时杀害，意欲暂且软困。于是将禁法逐渐加重，磨其暴性；再以邪媚引诱，逼令甘心降服，不曾遽下毒手。不料卫仙客、金凫仙子辛凌霄夫妻二人，约了兀南公的转世爱妾、女弟子紫清玉女沙红燕，及前在昆仑门下与知非禅师、钟先生、游龙子韦少少等昆仑三友齐名，后犯教规被逐，现隐南海小流沙银泥岛的前辈散仙东方皓，还有沙红燕的前生兄长天煞真人沙亮，突然想好虚实兼下之策，同时入洞，复仇盗宝。妖尸一时疏忽，只顾纠缠燕儿，忽闻敌人来犯，忙赶往前洞，辛、沙二女已然飞降。因沙红燕法宝厉害，金水之禁无功，又当圣姑预示日期，心中惊疑。知道圣姑所设禁制，只有金水之禁仗着灵泉与内洞相通，稍可移用于外，威力虽也不小，比起洞内运用相差甚远，敌人如是能手，应变稍速，防身有宝，便难收效。只顾诱敌入洞，欲下毒手，谁知开门揖盗，后面还有三个强敌，用千古异宝天蝉灵叶隐了身形，乘隙飞入。谁知圣姑禁法厉害，具有无穷妙用，埋伏重重，外人至此，一触即发，多神妙的隐身法，也难全掩形迹，三人才一入洞，立生反应。妖尸正与辛、沙二女恶斗方酣，没防到此，几乎遭了暗算，就这样，仍闹了个手忙足乱。不由急怒交加，心恨仇敌刺骨，顿生恶念，竟将五遁禁制一齐发动，卫仙客等五人立被困住。妖尸本心不想伤害燕儿，只因应变仓促，未暇顾到，后天五行禁遁互为生化，燕儿被困，恰与卫仙客等邻近，遂被波及。虽仗妖尸不是专心对他，又有护身法宝飞剑和本门太乙神雷，不致遽危生命，但时候稍久，便难支持。此时，上下四方俱是戊土真气紧紧挤压，戊土神雷似雹雨一般打到，身外宝光飞剑均受紧压，寸步都难移动，险到万分。燕儿初被困时，明知易、李诸人就在岭上居住。因开府后奉命下山，领受传音法牌时，掌教师尊曾说此牌自用只可一次，不到万分危急不可轻用；并说幻波池之事，令由易、李诸女同门主持，无故不许参与；如有人传音告急，也须听本人指出名姓，始可前往，未指明的人，便接告急传音，也不许妄自行动。又想易、李、癞姑等女同门守在近侧已两三年，妖尸这等厉害，俱莫奈何。自己和英琼差不多同时拜师学道，平日哪一样均不如人，这时一入妖窟，便向她告急求救，虽是同门世交至好，到底不是意思。因此一味强挨，几次想以全力冲逃出洞，均未成功，反吃妖尸嘲笑。正在气急无奈，忽然情势大变，知道再不求援，命必难保，迫不得已，方始传音告急。这一来休说英琼，便轻云也忧急起来，匆匆听燕儿略说被困情景，立向癞姑作别，往幻波池飞去。此行原是旧游之地，仗有双剑合壁和牟尼珠等至宝，尽管知道洞中禁制和妖尸的厉害，易静那等法力尚且失挫，英琼仍是胆壮。轻云却较持重，飞到幻波池旁，忽招英琼下落，说道：",
+          "instruct": "叙述紧张，燕儿告急，二人商议入洞"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "传音告急求救",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "传音嗡鸣",
+            "sound_cn": "传音法牌发出的轻微震动嗡鸣",
+            "sound_en": "soft vibrating hum of the message talisman",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "戊土神雷似雹雨一般打到",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "戊土神雷",
+            "sound_cn": "戊土神雷如雹雨般密集轰击的沉闷巨响",
+            "sound_en": "dense hail-like heavy impacts of earth divine thunder",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前面便是妖窟，事情太险，不可造次。我们来得太急，毫未商议，万一此时妖尸将人困住，又去洞口防守，一被警觉，下手便难。第一步总要深入洞中，才能济事。上次随伯父入洞，故道依稀记得。师父道书也说妖尸一出困，洞中夹壁甬道五洞均可通连，任走一洞，只要记准五行五位方向，便走得通。还有灵泉水路，也是上下索回环流，五洞皆可通连。妖尸寝室在西洞，出困以后，便要迁到北洞上层，与众妖党一同盘踞，每月只有三日在西洞原处炼法。只是那入回处缩入两壁之间的门户，须用金刚大力神法将其抵住，始能飞入。当时因我误将妖尸惊动，不能再进。易师姊悟出西洞庚金属于肺部，外分五行，内藏五相，通体脉络贯通；并自壁间磊块寻到正经门户，同由中层走入，得至东洞，便入了腹地奥区，仍由伯父行法开门，我三人才得走进。今日虽无伯父相助，我们功力却非昔比。再者上次伯父引我们去时，事前不曾详为推算，又有圣姑禁法阻碍，好些机密之事，俱是到了当地才行发觉，参悟出来。这次得有师尊指点，虽说不曾详示，比起上次自较明白。我们如触动禁网，隐身法自然无效。因此偷进门去，妖尸和诸妖党也难发觉我们在洞内。再若谨慎一些，或是妖尸先前诱敌，门已开放，埋伏发动，得知趋避，就许侥幸混进去都说不定。似此明张旗鼓径直飞入，终非善法。",
+          "instruct": "冷静谨慎，条理分明，声音低沉而清晰"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼急道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 47,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我为急于救人，只想给他一个迅雷不及掩耳，突然冲入。周师姊话甚合理，就这么办好了。",
+          "instruct": "急切认同，决心已定，语气爽利"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，各将身形隐起，飞临树上一看，果空出一个大洞，水已不流。料知妖尸仍与劲敌相持，心中一喜，忙即降落。只见池底广场若砥，石色如玉，五色洞门五方环峙，倒有两洞门开。轻云因去西洞的壁间甬道以前曾经默记，难得西方洞门也是微开，妖党不见一人，意欲先往西洞一探。如能进入，便用声东击西之策，先扑妖尸老巢，照道书上所示，将圣姑禁制妖尸原神的法物如法略微移动，妖尸必然心惊魄悸，归救老巢。自己行法以后，立由昔日故道抄往东洞燕儿被困之所救人。事虽繁难，如能成功，却极有利；并且把人救到以后，逃走也较容易。无如英琼性急救人，话未及说，一见东边青色洞门微开，不知那是圣姑昔年为了异日诛戮妖尸预留下的妙用，内里埋伏一发，外面洞门便按五行生克变化微微开放，使后来的人得知洞中底细，便可按图索骥，辨明方向，循径飞入。此事连久在洞中的妖尸尚且茫然（因困身禁制虽吃有力同党相助破去，元神仍受一种极微妙的禁制）。此时以为劲敌入网，洞口已经全行封闭，正以全力对付敌人，所有妖党俱在一起，所以洞口内外空无一人。英琼以为轻车熟路，正是良机，大可乘虚直入，当先飞了进去。轻云既防她一人势单，又看出那是上次李宁佛法封闭的洞门，先前主意原未打定，继一想这是熟路，不过与妖尸明敌定所不免，如能直冲进去寻到燕儿，也是一样。反正不及阻止，便把遁光加急，紧追进去，与英琼做一起。刚打手势令其不要离开，晃眼已到内洞入口。耳听风雷之声甚是激烈，隐隐自内传来。同时前面也有石壁阻路，无可再进。二人忙即停住，细一观察，这地方甚是广大，壁色青紫，作两半合拢，当中微凸，甚为平滑，不似西洞石壁磊砢四出，却隐有无数血点。上面另有一条长约丈许的石笋，贴生两半之上，连洞带壁，形式恰似两片肝叶。前随李宁出洞时不曾留意及此，尚是初见。料知入口机关和两洞一样，必在壁上，便同探查，仗有前番阅历，居然悟出是在那根石笋上面。便同飞近壁顶，试把石笋往外一扳，却丝毫未动，势又不可用法宝飞剑毁损。耳听洞内水火风雷交响之声越发猛恶。英琼情急之下，猛运玄功改扳为推，一掌击向石笋头上，无意之中，竟将机关触动，神力到处，一片轰隆之声，石笋立往壁间陷入，仍和前次西洞情景差不多，现出一条甬道。二人虽觉不是以前出路，但知洞中门户秘径甚多，此外无路，更不寻思，一催遁光，便飞了进去。晃眼飞进二三里，见尽头之处似有两个左右相向的圆门。近前一看，门在壁上，一青一紫，均是浑成实质，宛如墙上画了两个圆圈，无可进入。二人正打不定主意，忽瞥见石壁圆门中心微微起伏，凹凸不停，青光隐泛，情知有异。英琼暗忖：",
+          "instruct": "叙述紧张，二人入洞破门，环环相扣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "各将身形隐起",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "隐身施法",
+            "sound_cn": "施展隐身法的轻微嗡鸣",
+            "sound_en": "soft hum of invisibility spell being cast",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "忙即降落",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "降落池底",
+            "sound_cn": "轻轻落在池底玉质地面上的脚步声",
+            "sound_en": "light footstep sound landing on the jade floor",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "当先飞了进去",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞入洞门",
+            "sound_cn": "飞身冲入洞门的破空声",
+            "sound_en": "rushing sound of flying through the cave entrance",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "一片轰隆之声",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "石笋陷入",
+            "sound_cn": "石笋陷入壁间发出沉重轰隆声",
+            "sound_en": "heavy rumbling of the stone pillar sinking into the wall",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "现出一条甬道",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "甬道开启",
+            "sound_cn": "甬道门户开启的沉闷摩擦声",
+            "sound_en": "grinding sound of the corridor passage opening",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "便飞了进去",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞入甬道",
+            "sound_cn": "遁光飞入甬道的破空声",
+            "sound_en": "whistling sound of flying into the corridor",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "“师命虽不许损毁洞中景物，看此情形，分明是入口为禁法封闭，并非真门。身边现有圣姑法宝，木遁青色，正好用这次新得的太乙玄戈试它一试，能破更好，不能也自无害。”想到这里，也没和轻云说，回手到法宝囊内取出一柄五寸来长，银光耀眼的小戈，往青门上一指，戈头上立有一股极强烈的白光，电一般往门中心射去。门心青光忽然大亮，一闪即住，跟着青雾飞涌，门便现出。方在惊喜，就这眨眼之间，猛听霹雳连声，由门内飞出一幢乌云。内中裹定一个披头散发，赤足裸背，身笼青气的美女；另外还有二男一女背向而立，两后一前，各有宝光护身。面向后的一男一女，一手发出无数青芒，一手发出大串碧火星，雨雹一般往身后来路打去，其疾如电，晃眼已自侧面飞过。二人慧目敏锐，刚认出这四人除一黑衣长髯道者未见过外，那主持乌云，手发阴雷的，正是沙红燕，那二少年男女正是卫仙客、辛凌霄夫妻，居然脱困逃走。心中一动，人已飞出甬道以外。猛又听一女子狂笑之声，紧跟着由紫门内飞出一个美妇人，如论容貌，比起先逃的沙、辛二女还美得多，神情尤为妖艳，料是妖尸无疑。方想乘其退敌之际混入门去，哪知妖尸并未穷追，只磔磔狂笑了几声，把手一指，两门青紫烟光又闪了两闪，忽全隐去不见，现出两个大宽圆门。先四人逃出，妖尸本由紫门追出，却由右边青门缓步走入，神态甚是从容。临去之时似有意又似无意地侧顾二人立处，作了一个狡笑。两门业全出现，烟火尽收，极似平日无事情景。二人隐身之法原本未撤，先见妖尸还不曾在意。及见朝己诡笑，神情虽极淫荡，二目隐蕴凶光，均觉有异。轻云心思更较细密，猛想起：",
+          "instruct": "紧张加剧，强敌逃出，妖尸出现，叙述节奏极快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "太乙玄戈",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "玄戈破门",
+            "sound_cn": "太乙玄戈射出极强白光的尖锐嗡鸣",
+            "sound_en": "sharp hum of Taiyi Xuan Ge emitting intense white light",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "霹雳连声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "霹雳巨响",
+            "sound_cn": "门内连续霹雳爆炸的震天巨响",
+            "sound_en": "series of thunderous explosions from within the door",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "飞出一幢乌云",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "乌云涌出",
+            "sound_cn": "乌云从门内喷涌而出的低沉呼啸",
+            "sound_en": "low rushing sound of dark clouds pouring out",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "trigger_keyword": "狂笑之声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖尸狂笑",
+            "sound_cn": "妖尸磔磔狂笑的阴森声响",
+            "sound_en": "eerie rasping laughter of the demon corpse",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 9.0,
+            "trigger_keyword": "两门青紫烟光又闪了两闪",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "烟光闪烁",
+            "sound_cn": "青紫烟光闪动后隐没的轻响",
+            "sound_en": "soft sizzle as green and purple smoke lights flash and fade",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "“沙红燕等男女四人由身侧飞过时，左手向后连发阴雷，右手掌中还握有青荧荧酒杯大小一团晶光，飞过以后，曾用此光往后一照。当时觉那青光似乎由自己和英琼身上照过，因是返身回照，一瞥而过，再看，人已飞出甬道。光并不强，仿佛一面小镜映日回光，在身上一闪，无什感觉。同时妖尸相继飞出，分了心神，不曾在意。此时妖尸诡笑可疑，并且全洞埋伏禁制俱已在她掌握，可以随意挪移应用，眼看强敌一齐安然逃走，只笑了几笑，便退了回去，不去追赶，更不近情。”心中十分奇怪，便止英琼暂缓追入。忽听另一个女子厉声喝道：",
+          "instruct": "叙述紧张，轻云警觉，发现蹊跷"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "青荧荧酒杯大小一团晶光",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "晶光闪烁",
+            "sound_cn": "青荧晶光闪烁照来的轻微嗡鸣",
+            "sound_en": "soft hum of green crystalline light flashing",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "role": "辛凌霄",
+      "api": {
+        "voice": {
+          "role": "辛凌霄",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无知峨眉贱婢，迟到今日，方始入洞行险。可知你们隐身法已被沙道友青乙神镜照了一照，现出了些形迹么？休说你们这些无知后辈，连我们也被妖尸擅用圣姑禁制困在此地，只遁走了沙道友一人，还将兀南公的镇山之宝毁了一件，才得脱身。其实你们该死，既知用法宝攻破乙木门户，为我四人开路，又有紫、青双剑，妖尸出时，正可双剑合壁上前夹攻，使她措手不及。如此则我们固不致被她困入丙宫重地，便你二人也不致便陷重围。如今妖尸已自警觉双剑威力，不与你们明斗。圣姑禁制玄妙，妖尸本是她孽徒，在此多年，备知妙用，加以妖法厉害。我三人虽然被困，终可脱险，再来报仇；你们休说脱身，连形神都难保了。此时五遁已被妖尸倒转，只有癸水一路可以得生。如能听我良言，以进为退。你二人如习水遁，只要寻到水源，速由昔日水路到那灵泉发源的方塘以内，用双剑合壁将那根银链斩断，破去水宫镇物，脱身虽未可必，有那双剑护身，命尚可以保住。我并非有厚于你们，特意传声指点，只因妖尸淫毒万恶，我恨妖尸远胜你们。我虽知道破法，无如为你二人所误，陷入火宫，不能往方塘，意欲假手，使五宫破去一宫，少减妖尸势焰罢了。塘中还困有一个少年，不知入门才得几时，便来犯此奇险，男子入洞，首犯禁条。如是你们一党，不会不知。听妖尸口气，又非左道门下。那锁链一断，于此人虽是不利，但妖尸将他看中，正可借以挟制。你们如若顾全此人，不消六个时辰，五遁禁制先后天互为生化，紫、青双剑受了先天庚金与反五行的后天丙火相生相克，多大法力也难主持运用，必可脱身而去。别的法宝更是无用，非到形神消亡之地不可，那你们就悔之无及了。你我虽是敌人，此时总算同在患难之中，理应同仇敌忾。有什仇怨，且俟灭了妖尸，再作计较。我有传声照形之宝，既能传话指点，又能略微观察你们行动，暗中相助，至少也能牵掣妖尸，少为你们之害。你们却被禁制阻隔，于我无所补益。只盼能为世人及同道除此未来大害，别的就不在话下了。",
+          "instruct": "传声急语，又恨又急，力竭声嘶，语速极快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "厉声喝道",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "传声回响",
+            "sound_cn": "辛凌霄厉声传音在洞壁间形成的尖锐回响",
+            "sound_en": "sharp echoing of Xin Lingxiao's harsh voice transmitting through the cave",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人听出是金凫仙子辛凌霄的口气，才知先逃四人才脱罗网，又陷火宫，只遁走了沙红燕一人。自己破那青门时，想是沙红燕由内飞出，觉出自己也是她的敌人，不但不承情，百忙中反用镜光照破一点形迹。自家的双剑精光宝气异常强烈，功力有限，未将剑光炼到无形无声地步。本门隐形法虽极神奇，终是初学，火候未到，本就难于掩藏，何况再为专破此法的异宝一照，自然现出形迹。互相查看，果然每人都有一线浅的剑光影子现出，不曾隐起。可恨沙红燕心毒可恶。又听燕儿已被困入水官方塘以内，更是骇异。同时话未听完，面前光景忽变，眼前倏地一暗，只听阴风怒号，万木悲鸣之声，宛如狂涛暴涌，震撼天地。身外一片沉冥，只两边暗影中各有一个圆洞，一青一紫，色甚鲜明，却无什光华，好似暗雾昏夜之中悬有两个青紫色的大灯笼，内里烟雾溟檬，什么迹象也看不出。暗忖：“事已至此，辛凌霄所说似是真情，不如听完再作打算。反正形迹已显，索性收法现身，双剑合壁，一面防身戒备，仍听下去。”听完以后，估量禁制阻隔，不知辛凌霄被困何处，没法还言，又恐妖尸警觉听去，也未回答。认定此时万无退理，水宫法物关系燕儿存亡，人不救出，虽不能破，但是灵泉发源之所的方塘却须寻到。深悔适才未入西洞之愚。当初去往东洞取宝，引发禁制，出时匆迫。这条道路虽说不曾默记，就是英琼自觉记得多半，一则秘径纵横交错，不能稍差；又经妖尸挪移禁制，大显神通，所有门户途径全都变易。除了硬冲乱撞，更无良策。辛凌霄虽说得凶，尚幸二人均持有防身法宝，心尚坦然。当时也查不出哪是门户途径，略微商议，径照先前现出青色圆门的一面，双剑合壁往前冲去。先还以为前面必有阻力，哪知冲了一阵，仍在暗雾之中，剑光以外，只是一片氤氲，冥黑如漆。休说妖尸妖党，什么也未遇上。轻云暗中算计：“照此迅速飞行，如在平时，少说也有四五百里途程，多长的甬道也应该走完。就说身入伏地，也应触动禁制，发生险阻，怎会飞了这些时刻，人物、洞室全未遇上，连先前风雷之声俱听不到？直似暗夜飞行辽海之上，到处虚空，渺无涯际。妖尸阴毒诡诈，越是这等情景，越觉可虑。”便把英琼止住，用本门传声之法悄声说道：",
+          "instruct": "叙述紧张诡异，二人陷入混元无极阵，充满压抑感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "阴风怒号",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "阴风呼啸",
+            "sound_cn": "阴风怒号的凄厉呼啸声",
+            "sound_en": "eerie howling of yin wind raging",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "万木悲鸣",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "万木悲鸣",
+            "sound_cn": "万木悲鸣如狂涛暴涌的声浪",
+            "sound_en": "mourning sound of countless trees like surging waves",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "trigger_keyword": "双剑合壁往前冲去",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "双剑合壁",
+            "sound_cn": "紫青双剑合壁的龙吟剑鸣声",
+            "sound_en": "dragon-like hum of purple and green swords combining",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我们飞了一阵，毫无动静，敌人突一发动，必定厉害，不必说了。最可虑的是，彼暗我明，彼逸我劳，妖尸知我们双剑威力难敌，不出明斗，只在暗中运用圣姑所设埋伏闹鬼。我们只管加急飞驶，其实并未离开原地。妖尸断定我们落了圈套，守在一旁，耗得我们时日一久，心中焦躁，气懈神疏，或是双剑分开，然后猛下毒手，我们就不免吃亏了。如今燕弟尚在困中，听辛凌霄之言，妖尸对他别有奸谋，暂时虽无大害，终须寻到才能放心。还有卫氏夫妻恩将仇报，始终视我们为敌，她的话本不可尽信，必有深机在内。幸她误以为同门师兄弟必知此问禁忌，男的不会前来，没想到燕弟是我们一路，提醒我们戒心。虽还不至于被她利用，误用双剑斩断灵源锁链，使燕弟遭池鱼之殃，但是目前我们连方向途径都辨不出，如何能冲到那灵泉发源的小池边去呢？",
+          "instruct": "传声低语，冷静分析中暗藏深重忧虑"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼忿道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 55,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我也如此想法。上次我们往紫云宫，在离明岛玄龟殿吃韦青追及，用阵法困住，不能冲出，便与今日情景相似。本心想用神雷法宝一试，因师父不许损毁此洞，又听易师姊说这类颠倒乾坤五行挪移大法，误入它的阵地，最须小心。不把出户查明，如若妄用法宝雷火，往往无效，有的还要生出极强反应，转伤自己；再不便是你攻得越猛，它的阻力也越大，生克变化更加厉害：所以踌躇不决。妖尸不肯明斗，分明借着洞中仙阵软困我们。照此下去，多么难受！我想圣姑和我们有缘，既许我们来承受她的仙府，又赐我们许多法宝，以她神通广大，法力无边，今日之事必已早在算中。长此相持也不是事，莫如我们先向圣姑通诚求助，然后试用太乙神雷和你我的法宝试上一试。成固可喜，如真触动禁制，反应厉害，尚有白眉师祖的牟尼珠可以护身，当无大害。你看如何？",
+          "instruct": "急切倔强，带决心和一丝急躁"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云略一寻思，答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 57,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "只好如此了，别的不说，但能发现一点水道，就有望了。",
+          "instruct": "无奈同意，仍存一线希望"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，二人刚向圣姑祝告完毕，忽听辛凌霄远远急喊道：",
+          "instruct": "叙述紧张"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "role": "辛凌霄",
+      "api": {
+        "voice": {
+          "role": "辛凌霄",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我适才所说的话，已被妖尸用邪法偷听出几句，你们已被困在圣姑混元无极阵内，任你们上下四外无论如何飞驶，只能在阵中方丈以内。妖尸算计你们决不能脱，又以全力向我三人进攻，适才之言已无什用。此阵须人主持，妖尸现与我们对敌，你二人身侧必有妖党。可乘妖尸不在，速用法宝飞剑向其左右两边连发出去，也许发现主持此阵的妖党。只要将他杀死，或使其败逃，门户立现。那时可速往有红色的门洞甬道飞入，你我两下里合力夹攻妖尸，就不能除害，人总可以逃出毒手了。",
+          "instruct": "急喊传音，力竭声嘶，字字紧迫，气息不稳"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "远远急喊",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "传音急呼",
+            "sound_cn": "辛凌霄从远处传来的急迫传音回响",
+            "sound_en": "urgent echoing voice of Xin Lingxiao transmitting from afar",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人听辛凌霄初发话时已似吃力，说到后来竟似力竭声嘶，在彼强挣之状，情知卫仙客等三人必在危急之中，因想自己出力往援，故此改变适才先破水宫的方略，教自己破阵以后，由红色甬道穿入火宫，名为夹攻妖尸，实是助她脱险。不禁心中好笑，先前口气那样狂妄自尊，到了急难之际，仍以巧语求助。但是所说必有道理，二人本来说要发动，便故意说道：",
+          "instruct": "叙述中带讥诮，轻蔑不屑"
+        },
+        "effects": [],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "口中互说着话，暗中早准备停当。话未说完，各自冷不防把手往左右两旁一扬，太乙神雷首先连珠发出，同时，又各把新由师传的几件法宝往侧发去。霹雳连声，雷火光中果然发现英琼右侧不远，甬道口上立有一个披发仗剑禹步掐诀的妖人影子，似为神雷小伤，神色仓皇，待要遁去。二人飞剑何等神速，一眼瞥见，立似电掣一般，连人带剑一齐飞上前去。那妖人行法之处本在甬道口内，外有一层极神妙的禁制，便是神雷也难伤他。只为心贪好胜，一味想要逞能立功，以博妖尸欢心。先以敌人双剑神奇，还自小心，及见二人只顾在阵中急飞，状甚焦灼，好似别无伎俩，渐渐大意疏忽起来。暗忖：“此阵现在由己主持运用，上下四方任敌所往，均可随心变幻，使其永在圈中，无计逃脱。双剑厉害，能奈我何？如能乘机加上自身法力，将敌人生魂摄去，岂不也叫玉娘子看重？”越想越对，便走出甬道口外，正赶周、李二人停住剑光在彼计议。妖道不知自己忘了妖尸之嘱，一出甬道口外，便入险地，不特易被敌人发觉，急切间甬道中所伏的木火之禁也难于应用，一心还在妄想伤人。见敌人二次前飞，心方高兴，待下毒手暗算，猛瞥见敌人手朝自己这面一拨，立有震天价的霹雳雷火，夹着一道梭形金光同时打到，骤出不意，隐身闪避，均所无及，仗着玄功变化，未遭惨死，只受了一点伤。又惊又怒之下，便把法宝放出抵御，同时准备法宝如若无功，退回甬道，发动土火二遁威力，去伤害敌人。峨眉镇山之宝紫、青双剑乃天府奇珍神物，不比寻常，周、李二人近来功力又深好些，身剑合一，来势比电还疾。妖道正在雷火环攻之中张皇惊愤，瞬息之间，青、紫两道光华已如飞虹电射，卷上身来。那准备运用的是面尺多长的妖旗，也就刚刚展动，一片殷红如血的妖光邪焰方由旗上飞起，狂风卷云一般朝前飞去，势甚神速。这面妖旗专一污损正教中法宝飞剑，敌人只要被血光罩上，立即失心昏迷，倒地晕死，原极阴毒厉害，为那妖人平生祭炼一件性命相连之宝，费了许多心血光阴，连经几次险难阻碍，才得成功。用以防身御敌，就是敌人太强，至多不胜，本身也从未受过什伤害。此时受伤之后，明知双剑神奇，仍欲肆毒，不曾遽然遁却，一半也为恃有此宝之故。谁知恶贯满盈，紫、青双剑来势更快，非但不畏妖邪，并还似以石击卵，一触即碎，血光未及展布，剑光已罩向妖人身上。青、紫二色会合的长虹，只闪得一闪，血光首被绞散。妖人方始心寒胆裂，待运玄功变化逃命，无奈当时情势急迫万分，连容他悔恨痛惜转念的空隙都没有，如何能再抵御施为。妖旗分裂，血光消散，尚还未尽，紫、青双剑紧跟着往前一压一卷，一声惨号过处，血肉纷飞，残骸四散，就此了帐。",
+          "instruct": "叙述极速，高潮决战，双剑斩妖，一气呵成"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "太乙神雷首先连珠发出",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神雷连发",
+            "sound_cn": "太乙神雷连珠轰击的震天巨响",
+            "sound_en": "continuous thunderous explosions of divine thunder",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "霹雳连声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "霹雳炸响",
+            "sound_cn": "霹雳连续炸响的震耳欲聋声",
+            "sound_en": "series of deafening thunderclaps",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "青紫两道光华已如飞虹电射",
+            "trigger_offset": -0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双剑合壁",
+            "sound_cn": "紫青双剑合壁如飞虹电射的龙吟长啸",
+            "sound_en": "dragon-like whistling of purple and green swords combining like a rainbow",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "trigger_keyword": "妖旗分裂",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "妖旗碎裂",
+            "sound_cn": "妖旗被剑光绞碎的撕裂脆响",
+            "sound_en": "sharp tearing sound of the demon flag being shredded",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "一声惨号",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖道惨号",
+            "sound_cn": "妖道临死前发出的凄厉惨号",
+            "sound_en": "piercing scream of the demonic Taoist in his final moment",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "血肉纷飞",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "血肉飞散",
+            "sound_cn": "血肉残骸四散飞溅的声响",
+            "sound_en": "splattering sound of flesh and blood scattering",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ],
+        "mix": {
+          "mode": "mix"
+        }
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "风火崖与旅途",
+        "start_line": 1,
+        "end_line": 13,
+        "prompt": "very subtle low volume background ambience, mountain cliff cave dwelling at high altitude, cool thin air and gentle mountain wind, distant birds calling in valleys, faint rustle of bamboo leaves outside the cave, occasional water dripping from stalactites, peaceful cultivation atmosphere, soft xiao flute with ethereal breath, no sharp sounds, no voices, no music melody, no repetitive loop feeling",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "邓家竹林除怪",
+        "start_line": 5,
+        "end_line": 13,
+        "prompt": "very subtle low volume background ambience, dense ancient bamboo grove, thick canopy blocking most sunlight, damp earthy smell, continuous soft rustle of bamboo leaves in breeze, occasional creak of old bamboo stalks, faint subterranean hissing of toxic gas seepage, eerie and oppressive atmosphere with decaying vegetation undertones, deep guqin resonance with low drone, no voices, no music melody, no repetitive loop feeling",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "狮子山埋怪与追妖",
+        "start_line": 14,
+        "end_line": 24,
+        "prompt": "very subtle low volume background ambience, open hillside with scattered graves and wild grass, afternoon breeze, distant crowd murmuring and footsteps, occasional excited chatter of onlookers, tense and hurried atmosphere, low drumbeat and pipa tremolo, no voices, no music melody, no repetitive loop feeling",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "追妖斗法入幻波池",
+        "start_line": 24,
+        "end_line": 34,
+        "prompt": "very subtle low volume background ambience, wild mountainous terrain and mysterious pool, rushing wind at high speed, faint splash of magical spring water, distant crackle of divine thunder, dark and dangerous energy in the air, urgent and tense atmosphere, low dizi and guzheng tremolo, no voices, no sharp foreground sounds, no repetitive loop feeling",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -28,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "幻波池洞内激战",
+        "start_line": 35,
+        "end_line": 61,
+        "prompt": "very subtle low volume background ambience, deep underground jade palace, echoing thunder and howling wind, clashing elemental forces, swirling smoke and light, chaotic magical energies, high tension battle atmosphere, low resonant gong and sharp string tremors, no voices, no music melody, no repetitive loop feeling",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -28,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

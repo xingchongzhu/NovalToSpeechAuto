@@ -23,9 +23,12 @@ body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; backg
 .panel:last-child { border-right:none; }
 .panel-header { background:#161b22; padding:10px 14px; font-size:13px; font-weight:600; color:#8b949e; border-bottom:1px solid #30363d; flex-shrink:0; display:flex; align-items:center; gap:8px; }
 .panel-body { flex:1; overflow-y:auto; padding:4px 0; }
-#left-panel { width:280px; }
-#center-panel { flex:1; min-width:360px; }
-#right-panel { width:340px; }
+#left-panel { width:240px; flex-shrink:0; }
+#center-panel { flex:1 1 auto; min-width:360px; }
+#right-panel { width:300px; flex-shrink:0; }
+/* ---- Resizer 拖拽分隔条 ---- */
+.resizer { width:5px; flex-shrink:0; cursor:col-resize; background:#30363d; transition:background 0.15s; }
+.resizer:hover, .resizer.dragging { background:#58a6ff; }
 /* ---- Tree ---- */
 .tree-item { padding:6px 16px; cursor:pointer; font-size:13px; display:flex; align-items:center; gap:6px; user-select:none; border-left:3px solid transparent; }
 .tree-item:hover { background:#1c2128; }
@@ -51,7 +54,7 @@ body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; backg
 .output-item { padding:8px 14px; border-bottom:1px solid #21262d; font-size:12px; }
 .output-item .ch-name { font-weight:600; margin-bottom:2px; }
 .output-item .audio-row { display:flex; align-items:center; gap:6px; margin-top:4px; }
-.output-item audio { height:28px; flex:1; min-width:0; }
+.output-item audio { height:34px; flex:1 1 100%; min-width:200px; }
 .output-item .dur { color:#8b949e; font-size:11px; white-space:nowrap; }
 .status-dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:6px; }
 .status-dot.generated { background:#3fb950; }
@@ -89,6 +92,8 @@ audio { filter:invert(0.85); }
     <div class="panel-body" id="script-tree"></div>
   </div>
 
+  <div class="resizer" data-target="left"></div>
+
   <!-- Center: Preview -->
   <div id="center-panel" class="panel">
     <div class="panel-header">
@@ -100,11 +105,15 @@ audio { filter:invert(0.85); }
     </div>
   </div>
 
+  <div class="resizer" data-target="right"></div>
+
   <!-- Right: Outputs -->
   <div id="right-panel" class="panel">
     <div class="panel-header">
       📻 输出文件
       <span style="font-size:11px;cursor:pointer;margin-left:8px;color:#3fb950;" onclick="openLab()">🔬 实验室</span>
+      <span style="font-size:11px;cursor:pointer;margin-left:8px;color:#d2a8ff;" onclick="openCharVoices()">👥 角色配音</span>
+      <span style="font-size:11px;cursor:pointer;margin-left:8px;color:#ffa657;" onclick="openCloneVoiceTable()">🎙 音色库编辑</span>
       <span style="font-size:11px;cursor:pointer;margin-left:auto;color:#58a6ff;" onclick="toggleVoices()">🎤 音色库</span>
     </div>
     <div class="panel-body" id="output-list"></div>
@@ -113,6 +122,175 @@ audio { filter:invert(0.85); }
 
 <!-- Log -->
 <div id="log-panel"></div>
+
+<!-- Char Voices Modal -->
+<div id="char-voices-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:32px;overflow:auto;">
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:1000px;margin:0 auto;max-height:92vh;display:flex;flex-direction:column;">
+    <div style="padding:10px 14px;border-bottom:1px solid #30363d;flex-shrink:0;">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+        <span style="font-weight:600;color:#d2a8ff;white-space:nowrap;">👥 角色配音表</span>
+        <select id="cv-novel-select" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 8px;border-radius:4px;font-size:12px;" onchange="loadCharVoices(this.value)"></select>
+        <span style="font-size:12px;color:#8b949e;" id="cv-count"></span>
+        <span style="cursor:pointer;margin-left:auto;font-size:20px;" onclick="document.getElementById('char-voices-modal').style.display='none'">&times;</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+        <!-- 分类筛选 -->
+        <select id="cv-cat-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCharVoices()">
+          <option value="">分类(全部)</option>
+        </select>
+        <!-- 配音性别 -->
+        <select id="cv-voice-gender-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCharVoices()">
+          <option value="">配音性别(全部)</option>
+          <option value="女">女声</option>
+          <option value="男">男声</option>
+          <option value="童">童声</option>
+        </select>
+        <!-- 配音语言 -->
+        <select id="cv-voice-lang-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCharVoices()">
+          <option value="">语言(全部)</option>
+          <option value="中文">中文</option>
+          <option value="英语">英语</option>
+          <option value="日语">日语</option>
+          <option value="韩语">韩语</option>
+          <option value="外语">外语/多语种</option>
+        </select>
+        <!-- 配音风格 -->
+        <select id="cv-voice-style-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCharVoices()">
+          <option value="">风格(全部)</option>
+          <option value="低沉">低沉/沧桑</option>
+          <option value="甜美">甜美/可爱</option>
+          <option value="知性">知性/成熟</option>
+          <option value="情感">情感/温柔</option>
+          <option value="活泼">活泼/阳光</option>
+          <option value="动漫">动漫</option>
+          <option value="影视">影视</option>
+        </select>
+        <input id="cv-search" placeholder="搜索角色/配音/说明..." style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 8px;border-radius:4px;font-size:12px;width:160px;" oninput="filterCharVoices()">
+        <button onclick="clearCvFilters()" style="padding:3px 8px;font-size:11px;background:#21262d;border:1px solid #30363d;color:#8b949e;border-radius:4px;cursor:pointer;">重置</button>
+      </div>
+    </div>
+    <div style="overflow-y:auto;flex:1;">
+      <table id="cv-table" style="width:100%;border-collapse:collapse;font-size:12px;">
+        <thead style="position:sticky;top:0;background:#161b22;z-index:1;">
+          <tr>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:80px;">角色名</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:220px;">当前配音</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:60px;">分类</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;">角色说明</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:60px;">备注</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:70px;">操作</th>
+          </tr>
+        </thead>
+        <tbody id="cv-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Voice Picker Modal（角色配音表选音色用） -->
+<div id="voice-picker-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:2000;padding:60px 40px;overflow:auto;" onclick="if(event.target===this)closeVoicePicker()">
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:860px;margin:0 auto;max-height:82vh;display:flex;flex-direction:column;">
+    <div style="padding:10px 14px;border-bottom:1px solid #30363d;flex-shrink:0;">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+        <span style="font-weight:600;color:#58a6ff;white-space:nowrap;">🎤 选择音色</span>
+        <span id="vp-target-char" style="font-size:12px;color:#d2a8ff;"></span>
+        <span style="cursor:pointer;margin-left:auto;font-size:20px;" onclick="closeVoicePicker()">&times;</span>
+      </div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+        <select id="vp-gender" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterVp()">
+          <option value="">性别(全部)</option><option value="female">女声</option><option value="male">男声</option>
+        </select>
+        <select id="vp-age" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterVp()">
+          <option value="">年龄(全部)</option><option value="少年">少年</option><option value="青年">青年</option><option value="中年">中年</option><option value="童声">童声</option><option value="老人">老人</option>
+        </select>
+        <select id="vp-lang" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterVp()">
+          <option value="">语言(全部)</option><option value="中文">中文</option><option value="英语">英语</option><option value="日语">日语</option><option value="韩语">韩语</option><option value="外语">外语/多语种</option>
+        </select>
+        <select id="vp-style" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterVp()">
+          <option value="">风格(全部)</option><option value="低沉">低沉/沧桑</option><option value="甜美">甜美/可爱</option><option value="知性">知性/成熟</option><option value="情感">情感/温柔</option><option value="活泼">活泼/阳光</option><option value="动漫">动漫</option><option value="影视">影视</option><option value="评书">评书</option>
+        </select>
+        <input id="vp-search" placeholder="搜索名称/特色..." style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 8px;border-radius:4px;font-size:12px;width:140px;" oninput="filterVp()">
+        <button onclick="clearVpFilters()" style="padding:3px 8px;font-size:11px;background:#21262d;border:1px solid #30363d;color:#8b949e;border-radius:4px;cursor:pointer;">重置</button>
+        <span id="vp-count" style="font-size:12px;color:#8b949e;"></span>
+      </div>
+    </div>
+    <div style="overflow-y:auto;flex:1;padding:6px 8px;" id="vp-list"></div>
+  </div>
+</div>
+<div id="clone-voice-table-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.75);z-index:1000;padding:32px;overflow:auto;">
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:1100px;margin:0 auto;max-height:92vh;display:flex;flex-direction:column;">
+    <div style="padding:10px 14px;border-bottom:1px solid #30363d;flex-shrink:0;">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+        <span style="font-weight:600;color:#ffa657;white-space:nowrap;">🎙 克隆音色库编辑</span>
+        <!-- 性别 -->
+        <select id="cvt-gender-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCvt()">
+          <option value="">性别(全部)</option>
+          <option value="female">女声</option>
+          <option value="male">男声</option>
+        </select>
+        <!-- 年龄段 -->
+        <select id="cvt-age-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCvt()">
+          <option value="">年龄(全部)</option>
+          <option value="少年">少年</option>
+          <option value="青年">青年</option>
+          <option value="中年">中年</option>
+          <option value="童声">童声/小孩</option>
+          <option value="老人">老人</option>
+        </select>
+        <!-- 国家/语言 -->
+        <select id="cvt-lang-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCvt()">
+          <option value="">语言/国家(全部)</option>
+          <option value="中文">中文</option>
+          <option value="英语">英语</option>
+          <option value="日语">日语</option>
+          <option value="韩语">韩语</option>
+          <option value="法语">法语</option>
+          <option value="德语">德语</option>
+          <option value="西班牙语">西班牙语</option>
+          <option value="葡语">葡语</option>
+          <option value="俄语">俄语</option>
+          <option value="泰语">泰语</option>
+          <option value="外语">多语种/外语</option>
+          <option value="双语">双语</option>
+        </select>
+        <!-- 风格 -->
+        <select id="cvt-style-filter" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 6px;border-radius:4px;font-size:12px;" onchange="filterCvt()">
+          <option value="">风格(全部)</option>
+          <option value="动漫">动漫</option>
+          <option value="影视">影视解说</option>
+          <option value="有声">有声小说</option>
+          <option value="新闻">新闻播报</option>
+          <option value="情感">情感</option>
+          <option value="评书">评书</option>
+          <option value="游戏">游戏/直播</option>
+          <option value="低沉">低沉/沧桑</option>
+          <option value="甜美">甜美/可爱</option>
+          <option value="知性">知性/成熟</option>
+        </select>
+        <input id="cvt-search" placeholder="关键词搜索..." style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:3px 8px;border-radius:4px;font-size:12px;width:140px;" oninput="filterCvt()">
+        <button onclick="clearCvtFilters()" style="padding:3px 8px;font-size:11px;background:#21262d;border:1px solid #30363d;color:#8b949e;border-radius:4px;cursor:pointer;white-space:nowrap;">重置</button>
+        <span id="cvt-count" style="font-size:12px;color:#8b949e;"></span>
+        <span style="cursor:pointer;margin-left:auto;font-size:20px;" onclick="document.getElementById('clone-voice-table-modal').style.display='none'">&times;</span>
+      </div>
+    </div>
+    <div style="overflow-y:auto;flex:1;">
+      <table style="width:100%;border-collapse:collapse;font-size:12px;">
+        <thead style="position:sticky;top:0;background:#161b22;z-index:1;">
+          <tr>
+            <th style="border:1px solid #30363d;padding:6px 8px;text-align:left;color:#8b949e;width:50px;">分类</th>
+            <th style="border:1px solid #30363d;padding:6px 8px;text-align:left;color:#8b949e;width:60px;">子类</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:170px;">音色名</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;">角色特色</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;">试用场景</th>
+            <th style="border:1px solid #30363d;padding:6px 8px;text-align:left;color:#8b949e;width:190px;">性别/年龄/语言/风格</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:60px;">操作</th>
+          </tr>
+        </thead>
+        <tbody id="cvt-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
 <div id="footer">端口 8088 | 剧本路径: 小说批量工具/小说剧本 | 输出路径: output/</div>
@@ -154,8 +332,7 @@ audio { filter:invert(0.85); }
         <input id="lab-tts-text" placeholder="输入要合成的文本..." style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:6px 10px;border-radius:4px;font-size:13px;">
       </div>
       <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px;">
-        <input id="lab-tts-voice" list="lab-voice-list" placeholder="选择或输入音色名..." value="云健-低沉" style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:12px;">
-        <datalist id="lab-voice-list"></datalist>
+        <select id="lab-tts-voice" style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 8px;border-radius:4px;font-size:12px;min-width:0;"></select>
         <button onclick="previewLabVoice()" title="试听选中音色" style="padding:4px 10px;font-size:12px;">🔊 试听</button>
         <select id="lab-tts-speed" style="background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px;border-radius:4px;font-size:12px;width:80px;">
           <option value="+0%">1.0x</option><option value="-10%">0.9x</option><option value="+10%">1.1x</option><option value="+20%">1.2x</option>
@@ -353,9 +530,10 @@ function renderPreview(data, scriptPath) {
       </div>
       <div id="${rid}_mix_result"></div>
       <label style="${lblStyle}">台词文本</label>
-      <textarea class="ed-text" title="台词/旁白文本（TTS 合成内容）" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 6px;border-radius:3px;font-size:12px;min-height:38px;resize:vertical;">${esc(v.text||'')}</textarea>
+      <textarea class="ed-text" title="台词/旁白文本（TTS 合成内容）" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:4px 6px;border-radius:3px;font-size:12px;min-height:72px;resize:vertical;">${esc(v.text||'')}</textarea>
       <label style="${lblStyle}margin-top:2px;">语气指导 instruct</label>
-      <input class="ed-instruct" value="${esc(v.instruct||'')}" placeholder="如：庄重开场、感激、愤怒" title="语气/情绪指导，影响 TTS 情感表达" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 6px;border-radius:3px;font-size:11px;">`;
+      <input class="ed-instruct" value="${esc(v.instruct||'')}" placeholder="如：庄重开场、感激、愤怒" title="语气/情绪指导，影响 TTS 情感表达" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 6px;border-radius:3px;font-size:11px;">
+      <div id="${rid}_result"></div>`;
 
     // 音效区块
     if (hasEffects) {
@@ -379,10 +557,71 @@ function renderPreview(data, scriptPath) {
       html += `</div>`;
     }
 
-    html += `<div id="${rid}_result"></div></div>`;
+    html += `</div></div>`;
   }
   document.getElementById('script-preview').innerHTML = html;
   document.getElementById('script-preview').scrollTop = 0;
+  // 异步加载已有行级音频，加载完成后嵌入播放器
+  loadLineAudio(scriptPath);
+}
+
+// ---- 行级音频预览 ----
+// 在 renderPreview 渲染完成后异步拉取已有音频，嵌入对应行的播放器
+async function loadLineAudio(scriptPath) {
+  if (!scriptPath) return;
+  let lineAudio;
+  try {
+    lineAudio = await api('/api/script/line-audio?script=' + encodeURIComponent(scriptPath));
+  } catch(e) { return; }
+  const { voice = {}, effects = {}, mixed = {}, bgm_layers = [] } = lineAudio;
+
+  // 背景音播放器：注入到每个 layer 的 result 区
+  bgm_layers.forEach((path, idx) => {
+    const el = document.getElementById('layer_' + idx + '_result');
+    if (el && !el.querySelector('audio')) {
+      el.insertAdjacentHTML('beforeend', inlineAudioHtml(path, '背景音 ' + idx));
+    }
+  });
+
+  // 逐行注入播放器
+  document.querySelectorAll('#script-preview .edit-line').forEach(row => {
+    const lid = row.dataset.id;
+    const resultEl = document.getElementById('line_' + lid + '_result');
+    if (!resultEl) return;
+    if (resultEl.querySelector('audio')) return; // 已有播放器（如刚重生成后）
+
+    let audioHtml = '';
+    if (mixed[lid]) {
+      audioHtml += inlineAudioHtml(mixed[lid], '混音 #' + lid);
+    } else if (voice[lid]) {
+      audioHtml += inlineAudioHtml(voice[lid], '配音 #' + lid);
+    }
+    // 音效只注入到各音效块内部，不在这里重复输出
+    if (audioHtml) resultEl.innerHTML = audioHtml;
+  });
+
+  // 音效行内部：注入音效 _result 区
+  document.querySelectorAll('#script-preview .edit-line').forEach(row => {
+    const lid = row.dataset.id;
+    row.querySelectorAll('.edit-effect').forEach((effRow, ei) => {
+      const effList = effects[lid] || [];
+      if (ei < effList.length) {
+        const eid = 'line_' + lid + '_eff' + ei + '_result';
+        const el = document.getElementById(eid);
+        if (el && !el.querySelector('audio')) {
+          const name = effList[ei].split('/').pop().replace(/\.wav$/i, '');
+          el.innerHTML = inlineAudioHtml(effList[ei], name);
+        }
+      }
+    });
+  });
+}
+
+function inlineAudioHtml(path, label) {
+  return `<div style="display:flex;align-items:center;gap:6px;margin-top:3px;">
+    <span style="font-size:10px;color:#484f58;white-space:nowrap;">${esc(label)}</span>
+    <audio controls preload="none" src="${fileUrl(path)}" style="flex:1;height:28px;min-width:0;"></audio>
+  </div>`;
 }
 
 // 收集编辑后的行数据
@@ -468,7 +707,7 @@ async function labStreamRun(rid, url, payload) {
   }
   streamState[rid] = {};
   if(btn){btn.textContent='⏹ 停止';btn.classList.remove('accent');btn.classList.add('danger');}
-  resultEl.innerHTML = '<div style="font-size:11px;color:#58a6ff;margin:4px 0 2px;"><span class="spinner"></span> 生成中...</div><div class="regen-log" style="max-height:220px;overflow-y:auto;background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:6px 8px;margin-top:2px;font-family:monospace;font-size:11px;line-height:1.5;color:#8b949e;white-space:pre-wrap;word-break:break-all;"></div>';
+  resultEl.innerHTML = '<div style="font-size:11px;color:#58a6ff;margin:4px 0 2px;"><span class="spinner"></span> 生成中...</div><div class="regen-log" style="max-height:400px;overflow-y:auto;background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:6px 8px;margin-top:2px;font-family:monospace;font-size:11px;line-height:1.5;color:#8b949e;white-space:pre-wrap;word-break:break-all;"></div>';
   const logEl = resultEl.querySelector('.regen-log');
   const statusLine = resultEl.firstElementChild;
   try {
@@ -491,6 +730,8 @@ async function labStreamRun(rid, url, payload) {
           logEl.innerHTML += `<div style="color:#3fb950;">=== 完成 ===</div>`;
           logEl.scrollTop = logEl.scrollHeight;
           loadOutputs();
+          // 刷新当前剧本行音频（重生成完成后立即更新播放器）
+          if (currentPreviewPath) loadLineAudio(currentPreviewPath);
         }
       } catch(e) {}
     };
@@ -522,16 +763,27 @@ function renderOutputs() {
   let html = '';
   let audioSeq = 0;
   for (const novel of outputs) {
-    html += `<div style="padding:6px 14px;color:#8b949e;font-size:12px;font-weight:600;">📁 ${esc(novel.name)}</div>`;
+    const novelId = stableId('nov', novel.name);
+    const novelOpen = expandedEls.has(novelId) || !expandedEls.has('__any_novel_toggled__'); // 默认展开
+    // 首次渲染默认全部展开：若 novelId 未曾被记录过，当作 open
+    const isOpen = expandedEls.size === 0 || expandedEls.has(novelId) || !expandedEls.has('__novel_' + novelId + '_closed__');
+    html += `<div class="tree-item folder" style="padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;user-select:none;" onclick="toggleNovelOutput('${novelId}')">
+      <span>📁 ${esc(novel.name)}</span>
+      <span style="color:#484f58;margin-left:auto;font-size:11px;">${novel.chapters.length}章</span>
+      <span style="color:#484f58;" id="${novelId}_arrow">${expandedEls.has(novelId+'_closed') ? '▸' : '▾'}</span>
+    </div>`;
+    html += `<div id="${novelId}_body" style="display:${expandedEls.has(novelId+'_closed') ? 'none' : 'block'};">`;
     for (const ch of novel.chapters) {
       const chId = stableId('ch', novel.name + '|' + ch.name);
       const chOpen = expandedEls.has(chId);
       const totalCount = (ch.final_audios||[]).length + (ch.groups||[]).reduce((s,g)=>s+g.audios.length,0);
       html += `<div class="output-item">
-        <div class="ch-name" style="cursor:pointer;" onclick="toggleEl('${chId}')">
-          <span class="status-dot ${ch.status}"></span>${esc(ch.name)}
+        <div class="ch-name" style="cursor:pointer;display:flex;align-items:center;gap:6px;" onclick="toggleEl('${chId}')">
+          <span class="status-dot ${ch.status}"></span>
+          <span style="flex:1;">${esc(ch.name)}</span>
           <span style="color:#484f58;">${ch.status==='generated'? totalCount+'个音频':'未生成'}</span>
-          <span style="float:right;color:#484f58;">${chOpen?'▾':'▸'}</span>
+          <span style="cursor:pointer;color:#f85149;font-size:12px;" title="删除整个章节输出目录" onclick="event.stopPropagation();delOutput('${escJS(ch.path)}','章节 ${esc(ch.name)}')">🗑</span>
+          <span style="color:#484f58;">${chOpen?'▾':'▸'}</span>
         </div>`;
       html += `<div id="${chId}" style="display:${chOpen?'block':'none'};">`;
       // 成品音频（顶层）
@@ -545,7 +797,13 @@ function renderOutputs() {
       for (const g of (ch.groups||[])) {
         const gId = stableId('g', novel.name + '|' + ch.name + '|' + g.name);
         const gOpen = expandedEls.has(gId);
-        html += `<div style="padding:4px 0 2px 8px;font-size:11px;color:#d2a8ff;cursor:pointer;" onclick="toggleEl('${gId}')">📂 ${esc(g.name)} (${g.audios.length}) ${gOpen?'▾':'▸'}</div>`;
+        // 分组目录路径 = 该组任一音频路径的父目录
+        const gDir = g.audios.length ? g.audios[0].path.split('/').slice(0,-1).join('/') : '';
+        html += `<div style="padding:4px 8px 2px 8px;font-size:11px;color:#d2a8ff;cursor:pointer;display:flex;align-items:center;gap:6px;" onclick="toggleEl('${gId}')">
+          <span style="flex:1;">📂 ${esc(g.name)} (${g.audios.length})</span>
+          <span style="cursor:pointer;color:#f85149;" title="删除整个${esc(g.name)}目录" onclick="event.stopPropagation();delOutput('${escJS(gDir)}','${esc(g.name)}目录')">🗑</span>
+          <span>${gOpen?'▾':'▸'}</span>
+        </div>`;
         html += `<div id="${gId}" style="display:${gOpen?'block':'none'};">`;
         for (const audio of g.audios) {
           html += audioRow(audio, ++audioSeq);
@@ -554,6 +812,7 @@ function renderOutputs() {
       }
       html += `</div></div>`;
     }
+    html += `</div>`;  // close novelId_body
   }
   el.innerHTML = html || '<div style="padding:16px;color:#484f58;">暂无输出</div>';
 }
@@ -562,12 +821,37 @@ function audioRow(audio, seq) {
   const rid = 'audio_' + seq;
   const label = audio.line_id!=null ? `#${audio.line_id}` : '';
   return `<div class="audio-row" style="padding-left:8px;flex-wrap:wrap;">
-    <span style="font-size:11px;flex:0 0 auto;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8b949e;" title="${esc(audio.name)}">${label} ${esc(audio.name)}</span>
-    <audio controls preload="none" src="${fileUrl(audio.path)}"></audio>
-    <span class="dur">${formatSize(audio.size)}</span>
-    <span style="font-size:12px;cursor:pointer;color:#58a6ff;" title="重新生成" onclick="showRegen('${escJS(audio.path)}','${rid}')">🔄</span>
+    <div style="display:flex;align-items:center;gap:6px;flex-basis:100%;">
+      <span style="font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8b949e;" title="${esc(audio.name)}">${label} ${esc(audio.name)}</span>
+      <span class="dur">${formatSize(audio.size)}</span>
+      <span style="font-size:13px;cursor:pointer;color:#58a6ff;" title="重新生成" onclick="showRegen('${escJS(audio.path)}','${rid}')">🔄</span>
+      <span style="font-size:13px;cursor:pointer;color:#f85149;" title="删除此音频" onclick="delOutput('${escJS(audio.path)}','${esc(audio.name)}')">🗑</span>
+    </div>
+    <audio controls preload="none" src="${fileUrl(audio.path)}" style="width:100%;height:36px;margin-top:2px;"></audio>
     <div id="${rid}" style="flex-basis:100%;"></div>
   </div>`;
+}
+
+// 删除输出文件或目录
+async function delOutput(path, label) {
+  if (!path) return;
+  if (!confirm(`确定删除「${label}」吗？\n${path}\n\n此操作不可恢复，目录会递归删除全部内容。`)) return;
+  try {
+    const res = await api('/api/outputs/delete', {method:'POST',body:JSON.stringify({path}),headers:{'Content-Type':'application/json'}});
+    if (res.error) { alert('删除失败: ' + res.error); return; }
+    loadOutputs();
+  } catch(e) { alert('删除失败: ' + e.message); }
+}
+
+function toggleNovelOutput(novelId) {
+  const body = document.getElementById(novelId + '_body');
+  const arrow = document.getElementById(novelId + '_arrow');
+  if (!body) return;
+  const closing = body.style.display !== 'none';
+  body.style.display = closing ? 'none' : 'block';
+  if (arrow) arrow.textContent = closing ? '▸' : '▾';
+  if (closing) expandedEls.add(novelId + '_closed');
+  else expandedEls.delete(novelId + '_closed');
 }
 
 function toggleEl(id) {
@@ -784,6 +1068,326 @@ async function viewRawFile(path) {
   }
 }
 
+// ---- Char Voices ----
+let charVoicesData = [];  // raw rows from current novel
+let charVoicesFiltered = [];
+let charVoicesNovel = '';
+
+async function openCharVoices() {
+  const modal = document.getElementById('char-voices-modal');
+  modal.style.display = 'block';
+  if (voicesData.length === 0) {
+    try { voicesData = await api('/api/clone-voices'); } catch(e) {}
+  }
+  // Load novel list from char-voice table dir — always refresh in case files changed
+  const sel = document.getElementById('cv-novel-select');
+  try {
+    const novels = await api('/api/char-voices-novels');
+    sel.innerHTML = '';
+    for (const name of novels) {
+      const opt = document.createElement('option');
+      opt.value = name;
+      opt.textContent = name;
+      sel.appendChild(opt);
+    }
+  } catch(e) {}
+  // fallback: derive from scripts list
+  if (sel.options.length === 0) {
+    for (const novel of scripts) {
+      const name = novel.name.replace(/json稿$/i, '');
+      const opt = document.createElement('option');
+      opt.value = name;
+      opt.textContent = name;
+      sel.appendChild(opt);
+    }
+  }
+  const novelName = sel.value;
+  if (novelName) await loadCharVoices(novelName);
+}
+
+async function loadCharVoices(novelName) {
+  charVoicesNovel = novelName;
+  document.getElementById('cv-tbody').innerHTML = '<tr><td colspan="5" style="text-align:center;padding:12px;color:#8b949e;"><span class="spinner"></span> 加载中...</td></tr>';
+  // 先确保音色库已加载，渲染 datalist 需要它
+  if (voicesData.length === 0) {
+    try { voicesData = await api('/api/clone-voices'); } catch(e) {}
+  }
+  try {
+    const res = await api('/api/char-voices?novel=' + encodeURIComponent(novelName));
+    charVoicesData = res.rows || [];
+    charVoicesFiltered = charVoicesData;
+    document.getElementById('cv-count').textContent = `共 ${charVoicesData.length} 个角色`;
+    // 动态填充分类下拉
+    const cats = [...new Set(charVoicesData.map(r => r.category).filter(Boolean))];
+    const catSel = document.getElementById('cv-cat-filter');
+    catSel.innerHTML = '<option value="">分类(全部)</option>' + cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    renderCharVoices(charVoicesData);
+  } catch(e) {
+    document.getElementById('cv-tbody').innerHTML = `<tr><td colspan="5" style="color:#f85149;padding:12px;">${esc(e.message)}</td></tr>`;
+  }
+}
+
+function filterCharVoices() {
+  const q = document.getElementById('cv-search').value.toLowerCase();
+  const cat = document.getElementById('cv-cat-filter').value;
+  const vGender = document.getElementById('cv-voice-gender-filter').value;
+  const vLang = document.getElementById('cv-voice-lang-filter').value;
+  const vStyle = document.getElementById('cv-voice-style-filter').value;
+
+  charVoicesFiltered = charVoicesData.filter(r => {
+    if (cat && r.category !== cat) return false;
+    // 从配音名推断性别/语言/风格
+    const voiceName = (r.voice || '').toLowerCase();
+    if (vGender) {
+      const isF = /女|奶奶|婆婆|姐|妹|仙姑|公主/.test(voiceName) || /female|girl/.test(voiceName);
+      const isM = /男|大叔|老伯|哥|帅|侠|将|将军|兄/.test(voiceName) || /male|boy/.test(voiceName);
+      const isCh = /童|宝|萝莉|娃/.test(voiceName);
+      if (vGender === '女' && !isF) return false;
+      if (vGender === '男' && !isM) return false;
+      if (vGender === '童' && !isCh) return false;
+    }
+    if (vLang) {
+      const isEn = /英语|英国|美国|澳洲|美式/.test(voiceName);
+      const isJa = /日语|日本/.test(voiceName);
+      const isKo = /韩语|韩国/.test(voiceName);
+      const isForeign = /外语|多语/.test(voiceName) || isEn || isJa || isKo;
+      if (vLang === '中文' && isForeign) return false;
+      if (vLang === '英语' && !isEn) return false;
+      if (vLang === '日语' && !isJa) return false;
+      if (vLang === '韩语' && !isKo) return false;
+      if (vLang === '外语' && !isForeign) return false;
+    }
+    if (vStyle) {
+      const voiceInfo = voicesData.find(v => v.name === r.voice);
+      // 从 clone voice table 的 style 字段判断（如果已加载）
+      const cvtRow = cvtData.find(d => d.name === r.voice);
+      const styleSrc = ((cvtRow && cvtRow.style) || voiceName);
+      const styleMap = {
+        '低沉': /低沉|沧桑|浑厚|沙哑/, '甜美': /甜美|可爱|萌|萝莉/,
+        '知性': /知性|优雅|成熟/, '情感': /情感|温柔|温暖|治愈/,
+        '活泼': /活泼|元气|阳光/, '动漫': /动漫|卡通/, '影视': /影视|解说/,
+      };
+      if (!styleMap[vStyle] || !styleMap[vStyle].test(styleSrc)) return false;
+    }
+    if (q) {
+      const note = (r.note || '').toLowerCase();
+      const scope = (r.scope || '').toLowerCase();
+      const charDesc = (r.char_desc || '').toLowerCase();
+      if (!r.char.toLowerCase().includes(q) && !r.voice.toLowerCase().includes(q) &&
+          !r.category.toLowerCase().includes(q) && !charDesc.includes(q) &&
+          !note.includes(q) && !scope.includes(q)) return false;
+    }
+    return true;
+  });
+  document.getElementById('cv-count').textContent = `${charVoicesFiltered.length} / ${charVoicesData.length} 个角色`;
+  renderCharVoices(charVoicesFiltered);
+}
+
+function clearCvFilters() {
+  ['cv-cat-filter','cv-voice-gender-filter','cv-voice-lang-filter','cv-voice-style-filter'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('cv-search').value = '';
+  filterCharVoices();
+}
+
+function renderCharVoices(rows) {
+  const tbody = document.getElementById('cv-tbody');
+  if (!rows.length) { tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;padding:12px;color:#484f58;">无数据</td></tr>'; return; }
+  let html = '';
+  rows.forEach((r, i) => {
+    const rowId = 'cvr_' + i;
+    html += `<tr id="${rowId}" style="border-bottom:1px solid #21262d;" data-char="${esc(r.char)}">
+      <td style="border:1px solid #21262d;padding:4px 8px;">
+        <input id="${rowId}_char" value="${esc(r.char)}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#d2a8ff;padding:2px 5px;border-radius:3px;font-size:11px;box-sizing:border-box;">
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 8px;">
+        <div style="display:flex;align-items:center;gap:4px;">
+          <input id="${rowId}_voice" value="${esc(r.voice)}" readonly style="flex:1;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:2px 5px;border-radius:3px;font-size:11px;min-width:0;cursor:pointer;" onclick="openVoicePicker('${rowId}','${escJS(r.char)}')" title="点击选择音色">
+          <button onclick="previewCvVoice('${rowId}')" style="padding:2px 6px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#c9d1d9;border-radius:3px;cursor:pointer;white-space:nowrap;">🔊</button>
+        </div>
+        <div id="${rowId}_preview" style="margin-top:2px;"></div>
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 6px;">
+        <input id="${rowId}_cat" value="${esc(r.category)}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 4px;border-radius:3px;font-size:11px;box-sizing:border-box;">
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 6px;">
+        <input id="${rowId}_desc" value="${esc(r.char_desc)}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 5px;border-radius:3px;font-size:11px;box-sizing:border-box;" title="${esc(r.char_desc)}">
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 6px;">
+        <input id="${rowId}_note" value="${esc(r.note||'')}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 4px;border-radius:3px;font-size:11px;box-sizing:border-box;">
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 8px;text-align:center;">
+        <button class="accent" onclick="saveCvRow('${escJS(r.char)}','${rowId}')" style="padding:2px 10px;font-size:11px;">保存</button>
+      </td>
+    </tr>`;
+  });
+  tbody.innerHTML = html;
+}
+
+function previewCvVoice(rowId) {
+  const sel = document.getElementById(rowId + '_voice');
+  const el = document.getElementById(rowId + '_preview');
+  if (!el || !sel) return;
+  const name = sel.value;
+  const vf = voicesData.find(v => v.name === name);
+  if (!vf) { el.innerHTML = `<span style="font-size:10px;color:#f0883e;">音色库中无「${esc(name)}」</span>`; return; }
+  // toggle off if already showing
+  if (el.querySelector('audio')) { el.innerHTML = ''; return; }
+  el.innerHTML = `<audio controls autoplay src="${fileUrl(vf.path)}" style="width:100%;height:24px;"></audio>`;
+}
+
+function onCvVoiceChange(rowId) {
+  const el = document.getElementById(rowId + '_preview');
+  if (el) el.innerHTML = '';
+}
+
+// ---- Voice Picker (音色选择弹窗) ----
+let vpTargetRowId = '';
+let vpFiltered = [];
+
+async function openVoicePicker(rowId, charName) {
+  vpTargetRowId = rowId;
+  document.getElementById('vp-target-char').textContent = `→ 为「${charName}」选择`;
+  document.getElementById('voice-picker-modal').style.display = 'block';
+  document.getElementById('vp-list').innerHTML = '<div style="padding:16px;color:#8b949e;text-align:center;"><span class="spinner"></span> 加载中...</div>';
+  // 确保 cvtData 和 voicesData 已加载
+  if (cvtData.length === 0) {
+    try { cvtData = await api('/api/clone-voice-table'); } catch(e) {}
+  }
+  if (voicesData.length === 0) {
+    try { voicesData = await api('/api/clone-voices'); } catch(e) {}
+  }
+  clearVpFilters();
+}
+
+function closeVoicePicker() {
+  document.getElementById('voice-picker-modal').style.display = 'none';
+}
+
+function clearVpFilters() {
+  ['vp-gender','vp-age','vp-lang','vp-style'].forEach(id => { document.getElementById(id).value = ''; });
+  document.getElementById('vp-search').value = '';
+  filterVp();
+}
+
+function filterVp() {
+  const gender = document.getElementById('vp-gender').value;
+  const age = document.getElementById('vp-age').value;
+  const lang = document.getElementById('vp-lang').value;
+  const style = document.getElementById('vp-style').value;
+  const q = document.getElementById('vp-search').value.toLowerCase();
+
+  vpFiltered = cvtData.length ? cvtData.filter(r => {
+    const tags = cvtTags(r);
+    if (gender && tags.gender !== gender) return false;
+    if (age && tags.age !== age) return false;
+    if (lang) {
+      if (lang === '外语') {
+        if (!tags.langs.some(l => ['英语','日语','韩语','法语','德语','西班牙语','葡语','俄语','泰语','外语','多语种'].includes(l))) return false;
+      } else if (!tags.langs.some(l => l.includes(lang) || lang.includes(l))) return false;
+    }
+    if (style && !tags.styles.some(s => s.includes(style) || style.includes(s))) return false;
+    if (q && !r.name.toLowerCase().includes(q) && !r.feature.toLowerCase().includes(q)) return false;
+    return true;
+  }) : voicesData.filter(v => !q || v.name.toLowerCase().includes(q));
+
+  document.getElementById('vp-count').textContent = `${vpFiltered.length} 个`;
+  renderVpList();
+}
+
+function renderVpList() {
+  const el = document.getElementById('vp-list');
+  if (!vpFiltered.length) { el.innerHTML = '<div style="padding:16px;color:#484f58;text-align:center;">无匹配音色</div>'; return; }
+  // group by section
+  const grouped = {};
+  vpFiltered.forEach(r => {
+    const sec = r.section || r.subsection || '其他';
+    if (!grouped[sec]) grouped[sec] = [];
+    grouped[sec].push(r);
+  });
+  let html = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px;">';
+  for (const [sec, items] of Object.entries(grouped)) {
+    html += `<div style="grid-column:1/-1;font-size:11px;color:#8b949e;padding:4px 0 2px;border-bottom:1px solid #21262d;">${esc(sec)}</div>`;
+    items.forEach(r => {
+      const name = r.name || r.name;
+      const sub = r.subsection ? r.subsection.replace(/（共.*?个）/, '') : '';
+      const feat = r.feature || '';
+      const hasAudio = voicesData.some(v => v.name === name);
+      html += `<div style="background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:5px 8px;cursor:pointer;display:flex;flex-direction:column;gap:3px;"
+          onclick="selectVpVoice('${escJS(name)}')"
+          onmouseenter="this.style.borderColor='#58a6ff'" onmouseleave="this.style.borderColor='#30363d'">
+        <div style="display:flex;align-items:center;gap:4px;">
+          <span style="color:#ffa657;font-size:11px;font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(name)}</span>
+          ${hasAudio ? `<span style="font-size:10px;cursor:pointer;color:#58a6ff;" onclick="event.stopPropagation();previewVpAudio('${escJS(name)}','${escJS(name)}_vp')" title="试听">🔊</span>` : ''}
+        </div>
+        <div style="font-size:10px;color:#8b949e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${esc(feat)}">${esc(sub)} ${esc(feat.substring(0,30))}${feat.length>30?'…':''}</div>
+        <div id="${escJS(name)}_vp" style=""></div>
+      </div>`;
+    });
+  }
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+function previewVpAudio(name, divId) {
+  const el = document.getElementById(divId);
+  if (!el) return;
+  const vf = voicesData.find(v => v.name === name);
+  if (!vf) return;
+  if (el.querySelector('audio')) { el.innerHTML = ''; return; }
+  el.innerHTML = `<audio controls autoplay src="${fileUrl(vf.path)}" style="width:100%;height:22px;margin-top:2px;"></audio>`;
+}
+
+function selectVpVoice(name) {
+  if (!vpTargetRowId) return;
+  const input = document.getElementById(vpTargetRowId + '_voice');
+  if (input) {
+    input.value = name;
+    // clear preview
+    const prev = document.getElementById(vpTargetRowId + '_preview');
+    if (prev) prev.innerHTML = '';
+  }
+  closeVoicePicker();
+}
+
+async function saveCvRow(charName, rowId) {
+  const newVoice = (document.getElementById(rowId + '_voice')||{}).value || '';
+  const newChar = (document.getElementById(rowId + '_char')||{}).value || charName;
+  const newCat = (document.getElementById(rowId + '_cat')||{}).value || '';
+  const newDesc = (document.getElementById(rowId + '_desc')||{}).value || '';
+  const newNote = (document.getElementById(rowId + '_note')||{}).value || '';
+  if (!newVoice) { alert('请选择配音'); return; }
+  const btn = document.querySelector(`#${rowId} .accent`);
+  const origText = btn.textContent;
+  btn.textContent = '...'; btn.disabled = true;
+  try {
+    const res = await api('/api/char-voices/update', {
+      method: 'POST',
+      body: JSON.stringify({novel: charVoicesNovel, char: charName, voice: newVoice,
+                            new_char: newChar, category: newCat, char_desc: newDesc, note: newNote}),
+      headers: {'Content-Type': 'application/json'}
+    });
+    if (res.error) { alert('保存失败: ' + res.error); btn.textContent = origText; btn.disabled = false; return; }
+    // update local data
+    const row = charVoicesData.find(r => r.char === charName);
+    if (row) { row.voice = newVoice; row.char = newChar; row.category = newCat; row.char_desc = newDesc; row.note = newNote; }
+    const fRow = charVoicesFiltered.find(r => r.char === charName);
+    if (fRow) { fRow.voice = newVoice; fRow.char = newChar; fRow.category = newCat; fRow.char_desc = newDesc; fRow.note = newNote; }
+    // update row's data-char and char name attr
+    document.getElementById(rowId).dataset.char = newChar;
+    btn.textContent = '✓'; btn.classList.remove('accent'); btn.style.background='#238636';
+    setTimeout(() => {
+      btn.textContent = '保存'; btn.disabled = false; btn.classList.add('accent'); btn.style.background='';
+      // refresh char count
+      document.getElementById('cv-count').textContent = `${charVoicesFiltered.length} / ${charVoicesData.length} 个角色`;
+    }, 800);
+  } catch(e) {
+    alert('保存失败: ' + e.message);
+    btn.textContent = origText; btn.disabled = false;
+  }
+}
+
 let voicesData = [];
 async function toggleVoices() {
   const modal = document.getElementById('voices-modal');
@@ -812,12 +1416,21 @@ function filterVoices() {
 // ---- Lab APIs ----
 async function openLab() {
   document.getElementById('lab-modal').style.display = 'block';
-  // 加载音色列表填充 datalist
   if (voicesData.length === 0) {
     try { voicesData = await api('/api/clone-voices'); } catch(e) {}
   }
-  const dl = document.getElementById('lab-voice-list');
-  dl.innerHTML = voicesData.map(v => `<option value="${esc(v.name)}">`).join('');
+  // 填充音色 select（只初始化一次）
+  const sel = document.getElementById('lab-tts-voice');
+  if (sel.options.length === 0) {
+    const defaultVoice = '云健-低沉';
+    voicesData.forEach(v => {
+      const opt = document.createElement('option');
+      opt.value = v.name;
+      opt.textContent = v.name;
+      sel.appendChild(opt);
+    });
+    sel.value = defaultVoice;
+  }
 }
 
 function previewLabVoice() {
@@ -888,11 +1501,11 @@ async function labRun(kind, url, payload, resultElId) {
 
 async function labTTS() {
   const text = document.getElementById('lab-tts-text').value;
-  const voice = document.getElementById('lab-tts-voice').value||'云健-低沉';
+  const voice = document.getElementById('lab-tts-voice').value || '云健-低沉';
   const speed = document.getElementById('lab-tts-speed').value;
   const pitch = document.getElementById('lab-tts-pitch').value;
   if (!labState.tts && !text.trim()) { alert('请输入文本'); return; }
-  labRun('tts', '/api/lab/tts', {text,voice,speed,volume:'+0%',pitch}, 'lab-tts-result');
+  labRun('tts', '/api/lab/tts', {text, voice, speed, volume:'+0%', pitch}, 'lab-tts-result');
 }
 
 async function labSFX() {
@@ -913,6 +1526,294 @@ async function labBGM() {
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function escJS(s) { return (s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'\\"'); }
 function formatSize(b) { return b<1048576?`${(b/1024).toFixed(1)}KB`:`${(b/1048576).toFixed(1)}MB`; }
+
+// ---- 面板拖拽调整宽度 ----
+(function initResizers() {
+  let dragging = null, startX = 0, startLeftW = 0, startRightW = 0;
+  const leftP = () => document.getElementById('left-panel');
+  const rightP = () => document.getElementById('right-panel');
+
+  document.querySelectorAll('.resizer').forEach(rz => {
+    rz.addEventListener('mousedown', (e) => {
+      dragging = rz.dataset.target;
+      startX = e.clientX;
+      startLeftW = leftP().offsetWidth;
+      startRightW = rightP().offsetWidth;
+      rz.classList.add('dragging');
+      document.body.style.userSelect = 'none';
+      document.body.style.cursor = 'col-resize';
+      e.preventDefault();
+    });
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!dragging) return;
+    const dx = e.clientX - startX;
+    if (dragging === 'left') {
+      const w = Math.max(160, Math.min(600, startLeftW + dx));
+      leftP().style.width = w + 'px';
+    } else if (dragging === 'right') {
+      const w = Math.max(160, Math.min(700, startRightW - dx));
+      rightP().style.width = w + 'px';
+    }
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (dragging) {
+      document.querySelectorAll('.resizer').forEach(r => r.classList.remove('dragging'));
+      document.body.style.userSelect = '';
+      document.body.style.cursor = '';
+      // 保存宽度到 localStorage
+      localStorage.setItem('panelLeftW', leftP().offsetWidth);
+      localStorage.setItem('panelRightW', rightP().offsetWidth);
+      dragging = null;
+    }
+  });
+
+  // 恢复上次宽度
+  const lw = localStorage.getItem('panelLeftW');
+  const rw = localStorage.getItem('panelRightW');
+  if (lw) leftP().style.width = lw + 'px';
+  if (rw) rightP().style.width = rw + 'px';
+})();
+
+// ---- Clone Voice Table Editor ----
+let cvtData = [];      // full list from API
+let cvtFiltered = [];  // current filtered view
+
+async function openCloneVoiceTable() {
+  document.getElementById('clone-voice-table-modal').style.display = 'block';
+  // ensure voicesData is loaded for audio preview
+  if (voicesData.length === 0) {
+    try { voicesData = await api('/api/clone-voices'); } catch(e) {}
+  }
+  document.getElementById('cvt-tbody').innerHTML = '<tr><td colspan="6" style="text-align:center;padding:12px;color:#8b949e;"><span class="spinner"></span> 加载中...</td></tr>';
+  try {
+    cvtData = await api('/api/clone-voice-table');
+    cvtFiltered = cvtData;
+    document.getElementById('cvt-count').textContent = `共 ${cvtData.length} 个音色`;
+    renderCvt(cvtData);
+  } catch(e) {
+    document.getElementById('cvt-tbody').innerHTML = `<tr><td colspan="6" style="color:#f85149;padding:12px;">${esc(e.message)}</td></tr>`;
+  }
+}
+
+function clearCvtFilters() {
+  ['cvt-gender-filter','cvt-age-filter','cvt-lang-filter','cvt-style-filter'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('cvt-search').value = '';
+  filterCvt();
+}
+
+// 从 MD 新字段或 subsection/feature 推断过滤标签（优先用 MD 中的新字段）
+function cvtTags(r) {
+  const sub = r.subsection || '';
+  const feat = (r.feature || '').toLowerCase();
+  const tags = { gender: '', age: '', langs: [], styles: [] };
+
+  // 性别：优先 MD 字段
+  if (r.gender) {
+    tags.gender = r.gender === '女' ? 'female' : r.gender === '男' ? 'male' : '';
+  } else {
+    if (/女/.test(sub)) tags.gender = 'female';
+    else if (/男/.test(sub)) tags.gender = 'male';
+  }
+
+  // 年龄段：优先 MD 字段
+  if (r.age) {
+    tags.age = r.age;
+  } else {
+    if (/童声|女童|男童/.test(sub)) tags.age = '童声';
+    else if (/老人/.test(sub)) tags.age = '老人';
+    else if (/少年/.test(sub)) tags.age = '少年';
+    else if (/青年/.test(sub)) tags.age = /成熟|中年/.test(feat) ? '中年' : '青年';
+  }
+
+  // 语言：优先 MD 字段
+  if (r.lang) {
+    tags.langs = r.lang.split(/[,/、]/).map(s => s.trim()).filter(Boolean);
+  } else {
+    const langMap = {
+      '英语': ['英语','英国','美国','澳洲','美式英语','澳洲英语'],
+      '日语': ['日语','日本'], '韩语': ['韩语','韩国'],
+      '法语': ['法语','法国'], '德语': ['德语','德国'],
+      '西班牙语': ['西语','西班牙','西班牙语'], '葡语': ['葡语','葡萄牙'],
+      '俄语': ['俄语'], '泰语': ['泰语'], '外语': ['外语'], '双语': ['双语'],
+    };
+    for (const [lang, kws] of Object.entries(langMap)) {
+      if (kws.some(k => feat.includes(k.toLowerCase()))) tags.langs.push(lang);
+    }
+    if (tags.langs.length === 0) tags.langs.push('中文');
+  }
+
+  // 风格：优先 MD 字段
+  if (r.style) {
+    tags.styles = r.style.split(/[/、,]/).map(s => s.trim()).filter(Boolean);
+  } else {
+    const styleMap = {
+      '动漫': ['动漫','卡通'], '影视': ['影视','解说','纪录片'],
+      '有声': ['有声小说','有声'], '新闻': ['新闻','播报'],
+      '情感': ['情感','电台'], '评书': ['评书','讲故事','快板'],
+      '游戏': ['游戏','直播'], '低沉': ['低沉','沧桑','浑厚','沙哑'],
+      '甜美': ['甜美','可爱','萌系','萝莉','娃娃'],
+      '知性': ['知性','优雅','理性'],
+      '温柔': ['温柔','温暖','治愈'], '活泼': ['活泼','元气','阳光'],
+    };
+    for (const [style, kws] of Object.entries(styleMap)) {
+      if (kws.some(k => feat.includes(k.toLowerCase()))) tags.styles.push(style);
+    }
+  }
+  return tags;
+}
+
+function filterCvt() {
+  const gender = document.getElementById('cvt-gender-filter').value;
+  const age = document.getElementById('cvt-age-filter').value;
+  const lang = document.getElementById('cvt-lang-filter').value;
+  const style = document.getElementById('cvt-style-filter').value;
+  const q = document.getElementById('cvt-search').value.toLowerCase();
+
+  cvtFiltered = cvtData.filter(r => {
+    const tags = cvtTags(r);
+    if (gender && tags.gender !== gender) return false;
+    if (age) {
+      if (age === '中年' && tags.age !== '中年') return false;
+      else if (age !== '中年' && tags.age !== age) return false;
+    }
+    if (lang) {
+      if (lang === '外语') {
+        if (!tags.langs.some(l => ['英语','日语','韩语','法语','德语','西班牙语','葡语','俄语','泰语','外语','多语种'].includes(l))) return false;
+      } else if (!tags.langs.some(l => l.includes(lang) || lang.includes(l))) return false;
+    }
+    if (style && !tags.styles.some(s => s.includes(style) || style.includes(s))) return false;
+    if (q && !r.name.toLowerCase().includes(q) && !r.feature.toLowerCase().includes(q) && !r.scene.toLowerCase().includes(q) && !(r.style||'').toLowerCase().includes(q)) return false;
+    return true;
+  });
+  document.getElementById('cvt-count').textContent = `${cvtFiltered.length} / ${cvtData.length} 个音色`;
+  renderCvt(cvtFiltered);
+}
+
+function renderCvt(rows) {
+  const tbody = document.getElementById('cvt-tbody');
+  if (!rows.length) { tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;padding:12px;color:#484f58;">无数据</td></tr>'; return; }
+  let html = '';
+  rows.forEach((r, i) => {
+    const rid = 'cvt_' + i;
+    const hasAudio = voicesData.some(v => v.name === r.name);
+    html += `<tr id="${rid}" style="border-bottom:1px solid #21262d;" data-orig="${esc(r.name)}">
+      <td style="border:1px solid #21262d;padding:4px 6px;color:#8b949e;font-size:11px;white-space:nowrap;">${(()=>{const g=cvtTags(r).gender;return g==='male'?'男声':g==='female'?'女声':esc(r.section);})()}</td>
+      <td style="border:1px solid #21262d;padding:4px 6px;color:#8b949e;font-size:11px;white-space:nowrap;">${(()=>{const t=cvtTags(r);const sub=(r.subsection||'').replace(/（共.*?个）/,'');if(r.age)return esc(r.age+(r.gender?'('+r.gender+')':''));return esc(sub);})()}</td>
+      <td style="border:1px solid #21262d;padding:4px 8px;">
+        <div style="display:flex;align-items:center;gap:4px;">
+          <input id="${rid}_name" value="${esc(r.name)}" style="flex:1;background:#0d1117;border:1px solid #30363d;color:#ffa657;padding:2px 5px;border-radius:3px;font-size:11px;min-width:0;">
+          <button onclick="previewCvtAudio('${rid}')" title="试听" style="padding:2px 5px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#c9d1d9;border-radius:3px;cursor:pointer;flex-shrink:0;">${hasAudio ? '🔊' : '–'}</button>
+        </div>
+        <div id="${rid}_preview" style="margin-top:2px;"></div>
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 6px;">
+        <input id="${rid}_feature" value="${esc(r.feature)}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:2px 5px;border-radius:3px;font-size:11px;box-sizing:border-box;">
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 6px;">
+        <input id="${rid}_scene" value="${esc(r.scene)}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#c9d1d9;padding:2px 5px;border-radius:3px;font-size:11px;box-sizing:border-box;">
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 4px;font-size:11px;">
+        <div style="display:flex;gap:3px;flex-wrap:wrap;align-items:center;">
+          <select id="${rid}_gender" title="性别" style="background:#0d1117;border:1px solid #30363d;color:#d2a8ff;padding:2px 3px;border-radius:3px;font-size:10px;max-width:42px;">
+            <option value="" ${!r.gender?'selected':''}>-</option>
+            <option value="女" ${r.gender==='女'?'selected':''}>女</option>
+            <option value="男" ${r.gender==='男'?'selected':''}>男</option>
+          </select>
+          <select id="${rid}_age" title="年龄段" style="background:#0d1117;border:1px solid #30363d;color:#7ee787;padding:2px 3px;border-radius:3px;font-size:10px;max-width:52px;">
+            <option value="" ${!r.age?'selected':''}>-</option>
+            <option value="少年" ${r.age==='少年'?'selected':''}>少年</option>
+            <option value="青年" ${r.age==='青年'?'selected':''}>青年</option>
+            <option value="中年" ${r.age==='中年'?'selected':''}>中年</option>
+            <option value="童声" ${r.age==='童声'?'selected':''}>童声</option>
+            <option value="老人" ${r.age==='老人'?'selected':''}>老人</option>
+          </select>
+          <input id="${rid}_lang" value="${esc(r.lang||'')}" placeholder="语言" title="语言" style="width:44px;background:#0d1117;border:1px solid #30363d;color:#58a6ff;padding:2px 3px;border-radius:3px;font-size:10px;">
+          <input id="${rid}_style" value="${esc(r.style||'')}" placeholder="风格" title="风格标签(用/分隔)" style="width:72px;background:#0d1117;border:1px solid #30363d;color:#ffa657;padding:2px 3px;border-radius:3px;font-size:10px;">
+        </div>
+      </td>
+      <td style="border:1px solid #21262d;padding:4px 8px;text-align:center;white-space:nowrap;">
+        <button class="accent" onclick="saveCvtRow('${rid}')" style="padding:2px 10px;font-size:11px;">保存</button>
+      </td>
+    </tr>`;
+  });
+  tbody.innerHTML = html;
+}
+
+function previewCvtAudio(rid) {
+  const nameEl = document.getElementById(rid + '_name');
+  const el = document.getElementById(rid + '_preview');
+  if (!nameEl || !el) return;
+  const name = nameEl.value.trim();
+  const vf = voicesData.find(v => v.name === name);
+  if (!vf) { el.innerHTML = `<span style="font-size:10px;color:#f0883e;">音色库中无「${esc(name)}」</span>`; return; }
+  if (el.querySelector('audio')) { el.innerHTML = ''; return; }
+  el.innerHTML = `<audio controls autoplay src="${fileUrl(vf.path)}" style="width:100%;height:24px;"></audio>`;
+}
+
+async function saveCvtRow(rid) {
+  const origName = document.getElementById(rid).dataset.orig;
+  const newName = document.getElementById(rid + '_name').value.trim();
+  const newFeature = document.getElementById(rid + '_feature').value.trim();
+  const newScene = document.getElementById(rid + '_scene').value.trim();
+  const newGender = (document.getElementById(rid + '_gender')||{}).value || '';
+  const newAge = (document.getElementById(rid + '_age')||{}).value || '';
+  const newLang = (document.getElementById(rid + '_lang')||{}).value || '';
+  const newStyle = (document.getElementById(rid + '_style')||{}).value || '';
+  if (!newName) { alert('音色名不能为空'); return; }
+  const btn = document.querySelector(`#${rid} .accent`);
+  btn.textContent = '...'; btn.disabled = true;
+  try {
+    const res = await api('/api/clone-voice-table/update', {
+      method: 'POST',
+      body: JSON.stringify({name: origName, new_name: newName, feature: newFeature, scene: newScene,
+                            gender: newGender, age: newAge, lang: newLang, style: newStyle}),
+      headers: {'Content-Type': 'application/json'}
+    });
+    if (res.error) { alert('保存失败: ' + res.error); btn.textContent = '保存'; btn.disabled = false; return; }
+    // 1. 先更新内存数据
+    const row = cvtData.find(r => r.name === origName);
+    if (row) { row.name = newName; row.feature = newFeature; row.scene = newScene;
+               row.gender = newGender; row.age = newAge; row.lang = newLang; row.style = newStyle; }
+    // cvtFiltered 里的对象与 cvtData 是同一引用，无需单独更新
+    // 2. 同步更新 voicesData 中音色名
+    if (newName !== origName) {
+      const vd = voicesData.find(v => v.name === origName);
+      if (vd) vd.name = newName;
+    }
+    // 3. 重新渲染列表（保持当前筛选条件），并高亮保存的行
+    filterCvt();
+    // 重渲染后按新名称找到新 rid 并高亮
+    const newRid = (() => {
+      const trs = document.getElementById('cvt-tbody').querySelectorAll('tr[data-orig]');
+      for (const tr of trs) { if (tr.dataset.orig === newName) return tr.id; }
+      return null;
+    })();
+    if (newRid) {
+      const trEl = document.getElementById(newRid);
+      if (trEl) {
+        trEl.style.background = '#1a3a1a';
+        trEl.scrollIntoView({ block: 'nearest' });
+        setTimeout(() => { trEl.style.background = ''; }, 1500);
+      }
+      const newBtn = document.querySelector(`#${newRid} .accent`);
+      if (newBtn) {
+        newBtn.textContent = '✓'; newBtn.style.background = '#238636';
+        setTimeout(() => { newBtn.textContent = '保存'; newBtn.disabled = false; newBtn.style.background = ''; }, 1500);
+      }
+    } else {
+      btn.textContent = '✓'; btn.style.background = '#238636';
+      setTimeout(() => { btn.textContent = '保存'; btn.disabled = false; btn.style.background = ''; }, 1500);
+    }
+  } catch(e) {
+    alert('保存失败: ' + e.message);
+    btn.textContent = '保存'; btn.disabled = false;
+  }
+}
 
 // ---- Init ----
 refreshAll();

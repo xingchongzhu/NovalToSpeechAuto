@@ -2079,10 +2079,23 @@ class AudioGenerator:
             exist_path = chapter_output_path if os.path.exists(chapter_output_path) else first_chunk_path
             print(f"✅ 整章音频已存在，跳过生成: {exist_path}")
             return exist_path
-        
+
+        # 检测是否存在上次中断留下的 stream_tmp，自动续跑
+        stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
+        existing_tmp = set()
+        if os.path.isdir(stream_tmp_dir):
+            for fname in os.listdir(stream_tmp_dir):
+                if fname.startswith("line_") and fname.endswith(".wav"):
+                    try:
+                        existing_tmp.add(int(fname[5:-4]))
+                    except ValueError:
+                        pass
+            if existing_tmp:
+                print(f"⚡ 检测到上次中断的流式临时文件 ({len(existing_tmp)} 行)，自动续跑缺失行...")
+
         if self.tts_engine == "qwen3-tts":
-            return self.generate_chapter_audio_serial()
-        return self.generate_chapter_audio_parallel()
+            return self.generate_chapter_audio_serial(resume_ids=existing_tmp)
+        return self.generate_chapter_audio_parallel(resume_ids=existing_tmp)
 
     def _cleanup_chapter_intermediate_dirs(self):
         """清理整章的中间产物目录（配音、背景音、音效、混音），节省磁盘存储"""
@@ -2099,9 +2112,18 @@ class AudioGenerator:
                 except Exception as e:
                     print(f"  ⚠️ 清理目录失败 {os.path.basename(d)}/: {e}")
 
-    def generate_chapter_audio_serial(self) -> str:
-        """串行生成整章音频（流式写入优化）"""
-        print(f"\n🚀 开始串行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
+    def generate_chapter_audio_serial(self, resume_ids: set = None) -> str:
+        """串行生成整章音频（流式写入优化）。
+
+        Args:
+            resume_ids: 已有 stream_tmp 的 line_id 集合。传入时跳过这些行的 TTS 生成，
+                        直接从已有文件恢复，实现中断续跑。
+        """
+        is_resume = bool(resume_ids)
+        if is_resume:
+            print(f"\n🔄 续跑模式 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 跳过已完成 {len(resume_ids)} 行")
+        else:
+            print(f"\n🚀 开始串行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
@@ -2111,11 +2133,41 @@ class AudioGenerator:
         stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
         os.makedirs(stream_tmp_dir, exist_ok=True)
 
-        line_ranges = {}
-        current_ms = 0
+        # 从已有 tmp 文件中恢复 tmp_files 列表和时间轴
         tmp_files = []
+        if is_resume:
+            for lid in sorted(resume_ids):
+                fpath = os.path.join(stream_tmp_dir, f"line_{lid}.wav")
+                if os.path.exists(fpath):
+                    tmp_files.append((lid, fpath))
+            # 检查 silent_0.wav
+            silent_file = os.path.join(stream_tmp_dir, "silent_0.wav")
+            if os.path.exists(silent_file):
+                tmp_files.append((-1, silent_file))
+            # 重新计算 line_ranges 和 current_ms（基于已有音频时长）
+            tmp_files_sorted = sorted(tmp_files, key=lambda x: x[0])
+            line_ranges = {}
+            current_ms = 0
+            for lid, fpath in tmp_files_sorted:
+                if lid < 0:
+                    seg = AudioSegment.from_wav(fpath)
+                    current_ms += len(seg)
+                    del seg
+                    continue
+                seg = AudioSegment.from_wav(fpath)
+                dur = len(seg)
+                line_ranges[lid] = (current_ms, current_ms + dur)
+                current_ms += dur
+                del seg
+        else:
+            line_ranges = {}
+            current_ms = 0
 
         for line_config in line_configs:
+            # 续跑时跳过已生成的行
+            if resume_ids and line_config.id in resume_ids:
+                print(f"⏭ 跳过已生成: #{line_config.id}")
+                continue
             try:
                 print(f"📊 当前进度: 第{line_config.id + 1}/{self.total_lines}句")
                 line_audio = self.generate_single_line(line_config)
@@ -2132,7 +2184,7 @@ class AudioGenerator:
                 line_audio.export(tmp_file, format="wav")
                 tmp_files.append((line_config.id, tmp_file))
                 
-                # 第一句后添加1秒静音
+                # 第一句后添加600ms静音
                 if line_config.id == 0:
                     silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
                     silent_file = os.path.join(stream_tmp_dir, f"silent_0.wav")
@@ -2197,9 +2249,17 @@ class AudioGenerator:
 
         return chapter_output_path
 
-    def generate_chapter_audio_parallel(self) -> str:
-        """并行生成整章音频（流式写入优化）"""
-        print(f"\n🚀 开始并行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
+    def generate_chapter_audio_parallel(self, resume_ids: set = None) -> str:
+        """并行生成整章音频（流式写入优化）。
+
+        Args:
+            resume_ids: 已有 stream_tmp 的 line_id 集合，传入时跳过这些行，实现中断续跑。
+        """
+        is_resume = bool(resume_ids)
+        if is_resume:
+            print(f"\n🔄 续跑模式（并行）| 小说: {self.novel_name} | 章节: {self.chapter_name} | 跳过已完成 {len(resume_ids)} 行")
+        else:
+            print(f"\n🚀 开始并行生成 | 小说: {self.novel_name} | 章节: {self.chapter_name} | 共{self.total_lines}句")
         start_time = time.time()
 
         line_configs = [self._parse_line_config(line) for line in self.config["data"]]
@@ -2209,29 +2269,41 @@ class AudioGenerator:
         stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
         os.makedirs(stream_tmp_dir, exist_ok=True)
 
+        # 续跑：先收集已有文件
         tmp_files = []
-        total_lines = len(line_configs)
-        max_workers = min(3, total_lines)
+        if is_resume:
+            for lid in sorted(resume_ids):
+                fpath = os.path.join(stream_tmp_dir, f"line_{lid}.wav")
+                if os.path.exists(fpath):
+                    tmp_files.append((lid, fpath))
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-            future_to_line = {
-                executor.submit(self.generate_single_line, line_config): line_config
-                for line_config in line_configs
-            }
-            for index, future in enumerate(concurrent.futures.as_completed(future_to_line), 1):
-                line_config = future_to_line[future]
-                print(f"\n📊 [{self.novel_name} / {self.chapter_name}] 已完成 {index}/{total_lines} 句 | 当前返回: 第{line_config.id + 1}句")
-                try:
-                    line_audio = future.result()
-                    # 流式写入临时文件
-                    tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
-                    line_audio.export(tmp_file, format="wav")
-                    tmp_files.append((line_config.id, tmp_file))
-                    # 释放内存
-                    del line_audio
-                except Exception as e:
-                    print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
-                    self.record_failed_line(line_config, e)
+        # 只对缺失行进行并行生成
+        pending_configs = [lc for lc in line_configs if not (resume_ids and lc.id in resume_ids)]
+        total_lines = len(line_configs)
+        max_workers = min(3, len(pending_configs)) if pending_configs else 1
+
+        if pending_configs:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_to_line = {
+                    executor.submit(self.generate_single_line, line_config): line_config
+                    for line_config in pending_configs
+                }
+                for index, future in enumerate(concurrent.futures.as_completed(future_to_line), 1):
+                    line_config = future_to_line[future]
+                    print(f"\n📊 [{self.novel_name} / {self.chapter_name}] 已完成 {index}/{len(pending_configs)} 句（待处理）| 当前返回: 第{line_config.id + 1}句")
+                    try:
+                        line_audio = future.result()
+                        # 流式写入临时文件
+                        tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
+                        line_audio.export(tmp_file, format="wav")
+                        tmp_files.append((line_config.id, tmp_file))
+                        # 释放内存
+                        del line_audio
+                    except Exception as e:
+                        print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
+                        self.record_failed_line(line_config, e)
+        else:
+            print(f"✅ 所有行已在上次运行中生成，直接合并")
 
         # 持久化失败段落记录
         self.persist_failed_lines()

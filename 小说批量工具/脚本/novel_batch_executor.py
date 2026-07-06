@@ -133,28 +133,47 @@ class NovelBatchGenerator:
                 return text
     
     def find_novel_json_files(self) -> List[str]:
-        """查找所有小说JSON文件并按指定方式排序"""
+        """查找所有小说JSON文件并按指定方式排序（保留原有行为，供外部调用）"""
+        groups = self.find_novel_json_files_by_album()
         novel_json_files = []
-        
-        for item in os.listdir(self.script_dir):
+        for _, files in groups:
+            novel_json_files.extend(files)
+        return novel_json_files
+
+    def find_novel_json_files_by_album(self) -> List[tuple]:
+        """查找所有小说JSON文件，按专辑目录字母序分组，组内按章节号排序。
+
+        Returns:
+            list of (album_dir_name, [json_file_path, ...])，按目录名字母序排列。
+        """
+        # 收集各目录下的文件
+        album_map: Dict[str, List[str]] = {}
+
+        for item in sorted(os.listdir(self.script_dir)):
             item_path = os.path.join(self.script_dir, item)
             if os.path.isdir(item_path):
-                for file_name in os.listdir(item_path):
-                    if file_name.endswith(".json"):
-                        json_file = os.path.join(item_path, file_name)
-                        novel_json_files.append(json_file)
+                files = [
+                    os.path.join(item_path, f)
+                    for f in os.listdir(item_path)
+                    if f.endswith(".json")
+                ]
+                if files:
+                    album_map[item] = files
             elif item.endswith(".json"):
-                json_file = os.path.join(self.script_dir, item)
-                novel_json_files.append(json_file)
-        
-        if self.sort_mode == "chapter":
-            novel_json_files.sort(key=lambda x: self.extract_chapter_number(os.path.basename(x)))
-        elif self.sort_mode == "pinyin":
-            novel_json_files.sort(key=lambda x: self.get_pinyin_key(os.path.basename(x)))
-        else:
-            novel_json_files.sort()
-        
-        return novel_json_files
+                # 根目录下的散文件归入虚拟专辑 ""
+                album_map.setdefault("", []).append(os.path.join(self.script_dir, item))
+
+        # 按目录名字母序排列专辑
+        sorted_albums = sorted(album_map.keys())
+
+        result = []
+        for album in sorted_albums:
+            files = album_map[album]
+            # 组内按章节号排序
+            files.sort(key=lambda x: self.extract_chapter_number(os.path.basename(x)))
+            result.append((album, files))
+
+        return result
     
     def process_single_novel(self, json_file: str) -> Optional[str]:
         """处理单个小说JSON文件"""
@@ -175,49 +194,59 @@ class NovelBatchGenerator:
             return None
     
     def batch_process(self) -> List[str]:
-        """批量处理所有小说JSON文件"""
+        """批量处理所有小说JSON文件。
+
+        按专辑目录字母序逐专辑处理，每个专辑内部按章节号顺序处理，
+        完成一个专辑的全部章节后再开始下一个专辑。
+        """
         try:
-            # 查找所有小说JSON文件
-            novel_json_files = self.find_novel_json_files()
-            logger.info(f"找到 {len(novel_json_files)} 个小说JSON文件")
-            
-            if not novel_json_files:
+            albums = self.find_novel_json_files_by_album()
+            total = sum(len(files) for _, files in albums)
+            logger.info(f"找到 {len(albums)} 个专辑，共 {total} 个剧本文件")
+
+            if total == 0:
                 logger.warning("未找到小说JSON文件")
                 return []
-            
-            # 使用audio_processing_module.py进行批处理
-            cmd = [
-                sys.executable,  # 使用当前Python解释器
-                self.audio_processing_module,
-                "--script-dir", self.script_dir,
-                "--output-dir", self.output_dir,
-                "--tts-engine", self.tts_engine,
-                "--sfx-engine", self.sfx_engine,
-                "--bgm-engine", self.bgm_engine,
-                "--platform", self.platform,
-                "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
-            ]
-            
-            logger.info("开始批量处理小说...")
-            result = subprocess.run(cmd, stdout=sys.stdout, stderr=sys.stderr, text=True, check=False)
-            
-            if result.returncode == 0:
-                logger.info("批量处理完成")
-            else:
-                logger.error("批量处理失败")
-                return []
-            
-            # 构建输出路径列表
+
             output_paths = []
-            for json_file in novel_json_files:
-                novel_name = os.path.basename(os.path.dirname(json_file))
-                chapter_name = os.path.splitext(os.path.basename(json_file))[0]
-                output_ext = "mp3" if self.platform == "ximalaya" else "wav"
-                output_path = os.path.join(self.output_dir, novel_name, f"{chapter_name}.{output_ext}")
-                output_paths.append(output_path)
-            
+            output_ext = "mp3" if self.platform == "ximalaya" else "wav"
+
+            for album_name, json_files in albums:
+                display = album_name if album_name else "(根目录)"
+                logger.info(f"========== 开始处理专辑: {display} ({len(json_files)} 章) ==========")
+
+                # audio_processing_module.py 的 process_all_novels 扫描
+                # --script-dir 下的子目录，每个子目录里的 json 是章节。
+                # 因此需要传专辑目录的父目录（小说剧本/），而不是专辑目录本身。
+                album_script_dir = self.script_dir
+
+                cmd = [
+                    sys.executable,
+                    self.audio_processing_module,
+                    "--script-dir", album_script_dir,
+                    "--output-dir", self.output_dir,
+                    "--tts-engine", self.tts_engine,
+                    "--sfx-engine", self.sfx_engine,
+                    "--bgm-engine", self.bgm_engine,
+                    "--platform", self.platform,
+                    "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+                ]
+
+                result = subprocess.run(cmd, stdout=sys.stdout, stderr=sys.stderr, text=True, check=False)
+
+                if result.returncode == 0:
+                    logger.info(f"专辑 [{display}] 处理完成")
+                else:
+                    logger.error(f"专辑 [{display}] 处理失败，退出码: {result.returncode}")
+
+                for json_file in json_files:
+                    novel_name = os.path.basename(os.path.dirname(json_file))
+                    chapter_name = os.path.splitext(os.path.basename(json_file))[0]
+                    output_path = os.path.join(self.output_dir, novel_name, f"{chapter_name}.{output_ext}")
+                    output_paths.append(output_path)
+
             return output_paths
-            
+
         except Exception as e:
             logger.error(f"批量处理时发生错误: {e}")
             return []

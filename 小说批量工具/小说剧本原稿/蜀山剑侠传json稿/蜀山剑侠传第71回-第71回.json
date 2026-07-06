@@ -212,48 +212,44 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 3,
             "process_mode": "overlay",
-            "name": "广场人声沸腾",
+            "name": "广场人声",
             "sound_cn": "广场上人群走动，芦棚搭建，长工招呼茶水，声音嘈杂",
-            "sound_en": "Open-air city central square, bustling boiling crowd, massive tourists whispering chatting, laughing and playing, sporadic passersby shouts, soft walking footsteps and fabric friction, natural echo of spacious open space, medium volume, layered three-dimensional ambient sound, realistic high-definition on-site recording, clean background noise, loopable ambient audio",
+            "sound_en": "crowd moving in the square, straw sheds set up, servants serving tea, bustling noise",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 3,
+            "trigger_delay": 3.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "瓷碗轻碰",
             "sound_cn": "长工端茶送水，瓷碗碰撞声",
             "sound_en": "servants serving tea, porcelain cups clinking",
             "volume": "-22%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 5,
+            "trigger_delay": 5.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "怪叫花起身",
             "sound_cn": "怪叫花突然起身，破鞋踢趿声",
             "sound_en": "strange beggar suddenly standing, shuffling footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 8,
+            "trigger_delay": 8.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "谷口来人",
             "sound_cn": "谷口号旗挥动，两人如飞而至，脚步声急促",
             "sound_en": "signal flag waving at valley entrance, two arriving swiftly, urgent footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -276,15 +272,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "魏青喘息",
             "sound_cn": "魏青说完后粗重喘息，惊魂未定",
             "sound_en": "Wei Qing breathing heavily, still shaken",
             "volume": "-24%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -326,15 +321,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "怪叫花咂嘴",
             "sound_cn": "怪叫花说完咂了咂嘴，满不在乎",
             "sound_en": "strange beggar smacking lips, nonchalant",
             "volume": "-26%",
-            "pitch": "-4Hz",
-            "trigger_keyword": ""
+            "pitch": "-4Hz"
           }
         ]
       },
@@ -395,15 +389,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "魏青急步",
             "sound_cn": "魏青急匆匆出谷，脚步声急促远去",
             "sound_en": "Wei Qing hurrying out of the valley, rapid footsteps fading",
             "volume": "-22%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -483,15 +476,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "沙哑笑声",
             "sound_cn": "怪叫花沙哑的笑声，带着玩世不恭",
             "sound_en": "strange beggar's raspy laugh, cynical",
             "volume": "-20%",
-            "pitch": "-4Hz",
-            "trigger_keyword": ""
+            "pitch": "-4Hz"
           }
         ]
       },
@@ -571,15 +563,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "怪笑",
             "sound_cn": "怪叫花哈哈怪笑，声音刺耳",
             "sound_en": "strange beggar's cackling laugh",
             "volume": "-18%",
-            "pitch": "-4Hz",
-            "trigger_keyword": ""
+            "pitch": "-4Hz"
           }
         ]
       },
@@ -621,15 +612,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "岳大鹏飞步",
             "sound_cn": "岳大鹏脚下一使劲，飞步向前，衣袂风声",
             "sound_en": "Yue Dapeng speeding forward, cloth rustling",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -671,26 +661,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "破鞋踢趿",
             "sound_cn": "怪叫花拖着破草鞋追赶，踢趿声由远及近",
             "sound_en": "strange beggar shuffling after them, footsteps approaching",
             "volume": "-22%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 2.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "林秋水自语",
             "sound_cn": "林秋水边走边低声自语，语气困惑",
             "sound_en": "Lin Qiushui muttering to himself, puzzled",
             "volume": "-26%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -713,15 +701,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "怪叫花拍手",
             "sound_cn": "怪叫花得意地拍了拍手",
             "sound_en": "strange beggar clapping hands in satisfaction",
             "volume": "-24%",
-            "pitch": "-4Hz",
-            "trigger_keyword": ""
+            "pitch": "-4Hz"
           }
         ]
       },
@@ -763,15 +750,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "压低声音",
             "sound_cn": "怪叫花压低声音说话，带着警惕",
             "sound_en": "strange beggar lowering voice, cautious",
             "volume": "-24%",
-            "pitch": "-4Hz",
-            "trigger_keyword": ""
+            "pitch": "-4Hz"
           }
         ]
       },
@@ -794,26 +780,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "宴席声",
             "sound_cn": "宴席上杯盘碰撞，吃喝声，怪叫花大嚼声",
             "sound_en": "banquet sounds, clinking cups, eating, strange beggar chewing loudly",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 2.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "岳大鹏作呕",
             "sound_cn": "岳大鹏被怪叫花脏手腥气熏得几欲作呕",
             "sound_en": "Yue Dapeng gagging at the stench",
             "volume": "-24%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -855,26 +839,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "纵身登桩",
             "sound_cn": "白琦纵身跃上莲花桩，轻巧落地，木桩微响",
             "sound_en": "Bai Qi leaping onto the lotus stake, landing lightly, wood creak",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 2,
+            "trigger_delay": 2.0,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "春风吹拂",
             "sound_cn": "和风徐徐，吹动衣袂，花瓣飘落沙沙",
             "sound_en": "gentle spring breeze, cloth fluttering, petals falling with soft rustle",
             "volume": "-26%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -954,15 +936,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "纵身换人",
             "sound_cn": "白琦纵回，戴衡玉纵出，二人空中擦肩而过，衣袂风声",
             "sound_en": "Bai Qi leaping back, Dai Hengyu leaping out, passing in midair, cloth rustling",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 1.5,
@@ -972,8 +953,7 @@
             "sound_cn": "戴衡玉稳稳落在莲花桩上，木桩轻响",
             "sound_en": "Dai Hengyu landing steadily on lotus stake, wood creak",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1015,15 +995,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "罗九起身",
             "sound_cn": "罗九起身，衣料摩擦声",
             "sound_en": "Luo Jiu standing up, cloth rustle",
             "volume": "-22%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1065,15 +1044,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "罗九纵桩",
             "sound_cn": "罗九纵身跃上莲花桩，木桩微响",
             "sound_en": "Luo Jiu leaping onto lotus stake, soft thud",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1115,26 +1093,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 3,
             "process_mode": "overlay",
             "name": "沙堤飞奔",
             "sound_cn": "衡玉在沙堤上疾走如飞，沙沙声",
             "sound_en": "Dai Hengyu running swiftly on sand embankment, soft crunch",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 3,
+            "trigger_delay": 3.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "罗九凭虚",
             "sound_cn": "罗九凭虚行走，衣袂无声，步履如风",
             "sound_en": "Luo Jiu walking on air, silent, light as wind",
             "volume": "-24%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1176,26 +1152,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "刀堤行走",
             "sound_cn": "二人在刀堤上行走，脚步轻点刀刃，金属轻响",
             "sound_en": "two walking on blade embankment, light steps on steel, soft clinks",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 2.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "莲花桩折断",
             "sound_cn": "莲花桩咔嚓折断，木裂声脆响",
             "sound_en": "lotus stake snapping with a sharp crack",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 3.5,
@@ -1205,19 +1179,17 @@
             "sound_cn": "罗九跌倒在地，沉重声响，尘土飞扬",
             "sound_en": "Luo Jiu falling to the ground, heavy thud, dust puff",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 5,
+            "trigger_delay": 5.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "佟法双飞",
             "sound_cn": "佟元奇、法元从东西芦棚双双飞出，衣袂破风",
             "sound_en": "Tong Yuanqi and Fa Yuan flying from opposite sheds, cloth whooshing",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1259,26 +1231,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "法元查桩",
             "sound_cn": "法元拾起折断的木桩和完好木桩细比，木料摩擦声",
             "sound_en": "Fa Yuan picking up broken and intact stakes, wood scraping and comparing",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 2,
-            "duration": 1,
+            "trigger_delay": 2.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "刀堤查看",
             "sound_cn": "法元检视两面刀堤，手指划过刀刃",
             "sound_en": "Fa Yuan examining blade embankments, fingers brushing blades",
             "volume": "-22%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1358,26 +1328,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "佟元奇飞回",
             "sound_cn": "佟元奇飞身回棚，衣袂风声",
             "sound_en": "Tong Yuanqi flying back to shed, cloth rustle",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 1.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "法元咬牙",
             "sound_cn": "法元切齿痛恨，牙关紧咬声",
             "sound_en": "Fa Yuan gritting teeth in anger, grinding",
             "volume": "-22%",
-            "pitch": "-3Hz",
-            "trigger_keyword": ""
+            "pitch": "-3Hz"
           }
         ]
       },
@@ -1457,15 +1425,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "换新桩",
             "sound_cn": "白琦命人换上新的莲花桩，木桩入土声",
             "sound_en": "Bai Qi ordering new lotus stakes, wood planting",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1507,15 +1474,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "刀堤行走",
             "sound_cn": "二人在刀堤上快速行走，脚步轻点刀刃",
             "sound_en": "two walking swiftly on blade path, light steps on steel",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 2.5,
@@ -1525,8 +1491,7 @@
             "sound_cn": "链子抓带着风声抓来，链子哗啦作响",
             "sound_en": "chain claw whipping through air, clattering loudly",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 4.5,
@@ -1536,19 +1501,17 @@
             "sound_cn": "量天尺轻点抓头，金属碰撞声清脆",
             "sound_en": "ruler tapping claw head, crisp metallic clink",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 6.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "双抓齐出",
             "sound_cn": "柳雄飞双抓齐出，链声响成一片",
             "sound_en": "Liu Xiongfei attacking with both claws, chains clattering together",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1590,26 +1553,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "尺点双抓",
             "sound_cn": "量天尺连点两下，叮当两声脆响",
             "sound_en": "ruler striking twice, two crisp clangs",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 2,
-            "duration": 1,
+            "trigger_delay": 2.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "柳雄飞倒地",
             "sound_cn": "柳雄飞被点中腰腿，摔倒台上，沉闷一声",
             "sound_en": "Liu Xiongfei struck and falling, dull thud on stage",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 3.5,
@@ -1619,19 +1580,17 @@
             "sound_cn": "长工们拥上前来抬人，脚步声杂乱",
             "sound_en": "servants rushing forward, chaotic footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 5,
+            "trigger_delay": 5.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "柳燕娘飞身",
             "sound_cn": "柳燕娘飞身登台，衣袂破风",
             "sound_en": "Liu Yanniang leaping onto stage, cloth rustling",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1673,15 +1632,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "何玫登台",
             "sound_cn": "何玫纵身上台，黑衣猎猎",
             "sound_en": "He Mei leaping onto stage, black clothes flapping",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1723,15 +1681,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "何玫冷笑",
             "sound_cn": "何玫一声冷笑，充满鄙夷",
             "sound_en": "He Mei's cold sneer",
             "volume": "-22%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1811,15 +1768,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "拳掌破空",
             "sound_cn": "二人拳掌相交，风声呼呼，衣袂急响",
             "sound_en": "fists and palms meeting, wind sound, cloth flapping",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1861,26 +1817,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "拳脚破空",
             "sound_cn": "何玫与柳燕娘拳掌相交，风声凌厉，掌风霍霍",
             "sound_en": "He Mei and Liu Yanniang exchanging blows, sharp wind, palm strikes",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 4,
+            "trigger_delay": 4.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "飞剑出鞘",
             "sound_cn": "柳燕娘放出飞剑，剑光破空，嗡鸣一声",
             "sound_en": "Liu Yanniang releasing flying sword, whoosh, hum",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 5.5,
@@ -1890,8 +1844,7 @@
             "sound_cn": "何玫也放出飞剑，两道剑光绞作一团，金属碰撞声",
             "sound_en": "He Mei also releasing sword, two lights intertwining, metallic clangs",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 7.5,
@@ -1901,8 +1854,7 @@
             "sound_cn": "薛蟒放出青光，黄玄极迎上，剑光碰撞铿锵",
             "sound_en": "Xue Mang releasing green light, Huang Xuanji meeting it, clang",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 9.5,
@@ -1912,30 +1864,27 @@
             "sound_cn": "双方多人同时放出飞剑，空中剑光交错，破空声连绵如雨",
             "sound_en": "multiple sword lights launching, crisscrossing in air, continuous whooshes like rain",
             "volume": "-12%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 13,
+            "trigger_delay": 13.0,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "法元放剑",
             "sound_cn": "法元放出飞剑，姚开江放出飞刀，红丝绿光齐飞，呼啸声",
             "sound_en": "Fa Yuan releasing sword, Yao Kaijiang releasing flying knives, red and green lights with howls",
             "volume": "-10%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 16,
+            "trigger_delay": 16.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "罗九姚素修夹攻",
             "sound_cn": "罗九和姚素修放出两道黄光夹攻崔绮，剑光呼啸",
             "sound_en": "Luo Jiu and Yao Suxiu attacking Cui Qi with yellow lights, whooshing",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1958,15 +1907,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 1,
+            "trigger_delay": 0.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "打嘴巴",
             "sound_cn": "怪叫花打了法元一个大嘴巴，清脆响亮",
             "sound_en": "strange beggar slapping Fa Yuan, loud crack",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -1989,26 +1937,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "抓剑光",
             "sound_cn": "怪叫花纵身抓住飞剑，剑光熄灭声，嗡鸣骤止",
             "sound_en": "strange beggar grabbing flying sword, light extinguishing, hum ceasing",
             "volume": "-12%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 1.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "揉搓剑光",
             "sound_cn": "剑光被揉搓成流星四散，嗞嗞声，火花迸溅",
             "sound_en": "sword light crumpled into sparks, sizzling, sparks flying",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -2031,15 +1977,14 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "掷剑光",
             "sound_cn": "怪叫花将剑光掷向西北角，破空声凌厉",
             "sound_en": "throwing sword light to northwest, sharp whoosh",
             "volume": "-14%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -2062,26 +2007,24 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "众人惊呼",
             "sound_cn": "西芦棚上众人胆落魂飞，惊呼声四起，一片慌乱",
             "sound_en": "crowd in west shed crying out in terror, chaotic panic",
             "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 2,
-            "duration": 1,
+            "trigger_delay": 2.0,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "怪叫花落地",
             "sound_cn": "怪叫花落在地面，尘土微扬",
             "sound_en": "strange beggar landing, dust puff",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           }
         ]
       },
@@ -2123,37 +2066,34 @@
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 0.0,
             "duration": 2,
             "process_mode": "overlay",
             "name": "怪叫花消失",
             "sound_cn": "怪叫花一闪身形，消失无踪，风声顿息",
             "sound_en": "strange beggar disappearing, wind ceasing",
             "volume": "-20%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 2,
+            "trigger_delay": 2.0,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "剑光渐息",
             "sound_cn": "空中剑光逐渐平息，归于寂静，余音袅袅",
             "sound_en": "sword lights gradually fading, silence returning, fading echoes",
             "volume": "-18%",
-            "pitch": "+0Hz",
-            "trigger_keyword": ""
+            "pitch": "+0Hz"
           },
           {
             "trigger_delay": 4.5,
-            "duration": 1,
+            "duration": 1.0,
             "process_mode": "overlay",
             "name": "法元心颤",
             "sound_cn": "法元心惊，一声低沉的喘息",
             "sound_en": "Fa Yuan gasping in shock",
             "volume": "-22%",
-            "pitch": "-3Hz",
-            "trigger_keyword": ""
+            "pitch": "-3Hz"
           }
         ]
       },

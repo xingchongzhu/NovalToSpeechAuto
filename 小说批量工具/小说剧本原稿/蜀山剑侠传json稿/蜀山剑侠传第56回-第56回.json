@@ -1,0 +1,1238 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第56回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "齐灵云": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "齐金蝉": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "朱文": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "申若兰": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "髯仙李元化": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "妙一夫人": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "李英琼": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "裘芷仙": {
+      "role_voice": "温婉女士-知性,温婉",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第56回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "遇髯仙\n奉命返峨眉结同门\n商量辟仙府金蝉也将破潭取草的事，从头又细说一遍。灵云见那乌风草长得和莲叶一样，只是没有那般大，茎长二尺，又黑又亮，拿在手中不住地颤动，真是灵药。只可惜那千年何首乌，已被神鳄享受去，不能到手了。四人谈说一阵，不觉金乌西匿，皓月东升，远望福仙潭火烟突突，依旧往上冒个不住，烘起满天红雾，与那将落山的红日相映成趣，不时听见爆炸之声。灵云急于到衡山复命，便招呼朱文等三人，同时驾起剑光，望空飞起。在空中御剑飞行了不多一会，忽听空中一声鹤唳，知是髯仙李元化路过，便迎上前去。见面之后，五人同时落下地来，灵云介绍若兰拜见髯仙。李元化见若兰骨秀神清，虽在旁门，却是一脸正气，满身仙骨，连声夸赞。灵云便说：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "火烟声",
+            "sound_cn": "福仙潭火烟突突上冒，伴有轻微爆炸声",
+            "sound_en": "smoke and flame puffing from the pool, faint explosions",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "剑光起飞",
+            "sound_cn": "四人驾剑光凌空而起，破空声",
+            "sound_en": "four sword lights rising into air, whooshing",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "鹤唳",
+            "sound_cn": "空中传来一声仙鹤长唳，清亮悠远",
+            "sound_en": "clear crane cry from the sky, echoing far",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "剑光落地",
+            "sound_cn": "五人驾剑光落下，衣袂破风，尘土微扬",
+            "sound_en": "five people landing, sword lights fading, cloth rustling, dust puff",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "“承红花姥姥与若兰相助，乌风草业已取到，现在就要往衡山。请问师叔云游何处？”髯仙李元化道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "髯仙李元化",
+      "api": {
+        "voice": {
+          "role": "髯仙李元化",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我就为取此草而来。",
+          "instruct": "爽朗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来顽石大师受伤以后，追云叟等便将她护送到了衡山，元元大师即托衡山白雀洞金姥姥代为照料。经追云叟用了不少的丹药，虽然保得性命，却是苦痛丝毫未减，几次打算兵解，都给金姥姥劝住。追云叟计算日期，请髯仙李元化迎上前来，将乌风草取回。并叫灵云等无须回转九华，径往峨眉飞去，便能在路上遇着她母亲妙一夫人荀兰因，见面之后，自有分派。髯仙李元化交代完毕，取了乌风草，回转衡山。不提。这里灵云等听说路上能与妙一夫人相遇，并且叫他们无须回转九华，不知有何分派，恐怕半路错过，忙驾剑光，由莽苍山经过，往峨眉那一方向飞去。一路留神在空中细看，直到第二日辰牌时分，看见山侧一个小村集，围着一圈子人和十来匹骡马。金蝉眼光尖锐，看那十余个男女，俱是非常年轻，穿着华丽，觉着奇怪，不禁凝神细看。忽见人丛中走出一个道姑，好似母亲妙一夫人。便招呼灵云等，在远处按下剑光，跑进那村去一看，果然是妙一夫人领着十个少年男女，在那里雇用骡马山轿。金蝉便要上前招呼，妙一夫人忙使眼色止住。灵云等便也装作不识，在旁闲看，不去拜见。一会工夫，见妙一夫人雇好骡马山轿，打发这十个青年男女上路。灵云等见众人当中，有好几个眼含泪珠望着妙一夫人，依依不舍，露出十分感激的神气。也不知这一群人，怎会聚集在这荒山孤村之中，自己母亲偏偏有此闲心替他们去雇骡马。正在胡猜，妙一夫人已将众人分别送走，向村中居民敷衍了两句，作别出村而去。那村中居民看见又来了一男三女，估量又是好买卖上门，便装出一脸笑容走上前来，对金蝉说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "村庄人声",
+            "sound_cn": "村集人声嘈杂，骡马嘶鸣，鸡犬相闻",
+            "sound_en": "village crowd noise, donkeys and horses neighing, dogs and chickens",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "骡马铃铛",
+            "sound_cn": "骡马走动时铃铛叮当，蹄声踏踏",
+            "sound_en": "bells and hooves of mules and horses, rhythmic clops",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "“小官人同这三位大姑娘，敢莫也是去朝四川峨眉山，在前面上山遇着大蟒，吓得转回来，想雇用车马回家么？我们这里牲口山轿都让适才那十位香客雇用尽了。离此二十里，还有一个吴场坝，那里牲口很多。如果小官人和三位大姑娘要用，只要多给点钱，我们可以代雇的。”说罢，笑容可掬。金蝉正要问他说些什么，灵云、朱文已猜出妙一夫人定是在何处救了这十个人，假说是遭难香客来此雇用山轿，送他们回家。见夫人已走，不愿再说废话，便止住金蝉，抢先说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "村民笑声",
+            "sound_cn": "村民讨好地笑，声音谄媚",
+            "sound_en": "villager's flattering chuckle",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我等正想雇用车马，既然被前面香客雇尽，承你指示，我们到吴场坝再雇吧。",
+          "instruct": "平静"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说完，不俟那人答言，招呼朱文等三人，跟在妙一夫人后面，直往山中走去。那村人见四人走去，暗怪自己不该说出吴场坝，跑了上门买卖。不提。灵云等进山不远，追上妙一夫人，便带领若兰一同上前拜见。妙一夫人见若兰根基甚厚，颇为嘉许，当时答应收归门下。若兰大喜，上前恭恭敬敬行了拜师之礼。两下里互谈经过。妙一夫人将前事说了一遍，便对灵云道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "山中行走",
+            "sound_cn": "四人快步走入山中，脚步踏在落叶碎石上",
+            "sound_en": "quick footsteps into the mountain, crunching on leaves and gravel",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你父亲现在东海，仗着玄真子相助，将宝炼成，不久便要回归峨眉。后山的白眉和尚业已他去，李宁父女所居的栖云洞，直通潭底的凝碧崖，打算将那里辟出一个别府，作你们一班小弟兄姊妹聚会修道之所。英琼现在途中，你们四人可以迎上前去，与她见面之后，一同回到峨眉，借用半边大师的紫烟锄，将栖云后洞当年白眉和尚封闭的石壁锄倒。下面有百余级石阶，石级尽处，便转到洞侧深潭中心一块巨石。从巨石缺口处翻将下去，便是一条斜坡，直通凝碧崖。那里四季长春，到处都是奇花异卉，四外常有飞瀑流泉，终年无雨，最宜干练剑修道。你们到了那里，由灵云率领，朝夕用功，代传若兰、英琼口诀。三个月之后，灵云可去九华，将芝仙移植到峨眉来。日前追云叟派人向我借用九华洞府，我已答应了他，你们无须再回去。到了今年年底，你父回转峨眉，你们那时再听他吩咐。我救的这些青年男女，原同矮叟朱梅约好，将他们分送回家。为免村民大惊小怪，适才我假说他们是附近各县的人家子弟，发愿去峨眉进香，中途在莽苍山被大蟒吓回，替他们将山轿牲口雇好上路。但是我还不甚放心，恐怕他们俱都年幼，未出过门，路上出了差错。好在他们差不多俱在附近云南各县，打算随时暗中护送，等他们回了自己的家再说。英琼还同着一个被难的女子裘芷仙一路，她二人骑着白眉和尚的神雕，那雕如不载人，比你们剑光还要迅速。这一路上颇多异派中人，英琼虽然得着师祖的紫郢剑，但是有一个不会武术的女子同行，恐怕路上难免要遇麻烦。你们不必停留，急速去吧。",
+          "instruct": "温柔叮嘱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，妙一夫人脚一蹬，一道金光，凌空而起。灵云等四人也驾起剑光，直飞向峨眉一路追赶。灵云正走之间，忽见前面有一柄异派中人放的飞剑，夹着黑烟火光，如飞前进。依了金蝉，便要动手。灵云连忙止住，想看个究竟，便跟在那飞剑后面紧追。金蝉从烟火中看去，隐隐辨出飞剑前面一只飞鸟，上面坐定两个女子，猜是英琼、芷仙二人坐着神雕，被异派中人追赶。正要告诉灵云上前相助，忽见那只大鸟倏地似弩箭脱弦一般，飞向下面山坡落下。因摆脱烟火遮蔽，分外看得清楚，原来是一只大黑雕，背上背着两个年轻女子，便知是英琼无疑。灵云等也都看得清楚。说时迟，那时快，还未容灵云等上前相助，那雕已放下背上两个女子，蓦地冲霄飞入烟火之中。灵云知那异派飞剑颇为厉害，还恐那雕受伤，那雕已将那飞剑用钢爪抓住，飞落下去。再被下面女子剑上发出的十来丈长的紫光一撩，立刻烟消火灭，飞剑变成顽铁，坠落地下。灵云见那女子小小年纪，竟是身轻如燕，发出来的剑光尤为出色，非常欣喜。知道她的敌人决不肯善罢甘休，便招呼众人，远远按落剑光，隐身树林之内，一来想暗中助那两个女子一臂之力，二来看看她的本领。在林中待了一会，见那雕向那用剑女子要吃了许多红色果子，忽又冲霄而起，一会工夫，抓了一副大梅花鹿角回来。金蝉见那雕如此灵异，只喜欢得打跌。待了一会，见敌人无甚动静，急于要问那两个女子是否妙一夫人所说的英琼、芷仙，又见那两个女子要走，再也忍不住，不经灵云同意，首先出了树林。灵云等也只得跟将出来。灵云才要喊那两个女子留步时，忽然狂风大作，飞砂走石，鬼声啾啾，天昏地暗。金蝉慧眼早看见黑暗中一对奇形怪状男女，披头散发，施展妖法而来。朱文见是妖法，早将天遁镜放起十余丈的五色毫光，破了妖法。灵云等已看出妖人站的方向，各将剑光飞起。灵云剑快，首先将那女的当胸刺过。那男的妖人见这些幼年男女个个厉害，只一照面，他的同伴便死了一个，吓得心惊胆裂，忙借妖法望空逃走。这里灵云等与那两个女子通问姓名之后，果是妙一夫人所说的李英琼与裘芷仙，俱各心中大喜。英琼见是同门师姊师兄，喜从天降。双方施礼，又谈了一阵。神雕佛奴也飞了回来，英琼便问妖人可曾抓死。神雕摇了摇头，知道被他逃走。灵云等俱不知那妖人来历，只得罢休。金蝉、若兰见那雕灵慧通神，善解人意，不住上前抚摸它的铁羽。那雕瞪着一双金光四射的眼，站在当地，一任二人抚摸，纹丝不动，又神灵，又驯良，爱得二人都恨不能骑上一回，才称心愿。大家谈谈笑笑非常投机，大有相见恨晚之概。英琼、芷仙剑术未成，也不同众人客气，竟自骑上雕背。灵云等四人也都随后升起，紧随那雕前后左右，一齐往峨眉飞去。那雕两翼飞程，本比剑光还快，只因身上背了两个凡人，禁受不住天风，只得慢慢飞翔。灵云等又愿意同英琼在一起走，故尔两下速度如一。金蝉、若兰孩子气比较重，既爱这两个新同门，又爱那雕，时而飞在雕前，时而飞在雕后，不时同英琼、芷仙二人说话。叵耐雕行迅速，扑面天风又急又冲，英琼将头藏在芷仙背后，还能勉强回答；芷仙两手紧攀神雕翅根，被对面天风逼得气都透不过来，哪里还回答得出。偏偏芷仙天生好强，又极爱面子，自从遇救出险以后，总觉自己非女儿之身，无端受尽妖人糟践，羞恨欲死。偏先后遇见英琼、灵云这一班小辈剑侠，大半都是比她年纪还轻，一个个俱都本领高强，飞行绝迹，美若仙人，英姿飒爽。不禁又是羡慕，又是佩服，越想越自惭形秽，远不如人。抱定宗旨，到了峨眉，无论如何都要从他们学些飞行本领，巴不得承颜希旨，得他们一点欢心才好。见若兰、金蝉飞近身旁，问长问短，自己连口也张不开，又怕若兰、金蝉说她大模大样，只好点头微笑，急得浑身俱是冷汗，无计可施。那英琼一旦遇见许多本领高强的同门伴侣，并且可以永久和他们在峨眉一处作伴，再不愁空山寂寞，只喜得心花怒开，洋洋得意。见金蝉、若兰间那神雕来历，便把一个头紧藏在芷仙背后，从李宁得病起，直说到莽苍山月夜斗龙，斩山魈，诛木魃，救马熊，灵猩舍命相从，以至同他们四人见面的情由，滔滔不绝，详细说了下去。金蝉、若兰听到还有一只神雕，已经把一只善通人性的大猩猩带到峨眉去了，越发觉得好玩高兴。朱文本同灵云并飞，偶尔顺风，听见一鳞半爪，后来也听出趣来，便拉了灵云飞近英琼，听得津津有味。神雕飞在空中，两翼平伸出来，好似两扇小门板一般。朱文知那雕能载重，好在自己深通剑术，不怕坠落，又想挨近英琼听个仔细，便收了剑光，试坐到雕翼上去。那雕见有人加坐在它右翼上面，只回头望了望，又转头望左叫唤了两声。灵云一面飞行，笑对朱文道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "金光凌空",
+            "sound_cn": "妙一夫人驾金光凌空而起，破空声强劲",
+            "sound_en": "Miao Yi Furen rising on golden light, powerful whoosh",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "四人剑光",
+            "sound_cn": "灵云等四人驾剑光随后飞起，风声连绵",
+            "sound_en": "four sword lights following, continuous wind sound",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黑烟火光",
+            "sound_cn": "异派飞剑夹着黑烟火光呼啸而过，尖锐刺耳",
+            "sound_en": "heretical sword with black smoke and fire, sharp whooshing",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣冲霄",
+            "sound_cn": "神雕长鸣，冲霄飞入烟火，翅膀猛拍",
+            "sound_en": "divine eagle's cry, soaring into smoke, powerful wing flaps",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 11.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "钢爪抓剑",
+            "sound_cn": "神雕钢爪抓住飞剑，金属碰撞声",
+            "sound_en": "eagle's steel claws grasping sword, metallic clash",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "紫光断剑",
+            "sound_cn": "紫郢剑光撩过，飞剑化为顽铁坠落，锵然落地",
+            "sound_en": "purple sword light striking, enemy sword falling as scrap metal, clang on ground",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "狂风妖法",
+            "sound_cn": "狂风大作，飞沙走石，鬼声啾啾，阴风惨惨",
+            "sound_en": "sudden gale, sand and stones flying, eerie ghostly wails",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "天遁镜破法",
+            "sound_cn": "天遁镜发出十余丈五彩毫光，妖雾消散，嗞嗞声",
+            "sound_en": "celestial mirror emitting colored light, evil mist dissolving, sizzling",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "剑光杀敌",
+            "sound_cn": "灵云剑光刺穿女妖，惨叫声短促",
+            "sound_en": "Lingyun's sword piercing female demon, short scream",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕翼风声",
+            "sound_cn": "神雕飞行时双翼破风，风声呼呼，平稳持续",
+            "sound_en": "eagle flying, wings cutting through wind, steady whoosh",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "笑声交谈",
+            "sound_cn": "众人谈笑风生，欢快愉悦",
+            "sound_en": "cheerful chatting and laughter among the group",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你坐在神雕翼上，轻重失了平衡，只图你顺便，它可受了罪了。",
+          "instruct": "含笑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，朱文见那雕并不闪动，坐在上面迎着呼呼天风，平稳非凡，便望金蝉笑着微一点首。金蝉明白她的用意，便把剑光收了，往左翼上坐去。若兰也看出便宜，两人对抢着坐了上去。那雕连头也不回，竟自往前飞去。英琼见灵云一人向隅，好生不过意，便用手连招她来骑。灵云近前笑道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "坐上雕翼",
+            "sound_cn": "朱文、金蝉、若兰先后坐上雕翼，衣料摩擦，雕羽轻响",
+            "sound_en": "Zhu Wen, Jinchan, Ruolan sitting on eagle's wings, cloth and feather rustling",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "尽够神雕受的了。",
+          "instruct": "微笑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼偏着脸道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我后面还空着许多地方咧，姊姊上来，抱着我坐吧。",
+          "instruct": "热情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "连说了几次。灵云不忍拂她意思，想叫雕翼力量平衡，便收了剑光，在英琼身后，近左翼处坐下。那雕不但不嫌重，益发加快速度，平稳往前飞行。若兰、英琼连喊有趣不置。六人一雕，一路说一路飞，正在高兴非凡。忽听那雕长鸣一声，倏地一道青光，流星赶月一般，往南方斜射过去。接着对面云堆中，也是一声雕鸣，一只白色大雕横开丈许长的银翼，风驰电掣，摩空飞过，直向那道青光追去。英琼坐下的雕往高飞，迎个正着，口中不住长鸣。那白雕闻得同伴鸣声，舍那青光不追，横转双翼，减了速度，挨近黑雕身旁，一同飞行，两下一递一声叫唤着，显得非常亲热。众人见这只白色神雕比黑雕还要大许多，一双红眼，火光四射，浑身银羽，映日生辉，俱各连声夸赞。若兰便问这个白雕是否现在也归英琼所有。英琼还未答应，金蝉满拟白雕也和黑雕一样，不问青红皂白，将身一纵，打算骑了上去。谁知那白雕竟不许金蝉骑，见金蝉飞身上来，倏地空中一个大旋转，竟将金蝉闪脱。若不是金蝉会剑术飞行时，这一失足怕不落在地面化为肉泥。金蝉受了这个失闪，吃了一惊，又羞又气，骂一声扁毛畜生，忙驾剑光，想二次上前将它制服，收为己用。就连朱文、若兰，也都跃跃欲动。幸而灵云年长知事，知道白眉和尚座下神雕厉害非凡，稍次一点剑仙，俱不是它的敌手，适才见它追那青光，本领已可想见，不敢造次。便连忙喝住金蝉不得无礼，众人休要乱动。又对那白雕说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双雕呼应",
+            "sound_cn": "黑雕长鸣，白雕回应，两雕声音此起彼伏",
+            "sound_en": "black eagle calling, white eagle responding, mutual cries",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "白雕展翅",
+            "sound_cn": "白雕展开丈许银翼，风驰电掣，破风凌厉",
+            "sound_en": "white eagle spreading silver wings, fast and sharp wind rush",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "金蝉失足",
+            "sound_cn": "金蝉被白雕闪脱，惊呼一声，风声呼啸",
+            "sound_en": "Jinchan slipping off white eagle, cry of surprise, wind rushing",
+            "volume": "-16%",
+            "pitch": "+1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "舍弟年幼无知，我到了峨眉，自会责罚于他，仙禽休怪。",
+          "instruct": "道歉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那白雕闻言，也长鸣示意。灵云忙将金蝉唤上雕背，不住地埋怨。金蝉本不甘服，怎奈适才路遇妙一夫人再三嘱咐，无论何人，俱须听从灵云之命。又加上金蝉要跟灵云学那屡次想学、灵云吝而不教的一套练剑的口诀，只得坐上雕背，干生闷气。这时英琼的话也逐渐说完，当下几个人倒清静起来。六人二雕，直飞到天黑，才到了峨眉后山降下。这时候已是星月交辉，天已二更向尽。众人下了雕背。那大猩猩早在洞门口徘徊瞻望，看见主人同了几个嘉客骑雕飞来，欢喜非凡，迎上前去，跑前跳后。英琼便问：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕落地面",
+            "sound_cn": "二雕降落，爪子着地，尘土微扬",
+            "sound_en": "eagles landing, claws touching ground, dust puff",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "猩猩迎接",
+            "sound_cn": "大猩猩跑跳而来，兴奋低吼，手脚并用",
+            "sound_en": "big ape running and jumping, excited grunts, hands and feet",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你早被它抱回来么？",
+          "instruct": "惊喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那猩猩横骨已化，能学人言，便学着答道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "“回来么？”英琼大喜。金蝉便道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "猩猩学语",
+            "sound_cn": "猩猩笨拙地学着人话，声音粗重",
+            "sound_en": "ape clumsily imitating human speech, deep voice",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你说那猩猩，是否就是它？怎么大得吓人？",
+          "instruct": "惊叹"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你光说它大，它的心性却灵巧着哩！",
+          "instruct": "得意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，黑雕陪着白雕，自在外头盘旋，英琼便自揖客进洞。猩猩猜知主人之意，先抢到前面，把洞口封的大石推开。英琼笑道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "推石声",
+            "sound_cn": "猩猩用力推开封洞大石，沉重摩擦声，石块挪动",
+            "sound_en": "ape pushing aside stone blocking cave, heavy grinding and scraping",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这东西真灵，不然我只顾让客，还忘了开洞呢。",
+          "instruct": "欢喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俱是一家人，无须客气。我们这里地理不熟，还是你先进去领路吧。",
+          "instruct": "温和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼闻言，便同了猩猩前行，先取出一盏油灯点上，然后邀众人坐定。忙放下背上包裹，跑到洞后，取了四个腊鹿腿出来。说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "油灯点亮",
+            "sound_cn": "油灯点亮，灯芯燃烧，火焰微响",
+            "sound_en": "oil lamp lit, wick catching fire, faint crackle",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "取鹿腿",
+            "sound_cn": "英琼取出四个腊鹿腿，食物碰撞，干肉摩擦",
+            "sound_en": "taking out four dried deer legs, clinking and rustling",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "姊姊哥哥们先坐一会，我去喂喂那金眼师兄同它的朋友，就回来的。",
+          "instruct": "活泼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，匆匆往洞外就走。若兰、金蝉、朱文都想去看一看，拉了灵云往洞外便走。芷仙在雕背上坐了这一天，头晕腿酸，周身如同散了一样，看见洞中有一个石床，再也支持不住，恨不得躺一会才好。灵云见她累得可怜，叫她不要劳动，躺下养养神的好。说罢，便随众人出洞。芷仙猛见床侧石桌上有一封信，写“英琼姊亲拆”，知是英琼的信，便取来藏在身畔，一倒身睡在石床之上歇息，不多一会，竟自睡着。灵云同众人出洞，见英琼正喂那黑雕，爪喙齐施，风卷残云般在吃那鹿腿。白雕站在地下，只是不动，也不去吃。金蝉虽是恨那白雕，适才在空中不让他骑，可是心里头还是非常之爱，见它不吃，便随意举了一只鹿腿去喂。那白雕把头一偏，连忙跳开。金蝉不舍，赶得白雕乱蹦乱躲。灵云怕金蝉把白雕逗急，急忙止住金蝉道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕啄食",
+            "sound_cn": "黑雕风卷残云般啄食鹿腿，喙击声急促",
+            "sound_en": "black eagle pecking at deer leg, rapid beak strikes",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "白雕跳躲",
+            "sound_cn": "白雕被金蝉追赶，慌乱蹦跳，翅膀微张",
+            "sound_en": "white eagle hopping and dodging from Jinchan, wings fluttering",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白仙禽业已成道，想必不食人间烟火了，你强它则甚？可惜晚上无处去采果子，不然着猩猩去采些果子来，或者仙禽肯吃，也未可知。",
+          "instruct": "劝止"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一句话把英琼提醒，才想起自己包裹中还有九个朱果，同一些黄精、松子之类。见两个神雕又在长鸣，恐怕飞走，急忙回身进洞。见芷仙已自睡着，扯了一床被与她盖上。打开包裹，取了些黄精、松子同四个朱果，走将出来，对白雕说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "取朱果",
+            "sound_cn": "打开包裹，取出黄精、松子和朱果，果实滚动",
+            "sound_en": "opening bundle, taking out herbs, nuts and red fruits, soft rolling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "雕鸣催",
+            "sound_cn": "二雕长鸣催促，声音急切",
+            "sound_en": "two eagles calling urgently",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我知你是吃素。这个朱果乃是仙果，我听我师父说，吃了可以延年轻身。可惜一路被我糟掉了不少，如今只剩下九个。我打算请你吃两个，给我爹爹带两个去，余下的五个我留在洞中待客了。",
+          "instruct": "诚恳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那白雕闻言，果然毫不客气走近前来，将两个朱果吃了，长鸣一声，点了点头，好似道谢的意思。接着伸出一只钢爪，英琼便将两个朱果递在他的爪中。这白雕抓了朱果，一个回旋，望空便起。黑雕佛奴也随着飞起，月光下一白一黑两个影子，转眼不见。金蝉、若兰忙问英琼：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "雕吃朱果",
+            "sound_cn": "白雕啄食朱果，清脆的啄击声",
+            "sound_en": "white eagle pecking at red fruits, crisp pecks",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双雕飞起",
+            "sound_cn": "二雕展翅腾空，月光下黑白双影，风声强劲",
+            "sound_en": "two eagles soaring up, black and white silhouettes under moonlight, strong wind",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "二雕可要飞回？",
+          "instruct": "急切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那黑的，我叫它金眼师兄，它名字叫佛奴，白眉师祖业已赐与了我。白的是师祖座下仙禽，这次是送它同伴回来，不会在此停留的。",
+          "instruct": "回答"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉不住口地直喊可惜。果然不多一会，黑雕飞回。英琼二次揖客进洞，坐定后，便取出那五个朱果，递给每人一个。说道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "黑雕飞回",
+            "sound_cn": "黑雕飞回落地的声音，翅膀收拢",
+            "sound_en": "black eagle returning and landing, wings folding",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "分朱果",
+            "sound_cn": "英琼分发朱果，果实轻放人手",
+            "sound_en": "Yingqiong handing out red fruits, gentle placement",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "裘姊姊业已吃过几个了，这一个留给余姊姊吧。早知此果是个仙果，不易得到，我先前也不把它猪八戒吃人参果，当饭吃了。",
+          "instruct": "爽朗自嘲"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人闻言，哈哈大笑。因适才听英琼在雕背上说过，知是仙果，大家慢慢咀嚼，果然甘香无比，食后犹有余甘。灵云细看这洞，有好几间石室，石床、石几、石灶样样俱全。洞外风景也甚清幽。只不知洞底凝碧崖风景如何，且待明早再去开辟。这时在灯光下，重新细看英琼，真是一身的仙风道骨，神采清爽，目如寒星，光彩照人。暗想：“她并未入门，却比那修炼多年的人，看去功行还要深厚。与若兰一比，真似一瑜一亮，难定高下。母亲说她生具异禀，果然不差。”",
+          "instruct": "叙述结尾"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "笑声",
+            "sound_cn": "众人闻言哈哈大笑，满室欢快，笑声爽朗",
+            "sound_en": "everyone laughing heartily, joyful and clear laughter",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "空中相遇",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume cinematic background ambience, high altitude sky under bright moonlight, gentle cool wind, faint cloud wisps, sense of peaceful flight, distant starry expanse, soft guqin resonance low and ethereal, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "山村相聚",
+        "start_line": 4,
+        "end_line": 7,
+        "prompt": "very subtle low volume cinematic background ambience, small mountain village in morning light, rustic adobe houses, warm sunlight, villagers chatting, livestock sounds (donkeys, horses, chickens), sense of passing through, subtle erhu hum lightly underpinning, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "空中追逐与相会",
+        "start_line": 8,
+        "end_line": 9,
+        "prompt": "very subtle low volume cinematic background ambience, open sky with scattered clouds, intense chase, wind rushing past, distant echoes of sword clashes and eagle cries, sense of urgency and excitement, sparse pipa plucks adding tension, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "峨眉后山洞府",
+        "start_line": 10,
+        "end_line": 37,
+        "prompt": "very subtle low volume cinematic background ambience, Emei back mountain at night, starry sky above ancient trees, quiet cave entrance with warm light glowing from within, sense of arrival and reunion, friendly atmosphere, distant sound of waterfall, soft yangqin shimmer warm and inviting, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

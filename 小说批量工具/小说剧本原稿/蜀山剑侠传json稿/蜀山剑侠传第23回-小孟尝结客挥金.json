@@ -1,0 +1,1922 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第二十三回 小孟尝结客挥金 莽教师当场出丑",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "陶钧": {
+      "role_voice": "开朗男生-开朗,阳光",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "赵心源": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "赛苏秦": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "黄暖": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "黎绰": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "陶全": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "猫头鹰(毛姓教师)": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第23回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来陶钧自听陶全之言，便留心观察众人动静。今见有人来访，赛苏秦又抢先出去。自己若去观看，定要被这一群教师拦阻，便假说内急，打算从花园内绕道去看个清楚。刚刚走到花园，便见赛苏秦用冷拳去打那穷汉，心中好生不悦。觉得比武要明鼓明锣，不能用暗算伤人。及至见那人竟毫不在意，赛苏秦倒好似有负痛的样子，心中暗暗惊异。便远远在后面跟随，欲待看个水落石出，他二人进屋之后，便在窗外偷听。见了赛苏秦许多丑态，听了那人所说种种的话，才知一向是受他们哄骗。便气得跳进屋内，也不理赛苏秦，先向那人深施一礼道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "花园快步",
+            "sound_cn": "陶钧在花园卵石小径上快步穿行，靴底与圆润石面摩擦发出细碎的沙沙声，两侧花木枝叶偶尔擦过衣袍边缘",
+            "sound_en": "Tao Jun walking quickly on a garden path of smooth pebbles, soles scraping against rounded stones with fine rustling, leaves and branches occasionally brushing against robe hem",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "月洞门穿行",
+            "sound_cn": "陶钧穿过花园月洞门时衣袍被风带起，脚下木屐踏上青石板发出清脆的嗒嗒声",
+            "sound_en": "Tao Jun passing through a moon gate, robe lifted by the breeze, wooden clogs tapping crisply on bluestone slabs",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "窗下偷听",
+            "sound_cn": "陶钧蹑足潜踪靠近窗下，身体贴近墙壁时衣袍边缘蹭到粉墙，发出极其轻微的布料摩擦声",
+            "sound_en": "Tao Jun creeping stealthily to the window, body pressing against the wall, robe hem brushing against plaster with extremely subtle fabric rustling",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "壮士贵姓高名？我陶钧虽然学过几年武功，一向受人欺诳，并未得着真传。壮士如果要同舍间几位教师比武，让我得饱眼福，我是极端欢迎的。",
+          "instruct": "诚恳拜问"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "跳入屋内",
+            "sound_cn": "陶钧怒气冲冲一脚跨过门槛跳进屋内，靴底重重落在夯土地面上发出闷响",
+            "sound_en": "Tao Jun angrily stepping across the threshold and jumping into the room, soles landing heavily on tamped earth floor with a dull thud",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赛苏秦见陶钧进来，暗恨一班饭桶为何不把他绊住，让他看去许多丑态。情知事已败露，又羞又急，不等那人回答，急忙抢先说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "赛苏秦",
+      "api": {
+        "voice": {
+          "role": "赛苏秦",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我们武术家照例以礼让为先，不到万不得已，宁肯自己口头上吃点亏，不肯轻易动手，以免伤了和气，结下深仇。这位赵教师乃成都有名英雄，他因慕公子的大名，前来比试。我恐公子功夫尚未纯熟，万一一时失手，有伤以武会友之道。好在公子正要寻觅高人，所以我打算同赵教师商量，请他加入我辈，与公子朝夕研究武艺。公子不要误会了意。",
+          "instruct": "狡辩圆场"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "急促移步",
+            "sound_cn": "赛苏秦边说边心虚地向后挪了半步，靴跟在砖地上蹭出刺耳的拖动声",
+            "sound_en": "Sai Suqin nervously shifting half a step backward while speaking, boot heels scraping harshly against brick floor",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵心源听罢，哈哈大笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "洪亮笑声",
+            "sound_cn": "赵心源仰头发出一阵洪钟般爽朗的大笑，笑声在屋内四壁回荡，充满不屑与嘲讽",
+            "sound_en": "Zhao Xinyuan throwing his head back and letting out a hearty laugh like a bronze bell, echoing off the walls with contempt and mockery",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贵教师真可谓舌底生莲，语妙人前了。我赵心源也不稀罕哄外行，骗饭吃，要入你们的伙，我是高攀不上。要奉陪各教师爷走上两趟，那倒是不胜荣幸之至。",
+          "instruct": "讥讽明亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧见赛苏秦还要设辞哄骗自己，不由满心大怒，只是不好发作。冷笑了两声，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "冷笑两声",
+            "sound_cn": "陶钧从鼻腔中发出两声冷冷的嗤笑，带着压抑的愤怒和鄙夷",
+            "sound_en": "Tao Jun letting out two cold snickers from his nose, carrying suppressed anger and contempt",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "这位赵教师既然执意比试，何必拦阻人家呢？来来来，我替你们俩当做证人，哪个赢了，我就奉送哪个五十两彩金如何？",
+          "instruct": "激将"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "银两轻响",
+            "sound_cn": "陶钧说话时从袖中随手取出一锭银子在掌心掂了掂，银锭碰撞发出清脆悦耳的金属声",
+            "sound_en": "Tao Jun casually taking a silver ingot from his sleeve and weighing it in his palm, producing a clear and pleasant metallic clink",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵心源道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "还是你们公子说话痛快，我赵某非常赞成。",
+          "instruct": "爽朗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赛苏秦见事已闹僵，自己又不是对手，忽然眉头一皱，计上心来，便说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "赛苏秦",
+      "api": {
+        "voice": {
+          "role": "赛苏秦",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵教师与公子既赞成比试，愚下只得奉陪。不过今日天晚，何妨就请赵教师安歇一宵，容我等与公子稍尽地主之谊。明早起来，约齐众教师，就在庄外草坪中一齐分个高下。如何？",
+          "instruct": "缓兵之计"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧已知赵心源定非常人，正恐他不能久留，乐得借此盘桓，探探他的口气，便表示赞成。赵心源也不坚拒。当下陶钧留赵心源住在他书房之内。又吩咐厨房备酒接风，让赵心源上座。赵心源也不客气，问了众教师名姓之后，道声：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "移步书房",
+            "sound_cn": "陶钧引领众人穿过回廊走向书房，脚步落在青砖地上，木门被推开时发出陈旧的吱呀声",
+            "sound_en": "Tao Jun leading the group through a corridor toward the study, footsteps on blue bricks, old wooden door creaking as it's pushed open",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "点燃灯烛",
+            "sound_cn": "陶钧取出火折子点燃书案上的油灯，火石摩擦声后是灯芯被点燃的轻噗声",
+            "sound_en": "Tao Jun lighting the oil lamp on the desk with a fire striker, flint scraping followed by the soft puff of wick catching fire",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "有僭。",
+          "instruct": "谦和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "径自入座。酒到半酣，陶钧便露出延聘之意。赵心源闻言大笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "酒席氛围",
+            "sound_cn": "陶杯与瓷盘轻轻碰触，筷子搁在碗沿上发出清脆响声，酒液倒入杯中咕嘟作响",
+            "sound_en": "wine cups and porcelain plates lightly clinking, chopsticks resting on bowl rims with crisp sounds, wine gurgling as it's poured into cups",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "坦荡笑声",
+            "sound_cn": "赵心源闻言仰头大笑，笑声豪迈坦荡，在书房中回荡良久",
+            "sound_en": "Zhao Xinyuan throwing back his head and laughing heartily, bold and unrestrained laughter echoing in the study",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无怪乎江湖上都说公子好交，美恶兼收，精粗不择了。想赵某四海飘零，正苦无有容身之地，公子相留，在下是求之不得。只是赵某还未与众位教师爷比试，公子也不知道我有无能耐，现在怎好冒昧答应？倘若赵某败在众教师手里，公子留我，也面上无光；万一侥幸把众教师打倒，众位教师爷当然容让赵某在此，吃碗闲饭。公子盛意，赵某心领，且等明日交手后再说吧。",
+          "instruct": "坦荡自谦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧见赵心源满面风尘，二目神光炯炯，言词爽朗，举动大方，迥非门下教师那般鄙俗光景，不待明日比试，已自心服，在席上竭力周旋他一人，把其余诸人简直不放在眼里。赛苏秦同这一群饭桶教师见了这般情状，一个个全都切齿痛恨。席散之后，陶钧又取了两身新衣，亲自送往书房，与赵心源更换。赵心源道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "席散离座",
+            "sound_cn": "酒席散去，椅子腿在地面上拖动发出刺耳的摩擦声，碗碟被收拾时叮当作响",
+            "sound_en": "feast ending, chair legs scraping harshly against the floor, bowls and dishes clattering as they're cleared",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "取衣送行",
+            "sound_cn": "陶钧从衣柜中取出两套叠放整齐的新衣，衣料摩挲发出丝绸特有的柔软沙沙声",
+            "sound_en": "Tao Jun taking two neatly folded sets of new clothes from the wardrobe, silk fabric rustling with its characteristic soft swish",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "公子这番盛意，也不是赵某不受，且等明日交手之后，再领情吧。",
+          "instruct": "推辞诚恳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我等一见倾心，阁下何必拘此小节？",
+          "instruct": "诚恳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵心源尚待推辞，怎奈陶钧苦劝，也就只好收下。二人谈了片时，各自安寝。那赛苏秦席散之后，召集众人，互相埋怨了一阵，又议临敌之策。其中也有两个功夫稍好一些的，一名叫黎绰，一名叫黄暖，乃是水路的大盗，也是来访友比武，被众人婉劝入伙的。当下便议定明日由黎、黄二人先上头阵，众人随后接应；如见不能取胜，估量敌人纵然厉害，也双拳难敌四手，就与他来个一拥齐上；如再不胜，末后各人将随身暗器同时施放出来，他就不死，也要受重伤的。打伤姓赵的之后，陶钧好说便罢，如若不然，就放起火来，抢他个一干二净，各人再另觅投身之所。计议已定，一宿无话。到了次日，陶钧陪着赵心源，同众教师到了庄前草坪，看的人业已挤满。黄暖自己忍耐不住，手持单刀，跳到场内，指着赵心源叫阵。赵心源也不脱去身上长衣，也不用兵刃，从容不迫地走进场内，先打一躬，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "密议低语",
+            "sound_cn": "赛苏秦召集众教师在偏厅密议，压低嗓音交头接耳，间或有一两声愤怒的拍桌声和咒骂",
+            "sound_en": "Sai Suqin gathering the teachers for a secret meeting in the side hall, low whispers, occasional angry table slaps and curses",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "草坪人声鼎沸",
+            "sound_cn": "庄前草坪上围观人群熙熙攘攘，嘈杂的交谈声、小贩叫卖声、孩童嬉笑声交织成一片热闹的声浪",
+            "sound_en": "crowds bustling on the lawn in front of the manor, noisy chatter, hawkers' calls, children's laughter interweaving into a lively wave of sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "黄暖纵身入场",
+            "sound_cn": "黄暖手持单刀一个纵跃跳入场中，落地时靴底在草地上发出沉重的闷响，随即单刀在阳光下反射出一道寒光",
+            "sound_en": "Huang Nuan leaping into the arena with a single saber, boots landing heavily on the grass with a dull thud, saber flashing coldly in the sunlight",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵某特来领教，还望教师爷手下留情一二。",
+          "instruct": "从容谦和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄暖气愤愤地说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "黄暖",
+      "api": {
+        "voice": {
+          "role": "黄暖",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你这东西欺人太甚！快亮兵刃出来交手。",
+          "instruct": "气愤"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵心源道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "兵刃么？可惜我不曾带将出门；这里的兵刃，无非是摆样子的，不合我用。这可怎么好呢？",
+          "instruct": "从容调侃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄暖怒道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "黄暖",
+      "api": {
+        "voice": {
+          "role": "黄暖",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你没有兵刃，就打算完了吗？",
+          "instruct": "恼怒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵心源道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵某正想众位教师让我在此吃两年闲饭，岂有不比之理？也罢，与你一个便宜，你用兵刃，我空手，陪你们玩玩吧。",
+          "instruct": "轻松自信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黄暖道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "黄暖",
+      "api": {
+        "voice": {
+          "role": "黄暖",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这是出你自愿。既然如此，你接招吧。",
+          "instruct": "凶狠"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，一刀迎面劈下。陶钧见赵心源无有兵器，正要派人送去，他二人已动起手来，心中暗怪黄暖不讲理，又怕赵心源空手吃亏。正在凝思，忽听满场哈哈大笑。定睛一看，只见赵心源如同走马灯似的，老是溜在黄暖身后。那黄暖怒发千丈，一把刀横七竖八，上下乱斫，休说是人，连衣服也伤不了人家一点，引得满场哈哈大笑。这其中恼了黎绰，手持一条花枪，蹿入场中。陶钧忙喊：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "单刀劈风",
+            "sound_cn": "黄暖一刀迎面劈下，刀刃破开空气发出锐利的呼啸，刀锋带着风声直落",
+            "sound_en": "Huang Nuan's saber slashing down, blade cutting through the air with a sharp whistle, wind rushing as it descends",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "快速移步",
+            "sound_cn": "赵心源脚步如风般快速移动，在草地上连续发出轻微而密集的踏地声",
+            "sound_en": "Zhao Xinyuan moving swiftly like the wind, continuous light and dense footsteps on the grass",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "满场哄笑",
+            "sound_cn": "围观人群爆发出阵阵哄堂大笑，笑声此起彼伏如浪潮一般，充满嘲弄与幸灾乐祸",
+            "sound_en": "crowd bursting into waves of raucous laughter, rising and falling like tidal waves, filled with mockery and schadenfreude",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "黎绰蹿入场中",
+            "sound_cn": "黎绰手持花枪从人群中一个箭步蹿入场中，枪尖拖地擦出一溜火星与刺耳摩擦声",
+            "sound_en": "Li Chuo darting into the arena with a spear, spear tip dragging on the ground, leaving a trail of sparks and harsh scraping",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "黎教师且慢！只许单打独斗，才算英雄。",
+          "instruct": "焦急"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黎、黄二人哪里肯听，仍是一拥齐上。陶钧见黎、黄二人刀枪并举，疾若飘风，正替赵心源着急。再看那赵心源时，纵高跳远，好似大人戏弄小孩子一样，并不把黎、黄二人放在心上。黎、黄二人斗了半天，竟不能伤敌人分毫，又羞又气又着急，便不问青红皂白，把手中兵器拼命向敌人进攻。先是黎绰照着赵心源前心，使了一个长蛇入洞，抖起碗大的枪花，分心便刺。赵心源不慌不忙，将脚一垫，纵起有丈许高下。落地不远，黄暖一刀，又照他脚面斫去。看着将要斫在脚上，赵心源忽地一个怪蟒翻身，将身一侧，避过刀锋。左脚刚一落地，黎绰的枪又到，同时黄暖的刀又当头斫来。赵心源喊一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "刀枪并举",
+            "sound_cn": "黎绰花枪与黄暖单刀同时攻出，枪尖破风发出尖啸，单刀横扫带起呜咽风声",
+            "sound_en": "Li Chuo's spear and Huang Nuan's saber attacking simultaneously, spear tip whistling, saber sweeping with a howling wind sound",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "纵身跃起",
+            "sound_cn": "赵心源脚尖在草地上用力一垫，整个人如离弦之箭冲天而起，衣袍在风中猎猎鼓荡",
+            "sound_en": "Zhao Xinyuan pushing off the grass with his toes, shooting up like an arrow, robe billowing in the wind",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "怪蟒翻身",
+            "sound_cn": "赵心源身形如怪蟒般灵活翻转，避过刀锋时衣角被刀风带起猎猎作响",
+            "sound_en": "Zhao Xinyuan twisting with the agility of a python, dodging the blade, robe hem flapping in the wind",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "双刃再至",
+            "sound_cn": "黎绰的长枪与黄暖的单刀几乎同时再次攻到，枪风刀啸交织成密集的破空声",
+            "sound_en": "Li Chuo's spear and Huang Nuan's saber arriving almost simultaneously again, spear wind and saber whistle interweaving into dense air-tearing sounds",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来得好！",
+          "instruct": "激昂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "将身往后一仰，脚后跟顿处，倒退斜穿出去数尺远近。那黎绰一枪刺了个空，恰巧黄暖用力太猛，收刀不住，一刀斫在黎绰枪上，斫成两段。在这快如闪电的当儿，赵心源业已飞身到了面前，举起两拳，在黎、黄二人脸上一晃。他二人吃了一惊，慌不迭地，一个拿了把钢刀，一个举起半截断枪，还待迎敌，只觉头上仿佛有个东西轻轻按了一下。再看敌人，已不知去向。忽见赵心源立在一个土坡上，手里拿着他二人的帽子，哈哈笑道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "刀断枪杆",
+            "sound_cn": "黄暖一刀斫在黎绰枪杆上，金属与硬木碰撞爆发出清脆的断裂声，半截木枪哐当落地",
+            "sound_en": "Huang Nuan's saber hacking into Li Chuo's spear shaft, metal clashing against hardwood with a sharp crack, half the wooden spear clattering to the ground",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "轻取双帽",
+            "sound_cn": "赵心源以鬼魅般的速度取走二人帽子，动作快如幻影，只带起一丝极轻微的衣风",
+            "sound_en": "Zhao Xinyuan snatching both hats with ghost-like speed, movement like a phantom, only the faintest stir of air",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "纵身上坡",
+            "sound_cn": "赵心源一个纵跃落在一丈外的土坡上，靴底与松软泥土接触发出轻微的噗声",
+            "sound_en": "Zhao Xinyuan leaping to a small mound a zhang away, boots landing softly on loose soil with a slight puff",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二位教师果然武术高强，请饶了我吧。",
+          "instruct": "调侃"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "爽朗笑声",
+            "sound_cn": "赵心源说完哈哈大笑，笑声洪亮轻快，在开阔的草坪上传出很远",
+            "sound_en": "Zhao Xinyuan laughing heartily after speaking, bright and cheerful laugh carrying far across the open lawn",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黎、黄二人暗暗惊异：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "怎么一转瞬间，自己帽子已被人家取去了？情知万万不是此人对手，只是又舍不得离此他去，越加恼羞成怒。稍微想了一想，黎绰又在别人手中取过一件兵刃，二人喊了一声，又赶杀上去。赵心源见二人这样不知趣，便说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "再取兵刃",
+            "sound_cn": "黎绰从旁人手中夺过一柄钢刀，刀身与剑鞘碰触发出一声脆响",
+            "sound_en": "Li Chuo grabbing a steel saber from a bystander, blade and scabbard clashing with a crisp sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "赵某手下留情，尔等仍然不知时务，我就要无礼了。",
+          "instruct": "警告"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那赛苏秦见势不佳，便与余下的十几个教师使了一个眼色，自己却溜回庄中而去。那十几个浑人哪知赵心源的厉害，见军师发下号令，还想以多取胜，一个个手持兵刃，离了座位，假装观望，往场内走去。到底敌人是一双空手，起初还不好意思加入战团。那赵心源见众人挨近，早知来意，便一面迎敌，一面口中说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "群敌逼近",
+            "sound_cn": "十几名教师手持长短不一的兵刃从四面八方围拢过来，脚步杂乱急促，铁器碰撞出零星的叮当声",
+            "sound_en": "over a dozen teachers closing in from all directions with weapons of various lengths, hurried and disorderly footsteps, sporadic clinking of metal",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "赛苏秦遁走",
+            "sound_cn": "赛苏秦趁乱弯腰溜出人群，脚步急促地向庄内跑去，衣摆扫过草丛带起沙沙轻响",
+            "sound_en": "Sai Suqin slipping out of the crowd and running hastily toward the manor, robe hem brushing through grass with rustling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位如果技痒，何不也下来玩耍玩耍呢？",
+          "instruct": "从容挑衅"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人见赵心源叫阵，越加恼怒，大吼了一声，各持兵刃，一拥齐上。赵心源起初只敌黎、黄二人，并未拿出真实本领，无非用些轻身功夫，闪转腾挪，取笑而已。现在见众人一齐向前，心想：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "众敌齐吼",
+            "sound_cn": "十几名教师齐声发出暴烈的大吼，怒吼声如闷雷在草坪上空炸开，各持兵刃蜂拥而上",
+            "sound_en": "over a dozen teachers letting out a violent roar in unison, like thunder exploding over the lawn, swarming forward with weapons raised",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "兵刃群响",
+            "sound_cn": "多人兵刃同时挥动，刀剑枪戟在空气中划出密集而凌乱的呼啸声",
+            "sound_en": "multiple weapons swinging simultaneously, swords, spears, and halberds producing dense and chaotic whistling",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不给他们点厉害，他们也不知道我赵心源为何许人也。想罢，顺便就把两个帽子当作兵器，舞了个风雨不透。觑定众人来到切近，忽地将身往下一蹲，用一个扫地连环腿，往四面一转，扫将开去，当时打倒了七八个人。黎绰受了同伙兵刃的误伤，几乎连肩削了去。知道不好，按照原定计划，打了一个呼哨，众人连滚带爬，忙跟着四散退了下来。赵心源本不想太甚，既是敌人败退，也不穷追。恰好身旁倒有两个受伤的教师，便上前用手相扶。刚刚扶起一人，忽听金刃劈风的声音，知道是敌人暗器，忙将头一偏，躲了过去，原来是一只飞镖。再往四外看时，败退的十几个教师，手中各持暗器，已在四面将自己包围。说时迟，那时快，这四下的镖、锤、弩、箭，如飞蝗流星一般，向他打来。赵心源见他等这般卑鄙，暗暗好笑，可是自己也不敢大意。你看他蹿高纵矮，缩颈低头，手接脚踢，敏捷非常，活似猿猴一般，休想伤得他分毫。百忙中有时接着敌人暗器，还要回敬一下，无不百发百中。这时早恼了陶钧。起初见黎、黄败退，众教师以多为胜，已是又气又恨。及至见众人不是赵心源敌手，被人赤手空拳打倒好些，心中高兴非常。现在见众人败退，暗器齐发，不由大怒，便站在高处喝止。众人恨极了赵心源，咬牙切齿，哪里还听他的话。陶钧正待上前，忽见陶全上气不接下气跑来，说道：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "双帽舞动",
+            "sound_cn": "赵心源将两顶帽子当作兵器快速舞动，帽檐划破空气发出密集的呼呼风声",
+            "sound_en": "Zhao Xinyuan whirling the two hats like weapons, brims slicing through the air with dense whooshing sounds",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "扫地连环腿",
+            "sound_cn": "赵心源突然下蹲一个横扫，连环腿带起一阵狂风，将七八名教师扫倒在地，身体撞击地面发出连串沉闷的砰响",
+            "sound_en": "Zhao Xinyuan suddenly crouching and executing a sweeping leg attack, creating a gale that sweeps seven or eight teachers off their feet, bodies hitting the ground with a series of dull thuds",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "兵刃坠地",
+            "sound_cn": "被击倒的教师们手中兵刃脱手坠地，铁器与地面碰撞发出杂乱的叮当与哐啷声",
+            "sound_en": "weapons flying from the hands of fallen teachers, clattering and clanging against the ground in chaotic metallic noise",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.5,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "暗器齐发",
+            "sound_cn": "飞镖、铁胆、弩箭、袖箭如飞蝗般从四面激射而来，密集的破空声交织成一张死亡的网",
+            "sound_en": "darts, iron balls, crossbow bolts, and sleeve arrows flying in like locusts, dense whistling interweaving into a web of death",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "接镖回敬",
+            "sound_cn": "赵心源凌空接住数件暗器，随即精准回掷，每一件都命中目标，伴随着一声声闷哼和惨呼",
+            "sound_en": "Zhao Xinyuan catching several projectiles in mid-air and throwing them back with precision, each hitting its target, accompanied by grunts and cries of pain",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "陶全",
+      "api": {
+        "voice": {
+          "role": "陶全",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "适才公子在此比武，有一个教师偷偷回到庄中，将账房捆住，开了银柜，抢了许多金银，往西北方逃走了。",
+          "instruct": "气喘焦急"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "气喘跑来",
+            "sound_cn": "陶全上气不接下气地从人群中挤过来，粗重的喘息声与急促杂乱的脚步声交织在一起",
+            "sound_en": "Tao Quan pushing through the crowd, breathless, heavy panting interwoven with rapid and chaotic footsteps",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧心想：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "果然这班人俱是歹人，现今他们见能手来了，知道他们站不住脚，便下这样毒手。又想自己平日对他们何等厚待，临走倒抢了自己银票。情知已追赶不上，索性等比试完了再说。又见众教师狼狈情形，越加愤恨，便喊道：",
+          "instruct": "愤怒叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "赵英雄，你不必手下留情，他们这一伙俱是强盗，适才已分人到我家中打劫去了。",
+          "instruct": "愤怒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时黎绰站得离陶钧最近，闻听此话，暗恨赛苏秦不够朋友，众人在此舍死忘生对敌，他倒于中取利。又恨陶钧不讲交情，一心偏向外人，恰好手中暗器用完，便顾不得再打敌人，把心一横，只一蹿便到了陶钧面前，大声喝道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "黎绰窜至",
+            "sound_cn": "黎绰一个箭步冲到陶钧面前，脚步落地沉重急促，带起一片尘土",
+            "sound_en": "Li Chuo rushing to Tao Jun with a quick step, heavy and urgent landing, kicking up dust",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "黎绰",
+      "api": {
+        "voice": {
+          "role": "黎绰",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你这个得新忘旧的小畜生！",
+          "instruct": "凶狠怒骂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，一枪当胸便刺。陶钧一个冷不防，吃了一惊，刚喊出一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "花枪刺出",
+            "sound_cn": "黎绰手中花枪当胸刺出，枪尖破风发出锐利的尖啸，直取陶钧胸口",
+            "sound_en": "Li Chuo thrusting his spear at chest level, spear tip whistling sharply through the air, aimed straight at Tao Jun's heart",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "不好！",
+          "instruct": "惊恐"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "黎绰已中镖倒地。原来赵心源在场上乱接暗器时，地下新躺倒两个受伤的敌人。一个伤很重，已经动转不得，虽经赵心源扶起，依旧倒下哼哼装死。另一个姓毛，外号人称猫头鹰，最是奸险不过。他虽然也挨了赵心源一连环腿，却是受伤不重。因见众教师暗器齐飞，赵心源应接不暇之际，看出了便宜。恰好他身上带着有三支钢镖，悄悄取在手中。赵心源正在那里乱接暗器，忽见地下受伤教师在那里慢慢移动，便留上了神。猫头鹰哪知厉害，将镖挪在右手，向前一举，一只钢镖直奔赵心源咽喉打去。赵心源早已防备，见镖来到，也不躲闪，将口一张，用钢牙紧紧将镖衔住。恰好手中又接了一支弩箭，觑准猫头鹰右肩胛上，大中二指捏住箭杆，食指用力微一使劲，打个正着。猫头鹰第二次镖还未发出，就中了敌人暗器，疼得满地打滚。这时黎绰已纵到陶钧跟前，举枪便刺。赵心源远远看见，来不及救援，他便把口中的镖换在左手，又接了黄暖一只镖，刚要回敬他一下，瞥眼看着陶钧正在危险之中，也不及说话，双手镖冲着黎、黄二人次第发出，黎、黄二人分别中镖倒地。赵心源接着施展燕子飞云纵的功夫，接连三纵，已到了陶钧面前。再看陶钧，已夺过黎绰花枪，要往下再刺。赵心源忙喊道：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "猫头鹰中镖",
+            "sound_cn": "弩箭射中猫头鹰右肩胛，发出沉闷的入肉声，随即猫头鹰发出一声惨嚎",
+            "sound_en": "crossbow bolt hitting Cat Owl's right shoulder, dull sound of impact on flesh, followed by a piercing scream",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "衔镖",
+            "sound_cn": "赵心源张嘴用钢牙精准咬住飞镖，金属与牙齿碰撞发出一声清脆的铮鸣",
+            "sound_en": "Zhao Xinyuan clamping the steel dart between his teeth with precision, clear metallic clang",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "双镖齐发",
+            "sound_cn": "赵心源双手同时掷出两镖，镖刃破风发出两道平行的尖啸，精准命中黎绰和黄暖",
+            "sound_en": "Zhao Xinyuan throwing two darts simultaneously with both hands, two parallel whistling sounds, precisely hitting Li Chuo and Huang Nuan",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "燕子飞云纵",
+            "sound_cn": "赵心源施展轻功凌空连续三个纵跃，衣袍在风中猎猎作响，落地轻盈如羽",
+            "sound_en": "Zhao Xinyuan performing three consecutive leaps in the air, robe flapping loudly, landing as light as a feather",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "夺枪落地",
+            "sound_cn": "赵心源落地时顺手从陶钧手中取过花枪，枪杆与陶钧手掌摩擦发出轻微声响",
+            "sound_en": "Zhao Xinyuan taking the spear from Tao Jun's hand as he lands, spear shaft rubbing lightly against palm",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "公子不可造次。",
+          "instruct": "急切劝阻"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧停手刚要问时，赵心源忙道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "公子请先回庄，待我先打发他们上路。",
+          "instruct": "沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，要过陶钧手中的枪，将黎绰胁下一点，便纵身入场。这时众教师中，有乖觉一点的，业已逃跑；有不知时务的，还待上前。赵心源施展轻身功夫，纵到他们跟前，用枪杆一点，无不应声而倒。不大会工夫，众教师除逃去的三四个外，其余的俱都被赵心源点倒在地，不能动转。赵心源又将众人像提猪一般，提在一个地方。这时陶钧尚未离去，众人俱都不能动转，面向着他，露出一种乞怜之色。陶钧正要发言，赵心源道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "枪杆点穴",
+            "sound_cn": "赵心源手持花枪，枪杆如蜻蜓点水般精准点击各人穴道，每一下都伴随着一声闷响和身体软倒的声音",
+            "sound_en": "Zhao Xinyuan using the spear shaft like a dragonfly touching water, precisely striking vital points, each tap followed by a dull thud and a body slumping",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "提人聚拢",
+            "sound_cn": "赵心源将倒地的教师们一个个提起像堆货物般聚拢在一处，衣料摩擦声与粗重的呼吸声交织",
+            "sound_en": "Zhao Xinyuan picking up the fallen teachers one by one and piling them together like cargo, cloth rustling interwoven with heavy breathing",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "想尔等众人在此地蒙骗陶公子混碗饭，原无什么罪恶。只是不该以众凌寡，暗算伤人。尔等如欲从此洗心革面，赵某也不为已甚；否则便请陶公子送尔等到官厅，办尔等抢劫之罪。任凭尔等打算吧！",
+          "instruct": "公正威仪"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便走过去，在每人身后拍了一把，众人缓醒过来，一个个羞容满面，转身要走。陶钧这时倒动了恻隐之心，忙喝道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "拍背解穴",
+            "sound_cn": "赵心源在每人背后轻拍一掌，发出连续的低沉闷响，被点穴者纷纷缓过气来",
+            "sound_en": "Zhao Xinyuan lightly slapping each person's back, a series of low dull thuds, as the immobilized gradually recover their breath",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "诸位暂且慢走，且容我派人将诸位的行李衣物取来。",
+          "instruct": "仁厚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便叫人去叫陶全将众人的衣物取来，又叫陶全再筹一千两银子，作为赠送众人的川资。众人见公子如此仁义，俱都喜出望外，跪在地下，向陶钧叩头谢别。陶钧也跪下还礼。众人当即告辞。那受伤的人，便由不受伤的搀扶，分别上路而去。陶钧见众人走后，便请赵心源同往庄中，执意拜他为师。赵心源道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "众人跪谢",
+            "sound_cn": "众人齐齐跪倒在地向陶钧叩头，膝盖撞击地面发出沉闷的声响，额头触地有声，夹杂着感激的低语",
+            "sound_en": "crowd kneeling and kowtowing to Tao Jun, knees hitting the ground with dull thuds, foreheads touching the ground, interspersed with murmurs of gratitude",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "银两发放",
+            "sound_cn": "陶全取来银两分发给众人，银锭在手中传递时发出沉闷的碰撞声",
+            "sound_en": "Tao Quan distributing silver ingots, dull clinks as the coins are passed from hand to hand",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "公子生有异质，赵某怎配做公子的师父？我不过在此避难。公子如以朋友相待，赵某当尽心相授。",
+          "instruct": "谦虚真诚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧还是不依，赵心源只得受了陶钧四拜，从此朝夕用功，艺业大进。",
+          "instruct": "收束"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "拜师四拜",
+            "sound_cn": "陶钧恭恭敬敬行拜师大礼，四拜叩首，额头轻触地面，衣袍拂地发出庄重的沙沙声",
+            "sound_en": "Tao Jun performing the formal disciple ceremony with four respectful bows, forehead lightly touching the ground, robe sweeping solemnly",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "庄院花园与厅堂",
+        "name_en": "暮春午后，富家庄园花园中，温暖阳光透过竹林洒落，桂花与泥土的气息弥漫，远处厨房传来切菜声，木秋千随风轻摆，檐下麻雀低鸣，箫声依稀从远处飘来，气氛宁静中带着隐秘",
+        "start_line": 1,
+        "end_line": 4,
+        "prompt": "very subtle low volume cinematic background ambience, late spring afternoon in a wealthy manor's garden, warm golden sunlight filtering through bamboo groves, faint fragrance of blooming osmanthus and damp earth, soft breeze rustling through lotus leaves in the small pond, distant kitchen sounds of chopping and sizzling, subtle creak of a wooden swing hanging idle, occasional chirping of sparrows in the eaves, calm yet watchful mood, distant breath of xiao flute from the city, smooth continuous ambience bed, no sharp sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "书房夜宴谈交",
+        "name_en": "深夜庄园书房中，油灯微光摇曳，映照着满壁书画与古籍，红木家具散发墨香与旧纸的气息，酒杯轻碰声与低语交谈交织，窗外秋虫低鸣，微风拨动灯焰，气氛信任而沉静，古琴声在远处隐约萦绕",
+        "start_line": 5,
+        "end_line": 20,
+        "prompt": "very subtle low volume cinematic background ambience, quiet scholar's study in a grand manor at night, warm oil lamp casting dancing shadows on walls lined with scrolls and books, aged rosewood furniture and the faint scent of ink and old paper, soft clinking of wine cups and bowls, low voices of conversation punctuated by occasional laughter, crickets singing outside the paper window, subtle breeze making the flame flicker, trusting and observant atmosphere, deep guqin plucking as underlying texture, no sharp foreground sounds, no prominent events, no voices clearly defined, no music melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "庄前草坪初战",
+        "name_en": "清晨阳光下的庄前大草坪，人头攒动，围观者喧嚣兴奋，尘土在晨光中飞扬，兵刃试炼声与脚步挪动声交织，比武前紧张而期待的气氛弥漫，远处人群鼓掌如节拍般回荡",
+        "start_line": 21,
+        "end_line": 44,
+        "prompt": "very subtle low volume cinematic background ambience, bright morning on a vast manor lawn, sunlight glaring on the grass, crowds of spectators buzzing with excitement, dust hanging in the air from earlier movements, occasional shouting and cheering from the edges, the sound of weapons being tested and feet shuffling, intense competitive and anticipatory mood, distant rhythmic clapping from the audience like a subtle beat, no sharp foreground events, no voices clearly defined, no music melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "暗器围攻激战高潮",
+        "name_en": "草坪激战高潮，刀剑碰撞声与暗器破空声密集交错，身体倒地闷响与吼叫声此起彼伏，尘埃与紧张感在空气中弥漫，危险迫近如战鼓低鸣，地面隐隐震颤",
+        "start_line": 45,
+        "end_line": 58,
+        "prompt": "very subtle low volume cinematic background ambience, chaotic battle climax on the manor lawn, intense combat with weapons clashing and projectiles whistling, bodies hitting the ground, grunts and cries of fighters, dust and tension saturating the air, imminent danger and visceral urgency, metallic clang of hidden weapons and arrows, underlying war drum pulse vibrating through the ground, no voices clearly defined, no music melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 0.5,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "人心归附拜师学艺",
+        "name_en": "午后风波平息，庄园草坪上尘埃缓缓落定，人群低声散去，鸟雀重归巢穴，清风送来花草清香，石砌喷泉流水潺潺，一切归于宁静，气氛温暖而充满新的希望，远处古筝旋律随风飘来",
+        "start_line": 59,
+        "end_line": 64,
+        "prompt": "very subtle low volume cinematic background ambience, peaceful afternoon settling over the manor after the storm, dust slowly dissipating over the trampled lawn, subdued murmurs of the dispersing crowd, birds returning to their nests, a gentle breeze carrying the scent of grass and flowers, soft splashing of a stone fountain in the garden, a sense of resolution and new beginning, warm and reflective mood, distant zither melody drifting on the breeze, no sharp foreground sounds, no voices, no music melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

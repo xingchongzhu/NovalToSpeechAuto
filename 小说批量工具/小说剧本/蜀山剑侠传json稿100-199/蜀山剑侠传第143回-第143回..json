@@ -1,0 +1,700 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第144回 莽莽红尘 重复乐土 茫茫碧海 再踏洪波",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "邵冬秀": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "初凤": {
+      "role_voice": "小玲-稚嫩,萝莉女声",
+      "pitch": "+4Hz",
+      "volume": "+2%",
+      "speed": "+3%"
+    },
+    "二凤": {
+      "role_voice": "小玲-稚嫩,萝莉女声",
+      "pitch": "+4Hz",
+      "volume": "+2%",
+      "speed": "+3%"
+    },
+    "三凤": {
+      "role_voice": "小玲-稚嫩,萝莉女声",
+      "pitch": "+4Hz",
+      "volume": "+2%",
+      "speed": "+3%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第143回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "冬秀便命抬过一旁，由他们自醒。这才分别轻重，一件一件地选出刑具来，与俞利挨次试用。那俞利平时以新刑施诸异己，引为乐事，今日见了这般惨状，心情自与往日不同，触目心惊。正在揣测仇敌要用哪一件来对付自己，猛听二次将他押过，不由吓了个魂飞天外。冬秀先替三女数骂了一顿，然后指着他道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "一件一件地选出刑具",
+            "trigger_offset": 0,
+            "duration": 3.0,
+            "process_mode": "overlay",
+            "name": "刑具碰撞",
+            "sound_cn": "刑具一件件取出，金属碰撞声，叮当作响，铁链拖曳声",
+            "sound_en": "Torture implements being selected one by one, metallic clinking and clanging, chains dragging",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "触目心惊",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "俞利颤抖",
+            "sound_cn": "俞利牙齿打颤，浑身发抖",
+            "sound_en": "Yu Li's teeth chattering, body trembling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这一次该轮到你了。",
+          "instruct": "清冷中带着狠厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便下位去，命老铁父子相助，自己亲自动手，由轻而重，把六件非刑全给俞利试遍。每晕死一回，便用凉水喷醒过来。略容他缓一缓气，再行动手。只制得俞利哭一会，笑一会，疼、痒、酸、麻、胀全都躬亲尝试，死去还魂了四五次，才行试完，已是奄奄一息。三女不知冬秀心意是一面拿仇人泄忿出气，一面想借此留住三女，使她深受众人爱戴，好在岛中常住。见日色偏西，天已不早，昨晚吃了烟火食后，几自觉出腹中有些饥饿，便催冬秀急速将俞利处死。冬秀看出三女心意，自己忙了大半日也觉有些腹饥。便悄声告诉老铁吩咐别殿执事，准备上等酒食。然后回身走向三女身侧，悄声说道：",
+          "instruct": "紧张残酷的叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "凉水喷醒",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "喷水声",
+            "sound_cn": "凉水喷在脸上，水声哗啦，喘息声",
+            "sound_en": "Cold water splashing on the face, sputtering, gasping for air",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "死去还魂",
+            "trigger_offset": 0,
+            "duration": 3.0,
+            "process_mode": "overlay",
+            "name": "呻吟惨叫",
+            "sound_cn": "俞利惨叫声时断时续，痛苦呻吟，声嘶力竭",
+            "sound_en": "Yu Li's intermittent screams and groans, hoarse and exhausted",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40.0,
+            "trigger_keyword": "准备上等酒食",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "杯盘声",
+            "sound_cn": "远处传来杯盘碗碟的轻响，酒食准备声",
+            "sound_en": "Distant clinking of cups and plates, food preparation sounds",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小妹岂不知三位恩姊急于回转仙府，无奈十多年杀父之仇与全岛人民的公愤，不能就此便宜了他。二则岛上人民尽都是当初老伯在日带来，方登乐土，便遇恶贼为虐，心念故主之恩，沦肌浃髓。此时如走，必然逼出许多人命，老伯在天之灵也是不安。适才我将俞贼的嘴堵住，一则防他和蓝二龙那狗贼一般求死恶骂；二则还是防他说出老伯归天，是他阴谋害死。好在全岛的人都当老伯仙去，当时下手的奸党，除俞贼外全数伏辜，决无泄露。正可借此时机，选一贤明岛主，使众人重享安乐，以符老伯在日之志。三位恩姊纵不乐居红尘，也应体念老伯遗志，权留些日，等岛主举出，再行回转仙府。岛上人民不论尊卑，因为有了这场事，俱以为有仙人在暗中福善祸恶，谁也不敢为非作歹。把这一岛造成永久的世外桃源，岂不是老伯积下了无量功德？",
+          "instruct": "清冷中带着恳切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，三凤抢答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "三凤",
+      "api": {
+        "voice": {
+          "role": "三凤",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+3%",
+          "volume": "+2%",
+          "pitch": "+4Hz",
+          "text": "我们还得到母亲墓上行祭，今天反正是回去不成。只不过我们想到海中弄点东西吃，要你先把俞贼杀了，打发众人走去，才好下去罢了。",
+          "instruct": "急切中带着稚气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "冬秀笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "杀俞贼须三位恩姊下手，那极容易。若说遣散众人，这些岛民心思不用问，定是怕三位恩姊暗中回转仙府。就令他们散开，也必有许多人昼夜防守挽留。只有等过些日子，众人看出三位恩姊俱都没有走的意思，才好想法回去。如今要他们相信，全数走开，哪有这般容易？至于吃的，三位恩姊也应该略微享受人间之味，我已令人办去了。",
+          "instruct": "清冷中带着笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "初凤因二凤、三凤俱有留岛之意，闻言虽然不愿，一心只记准老蚌别时之言，不过知道冬秀也是一番好意，并且当日回宫已是不及。打算明日祭墓之后，再暗劝两个妹子一次，如若不听，决计独自先回，以防万一宫中宝物出现，失了良机。主意打定，当时也不说破。冬秀见初凤并无话说，自己私愿十有九可望如意，暗自心喜不置。这时俞利几经非刑处治，死而复苏，嘴又被人堵住，遍体都是鳞伤。已疼得肌肉乱颤，透不过气来。冬秀亲到俞利身前仔细看了看，见他气息仅属，奄奄待毙，知已离死不远。便对俞利道：",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "若非三位公主再三催促将你正法，我还想给你多受点罪，方消我杀父之仇。虽然便宜你速死，只是你一人须抵不了多少命债。待我先斫你几刀，再请三位公主行刑。我和你的仇恨不消说了。这是三位公主的事儿，你也知道。如今这般治你，不冤枉吧？",
+          "instruct": "清冷中带着嘲弄"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞利闻言，已听出冬秀心存异念，想利用方良仙去之说，来治理全岛人民。并且看出三女虽因报杀父之仇，要他的命，并不像冬秀这般狠毒，也无据岛为王之心，想给她揭穿，偏又张不开口。只急得瞪着一双眼睛望着仇人，红得似要冒出火来。冬秀知他怒极，笑骂道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你这狗贼！还不服吗？待我给你将嘴里塞的东西掏了出来，让你换口气如何？",
+          "instruct": "清冷中带着狡诈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞利不知是计，还在打主意：反正免不了惨死，只要能张口，便给她喊破，至不济，也恶骂她几句。谁想冬秀更毒，一面说，早放下手中刀，从一件刑具上摘下一只钩子。俞利被绑倒在地，也没看见。等到冬秀扯去口中枪缨，正张口伸舌，想吐去满口碎麻再骂时，冬秀左手扯枪缨，一见他吐了口气，舌头方伸出，早就势右手一钩，将他舌头钩住，往外用力一扯。顺手抄起地下的刀，齐嘴唇一割，俞利的半截舌头便已割断，顺口角鲜血直流。疼得只在喉咙里哼了两声，连声音都未能急喊出来，手足微一挣扎，又已晕死。冬秀亲自接过老铁手中冷水喷了两口，方得二次回生。一见冬秀含笑站在面前，低头望着自己，满脸俱是喜容，自是恨逾切骨。怎奈身落人手，别无计较，便暗中拼死般提起气力，含着满口鲜血，朝冬秀脸上喷去。俞利虽是垂死之人，平时内外武功俱有很深根底；何况又是情急拼命，作困兽之斗，不顾伤处疼痛，将周身所剩一点余力，运足气功，用在这一口血上。冬秀武功本来平常，在那得意忘形之际，以为仇人还不是一任自己随意宰割，万没防到他会有此绝招。见俞利死又还魂，因见殿阶旁诸长老见俞利受刑惨状，先时还不怎样，末后一次，有几个竟将眼看向别处，大有不忍之意。不便再多加荼毒，满想再给他两下，便去请三女下位动手。猛见俞利口张处，眼前红光一闪，料知不妙，想避已是不及，竟喷了个满脸开花，立时觉着脸上似无数钉刺肉一般奇痛非常。幸而眼闭得快，稍慢一些，怕不打瞎才怪。吃了大亏，不由毒火中烧，也无心注意旁观的人如何，扯起衣角，略一抹拭面上血痕，蹿上前去，避开正面，用刀朝俞利口中一阵乱搅乱撬，却不往下扎去。转眼工夫，将俞利一张嘴割了个乱七八糟，连上下唇带门牙全部弄碎。又给他腿背上不致命的所在找补了几刀。俞利又是死去还魂了两三次。冬秀也觉力乏，才住了手，回身请三女。当时冬秀尽忙着收拾俞利，并暗中打算如何利用时机去做岛中女王，虽然脸上疼痛未消，并没在意。反是三女因冬秀聪明巴结，善体人意，身世又极可怜，惺惺相惜，对她已无殊骨肉。起初见冬秀用刀在俞利头、脸、腿、臂上连割带削，流了一地的鲜血，殿侧列坐的诸长老都目视旁处，后来竟自以袖障面，二凤、三凤还不怎样，初凤却觉冬秀报仇稍过。及见冬秀一回身，满脸俱是血痕，先已听冬秀后退时嗳呀连声，知道受伤不轻。二凤、三凤同仇敌忾，自不消说，连初凤也大怒起来，当下同时立起，走向俞利身侧。冬秀道：",
+          "instruct": "紧张残酷的叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "舌头钩住",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "割舌声",
+            "sound_cn": "铁钩勾住舌头，刀割皮肉声，闷哼，鲜血滴落",
+            "sound_en": "Hook grabbing the tongue, blade cutting flesh, muffled cry, blood dripping",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "含血喷去",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "喷血声",
+            "sound_cn": "满口鲜血喷出，噗的一声，溅在脸上",
+            "sound_en": "Blood spat out with a splatter, hitting the face",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "乱搅乱撬",
+            "trigger_offset": 0,
+            "duration": 3.0,
+            "process_mode": "overlay",
+            "name": "刀搅口唇",
+            "sound_cn": "刀在口中乱搅，皮肉碎裂声，牙齿崩断声",
+            "sound_en": "Blade stirring in the mouth, flesh tearing, teeth shattering",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "找补了几刀",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "补刀声",
+            "sound_cn": "刀刃刺入皮肉，闷响",
+            "sound_en": "Blade stabbing into flesh, dull thud",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这狠贼万死不足以蔽其辜！小妹杀父之仇，已略报一二。三位恩姊不可便宜了他。反正他也活不了两个时辰，给他一顿乱刀砍死，再将他一颗狠心取出来敬神吧。",
+          "instruct": "清冷中带着狠毒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三女闻言，果然取了三把快刀，一齐下手。俞利十年为恶，一旦遭报。当冬秀住手时，已是十成死了九成，仅止知觉未断，哪还禁得起这一顿板刀面，几下便已断气。冬秀恨犹未消，帮着三女一连乱砍。三女力猛手沉，不一会，砍成一堆血肉。才将首级割下，从烂肠破肚之中，用刀尖将一颗心挑了出来。命老铁将首级持去挂在长竿之上示众，贼心用来祭灵。余下贼党，等候明日扫墓之后，再行发落。分派已毕，老铁已命宫中厨房将酒食备好，设在偏殿之中。冬秀传命众人散去。众人哪里肯散，有那在宫墙外挤不进来的人民，因隔得太远，没有看清公主的容貌，还想请求到殿阶下面瞻仰。冬秀几经命老铁父子向众申说，天已不早，公主以后既然久留，终会相见，大家可以回去，各安生理，此时正在进膳，无须如此亟亟。众人方才散了大半。那些岛兵，便由老铁父子率领，各自归队。除恶行素著者外，余人概行豁兔。初凤姊妹虽然入世不深，见冬秀处理井井有条，也都佩服，赞不绝口。初凤在席间笑对冬秀道：",
+          "instruct": "紧张血腥的叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "乱刀砍死",
+            "trigger_offset": 0,
+            "duration": 4.0,
+            "process_mode": "overlay",
+            "name": "乱刀劈砍",
+            "sound_cn": "刀锋劈砍血肉，沉闷的斩击声，骨裂声",
+            "sound_en": "Blades hacking into flesh, dull thuds, bones cracking",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "首级割下",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "割首级声",
+            "sound_cn": "利刃割断颈骨，咔嚓一声，血肉分离",
+            "sound_en": "Blade severing the neck, crunching sound, flesh tearing",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "用刀尖将一颗心挑了出来",
+            "trigger_offset": 0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "挖心声",
+            "sound_cn": "刀尖挑出心脏，黏腻声",
+            "sound_en": "Blade tip extracting the heart, wet squelching",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30.0,
+            "trigger_keyword": "众人散去",
+            "trigger_offset": 0,
+            "duration": 5.0,
+            "process_mode": "overlay",
+            "name": "人群退散",
+            "sound_cn": "人群议论纷纷，脚步声渐渐远去，宫门关闭声",
+            "sound_en": "Crowd murmuring, footsteps fading, palace gates closing",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+3%",
+          "volume": "+2%",
+          "pitch": "+4Hz",
+          "text": "我姊妹三人因受恩母遗命，不回海底，难免误却仙缘；况且岛上之事，一概不知，也难治理。我看姊姊是个干才，何妨便代我们作了岛中之主？一则省得姊姊水中上下不便，二则也符岛人之望，岂非一举两得？",
+          "instruct": "稚嫩中带着真诚建议"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "冬秀笑答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "邵冬秀",
+      "api": {
+        "voice": {
+          "role": "邵冬秀",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "漫说我本无此德能，昨日俘虏，今作岛主，难以服众。纵然三位恩姊错爱，如今贼首妖妇虽死，还有妖道和一些余党未归。适才在地宫中擒俞贼时，妖妇已经惊醒，如非二恩姊下手得快，出其不意，将她刺杀，那满宫中的无情毒火，转眼烧到面前，如何抵挡？后来虽知她只是个障眼法儿，但妖道是她丈夫，想必比她厉害。三位恩姊如不在此，留下妹子一人，孤掌难鸣，到时岂不也和俞利一般，任人宰割？况且全岛人民思念故主，一念忠诚，三位恩姊一去，就说他们不真个相率投海，难道又任他等在妖道回来后堕入水火之中么？",
+          "instruct": "清冷中带着推辞与恳切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "初凤闻言，沉思了一会，便问二凤、三凤两人怎样？二女俱都附和冬秀的主张，三凤更是坚决。初凤好生忧急。少时用完酒宴，冬秀因地宫血迹污秽，便命老铁父子将宫中许多妇女全数放出，本岛有家的还家，无家的等到明日另行择配。只留下四名服侍的宫女。另率人将宫中几具贼党尸首抬出掩埋，打扫干净听用。当晚便请三女离了别殿，宿在王宫之内。出殿时节，岛民闻信，齐集别殿宫墙外面，夹道欢呼。一路上香花礼拜，灯烛辉煌，自有一番欢乐气象。及至到了王宫起居别殿之中，又更华丽非常。真是堂上一呼，阶下百诺，起居饮食，无不精美。人情大抵喜新厌旧。海底紫云宫虽是仙宫，一则三女在那里生息多年，过惯了，不以为奇；二则彼时仙书未得，还有许多灵域奥区未曾开辟；三则人间繁富，尚系初来，三女不能辟谷，海底仙药犹未发现，每日只吃异果海藻，衣服更谈不到，一旦尝了人间滋味，又穿了极美观的衣服，未免觉得人间也是一样有趣。除初凤质厚心坚外，余人俱有乐不思蜀之想。初凤一再重提前事，二凤、三凤虽不曾公然反抗，均主暂留。初凤见劝说不听，便对二女道：",
+          "instruct": "叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "夹道欢呼",
+            "trigger_offset": 0,
+            "duration": 5.0,
+            "process_mode": "overlay",
+            "name": "民众欢呼",
+            "sound_cn": "岛民夹道欢呼，香花礼拜，鼓乐喧天，灯火通明",
+            "sound_en": "Islanders cheering along the road, flowers and incense, drums and music, lanterns blazing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "堂上一呼",
+            "trigger_offset": 0,
+            "duration": 3.0,
+            "process_mode": "overlay",
+            "name": "宫阙气象",
+            "sound_cn": "宫殿中传呼之声，脚步杂沓，气息华贵",
+            "sound_en": "Echoing calls in the palace, footsteps, luxurious atmosphere",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+3%",
+          "volume": "+2%",
+          "pitch": "+4Hz",
+          "text": "你们既愿在这里，明日祭墓之后，我只好独自回去。紫云宫中异宝不现，决不再来。冬秀姊姊不能涉水相随，下去须吃许多苦头。你二人须记取恩母之言，红尘不是久恋之乡，务要早回，以免惹些烦恼，自误仙根。",
+          "instruct": "稚嫩中带着担忧与叮嘱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二女不假思索，满口应允。冬秀劝了一阵，见初凤执意不从，只好由她。因二凤、三凤愿留，已是喜出望外，便不深劝。",
+          "instruct": "收尾叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "不深劝",
+            "trigger_offset": 0,
+            "duration": 3.0,
+            "process_mode": "overlay",
+            "name": "夜静更深",
+            "sound_cn": "夜深人静，海风轻拂，远处潮声，灯火渐熄",
+            "sound_en": "Late night stillness, sea breeze, distant tide, lights dimming",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "别殿刑讯复仇",
+        "start_line": 1,
+        "end_line": 14,
+        "prompt": "very subtle low volume background ambience, tense palace hall with dark and oppressive atmosphere, occasional metallic clinks and muffled cries echoing off stone walls, brutal and vengeful mood, deep guqin low resonance with dissonant undertones, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "酒宴与百姓拥戴",
+        "start_line": 15,
+        "end_line": 18,
+        "prompt": "very subtle low volume background ambience, celebratory feast with joyful mood, distant crowd cheering and music, warm lantern light casting golden glow, sense of relief and new hope, soft yangqin shimmer with bright and uplifting melody, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "王宫夜议与分歧",
+        "start_line": 19,
+        "end_line": 21,
+        "prompt": "very subtle low volume background ambience, quiet royal palace at night, moonlight streaming through ornate windows, gentle sea breeze carrying salt air, tense yet calm discussion, soft erhu hum with underlying concern and melancholy, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

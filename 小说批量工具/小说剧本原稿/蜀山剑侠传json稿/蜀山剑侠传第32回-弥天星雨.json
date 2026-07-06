@@ -1,0 +1,1439 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第三十二回 弥天星雨 两次破金蚕 彻地金光 一番诛丑怪",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "法元": {
+      "role_voice": "龙小诚-磁性低音",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "龙飞": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "俞德": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "绿袍老祖": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "+5Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "醉道人": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "极乐童子李静虚": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "顽石大师": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第32回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时法元通知俞德等，正同众人陪着绿袍老祖在大殿会商如何应敌。先前龙飞自邱林逃走后，本要约同绿袍老祖同俞德等三人，各将炼成的法宝，先往碧筠庵去施展一番，杀一个头阵。法元总说晓月禅师到后，再作通盘计划。好在帮手能人，俱都来了不少，慈云寺已如铜墙铁壁一般，进可以战，退可以守，乐得等人到齐，把势力养足，去获一个全胜。龙飞性情暴躁，心中不以为然，执意要先去探个虚实。当下约同俞德，带了柳宗潜，前往碧筠庵。刚刚走到武侯祠，便见前面白雾弥漫，笼罩里许方圆，简直看不清碧筠庵在哪里。可是身旁身后，仍是晴朗朗的，疑是峨眉派的障眼法儿。正要将九子母阴魂剑放出，往雾阵中穿去，忽然从来路上飞来万朵金星。这时正在丑初，天昏月暗，分外鲜明。俞德一见大惊，忙喊：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "夜行破空",
+            "sound_cn": "深夜丑初时分，天昏月暗如墨，龙飞与俞德驾剑光在夜空中疾行，风声凌厉如刀割面，衣袍猎猎作响",
+            "sound_en": "deep night, Long Fei and Yu De flying swiftly through the pitch-dark sky, wind sharp as blades against their faces, robes flapping loudly",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "万星破空",
+            "sound_cn": "万朵金星从身后飞来，如漫天星雨划破黑暗，发出密集而尖锐的嗡嗡破空声，光芒璀璨刺目",
+            "sound_en": "ten thousand golden stars flying from behind, like a skyful of meteors cutting through the dark, a dense and sharp buzzing sound, dazzling and brilliant",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "道兄仔细！",
+          "instruct": "惊惶低喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一面说，一面把龙飞拉在身旁，从身上取出一个金圈，放出一道光华，将自己同龙飞圈绕在金光之中。龙飞便问何故。俞德忙叫噤声，只叫他在旁仔细看动静便了。二人眼看那万朵金星飞近自己身旁，好似那道光华挡住它的去路。金星在空中略一停顿，便从两旁绕分开来，过了光华，又复合一。龙飞耳中但听得一阵吱吱之音，好似春蚕食叶之声一般。那万道金星合成一簇之后，更不迟慢，直往那一团白雾之中投去。在这一刹那当儿，忽见白雾当中冒出千万道红丝，与那一簇金星才一接触，便听见一阵极微细的哀鸣，那许多碰着红丝的金星纷纷坠地，好似正月里放的花炮一般，落地无踪，煞是好看。而后面未接触着红丝的半数金星，好似深通灵性，见事不祥，电掣一般，拨回头便往来路退去。那千万道红丝好似白雾中有人驾驶，也不追赶，仍旧飞回雾中。把一个俞德看了个目定口呆，朝着龙飞低喊一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "金圈放光",
+            "sound_cn": "俞德从怀中取出金圈，一道金光如流水般涌出，化作光罩将二人笼罩其中，光华流转不息",
+            "sound_en": "Yu De taking out a golden ring from his bosom, golden light flowing like water, forming a shield around them, light circulating ceaselessly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金星绕行与红丝破敌",
+            "sound_cn": "万朵金星被金光挡住去路，发出吱吱声如春蚕食叶，绕行后合成一簇飞入白雾，白雾中冒出千万道红丝与金星碰撞，发出微弱的哀鸣声，金星如烟花般纷纷坠地，景象奇丽而诡异",
+            "sound_en": "the golden stars blocked by the golden light, making chirping sounds like silkworms, circling and merging before flying into the white fog, a myriad of red threads emerging from the fog and colliding with the stars, faint cries of pain, the stars falling like fireworks, wondrous and eerie",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "金星溃退",
+            "sound_cn": "残余的金星如受惊的蜂群般调头飞退，破空声急促而慌乱，如同败兵溃散",
+            "sound_en": "the remaining golden stars turning back like a startled swarm, urgent and flustered air-tearing sounds like a routed army scattering",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "风紧，快走！",
+          "instruct": "急切低呼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "龙飞莫名其妙，还待问时，已被俞德驾起剑光带回来路。俞德到了慈云寺前面树林，便停了下来，朝着龙飞说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "剑光急退",
+            "sound_cn": "俞德驾起剑光带着龙飞急速飞退，剑光破空声尖锐刺耳，夜风在耳边呼啸如泣",
+            "sound_en": "Yu De carrying Long Fei back in a sword light, the sound of air tearing sharp and piercing, night wind howling like a lament in their ears",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "好险哪！",
+          "instruct": "后怕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "龙飞便问：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "龙飞",
+      "api": {
+        "voice": {
+          "role": "龙飞",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "适才那是什么东西，这样害怕？",
+          "instruct": "疑惑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞德轻轻说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "起初我们看见那万道金星，便是绿袍老祖费多年心血炼就的百毒金蚕蛊。这东西放将出来，专吃人的脑子。无论多厉害的剑仙，被它咬上一口，一个时辰，准死无疑。适才金身罗汉请大家等晓月禅师到后再说，我见绿袍老祖脸上跟你一样，好似很不以为然的样子。果然他见我们走后，想在我们未到碧筠庵之前，将金蚕蛊放出，咬死几十个剑侠，显一点奇迹与大家看。谁想人家早有防备，先将碧筠庵用浓雾封锁，然后在暗中以逸待劳。放出来的那万道红丝，不知是什么东西，居然会把金蚕制死大半。绿袍老祖这时心中不定有多难受。他为人心狠意毒，性情特别，不论亲疏，翻脸不认人。我们回去，最好晚一点，装作没有看见这一回事，以防他恼羞成怒，拿我们出气，伤了和气，平白地又失去一个大帮手。我看碧筠庵必有能人，况且我们虚实不知，易受暗算，今晚只可作罢，索性等到明张旗鼓，杀一个够本，杀多了是赚头，再作报仇之计吧。",
+          "instruct": "低沉讲述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "龙飞闻言，将信将疑，经不住俞德苦劝，待了一会，方各驾剑光，回到寺中。见了众人，还未及发言，绿袍老祖便厉声问道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "回寺降剑",
+            "sound_cn": "二人驾剑光降回慈云寺大殿前，剑光敛去时发出低沉的嗡鸣，脚步落地在砖石上发出清脆的碰撞声",
+            "sound_en": "the two descending their sword lights before Ciyun Temple's main hall, light fading with a low hum, footsteps landing on the stone floor with crisp echoes",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "绿袍老祖",
+      "api": {
+        "voice": {
+          "role": "绿袍老祖",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "+5Hz",
+          "text": "你二人此番前去，定未探出下落，可曾在路上看见什么没有？",
+          "instruct": "沙哑厉声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞德抢先答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我二人记错了路，耽误了一些时间。后来找到碧筠庵时，只见一团浓雾，将它包围。怎么设法也进不去，恐怕中了敌人暗算，便自回转，并不曾看见什么。",
+          "instruct": "强作镇定"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绿袍老祖闻言，一声怪笑，伸出两只细长手臂，如同鸟爪一般，摇摆着栲栳大的脑袋，睁着一双碧绿的眼睛，慢慢一步一步地走下座来，走到俞德跟前，突地一把将俞德抓住，说道：",
+          "instruct": "紧张诡异"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "绿袍怪笑",
+            "sound_cn": "绿袍老祖发出一声如同枭鸟啼鸣般的尖厉怪笑，笑声在大殿中回荡，阴森刺耳，令人脊背发寒",
+            "sound_en": "Green Robe Ancestor letting out a sharp owl-like laugh, echoing through the hall, eerie and piercing, sending chills down the spine",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "绿袍抓人",
+            "sound_cn": "绿袍老祖伸出鸟爪般干枯的手猛地抓住俞德，指爪深深掐入衣料，发出嘶嘶的撕裂声，骨节咔咔作响",
+            "sound_en": "Green Robe Ancestor suddenly grabbing Yu De with his withered claw-like hands, fingers digging deep into the fabric with a ripping sound, joints cracking audibly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "绿袍老祖",
+      "api": {
+        "voice": {
+          "role": "绿袍老祖",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "+5Hz",
+          "text": "你说实话，当真没有瞧见什么吗！",
+          "instruct": "沙哑阴森"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "声如枭号一般。众人听了，俱都毛发森然。俞德面不改色地说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我是毒龙尊者的门徒，从不会打诳语的。",
+          "instruct": "强自镇定"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绿袍老祖才慢慢撒开两手。他这一抓，几乎把俞德抓得痛彻心肺。绿袍老祖回头看见龙飞，又是一声怪笑，依旧一摇一摆，缓缓朝着龙飞走去。俞德身量高，正站在绿袍老祖身后，便摇手作势，那个意思，是想叫龙飞快躲。龙飞也明白绿袍老祖要来问他，决非善意，正待想避开时，偏偏智通派来侍候大殿的一个凶僧头目，名唤盘尾蝎了缘的，正端着一盘点心，后面跟着知客僧了一，端了一大盘水果，一同进来，直往殿中走去，恰好走到绿袍老祖与龙飞中间。法元要打招呼，已来不及。了缘因在了一前头，正与绿袍老祖碰头，被绿袍老祖一把捞在手中。了缘一痛，手一松，当的一声，盘子打得粉碎，一大盘的肉包子，撒了个满地乱滚。在这时候，众人但听一声惨呼，再看了缘，已被绿袍老祖一手将肋骨抓断两根，张开血盆大口，就着了缘软胁下一吸一呼，先将一颗心吸在嘴内咀嚼了两下。随后用嘴咬着了缘胸前，连吸带咬，把满肚鲜血，带肠肝肚肺吃了个净尽。然后举起了缘尸体，朝龙飞打去。龙飞急忙避开，正待放出九子母阴魂剑时，俞德连忙纵过，将他拉住道：",
+          "instruct": "紧张血腥"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "绿袍起身",
+            "sound_cn": "绿袍老祖缓缓转身走向龙飞，脚步沉重而拖沓，每一步都带着令人窒息的压迫感，在寂静的大殿中回声格外清晰",
+            "sound_en": "Green Robe Ancestor slowly turning and walking toward Long Fei, steps heavy and dragging, each footstep carrying suffocating pressure, echoes unnervingly clear in the silent hall",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "盘子碎裂",
+            "sound_cn": "了缘手中大盘摔落在地，瓷器炸裂声清脆刺耳，肉包子滚落在砖地上发出扑扑的闷响",
+            "sound_en": "Liao Yuan's large plate shattering on the ground with a crisp crash, meat buns rolling across the brick floor with soft thuds",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.2,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "了缘惨呼与绿袍食心",
+            "sound_cn": "了缘发出一声撕心裂肺的惨呼，肋骨断裂的咔嚓声与血肉被撕扯的闷响混合在一起，绿袍老祖咀嚼人心的声音令人毛骨悚然",
+            "sound_en": "Liao Yuan letting out a heart-rending scream, the crunch of breaking bones and the wet sounds of tearing flesh mingling, Green Robe Ancestor's chewing of a human heart sending chills down everyone's spine",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "尸体抛掷",
+            "sound_cn": "绿袍老祖举起死尸朝龙飞扔去，尸体划破空气带起沉闷的风声，落地时重重砸在砖地上",
+            "sound_en": "Green Robe Ancestor hurling the corpse at Long Fei, the body cutting through the air with a dull whoosh, landing heavily on the brick floor with a sickening thud",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "老祖吃过人心，便不妨事了。",
+          "instruct": "低声劝解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "再看绿袍老祖时，果然他吃完人血以后，眼皮直往下搭，微微露一丝绿光，好似吃醉酒一般，垂着双手，慢慢回到座上，沉沉睡去。众人虽然凶恶，何曾见过这般惨状。尤其是云母山女昆仑石玉珠，大不以为然，若非估量自己实力不济，几乎放剑出去，将他斩首。知客僧了一也觉寺中有这样妖孽，大非吉兆。法元暗叫智通把了缘尸首拿去掩埋，心中也暗暗不乐。到了第二天，大家对绿袍老祖由敬畏中，便起了一种厌恶之感。除法元外，谁也不敢同他接近说话。而绿袍老祖反不提起前事，好似没事人一般。俞、龙二人见不追问，才放了心。到了晚间，又来两个女同道：一个是百花女苏莲，一个是九尾天狐柳燕娘，俱都是有名的淫魔，厉害的妖客。法元同大众引见之后，因知绿袍老祖爱吃生肉，除盛设筵宴外，还预备了些活的牛羊，与他享用。晚饭后，大家正升殿议事之际，忽然一阵微风过处，殿上十来支粗如儿臂的大蜡，不住地摇闪。烛光影里，面前站定一个穷道士，赤足芒鞋，背上背着一个大红葫芦，斜插着一支如意金钩。众人当中，一多半都认得来人正是峨眉门下鼎鼎大名的醉道人。见他单身一人来到这虎穴龙潭之中，不由暗暗佩服来人的胆量。法元正待开言，醉道人业己朝大众施了一礼，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "绿袍沉睡",
+            "sound_cn": "绿袍老祖回到座上沉沉睡去，发出粗重如雷的鼾声，震得烛火都在微微颤动，血腥味在大殿中久久不散",
+            "sound_en": "Green Robe Ancestor returning to his seat and falling into a deep sleep, heavy thunderous snoring making the candle flames tremble, the smell of blood lingering in the hall",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "醉道人现身",
+            "sound_cn": "一阵微风拂过殿内，十来支儿臂粗的蜡烛剧烈摇闪，烛光摇曳间醉道人赤足芒鞋现身大殿中央，落地无声，气质从容洒脱",
+            "sound_en": "a gentle breeze passing through the hall, the ten thick candles flickering wildly, in the dancing light Drunk Daoist appearing barefoot in the center, landing silently, calm and carefree",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "醉道人",
+      "api": {
+        "voice": {
+          "role": "醉道人",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "众位道友在上，贫道奉本派教祖和三仙、二老之命，前来有话请教。不知哪位是此中领袖，何妨请出一谈？",
+          "instruct": "沙哑从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元闻言，立起身来，厉声道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "法元起身",
+            "sound_cn": "法元猛地从座上起身，衣袍带风，椅子在地面上拖动发出刺耳的摩擦声",
+            "sound_en": "Fa Yuan rising abruptly from his seat, robe rustling, chair scraping harshly against the floor",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我等现在领袖，乃是绿袍老祖。不过他是此间贵客，不值得与你这后生小辈接谈。你有什么话，只管当众讲来。稍有不合理处，只怕你来时容易去时难，有些难逃公道。",
+          "instruct": "低沉厉声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人哈哈大笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "醉道人大笑",
+            "sound_cn": "醉道人仰头发出一阵豪迈爽朗的大笑，笑声浑厚有力，在大殿中回荡不绝，气定神闲，丝毫不惧",
+            "sound_en": "Drunk Daoist throwing his head back and letting out a bold and hearty laugh, deep and powerful, echoing through the hall, calm and fearless",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "醉道人",
+      "api": {
+        "voice": {
+          "role": "醉道人",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "昔日大乙混元祖师创立贵派，虽然门下品类不齐，众人尚不失修道人身份。他因误信恶徒周中汇之言，多行不义，轻动无明，以致身败名裂。谁想自他死后，门下弟子益加横行不法，奸淫杀抢，视为家常便饭，把昔日教规付于流水。除掉几个洁身自好者改邪归正外，有的投身异端，甘为妖邪；有的认贼作亲，仗势横行。我峨眉派扶善除恶，为世人除害，难容尔等胡作非为！现在三仙、二老同本派道友均已前往辟邪村玉清观，明年正月十五夜间，或是贵派前去，或是我们登门领教，决一个最后存亡，且看还是邪存，还是正胜！诸位如有本领，只管到十五晚上一决雌雄。贫道此来，赤手空拳，乃是客人，诸位声势汹汹何来？",
+          "instruct": "沙哑慷慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，众中恼了秦朗、俞德、龙飞等，各将法宝取出，正待施放。醉道人故作不知，仍旧谈笑自如，并不把众人放在心上。法元虽然怒在心头，到底觉得醉道人孤身一人，胜之不武。忙使眼色止住众人道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "法宝齐出",
+            "sound_cn": "秦朗、俞德、龙飞各自取出法宝，剑光闪烁，铁器碰撞声与剑鸣声交织，杀气腾腾",
+            "sound_en": "Qin Lang, Yu De, and Long Fei drawing their treasures, sword lights flashing, metallic clinks and sword hums interweaving, murderous aura rising",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你也不必以口舌取胜。好在为日不久，就可见最后分晓。明年正月十五，我们准到辟邪村领教便了。",
+          "instruct": "低沉应允"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "醉道人",
+      "api": {
+        "voice": {
+          "role": "醉道人",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "如此甚好。贫道言语莽撞，幸勿见怪。俺去也。",
+          "instruct": "沙哑洒脱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，施了一礼，正要转身，忽听殿当中一声怪笑，说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "绿袍怪笑再起",
+            "sound_cn": "绿袍老祖再次发出刺耳尖厉的怪笑，如夜枭啼鸣，如鬼哭狼嚎，令人心头一紧，寒意顿生",
+            "sound_en": "Green Robe Ancestor letting out another sharp and piercing laugh like a night owl's cry, like a ghost's wail, sending a chill through everyone's heart",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "绿袍老祖",
+      "api": {
+        "voice": {
+          "role": "绿袍老祖",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "+5Hz",
+          "text": "来人慢退！",
+          "instruct": "沙哑阴森"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人未曾进来时，早已留心，看见绿袍老祖居中高坐。此时见他发话拦阻，故作不知，问道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "醉道人",
+      "api": {
+        "voice": {
+          "role": "醉道人",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "这位是谁？恕我眼拙，不曾看见。",
+          "instruct": "沙哑从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绿袍老祖闻言，又是一声极难听的怪笑，摇摆着大脑袋，伸出两只细长鸟爪，从座位上慢漫走将下来。众人知道醉道人难逃毒手，俱都睁着大眼，看个究竟。法元心中虽然不愿意绿袍老祖去伤来使，但因他性情特别古怪，无法阻拦；又恨醉道人言语猖狂，也就惟有听之。不过醉道人来者不善，善者不来，便暗使眼色，叫众人准备。那绿袍老祖还未走到醉道人身旁，只见一道匹练似的金光飞进殿来，便听一人说道：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "绿袍逼近",
+            "sound_cn": "绿袍老祖缓缓走来的脚步声沉重而缓慢，每一步都如死神逼近，指甲在座椅扶手上刮出刺耳的声响",
+            "sound_en": "Green Robe Ancestor's slow heavy footsteps approaching like death itself, fingernails scraping against the chair arm with a screeching sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "金光飞入",
+            "sound_cn": "一道匹练般的金色剑光电射入殿，光芒耀目如旭日东升，划破阴森大殿的黑暗，带起凌厉的破风之声",
+            "sound_en": "a bolt of golden sword light flying into the hall like a rising sun, dazzling and brilliant, cutting through the dark hall's gloom with fierce wind",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "极乐童子李静虚",
+      "api": {
+        "voice": {
+          "role": "极乐童子李静虚",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "醉道友，这班妖孽不可理喻，话已说完，还不走，等待何时？",
+          "instruct": "清亮沉着"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人情知来了帮手，那道金光来去迅速非常。这一刹那间，看殿上，醉道人已不知去向。众人便要追赶。绿袍老祖一声长啸，从腰中抓了一把东西，望空中洒去。法元、俞德忙喊众人快收回剑光法宝，由老祖一人施为。众人用目看时，只见绿袍老祖手放处，便有万朵金星，万花筒一般，电也似疾，飞向空中。接着绿袍老祖将足一登，无影无踪。俞德、龙飞、秦朗三人便飞往空中看时，只见最前面一道青光，飞也似地逃走。后面这万朵金星，云驰电掣地追赶。看看已离青光不远，忽见万朵金星后面，飞起万道红丝，比金星还快，一眨眼间，便已追上那万朵金星。好似遇见劲敌，想要逃回，后路已被红丝截断。在空中略一停顿，万道红丝与万朵金星碰个正着。但听一阵吱吱乱叫之声，那万朵金星如同陨星落雨一般，纷纷坠下地来。接着便是一声怪啸，四面鬼哭神号，声音凄厉，愁云密布，惨雾纷纷。俞德喊一声：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "万星再出",
+            "sound_cn": "绿袍老祖洒出万朵金星，如万花筒般在空中绽放，嗡嗡声震耳欲聋，金黄色的星雨遮天蔽日，铺天盖地而来",
+            "sound_en": "Green Robe Ancestor releasing ten thousand golden stars, blooming like a kaleidoscope in the sky, buzzing deafeningly, golden rain covering the sky and earth, overwhelming",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "红丝再破",
+            "sound_cn": "万道红丝从后疾追而上，与万朵金星碰撞时发出密集的吱吱哀鸣声，金星如陨星落雨般纷纷坠落夜空，景象壮丽而惨烈",
+            "sound_en": "a myriad of red threads chasing from behind, colliding with the golden stars with dense chirping cries of pain, the stars falling like a meteor shower, spectacular and tragic",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "鬼哭神号",
+            "sound_cn": "空中传来一声凄厉的怪啸，随即四面鬼哭神号声大作，如万鬼齐哭，声音凄厉恐怖，愁云惨雾弥漫夜空",
+            "sound_en": "a strange shriek from the sky, followed by ghostly wailing from all directions like ten thousand demons crying, mournful and terrifying, clouds of sorrow and fog of despair spreading across the night",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "不好！诸位快降下地来，切莫乱动！",
+          "instruct": "惊惶急呼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一面将圈儿放起，化成亩大光华，将众人围绕在内。只见地面上万朵绿火，渐渐往中央聚成一丛。绿火越聚越高，忽地分散开来。绿火光中，现出绿袍老祖栲栳大的一张怪脸，映着绿火，好不难看。绿袍老祖现身以后，便从身上取出一个白纸幡儿，上方绘就七个骷髅，七个赤身露体的魔女。幡一摇动，俞德等三人便觉头目昏眩，非常难过。绿袍老祖正待将幡连摇，忽地一团丈许方圆的五色光华往幡上打到，将幡打成两截。那五色光华也同时消灭。接着一道匹练似的金光从空降下，围着绿袍老祖只一绕，便将绿袍老祖分为两段，金光也便自回转。倏地又见东北方飞起一溜绿火，飞向老祖身前，疾若闪电，投向西南方而去。这一幕电影，把三人看了个目定口呆。俞德知事不祥，喊一声：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "金圈护体",
+            "sound_cn": "俞德再次放出金圈，金光化作亩大的光罩将三人护住，光华流转，挡住四周涌来的阴森魔气",
+            "sound_en": "Yu De releasing the golden ring again, golden light forming a mu-sized shield around the three, light circulating, blocking the surging sinister demon energy",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "绿火聚现",
+            "sound_cn": "地面上万朵绿火聚成一丛，火焰越聚越高，绿袍老祖的怪脸在火光中浮现，狰狞恐怖，映着幽绿的火光",
+            "sound_en": "ten thousand green flames gathering on the ground into a cluster, flames rising higher, Green Robe Ancestor's grotesque face appearing in the fire, hideous and terrifying, lit by the eerie green light",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "五色石断幡",
+            "sound_cn": "一团丈许方圆的五色光华从暗处猛然打出，击中修罗幡发出清脆的断裂声，白纸幡应声而断，碎屑纷飞",
+            "sound_en": "a five-colored light a zhang in diameter suddenly striking from the shadows, hitting the demon banner with a crisp crack, the paper banner shattering, fragments flying",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "金光斩妖",
+            "sound_cn": "一道匹练般的金光从空降下，围着绿袍老祖只一绕，金光划过血肉，绿袍老祖被斩为两段，尸体倒地发出沉重声响",
+            "sound_en": "a bolt of golden light descending, circling Green Robe Ancestor, the light slicing through flesh, severing him in two, his body falling with a heavy thud",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "绿火偷头",
+            "sound_cn": "一溜绿火从东北方飞来，疾如闪电，卷起绿袍老祖的人头投向西南方，绿火呼啸声迅速远去",
+            "sound_en": "a streak of green fire flying from the northeast, swift as lightning, carrying away Green Robe Ancestor's head toward the southwest, the fire's howl fading rapidly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "俞德",
+      "api": {
+        "voice": {
+          "role": "俞德",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "快走！",
+          "instruct": "惊惶"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "收起圈儿，不由分说，拖了秦、龙二人，飞回慈云寺而去。这里再说醉道人，见绿袍老祖摇摆着往自己身旁走来，便知不好，正准备迎敌时，忽被一道金光引出。刚刚出了寺门，便听那人说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "三人逃遁",
+            "sound_cn": "俞德收起金圈拖带着秦朗和龙飞急速飞回慈云寺，剑光破空声急促慌乱，三人的衣袍在风中猎猎作响",
+            "sound_en": "Yu De retracting the ring and dragging Qin Lang and Long Fei back to Ciyun Temple in haste, sword lights cutting through the air in panic, robes flapping in the wind",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "极乐童子李静虚",
+      "api": {
+        "voice": {
+          "role": "极乐童子李静虚",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "醉道友，你快往回路诱敌，待我与顽石大师除此妖孽。",
+          "instruct": "清亮沉着"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人即便答应。回头看那人时，只见此人身若十一二岁幼童，穿着一件鹅黄短衣，项下一个金圈，赤着一双粉嫩的白足，活像观音菩萨座前的善才童子，并非峨眉本派中人，看去非常面熟，却是素昧平生，好生惊奇。这时，后面绿袍老祖已将金蚕放出，那人只顾催醉道人快走。醉道人也不及请问来人姓名，便驾起剑光，往前逃走。偶然回头看后面追的万朵金星发出卿卿之声，漫天盖地而来，知是金蚕蛊，暗自惊心。看看被那些金蚕追上，忽见蚕后面又飞出千万道红丝，把金蚕消灭了个净尽。便回转剑光，来看动静。只见一道金光过处，将绿袍老祖分为两段。知是那人所为，心中大喜。急忙走近前看时，只见地下倒着绿袍老祖的下半截尸身，上半截人头已不知去向。刚才用金光救自己出险的那人，同顽石大师正在说话。顽石大师一见醉道人回转，便赶上前来说道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "醉道人诱敌",
+            "sound_cn": "醉道人驾起剑光向前飞逃，青光在前破空飞驰，万朵金星在后紧追不舍，发出密集的嗡嗡声如黄蜂群涌",
+            "sound_en": "Drunk Daoist flying forward in a sword light to lure the enemy, green light speeding ahead, ten thousand golden stars close behind with dense buzzing like a swarm of wasps",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "红丝尽灭金蚕",
+            "sound_cn": "千万道红丝从后方追上，与万朵金星碰撞后发出最后一阵吱吱的哀鸣声，金蚕全部消灭殆尽，夜空恢复寂静",
+            "sound_en": "a myriad of red threads catching up, colliding with the golden stars with a final chorus of chirping cries, the golden silkworms completely destroyed, the night sky falling silent",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "顽石大师",
+      "api": {
+        "voice": {
+          "role": "顽石大师",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "醉道友，快来拜见这位老前辈，便是云南雄狮岭长春岩无忧洞内极乐童子李老前辈。这次若非老前辈大发慈悲，这绿袍老祖妖孽的金蚕，怕不知道要伤若千万数生灵，而我们也不知有多少同道要遭大劫呢！只是我多年炼就，全仗它成名的一块五云石，深深被业障断送了。",
+          "instruct": "温和感叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "九连环轻响",
+            "sound_cn": "顽石大师说话时手中九连环轻轻碰撞，发出一连串清脆悦耳的叮当声，在寂静的夜空中格外清晰",
+            "sound_en": "Wanshi Dashi's nine rings clinking gently as she speaks, a series of crisp and pleasant chimes, particularly clear in the silent night",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人闻言，才知这人便是当年青城派鼻祖极乐真人李静虚。昔日陪侍长眉真人，曾经见过，怪不得面熟。那时真人剑术自成一家，与峨眉派鼻祖长眉真人不相上下。因为收错了两个徒弟，胡作非为，犯了教规，他却不像混元祖师那样庇护恶徒，亲自出来整顿门户，把恶徒擒回青城，遍请各位剑仙到场，按家法处治。从此无意收徒传道，退隐到云南雄狮岭长春岩无忧洞静参玄宗。数十年工夫，悟彻上乘，炼成婴儿，脱去躯壳，成了散仙，从此便自号极乐童子。本想在洞中一意精进，上升仙阙，一来外功未满，二来青城派剑法尚无传人，终觉可惜，打算物色一位真正根基深厚、心端品正的人承继道统。那日偶遇玄真子，谈起各派情形，知道不久各派在成都有一场恶斗。便来到成都，想到他们两下住处，都去观察一番，顺便看看有无良缘者在内。他刚到慈云寺，便见绿袍老祖居中高坐，即此一端，已分出两家邪正。刚离慈云寺，又遇见神尼优昙，说绿袍老祖妖法厉害，知道真人有炼就三万六千根乾坤针，请他相助一臂之力。真人因不愿偏袒一方，只答应除去绿袍老祖，代世人除害。因算就绿袍老祖要将金蚕放出来害人，先将碧筠庵用雾封锁。后来从雾中放出乾坤针，将金蚕除了一小半。知道绿袍老祖决不甘心，便在暗中监视。今晚见醉道人冒险入寺，又见顽石大师跟在后面，便上前去相见。他叫顽石大师藏在暗处，听他招呼，再行动手。然后进去将醉道人救出，叫他逃走诱敌，他后面用乾坤针去杀金蚕，以防逃走，而绝后患。后来绿袍老祖展动修罗幡，顽石大师知道厉害，便想乘其不备，从暗中用五云石将他打死。谁想幡倒被她打折，五云石受妖幡污秽，也同归于尽，真成了一块顽石，把多年心血付于一旦，好不可惜。醉道人拜见真人之后，又谢了相助之德。真人道：",
+          "instruct": "庄重讲述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "极乐童子李静虚",
+      "api": {
+        "voice": {
+          "role": "极乐童子李静虚",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "为世除害，乃是份内之事，这倒无须客气。不过这妖孽炼就一粒玄阴珠，藏在后脑之中，适才不及施放，便被我将他斩死，被一个断臂的妖人，连头偷了逃走，必定拿去为祸世间。我做事向来全始全终，难免又惹下许多麻烦了。",
+          "instruct": "清亮凝重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人听罢真人之言，便恭恭敬敬地请真人驾临辟邪村去，相助破慈云寺。真人道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "极乐童子李静虚",
+      "api": {
+        "voice": {
+          "role": "极乐童子李静虚",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你们各派比剑，虽有邪正之分，究竟非妖人可比。我当初曾因收徒不良，引为深憾，怎好意思代死去的朋友（指混元祖师）整顿门户？况且他们很少出类拔萃之人能同你们抵敌，这个我万万不能奉陪。",
+          "instruct": "清亮婉拒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "醉道人不敢勉强，便请真人驾到辟邪村小坐一会，好让一班后辈瞻仰金容。真人也本想看看峨眉后进中根行如何，答应同去。朱梅早已听人说远远半空中满天金星，同万道红丝相斗。出来看时，已认出是真人的乾坤针，正破金蚕。便回来招呼众人，迎上前去。才离观门不远，便见醉道人和顽石大师陪着真人驾到，当下接了进去。真人遍观峨眉门下，果然有不少根行深厚之人在内，尤以周轻云和金蝉为最好。但是一个是餐霞大师爱徒，一个是齐漱溟前生爱子，俱与他无缘。知道峨眉派门户将来一定能够发扬光大，好生赞赏，愈加动了觅一个佳材，以传衣钵之想，不愿见各派剑仙自相残杀。坐了一会，便要走。众人挽留不住，只得随送出了观门。真人袍袖一展，一道金光，宛如长虹，照得全村通明，起在空中，便自不见。矮叟朱梅向不服人，自问也望尘不及。其余众人，更是佩服不已。",
+          "instruct": "平静收束"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "长虹金光离去",
+            "sound_cn": "极乐真人袍袖一展，一道长虹般的金光冲天而起，照得整个辟邪村通明如昼，金色光芒如旭日东升，瞬间消失在天际尽头",
+            "sound_en": "Jile Zhenren spreading his sleeves, a rainbow of golden light soaring into the sky, illuminating the entire Poxie Village like daylight, golden radiance like a rising sun, vanishing instantly at the horizon",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "深夜探路遇金蚕",
+        "name_en": "深夜丑初时分，天昏月暗，龙飞与俞德驾剑光探碧筠庵，路遇万朵金星与红丝相斗，金蚕破灭如烟花，诡异而壮丽",
+        "start_line": 1,
+        "end_line": 10,
+        "prompt": "very subtle low volume cinematic background ambience, deep night, pitch-dark sky with no moon, two figures flying through the air, sudden encounter with golden stars and red threads battling, the golden silkworm being destroyed like fireworks, cold night wind howling, mysterious and dangerous atmosphere, distant temple bells tolling faintly from the city, low guqin resonance with suspenseful and ominous undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "慈云寺妖人密议与血案",
+        "name_en": "慈云寺大殿中灯火通明，绿袍老祖质问俞德龙飞，暴怒之下生吃了缘的心，群邪震怖，气氛阴森血腥，令人不寒而栗",
+        "start_line": 11,
+        "end_line": 21,
+        "prompt": "very subtle low volume cinematic background ambience, brightly lit hall of Ciyun Temple, tense and horrifying scene of a demonic master's rage, violent and bloody punishment, the gathered villains trembling in fear, sinister and gruesome atmosphere, candle flames flickering uneasily in the draft, faint smell of blood and burning incense mingling in the air, deep erhu melody with dark and savage undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "醉道人独闯虎穴",
+        "name_en": "慈云寺大殿中，醉道人孤身入虎穴，慷慨陈词订立正月十五决战之约，绿袍老祖欲下毒手时极乐真人金光现身相救",
+        "start_line": 22,
+        "end_line": 36,
+        "prompt": "very subtle low volume cinematic background ambience, dangerous and tense confrontation in the demon temple, a lone Daoist facing a hall full of enemies, delivering a challenge with fearless resolve, sudden intervention of a mysterious savior in golden light, dramatic and heroic mood, candlelight and shadows dancing on the walls, a sense of impending battle, suspenseful and bold atmosphere, pipa plucking with heroic and defiant undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "金蚕再破与绿袍伏诛",
+        "name_en": "夜空中万朵金星再次被红丝尽灭，绿袍老祖施放修罗幡被五色石打断，极乐真人金光斩妖，鬼哭神号中绿袍授首",
+        "start_line": 37,
+        "end_line": 43,
+        "prompt": "very subtle low volume cinematic background ambience, spectacular night battle in the sky, golden stars falling like rain, demonic wailing and ghostly cries from all directions, the final downfall of the Green Robe Ancestor, brilliant golden light and red threads dancing in the darkness, epic and dramatic climax, wind howling and thunder rumbling in the distance, a sense of ultimate justice being served, heroic and triumphant mood, powerful drum and xiao combination with majestic and victorious undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 0.5,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "辟邪村真人驾临与离去",
+        "name_en": "辟邪村玉清观中，众人迎接极乐真人，真人遍观峨眉门下后驾长虹金光离去，朱梅等皆叹服不已",
+        "start_line": 44,
+        "end_line": 49,
+        "prompt": "very subtle low volume cinematic background ambience, peaceful and sacred atmosphere in Yuqing Temple at Poxie Village, the arrival of a legendary immortal master, moments of awe and inspiration, the master blessing the younger disciples with his presence, then departing in a rainbow of golden light, serene and wondrous mood, gentle evening breeze, distant birdsong returning to their nests, xiao flute playing with reverent and enlightened tones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

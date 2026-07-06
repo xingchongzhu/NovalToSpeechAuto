@@ -1,0 +1,1801 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第一回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "李宁": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "李英琼": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "周淳": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "赵燕儿": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "船家": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第一回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话说四川峨眉山，乃是蜀中有名的一个胜地。昔人谓西蜀山水多奇，而峨眉尤胜，这句话实在不假。西蜀神权最胜，山上的庙宇寺观不下数百，每年朝山的善男信女，不远千里而来，加以山高水秀，层峦叠嶂，气象万千，那专为游山玩景的人，也着实不少。后山的风景尤为幽奇。自来深山大泽，多生龙蛇，深林幽谷，大都是那虎豹豺狼栖身之所。游后山的人，往往一去不返，一般人妄加揣测，有的说是被虎狼妖魔吃了去的，有的说被仙佛超度了去的，聚讼纷纭，莫衷一是。人到底是血肉之躯，意志薄弱的占十分之八九，因为前车之鉴，游后山的人，也就渐渐裹足不前，倒便宜了那些在后山养静的高人奇士，省去了许多尘扰，独享那灵山胜境的清福。这且不言。四川自经明末张献忠之乱，十室九空，往往数百里路无有人烟，把这一个天府之国闹得阴风惨惨，如同鬼市一般。满清入关后，疆吏奏请将近川各省如两湖、江西、陕西的人民移入四川，也加上四川地大物丰，样样需要之物皆有，移去的人民，大有此间乐不思故土之概。这样的宾至如归，渐渐地也就恢复了人烟稠密的景象。记得在康熙即位的第二年，从巫峡溯江而上的有一只小舟。除操舟的船夫外，舟中只有父女二人，一肩行李，甚是单寒；另外有一个行囊甚是沉重，好像里面装的是铁器。那老头子年才半百，须发已是全白，抬头看人，眼光四射，满脸皱纹，一望而知是一个饱经忧患的老人。那女子年才十二三岁，出落得非常美丽，依在老头子身旁，低声下气地指点烟岚，问长问短，显露出一片天真与孺慕。这时候已经暮烟四起，暝色苍茫，从那山角边挂出了一盘明月，清光四射，鉴人眉发。那老头儿忽然高声说道：",
+          "instruct": "缓缓叙述，苍凉感慨"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "巫峡溯江而上",
+            "trigger_offset": 0,
+            "trigger_delay": 4.0,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "江水行舟",
+            "sound_cn": "小舟在巫峡江面上缓缓前行，船桨划水声轻缓而有节奏，江水拍打船身发出柔和的水声，远处隐约传来猿啼",
+            "sound_en": "small boat moving slowly on the river through Wu Gorge, gentle rhythmic sound of oars cutting water, soft lapping of waves against the hull, distant ape calls echoing from the cliffs",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "暮烟四起",
+            "trigger_offset": 0,
+            "trigger_delay": 28.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "暮色月出",
+            "sound_cn": "暮色降临，明月从山角边升起，清光四射，江面波光粼粼，远处传来几声归巢的鸟鸣与夜虫初啼",
+            "sound_en": "dusk falling, bright moon rising from behind the mountain, clear light spreading over the river, distant calls of returning birds and the first chirping of night insects",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那堪故国回首月明中！如此江山，何时才能返吾家故物啊！",
+          "instruct": "悲凉感慨，声音沙哑苍老，带着深深的亡国之痛"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言下凄然，老泪盈颊。那女子说道：",
+          "instruct": "低沉叙述"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "老泪盈颊",
+            "trigger_offset": 0,
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "泪落衣襟",
+            "sound_cn": "泪水滴落在衣襟上的细微声响，伴随着一声压抑的叹息，在寂静中格外清晰",
+            "sound_en": "tears falling onto the robe with a soft sound, accompanied by a suppressed sigh, distinct in the silence",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "爹爹又伤感了，天下事各有前定，徒自悲伤也是无益，还请爹爹保重身体要紧。",
+          "instruct": "轻声劝慰，带着少女的天真与关切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正说时，那船家过来说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "船家",
+      "api": {
+        "voice": {
+          "role": "船家",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老爷子，天已不早，前面就是有名的乌鸦嘴，那里有村镇，我们靠岸歇息，上岸去买些酒饭吧。",
+          "instruct": "恭敬招呼，带着劳动者的朴实"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "靠岸歇息",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "船靠岸",
+            "sound_cn": "小舟缓缓靠向岸边，船身与岸石轻微碰撞，船桨收起时带起水声，船夫踩上石阶的脚步声",
+            "sound_en": "boat slowly approaching the shore, gentle bump against the bank, oars being lifted with dripping water, footsteps of the boatman stepping onto the stone steps",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "好吧，你只管前去。我今日有些困倦，不上岸了。",
+          "instruct": "略带疲惫，声音低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "船家说完时，已经到了目的地，便各自上岸去了。这时月明如昼。他父女二人，自己将带来的酒菜，摆在船头对酌。正在无聊的时候，忽见远远树林中，走出一个白衣人来，月光之下，看得分外清楚，越走越近。那人一路走着，一路唱着歌，声调清越，可裂金石，渐渐离靠船处不远。老头一时兴起，便喊道：",
+          "instruct": "叙述转为轻快，带着期待"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "船头对酌",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "酒杯轻碰",
+            "sound_cn": "酒杯在船头小桌上轻轻碰撞，发出清脆的瓷器声响，酒液在杯中微微晃动",
+            "sound_en": "wine cups gently clinking on the small table in the boat, clear porcelain sounds, wine gently swirling in the cups",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "歌声",
+            "trigger_offset": 0,
+            "trigger_delay": 4.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "白衣人歌声",
+            "sound_cn": "白衣人在月光下踏歌而来，歌声清越嘹亮，如金石裂空，在夜风中远远传开，带着洒脱与孤寂",
+            "sound_en": "a white-clad figure approaching in the moonlight, singing with a clear and resonant voice, like metal striking stone, carrying far in the night wind, free and solitary",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "良夜明月，风景不可辜负。我这船上有酒有菜，那位老兄，何不下来同饮几杯？",
+          "instruct": "豪爽邀约，声音洪亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白衣人正唱得高兴，忽听有人唤他，心想：此地多是川湘人的居处，轻易见不着北方人。这人说话，满嘴京城口吻，想必是我同乡。他既约我，说不得倒要扰他几杯。一边想着一边走，不觉到了船上。二人会面，定睛一看，忽然抱头大哭起来。老头说：",
+          "instruct": "叙述由平静转为激动"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "到了船上",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "踏上船板",
+            "sound_cn": "白衣人踏上船板，脚步在木板上发出轻响，船身微微晃动，木板轻微吱呀",
+            "sound_en": "the white-clad man stepping onto the boat deck, light footsteps on the wooden boards, the boat rocking slightly, boards creaking softly",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "抱头大哭",
+            "trigger_offset": 0,
+            "trigger_delay": 3.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "痛哭声",
+            "sound_cn": "两人相认后抱头痛哭，哭声苍凉悲切，在月夜江边格外动人心魄，夹杂着哽咽与叹息",
+            "sound_en": "the two men embracing and crying bitterly, sorrowful and mournful sobs echoing by the riverbank in the moonlit night, with chokes and sighs",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "京城一别，谁想在此重逢！人物依旧，山河全非，怎不令人肠断呢！",
+          "instruct": "悲喜交集，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "扬州之役，听说大哥已化为异物，谁想在异乡相逢。从此我天涯沦落，添一知己，也可谓吾道不孤了。这位姑娘，想就是令爱吧？",
+          "instruct": "感慨中带着欣慰，语气明亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我一见贤弟，惊喜交集，也忘了教小女英琼拜见。",
+          "instruct": "带着歉意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随叫道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼过来，与你周叔叔见礼。",
+          "instruct": "慈爱呼唤"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那女子听了她父亲的话，过来纳头便拜。白衣人还了一个半礼，对老头说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "纳头便拜",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "跪拜衣料声",
+            "sound_cn": "英琼跪拜时衣料摩擦的沙沙声，额头轻触船板的细微声响，起身时裙摆拂过",
+            "sound_en": "rustling of fabric as Yingqiong kneels, soft sound of forehead touching the wooden deck, and the swish of her skirt as she rises",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我看贤侄女满面英姿，将门之女，大哥的绝艺一定有传人了。",
+          "instruct": "赞赏，语气明亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贤弟有所不知。愚兄因为略知武艺，所以闹得家败人亡。况且她一出世，她娘便随我死于乱军之中，十年来奔走逃亡，毫无安身之处。她老麻烦我，叫我教她武艺。我抱定庸人多厚福的主意，又加以这孩子两眼煞气太重，学会了武艺，将来必定多事。我的武艺也只中常，天下异人甚多，所学不精，反倒招出杀身之祸。愚兄只此一女，实在放心不下，所以一点也未传授于她。但愿将来招赘一个读书种子，送我归西，于愿足矣。",
+          "instruct": "语重心长，充满沧桑与忧虑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话虽如此说，我看贤侄女相貌，决不能以丫角终老，将来再看吧。",
+          "instruct": "带着深意，语气从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那女子听了白衣人之言，不禁秀眉轩起，喜形于色；又望了望她年迈的父亲，不禁又露出了几分幽怨。白衣人又问道：",
+          "instruct": "叙述细致，语气柔和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大哥此番入川，有何目的呢？",
+          "instruct": "关切询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "国破家亡，气运如此，我还有什么目的呢，无非是来这远方避祸而已。",
+          "instruct": "低沉悲凉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白衣人闻言，喜道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我来到四川，已是三年了。我在峨眉后山，寻得了一个石洞，十分幽静，风景奇秀，我昨天才从山中赶回。此外我教了几个蒙童，我回来收拾收拾，预备前往后山石洞中隐居，今幸遇见了大哥。只是那里十分幽僻，人迹不到，猛兽甚多。你如不怕贤侄女害怕，我们三人一同前往隐居，以待时机。尊意如何？",
+          "instruct": "高兴而诚恳，声音清亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老头听说有这样好所在，非常高兴，便道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "如此甚好。但不知此地离那山多远？",
+          "instruct": "带着期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "由旱路去，也不过八九十里。你何不将船家开发，到我家中住上两天，同我从旱路走去？",
+          "instruct": "热情邀约"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "如此贤弟先行，愚兄今晚且住舟中，明日开发船家，再行造府便了。但不知贤弟现居何处？你我俱是避地之人，可曾改易名姓？",
+          "instruct": "老成持重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我虽易名，却未易姓。明日你到前村找我，只须打听教蒙馆的周淳，他们都知道的。天已不早，明天我尚有一个约会，也不来接你，好在离此不远，我在舍候驾便了。",
+          "instruct": "爽朗干脆"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便与二人分手自去。那女子见白衣人走后，便问道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "分手自去",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "脚步声远去",
+            "sound_cn": "周淳的脚步声渐渐远去，踩在岸边的泥土和碎石上，由近而远，最终消失在夜色中",
+            "sound_en": "footsteps of Zhou Chun gradually fading away, walking on soil and gravel by the riverbank, growing distant and finally disappearing into the night",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这位周叔父，可是爹爹常说与爹爹齐名、人称齐鲁三英的周琅周叔父么？",
+          "instruct": "好奇追问，声音清脆"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谁说不是他？想当年我李宁与你二位叔父杨达、周琅，在齐鲁燕豫一带威名赫赫。你杨叔父自明亡以后，因为心存故国，被仇人陷害。如今只剩下我与你周叔父二人，尚不知能保首领不能。此去峨眉山，且喜得有良伴，少我许多心事。我儿早点安歇，明早上岸吧。",
+          "instruct": "回忆往事，语气苍凉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到此间，只见两个船家喝得酒醉醺醺，走了回来。李宁便对船家说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "酒醉醺醺",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "船家脚步声",
+            "sound_cn": "两个船家踉跄走回，脚步声沉重而杂乱，偶尔踩到碎石发出响声，带着酒后的含糊话语",
+            "sound_en": "two boatmen staggering back, heavy and unsteady footsteps, occasional crunching of gravel, with drunken mumbled words",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我记得此地有我一个亲戚，我打算前去住上几个月，明早我便要上岸。你们一路辛苦，船钱照数开发与你，另外赏你们四两银子酒钱。你们早早安歇吧。",
+          "instruct": "平静吩咐"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "四两银子",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "银钱响声",
+            "sound_cn": "银子放在桌上时发出的清脆碰撞声，船家连声道谢，声音带着酒后的热切",
+            "sound_en": "silver coins clinking as they are placed on the table, the boatmen expressing their thanks with drunken enthusiasm",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "船家听闻此言，急忙称谢，各自安歇。不提。到了第二天早上，英琼父女起身，自己背了行囊包裹，辞别船家，径往前村走去。行约半里，只见路旁闪出一个小童，年约十一二岁，生得面如冠玉，头上梳了两个双丫角。那时不过七八月天气，蜀中天气本热，他身上只穿了一身青布短衫裤。见二人走近，便迎上前来说道：",
+          "instruct": "叙述转为轻快"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "辞别船家",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "辞别登岸",
+            "sound_cn": "父女二人辞别船家登岸，脚步踏在岸上的声音，行李轻微的碰撞声，船家最后的道别话语",
+            "sound_en": "father and daughter leaving the boat and stepping onto the shore, footsteps on land, light clinking of luggage, final farewell words from the boatmen",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来的二位，可是寻找我老师周淳的么？",
+          "instruct": "清脆响亮，带着少年人的爽朗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我们正是来访周先生的。你是如何知道？",
+          "instruct": "略带惊讶，语气慈和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那小童听了此言，慌忙纳头便拜，口称：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "纳头便拜",
+            "trigger_offset": 0,
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "跪拜声",
+            "sound_cn": "小童跪下磕头，衣料与地面摩擦的细碎声响，额头轻触泥土的轻响",
+            "sound_en": "the boy kneeling and kowtowing, soft rustle of cloth against the ground, light thud of forehead touching the earth",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师伯有所不知。昨夜我老师回来，高兴得一夜未睡，说是在乌鸦嘴遇见师伯与师姊。今晨清早起来，因昨天与人有约会，不能前来迎接，命我在此与师伯引路。前面就是老师他老人家蒙馆。老师赴约去了，不久便回，请师伯先进去坐一会儿，吃点早点吧。",
+          "instruct": "口齿伶俐，声音清脆"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁见这小童仪表非凡，口齿伶俐，十分喜爱。一路言谈，不觉已来到周淳家中，虽然是竹篱茅舍，倒也收拾得干净雅洁。小童又到里面搬了三副碗箸，切了一大盘腊肉和一碟血豆腐，一壶酒，请他父女上座，自己在下横头侧身相陪。说道：",
+          "instruct": "叙述轻快温馨"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "竹篱茅舍",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "推门进院",
+            "sound_cn": "推开竹篱门发出吱呀声，脚步踩在院中泥土上的声音，门轴轻微的转动声",
+            "sound_en": "pushing open the bamboo gate with a creak, footsteps on the courtyard soil, slight sound of the gate hinge turning",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "搬了三副碗箸",
+            "trigger_offset": 0,
+            "trigger_delay": 4.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "碗筷摆放",
+            "sound_cn": "碗筷在桌上摆放的轻响，瓷器与木桌的碰撞声，酒杯轻轻放置的叮当声，腊肉切片的细微刀声",
+            "sound_en": "bowls and chopsticks being placed on the table, light clinking of porcelain against wood, the clink of wine cups, faint sound of slicing cured meat",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师伯，请用一点早酒吧。",
+          "instruct": "热情殷勤"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁要问他话时，他又到后面去端出三碗醋汤面、一盘子泡菜来。李宁见他小小年纪，招待人却非常殷勤，愈加喜欢。一面用些酒菜，便问他道：",
+          "instruct": "叙述温馨"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "端出三碗醋汤面",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "端碗放桌",
+            "sound_cn": "碗被端上桌的声音，热汤微微晃动，筷子轻碰碗沿，泡菜坛子开盖的声响",
+            "sound_en": "bowls being placed on the table, hot soup gently sloshing, chopsticks tapping the rims, the sound of a pickle jar being opened",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小世兄，你叫什么名字？几时随你师父读书的？",
+          "instruct": "慈爱询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我叫赵燕儿。我父本是明朝翰林学士，死于李闯之手。我母同舅父逃到此处，不想舅父又复死去。我家十分贫苦，没奈何，只得与人家牧牛，我母与大户人家做些活计，将就度日。三年前周先生来到这里，因为可怜我是宦家之后，叫我拜他老人家为师，时常周济我母子，每日教我读书和习武。周老师膝下无儿，只一女名叫轻云。去年村外来了一位老道姑，也要收我做徒弟，我因为有老母在堂，不肯远离。那道姑忽然看见了师妹，便来会我老师，谈了半日，便将师妹带去，说是到什么黄山学道去。我万分不舍，几次要老师去将师妹寻回来，老师总说时候还早；我想自己去，老师又不肯对我说到黄山的路。我想我要是长大一点，我一定要去将师妹寻回来的。我那师妹，长得和这位师姊一样，不过她眉毛上没有师姊这两粒红痣罢了。",
+          "instruct": "口齿伶俐，说到师妹时带着不舍和憧憬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁听了这一番话，只是微笑，又问他会什么武艺。燕儿道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "赵燕儿",
+      "api": {
+        "voice": {
+          "role": "赵燕儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我天资不佳，只会一套六合剑，会打镖接镖。听老师说，师伯本事很大，过些日子，还要请师伯教我呀！",
+          "instruct": "天真活泼，带着崇拜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正说之时，周淳已从外面走进来。燕儿连忙垂手侍立。英琼便过来拜见世叔。李宁道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "从外面走进来",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "脚步声入门",
+            "sound_cn": "周淳从门外走进，脚步轻快，门被推开的声音，衣袍带起的微风声响",
+            "sound_en": "Zhou Chun entering from outside, light footsteps, sound of the door being pushed open, the rustle of his robe",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "恭喜贤弟，你收得这样的好徒弟。",
+          "instruct": "真诚称赞"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此子天分倒也聪明，禀赋也是不差，就是张口爱说，见了人兀自不停。这半天的工夫，他的履历想已不用我来介绍了。",
+          "instruct": "带着宠爱的笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "他已经对我说过他的身世。只是贤弟已快要五十的人，你如何轻易把侄女送人抚育，是何道理？",
+          "instruct": "带着困惑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我说燕儿饶舌不是？你侄女这一去，正是她的造化呀。去年燕儿领了一个老道姑来见我，谈了谈，才知道就是黄山的餐霞大师，有名的剑仙。她看见你侄女轻云，说是生有仙骨，同我商量，要把轻云带去，做她的末代弟子。本想连燕儿一齐带去，因为他有老母需人伏侍，只把轻云先带了去。如此良机，正是求之不得，你说我焉有不肯之理？",
+          "instruct": "语气明亮而自豪"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李宁听了此言，不禁点头。英琼正因为她父亲不教她武艺，小心眼许多不痛快，一听周淳之言，不禁眉轩色举，心头暗自盘算。周淳也已觉得，便向她说道：",
+          "instruct": "叙述细致"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贤侄女你大概是见猎心喜吧？若论你世妹天资，也自不凡，无庸我客气。若论骨格品貌，哪及贤侄女一半。餐霞大师见了你，必然垂青。你不要心急，早晚自有机缘到来寻你，那时也就由不得你父亲了。",
+          "instruct": "带着笑意，语气明亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贤弟又拿你侄女取笑了。闲话少提，我们峨眉山之行几时动身？燕儿可要前去？",
+          "instruct": "故作嗔怪，转移话题"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我这里还有许多零碎事要办，大约至多有十日光景，我们便可起程。燕儿有老母在堂，只好暂时阻他求学之愿了。",
+          "instruct": "带着歉意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿听了他师父不要他同去，便气得哭了起来，周淳道：",
+          "instruct": "叙述转为伤感"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "哭了起来",
+            "trigger_offset": 0,
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "抽泣声",
+            "sound_cn": "燕儿伤心哭泣，抽噎声断断续续，带着少年的委屈，衣袖擦拭眼泪的摩擦声",
+            "sound_en": "Yan'er crying sadly, sobbing intermittently, with the grievance of a young boy, the sound of his sleeve wiping tears",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你不必如此。无论仙佛英雄，没有不忠不孝的。我此去又非永别，好在相去不过数十里路，我每月准来一回，教授你的文武艺业，不过不能像从前朝夕共处而已。",
+          "instruct": "温和劝慰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿听了，思量也是无法，只得忍泪。李宁道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你蒙馆中的学童，难道就是燕儿一个么？",
+          "instruct": "好奇询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我前日自峨眉山回来，便有入山之想。因为此间宾主相处甚善，是我在归途中救了一个寒士，此人名唤马湘，品学均佳，我替他在前面文昌阁寻了寓所，把所有的学生都让给他去教。谁想晚上便遇见了你。",
+          "instruct": "语气轻快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来如此，怪道除燕儿外，不见一个学生呢。",
+          "instruct": "恍然大悟"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "周淳道：燕儿也是要介绍去的，因为你来家中，没有长须奴，只好有事弟子服其劳了。言谈片时，不觉日已沉西，大家用过晚饭。燕儿又与他父女铺好床被，便自走去。只有英琼，听了白日许多言语，在床上翻来覆去睡不着。时已三鼓左右，只听见隔壁周淳与燕儿说话之声。一会儿，又听他师徒开了房门，走到院中。英琼轻轻起身，在窗隙中往外一看，只见他师徒二人，手中各拿了一把长剑，在院中对舞。燕儿的剑虽是短一点，也有三尺来长。只见二人初舞时，还看得出一些人影。以后兔起鹘落，越舞越急，只见两道寒光，一团瑞雪，在院中滚来滚去。忽听周淳道：",
+          "instruct": "叙述渐转神秘，英琼偷窥"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "三鼓左右",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "三更夜静",
+            "sound_cn": "夜深人静，三更鼓声从远处传来，隐约可闻，夜虫低鸣，风吹树叶沙沙作响",
+            "sound_en": "deep night, the third watch drum sounding faintly from afar, night insects chirping softly, wind rustling the leaves",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "开了房门",
+            "trigger_offset": 0,
+            "trigger_delay": 4.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "开门声",
+            "sound_cn": "木门轻轻被打开，门轴发出轻微的吱呀声，脚步声踏入院中",
+            "sound_en": "wooden door being gently opened, light creak of the hinge, footsteps entering the courtyard",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "长剑对舞",
+            "trigger_offset": 0,
+            "trigger_delay": 6.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "剑风呼啸",
+            "sound_cn": "两柄长剑在月光下舞动，破风声凌厉，剑光交织如雪花纷飞，偶有双剑碰撞的轻响，脚步在青砖地上移动",
+            "sound_en": "two swords dancing in the moonlight, sharp whoosh of blades cutting air, sword lights intertwining like falling snow, occasional light clashing of steel, footsteps shifting on the brick floor",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "燕儿，你看仔细了。",
+          "instruct": "语气专注，带着师长的威严"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话言未毕，只见月光底下，人影一分，一团白影，随带一道寒光，如星驰电掣般，飞向庭前一株参天桂树。又听咔嚓一声，将那桂树向南的一枝大枝桠削将下来。树身突受这断柯的震动，桂花纷纷散落如雨。定睛一看，庭前依旧是他师徒二人站在原处。在这万籁俱寂的当儿，忽然一阵微风吹过，檐前铁马兀自丁东。把一个英琼看得目定神呆。只见周淳对燕儿说道：",
+          "instruct": "叙述精彩，声音由急促转舒缓"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "咔嚓一声",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "剑断树枝",
+            "sound_cn": "利剑斩断粗壮树枝，发出清脆的咔嚓声，随即枝叶散落，桂花如雨般簌簌落下，断枝坠地",
+            "sound_en": "sword slicing through a thick branch with a crisp crack, then leaves scattering, osmanthus flowers raining down with a soft rustle, the broken branch falling to the ground",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "桂花纷纷散落如雨",
+            "trigger_offset": 0,
+            "trigger_delay": 3.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "桂花落雨",
+            "sound_cn": "桂花被震落后如细雨般簌簌飘落，落在地上发出细碎的沙沙声，浓郁的桂花香气似乎弥漫开来",
+            "sound_en": "osmanthus flowers falling like rain, rustling softly as they land on the ground, the fragrance of osmanthus wafting through the air",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "铁马丁东",
+            "trigger_offset": 0,
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "铁马风铃",
+            "sound_cn": "微风吹过，檐前铁马（风铃）发出清脆的叮当声，在夜空中回响，余韵悠长",
+            "sound_en": "gentle wind stirring the iron wind chimes under the eaves, producing a clear tinkling sound echoing in the night, with a lingering resonance",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "适才最后一招，名叫穿云拿月，乃是六合剑中最拿手的一招。将来如遇见能手，尽可用它败中取胜。我一则怜你孝道，又见你聪明过人，故此将我生平绝技传授于你。再有二日，我便要同你师伯入山，你可早晚于无人处勤加温习。为师要安睡去了，明夜我再来指点给你。",
+          "instruct": "语重心长，带着期许"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言罢，周淳便回房安歇不提。燕儿等周淳去后，也自睡去。如是二日，英琼夜夜俱起来偷看。几次三番，对她父亲说要学剑。李宁被她纠缠不过，又经周淳劝解，心中也有点活动，便对她道：",
+          "instruct": "叙述平静"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "回房安歇",
+            "trigger_offset": 0,
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "关门声",
+            "sound_cn": "周淳回房轻轻关上房门，门轴发出轻微的吱呀声，脚步在房内走动的声响",
+            "sound_en": "Zhou Chun returning to his room and gently closing the door, slight creak of the door hinge, footsteps inside the room",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "剑为兵家之祖，极不易学。第一要习之有恒；第二要练气凝神，心如止水。有了这两样，还要有名人传授。你从小娇生惯养，体力从未打熬，实在是难以下手。你既坚持要学，等到了山中，每日清晨，先学养气的功夫，同内功应做的手续。二三年后，才能传你剑法。你这粗暴脾气，到时不要又来麻烦于我。",
+          "instruct": "语重心长，带着父亲的谨慎"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼听了，因为见燕儿比她年幼，已经学得很好，她父亲之言，好像是故意难她一般，未免心中有点不服。正要开口，只见周淳道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "周淳",
+      "api": {
+        "voice": {
+          "role": "周淳",
+          "role_voice": "仗剑侠客-明亮,清亮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你父所说，甚是有理，要学上乘剑法，非照他所说练气归一不可。你想必因连夜偷看我传燕儿的剑，故你觉得容易，你就不知燕儿学剑时苦楚。我因见你偷看时那一番诚心，背地劝过你父多少次，才得应允。你父亲剑法比我强得多，他所说的话丝毫不假，贤侄女不要错会了意。",
+          "instruct": "温和劝解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "琼儿你不要以为你聪明，这学剑实非易事，非凝神养气不可。等到成功之后，十丈内外，尘沙落地，都能听出是什么声音来。即如你每每偷看，你世叔何以会知道？就是如此。这点眼前的事物如果都不知，那还讲什么剑法？幸而是你偷看，如果另一个人要趴在窗前行刺，岂不在舞剑的时候，就遭了他人暗算？",
+          "instruct": "耐心教导"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼听了他二人之言，虽然服输，还是放心不下。又偷偷去问燕儿，果然他学剑之先，受了若干的折磨，下了许多苦功，方自心服口服。光阴易过，不觉到了动身的那一天。一干学童和各人的家长，以及新教读夫子马湘，都来送行。燕儿独自送了二十余里，几次经李、周三人催促，方才挥泪而别。",
+          "instruct": "叙述收束，温馨而略带伤感"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "挥泪而别",
+            "trigger_offset": 0,
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "离别远行",
+            "sound_cn": "众人依依惜别，脚步声渐渐远去，风中传来低语和抽泣声，衣料摩擦声，渐行渐远的脚步声",
+            "sound_en": "farewells among the crowd, footsteps gradually fading, whispers and sobs carried in the wind, rustling of robes, footsteps receding into the distance",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "巫峡江上夜舟",
+        "start_line": 1,
+        "end_line": 10,
+        "prompt": "very subtle low volume cinematic background ambience, night on the Yangtze River at Wu Gorge, gentle water lapping against the wooden boat, distant sound of oars rhythmically dipping, cool mountain breeze through the gorges, bright moonlight on the water surface, occasional distant ape calls from the cliffs, mournful and reflective atmosphere, soft distant xiao flute, no voices, no melody",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "周淳家中相聚",
+        "start_line": 35,
+        "end_line": 50,
+        "prompt": "very subtle low volume cinematic background ambience, rustic countryside courtyard at daytime, bamboo fence and thatched cottage, warm sunlight filtering through trees, sounds of chickens and distant village life, occasional dog bark, cheerful and homely atmosphere, soft erhu melody in background, no voices, no sharp sounds",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "月夜庭院授剑",
+        "start_line": 62,
+        "end_line": 66,
+        "prompt": "very subtle low volume cinematic background ambience, quiet courtyard under bright moonlight, night insects chirping softly, iron wind chime hanging under the eaves occasionally tinkling, occasional rustle of osmanthus leaves, focused and intense atmosphere, gentle guqin resonance, no voices, no melody",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

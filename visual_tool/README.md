@@ -93,6 +93,7 @@ bash start.sh
 ### 5. 音色库（🎤）
 
 - 列出 `clone-audio/` 下所有克隆音色，支持搜索过滤、逐个试听
+- `🎙 音色库编辑`：表格化编辑克隆音色的角色名、特色、场景、性别、年龄段、语言、风格标签，写回音色说明 MD（见「路径约定」）
 
 ### 6. 批量生成
 
@@ -108,6 +109,10 @@ bash start.sh
 | `/api/raw-scripts` | GET | 原稿文件列表 |
 | `/api/outputs` | GET | 输出音频树（分组+行号） |
 | `/api/clone-voices` | GET | 克隆音色列表 |
+| `/api/clone-voice-table` | GET | 克隆音色说明表（含性别/年龄/语言/风格） |
+| `/api/char-voices-novels` | GET | 有配音表的小说列表 |
+| `/api/char-voices?novel=` | GET | 指定小说的角色配音表 |
+| `/api/script/line-audio?script=` | GET | 剧本逐行已生成音频信息 |
 | `/api/file/{path}` | GET | 音频/JSON 文件（支持 Range 播放） |
 | `/api/raw-script/{path}` | GET | 原稿内容 |
 | `/api/generate` | POST | 生成选中章节（异步） |
@@ -115,12 +120,15 @@ bash start.sh
 | `/api/generate/log?task_id=` | GET | SSE 实时日志流 |
 | `/api/generate/cancel` | POST | 取消任务 |
 | `/api/generate/status?task_id=` | GET | 任务状态 |
+| `/api/outputs/delete` | POST | 删除输出音频 |
 | `/api/regen` / `/api/regen/info` | POST | 输出列表单音频重生成 |
 | `/api/script/save` | POST | 保存编辑后的剧本 |
 | `/api/script/regen-line` | POST | 逐行重生成配音+音效 |
 | `/api/script/regen-effect` | POST | 单个音效重生成 |
 | `/api/script/regen-layer` | POST | 背景音场景层重生成 |
 | `/api/script/remix-line` | POST | 逐行按原逻辑重新混音 |
+| `/api/char-voices/update` | POST | 更新小说角色配音表 |
+| `/api/clone-voice-table/update` | POST | 更新克隆音色说明表某行 |
 | `/api/lab/tts` `/api/lab/sfx` `/api/lab/bgm` | POST | 声音实验室生成 |
 
 ## 技术栈
@@ -137,6 +145,8 @@ bash start.sh
 - 原稿：`小说批量工具/小说剧本原稿/{小说名}/...`
 - 输出：`output/{小说名}/{章节名}/{配音,音效,背景音,混音}/`
 - 音色：`clone-audio/{音色名}.mp3`
+- 音色说明表：`.comate/skills/novel-to-script/references/克隆音频角色列表说明.md`（唯一权威文件，音色库编辑写回此处）
+- 角色配音表：`小说批量工具/小说角色配音关系表/{小说名}角色配音表.md`
 
 ## 注意事项
 

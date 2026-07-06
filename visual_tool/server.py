@@ -342,6 +342,55 @@ def save_script(script_rel: str, lines: list):
     return {"status": "saved", "lines": len(lines)}
 
 
+def get_line_audio(script_rel: str):
+    """返回章节 output 目录下所有行级音频，按 line_id 分组。
+
+    返回格式:
+    {
+      "voice": {"0": "output/.../配音/voice_line_0.wav", ...},
+      "effects": {"0": ["output/.../音效/effect_line_xxx_0.wav", ...], ...},
+      "mixed":   {"0": "output/.../混音/mixed_line_0.wav", ...},
+      "bgm_layers": ["output/.../背景音/soundscape_layer_0.wav", ...]
+    }
+    """
+    ch_dir = _find_output_chapter_dir(script_rel)
+    if not ch_dir:
+        return {"voice": {}, "effects": {}, "mixed": {}, "bgm_layers": []}
+
+    def rel(p):
+        return str(Path(p).relative_to(BASE_DIR))
+
+    voice = {}
+    for f in _list_dir_safe(ch_dir / "配音"):
+        if f.is_file() and f.suffix == '.wav':
+            lid = _extract_line_id(f.stem)
+            if lid is not None:
+                voice[str(lid)] = rel(f)
+
+    effects: dict = {}
+    for f in _list_dir_safe(ch_dir / "音效"):
+        if f.is_file() and f.suffix == '.wav':
+            lid = _extract_line_id(f.stem)
+            if lid is not None:
+                effects.setdefault(str(lid), []).append(rel(f))
+
+    mixed = {}
+    for f in _list_dir_safe(ch_dir / "混音"):
+        if f.is_file() and f.suffix == '.wav':
+            lid = _extract_line_id(f.stem)
+            if lid is not None:
+                mixed[str(lid)] = rel(f)
+
+    bgm_layers = []
+    bgm_dir = ch_dir / "背景音"
+    if bgm_dir.is_dir():
+        for f in sorted(_list_dir_safe(bgm_dir), key=lambda x: x.name):
+            if f.is_file() and f.suffix == '.wav':
+                bgm_layers.append(rel(f))
+
+    return {"voice": voice, "effects": effects, "mixed": mixed, "bgm_layers": bgm_layers}
+
+
 def _find_output_chapter_dir(script_rel: str):
     """根据剧本路径找到 output 下对应章节目录"""
     stem = Path(script_rel).stem
@@ -721,6 +770,253 @@ def scan_clone_voices():
     return voices
 
 
+# ---- 克隆音频角色列表说明 MD ----
+# 唯一权威文件：skill references 副本（clone-audio 下的旧副本已删除）
+CLONE_VOICE_MD = BASE_DIR / ".comate" / "skills" / "novel-to-script" / "references" / "克隆音频角色列表说明.md"
+
+
+def parse_clone_voice_md():
+    """解析克隆音频角色列表说明.md，返回结构化数据（含新增字段 gender/age/lang/style）"""
+    if not CLONE_VOICE_MD.exists():
+        return []
+    text = CLONE_VOICE_MD.read_text(encoding='utf-8')
+    rows = []
+    current_section = ''
+    current_subsection = ''
+    for line in text.splitlines():
+        m2 = re.match(r'^##\s+(.+)', line)
+        if m2:
+            current_section = m2.group(1).strip()
+            continue
+        m3 = re.match(r'^###\s+(.+)', line)
+        if m3:
+            current_subsection = m3.group(1).strip()
+            continue
+        if not line.startswith('|'):
+            continue
+        parts = [p.strip() for p in line.strip('|').split('|')]
+        if len(parts) < 3:
+            continue
+        if parts[0] in ('角色名', '---', '') or parts[0].startswith('---'):
+            continue
+        name = parts[0]
+        filename = parts[1].strip('`')
+        feature = parts[2] if len(parts) > 2 else ''
+        scene = parts[3] if len(parts) > 3 else ''
+        # 新字段：从 MD 中直接读取（col index 4-7），若不存在则留空
+        gender = parts[4] if len(parts) > 4 else ''
+        age = parts[5] if len(parts) > 5 else ''
+        lang = parts[6] if len(parts) > 6 else ''
+        style = parts[7] if len(parts) > 7 else ''
+        if name:
+            rows.append({
+                'name': name, 'filename': filename,
+                'feature': feature, 'scene': scene,
+                'section': current_section, 'subsection': current_subsection,
+                'gender': gender, 'age': age, 'lang': lang, 'style': style
+            })
+    return rows
+
+
+def update_clone_voice_row(name: str, new_name: str, new_feature: str, new_scene: str,
+                           new_gender: str = '', new_age: str = '', new_lang: str = '', new_style: str = ''):
+    """更新克隆音频角色列表说明.md 中的一行（按角色名匹配），支持新增字段"""
+    if not CLONE_VOICE_MD.exists():
+        return {'error': 'MD 文件不存在'}
+    lines = CLONE_VOICE_MD.read_text(encoding='utf-8').splitlines()
+    updated = False
+    new_lines = []
+    for line in lines:
+        if line.startswith('|'):
+            parts = line.strip('|').split('|')
+            if len(parts) >= 3 and parts[0].strip() == name:
+                filename_raw = parts[1].strip()
+                new_filename = filename_raw
+                if new_name != name:
+                    inner = filename_raw.strip('`')
+                    ext = Path(inner).suffix if '.' in inner else '.mp3'
+                    new_filename = f'`{new_name}{ext}`'
+                parts[0] = f' {new_name} '
+                parts[1] = f' {new_filename} '
+                parts[2] = f' {new_feature} '
+                if len(parts) > 3:
+                    parts[3] = f' {new_scene} '
+                # 确保有8列
+                while len(parts) < 8:
+                    parts.append('  ')
+                parts[4] = f' {new_gender} '
+                parts[5] = f' {new_age} '
+                parts[6] = f' {new_lang} '
+                parts[7] = f' {new_style} '
+                line = '|' + '|'.join(parts) + '|'
+                updated = True
+        new_lines.append(line)
+    if updated:
+        content = '\n'.join(new_lines)
+        CLONE_VOICE_MD.write_text(content, encoding='utf-8')
+    return {'status': 'ok', 'updated': updated}
+
+
+CHAR_VOICE_TABLE_DIR = BASE_DIR / "小说批量工具" / "小说角色配音关系表"
+
+
+def _normalize_novel_name(novel_name: str) -> str:
+    """从配音表文件stem提取小说名用于查找MD文件
+    支持:
+      '蜀山剑侠传'          -> 文件 蜀山剑侠传角色配音表.md
+      '蜀山剑侠传角色配音表 copy' -> 文件 蜀山剑侠传角色配音表 copy.md
+    """
+    # 如果直接对应一个文件 stem（即传入的是 file.stem），直接用
+    md_path = CHAR_VOICE_TABLE_DIR / f"{novel_name}.md"
+    if md_path.exists():
+        return novel_name  # caller will use stem directly
+    # 否则尝试拼接 角色配音表.md
+    return novel_name
+
+
+def _get_char_voice_md_path(novel_name: str):
+    """给定小说名（可能是 stem 或纯小说名），返回对应 MD 文件路径"""
+    # 优先：直接当 stem 查找（如 '蜀山剑侠传角色配音表 copy'）
+    p = CHAR_VOICE_TABLE_DIR / f"{novel_name}.md"
+    if p.exists():
+        return p
+    # 其次：拼接 角色配音表.md（如 '蜀山剑侠传'）
+    p2 = CHAR_VOICE_TABLE_DIR / f"{novel_name}角色配音表.md"
+    if p2.exists():
+        return p2
+    # 去掉 json稿 后缀再试
+    for suffix in ('json稿', 'JSON稿'):
+        if novel_name.endswith(suffix):
+            base = novel_name[:-len(suffix)]
+            p3 = CHAR_VOICE_TABLE_DIR / f"{base}角色配音表.md"
+            if p3.exists():
+                return p3
+    return None
+
+
+def scan_char_voice_novels():
+    """返回角色配音表目录下所有可用的小说名列表（含 copy 等变体）"""
+    names = []
+    for f in _list_dir_safe(CHAR_VOICE_TABLE_DIR):
+        if f.is_file() and f.suffix == '.md' and '角色配音表' in f.name:
+            # 取文件名去掉 .md，作为选项展示（保留 copy 等后缀以便区分）
+            names.append(f.stem)
+    return names
+
+
+def _parse_char_voice_md(novel_name: str):
+    """解析角色配音表 MD 文件，返回行列表"""
+    md_path = _get_char_voice_md_path(novel_name)
+    if not md_path or not md_path.exists():
+        return []
+    text = md_path.read_text(encoding='utf-8')
+    rows = []
+    current_category = ''
+    for line in text.splitlines():
+        # 分类标题
+        m = re.match(r'^##\s+(.+)', line)
+        if m:
+            current_category = m.group(1).strip()
+            continue
+        # 表格数据行：| 角色名 | 配音名 | ... |
+        if not line.startswith('|'):
+            continue
+        parts = [p.strip() for p in line.strip('|').split('|')]
+        if len(parts) < 2:
+            continue
+        # 跳过表头/分割行
+        if parts[0] in ('角色名', '---', '') or parts[0].startswith('---'):
+            continue
+        char_name = parts[0]
+        voice_name = parts[1] if len(parts) > 1 else ''
+        char_desc = parts[2] if len(parts) > 2 else ''
+        voice_desc = parts[3] if len(parts) > 3 else ''
+        scope = parts[4] if len(parts) > 4 else ''
+        note = parts[5] if len(parts) > 5 else ''
+        if char_name and voice_name:
+            rows.append({
+                'char': char_name, 'voice': voice_name, 'category': current_category,
+                'char_desc': char_desc, 'voice_desc': voice_desc, 'scope': scope, 'note': note
+            })
+    return rows
+
+
+def get_char_voices(novel_name: str):
+    """获取小说角色配音表"""
+    rows = _parse_char_voice_md(novel_name)
+    return {'novel': novel_name, 'rows': rows, 'count': len(rows)}
+
+
+def update_char_voice(novel_name: str, char_name: str, new_voice: str,
+                      new_char: str = '', category: str = '', char_desc: str = '', note: str = ''):
+    """更新角色配音表 MD，并同步修改所有对应 JSON 剧本中 roles_definition"""
+    md_path = _get_char_voice_md_path(novel_name)
+    if not md_path or not md_path.exists():
+        return {'error': f'配音表不存在: {novel_name}'}
+
+    # 1. 更新 MD 文件
+    lines = md_path.read_text(encoding='utf-8').splitlines()
+    updated_md = False
+    new_lines = []
+    for line in lines:
+        if line.startswith('|'):
+            parts = line.strip('|').split('|')
+            if len(parts) >= 2 and parts[0].strip() == char_name:
+                parts[0] = f' {new_char or char_name} '
+                parts[1] = f' {new_voice} '
+                if category and len(parts) > 2:
+                    pass  # category is not a column in char voice table; skip
+                if char_desc and len(parts) > 2:
+                    parts[2] = f' {char_desc} '
+                if note and len(parts) > 5:
+                    parts[5] = f' {note} '
+                line = '|' + '|'.join(parts) + '|'
+                updated_md = True
+        new_lines.append(line)
+    md_path.write_text('\n'.join(new_lines), encoding='utf-8')
+
+    # 2. 同步更新所有 JSON 剧本中的 roles_definition
+    # 从 novel_name 中提取纯小说名（去掉"角色配音表 copy"等后缀）来查找 json 目录
+    _pure = novel_name
+    for _suf in ('角色配音表 copy', '角色配音表'):
+        if _pure.endswith(_suf):
+            _pure = _pure[:-len(_suf)].strip()
+            break
+    novel_script_dir = SCRIPT_BASE / f"{_pure}json稿"
+    if not novel_script_dir.exists():
+        # 尝试查找包含纯小说名的目录
+        for d in SCRIPT_BASE.iterdir():
+            if d.is_dir() and _pure in d.name:
+                novel_script_dir = d
+                break
+
+    synced_files = []
+    if novel_script_dir.exists():
+        for jf in sorted(novel_script_dir.glob('*.json')):
+            try:
+                data = json.loads(jf.read_text(encoding='utf-8'))
+                roles = data.get('roles_definition', {})
+                changed = False
+                for role_key, role_val in roles.items():
+                    if isinstance(role_val, dict):
+                        if role_val.get('role_name') == char_name or role_key == char_name:
+                            if role_val.get('role_voice') != new_voice:
+                                role_val['role_voice'] = new_voice
+                                changed = True
+                if changed:
+                    jf.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+                    synced_files.append(jf.name)
+            except Exception:
+                pass
+
+    return {
+        'status': 'ok',
+        'md_updated': updated_md,
+        'synced_count': len(synced_files),
+        'synced_files': synced_files
+    }
+
+
 def scan_raw_scripts():
     trees = []
     for novel_dir in _list_dir_safe(SCRIPT_RAW_BASE):
@@ -958,10 +1254,26 @@ class Handler(http.server.BaseHTTPRequestHandler):
             '/api/raw-scripts': lambda: self._send(scan_raw_scripts()),
             '/api/outputs': lambda: self._send(scan_outputs()),
             '/api/clone-voices': lambda: self._send(scan_clone_voices()),
+            '/api/char-voices-novels': lambda: self._send(scan_char_voice_novels()),
+            '/api/clone-voice-table': lambda: self._send(parse_clone_voice_md()),
         }
 
         if path in routes:
             return routes[path]()
+
+        if path == '/api/char-voices':
+            novel = qs.get('novel', [None])[0]
+            if not novel:
+                return self._send({"error": "缺少 novel 参数"}, code=400)
+            novel = urllib.parse.unquote(novel)
+            return self._send(get_char_voices(novel))
+
+        if path == '/api/script/line-audio':
+            script_rel = qs.get('script', [None])[0]
+            if not script_rel:
+                return self._send({"error": "缺少 script 参数"}, code=400)
+            script_rel = urllib.parse.unquote(script_rel)
+            return self._send(get_line_audio(script_rel))
 
         if path.startswith('/api/file/'):
             rel = urllib.parse.unquote(path[10:])
@@ -970,7 +1282,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             return self._send_file_ranged(f, ct)
 
         if path.startswith('/api/raw-script/'):
-            rel = path[16:]
+            rel = urllib.parse.unquote(path[16:])
             f = BASE_DIR / rel
             if f.suffix == '.json':
                 try:
@@ -1027,12 +1339,27 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path == '/api/outputs/delete':
             fp = body.get('path')
-            if fp:
-                f = BASE_DIR / fp
-                if f.exists():
-                    f.unlink()
-                    return self._send({"status": "deleted"})
-            return self._send({"status": "not_found"}, code=404)
+            if not fp:
+                return self._send({"error": "缺少 path"}, code=400)
+            # 安全校验：只允许删除 output/ 目录内的内容
+            target = (BASE_DIR / fp).resolve()
+            output_abs = OUTPUT_DIR.resolve()
+            if output_abs not in target.parents and target != output_abs:
+                return self._send({"error": "只能删除 output 目录内的文件"}, code=403)
+            if target == output_abs:
+                return self._send({"error": "不能删除 output 根目录"}, code=403)
+            if not target.exists():
+                return self._send({"status": "not_found"}, code=404)
+            try:
+                if target.is_dir():
+                    import shutil
+                    shutil.rmtree(target)
+                    return self._send({"status": "deleted", "type": "dir"})
+                else:
+                    target.unlink()
+                    return self._send({"status": "deleted", "type": "file"})
+            except Exception as e:
+                return self._send({"error": str(e)}, code=500)
 
         # ======================== 声音实验室 ========================
         if path == '/api/lab/tts':
@@ -1124,6 +1451,42 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self._send({"error": "缺少 line_id"}, code=400)
             tid = start_remix_line(script_rel, int(line_id))
             return self._send({"task_id": tid, "status": "started"})
+
+        if path == '/api/char-voices/update':
+            novel = body.get('novel', '')
+            char_name = body.get('char', '')
+            new_voice = body.get('voice', '')
+            if not novel or not char_name or not new_voice:
+                return self._send({"error": "缺少 novel/char/voice 参数"}, code=400)
+            try:
+                return self._send(update_char_voice(
+                    novel, char_name, new_voice,
+                    new_char=body.get('new_char', char_name),
+                    category=body.get('category', ''),
+                    char_desc=body.get('char_desc', ''),
+                    note=body.get('note', '')
+                ))
+            except Exception as e:
+                return self._send({"error": str(e)}, code=500)
+
+        if path == '/api/clone-voice-table/update':
+            row_name = body.get('name', '')
+            new_name = body.get('new_name', row_name)
+            new_feature = body.get('feature', '')
+            new_scene = body.get('scene', '')
+            new_gender = body.get('gender', '')
+            new_age = body.get('age', '')
+            new_lang = body.get('lang', '')
+            new_style = body.get('style', '')
+            if not row_name:
+                return self._send({"error": "缺少 name 参数"}, code=400)
+            try:
+                return self._send(update_clone_voice_row(
+                    row_name, new_name, new_feature, new_scene,
+                    new_gender, new_age, new_lang, new_style
+                ))
+            except Exception as e:
+                return self._send({"error": str(e)}, code=500)
 
         self.send_error(404)
 
