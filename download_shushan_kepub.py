@@ -9,7 +9,7 @@ import time
 import random
 from bs4 import BeautifulSoup
 
-output_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/小说批量工具/小说剧本原稿/蜀山剑侠传"
+output_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/novel_tool/novel_scripts_raw/蜀山剑侠传"
 
 # URL映射：章节号 -> URL ID
 # 第一卷（第1-60回）：10001-10060

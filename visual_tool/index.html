@@ -293,7 +293,7 @@ audio { filter:invert(0.85); }
 </div>
 
 <!-- Footer -->
-<div id="footer">端口 8088 | 剧本路径: 小说批量工具/小说剧本 | 输出路径: output/</div>
+<div id="footer">端口 8088 | 剧本路径: novel_tool/novel_scripts | 输出路径: output/</div>
 
 <!-- Raw Scripts Modal -->
 <div id="raw-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:40px;">
@@ -1094,7 +1094,7 @@ async function openCharVoices() {
   // fallback: derive from scripts list
   if (sel.options.length === 0) {
     for (const novel of scripts) {
-      const name = novel.name.replace(/json稿$/i, '');
+      const name = novel.name.replace(/_json$/i, '').replace(/json稿$/i, '');
       const opt = document.createElement('option');
       opt.value = name;
       opt.textContent = name;

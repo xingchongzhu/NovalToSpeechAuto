@@ -7,7 +7,7 @@ import json
 import sys
 
 # 添加多音字处理模块路径
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '小说批量工具', '脚本'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'novel_tool', 'scripts'))
 
 from polyphone_processor import process_polyphone_text
 

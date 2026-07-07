@@ -24,7 +24,7 @@ def sanitize_filename(title):
 def news_to_audio(news_json_path, output_dir, voice_name="阿辉-官方新闻,资讯"):
     """将新闻JSON转换为音频文件"""
     
-    sys.path.append(os.path.join(os.path.dirname(__file__), "..", "小说批量工具", "脚本"))
+    sys.path.append(os.path.join(os.path.dirname(__file__), "..", "novel_tool", "scripts"))
     
     from audio_processing_module import AudioEngine, VoiceParams
     

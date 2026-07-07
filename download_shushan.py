@@ -19,7 +19,7 @@ chapter_urls = [
     ("第十回 风雨同舟 穷途怜弱女 仙缘遇合 佛法伏凶僧", "https://www.yueguji.com/book/735/151e6b4d1c951.html"),
 ]
 
-output_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/小说批量工具/小说剧本原稿/蜀山剑侠传"
+output_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/novel_tool/novel_scripts_raw/蜀山剑侠传"
 
 def download_chapter(title, url, chapter_num):
     """下载单个章节"""

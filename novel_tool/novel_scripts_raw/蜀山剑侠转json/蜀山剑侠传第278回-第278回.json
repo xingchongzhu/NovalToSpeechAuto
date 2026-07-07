@@ -1,0 +1,1943 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第278回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "金蝉": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "朱文": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "李洪": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "钱莱": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石完": {
+      "role_voice": "开朗男生-开朗,阳光",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "尸毗老人": {
+      "role_voice": "神秘法师-低沉,浑厚",
+      "pitch": "-5Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "田琪": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "田瑶": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "魔女": {
+      "role_voice": "清冷女神-低沉女声,情感",
+      "pitch": "-1Hz",
+      "volume": "-1%",
+      "speed": "-2%"
+    },
+    "申屠宏": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "乙休": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "凌浑": {
+      "role_voice": "老伯-沧桑岁月爷",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "干神蛛": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第278回",
+          "instruct": "庄重沉稳，悬念开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前文说到金蝉为救朱文、灵云，去往火云岭神剑峰，与尸毗老人斗法，金蝉虽然不是对手，仗着身有枯竹老人所赐镇摄心神之宝和一道太乙青灵神符，不受魔法禁制，法宝、飞剑灵效全未失去，虽落下风，人却不曾受伤。老人一生气盛，见金蝉口出不逊，又用修罗刀伤了他两个宫女，越发大怒。正待施展法力，先给金蝉吃点苦头，然后送往天欲宫中困住，引使人魔，以消仇恨。忽听金钟乱响，玉磐频敲，知道来了强敌，深入魔牢根本重地，不禁急怒交加。",
+          "instruct": "紧张急促，语速略快，充满大战前奏的压迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "修罗刀",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "刀光破空",
+            "sound_cn": "修罗刀划破空气，发出尖锐的破空呼啸声",
+            "sound_en": "the Shura blade cutting through the air, with a sharp whistling sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "金钟乱响",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "金钟玉磐",
+            "sound_cn": "金钟急促杂乱的敲击声与玉磐频繁的敲击声交织，充满紧急报警的气氛",
+            "sound_en": "urgent and chaotic striking of the golden bell interweaving with frequent jade chime strikes, filled with emergency alarm atmosphere",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "方想运用魔法查看，忽见一个幼童在一幢冷荧荧的青光笼罩之下，突然出现，认出来人所用法宝又是枯竹老人一派。尸毗老人心中恨极，忙把手中玉拂尘往前一挥，大片魔火金花刚似星河倒倾，往前飞压下去。青光忽隐，幼童不见。紧跟着又听空中有人大喝，随见一个十来岁的小孩影子在空中把话说完，一闪不见，正是上次和小寒山二女同来本山，救走阮征的妙一真人之子李洪。因李洪措词得体，自居后辈，不似金蝉可恶；加上李洪上次相遇，有了经历，知道魔法厉害，预留退步，在佛光护体，至宝防身之下，把话说完，方始现身，略闪即隐，擒他甚难，便没有追。二次待要回制金蝉，青光中的幼童又在一旁现身喝骂，怒火头上，只想将敌人擒住，没想到来人是用诱敌之计，急匆匆施展魔法，先将金蝉送往天欲宫中，去与朱文一起。然后发动禁制，将当地围了一个风雨不透，跟踪追去。魔光才起，敌人又不见，自己那么大神通，竟未追上。刚一停步，青光中幼童又在别处出现，戟指大骂。",
+          "instruct": "紧张激烈，节奏快速，充满追逃的紧迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "玉拂尘一挥",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "魔火金花",
+            "sound_cn": "玉拂尘挥动间，大片魔火金花如星河倒倾般倾泻而出，发出隆隆的灼烧声",
+            "sound_en": "as the jade horsetail whisk sweeps, large sheets of demon fire and golden flowers pour down like a galaxy, with rumbling burning sounds",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "空中大喝",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "李洪断喝",
+            "sound_cn": "李洪从空中发出一声清朗断喝，声如洪钟，在山间回荡",
+            "sound_en": "Li Hong letting out a clear sharp shout from the air, voice like a resonant bell echoing among the mountains",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16,
+            "trigger_keyword": "佛光护体",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光闪现",
+            "sound_cn": "一片柔和佛光骤然闪现护住李洪全身，发出庄严的低沉嗡鸣",
+            "sound_en": "a soft Buddha's light suddenly appearing to protect Li Hong, emitting a solemn low hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "戟指大骂",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "幼童喝骂",
+            "sound_cn": "青光中幼童现身戟指怒骂，声音清脆而愤怒",
+            "sound_en": "the child in the blue light appearing and pointing angrily, voice clear and furious",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老人因魔法禁制已全布置停当，一任隐形多么神妙，早晚也非落网不可，不禁哈哈笑道：无知竖子，你已在我天罗地网之中，还敢猖狂乱骂。别人被我擒到，还能活命；你若被擒，教你知道厉害！老人神通广大，动作如电，心念所至，立可到达，无不如意。口里说着话，暗中运用法力，人已到了幼童面前。满拟魔法遥制，骤出不意，一旦赶上，便可将人擒住。幼童因见老人未追，正在叫骂，本未觉察。及至老人随心念飞到，刚伸魔手，幼童忽似有了警兆，面色微变，青光立隐，人也不见。尸毗老人不料凭自己的法力和那一双慧目法眼，幼童竟被漏网，越想越有气。",
+          "instruct": "愤怒中带着震惊和不解，语速中速"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "天罗地网",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "魔网收紧",
+            "sound_cn": "魔法禁制从四面八方猛然收紧，发出低沉的嗡鸣和锁链绞动声",
+            "sound_en": "magic restrictions suddenly tightening from all directions, with low hums and chain-tightening sounds",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "魔手",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魔手破空",
+            "sound_cn": "尸毗老人魔手伸出时带起尖锐的破空声，魔气翻涌",
+            "sound_en": "as Shipi Old Man extends his demon hand, a sharp whoosh cuts the air, demonic qi surging",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正待行法查看，忽听金钟零乱，敲打甚急，夹着爱女与门人侍者惊呼求援之声。猛想起先听钟声，只顾擒敌，也未查看。爱女所居魔宫前面，有一魔牢，昔年所炼十二神魔，全被禁闭在内，已有多年，禁制重重，休说外人，便门人、爱女也难进门一步。先前钟声传音，正是魔牢有警，急切间只顾擒敌，竟忘查看。这些神魔俱都神通广大，自己为想归入佛门，又念这些神魔曾经苦心祭炼，历时多年，立功甚多，不忍将其消灭；留在那里，又都凶残猛恶，很不安分，不论什人全都伤害，对方稍为疏忽，即使法力甚高，逃得元神，本身精血也被吸去，实是一个隐患。特意费了百日苦功，用法宝设一魔牢，全数封闭在内，欲待自己皈依之后，再以佛法度化，消去凶煞邪气，送去投生，使其改邪归正，不料竟会有人来犯。敌人虽是两个幼童，根骨均是上等，法力也非寻常。那太乙青灵火和李洪的两件佛门至宝，正是破那禁制的克星。莫要被他攻穿魔牢，放出神魔，大是不妙。说时迟，那时快，老人心念一动，早把先前那环魔光放起。因两座魔宫分建在神剑峰近顶不远形似宝剑护手的两端平崖之上，相隔虽只数里之遥，但因近日一连困住了不少年轻男女，均是几个有名人物的门下，老人料知事只开端，对方师长必不甘休，东面两宫均有魔法重重禁制，非行法不能查看底细。这时老人目光到处，瞥见那深藏在西魔宫平湖水底的魔牢，已被人用法宝攻破一洞，内中神魔已经逃出了四个，一个个赤身露体，白骨如霜，身高丈许，白发红睛，张牙舞爪，正与爱女和宫中门人侍女追逐恶斗。爱徒田琪、田瑶正以全力施展魔法，堵住魔牢出口，不令下余八魔逃走。于是一面将手连指，使钟楼上所悬的金钟发声报警；一面传音求救。牢中八魔见洞口被阻，不能脱身，也急得咬牙切齿，呼啸如雷，神情狞厉已极。经过了多年禁闭，威力又加大了好些倍，田氏兄弟已有不支之势。同时爱女刚受逃出来的神魔追扑，一面传音求救；一面在法宝防身之下避入钟楼，发动禁制；一面行法撞钟。田氏兄弟同时情急无计，也用魔法远远撞钟，故此钟声十分零乱。那钟楼乃魔宫中枢要地，四面均有魔法异宝埋伏。爱女虽仗应变神速，逃遁得快，当先飞入钟楼，进去便将埋伏一齐发动，将追她的神魔隔断在外，未受其害。无奈这类神魔感应之力最强，对方一被相中，便如影随形，不将那人精气吸去，决不罢休，端的厉害无比。虽被隔断，兀自厉声怒吼，张牙舞爪，朝前猛追乱冲，不舍退去。另有两个相随多年的侍者，法力也非寻常，因为逃避稍迟，已为神魔所杀，头陷一孔，尸横就地，点血俱无。其他人被另外三魔追得四下乱窜，内有一个门人已经快被迫上。知道这类神魔均是昔年所摄修道人的元神，功力甚高，再加禁闭湖底，多年潜修，凶威更盛。最可虑的是急切间就拼损耗本身真元，也不能将其当时消灭。而这些爱徒、爱女被相中，魔牢已破，就擒回去，二次禁闭，比起以前也差得多。稍有空隙，立即逃出为害，捷于影响，防不胜防，一扑上身，便无幸理。再要被他们情急反噬，连本身十三神魔合为一体，便和自己成为不能并立之势。稍为疏忽，一个制服不住，定吃大亏。如以大阿修罗法除去，本身真元必要损耗一半，焉能不急。老人不顾再寻那两个小孩子，立时飞往应援。不提。",
+          "instruct": "紧张万分，多重危机同时爆发，节奏紧凑急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "金钟零乱",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "钟声零乱",
+            "sound_cn": "金钟零乱急切的敲击声，夹杂着惊呼和魔啸声，一片混乱",
+            "sound_en": "urgent and chaotic striking of the golden bell, mixed with screams and demonic howls, total chaos",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "魔牢攻破",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "魔牢破裂",
+            "sound_cn": "魔牢被法宝攻破时发出沉闷的爆裂声，金石碎裂，魔气从中汹涌而出",
+            "sound_en": "the demon prison bursting open with a dull explosion, metal and stone shattering, demonic qi surging out",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "神魔逃出",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "群魔咆哮",
+            "sound_cn": "十二神魔齐声咆哮怒吼，声如惊雷，白骨摩擦声与利爪破空声交织",
+            "sound_en": "twelve demons roaring in unison, voices like thunder, bones grinding and claws cutting through the air",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "钟楼禁制",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "禁制发动",
+            "sound_cn": "钟楼四面魔法异宝同时发动，发出密集的能量嗡鸣和机关转动声",
+            "sound_en": "magic treasures around the bell tower activating simultaneously, with dense energy hums and mechanism turning sounds",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40,
+            "trigger_keyword": "尸横就地",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "倒地闷响",
+            "sound_cn": "侍者倒地时发出沉重的闷响，声音沉闷而令人心悸",
+            "sound_en": "the servant falling to the ground with a heavy thud, dull and unsettling",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来青光中的幼童，正是金蝉新收爱徒钱莱。自在途中和金蝉分手以后，穿入山腹以内，立时施展全力，向前急赶。本心是想在防身宝铠、神光笼罩之下，仗着穿山行石专长，赶在师父前面，照枯竹老人仙示，去往西魔宫魔牢重地扰闹，引诱敌人分神，以便师父下手救人，免为魔法所伤。及至赶到神剑峰西宫地底，正在查看形势，忽听泉声震耳，仔细一看，那地方正是湖心泉水发源之所。钱莱想起仙示所说，魔牢就在湖底孤岛之下。跟踪一寻，一点没有费事，便到了上次阮征夫妻分手的湖心水榭平台之下。那水榭建在湖心一座礁石之上，出水虽只二三尺，下面却是又高又大。当初本没有这座礁石，原是尸毗老人将神魔禁闭魔牢以后，特移了二十多丈高，六七丈方圆一座平顶孤峰镇压在魔牢之上。又在石顶出水一段，建起一座水榭平台。表面玉槛珠栏，金碧辉煌，矗立浩浩碧波之中，清丽非常，实则由上到下，均有魔法禁制。常人到此，休说破那魔牢，只要在水底礁石十丈之内，便受魔法反应，或被困住。偏巧钱莱炼就穿山行石的专长。由不夜城起身时，钱康夫妇虽知爱子累生修为，法力道根俱都不弱，但一则对头太强，惟恐有失；二则他初入师门，便遇此建立奇功的机会，不能不加慎重。爱子转世不久，天性好强，以前诸生便为出道太早，童心未退，多树强敌，吃了大亏。这次转动重归，想起他海内外仇敌甚多，都是妖邪中的能手，常为他未来愁急。天幸仙缘遇合，归入峨眉，如能立此奇功，全家增光，将来也有许多指望。好在小南极妖蚿伏诛，海怪降伏，仙山灵域，邪氛已尽，即便有事，光明境隔海相对，瞬息可以往来，有阮征等峨眉之秀在此为邻，也无妨害。便将几件镇山法宝交与爱子，令其带在身旁，作个准备。内中一件叫千叶神雷冲，乃钱氏夫妻昔年看出万载寒炫是个未来大害，特意在每年极光微弱之时，暗用法力，冒着奇险，潜入来复、子午两线交界口上，等极光大火环绕地轴急驶飞过之时，收摄得一点残余精气，立时遁回。年积月累，居然积存不少。再用八十一年苦功，连同预先采集的元磁神铁，炼成此宝。形如一个千叶莲花形的风车，当中有一小莲房，中具九孔。用时指定前面，如法施为，风车立时电旋急转，莲房孔中便有几股青白光气射出。看去并不强烈，可是所到之处，不论多么坚厚神奇的铜墙铁壁，或是五金之精所炼法宝，只要射中一点，挨着便即消融，妙在连点声音都没有。尸毗老人的魔牢，原是大白精金炼成，形如一钟，大约五丈方圆，本就坚实，再加魔法祭炼，不特能大能小，坚固无比，而且人一近前，便能发出魔焰、金刀、火轮、飞叉，环攻而上，稍为沾上，休想活命。此宝恰是它的克星，钱莱又有宝铠防身，只一下手，便即成功。",
+          "instruct": "叙述平稳中带着惊奇，语速适中，充满法宝神妙的惊叹"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "穿山行石",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "山石穿行",
+            "sound_cn": "钱莱穿行山腹时，山石在身侧无声裂开又合拢，发出轻微的沙沙声",
+            "sound_en": "as Qian Lai passes through the mountain, rocks silently splitting and closing around him, with a soft rustling sound",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "泉声震耳",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "泉涌轰鸣",
+            "sound_cn": "湖心泉眼水声如雷轰鸣，激流奔涌撞击岩石，震耳欲聋",
+            "sound_en": "the spring at the lake center roaring like thunder, torrents rushing and crashing against rocks, deafening",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22,
+            "trigger_keyword": "千叶神雷冲",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "神雷冲旋",
+            "sound_cn": "千叶神雷冲如风车般急速旋转，发出清越而无声的嗡鸣，青白光气无声射出",
+            "sound_en": "the Thousand-Leaf Divine Thunder Drill spinning rapidly like a windmill, emitting a clear silent hum, blue-white light shooting out silently",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30,
+            "trigger_keyword": "魔焰金刀",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "魔焰环攻",
+            "sound_cn": "魔牢周围魔焰、金刀、火轮、飞叉同时爆发环攻，发出密集的呼啸和金属撞击声",
+            "sound_en": "demonic fire, golden knives, flying wheels, and forks erupting around the prison, with dense whistling and metal clashing sounds",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱莱先没想到这等容易，本只打算引发魔牢埋伏，用声东击西之计，扰乱敌人心神。及见青白光气所冲之处，四外魔火、金刀、飞轮之类尽管飞舞腾涌，声势猛烈，却被那千叶宝光急旋荡开，不得近身。对面那片光芒耀眼的金壁已被烈火溶雪一般冲破一洞，晃眼越陷越深。隐闻内里群魔奔腾，吼啸之声逐渐洪厉。金壁刚刚穿透一洞，便听上面金钟乱响，玉磐频敲，大片湖水立似漏底一般转瞬干涸，现出湖底。同时又听李洪传声警告道。",
+          "instruct": "紧张中带着惊奇，节奏加快，充满发现和危机的交替"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "千叶宝光",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "宝光急旋",
+            "sound_cn": "千叶宝光急速旋转荡开魔火金刀，发出低沉而清越的嗡鸣声",
+            "sound_en": "the thousand-leaf treasure light spinning rapidly, sweeping away demon fire and golden knives, with a low and clear hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "金壁冲破",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金壁消融",
+            "sound_cn": "光芒耀眼的金壁如同烈火融雪般被冲破一洞，发出细微的嘶嘶消融声",
+            "sound_en": "the gleaming golden wall melting through like fire on snow, with a faint sizzling sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "湖水干涸",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "湖水退尽",
+            "sound_cn": "大片湖水如同漏底一般急速退去，水声轰隆，湖底逐渐裸露",
+            "sound_en": "the lake water receding rapidly as if bottom had fallen out, with rumbling water sounds, the lakebed gradually exposed",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你真胆大，此是老魔根本重地，万不甘休，还不乘他未来以前，赶快逃走。",
+          "instruct": "急切警告，语速短促，带着焦急和关切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱莱闻言，猛想起敌人厉害非常，不可做得太过。刚把法宝一撤，猛瞥见一个身高丈许，白发红睛，一张血口，白牙森森，通身火烟环绕，形如夜叉的魔鬼，由洞中冲了出来，伸开两只蒲扇般大钢钩也似的怪爪，正要飞扑过来。看出厉害，忙把千叶神雷冲往前一指，青白光气重又飞出，射向神魔身上，只听一声厉啸，神魔受伤遁走。正赶上面魔女和宫众闻警赶来，神魔立即追扑过去。洞中跟着又飞出两个，也为千叶神雷冲所伤，因见对方护身宝光强烈，不敢前拼，各自负伤，朝魔女等扑去。耳旁又听李洪急呼。",
+          "instruct": "紧张急促，充满动作感，语速较快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "魔鬼冲出",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神魔冲出",
+            "sound_cn": "白发红睛的魔鬼从洞中猛冲而出，火烟环绕，怪爪破空，发出厉啸",
+            "sound_en": "the white-haired red-eyed demon bursting out of the cave with a shriek, surrounded by fire smoke, steel claws cutting through the air",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "trigger_keyword": "厉啸",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神魔受伤",
+            "sound_cn": "神魔被青白光气射中，发出一声凄厉的惨啸，声音尖锐刺耳",
+            "sound_en": "the demon hit by the blue-white light, letting out a piercing and miserable shriek",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这些魔鬼，你万放不得，你惹祸了。",
+          "instruct": "急怒交加，声音短促而紧张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱莱倒被闹了个手忙脚乱，见神魔又有一个冲出，向上飞去。洞中怒吼之声更急，恐被全行逃脱，又没法子封闭，只得把宝光射住破口，不令余魔再逃。正在进退两难，忽听两声断喝，一道黄光拥着两个头顶金莲花，身穿荷叶莲花披肩战裙，面如冠玉的道装少年凌空飞堕。同时耳听李洪又在大喝。",
+          "instruct": "紧张混乱，节奏紧凑，充满进退失据的紧迫"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "黄光飞堕",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "田氏飞至",
+            "sound_cn": "一道黄光拥着两个道装少年凌空飞堕，衣袂猎猎，破空声凌厉",
+            "sound_en": "a yellow light carrying two Taoist youths descending from the sky, robes flapping, whoosh sharp and crisp",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "还不快走！",
+          "instruct": "急喝催促，声音短促响亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "紧跟着，一片佛光已先飞堕，正挡在破口外面。钱莱人本机警，料知来人必是尸毗老人的爱徒田氏弟兄，曾听李洪说过他们的厉害。本想调虎离山，又惦记师父安危，不敢恋战，闻声瞥见破口已被佛光封闭，连忙隐形，收了法宝，往地底钻去。这原是瞬息间事。田氏弟兄本在东魔宫内，因闻钟声报警，立纵魔遁赶来，见魔牢已破一洞，又惊又怒。刚把血焰叉朝钱莱飞去，青光一闪，人便无踪。猛想起魔牢关系更重，忙又回身，见有佛光封洞，当是敌人，偏又看不见人。正待喝问，李洪忽在空中现身，喊道。",
+          "instruct": "快速追逃，节奏紧凑，充满瞬息万变的动作感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "佛光飞堕",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光封闭",
+            "sound_cn": "一片柔和佛光骤然飞落，封住破口，发出庄严而低沉的光鸣",
+            "sound_en": "a soft Buddha's light suddenly descending, sealing the breach, with a solemn and low luminous hum",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "trigger_keyword": "血焰叉",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "血焰飞叉",
+            "sound_cn": "血焰叉朝钱莱飞去，发出呼啸的破空声，血焰嘶嘶",
+            "sound_en": "the Blood Flame Fork flying toward Qian Lai, with a whistling whoosh, blood flame hissing",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二位田道兄，我是阮征师弟李洪，为防神魔冲出为害，特意代你们封闭一会，请快行法防堵，我要走了。",
+          "instruct": "诚恳急促，声音清朗，带着善意的招呼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "田氏弟兄见是李洪，心生好感，方要问话，人忽隐去，佛光随撤。幸而田琪机警，见李洪身形一隐，忙即施展魔法，防御洞口，稍差一点，便被神魔冲出。就这样，神魔威力仍是大得出奇，简直不易防御。田氏弟兄一面合力堵住洞口，一面行法撞钟告急，竟未看出钱莱又是怎么走的。钱莱得手以后，如由上面飞行，去往东魔宫，也必触动埋伏。因觉田氏弟兄不大好惹，一心又想探看师父，改由地底通行，穿山而过。到了东魔宫，升出地面一看，师父已为魔法所困，不禁急怒。因是童心未退，已听李洪传声警告，令其穿山逃走，去附近山中相见，钱莱偏因师父被困，义愤填胸，犯了童心，妄想用法宝暗算敌人，哪知临机不退，几吃大亏。钱莱后看出师父那么神奇的法宝、飞剑和太乙神雷，也不能打伤敌人分毫，反因攻破魔牢，大闹魔宫，两次现形引逗，竟将尸毗老人怒火激发。当未次现身时，正在喝骂，方觉敌人仍立当地，没有来追，心中奇怪。猛瞥见黄光照眼，老人突在身前出现，哈哈一笑，手已扬起，护身青光立受震动。钱莱知道不妙，忙往地底钻去。当时虽得逃走，哪知老人神通广大，先前受愚，只因意气用事，骤出不意，此时魔法已经布置停当，上有天罗，下有地网。虽因钱莱有宝铠护身，长于地遁，老人看出魔牢被人攻破，神魔正在猖狂，无人能制，急于赶往应援，未看出人是怎么走的。毕竟见多识广，钱莱逃时惊慌，未免情急，将神雷冲取出，准备万一，微一疏忽，宝光扫中地面，裂了一口，入地以后，虽将法宝收起，却露出一点马脚。老人早疑来人善于地遁，自然一望而知。当时也不叫破，自往西魔宫应援。暗中却将魔法发动，施展冷焰收魂大法，由地底四面涌来。只要遇敌，微一生出反应，所有埋伏一齐发动，将敌人追出地面，免毁灵景，然后擒人报仇。",
+          "instruct": "紧张快速，充满追逃的压迫感，语速较快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "佛光随撤",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "佛光撤去",
+            "sound_cn": "佛光悄然撤去，发出轻微的光鸣消散声",
+            "sound_en": "the Buddha's light quietly withdrawing, with a soft fading hum",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "穿山而过",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "山腹穿行",
+            "sound_cn": "钱莱在地底穿山而过，岩石在身侧裂开，发出轻微的沙沙摩擦声",
+            "sound_en": "Qian Lai passing through the mountain underground, rocks splitting around him with a soft rustling friction",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "黄光照眼",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黄光突现",
+            "sound_cn": "黄光骤然照亮眼前，老人突然现身，发出低沉的冷笑",
+            "sound_en": "yellow light suddenly illuminating the view, the old man suddenly appearing with a low cold laugh",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28,
+            "trigger_keyword": "冷焰收魂",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "冷焰涌来",
+            "sound_cn": "冷焰收魂大法从地底四面涌来，寒气刺骨，发出阴森的低啸声",
+            "sound_en": "the Cold Flame Soul-Stealing Art surging from all directions underground, bone-chilling cold, with an eerie low howl",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱莱哪知厉害，以为穿山行石，如鱼游水，人在地底山腹之内，魔法有力难施。一心还想到天欲宫去，与师父会合，同共患难，救人出险。那天欲宫外有欲网，内有情丝，外观只是一团五色变幻的心形影子，悬在魔宫旁边空地之上，不是慧目法眼，休想看出一点影迹。尤其金蝉、朱文被困之处，乃是诸天色界，五淫法台，全宫中枢要地，内里宫殿高大，富丽堂皇，更能随人心念生出幻景，无限风光，备诸美妙。与灵云、孙南困身之处，只是一泓深碧，偶起涟漪，景物本来清空，风来水上，纵有微波，风定波澄，依然天光云影，上下同清，迥不相同。不将外面所蒙欲网以无量神力抓破，决看不见里面虚实全景，钱莱如何能够找到。正用乃父所赐法宝，在地底向上照看，自己还以为胆大心细，师父既已困入欲宫魔阵，未为魔法所伤，免去一道难关，底下便是如何出险，犯不着再与强敌去拼，必须查明所在之地，突然上升与之相合。不料他心念才动，因先前那道太乙青灵符不舍使用，宝铠虽可防身隐形，心神却易受那魔法感应。如非机智，长于应变，灵符又易施为，老人怀恨已深，立意报复，就能保得性命，那苦难也必难当了。这且不提。",
+          "instruct": "叙述平缓中带着担忧，语速适中"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "欲网情丝",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "欲网低鸣",
+            "sound_cn": "天欲宫外的欲网发出若有若无的低频嗡鸣，如同情丝缠绵的低语",
+            "sound_en": "the Desire Net outside the Heavenly Desire Palace emitting a faint low-frequency hum, like the whisper of love threads",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "五色变幻",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "幻光流转",
+            "sound_cn": "天欲宫外观五色光晕缓缓流转变幻，发出虚幻而诱人的光鸣",
+            "sound_en": "five-colored halos slowly shifting and changing around the Heavenly Desire Palace, with an illusory and alluring hum",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱莱走着走着，猛觉一种冷气由上下四外一齐扑上身来，当时便打了一个冷战，几乎晕倒。知是地底通行，忘了防御，一时疏忽，不是中了魔法暗算，便已陷入埋伏。忙即强摄心神时，那冷气越来越盛，更具极大压力，周身刺痛，几乎连骨髓都要冻僵，护身宝铠并无用处。料知邪气奇寒，先已侵入，无法退去。同时又觉心旌摇摇，元神欲飞。还不知身中魔法禁制，如非宝铠防身，将外层冷焰隔断，人早晕死被擒了。万分情急之下，身已行动不得。暗道不好！忙运玄功，一面强行抵御，一面把那竹叶灵符如法施为，一片冷荧荧的青光照向身上，心神方才重转清明，人也行动自如。惊魂乍定，正待起身，魔法已经生出变化：本来奇冷，如堕寒冰地狱，忽然眼前一红，上下四外全是血光包没，随发烈焰，如在火海之中，虽仗神符、宝铠防护心身，仍是奇热难耐，气透不出。钱莱刚刚运用玄功，停止呼吸，使元灵真气流行全身，自闭七窍，在内里调和坎离。倏地金光乱射，又有无数金刀叉箭，暴雨一般杂在血焰烈火之中，乱斫乱射而来，风雷之声轰轰震耳。最厉害的是那血光，将身胶住，宛如真的烈火金刀，尽管随意环攻，并无阻隔，压力大得出奇，心脉皆震，自己却是寸步难行，地底又无日无夜，也不知经了多少时日。钱莱正在忍痛苦挨，猛瞥见一片墨绿色的光华，在血海中闪了几闪，忽然不见。他认出是石完所用遁光，仿佛由地底来援，为魔火血焰所阻，不能近身，不是知难而逃，便被敌人困住，禁向一旁。暗忖：石完虽具穿山行地之长，此时人在天外神山，相隔数十万里，凭他一人怎能赶到？又怎知这里底细？既疑不是，又恐真个冒失赶来，被敌人擒去。方在担心，猛觉脚底一虚，身便下沉，未容看清，身子已被墨绿光华裹住。同时四外血焰金刀也狂涌下压。方觉身外一紧，压力暴增，虽不似刚才那样胶滞，墨光依旧往下急降，已经改向横里飞驰。但那魔焰压力也大得出奇，眼看快要漫身而过，倏地见有三环佛光迎面一闪，飞向身后，魔火金刀立被挡住。随听地底风雷之声大作，宛如山崩海啸，惊涛怒吼，由远而近，似由四方八面往中央猛袭过来。",
+          "instruct": "紧张万分，充满魔火血焰的恐怖压迫感，从冰冷到炽热的剧烈转换"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "冷气扑身",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "寒冰冷焰",
+            "sound_cn": "刺骨寒气从四面猛扑而来，如同堕入寒冰地狱，冷焰嘶嘶作响",
+            "sound_en": "bone-chilling cold surging from all directions, like falling into an icy hell, cold flames hissing",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "竹叶灵符",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "灵符青光",
+            "sound_cn": "竹叶灵符化作一片冷荧荧的青光笼罩全身，发出清凉的嗡鸣",
+            "sound_en": "the bamboo leaf talisman transforming into a cool blue glow enveloping the body, with a refreshing hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14,
+            "trigger_keyword": "血光烈焰",
+            "trigger_offset": -0.3,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "血海火狱",
+            "sound_cn": "血光烈焰从四面八方汹涌而来，金刀叉箭密如暴雨，风雷声轰轰震耳欲聋",
+            "sound_en": "blood light and raging fire surging from all directions, golden knives and arrows dense as rain, thunder and wind deafening",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28,
+            "trigger_keyword": "墨绿光华",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "石完来援",
+            "sound_cn": "墨绿色遁光在血海中闪了几闪，如鱼游水般穿梭，穿透魔火血焰",
+            "sound_en": "a dark green light flickering in the blood sea, like a fish swimming through, piercing demon fire and blood flame",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 38,
+            "trigger_keyword": "三环佛光",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "佛光挡魔",
+            "sound_cn": "三环佛光骤然闪现，庄严地挡住魔火金刀，发出低沉而神圣的嗡鸣",
+            "sound_en": "three rings of Buddha's light suddenly appearing, solemnly blocking the demon fire and golden knives, with a low and divine hum",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 45,
+            "trigger_keyword": "地底风雷",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "风雷大作",
+            "sound_cn": "地底风雷声大作，如惊涛怒吼山崩海啸，从四方八面猛袭而来",
+            "sound_en": "underground wind and thunder roaring, like surging waves and landslides, attacking from all directions",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来钱莱被困时，尸毗老人知他精于地行之术，本心又爱这个小孩，不愿伤他，意欲强迫归顺。惟恐其穿入地层深处，将地肺攻穿，勾动地火；一面还要兼顾天欲宫中被困诸人，一面又须收禁那逃出来的几个神魔。而这些神魔均具有极大神通，以前收禁便费了不少的事，加之多年被困，愤怒已极，禁制神魔的法宝又为钱莱所毁，仓促应变，全出意料。逃出的神魔难以收服，未逃出的几个又在魔牢之中各以全力向外猛攻，稍有空隙，便成大害。这还是李洪先前暗助田氏弟兄，用佛光将破口封闭，跟着田氏弟兄和老人相继赶到，否则只差一眨眼的工夫，其余诸魔便全逃出，成了大害。尸毗老人到后，先用法力封闭破口，再去追擒逃走诸魔。无如那些神魔均经老人多年祭炼，变幻无穷，狡诈非常。老人想起强敌太多，未来难料，仍想留以备用，而且本心也实不愿伤害。神魔看出主人心意，越发有恃无恐，老人急切间竟收伏不住。几次想将被困诸人选上两个，使神魔饱啖，然后乘机迫其就范。又以此举违背昔年誓愿，加以性情奇特，最爱胆大灵慧的幼童。开头尽管痛恨钱莱是个罪魁，及至将其困住，又不忍下毒手。老人这一立意生擒，钱莱却占了便宜。老人以为地层已被禁制，坚逾精钢，上层和四外均有血焰包围，寸步难行。自己已将逃魔困住，只等完全制服，收入魔牢，再费七日苦功，将破口炼回原状，再去擒人不晚。钱莱又有宝铠、神符护身，宛如一幢青光竖立地上，已有数日。及被石完由脚底攻穿一洞，将人救走，那血焰金刀原与老人元灵呼应，人一逃走，老人立时警觉。偏巧正在紧要关头，逃魔如不制服，休说爱女、门人早晚受害，便自己微一疏忽，也难免不受暗算。无法分身，急怒交加，一面发动魔法禁制，一面命爱女和田氏兄弟率众分头堵截，休放一人逃走。谁知这两人均得高明指教，石完穿山行石又具专长，独门灵石剑和石火神雷不畏血焰金刀伤害。李洪再由暗中随来，放出如意金环，将血焰金刀挡住，石完越发得势。钱莱也是行家，两下里合力，听准四外来势，在山腹中或上或下，灵蛇电闪也似略一腾挪，便穿山破地而出。李洪因是始终不肯与主人结怨太深，仅附石完身后，暗中运用佛门至宝，只守不攻，连石火神雷均不许用。等二人逃远，便将如意金环撤回。虽遇到两次四面袭来的魔火风雷，只在石完上下穿行之际略为一挡，便即过去，一同飞了出来。未出地面以前，先命钱莱同隐身形，遁往魔宫左侧小山顶上的预设旗门之内，方始互说经过。",
+          "instruct": "叙事平缓交代，语速适中，作为转折衔接"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "如意金环",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金环护身",
+            "sound_cn": "如意金环在血焰中旋转发出清越的金属嗡鸣，将金刀挡住",
+            "sound_en": "the Wish-Fulfilling Golden Ring spinning in the blood flames with a clear metallic hum, blocking the golden knives",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "穿山破地",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "破地而出",
+            "sound_cn": "二人从山腹中穿山破地而出，岩石崩裂，发出沉闷的破碎声",
+            "sound_en": "the two bursting out from the mountain, rocks splitting, with dull cracking sounds",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来石完自从那日众人走后，因钱莱刚入门不久，都能随去建功，自己却不能同行，虽然不快，但见师父未去，也就拉倒。等众人走后的第三日，正随阮征、易、甄诸师长布置仙山灵境，甄艮偶然拜观下山时所领道书，得知乃父甄海已经转世多年，现在小南极四十七岛中的白鲸岛旁水洞之中隐居。乃母不久也要寻去。并说光明境仙府，在金蝉等未回以前，无什事故，如往省亲，正是时候。二甄素孝，对于父母转劫之事，时刻在念，几次向师长哭求哀告，请为援引。妙一真人均答以时机未至，并说乃父孽重。甄氏弟兄便发宏愿，誓修善功，为父化解。下山以前，还曾苦求，真人答以时至自能相见，必会成全其孝心。下山以后，时常背人暗向师门通诚求告，均无回音。忽见空白上现出字迹，喜出望外，忙和众人说了。阮征立时准许。虽然太火极光自从上次开府光明境已经减退大半，只要算准时候，便可通过，但终不放心，便亲身护送。快到子午线入口，回顾石完追来，正要喝问，令其回去，忽然发现神驼乙休，独在两线交界之处运用玄功仙法，收炼一件法宝，忙即上前拜见。乙休笑说。",
+          "instruct": "叙事平缓从容，交代石完来历"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "子午线",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "极光微响",
+            "sound_cn": "子午线附近极光大火发出低沉的持续嗡鸣，如同天地运转的呼吸声",
+            "sound_en": "the aurora near the meridian line emitting a low sustained hum, like the breath of cosmic rotation",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "乙休",
+      "api": {
+        "voice": {
+          "role": "乙休",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "你们走这条路正好，否则我还要多费点事。此时炼宝正急，无暇多言。我囊中有一副旗门，一封束帖，可命石完照此行事。甄民、甄兑自往白鲸岛省亲，将你们父母接来光明境内同修。事完后，速往幻波池应援。石完听其独自起身，等魔宫事完，随金蝉他们往幻波池相见，你弟兄再带他回来。我另赐他一件隐身法宝，也在囊内。近日极光大火顺着地轴缠道依时运行，自为消长，与前大不相同，势子缓得多，稍为加急飞行，遇上都不妨事。现正微弱之际，阮征无须护送，看完柬帖，各自回去。甄民师徒通过子午线，也各分手。",
+          "instruct": "浑厚沙哑，语速略快，带着不容置疑的威严和急迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "尸毗老魔机警非常，那地方石完又未去过，到了中途，可照我所开途径地形，隐身穿山而行使了。四人见乙休独立当地，两手握着斗大一团具备七彩的光气，不住转动揉搓，口虽说话，手却始终未停，法宝柬帖俱都令人代取。说完便不再开口，全神贯注双手，转动甚急。四人知关重要，不敢多问，各自依言行事。甄氏弟兄打开柬帖一看，惊喜交集。石完自更兴高采烈。甄氏弟兄防他胆大冒失，又是孤身涉险，再三告诫，令其到后务先寻见各位师伯师叔，听命行事，不可任性逞能。石完诺诺连声，见那旗门和那隐身法宝均极神妙，心甚欢喜。同向乙休拜谢辞别，加急飞行。越过子午线后，甄氏弟兄因所去四十七岛也名小南极，在南冰洋尽头，与光明境小南极只隔一道子午线，也有三数千里之遥，师徒去向不同，又嘱咐了石完几句，并令将所得二宝觅地演习了两次，方各分手；石完暗忖：乙太师伯对我真好，此去莫要丢人。平日那么胆大任性，竟会格外谨慎起来。飞行迅速，不消多日，便赶到了滇缅交界不远的深山之中，离神剑峰魔宫七千里外，便将身形隐去。老人魔镜只能查见五千里内外，又当手忙脚乱，几头不能兼顾之时，竟被石完容容易易直入魔宫，由地底升出。刚照乙休所说，将伏魔旗门安置在小山顶上，忽听身侧有人笑道。",
+          "instruct": "叙事平缓从容，语速适中，从飞行转入魔宫近景"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "七彩光气",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "光气流转",
+            "sound_cn": "七彩光气在乙休手中缓缓流转揉搓，发出梦幻般的嗡鸣",
+            "sound_en": "seven-colored light qi slowly flowing and being worked in Yi Xiu's hands, emitting a dreamlike hum",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "加急飞行",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "破空疾飞",
+            "sound_cn": "遁光在空中加急飞行，风声从耳边呼啸而过，速度极快",
+            "sound_en": "the escape light flying at urgent speed, wind howling past the ears, extremely fast",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你这小东西，好大胆子，竟敢背了师父，深入虎穴，找死不成？",
+          "instruct": "带着调侃和关切，声音带笑但语速较快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石完听出李洪口音，只不见人，忙喊。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "小师叔快出现，莫逗我着急。我奉乙大师伯命而来，你再不出现，我发动旗门，小师叔就丢人了。",
+          "instruct": "急切带笑，带着少年人的直率和调皮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随听李洪骂道黑小鬼，你敢无礼！跟着脸上挨了一掌，人也现身出来。石完原和李洪最好，忙赔笑道。",
+          "instruct": "活泼轻快，带着打闹的轻松感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "脸上挨了一掌",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "轻拍声响",
+            "sound_cn": "李洪在石完脸上轻轻拍了一掌，发出清脆的拍击声",
+            "sound_en": "Li Hong lightly slapping Shi Wan's face, with a crisp smack",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "小师叔，弟子怎敢无礼，说着玩的。",
+          "instruct": "讨好带笑，语气轻快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此时尸毗老人正被神魔绊住，但四面俱是罗网，连我也难脱身。你齐师伯已经被困，钱莱不知下落，我仗灵符隐身在此守望。你石师叔和干神蛛道友夫妻奉命策应，也未见面。我正发愁，忽见你那遁光一闪即隐，因不是本门隐形法，还拿不定是你不是。后见几座旗门影子，一晃不见，你也现身。心还奇怪，你怎会到此？胆也真大。你是乙老世伯教你来的吗？你师父呢？",
+          "instruct": "语速较快，带着询问和关切，声音压低"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石完便将前事说了。李洪大喜道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "乙师伯真个神通广大，相隔数十万里，竟如目睹。不过，主子是你阮师伯的岳父，他的女儿人又极好，钱莱自应解救，只不许你胆大妄为，以免主人恼羞成怒，无法下台。",
+          "instruct": "欢喜中带着谨慎叮嘱，语速轻快但语气认真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "小师叔，你放心，这回我决不惹祸。不信，你跟了去，我只把人救到旗门之内，任他多高魔法，莫说奈何我们，连言动多不能听见。",
+          "instruct": "自信满满，语气认真而笃定"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我知地底也有魔法禁制，你是如何去法？",
+          "instruct": "好奇询问，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "去年祖父对我说，弟子只怕五行真火、极光大火，别的魔火邪烟却伤我不得。万一遇到魔火环攻，危急之际，只要将石火神雷发出抵御，便可无害，何况乙太师伯已有指示。我想先开一路，弟子前往救人，再与小师叔会合同出，不是好么？",
+          "instruct": "认真解释，带着少年的自信和从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李洪不知石完天生胆大顽皮，当此危机四伏之际，仍想试探魔火威力，以为是乙休所命，当无差错。便将遁光联合同行，由石完开路，穿山入内，不消多时，便发现钱莱被困之处。石完妄想直冲过去。还是李洪看出血焰势盛，知与主人心灵相合，如若硬冲，即便通行过去，也被主人警觉，石完岂是敌手？忙即喝止。石完也看出厉害。于是二人改由地底下手，穿到钱莱脚底，冷不防攻破山石，用剑光将人护住，立即逃走。也是二人该当成功。石完先在上面一冲，尸毗老人已有感应，只当是又有敌人穿山入内，忙施魔法，跟踪搜寻。不料李、石二人机警神速，忽然改上为下，将人救走。等到埋伏一起发动，人已逃走。田氏弟兄本来受了魔女重托，对于峨眉来人，不愿施展毒手。后见来人闹得大凶，师父盛怒之下，也自有气。不过只想将钱莱擒去处治，对于别人仍存袒护，尤其对申、李二人具有好感。无如师命难违，只得率众赶来。满拟这两座魔宫无异天罗地网，上下密布，敌人万逃不脱。哪知到后，便听老人传声告知已逃，令速留意。细一查看，四外禁网未动，毫无迹兆，人却不见。同时老人也在百忙中放出魔镜观察，见新设禁网依然高张，纹丝未动，敌人却无踪影，又不似由地底遁去。自己这面，逃魔虽被困住，但互相怒吼，猛扑强挣，一任威吓利诱，只是不肯降顺，老人空自愤怒，无可如何。同时牢中诸魔也在暴动，稍一疏忽，就许被其攻破。尸毗老人越想越恨，立即召回门人、爱女，命照往日传授，各在法宝防身之下，扬手飞起七十九面魔幡，当时布就魔阵，将魔牢罩在中心。然后施展大阿修罗法，将手一指，收回封洞魔光。牢中诸魔，立即厉声吼啸，张牙舞爪，猛冲出来。由于收了禁网，先被困住的逃魔同时飞舞而出，都是身材高大，白骨嶙峋，一双红眼，满头银发，塌鼻陷孔，凸嘴血唇，利齿森列，手脚又长又大，钢爪也似，在红绿二色的烟光围绕之下，环阵飞驰，朝众门人、侍者抓去，口中厉啸连声，怒吼如雷。",
+          "instruct": "紧张万分，充满魔阵激战的宏大压迫感，语速先缓后快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "穿山入内",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "穿山而入",
+            "sound_cn": "石完开路穿山而入，岩石在身侧裂开，发出持续的沙沙摩擦声",
+            "sound_en": "Shi Wan leading the way through the mountain, rocks splitting around, with continuous rustling friction",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "七十九面魔幡",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "魔幡布阵",
+            "sound_cn": "七十九面魔幡同时飞起展开，猎猎作响，魔光冲天，阵势宏大",
+            "sound_en": "seventy-nine demonic banners rising and unfurling at once, flapping loudly, demonic light soaring, a grand formation",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22,
+            "trigger_keyword": "厉声吼啸",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "群魔冲阵",
+            "sound_cn": "十二神魔齐声厉啸怒吼，从魔牢中猛冲而出，张牙舞爪，白骨森森",
+            "sound_en": "twelve demons howling and roaring in unison, bursting out of the demon prison, claws bared, bones gleaming",
+            "volume": "-8%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30,
+            "trigger_keyword": "红绿烟光",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "烟光环绕",
+            "sound_cn": "红绿二色烟光环绕群魔飞驰，发出低沉嘶鸣和密集的破空声",
+            "sound_en": "red and green smoke light swirling around the demons, with low hissing and dense whooshing sounds",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老人自从神魔全数飞出，两臂一振，上半身立即裸露，独自跌坐在一朵血莲花上。众神魔初出时，朝着老人狺狺怒吼，啸声尖厉，尽管作出张牙舞爪，向前攫拿之势，仍是有些害怕。始而离身两三丈，便各惊退。忽然一声厉吼，飞身纵起，向守在魔幡下面的门人、侍者猛扑过来。到了幡前，刚举双爪朝人便抓，魔幡上忽发出千万枝火箭飞叉。神魔逃避也是真快，火光乍现，立即纵退，极少射中，只有一两个逃避稍迟。防守阵地的恰是魔女和田氏兄弟，平日最恨这些神魔，认为是将来大害。几次想请老人乘其被困牢内，一举除去，均因老人受了阴魔暗制，主意不定，欲发又止，不肯听劝。当日师兄妹三人见老人施展大阿修罗法，不惜损耗本身精血元气去啖神魔，竟欲倒行逆施，等强敌到来，与之一拼，以快一时之愤。这等作法，一个不巧，害人变为害己，即便神通广大，也是要吃大亏。并且神魔二次又与本身合为十三之数，后患无穷。越发不以为然，但又不敢违抗，只得假公济私，乘机拿神魔出气，凡是扑到三人幡下的，全被火箭飞叉射中。疼得满地打滚，厉声惨啸，少时又纵烟光飞起，朝别人扑去。老人独坐中央，始终不动。群魔朝众门人飞扑了一阵，不曾得手，越来越情急，一个个白发倒竖，满口獠牙利齿，错得山响，怒吼越急。又朝众人飞扑了两次无效，忽然拨转头，一窝风朝老人身上扑到。老人竟似不曾防备，等快上身，忽把两条手臂往上一扬，往外一分，张口喷出一片黄光，将前后心和头一齐护住，双臂立时暴长丈许。群魔也一齐扑到，张口便咬。因正面已被黄光挡住，恰好咬嵌在两条手臂之上，每边六个。刚一咬中，老人座下血莲花瓣上忽发出千层血焰毫光，高射数丈。到了空中，再倒卷而下，化为十三个血光火罩，将老人和神魔一起罩住。神魔一见血光飞射，便知不妙，想要飞逃，无如利齿咬紧在老人臂上，急切间竟被嵌住，休想挣脱，晃眼便被血光笼罩全身。只听一片卿卿惨啸之声，神魔身形暴缩，身子不见，各变成一个拳头大的死人骷髅，依旧白发红睛，利齿森森，咬在老人双臂之上，血光影里，看出似颇狼狈。老人也不理睬。神魔始而厉啸哀鸣，后似愤极，各向老人双臂猛吸精血。无奈老人早有准备，臂坚如钢，毫无用处。跟着，那环绕魔头的一层血光忽化烈焰，中杂无数细如牛毛的金碧光芒，向内猛射。神魔方始支持不住，各又停了吮吸，哀鸣求恕，啸声也由凄厉转为极惨痛的哀吟。老人知已降服，厉声喝道。",
+          "instruct": "宏大激烈，充满魔阵激战的壮观场面，节奏紧凑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "血莲花",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "血莲绽放",
+            "sound_cn": "血莲花瓣层层绽开，千层血焰毫光高射数丈，发出低沉而妖异的嗡鸣",
+            "sound_en": "blood lotus petals unfolding layer by layer, thousands of layers of blood-red flame light shooting high, with a low and eerie hum",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "火箭飞叉",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "火箭飞射",
+            "sound_cn": "千万枝火箭飞叉从魔幡上发出，破空呼啸，火光迸溅",
+            "sound_en": "thousands of rocket arrows and flying forks launching from the banners, whistling through the air, sparks flying",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20,
+            "trigger_keyword": "惨啸之声",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "神魔惨啸",
+            "sound_cn": "神魔被血光火罩困住，发出凄厉的惨啸和哀鸣，从尖锐逐渐转为惨痛",
+            "sound_en": "the demons trapped in the blood-light fire dome, letting out piercing shrieks and mournful cries, shifting from sharp to agonizing",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "尸毗老人",
+      "api": {
+        "voice": {
+          "role": "尸毗老人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "你十二人以前也是修道之士，只为恶孽太重，被仇敌擒去，日受炼魂之惨。好容易机缘巧合，被我救来，虽在我法力禁制之下，不能随意飞出害人，但已免去炼魂之惨，并有不少享受。虽将尔等禁闭牢内，也为尔等赋性凶残，出必造孽。又因相随多年，不忍加害，意欲候到将来，我以极大法力化解，使尔等转世重修。平日血食也未缺少，自问相待不恶。为何不知好歹，日在牢中恶闹？我门人每送食物，便欲加害，即此已应严罚，我仍宽容。今日乘着敌人破牢逃出，竟敢忘恩反噬。本意将尔等化炼成灰，形神皆灭，姑念以前劳苦，再四哀求，我又有用尔等之处，既然认罪服输，老夫生平不愿食言。天欲宫被擒诸人，除他们自己找死，我已说过，决不加害。自己人更不容尔等动他们毫发。若任尔等飞出妄杀无辜，又我所不为。为此特降殊恩，以身啖魔。索性将我本身精血，分赏你们每人一份。由此便与老夫重合一体，日内只要有敌人敢于来犯，任尔等咀嚼便了。",
+          "instruct": "威严沉缓，语气中带着驯服神魔的权威和一丝悲悯"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到末句，便把双臂微一振动，群魔也便欢啸，刚要吸食老人精血，忽听左侧有人笑骂道。",
+          "instruct": "紧张中突转轻松，节奏突变"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "双臂振动",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "锁链震动",
+            "sound_cn": "老人双臂微振时，神魔身上的无形锁链发出沉闷的金属震动声",
+            "sound_en": "as the old man gently shakes his arms, the invisible chains on the demons emit a dull metallic rumble",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "不要脸的老魔头，自家法力不济，不惜以本身精血去喂家中枯骨。我便和你逗着玩儿，看你那几个死人头吃得了谁？",
+          "instruct": "嘲讽带笑，声音清脆响亮，充满少年人的胆大"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，老人知有强敌到来，扬手大片黄光，朝那发话之处飞去。同时双臂一振，群魔全数飞起，聚在一处，也未恢复原形，仍是十二骷髅，方要挣扎，血莲精芒电射，只一闪，便一起包住。老人也脱出血光之外，不顾擒敌，先大喝道。",
+          "instruct": "紧张快速，充满对决的紧迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "黄光飞去",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "黄光破空",
+            "sound_cn": "大片黄光朝发话之处急飞而去，破空声尖锐凌厉",
+            "sound_en": "a large yellow light flying toward the source of the voice, with a sharp and fierce whoosh",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "血莲精芒",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "精芒电射",
+            "sound_cn": "血莲精芒电射而出，只一闪便将十二骷髅包住，光芒刺目",
+            "sound_en": "the blood lotus essence light shooting out like lightning, enveloping the twelve skulls with a flash, blindingly bright",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "尸毗老人",
+      "api": {
+        "voice": {
+          "role": "尸毗老人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "老夫决不食言，等我擒到敌人，自有道理。",
+          "instruct": "愤怒中带着威严，声音低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，右侧空中又有人接口骂道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "老魔头，凭你也配？",
+          "instruct": "嘲讽挑衅，语气短促有力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老人怒极，又是大片黄光，循声飞去，尽管势急若电，毫无用处。来人语声时东时西，说之不已，身形却是不见。老人冷笑道。",
+          "instruct": "愤怒中带着无奈，语速中速"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "黄光循声",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "黄光追声",
+            "sound_cn": "黄光循着声音左右飞射，破空声呼啸不断却始终落空",
+            "sound_en": "yellow light shooting left and right following the voice, whooshing continuously but always missing",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "尸毗老人",
+      "api": {
+        "voice": {
+          "role": "尸毗老人",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "无知鼠辈，你这样藏头缩尾，我就没奈何你了吗？",
+          "instruct": "冷傲愤怒，声音低沉而压抑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，刚回手把肩插白玉拂尘取下，还未施为，忽听空中又有一人大喝。",
+          "instruct": "紧张中突转，语速略快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "申屠宏",
+      "api": {
+        "voice": {
+          "role": "申屠宏",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石完不可大胆！这老魔头岂是你们所能惹的？",
+          "instruct": "急切喝止，声音稳重而响亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心方一惊，暗忖：敌人隐形神妙，难道几个为首的全都来了不成？说时迟，那时快，老人心念才动，猛瞥见一蓬红白二色的火星迎面一闪。知道有人暗算，忙用魔法抵御时，连声霹雳大震，已经爆发。老人也是背运当头，平日尚气心高，惯占上风，如今连遭失意，怒极神昏，已知来人不是弱者，仍在自恃。以为自身法力高强，动念即可施为，对方法力越高，越知自己厉害，决不敢随意近身，致受魔法反应。加以来人神出鬼没，魔法无功，不知来了多少人，一面想以全力抵御，一面想要查看虚实人数，心神已分，致被石完乘虚而入。那时机也真巧到极点，稍差一瞬动手，两人休想活命。老人万没想到，两个后生小辈敢于如此冒失，略为大意，石完石火神雷已经爆发。总算老人法力真高，神雷炸时，护身黄光已同飞起，虽然吃了一惊，却不曾受伤。同时血莲光外，又是一声大震，雷火星飞中，血光竟被击散了好些。老人知道这类神魔虽被制伏，许以重赏，尚无实惠，性又凶残猛恶，决不甘心，此时丝毫松懈不得。除非万分事急，豁出两败俱伤，在未践言以前，连放神魔出去伤敌，均难免生出意外。一个不巧，敌人不曾受伤，重又反噬，自己无妨，爱女、门人便难幸免。没奈何，只得先用魔法一指血莲，光华重又大盛。这时群魔已因先前情急反噬时发出全力，凶威更大，已非昔比。老人明知敌人就在眼前，竟不及施展毒手，缓得一缓，来人已遁入地内，并还有意嘲弄，入地时故意现出身形。老人瞥见雷火炸处，面前不远，现出一幢青色冷光，中裹前破魔牢的幼童，同了一个绿发红睛，又黑又瘦，身有墨绿光华环绕的丑怪幼童。因那石火神雷正是魔光血焰的克星，老人惟恐魔头逃出，不及兼顾，竟被遁走。不禁怒火上攻，伸手连指，立有无数金碧光华夹着千万血焰火箭，暴雨一般朝上下四外乱射过去，小半穿入地底，下余满空横飞乱射。整座魔宫宛如火山箭海，血浪千重，连天都映成了暗赤颜色。更有轰轰雷电之声，如百万天鼓怒鸣急擂，山呜谷应，地动天摇。老人满拟方圆五六十里，上下千百丈，齐在魔火血焰飞箭飞叉所笼罩死圈之内，一任敌人法力多高，就说不死，也必受伤被困，哪知仍是不见影踪。这时魔女和众门人已得老人密令，各将魔阵缩小，藏身阵内，移向老人身侧，以防有失。老人不见敌踪，空自愤怒。魔镜已早飞起，正运法眼注视。因为来敌太强，又在暗用大阿修罗法，准备施展毒手，到了紧要关头，一举成功。料定敌人善者不来，来者不善，既敢深入，决不会走。老人细寻无迹，应敌正紧，又无暇虔心推算，方在惊奇愤怒，忽听男女笑语之声，起自前面曾用法力点缀灵景的小山上空。又听有人笑道。",
+          "instruct": "宏大激烈，节奏极快，充满大战高潮的壮阔与紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "红白火星",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "石火神雷",
+            "sound_cn": "一蓬红白二色火星迎面炸开，霹雳连声震天动地，火光四溅",
+            "sound_en": "a burst of red and white sparks exploding head-on, thunderous blasts shaking heaven and earth, sparks flying",
+            "volume": "-6%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "魔火血焰",
+            "trigger_offset": -0.3,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "魔火横飞",
+            "sound_cn": "无数金碧光华夹着千万血焰火箭朝上下四外乱射，整座魔宫如火山箭海，血浪千重",
+            "sound_en": "countless golden-green lights and thousands of blood-red flame arrows shooting in all directions, the entire demon palace like a volcano and sea of arrows, blood waves layered",
+            "volume": "-8%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20,
+            "trigger_keyword": "山鸣谷应",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "地动天摇",
+            "sound_cn": "轰轰雷电之声如百万天鼓怒鸣急擂，山鸣谷应，地动天摇，震撼无比",
+            "sound_en": "thunder and lightning booming like millions of heavenly drums beating urgently, mountains and valleys echoing, heaven and earth shaking, tremendously overwhelming",
+            "volume": "-6%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "凌浑",
+      "api": {
+        "voice": {
+          "role": "凌浑",
+          "role_voice": "老伯-沧桑岁月爷",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "凌花子，我还有事，去去就来。你把妙光门开放，教老魔头看个仔细，省得他两只鬼眼东张西望吧。",
+          "instruct": "沙哑苍老，带着调侃和从容，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "同时血光中祥光一亮，小山那面现出五六亩大，五六丈高的一幢五彩轻云，看去薄薄一层，祥辉闪闪，光甚柔和。内中围着数十个道装男女：有的云裳霞被，羽衣星冠；有的相貌古拙，形态滑稽。还未看清，一道金光拥着一个身材高大的驼背老人，正往东魔宫飞去。老人不由气往上撞，扬手千百枝火箭，夹着无数血团，朝前打去。驼子哈哈大笑道。",
+          "instruct": "宏大壮观，充满仙魔对决的气势，节奏从紧张转为舒展"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "五彩轻云",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "祥云现世",
+            "sound_cn": "一幢五彩轻云祥辉闪闪出现于小山之上，光色柔和而神圣，仙乐隐约",
+            "sound_en": "a five-colored light cloud shimmering with auspicious light appearing above the small hill, colors soft and divine, faint celestial music",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "金光驼影",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "乙休飞至",
+            "sound_cn": "一道金光拥着身材高大的驼背老人飞向魔宫，破空声如雷鸣，气势惊人",
+            "sound_en": "a golden light carrying a tall hunchbacked old man flying toward the demon palace, whoosh like thunder, impressive momentum",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "千百火箭",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "火箭血团",
+            "sound_cn": "千百枝火箭夹着无数血团向前打去，破空呼啸密集如雨",
+            "sound_en": "thousands of rocket arrows with countless blood clots shooting forward, whooshing densely like rain",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "乙休",
+      "api": {
+        "voice": {
+          "role": "乙休",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "无知魔头，少时教你知我厉害！",
+          "instruct": "浑厚爽朗，带着必胜的信心和嘲讽"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说完，金光电闪，人已不见。那火箭血团，不知怎的，竟会反击回来，射回魔女所居宫殿之上，比电还快。老人忙即回收，匆促中不曾收完，内有几个血团已先爆炸，血火星飞中，整座魔宫竟被震碎了小半。老人这才知道敌人不是易与，也非盛气任性所能济事，还是看清敌势，仗着炼就不死之身，相机一拼，或能转败为胜。也不再顾别的，先将神魔、宫众护住，强捺心神，定睛朝前细看。只见仙云杏霭，明霞冰纨之中，那凌虚而立的数十个男女，除一个花子打扮的道装怪人和一个满头银发美妇而外，下余全是天欲宫中先后被困的少年男女。峨眉门下，只齐灵云、孙南未见。至于金蝉、朱文、李洪，还有几个不认识的幼童，以及先前用青灵辟魔铠护身，暗发石火神雷，借着地遁逃走的小对头，也在其内。那么薄薄一片明霞轻云，看去只要风一吹，便可吹散的，却一任血焰如海上下紧压，火箭金刀四外环攻，休说不能攻破分毫，并还在血海之中若沉若浮，似欲随风扬去，意态生动，十分悠然。云中少年男女，有的本具师门渊源，神交已久；有的本来相识，劫后重逢，班荆叙阔，各话前情。便余娲门下那些男女弟子，经此大难，因对方援助脱险，也各化敌为友，修好释嫌，言笑晏晏，交欢若亲。对于上下四外的这等猛恶攻势，简直视若无睹，笑语喧哗，隐约可闻；意似魔运将终，不久便看自己笑话。正强忍耐，暗想制胜之策，忽听金蝉、朱文同声喝骂，备极讥嘲。不由满腔怒火重被勾动，冷笑一声，正待施展毒手。",
+          "instruct": "宏大壮观，节奏从紧张到舒缓再到紧张，充满仙家从容与魔头愤怒的对比"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "魔宫震碎",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "魔宫崩裂",
+            "sound_cn": "整座魔宫被震碎小半，碎石飞溅，金玉崩裂声轰然作响",
+            "sound_en": "half of the demon palace shattered, stones flying, gold and jade cracking with a roar",
+            "volume": "-8%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15,
+            "trigger_keyword": "仙云杏霭",
+            "trigger_offset": -0.5,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "仙云不动",
+            "sound_cn": "明霞轻云在血海火海中若沉若浮，仙乐隐隐，众人言笑晏晏，从容自在",
+            "sound_en": "the light cloud of immortal glow floating and sinking in the sea of blood flame, faint celestial music, everyone chatting and laughing, calm and at ease",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来金、朱二人陷身天欲宫魔窟之内，虽受魔法禁制，不能行动，仗着道心坚定，尽管深情密爱，却出于天真至性，纯任自然。身外邪魔既攻不进，老人不久又被所养神魔绊住。李洪传声相告，说救星将到，钱莱已先出困，诸仙转眼难满，两人心中大喜。此时如在玉虎神光与法宝飞剑防护之下突围而出，也非无望。只为先前被困，连冲无效，不愿徒劳。又难得遇到这等互诉衷怀，你怜我爱的良机，只管绵绵情话，说个不完。反正无伤，难满即出，谁也没打逃走主意。金蝉更恨不得多挨一会是一会。正谈得快心头上，忽听李洪二次传声，得知钱莱脱困，出时遇见申屠宏，说起神驼乙休、穷神凌浑、黄龙山猿长老等各位长老相次来到，众人灾难将满，出困在即。石完也已赶来，钱莱便是他所救。干神蛛夫妻现正奉命，由地底暗入东魔宫，用神符禁制魔坛，迷乱尸毗老人的灵智，不令事前警觉。李洪又说：蝉哥蝉嫂，只听风雷之声一过，立往东方冲出，我和钱莱再照你们传声来处接应，立可脱身。金蝉一面回答，互相准备；一面抱着朱文，笑道。",
+          "instruct": "温情舒缓，从大战转为儿女情长，节奏柔和，语气含情"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "玉虎神光",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "玉虎护身",
+            "sound_cn": "玉虎神光淡淡笼罩二人，发出温润而低沉的嗡鸣",
+            "sound_en": "the jade tiger divine light faintly enveloping the two, with a warm and low hum",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "trigger_keyword": "传声相告",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "心声传音",
+            "sound_cn": "李洪的传声在精神中波动，如同轻风拂过心湖",
+            "sound_en": "Li Hong's voice transmission rippling through the spirit, like a gentle breeze passing over the lake of the heart",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "好姊姊，我早知这么轻松平常，真恨不得和你在此多留些时呢。",
+          "instruct": "带着少年人的爱慕和调皮，语气含情带笑，语速轻柔"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "魔宫激战前奏",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume cinematic background ambience, fierce battle atmosphere within demon palace, echoing clashes and explosions, demonic fire and golden light flying, urgent bell alarms ringing, intense and chaotic, high stakes, underlying deep bass drone of dark magic, no distinct foreground events, no voices, no music melody",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "魔牢危机",
+        "start_line": 4,
+        "end_line": 17,
+        "prompt": "very subtle low volume cinematic background ambience, demon prison deep underwater, roaring of trapped demons shaking stone, crackling demonic energy, dull impact of magical attacks, water receding and stone grinding, oppressive and dangerous, no sharp foreground sounds, no voices, no music melody",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "地底追逃",
+        "start_line": 18,
+        "end_line": 32,
+        "prompt": "very subtle low volume cinematic background ambience, deep underground tunnels and caverns, muffled rumbling of magic pursuit, cold flames seeping through rock, tense cat-and-mouse game, faint echoes of distant battle, no sharp foreground sounds, no voices, no music melody",
+        "volume": "-22%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "魔阵斗神魔",
+        "start_line": 33,
+        "end_line": 45,
+        "prompt": "very subtle low volume cinematic background ambience, grand demon array with seventy-nine banners, twelve demons howling and raging, blood lotus and flame arrows everywhere, thunderous explosions and demonic shrieks, monumental struggle, no distinct foreground events, no voices, no music melody",
+        "volume": "-16%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "群仙降临",
+        "start_line": 46,
+        "end_line": 51,
+        "prompt": "very subtle low volume cinematic background ambience, celestial immortals descending amid blood flames, five-colored auspicious cloud shimmering, divine light and demonic fire clashing, calm amidst chaos, triumphant and serene, faint celestial music underlying, no sharp foreground sounds, no voices, no music melody",
+        "volume": "-20%",
+        "fade_in": 3,
+        "fade_out": 4,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

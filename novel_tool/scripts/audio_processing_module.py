@@ -2384,7 +2384,7 @@ class NovelAudioSynthesizer:
                  platform: str = "default"):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         
-        self.script_dir = script_dir or os.path.join(self.base_dir, "../小说剧本")
+        self.script_dir = script_dir or os.path.join(self.base_dir, "../novel_scripts")
         self.output_dir = output_dir or os.path.join(self.base_dir, "../../output")
         self.tts_engine = tts_engine
         self.qwen_model_path = qwen_model_path if qwen_model_path else \

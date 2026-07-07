@@ -6,7 +6,7 @@ import sys
 import os
 import time
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '小说批量工具', '脚本'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'novel_tool', 'scripts'))
 
 from audio_processing_module import AudioEngine, VoiceParams
 

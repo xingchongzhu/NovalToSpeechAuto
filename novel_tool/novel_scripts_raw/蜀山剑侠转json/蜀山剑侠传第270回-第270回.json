@@ -1,0 +1,2375 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第270回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "李洪": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "龙娃": {
+      "role_voice": "小虎-童声",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "+2%"
+    },
+    "阮征": {
+      "role_voice": "儒雅公子-磁性,性感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "凌云凤": {
+      "role_voice": "云萱-情感,优雅知性",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "申屠宏": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "干神蛛": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "朱灵": {
+      "role_voice": "清冷女神-低沉女声,情感",
+      "pitch": "-1Hz",
+      "volume": "-1%",
+      "speed": "-2%"
+    },
+    "金蝉": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石生": {
+      "role_voice": "文乐-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "采蔽僧朱由穆": {
+      "role_voice": "神秘法师-低沉,浑厚",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "钱康": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "钱莱": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第270回",
+          "instruct": "庄重开场，沉稳有力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这原是瞬息间事。耿鲲逃时，那三朵血焰金莲已经飞近，正要合围爆发。众人见耿鲲已受四面包围，浑身火星银光乱爆如雨，不特没有逃意，反倒多分出两个化身，向那血焰迎去，当是情急拼命。方想：妖人伏诛在即，这等魔教中的至宝，如何能与硬对？众人法宝、飞剑夹攻之下，血焰神雷已全数爆发，三个化身相继粉碎。星涛血焰怒涌中，阮征方觉有异，忽听神鸠怒啸，往星砂中冲去。阮征因神砂厉害，神鸠虽有牟尼珠光护身，恐其疏忽误伤，方在运用神砂，不令生出感应。神鸠已由千层光焰之中，将耿鲲最后一个化身抓起。众人还当真身被擒，忙收法宝仔细查看，乃是一根七八尺长的鸟羽，色彩鲜艳，虽有好些地方残破，铁翎如钢，仍是好看非常。神鸠身上也复了原状，飞向李洪身前，将那鸟羽向龙娃手里一塞，龙娃连忙接住。申屠宏知道耿鲲已逃，便向龙娃道：此是鸠师怕赐你的见面礼，将来必有用处，还不拜谢？龙娃连忙谢过。云凤师徒再向众人重新礼见。神鸠连声呜啸催走，云凤师徒本与相熟，更不客套，略为招呼，便随众人一同坐上，往南极天边飞去。",
+          "instruct": "紧张急促，语速加快，描述战斗余波"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "血焰金莲",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "血焰燃烧",
+            "sound_cn": "三朵血焰金莲在空中盘旋燃烧，发出嘶嘶的灼烧声",
+            "sound_en": "three blood-red flame lotuses swirling and burning in mid-air, hissing and crackling",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "trigger_keyword": "火星银光",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "星火爆裂",
+            "sound_cn": "无数银色火星在虚空中爆裂飞溅，如暴雨般洒落",
+            "sound_en": "countless silver sparks exploding and splattering in the void, raining down like a storm",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15,
+            "trigger_keyword": "法宝飞剑夹攻",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "法宝碰撞",
+            "sound_cn": "众多法宝与飞剑在空中交错碰撞，发出金属轰鸣和能量震荡声",
+            "sound_en": "numerous magical treasures and flying swords clashing and intersecting in mid-air, metal clangs and energy vibrations",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28,
+            "trigger_keyword": "神鸠怒啸",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神鸠长啸",
+            "sound_cn": "古神鸠发出震怒的长啸声，充满神威的穿透力",
+            "sound_en": "ancient divine roc letting out an angry, piercing screech, filled with majestic power",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40,
+            "trigger_keyword": "铁翎如钢",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "铁翎拨动",
+            "sound_cn": "神鸠的钢羽在风中振动，发出金属般的铿锵声",
+            "sound_en": "divine roc's steel-like feathers vibrating in the wind, making a metallic clang",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 55,
+            "trigger_keyword": "连声呜啸",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神鸠催行",
+            "sound_cn": "神鸠连续发出低沉的呜啸声，催促众人尽快启程",
+            "sound_en": "divine roc letting out a series of low, urgent cooing sounds, urging everyone to depart quickly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "神鸠飞行甚快，不消多时，便由南极荒原雪漠之上飞越过去，到了地轴之下。众人除阮征外，多是初次经历，觉得天体有异，所见星辰都较往日为大，地面上凹凸之处甚多，时见方圆千百里的深穴，天气奇冷，有的地方长河千里，绣野云连，只是鸟兽大而不多，形态特异。偶然发现丛林深处大河两边有些野人，身材俱甚瘦长高大，肤黑如漆，纵跃如飞，每人身上只围着一片兽皮、树叶之类，拿着石条和树枝所制成的兵器，飞驰往来于林野草树之中。这时神鸠飞行越低，那些野人一见空中飞来这样大乌，齐声哗噪，纷纷奔出，漫山遍野到处都是，各用石制镖弩和树枝削成的长矛，暴雨一般飞掷上来。神鸠自不把这些野人放在心上，两翼微动，大风立起，把野人纷纷扇倒，连身子也未挨近。众人看出当地洪荒未辟，那些人仍是穴居野处，神鸠性烈如火，恐有伤害，忙请飞高。野人见大鸟厉害，也自惊退。晃眼便把那一带飞过。",
+          "instruct": "平稳叙述，渐入异域奇景，带新奇感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "南极荒原",
+            "trigger_offset": 0,
+            "duration": 15,
+            "process_mode": "overlay",
+            "name": "极地寒风",
+            "sound_cn": "南极荒原上凛冽刺骨的寒风呼啸而过，卷起雪雾冰屑",
+            "sound_en": "biting, bone-chilling wind howling across the Antarctic wilderness, sweeping up snow mist and ice particles",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "鸟兽大而不多",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "异兽远鸣",
+            "sound_cn": "远处巨大鸟兽发出低沉的吼叫声，回荡在荒原之上",
+            "sound_en": "distant enormous birds and beasts letting out low roars, echoing across the wasteland",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 35,
+            "trigger_keyword": "齐声哗噪",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "野人呐喊",
+            "sound_cn": "漫山遍野的野人发出齐声呐喊和呼喝，声音嘈杂震天",
+            "sound_en": "wild men all over the mountains and plains shouting and yelling in unison, a chaotic and deafening uproar",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 42,
+            "trigger_keyword": "飞掷上来",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "石镖破空",
+            "sound_cn": "无数石镖和木矛如同暴雨般破空呼啸，密密麻麻飞射而上",
+            "sound_en": "countless stone darts and wooden spears whistling through the air like a rainstorm, dense and streaming upward",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 55,
+            "trigger_keyword": "两翼微动",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "巨翼扇风",
+            "sound_cn": "神鸠巨大的翅膀轻轻一扇，卷起狂风如龙卷，将野人纷纷扫倒",
+            "sound_en": "divine roc gently flapping its massive wings, stirring up a tornado-like gale sweeping wild men off their feet",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这里的人怎还似上古之民一样？",
+          "instruct": "好奇惊讶，少年人初见洪荒景象的感叹"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我们此时已在地壳下面。我上次经过，因在日中，下面奇热无比。此时约在申西之交，如此奇冷，晚来天寒可想而知，外人到此绝难生活。中间又隔着数万里的冰洋大海、雪漠荒原，凭这类人，如何能够飞渡过去，限于天时，只好穴居野处了。",
+          "instruct": "平稳解说，带着阅历的从容和淡淡的感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正说之间，忽见天宇渐低，身外似有雾气笼罩，前途一片混茫，天星早已隐迹。神鸠双目金光，电炬般直射浓雾之中，先能照出数十丈远，此时也在逐渐缩短。眼前暗沉沉一片氤氲，似无量数的圆圈密层层旋转不休。阮征猛觉手中所持宝鼎，似被甚吸力吸住，知道已飞近天边气层之外，前途不远，就是子午、来复两线交汇之处，极光大火相隔渐近。正告众人留意戒备，凌云凤躬身答道。",
+          "instruct": "神秘紧张，语气压低，营造逼近危机的氛围"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "雾气笼罩",
+            "trigger_offset": 0,
+            "duration": 12,
+            "process_mode": "overlay",
+            "name": "混沌迷雾",
+            "sound_cn": "浓厚沉重的混沌雾气翻涌萦绕，如同无数旋转的灰白圆环，沉静而压抑",
+            "sound_en": "thick and heavy chaotic mist swirling and enveloping, like countless spinning gray-white rings, silent and oppressive",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "神鸠双目金光",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金光破雾",
+            "sound_cn": "神鸠眼中射出两道金光，如同电炬般刺破浓雾",
+            "sound_en": "divine roc's eyes shooting out two beams of golden light, piercing through the thick fog like electric torches",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "凌云凤",
+      "api": {
+        "voice": {
+          "role": "凌云凤",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "昨奉乙师伯转来仙示，恩师所赐宙光盘和师兄二相环中天璇神砂，均能穿越元磁真气和那极光大火。有一已可无害，何况会合一起。不过此宝用时费事，愚妹功力不济，须先准备，不似师兄神砂可以随心运用罢了。",
+          "instruct": "恭谨沉稳，语气中带着谦逊和谨慎"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "申、阮二人早知宙光盘乃本门最珍秘的法宝，封藏多年，连自己也未见过，想就此观察此宝的威力妙用。便对云凤道。",
+          "instruct": "平静叙述，带着期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "申屠宏",
+      "api": {
+        "voice": {
+          "role": "申屠宏",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此宝实是神妙非常，师妹既然奉命，当仁不让，无须客气。我用神砂防护，请师妹独立前面，准备应付吧。",
+          "instruct": "郑重沉稳，带着师兄的信任和支持"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "云凤依言行事。刚刚站好，将宙光盘取出，众人猛觉身子一轻，人已飞出气层之外，眼前一亮，重放光明。李洪、龙娃首先欢呼好看。原来前面极光已现，茫茫天宇已成了一片云霞世界，又仿佛面前横着一道其长无比的光墙。上边整齐如削，下半如山如林，如岗如阜，又如剑树刀峰和人物花草之形，只是倒立芒尾，根根向下。奇光灿烂，幻为五彩，气象万千，不可名状，极尽光怪陆离之致。龙娃笑问李洪道。",
+          "instruct": "惊叹瑰丽，语气舒缓而充满光彩"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "身子一轻",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "气层突破",
+            "sound_cn": "穿过气层时发出的轻微破空声，随后一切变得轻盈空旷",
+            "sound_en": "a soft whoosh of breaking through the air layer, followed by a feeling of lightness and openness",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "极光已现",
+            "trigger_offset": -1,
+            "duration": 14,
+            "process_mode": "overlay",
+            "name": "极光涌动",
+            "sound_cn": "绚丽璀璨的极光在虚空中缓缓流转翻涌，五彩光芒如同天地织锦",
+            "sound_en": "magnificent and dazzling aurora slowly flowing and surging in the void, five-colored lights like celestial brocade",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "龙娃",
+      "api": {
+        "voice": {
+          "role": "龙娃",
+          "role_voice": "小虎-童声",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "这便是宇宙磁光么？我们穿过时，必更好看呢。",
+          "instruct": "天真欢喜，稚嫩中充满好奇和憧憬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你这小娃儿知道什么？此是极光反射出来的虚影，如何冲过？那元磁真气只是一股混元之气与万古凝炼不消的太火，厉害无比，不论仙凡都不敢去惹它。我们如非备有克制之宝，不要说冲过去，稍为挨近，便化成烟气消灭，万无生理。磁光尤其厉害，听说多厉害的法宝，只要是五金之质，全被吸去，化为乌有。你小小年纪，功力直谈不到，如非阮师叔宝光防护，当此阳魄始生，极光犹盛之际，天气奇冷，你早冻死了。",
+          "instruct": "前辈教训口气，严肃中带着调侃，内容却十分郑重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，忽听阮征说道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我们来快了一步，正当元磁真气最盛之时，吸力甚大，虽有制它之宝，仍以小心为是。那磁光本质只是一团灰白光影，乙师伯那高法力都不敢犯险冲入，何况我们。此时鸠道友已经停飞，尚且如此快法，想必相隔已近。这东西说来就来，神速无比，凌师妹先把宙光盘准备，以防万一吧。",
+          "instruct": "谨慎急切，语速略快，带着高度警惕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "云凤初当大任，早看出神鸠一离大地气层之外，飞不多远，忽然往侧一偏，两翼便即停住，未再前飞。内有两次，并往后挣退神气，口中呜啸不已。下面大地山河，不见一点影迹。脚底青冥沓霭之中，反有不少天星出现，光均强烈，比平常所见要大得多。料知快到地头，虽以全神暗中戒备，但因后进道浅，心存谨畏，意欲奉命行事。闻言，立把手上宙光盘往上一扬，立有长圆形一盘奇亮无比的五色金光飞出神砂光层之外，悬向前面，一同飞驰。众人见此宝脱手便自暴长，约有六七尺长，三四尺宽。盘中满是日月星辰缠度，密如蛛网。中心浮卧着一根尺许长的银针，针尖上发出一丛细如游丝的五色芒雨，比电还亮，耀眼欲花，不可逼视。再往前飞不远，针头上的精芒突朝前面自行激射，伸缩不停，快射出光盘之外。申、阮二人身边所带，多是精金炼成之宝。阮征手持九疑鼎，原体更是重大，本来越往前越觉前面吸力加增。如非众人法力高强，所用法宝、飞剑与身相合，早被相隔万千里外的元磁真气吸去。后经神砂、星光连人带鸠一起笼罩，也只稍为好些。阮征手中宝鼎仍被吸紧，除了双手紧持，随着吸力前飞，已经无法与之相抗。可是宙光盘才一出现，盘中子午神光线并未射出，前面吸力便似有了抵消，神鸠飞行也可停住。本来飞行已缓，李洪急于赶往天外神山去与那七矮相见，偶然无心催快，神鸠飞势刚一加速，盘中针光便现出这等景象。一看云凤全神贯注此宝，并未施为。方在奇怪，眼前倏地一暗，那横亘左侧天半的大片极光忽全隐去。阮征以前曾经过，知已飞入磁气死圈之内，忙道。",
+          "instruct": "紧张急促，步步推进，充满画面感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "往侧一偏",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "神鸠转向",
+            "sound_cn": "神鸠巨大的翅膀在空中调整方向，发出扑翼的气流声",
+            "sound_en": "divine roc adjusting its direction in mid-air with a whoosh of its massive wings",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "往上一扬",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "法宝腾空",
+            "sound_cn": "宙光盘脱手飞起，瞬间暴长，发出低沉而清越的嗡嗡震动声",
+            "sound_en": "the Zhouguang Disk leaping from the hand and expanding instantly, emitting a low and resonant hum",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28,
+            "trigger_keyword": "五色金光",
+            "trigger_offset": 0,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "金光盘旋",
+            "sound_cn": "五色金光在光盘表面流转闪耀，发出如同星河倾泻的光音",
+            "sound_en": "five-colored golden light swirling and shimmering on the disk's surface, emitting a sound like a galaxy cascading",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 50,
+            "trigger_keyword": "吸力加增",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "磁力嗡鸣",
+            "sound_cn": "元磁真气的吸力不断增强，发出低沉而强烈的嗡嗡声",
+            "sound_en": "the magnetic force of the Yuan Ci Zhen Qi growing stronger, emitting a low and intense hum",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "师妹留意！左侧面如有白影黑点出现，连用此宝朝正南方冲去。",
+          "instruct": "急切果断，声音短促有力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "同时把手一扬，又放出大片五色星砂，将前面挡住。申、李二人早经议定，也各把两圈佛光飞出。云凤宝光照处，方始看出，连人带鸠已飞入一股粗大无比的黑气之中，最前面现出一团灰白色的影子。相隔极远，那么浓厚的黑气，竟能看见光影，光之强烈可想而知。众人本对那团灰白光影正面急飞，刚一发现，便觉身上由冷转热。白影圈中突现出饭碗大小的黑点，料是阴衰阳盛，太火将现。阮征还未及开口，云凤先听阮征一说，格外留心，一见白影黑点相继出现，立将法诀一扬，盘中针头上光线突然电也似急往斜刺里黑气中射去。初出时，光细如发，又劲又直，猛烈异常，光并不十分长，离盘只两三丈，宛如千万根比电还亮的银针，刺向前面，闪烁不停。一经射入前面黑气之中，便似百万天鼓同时怒呜，雷声轰轰，震耳欲聋。两旁黑气本最浓厚，无异实质，光线刚一射入，轰的一声巨震，立化为大片暗赤色的奇怪火花爆散，对面便冲破了一个大洞。神鸠似知厉害，身上珠光骤亮，将头一偏，两翼往里一束，便往新现出的洞中急穿进去。同时众人均觉身后奇热，百忙中回头去看。就这晃眼之间，黑气爆散以后，来路一带已被波及，成了一片暗赤色的火云，往四外蔓延开去。火力之猛，热力之大，从来未见。看去又非真火，仿佛无量顽铁被火烧红情景。众人那高法力，又在宝光笼罩之中，俱都烤得难受。龙娃更是通体汗流，连气都喘不出。而前面黑气因是混元真气的外层，势子比较稍缓，但也逐渐引燃，一路烧将过去。幸仗神鸠飞行神速，一路急驶。阮征又发出千百丈的星砂，挡住后面燃烧之势，才得穿过。这两旁气层也有千百里厚，回顾身后赤云虽在蔓延，似潮水一般狂涌而来，因飞得快，相隔渐远。申、阮、李三人均觉自己虽然无事，但这环亘地壳之外的元磁真气已被引燃，发出极强大的热力，万一发生灾祸，如何是好？心正愁急，忽听神鸠欢啸，七人一鸠已全飞出磁圈之外。云凤随令神鸠停飞，回身将手一指，盘中针头上立有一串细如米粒的银星朝那暗赤色云气中射去。说也奇怪，磁圈本是一道长大无比的暗虹，横亘天心，无边无际，两头望不到底，看去形势那么惊人；这么小一串银星，无异大千世界着上一粒微尘，相形之下，端的渺少得可怜。可是一经射到火云以内，遥闻一连串的风涛交哄之声过去，便由浓而淡，转眼恢复原状，变成了一股同样长大的青气，作一环形，静静地横涌天边。神鸠也自调头前飞。三人见此宝如此神妙，不可思议，互相询问。才知云凤来前先奉到妙一真人飞剑传书，预示仙机，指点此宝用法。跟着，乙休又命人送药，告以机宜。大意是说：途中如遇申、阮诸人，便可不由来复线上通行，前面还有一层阻隔。那元磁真气边层为宙光盘冲破，太火受了感应，必发出比常火热出千万倍的热力，彼时元磁真气也受波及，看去虽是一片暗红，火云万丈，实非真火，无须害怕。因在地壳之外，四外均有大气包没，除南、北两极边界上当时感到一阵奇热而外，转眼便过，并无他害。只消倒转盘中神针，针头上便有银色火星飞出，引使复原。三年之内，元磁真气与大火互相吸收抵消。这隔断宇宙的奇险固可通行无阻，人世上九州万国全都风调雨顺，气候也可转为平和。虽然三年后仍要复原，不是根本消除，但经此一来，后人只要算准两仪消长盈虚之理，便可通行，本门弟子更无用说。",
+          "instruct": "宏大壮观，节奏先极快后渐缓，语气由紧张转为惊叹和释然"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "把手一扬",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "星砂飞散",
+            "sound_cn": "五色星砂从阮征手中铺天盖地般撒出，发出沙沙如星河流动的声音",
+            "sound_en": "five-colored star-sand scattering from Ruan Zheng's hand like a galaxy, rustling like a flowing river of stars",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "佛光飞出",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光绽放",
+            "sound_cn": "两圈佛光冉冉飞出，发出柔和庄严的嗡鸣声",
+            "sound_en": "two circles of Buddha's light slowly flying out, emitting a soft and solemn hum",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20,
+            "trigger_keyword": "千万根银针",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "银针激射",
+            "sound_cn": "无数细如游丝的五色银针如暴雨般向前激射，发出尖锐的破空声",
+            "sound_en": "countless fine five-colored silver needles shooting forward like a rainstorm, with sharp whistling sounds",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28,
+            "trigger_keyword": "百万天鼓",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "天鼓雷鸣",
+            "sound_cn": "百万天鼓同时齐鸣，雷霆滚滚震天动地，声浪排山倒海",
+            "sound_en": "millions of heavenly drums beating in unison, rolling thunder shaking heaven and earth, sound waves like mountains falling",
+            "volume": "-8%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 45,
+            "trigger_keyword": "暗赤色火云",
+            "trigger_offset": -0.5,
+            "duration": 12,
+            "process_mode": "overlay",
+            "name": "火云蔓延",
+            "sound_cn": "暗赤色的火云如同潮水般向四面八方汹涌蔓延，发出沉闷而炽热的嗡鸣",
+            "sound_en": "dark red fire clouds spreading like tides in all directions, emitting a dull and scorching drone",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 60,
+            "trigger_keyword": "龙娃汗流",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "热浪灼烤",
+            "sound_cn": "灼热的气浪扑面而来，发出干燥的噼啪声",
+            "sound_en": "scorching heat waves rushing in, with dry crackling sounds",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 95,
+            "trigger_keyword": "神鸠欢啸",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神鸠欢鸣",
+            "sound_cn": "神鸠发出喜悦的长啸，宣告穿越成功",
+            "sound_en": "divine roc letting out a joyful long screech, announcing successful passage",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 110,
+            "trigger_keyword": "银星射去",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "银星复火",
+            "sound_cn": "一串细如米粒的银星飞出，发出轻微的破空声，随即引发风涛交轰",
+            "sound_en": "a string of rice-grain-sized silver stars flying out with a soft whoosh, then triggering a wind and wave roar",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 125,
+            "trigger_keyword": "青气恢复",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "青气归位",
+            "sound_cn": "暗红色火云由浓转淡，恢复为一股静谧的青气，横涌天边，发出低频的嗡鸣",
+            "sound_en": "the dark red fire clouds fading from thick to thin, restoring to a serene green qi, surging across the sky with a low-frequency hum",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "只是天外神山也是紧附在地壳外面的另一世界，照样也有混元真气包没，更与地极磁光大火互相吸引。除来复线可以通行外，只在偏西的小南极四十六岛最末一岛附近有一道路，比较容易冲过。但那地方乃小南极天边与不夜城两天交界之处，大气磁光虽较微弱，下面四十七岛尽是妖邪盘踞，邪法颇高。此时应援要紧，不宜多生枝节。来复线相隔尚远，并且磁光大火已被妖蚿引发，正与神驼乙休相持不下。妖蚿受逼，难保不铤而走险，一个防御不周，天外神山的美景恐有毁损。应由中部横断冲过，冷不防先用宙光盘将极光大火挡退复原，底下皆由乙休作主，便可成功。云凤因知申、阮二人同门先进，道法高深，阮征又往来过一次，所用二相环也是一件能制元磁真气之宝，以为事前必奉机宜。见面匆匆，阮征又先发话指点，令其戒备，越当是胸有成竹，一味谦恭，忘了先说，反使三人受了一场虚惊，俱都好笑。正谈说间，前面又现出一道其长经天的青气，虽比来路所见要小好些，望去也有数千里长一圈。天宇空旷，又是远看，绝看不出那是一股混元之气，只是色彩鲜明得多。难关将到，俱各紧张，一会便已飞近。等到穿入气层之中，只觉上下四外气流甚乱，吸力之外加上阻力。阮征看出有异，与上次所经不同，料是妖蚿已将这元磁真气引人地窍之故，便令云凤先莫动手。既然吸力不大，索性由自己用天璇神砂开路冲过，以免和先前一样发火蔓延，生出奇热，毁损下面仙景，再被妖蚿警觉，激出变故。随将神砂放出，冲荡气层而进。费了不少心力，居然将这数百里厚的气层磁圈平安通过。李洪遥望前面仍是一片苍茫，除有许多大小星光疏落落上下闪耀而外，什么也看不见。笑问。",
+          "instruct": "平稳叙述，带着轻松和余悸，逐渐放松"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "青气经天",
+            "trigger_offset": -0.5,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "青气横空",
+            "sound_cn": "一道长经天的青气静静横涌，发出如同遥远海洋的低沉共鸣",
+            "sound_en": "a long green qi stretching across the sky, silently surging, emitting a low resonance like a distant ocean",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "吸力阻力",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "气层乱流",
+            "sound_cn": "气层中上下四外气流混乱，吸力和阻力交织，发出低沉的呜咽声",
+            "sound_en": "chaotic airflow in the layer, with suction and resistance intertwining, emitting a low moaning sound",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 38,
+            "trigger_keyword": "神砂放出",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "神砂冲荡",
+            "sound_cn": "天璇神砂喷涌而出，如同五色洪流冲开厚重的气层，发出震荡咆哮",
+            "sound_en": "Tianxuan divine sand gushing out like a five-colored torrent, breaking through the thick air layer with a rumbling roar",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "还有多远？",
+          "instruct": "轻松好奇，带着少年人的急切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "就快到了。我们如由来复线走，一出地窍，便到光明境前面海岸。因由中部横断冲入，也未留神上头，只看前面天心，所以不曾留意。鸠道友大约也是初来，只知前飞，所以均未看出。我正要说，它已看出形势，你没见它正往上回飞么？",
+          "instruct": "沉稳带笑意，从容解说中透着轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，李洪见神鸠果然正在上升，已飞高了好些丈，倏地一个回翔，反折了上去。目光到处，猛瞥见左前面突现奇景：到处仙山楼阁，棋布星罗，琼林花树，宛如锦绣。并有大片海洋，碧浪滔天，红霞万丈。远望过去，那地方恍惚天空中虚悬着一片其大无比的另一世界，上面有山有水，万象包罗，霞蔚云蒸，好看已极。神鸠已经飞过了头，再由上而下斜飞过去。飞行越近，越觉那地方壮丽庄严，景物灵妙，料是天上仙宫不过如此。方在赞妙，阮征早把宝光隐去，低声说道。",
+          "instruct": "惊叹绮丽，语气舒缓而充满光彩，节奏渐紧"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "回翔",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神鸠盘旋",
+            "sound_cn": "神鸠在空中猛然回翔，翅膀划破空气发出猎猎风声",
+            "sound_en": "divine roc suddenly wheeling in mid-air, wings cutting through the air with a whooshing sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "仙山楼阁",
+            "trigger_offset": -1,
+            "duration": 18,
+            "process_mode": "overlay",
+            "name": "仙乐缥缈",
+            "sound_cn": "远方仙山楼阁中隐约传来空灵缥缈的仙乐与钟磬之声，如同天宫乐章回荡",
+            "sound_en": "ethereal and elusive celestial music and distant chimes drifting from the immortal mountains and pavilions, like heavenly music echoing",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "碧浪滔天",
+            "trigger_offset": 0,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "海潮轰响",
+            "sound_cn": "碧波滔天的大海发出连绵不绝的轰鸣声，浪涛如山层层叠涌",
+            "sound_en": "the blue waves surging skyward with continuous roaring, waves like mountains rolling layer upon layer",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "洪弟噤声！你只顾好看，全没有想到我们慧目法眼能看多远？此时相隔少说也有好几百里，地面上的海涛竟会如此汹涌，岛中心又被红霞布满，分明妖蚿正在卖弄神通，与乙师伯斗法，以致引起海啸地震。虽被仙法禁制，不曾毁损灵景，乙师伯必还另有顾忌。我已早隐形迹，暗告鸠道友飞行放缓，看清形势之后，我们七人分头下手，方可成功。势正凶险，你还当是好玩的吗？龙娃无甚法力，恐禁不起丝毫侵害，到时你可带他同在金莲宝座之上，免受危害。",
+          "instruct": "严肃急促，压低声音，带着兄长般的叮嘱和警惕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二哥是怕我转世不久，难当敌人，不便明言，故意给我添个累赘，使我专心防护龙娃，连自己也同保住，对与不对？",
+          "instruct": "爽朗带笑，心直口快，带着少年人的机敏"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阮征方答洪弟怎么连我也疑心起来了？话未说完，神鸠已越飞越近，果然前面形势险恶异常，耳听风雷水火夹着海啸之声，隐隐传来，光明境已经在望。只见当中琼原翠峰之间，宝光剑气电舞横飞，霞光万道，雷火千重，霹雳之声密如擂鼓。阮征已与众人商议停当，并告神鸠埋伏待机，各自分途飞起，分四面合围而上。这时只剩百余途程，晃眼便已飞近。申屠宏独当中路，刚把遁光飞到妖蚿所居宫殿上空，往下一落，便见一座极广大的玉殿金亭，已被震毁击碎。只剩前面一座残破的五平台，中心坐着一个相貌丑怪的矮胖子。怀里抱定一个身披黑衣的赤足美女，年约十三四岁，口喷一股白色的光气，将男女二人全身护住。身前跌坐着一个小和尚，周身佛光环绕，正是前在岷山所遇小神僧阿童。另外十来个少年幼童，各用许多飞剑、法宝，将那平台笼罩了一个风雨不透。内有三人，一是师弟金蝉，另两人不认识，正向前面发出数十道刀光和一道形如火龙的宝光，朝湖心中飞出来的一个牛首人身、两翼四手怪物夹攻。怪物并未使用什么法宝，只由左右四手上发出二十来道紫黑色的妖气，与众对敌，不时由口里喷出一团比血还红的火球，向前打去。刚一出现，金蝉胸前便飞出一个玉虎，晃眼暴长好几丈，周身祥霞潋滟，灵雨靠微，虎口内更喷出大股银光星雨，挡在前面。两下里才一接触，火球便自退回口内。三人便把本门太乙神雷连珠般朝前打去。怪物在自激怒，发出战鼓一般的厉声怪吼，终究无计可施。三人应敌稍为松懈，又复飞扑上去。申屠宏认出那大片飞刀乃左道中最有名的修罗刀，看去不带邪气，必经仙法重炼，竟会伤那怪物不得，料知厉害。似这样，时进时退，双方相持不下。神驼乙休不知何往。地底水火风雷之声与海啸遥相应和，比先前空中所闻加倍猛烈。申屠宏暗忖：妖蚿女体，此怪雄身，形态也与二弟所说不同。下面诸人多是同门后起之秀，年纪不大，功力颇深，飞剑、法宝尤为神妙。似此只守不攻，必是妖物厉害，奉命待援。反正防护周密，万无败理，莫如看清形势，出其不意，一举便可成功。仗着隐形宝光全隐，先不发动，轻悄悄掩向湖底细一查看，不禁吃了一惊。原来那湖深达数十丈，面积甚大。怪物所现竟是元神，本身形状如龙，少说也在百丈以上，约有一丈多粗。前半节生着两片肉翅，四只龙爪。后半近尾之处却生着两排粗约尺许，长约三四尺的兽足。尾作扇形，约有三四丈方圆，上面尽是逆鳞倒刺。通体红色，满生三角鳞片，其大如箕，闪闪生光。前半身近头一带昂起向上，口发鼓声，不住怒吼。尾部、兽足挺立湖底，中段长躯竟将湖中心一带盘满，形态猛恶长大，平生仅见。靠近玉台正面湖底玉壁上，有一大洞，已被一片金光堵塞。料定是洪荒以前的龙类妖物，深藏地底不知多少年，乘着斗法之际，穿地而出，神通定不在小，一个除它不了，反倒生出别的灾害。投鼠忌器，正想不起应当如何下手才好。忽听空中一声清叱，先是云凤师徒各指剑光飞到，自空击下。妖物发现来了一个女子，两个幼童，以为此是到口美食，竟舍前面敌人，飞身直上，一扬怪爪，便有一二十股紫黑色的妖气往上飞起。申屠宏知道云凤师徒入门日浅，对敌全仗法宝，妖龙何等厉害，恐有闪失。又见妖龙好似心骄气盛，只顾将元神飞起迎敌，全没防到下面，觉着此时下手，正是一举两便。于是把自己大小两口飞剑，连同伏魔金环同时发出。意欲先用金环佛光将妖龙元神隔断，不令复体，然后再用飞剑将它肉身斩断。其实那妖龙和妖蚿均是前古最厉害的凶毒爬虫，地底修炼将近万年，并和妖蚿生性相克，所具神通也不在妖蚿之下。只为当初本是毒龙遗种，当天外神山地震时，随入地窍深处，那地方恰是地水火风微弱之处，因得长成，便潜伏在里面修炼。因为所居地层太厚，性素喜睡。妖蚿又先出世，知道两恶不能并立，百计防护。妖龙不似妖蚿诡诈，偶然发怒，想要冲出，吃妖蚿邪法阻住，不得如愿，无可如何，只得罢了。妖蚿自知自己巢穴隔离对头伏处最近，时刻留心。准备万年期满，元婴凝炼，可以任意飞行变化时，便将原体弃去。于是设下毒计，即以原体为饵，将妖龙放出，乘其交合之际，暗中引发地火，将妖龙化为灰烟，以免后患。不料被干神蛛盗去元婴，激怒忘形，妄施邪法暗算，想用湖中玉泉将敌人胶住。做梦也没有想到，先前钱莱受了龙猛指教，在它穴中放了一粒如意魔珠。此珠也是魔教中至宝，专与敌人心意相反，发出威力妙用。妖蚿人未害成，反将湖水干涸，并把泉眼堵塞。下面地窍中气候混浊，奇热如焚，妖龙虽然生长其中，一样难受，全仗泉眼通气呼吸，历久相安，才得无事。妖蚿自从出地以后，所有通路均经邪法封闭，单留这一处泉眼，以防功候未到以前，妖龙气闷不过，情急拼命，裂地而出。妖龙近年神通越大，早已不耐蛰伏，无奈妖蚿防护周密，禁制重重。泉眼通路最小之处，大只如拳，其深数百丈，更有许多埋伏，即便元神能够通过，肉身也必毁灭，为此顾虑，迟疑不决。表面装睡，每遇妖蚿纵淫行凶，吸血醉卧之际，便在地底用水磨功夫朝妖蚿老巢进攻。意欲时机一到，便以全力猛蹿出去，先将所炼元婴吞吃下肚，然后与之拼斗。日前泉眼一闭，立时激怒，以全力向上猛攻。当时妖蚿乘着乙休飞升天空，化炼妖气之际，恨极行凶，竟将极光大火、元磁真气引发，与敌拼命。乙休法力虽高，一面要将妖蚿化身由来复线引来的太火挡住；一面又须对付妖蚿当中两个主体。阮征这个得力帮手又先走去，七矮诸人经历又都不够，势难兼顾。只得暗用传声指示，令干神珠抱着妖蚿元婴诱敌，暂将妖龙稳住，免其逃走。再由七矮诸人各用宝光防护，只守不攻，以待后援。等自己擒到妖蚿，将剩余的两粒元珠收去，援兵也已到达，分头下手，便可成功，不致毁损仙境，免生灾祸。众人依言行事，已有数日。",
+          "instruct": "宏大激烈，节奏先缓后急，充满史诗战斗场景的压迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "风雷水火",
+            "trigger_offset": -0.3,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "战场混响",
+            "sound_cn": "远处风雷水火与海啸声交织，法宝碰撞轰鸣和剑啸雷火炸裂声混成一片",
+            "sound_en": "distant wind, thunder, water, and fire interweaving with tsunami roars, magical treasure clashes, sword whistles, and thunderous explosions blending into a chaotic roar",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "宝光剑气",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "宝光纷飞",
+            "sound_cn": "宝光剑气在琼原翠峰之间纵横飞舞，发出密集的破空呼啸声",
+            "sound_en": "treasure lights and sword qi flying across the jade fields and green peaks, with dense whooshing and whistling sounds",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "太乙神雷",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "神雷连珠",
+            "sound_cn": "太乙神雷如连珠炮般接连炸响，雷光与爆音震耳欲聋",
+            "sound_en": "Taiyi divine thunder exploding like a series of cannon shots, lightning and thunder deafening",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40,
+            "trigger_keyword": "妖龙怒吼",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "妖龙巨吼",
+            "sound_cn": "妖龙发出如同战鼓般的厉声怪吼，震得湖水翻涌",
+            "sound_en": "the demon dragon letting out a war-drum-like monstrous roar, shaking the lake water",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 70,
+            "trigger_keyword": "一声清叱",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "清叱破空",
+            "sound_cn": "一声清亮的长叱划破战场喧嚣，带着肃杀之气直冲云霄",
+            "sound_en": "a clear, sharp long cry cutting through the battlefield noise, carrying a stern killing aura up to the sky",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 78,
+            "trigger_keyword": "剑光飞到",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "飞剑破空",
+            "sound_cn": "两道剑光从天而降，划破空气发出尖锐的呼啸",
+            "sound_en": "two sword lights descending from the sky, cutting through the air with sharp whistles",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 95,
+            "trigger_keyword": "紫黑妖气",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "妖气嘶鸣",
+            "sound_cn": "一二十股紫黑色的妖气向上飞腾，发出如同毒蛇般的嘶嘶声",
+            "sound_en": "over twenty streams of purple-black demonic qi rising upward, hissing like venomous snakes",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 120,
+            "trigger_keyword": "湖水干涸",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "地窍闷响",
+            "sound_cn": "地底泉眼堵塞后，地下深处传来沉闷的轰响和地壳的挤压声",
+            "sound_en": "after the spring blocked, deep underground rumbling and crust creaking sounds",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "实则妖龙神通变化，也极厉害。只为刚出不久，无甚机心，初见生人，又都是些根骨深厚的童男；再见妖蚿元婴在内，越发眼红。上来本想用原身御敌，因金、石二人受有指教，一照面，各把飞剑、法宝、太乙神雷先给了它一个下马威，妖龙身长吃亏，受了点伤，忙即缩退回去，改用元神化身出斗。负伤之后，越发激怒，必欲得而甘心，全神贯注在众人身上，通未留意其他，申屠宏隐形飞下竟未警觉。以妖龙的功力，便乙、凌、白、朱诸老要想一举除它，也非容易，何况是申屠宏。并且妖龙力大无穷，身比钢铁还坚百倍，一个应付不善，纵不引起灾祸，元神只要复体，大片仙景花林定被扫荡残毁无疑。也是妖龙该当伏诛，般般凑巧。申屠宏行事素来谨慎，这次因见妖龙厉害，乙休人又不在，又见入门不久的师妹凌云风飞驰数十万里之外，当此大任，临敌太猛，两个门人又是幼童，一见妖龙，便冒失下击，一时激于义愤，未加思索，便即动手。妖龙眼看好些肥肉，相持数日不能到口，正在馋极。忽见云凤师徒自空飞下，自恃飞遁神速，复体甚快，元神竟然离体飞起。就在这时机瞬息之际，佛光一起，恰巧隔断。等到警觉退回，已是无及。其实云风早得杨瑾预示，下时胸有成竹，故作大意，实则早命沙、米两小将牟尼珠隐去宝光，暗中护住全身，便无申屠宏相助，也不致受害。那专一克制水陆精怪的至宝神禹令，也早准备停当。一见妖龙化身飞起，来势猛恶，大出意料之外，慌不迭将神禹令一扬，一股百十丈长青蒙蒙的光气刚射出去，妖龙急于回护原身，已不战而退。经此一来，妖龙闹了一个首尾受敌，哪一头也未顾上，佛光首将回路挡住，不特无法冲过，元神反被吸住。惊悸惶急之中，正要挣逃，禹令神光又罩将下来，妖龙元神立被裹住，两下合围。妖龙像是一只极猛恶的野兽，自投陷阱，空具神通，不能自拔，佛光、宝光会合一绞，立成粉碎。申屠宏见妖龙元神虽死，下面原身也被飞剑斩成数段，仍在蠢动，生意犹存，恐有疏失，又将佛光裹住残余妖烟，连连绞动，直到妖魂消灭无踪，方始停手。金、石诸人见那么厉害的一条妖龙，竟被申、凌二人手到除去，好生欣喜。各自飞将过来，正待合力消灭妖龙原体。沙、米两小人小胆大，最是贪功。一见妖龙被宝光裹住，下面一道金光、一道银光正在纵横飞舞，绕向一条极长大的妖龙身上，看出妖龙皮鳞坚厚，暗具抵御之力，身虽斩成数段，似乎未死，另有诡计。又见金光绕向妖龙头上，只听一片皮鳞碎裂轧轧之声，急切间斩它不断。暗忖：前听杨大仙师说，凡是修炼数千年的妖物，除本身元灵最关紧要，必须杀死而外，更须防它脑中炼有元婴、内丹之类，如不一并消灭，被其遁走，仍是祸害。妖龙身躯如此威猛长大，本生灵气必还未尽，莫要被它诈死逃走。近来毗那神刀已炼得出神入化，大小由心，何不隐去宝光，由它七窍中穿人，试它一试？念头一转，不约而同，各把飞刀朝妖龙鼻孔之中直射进去。那妖龙修炼多年，功候甚深，脑中果然炼有内丹、元婴。当元神消灭之际，本身仍具绝大威力，稍为奋力腾跃，湖面上下立成齑粉。纵然结局难逃一死，仙景却难保全。只为初遇强敌，一见来人这等厉害，心胆皆寒，禹令神光既是克星，元神首被消灭，减去许多神通。自知身太长大，反而吃亏，惨败之余，一心只望保住元婴，用本身丹气防护，乘隙遁走。因见上面佛光、宝光厉害，不敢就起，正在暗运丹气抵御飞剑，只等禹令神光一撤，立即变化逃去。及见众人纷纷飞临，宝光、剑气满空飞舞，就要飞下，情知凶多吉少。方始横心，正想用那身体猛力向敌人扫去，不料两小隐蔽刀光，由鼻孔中飞入。等到警觉，元婴已被刀光裹住，无力再施毒计。刚收转丹气，防护挣扎，两小在外面也已警觉，忙以全力施为。身外丹气一撤，飞剑金光绕处，龙首一下斩断，大股鲜血，似瀑布一般向上射起数十丈高下。妖龙元婴在一团紫黑色丹气绕护之下，被两道朱虹裹紧，刚刚飞起，云凤手中禹令神光已经当空射到，一下裹住，一声惨嗥，化为残烟消灭。同时遥闻师妹且慢！众人连忙回顾，一道长虹已自空飞堕。众见来人正是阮征，见面便道可惜！众人问故，阮征笑道。",
+          "instruct": "紧张激烈，节奏明快，充满动作感和画面感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "trigger_keyword": "佛光一起",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光闪现",
+            "sound_cn": "一道柔和的佛光骤然亮起，带着庄严的震慑之力，发出低沉的共鸣声",
+            "sound_en": "a soft Buddha's light suddenly shining forth, with solemn awe-inspiring power, emitting a low resonant hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "神禹令一扬",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "禹令神光",
+            "sound_cn": "神禹令骤然扬起，一道百丈长青蒙蒙光气破空而出，发出清越而庄严的轰鸣",
+            "sound_en": "Shen Yuling suddenly raised, a hundred-zhang long green hazy light aura shooting out, with a clear and solemn resonance",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30,
+            "trigger_keyword": "佛光宝光绞动",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "光绞妖魂",
+            "sound_cn": "佛光和宝光会合在一起绞动，发出低沉而震撼的碾压声",
+            "sound_en": "Buddha's light and treasure light merging and twisting together, emitting a low and overwhelming crushing sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 55,
+            "trigger_keyword": "皮鳞碎裂",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "鳞甲碎裂",
+            "sound_cn": "妖龙坚厚的皮鳞在金光绞动下发出碎裂的轧轧声",
+            "sound_en": "the demon dragon's thick scales cracking and breaking under the golden light, with grinding and crunching sounds",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 80,
+            "trigger_keyword": "飞刀直射",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞刀入窍",
+            "sound_cn": "两把飞刀隐蔽地射入妖龙鼻孔，发出轻微的穿刺声",
+            "sound_en": "two flying knives stealthily shooting into the demon dragon's nostrils, with a soft piercing sound",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 105,
+            "trigger_keyword": "龙首一下斩断",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "龙首断落",
+            "sound_cn": "飞剑金光绕处，妖龙巨大的头颅被斩断，发出沉闷的骨裂和金属摩擦声",
+            "sound_en": "the golden light of the flying sword circling, the giant dragon's head severed with a dull crack and metallic grinding sound",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 118,
+            "trigger_keyword": "鲜血瀑布",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "血瀑喷涌",
+            "sound_cn": "大股鲜血如同瀑布般向上喷射数十丈高，带着浓稠的泼洒和飞溅声",
+            "sound_en": "huge torrent of blood gushing upward like a waterfall dozens of zhang high, with thick splashing and spattering sounds",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 135,
+            "trigger_keyword": "禹令神光裹住",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "神光绞杀",
+            "sound_cn": "禹令神光当空射下裹住妖龙元婴，一声惨嗥后化作残烟消散",
+            "sound_en": "Shen Yuling light shooting down and enveloping the demon dragon's infant soul, a miserable howl then dissolving into residual smoke",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此是前古妖龙元鼍，神通广大，凶毒无比。化身虽只一个，功力却与妖蚿不相上下。所炼丹元，送与干道友的夫人，至少可抵两三千年功力。虽然中有弊害，但有本门灵丹可以化解。我刚听乙师伯说起，才得知晓。因想这等难得之物，平白毁去，岂不可惜？连忙赶来，仍然迟了一步。否则，干夫人只须转世十余年，便成仙业，岂不是好？",
+          "instruct": "惋惜遗憾，语气中带着懊悔和叹息"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，干神蛛同那怀中幼女也已双双赶来，闻言拜谢道。",
+          "instruct": "平静叙述，带着温情"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "双双赶来",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "衣袂飘动",
+            "sound_cn": "干神蛛抱着幼女飞落时衣袂在风中猎猎作响",
+            "sound_en": "Gan Shenzhu's robes fluttering in the wind as he descends with the girl in his arms",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "干神蛛",
+      "api": {
+        "voice": {
+          "role": "干神蛛",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "多谢阮道友好意，但是我和内人欢喜冤家，互相纠缠已好几世。她因前生被仇敌暗算，投身异类，羞于见人，我和她又不舍离开，只好长年附在我的身上，彼此俱都难受。幸蒙诸位道友下交，因得附骥来此。初意只想求得一粒毒龙丸，使其脱去妖形，仍复人身，已是万幸。她虽女体，实是纯阳之性。不料此行竟将妖蚿元婴得到，不特借此恢复人形，因妖蚿纯阴之质，得益实在不小。我夫妻也不想成甚天仙，只想长相厮守，永不离开。妖龙元婴、内丹固具坎离相生之妙，但这十数年的离别也颇难耐。如蒙厚惠，只求赐她一粒大还丹便感谢不尽了。",
+          "instruct": "诚恳深情，沙哑嗓音中带着沧桑和感激"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这个不难。各位老前辈中，只乙师伯交游最广，身上所带灵丹最多，有的并不在大还丹以下。少时由我代令夫人求取一粒如何？",
+          "instruct": "爽朗轻快，语气中带着愿意相助的热忱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "干神蛛方要答言，阮征深知乙休性情，朝他使了一个眼色，便未开口。众人见他那附身妖蚿元婴的爱妻美如天仙，容光娇艳，因为没有衣服，穿着他一件又肥又短的道衫，上半露出雪白粉颈，下面白足如霜，玉腿半裸，依附丈夫身前，随同向众礼拜，越显得姣小玲珑，楚楚可怜。干神蛛却生得又矮又胖，相貌奇丑，长衣脱去，其状更怪。二人一美一丑，相去天地，偏又那么恩爱，如影附形，不可离开，全都好笑。金蝉随问乙师伯可将妖蚿除去了吗？阮征一说经过，众人才知乙休早已算定，为想借此考验自己道力，特命阮征第七日赶到。不料阮、凌二人俱都急于赴援，以防误事，仍是早到半日，才知事有定数。想起铜椰岛的经历，便不再固执己见，仍照妙一真人飞书行事。原来妖蚿失去元婴，惨败恨极，誓以全力拼命。除来复线与地轴缠道通连，可以引发大火，尚有一处地窍，与元磁真气发源之处相连。那地方便在妖蚿所居广殿后侧地底深穴之中，相隔只百余里。乙休惟恐丹毒之气为害，特意送往离地万七千丈以外两天交界之处，借着乾天罡煞之气与法宝之力，将其消灭。费了一些时候，以致晚到一步，妖蚿已经遁走。妖蚿另一化身，因被乙休禁网法宝阻住，竟仗玄功变化，由一山峡缝中窜入来复线内。那地方原是龙猛暗中开出来的逃路，事前不曾查到，致被妖蚿寻到，窜了出去。乙休如果亲身赶往，大火一被引发，天外神山必化劫灰。地底妖龙又在此时裂地而出。妖蚿引发的元磁真气，虽有一件法宝可以抵御，也只暂时镇压，不能消灭。那时元磁真气必被地火引燃，威力之大，不可思议。再为法宝镇压，不能宣泄，定要引起海啸。那为避免妖蚿侵害，深藏海眼之下的许多精怪，存身不住，也要兴风作浪。乙休当时难于兼顾，略一盘算，随用传声，密令众人绊住妖龙。自己分化一个化身，用一件至宝去将磁源来路堵塞。再用一道神符幻出阮征，手发神砂，紧追妖蚿，与之相持苦斗，以免又生枝节。乙休亲身追入来复线，在祸发顷刻之间赶到前面，用一幻象将妖蚿引入子午线死圈之内，并施大法力，将回路隔断。妖蚿化身还想引发太火，不料对敌时，乙休痛恨妖蚿淫凶阴毒，竟拼舍一件法宝，用一枚神铁环隐去宝光，束在它的身外，刚一窜进子午线，便被元磁真气吸紧。妖蚿几个化身全具神通，功力只比当中主体稍差，仍是狡诈机警，不比寻常。虽然情急相拼，仍想全身而遁，将太火引上来复线后，便仗本能，就此逃往中土，本无必死之意。无如性大贪残，又为幻象所愚，一味穷迫不舍。等到追人死圈，幻象忽隐，方才醒悟，已经无及。那磁光大火仍顺地轴缠道自为消长，分合流转，并未起甚波动。妖蚿化身却被太火化为乌有。乙休将这最紧要的关头渡过，忙又赶回，知道非将妖蚿两个主体中的脑中元珠内丹得去，不能善后。但是妖蚿机灵，稍被看破，自知不能幸免，必将元珠自行毁去。而且还须防备日子越多，地下磁光火力越大，一个镇压不住，便是祸事。于是暗用六合旗门埋伏四外，将妖蚿困住，化出好些幻象与之相持，自往地穴全力镇压。到了第五日上，乙休见势危急，正在施展玄门最高法力，犯险一试，阮、李二人忽然飞到。忙用传声，令阮征将九疑鼎放在坎宫旗门之内；又令空中神鸠隐身守伺；再令李洪带了龙娃去往地穴，用金莲宝座代为镇压。分派停当，说是还有一会才到时机，随说起干神蛛夫妻之事。阮征心热，立即抽空赶来，想将妖龙内丹留下，已为众人所毁。众人好奇，又知妖龙一死，只等除去妖蚿，将元磁真火复原，大功便可告成。此时不会再生枝节，俱想前往观战，以开眼界。走时，金蝉忽说小神僧先前几受妖蚿暗算，元气大伤。自从乙师伯将他送来台上，便自入定静养。此时地底风火与海啸之声比前更要猛烈，知道少时有无危险，如何丢他一人在此？石生笑道。",
+          "instruct": "宏大叙事，节奏时缓时急，充满转述的史诗感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "使了一个眼色",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "细微示意",
+            "sound_cn": "阮征轻微地使了个眼色，极轻的衣料摩擦声",
+            "sound_en": "Ruan Zheng subtly giving a glance, a very soft rustle of fabric",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20,
+            "trigger_keyword": "六合旗门",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "旗门展开",
+            "sound_cn": "六合旗门在虚空中展开，发出低沉而庄严的轰鸣声",
+            "sound_en": "six-element flags unfolding in the void, with a low and solemn rumbling sound",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "石生",
+      "api": {
+        "voice": {
+          "role": "石生",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这个无妨，我们把他带去不一样么？",
+          "instruct": "轻松随意，满不在乎的语气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉未及答言，一片金光祥霞忽自空中飞堕，现出一个少年神僧，众人一看，正是师门好友采蔽僧朱由穆，众人连忙上前拜见。朱由穆笑道。",
+          "instruct": "平静叙述，带着欢喜和敬意"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "金光祥霞",
+            "trigger_offset": -0.8,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "佛光降下",
+            "sound_cn": "一片柔和的金光祥霞自空中飘落，带着旃檀香气和神圣的气息",
+            "sound_en": "a soft golden auspicious light descending from the sky, carrying a fragrance of sandalwood and divine presence",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "采蔽僧朱由穆",
+      "api": {
+        "voice": {
+          "role": "采蔽僧朱由穆",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "我小师弟虽然该有此难，但他在铜椰岛分手时，如听我话，并非不可避免。这样也好，总算因祸得福，人虽受伤，道力却增进不少。",
+          "instruct": "慈和平缓，带着禅意和淡淡的感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，见干神蛛夫妻也随众跪拜在地，尚未起立，便指二人道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "采蔽僧朱由穆",
+      "api": {
+        "voice": {
+          "role": "采蔽僧朱由穆",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "你夫妻本是怨偶孽缘，只为前两生至情感召，反成了患难恩爱的夫妻。尽管魔难重重，受尽苦痛，居然一灵不昧，终于化解前孽，遂了心愿。如非向道真诚，深明邪正之分，如何能有今日？我知你妻虽将妖蚿元婴夺去，可以借它所炼形体恢复人身，并还增长道力，并非不好。无如妖蚿修炼万年，功力颇高，它那元婴乃妖蚿精气凝炼而成，赋有它的本性；暂时或者无妨，将来修为上难免不受其害。固然妖蚿伏诛，元神不能附体，但终究可虑。还是由我用大荫檀佛光将恶质化去，永绝后患，索性成全你们这一对苦夫妻。此女以后就叫朱灵吧。",
+          "instruct": "庄严慈悲，语气温和郑重，充满佛门的悲悯"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "干神蛛夫妻闻言，喜出望外，口宣佛号，膜拜不已。朱由穆随令干神蛛走开，将手一扬，立有一片极柔和的祥光，朝少女身上当头照过，同时闻到一股旃檀香气。再看蜘蛛所附的少女脸上，立改庄容，不似先前那么轻佻神气，容光也更美艳。俱知佛力感化。夫妻二人双双跪拜，叩谢不已。朱由穆随又对众说道。",
+          "instruct": "庄严祥和，充满神圣的慈悲感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "祥光照过",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "旃檀佛光",
+            "sound_cn": "一片极柔和的旃檀佛光笼罩少女全身，伴随淡淡的檀香和空灵的梵音",
+            "sound_en": "a very soft sandalwood Buddha's light enveloping the girl completely, with faint sandalwood fragrance and ethereal chanting",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "采蔽僧朱由穆",
+      "api": {
+        "voice": {
+          "role": "采蔽僧朱由穆",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "乙道友今日功德不小。我此时急于带了小师弟，回转云南石虎山去，不及往见。可对他说，等他事完，回转中土，再相见吧。",
+          "instruct": "平和淡然，带着修行者的洒脱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，又是一片金光祥霞，飞向阿童身上，只一晃便全没了踪影，众人竟未看出是怎么走的。金、石诸人因和阿童至交，未及叙别，自是恋恋不舍。云凤见朱灵通身全裸，只披着干神蛛一件道袍，满脸娇羞，甚是可怜，人又生得那么美艳，好生怜爱。便对她道。",
+          "instruct": "平静叙述，略带温情和不舍"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "金光祥霞",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "佛光飞逝",
+            "sound_cn": "金光祥霞一闪即逝，如同流星划过天际，带着余韵的磬音",
+            "sound_en": "golden auspicious light flashing and disappearing like a shooting star, with a lingering chime",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "凌云凤",
+      "api": {
+        "voice": {
+          "role": "凌云凤",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱道友这样，如何往见大方真人？我下山时，曾蒙恩师赐我一身仙衣，因洞府尚未寻到，一直带在身边，另外还有旧衣两件。如不嫌弃，等诸位道友走后，我拼凑出一身，送你如何？",
+          "instruct": "温柔善良，充满关切和怜爱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱灵闻言，大喜称谢。话未说完，忽闻殿后神雷大震与古神鸠怒啸之声，众人已先飞身赶去，男的只干神蛛一人未走。朱灵妙目微苯，悄声说道。",
+          "instruct": "紧张，带着突如其来的急促感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "神雷大震",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "神雷震动",
+            "sound_cn": "殿后传来巨大的神雷爆炸声和古神鸠的怒啸，震得地面微微颤动",
+            "sound_en": "massive divine thunder explosion and ancient divine roc's angry screech coming from behind the hall, shaking the ground slightly",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "朱灵",
+      "api": {
+        "voice": {
+          "role": "朱灵",
+          "role_voice": "清冷女神-低沉女声,情感",
+          "speed": "-2%",
+          "volume": "-1%",
+          "pitch": "-1Hz",
+          "text": "你还不去，我蒙凌姊姊赐我衣服，穿上就来。",
+          "instruct": "娇嗔中带着羞意，轻快而急切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "干神蛛",
+      "api": {
+        "voice": {
+          "role": "干神蛛",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我因凌道友与你初见，想代你说几句话，并谢解衣之德。",
+          "instruct": "憨厚中带着窘迫，有些手足无措"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "朱灵",
+      "api": {
+        "voice": {
+          "role": "朱灵",
+          "role_voice": "清冷女神-低沉女声,情感",
+          "speed": "-2%",
+          "volume": "-1%",
+          "pitch": "-1Hz",
+          "text": "我以前那丑样儿，凌姊姊在滇池已早见过。照她为人，只有可怜我的身世，绝不见笑，无须你来表白，还不快走！",
+          "instruct": "急切中带着一点恼怒和撒娇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "干神蛛方始应声飞去。云凤随将衣服匀了几件与她。井问她照采蔽大师所说，你二人分明是久共患难的恩爱夫妻，又不曾为恶，怎会化身蜘蛛？朱灵苦笑道。",
+          "instruct": "平静叙述，略带好奇"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "应声飞去",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "破空飞离",
+            "sound_cn": "干神蛛应声化作一道光飞离，发出轻微的破空声",
+            "sound_en": "Gan Shenzhu transforming into a beam of light and flying away, with a soft whoosh",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "朱灵",
+      "api": {
+        "voice": {
+          "role": "朱灵",
+          "role_voice": "清冷女神-低沉女声,情感",
+          "speed": "-2%",
+          "volume": "-1%",
+          "pitch": "-1Hz",
+          "text": "伤心人别有怀抱，我那累世患难经历，便铁石人听了也要下泪。此时急于往见大方真人，无暇长谈，且等事完奉告吧。",
+          "instruct": "低沉伤感，带着隐忍的痛楚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，随又接口惊喜道妖蚿已快伏诛，我们还不快去？云凤与朱灵一同飞起，往后面雷火宝光飞涌之处赶去。还未飞到当地，便见前面山野中现出六座高达百丈以上的旗门，申、阮、金、石等十余人分立在六门之下。金光祥霞上映重霄，雷火星砂笼罩大地，把方圆一二百里的阵地一起布满。坎宫阵地上现出一座宝鼎，大约丈许，被一片金霞托住，突然出现。由顶上飞出亩许大的一张口，口内射出大片金红色的火花，中杂一青一白两股光气，匹练也似正在朝空激射。一个近百丈长，双头双身，口喷邪烟的怪物，刚由震宫旗门前面冲光冒火而起，看神气似要向空遁走。朱灵方告云凤怪物便是妖蚿。说时迟，那时快，宝鼎怪口中所喷光气，已将妖蚿当头裹住。妖蚿似知不妙，正在挣扎，不料全身早被天璇神砂吸紧。本是欲取姑与，故意放它逃走，以便取它脑中元珠。上面青白二气，便是九疑鼎中混沌元胎，具有无上威力，想逃如何能够。刚挣得一挣，阮征也发出全力，上下夹攻，互相对吸，妖蚿长身立被拉成笔直。空中神鸠早得指示，猛然凌空下击，身子也比较平日长大了好几倍。物性各有相克，妖蚿先前被困阵中，往来冲突之时，闻得神鸠啸声，便听出是专克制它的前古对头，早就心惊。只为身陷旗门，为仙法所制，失了灵性，不知敌人有意乱它心神。因为先被阮征幻象追逐，相持数日，才发现是假，刚刚醒悟，真的又复赶到，上当不止一次，心疑又是假的。性又凶猛残暴，听出极光大火声势越来越猛，暂时虽被敌人禁住，迟早终须爆发。彼时敌人多高法力也难禁受，便自己如非炼就元珠，一样难当。一心想挨到地震山崩，整座神山化成火海，借以报仇。又恐玉石俱焚，身遭波及，明知情势危急，始终不舍将那元珠毁去。后在阵中乱冲，觉着吸力稍减，立时乘机冲起。不料这次上当更大，等到上下吸紧，不能动转，才知万无生理，再想毁珠自杀，已经无及。只见一片佛光自空飞射，竟将头上混元真气挡退了些，百忙中以为有了一线生机，想把元神乘机遁走。就这佛光一闪，瞬息之间，妖蚿这里已将天灵震破。两条与妖蚿同样，长约三尺的妖魂，各含了半尺方圆一团翠色晶莹的宝珠，刚刚向上激射，神鸠突然现形，猛伸开丈许大小的钢爪，分头向下抓去。同时口中喷出大股紫焰，裹住妖蚿，两声惨嗥过去，全被吸入腹内。先喷佛光也已飞回，神鸠张口接住，身形暴缩复原。两翼一展，风驰电掣往左侧飞去，晃眼不见。这时妖蚿只剩死尸，灵气全失，佛光一去，重被青自二气吸住。阮征惟恐宝鼎吸力太大，元珠还未到手，便将妖蚿吸人鼎中化去，为此用神砂将妖蚿下半身吸紧，以便神鸠下手。等元珠夺下，立即收宝。阻力一去，宝鼎威力大增，那么长大的妖蚿死尸，竟似灵蛇归洞，飞一般往宝鼎怪口之中投去，晃眼无踪。阮征也率众人往坎宫阵地赶到，手中灵诀往外一扬，宝鼎立复原状，缩成尺许大小。众人料知妖蚿已被宝鼎炼化，前古至宝果是神妙莫测，互相惊赞不已。阮征随道还有两个难题，一大一小，乙师伯正在施为，不知如何，我们快去看来。说罢，一同飞起，往左侧群峰环绕中的磁源地穴飞去。刚飞过一座高矗入云的玉峰，猛瞥见一片寒光闪闪的碧云，裹着一股其长经天的暗赤色火气，朝最高空中电也似急斜射上去，破空之声震得山摇地动，猛烈惊人，从所未见。回顾海上波涛，本随啸声高涌起数十百丈，此时正似山崩一般往下落去。惊涛尽管浩荡，威势却减小了大半，海啸也已停止。地底风火之声也似潮水一般，由近而远往四外散去。知道灾劫已被消灭，好不欢喜。到后一看，李洪同了龙娃正在欢呼。那地方是翠峰环绕中一片凹地，当中也无地穴，只是一片池塘，翠峰倒影，碧波粼粼，池水甚是清澈。四边不少琪树琼林，满地繁花如锦，景绝清丽，一点不像适才经过灾变景象。石生笑问李洪是何缘故。李洪答道。",
+          "instruct": "宏大激烈，节奏极快，高潮迭起"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "雷火宝光",
+            "trigger_offset": -0.3,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "雷火光涌",
+            "sound_cn": "雷火与宝光在前方汹涌喷发，发出震耳欲聋的轰鸣",
+            "sound_en": "thunderous fire and treasure light surging ahead, with deafening roars",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "宝鼎出现",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "九疑鼎鸣",
+            "sound_cn": "九疑鼎突然出现悬于空中，发出深沉而宏大的嗡鸣，金霞托举",
+            "sound_en": "Nine Doubt Cauldron suddenly appearing and hovering, emitting a deep and grand hum, supported by golden mist",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "青白二气",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "混沌元胎",
+            "sound_cn": "青白二气如同匹练般从鼎口激射而出，发出如同天地初开的轰鸣",
+            "sound_en": "blue and white qi shooting out like bolts of silk from the cauldron's mouth, emitting a sound like the beginning of heaven and earth",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40,
+            "trigger_keyword": "佛光一闪",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光爆发",
+            "sound_cn": "佛光骤然一闪，如同太阳爆发，带着庄严的雷霆之势",
+            "sound_en": "Buddha's light suddenly flashing like a sunburst, with majestic thunderous force",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 55,
+            "trigger_keyword": "两声惨嗥",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "妖蚿惨嗥",
+            "sound_cn": "妖蚿发出两声惨烈的凄厉叫声，响彻天地后戛然而止",
+            "sound_en": "the monstrous Yaoxian letting out two miserable, piercing screams, echoing across the sky and then abruptly cut off",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 68,
+            "trigger_keyword": "钢爪抓下",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神鸠扑击",
+            "sound_cn": "神鸠丈许大小的钢爪猛然抓下，带起凌厉的破空声",
+            "sound_en": "divine roc's zhang-sized steel claws suddenly striking down, with a sharp whooshing sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 85,
+            "trigger_keyword": "碧云斜射",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "碧云破空",
+            "sound_cn": "一片寒光闪闪的碧云裹着暗赤色火气冲天斜射，破空之声震得山摇地动",
+            "sound_en": "a cold-glinting green cloud wrapping dark red fire qi shooting diagonally into the sky, the sound of breaking through the air shaking mountains and earth",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 100,
+            "trigger_keyword": "海啸停止",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "海潮回落",
+            "sound_cn": "海啸之声由近而远逐渐消退，如同山崩般的浪潮轰然落下，水声渐弱",
+            "sound_en": "the tsunami sound gradually fading from near to far, the mountain-like waves crashing down with a roar, the water sound weakening",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 110,
+            "trigger_keyword": "翠峰池塘",
+            "trigger_offset": -0.5,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "清泉静水",
+            "sound_cn": "翠峰环绕中，清澈的池塘碧波粼粼，水声潺潺如琴",
+            "sound_en": "among the surrounding green peaks, a clear pond with rippling blue waves, the sound of water like a gentle zither",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你们没有看见，方才形势多么厉害。那磁光大火最盛之时，因被我的金莲宝座压住穴口，不能出来，下面地火及点燃的元磁真气无法宣泄，威力越来越猛。彼时山林地皮一起震动，眼看就要全数爆炸；四外花树纷纷摇落，如下暴雨一般。幸亏乙师伯全力施为，百计防护，勉强保住。正在危急之际，神鸠忽然飞到，吐下两粒内丹元珠。乙师伯说妖蚿禀千万年纯阴之气而生，此珠功效不在冰蚕之下，可惜用以防灾，不能保全。还有地火磁气全都爆发点燃，此珠虽可引火复原，但经连日地水火风在地底互相激荡，地层已经熔化不少，不将地火发泄，迟早仍是祸胎。几经盘算，已有成竹。接到元珠以后，立时命我闪开，将预先埋伏的仙法禁制一齐发动，穴中地火立时狂喷而出。他让过火头，将两粒元珠上下分掷，下半地火立被一片寒碧光华压了下去。一声雷震，涌起一股清泉，晃眼便将地穴布满，成了这一片池塘。同时另一粒元珠也已爆散，乙师伯跟踪飞起，同化作一片碧云，将那数千丈的火头裹住，向天空中飞去。乙师伯的法力尚且如此，你当是容易的么？现在诸事已定，只等九疑鼎收复海中精怪之后，你们天外神山就住成了。",
+          "instruct": "兴奋激动中带着后怕，语速急促，绘声绘色"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "金莲宝座",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "金莲镇压",
+            "sound_cn": "金莲宝座压在穴口，发出低沉的轰鸣，地面微微震动",
+            "sound_en": "Golden Lotus Throne pressing down on the cave entrance, emitting a low rumble, the ground vibrating slightly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "花树摇落",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "花落如雨",
+            "sound_cn": "四周花树纷纷摇落，花瓣如暴雨般簌簌落下",
+            "sound_en": "flowers and trees shaking and shedding petals all around, petals falling like rain with a rustling sound",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 38,
+            "trigger_keyword": "一声雷震",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "雷震泉涌",
+            "sound_cn": "一声震天巨响后，清泉从地底喷涌而出，水声哗啦，充满生机",
+            "sound_en": "after a thunderous explosion, clear spring water gushing up from underground with a loud splash, full of vitality",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 45,
+            "trigger_keyword": "碧云裹火",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "碧云升空",
+            "sound_cn": "一片碧云裹着数千丈的火头向天空升腾，发出隆隆的破空巨响",
+            "sound_en": "a green cloud wrapping thousands of zhang of fire rising into the sky, with a rumbling boom",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "神鸠何往？",
+          "instruct": "好奇追问，简短急切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "当地震最烈之时，神鸠一到，乙师伯一面行法，一面令它去往海中，防备那些精怪乘机蠢动，当时飞走。听说不夜城主钱康也为此事，率领门人全数出动，与那些精怪斗法多日，除去不少。不过为数大多，又不应该多杀，必需九疑鼎始能镇住。阮师兄怎不快去？",
+          "instruct": "催促急切，语气中带着对同伴的催促"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "阮征",
+      "api": {
+        "voice": {
+          "role": "阮征",
+          "role_voice": "儒雅公子-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "乙师伯本有此意，后因钱道长已经出手，不愿掠人之美，令我缓去，所以先来此地。",
+          "instruct": "沉稳从容，不急不缓地解释"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "钱莱",
+      "api": {
+        "voice": {
+          "role": "钱莱",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "前听家父说，此间海眼中所潜伏的妖精，多半是前古遗孽，猛恶非常，只为畏惧妖蚿侵害，不能出头。妖蚿一死，定必兴风作浪，甚或穿通地窍，逃往中土，祸害生灵，所以必须事前除去，免使为害。不过家父虽然住此多年，深知底细，但门下弟子法力有限，恐难成事。家父也必渴望诸位师伯师叔驾临，请往一叙如何？",
+          "instruct": "恭敬诚恳，带着少年人的热忱和认真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金、石二人不知阮征奉有乙休之命，另有用意，因爱钱莱，首先答应。余人也多随声附和。阮征见众同门已经应诺，不便独异，略一寻思，只得点头。一行十余人同往海中心飞去，遁光神速，一会飞到。这时海啸已止，那些海怪多半觉出厉害，海眼归路又被乙休先用禁法隔断，于是齐往不夜城一带海岸下面洞穴中遁去。另有几个最凶的还在领头作怪，妄想将不夜城占据。钱康知道这些精怪多非善良，休说被它上岸，即使都在近岸一带盘踞，也是未来隐患。又算出乙休同了七矮弟兄，正与妖邪斗法，开建光明境仙府，自己无力往助，反被海怪侵入，面子上也太难堪，便率门人妻子前往堵截。苦斗了四五日，海怪虽除去不少，那最厉害的几个因是出没无常，将门人伤了好几个。这类精怪多具神通变化，除它不易，钱氏夫妻又不敢远离本岛，正在为难。先是古神鸠横海飞来，凌空下击，只一爪，便将内中一个具有无数长须，上附吸盘毒刺的星形怪物抓死，连所喷内丹也吸了下去。那怪物名叫星吴，一雌一雄，最是厉害，性又凶毒狡诈。雌的见雄的一死，立缩形体，遁入海心深处藏起。神鸠为想得它内丹，假装飞走，将身隐去。下余海怪本已多半惊逃，待了一会，无甚动静，重向岛上飞扑。神鸠志在取那星形怪物，尚在守伺，众人恰巧飞到。见近光明境一带还不怎样，再往前飞，遥望海天尽头，现出一座瑶岛玉城，海中波浪如山，直上千百丈。妖雾迷漫之中，时有剑光闪动，许多奇形怪状的妖物时隐时现，上下飞腾，大都三数十丈以上。岛岸玉城之上，散立着好些道装男女，各指着一两道飞剑、法宝，向前抵御。岛边更有一片极长大的青光，防护外层，遇有妖邪冲上，便即挡退。双方斗得正急。阮征昔年本来认识，看出那钱门弟子，好些手忙脚乱。暗忖：乙师伯本来语意活动，并非一定不令前来。以后彼此隔海同修，他子钱莱又是金蝉爱徒，既已来此，何不助他一下，免使为难？将来便有什么难题，看在他儿子份上，也不容坐视，到时再作计较便了。念头一转，立即抢先飞去，手掐灵诀，将鼎一举。宝鼎立时暴长，悬向空中，大口重又出现，喷出金花彩气，神龙吸水般朝下面精怪丛中射去。同时水中星吴见上页久无动静，想拿岛上诸人复仇出气，也在此时飞出水面，被神鸠现形抓去。众精怪逃得稍慢一点的，全被鼎口宝光摄住。众人再把飞剑、法宝纷纷放出，四下合围，全都困住，吓得纷纷怪叫惨嗥，有的并还口吐人言，哀求饶命。七矮终是心善服软，见众精怪除有一半生得特别长大凶恶而外，余者多半具有人形。因由上到下均被天璇神砂罩住，转动不得，一个个正由大变小，往鼎口内投去。知道众精怪少说也有三五千年功候，修成不易；平日畏惧妖蚿，并未出世为恶，有的竟连邪气都无，不由生了恻隐之心。又知宝鼎善于分辨善恶。于是大喝道。",
+          "instruct": "紧张激烈，节奏明快，充满战斗场景的压迫感和紧急感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "海啸已止",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "海潮渐息",
+            "sound_cn": "巨大的海啸声渐渐远去，波浪回落，水声从轰鸣转为舒缓",
+            "sound_en": "the enormous tsunami sound gradually fading, waves receding, water roaring shifting from thunderous to gentle",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "古神鸠横海",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神鸠扑击",
+            "sound_cn": "古神鸠横海飞来，猛然凌空下击，翅膀带起狂风呼啸",
+            "sound_en": "ancient divine roc flying across the sea, suddenly swooping down, wings stirring up howling wind",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "妖雾迷漫",
+            "trigger_offset": -0.3,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "妖雾嘶鸣",
+            "sound_cn": "妖雾在海天之间弥漫翻涌，发出低沉而邪异的嘶鸣声",
+            "sound_en": "demonic mist spreading and surging between sea and sky, with a low and eerie hissing sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40,
+            "trigger_keyword": "宝鼎暴长",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "宝鼎腾空",
+            "sound_cn": "九疑鼎猛然暴长悬空，金花彩气如瀑布般喷涌而出，发出宏大的轰鸣",
+            "sound_en": "Nine Doubt Cauldron suddenly expanding and hanging in mid-air, golden flowers and colorful qi gushing like a waterfall, with a grand rumble",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 55,
+            "trigger_keyword": "纷纷怪叫",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "精怪惨嚎",
+            "sound_cn": "众精怪发出惊恐的怪叫和惨嗥，夹杂着求饶的哀鸣，声音嘈杂混乱",
+            "sound_en": "monsters letting out terrified cries and miserable howls, mixed with pleading whimpers, chaotic and noisy",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无知妖物！盘踞在这等仙山灵境，得天独厚，还不知足，竟敢兴妖作怪，来此扰闹。本应全数诛戮，姑念今日地震，海底难于栖身，事属初犯，稍从宽免。此鼎乃仙、佛两家合炼的前古至宝，专除精怪妖邪，气机相感，如影随形。你们为数大多，难于分辨善恶。现将神砂放松，尔等如能从此洗心革面，就在海中游行，为我神山仙府点缀，永不为恶，只要不被宝鼎神光吸去，便可活命。",
+          "instruct": "威严洪亮，正气凛然，声音带着震慑和慈悲"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众精怪齐声欢啸，舞拜跪谢。那未成人形的也将头连点，以示改悔。阮征运用鼎光暗中查看，见那么多的精怪，只被宝鼎先后吸了十一个，下余全都挣脱，有的并还从容穿光而过，好生欣慰。刚刚发放完毕，对面瑶岛玉城上突飞来两个男女修士，身后跟着好些徒众。钱莱早高呼爹娘！飞身迎去。众人知为首两人便是钱康夫妇，忙收法宝，上前相见。钱康是个羽衣星冠的中年道者。夫妻二人由南宋未年得道，偶因机缘巧合，隐居小南极不夜城，度那神仙岁月，已数百年。除爱子钱莱新近转劫重归外，所有眷属门人全未离开过。此岛也和光明境一样，到处玉砌琼铺，金门翠殿。加上主人多年新建布置，添了好些金银宫阙。当地又是终古光明，城开不夜，每隔九百六十年，只有一二日的黑暗。钱康带了眷属门人长住其中，端的逍遥自在，快乐非常，美景无边，赏玩不尽。只有妖蚿是他一个强敌。多年来苦心积虑，炼了两件法宝，准备用一件防卫本岛，用一件去除此大害。不料法宝尚未炼成，妖蚿元婴已快成长，眼看神通越大，不久即来侵害。正在愁急，恐其先发，钱莱忽追妖人，赶往光明境去，闻报大惊，知道此后永无宁日。虽然心疼爱子，无如仇敌厉害，如在本岛，还能防御，如往妖窟，决非其敌。权衡轻重，只得强忍悲痛，修下绿章，向玉清仙界恩师通诚祝告。同时虔心推算，居然算出一切因果：不特爱子此行因祸得福，并且前数年所筹计未来的事，也可因此得到极大助力，以后神山仙景，更不会再有妖邪盘踞。乙休到时，本欲往助。继一想，不久地震海啸，尚有不少精怪要来侵扰，惟恐损坏本岛仙景。以为乙休神通广大，七矮法力高强，此来必有成算，去了不过锦上添花，不能出甚大力，便没有去。料定对岛诸人必来除妖诛邪，哪知乙休忿他自私，当阮征走后需人之际，未往相助，只顾防卫自己，示意阮征先无须管他闲事。申、阮二人待罪八十一年，全仗乙、凌诸老爱护保全，才得脱难，自然惟命是从，照他意旨行事。如非金、石诸人答应得快，几乎中止，因此晚来一步。钱康见妖蚿伏诛，地震已止，遥望磁光火头已被乙休引走，所盼的人一个未来。只古神鸠略一现身，抓死了一个精怪，便即不见，仿佛专为夺那内丹而来。精怪为数甚多，防不胜防，如非事前防御周密，几乎被它们扑上岛来。门人有三个受伤。正在为难，众人忽然飞临，才一到，便将海中精怪全数制伏，好生惊佩，连忙迎上。爱子已当先赶来，向各位师长一一引见。申、阮二人原是旧交，见面均甚喜慰。钱康便请众人去到宫中款待。那对敌之处，乃是一片五色珊瑚结成的地面，全岛只此一处不是玉质。那地皮直似五色宝石熔铸，细润无比，其平如镜，光鉴毫发。靠海一面，晶岸削立，高出水面只两三丈。四外生着不少大约两三抱的珊瑚树，琼枝丫权，奇辉四射。临海建有一座十余丈高大的金亭，三面花树环绕，面临碧海清波。近岸一带更有不少翠玉奇礁，镂空秀拔，孔窍玲珑。风水相搏，会成一片潮音，洪细相间，仿佛黄钟大吕，萧韶叠奏，音声美妙，好听已极。先前放走的海怪好似感恩诚服，去而复转，连那炼成人体的，全都现出原形，罗列海上，各现出前半身，朝着众人欢笑舞蹈。一个个俱是奇形怪状，彩色斑斓，嘘气成云，排浪如山。微微张口一喷，便有一股银泉射起数十百丈高下，海面上当时便涌起大小数百根撑天水柱。时见吞舟巨鱼，胁生多翅，上下水中，往来飞行。另有鲛蜃之类卖弄伎俩，各喷出一座座蜃楼海市，照样也有金亭玉柱，瑶草琪花，仙山楼阁，人物往来，把近岸数百里的海面点缀成一片奇观。再被这真的神山仙景互相映衬，越觉火树银花，鱼龙曼衍，光怪陆离，雄奇壮丽，简直不可名状。众人年轻好奇，不舍离去。石生、易震同声笑道。",
+          "instruct": "瑰丽宏大，节奏舒缓，充满惊叹和欣喜"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "齐声欢啸",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "精怪欢鸣",
+            "sound_cn": "众精怪齐声发出欢快的啸声和舞动声，一片嘈杂而喜悦",
+            "sound_en": "all the monsters letting out joyful howls and dancing sounds, a chaotic but jubilant noise",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "潮音",
+            "trigger_offset": -0.5,
+            "duration": 14,
+            "process_mode": "overlay",
+            "name": "潮音交响",
+            "sound_cn": "海水拍打翠玉奇礁，发出洪细相间的潮音，如同黄钟大吕与萧韶合奏",
+            "sound_en": "waves washing against emerald jade reefs, producing a symphony of tides with varying tones, like grand bells and flutes playing together",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 35,
+            "trigger_keyword": "银泉射起",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "银泉喷涌",
+            "sound_cn": "海怪喷出数百股银白色水柱冲天而起，水花四溅，如同节日喷泉",
+            "sound_en": "hundreds of silver-white water jets shooting into the sky from sea monsters, splashing like festival fountains",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 48,
+            "trigger_keyword": "蜃楼海市",
+            "trigger_offset": -0.5,
+            "duration": 12,
+            "process_mode": "overlay",
+            "name": "蜃景缥缈",
+            "sound_cn": "鲛蜃喷出蜃楼海市，光影变幻中发出空灵而虚幻的嗡鸣",
+            "sound_en": "jiao and shen creatures creating mirages and castles in the air, with ethereal and illusory hums amidst shifting light and shadow",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "石生",
+      "api": {
+        "voice": {
+          "role": "石生",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我们与主人此后成了一家，不作客套，盛筵自当领谢，但请把席设在此间如何？",
+          "instruct": "爽朗随性，充满少年人的兴高采烈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉也说这里最好。钱康夫妇知道众人想看海景，又因乙休尚未回来，在此迎候也好，立答遵命。旁立门人侍女，早有多人分头飞去，一会，便将盛筵设好，来请入座。钱康刚陪众人入亭就座，忽见一道金光比电还疾，横海飞来。阮征看出乙休所发，连忙赶向前面，接到手内，落下一封柬帖，金光重又飞去。阮征打开一看，不禁大惊失色，忙喊大哥、洪弟、蝉弟，快来！众人早纷纷凑向前去，看完俱都惊急非常。申屠宏随道。",
+          "instruct": "宁静欢快中突转紧张，节奏骤变"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "盛筵设好",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "杯盏轻碰",
+            "sound_cn": "门人侍女摆放杯盏碗筷，发出清脆的碰撞声",
+            "sound_en": "servants placing cups and bowls, with crisp clinking sounds",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15,
+            "trigger_keyword": "金光横海",
+            "trigger_offset": -0.8,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金光飞至",
+            "sound_cn": "一道金光比闪电还快，横跨海面飞至，破空声尖锐刺耳",
+            "sound_en": "a golden light faster than lightning flying across the sea, with a sharp and piercing whistling sound",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "申屠宏",
+      "api": {
+        "voice": {
+          "role": "申屠宏",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我早料到此事必有后文，不想如此厉害。连灵峤三仙也会牵入，事甚扎手。二弟还不便去！此间仙府新设，也难离开，只好由我与蝉、洪二弟送凌师妹四人一行吧。",
+          "instruct": "沉重焦急，语速加快，带着决断"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱康料有极重大的事故发生，否则以众人的法力，绝不会如此惊慌，但新交不便询问。方疑乙休恃强，也许消灭磁光大火未成，中途遇险，干神蛛已先开口道。",
+          "instruct": "紧张猜测，语气低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "干神蛛",
+      "api": {
+        "voice": {
+          "role": "干神蛛",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "愚夫妻可能同行，少效微劳么？",
+          "instruct": "诚恳主动，带着愿意出力的热忱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "申、阮二人同声笑答二位道友如肯同行，自是佳事。说时，钱莱已由四女手中取过一身衣服鞋袜，转赠朱灵。主人看出众人行色匆匆，正欲挽留片刻，小饮两杯再走，七矮所带告急传音法牌突又发出紧急信号。众人一听，越发愁急，略一商谈，申、李、齐、凌、干、朱六人便向主人告别。要知是何紧急之事，请看下文。",
+          "instruct": "急促收束，带着悬念和紧迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "衣服鞋袜",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "衣料轻响",
+            "sound_cn": "取过衣服鞋袜时发出轻柔的布料摩擦声",
+            "sound_en": "a soft rustle of fabric as clothes and shoes are handed over",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "紧急信号",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "法牌鸣响",
+            "sound_cn": "告急传音法牌发出尖锐急促的鸣响，如同刺耳的警报声",
+            "sound_en": "emergency transmission token emitting a sharp and urgent buzzing sound, like a piercing alarm",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "星涛血焰余烬",
+        "start_line": 1,
+        "end_line": 1,
+        "prompt": "very subtle low volume cinematic background ambience, aftermath of fierce battle in void, fading embers of blood-red flames and starlight, faint metallic ozone in thin air, distant sizzle of dissipating energy, vast cold emptiness of upper atmosphere, deep hollow resonance of ancient battle site, restrained awe and tension, subtle guqin low lingering note, soft breath of xiao far away, no foreground sounds, no voices, no music melody",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "南极荒原飞越",
+        "start_line": 2,
+        "end_line": 4,
+        "prompt": "very subtle low volume cinematic background ambience, antarctic wilderness under strange stars, fierce cold wind sweeping over snow and ice, distant howl of wind across frozen plains, massive deep craters and frozen rivers below, harsh and barren terrain, primitive and ancient atmosphere, soft distant drum-like resonance of shifting ice, no sharp sounds, no voices, no music",
+        "volume": "-24%",
+        "fade_in": 3,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "地轴之下迷蒙",
+        "start_line": 5,
+        "end_line": 8,
+        "prompt": "very subtle low volume cinematic background ambience, deep beneath the earth's axis, thick chaotic mist swirling in slow motion, faint light from distant strange stars filtering through, ancient cosmic stillness, deep silence of the void, subtle hum of magnetic currents far away, no sharp sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 4,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "极光世界",
+        "start_line": 9,
+        "end_line": 13,
+        "prompt": "very subtle low volume cinematic background ambience, vast aurora realm beyond the atmosphere, magnificent curtains of five-colored light flowing like rivers in the void, soft luminous hum of cosmic rays, ethereal and grand, deep quiet of space, faint shimmer of distant stars, no sharp foreground events, no voices, no music, no melody, no repetitive loop feeling",
+        "volume": "-24%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "元磁黑气穿行",
+        "start_line": 14,
+        "end_line": 16,
+        "prompt": "very subtle low volume cinematic background ambience, inside the thick magnetic dark qi, dense black mist like solid wall, deep rumbling of magnetic forces, faint crackling of cosmic energy, immense pressure and heat building, desperate urgency, dark and overwhelming, subtle low drone of yang fire beneath, no voices, no music, no sharp foreground sounds, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "穿越之后-大气层外",
+        "start_line": 17,
+        "end_line": 19,
+        "prompt": "very subtle low volume cinematic background ambience, after crossing the magnetic layer, vast calm of outer space, distant starry sky, faint glow of the cosmic ring behind, gentle relief after danger, cool and serene, subtle breath of cosmic wind, soft deep resonance of guqin, no sharp sounds, no voices, no music melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "远观光明仙境",
+        "start_line": 20,
+        "end_line": 22,
+        "prompt": "very subtle low volume cinematic background ambience, distant view of Guangming Realm, floating immortal mountains and pavilions suspended in void, jade forests and flower trees like brocade, vast ocean with towering waves, red clouds and auspicious light everywhere, majestic and divine, faint breeze carrying fragrance of celestial flowers, subtle distant bells and chimes of immortals, no sharp sounds, no voices, no music melody",
+        "volume": "-24%",
+        "fade_in": 4,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "战场-妖龙与群仙斗法",
+        "start_line": 23,
+        "end_line": 24,
+        "prompt": "very subtle low volume cinematic background ambience, fierce battlefield at Guangming Realm, thunderous clash of divine thunder and magical treasures, roaring of ancient dragon and howling of wind and fire, underlying earthquake and tsunami sounds far below, chaos and intensity, overwhelming energy, no distinct foreground events, no voices, no music melody, no sharp pops or noise bursts",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 4,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "战后平定-仙宴初设",
+        "start_line": 25,
+        "end_line": 59,
+        "prompt": "very subtle low volume cinematic background ambience, tranquil after great victory, jade terrace by the sea, gentle waves lapping against colorful coral reefs, soothing tide music like ancient chimes, soft sea breeze carrying scent of flowers and salt, distant gentle splashing of friendly sea monsters performing, peaceful and jubilant, subtle bamboo flute and guqin in harmony, no sharp sounds, no voices, no music melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 4,
+        "fade_out": 4,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

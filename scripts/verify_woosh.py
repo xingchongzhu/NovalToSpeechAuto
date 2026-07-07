@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
-SCRIPT_DIR = ROOT_DIR / "小说批量工具" / "脚本"
+SCRIPT_DIR = ROOT_DIR / "novel_tool" / "scripts"
 OUTPUT_PATH = ROOT_DIR / "output" / "verify" / "woosh_verify.wav"
 
 

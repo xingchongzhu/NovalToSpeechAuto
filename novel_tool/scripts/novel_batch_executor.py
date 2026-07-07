@@ -274,7 +274,7 @@ def main():
     # 计算项目根目录的绝对路径（脚本目录的上两级）
     project_root = os.path.abspath(os.path.join(script_path, "../.."))
     
-    parser.add_argument("--script-dir", type=str, default="./小说剧本", 
+    parser.add_argument("--script-dir", type=str, default="./novel_scripts", 
                        help="小说剧本目录路径")
     parser.add_argument("--output-dir", type=str, default=os.path.join(project_root, "output"), 
                        help="输出目录路径")

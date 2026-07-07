@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "http://www.xheiyan.info"
 NOVEL_NAME = "剑来"
-OUTPUT_DIR = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/小说批量工具/小说剧本/剑来"
+OUTPUT_DIR = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/novel_tool/novel_scripts/剑来"
 
 def get_chapter_links():
     response = requests.get(f"{BASE_URL}/jianlai/")

@@ -22,14 +22,14 @@ import queue
 from pathlib import Path
 
 # 添加脚本目录到 sys.path 以便导入音频模块
-_script_dir_abs = str(Path(__file__).resolve().parent.parent / "小说批量工具" / "脚本")
+_script_dir_abs = str(Path(__file__).resolve().parent.parent / "novel_tool" / "scripts")
 sys.path.insert(0, _script_dir_abs)
 
 # ======================== 路径配置 ========================
 BASE_DIR = Path(__file__).resolve().parent.parent
-SCRIPT_DIR = BASE_DIR / "小说批量工具" / "脚本"
-SCRIPT_BASE = BASE_DIR / "小说批量工具" / "小说剧本"
-SCRIPT_RAW_BASE = BASE_DIR / "小说批量工具" / "小说剧本原稿"
+SCRIPT_DIR = BASE_DIR / "novel_tool" / "scripts"
+SCRIPT_BASE = BASE_DIR / "novel_tool" / "novel_scripts"
+SCRIPT_RAW_BASE = BASE_DIR / "novel_tool" / "novel_scripts_raw"
 CLONE_AUDIO_DIR = BASE_DIR / "clone-audio"
 OUTPUT_DIR = BASE_DIR / "output"
 
@@ -141,7 +141,7 @@ def _find_script_json(novel_name: str, chapter_name: str):
 def get_regen_info(audio_rel_path: str):
     """根据音频相对路径，解析出对应的剧本文本信息（用于展示）"""
     p = Path(audio_rel_path)
-    parts = p.parts  # e.g. ('output', '蜀山剑侠传json稿', '第55回', '配音', 'voice_line_49.wav')
+    parts = p.parts  # e.g. ('output', '蜀山剑侠传_json', '第55回', '配音', 'voice_line_49.wav')
     if len(parts) < 4 or parts[0] != 'output':
         return {"error": "无法解析路径"}
     novel_name = parts[1]
@@ -857,7 +857,7 @@ def update_clone_voice_row(name: str, new_name: str, new_feature: str, new_scene
     return {'status': 'ok', 'updated': updated}
 
 
-CHAR_VOICE_TABLE_DIR = BASE_DIR / "小说批量工具" / "小说角色配音关系表"
+CHAR_VOICE_TABLE_DIR = BASE_DIR / "novel_tool" / "character_voice_tables"
 
 
 def _normalize_novel_name(novel_name: str) -> str:
@@ -884,8 +884,8 @@ def _get_char_voice_md_path(novel_name: str):
     p2 = CHAR_VOICE_TABLE_DIR / f"{novel_name}角色配音表.md"
     if p2.exists():
         return p2
-    # 去掉 json稿 后缀再试
-    for suffix in ('json稿', 'JSON稿'):
+    # 去掉 _json 后缀再试
+    for suffix in ('_json', 'json稿', 'JSON稿'):
         if novel_name.endswith(suffix):
             base = novel_name[:-len(suffix)]
             p3 = CHAR_VOICE_TABLE_DIR / f"{base}角色配音表.md"
@@ -982,7 +982,7 @@ def update_char_voice(novel_name: str, char_name: str, new_voice: str,
         if _pure.endswith(_suf):
             _pure = _pure[:-len(_suf)].strip()
             break
-    novel_script_dir = SCRIPT_BASE / f"{_pure}json稿"
+    novel_script_dir = SCRIPT_BASE / f"{_pure}_json"
     if not novel_script_dir.exists():
         # 尝试查找包含纯小说名的目录
         for d in SCRIPT_BASE.iterdir():

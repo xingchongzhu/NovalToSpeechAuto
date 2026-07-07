@@ -6,7 +6,7 @@ import time
 import random
 from bs4 import BeautifulSoup
 
-output_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/小说批量工具/小说剧本原稿/蜀山剑侠传"
+output_dir = "/Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/novel_tool/novel_scripts_raw/蜀山剑侠传"
 
 sources = [
     "https://www.shushanxia.com/10154/{}.html",

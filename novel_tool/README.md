@@ -11,14 +11,14 @@
 ## 项目结构
 
 ```text
-小说批量工具/
-├── 小说剧本/                              # 按小说名组织的章节 JSON 剧本
-│   └── 蜀山剑侠传json稿/
-├── 小说剧本原稿/                          # 小说原始 TXT 文稿及 JSON 转换稿
+novel_tool/
+├── novel_scripts/                         # 按小说名组织的章节 JSON 剧本
+│   └── 蜀山剑侠传_json/
+├── novel_scripts_raw/                     # 小说原始 TXT 文稿及 JSON 转换稿
 │   └── 蜀山剑侠传/
-├── 小说角色配音关系表/                    # 每部小说的正式角色配音表
+├── character_voice_tables/                # 每部小说的正式角色配音表
 │   └── 蜀山剑侠传角色配音表.md
-├── 脚本/
+├── scripts/
 │   ├── audio_processing_module.py        # 核心音频处理与合成逻辑
 │   ├── novel_batch_executor.py           # Python 批量执行入口
 │   ├── novel_batch_manager.sh            # Shell 批处理管理脚本
@@ -196,7 +196,7 @@
 
 ```text
 output/
-└── 蜀山剑侠传json稿/
+└── 蜀山剑侠传_json/
     ├── 片头片尾/
     │   ├── 片头_xxxxx.mp3
     │   └── 片尾_xxxxx.mp3
@@ -214,7 +214,7 @@ output/
 
 ```text
 小说音频/
-└── 蜀山剑侠传json稿/
+└── 蜀山剑侠传_json/
     └── 第一回-月夜棹孤舟..._整书免费.mp3
 ```
 
@@ -233,7 +233,7 @@ output/
 把章节 JSON 放到：
 
 ```text
-小说批量工具/小说剧本/{小说名}/
+novel_tool/novel_scripts/{小说名}/
 ```
 
 并确保：
@@ -253,7 +253,7 @@ pip install pydub ffmpeg-python requests
 ### 3. 运行批处理
 
 ```bash
-cd 小说批量工具/脚本
+cd novel_tool/scripts
 ./novel_batch_manager.sh
 ```
 

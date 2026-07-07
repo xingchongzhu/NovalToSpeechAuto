@@ -8,7 +8,7 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # 配置项（使用绝对路径）
-SCRIPT_BASE_DIR="$SCRIPT_DIR/../小说剧本"
+SCRIPT_BASE_DIR="$SCRIPT_DIR/../novel_scripts"
 # 统一输出目录到项目根目录
 OUTPUT_BASE_DIR="$SCRIPT_DIR/../../output"
 # 统一临时目录到项目根目录的output下

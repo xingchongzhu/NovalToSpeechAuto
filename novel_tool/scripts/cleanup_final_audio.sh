@@ -9,7 +9,7 @@
 # ============================================================
 set -euo pipefail
 
-OUTPUT_DIR="output/蜀山剑侠传json稿"
+OUTPUT_DIR="output/蜀山剑侠传_json"
 
 if [ ! -d "$OUTPUT_DIR" ]; then
     echo "错误: 目录 $OUTPUT_DIR 不存在"
