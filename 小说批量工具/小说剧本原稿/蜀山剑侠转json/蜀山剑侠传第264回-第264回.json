@@ -1,0 +1,2549 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第264回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "金蝉": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石生": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "甄艮": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "甄兑": {
+      "role_voice": "文乐-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "阿童": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "干神蛛": {
+      "role_voice": "元气少年-磁性,性感",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "+1%"
+    },
+    "灵奇": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "石完": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "玄玉": {
+      "role_voice": "文乐-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "+1%"
+    },
+    "寒光": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第264回",
+          "instruct": "庄重开场，沉稳有力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "绝海渡鲸波 喜得冰纨传秘奥求丹行铁甬 巧穿石壁赴璇宫申、阮二人送走二女，又往魔宫扫荡邪氛，将全宫行法毁灭，成为平地，方始往寻李洪，说起数日之内往返小南极的经过。原来金蝉、石生、甄艮、甄兑、易鼎、易震等六人奉命下山时，金蝉因七矮中为首的阮征待罪在外，尚未返回师门，特意把小神僧阿童拉来补缺，凑成七矮之数。自从南疆大战红发老祖，又随易静、癞姑、李英琼同往陷空岛求取万年续断和灵玉膏，为秦寒萼、李文衍、向芳淑三女同门医那化血神刀之伤。到手以后，与岳雯新收未入门的弟子灵奇，一行十一人飞回中土，到了西川境内，各自分手。易静等三人自往幻波池，去除妖尸玉娘子崔盈。金蝉等八人自往姑婆岭，给秦、李、向三女送药。到时三女正被群邪围困，幸八人赶来，诛邪解危，得免于难。并因此交了两个道友：一是土木岛主商梧、商栗的门人卜天童，一是麻冠道人司大虚唯一得意门人干神蛛。二人因追妖妇赵金珍，误入秦岭石仙王昔年石宫地府故居，毁了不少仙景，将石仙王派来守洞的一个怪人，连所庇护的妖魂一齐诛杀。幸而南海双童甄氏弟兄，将石仙王之孙石完收到七矮门下，免去双方嫌怨，未生枝节。跟着带了灵奇、石完，往峨眉拜见师祖，正值闭关期中，未得进谒。偶往解脱坡探访天狐宝相夫人，巧遇黎人云翼之妹云九姑。并受宝相夫人之托，分途赶往贵州娄山关九盘岭左道妖人癫僧盘踞的巢穴以内，杀死两个妖徒，救出云翼和癫僧所禁制的九姑真形，癫僧也受伤逃去。当地本名金石谷少清仙府，原是道家西南十四洞天，景物本极灵秀。又经癫僧多年布置兴建，到处瑶草琪花，缤纷满目，修竹流泉，交相掩映，越觉水木清华，洞壑幽奇，仙景无边，观赏不尽。七矮先因所奉仙示偈语隐微难测，屡次推详，好像自己所辟建的洞府，似在云贵野人山南疆一带，又似另有一所远出天外的极好去处。可是经年寻访，飞遍字内名山，未有遇合。一见当地风景如此美妙，地名又与金、石二人暗合，以为仙示已经应验，甚是高兴，正想作那久居之计。不料癫僧虽因小妖徒韦蛟在斗法前巧遇石生，改邪归正，拜在七矮门下，拜师以前见癫僧危急，舍命求救，得保元神，连身遁走。但是癫僧虽系左道旁门，法力甚高，自知大劫将临，难于避免，为此想下两样主意：准备强迫云九姑嫁他，将未几页道书得到手中，一同修炼，仗以免难，作一地仙，固是心愿；否则，便在期前两年，设法兵解。事前原有成算，不料将七矮引来，未容将计就计，身受众人围攻，又被阿童佛光罩住，如非韦蛟舍命相救，势必形神皆灭。虽得逃走，心仍未死，不多几日，连往故居侵扰，均为七矮所败。第二次并被擒住，也是韦蛟向众跪求放却。第三次又往，事前七矮发现他昔年恶迹，同时看出他想借阿童神木剑兵解的用意。因癫僧这次做得太狠，将石生新用仙法布置的一处美景毁坏，全都激怒，欲使形神俱灭，由当地起，直追到云南滇池香兰清旁小瀛洲上空。癫僧眼看危急万分，幸蒙前辈散仙宁一子出头，代为说情，才得如愿兵解。本来无事，偏巧赤身寨两妖徒也在此时路遇，一个为石完所杀，一个逃时口发狂言。七矮师徒杀完癫僧，别了宁一子，便跟踪追赶。到了赤身寨，与为首妖人列霸多、长臂神魔郑元规师徒多人苦斗了七日夜。末了，向芳淑约同凌云凤，带了沙余、米余二徒和新得的两件至宝赶来，双方合力将全寨妖孽诛杀殆尽。甄氏弟兄和米余却为七煞乌灵毒刀所伤，甄兑断去一只左手，米余断腿，受伤更重。金蝉知道云凤还未找着洞府，便请她暂带沙、米两小，前往金石洞调养待救，并助韦蛟留守。自己率众去往北海陷空岛，再向陷空老祖求取灵药。说完，云凤师徒先走。甄氏弟兄虽然受伤，仗有灵丹御毒止痛，照样飞行。干神蛛也要随去，金蝉等已早看出他为人心性，双方成了至友，自然愿意。因都怜爱沙、米两小人，略为商谈，匆匆起身。以为陷空岛乃旧游之地，上次取药，主人相待颇好，这次前往必能如愿。众人年轻好友，同居一处，不舍离开，上来便把遁光连在一起，把臂同飞，一路说笑甚欢，并未细想。灵奇虽知主人上次曾有'此后不令入境'之言，但是孺慕情殷，想见乃父灵威叟。又知这几位师叔都好说话，就有不合，不至怪责，何况此举由于思亲，见未阻止，便随了去。走到路上，想起岛主法令甚严，向不许人违背，父亲又在他的门下，如何明知故犯？有心告知众人，中途退回，无如海天辽隔，路逾十万，父子二人难得相见，岛主不许自己登门，好容易遇到这等机会，又觉不舍，一路思潮起伏，进退两难。众人飞行神速，不消一日，已飞入北极冰洋边界。只见下面寒流澎湃，悲风怒号，万里鲸波，全在冻云冷雾笼罩之中，一片沉冥，望不到底。一座座的冰山，顺着海浪飘来，上载千百年的积雪，远近罗列，互相激撞。或是浮着浮着，忽然自行中断崩裂，海波当时激起好些水柱，高涌数十百丈。此外冰岸冰山受了震荡，冲撞越多，轰隆巨响，远近应和，汇为一片繁音巨籁。时见鲛、鲸等百十丈长的大鱼，在海面上出没游行，吹浪如山，嘘气成云。玄冥界天限严关已将在望，灵奇念切思亲，心中愁急，不禁现于颜色。众人横海飞行，极目万里，正觉波澜壮阔，奇景难穷。金、石二人因见灵奇从起身便未开口随众说笑，先当他为人恭谨，未怎在意。这时见他满面愁容，忽然想起。金蝉首问：",
+          "instruct": "叙述详略得当，节奏舒缓，既有壮阔又有伏笔"
+        },
+        "effects": [
+          {
+            "trigger_delay": 18.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "北极冰洋",
+            "trigger_offset": -1.5,
+            "name": "寒流澎湃",
+            "sound_cn": "北极冰洋寒流奔涌，巨浪拍击冰山的持续轰鸣",
+            "sound_en": "cold ocean currents surging continuously, massive waves crashing against towering icebergs with deep rumbling echoes",
+            "volume": "-20%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 26.8,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "冰山",
+            "trigger_offset": -1,
+            "name": "冰山崩裂",
+            "sound_cn": "冰山突然崩裂，巨大冰块落入海中的巨响与水花飞溅",
+            "sound_en": "loud cracking of an iceberg breaking apart, massive chunks of ice crashing into the sea with thunderous splashes",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 35.2,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "冰岸冰山",
+            "trigger_offset": -0.5,
+            "name": "冰山激撞",
+            "sound_cn": "多座冰山相互激撞的沉重轰鸣与冰屑飞溅声",
+            "sound_en": "heavy grinding and crashing as multiple icebergs collide, ice splinters flying, deep groaning of frozen giants",
+            "volume": "-18%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 44.8,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "鲸波",
+            "trigger_offset": -1,
+            "name": "巨鲸喷水",
+            "sound_cn": "巨鲸在海面上喷水换气，水柱冲天的轰鸣与低沉呼吸声",
+            "sound_en": "great whales surfacing and blowing massive columns of water, deep resonant breathing echoing across the ocean",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 52.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "悲风怒号",
+            "trigger_offset": -0.5,
+            "name": "北极寒风",
+            "sound_cn": "北极苦寒之地的悲风怒号，呼啸掠过冰原海面",
+            "sound_en": "bitter arctic wind howling mournfully across the frozen sea, sharp gusts cutting through ice and fog",
+            "volume": "-22%",
+            "pitch": "-2Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你是怕岛主不许你入境么？",
+          "instruct": "温和询问，带着关切与察觉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵奇也想到事态凶险，不应如此冒失，闻言躬身答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "弟子本想随同诸位师叔神僧，往见家父一面，但知师祖法严，不敢妄人。意欲过了玄冥界，便即落下，去往昔日乌神叟所居神峰故径之外守候。求师叔与家父一口信，请抽空赶出，使弟子得见家父，感恩不尽。",
+          "instruct": "语气恭敬而恳切，带着淡淡的愁绪与期盼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉还未及答，石生素孝，上次听说陷空老祖不许灵奇父子相见，便抱不平，首先接口道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "石生",
+      "api": {
+        "voice": {
+          "role": "石生",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "岛主此举本来不近人情，如照他那岛规，便于道友和石完也未必许他进去。岛上奇景实在举世所无，另有它的妙处。北极磁光也因此岛正对南极子午线，能见全景。先前不请干道友同来，说在前头，也还罢了。如今十万里外横海飞来，好容易有此机缘，如何望门却步？情理上也对不起朋友，岛主此举更是不近人情。依我之见，既来之，则安之，我们还是一同进去，到了岛宫对岸，把那防守海岸的精怪唤出，令其代为通报。就说干道友和石完二人是仰望他的威名和岛宫海底奇景，特意前来拜望。灵奇乃我们的师侄，因为随同行道，他道浅力薄，初入师门，尊长全都不熟，目前各派妖邪正乘师长闭关之际，到处寻仇，强敌甚多，未便令其孤身在外；又想念他父，意欲一见，请其开恩，收回前命，许随我们入宫拜见。肯了固好，不肯，至多不许进去，想也不至翻脸为仇。你看好么？",
+          "instruct": "爽朗仗义，语速稍快，带着少年人的意气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉笑道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你倒说得轻松。此老有名刚愎，性情古怪，不通情理。上次行时，原说连玄冥界也不许灵奇踏进一步，休说玉殿晶庭，便岛宫海岸也不能到，按说此事绝对不行。但我来时已经想过，一则此老将来有求于我；二则上次来时，原说我们如将他的叛徒郑元规杀死，便不消犯那战门灵癸殿、丹井等奇险，去往丹室，盗取灵药。这次郑元规恰被我们杀死，形神皆灭，替他出了一口恶气。而郑元规被杀，又因灵奇知他底细，从旁提醒，我们才得成功，未被妖魂逃遁。干道友也是出力最多的人。此行实是有词可借。你们不必发愁，到时我自有话说。既带他来，焉有中途退缩之理？岛主如若见怪，我便说他禁制神妙，道法高深，我们非有灵奇领路，无法深入宝山，故此带了同来。有什责罚，我自承当，此老虽不讲理，想必不至对我下那毒手。可惜温玉、冰蚕均在峨眉，此时无法往取，否则他还更高兴，当我们嘉客登门呢。",
+          "instruct": "从容自信，带着少年人的机智与担当"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人俱觉言之有理。只灵奇深知主人性情，心中不无疑虑，但想这等说词，对方当不至于十分翻脸成仇，至多把自己辱骂一顿。只要见到父亲，再因此一来，把话说开，使其收回前言，他年父子相见，岂非万幸？于是便未再说。众人以为轻车熟路，一过玄冥界天限，便可按照上次所行之路，仍由灵奇引导入内。哪知上次众人取药走后，陷空老祖防范更严，不特神峰下面出口的晶壁行法封闭，连灵奇昔年发现的那条震源通路也被隔断，无法寻找。众人先并不知真相，又因主人法力高强，所居霜华宫设有法坛，按照一元五宫，略一转动，两三千里外人物往来，纤微悉睹。为求缜密，索性连玄冥界神峰天险都不去犯它，径由上次斗白熊的冰洋海岸，顺地底穿行入内，等到岛宫对岸绣琼源，再出其不意，突然飞出，通名求见。及至找到海獭土穴，飞将出来，仍用前法，一同前进，才只三数百里，忽见地底震脉甚多，道路分歧，时遇阻碍，与上次迥不相同，心已生疑。先还仗着灵奇地理熟悉，南海双童师徒与干神蛛均擅穿山行地之术，易氏弟兄更有九天十地辟魔神梭，任何坚厚的冰雪石土皆不能阻。只当又经过了一次地震，把上次通路填没。等到再走二百余里，不是道路毫无，便是曲径弯环，形如螺旋。最后一次，竟绕回到了原处，几乎连方向也难分别。因未见什么法力阻隔，仍不在意。互相商量，料知通路已经堵塞，决计由南海双童师徒三人辨明方向，照准往陷空岛那一面，用地行法当先开路，众人跟在后面直穿过去。这一来，居然又穿行了五七百里，比起刚才初入地时还快得多。哪知正走之间，当头三人猛觉前面有一股奇冷之气扑上身来，因未见有别的异状，仍旧施展法力，向前冲去。本来众人非要吃点小亏不可，尚幸灵奇机智细心。先见旧路堵塞，因在岛上居住多年，天时地理最是熟悉，知道当地冰山虽常有崩塌，地形容易变异，因有神峰火口常年狂喷火焰，宣泄地气，地震数十百年难遇一次，怎会如此？又见沿途曲径弯环，平列地底，高低却差不多，也与地震裂缝不同。尤其是一处处形如螺旋，上下都有。知道主人法力甚高，有时敌人已经深入腹地，还看不出，有时只使来人知难而退，还不妨事。否则，到了最后一关，所有埋伏一齐触动，越发难辨，不可收拾，来人能保得全身逃去，便是大幸。早就生疑，有了戒心，一直用心提防。这时紧跟在甄氏之后，一觉对面有冷气扑来，便知不妙。再如前进，万一所伏寒雷冷焰突然爆发，纵令众人法力高强，骤出不意，事前未用法宝防身抵御，这等寒毒之气撞上，受伤也是不轻。万一对方再用毒计，将众人倒翻在北极地窍之内，更是凶多吉少，难于藏身。赶忙上前唤住。偏巧石完童心好胜，初入师门，不明礼让，仗着身秉灵石精气而生，穿山透石，如鱼游水，竟与乃师抢先飞驶。甄氏弟兄知他一味天真，此举实是卖弄他的天赋本能与家传独门神通，志在讨好自己，想得夸奖，并非不敬。心想：",
+          "instruct": "紧张叙述，节奏逐渐加快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "晶壁行法",
+            "trigger_offset": -0.5,
+            "name": "晶壁封闭",
+            "sound_cn": "晶壁行法封闭时的沉闷轰鸣与冰晶凝结声",
+            "sound_en": "low rumbling as crystal wall seals shut, ice crystals forming and locking with a deep resonant thud",
+            "volume": "-24%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 18.8,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "地底震脉",
+            "trigger_offset": -0.5,
+            "name": "地底震动",
+            "sound_cn": "地底深处传来的持续低沉震动与岩石挤压摩擦声",
+            "sound_en": "deep continuous rumbling from beneath the earth, rocks grinding and shifting under immense pressure",
+            "volume": "-22%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 32.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "曲径弯环",
+            "trigger_offset": -0.5,
+            "name": "螺旋甬道",
+            "sound_cn": "螺旋形甬道中的轻微回响与泥土摩擦声",
+            "sound_en": "faint echoing footsteps in spiral tunnels, soft scraping of earth against stone walls",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 48.2,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "奇冷之气",
+            "trigger_offset": -1,
+            "name": "寒气扑面",
+            "sound_cn": "极寒之气扑面而来的嘶嘶冰冻声与冰晶爆裂",
+            "sound_en": "hissing sound of extreme cold air rushing forward, ice crystals forming and cracking instantly",
+            "volume": "-18%",
+            "pitch": "-2Hz"
+          },
+          {
+            "trigger_delay": 53.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "石完抢先飞驶",
+            "trigger_offset": -0.5,
+            "name": "穿石破土",
+            "sound_cn": "石完穿石破土的快速摩擦声与土石飞溅",
+            "sound_en": "rapid grinding and scraping as Shi Wan burrows through stone and earth at great speed, soil scattering",
+            "volume": "-20%",
+            "pitch": "+1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "甄艮",
+      "api": {
+        "voice": {
+          "role": "甄艮",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "看他天生特长，在地底能走多快？",
+          "instruct": "内心独白，带着一丝好奇与纵容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便由他去。这时恰被抢在前面，约有两三丈远。同时前面埋伏也被触动，只还不曾爆发。石完觉着师父地行法还没有他快，正在卖弄精神，加急前驰，猛瞥见迎面一片寒碧光华突然飞涌，冲上身来，不由机伶伶打了一个寒战。随听后面灵奇急呼：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "寒碧光华",
+            "trigger_offset": -0.5,
+            "name": "寒光飞涌",
+            "sound_cn": "寒碧光华突然飞涌而出的冰冷嘶鸣与能量爆发",
+            "sound_en": "sharp hissing burst of cold green light erupting, frost energy crackling and spreading in all directions",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.2,
+            "duration": 2,
+            "process_mode": "overlay",
+            "trigger_keyword": "机伶伶打了一个寒战",
+            "trigger_offset": -0.5,
+            "name": "寒战之音",
+            "sound_cn": "石完全身颤抖时衣料摩擦与牙齿轻叩声",
+            "sound_en": "slight shiver of fabric and faint chattering of teeth as Shi Wan trembles from the sudden cold",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "师弟、师叔，快快止步请回！",
+          "instruct": "急切呼喊，语气惊惶"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "同时阿童同了金、石、易诸人正走之间，心灵上忽起警兆，不由戒备。跟着身上一冷，目光到处，石完已将碧光引发。又听灵奇大声疾呼，料知不妙，把手一指，一片佛光金霞电也似急飞将出去，挡向前面。石完也闻声飞退回来。灵奇见埋伏已被触动，不及细说，忙喊：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "佛光金霞",
+            "trigger_offset": -0.5,
+            "name": "佛光展开",
+            "sound_cn": "佛光金霞骤然展开的柔和轰鸣与神圣气息",
+            "sound_en": "soft resonant hum as golden buddhist light expands rapidly, sacred radiance pushing back the freezing energy",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.8,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "飞退回来",
+            "trigger_offset": -0.5,
+            "name": "急退落地",
+            "sound_cn": "石完飞退落地时的沉重脚步声与土石震动",
+            "sound_en": "heavy thud as Shi Wan lands after retreating rapidly, feet hitting the earth with a dull impact",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "诸位师叔神僧快退，如往地底穿下最好。",
+          "instruct": "急切催促，语气紧张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人见他神色惊惶，料有缘故。石完首先应声开路，往地底深处穿去，众人跟踪而下。阿童发出佛光，干神蛛发出大片灰色的光网，护往上面，断后同行。众人应变极速，刚刚下落丈许，那寒碧光华随着佛光一撤，已和电一般快，由头上入口潮涌而过，后面更夹着许多银电般亮的针芒，耳间爆音轰轰，宛如密雷。如非佛光盖住穴口，定被跟踪追来。等众人下降了数十丈，上面方始过完。隐闻雷声猛烈，朝前面来路响去，一晃响出多远，不时听到几声极沉闷的巨震，地底好似波浪起伏一般，不住晃荡。灵奇请众人暂停，连说：",
+          "instruct": "紧张激烈，语速极快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "灰色光网",
+            "trigger_offset": -0.5,
+            "name": "蛛网护盾",
+            "sound_cn": "灰色光网展开的嘶嘶声与能量波动",
+            "sound_en": "hissing and crackling as gray web-like light expands, forming a protective barrier above",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.8,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "寒碧光华",
+            "trigger_offset": -0.5,
+            "name": "寒雷爆发",
+            "sound_cn": "冷焰寒雷接连爆发的沉闷巨响与银针飞射嘶鸣",
+            "sound_en": "series of muffled thunderous explosions as cold flame thunderbolts detonate repeatedly, silver needle-like rays hissing through the earth",
+            "volume": "-12%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 15.2,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "地底晃荡",
+            "trigger_offset": -0.5,
+            "name": "地底震荡",
+            "sound_cn": "地底持续晃荡的沉闷轰鸣与岩石摩擦坍塌声",
+            "sound_en": "continuous deep rumbling as the earth shakes violently, rocks grinding, collapsing, and shifting under pressure",
+            "volume": "-18%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "好险！",
+          "instruct": "心有余悸，声音低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人问他何故如此惊慌？灵奇道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "此是岛主冷焰寒雷，乃万年前寒毒之气所积精英凝炼而成，厉害无比。虽有小神僧与诸位师叔的至宝奇珍护体，不致受它大害。但一不留神，佛光法宝不及施为，那寒毒之气比上次诸位师叔在战门灵癸殿所遇阴毒得多。尤其那寒雷已经爆发，威力至大，对面撞上，哪怕一座钢山也成粉碎，抗力越大，它也越凶。最厉害的是见缝就钻，无孔不入。等它通过升出地面，遇到热气自行爆散，万里冰原生物稀少，还好一些。如在地底遇到阻碍，接连爆发，生生不已，那一带千百里方圆，数十百丈深厚的地面，定被整个揭去，震裂成一个大洞。从此当地冰坚胜铁，终年笼罩着数十百丈高的一团冷雾，变成奇寒之地，任何生物不能走近一步。至少经过数十年，才能逐渐减退。端的厉害已极。方才幸是下降，如由来路退回，除非飞行比它更快，一直退出千余里入口之外，如被迫上，固是难当。我们再如不愿远退，中途停留，或是回身抵御，想要破它，小神僧和诸位师叔也许无妨，弟子和石完必定经受不住，不死必伤了。",
+          "instruct": "语气凝重，带着深深的忌惮与后怕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石完在旁笑道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你说得那么厉害，我不过打一个寒噤，并未觉得怎样。",
+          "instruct": "带着少年人的不服气与天真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵奇说时，本朝石完脸上注视，面现惊奇之容。闻言又走过去，拉着手细看了一看道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "trigger_keyword": "拉着手",
+            "trigger_offset": -0.5,
+            "name": "衣料摩擦",
+            "sound_cn": "灵奇拉起石完手时衣料摩擦的轻响",
+            "sound_en": "soft rustle of fabric as Ling Qi takes Shi Wan's hand for a closer look",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我明白了。先见你触动埋伏，人未僵倒，心还奇怪。这时想起你的天赋本能，水火寒暑所不能伤，难怪平安无事。但是你刚遇冷焰，便即退回，又被佛光挡了一挡，冷焰被阻在禁圈以内，寒雷不能爆发，你才未与相撞，不知它的威力。否则，那雷一个接一个连珠爆发，越来越多，你便是大罗神仙也禁不住，只怕比我还要吃亏呢。",
+          "instruct": "带着惊奇与解释，语气认真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石完意似不服。众中还是甄氏弟兄见闻较多，早已看出厉害，同说：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "甄艮",
+      "api": {
+        "voice": {
+          "role": "甄艮",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵奇之言不差，实是厉害。我们虽有佛光至宝防身，那一震之威，就不受伤，恐也难支。",
+          "instruct": "语气认真，带着对灵奇的肯定"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石完最信服师父，又和灵奇至好，想起他从未以年幼无知轻视自己，话到口边，欲言又止。众人都信二甄，便问灵奇：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "照此厉害，禁制周密，如何可以过去？",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "此时过去却并不难。因为最厉害的冷焰寒雷刚刚发过，适听雷声已在千里左近，揭地而出，向空爆散。此宝虽极猛烈，设伏并非容易，不是当时便可施为。我们有佛光宝光防身，更精地行之法，此最厉害的一关已经过去，底下纵有禁制，均可抵御，不致伤人。不过事情仍须隐秘。好在寒雷威力极大，又追出老远方始爆发。此地在玄冥界外，为霜华宫法坛观察不到，岛主必料来人就不震死，也必重伤逃走。这里已深入地底三百余丈，再下数百丈，便入海底平面之下七十余丈，霜华宫一样查看不出。可是我们已将临近地肺，所过之处，其热如焚，有的地方还有地火沸浆和金、铁、石、煤等熔汁。如非小神僧的佛光与诸位师叔那几件至宝奇珍可以防身，不畏地水火风之险，照样也过不去。此举决出岛主意料之外。莫如将计就计，不由上面寒雷故道，径由地底通行。等他惊觉，我们已到达绣琼源，深入腹地了。",
+          "instruct": "语气沉稳，条理分明，带着智者的从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人同声称善。商定之后，仍由甄氏师徒开路，降往地层深处，往陷空岛绣琼源飞去。众人为想考验各人功力，初下时，只驾遁光，紧随甄、石三人身后飞行，未用佛光法宝防身。先是地层土色随同下降之势，变异气味，窒息难闻。便把七窍闭住，以本身真气运行全身，不再呼吸，还不妨事。降至五六百丈以后，泥土渐软，地气越热，便与寻常天热不同，另具一种况味，仿佛人在一座蒸笼之内，难受已极。等到降近地肺，改作平面飞行，不特热气加重，而且果如灵奇所说，不是一片沸浆熔液阻路，便是遇到凝结数十里方圆大团晴绿色的地火，人行其中，宛如由火海熔炉之内通过。更有阴风刺骨，黑水毒烟横亘前路，到处皆是，此去彼来，一任法力多高，也难禁受。还未进到最深之处，易氏弟兄首先忍耐不住，便将九天十地辟魔神梭取出，藏身其内，向众招手。石生看出干神蛛胸前蜘蛛影子突然出现，好似不耐神气。干神蛛因金、石二人未退，还在随众强支。石生知他好胜，一面头上放出一片金霞，一面赶过来拉他，一同进入梭舟以内。前行的甄氏弟兄虽精地行之术，因先受七煞毒刀之伤，甄兑更断去一手，如非石完奋勇当先，地水火风全不能侵，也几乎难于如意通行。金蝉看出众人多半不耐，又见易氏弟兄放出神梭，忙喝止道：",
+          "instruct": "叙述细致，气氛逐渐紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "遁光",
+            "trigger_offset": -0.5,
+            "name": "遁光飞行",
+            "sound_cn": "众人驾遁光飞行的持续呼啸声",
+            "sound_en": "continuous whoosh of multiple magic lights flying together, wind rushing past in the dark underground",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.8,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "地火沸浆",
+            "trigger_offset": -1,
+            "name": "地火翻滚",
+            "sound_cn": "地底沸浆翻涌的热浪声与火焰爆裂轰鸣",
+            "sound_en": "roaring of molten earth and boiling lava, intense heat waves crackling, fire bubbles bursting with loud pops",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22.2,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "辟魔神梭",
+            "trigger_offset": -0.5,
+            "name": "神梭展开",
+            "sound_cn": "九天十地辟魔神梭展开时的金属铮鸣与机关转动声",
+            "sound_en": "sharp metallic hum and mechanical clicking as the divine shuttle expands, ancient mechanism unfolding",
+            "volume": "-20%",
+            "pitch": "+1Hz"
+          },
+          {
+            "trigger_delay": 28.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "阴风刺骨",
+            "trigger_offset": -0.5,
+            "name": "阴风呼啸",
+            "sound_cn": "地底阴风刺骨呼啸，带着毒烟的嘶嘶声",
+            "sound_en": "eerie howling of underground wind, chilling to the bone, mixed with hissing poisonous fumes",
+            "volume": "-20%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 35.2,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "金霞",
+            "trigger_offset": -0.5,
+            "name": "金霞护体",
+            "sound_cn": "石生放出金霞护体的柔和轰鸣",
+            "sound_en": "soft resonant hum as golden light radiates from Shi Sheng, forming a protective aura",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此宝通行地底，响声太大，难免不被对方惊觉，如何能用？易师弟还不快些收起！",
+          "instruct": "急声喝止，语气果断"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说手往胸前一按，身佩灵峤三仙所赠玉虎立即离身飞出，晃眼暴胀，长约三丈。金蝉手朝众人一招，各纵遁光，随同附在玉虎身上。易氏弟兄忙将神梭收去。石生把手一指，那金霞再飞向玉虎之上。阿童也忙将佛光放出，护住前面甄、石三人，一同向前飞驰。这才未受侵害阻难。只见佛光护住一道墨绿色的光华与两道白光，金碧交辉，虹惊电舞，当先开路。后面一片山形金光，笼罩着一个银光闪闪的玉虎，涌起十丈祥霞，无穷灵雨，缤纷五色，电漩星飞，朝前直射，穿行于火海黑波，阴风毒烟之中。所过之处，冲荡起千重火衖，百丈玄云，毒烟滚滚，阴风怒号，顿成从未有之奇观。众人多半天真，童心未退，纷纷喊起好来。这一来，飞行越发加快。灵奇默计途程，已离地头不远，忽然想起一事。忙请甄、石三人把势子放缓，说道：",
+          "instruct": "紧张叙述，画面壮阔"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "玉虎",
+            "trigger_offset": -0.5,
+            "name": "玉虎展形",
+            "sound_cn": "玉虎飞出时震响与祥光迸发，虎啸般的共鸣",
+            "sound_en": "resonant roar-like hum as the jade tiger leaps forth, auspicious light bursting outward, divine presence",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "佛光",
+            "trigger_offset": -0.5,
+            "name": "佛光开路",
+            "sound_cn": "佛光与金霞交织开路，神圣轰鸣穿行火海毒烟",
+            "sound_en": "golden buddhist light and radiant clouds clearing a path, sacred resonance cutting through fire and poison",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.8,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "灵雨",
+            "trigger_offset": -0.5,
+            "name": "灵雨缤纷",
+            "sound_cn": "五彩灵雨缤纷洒落的清脆叮咚声",
+            "sound_en": "crystal clear tinkling of five-colored spiritual rain falling, like countless tiny bells",
+            "volume": "-24%",
+            "pitch": "+1Hz"
+          },
+          {
+            "trigger_delay": 22.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "毒烟滚滚",
+            "trigger_offset": -0.5,
+            "name": "毒烟翻涌",
+            "sound_cn": "毒烟滚滚翻涌的嘶嘶声与腐蚀般的气流",
+            "sound_en": "hissing and churning of poisonous smoke, thick fumes swirling with corrosive energy",
+            "volume": "-22%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "今天事情大怪。那寒雷冷焰，岛主视为防御外敌的至宝，从未见他轻用。这次竟将它暗藏在玄冥界地底埋伏之内，数量又那么多，好似早知有人要来生事，意欲一举致人死命。诸位师叔素无仇恨，又有师门渊源，说什么也不会特地下此毒手。如说为了弟子，岛主与家父师徒情分甚厚，知道家父只此一子，又最怜爱，就算痛恨弟子，也必看在家父面上，至多加上一点责罚，何须小题大做？此事实出情理之外。他当初不许再来人境，而弟子今日便遇此事。也许岛主有甚仇敌，应在今日到来，故此设下这类极厉害的埋伏，欲使来人形神俱灭，永绝后患。偏被我们赶在那人前面，无心引发。而来人也在此时随后赶到，见机遁走，或是受伤逃去，也未可知。如弟子所料不差，以岛主为人性情，定必忿急，到时还须留他点神才好。",
+          "instruct": "语气凝重，带着分析与警示"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人闻言，颇觉有理。因想到了地头，再突然上升，以免中途遇阻，对方仗着天时地利，特有的禁制法宝，闭关相拒，不令人入境，平白徒劳。不过这等走法，途程、方向计算稍差，容易错过。正由灵奇一路查看土色形势，缓缓往前行去，走了一会，忽见前面地层土色如雪，甚是干净，地、水、火、风已不再见。知道陷空岛绣琼源方圆三千里内天生灵境，近年地层深处也与别处不同，照情势，转眼必要到达。各自留神，暗中戒备，以便一举直上。果然前进百余里，灵奇由土石中看出，已到了绣琼源地层下面。因灵奇当地情形虽熟，这等走法尚是初次，惟恐有失。又往前走了一段，寻到陷空岛最深的海眼附近，由干神蛛行法，听出海声，再由灵奇算计好了远近和上升之处。然后聚在一起，冷不防一同破上，直上数百丈深的地层。在甄、石师徒三人开路之下，不消半盏茶时，便已升出地面。金蝉一看，上面正是绣琼源旧游之地。料知岛主已经惊觉，事机瞬息，恐有延误，意欲抢先发话。无暇赏玩当地仙景，一出土便向海岸赶去，躬身说道：",
+          "instruct": "叙述细致"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "海声",
+            "trigger_offset": -0.5,
+            "name": "海潮之声",
+            "sound_cn": "绣琼源远处传来的海潮声与浪花拍岸",
+            "sound_en": "distant sound of ocean waves from Xiuqiong Yuan, gentle surf lapping against the shore",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "破上",
+            "trigger_offset": -0.5,
+            "name": "破土而出",
+            "sound_cn": "众人从地底破土而出的轰鸣与土石飞溅声",
+            "sound_en": "loud crack as the group bursts up through the earth, soil and rocks scattering everywhere, fresh air rushing in",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.8,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "绣琼源",
+            "trigger_offset": -0.5,
+            "name": "仙景风声",
+            "sound_cn": "绣琼源仙景中的微风拂过瑶草琪花的轻响",
+            "sound_en": "gentle breeze rustling through celestial flowers and strange grasses of Xiuqiong Yuan, soft and serene",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "弟子齐金蝉、石生、甄艮、甄兑、易鼎、易震，同了白眉老禅师弟子阿童、司道长门人干神蛛，师侄灵奇、石完，一行十人。自从上次拜谒老祖，蒙赐灵药，回转中途，因在滇池追一妖人，看出那是赤身寨为首妖孽列霸多门下妖徒，想起叛师卖友的恶徒郑元规，意欲就便除去，为老祖效劳，清理门户。不料邪法厉害，弟子等与他师徒苦斗七日夜，虽然得胜，将赤身寨妖孽师徒全数除去，但是师弟甄艮、甄兑一时疏忽，为七煞毒刀所伤，断去一手。师侄米余更将两腿斩断，现在金石谷养伤待救。为此二次又来拜谒岛宫仙府，求取灵药。望祈老祖看在家父师面上，并念事由诛杀郑元规而起，加恩垂怜，再赐灵药，俾将断处接续还原，感恩不尽。",
+          "instruct": "语气恭敬而恳切，带着礼数"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说完，不见动静。暗忖：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "上次易静等三人刚到海岸，还未开口，便有夜叉水怪相继出现，这次怎说了一大篇话，无人答应？形势似较上次和缓，也许有望。方在寻思，忽见一道寒光自如银电，由陷空岛隔着海面飞来，晃眼落下，现出两个道童，项围云肩，身穿形若冰纨的短衣短裤，四肢半裸，面白如玉，相貌俊美，年若十三四岁。石生在后面，认得这是上次所遇岛主再传徒孙寒光、玄玉二童。知他们和自己颇为投契，心中大喜，连忙赶近前去。众人也随后赶到。玄玉正向金、石二人举手为礼，一眼瞥见灵奇在内，星眸微微一瞪，扬手便是一蓬银丝，似暴雨一般朝灵奇当头撒下。灵奇似知不妙，纵起遁光想逃，已是无及，吃那蓬银丝连人带剑光一齐网住。玄玉跟着把手一指，便网了灵奇，朝陷空岛上飞去，晃眼投入岛中心盆地之内不见，势急如电，神速无比。众人因二童上次一见如故，谈得甚是投机，这次见面又以客礼相待，万不料会有此举。因变出非常，谁也不及拦阻，竟吃在人丛中把灵奇擒去。七矮虽然惊急不快，因对方只向灵奇一人下手，事后仍以笑颜相对，不现一丝敌意，料知灵奇为违背上次岛主行时所诫，二童奉命行事，只想向其责问，尚未发作。石、干二人不知底细，尤其石完性如烈火，生来心急手快，又和灵奇同门至好，首先情急，也未留意众人举动，口中大喝：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "寒光",
+            "trigger_offset": -0.5,
+            "name": "寒光飞来",
+            "sound_cn": "二童驾寒光破空飞来的尖锐呼啸声",
+            "sound_en": "sharp whistling as the two youths fly over on cold light, landing with a soft shimmer",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "银丝",
+            "trigger_offset": -0.5,
+            "name": "银丝撒网",
+            "sound_cn": "银丝暴雨般撒下的嘶嘶破空声与细丝绷紧声",
+            "sound_en": "hissing sound of silver threads raining down like a storm, fine silk cutting through air and tightening around its target",
+            "volume": "-16%",
+            "pitch": "+1Hz"
+          },
+          {
+            "trigger_delay": 17.8,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "陷空岛上",
+            "trigger_offset": -0.5,
+            "name": "飞入岛中",
+            "sound_cn": "银丝裹着灵奇飞入陷空岛的破空呼啸声",
+            "sound_en": "sharp whoosh as the silver net carries Ling Qi into the island, vanishing into the central basin with a flash",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "白娃娃，你敢伤我师兄？",
+          "instruct": "厉声大喝，愤怒急切"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "trigger_keyword": "白娃娃",
+            "trigger_offset": 0,
+            "name": "大喝回响",
+            "sound_cn": "石完愤怒大喝在海岸边的短暂回响",
+            "sound_en": "brief echo of Shi Wan's angry shout reverberating across the coastal shore",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话还未了，扬手一道墨绿光，早朝玄玉头上飞去。玄玉把手一指，先前那道银光重又飞起，将绿光敌住，同时张口一股银光，朝石完迎面喷来。见石完闪躲不及，只打了一个冷战，仍站地上未动，不禁惊奇。那旁干神蛛又是一个爱友护群的心性，数十百条纵横交织，形如蛛网的灰白色光影也脱手而起，飞向前去。玄玉也是自恃太甚，未及闪避，竟被网住。寒光见状，又急又怒，正待施为，金、石二人知道话还未说，届时不宜动手结怨，何况二童奉命行事，也难怪他，忙喝：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "墨绿光",
+            "trigger_offset": -0.5,
+            "name": "剑光碰撞",
+            "sound_cn": "墨绿光华与银光碰撞的尖锐金属爆响与火花四溅",
+            "sound_en": "sharp metallic clash of green and silver lights colliding, sparks flying, energy crackling with intensity",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.2,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "灰白色光影",
+            "trigger_offset": -0.5,
+            "name": "蛛网展开",
+            "sound_cn": "灰白色蛛网般光影展开的嘶嘶声与丝线绷紧声",
+            "sound_en": "hissing and rustling as gray-white web-like lights expand rapidly, threads tightening with tension",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 9.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "trigger_keyword": "张口一股银光",
+            "trigger_offset": -0.5,
+            "name": "寒精喷射",
+            "sound_cn": "玄玉张口喷出寒精银光的冰冷嘶鸣",
+            "sound_en": "hissing sound of Xuan Yu spitting out silver cold essence, freezing energy rushing forward",
+            "volume": "-20%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "干道友，快请停手，此与二位道友无干。石完不可无礼。",
+          "instruct": "急声劝阻，语气果决"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "干神蛛虽然性急，人却机警，见七矮一个未动，知道冒失，丑脸一红，也未见动手，白影忽然不见。玄玉虽是千万年寒魄精英炼成，也被白影勒得痛痒难禁。双方宝光飞剑也各收回。众人俱料二童定必发怒，哪知二童若无其事。只玄玉朝干神蛛看了一眼，笑道：",
+          "instruct": "紧张转缓和"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "trigger_keyword": "白影忽然不见",
+            "trigger_offset": -0.5,
+            "name": "白影消散",
+            "sound_cn": "白影忽然消散的轻微气流声",
+            "sound_en": "soft whoosh as the white shadow suddenly vanishes, air displacement fading",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你这丑鬼，真没道理，这事能怪我吗？灵奇之父是我师伯，如何肯无故伤他？你们闯了大祸，我二人好心好意，借题来此指点，不装得像，如何能行？你跟那小黑鬼怎都不知好歹？",
+          "instruct": "带着嗔怪与天真，语气轻快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "干神蛛已看出二童骨秀神清，浑身上下宛如冰玉搓成，这等根骨，从来未见。听双方口气似有深交，平日爱交朋友，对方说话又那么天真，并无怒意，连忙谢过。石完剑虽收回，仍然不服，口中咕噜道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "不问是谁，要害我灵师兄，我和他拼命。",
+          "instruct": "嘟囔着不服气，语气倔强"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甄艮闻言喝止，不令开口，方始默然，面上仍有忿容。二童见他生得那么矮胖奇丑，憨态可掬，又听出是七矮门下，便笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我不想你二人竟有这两件专长，我代你们又少担一点心了。",
+          "instruct": "带着欣赏与轻松的笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金、石二人等二童把话说完，方要询问老祖是否允许入见？何故将灵奇擒去？猛听远远一声大震，好似崩山之声。跟着便有一道奇亮无比银光，在遥天空际闪了一下。二童面上立现惊异之容，同向众人使一眼色，大声喝道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.2,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "大震",
+            "trigger_offset": -0.5,
+            "name": "崩山巨响",
+            "sound_cn": "远处传来崩山般的巨大轰鸣，地动山摇",
+            "sound_en": "distant earth-shaking roar like a mountain collapsing, deep rumbling echoing across the entire sky",
+            "volume": "-12%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 6.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "银光",
+            "trigger_offset": -0.5,
+            "name": "银光闪动",
+            "sound_cn": "天际奇亮银光一闪的刺耳嗡鸣与能量冲击波",
+            "sound_en": "piercing silver light flashing in the sky, sharp resonant hum, intense energy discharge wave",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "师祖有命，说灵奇不遵前诫，已应严惩，来时更不合引了外人触犯禁制，引发寒雷冷焰，本意将其斩首。一则念在他新近已拜在峨眉门下，又是大方真人接引，姑看齐、乙二位真人情面，虽不要他的命，似此胆大妄为，不加责罚，必当我陷空岛可以随意胡为，如入无人之境，情理难容。至于你们上次所得灵玉膏，原够十人之用，尚有盈余，尽可取用。就说妖刀阴毒，万年续断与灵玉膏只能接骨还原，邪毒仍然暗伏体内，当时不痛，隐患无穷。欲用我师祖秘炼的冷云丹化尽邪毒，来此求讨，事情又为诛杀本岛叛徒郑元规而起，如若来时向玄冥界通诚叩关求见，或是选出两人径由上空飞来，一过玄冥界，师祖自会命人接待。偏要胆大妄为，仗恃地行之术，由地层之下私越禁地，已属无理欺人。姑念后辈年幼无知，不与计较。但想求讨灵药，却无如此容易。那灵奇也不伤他。昔年三样灵药，现同放在霜华宫后地底地璇宫内。你们既然法力甚高，飞入禁地，目中无人，只管前往盗取，连灵奇一同救走。否则，那地璇宫挨近地轴最深之处，相隔海底千四百四十九丈零六寸，更有许多埋伏，你们法宝佛光只能防身，有时并此不能，只可见机逃避，切勿自恃，以免取祸。话说在先，凭你们的运气吧。",
+          "instruct": "语气严肃，一字一句传达师命"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二童口内说话，所着冰纨短衣前胸，接连现出好些字迹。大意说：岛主有一强仇，定在今日由地底来犯，想要破坏丹井下面磁源真气。岛主知道此人不除，必有后患，为此在玄冥界内布下疑阵，暗藏本岛至宝寒雷冷焰，引其入阱。不料因事疏忽，御敌匆促，未算出众人会先一步赶来，误将寒雷引发。这时敌人正由众人所开的地道赶来，一见神雷，赶忙遁走。并还将计就计，想将寒雷引去，炸毁神峰，激发地底大火，把方圆五千里的地面化为火海，引起地震，毁损本岛仙景。幸而岛主深知敌人厉害，神峰早有防备，未为所算。敌人几乎弄巧成拙，只得穿地而出。寒雷也随同爆发，将一座冰山揭去，震成粉碎。岛主也已查看明白，本意阻止众人，不令入岛。略一占算，改命二童，等众人到了绣琼源，先将灵奇擒去，再命众人自往地璇宫盗丹救人。二童知那地璇宫邻近地轴，与南极子午线遥遥斜对。全宫系岛主多年心血，按照天星缠度建成，其中途径回环往复，密如蛛网。休说救人，到了里面定必迷路，投入七星环死地，人到里面，休想脱身。并且宫中布置，宛如缩小的一个天体，到处均有禁制埋伏，神妙无穷，威力绝大。每月由初七日起始，多在里面留上一天，便多受一种危害。再过七日之后，所经途径宫室，不是化成一段极长大的坚钢，便是化成无量火焰熔汁，逐渐凝成其热无比的胶质，将人埋藏在内。再要误走日、月两宫，一个是日轮压顶，发出万道金光，比烈火还热千万倍的热力，将人化成一缕青烟消灭；一个是一团暗影压向头上，当时奇寒透体，毒火烧心，寒热交作，同时似有几千万斤压力，将人吸入暗影之中，气闭身死。当地乃北极天枢与地轴中心奥区，本来具有地利天机、阴阳五行生克妙用，并非全由法力使然，实在厉害已极，多高法力也难破解。二童因与七矮一见倾心，虽不知师祖用意，但知双方师长均有渊源。惟恐众人仗恃法宝，犯险送命，恰好奉命擒人，就便警告，令其留意。到了地璇宫中，如果迷路或是遇险，须记准五宫五行方位。不管沿途歧路多少，只照右转三丈六尺，左退两丈一尺，照长圆形往前走去。如见黑色六角小亭，便是金宫顶上。由亭中地洞下去，便是藏丹困人之地。下去之后，全宫禁制必生变化，日月七星连同五行妙用齐发威力，便大罗神仙也难冲出重围。二童也不深知底细，但知金宫正亭下面有一甬道，如能下去，寻着道路，可以脱险。届时必被一块极厚的玄晶封闭堵塞，前见众人法宝神妙，尤其李英琼那粒定珠似乎可以将它破去。偏生此女未来，见时正替众人着急。不料石完有天生耐寒之性，连玄玉先前所喷寒精俱都不怕；干神蛛所发白影，不知是何法宝，竟能将自己网住。由此二人同行，足能下去。但是前听师祖说起，下面便是地轴入口，也须留意。师祖现已回宫，不敢多言，也不便接待。相知以心，行再相见，请各保重。那字迹随现随隐，现完，话也说完。金蝉想了一想，当先答道：",
+          "instruct": "叙述神秘而紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 8.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "字迹",
+            "trigger_offset": -0.5,
+            "name": "冰纨显字",
+            "sound_cn": "冰纨短衣上字迹显现的轻微冰晶爆裂声与冷光闪烁",
+            "sound_en": "faint crackling of ice crystals as characters appear on the silken fabric, glowing with cold light",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "玄晶",
+            "trigger_offset": -0.5,
+            "name": "玄晶封闭",
+            "sound_cn": "玄晶封闭堵塞时的沉重轰鸣与冰层冻结声",
+            "sound_en": "deep rumbling as the massive xuanjing block seals the passage, ice thickening and solidifying",
+            "volume": "-22%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "烦劳二位道友转告岛主，说我们来此，本以后辈之礼求见。请其念在代诛叛徒微劳，而杀郑元规的正是灵奇，纵令犯过，似可将功折罪。初意岛主旧规，不喜人由上空飞越，直抵岛前求见，欲寻昔日地底故道，不料触犯寒雷埋伏。更不知岛主为防御外敌而设，因见威力惊人，不敢再由上面穿行。而受伤的人必须灵药医治，前赐灵药虽然还有，所余均在两位女同门手中，现正奉命在幻波池诛杀妖尸，不便往寻。再者，三人所受邪毒，也非岛主冷云丹不解。故此冒昧同来。岛主既然见怪，又将灵奇擒去，我等身属后辈，不敢多言，自取罪尤，只得遵命而行。但是陷空仙府，贝阙珠宫，上下方圆地广数千百里，惟恐愚昧无知，于犯禁忌，尚望指点地璇宫所在之地，引往入口，以免妄自走入，得罪左右，负罪不起。",
+          "instruct": "语气恭敬而稳重，带着礼数与分寸"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二童答道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "家师祖原命诸位如敢入宫盗丹救人，不特我二人应为领路，并以诸位道友均是妙一真人门下高弟，此举意在警诫，并非有甚恶念。知道贵派法宝神奇，宫中五行七星，除日宫最为厉害，但是老远便可惊觉，望即远避，不致受害外，余者多半也能防御。只是前途另有危机，遇时难免受制，特赠神雷三粒，以备缓急之需。另外还有神香七枝，须用三昧真火方能点燃。此是千万年前天龙毒涎，与千百种异香灵木合炼而成，任何海中精怪一闻此香，立生妙用。今赠七位道友人备一枝，前途兴许有用处，也未可知。",
+          "instruct": "语气平和，带着赠宝的郑重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉原因师父尊长都说自己和石生仙福至厚，此后任意所为，绝无凶险。又知主人性情刚愎，言出必践，永不更改，已经激怒，出此难题，又将灵奇擒去，求告无益，徒自取辱。再见二童身上现字示警，更知事在必行，乐得大方应诺。料定前途凶险，不是易与，忽听这等说法，心想：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "主人既然有心为难，如何又肯赠这两样法宝？行事矛盾，令人莫测。也许此行又和上次一样，转祸为福。",
+          "instruct": "内心独白，带着沉吟与思量"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心念一动，方才盛气便平和了许多。笑问：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此香有何妙用？",
+          "instruct": "带着好奇与探究"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二童笑答：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "师祖传命如此，我们也不深知。道友请收此宝同行吧。",
+          "instruct": "语气轻快，带着天真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金、石二人接过一看，那神雷乃是三粒墨色晶珠，虽然透明，并无光泽，看去毫不起眼。拿在手里，却是沉重非常，那七枝毒龙香几长二尺，粗约寸许，看去仿佛六角形的尖头乌木棒，其坚如钢，又黑又亮。二童便叫七矮人佩一枝，插在背后备用。金、石等六矮如言斜插背上。惟独阿童料知前路凶危，自己有佛光护身，不怕遇险，心爱石完，怜他小小年纪，初次随师出山，便遇到这等厉害关头，惟恐途中有甚险难，多此一宝，便多一层防护，有意转赠，坚辞不肯佩带。玄玉笑道：",
+          "instruct": "叙述细致"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "神雷",
+            "trigger_offset": -0.5,
+            "name": "墨晶珠落",
+            "sound_cn": "墨色晶珠落在掌中的沉重撞击声",
+            "sound_en": "heavy thud as the dark crystal pearls land in the palm, dense and weighty",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 9.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "毒龙香",
+            "trigger_offset": -0.5,
+            "name": "乌木棒落",
+            "sound_cn": "毒龙香插入背后的轻微摩擦声",
+            "sound_en": "soft scraping of the dark dragon incense sticks being slid into place behind the back",
+            "volume": "-28%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这小黑鬼，法宝功力不如你们，如说此行，他和那丑鬼却是别有专长。休看你佛法高深，到时定力稍差，如无此香，便难保不吃亏呢。",
+          "instruct": "带着促狭的笑意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "寒光看了玄玉一眼，说道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "寒光",
+      "api": {
+        "voice": {
+          "role": "寒光",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "玄弟如何随便说话？你知小神僧无此定力么？",
+          "instruct": "带着一丝责备与提醒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "玄玉便不再说。阿童年幼好胜，闻言自然更不肯再要。金、石二人看出二童词色可疑，知有隐情，力劝阿童不听，只得改与石完佩了。那三粒神雷应由一人应用，便由金蝉收去。二童随带众人凌波乱流而渡，往陷空岛上飞去。由岛中央万年寒铁所建仰盂形的铁城中心，直降下去，深达三百多丈，方始到地。乃是大片水晶铺成的一座广场，大约十里方圆，其高八九十丈，用六根粗约十抱晶柱支住。除通向上面一段外，顶上也是水晶铺成。精光灿烂，耀眼生辉，迥非旧游之地。众人因上次来时，灵威叟曾说迷宫疑阵，共有周天三百六十五个门户，为岛宫第一难关，多高法力的人也难走完。稍为疏忽，便被陷入战坛之内，两仪之火一齐夹攻，难于抵御。因已移往他处，不曾见到。二童所说地璇宫，必是指此而言，谁知还有七星五行之险。边走边问二童道：",
+          "instruct": "叙述细致"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "万年寒铁",
+            "trigger_offset": -0.5,
+            "name": "铁城下降",
+            "sound_cn": "万年寒铁城下降时的沉重机械运转与金属摩擦声",
+            "sound_en": "heavy grinding and metallic groaning as the ancient cold-iron city descends, massive mechanism turning",
+            "volume": "-18%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 14.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "水晶广场",
+            "trigger_offset": -0.5,
+            "name": "足踏水晶",
+            "sound_cn": "脚踏水晶地面时发出的清脆回响与空间共鸣",
+            "sound_en": "clear echoing footsteps on crystal floor, each step ringing like a chime, vast space resonating with purity",
+            "volume": "-22%",
+            "pitch": "+1Hz"
+          },
+          {
+            "trigger_delay": 22.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "晶柱",
+            "trigger_offset": -0.5,
+            "name": "晶柱嗡鸣",
+            "sound_cn": "六根粗大晶柱发出的持续低频嗡鸣",
+            "sound_en": "low continuous hum emanating from the six massive crystal pillars, ancient energy vibrating",
+            "volume": "-26%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "灵威道友可在宫中么？",
+          "instruct": "带着关切询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "寒光答道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "寒光",
+      "api": {
+        "voice": {
+          "role": "寒光",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大师伯现在随侍师祖，不得出来接待。诸位道友可有什话说么？",
+          "instruct": "语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "灵道友前说，这里有一迷宫疑阵，共分三百六十五个门户，可是地璇宫么？",
+          "instruct": "语气认真，带着求证"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二童惊喜道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "正是此宫。他还说别的话没有？",
+          "instruct": "带着惊喜与好奇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉道：",
+          "instruct": "平静引出"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "并未说甚别的。见时烦为致意。",
+          "instruct": "语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二童好似失望，应诺未答。那广场尽头，远看也是一片晶壁，及至走近一看，竟是极深厚的海水，因受仙法禁制，成了大片冰墙，望若晶壁。众中除金、石二人一落地便早看出外，余人虽也全是慧目法眼，先前竟然误认。二童先领众人由南而北，将到尽头，忽然转身立定，说道：",
+          "instruct": "叙述细致"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "冰墙",
+            "trigger_offset": -0.5,
+            "name": "冰墙寒气",
+            "sound_cn": "靠近冰墙时散发的寒冷气息与轻微冰裂声",
+            "sound_en": "chill emanating from the ice wall, faint cracking of frozen seawater, cold air hissing with a low tone",
+            "volume": "-22%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此是地璇宫的上面，这片广场乃此宫总图。我弟兄与七位道友一见如故，承蒙折节下交，认作平生幸事，按理不应徇私。一则，双方师长原有交情，岛主此举必有用意，不是想置来人于死地。二则，我弟兄实秉万年寒冰精气而生，虽是岛主再传弟子，平日期爱最为优厚。曾允将来转世，亲自收为门人，不与二代弟子并列。并说我二人灵根特异，天仙有望。只因身负奇寒之气，任何母体俱难投胎，不等降生，亲母必死。只有冰蚕、温玉，还有毒龙丸、大还丹两种灵药，可以助我二人转劫成道。曾嘱遇到友人持有这类至宝灵丹，便可任意行事，纵犯本岛规令，只要不过分，也免责罚。先前便想略说几句，总以平素畏惧，本岛法严，胆小不敢妄言。此时见诸位行即入险，而此四宝又全在贵派门下，想起师祖前言，正可惜题，略为尽心。等我现出总图，诸位道友道法高深，当能看出天星缠度与阴阳两仪上下相生，七宫五行之妙。固然天枢、地轴玄机微奥，变化无穷，仍在诸位临机应变，随时警悟，不是一看即可全解，但到底不无小补，所望留意才好。",
+          "instruct": "语气恳切，透露关切与诚意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，将手一指，立有一个形如罗盘的碧玉冒出地上，大约三尺。离盘寸许，悬着大小七根铁针。二童手伸盘内，分朝第二、第四两针微微一拨，针头上立时射出一青一白两股细才如指的精芒，长约丈许，到了前面，互相激撞，一闪即灭。紧跟着，轰的一声巨震，广场上六根金柱齐射毫光，同时转动，电也似旋将起来，约有盏茶光景，忽然隐去。再定睛一看，已换了一番景象。前面大片水晶地面已全不见，四外青气混茫，当中裹着一个略带长圆不甚整齐的大球，正在徐徐转动。看去好似实质，但是气层中隐现着好些脉络，密如蛛网，更有无量大小星光明灭闪动，小的几如微尘，不是目力所能发现。横面南、北两端各有一道光线，绕向上面圆球之上。光并不强，好似一青一白两股光气互相接触以后，合而为一，颜色却不相混。再由中心聚点，向两旁各射出一片奇光，形态各殊，变幻不同。众人自从峨眉开府以后，功力大进，知道此是宙极缩影。刚刚悟出一点地轴、天枢妙用，球上缠度还未看清，忽听远远金钟响动之声。二童慌道：",
+          "instruct": "紧张叙述，画面壮观"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "碧玉",
+            "trigger_offset": -0.5,
+            "name": "罗盘现形",
+            "sound_cn": "碧玉罗盘从地上升起的低沉震动与石土摩擦声",
+            "sound_en": "low rumbling as a jade compass rises from the ground, stone grinding against stone",
+            "volume": "-24%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 9.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "巨震",
+            "trigger_offset": -0.5,
+            "name": "金柱转动",
+            "sound_cn": "六根金柱同时转动的沉重轰鸣与金属铮鸣",
+            "sound_en": "heavy grinding and metallic ringing as six golden pillars rotate, mechanism of the great array activating with power",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "宙极缩影",
+            "trigger_offset": -0.5,
+            "name": "星图转动",
+            "sound_cn": "宙极缩影转动时的星辰嗡鸣与空间回响",
+            "sound_en": "deep cosmic hum as the miniature universe rotates, stars flickering, spatial resonance expanding",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "金钟响动",
+            "trigger_offset": -0.5,
+            "name": "金钟鸣响",
+            "sound_cn": "远处传来的金钟鸣响声，清澈悠远",
+            "sound_en": "distant clear ringing of a golden bell, resonant and solemn, echoing through the crystal hall",
+            "volume": "-18%",
+            "pitch": "+1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 74,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "师祖升座，我二人必须前往。下面便是地璇宫入口，请快走吧，恕不奉陪了。",
+          "instruct": "语气急切匆忙"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 75,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，圆球忽隐，广场并不复原，当中现出一个井形大洞，黑沉沉看不见底。金、石二人运用慧目，定睛一看，底层暗影中似有一团亮光，停住不动，上下相隔约有三四百丈。阿童正放佛光朝下照看，大洞一现，二童面上更形惊慌，见阿童放出佛光，忙又回身急喊：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.2,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "井形大洞",
+            "trigger_offset": -0.5,
+            "name": "黑洞洞开",
+            "sound_cn": "井形大洞凭空出现的低沉风声与无尽回响",
+            "sound_en": "deep whoosh of air as a well-like abyss opens, sound echoing up from the dark depths below",
+            "volume": "-20%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 5.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "trigger_keyword": "佛光",
+            "trigger_offset": -0.5,
+            "name": "佛光照洞",
+            "sound_cn": "佛光照向深洞时的柔和共鸣与回响",
+            "sound_en": "soft resonant hum of buddhist light shining into the deep hole, illuminating the darkness",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 76,
+      "role": "玄玉",
+      "api": {
+        "voice": {
+          "role": "玄玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "诸位请就此下去，不用法宝，还可免却入门时好些阻力。",
+          "instruct": "急切提醒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 77,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，便双双往上面来路飞去。阿童也将佛光收起。众人略为商量，料知二童善意相告，必有原因。但是深入重地，主人又是那么难说话，不得不加小心，便戒备着往下飞落。沿途并无阻碍，只觉气大浓重，如行大雾之中，如换常人，必难呼吸，别的并无异状。晃眼到地一看，那发光所在，乃是一个六角形的洞门，作斜坡形，好似半个圆球平置地上，正面开着一个孔洞。来路天井已然不见，上空四外一片沉冥，雾气浓密，其黑如漆。用尽慧目法眼，只觉地方奇大，也看不到一点物事，也不见有宫殿影子。那光便自洞中发出，光并不强。细查洞内，也是一片茫茫，依稀只辨出一点甬道影子。休说归路已断，其势也无中途退出之理，只得一同试探着，往里缓缓飞入。进约数丈，光气忽隐，偶然回顾来路，门也不见，后面也化成一条又弯又斜的极长甬道。金、石、甄、易六人前破紫云宫，曾在神砂甬道中出入，料与相似。便无二童之诫，也不敢妄用法宝，引发它威力变化。便嘱干神蛛、石完、阿童三人：",
+          "instruct": "紧张叙述，气氛神秘"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "二童飞走",
+            "trigger_offset": -0.5,
+            "name": "二童飞离",
+            "sound_cn": "二童驾遁光飞离的轻微破空声",
+            "sound_en": "soft whoosh as the two youths fly away, their light fading up the shaft",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "大雾之中",
+            "trigger_offset": -0.5,
+            "name": "浓雾飘移",
+            "sound_cn": "地底浓雾缓慢飘移的沉重气流声与静寂",
+            "sound_en": "heavy fog slowly drifting through the underground, dense air moving like thick water, deep muffled silence",
+            "volume": "-24%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 22.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "甬道",
+            "trigger_offset": -0.5,
+            "name": "甬道回响",
+            "sound_cn": "极长甬道中的轻微脚步回响与空间回音",
+            "sound_en": "faint echoing footsteps in the long winding corridor, space resonating with each step",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 78,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "大家一起，不要走单，须听招呼行事。",
+          "instruct": "语气果决，叮嘱众人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 79,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一面率众前行，顺甬道走去。众人飞行神速，一晃飞出数百里。刚觉出甬道奇长，前面忽现出七条歧路，参差分列。金蝉等近年已通晓七宫五星两仪运行之妙；先前二童泄机，又占了不少便宜。知道此是七星环入口，内中金、日两宫通路最为厉害，必须避开，便即立定。方在仔细观察，寻找土、木二宫入口，比较减少危害。忽见第七条歧径上黄尘滚滚，互相磨荡，发出一种极洪烈的巨声。遥望门内，无量数的火星互相激撞爆发，密如雨雹，势甚惊人。下余六条歧径仍是静悄悄的。断定此是土宫入口，看去虽然猛烈，比较下余六宫威力要差得多。一行诸人，有好几个通地行之术，就有险阻，也可用法宝闯过，不致被其困住。立率众人纵起遁光，往里飞进。觉着尘沙火星，越往前越密，威势越大。仗着各人均有法宝防身，阿童更放佛光护住，众人一同急进，居然通行无阻。方想七宫虽然通连，本身各有缠度，可通中枢要地，至二童所说的六角黑色小亭，取得灵药，将灵奇救了出来。哪知飞不多远，忽到尽头，并无出路，壁坚如钢，非金非石，无法再进。同时尘沙火星全数敛去。众人不知土宫也有好些变化，那尽头处实是通路，只要由甄、石师徒三人用地行法穿将过去，即可直达所去之地。当时疏忽，不曾细想，误以为黄尘迷路，走错了地方。回头一看，果然左右两侧均现出不少通路。事出意外，先看总图又未记全，急切间想不出如何走法。没奈何，只得选中一条较小的甬道，往前走去。行约里许，看见前面似有一座金亭。初次见到亭舍，以为那是金宫中心要地，只一入内，便可看出日月五星七官方位，走到一看，果是一座大约二十多丈的金亭。可是那亭中高起，每面各有一条极长甬道通连，内有两条最大。众人站在亭内，正在分头查看，不知往哪面走好。忽听干神蛛惊呼速退，回头一看，东首甬道不见。一个极大日轮发出万道金光，由远而近电驶飞来，老远便觉奇热无比，的人如焚，任何火力也无此强烈。以为误走日宫，不禁大惊，纷往来路退回。众人退得快，那日轮来得更快。众人刚刚退出，还未立定，只听轰轰隆隆，一片霹雳之声，那日轮直似一个极大的火球，已由原甬道外穿亭而过。那亭立时不见，路也隔断，变成一片金壁。总算飞遁神速，没有撞上。众人虽是法力高强，还有至宝防身，也几乎面热心跳，烤得透不过气来。心神乍定，方想另外觅路，四下一看，地形又变，歧径更多，无所适从。还未看清方向，对面又有一片黑影冷气缓缓飞来。先前日轮尝过厉害，恐是二童所说月影，恐生变化，不愿与抗，忙即退入别路。正不知如何是好，忽听石完大声喜唤：",
+          "instruct": "紧张叙述，迷宫变化无端"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "黄尘滚滚",
+            "trigger_offset": -0.5,
+            "name": "土宫尘暴",
+            "sound_cn": "土宫入口黄尘翻滚、火星爆裂的持续轰鸣",
+            "sound_en": "rolling yellow dust and bursting sparks at the earth palace entrance, explosive rumbling and crackling continuously",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "金亭",
+            "trigger_offset": -0.5,
+            "name": "金亭现形",
+            "sound_cn": "金亭凭空出现的金属铮鸣与空间波动",
+            "sound_en": "metallic ringing as a golden pavilion materializes, spatial shift with a low hum",
+            "volume": "-22%",
+            "pitch": "+1Hz"
+          },
+          {
+            "trigger_delay": 26.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "日轮",
+            "trigger_offset": -1,
+            "name": "日轮飞过",
+            "sound_cn": "日轮带着万道金光穿亭而过的灼热轰鸣与空间震荡",
+            "sound_en": "scorching roar as the massive sun wheel passes through the pavilion, golden rays blazing, heat wave rushing, space trembling",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 36.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "黑影冷气",
+            "trigger_offset": -0.5,
+            "name": "月影寒气",
+            "sound_cn": "月影黑影带着奇寒之气缓缓逼近的嘶鸣与压力",
+            "sound_en": "hissing cold as a dark moon shadow approaches, extreme chill emanating, immense pressure building",
+            "volume": "-18%",
+            "pitch": "-2Hz"
+          },
+          {
+            "trigger_delay": 44.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "trigger_keyword": "飞遁神速",
+            "trigger_offset": -0.5,
+            "name": "急速飞退",
+            "sound_cn": "众人急速飞退的破空呼啸与衣袂风声",
+            "sound_en": "sharp whoosh of the group retreating rapidly, robes fluttering, magic lights flashing backwards",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 80,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "师父、师伯快来！我能开路了。",
+          "instruct": "兴奋呼喊，带着发现新路的喜悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 81,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人恐他走单遇险，连忙赶去一看，原来迷宫奇境随时变化。当众人匆匆飞避之时，石完早就疑心那尽头墙壁是个玉石之质，打算仗着家传仙法，撞它一下试试。同时见那黑影冷气来势较缓，初生之犊，不知利害轻重，退得迟了一步。刚要飞去，恰巧甬道又生变化，左手一条极长的甬道，倏地涌起一片黄尘，紧跟着又变成一片墙壁，挡住前面，和第一次所见一样。心中一动，不再随众退下，径往左侧刚变出来的墙上行法撞去，果然石质坚硬非常。本来这一冲，土宫妙用已被引发，石完如若回身，又生变化，仍是无用。总算福至心灵，一经试出真相，不特未退，反用家传法力将那墙壁裂口制住。经此一来，妙用全失，急切间不能生出变化，致被众人安然寻去，见状大喜。同时闻得风、雷、水、火夹着各种极猛烈的异声，万籁齐鸣，上下四外一起震动。全甬道也不住摇撼，仿佛海啸山崩，就要爆发情景。金、石、干、甄诸人不是得有师传，便是见闻广博，知道宫中妙用埋伏，已被石完触动，此是应有现象，不足为虑。前面石壁必是入口，前行固然不免险阻，且喜无心中得到出路，由此可以悟彻玄机。反正不用法宝不行，且由石完先行开路，到了前面见机行事。",
+          "instruct": "紧张叙述，变化莫测，结尾收束"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "trigger_keyword": "墙上行法撞去",
+            "trigger_offset": -0.5,
+            "name": "石壁撞裂",
+            "sound_cn": "石完行法撞向墙壁的巨大碎裂声与石块飞溅",
+            "sound_en": "loud crash as Shi Wan smashes into the wall with magic, stones splitting and flying everywhere",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "trigger_keyword": "风雷水火",
+            "trigger_offset": -0.5,
+            "name": "万籁齐鸣",
+            "sound_cn": "风雷水火夹击的巨大轰鸣与地动山摇的震荡",
+            "sound_en": "deafening roar of wind, thunder, water, and fire all rising together, the whole passage shaking violently, earth-shattering",
+            "volume": "-12%",
+            "pitch": "-1Hz"
+          },
+          {
+            "trigger_delay": 16.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "trigger_keyword": "全甬道摇撼",
+            "trigger_offset": -0.5,
+            "name": "甬道震荡",
+            "sound_cn": "全甬道持续摇撼的沉闷轰鸣与岩石摩擦",
+            "sound_en": "continuous deep rumbling as the entire corridor shakes, stones grinding and groaning under pressure",
+            "volume": "-18%",
+            "pitch": "-1Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "北极冰洋横渡",
+        "name_en": "北极冰洋，寒流澎湃，冰山崩裂，巨鲸喷水，冻云冷雾笼罩，万里鲸波壮阔而苍茫",
+        "start_line": 1,
+        "end_line": 1,
+        "prompt": "very subtle low volume cinematic background ambience, vast arctic ocean under gray frozen clouds, cold waves crashing against towering icebergs with deep rumbling, massive icebergs grinding and breaking apart, great whales surfacing with thunderous blows, bitter wind howling across the sea, vast and desolate atmosphere, low resonant drone of distant ice groaning, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "地底穿行与寒雷爆发",
+        "name_en": "地底深处，震脉密布，寒碧光华飞涌，冷焰寒雷接连爆发的沉闷巨响，地动山摇",
+        "start_line": 9,
+        "end_line": 27,
+        "prompt": "very subtle low volume background ambience, deep underground tunnels, cold and oppressive air, distant rumbling of tectonic shifts, sudden burst of freezing green light, series of muffled thunderous explosions shaking the earth, rocks grinding and falling, tense and dangerous atmosphere, deep gong-like resonance from the cold thunder, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "地底商议与石完逞能",
+        "name_en": "寒雷过后，众人暂歇商议，石完不服气，灵奇解释冷焰寒雷之威，气氛稍缓但仍紧张",
+        "start_line": 16,
+        "end_line": 27,
+        "prompt": "very subtle low volume background ambience, quiet underground chamber after the thunder, faint lingering cold, soft echoes of low voices, occasional scrape of stone, tense but reflective atmosphere, deep cello-like resonance vibrating through the earth, no sharp foreground sounds, no voices music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "地肺火海穿行",
+        "name_en": "地肺深处，沸浆熔液翻涌，晴绿地火燃烧，阴风毒烟横亘，火海熔炉般的极端环境",
+        "start_line": 28,
+        "end_line": 31,
+        "prompt": "very subtle low volume background ambience, deep within the earth's fiery core, rivers of molten lava and boiling rock, crackling green fires burning, poisonous smoke and choking fumes, searing heat waves radiating, intense and hellish atmosphere, deep resonant hum of the earth's furnace, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "绣琼源海岸与二童现身",
+        "name_en": "陷空岛绣琼源，水晶海岸，仙雾缥缈，二童如冰玉般现身，气氛由紧张转为微妙的对峙",
+        "start_line": 32,
+        "end_line": 47,
+        "prompt": "very subtle low volume background ambience, mystical coast of Xiuqiong Yuan on the ice island, crystal-like shoreline reflecting pale light, faint celestial mist drifting, ethereal and cold beauty, two fairy-like youths appearing like carved jade, subtle tension beneath the serene surface, soft chiming of distant ice crystals, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "冰纨现字与传音",
+        "name_en": "二童冰纨短衣上字迹显现，冷光闪烁，暗中传音示警，气氛神秘而紧张",
+        "start_line": 46,
+        "end_line": 47,
+        "prompt": "very subtle low volume background ambience, cold shimmering light from the ice-silk garments, faint crackling of frost characters appearing, whispered warnings barely audible, mysterious and tense atmosphere, low eerie resonance of ancient ice magic, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "地璇宫迷宫总图",
+        "name_en": "地璇宫巨大水晶广场，六根金柱环绕，碧玉罗盘现出宙极缩影，星图转动，天机隐现",
+        "start_line": 61,
+        "end_line": 73,
+        "prompt": "very subtle low volume background ambience, vast crystal plaza deep under the ice island, six golden pillars radiating faint light, a cosmic diagram of stars and orbits slowly rotating in the center, mystical and profound atmosphere, soft hum of celestial mechanisms, whispers of ancient cosmic order, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "迷宫甬道与七星宫变化",
+        "name_en": "地璇宫迷宫内部，七条歧路，土宫黄尘火星，金亭日轮飞过，月影寒气压来，变化无穷的致命迷宫",
+        "start_line": 75,
+        "end_line": 81,
+        "prompt": "very subtle low volume background ambience, endless labyrinthine corridors deep underground, shifting walls and changing paths, distant roars of earth, thunder, and fire, sudden flashes of golden sun wheels and chilling moon shadows, oppressive and bewildering atmosphere, deep resonant drone of trapped elemental forces, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}
