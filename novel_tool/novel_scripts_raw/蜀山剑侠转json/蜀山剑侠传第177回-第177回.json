@@ -9,7 +9,7 @@
   },
   "roles_definition": {
     "凌云凤": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云萱-情感,优雅知性",
       "speed": "0.9",
       "volume": "-6%",
       "pitch": "+0Hz"
@@ -51,7 +51,7 @@
       "pitch": "+0Hz"
     },
     "妖人": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "云毒-低沉,解说大神",
       "speed": "0.85",
       "volume": "-2%",
       "pitch": "-4Hz"

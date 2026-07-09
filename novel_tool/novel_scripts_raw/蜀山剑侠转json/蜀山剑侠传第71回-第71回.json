@@ -33,13 +33,13 @@
       "speed": "0%"
     },
     "玉清大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云墨-情感,成熟知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "铁蓑道人": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "神秘法师-低沉,浑厚",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-3%"
@@ -81,13 +81,13 @@
       "speed": "+2%"
     },
     "何玫": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "俏皮女声-活泼,元气",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "柳燕娘": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "邪魅御姐-性感,邪魅",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -105,13 +105,13 @@
       "speed": "-3%"
     },
     "林秋水": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "云毒-低沉,解说大神",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "薛蟒": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "云毒-低沉,解说大神",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -129,7 +129,7 @@
       "speed": "-6%"
     },
     "郁次谷": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -141,7 +141,7 @@
       "speed": "0%"
     },
     "孔灵子": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "神秘法师-低沉,浑厚",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -159,13 +159,13 @@
       "speed": "0%"
     },
     "周轻云": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "吴文琪": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"

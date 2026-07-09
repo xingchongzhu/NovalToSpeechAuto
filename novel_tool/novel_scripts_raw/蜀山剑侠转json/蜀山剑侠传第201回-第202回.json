@@ -33,7 +33,7 @@
       "speed": "0%"
     },
     "玉清大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云墨-情感,成熟知性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -45,7 +45,7 @@
       "speed": "0%"
     },
     "戴湘英": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "元气甜妹-元气,甜美",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+1%"
@@ -99,7 +99,7 @@
       "speed": "-4%"
     },
     "妖人": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "云毒-低沉,解说大神",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-2%"

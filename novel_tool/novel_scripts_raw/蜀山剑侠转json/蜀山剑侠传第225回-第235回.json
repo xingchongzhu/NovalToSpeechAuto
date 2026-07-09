@@ -1,1419 +1,1440 @@
 {
-	"project": "蜀山剑侠传有声小说自动生成",
-	"chapter": "第235回",
-	"片头": {
-		"novel_name": "蜀山剑侠传",
-		"author": "还珠楼主",
-		"speaker": "AI合成",
-		"role_voice": "云健-低沉"
-	},
-	"roles_definition": {
-		"旁白": {
-			"role_voice": "云健-低沉",
-			"pitch": "0Hz",
-			"volume": "0%",
-			"speed": "-10%"
-		},
-		"女神婴易静": {
-			"role_voice": "傲娇女友-甜美,优雅",
-			"pitch": "+2Hz",
-			"volume": "+1%",
-			"speed": "-1%"
-		},
-		"癞姑": {
-			"role_voice": "开朗小雪-清冷女声,影视,情感",
-			"pitch": "+1Hz",
-			"volume": "0%",
-			"speed": "-2%"
-		},
-		"李英琼": {
-			"role_voice": "俏皮女声-活泼,元气",
-			"pitch": "+4Hz",
-			"volume": "+1%",
-			"speed": "0%"
-		},
-		"灵奇": {
-			"role_voice": "风发少年-潇洒,磁性",
-			"pitch": "+1Hz",
-			"volume": "+1%",
-			"speed": "0%"
-		},
-		"灵威叟": {
-			"role_voice": "云诚-成熟,标准男声",
-			"pitch": "0Hz",
-			"volume": "0%",
-			"speed": "-3%"
-		},
-		"陷空老祖": {
-			"role_voice": "云森-沧桑男声,忧郁深邃",
-			"pitch": "-4Hz",
-			"volume": "0%",
-			"speed": "-6%"
-		},
-		"中年修士": {
-			"role_voice": "云风-沉稳,自然男声",
-			"pitch": "0Hz",
-			"volume": "0%",
-			"speed": "-5%"
-		},
-		"石生": {
-			"role_voice": "明朗-阳光少年,情感",
-			"pitch": "+2Hz",
-			"volume": "+1%",
-			"speed": "+1%"
-		},
-		"金蝉": {
-			"role_voice": "君凯-阳光少年,情感",
-			"pitch": "+1Hz",
-			"volume": "+1%",
-			"speed": "0%"
-		},
-		"阿童": {
-			"role_voice": "明朗-阳光少年,情感",
-			"pitch": "+2Hz",
-			"volume": "+1%",
-			"speed": "+2%"
-		}
-	},
-	"data": [{
-			"id": 0,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "第235回 一径入晶宫 广殿通明参极主 横空张绿网 长天无际遁飞人",
-					"instruct": "庄重开场，气息悠长"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "voice_only"
-			}
-		},
-		{
-			"id": 1,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落A：从“女神婴易静、癞姑、李英琼……”到“癞姑已用本门传声之法说道：”的全部叙述文字）",
-					"instruct": "紧张中带期待，叙述快速"
-				},
-				"effects": [{
-						"trigger_keyword": "青白光华",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "遁光破空",
-						"sound_cn": "青白遁光破空飞降",
-						"sound_en": "green-white light streaking down with whistle",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "玄色光焰",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "光焰激射",
-						"sound_cn": "玄色光焰从洞口激射",
-						"sound_en": "dark flame shooting up from hole with hiss",
-						"volume": "-18%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 2,
-			"role": "癞姑",
-			"api": {
-				"voice": {
-					"role": "癞姑",
-					"role_voice": "开朗小雪-清冷女声,影视,情感",
-					"speed": "-2%",
-					"volume": "0%",
-					"pitch": "+1Hz",
-					"text": "大功将成，事机匆迫，此刻无暇多言。少时如和新来这位道友同去霜华宫中，请由妹子先向主人致词，然后师姊相机发话。",
-					"instruct": "压低声音，急切而神秘"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 3,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落B：从“易静知有原故……”到“灵威叟满面愁容，由右门飞出，朝癞姑使一眼色，说道：”的全部叙述）",
-					"instruct": "紧张急促，形势突变"
-				},
-				"effects": [{
-						"trigger_keyword": "风雷大作",
-						"trigger_offset": 0,
-						"duration": 4,
-						"process_mode": "overlay",
-						"name": "风雷阵动",
-						"sound_cn": "阵中风雷轰鸣",
-						"sound_en": "roaring wind and thunder within formation",
-						"volume": "-14%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "白气",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "白气卷人",
-						"sound_cn": "白气如匹练卷走灵奇",
-						"sound_en": "white air current coiling like silk snatching person",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "冰层隔断",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "冰层闭合",
-						"sound_cn": "冰层合拢阻隔",
-						"sound_en": "ice layer closing with heavy thud",
-						"volume": "-18%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 4,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "家师不知蠢子近已投入到贵派门下，因他奉命来助道友等盗取灵药，家师得知大怒，已用法力擒去。老朽适才奉命，来引诸位道友去至霜华宫中谒见岛主，到此方知。见了岛主，还望分说一二。易道友已先接引，现在门内，请同去吧。",
-					"instruct": "愁容满面，低声恳求"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 5,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "癞姑闻言会意，抗声答道：",
-					"instruct": "沉稳接话"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 6,
-			"role": "癞姑",
-			"api": {
-				"voice": {
-					"role": "癞姑",
-					"role_voice": "开朗小雪-清冷女声,影视,情感",
-					"speed": "-2%",
-					"volume": "0%",
-					"pitch": "+1Hz",
-					"text": "本来我等以礼求药，允否任凭岛主尊便。原因岛主欲试后辈功力，命自往盗，又承多所教益，爱护周至，所以我等不知禁忌。令郎灵奇，近蒙大方真人接引，已是二师兄岳雯弟子，乃我等师侄。因知岛主阵图神妙无穷，我等十人各要镇压宫位，一人也难离开，知他来此省视，逗留玄冥界外，特意令其暗中随来，相助取药。岛主必当他不是我等一行，所以错怪。少时拜见岛主，自会陈说详情。想岛主山海之量，决不与我等末学后辈一般见识哩。",
-					"instruct": "不卑不亢，据理力争"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 7,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落C：从“灵威叟闻言，立转喜容……”到“岛主延见。”的全部叙述）",
-					"instruct": "描写壮丽，语气舒缓赞叹"
-				},
-				"effects": [{
-						"trigger_keyword": "水晶长廊",
-						"trigger_offset": 0,
-						"duration": 8,
-						"process_mode": "overlay",
-						"name": "晶宫回响",
-						"sound_cn": "水晶宫内的空灵回响",
-						"sound_en": "ethereal echoes within crystal palace",
-						"volume": "-22%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "碧波澄静",
-						"trigger_offset": 0,
-						"duration": 5,
-						"process_mode": "overlay",
-						"name": "海水轻涌",
-						"sound_cn": "深海碧波轻轻拍打晶壁",
-						"sound_en": "deep sea water lapping against crystal walls",
-						"volume": "-24%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "寒金宝柱",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "金光闪烁",
-						"sound_cn": "寒金宝柱射出金光",
-						"sound_en": "golden pillars emitting soft hum",
-						"volume": "-26%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 8,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "岛主延见。",
-					"instruct": "恭敬中带忧虑"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 9,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落D：从“便听金钟之声……”到“对众人道：”的全部叙述）",
-					"instruct": "描写细致，气氛紧张"
-				},
-				"effects": [{
-						"trigger_keyword": "金钟",
-						"trigger_offset": 0,
-						"duration": 4,
-						"process_mode": "overlay",
-						"name": "金钟清鸣",
-						"sound_cn": "金钟五响，清越悠长",
-						"sound_en": "five clear resonant strokes of golden bell",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "细乐",
-						"trigger_offset": 0,
-						"duration": 6,
-						"process_mode": "overlay",
-						"name": "仙乐奏起",
-						"sound_cn": "法曲仙音，笙簧细奏",
-						"sound_en": "celestial music playing softly, flutes and strings",
-						"volume": "-20%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "白玉宫门",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "宫门开启",
-						"sound_cn": "白玉宫门徐徐开放",
-						"sound_en": "white jade gate opening slowly with grinding",
-						"volume": "-18%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 10,
-			"role": "中年修士",
-			"api": {
-				"voice": {
-					"role": "中年修士",
-					"role_voice": "云风-沉稳,自然男声",
-					"speed": "-5%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "岛主因灵奇乃大师兄之子，不合擅入丹井，献媚外人，盗取灵药，按着岛规，本应严刑处死。适才天乾山主驾临，言说路遇大方真人，此子果已投到峨眉门下。岛主本令诸位盗药，并未禁其约人相助。并且诸位道友已然穿出战门，将上下两阵制住，符了岛主初意，灵药本可唾手而得。只缘匆迫之中，尚未悟出太极、无极两仪分合之妙，不能下去。此子受仇人指点，乃父徇私相告，已明阵法。为图省事，逞能卖好，乘虚而下，灵药虽然得手，几乎将元磁真气引发，生出事来。如非有人说情，决所不容。现已看在天乾山主情面，又念此子实是峨眉门下，适才所说，并非虚言，破例宽容，连大师兄也一并免责，命我传令释放。少时，仍由大师兄率领随同进见，岛主当面尚有话说。",
-					"instruct": "传令官式口吻，严肃中带善意"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 11,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落E：从“众人闻言，自是欣喜……”到“各叫了声师叔。”的全部叙述）",
-					"instruct": "转为欣慰，语气轻快"
-				},
-				"effects": [{
-						"trigger_keyword": "玉牌",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "寒焰熄灭",
-						"sound_cn": "玉牌银光熄灭寒焰",
-						"sound_en": "cold flame extinguished by jade token's silver light",
-						"volume": "-18%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "铁牌",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "铁牌扳动",
-						"sound_cn": "六角铁牌扳动声",
-						"sound_en": "hexagonal iron plate turned with clank",
-						"volume": "-18%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "飘然下落",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "落地轻响",
-						"sound_cn": "灵奇飘然落地",
-						"sound_en": "light thud of person landing softly",
-						"volume": "-20%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 12,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落F：从“易静见他的面上忿容未敛……”到“那修士笑道：”的全部叙述）",
-					"instruct": "平静观察，内心欣慰"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 13,
-			"role": "女神婴易静",
-			"api": {
-				"voice": {
-					"role": "女神婴易静",
-					"role_voice": "傲娇女友-甜美,优雅",
-					"speed": "-1%",
-					"volume": "+1%",
-					"pitch": "+2Hz",
-					"text": "后辈等愚妄无知，以为奉有岛主明令，率意行事，冒犯威严。多蒙岛主念着家师情面，爱屋及乌，宽恕灵奇，感谢无极。现在灵药求到，急于回山医治伤人。敬烦二位引往拜见岛主，敬伸谢忱，并领教诲如何？",
-					"instruct": "客气有礼，不失分寸"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 14,
-			"role": "中年修士",
-			"api": {
-				"voice": {
-					"role": "中年修士",
-					"role_voice": "云风-沉稳,自然男声",
-					"speed": "-5%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "诸位道友人见岛主，应由大师兄引往。不过此时忽有仙客到来，尚烦少待，尊意当为转达。贫道复命去了。",
-					"instruct": "和缓客气"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 15,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落G：从“说时，看了灵威叟父子一眼……”到“灵威叟道：”的全部叙述）",
-					"instruct": "平缓叙述，略带好奇"
-				},
-				"effects": [{
-					"trigger_keyword": "乐声再奏",
-					"trigger_offset": 0,
-					"duration": 4,
-					"process_mode": "overlay",
-					"name": "仙乐再起",
-					"sound_cn": "霜华宫仙乐再次奏起",
-					"sound_en": "celestial music resuming in Shuanghua Palace",
-					"volume": "-20%",
-					"pitch": "+0Hz"
-				}]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 16,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "天乾山主已行，众位道友请入宫吧。",
-					"instruct": "恭敬引路"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 17,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落H：从“随引众人入内……”到“灵威叟已先上前拜倒，口称：”的全部叙述）",
-					"instruct": "描写辉煌，语气庄重赞叹"
-				},
-				"effects": [{
-						"trigger_keyword": "玉阶",
-						"trigger_offset": 0,
-						"duration": 4,
-						"process_mode": "overlay",
-						"name": "登阶脚步声",
-						"sound_cn": "众人登上白玉台阶",
-						"sound_en": "footsteps ascending white jade stairs echoing",
-						"volume": "-22%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "甲士",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "甲士列队",
-						"sound_cn": "甲士持戈肃立",
-						"sound_en": "armored warriors standing with halberds",
-						"volume": "-24%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 18,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "峨眉齐真人门下十位道友，率领灵奇进见。",
-					"instruct": "恭敬禀报"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 19,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "陷空老祖微一点首，灵奇便起立侍侧。众人不便再多张望，随同上前，正待躬身下拜，陷空老祖将手一摆，笑道：",
-					"instruct": "平缓过渡"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 20,
-			"role": "陷空老祖",
-			"api": {
-				"voice": {
-					"role": "陷空老祖",
-					"role_voice": "云森-沧桑男声,忧郁深邃",
-					"speed": "-6%",
-					"volume": "0%",
-					"pitch": "-4Hz",
-					"text": "我与令师只是神交，易贤侄的令尊与我交厚，虽是后辈，先来已然礼拜，此时毋须太谦。我僻居极荒，终日静坐，久习疏懒。各方道友来访，多不离座，只以奏乐迎送，也不作客套。请各就座吧。",
-					"instruct": "淡然而带威严"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 21,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "说时，众人觉对方手伸处，立有一股奇寒而劲的大力逼来，将身挡住，不令下拜。知他天性奇特，不应违忤。又见座左设有一排十个玉墩，上铺海草织成的白色软席，便同称谢，分别就座。易震年幼辈低，坐于末位。灵奇便侍立在他身后。灵奇之事已了，无庸癞姑解说。仍由易静为首起立，躬身敬谢赐药，指点成全，以及宽宥灵奇之德，并请教诲。陷空老祖道：",
-					"instruct": "叙述平稳，恭敬有加"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 22,
-			"role": "陷空老祖",
-			"api": {
-				"voice": {
-					"role": "陷空老祖",
-					"role_voice": "云森-沧桑男声,忧郁深邃",
-					"speed": "-6%",
-					"volume": "0%",
-					"pitch": "-4Hz",
-					"text": "我承令师不遗荒远，附于交末。又知他和各同门道友闭户修炼，无暇分身。诸位小友是他门下，既然需要，理合相赠。一则，此药所存无多，爱人以德，不愿来人得之不易；二则我将来有一为难之事。因我闭门静修，地处僻荒，为免烦扰，在本岛周围设有禁制；加上玄冥界天生阻隔，又借极光真磁之力颠倒阴阳。外人固不易推算我的虚实动静，我也不愿与闻外事，作法自蔽，益复孤陋寡闻。那巽宫冰蚕和万年温王，落在诸位小友手中，尚无闻知，适才才听天乾山小男道友说起，真乃快事。只是得信稍迟，因欲试诸位小友道力，致有盗药之举，白白多此一番辛劳，实为愧对。尚幸有此一番经历，将来不为无益，令师当已知我用意，想也不致笑我量小。此番所取的灵药，乃我最初采炼，取材配制，极为精纯，所以深藏丹室之内。那丹井，乃元磁真精所萃，与极光发源之地直对相应，酷寒烈冷，无与伦比。如不得我心许，便到时不另发动，这两间混元精气与他为难，也难如愿相偿，并要视若仇敌，更凭多大道力，也盗不去了。",
-					"instruct": "娓娓道来，略带自得"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 23,
-			"role": "陷空老祖",
-			"api": {
-				"voice": {
-					"role": "陷空老祖",
-					"role_voice": "云森-沧桑男声,忧郁深邃",
-					"speed": "-6%",
-					"volume": "0%",
-					"pitch": "-4Hz",
-					"text": "灵奇所得，实比以前孽徒所盗灵效远胜。灵奇之父，是我嫡传大弟子。灵奇平日妄冀天仙位业，不愿随乃父归入本门，人各有志，也还罢了。最不合是心存鄙薄，急难来投，又不安分，屡在外面生事，以致乃父为彼忧劳。我以前不许他入境，也由于此。这次更是胆大妄为，勾串乃父，得知阵中机密，私入丹室。已然将我备赠的灵药取到手内，临行又起贪心。却不知两间混元精气何等威力，连我在此修炼多年，深悉微妙，尚且只能以法力运行，小心谨慎利用，不敢和它相抗。他一末学后进，新近不过乃师坐化，得了几件遗传的法宝，便不知自量，轻犯凶锋，几为妖邪所杀，侥幸才脱毒手。日前乙道友夫妇于四万里外追逐二妖人来此，被他无心巧遇，幸蒙成全，赐以灵丹，方得复原。又复不知利害轻重，任性胡为。如非佛光神妙，应变迅速，那元磁精气刚被引动，便逃上来，太阴真火未被引燃，不特诸位道友功亏一贯，丹井下层穴口为混元真气封闭，急切间连我也难为力，便他本身也必化成灰烬了。此时形势奇险，他那几件法宝虽不寻常，但无一件可与诸位小友相提并论，稍差瞬息，立肇巨变。",
-					"instruct": "严肃责备，语气转冷"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 24,
-			"role": "陷空老祖",
-			"api": {
-				"voice": {
-					"role": "陷空老祖",
-					"role_voice": "云森-沧桑男声,忧郁深邃",
-					"speed": "-6%",
-					"volume": "0%",
-					"pitch": "-4Hz",
-					"text": "大弟子虽然犯规，一则，念他从我多年，一向忠诚，功足补过；二则，父子天性，舐犊之情，贤者不免，尚可略施小罚，加以原宥。此子却是万容不得。如非小男道友代乙道友向我致意，又是齐道友第二代徒孙，照他被擒见我时，那等桀骛不驯的情景，纵看乃父情面，不戮形神，至少也应打他三百寒鞭，日受冷焰之刑，三年之后方始逐出，永不许他父子相见。现我虽因乙道友和令师之故，将他释放，但我丹井二图机密，已被他知悉，与诸位小友只知镇制五行宫位不同。他又逞能卖好，尽管事前曾向乃父立有重誓，决不再告他人，泄漏大约不敢，但异日再如有人需要此药，难保不自告奋勇，又来盗取。其实齐道友为人，我本敬服，如再需用，只凭一介之使，立可取奉。此子如再行险，那时被我擒到，我话已说在前，休怪我不讲情面。",
-					"instruct": "威胁中带警告，语气凌厉"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 25,
-			"role": "陷空老祖",
-			"api": {
-				"voice": {
-					"role": "陷空老祖",
-					"role_voice": "云森-沧桑男声,忧郁深邃",
-					"speed": "-6%",
-					"volume": "0%",
-					"pitch": "-4Hz",
-					"text": "至于我向令师借宝，并在今日来人中约一二小友相助之事，此时尚难明言。已然拜托小男道友，或是由他亲往峨眉面谈，或以飞书向令师请借，到时自知，毋须先说。此药用法极简，只须将万年续断所制炼的药锭，先由一道力较深之人运用本身纯阳之火，融化一头，使化成真气，透入断骨筋脉之中。等其充满经络，再将灵玉膏在接样处敷上一圈。晃眼气血贯通，精髓充沛，视各人本身功候如何，至多两三个时辰过去，便可复原。在四十五日以内，任多厉害恶毒的邪法飞刀，也自无妨。痊后，筋骨之力反倒比前健强轻灵，并无残痕。何况事前又有大荒神妪的灵药，先为保全，便隔百年，也可接上了。我想峨眉开府，门人四出行道，强敌众多，异日难保不需此药，而数万里冰山雪海，往返艰难，跋涉不易，此次所得，足供十人之用，余药善自保藏，留备不虞便了。",
-					"instruct": "转为平和，嘱咐周到"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 26,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落I：从“易静见灵奇面上仍带傲容……”到“灵威叟便请众人止步，说道：”的全部叙述）",
-					"instruct": "平静叙述，内心思量"
-				},
-				"effects": [{
-					"trigger_keyword": "拜谢",
-					"trigger_offset": 0,
-					"duration": 2,
-					"process_mode": "overlay",
-					"name": "行礼声",
-					"sound_cn": "众人躬身行礼，衣袂轻响",
-					"sound_en": "rustle of robes as people bow in thanks",
-					"volume": "-22%",
-					"pitch": "+0Hz"
-				}]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 27,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "诸位道友，大功告成。小儿叨列门墙，从此得受教诲，可免失足，去了老朽一件心事。此时无须再走回路，请由此亭上升，即可透出海面了。",
-					"instruct": "欣慰中带释然"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 28,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落J：从“说罢，手掐灵诀……”到“灵威叟笑道：”的全部叙述）",
-					"instruct": "奇幻升起，语气惊奇"
-				},
-				"effects": [{
-						"trigger_keyword": "云光乱闪",
-						"trigger_offset": 0,
-						"duration": 4,
-						"process_mode": "overlay",
-						"name": "升腾法光",
-						"sound_cn": "法光托升，云气飞旋",
-						"sound_en": "magical light lifting, swirling clouds and wind",
-						"volume": "-18%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "光华电掣",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "光华一闪",
-						"sound_cn": "光华电掣一闪而过",
-						"sound_en": "lightning flash of light passing",
-						"volume": "-20%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 29,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "诸位俱知途径，老朽尚须回宫复命，恕不远送了。",
-					"instruct": "告别，语气客气"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 30,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "随将手一指，亭中晶壁便开了一面，引众同出，举手作别。灵奇又似要开口询问，灵威叟忍不住怒骂了一声：",
-					"instruct": "简短过渡"
-				},
-				"effects": [{
-					"trigger_keyword": "晶壁",
-					"trigger_offset": 0,
-					"duration": 3,
-					"process_mode": "overlay",
-					"name": "晶壁开启",
-					"sound_cn": "水晶壁滑开",
-					"sound_en": "crystal wall sliding open smoothly",
-					"volume": "-20%",
-					"pitch": "+0Hz"
-				}]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 31,
-			"role": "灵威叟",
-			"api": {
-				"voice": {
-					"role": "灵威叟",
-					"role_voice": "云诚-成熟,标准男声",
-					"speed": "-3%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "冤孽！",
-					"instruct": "怒骂中带无奈"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 32,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "（此处为段落K：从“灵奇又复住口……”到“易静笑道：”的全部叙述）",
-					"instruct": "平缓过渡，气氛稍缓和"
-				},
-				"effects": [{
-					"trigger_keyword": "冰壁",
-					"trigger_offset": 0,
-					"duration": 3,
-					"process_mode": "overlay",
-					"name": "冰壁移开",
-					"sound_cn": "冰壁移开摩擦声",
-					"sound_en": "ice wall grinding open",
-					"volume": "-20%",
-					"pitch": "+0Hz"
-				}]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 33,
-			"role": "女神婴易静",
-			"api": {
-				"voice": {
-					"role": "女神婴易静",
-					"role_voice": "傲娇女友-甜美,优雅",
-					"speed": "-1%",
-					"volume": "+1%",
-					"pitch": "+2Hz",
-					"text": "现在我们的行踪，主人必已尽知，更无顾忌。就要回到神火峰脚鳌极洞去，约乌神叟同行，我们索性赶到那里歇息，不是好么。",
-					"instruct": "提议，语气轻松"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 34,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "英琼方想说奇景难逢，意欲浏览沿途景致，灵奇插口说道：",
-					"instruct": "过渡"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 35,
-			"role": "灵奇",
-			"api": {
-				"voice": {
-					"role": "灵奇",
-					"role_voice": "风发少年-潇洒,磁性",
-					"speed": "0%",
-					"volume": "+1%",
-					"pitch": "+1Hz",
-					"text": "易师叔还以为乌神叟还在洞中等我们么？他已被乙真人命一海底精灵穿破冰层，借一灵符，由地底避开火源，深入洞中将他连新脱体的元灵，带那一副躯壳，全带走了；不然的话，岛主适才还不至于那样毒恨弟子，连家父也受其累呢。现时神峰那面出口的晶壁，已被岛主用法力封闭。只因这条秘径将来尚有大用，临时变计，不曾变动，全行堵塞。行法之际，未及将入口一面封闭，恰值天乾山小男到来。他本意是想我们归途改走海上，绕越玄冥界边境，不经冰原神峰旧路，由极海飞渡冰洋回去，所以由前岛送出。他因这些多是丢人的事，不好意思向诸位师叔明言，以为我知归路已断，必请诸位师叔全程改走海路。弟子一则气他冷酷无情；二则日前无心中发现一条昔日地震时的通脉，一直可以通到离此三千余里的冰洋尽头，与极海交界之处，比由陷空前岛起身，海上飞行，可免去玄冥界天险阻碍和沿途数十岛的那些精灵盘诘拦阻。他们虽有几个认识弟子的，只要互相传告，便可无事，到底要费口舌。何况正邪本是水火，他们和异派妖邪颇有交往，稍有词色不逊，休说师叔不容，弟子便看不过去，未免麻烦惹厌。",
-					"instruct": "急切解释，语速稍快"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 36,
-			"role": "灵奇",
-			"api": {
-				"voice": {
-					"role": "灵奇",
-					"role_voice": "风发少年-潇洒,磁性",
-					"speed": "0%",
-					"volume": "+1%",
-					"pitch": "+1Hz",
-					"text": "霜华宫中圆殿之上，有一摄声照影之室。岛主平时安静成习，长年无事，不去留意。先前弟子私混入宫，他已失察，已自后悔。我们走时，必将一元五宫的圆殿行法转动，让此室生出灵效，观察行踪，我们一言一动必被看出。家父和弟子都是满腹心事，不敢倾吐，连弟子想借宝暗查，都吃家父止住，故此入门未敢开口。他见我们仍行原路，定必生气。不过此人性情虽怪，却还讲理。家父又是他成道以前恩人，自从入山修炼，便拜他为师，相随至今，不便十分严酷相待。因在事前未令我们如何走法；又以乌神叟泄漏机密，引人入内，与家父无干；至于家父爱子情深，使弟子私入秘径，已然处罚，不能二罪重科。总之好些关碍，不便封闭全径。更知诸位师叔法宝神奇，万一阻挡不住，更是丢人，干生气，无可如何。玄冥界外的事，他本难查见；就能行法推算，也不肯费那么大的心力。昔年震源脉络径路暗藏地底，密如丝网，十九吃他堵死，独单把引往海中的一条震源通路留存完好。当初命来查看秘径的又是他的门人，他本人不曾亲来，又凑巧秘径里面的入口恰震塌了十来丈，和别处堵塞的震源通路相似，就此忽略过去，万想不到会被弟子发现。此时他忿气难平，知一为难，反倒不好；若装不知，诸位师叔必以客礼自居，不肯施展法力，损毁这条秘径，到了前面遇阻时，经弟子说明前情，自必折回。依弟子推测，不特来路入口已吃封闭，甚或已运用元磁真气，把玄冥界禁制，移向地底，欲使我们进退两难，困上两天，向他求告。然后再装好人，命家父进来接引，仍由原路退出，改走海上，以戒我们行动轻率。表面客气，暗中出气，挽回颜面。诸位师叔，他将来有借重之处；盗药又是心甘情愿。便是私行秘径，深入绣琼原禁地，也都算是乌神叟的罪过，与诸位师叔无干。对于弟子，因不肯投在他的门下，这次又来盗取灵药，自然痛恨已极。异日弟子思念家父，不免来此省亲，只要入境被他发觉，必不善罢，纵是峨眉门下，恐也不肯甘休呢。",
-					"instruct": "忧虑中带愤慨，分析细致"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 37,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "说时众人已停了下来。易静问他：",
-					"instruct": "过渡"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 38,
-			"role": "女神婴易静",
-			"api": {
-				"voice": {
-					"role": "女神婴易静",
-					"role_voice": "傲娇女友-甜美,优雅",
-					"speed": "-1%",
-					"volume": "+1%",
-					"pitch": "+2Hz",
-					"text": "适才你们父子分别，面带愁苦，有何心事？",
-					"instruct": "关切询问"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 39,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "灵奇答道：",
-					"instruct": "过渡"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 40,
-			"role": "灵奇",
-			"api": {
-				"voice": {
-					"role": "灵奇",
-					"role_voice": "风发少年-潇洒,磁性",
-					"speed": "0%",
-					"volume": "+1%",
-					"pitch": "+1Hz",
-					"text": "（此处为灵奇讲述九首神鳌和乙休追妖的长篇独白，从“弟子自在中土为一妖人所伤……”到“岂是这区区泉眼便能逃避得了的？”）",
-					"instruct": "回忆往事，语气低沉渐转激昂"
-				},
-				"effects": [{
-						"trigger_keyword": "深红如血",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "妖光破空",
-						"sound_cn": "深红妖光破空飞遁",
-						"sound_en": "deep red demonic light streaking",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "金光",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "金光追遁",
-						"sound_cn": "金光与青光合并追击",
-						"sound_en": "golden and cyan light merging in pursuit",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "神箭",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "神箭破空",
-						"sound_cn": "韩仙子神箭射出",
-						"sound_en": "divine arrow shot with piercing whistle",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "神雷",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "神雷震灭",
-						"sound_cn": "法宝神雷齐发震灭妖人",
-						"sound_en": "divine thunder and treasures obliterating demons",
-						"volume": "-12%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 41,
-			"role": "灵奇",
-			"api": {
-				"voice": {
-					"role": "灵奇",
-					"role_voice": "风发少年-潇洒,磁性",
-					"speed": "0%",
-					"volume": "+1%",
-					"pitch": "+1Hz",
-					"text": "（此处为灵奇讲述乙休放人獭、神鳌、耿鲲来袭等后续，从“说完，使命人獭下到海底……”到“无影无踪。”）",
-					"instruct": "讲述精彩交锋，语气紧张激昂"
-				},
-				"effects": [{
-						"trigger_keyword": "风雷破空",
-						"trigger_offset": 0,
-						"duration": 4,
-						"process_mode": "overlay",
-						"name": "翼人破空",
-						"sound_cn": "耿鲲双翼破空风雷",
-						"sound_en": "winged demon breaking through with wind and thunder",
-						"volume": "-14%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "火星",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "翼梢火星",
-						"sound_cn": "耿鲲翼梢火星连珠",
-						"sound_en": "sparks like firecrackers from wing tips",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "大网",
-						"trigger_offset": 0,
-						"duration": 3,
-						"process_mode": "overlay",
-						"name": "天罗地网",
-						"sound_cn": "韩仙子天罗地网展开",
-						"sound_en": "Han Xianzi's great net unfurling with swish",
-						"volume": "-16%",
-						"pitch": "+0Hz"
-					},
-					{
-						"trigger_keyword": "碧色宝光",
-						"trigger_offset": 0,
-						"duration": 2,
-						"process_mode": "overlay",
-						"name": "碧光斩妖",
-						"sound_cn": "碧色宝光腰斩妖徒",
-						"sound_en": "green treasure light slicing through demons",
-						"volume": "-14%",
-						"pitch": "+0Hz"
-					}
-				]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 42,
-			"role": "灵奇",
-			"api": {
-				"voice": {
-					"role": "灵奇",
-					"role_voice": "风发少年-潇洒,磁性",
-					"speed": "0%",
-					"volume": "+1%",
-					"pitch": "+1Hz",
-					"text": "（此处为灵奇讲述后续潜入、岛主发怒、冷焰受刑、天乾山主到来等，从“乙真人说，耿鲲记仇心重……”到“心中难过极了。”）",
-					"instruct": "倾诉愤懑与忧虑，语气复杂"
-				},
-				"effects": [{
-					"trigger_keyword": "冷焰",
-					"trigger_offset": 0,
-					"duration": 3,
-					"process_mode": "overlay",
-					"name": "冷焰焚烤",
-					"sound_cn": "冷焰寒焰燃烧声",
-					"sound_en": "cold flame burning with eerie hiss",
-					"volume": "-18%",
-					"pitch": "+0Hz"
-				}]
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 43,
-			"role": "石生",
-			"api": {
-				"voice": {
-					"role": "石生",
-					"role_voice": "明朗-阳光少年,情感",
-					"speed": "+1%",
-					"volume": "+1%",
-					"pitch": "+2Hz",
-					"text": "这有何妨？只要他肯求助于我，便包你父子能够常见了。",
-					"instruct": "乐观安慰，语气轻松"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 44,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "易静道：",
-					"instruct": "过渡"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 45,
-			"role": "女神婴易静",
-			"api": {
-				"voice": {
-					"role": "女神婴易静",
-					"role_voice": "傲娇女友-甜美,优雅",
-					"speed": "-1%",
-					"volume": "+1%",
-					"pitch": "+2Hz",
-					"text": "岛主性情不免古怪。他也是有道之上，只要不真犯他恶，决不至于如此固执，定要绝灭门人父子天性。不是有所顾忌，便是别有用心。念在你是他大弟子的爱子，恐你只顾乌私，时来省亲，无心修炼，难以精进，也未可知。且等将来用到我们之时，再行劝说，使你父子能常相见便了。",
-					"instruct": "温和劝慰，语气沉稳"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		},
-		{
-			"id": 46,
-			"role": "旁白",
-			"api": {
-				"voice": {
-					"role": "旁白",
-					"role_voice": "云健-低沉",
-					"speed": "-10%",
-					"volume": "0%",
-					"pitch": "0Hz",
-					"text": "灵奇谢了。",
-					"instruct": "收束，语气平静"
-				},
-				"effects": []
-			},
-			"mix": {
-				"mode": "mix"
-			}
-		}
-	],
-	"soundscape": {
-		"scene_layers": [{
-				"name": "冰原秘径飞行",
-				"start_line": 1,
-				"end_line": 3,
-				"prompt": "very subtle low volume ambience, frozen tunnel under ice, cold wind echoing, distant ice cracking, deep underground silence, tense and urgent, low bass drone",
-				"volume": "-24%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 3800
-			},
-			{
-				"name": "晶宫长廊",
-				"start_line": 7,
-				"end_line": 8,
-				"prompt": "very subtle low volume ambience, underwater crystal palace corridor, soft water pressure outside, faint golden light reflections, spacious and ethereal, deep sea quiet, subtle chime resonance",
-				"volume": "-24%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 4200
-			},
-			{
-				"name": "丹室刑架",
-				"start_line": 9,
-				"end_line": 11,
-				"prompt": "very subtle low volume ambience, inner alchemy hall, cold metal chains, faint crackling of cold flame, tense waiting, low hum of magical arrays",
-				"volume": "-26%",
-				"fade_in": 1,
-				"fade_out": 1,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 3800
-			},
-			{
-				"name": "霜华宫进见",
-				"start_line": 17,
-				"end_line": 25,
-				"prompt": "very subtle low volume ambience, grand crystal hall, immense space, faint ceremonial music fading, cold and solemn, majestic presence, restrained tension, deep guqin background",
-				"volume": "-22%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 4200
-			},
-			{
-				"name": "出宫与辞别",
-				"start_line": 26,
-				"end_line": 31,
-				"prompt": "very subtle low volume ambience, seaside desolate island, rough waves, howling wind, dark sky, melancholy and tense, distant storm",
-				"volume": "-24%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 3800
-			},
-			{
-				"name": "秘径归途",
-				"start_line": 32,
-				"end_line": 34,
-				"prompt": "very subtle low volume ambience, frozen tunnel again, ice walls close, quiet footsteps, cold air, subdued conversation, soft echo",
-				"volume": "-24%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 4000
-			},
-			{
-				"name": "灵奇讲述往事（回忆）",
-				"start_line": 40,
-				"end_line": 42,
-				"prompt": "very subtle low volume ambience, icy tunnel stopping point, still cold air, faint wind, attentive listening atmosphere, narrative focus, sparse ice drip",
-				"volume": "-26%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 3800
-			},
-			{
-				"name": "乙休追妖高潮（回忆内）",
-				"start_line": 41,
-				"end_line": 41,
-				"prompt": "very subtle low volume ambience, open sea sky, wind and thunder in distance, fiery sparks, intense pursuit, dynamic and exciting, drum-like tension",
-				"volume": "-22%",
-				"fade_in": 1,
-				"fade_out": 1,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 4000
-			},
-			{
-				"name": "结尾慰藉",
-				"start_line": 43,
-				"end_line": 46,
-				"prompt": "very subtle low volume ambience, quiet ice path, soft wind fading, hopeful and calm, warm and gentle, distant light",
-				"volume": "-24%",
-				"fade_in": 2,
-				"fade_out": 2,
-				"target_dbfs": -30,
-				"high_pass_hz": 90,
-				"low_pass_hz": 3800
-			}
-		]
-	}
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第235回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "女神婴易静": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "-1%"
+    },
+    "癞姑": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "李英琼": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+4Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "灵奇": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "灵威叟": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "陷空老祖": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "中年修士": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "石生": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "+1%"
+    },
+    "金蝉": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "阿童": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "+2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第235回 一径入晶宫 广殿通明参极主 横空张绿网 长天无际遁飞人",
+          "instruct": "庄重开场，气息悠长"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落A：从“女神婴易静、癞姑、李英琼……”到“癞姑已用本门传声之法说道：”的全部叙述文字）",
+          "instruct": "紧张中带期待，叙述快速"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "青白光华",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光破空",
+            "sound_cn": "青白遁光破空飞降",
+            "sound_en": "green-white light streaking down with whistle",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "玄色光焰",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "光焰激射",
+            "sound_cn": "玄色光焰从洞口激射",
+            "sound_en": "dark flame shooting up from hole with hiss",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "癞姑",
+      "api": {
+        "voice": {
+          "role": "癞姑",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "大功将成，事机匆迫，此刻无暇多言。少时如和新来这位道友同去霜华宫中，请由妹子先向主人致词，然后师姊相机发话。",
+          "instruct": "压低声音，急切而神秘"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落B：从“易静知有原故……”到“灵威叟满面愁容，由右门飞出，朝癞姑使一眼色，说道：”的全部叙述）",
+          "instruct": "紧张急促，形势突变"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "风雷大作",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "风雷阵动",
+            "sound_cn": "阵中风雷轰鸣",
+            "sound_en": "roaring wind and thunder within formation",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "白气",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "白气卷人",
+            "sound_cn": "白气如匹练卷走灵奇",
+            "sound_en": "white air current coiling like silk snatching person",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "冰层隔断",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "冰层闭合",
+            "sound_cn": "冰层合拢阻隔",
+            "sound_en": "ice layer closing with heavy thud",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "家师不知蠢子近已投入到贵派门下，因他奉命来助道友等盗取灵药，家师得知大怒，已用法力擒去。老朽适才奉命，来引诸位道友去至霜华宫中谒见岛主，到此方知。见了岛主，还望分说一二。易道友已先接引，现在门内，请同去吧。",
+          "instruct": "愁容满面，低声恳求"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "癞姑闻言会意，抗声答道：",
+          "instruct": "沉稳接话"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "癞姑",
+      "api": {
+        "voice": {
+          "role": "癞姑",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "本来我等以礼求药，允否任凭岛主尊便。原因岛主欲试后辈功力，命自往盗，又承多所教益，爱护周至，所以我等不知禁忌。令郎灵奇，近蒙大方真人接引，已是二师兄岳雯弟子，乃我等师侄。因知岛主阵图神妙无穷，我等十人各要镇压宫位，一人也难离开，知他来此省视，逗留玄冥界外，特意令其暗中随来，相助取药。岛主必当他不是我等一行，所以错怪。少时拜见岛主，自会陈说详情。想岛主山海之量，决不与我等末学后辈一般见识哩。",
+          "instruct": "不卑不亢，据理力争"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落C：从“灵威叟闻言，立转喜容……”到“岛主延见。”的全部叙述）",
+          "instruct": "描写壮丽，语气舒缓赞叹"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "水晶长廊",
+            "trigger_offset": 0,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "晶宫回响",
+            "sound_cn": "水晶宫内的空灵回响",
+            "sound_en": "ethereal echoes within crystal palace",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "碧波澄静",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "海水轻涌",
+            "sound_cn": "深海碧波轻轻拍打晶壁",
+            "sound_en": "deep sea water lapping against crystal walls",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "寒金宝柱",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金光闪烁",
+            "sound_cn": "寒金宝柱射出金光",
+            "sound_en": "golden pillars emitting soft hum",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "岛主延见。",
+          "instruct": "恭敬中带忧虑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落D：从“便听金钟之声……”到“对众人道：”的全部叙述）",
+          "instruct": "描写细致，气氛紧张"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "金钟",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金钟清鸣",
+            "sound_cn": "金钟五响，清越悠长",
+            "sound_en": "five clear resonant strokes of golden bell",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "细乐",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "仙乐奏起",
+            "sound_cn": "法曲仙音，笙簧细奏",
+            "sound_en": "celestial music playing softly, flutes and strings",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "白玉宫门",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "宫门开启",
+            "sound_cn": "白玉宫门徐徐开放",
+            "sound_en": "white jade gate opening slowly with grinding",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "中年修士",
+      "api": {
+        "voice": {
+          "role": "中年修士",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "岛主因灵奇乃大师兄之子，不合擅入丹井，献媚外人，盗取灵药，按着岛规，本应严刑处死。适才天乾山主驾临，言说路遇大方真人，此子果已投到峨眉门下。岛主本令诸位盗药，并未禁其约人相助。并且诸位道友已然穿出战门，将上下两阵制住，符了岛主初意，灵药本可唾手而得。只缘匆迫之中，尚未悟出太极、无极两仪分合之妙，不能下去。此子受仇人指点，乃父徇私相告，已明阵法。为图省事，逞能卖好，乘虚而下，灵药虽然得手，几乎将元磁真气引发，生出事来。如非有人说情，决所不容。现已看在天乾山主情面，又念此子实是峨眉门下，适才所说，并非虚言，破例宽容，连大师兄也一并免责，命我传令释放。少时，仍由大师兄率领随同进见，岛主当面尚有话说。",
+          "instruct": "传令官式口吻，严肃中带善意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落E：从“众人闻言，自是欣喜……”到“各叫了声师叔。”的全部叙述）",
+          "instruct": "转为欣慰，语气轻快"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "玉牌",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "寒焰熄灭",
+            "sound_cn": "玉牌银光熄灭寒焰",
+            "sound_en": "cold flame extinguished by jade token's silver light",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "铁牌",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "铁牌扳动",
+            "sound_cn": "六角铁牌扳动声",
+            "sound_en": "hexagonal iron plate turned with clank",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "飘然下落",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "落地轻响",
+            "sound_cn": "灵奇飘然落地",
+            "sound_en": "light thud of person landing softly",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落F：从“易静见他的面上忿容未敛……”到“那修士笑道：”的全部叙述）",
+          "instruct": "平静观察，内心欣慰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "女神婴易静",
+      "api": {
+        "voice": {
+          "role": "女神婴易静",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-1%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "后辈等愚妄无知，以为奉有岛主明令，率意行事，冒犯威严。多蒙岛主念着家师情面，爱屋及乌，宽恕灵奇，感谢无极。现在灵药求到，急于回山医治伤人。敬烦二位引往拜见岛主，敬伸谢忱，并领教诲如何？",
+          "instruct": "客气有礼，不失分寸"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "中年修士",
+      "api": {
+        "voice": {
+          "role": "中年修士",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位道友人见岛主，应由大师兄引往。不过此时忽有仙客到来，尚烦少待，尊意当为转达。贫道复命去了。",
+          "instruct": "和缓客气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落G：从“说时，看了灵威叟父子一眼……”到“灵威叟道：”的全部叙述）",
+          "instruct": "平缓叙述，略带好奇"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "乐声再奏",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "仙乐再起",
+            "sound_cn": "霜华宫仙乐再次奏起",
+            "sound_en": "celestial music resuming in Shuanghua Palace",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "天乾山主已行，众位道友请入宫吧。",
+          "instruct": "恭敬引路"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落H：从“随引众人入内……”到“灵威叟已先上前拜倒，口称：”的全部叙述）",
+          "instruct": "描写辉煌，语气庄重赞叹"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "玉阶",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "登阶脚步声",
+            "sound_cn": "众人登上白玉台阶",
+            "sound_en": "footsteps ascending white jade stairs echoing",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "甲士",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "甲士列队",
+            "sound_cn": "甲士持戈肃立",
+            "sound_en": "armored warriors standing with halberds",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "峨眉齐真人门下十位道友，率领灵奇进见。",
+          "instruct": "恭敬禀报"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陷空老祖微一点首，灵奇便起立侍侧。众人不便再多张望，随同上前，正待躬身下拜，陷空老祖将手一摆，笑道：",
+          "instruct": "平缓过渡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "陷空老祖",
+      "api": {
+        "voice": {
+          "role": "陷空老祖",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我与令师只是神交，易贤侄的令尊与我交厚，虽是后辈，先来已然礼拜，此时毋须太谦。我僻居极荒，终日静坐，久习疏懒。各方道友来访，多不离座，只以奏乐迎送，也不作客套。请各就座吧。",
+          "instruct": "淡然而带威严"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，众人觉对方手伸处，立有一股奇寒而劲的大力逼来，将身挡住，不令下拜。知他天性奇特，不应违忤。又见座左设有一排十个玉墩，上铺海草织成的白色软席，便同称谢，分别就座。易震年幼辈低，坐于末位。灵奇便侍立在他身后。灵奇之事已了，无庸癞姑解说。仍由易静为首起立，躬身敬谢赐药，指点成全，以及宽宥灵奇之德，并请教诲。陷空老祖道：",
+          "instruct": "叙述平稳，恭敬有加"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "陷空老祖",
+      "api": {
+        "voice": {
+          "role": "陷空老祖",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我承令师不遗荒远，附于交末。又知他和各同门道友闭户修炼，无暇分身。诸位小友是他门下，既然需要，理合相赠。一则，此药所存无多，爱人以德，不愿来人得之不易；二则我将来有一为难之事。因我闭门静修，地处僻荒，为免烦扰，在本岛周围设有禁制；加上玄冥界天生阻隔，又借极光真磁之力颠倒阴阳。外人固不易推算我的虚实动静，我也不愿与闻外事，作法自蔽，益复孤陋寡闻。那巽宫冰蚕和万年温王，落在诸位小友手中，尚无闻知，适才才听天乾山小男道友说起，真乃快事。只是得信稍迟，因欲试诸位小友道力，致有盗药之举，白白多此一番辛劳，实为愧对。尚幸有此一番经历，将来不为无益，令师当已知我用意，想也不致笑我量小。此番所取的灵药，乃我最初采炼，取材配制，极为精纯，所以深藏丹室之内。那丹井，乃元磁真精所萃，与极光发源之地直对相应，酷寒烈冷，无与伦比。如不得我心许，便到时不另发动，这两间混元精气与他为难，也难如愿相偿，并要视若仇敌，更凭多大道力，也盗不去了。",
+          "instruct": "娓娓道来，略带自得"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "陷空老祖",
+      "api": {
+        "voice": {
+          "role": "陷空老祖",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "灵奇所得，实比以前孽徒所盗灵效远胜。灵奇之父，是我嫡传大弟子。灵奇平日妄冀天仙位业，不愿随乃父归入本门，人各有志，也还罢了。最不合是心存鄙薄，急难来投，又不安分，屡在外面生事，以致乃父为彼忧劳。我以前不许他入境，也由于此。这次更是胆大妄为，勾串乃父，得知阵中机密，私入丹室。已然将我备赠的灵药取到手内，临行又起贪心。却不知两间混元精气何等威力，连我在此修炼多年，深悉微妙，尚且只能以法力运行，小心谨慎利用，不敢和它相抗。他一末学后进，新近不过乃师坐化，得了几件遗传的法宝，便不知自量，轻犯凶锋，几为妖邪所杀，侥幸才脱毒手。日前乙道友夫妇于四万里外追逐二妖人来此，被他无心巧遇，幸蒙成全，赐以灵丹，方得复原。又复不知利害轻重，任性胡为。如非佛光神妙，应变迅速，那元磁精气刚被引动，便逃上来，太阴真火未被引燃，不特诸位道友功亏一贯，丹井下层穴口为混元真气封闭，急切间连我也难为力，便他本身也必化成灰烬了。此时形势奇险，他那几件法宝虽不寻常，但无一件可与诸位小友相提并论，稍差瞬息，立肇巨变。",
+          "instruct": "严肃责备，语气转冷"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "陷空老祖",
+      "api": {
+        "voice": {
+          "role": "陷空老祖",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "大弟子虽然犯规，一则，念他从我多年，一向忠诚，功足补过；二则，父子天性，舐犊之情，贤者不免，尚可略施小罚，加以原宥。此子却是万容不得。如非小男道友代乙道友向我致意，又是齐道友第二代徒孙，照他被擒见我时，那等桀骛不驯的情景，纵看乃父情面，不戮形神，至少也应打他三百寒鞭，日受冷焰之刑，三年之后方始逐出，永不许他父子相见。现我虽因乙道友和令师之故，将他释放，但我丹井二图机密，已被他知悉，与诸位小友只知镇制五行宫位不同。他又逞能卖好，尽管事前曾向乃父立有重誓，决不再告他人，泄漏大约不敢，但异日再如有人需要此药，难保不自告奋勇，又来盗取。其实齐道友为人，我本敬服，如再需用，只凭一介之使，立可取奉。此子如再行险，那时被我擒到，我话已说在前，休怪我不讲情面。",
+          "instruct": "威胁中带警告，语气凌厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "陷空老祖",
+      "api": {
+        "voice": {
+          "role": "陷空老祖",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "至于我向令师借宝，并在今日来人中约一二小友相助之事，此时尚难明言。已然拜托小男道友，或是由他亲往峨眉面谈，或以飞书向令师请借，到时自知，毋须先说。此药用法极简，只须将万年续断所制炼的药锭，先由一道力较深之人运用本身纯阳之火，融化一头，使化成真气，透入断骨筋脉之中。等其充满经络，再将灵玉膏在接样处敷上一圈。晃眼气血贯通，精髓充沛，视各人本身功候如何，至多两三个时辰过去，便可复原。在四十五日以内，任多厉害恶毒的邪法飞刀，也自无妨。痊后，筋骨之力反倒比前健强轻灵，并无残痕。何况事前又有大荒神妪的灵药，先为保全，便隔百年，也可接上了。我想峨眉开府，门人四出行道，强敌众多，异日难保不需此药，而数万里冰山雪海，往返艰难，跋涉不易，此次所得，足供十人之用，余药善自保藏，留备不虞便了。",
+          "instruct": "转为平和，嘱咐周到"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落I：从“易静见灵奇面上仍带傲容……”到“灵威叟便请众人止步，说道：”的全部叙述）",
+          "instruct": "平静叙述，内心思量"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "拜谢",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "行礼声",
+            "sound_cn": "众人躬身行礼，衣袂轻响",
+            "sound_en": "rustle of robes as people bow in thanks",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位道友，大功告成。小儿叨列门墙，从此得受教诲，可免失足，去了老朽一件心事。此时无须再走回路，请由此亭上升，即可透出海面了。",
+          "instruct": "欣慰中带释然"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落J：从“说罢，手掐灵诀……”到“灵威叟笑道：”的全部叙述）",
+          "instruct": "奇幻升起，语气惊奇"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "云光乱闪",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "升腾法光",
+            "sound_cn": "法光托升，云气飞旋",
+            "sound_en": "magical light lifting, swirling clouds and wind",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "光华电掣",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "光华一闪",
+            "sound_cn": "光华电掣一闪而过",
+            "sound_en": "lightning flash of light passing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位俱知途径，老朽尚须回宫复命，恕不远送了。",
+          "instruct": "告别，语气客气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随将手一指，亭中晶壁便开了一面，引众同出，举手作别。灵奇又似要开口询问，灵威叟忍不住怒骂了一声：",
+          "instruct": "简短过渡"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "晶壁",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "晶壁开启",
+            "sound_cn": "水晶壁滑开",
+            "sound_en": "crystal wall sliding open smoothly",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "灵威叟",
+      "api": {
+        "voice": {
+          "role": "灵威叟",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "冤孽！",
+          "instruct": "怒骂中带无奈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "（此处为段落K：从“灵奇又复住口……”到“易静笑道：”的全部叙述）",
+          "instruct": "平缓过渡，气氛稍缓和"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "冰壁",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冰壁移开",
+            "sound_cn": "冰壁移开摩擦声",
+            "sound_en": "ice wall grinding open",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "女神婴易静",
+      "api": {
+        "voice": {
+          "role": "女神婴易静",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-1%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "现在我们的行踪，主人必已尽知，更无顾忌。就要回到神火峰脚鳌极洞去，约乌神叟同行，我们索性赶到那里歇息，不是好么。",
+          "instruct": "提议，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼方想说奇景难逢，意欲浏览沿途景致，灵奇插口说道：",
+          "instruct": "过渡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "易师叔还以为乌神叟还在洞中等我们么？他已被乙真人命一海底精灵穿破冰层，借一灵符，由地底避开火源，深入洞中将他连新脱体的元灵，带那一副躯壳，全带走了；不然的话，岛主适才还不至于那样毒恨弟子，连家父也受其累呢。现时神峰那面出口的晶壁，已被岛主用法力封闭。只因这条秘径将来尚有大用，临时变计，不曾变动，全行堵塞。行法之际，未及将入口一面封闭，恰值天乾山小男到来。他本意是想我们归途改走海上，绕越玄冥界边境，不经冰原神峰旧路，由极海飞渡冰洋回去，所以由前岛送出。他因这些多是丢人的事，不好意思向诸位师叔明言，以为我知归路已断，必请诸位师叔全程改走海路。弟子一则气他冷酷无情；二则日前无心中发现一条昔日地震时的通脉，一直可以通到离此三千余里的冰洋尽头，与极海交界之处，比由陷空前岛起身，海上飞行，可免去玄冥界天险阻碍和沿途数十岛的那些精灵盘诘拦阻。他们虽有几个认识弟子的，只要互相传告，便可无事，到底要费口舌。何况正邪本是水火，他们和异派妖邪颇有交往，稍有词色不逊，休说师叔不容，弟子便看不过去，未免麻烦惹厌。",
+          "instruct": "急切解释，语速稍快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "霜华宫中圆殿之上，有一摄声照影之室。岛主平时安静成习，长年无事，不去留意。先前弟子私混入宫，他已失察，已自后悔。我们走时，必将一元五宫的圆殿行法转动，让此室生出灵效，观察行踪，我们一言一动必被看出。家父和弟子都是满腹心事，不敢倾吐，连弟子想借宝暗查，都吃家父止住，故此入门未敢开口。他见我们仍行原路，定必生气。不过此人性情虽怪，却还讲理。家父又是他成道以前恩人，自从入山修炼，便拜他为师，相随至今，不便十分严酷相待。因在事前未令我们如何走法；又以乌神叟泄漏机密，引人入内，与家父无干；至于家父爱子情深，使弟子私入秘径，已然处罚，不能二罪重科。总之好些关碍，不便封闭全径。更知诸位师叔法宝神奇，万一阻挡不住，更是丢人，干生气，无可如何。玄冥界外的事，他本难查见；就能行法推算，也不肯费那么大的心力。昔年震源脉络径路暗藏地底，密如丝网，十九吃他堵死，独单把引往海中的一条震源通路留存完好。当初命来查看秘径的又是他的门人，他本人不曾亲来，又凑巧秘径里面的入口恰震塌了十来丈，和别处堵塞的震源通路相似，就此忽略过去，万想不到会被弟子发现。此时他忿气难平，知一为难，反倒不好；若装不知，诸位师叔必以客礼自居，不肯施展法力，损毁这条秘径，到了前面遇阻时，经弟子说明前情，自必折回。依弟子推测，不特来路入口已吃封闭，甚或已运用元磁真气，把玄冥界禁制，移向地底，欲使我们进退两难，困上两天，向他求告。然后再装好人，命家父进来接引，仍由原路退出，改走海上，以戒我们行动轻率。表面客气，暗中出气，挽回颜面。诸位师叔，他将来有借重之处；盗药又是心甘情愿。便是私行秘径，深入绣琼原禁地，也都算是乌神叟的罪过，与诸位师叔无干。对于弟子，因不肯投在他的门下，这次又来盗取灵药，自然痛恨已极。异日弟子思念家父，不免来此省亲，只要入境被他发觉，必不善罢，纵是峨眉门下，恐也不肯甘休呢。",
+          "instruct": "忧虑中带愤慨，分析细致"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时众人已停了下来。易静问他：",
+          "instruct": "过渡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "女神婴易静",
+      "api": {
+        "voice": {
+          "role": "女神婴易静",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-1%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "适才你们父子分别，面带愁苦，有何心事？",
+          "instruct": "关切询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵奇答道：",
+          "instruct": "过渡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "（此处为灵奇讲述九首神鳌和乙休追妖的长篇独白，从“弟子自在中土为一妖人所伤……”到“岂是这区区泉眼便能逃避得了的？”）",
+          "instruct": "回忆往事，语气低沉渐转激昂"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "深红如血",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "妖光破空",
+            "sound_cn": "深红妖光破空飞遁",
+            "sound_en": "deep red demonic light streaking",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "金光",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金光追遁",
+            "sound_cn": "金光与青光合并追击",
+            "sound_en": "golden and cyan light merging in pursuit",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "神箭",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "神箭破空",
+            "sound_cn": "韩仙子神箭射出",
+            "sound_en": "divine arrow shot with piercing whistle",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "神雷",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神雷震灭",
+            "sound_cn": "法宝神雷齐发震灭妖人",
+            "sound_en": "divine thunder and treasures obliterating demons",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "（此处为灵奇讲述乙休放人獭、神鳌、耿鲲来袭等后续，从“说完，使命人獭下到海底……”到“无影无踪。”）",
+          "instruct": "讲述精彩交锋，语气紧张激昂"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "风雷破空",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "翼人破空",
+            "sound_cn": "耿鲲双翼破空风雷",
+            "sound_en": "winged demon breaking through with wind and thunder",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "火星",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "翼梢火星",
+            "sound_cn": "耿鲲翼梢火星连珠",
+            "sound_en": "sparks like firecrackers from wing tips",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "大网",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "天罗地网",
+            "sound_cn": "韩仙子天罗地网展开",
+            "sound_en": "Han Xianzi's great net unfurling with swish",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_keyword": "碧色宝光",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "碧光斩妖",
+            "sound_cn": "碧色宝光腰斩妖徒",
+            "sound_en": "green treasure light slicing through demons",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "灵奇",
+      "api": {
+        "voice": {
+          "role": "灵奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "（此处为灵奇讲述后续潜入、岛主发怒、冷焰受刑、天乾山主到来等，从“乙真人说，耿鲲记仇心重……”到“心中难过极了。”）",
+          "instruct": "倾诉愤懑与忧虑，语气复杂"
+        },
+        "effects": [
+          {
+            "trigger_keyword": "冷焰",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冷焰焚烤",
+            "sound_cn": "冷焰寒焰燃烧声",
+            "sound_en": "cold flame burning with eerie hiss",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "石生",
+      "api": {
+        "voice": {
+          "role": "石生",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "这有何妨？只要他肯求助于我，便包你父子能够常见了。",
+          "instruct": "乐观安慰，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静道：",
+          "instruct": "过渡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "女神婴易静",
+      "api": {
+        "voice": {
+          "role": "女神婴易静",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-1%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "岛主性情不免古怪。他也是有道之上，只要不真犯他恶，决不至于如此固执，定要绝灭门人父子天性。不是有所顾忌，便是别有用心。念在你是他大弟子的爱子，恐你只顾乌私，时来省亲，无心修炼，难以精进，也未可知。且等将来用到我们之时，再行劝说，使你父子能常相见便了。",
+          "instruct": "温和劝慰，语气沉稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵奇谢了。",
+          "instruct": "收束，语气平静"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "冰原秘径飞行",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume ambience, frozen tunnel under ice, cold wind echoing, distant ice cracking, deep underground silence, tense and urgent, low bass drone",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "晶宫长廊",
+        "start_line": 7,
+        "end_line": 8,
+        "prompt": "very subtle low volume ambience, underwater crystal palace corridor, soft water pressure outside, faint golden light reflections, spacious and ethereal, deep sea quiet, subtle chime resonance",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "丹室刑架",
+        "start_line": 9,
+        "end_line": 11,
+        "prompt": "very subtle low volume ambience, inner alchemy hall, cold metal chains, faint crackling of cold flame, tense waiting, low hum of magical arrays",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 1,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "霜华宫进见",
+        "start_line": 17,
+        "end_line": 25,
+        "prompt": "very subtle low volume ambience, grand crystal hall, immense space, faint ceremonial music fading, cold and solemn, majestic presence, restrained tension, deep guqin background",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "出宫与辞别",
+        "start_line": 26,
+        "end_line": 31,
+        "prompt": "very subtle low volume ambience, seaside desolate island, rough waves, howling wind, dark sky, melancholy and tense, distant storm",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "秘径归途",
+        "start_line": 32,
+        "end_line": 34,
+        "prompt": "very subtle low volume ambience, frozen tunnel again, ice walls close, quiet footsteps, cold air, subdued conversation, soft echo",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "灵奇讲述往事（回忆）",
+        "start_line": 40,
+        "end_line": 42,
+        "prompt": "very subtle low volume ambience, icy tunnel stopping point, still cold air, faint wind, attentive listening atmosphere, narrative focus, sparse ice drip",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "乙休追妖高潮（回忆内）",
+        "start_line": 41,
+        "end_line": 41,
+        "prompt": "very subtle low volume ambience, open sea sky, wind and thunder in distance, fiery sparks, intense pursuit, dynamic and exciting, drum-like tension",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 1,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "结尾慰藉",
+        "start_line": 43,
+        "end_line": 46,
+        "prompt": "very subtle low volume ambience, quiet ice path, soft wind fading, hopeful and calm, warm and gentle, distant light",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
 }

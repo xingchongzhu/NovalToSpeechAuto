@@ -21,19 +21,19 @@
       "speed": "-2%"
     },
     "餐霞大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云瑶-成熟,知性",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "齐灵云": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "云懿-古风,甜美",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
     },
     "齐金蝉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"

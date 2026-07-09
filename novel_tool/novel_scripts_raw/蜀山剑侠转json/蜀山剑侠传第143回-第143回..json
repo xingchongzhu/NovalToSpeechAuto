@@ -15,25 +15,25 @@
       "speed": "-10%"
     },
     "邵冬秀": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "初凤": {
-      "role_voice": "小玲-稚嫩,萝莉女声",
+      "role_voice": "云丽-温柔,情感",
       "pitch": "+4Hz",
       "volume": "+2%",
       "speed": "+3%"
     },
     "二凤": {
-      "role_voice": "小玲-稚嫩,萝莉女声",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "+4Hz",
       "volume": "+2%",
       "speed": "+3%"
     },
     "三凤": {
-      "role_voice": "小玲-稚嫩,萝莉女声",
+      "role_voice": "可爱女生-可爱,甜美",
       "pitch": "+4Hz",
       "volume": "+2%",
       "speed": "+3%"

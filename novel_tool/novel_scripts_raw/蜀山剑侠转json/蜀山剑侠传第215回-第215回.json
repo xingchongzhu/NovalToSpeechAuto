@@ -8,34 +8,174 @@
     "role_voice": "云健-低沉"
   },
   "roles_definition": {
-    "旁白": { "role_voice": "云健-低沉", "pitch": "0Hz", "volume": "0%", "speed": "-10%" },
-    "沙余": { "role_voice": "开朗男生-开朗,阳光", "pitch": "0Hz", "volume": "0%", "speed": "0%" },
-    "癞姑": { "role_voice": "俏皮女声-活泼,元气", "pitch": "0Hz", "volume": "0%", "speed": "0%" },
-    "谢璎": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "谢琳": { "role_voice": "傲娇女友-甜美,优雅", "pitch": "+2Hz", "volume": "+1%", "speed": "0%" },
-    "袁化": { "role_voice": "元气少年-磁性,性感", "pitch": "0Hz", "volume": "0%", "speed": "0%" },
-    "矮叟朱梅": { "role_voice": "幽默大爷-沙哑,烟嗓", "pitch": "-6Hz", "volume": "0%", "speed": "-8%" },
-    "屠龙师太": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "眇姑": { "role_voice": "清冷女神-低沉女声,情感", "pitch": "-2Hz", "volume": "0%", "speed": "-4%" },
-    "半边老尼": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "神驼乙休": { "role_voice": "云森-沧桑男声,忧郁深邃", "pitch": "-4Hz", "volume": "0%", "speed": "-6%" },
-    "穷神凌浑": { "role_voice": "老伯-沧桑岁月爷", "pitch": "-6Hz", "volume": "0%", "speed": "-8%" },
-    "天灵子": { "role_voice": "云毒-低沉,解说大神", "pitch": "-2Hz", "volume": "0%", "speed": "-4%" },
-    "百禽道人公冶黄": { "role_voice": "幽默大爷-沙哑,烟嗓", "pitch": "-5Hz", "volume": "0%", "speed": "-6%" },
-    "追云叟白谷逸": { "role_voice": "幽默大爷-沙哑,烟嗓", "pitch": "-6Hz", "volume": "0%", "speed": "-8%" },
-    "易周": { "role_voice": "云风-沉稳,自然男声", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "玉清大师": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "神尼优昙": { "role_voice": "和蔼奶奶-温暖,亲和", "pitch": "-4Hz", "volume": "0%", "speed": "-6%" },
-    "姜雪君": { "role_voice": "开朗小雪-清冷女声,影视,情感", "pitch": "-1Hz", "volume": "0%", "speed": "-2%" },
-    "叶缤": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "杨瑾": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "赤杖仙童阮纠": { "role_voice": "仗剑侠客-明亮,清亮", "pitch": "0Hz", "volume": "0%", "speed": "0%" },
-    "宁一子": { "role_voice": "儒雅君子-低沉,温暖", "pitch": "-2Hz", "volume": "0%", "speed": "-2%" },
-    "丁嫦": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "黄衣人甲": { "role_voice": "云毒-低沉,解说大神", "pitch": "-2Hz", "volume": "0%", "speed": "-4%" },
-    "黄衣人乙": { "role_voice": "神秘法师-低沉,浑厚", "pitch": "-3Hz", "volume": "0%", "speed": "-4%" },
-    "孔凌霄": { "role_voice": "傲娇女友-甜美,优雅", "pitch": "+2Hz", "volume": "+1%", "speed": "0%" },
-    "米余": { "role_voice": "明朗-阳光少年,情感", "pitch": "0Hz", "volume": "0%", "speed": "0%" }
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "沙余": {
+      "role_voice": "开朗男生-开朗,阳光",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "癞姑": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "谢璎": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "谢琳": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "袁化": {
+      "role_voice": "元气少年-磁性,性感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "矮叟朱梅": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "屠龙师太": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "眇姑": {
+      "role_voice": "清冷女神-低沉女声,情感",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "半边老尼": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "神驼乙休": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "穷神凌浑": {
+      "role_voice": "老伯-沧桑岁月爷",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "天灵子": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "百禽道人公冶黄": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-5Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "追云叟白谷逸": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "易周": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "玉清大师": {
+      "role_voice": "云墨-情感,成熟知性",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "神尼优昙": {
+      "role_voice": "和蔼奶奶-温暖,亲和",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "姜雪君": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "叶缤": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "杨瑾": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "赤杖仙童阮纠": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "宁一子": {
+      "role_voice": "儒雅君子-低沉,温暖",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "丁嫦": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "黄衣人甲": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "黄衣人乙": {
+      "role_voice": "神秘法师-低沉,浑厚",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "孔凌霄": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "米余": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
   },
   "data": [
     {
@@ -53,7 +193,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "voice_only" }
+      "mix": {
+        "mode": "voice_only"
+      }
     },
     {
       "id": 1,
@@ -69,15 +211,83 @@
           "instruct": "恢弘壮阔叙述，充满天地异象的震撼与仙家奇景的赞叹"
         },
         "effects": [
-          { "trigger_delay": 18.0, "trigger_keyword": "雷鸣地震", "duration": 4, "process_mode": "overlay", "name": "雷鸣地震", "sound_en": "deep rolling thunder and rumbling earthquake, massive ground shaking, low booming", "sound_cn": "雷鸣与地震同时爆发，大地轰鸣，低沉的震动声由地底传来", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 28.0, "trigger_keyword": "金声玉振", "duration": 5, "process_mode": "overlay", "name": "钟磬余音", "sound_en": "golden bell and jade chime resonance fading in celestial air, lingering harmonic overtones", "sound_cn": "金钟玉磬之声响彻灵空，余音袅袅，在云中回荡不绝", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 40.0, "trigger_keyword": "天惊地动", "duration": 3, "process_mode": "overlay", "name": "天惊地动大震", "sound_en": "cataclysmic earth-shattering crash, massive explosion and collapse, devastating tremor", "sound_cn": "天惊地动一声大震，山崩地裂，峰峦崖壁轰然陷裂", "volume": "-12%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 52.0, "trigger_keyword": "水火风雷", "duration": 12, "process_mode": "overlay", "name": "水火风雷齐发", "sound_en": "raging fire surging water roaring wind and crashing thunder all exploding together, chaotic elemental apocalypse", "sound_cn": "水火风雷一齐爆发，烈焰滔天，洪涛万丈，狂风呼啸，雷声滚滚", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 78.0, "trigger_keyword": "万丈洪涛", "duration": 8, "process_mode": "overlay", "name": "洪涛怒涌", "sound_en": "enormous surging waves erupting from underground, mighty water roar and violent splash", "sound_cn": "万丈洪涛由地底怒涌而上，水声轰鸣，巨浪翻腾", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 98.0, "trigger_keyword": "剑光宝光", "duration": 6, "process_mode": "overlay", "name": "宝光交织", "sound_en": "brilliant sword lights and treasure glows dancing and crossing, radiant shimmering energy hum", "sound_cn": "各色剑光宝光交相辉映，在空中翔舞飞驰，光华流转", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "雷鸣地震",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "雷鸣地震",
+            "sound_en": "deep rolling thunder and rumbling earthquake, massive ground shaking, low booming",
+            "sound_cn": "雷鸣与地震同时爆发，大地轰鸣，低沉的震动声由地底传来",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "金声玉振",
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "钟磬余音",
+            "sound_en": "golden bell and jade chime resonance fading in celestial air, lingering harmonic overtones",
+            "sound_cn": "金钟玉磬之声响彻灵空，余音袅袅，在云中回荡不绝",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 40.0,
+            "trigger_keyword": "天惊地动",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "天惊地动大震",
+            "sound_en": "cataclysmic earth-shattering crash, massive explosion and collapse, devastating tremor",
+            "sound_cn": "天惊地动一声大震，山崩地裂，峰峦崖壁轰然陷裂",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 52.0,
+            "trigger_keyword": "水火风雷",
+            "duration": 12,
+            "process_mode": "overlay",
+            "name": "水火风雷齐发",
+            "sound_en": "raging fire surging water roaring wind and crashing thunder all exploding together, chaotic elemental apocalypse",
+            "sound_cn": "水火风雷一齐爆发，烈焰滔天，洪涛万丈，狂风呼啸，雷声滚滚",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 78.0,
+            "trigger_keyword": "万丈洪涛",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "洪涛怒涌",
+            "sound_en": "enormous surging waves erupting from underground, mighty water roar and violent splash",
+            "sound_cn": "万丈洪涛由地底怒涌而上，水声轰鸣，巨浪翻腾",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 98.0,
+            "trigger_keyword": "剑光宝光",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "宝光交织",
+            "sound_en": "brilliant sword lights and treasure glows dancing and crossing, radiant shimmering energy hum",
+            "sound_cn": "各色剑光宝光交相辉映，在空中翔舞飞驰，光华流转",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 2,
@@ -94,7 +304,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 3,
@@ -111,7 +323,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 4,
@@ -128,7 +342,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 5,
@@ -144,12 +360,47 @@
           "instruct": "紧张急促叙述，火势蔓延热浪逼人，语气逐渐升温"
         },
         "effects": [
-          { "trigger_delay": 2.0, "trigger_keyword": "蔓延开来", "duration": 8, "process_mode": "overlay", "name": "水火蔓延", "sound_en": "fire and water spreading rapidly outward, roaring and crackling, expanding destruction", "sound_cn": "水火风雷之势向四面八方迅速蔓延，所到之处尽皆熔化崩陷", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 24.0, "trigger_keyword": "火海", "duration": 10, "process_mode": "overlay", "name": "通红火海", "sound_en": "vast crimson sea of flames roaring intensely, heat waves shimmering, continuous fiery rumble", "sound_cn": "一片通红的火海展开，烈焰奔腾，热浪滚滚，焰威逼人", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 44.0, "trigger_keyword": "气喘不止", "duration": 3, "process_mode": "overlay", "name": "疲惫喘息", "sound_en": "heavy labored breathing, gasping and wheezing, exhausted and struggling", "sound_cn": "粗重而急促的喘息声，气息紊乱，疲惫难支", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": -0.5 }
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "蔓延开来",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "水火蔓延",
+            "sound_en": "fire and water spreading rapidly outward, roaring and crackling, expanding destruction",
+            "sound_cn": "水火风雷之势向四面八方迅速蔓延，所到之处尽皆熔化崩陷",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 24.0,
+            "trigger_keyword": "火海",
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "通红火海",
+            "sound_en": "vast crimson sea of flames roaring intensely, heat waves shimmering, continuous fiery rumble",
+            "sound_cn": "一片通红的火海展开，烈焰奔腾，热浪滚滚，焰威逼人",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 44.0,
+            "trigger_keyword": "气喘不止",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "疲惫喘息",
+            "sound_en": "heavy labored breathing, gasping and wheezing, exhausted and struggling",
+            "sound_cn": "粗重而急促的喘息声，气息紊乱，疲惫难支",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": -0.5
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 6,
@@ -166,7 +417,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 7,
@@ -182,12 +435,47 @@
           "instruct": "略带紧张又转为惊喜，叙述节奏变化"
         },
         "effects": [
-          { "trigger_delay": 6.0, "trigger_keyword": "青气", "duration": 3, "process_mode": "overlay", "name": "青气托树", "sound_en": "soft green energy flowing and lifting, gentle hum of magic, airy whisper", "sound_cn": "一股青气冉冉升起，托住古楠树，柔和的气流声", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 22.0, "trigger_keyword": "芝马倏地", "duration": 2, "process_mode": "overlay", "name": "芝马挣起", "sound_en": "sudden swift movement of small creature, light rustling and quick motion", "sound_cn": "芝马猛然挣起，动作迅捷，带起轻微风声和窸窣声", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 28.0, "trigger_keyword": "迎面喷去", "duration": 1, "process_mode": "overlay", "name": "唾沫轻喷", "sound_en": "soft spray of fine liquid, gentle puff and light splash", "sound_cn": "一口唾沫轻轻喷出，带着清香气味，如水雾轻散", "volume": "-24%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "青气",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "青气托树",
+            "sound_en": "soft green energy flowing and lifting, gentle hum of magic, airy whisper",
+            "sound_cn": "一股青气冉冉升起，托住古楠树，柔和的气流声",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 22.0,
+            "trigger_keyword": "芝马倏地",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "芝马挣起",
+            "sound_en": "sudden swift movement of small creature, light rustling and quick motion",
+            "sound_cn": "芝马猛然挣起，动作迅捷，带起轻微风声和窸窣声",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "迎面喷去",
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "唾沫轻喷",
+            "sound_en": "soft spray of fine liquid, gentle puff and light splash",
+            "sound_cn": "一口唾沫轻轻喷出，带着清香气味，如水雾轻散",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 8,
@@ -204,7 +492,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 9,
@@ -220,10 +510,23 @@
           "instruct": "欣喜叙述，灵物相助带来清凉与机缘"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "青气", "duration": 2, "process_mode": "overlay", "name": "芝仙青气", "sound_en": "soft fragrant breath released, gentle puff of cool air, subtle breeze", "sound_cn": "芝仙张口喷出一股青气，带着清香，如春风拂面", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "青气",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "芝仙青气",
+            "sound_en": "soft fragrant breath released, gentle puff of cool air, subtle breeze",
+            "sound_cn": "芝仙张口喷出一股青气，带着清香，如春风拂面",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 10,
@@ -240,7 +543,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 11,
@@ -256,12 +561,47 @@
           "instruct": "舒缓叙述，水火渐息熔浆澄清，充满奇观变化"
         },
         "effects": [
-          { "trigger_delay": 6.0, "trigger_keyword": "水烟", "duration": 6, "process_mode": "overlay", "name": "天一真水", "sound_en": "fine watery mist spreading and cooling, gentle vapor flow, soothing hiss", "sound_cn": "一片漾檬水烟飞洒而出，清凉水汽弥漫，驱散炎热", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 28.0, "trigger_keyword": "漩涡", "duration": 8, "process_mode": "overlay", "name": "熔浆漩涡", "sound_en": "churning molten liquid vortex, thick bubbling and swirling, heavy fluid rotation", "sound_cn": "通红熔浆激荡成十数亩大漩涡，杂质随漩而下沉入地肺", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 48.0, "trigger_keyword": "晶莹剔透", "duration": 4, "process_mode": "overlay", "name": "浆汁凝结", "sound_en": "slow cooling and solidifying of molten liquid, gentle crackling and settling", "sound_cn": "沸浆熔汁逐渐凝结，晶莹剔透，清澈明净，渐归宁息", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "水烟",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "天一真水",
+            "sound_en": "fine watery mist spreading and cooling, gentle vapor flow, soothing hiss",
+            "sound_cn": "一片漾檬水烟飞洒而出，清凉水汽弥漫，驱散炎热",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "漩涡",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "熔浆漩涡",
+            "sound_en": "churning molten liquid vortex, thick bubbling and swirling, heavy fluid rotation",
+            "sound_cn": "通红熔浆激荡成十数亩大漩涡，杂质随漩而下沉入地肺",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 48.0,
+            "trigger_keyword": "晶莹剔透",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "浆汁凝结",
+            "sound_en": "slow cooling and solidifying of molten liquid, gentle crackling and settling",
+            "sound_cn": "沸浆熔汁逐渐凝结，晶莹剔透，清澈明净，渐归宁息",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 12,
@@ -278,7 +618,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 13,
@@ -294,12 +636,47 @@
           "instruct": "兴奋叙述，仙宾驾临"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "一声雷震", "duration": 2, "process_mode": "overlay", "name": "雷震声", "sound_en": "sudden sharp thunderclap echoing across sky, deep rolling rumble following", "sound_cn": "一声雷震凭空炸响，余音隆隆，在灵空回荡", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 4.0, "trigger_keyword": "金虹横天", "duration": 4, "process_mode": "overlay", "name": "金虹过空", "sound_en": "golden rainbow streak across the sky, radiant swoosh, bright light beam passing", "sound_cn": "一道金虹横贯长空，霞光万道，破空而至", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 10.0, "trigger_keyword": "飞落", "duration": 2, "process_mode": "overlay", "name": "仙宾降落", "sound_en": "gentle flying descent, light whoosh of celestial robes, soft landing", "sound_cn": "仙宾缓缓降落，衣袂飘风，足踏金光霞彩", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "一声雷震",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雷震声",
+            "sound_en": "sudden sharp thunderclap echoing across sky, deep rolling rumble following",
+            "sound_cn": "一声雷震凭空炸响，余音隆隆，在灵空回荡",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "金虹横天",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金虹过空",
+            "sound_en": "golden rainbow streak across the sky, radiant swoosh, bright light beam passing",
+            "sound_cn": "一道金虹横贯长空，霞光万道，破空而至",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "飞落",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "仙宾降落",
+            "sound_en": "gentle flying descent, light whoosh of celestial robes, soft landing",
+            "sound_cn": "仙宾缓缓降落，衣袂飘风，足踏金光霞彩",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 14,
@@ -316,7 +693,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 15,
@@ -332,18 +711,119 @@
           "instruct": "宏大而细腻的叙述，仙府重建过程千变万化，节奏从紧张转为舒缓"
         },
         "effects": [
-          { "trigger_delay": 22.0, "trigger_keyword": "紫气", "duration": 4, "process_mode": "overlay", "name": "紫气托峰", "sound_en": "soft purple energy radiating and lifting, gentle magical hum and shimmer", "sound_cn": "一股紫气从法宝中放出，亩许方圆，托住翠峰缓缓降落", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 44.0, "trigger_keyword": "金光", "duration": 4, "process_mode": "overlay", "name": "金光托峰", "sound_en": "two golden beams supporting and lifting, radiant glow and soft energy buzz", "sound_cn": "两道金光齐出，稳稳托住翠峰，光芒璀璨", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 70.0, "trigger_keyword": "一声雷震", "duration": 2, "process_mode": "overlay", "name": "灵峰落定", "sound_en": "deep underground thunder rumble as peak settles, solid heavy impact", "sound_cn": "地底一声雷震，翠峰矗立火海之上，巍然不动", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 90.0, "trigger_keyword": "殷殷雷鸣", "duration": 6, "process_mode": "overlay", "name": "地底雷鸣", "sound_en": "continuous rumbling thunder underground, deep rolling like pearls, steady low boom", "sound_cn": "地底殷殷雷鸣密如贯珠，闷雷滚滚不绝于耳", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 140.0, "trigger_keyword": "金钟", "duration": 3, "process_mode": "overlay", "name": "金钟二次响", "sound_en": "golden bell ringing for the second time, resonant majestic tone, deep chime", "sound_cn": "金钟二次敲响，钟声洪亮悠远，回荡灵空", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 150.0, "trigger_keyword": "玉磐", "duration": 3, "process_mode": "overlay", "name": "玉磐又响", "sound_en": "jade chime sounding clear and crisp, pure melodic tone, ringing clarity", "sound_cn": "玉磐紧接响起，清越之音，金石交鸣", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 210.0, "trigger_keyword": "砰的一声", "duration": 2, "process_mode": "overlay", "name": "浆泡破裂", "sound_en": "crisp bursting sound as bubble breaks open, light crack and water gush", "sound_cn": "浆泡砰然破裂，清泉怒涌而出，溪涧立现", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 218.0, "trigger_keyword": "流水潺潺", "duration": 6, "process_mode": "overlay", "name": "溪涧清泉", "sound_en": "clear bubbling stream flowing gently, soft water over stones, cheerful gurgle", "sound_cn": "溪水潺潺流淌，清泉淙淙，水声悦耳", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 260.0, "trigger_keyword": "御剑飞行", "duration": 6, "process_mode": "overlay", "name": "群仙回翔", "sound_en": "multiple sword flights crisscrossing, soft whooshes and gentle wind trails", "sound_cn": "众仙御剑飞行四下回翔，剑光穿梭，风声飒飒", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 22.0,
+            "trigger_keyword": "紫气",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "紫气托峰",
+            "sound_en": "soft purple energy radiating and lifting, gentle magical hum and shimmer",
+            "sound_cn": "一股紫气从法宝中放出，亩许方圆，托住翠峰缓缓降落",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 44.0,
+            "trigger_keyword": "金光",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金光托峰",
+            "sound_en": "two golden beams supporting and lifting, radiant glow and soft energy buzz",
+            "sound_cn": "两道金光齐出，稳稳托住翠峰，光芒璀璨",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 70.0,
+            "trigger_keyword": "一声雷震",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "灵峰落定",
+            "sound_en": "deep underground thunder rumble as peak settles, solid heavy impact",
+            "sound_cn": "地底一声雷震，翠峰矗立火海之上，巍然不动",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 90.0,
+            "trigger_keyword": "殷殷雷鸣",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "地底雷鸣",
+            "sound_en": "continuous rumbling thunder underground, deep rolling like pearls, steady low boom",
+            "sound_cn": "地底殷殷雷鸣密如贯珠，闷雷滚滚不绝于耳",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 140.0,
+            "trigger_keyword": "金钟",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金钟二次响",
+            "sound_en": "golden bell ringing for the second time, resonant majestic tone, deep chime",
+            "sound_cn": "金钟二次敲响，钟声洪亮悠远，回荡灵空",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 150.0,
+            "trigger_keyword": "玉磐",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "玉磐又响",
+            "sound_en": "jade chime sounding clear and crisp, pure melodic tone, ringing clarity",
+            "sound_cn": "玉磐紧接响起，清越之音，金石交鸣",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 210.0,
+            "trigger_keyword": "砰的一声",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "浆泡破裂",
+            "sound_en": "crisp bursting sound as bubble breaks open, light crack and water gush",
+            "sound_cn": "浆泡砰然破裂，清泉怒涌而出，溪涧立现",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 218.0,
+            "trigger_keyword": "流水潺潺",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "溪涧清泉",
+            "sound_en": "clear bubbling stream flowing gently, soft water over stones, cheerful gurgle",
+            "sound_cn": "溪水潺潺流淌，清泉淙淙，水声悦耳",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 260.0,
+            "trigger_keyword": "御剑飞行",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "群仙回翔",
+            "sound_en": "multiple sword flights crisscrossing, soft whooshes and gentle wind trails",
+            "sound_cn": "众仙御剑飞行四下回翔，剑光穿梭，风声飒飒",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 16,
@@ -360,7 +840,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 17,
@@ -376,10 +858,23 @@
           "instruct": "平静叙述"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "扛着楠树", "duration": 3, "process_mode": "overlay", "name": "扛树飞起", "sound_en": "lifting and carrying heavy tree trunk, wood groaning, flying upward with whoosh", "sound_cn": "众人扛起古楠树飞身而起，树干沉重发出吱嘎声，带起风声", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "扛着楠树",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "扛树飞起",
+            "sound_en": "lifting and carrying heavy tree trunk, wood groaning, flying upward with whoosh",
+            "sound_cn": "众人扛起古楠树飞身而起，树干沉重发出吱嘎声，带起风声",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 18,
@@ -396,7 +891,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 19,
@@ -413,7 +910,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 20,
@@ -430,7 +929,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 21,
@@ -446,10 +947,23 @@
           "instruct": "平静叙述"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "忽然飞来", "duration": 2, "process_mode": "overlay", "name": "师太飞来", "sound_en": "swift flying arrival, robes rustling, gentle landing with soft whoosh", "sound_cn": "屠龙师太飞身而至，衣袂飘风，轻轻落地", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "忽然飞来",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "师太飞来",
+            "sound_en": "swift flying arrival, robes rustling, gentle landing with soft whoosh",
+            "sound_cn": "屠龙师太飞身而至，衣袂飘风，轻轻落地",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 22,
@@ -466,7 +980,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 23,
@@ -483,7 +999,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 24,
@@ -500,7 +1018,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 25,
@@ -517,7 +1037,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 26,
@@ -534,7 +1056,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 27,
@@ -550,11 +1074,35 @@
           "instruct": "悲喜交织的叙述，情感复杂而细腻"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "朱梅已经飞去", "duration": 2, "process_mode": "overlay", "name": "朱梅飞去", "sound_en": "swift departure with flying whoosh, receding wind sound", "sound_cn": "朱梅飞身而去，风声渐远瞬息消失", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 42.0, "trigger_keyword": "落下泪来", "duration": 2, "process_mode": "overlay", "name": "落泪声", "sound_en": "very soft teardrop falling, gentle liquid splash, silent sadness", "sound_cn": "一滴眼泪悄然落下，轻微的液体声，无声的悲伤", "volume": "-26%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "朱梅已经飞去",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "朱梅飞去",
+            "sound_en": "swift departure with flying whoosh, receding wind sound",
+            "sound_cn": "朱梅飞身而去，风声渐远瞬息消失",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 42.0,
+            "trigger_keyword": "落下泪来",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "落泪声",
+            "sound_en": "very soft teardrop falling, gentle liquid splash, silent sadness",
+            "sound_cn": "一滴眼泪悄然落下，轻微的液体声，无声的悲伤",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 28,
@@ -571,7 +1119,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 29,
@@ -588,7 +1138,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 30,
@@ -605,7 +1157,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 31,
@@ -621,10 +1175,23 @@
           "instruct": "平静叙述，情感内敛"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "碧光耀目", "duration": 2, "process_mode": "overlay", "name": "屠龙刀出", "sound_en": "sword being drawn with metallic ring, blade gleaming green, soft resonant hum", "sound_cn": "月牙形屠龙刀取出，碧光闪耀，发出清越嗡鸣", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "碧光耀目",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "屠龙刀出",
+            "sound_en": "sword being drawn with metallic ring, blade gleaming green, soft resonant hum",
+            "sound_cn": "月牙形屠龙刀取出，碧光闪耀，发出清越嗡鸣",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 32,
@@ -641,7 +1208,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 33,
@@ -657,10 +1226,23 @@
           "instruct": "平静叙述"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "一同飞去", "duration": 3, "process_mode": "overlay", "name": "师徒飞离", "sound_en": "two figures rising together into flight, robes fluttering, gentle wind receding", "sound_cn": "屠龙师太与眇姑一同飞身而起，衣袂飘飘，风声渐远", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "一同飞去",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "师徒飞离",
+            "sound_en": "two figures rising together into flight, robes fluttering, gentle wind receding",
+            "sound_cn": "屠龙师太与眇姑一同飞身而起，衣袂飘飘，风声渐远",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 34,
@@ -677,7 +1259,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 35,
@@ -693,10 +1277,23 @@
           "instruct": "舒缓叙述，仙府新景如画充满赞叹"
         },
         "effects": [
-          { "trigger_delay": 28.0, "trigger_keyword": "浮光耀彩", "duration": 5, "process_mode": "overlay", "name": "祥光瑞霭", "sound_en": "soft shimmering celestial light and colorful mist, radiant glow and gentle shimmer", "sound_cn": "祥光瑞霭浮动，霞彩缤纷，仙府楼台光影流转夺目生花", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "浮光耀彩",
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "祥光瑞霭",
+            "sound_en": "soft shimmering celestial light and colorful mist, radiant glow and gentle shimmer",
+            "sound_cn": "祥光瑞霭浮动，霞彩缤纷，仙府楼台光影流转夺目生花",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 36,
@@ -713,7 +1310,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 37,
@@ -729,10 +1328,23 @@
           "instruct": "轻快叙述，众人汇聚"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "飞身赶去", "duration": 3, "process_mode": "overlay", "name": "飞身前往", "sound_en": "swift flying motion, light wind whoosh, quick approach with fluttering robes", "sound_cn": "二女飞身赶去，风声轻响，衣袂翻飞速度极快", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "飞身赶去",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞身前往",
+            "sound_en": "swift flying motion, light wind whoosh, quick approach with fluttering robes",
+            "sound_cn": "二女飞身赶去，风声轻响，衣袂翻飞速度极快",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 38,
@@ -749,7 +1361,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 39,
@@ -766,7 +1380,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 40,
@@ -783,7 +1399,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 41,
@@ -800,7 +1418,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 42,
@@ -817,7 +1437,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 43,
@@ -834,7 +1456,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 44,
@@ -851,7 +1475,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 45,
@@ -868,7 +1494,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 46,
@@ -885,7 +1513,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 47,
@@ -902,7 +1532,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 48,
@@ -919,7 +1551,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 49,
@@ -936,7 +1570,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 50,
@@ -953,7 +1589,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 51,
@@ -970,7 +1608,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 52,
@@ -987,7 +1627,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 53,
@@ -1003,12 +1645,47 @@
           "instruct": "详细叙述，群仙汇聚场景宏大"
         },
         "effects": [
-          { "trigger_delay": 20.0, "trigger_keyword": "飞落场中", "duration": 4, "process_mode": "overlay", "name": "众仙飞落", "sound_en": "multiple immortals descending together, soft whooshes and wind trails", "sound_cn": "诸位前辈上仙纷纷飞落场中，衣袂飘风，仙光流转", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 100.0, "trigger_keyword": "一声雷震", "duration": 3, "process_mode": "overlay", "name": "红玉牌坊现", "sound_en": "sudden thunderclap followed by radiant crimson glow, majestic resonant hum, grand appearance", "sound_cn": "一声雷震，霞光万道，红玉牌坊骤然显现，威严庄重", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 112.0, "trigger_keyword": "朱霞丽霄", "duration": 5, "process_mode": "overlay", "name": "霞光映天", "sound_en": "crimson clouds glowing in sky, golden light reflecting, radiant celestial shimmer", "sound_cn": "朱霞丽霄，金光映地，仙府内外一片庄严辉煌", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "飞落场中",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "众仙飞落",
+            "sound_en": "multiple immortals descending together, soft whooshes and wind trails",
+            "sound_cn": "诸位前辈上仙纷纷飞落场中，衣袂飘风，仙光流转",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 100.0,
+            "trigger_keyword": "一声雷震",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "红玉牌坊现",
+            "sound_en": "sudden thunderclap followed by radiant crimson glow, majestic resonant hum, grand appearance",
+            "sound_cn": "一声雷震，霞光万道，红玉牌坊骤然显现，威严庄重",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 112.0,
+            "trigger_keyword": "朱霞丽霄",
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "霞光映天",
+            "sound_en": "crimson clouds glowing in sky, golden light reflecting, radiant celestial shimmer",
+            "sound_cn": "朱霞丽霄，金光映地，仙府内外一片庄严辉煌",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 54,
@@ -1025,7 +1702,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 55,
@@ -1042,7 +1721,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 56,
@@ -1059,7 +1740,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 57,
@@ -1076,7 +1759,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 58,
@@ -1093,7 +1778,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 59,
@@ -1110,7 +1797,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 60,
@@ -1127,7 +1816,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 61,
@@ -1144,7 +1835,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 62,
@@ -1161,7 +1854,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 63,
@@ -1177,10 +1872,23 @@
           "instruct": "优美叙述，花籽飘洒如画"
         },
         "effects": [
-          { "trigger_delay": 14.0, "trigger_keyword": "花籽", "duration": 8, "process_mode": "overlay", "name": "花籽洒落", "sound_en": "tiny flower seeds drifting down like fine drizzle, soft rustle and gentle scattering", "sound_cn": "花籽如微雨轻尘般纷纷洒落，沙沙细响，如春风拂过花田", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "花籽",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "花籽洒落",
+            "sound_en": "tiny flower seeds drifting down like fine drizzle, soft rustle and gentle scattering",
+            "sound_cn": "花籽如微雨轻尘般纷纷洒落，沙沙细响，如春风拂过花田",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 64,
@@ -1197,7 +1905,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 65,
@@ -1213,10 +1923,23 @@
           "instruct": "平静叙述"
         },
         "effects": [
-          { "trigger_delay": 2.0, "trigger_keyword": "现身飞来", "duration": 2, "process_mode": "overlay", "name": "姜雪君飞来", "sound_en": "swift flying appearance, light whoosh, graceful arrival", "sound_cn": "姜雪君飞身现身，衣袂飘风，姿态优雅", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "现身飞来",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "姜雪君飞来",
+            "sound_en": "swift flying appearance, light whoosh, graceful arrival",
+            "sound_cn": "姜雪君飞身现身，衣袂飘风，姿态优雅",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 66,
@@ -1233,7 +1956,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 67,
@@ -1250,7 +1975,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 68,
@@ -1267,7 +1994,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 69,
@@ -1284,7 +2013,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 70,
@@ -1301,7 +2032,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 71,
@@ -1317,10 +2050,23 @@
           "instruct": "叙述奇景，灵泉飞射场面"
         },
         "effects": [
-          { "trigger_delay": 14.0, "trigger_keyword": "银流", "duration": 6, "process_mode": "overlay", "name": "灵泉飞射", "sound_en": "powerful silver stream jetting out like arrow, rushing water flow, continuous roaring", "sound_cn": "一股银流如箭般飞射而出，洪洪怒响不绝，长虹贯空", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "银流",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "灵泉飞射",
+            "sound_en": "powerful silver stream jetting out like arrow, rushing water flow, continuous roaring",
+            "sound_cn": "一股银流如箭般飞射而出，洪洪怒响不绝，长虹贯空",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 72,
@@ -1337,7 +2083,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 73,
@@ -1354,7 +2102,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 74,
@@ -1371,7 +2121,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 75,
@@ -1388,7 +2140,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 76,
@@ -1405,7 +2159,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 77,
@@ -1422,7 +2178,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 78,
@@ -1439,7 +2197,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 79,
@@ -1456,7 +2216,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 80,
@@ -1473,7 +2235,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 81,
@@ -1489,11 +2253,35 @@
           "instruct": "优美叙述，灵雨催花"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "五色烟云", "duration": 4, "process_mode": "overlay", "name": "烟云笼罩", "sound_en": "soft colorful mist spreading and covering, gentle cloud blanket, ethereal haze", "sound_cn": "五色烟云弥漫笼罩全山，彩雾氤氲，轻柔飘散", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 14.0, "trigger_keyword": "灵雨", "duration": 8, "process_mode": "overlay", "name": "灵雨霏霏", "sound_en": "gentle blessed rain falling from sky, soft drizzle, light sprinkling, pure water", "sound_cn": "灵雨霏霏洒落，甘露清凉，如丝如雾润泽万物", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "五色烟云",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "烟云笼罩",
+            "sound_en": "soft colorful mist spreading and covering, gentle cloud blanket, ethereal haze",
+            "sound_cn": "五色烟云弥漫笼罩全山，彩雾氤氲，轻柔飘散",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "灵雨",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "灵雨霏霏",
+            "sound_en": "gentle blessed rain falling from sky, soft drizzle, light sprinkling, pure water",
+            "sound_cn": "灵雨霏霏洒落，甘露清凉，如丝如雾润泽万物",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 82,
@@ -1510,7 +2298,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 83,
@@ -1527,7 +2317,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 84,
@@ -1543,10 +2335,23 @@
           "instruct": "惊喜叙述，树木速长"
         },
         "effects": [
-          { "trigger_delay": 2.0, "trigger_keyword": "发枝抽条", "duration": 5, "process_mode": "overlay", "name": "树木生长", "sound_en": "soft wood creaking and branching out, leaves rustling as tree grows rapidly", "sound_cn": "树木快速抽枝发条，枝叶伸展，沙沙作响迅速生长", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "发枝抽条",
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "树木生长",
+            "sound_en": "soft wood creaking and branching out, leaves rustling as tree grows rapidly",
+            "sound_cn": "树木快速抽枝发条，枝叶伸展，沙沙作响迅速生长",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 85,
@@ -1563,7 +2368,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 86,
@@ -1580,7 +2387,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 87,
@@ -1597,7 +2406,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 88,
@@ -1613,10 +2424,23 @@
           "instruct": "温馨叙述，赏花之乐"
         },
         "effects": [
-          { "trigger_delay": 26.0, "trigger_keyword": "花蕊将生", "duration": 4, "process_mode": "overlay", "name": "花香暗动", "sound_en": "faint subtle fragrance spreading from blossoms, gentle flower scent in air", "sound_cn": "幽香细细暗暗浮动，清雅沁人，如丝如缕", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 26.0,
+            "trigger_keyword": "花蕊将生",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "花香暗动",
+            "sound_en": "faint subtle fragrance spreading from blossoms, gentle flower scent in air",
+            "sound_cn": "幽香细细暗暗浮动，清雅沁人，如丝如缕",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 89,
@@ -1633,7 +2457,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 90,
@@ -1650,7 +2476,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 91,
@@ -1667,7 +2495,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 92,
@@ -1684,7 +2514,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 93,
@@ -1701,7 +2533,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 94,
@@ -1717,13 +2551,59 @@
           "instruct": "紧张叙述，黄衣人突退、平湖涌出"
         },
         "effects": [
-          { "trigger_delay": 6.0, "trigger_keyword": "回身便走", "duration": 2, "process_mode": "overlay", "name": "黄衣人离去", "sound_en": "swift silent retreat without visible movement, eerie disappearance", "sound_cn": "黄衣人诡异转身离去，无声无息眨眼已在远处", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 32.0, "trigger_keyword": "连声雷震", "duration": 3, "process_mode": "overlay", "name": "雷震连声", "sound_en": "continuous rumbling thunder, rolling deep booms, successive shocks", "sound_cn": "连声雷震，轰隆不绝，湖荡乍现", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 38.0, "trigger_keyword": "五色光霞", "duration": 5, "process_mode": "overlay", "name": "光霞升空", "sound_en": "multicolored radiant beam rising to sky, bright shimmer, glowing pillar", "sound_cn": "五色光霞冲天而起，光柱璀璨，矗立空中倒垂而下", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 50.0, "trigger_keyword": "水光浩淼", "duration": 6, "process_mode": "overlay", "name": "平湖涌现", "sound_en": "vast expanse of water emerging, gentle lapping waves, serene lake sound", "sound_cn": "十里平湖涌现，水光浩淼，波光粼粼，泉涌不断", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "回身便走",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黄衣人离去",
+            "sound_en": "swift silent retreat without visible movement, eerie disappearance",
+            "sound_cn": "黄衣人诡异转身离去，无声无息眨眼已在远处",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 32.0,
+            "trigger_keyword": "连声雷震",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "雷震连声",
+            "sound_en": "continuous rumbling thunder, rolling deep booms, successive shocks",
+            "sound_cn": "连声雷震，轰隆不绝，湖荡乍现",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 38.0,
+            "trigger_keyword": "五色光霞",
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "光霞升空",
+            "sound_en": "multicolored radiant beam rising to sky, bright shimmer, glowing pillar",
+            "sound_cn": "五色光霞冲天而起，光柱璀璨，矗立空中倒垂而下",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 50.0,
+            "trigger_keyword": "水光浩淼",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "平湖涌现",
+            "sound_en": "vast expanse of water emerging, gentle lapping waves, serene lake sound",
+            "sound_cn": "十里平湖涌现，水光浩淼，波光粼粼，泉涌不断",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 95,
@@ -1740,7 +2620,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 96,
@@ -1757,7 +2639,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 97,
@@ -1773,11 +2657,35 @@
           "instruct": "精彩叙述，长桥横空"
         },
         "effects": [
-          { "trigger_delay": 6.0, "trigger_keyword": "五色光华", "duration": 4, "process_mode": "overlay", "name": "光华涌现", "sound_en": "five-colored light beam emerging from ring, radiant glow expanding, magical hum", "sound_cn": "五色光华自朱环涌起，光柱升腾越来越盛", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 20.0, "trigger_keyword": "长虹飞击", "duration": 4, "process_mode": "overlay", "name": "长虹贯空", "sound_en": "huge rainbow shooting across, swooshing light bridge, grand arc", "sound_cn": "长虹飞击横贯两岸，彩虹桥横卧平波之上", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "五色光华",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "光华涌现",
+            "sound_en": "five-colored light beam emerging from ring, radiant glow expanding, magical hum",
+            "sound_cn": "五色光华自朱环涌起，光柱升腾越来越盛",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "长虹飞击",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "长虹贯空",
+            "sound_en": "huge rainbow shooting across, swooshing light bridge, grand arc",
+            "sound_cn": "长虹飞击横贯两岸，彩虹桥横卧平波之上",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 98,
@@ -1794,7 +2702,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 99,
@@ -1811,7 +2721,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 100,
@@ -1827,11 +2739,35 @@
           "instruct": "动作叙述"
         },
         "effects": [
-          { "trigger_delay": 1.0, "trigger_keyword": "双手一搓", "duration": 1, "process_mode": "overlay", "name": "双手摩擦", "sound_en": "soft rubbing sound of two hands together, light friction, quick motion", "sound_cn": "双手一搓发出轻微的摩擦声，随即发力", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 2.5, "trigger_keyword": "抓起彩虹", "duration": 3, "process_mode": "overlay", "name": "彩虹隆起", "sound_en": "rainbow arching up from center, light shifting, majestic curve", "sound_cn": "彩虹由当中缓缓隆起，弧光如虹，离水四五丈", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "双手一搓",
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "双手摩擦",
+            "sound_en": "soft rubbing sound of two hands together, light friction, quick motion",
+            "sound_cn": "双手一搓发出轻微的摩擦声，随即发力",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "trigger_keyword": "抓起彩虹",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "彩虹隆起",
+            "sound_en": "rainbow arching up from center, light shifting, majestic curve",
+            "sound_cn": "彩虹由当中缓缓隆起，弧光如虹，离水四五丈",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 101,
@@ -1848,7 +2784,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 102,
@@ -1865,7 +2803,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 103,
@@ -1881,11 +2821,35 @@
           "instruct": "叙述操作"
         },
         "effects": [
-          { "trigger_delay": 0.5, "trigger_keyword": "手指处", "duration": 0.5, "process_mode": "overlay", "name": "手指破空", "sound_en": "quick finger pointing gesture, slight air displacement, light swish", "sound_cn": "手指点出，带起轻微破空声", "volume": "-24%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 4.0, "trigger_keyword": "彩霞飞泻", "duration": 4, "process_mode": "overlay", "name": "彩霞落水", "sound_en": "colorful clouds pouring down, soft shimmer spreading on water surface", "sound_cn": "彩霞自环中飞泻而下，洒落水面，光华展布开来", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "手指处",
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "手指破空",
+            "sound_en": "quick finger pointing gesture, slight air displacement, light swish",
+            "sound_cn": "手指点出，带起轻微破空声",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "彩霞飞泻",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "彩霞落水",
+            "sound_en": "colorful clouds pouring down, soft shimmer spreading on water surface",
+            "sound_cn": "彩霞自环中飞泻而下，洒落水面，光华展布开来",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 104,
@@ -1902,7 +2866,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 105,
@@ -1918,10 +2884,23 @@
           "instruct": "壮观叙述，楼阁桥成"
         },
         "effects": [
-          { "trigger_delay": 20.0, "trigger_keyword": "七层楼阁", "duration": 5, "process_mode": "overlay", "name": "楼阁显现", "sound_en": "grand majestic pavilion emerging, subtle structural resonance, celestial hum", "sound_cn": "七层楼阁自彩光中涌现，玲珑华美，光华灿烂", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "七层楼阁",
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "楼阁显现",
+            "sound_en": "grand majestic pavilion emerging, subtle structural resonance, celestial hum",
+            "sound_cn": "七层楼阁自彩光中涌现，玲珑华美，光华灿烂",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 106,
@@ -1938,7 +2917,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 107,
@@ -1955,7 +2936,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 108,
@@ -1972,7 +2955,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 109,
@@ -1989,7 +2974,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 110,
@@ -2006,7 +2993,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 111,
@@ -2023,7 +3012,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 112,
@@ -2040,7 +3031,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 113,
@@ -2056,10 +3049,23 @@
           "instruct": "平静叙述"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "走来", "duration": 2, "process_mode": "overlay", "name": "脚步走近", "sound_en": "light footsteps approaching, steady walking pace, soft steps", "sound_cn": "熊血儿脚步走近，步履沉稳从容", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": -0.5 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "走来",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "脚步走近",
+            "sound_en": "light footsteps approaching, steady walking pace, soft steps",
+            "sound_cn": "熊血儿脚步走近，步履沉稳从容",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": -0.5
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 114,
@@ -2076,7 +3082,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 115,
@@ -2093,7 +3101,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 116,
@@ -2110,7 +3120,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 117,
@@ -2127,7 +3139,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 118,
@@ -2144,7 +3158,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 119,
@@ -2160,11 +3176,35 @@
           "instruct": "舒缓叙述，灵雨遍洒"
         },
         "effects": [
-          { "trigger_delay": 10.0, "trigger_keyword": "两条瀑布", "duration": 6, "process_mode": "overlay", "name": "灵泉瀑布", "sound_en": "two hanging waterfalls flowing continuously, water splashing and rushing gently", "sound_cn": "峰腰挂起两条瀑布，流水淙淙，水花飞溅", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 26.0, "trigger_keyword": "濛濛细雨", "duration": 8, "process_mode": "overlay", "name": "细雨遍洒", "sound_en": "fine drizzling rain spreading everywhere, soft misty rain, gentle sprinkling", "sound_cn": "濛濛细雨四下飞落，如烟如雾，遍洒灵山峰峦溪涧", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "两条瀑布",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "灵泉瀑布",
+            "sound_en": "two hanging waterfalls flowing continuously, water splashing and rushing gently",
+            "sound_cn": "峰腰挂起两条瀑布，流水淙淙，水花飞溅",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 26.0,
+            "trigger_keyword": "濛濛细雨",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "细雨遍洒",
+            "sound_en": "fine drizzling rain spreading everywhere, soft misty rain, gentle sprinkling",
+            "sound_cn": "濛濛细雨四下飞落，如烟如雾，遍洒灵山峰峦溪涧",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 120,
@@ -2181,7 +3221,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 121,
@@ -2198,7 +3240,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 122,
@@ -2215,7 +3259,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 123,
@@ -2232,7 +3278,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 124,
@@ -2248,10 +3296,23 @@
           "instruct": "壮丽叙述，繁花盛放"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "花枝", "duration": 6, "process_mode": "overlay", "name": "百花绽放", "sound_en": "soft blooming sound, flowers opening, subtle petal rustle, fragrant air", "sound_cn": "万花齐放，翠叶金茎，含芳吐艳，满山繁茂", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "花枝",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "百花绽放",
+            "sound_en": "soft blooming sound, flowers opening, subtle petal rustle, fragrant air",
+            "sound_cn": "万花齐放，翠叶金茎，含芳吐艳，满山繁茂",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 125,
@@ -2268,7 +3329,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 126,
@@ -2285,7 +3348,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 127,
@@ -2301,11 +3366,35 @@
           "instruct": "悠然叙述，清幽景致"
         },
         "effects": [
-          { "trigger_delay": 18.0, "trigger_keyword": "溪流潺潺", "duration": 6, "process_mode": "overlay", "name": "溪流声", "sound_en": "clear babbling stream flowing gently, water over pebbles, soft gurgle", "sound_cn": "溪流潺潺，水声清悦，澄澈见底", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 28.0, "trigger_keyword": "树声泉声", "duration": 6, "process_mode": "overlay", "name": "树声泉声", "sound_en": "soft wind through pine trees and gentle spring water sounds, peaceful forest ambience", "sound_cn": "松风树响，泉声泠泠，清幽至极", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "溪流潺潺",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "溪流声",
+            "sound_en": "clear babbling stream flowing gently, water over pebbles, soft gurgle",
+            "sound_cn": "溪流潺潺，水声清悦，澄澈见底",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "树声泉声",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "树声泉声",
+            "sound_en": "soft wind through pine trees and gentle spring water sounds, peaceful forest ambience",
+            "sound_cn": "松风树响，泉声泠泠，清幽至极",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 128,
@@ -2322,7 +3411,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 129,
@@ -2338,10 +3429,23 @@
           "instruct": "清香叙述，幽兰附树"
         },
         "effects": [
-          { "trigger_delay": 4.0, "trigger_keyword": "幽香芬馥", "duration": 6, "process_mode": "overlay", "name": "兰香浮动", "sound_en": "soft fragrance of orchid spreading, delicate floral scent, gentle perfume", "sound_cn": "幽香芬馥弥漫开来，清雅沁人，令人心清意远", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "幽香芬馥",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "兰香浮动",
+            "sound_en": "soft fragrance of orchid spreading, delicate floral scent, gentle perfume",
+            "sound_cn": "幽香芬馥弥漫开来，清雅沁人，令人心清意远",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 130,
@@ -2358,7 +3462,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 131,
@@ -2375,7 +3481,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 132,
@@ -2392,7 +3500,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 133,
@@ -2409,7 +3519,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 134,
@@ -2425,11 +3537,35 @@
           "instruct": "幽静叙述，瀑布松径"
         },
         "effects": [
-          { "trigger_delay": 16.0, "trigger_keyword": "玉龙", "duration": 8, "process_mode": "overlay", "name": "瀑布声", "sound_en": "mighty waterfall roaring in distance, powerful cascading water, deep rumbling", "sound_cn": "瀑布如玉龙奔腾，水声轰然，遥闻淙淙不绝", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 30.0, "trigger_keyword": "嘤鸣", "duration": 4, "process_mode": "overlay", "name": "鸟鸣声", "sound_en": "gentle birds singing in trees, sweet chirping, cheerful birdsong", "sound_cn": "好鸟嘤鸣两岸花树之间，清脆悦耳，见人不惊", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 16.0,
+            "trigger_keyword": "玉龙",
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "瀑布声",
+            "sound_en": "mighty waterfall roaring in distance, powerful cascading water, deep rumbling",
+            "sound_cn": "瀑布如玉龙奔腾，水声轰然，遥闻淙淙不绝",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 30.0,
+            "trigger_keyword": "嘤鸣",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "鸟鸣声",
+            "sound_en": "gentle birds singing in trees, sweet chirping, cheerful birdsong",
+            "sound_cn": "好鸟嘤鸣两岸花树之间，清脆悦耳，见人不惊",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 135,
@@ -2446,7 +3582,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 136,
@@ -2463,7 +3601,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 137,
@@ -2479,10 +3619,23 @@
           "instruct": "叙述，幽兰植就"
         },
         "effects": [
-          { "trigger_delay": 8.0, "trigger_keyword": "果实坠落", "duration": 2, "process_mode": "overlay", "name": "果实轻落", "sound_en": "soft fruit dropping sound, light thuds, small plops", "sound_cn": "果实轻轻坠落，细微响动，收集入篮", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "果实坠落",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "果实轻落",
+            "sound_en": "soft fruit dropping sound, light thuds, small plops",
+            "sound_cn": "果实轻轻坠落，细微响动，收集入篮",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 138,
@@ -2499,7 +3652,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 139,
@@ -2516,7 +3671,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 140,
@@ -2533,7 +3690,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 141,
@@ -2549,10 +3708,23 @@
           "instruct": "关切叙述"
         },
         "effects": [
-          { "trigger_delay": 10.0, "trigger_keyword": "解下", "duration": 2, "process_mode": "overlay", "name": "玉玦轻响", "sound_en": "light jade clinking, two pieces gently touching, soft jingle", "sound_cn": "两枚玉玦轻轻碰触，发出清脆玉响", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "解下",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "玉玦轻响",
+            "sound_en": "light jade clinking, two pieces gently touching, soft jingle",
+            "sound_cn": "两枚玉玦轻轻碰触，发出清脆玉响",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 142,
@@ -2569,7 +3741,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 143,
@@ -2585,11 +3759,35 @@
           "instruct": "庄重收束，仙府将开"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "撞钟击磐", "duration": 6, "process_mode": "overlay", "name": "钟磐齐鸣", "sound_en": "grand bell and chime ringing together, resonant majestic sound, golden tone", "sound_cn": "撞钟击磐，金声玉振，庄严肃穆，余音回荡灵空", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 8.0, "trigger_keyword": "纷纷飞起", "duration": 4, "process_mode": "overlay", "name": "众仙飞起", "sound_en": "many figures rising into air, multiple whooshing sounds, fluttering robes", "sound_cn": "众仙纷纷飞身而起，衣袂飘动，风声四起", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "撞钟击磐",
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "钟磐齐鸣",
+            "sound_en": "grand bell and chime ringing together, resonant majestic sound, golden tone",
+            "sound_cn": "撞钟击磐，金声玉振，庄严肃穆，余音回荡灵空",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "纷纷飞起",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "众仙飞起",
+            "sound_en": "many figures rising into air, multiple whooshing sounds, fluttering robes",
+            "sound_cn": "众仙纷纷飞身而起，衣袂飘动，风声四起",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     }
   ],
   "soundscape": {

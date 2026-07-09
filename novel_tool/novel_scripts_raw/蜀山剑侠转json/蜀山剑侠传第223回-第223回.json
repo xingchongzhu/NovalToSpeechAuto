@@ -8,14 +8,54 @@
     "role_voice": "云健-低沉"
   },
   "roles_definition": {
-    "旁白": { "role_voice": "云健-低沉", "pitch": "0Hz", "volume": "0%", "speed": "-10%" },
-    "乙休": { "role_voice": "云森-沧桑男声,忧郁深邃", "pitch": "-4Hz", "volume": "0%", "speed": "-6%" },
-    "妙一真人": { "role_voice": "云诚-成熟,标准男声", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "天痴上人": { "role_voice": "云森-沧桑男声,忧郁深邃", "pitch": "-4Hz", "volume": "0%", "speed": "-6%" },
-    "朱由穆": { "role_voice": "仗剑侠客-明亮,清亮", "pitch": "0Hz", "volume": "0%", "speed": "0%" },
-    "齐霞儿": { "role_voice": "俏皮女声-活泼,元气", "pitch": "0Hz", "volume": "0%", "speed": "0%" },
-    "米明娘": { "role_voice": "知性姐姐-温柔,亲切", "pitch": "0Hz", "volume": "0%", "speed": "-2%" },
-    "枯竹老人": { "role_voice": "幽默大爷-沙哑,烟嗓", "pitch": "-6Hz", "volume": "0%", "speed": "-8%" }
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "乙休": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "妙一真人": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "天痴上人": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "朱由穆": {
+      "role_voice": "仗剑侠客-明亮,清亮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "齐霞儿": {
+      "role_voice": "云甄-知性,温柔甜美",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "米明娘": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "枯竹老人": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    }
   },
   "data": [
     {
@@ -33,7 +73,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "voice_only" }
+      "mix": {
+        "mode": "voice_only"
+      }
     },
     {
       "id": 1,
@@ -49,21 +91,155 @@
           "instruct": "长篇叙事，节奏舒缓而紧张交替"
         },
         "effects": [
-          { "trigger_delay": 20.0, "trigger_keyword": "蚌壳张开", "duration": 2, "process_mode": "overlay", "name": "蚌壳开", "sound_en": "shell opening with soft crack, gentle light emission", "sound_cn": "蚌壳张开，发出碧莹莹冷光", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 40.0, "trigger_keyword": "冷光", "duration": 4, "process_mode": "overlay", "name": "冷光流转", "sound_en": "seven cold lights moving and spinning, soft hum", "sound_cn": "七点冷光环身滚转，上下翻飞", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 60.0, "trigger_keyword": "簪子", "duration": 2, "process_mode": "overlay", "name": "簪动", "sound_en": "簪子擦动，轻微摩擦声", "sound_cn": "宝簪擦动，发出细微声", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 80.0, "trigger_keyword": "破空直上", "duration": 2, "process_mode": "overlay", "name": "簪飞", "sound_en": "簪子化银星破空飞去，尖锐破空声", "sound_cn": "簪化银星，破空飞去", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 120.0, "trigger_keyword": "太乙神雷", "duration": 3, "process_mode": "overlay", "name": "神雷连发", "sound_en": "thunderclaps rolling, explosive booms", "sound_cn": "太乙神雷连珠发出，惊天动地", "volume": "-10%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 160.0, "trigger_keyword": "金霞刺空", "duration": 2, "process_mode": "overlay", "name": "金霞飞来", "sound_en": "golden rainbow piercing sky, sharp whoosh", "sound_cn": "金霞刺空飞来，破空声急", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 180.0, "trigger_keyword": "佛光", "duration": 3, "process_mode": "overlay", "name": "佛光圈住", "sound_en": "Buddhist light forming ring, soft hum", "sound_cn": "佛光圈住，光芒柔和", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 240.0, "trigger_keyword": "魔影", "duration": 2, "process_mode": "overlay", "name": "魔影现", "sound_en": "eerie shadow appearing, low growl", "sound_cn": "魔影现形，阴风阵阵", "volume": "-12%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 250.0, "trigger_keyword": "剑光", "duration": 2, "process_mode": "overlay", "name": "剑光绞", "sound_en": "sword lights intertwining, sharp metallic ring", "sound_cn": "剑光迎头一绞，刺耳金鸣", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 300.0, "trigger_keyword": "狂风大作", "duration": 3, "process_mode": "overlay", "name": "狂风", "sound_en": "strong wind howling, roaring gusts", "sound_cn": "狂风大作，呼啸不止", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 310.0, "trigger_keyword": "冷雹", "duration": 3, "process_mode": "overlay", "name": "冷雹", "sound_en": "hailstones falling, rapid clatter", "sound_cn": "冷雹漫空打下，噼啪作响", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 320.0, "trigger_keyword": "禹鼎", "duration": 2, "process_mode": "overlay", "name": "禹鼎怒啸", "sound_en": "monster roaring from tripod, deep growl", "sound_cn": "禹鼎中怪物怒啸", "volume": "-14%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "蚌壳张开",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "蚌壳开",
+            "sound_en": "shell opening with soft crack, gentle light emission",
+            "sound_cn": "蚌壳张开，发出碧莹莹冷光",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 40.0,
+            "trigger_keyword": "冷光",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "冷光流转",
+            "sound_en": "seven cold lights moving and spinning, soft hum",
+            "sound_cn": "七点冷光环身滚转，上下翻飞",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 60.0,
+            "trigger_keyword": "簪子",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "簪动",
+            "sound_en": "簪子擦动，轻微摩擦声",
+            "sound_cn": "宝簪擦动，发出细微声",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 80.0,
+            "trigger_keyword": "破空直上",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "簪飞",
+            "sound_en": "簪子化银星破空飞去，尖锐破空声",
+            "sound_cn": "簪化银星，破空飞去",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 120.0,
+            "trigger_keyword": "太乙神雷",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神雷连发",
+            "sound_en": "thunderclaps rolling, explosive booms",
+            "sound_cn": "太乙神雷连珠发出，惊天动地",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 160.0,
+            "trigger_keyword": "金霞刺空",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金霞飞来",
+            "sound_en": "golden rainbow piercing sky, sharp whoosh",
+            "sound_cn": "金霞刺空飞来，破空声急",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 180.0,
+            "trigger_keyword": "佛光",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "佛光圈住",
+            "sound_en": "Buddhist light forming ring, soft hum",
+            "sound_cn": "佛光圈住，光芒柔和",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 240.0,
+            "trigger_keyword": "魔影",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魔影现",
+            "sound_en": "eerie shadow appearing, low growl",
+            "sound_cn": "魔影现形，阴风阵阵",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 250.0,
+            "trigger_keyword": "剑光",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "剑光绞",
+            "sound_en": "sword lights intertwining, sharp metallic ring",
+            "sound_cn": "剑光迎头一绞，刺耳金鸣",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 300.0,
+            "trigger_keyword": "狂风大作",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "狂风",
+            "sound_en": "strong wind howling, roaring gusts",
+            "sound_cn": "狂风大作，呼啸不止",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 310.0,
+            "trigger_keyword": "冷雹",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冷雹",
+            "sound_en": "hailstones falling, rapid clatter",
+            "sound_cn": "冷雹漫空打下，噼啪作响",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 320.0,
+            "trigger_keyword": "禹鼎",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "禹鼎怒啸",
+            "sound_en": "monster roaring from tripod, deep growl",
+            "sound_cn": "禹鼎中怪物怒啸",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 2,
@@ -80,7 +256,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 3,
@@ -97,7 +275,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 4,
@@ -113,10 +293,23 @@
           "instruct": "叙述警觉"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "停步", "duration": 1, "process_mode": "overlay", "name": "停步", "sound_en": "light footstep stop, slight rustle", "sound_cn": "停步，衣料轻响", "volume": "-24%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "停步",
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "停步",
+            "sound_en": "light footstep stop, slight rustle",
+            "sound_cn": "停步，衣料轻响",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 5,
@@ -133,7 +326,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 6,
@@ -149,10 +344,23 @@
           "instruct": "平静转述"
         },
         "effects": [
-          { "trigger_delay": 0, "trigger_keyword": "咦", "duration": 1, "process_mode": "overlay", "name": "轻咦", "sound_en": "soft surprised exclamation, brief sound", "sound_cn": "轻咦一声，略带惊奇", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 0,
+            "trigger_keyword": "咦",
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "轻咦",
+            "sound_en": "soft surprised exclamation, brief sound",
+            "sound_cn": "轻咦一声，略带惊奇",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 7,
@@ -169,7 +377,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 8,
@@ -186,7 +396,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 9,
@@ -203,7 +415,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 10,
@@ -220,7 +434,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 11,
@@ -237,7 +453,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 12,
@@ -254,7 +472,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 13,
@@ -271,7 +491,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 14,
@@ -288,7 +510,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 15,
@@ -305,7 +529,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 16,
@@ -322,7 +548,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 17,
@@ -339,7 +567,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 18,
@@ -356,7 +586,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 19,
@@ -373,7 +605,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 20,
@@ -390,7 +624,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 21,
@@ -407,7 +643,9 @@
         },
         "effects": []
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     },
     {
       "id": 22,
@@ -423,14 +661,71 @@
           "instruct": "叙述细致，充满仙家奇景"
         },
         "effects": [
-          { "trigger_delay": 20.0, "trigger_keyword": "灵符一招", "duration": 2, "process_mode": "overlay", "name": "灵符展", "sound_en": "talisman unfolding with soft rustle, gentle light", "sound_cn": "灵符一招，祥光涌起", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 60.0, "trigger_keyword": "泉声", "duration": 4, "process_mode": "overlay", "name": "泉声", "sound_en": "spring water trickling, soft gurgling", "sound_cn": "清泉淙淙，如鸣清磬", "volume": "-20%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 100.0, "trigger_keyword": "竹裂", "duration": 1, "process_mode": "overlay", "name": "竹裂", "sound_en": "bamboo splitting open, soft crack", "sound_cn": "枯竹无声自裂", "volume": "-22%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 140.0, "trigger_keyword": "烟光乱闪", "duration": 3, "process_mode": "overlay", "name": "烟光闪", "sound_en": "smoke and light flickering, rapid changes", "sound_cn": "烟光乱闪，耀眼生辉", "volume": "-16%", "pitch": "+0Hz", "trigger_offset": 0 },
-          { "trigger_delay": 160.0, "trigger_keyword": "飞瀑", "duration": 4, "process_mode": "overlay", "name": "飞瀑声", "sound_en": "waterfall falling, steady splashing", "sound_cn": "飞瀑凌空，珠帘倒挂", "volume": "-18%", "pitch": "+0Hz", "trigger_offset": 0 }
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "灵符一招",
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "灵符展",
+            "sound_en": "talisman unfolding with soft rustle, gentle light",
+            "sound_cn": "灵符一招，祥光涌起",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 60.0,
+            "trigger_keyword": "泉声",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "泉声",
+            "sound_en": "spring water trickling, soft gurgling",
+            "sound_cn": "清泉淙淙，如鸣清磬",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 100.0,
+            "trigger_keyword": "竹裂",
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "竹裂",
+            "sound_en": "bamboo splitting open, soft crack",
+            "sound_cn": "枯竹无声自裂",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 140.0,
+            "trigger_keyword": "烟光乱闪",
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "烟光闪",
+            "sound_en": "smoke and light flickering, rapid changes",
+            "sound_cn": "烟光乱闪，耀眼生辉",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 160.0,
+            "trigger_keyword": "飞瀑",
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "飞瀑声",
+            "sound_en": "waterfall falling, steady splashing",
+            "sound_cn": "飞瀑凌空，珠帘倒挂",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_offset": 0
+          }
         ]
       },
-      "mix": { "mode": "mix" }
+      "mix": {
+        "mode": "mix"
+      }
     }
   ],
   "soundscape": {

@@ -27,7 +27,7 @@
       "speed": "-5%"
     },
     "简冰如": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -39,25 +39,25 @@
       "speed": "-5%"
     },
     "玄真子": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "云健-低沉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "齐承基": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "文乐-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "齐灵云": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "云懿-古风,甜美",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
     },
     "霞儿": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "小玲-稚嫩,萝莉女声",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
@@ -69,7 +69,7 @@
       "speed": "-10%"
     },
     "舅母": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "黄阿姨-冷漠,愤怒",
       "pitch": "+0Hz",
       "volume": "0%",
       "speed": "-1%"

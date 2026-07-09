@@ -27,7 +27,7 @@
       "speed": "-4%"
     },
     "妙一夫人": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "温婉女士-知性,温婉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -57,7 +57,7 @@
       "speed": "-6%"
     },
     "杨成志": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -69,7 +69,7 @@
       "speed": "0%"
     },
     "餐霞大师": {
-      "role_voice": "云媛-情感,知心姐姐",
+      "role_voice": "云瑶-成熟,知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -147,25 +147,25 @@
       "speed": "0%"
     },
     "玉清大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云墨-情感,成熟知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "灵云": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "云懿-古风,甜美",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "白云大师": {
-      "role_voice": "云媛-情感,知心姐姐",
+      "role_voice": "和蔼奶奶-温暖,亲和",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "元元大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "和蔼奶奶-温暖,亲和",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"

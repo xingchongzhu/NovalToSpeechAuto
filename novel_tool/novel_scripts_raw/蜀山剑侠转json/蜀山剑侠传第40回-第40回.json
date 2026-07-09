@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "玉清大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云墨-情感,成熟知性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "万里飞虹佟元奇": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "仗剑君子-明亮,清亮",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -69,7 +69,7 @@
       "speed": "0%"
     },
     "智通": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -93,7 +93,7 @@
       "speed": "0%"
     },
     "尉迟元": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"

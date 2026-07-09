@@ -21,7 +21,7 @@
       "speed": "+2%"
     },
     "玉清大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云墨-情感,成熟知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -45,7 +45,7 @@
       "speed": "-6%"
     },
     "凌云凤": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云萱-情感,优雅知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -57,7 +57,7 @@
       "speed": "-4%"
     },
     "戴湘英": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "元气甜妹-元气,甜美",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"

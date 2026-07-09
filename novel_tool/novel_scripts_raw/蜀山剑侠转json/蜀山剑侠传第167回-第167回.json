@@ -33,7 +33,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -75,7 +75,7 @@
       "speed": "0%"
     },
     "灵威叟": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "云健-低沉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -87,19 +87,19 @@
       "speed": "-8%"
     },
     "初凤": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云丽-温柔,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "二凤": {
-      "role_voice": "病娇白莲-低沉,病娇",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "三凤": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "可爱女生-可爱,甜美",
       "pitch": "+4Hz",
       "volume": "-1%",
       "speed": "-1%"
@@ -111,7 +111,7 @@
       "speed": "0%"
     },
     "金须奴": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"

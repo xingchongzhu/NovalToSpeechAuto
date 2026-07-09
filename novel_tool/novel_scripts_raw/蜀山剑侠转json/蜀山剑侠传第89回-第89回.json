@@ -15,19 +15,19 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "赵心源": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "铁蓑道人": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "神秘法师-低沉,浑厚",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
@@ -39,7 +39,7 @@
       "speed": "-2%"
     },
     "黄玄极": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
@@ -51,7 +51,7 @@
       "speed": "-4%"
     },
     "刘泉": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "云诚-成熟,标准男声",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -63,19 +63,19 @@
       "speed": "-2%"
     },
     "喀音沙布": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "云毒-低沉,解说大神",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "梵拿加音二": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "云毒-低沉,解说大神",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "尚和阳": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
@@ -87,13 +87,13 @@
       "speed": "0%"
     },
     "毒龙尊者": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "俞德": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "元气少年-磁性,性感",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-3%"
@@ -159,13 +159,13 @@
       "speed": "-3%"
     },
     "凌浑": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-3Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "万妙仙姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "性感魅惑-成熟,性感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"

@@ -27,19 +27,19 @@
       "speed": "-6%"
     },
     "齐灵云": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "云懿-古风,甜美",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "朱文": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -75,7 +75,7 @@
       "speed": "0%"
     },
     "余英男": {
-      "role_voice": "活泼女声-活泼,元气",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"

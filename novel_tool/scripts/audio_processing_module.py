@@ -373,7 +373,7 @@ class AudioEngine:
         import torch
         
         qwen_speaker = params.role_voice if params.role_voice else "麦克-纪录片之王,麦克阿瑟"
-        instruct = params.instruct.strip() if params.instruct else "neutral"
+        instruct: str = params.instruct.strip() if params.instruct else "neutral"
         
         clone_audio_dir = self.clone_audio_dir
         
@@ -1198,7 +1198,13 @@ class AudioGenerator:
             return ""
 
         # ======================== Phase 1: 贪心分配 ========================
-        num_chunks = max(1, math.ceil(total_duration_ms / target_chunk_ms))
+        # 极端场景兼容：当句子很少（≤30 句）或平均句长 > 60s 时，放宽约束
+        avg_dur_ms = total_duration_ms / len(sorted_ids)
+        sparse_script = len(sorted_ids) <= 30 or avg_dur_ms > 60_000
+        relaxed_tail_ms = min(min_seg_ms // 2, max(min_seg_ms // 4, 3 * 60 * 1000)) if sparse_script else min_seg_ms
+        # 稀疏模式下以 max_chunk_ms 算段数，避免过度拆分
+        chunk_target_ms = max_chunk_ms if sparse_script else target_chunk_ms
+        num_chunks = max(1, math.ceil(total_duration_ms / chunk_target_ms))
         if num_chunks <= 1:
             return [sorted_ids[0]]
 
@@ -1210,7 +1216,7 @@ class AudioGenerator:
             lid = sorted_ids[i]
             start_ms = line_ranges[lid][0]
             remaining_ms = total_duration_ms - start_ms
-            if remaining_ms < min_seg_ms:
+            if remaining_ms < relaxed_tail_ms:
                 break
             prev_lid = sorted_ids[i - 1]
             prev_role = _role_at(prev_lid)
@@ -1238,7 +1244,9 @@ class AudioGenerator:
             if best_lid is None:
                 continue
             chunk_dur = best_start_ms - prev_cut_ms
-            if chunk_dur < min_seg_ms:
+            relaxed_min = relaxed_tail_ms if sparse_script else min_seg_ms
+            relaxed_remaining = relaxed_tail_ms if sparse_script else min_seg_ms
+            if chunk_dur < relaxed_min:
                 # 段长不足，找满足段长约束的最近候选
                 best_lid = None
                 best_start_ms = 0
@@ -1247,10 +1255,10 @@ class AudioGenerator:
                     if lid in used:
                         continue
                     dur = start_ms - prev_cut_ms
-                    if dur < min_seg_ms or dur > max_chunk_ms:
+                    if dur < relaxed_min or dur > max_chunk_ms:
                         continue
                     remaining_ms = total_duration_ms - start_ms
-                    if remaining_ms < min_seg_ms:
+                    if remaining_ms < relaxed_remaining:
                         continue
                     fscore = abs(start_ms - ideal_pos) + (0 if is_transition else target_chunk_ms)
                     if fscore < best_fallback_score:
@@ -1277,6 +1285,10 @@ class AudioGenerator:
         # 从 sorted_ids 构建 start_ms 索引
         id_to_ms = {lid: line_ranges[lid][0] for lid in sorted_ids}
 
+        # 极端场景使用放宽约束
+        p2_min_seg = relaxed_tail_ms if sparse_script else min_seg_ms
+        p2_remaining_min = relaxed_tail_ms if sparse_script else 6 * 60 * 1000
+
         MAX_ITERS = 20
         for _ in range(MAX_ITERS):
             changed = False
@@ -1286,7 +1298,7 @@ class AudioGenerator:
             i = 1
             while i < len(chunk_starts):
                 seg_dur = id_to_ms[chunk_starts[i]] - id_to_ms[merged[-1]]
-                if seg_dur < min_seg_ms:
+                if seg_dur < p2_min_seg:
                     i += 1
                     changed = True
                 else:
@@ -1294,14 +1306,14 @@ class AudioGenerator:
                     i += 1
             # 检查尾段 — 只有合并后不会超上限才合并
             last_tail_ms = total_duration_ms - id_to_ms[merged[-1]]
-            if len(merged) > 1 and last_tail_ms < min_seg_ms:
+            if len(merged) > 1 and last_tail_ms < p2_min_seg:
                 prev_start_ms = id_to_ms[merged[-2]]
                 if total_duration_ms - prev_start_ms <= max_chunk_ms:
                     merged.pop()
                     changed = True
             chunk_starts = merged
 
-            # 2b. 切分超长段（逐段检查，含尾段；remaining 放宽至 6min）
+            # 2b. 切分超长段（逐段检查，含尾段；极端场景放宽 remaining）
             new_starts = [chunk_starts[0]]
             for i in range(1, len(chunk_starts) + 1):
                 seg_start_ms = id_to_ms[new_starts[-1]]
@@ -1316,19 +1328,21 @@ class AudioGenerator:
                         new_starts.append(chunk_starts[i])
                     continue
 
-                # 超长段，找离 target_ms 最近的句子边界（remaining ≥ 6min 以扩大窗口）
+                # 超长段，找离 target_ms 最近的句子边界
                 target_ms = seg_start_ms + max_chunk_ms
                 best_lid = None
                 best_dist = float('inf')
+                # 极端场景也放宽 dur 下限
+                p2_min_dur = p2_min_seg
                 for lid in sorted_ids:
                     if lid == 0:
                         continue
                     ms = id_to_ms[lid]
                     dur = ms - seg_start_ms
-                    if dur < min_seg_ms or dur > max_chunk_ms:
+                    if dur < p2_min_dur or dur > max_chunk_ms:
                         continue
                     remaining = seg_end_ms - ms
-                    if remaining < 6 * 60 * 1000:
+                    if remaining < p2_remaining_min:
                         continue
                     dist = abs(ms - target_ms)
                     if dist < best_dist:

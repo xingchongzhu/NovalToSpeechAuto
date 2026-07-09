@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "绿袍老祖": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "诡异神秘-沙哑,浑厚",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "西方野魔": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -39,7 +39,7 @@
       "speed": "-4%"
     },
     "万妙仙姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "性感魅惑-成熟,性感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"

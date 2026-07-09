@@ -93,7 +93,7 @@
       "speed": "-2%"
     },
     "金蝉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -105,7 +105,7 @@
       "speed": "+1%"
     },
     "袁星": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -135,7 +135,7 @@
       "speed": "-8%"
     },
     "玉清大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云墨-情感,成熟知性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-3%"

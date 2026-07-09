@@ -1,0 +1,1238 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第104回 张老四三更探盗窟 周云从千里走荒山",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "周云从": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "周子敬": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "张老四": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "张玉珍": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+1%"
+    },
+    "张三姑": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "+1Hz",
+      "volume": "-1%",
+      "speed": "0%"
+    },
+    "闵小棠": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "王珊珊": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "齐登": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "小三儿": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "+2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第104回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "云从恐父母听了着急，还不敢实话实说，只说见那人面生可疑，想知道他的来历，和二伯有何瓜葛。子敬闻言，叹了口气道：",
+          "instruct": "平静叙述，语气略带沉重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "周子敬",
+      "api": {
+        "voice": {
+          "role": "周子敬",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这事实在难说。当你中举那年，不知怎的一句话，你二伯多了我的心，正赶你二伯母去世，心中无聊，到长沙去看朋友，回来便带回了一个姓谢的女子。我们书香门第，娶亲竟会不知女家来历，岂非笑话？所以当时说是讨的二房。过了半年多，才行扶正。由此你二伯家中，便常有生人来往。家人只知是你二伯的内亲。我因你二伯对我存有芥蒂，自不便问。你大伯他们问过几次，你二伯只含糊答应，推说你二伯母出身小户小家，因她德行好，有了身孕，才扶的正。那些新亲不善应酬，恐错了礼节，不便与众弟兄引见。你诸位伯叔因你二伯也是五十开外的人了，宠爱少妻，人之恒情。每次问他，神气很窘，必有难言之隐。老年弟兄不便使他为难，伤了情感。至多你二伯母出身卑下，妻以夫贵，入门为正，也就不闻不问。及至你这次出门，你二伯母将她家中用了多年的女仆遣去，那女仆本是我们一个远房本家寡妇，十分孤苦，无所依归，我便将她留了下来。被你二伯母知道，特地赶上门来不依，说那女仆如何不好，不准收留，当时差点吵闹起来。你母亲顾全体面，只得给那女仆一些银子，着她买几亩田度日，打发去了。据那女仆说，你这二伯母初进门时，曾带来两个丫头，随身只有一口箱子，分量很重。有一天，无意中发现那箱子中竟有许多小弓小箭和一些兵器。不久她连前房用的旧人，一起遣去，内宅只留下那两个丫头。二伯问她，她只说想节俭度日，用不着许多人伺候。她娘家虽有人来，倒不和她时常见面。除此便是性情乖谬，看不起人，与妯娌们不投缘罢了。",
+          "instruct": "叹息中带着忧虑，语气低沉缓慢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "云从闻言，便去告知张老四。张老四沉思了一会，嘱咐玉珍：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "张老四",
+      "api": {
+        "voice": {
+          "role": "张老四",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "云从虽然早晚用功，颇有进境，但是日子太浅，和人动手，简直还谈不到。醉仙师赐的那口宝剑，不但吹毛断钢，要会使用，连普通飞剑全能抵御，务须随时留心，早晚将护才好。",
+          "instruct": "语重心长，略带沙哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "到了第二日晚间，张老四特意扮作夜行人，戴了面具，亲身往子华家中探看。去时正交午夜，只上房还有灯光。张老四暗想：'产妇现已满月；无须彻夜服侍。这般深夜，如何还未熄灯？'大敌当前，不敢疏忽，使出当年轻身绝技，一连几纵，到了上房屋顶。耳听室内有人笑语。用一个风飘落叶身法，轻轻纵落下去。从窗缝中往室内一看，只有子华的妻子崔氏一人坐在床上，打扮得十分妖艳。床前摆有一个半桌，摆着两副杯筷，酒肴还有热气。张老四心中一动，暗喊不好，正要撤步回身，猛听脑后一阵金刃劈风的声音。张老四久经大敌，知道行踪被人察觉，不敢迎敌，将头一低，脚底下一垫劲，凤凰展翅，横纵出去三五丈远近。接着更不怠慢，黄鹊冲天，脚一点，便纵出墙外。耳听飕飕两声，知是敌人放的暗器，不敢再为逗留，急忙施展陆地飞腾功夫，往前逃去。且喜后面的人只是一味穷追，并不声张。张老四恐怕引鬼入宅，知道自己来历，贻祸云从，只往僻静之处逃去。起初因为敌人脚程太快，连回头缓气的工夫都没有。及至穿过一条岔道，跑到城根纵上城去，觉得后面没有声息。回头一看，城根附近一片草坪上，有两条黑影，正打得不可开交。定睛一看，不由叫声惭愧，那两人当中，竟有一个和自己同一打扮，一样也戴着面具，穿着夜行衣服。那一个虽纵跃如飞，看不清面目身材，竟和前年所见的那个碧眼香拂闵小棠相似，使的刀法，也正是他师父游威的独门家数。本想上前去助那穿夜行衣服的人一臂之力，后来一想不妥，自己原恐连累女婿，才不敢往家中逃去。难得凑巧，有这样好的替身，他胜了不必说，省去自己一分心思；败了，敌人认出那人面目，也决不知自己想和他为难。权衡轻重，英雄肝胆，到底敌不了儿女心肠。正待择路行走，忽见适才来路上，飞也似地跑来一条黑影，加入闵小棠一边，双战黑衣人。这一来，张老四不好意思再走，好生为难。终觉不便露面，想由城墙上绕下去，暗中相助。刚刚行近草坪，未及上前，便听那黑衣人喝道：",
+          "instruct": "叙述张老四夜探遭遇，语气紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "夜行衣袂",
+            "sound_cn": "张老四穿上夜行衣戴上面具，衣料摩擦的轻响",
+            "sound_en": "soft rustle of night clothes being put on and mask adjusted, fabric brushing against skin, stealthy preparation",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "轻纵上房",
+            "sound_cn": "张老四接连几纵纵上屋顶，脚步轻落瓦面的细微声响",
+            "sound_en": "several light leaps onto the roof, soft landing on roof tiles, skillful and silent movement, cat-like footsteps",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "金刃劈风",
+            "sound_cn": "脑后金刃破风袭来，刀锋撕裂空气的锐响",
+            "sound_en": "sharp sound of a blade cutting through air from behind, dangerous and sudden, steel whistling past",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "纵身出墙",
+            "sound_cn": "张老四施展凤凰展翅和黄鹊冲天轻功纵出墙外，衣袂破风",
+            "sound_en": "leaping out of the wall with skilled acrobatics, robes flapping in the wind, landing firmly outside the courtyard",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "暗器破空",
+            "sound_cn": "敌人放出暗器，嗖嗖两声从身后追来，擦过衣角",
+            "sound_en": "two projectiles whistling through the air behind, quick and threatening, just missing their target",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "奔逃脚步",
+            "sound_cn": "张老四在夜色中飞速奔逃的脚步声急促有力",
+            "sound_en": "rapid running footsteps in the night, urgent and powerful, fleeing through dark streets and alleys",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 35.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "草坪激斗",
+            "sound_cn": "草坪上两条黑影刀剑相交，铮铮金属碰撞声在夜空中回荡",
+            "sound_en": "two dark figures clashing on a lawn, sharp metallic sounds of swords and knives meeting, sparks flying in the dark",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 38.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "第三条黑影",
+            "sound_cn": "又一条黑影飞也似地跑来加入战团，脚步急促",
+            "sound_en": "another dark figure running in quickly to join the fight, rapid footsteps approaching, entering the fray",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "齐登",
+      "api": {
+        "voice": {
+          "role": "齐登",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "无知狗男女！你也不打听打听俺夜游太岁齐登是怕人的么？",
+          "instruct": "怒喝，声音洪亮带威势"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一言未了，闵小棠早跳出了圈子去，高喊双方住手，是自己人。那夜行人又喝问道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "跳出场外",
+            "sound_cn": "闵小棠跳出战斗圈，脚步落地的轻响",
+            "sound_en": "quick leap out of combat, landing softly on the grass, breaking off the fight with a shout",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "齐登",
+      "api": {
+        "voice": {
+          "role": "齐登",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "俺已道了名姓，我却不认得你二人是谁。休想和刚才一般，用暗器伤人，不是好汉。",
+          "instruct": "警惕而愤怒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "闵小棠道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "闵小棠",
+      "api": {
+        "voice": {
+          "role": "闵小棠",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "愚下闵小棠，和贵友小方朔神偷吴霄、威镇乾坤一技花王玉儿，俱是八拜之交。这位女英雄也非外人，乃是王玉兄的令妹、白娘子王珊珊。若非齐兄道出大名，险些伤了江湖义气。我和珊妹因近年流浪江湖，委实乏了。现在峨眉、昆仑这一班假仁假义的妖僧妖道，又专一和江湖中人为难，连小弟养父智通大师，都没奈何他们。公然做案，他们必来惹厌。恰好珊妹在长沙遇见一个老不死心的户头，着实有很大的家财，便随了户头回来。本想当时下手，又偏巧珊妹怀了身孕。那户头是个富绅，九房只有一个儿子，还不是他本人亲生。前月珊妹分娩，生了个男孩，乐得给他来个文做，缓个三二年下手。一则可避风头，二则借那户头是个世家大户，遇事可以来此隐匿。不料近日又起变化，遇见一个与我们作对的熟人，只不知被他看出没有，主意还未拿定，须要看些时再说。好在那厮虽是父女两人，却非我等敌手。如果发动得快，一样可以做一桩好买卖。到底田地房产还是别人的，扛它不动。不如文做，趁着他们九房人聚会之时，暗中点他的死穴，不消两年，便都了帐，可以不动声色，整个独吞。今晚看齐兄行径，想是短些零花钱，珊妹颇有资财，齐兄用多少，只说一句话便了。",
+          "instruct": "油滑老练，语速适中带江湖腔"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "齐登人极沉着，等闵小棠一口气将话说完，才行答道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "齐登",
+      "api": {
+        "voice": {
+          "role": "齐登",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "原来是闵兄和王玉兄的令妹，小弟闻名已久，果然话不虚传。适才不知，多有得罪。恭喜二位做得这样好买卖。峨眉派非常猖撅，小弟纵横江湖，从来独来独往，未曾遇见对手，近来也颇吃两个小辈的亏苦，心中气忿不过。现在有人引进到华山去，投在烈火祖师门下，学习剑术，寻找他们报仇。路上误遭瘴毒，病了两月。行到此地，盘川用尽。此去倒并不须多钱，只够路上用费足矣。",
+          "instruct": "沉着从容，不卑不亢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "闵小棠与王珊珊同声说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "闵小棠",
+      "api": {
+        "voice": {
+          "role": "闵小棠",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "此乃小事一端。本当邀齐兄到家一叙，因耳目不便，我等出来时已不少，恐人觉察，请齐兄原谅。待我等回去，将川资送来如何？",
+          "instruct": "客气中带着谨慎"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "齐登道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "齐登",
+      "api": {
+        "voice": {
+          "role": "齐登",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我们俱是义气之交，又非外人，无须拘礼，二位只管回去。川资就请闵兄交来，小弟愧领就是。",
+          "instruct": "从容坦荡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，闵、王二人便向齐登道歉走去。一会，闵小棠单身送来了一个包裹，交与齐登，大概送的金银不少。齐登谦谢，便行收下。闵小棠又要亲送一程，齐登执意不肯，才行分别走去。齐登原是在安顺铜仁一带作案，路遇诸葛警我从关索岭采药回山，吃了大亏，幸得见机，没有废命。齐登立誓此仇不报，决不再作偷盗之事。谁知路上生了一场大病，行至贵阳，待要往前再走，钱已所余无几，重为冯妇，又背誓言。心中烦闷，进城寻了一家酒铺，买了些酒肉，独个儿往黔灵山麓无人之处，痛饮吃饱。想了想，这般长路，无银钱还是不行。借着酒兴，换了夜行衣，恐万一遇见熟人，异日传成笑柄，便将面具也戴上，趁着月黑天阴，越城而入。一看前面是一片草坪，尽头处有一条很弯曲的小巷，正要前进，因为饮酒过量，贵州的黄曲后劲甚烈，起初不甚觉得，被那冷风一吹，酒涌上来，两眼迷糊，觉着要吐，打算呕吐完了，再去寻那大户人家下手。刚刚吐完，猛觉身后一阵微风，恍惚见一条黑影一闪。未及定睛注视，巷内蹿出一人，举刀就砍。这时齐登心中已渐明白，见来人刺法甚快，不及凑手，先将身往前一纵，再拔出刀来迎敌。两人便在草坪上争斗起来。闵小棠本从智通学会一点剑术，虽不能飞行自如，也甚了得。因为昨日遇见熟人，晚间便来了刺客。张氏父女和周家关系，早从子华口中探明，便疑心来人定与张氏父女有关。所以紧追不舍，仗着脚程如飞，想追上生擒，辨认面目，问明来因，再行处死。偏巧一出小巷，便见敌人停了脚步。先后两人，俱是一般身材打扮，所以他并不知道这人并非先前奸细。及至打了半天，各道名姓，竟是闻名已久的好友。彼此忙中有错，忘了提起因何追赶动手之事，自己还以为无心结纳了一个好同党。万不料适才刺客，已经隐秘而去。张老四等他二人走后，才敢出面。暗想：'幸亏自己存了一点私见，如果冒昧上前，一人独敌三个能手，准死无疑。如今详情已悉，自己越装作不知，敌人下手越慢。'因为出来已久，恐女儿担心，耳听柝声，已交四鼓，便绕道回来。果然玉珍已将父亲夜探敌人之事对云从说知，正准备跟踪前往接应。一见张老四回来，夫妻二人才放了心，忙问如何。张老四连称好险，把当时的事和自己主意，对云从夫妻说了。命云从暂时装作不知，最好借一个题目，少往诸伯叔家去。又说：",
+          "instruct": "叙述齐登来历与张老四回返，语气平缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "包裹交接",
+            "sound_cn": "闵小棠递过银包，包裹与手接触的轻响，银两碰撞",
+            "sound_en": "package of silver being handed over, soft rustle of cloth and clink of coins inside, careful exchange",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "痛饮声",
+            "sound_cn": "齐登独饮时酒碗与桌面相碰，饮酒吞咽声",
+            "sound_en": "sound of drinking alone, bowl hitting the table, gulping of strong liquor, frustrated drinking",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "越城轻响",
+            "sound_cn": "齐登越城而入，衣料擦过城墙的轻响",
+            "sound_en": "soft rustle as he climbs over the city wall, fabric brushing against stone, nimble and stealthy",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.5,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "酒吐声",
+            "sound_cn": "齐登酒后呕吐，身体不适的声响",
+            "sound_en": "sound of vomiting from excessive drinking, retching and discomfort, stomach heaving",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "黑影闪动",
+            "sound_cn": "巷内蹿出一条黑影，衣袂破风的轻响",
+            "sound_en": "dark figure dashing out from the alley, robes rustling in quick movement, sudden appearance",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 21.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "刀剑碰撞",
+            "sound_cn": "齐登与来人刀剑相碰，铮然作响，火花四溅",
+            "sound_en": "knife and sword clashing in the dark, sharp metallic ring of steel on steel, sparks flying",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 26.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "远去的脚步声",
+            "sound_cn": "张老四绕道回家的脚步声，轻而谨慎",
+            "sound_en": "light cautious footsteps as Zhang Laosi takes a roundabout way home, careful and alert",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "张老四",
+      "api": {
+        "voice": {
+          "role": "张老四",
+          "role_voice": "云名-爽朗,诙谐",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "听敌人口气，对我们尚在疑似之间，此时我就出门，容易招疑。你可暗禀令尊，说我在江湖仇人太多，怕连累府上，可从明日起，逐渐装作你父母夫妻对我不好，故意找错冷淡我。过个一月半月，装作与你们争吵，责骂珍儿女生外向，负气出走。对方自昨晚闹了刺客，必然每晚留心，说不定还要来此窥探。不到真正侵犯，千万不可迎敌。他见我等既不去探他动静，又不防备，定以为珍儿没有认清。最近期内，他要避峨眉派追寻，必不下手。我却径往成都去寻令师，寻不见便寻邱四叔，转约能人，来此除他，最妙不过。",
+          "instruct": "低声密谋，语气严肃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大家商议已定，分别就寝。闵小棠、王珊珊两个淫恶等了三天，不见动静，竟把刺客着落在齐登身上。但还不甚放心，第四日夜间，到云从家中探了一次，见全家通没做理会，便自放心走去。子敬并不知个中真相，一则因张老四是全家恩人，加上相处这些日来，看出张老四虽是江湖上人，其言行举止，却一点都不粗鄙，两人谈得非常投机。故由亲家又变成了莫逆至好，哪里肯放他走。说是纵有仇家，你只要不常出门，也是一样隐避，何必远走，再三不肯。经张老四父女和云从再三陈说利害，云从母亲只此一子，毕竟胆小怕事，才依了他们。子敬终是怕人笑话忘恩负义，做不了假。结果先是过了半月，由张老四借故挑眼，和玉珍先争吵了两句。云从偏向妻子，也和乃岳顶嘴。双方都装出赌气神态，接连闹了好几回假意气。周家虽是分炊，等于聚族而居，弟兄们又常有聚会，家中下人又多，渐渐传扬出去。各房都知他翁婿不和，前来劝解。张老四更是人来疯，逢人说女生外向，珍儿如何不对，闹得一个好女婿，都不孝敬他了。自己虽然年迈，凭这把力气，出门去挑葱卖菜，好歹也挣一个温饱，谁希罕他家这碗怄气饭吃，有时更是使酒骂座，说些无情理的话。闹不多日，连这一班帮他压服云从夫妇的各房伯叔都说是当老辈的太过，并非小辈的错。内中更有一两个稍持门第之见的，认为自己这等世家，竟与种菜园子的结了亲，还不是因为救了云从一场。如今他有福不会享，却成天和女儿女婿吵闹，想是他命中只合种菜吃苦，没福享受这等丰衣足食。先还对他敷衍，后来人都觉他讨厌，谁爱理他。张老四依旧不知趣似的，照样脾气发得更凶。子敬知道一半用意，几次要劝他不如此，都被云从拦住。张老四终于负气，携了来时一担行李，将周家所赠全行留下，声称女儿不孝，看破世情，要去落发出家。闹到这步田地，子敬不必说，就连平日不满意张老四的人，也觉传出去是个笑话，各房兄弟齐来劝解，张老四暂时被众人拦住，只冷笑两声，不发一言，也不说走。等到众人晚饭后散去，第二日一早，张老四竟是携了昨日行囊，不辞而别。玉珍这才哭着要云从派人往各处庙宇寻找，直闹了好几天才罢。这一番假闹气，做得很像，果然将敌人瞒过。云从夫妇照醉道人所传口诀，日夜用功。云从虽是出身膏粱富厚之家，娇生惯养，但却天生异禀，一点便透。自经大难，感觉人生脆弱，志向非常坚定。闺中有高明人指点，又得峨眉真传，连前带后，不过三数月光景，已是练得肌肉结实，骨体坚凝。别的武艺虽还不会，轻身功夫已有了根柢。一柄霜镡剑，更是用峨眉初步剑法，练得非常纯熟。就连玉珍，也进步不少。夫妻二人每日除了练剑之外，眼巴巴盼着张老四到成都去，将醉道人请来，除去祸害，还可学习飞剑。谁知一去月余，毫无音信。倒是玉珍自从洞房花烛那天，便有了身孕，渐渐觉着身子不快，时常呕吐，经医生看出喜脉，全家自是欢喜。玉珍受妊，子敬夫妻恐动了胎气，不准习武。只云从一人，早晚用功。云从因听下人传说，二老爷那里现时常有不三不四的生人来往；张老四久无音信，也不知寻着醉道人没有？好生着急烦恼。有一天晚上，夫妻二人正在房中夜话，忽然一阵微风过处，一团红影穿窗而入。云从大吃一惊，正待拔出剑来，玉珍己看清来人，忙喊休要妄动，是自己人。云从一看，来人是个女子，年约三十多岁，容体健硕，穿着一身红衣。手里拿着一个面具，腰悬两柄短剑，背上斜插着一个革囊，微露出许多三棱钢尖，大约是暗器之类。举动轻捷，顾盼威猛。玉珍给来人引见道：",
+          "instruct": "叙述翁婿假意失和与张老四离去，语气平缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 10.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "争吵声",
+            "sound_cn": "张老四与云从夫妇假意争吵，高声喧嚷，摔物声",
+            "sound_en": "loud quarreling voices, feigned anger and accusations, tense family dispute with objects being knocked over",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "使酒骂座",
+            "sound_cn": "张老四借酒骂座，酒杯与桌面的碰撞声",
+            "sound_en": "drunkard shouting abuse, wine cup slamming on table, angry and theatrical, disrupting the household",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "练剑声",
+            "sound_cn": "云从夫妇练剑，剑刃破风与脚步移动的声响",
+            "sound_en": "sound of sword practice, blades cutting through air and footsteps shifting, diligent training",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 35.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "红影穿窗",
+            "sound_cn": "张三姑穿窗而入，衣料与窗棂的轻擦声，风声微动",
+            "sound_en": "red figure entering through the window, fabric brushing against the frame, swift and unexpected, a gust of wind",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "张玉珍",
+      "api": {
+        "voice": {
+          "role": "张玉珍",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "这位是我姑姑，江湖上有名的老处女无情火张三姑姑。",
+          "instruct": "恭敬介绍，略带自豪"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便叫云从一同上前叩见。张三姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "张三姑",
+      "api": {
+        "voice": {
+          "role": "张三姑",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "-1%",
+          "pitch": "+1Hz",
+          "text": "侄婿侄女不要多礼，快快起来说话。",
+          "instruct": "爽朗大方，语气亲切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三人落座之后，玉珍道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "张玉珍",
+      "api": {
+        "voice": {
+          "role": "张玉珍",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "+1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "八年不见，闻得姑姑已拜了一位女剑仙为师，怎生知道侄女嫁人在此？",
+          "instruct": "惊喜询问，语气轻快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "张三姑",
+      "api": {
+        "voice": {
+          "role": "张三姑",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "-1%",
+          "pitch": "+1Hz",
+          "text": "说起来话长，我且不走呢。侄婿是官宦人家，我今晚行径，不成体统。且说完了要紧话，我先走去，明日再雇轿登门探亲，以免启人惊疑。",
+          "instruct": "爽快利落，有条有理"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "玉珍心中一动，忙问有何要事。三姑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "张三姑",
+      "api": {
+        "voice": {
+          "role": "张三姑",
+          "role_voice": "知性姐姐-温柔,亲切",
+          "speed": "0%",
+          "volume": "-1%",
+          "pitch": "+1Hz",
+          "text": "侄女休要惊慌。我八年前在武当山附近和你父女分手后，仍还无法无天，作那单人营生。一天行在湘江口岸，要劫一个告老官员，遇见衡山金姥姥，将我制服。因见我虽然横行无忌，人却正直，经我一阵哀恳，便收归门下。同门原有两位师姊。后来师父又收了一个姓崔的师妹，人极聪明，资质也好，只是爱闹个小巧捉弄人。我不该犯了脾气，用重手法将她点伤。师父怪我以大欺小，将我逐出门墙，要在五年之内，立下八百外功，没有过错，才准回去。只得重又流荡江湖，管人闲事。因为我虽在剑仙门下，师父嫌我性情不好，剑法未传，不能身剑合一。如今各派互成仇敌，门人众多，不比昔日。所以和江湖上人交手，十分留心。",
+          "instruct": "语速适中，叙述往事，语气平和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "上月在贵州入川边界上，荒野之中，遇见你父亲，中了别人毒箭，倒卧在地，堪堪待死。是我将他背到早年一个老朋友家中，用药救了，有一月光景，才将命保住。他对我说起此间之事，我一听就说他办得不对。侄婿是富贵人家，娇生惯养。醉师叔是峨眉有名剑仙，既肯自动收侄婿为徒，他必看出将来有很好造就，岂是中道夭折之人？遇见家中发生这种事，就应该自己亲身前往成都，拜求师尊到来除害才是，岂可畏惧艰险？你父亲早年仇人甚多，却叫他去跋涉长路。侄婿虽然本领不济，按着普通人由官道舟车上路，并不妨事。反是你父亲却到处都是危险。就算寻到醉师叔，也必定怪侄婿畏难苟安，缺少诚敬，不肯前来。怎么这种过节都看不到？你父亲再三分辩，说侄婿父母九房，只此一子，决不容许单身上路，又恐敌人伺机下手，一套强词敷衍。我也懒得答理。因多年未见侄女，又配的是书香之后，峨眉名剑仙的门下，极欲前来探望。又因你父亲再三恳托，请我无论如何都得帮忙，最好先去成都寻见醉师叔，婉陈详情，请他前来。又说醉师叔如何钟爱侄婿，决不至于见怪等语。我看他可怜，因他还受了掌伤，须得将养半年，才免残废。我将他托付了我的好友，便往成都碧筠庵去，见着醉师叔门下松、鹤二道童，才知慈云寺已破，醉师叔云游在外。那里原来是别院，说不定何时回来，回来便要带了松、鹤二童同往峨眉。我将来意说了。一想慈云寺瓦解，这里只有闵小棠、王珊珊两淫贼，估量我能力还能发付。等了两三天，又去问过几次，果不出我之所料。这后一次，醉师叔竟然回来又走去。听松、鹤二道童说，醉师叔听了这里的事，只笑了笑道：",
+          "instruct": "叙述寻醉道人经过，语气略带不满"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白（醉道人传话）",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "『你周师弟毕竟是富贵人家子弟，连门都懒得出，还学什么道？你传话给张三姑，叫她回去，说你师弟虽然今生尚有凶险，只是若做富贵中人，寿数却大着呢。凡事有数，穷极则通，久而自了。』松、鹤二童关心同门，把详情对我说了。",
+          "instruct": "转述醉道人之言，略带调侃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我一闻此言，只路遇熟人，给你父亲带了个口信，便赶到此地。日里住在黔灵山水帘洞内，夜里连去你二伯父家探了数次。本想能下手时，便给你家除去大害，再来看望你夫妇。谁知到了那里一看，闵、王两淫恶还可对付，囡为慈云寺一破，一些奉派在外的余党连明带暗，竟有十三四个能手在这里。你二伯父迷恋王珊珊，任凭摆布，做人傀儡，对外还替他们隐瞒，只说是他妻子娘家乡下来了两三个亲戚，其实连他自己也不知来了多少人。如今闹得以前下人全都打发，用的不是闵贼同党，便是手下伙计。所幸他们至今还不知侄婿这面有了觉察，因避峨眉耳目，准备先将家中现有金银运往云南大竹子山一个强盗的山寨中存放，然后再借着你二伯家隐身，分赴外县偷盗。末了再借公宴为由，用慢功暗算你全家死穴，你全家主要数十人，便于人不知鬼不觉中，陆续无疾而终。最后才除去你的二伯，王珊珊母子当然承袭你家这过百万的家业，逐渐变卖现钱，再同往大竹子山去盘踞。你道狠也不狠？我见众寡不敌，只得避去。想了想，非由侄婿亲去将醉师叔请来，余人不是对手。他们虽说预备缓做，但是事有变化，不可不防。我一人要顾全你全家，当然不成。若单顾你父母妻子，尚可勉为其难。意欲由侄婿亲去，我明日便登门探亲，搬到你家居住，以便照护。至于侄婿上路，只要不铺张，异派剑仙虽然为恶，无故绝不愿伤一无能之人。普通盗贼，我自能打发。天己不早，我去了。明早再来，助侄婿起程。",
+          "instruct": "叙述敌情与打算，语气急促而果决"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，将脚一顿，依旧一条红影，穿窗而去。云从夫妇慌忙拜送，已经不知去向。因听张老四中途受伤，夫妻二人越加焦急，玉珍尤其伤心。因为三姑性情古怪，话不说完，不许人问，等到说完，已经走去，不曾问得详细，好不悬念。知道事在紧急，云从不去不行，又不敢将详情告知父母，商量了一夜。第二日天一亮，便叫进心腹书童小三儿，吩咐他如有女客前来探望少太太，不必详问，可直接请了进来。一面着玉珍暗中收拾一间卧室。自己还不放心，请完父母早安，便去门口迎候。不多一会，老处女无情火张三姑扮成一个中等人家妇女，携了许多礼物，坐轿来到。云从慌忙迎接进去，禀知父母。那轿夫早经开发嘱咐，到了地头，自去不提。子敬夫妻钟爱儿媳，听说到了远亲，非常看重，由云从母亲和玉珍婆媳二人招待。云从请罢了安，背人和子敬商量，说是在慈云寺遭难时许下心愿，如能逃活命，必往峨眉山进香。回来侍奉父母，不敢远离，没有提起。连日得梦，神佛见怪，如再不去，必有灾祸。子敬虽是儒生，夫妻都虔诚信佛。无巧不巧，因为日间筹思云从朝山之事，用心太过，晚间便作了一个怪梦。醒来对妻子说了，商量商量，神佛示兆，必能保佑云从路上平安，还是准他前去。云从闻知父母答应，便说自家担个富名，这次出门，不宜铺张，最好孤身上路，既表诚心，又免路上匪人觊觎。子敬夫妻自是不肯。云从又说自己练习剑术，据媳妇说，十来个通常人已到不了跟前。这些家人，不会武艺，要他随去何用？当时禀明父母，悄悄唤了七八个家丁，在后院中各持木棍，和云从交手。子敬夫妻见云从拿着一根木棍当剑，纵跃如飞，将众家人一一打倒，自是欢喜。云从又各赏了一些银子，吩咐对外不许张扬出去，说主人会武。子敬夫妻终嫌路上无人扶持，云从力说无须，只带了小三儿一人。又重重托了张三姑照看父母妻子，然后拜别父母起身，循着贵蜀驿道上路。因为想历练江湖，走到傍晚入店，便打发了轿子，步行前进。走了有四五天，俱不曾有事。最后一日，行至川滇桂交界，走迷了路，误入万山丛里。想往回走，应往西北，又误入东南，越走越错。眼看落日衔山，四围乱山杂沓，到处都是丛林密莽，蔽日参天，薄暮时分，猿啼虎啸，怪声时起。休说小三儿胆战心惊，云从虽然学了一些武艺，这种地恶山险的局面，也是从未见过，也未免有些胆怯。主仆二人一个拔剑在手，一个削了一根树枝，拿着壮胆，在乱山丛里，像冻蝇钻窗般乱撞，走不出去。头上天色，却越发黑了起来。又是月初头上，没有月色，四外阴森森的，风吹草动，也自心惊。又走了一会，云从还不怎么，小三儿已坐倒在地，直喊周身疼痛，没法再走。幸得路上小三儿贪着一个打尖之处，腊肉比别处好吃，买了有一大块，又买了许多锅盔（川贵间一种面食），当晚吃食，还不致发生问题。云从觉着腹饿，便拿出来，与小三儿分吃。小三儿直喊口渴心烦，不能下咽，想喝一点山泉，自己行走不动，又不便请主人去寻找，痛苦万分。云从摸他头上发热，周身也是滚烫，知已劳累成病，好不焦急。自己又因吃些干咸之物，十分口渴。便和小三儿商量，要去寻水来喝。小三儿道：",
+          "instruct": "叙述云从上路与荒山迷路，语气转为紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "红影穿窗",
+            "sound_cn": "张三姑穿窗离去，衣袂破风的轻响，红影消失在夜色中",
+            "sound_en": "red figure disappearing through the window, robes rustling in quick departure, vanished into the night",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "家丁操练",
+            "sound_cn": "七八个家丁持木棍与云从交手，棍棒碰撞声，呼喝声",
+            "sound_en": "several servants sparring with wooden staffs, sticks clashing, quick movements and impacts, grunts of effort",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 17.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "纵跃如飞",
+            "sound_cn": "云从纵跃如飞将众家人打倒，衣袂破风与倒地声",
+            "sound_en": "leaping and knocking down servants one by one, robes flapping, bodies hitting the ground in succession",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "万山猿啼",
+            "sound_cn": "荒山中猿啼虎啸，怪声时起，阴森恐怖回荡山谷",
+            "sound_en": "monkeys crying and tigers roaring in the desolate mountains, eerie sounds rising from the darkness, echoing through the valleys",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 34.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "风吹草动",
+            "sound_cn": "夜风穿过丛林，草木沙沙作响，令人心惊胆战",
+            "sound_en": "wind rustling through the dense forest, grass and leaves whispering in the dark, unsettling and tense, shadows moving",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "小三儿倒地",
+            "sound_cn": "小三儿坐倒在地，身体疲惫的沉重声响，喘息声",
+            "sound_en": "Xiao San collapsing to the ground, heavy thud of exhaustion, gasping for breath, too tired to continue",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "小三儿",
+      "api": {
+        "voice": {
+          "role": "小三儿",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "小人也是口渴得要死，一则不敢劳动少老爷，二则又不放心一人前去，同去又走不动，正为难呢。",
+          "instruct": "有气无力，声音沙哑虚弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "云从道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "周云从",
+      "api": {
+        "voice": {
+          "role": "周云从",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "说起来都是太老爷给我添你这一个累赘。我这几个月练武学剑，着实不似从先。起初还不觉得，这几日一上路，才觉出要没有你，我每日要多走不少的路。走这半天，我并不累。今天凭我脚程，就往错路走，也不怕出不了山去。你如是不害怕，你只在这里不要乱走，我自到前面去寻溪涧，与你解渴。",
+          "instruct": "关切中带着焦急"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时小三儿已烧得口中发火，支持不住，也不暇再计别的，把头点了一点。云从一手提剑，由包裹中取了取水的瓶儿，又嘱咐了小三儿两句，借着稀微星光，试探着朝前走去。且喜走出去没有多远，便听泉声垢耳。转过一个崖角，见前面峭壁上挂下一条白光。行离峭壁还有丈许，便觉雨丝微漾，直扑脸上，凉气逼人，知是一条小瀑。正恐近前接水，会弄湿衣履，猛看脚下不远，光彩闪动，潺濛之声，响成一片。定睛一看，细瀑降落之处，正是一个小潭。幸得适才不曾冒昧前进，这黑暗中，如不留神，岂不跌入潭里？水泉既得，好不欣喜，便将剑尖拄地，沿着剑上照出来的亮光，辨路下潭。自己先喝了几口，果然入口甘凉震齿。灌满一瓶，忙即回身，照着来路转去。这条路尚不甚难走，转过崖角，便是平路，适才走过，更为放心大胆。如飞跑到原处一看，行囊都在，小三儿却不知去向。云从先恐他口渴太甚，又往别处寻水，他身体困乏，莫非倒在哪里？接连喊了两声，不见答应，心中大惊。只得放下水瓶，边走边喊，把四外附近找了个遍，依然不见踪影。天又要变，黑得怕人，连星光通没一点。一会又刮起风来，树声如同潮涌，大有山雨欲来之势。云从恐怕包裹被风吹去，取来背在身上，在黑暗狂风中，高一脚低一脚地乱喊乱走。风力甚劲，迎着风，张口便透不过气来。背风喊时，又被风声扰乱。且喜那柄霜镡剑，天色越暗，剑上光芒也越加明亮。云从喊了一阵，知是徒劳，只得凭借剑上二三尺来长一条光华，在风中挣扎寻找。不知怎的一来，又把路径迷失，越走越不对。因在春天，西南天气暖和，云从虽只一个不大的随身包裹，但是里面有二三百两散碎银子，外加主仆二人一个装被褥和杂件的大行囊，也着实有些分量。似这般险峻山路，走了一夜，就算云从学了剑诀，神力大增，在这忧急惊恐的当儿，带着这些累赘的东西，一夜不曾休息，末后走到一个避风之所，已劳累得四肢疲软，不能再走。暗想：'黄昏时分，曾听许多怪声，又刮那样大风，小三儿有病之身，就不被怪物猛兽拖去，也必坠落山涧，身为异物。'只是不知一个实际，还不死心，准备挨到天明，再去寻他踪迹。此时迷了路径，剑光所指，数尺以外，不能辨物，且歇息歇息，再作计较。便放下行囊，坐在上面，又累又急，环境又那么可怕，哪敢丝毫合眼。只一手执紧霜镡剑柄，随时留神，观察动静。山深夜黑，风狂路险，黑影中时时觉有怪物扑来。似这样草木皆兵的，把一个奇险的后半夜度去。渐渐东方微明，有鱼肚色现出，风势也略小了些，才觉得身上奇冷。用手一摸，业已被云雾之气浸湿，冷得直打寒噤。云从先不顾别的，起立定睛辨认四外景物。这一看，差一点吓得亡魂皆冒。原来他立身之处，是块丈许方圆的平石，孤伸出万丈深潭之上，上倚危崖，下临绝壑。一面是峭壁，那三面都是如朵云凌空，不着边际。只右方有一尖角，宽才尺许，近尖处与右崖相隔甚近。两面中断处，也有不到二尺空际，似续若断。因有峭壁拦住风势，所以那里无风。除这尺许突尖外，与环峰相隔最近的也有丈许，远的数十百丈之遥。往下一看，潭上白云滃莽，被风一吹，如同波涛起伏，看不见底，只听泉声奔腾澎湃。云从立脚之处最高，见低处峰峦仅露出一些峰尖，如同许多岛屿，在云海中出没。有时风势略大，便觉这块大石摇摇欲坠，似欲离峰飞去，不由目眩心摇，神昏胆战。哪敢久停，忙着携了行囊包裹，走近石的左侧。一夜忧劳，初经绝险，平时在家习武，一纵便是两三丈的本领，竟会被这不到两尺宽，跬步可即的鸿沟吓住，一丝也不敢大意。离对崖边还有两三尺，便即止步，将剑还匣，先将行囊用力抛了过去，然后又将小包裹丢过，这才试探着往前又走了两三步，然后纵身而过，脱离危境。",
+          "instruct": "叙述云从寻水、小三儿失踪、荒山绝境，语气由紧张转惊险"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "泉声潺潺",
+            "sound_cn": "远处溪涧泉水流淌的潺潺声，清凉悦耳",
+            "sound_en": "distant sound of flowing spring water, gentle gurgling over rocks, clear and refreshing",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "瀑布声",
+            "sound_cn": "峭壁上小瀑挂下，水流冲击潭面的哗哗声，水雾弥漫",
+            "sound_en": "small waterfall cascading down the cliff, water splashing into the pool below, continuous and soothing, mist rising",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "汲水声",
+            "sound_cn": "云从取瓶汲水，水入瓶中的咕咚声，甘凉入喉",
+            "sound_en": "filling the water bottle from the pool, soft gurgling as water enters the container, drinking deeply",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "呼喊声",
+            "sound_cn": "云从焦急呼喊小三儿，声音在荒野中回荡，越来越急",
+            "sound_en": "anxious calls for Xiao San, voice echoing in the desolate wilderness, growing desperate and frantic",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "狂风大作",
+            "sound_cn": "狂风骤起，树声如潮涌，风声凄厉如鬼哭",
+            "sound_en": "sudden fierce wind, trees roaring like ocean waves, howling gusts cutting through the night like wailing ghosts",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黑暗中挣扎",
+            "sound_cn": "云从在黑暗狂风中高一脚低一脚行走的脚步声，喘息声",
+            "sound_en": "stumbling footsteps in the dark and wind, uneven and exhausted, struggling through the night, gasping for air",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "行囊落地",
+            "sound_cn": "云从放下行囊坐在上面，行囊落地的沉重声响，疲惫叹息",
+            "sound_en": "heavy bundle dropped to the ground, thud of luggage landing, exhaustion overtaking him with a deep sigh",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 40.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "深潭水声",
+            "sound_cn": "万丈深潭中水声奔腾澎湃，回声在峡谷中震荡",
+            "sound_en": "water rushing and churning in the bottomless abyss below, echoes rolling through the gorge, thunderous and deep",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 43.0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "行囊抛过",
+            "sound_cn": "云从将行囊和包裹先后抛过沟壑，两次落地声",
+            "sound_en": "luggage thrown across the gap, two thuds as they land on the opposite side, careful aim",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 45.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "纵身过崖",
+            "sound_cn": "云从纵身越过沟壑，衣袂破风与落地的轻响，脱险",
+            "sound_en": "leaping across the narrow gap, robes flapping in the wind, landing safely on the other side, relief",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "周家厅堂密谈",
+        "name_en": "周家厅堂中，周云从与父亲子敬低声密谈，灯火昏黄，窗外夜色沉沉，气氛凝重而隐秘",
+        "start_line": 1,
+        "end_line": 2,
+        "prompt": "very subtle low volume cinematic background ambience, traditional Chinese study room at night, warm oil lamp flickering on a wooden table, heavy antique furniture and old bookshelves filled with scrolls, quiet hushed conversation between father and son, distant sound of night insects and a dripping water clock, nervous and secretive atmosphere heavy with unspoken fears, soft guqin resonance as serious and melancholic undertone, slow evolving texture, no sharp sounds, no prominent events, no voices beyond dialogue, no music melody, no loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -34,
+        "high_pass_hz": 80,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "夜探前行密谋行踪",
+        "name_en": "夜色深重，张老四穿夜行衣戴面具，潜行于周家宅院与城郊之间，衣袂轻响，步步惊心",
+        "start_line": 3,
+        "end_line": 5,
+        "prompt": "very subtle low volume cinematic background ambience, moonless night in a traditional Chinese town, dark alleys and high walls, cold wind carrying the scent of dust and night dew, a shadowy figure in night clothes moving with practiced stealth, soft fabric rustle and light footsteps on roof tiles, tension of an unseen watcher and hidden dangers, distant dog barking far away, subdued suspense and alertness, sparse pipa plucks as anxious accent, slow evolving texture, no sharp foreground sounds, no prominent events, no voices, no music melody, no loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1.5,
+        "fade_out": 2,
+        "target_dbfs": -34,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "深夜城郊草坪混战",
+        "name_en": "贵阳城郊深夜，草坪上月黑风高，闵小棠、齐登等黑影激烈搏斗，刀剑铮铮，杀机四伏",
+        "start_line": 5,
+        "end_line": 17,
+        "prompt": "very subtle low volume cinematic background ambience, open grassland outside city wall at night, moonless dark sky, cold wind sweeping across the field, two black figures fighting fiercely with knives and swords, metallic clangs and rapid footsteps, hidden observer watching from the shadows with bated breath, tense and dangerous atmosphere crackling with violence, deep drum resonance as suspense and battle accent, slow evolving texture with sudden peaks, no voices beyond dialogue, no music melody, no loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 2,
+        "target_dbfs": -32,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "张老四与云从夫妇密议",
+        "name_en": "周云从与玉珍的内室，张老四带回夜探消息，三人低声密议脱身之策，灯火如豆，满室紧张",
+        "start_line": 18,
+        "end_line": 18,
+        "prompt": "very subtle low volume cinematic background ambience, private bedchamber with simple but elegant furnishings, oil lamp casting dancing shadows on paper-covered windows, three figures huddled close in urgent conversation, whispered plans and careful strategy, tension and resolve in the air, occasional nervous foot-tapping, gentle xiao flute breath as anxious and watchful undertone, slow evolving texture, no sharp foreground sounds, no prominent events, no voices beyond dialogue, no music melody, no loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -34,
+        "high_pass_hz": 80,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "宅中假意争吵与红影夜访",
+        "name_en": "周家大宅中，张老四与云从夫妇假意争吵，声传宅院，人尽侧目；深夜张三姑穿窗而入，红影闪现，带来惊天敌情",
+        "start_line": 19,
+        "end_line": 31,
+        "prompt": "very subtle low volume cinematic background ambience, large traditional house with multiple courtyards and quiet gardens, distant sounds of feigned quarreling echoing through the halls, startled servants whispering, night air cool and still with a hint of rain, sudden appearance of a red-clad figure at the window, quiet but urgent conversation with news of mortal danger, uneasy anticipation and hidden fear, warm erhu hum as dramatic and tense accent, slow evolving texture, no sharp foreground sounds, no prominent events, no voices beyond dialogue, no music melody, no loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -34,
+        "high_pass_hz": 80,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "荒山夜行迷途",
+        "name_en": "川滇桂交界万山丛中，主仆二人在黑暗的原始荒山中迷路，猿啼虎啸，风吹草动，夜色阴森恐怖",
+        "start_line": 32,
+        "end_line": 36,
+        "prompt": "very subtle low volume cinematic background ambience, dense primeval mountain forest at night, towering ancient trees blocking out the sky, eerie cries of monkeys and tigers echoing from the deep ravines, cold wind rustling through bamboo groves and undergrowth, two exhausted travelers stumbling through the dark, fear and disorientation growing with every step, no moonlight to break the oppressive blackness, ancient and desolate wilderness pressing in, deep xiao breath as haunting and foreboding undertone, slow evolving texture with subtle tension, no sharp foreground sounds, no prominent events, no voices beyond dialogue, no music melody, no loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -32,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "万丈深潭绝境",
+        "name_en": "拂晓时分，万丈深潭边缘，云从发现自己孤悬于危石之上，脚下白云滃莽、泉声奔涌，惊险万分",
+        "start_line": 36,
+        "end_line": 36,
+        "prompt": "very subtle low volume cinematic background ambience, high rocky ledge overlooking a bottomless abyss at the break of dawn, thick white clouds churning below like an ocean of mist, sound of rushing water rising from unfathomable depths, cold moisture clinging to the rock face and soaking through clothes, lone traveler trembling on the edge of the precipice, vertigo and terror mingling with awe at the vastness below, deep guqin resonance as stark tension and isolation accent, slow evolving texture, no sharp foreground sounds, no prominent events, no voices, no music melody, no loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 3,
+        "target_dbfs": -32,
+        "high_pass_hz": 100,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

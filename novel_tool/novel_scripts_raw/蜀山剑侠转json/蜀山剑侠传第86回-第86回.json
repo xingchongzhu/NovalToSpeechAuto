@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "灵云": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "云懿-古风,甜美",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -33,7 +33,7 @@
       "speed": "-1%"
     },
     "八姑": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云霓-低沉,情感,知心姐姐",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -63,19 +63,19 @@
       "speed": "-2%"
     },
     "毒龙尊者": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "尚和阳": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "万妙仙姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "性感魅惑-成熟,性感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -87,31 +87,31 @@
       "speed": "0%"
     },
     "师文恭": {
-      "role_voice": "云皓-磁性,低沉",
+      "role_voice": "云森-沧桑男声,忧郁深邃",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "俞德": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "元气少年-磁性,性感",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "寒萼": {
-      "role_voice": "活泼刁蛮-活泼,可爱",
+      "role_voice": "龙菲菲-甜美娇气",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
     },
     "吴文琪": {
-      "role_voice": "温婉女士-知性,温婉",
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "司徒平": {
-      "role_voice": "风发少年-潇洒,磁性",
+      "role_voice": "明朗-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"

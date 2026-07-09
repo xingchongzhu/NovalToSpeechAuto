@@ -9,7 +9,7 @@
   },
   "roles_definition": {
     "旁白": {
-      "role_voice": "云健-中年男性磁性声音",
+      "role_voice": "云健-低沉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-10%"
@@ -39,7 +39,7 @@
       "speed": "-2%"
     },
     "马湘": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "云诚-成熟,标准男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"

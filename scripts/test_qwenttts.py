@@ -204,16 +204,65 @@ def test_sequential():
     
     return success_count == len(test_texts)
 
+def test_emotion_styles():
+    print("\n=== 测试4: 同一句话不同情绪风格 ===\n")
+    
+    audio_engine = AudioEngine()
+    
+    test_text = "你怎么会在这里？"
+    
+    # 不同情感风格的 instruct
+    styles = [
+        ("neutral", "中性"),
+        ("sad", "悲伤"),
+        ("angry", "愤怒"),
+        ("surprised", "惊讶"),
+        ("whispering", "低语"),
+        ("高兴", "高兴"),
+        ("焦急", "焦急"),
+        ("冷漠", "冷漠"),
+    ]
+    
+    start_time = time.time()
+    
+    for i, (instruct, label) in enumerate(styles):
+        params = VoiceParams(
+            text=test_text,
+            role="旁白",
+            role_voice="儒雅青年-磁性,性感",
+            speed="+0%",
+            volume="+0%",
+            pitch="+0Hz",
+            instruct=instruct,
+        )
+        try:
+            print(f"  生成: [{label}] instruct='{instruct}'")
+            t0 = time.time()
+            audio = audio_engine.text_to_speech(params)
+            elapsed = time.time() - t0
+            filename = f"test_emotion_{i:02d}_{label}.wav"
+            save_audio(audio, filename)
+            print(f"    耗时: {elapsed:.1f}s, 时长: {len(audio)/1000:.1f}s\n")
+        except Exception as e:
+            print(f"    ❌ 失败: {e}\n")
+    
+    total_time = time.time() - start_time
+    print(f"\n=== 测试4 结果 ===")
+    print(f"总耗时: {total_time:.2f} 秒")
+    print(f"输出目录: {OUTPUT_DIR}")
+    print(f"可对比听辨不同风格差异")
+
 if __name__ == "__main__":
     print("=" * 60)
     print("Qwen3-TTS 多线程合成测试")
     print("=" * 60)
     print(f"输出目录: {OUTPUT_DIR}")
     
-    test_single_engine_multithread()
+    #test_single_engine_multithread()
     
     #test_multiple_engine_instances()
     #test_sequential()
+    test_emotion_styles()
     
     print("\n" + "=" * 60)
     print("测试完成！")

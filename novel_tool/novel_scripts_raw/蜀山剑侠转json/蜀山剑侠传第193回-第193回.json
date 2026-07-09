@@ -558,7 +558,7 @@
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "惊呼",
-            "sound_cn": "萧逸狂喊"霜妹"的惊呼声",
+            "sound_cn": "萧逸狂喊\"霜妹\"的惊呼声",
             "sound_en": "Xiao Yi shouting in surprise and shock, sudden exclamation, emotional outburst",
             "volume": "-16%",
             "pitch": "+0Hz"
@@ -633,7 +633,7 @@
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "少年惊呼",
-            "sound_cn": "少年惊觉后跟着狂喊"妈妈回来了"",
+            "sound_cn": "少年惊觉后跟着狂喊\"妈妈回来了\"",
             "sound_en": "young boy shouting after realization, sudden exclamation of surprise",
             "volume": "-18%",
             "pitch": "+0Hz"
@@ -1036,7 +1036,7 @@
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "惊呼喊叫",
-            "sound_cn": "萧逸冲入门前大喊"霜妹"",
+            "sound_cn": "萧逸冲入门前大喊\"霜妹\"",
             "sound_en": "Xiao Yi shouting before rushing into the door, sudden exclamation",
             "volume": "-16%",
             "pitch": "+0Hz"
@@ -2313,77 +2313,6 @@
       }
     },
     {
-      "id": 84,
-      "role": "萧璇",
-      "api": {
-        "voice": {
-          "role": "萧璇",
-          "role_voice": "小巧-童声",
-          "speed": "0%",
-          "volume": "0%",
-          "pitch": "+2Hz",
-          "text": "你害我娘跟舅舅和雷二娘的命，今天也要你的命！",
-          "instruct": "愤怒喊叫"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 85,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "声到人到，萧珍人大手快，手起一掌，打向畹秋脸上。同时萧琏平地纵起，双手紧勒畹秋头颈，两膝盖连脚尖用足全力，照定背上，乱打乱踢。萧璇更狠，见畹秋挨了哥哥一巴掌，起身用右手抵挡，头颈又吃妹妹束住，恐她回左手去抓，伸手照准畹秋脉门，用力一斫。跟着纵身，一头向胸前猛顶上去，嘭的一声，顶个正准。三人年纪虽小，个个力大，手疾眼快。畹秋骤不及防，身刚站起，猛觉颈间似受铁箍，气闭不出。接着腰背连中几下，奇痛，手被打麻，胸前再受一顶，休说招架不及，哪里还存身得住，立被撞倒。身方一歪，萧珍恶狠狠上去，照准腿弯，又是一脚。气透不过，连",
-          "instruct": "激烈打斗，紧张密集"
-        },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "手起一掌",
-            "trigger_offset": 0.2,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "掌掴声",
-            "sound_cn": "手掌重重打在脸上的声音",
-            "sound_en": "slap on the face, sharp impact of palm hitting cheek, forceful strike",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 2.5,
-            "trigger_keyword": "乱打乱踢",
-            "trigger_offset": 0.3,
-            "duration": 3.5,
-            "process_mode": "overlay",
-            "name": "拳打脚踢",
-            "sound_cn": "胡乱拳打脚踢的嘈杂声",
-            "sound_en": "chaotic sounds of hitting and kicking, multiple impacts, scuffling and struggling, fierce fight",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 7,
-            "trigger_keyword": "猛顶上去",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "头撞胸口",
-            "sound_cn": "头猛烈顶撞胸口的闷响",
-            "sound_en": "head ramming hard into chest, heavy dull thud, forceful impact, body jolting",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 10.5,
-            "trigger_keyword": "横倒地上",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode":
+    }
+  ]
+}
