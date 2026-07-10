@@ -173,6 +173,7 @@ audio { filter:invert(0.85); }
       <table id="cv-table" style="width:100%;border-collapse:collapse;font-size:12px;">
         <thead style="position:sticky;top:0;background:#161b22;z-index:1;">
           <tr>
+            <th style="border:1px solid #30363d;padding:6px 8px;text-align:center;color:#8b949e;width:36px;">#</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:80px;">角色名</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:220px;">当前配音</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:60px;">分类</th>
@@ -277,6 +278,7 @@ audio { filter:invert(0.85); }
       <table style="width:100%;border-collapse:collapse;font-size:12px;">
         <thead style="position:sticky;top:0;background:#161b22;z-index:1;">
           <tr>
+            <th style="border:1px solid #30363d;padding:6px 8px;text-align:center;color:#8b949e;width:36px;">#</th>
             <th style="border:1px solid #30363d;padding:6px 8px;text-align:left;color:#8b949e;width:50px;">分类</th>
             <th style="border:1px solid #30363d;padding:6px 8px;text-align:left;color:#8b949e;width:60px;">子类</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:170px;">音色名</th>
@@ -1107,7 +1109,7 @@ async function openCharVoices() {
 
 async function loadCharVoices(novelName) {
   charVoicesNovel = novelName;
-  document.getElementById('cv-tbody').innerHTML = '<tr><td colspan="5" style="text-align:center;padding:12px;color:#8b949e;"><span class="spinner"></span> 加载中...</td></tr>';
+  document.getElementById('cv-tbody').innerHTML = '<tr><td colspan="7" style="text-align:center;padding:12px;color:#8b949e;"><span class="spinner"></span> 加载中...</td></tr>';
   // 先确保音色库已加载，渲染 datalist 需要它
   if (voicesData.length === 0) {
     try { voicesData = await api('/api/clone-voices'); } catch(e) {}
@@ -1123,7 +1125,7 @@ async function loadCharVoices(novelName) {
     catSel.innerHTML = '<option value="">分类(全部)</option>' + cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
     renderCharVoices(charVoicesData);
   } catch(e) {
-    document.getElementById('cv-tbody').innerHTML = `<tr><td colspan="5" style="color:#f85149;padding:12px;">${esc(e.message)}</td></tr>`;
+    document.getElementById('cv-tbody').innerHTML = `<tr><td colspan="7" style="color:#f85149;padding:12px;">${esc(e.message)}</td></tr>`;
   }
 }
 
@@ -1193,11 +1195,12 @@ function clearCvFilters() {
 
 function renderCharVoices(rows) {
   const tbody = document.getElementById('cv-tbody');
-  if (!rows.length) { tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;padding:12px;color:#484f58;">无数据</td></tr>'; return; }
+  if (!rows.length) { tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:12px;color:#484f58;">无数据</td></tr>'; return; }
   let html = '';
   rows.forEach((r, i) => {
     const rowId = 'cvr_' + i;
     html += `<tr id="${rowId}" style="border-bottom:1px solid #21262d;" data-char="${esc(r.char)}">
+      <td style="border:1px solid #21262d;padding:4px 4px;text-align:center;color:#484f58;font-size:11px;white-space:nowrap;">${i+1}</td>
       <td style="border:1px solid #21262d;padding:4px 8px;">
         <input id="${rowId}_char" value="${esc(r.char)}" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#d2a8ff;padding:2px 5px;border-radius:3px;font-size:11px;box-sizing:border-box;">
       </td>
@@ -1587,14 +1590,14 @@ async function openCloneVoiceTable() {
   if (voicesData.length === 0) {
     try { voicesData = await api('/api/clone-voices'); } catch(e) {}
   }
-  document.getElementById('cvt-tbody').innerHTML = '<tr><td colspan="6" style="text-align:center;padding:12px;color:#8b949e;"><span class="spinner"></span> 加载中...</td></tr>';
+  document.getElementById('cvt-tbody').innerHTML = '<tr><td colspan="8" style="text-align:center;padding:12px;color:#8b949e;"><span class="spinner"></span> 加载中...</td></tr>';
   try {
     cvtData = await api('/api/clone-voice-table');
     cvtFiltered = cvtData;
     document.getElementById('cvt-count').textContent = `共 ${cvtData.length} 个音色`;
     renderCvt(cvtData);
   } catch(e) {
-    document.getElementById('cvt-tbody').innerHTML = `<tr><td colspan="6" style="color:#f85149;padding:12px;">${esc(e.message)}</td></tr>`;
+    document.getElementById('cvt-tbody').innerHTML = `<tr><td colspan="8" style="color:#f85149;padding:12px;">${esc(e.message)}</td></tr>`;
   }
 }
 
@@ -1696,12 +1699,13 @@ function filterCvt() {
 
 function renderCvt(rows) {
   const tbody = document.getElementById('cvt-tbody');
-  if (!rows.length) { tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;padding:12px;color:#484f58;">无数据</td></tr>'; return; }
+  if (!rows.length) { tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;padding:12px;color:#484f58;">无数据</td></tr>'; return; }
   let html = '';
   rows.forEach((r, i) => {
     const rid = 'cvt_' + i;
     const hasAudio = voicesData.some(v => v.name === r.name);
     html += `<tr id="${rid}" style="border-bottom:1px solid #21262d;" data-orig="${esc(r.name)}">
+      <td style="border:1px solid #21262d;padding:4px 4px;text-align:center;color:#484f58;font-size:11px;white-space:nowrap;">${i+1}</td>
       <td style="border:1px solid #21262d;padding:4px 6px;color:#8b949e;font-size:11px;white-space:nowrap;">${(()=>{const g=cvtTags(r).gender;return g==='male'?'男声':g==='female'?'女声':esc(r.section);})()}</td>
       <td style="border:1px solid #21262d;padding:4px 6px;color:#8b949e;font-size:11px;white-space:nowrap;">${(()=>{const t=cvtTags(r);const sub=(r.subsection||'').replace(/（共.*?个）/,'');if(r.age)return esc(r.age+(r.gender?'('+r.gender+')':''));return esc(sub);})()}</td>
       <td style="border:1px solid #21262d;padding:4px 8px;">

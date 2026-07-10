@@ -1884,6 +1884,66 @@ class AudioGenerator:
 
         return result
 
+    def _ffmpeg_concat_wavs(self, wav_files: List[str], output_path: str):
+        """使用 ffmpeg concat 协议将多个 wav 文件合并为一个，避免一次性加载所有音频到内存。
+        
+        先将每个输入文件标准化为 44100Hz/2ch/PCM16，再用 concat demuxer 无损拼接。
+        这样避免了 concat demuxer 遇到不同采样率时产生的语速异常问题。
+        """
+        if not wav_files:
+            AudioSegment.silent(duration=0, frame_rate=44100).export(output_path, format="wav")
+            return
+
+        # 临时目录存放标准化后的文件
+        norm_dir = output_path + "_norm"
+        os.makedirs(norm_dir, exist_ok=True)
+        norm_files = []
+
+        try:
+            # Step 1: 标准化每个输入文件为 44100Hz/2ch/pcm_s16le
+            for i, wav in enumerate(wav_files):
+                norm_path = os.path.join(norm_dir, f"{i:04d}.wav")
+                cmd_norm = [
+                    "ffmpeg", "-y", "-i", wav,
+                    "-ar", "44100", "-ac", "2", "-c:a", "pcm_s16le",
+                    norm_path
+                ]
+                r = subprocess.run(cmd_norm, capture_output=True, text=True, timeout=60)
+                if r.returncode != 0:
+                    # fallback: 直接拷贝原文件（可能格式已一致）
+                    import shutil
+                    shutil.copy2(wav, norm_path)
+                norm_files.append(norm_path)
+
+            # Step 2: 写 concat 清单并用 -c copy 拼接（格式已统一，安全无损）
+            list_path = output_path + ".txt"
+            with open(list_path, "w", encoding="utf-8") as f:
+                for nf in norm_files:
+                    safe_path = os.path.abspath(nf).replace("'", "'\\''")
+                    f.write(f"file '{safe_path}'\n")
+
+            cmd = [
+                "ffmpeg", "-y", "-f", "concat", "-safe", "0",
+                "-i", list_path,
+                "-c", "copy",
+                output_path
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+            if result.returncode != 0:
+                raise RuntimeError(f"ffmpeg concat 失败: {result.stderr[-500:]}")
+
+            try:
+                os.remove(list_path)
+            except:
+                pass
+        finally:
+            # 清理标准化临时文件
+            import shutil
+            try:
+                shutil.rmtree(norm_dir, ignore_errors=True)
+            except:
+                pass
+
     def _parse_line_config(self, line: Dict[str, Any]) -> LineAudioConfig:
         """解析单句配置"""
         role = line["role"]
@@ -1943,7 +2003,7 @@ class AudioGenerator:
                     trigger_offset=effect.get("trigger_offset", 0.0)
                 ))
         
-        mix_config = MixConfig(**line["mix"])
+        mix_config = MixConfig(**line["api"].get("mix", {"mode": "mix"}))
         
         return LineAudioConfig(
             id=line["id"],
@@ -2159,7 +2219,8 @@ class AudioGenerator:
             if os.path.exists(silent_file):
                 tmp_files.append((-1, silent_file))
             # 重新计算 line_ranges 和 current_ms（基于已有音频时长）
-            tmp_files_sorted = sorted(tmp_files, key=lambda x: x[0])
+            # 排序：line_0, silent_0(-1 排在 0 之后), line_1, line_2, ...
+            tmp_files_sorted = sorted(tmp_files, key=lambda x: (x[0] if x[0] >= 0 else 0.5))
             line_ranges = {}
             current_ms = 0
             for lid, fpath in tmp_files_sorted:
@@ -2223,15 +2284,17 @@ class AudioGenerator:
             self.audio_engine.clean_temp_files()
             return None
 
-        # 合并所有临时文件
-        print(f"\n� 合并 {len(tmp_files)} 个音频片段...")
-        merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
-        tmp_files.sort(key=lambda x: x[0])
-        
-        for line_id, tmp_file in tmp_files:
-            segment = AudioSegment.from_wav(tmp_file)
-            merged_audio += segment
-            del segment  # 释放内存
+        # 合并所有临时文件（使用 ffmpeg concat 节省内存）
+        print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
+        # 按实际生成顺序排列：line_0, silent_0(-1排在0之后), line_1, line_2, ...
+        # silent_0 的 line_id=-1 表示它紧跟在 line_0 后面
+        tmp_files.sort(key=lambda x: (x[0] if x[0] >= 0 else 0.5))
+
+        merged_wav_path = os.path.join(stream_tmp_dir, "_merged_chapter.wav")
+        self._ffmpeg_concat_wavs([f for _, f in tmp_files], merged_wav_path)
+
+        # 加载合并后的音频用于后续处理
+        merged_audio = AudioSegment.from_wav(merged_wav_path)
 
         if soundscape_layers:
             print("\n🎼 开始叠加 soundscape 背景音...")
@@ -2239,9 +2302,15 @@ class AudioGenerator:
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
         chapter_output_path = self._export_chapter_audio(merged_audio, line_ranges)
+        del merged_audio
+        gc.collect()
 
         # 清理临时文件
         print(f"\n🗑️ 清理流式临时文件...")
+        try:
+            os.remove(merged_wav_path)
+        except:
+            pass
         for _, tmp_file in tmp_files:
             try:
                 os.remove(tmp_file)
@@ -2329,32 +2398,28 @@ class AudioGenerator:
             self.audio_engine.clean_temp_files()
             return None
 
-        # 合并所有临时文件
+        # 合并所有临时文件（使用 ffmpeg concat 节省内存）
         print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
-        tmp_files.sort(key=lambda x: x[0])
-        
-        merged_audio = AudioSegment.silent(duration=0, frame_rate=44100)
+        # 排序：line_0, silent_0(-1排在0之后), line_1, line_2, ...
+        tmp_files.sort(key=lambda x: (x[0] if x[0] >= 0 else 0.5))
+
+        # 计算 line_ranges（通过读取各 wav 时长，不需要全部加载到内存）
         line_ranges = {}
         current_ms = 0
-        
         for line_id, tmp_file in tmp_files:
-            segment = AudioSegment.from_wav(tmp_file)
-            start_ms = current_ms
-            duration_ms = len(segment)
-            end_ms = start_ms + duration_ms
-            line_ranges[line_id] = (start_ms, end_ms)
-            current_ms = end_ms
-            
-            merged_audio += segment
-            
-            # 第一句后添加1秒静音
-            if line_id == 0:
-                silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
-                merged_audio += silent_audio
-                current_ms += 600
-                del silent_audio
-            
-            del segment  # 释放内存
+            seg = AudioSegment.from_wav(tmp_file)
+            duration_ms = len(seg)
+            del seg
+            if line_id >= 0:
+                line_ranges[line_id] = (current_ms, current_ms + duration_ms)
+            current_ms += duration_ms
+            # 第一句后有600ms静音（对应 silent_0.wav，line_id=-1）
+
+        merged_wav_path = os.path.join(stream_tmp_dir, "_merged_chapter.wav")
+        self._ffmpeg_concat_wavs([f for _, f in tmp_files], merged_wav_path)
+
+        # 加载合并后的音频用于后续处理
+        merged_audio = AudioSegment.from_wav(merged_wav_path)
 
         if soundscape_layers:
             print("\n🎼 开始叠加 soundscape 背景音...")
@@ -2362,9 +2427,15 @@ class AudioGenerator:
             merged_audio = self._apply_soundscape(merged_audio, line_ranges, soundscape_layers)
 
         chapter_output_path = self._export_chapter_audio(merged_audio, line_ranges)
+        del merged_audio
+        gc.collect()
 
         # 清理临时文件
         print(f"\n🗑️ 清理流式临时文件...")
+        try:
+            os.remove(merged_wav_path)
+        except:
+            pass
         for _, tmp_file in tmp_files:
             try:
                 os.remove(tmp_file)
