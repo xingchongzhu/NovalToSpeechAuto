@@ -2513,9 +2513,17 @@ class NovelAudioSynthesizer:
         """处理单个小说章节"""
         print(f"\n=== 开始处理章节文件: {json_file} ===")
         
+        # ====== JSON 合法性校验 ======
         try:
             with open(json_file, "r", encoding="utf-8") as f:
                 config = json.load(f)
+        except (json.JSONDecodeError, UnicodeDecodeError, OSError) as e:
+            error_msg = f"❌ 加载JSON失败，跳过本章: {json_file}\n   错误: {e}"
+            print(error_msg)
+            self._log_chapter_exception(json_file, error_msg)
+            return None
+        
+        try:
             chapter_name = config["chapter"]
             chapter_clean_name = chapter_name.replace("\n", "").replace(" ", "_").replace(":", "-")
             
@@ -2532,20 +2540,45 @@ class NovelAudioSynthesizer:
                 print(f"✅ 整章音频已存在（分段），跳过生成: {first_chunk_path}")
                 return first_chunk_path
         except Exception as e:
-            print(f"❌ 检查整章音频时发生错误: {e}")
+            error_msg = f"❌ 检查整章音频时发生错误，跳过本章: {json_file}\n   错误: {e}"
+            print(error_msg)
+            self._log_chapter_exception(json_file, error_msg)
+            return None
         
-        generator = AudioGenerator(
-            json_path=json_file,
-            output_dir=self.output_dir,
-            tts_engine=self.tts_engine,
-            qwen_model_path=self.qwen_model_path,
-            sfx_engine=self.sfx_engine,
-            bgm_engine=self.bgm_engine,
-            persist_intermediate_audio=self.persist_intermediate_audio,
-            platform=self.platform,
-        )
-        
-        return generator.generate_chapter_audio()
+        try:
+            generator = AudioGenerator(
+                json_path=json_file,
+                output_dir=self.output_dir,
+                tts_engine=self.tts_engine,
+                qwen_model_path=self.qwen_model_path,
+                sfx_engine=self.sfx_engine,
+                bgm_engine=self.bgm_engine,
+                persist_intermediate_audio=self.persist_intermediate_audio,
+                platform=self.platform,
+            )
+            
+            return generator.generate_chapter_audio()
+        except Exception as e:
+            error_msg = f"❌ 生成音频时发生错误，跳过本章: {json_file}\n   错误: {e}"
+            print(error_msg)
+            import traceback
+            traceback.print_exc()
+            self._log_chapter_exception(json_file, error_msg)
+            return None
+
+    def _log_chapter_exception(self, json_file: str, error_msg: str):
+        """记录章节处理异常到异常文件"""
+        exceptions_file = os.path.join(self.output_dir, "chapter_exceptions.txt")
+        from datetime import datetime
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        entry = f"[{timestamp}] {json_file}\n{error_msg}\n{'-'*60}\n"
+        try:
+            os.makedirs(self.output_dir, exist_ok=True)
+            with open(exceptions_file, "a", encoding="utf-8") as f:
+                f.write(entry)
+            print(f"📝 异常信息已写入: {exceptions_file}")
+        except Exception as e:
+            print(f"⚠️ 写入异常文件失败: {e}")
 
     def _extract_chapter_number(self, file_name: str) -> int:
         """从文件名中提取章节号
@@ -2692,6 +2725,9 @@ class NovelAudioSynthesizer:
             for json_file in json_files:
                 json_path = os.path.join(novel_dir, json_file)
                 output_path = self.process_novel(json_path)
+                if output_path is None:
+                    print(f"⏭️ 跳过本章节，继续下一章...")
+                    continue
                 output_paths.append(output_path)
                 
                 available_percent = self._check_memory_usage()
@@ -2709,7 +2745,10 @@ class NovelAudioSynthesizer:
         
         if json_file:
             output_path = self.process_novel(json_file)
-            output_paths = [output_path] if output_path else []
+            if output_path is None:
+                print("\n❌ 处理失败，章节已被跳过。")
+                return []
+            output_paths = [output_path]
         else:
             output_paths = self.process_all_novels(sort_mode=sort_mode)
         
