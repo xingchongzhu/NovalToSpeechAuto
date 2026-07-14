@@ -1,0 +1,2898 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第283回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "金蝉": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "朱文": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "俞峦": {
+      "role_voice": "云萱-情感,优雅知性",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "石完": {
+      "role_voice": "开朗男生-开朗,阳光",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "钱莱": {
+      "role_voice": "君凯-阳光少年,情感",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石生": {
+      "role_voice": "文乐-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石奇": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "李健": {
+      "role_voice": "开朗男生-开朗,阳光",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "阴素棠": {
+      "role_voice": "云墨-情感,成熟知性",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "赤城子": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "金神君": {
+      "role_voice": "诡异神秘-沙哑,浑厚",
+      "pitch": "-5Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "洪真武": {
+      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "上官红": {
+      "role_voice": "甜美小橘-甜妹",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "云九姑": {
+      "role_voice": "温婉女士-知性,温婉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "赵燕儿": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "徐祥鹅": {
+      "role_voice": "阳光青年-男声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第283回",
+          "instruct": "庄重沉稳，悬念开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞峦听了金蝉之言，不禁大喜，立请金、朱二人将符转借九姑姊弟佩戴。随即说道：魔头虽擅长晶球视影之法，但他只看出我们同在坛上说笑，以为禁网已撤，魔法阴毒，闻声逐渐昏迷，手到擒来。他因为昔年誓言，不走前洞，许由地底来犯，忙于行法开山，一时骄敌疏忽，不曾再看下文。又是亲身赶来，专心运用魔法，既没料到我们有此太乙青灵符可以防护神心，更未想到我是他昔年的仇人，魔法又先被我隔断，声形全隐。我再现出些幻象，作为人已入魔昏倒。等他到后，蝉弟、文妹可将天心环如法施为，立可致他死命，省得留在世上害人。众人一听，全都打起精神，准备应敌。",
+          "instruct": "低沉冷静，带着谋划的紧张感，语速中速"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞峦将金蝉、朱文所佩竹叶灵符转交九姑姊弟，随即行法，手掐灵诀朝外一扬，面前不远立现出一座法坛和众人幻影，有几个已先昏倒坛上，剩下三两人也都作出昏昏欲睡情景。然后向众说道：我已布置停当。这厮魔法虽然不如尸毗老人，也是魔教中残留的有名人物，素来行事谨慎，休看魔法发动，还有一会才会出现。照我这样作法，便他另有教外同党飞空来探，也看不出我们真相。诸位自作准备，等我把手一举，一起发难，便不怕他跑上天去。九姑姊弟先闻乐声，便已心旌摇摇，云翼简直昏迷欲倒，直到佩上青灵符，始复原状。细看众人，却是气定神闲，若无其事。可见峨眉传授果然神妙，由此倾向之心更切。众人听那地底乐声时远时近，老在峡口一带，久等不来，方在不耐，乐声忽止。俞峦笑道。",
+          "instruct": "从容布局，语气平缓，充满谋划的自信"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "法坛幻影",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "幻光乍现",
+            "sound_cn": "法坛与众人幻影在灵诀挥动间骤然显现，光晕波动，发出轻微的嗡鸣",
+            "sound_en": "the altar and phantom figures suddenly appearing with the gesture, light rippling, with a faint hum",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "地底乐声",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "魔音隐现",
+            "sound_cn": "地底传来若隐若现的魔音，忽远忽近，带着蛊惑人心的低徊旋律",
+            "sound_en": "faint demonic music coming from underground, now near now far, with a seductive lingering melody",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这厮真个狡猾，行法已久，毫无反应，还不放心，又退了回去，也许命甚同党飞空来看。大家最好照我手势行事，免被漏网，除他便难。",
+          "instruct": "警惕中带着一丝冷笑，语速略快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我和钱师兄先往地底埋伏，断他归路，可好？",
+          "instruct": "主动请缨，声音清脆，带着少年人的跃跃欲试"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你二人果然去得，只是事要隐秘神速，听你师父、师伯传声方可下手。",
+          "instruct": "温和叮嘱，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钱、石二人领命，刚往地底隐形遁去，耳听破空之声，两道青光忽由峡口飞来，到了法坛前面凌空停住，现出两个道装男女。金、石、朱、云四人认出女的正是前在昆仑门下被逐出门的阴素棠，九姑更认出男的便是阴素棠的情人赤城子。幻象中法坛人物和真的一样，均在真坛前面。这两人一到，便互打手势，嘴皮微动，意似混水捞鱼，就便杀他两个，以报峨眉之仇。男的好似不愿，恐被魔头知道。女的不听，便往坛上下降。金、朱二人方觉这两人一落地必被看破，露出马脚；再看俞峦，手掐灵诀，目注前面，若无其事，心正奇怪。阴素棠行事也颇慎重，降到中途，忽又停住，细看了看，柳眉一竖，面上立带杀气，扬手一道青光，便朝坛上金、石二人的幻影飞去。不料剑光到处，坛上忽起了一片红霞将坛护住，青光几被卷落坛内。同时地底乐声又起，阴素棠也便失惊飞起。赤城子面带埋怨之色，朝她看了一眼，故意说道。",
+          "instruct": "紧张悬疑，语速适中，充满意外转折"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "破空之声",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光飞至",
+            "sound_cn": "两道青光从峡口破空飞来，风声尖锐，戛然停于坛前",
+            "sound_en": "two blue lights flying in from the canyon with sharp whistling, stopping abruptly before the altar",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "扬手青光",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞剑破空",
+            "sound_cn": "一道青光凌厉飞出射向幻影，破空声尖锐刺耳",
+            "sound_en": "a blue light flying out sharply toward the phantom, with a piercing whistle",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "红霞护坛",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "红霞飞起",
+            "sound_cn": "坛上忽然飞起一片红霞将剑光挡住，发出低沉的震荡嗡鸣",
+            "sound_en": "a red glow suddenly rising from the altar to block the sword light, with a low vibrating hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "赤城子",
+      "api": {
+        "voice": {
+          "role": "赤城子",
+          "role_voice": "儒雅青年-磁性,性感",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我早知道这些小狗男女虽然昏倒，所设禁制埋伏尚未失效，杀之不易。姊姊只想报齐漱溟之仇，杀他两个出气。暂时既伤他不了，不如归报金道友，免得他那门人多心，还当我们想要染指呢。仍由金道友一人包办，由地底下手。我们如能把这几个小畜生要来杀死，也是一样出气。我们走吧。",
+          "instruct": "语气中带着埋怨和谨慎，压低声音"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "忽听地底有人哈哈笑道。",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "哈哈笑道",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "地底笑声",
+            "sound_cn": "从地底传来的阴森笑声，带着回音，令人毛骨悚然",
+            "sound_en": "an eerie laugh coming from underground, with echoing, sending chills down the spine",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "二位道友何必如此太谦？这几件法宝我虽有用，二位道友如若心爱，尽管拿去，听便好了。",
+          "instruct": "声音阴沉沙哑，带着冷笑，语气讥诮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，先是喳的一声，坛前不远裂一地缝，人影连晃，便现出一个穿着华丽的中年道装男子。阴、赤二人看出道人面带狞笑，口气不善，方在同声分辩不了几句。道人正是魔头金神君，冷笑答道。",
+          "instruct": "紧张急促，氛围骤变"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "裂一地缝",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "地缝开裂",
+            "sound_cn": "坛前地面猛然裂开一道地缝，发出沉闷的岩石崩裂声",
+            "sound_en": "the ground before the altar suddenly splitting open, with a dull rumble of rock cracking",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "人影连晃",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魔影现身",
+            "sound_cn": "一个穿着华丽的身影在晃动中从地缝中升起，带着阴森的魔气",
+            "sound_en": "a figure in ornate robes rising from the crack with flickering movements, shrouded in eerie demonic qi",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "本来无主之物，人人有份，不过我看此事未必如此容易。二位如有雅兴，只管伸手。否则我这人说了必做，二位当所深知，照例与我相识的人，不论亲疏长幼，向不容他口是心非。阴道友明知峨眉群小不是好惹，知我对于黎女不会忘情，两次巧语诱激我来。遂你二人心意，若得手，你们可报仇；不得手，也为峨眉树一强敌：用心实在巧妙。我如不来，必当我连几个峨眉后辈也都害怕，一时不忿，为你二人所惑。就这样，你们心犹不足，还想借作探敌为由，混水捞鱼。不料你们刚走，便接到教主心灵传语，才知他自神剑峰皈依佛门之后，见本门只剩我师徒数人，今日正是我的成败关头，念在昔年同门之谊，特以心声传语警告。再经晶球查看，你们果想坐收渔人之利。既有此心，便请下手，真个敬酒不吃，便吃罚酒了。",
+          "instruct": "阴沉沙哑，语速缓慢而阴冷，充满杀机"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，阴、赤二人本是面带愁容，相对而立，猛瞥见各人背后突现出一个相貌狰狞，其红如血的魔鬼影子，往身上扑到，一闪即隐。二人法力并非弱者，事前竟会毫无警觉。当时打了一个冷战，知道弄巧成拙，悔已无及。金神君是有名心辣手狠，言出必随，除了照他所说，或者无事；否则魔鬼附身，即便仗着道力暂时不为所杀，这附骨之疽，如影随形，何时才可去掉？一面暗用玄功抵御，一面听他说完。阴素棠首先满脸悲愤，抗声说道。",
+          "instruct": "紧张恐怖，氛围阴森"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "魔鬼影子",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "魔影附身",
+            "sound_cn": "血红色的魔鬼影子骤然闪现扑向二人，发出阴森的嘶鸣，一闪即没",
+            "sound_en": "a blood-red demon shadow suddenly appearing and pouncing on the two, with an eerie hiss, vanishing in a flash",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "阴素棠",
+      "api": {
+        "voice": {
+          "role": "阴素棠",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我实为与峨眉师徒仇深恨重，见这些小狗男女昏倒坛上，意欲就便杀死两个雪恨。不料外有禁网防护，不曾如愿，实则并无他意。你全不念多年情分，如此多疑，意欲如何？我二人照办好了。",
+          "instruct": "悲愤中带着委屈，语速略快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "你当事情容易吗？照你所见，对头现在对面，我也别无他求，只请你二人破禁入坛，任你们报仇。便将法宝全数取走，我也决无话说，附身神魔自会撤回。如办不到，却休怪我无香火之情。",
+          "instruct": "阴沉冷笑，语速缓慢，充满威胁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阴素棠也是淫孽太重，恶贯已满，竟未悟出言中之意。以为金神君素来胆小心黑，震于峨眉威名，恐对方还有厉害埋伏，意欲借故相迫，令自己去破禁网。只要豁出不要法宝，得到以后双手奉上，便可无事。哪知对方已接尸毗老人警告，一切均有准备而来，因为魔法已经发动，势成骑虎，不能回收，把阴、赤二人恨同切骨。阴素棠大劫临头，毫不自知，还想双方多年交情，此举许因自己和赤城子情厚，由于一时妒念，未必真个翻脸便下绝情，何况本身法力也还能够抵御。念头一转，心又略放。便和赤城子使一眼色，各将身剑合一，朝前冲去。众人见二人剑光十分强烈，又当情急之际，志在必成，施展全力，越显得惊虹电射，威力异常。朱文悄告金蝉说。",
+          "instruct": "叙述平稳，带着对阴素棠命运的叹息"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "身剑合一",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "剑光飞射",
+            "sound_cn": "二人身剑合一化作惊虹电射向前冲去，剑光呼啸，威力惊人",
+            "sound_en": "the two merging with their swords, shooting forward like a startling rainbow, sword light whistling with astonishing power",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "朱文",
+      "api": {
+        "voice": {
+          "role": "朱文",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这两人以前原是昆仑派名人，可惜甘居下流，自投邪路。看他们飞剑功力，比那年所见更强，我们如似从前那样，还真不是他们的对手呢。",
+          "instruct": "悄声低语，带着感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此事奇怪。我疑心魔头已经警觉，但又内证做什？我那禁光反正早晚被冲破，蝉弟、文妹可照原计行事，只将天心环照定魔头，仍以手势为号，我先撤去禁光幻影，看他是何用意。",
+          "instruct": "警惕中带着疑惑，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，假坛前面红光已被阴、赤二人快要冲破，二人面带喜色。金神君却不住狞笑，望着前面一言不发，面上更带愁愤之容。俞峦随将禁法收去，并将原来法坛用仙法移向洞前小峰上面，隐形旁观。阴、赤二人眼见禁光里面敌人全数昏倒坛上，方想起来时山外所见宝光何等强烈，便敌人原有的飞剑、法宝，多半也是仙府奇珍，如何不见影迹，莫非是诈不成？二人心念才动，红光一闪不见，面前法坛敌人全数失踪，竟是一片平地。匆促之间，不及收势，将石地穿裂了两条大缝。耳听身后冷笑之声，知道不妙，情急心横，一面强摄心神，一面准备相机应付，好说便罢，否则出其不意，先与一拼，怎么也比束手待毙强些。二人刚一回头，金神君已冷笑发话道。",
+          "instruct": "紧张反转，节奏紧凑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "红光一闪",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "禁光撤去",
+            "sound_cn": "红光骤然一闪后消失，法坛幻影随之无踪，只剩一片平地",
+            "sound_en": "the red light flashing and disappearing, the altar phantoms vanishing, leaving only a patch of flat ground",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "石地穿裂",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "石地崩裂",
+            "sound_cn": "二人收势不及将石地穿裂出两条大缝，碎石迸溅，发出沉闷的崩裂声",
+            "sound_en": "the two unable to stop, splitting the stone ground with two large cracks, stones flying, with a dull splitting sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "我自教祖隐退以来，本已自知运数将终，便照昔年所发誓言，来此潜修，多年不出走动，魔宫岁月，原极逍遥。自从二十年前被阴道友寻上门来，从此多事，不时引诱我的门人出山寻仇，我两个得力门人已经送你手内。我因他们自取其祸，事前又未禁阻，又念与你交好之情，也就罢了。近年你和峨眉派仇恨日深，受了五台淫妇许飞娘之托，屡次邀我出山为你卖命。我因不愿背誓失信，自取灭亡，已经坚拒不允，你终不死心。上次你以黎女云九姑为饵，欲借颠僧一斗，引出峨眉强敌。总算黎女贞烈，我素不愿强人所难，不曾上套。这次知道天心环与我关系重要，又与你的情人勾结，怂恿我由地底来此盗宝。事前说好，由我一人下手，只取天心环，休说伤人，连别的法宝也都不取。你如寻仇，须等敌人醒后，由你二人自行动手。我想地底通行，不见天光，不算背誓失信。已经行到中途，忽想起取宝时仍须出土，偶生疑虑，回宫取宝。你二人便自告奋勇，先来空中查探敌人虚实。我刚回宫，便接教祖心声传示，得知你二人不特违约，还想就便盗取法宝，等天心环到手，立即遁走，觅地隐炼，用以制我，迫令从你与峨眉为仇，用心十分阴毒贪狠。并知敌人早已警觉，有了准备。为此心中气愤，才赶了来。魔法已经发动，难于收回，尚在其次；还有心念已动，就令终止，也是违背誓言。你二人既然如此贪狠卖友，必有几分自信。照我方才所说，如能办到，我便自认晦气，与你们无干；否则，你们当知我厉害。",
+          "instruct": "阴沉沙哑，语速缓慢，充满怨毒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金神君话未说完，二人听出口气不妙，知将发难。阴素棠首先情急拼命，冷不防宝剑齐施，朝前杀去。金神君也是一时轻敌疏忽，以为神魔已附在对方身上，已占先机，动念即可致人死命；又以昔年双方一见倾心，一直无事。对方法力深浅和几件有名法宝全未见过，内中一件最厉害的本是阴素棠昔年瞒心昧己，由亡友金针圣母洞中巧取偷来，为防人知，改名泥犁玄阴轮，又经仙法重炼，恰是降魔至宝，威力绝大。又当神魔附身，存亡关头，自然下手又快又猛，相隔更近，一任金神君魔法高强，也难抵御。只见七八种各色剑光宝光一齐电掣飞出，只闪得一闪，耳听一声怒吼，一片血光过处，一条人影先已飞起，同时又是一声惨叫。金、石诸人定睛一看，原来金神君已经断去一臂，两脚也被飞剑、法宝齐膝斩断，身受重伤，成了残废，在一片比血还红的火焰环绕之中，满空飞舞。阴素棠身上魔影已现，固有法宝防护，功力又高，面色虽带苦痛，仍指飞剑、法宝向那敌人追逐。另一面，赤城子身受却是惨极。想系法力较差，无力镇摄心神，但仍随同情人发出飞剑。魔法也已发动，魔鬼血影突然出现，紧附全身，几成一体。因受魔制，自将飞剑收回，持在手内，人和疯了一般，不住哭喊号叫，满地乱蹦乱滚，不时回手向身上乱刺，晃眼便成了一个血人。金神君也因断了一臂，不能施展全力，一面用独手施展魔法抵敌，一面口中厉声喝骂。",
+          "instruct": "激烈惨酷，节奏极快，充满血腥的搏杀场面"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "宝剑齐施",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "剑光齐发",
+            "sound_cn": "七八种各色剑光宝光同时电掣飞出，破空声密集如暴雨",
+            "sound_en": "seven or eight sword lights and treasure lights flying out simultaneously like lightning, the whoosh dense as a rainstorm",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "trigger_keyword": "一声怒吼",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "魔头怒吼",
+            "sound_cn": "金神君发出一声震怒的狂吼，血光飞溅，残肢断臂横飞",
+            "sound_en": "Jin Shenjun letting out a furious roar, blood splattering, severed limbs flying",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "惨叫",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "赤城惨叫",
+            "sound_cn": "赤城子发出一声凄厉的惨叫，血影附身，满地翻滚",
+            "sound_en": "Chi Chengzi letting out a piercing shriek, blood shadow clinging to him, rolling on the ground",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "淫妇万恶！我今日原该遭劫，否则我也不来。但决饶你两个狗男女不得！我先把你情人碎尸万段，再令魔鬼啖他生魂，使你心痛，看个榜样，然后再把你这淫妇如法炮制。休看你这贼淫妇有几件飞剑、法宝，我只是一时疏忽，被你暗算，此时可能伤我一根毫发？",
+          "instruct": "怨毒狂怒，声音嘶哑，带着疯狂的恨意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，随将手一指。赤城子立即回手一剑，砍落自己半条手臂，化为一股丈许长的血光，朝宝光丛中飞去。跟着接连几剑，残肢断体，纷纷化为血光飞起，将空中法宝、飞剑一齐敌住，赤城子只剩了半截身子，一条手臂，人在魔鬼血影附持之下，满地滚跳，哀号之声惨不忍闻。阴素棠眼看情人受此惨毒，无法往援。自己也是神魔附身，本就苦痛难支，虽仗功力尚高，暂时未遭残杀，再稍分神，便和赤城子一样，也许更惨。除将仇敌杀死，万无活路。后见所有法宝、飞剑全被血光敌住，有的已被斩成粉碎，反倒由少变多，化为一团团的血块，紧附宝、剑之上，无法去掉，空自悲痛急愤，无可如何。金神君将空中宝光分别敌住以后，停了一停，哈哈狂笑道。",
+          "instruct": "惨烈恐怖，充满血腥画面，节奏紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "回手一剑",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "自断手臂",
+            "sound_cn": "赤城子回手一剑砍落自己半条手臂，发出骨骼断裂和鲜血飞溅的闷响",
+            "sound_en": "Chi Chengzi swinging his sword back to cut off his own half-arm, with the dull sound of bone breaking and blood splattering",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "残肢化血",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "血光飞起",
+            "sound_cn": "残肢断体纷纷化为丈许长的血光飞起，发出嘶嘶的腐蚀声",
+            "sound_en": "severed limbs transforming into zhang-long blood lights flying up, with a sizzling corrosive sound",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "贼淫妇！我本定将你情人惨杀，喂了神魔，再把你慢慢切割。可惜我的时限将临，大大便宜了你，你先看个榜样。",
+          "instruct": "狂笑中带着疯狂的恨意，声音嘶哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阴素棠知他要下毒手，想将赤城子残杀，喂那神魔。自己实忍不住心中悲痛，哭喊一声，竟不顾利害，猛扑过去。金神君原因阴素棠功力较深，急切间神魔竟奈何她不得，特意引她分神，见状正合心意，大喝。",
+          "instruct": "悲痛欲绝，节奏急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "猛扑过去",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞扑之声",
+            "sound_cn": "阴素棠不顾一切飞扑向赤城子，衣袂破空声凌厉",
+            "sound_en": "Yin Sutang rushing toward Chi Chengzi regardless of danger, robes cutting through the air sharply",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "贼淫妇，教你好受！",
+          "instruct": "怨毒狠厉，声音短促"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阴素棠刚扑到赤城子身前，一把将人抱起，赤城子还在猛挣不已，知受魔法禁制，身不由己，心方酸痛，忽听敌人喝骂，跟着胸口一凉，知道不好，喊声我命休矣！就这心神一分之际，附身神魔立时施威，周身如火热针刺，奇痛麻痒同时交作。只心里比赤城子稍微明白，知道一时疏忽，受了暗算，所受必更残酷。阴素棠惊悸亡魂之下，情急失神，大声哭喊。",
+          "instruct": "惨痛绝望，节奏紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "胸口一凉",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魔影入体",
+            "sound_cn": "阴素棠胸口骤然一凉，发出阴森的侵入声和低沉的嗡鸣",
+            "sound_en": "Yin Sutang's chest suddenly turning cold, with an eerie sound of invasion and a low hum",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "阴素棠",
+      "api": {
+        "voice": {
+          "role": "阴素棠",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我背叛师门，勾结左道，虽死有余辜，但此邪魔也太惨无人理。我也不望生还，只求诸位道友勿念旧恶，看在同是三清门下，速急现身，用飞剑赐我一死，并去附身邪魔，为世除害，感谢不尽。",
+          "instruct": "哭喊哀求，声音嘶哑悲怆"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到末句，人已昏迷，回手将招回来的飞剑朝左膀一斫，玉臂立断。众人见此惨状，早就不忍，因俞峦注定魔头尚未发令，只得隐忍未动。及见阴素棠也为魔头所制，金神君飞向二人前面得意洋洋，怒骂道。",
+          "instruct": "惨烈不忍，节奏紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "玉臂立断",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "断臂之声",
+            "sound_cn": "飞剑斫下左膀，发出骨骼断裂和鲜血迸溅的闷响",
+            "sound_en": "the sword cutting off the left arm, with the dull sound of bone breaking and blood spurting",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "我不将你二人碎尸万段，并将元神喂魔，难消我恨！",
+          "instruct": "怨毒狂怒，声音嘶哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说随用魔法残害敌人。阴素棠满面流血，已在惨号，实在使人看不下去。石生、韦蛟正要动手，忽听有人接口骂道。",
+          "instruct": "紧张不忍，语气低沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "该死魔鬼，如此凶残，你的恶报到了！",
+          "instruct": "愤怒喝道，声音清脆响亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，一幢青荧荧的冷光拥着石完、钱莱突由地底飞出。金神君好似出于意外，吃了一惊。忽又面带狞厉，先把手一指，那刚由空中下落的碎血残尸重又飞起，化为血焰，朝二人飞涌上去。他这里手刚一停，阴、赤二人痛苦也便稍减。阴素棠立时乘机放下赤城子，一面运用玄功，重又奋力抵御，口中哀号。",
+          "instruct": "紧张转折，节奏快速"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "青荧冷光",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冷光破地",
+            "sound_cn": "一幢青荧荧的冷光从地底飞出，光鸣清越低沉",
+            "sound_en": "a blue cold light bursting out from underground, with a clear and low luminous hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "血焰飞涌",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "血焰飞涌",
+            "sound_cn": "碎血残尸化为血焰朝二人飞涌而上，发出嘶嘶的灼烧声",
+            "sound_en": "the shattered blood and remains transforming into blood flames surging toward the two, with a sizzling burn",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "阴素棠",
+      "api": {
+        "voice": {
+          "role": "阴素棠",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "二位道友所用法宝，想是枯竹老人所赐。此宝专制邪魔，休要放他逃走。",
+          "instruct": "喘着气急切提醒，声音虚弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你这女人放心，他的逃路已被我用灵石真火封闭埋伏，上空决逃不掉，放心好了。",
+          "instruct": "自信满满，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，那数十百丈魔火血焰吃钱莱手掐法诀一扬，身外青光突然大盛，二人再联合一冲，纷纷震散消灭。同时俞峦也突然扬手发令，众人一齐现身，蜂拥上前。金神君先受尸毗老人警告，本意借此兵解，以应昔年誓言，自去转世。谁知以前恶孽太重，发觉上了阴、赤二人的当。想起自己早该遭劫，全仗魔法神通，带了门人和所爱魔女，隐遁山腹地洞之中，匿迹多年，因不出外走动，魔宫岁月何等逍遥自在。只为天性好色，偶由晶球中发现阴素棠由当地经过，暗用魔法诱了进来，挟制成好，从此种下祸根。金石峡藏珍中恰有他梦想多年，闻名而未一见的天心环在内。此宝如能得到，加以魔法祭炼，立可背誓出山，和以前一样任性而行，成为不死之身。但以取宝时必须出土，违背昔年向教祖所发从此不见天光，见则必死的誓言。又知后山炼宝这些人虽是峨眉后辈，道力颇高，法宝尤为神妙，不是好惹。正在迟疑，耿鲲等三人同时飞来，结果两死一伤，他越发心惊胆寒，妄念已消。不料阴、赤二人赶到，再三蛊惑，劝其施展多年未用的阿修罗秘魔妙音迷魂魔法，将人迷倒，再由地底入坛取宝，利令智昏，遭此杀身之祸。先还只说教主已归佛门，正在坐关，不再主持本门严刑。哪知教祖魔法神妙，不可思议，虽归佛门，一切因果仍要在此三年之内了结，其应如响。不特丝毫不肯通融，而且事前不加拦阻，等到动念行法以后，方下警告，便中途罢休，也不能免死。金神君本就悔恨交加，同时发现阴、赤二人又在生心背叛，明里唆使自己背誓树敌，暗中趁火打劫，倒戈相向，如何不恨。明知不能免死，即使败逃回去，教祖昔年所留应誓毒刑，也必突然发难，所受更惨，只得硬着头皮应付钱莱。意欲到时再用魔法，照教祖所说，向法坛上猛扑，坛上石生见来势厉害，定要飞剑抵御，立可兵解。就是钱莱、石完出时，如以本身对敌，石完性急心粗，也必将灵石剑飞出光外，只要肉身往上一迎，元神仍可遁去。只因金神君天性凶残，为了孽重惧祸，隐遁多年，一旦遇敌，下手惟恐不毒。自恃魔法高强，那天心环虽是克星，只听师长说起，不知微妙。妄想将阴、赤二人凌虐个够，非到万分危急，不令送命，使其到死前还要备尝诸毒，以为快意，连元神也不令逃走。哪知心太狠毒，坐误两次良机。因见太乙清灵神光专御魔法，不舍速死，一面行法抵敌，一面想用毒手残害二人。缓得一缓，瞥见阴素棠因是法力较高，神志渐复。越发暴怒，正待施为，抽空先给她一点罪受。忽听石完那等说法，心方一动，对面峰上敌人突然出现，各指飞剑、法宝夹攻而来。金神君认出内一女仙竟是多年夙仇，自己底细虚实，对方全知。心正发慌，一青一红的心形宝光突在上空出现，晃眼合而为一。内圈先变青、白二色宝光，立时加强百倍；外圈射出红、蓝二色的万道精芒，日轮也似，比火还热得多。刚射上身，身外魔光一齐化尽。知道不妙，教祖先前警告已验，不禁心寒胆裂，哀号。",
+          "instruct": "宏大紧张，转折密集，充满决战的气氛"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "青光突盛",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "青光爆发",
+            "sound_cn": "钱莱身外青光突然大盛，魔火血焰纷纷震散，发出低沉轰鸣",
+            "sound_en": "Qian Lai's blue glow suddenly intensifying, demon fire and blood flame scattering, with a low rumble",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "蜂拥上前",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "众人现身",
+            "sound_cn": "众人一齐现身蜂拥而上，破空声此起彼伏",
+            "sound_en": "everyone appearing together and rushing forward, whooshing sounds rising one after another",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 25,
+            "trigger_keyword": "心形宝光",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "天心合璧",
+            "sound_cn": "一青一红心形宝光在空中合而为一，发出清越而宏大的光鸣，精芒万道",
+            "sound_en": "a blue and a red heart-shaped treasure light merging in the air, with a clear and grand luminous hum, myriad rays of light",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "诸位道友，手下留情，允我一言。",
+          "instruct": "绝望哀求，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "想要逃遁，全身已被宝光裹住，知无幸免，急得大声哭喊起来。众人见魔头已被困住，各收法宝，正在旁观。金、朱二人见那么厉害的魔头竟被制住，才知双心合壁，威力大得出奇。正在相对欢喜，想将魔头消灭，俞峦忽令暂缓施为。随指金神君笑道。",
+          "instruct": "紧张中带着释然，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你这厮淫恶如山，我为你受害二百余年，想不到你也有今日。阴、赤二人虽然叛教党邪，除与诸正教中人作对外，从未残杀生灵。就说你中她计，当初你不引鬼上门遂你淫欲，也无此事。不自悔祸，反下这等人神共愤的毒手。你想使他们身受奇惨，再行杀死快意，谁知反害自己。你放出的魔鬼，难道还要我来收回？那你就要受罪了。",
+          "instruct": "悲愤中带着冷静，语气沉缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "昔年我虽累你受了多年苦难，看你如今分明转祸为福，我却落得这般光景，你也足够消恨了。你既可怜两个狗男女，我将他们放掉，收回神魔，情甘多受一点苦痛，只请你开恩，容我兵解如何？",
+          "instruct": "颤抖哀求，声音虚弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你恶贯已盈，还想带了魔鬼前去投生，重又为害生灵，岂非做梦？实对你说，我生平最是随和，与人无争，惟独对你恨如切骨，为你早有准备，你今日便不自投罗网，迟早也必上门寻你。如今天心环已经合壁双辉，便你教祖自来，也救你不得。既不听话，我偏不使你称心快意，以此要挟，更是做梦！",
+          "instruct": "决绝冷厉，语速略快，带着多年积恨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说完，不再答理。转向金、朱二人道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "有劳蝉弟、文妹，暂将这邪魔制住，等我救这两人之后，再行除害。",
+          "instruct": "温和郑重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人见俞峦那么温和的人，忽然词色如此悲愤，料有隐痛。方答遵命。俞峦已令钱莱将太乙青灵铠照向阴、赤二人身上。那两条血影立由二人身上跃起，在青光中一挣，便已消灭无踪。阴素棠虽不似赤城子那等惨状，也是周身伤痕，血流遍体。总算青光收去，魔法全破，法力又高，俞峦一用玄功，再取些丹药嚼碎，化为一片彩雾，喷向二人身上，痛苦全止。阴素棠独手抱着赤城子的残体，满脸悲愧之容，走向众人面前下拜，说道。",
+          "instruct": "从紧张转为悲悯，语速平缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "青灵铠照",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "青光照身",
+            "sound_cn": "太乙青灵铠的青光笼罩二人身上，血影跃起消灭，发出轻微的嘶鸣",
+            "sound_en": "the blue light of the Taiyi Qingling Armor enveloping the two, the blood shadows leaping up and vanishing, with a faint sizzle",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "彩雾喷向",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "彩雾氤氲",
+            "sound_cn": "俞峦将丹药嚼碎化为彩雾喷向二人，发出清幽的药香和细碎声",
+            "sound_en": "Yu Luan chewing the elixir and spraying a colorful mist toward the two, with a faint herbal fragrance and a soft sound",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "阴素棠",
+      "api": {
+        "voice": {
+          "role": "阴素棠",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我二人今日也无话可说，可惜回头已迟。仇人已被诸位道友困住，我也无力报复。若用自己飞剑兵解，有好些妨害，欲求诸位道友成全到底，赐我二人一剑，感恩不尽。",
+          "instruct": "悲愧沉痛，声音低沉虚弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人知她以前还是师长一辈，俱都不肯受礼，各自闪避。又看出二人已知悔过，遭遇如此惨痛，俱生怜悯。方要开口，俞峦已先答道。",
+          "instruct": "平和叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你二人不必如此。我知昆仑门下飞剑另具威力，用以兵解，要耗不少元神，苦难之余，更难禁受。助你们兵解不难，但我见你二人面上晦色未退，恐怕难不止此。我意不妨暂留残身，等将邪魔除去，你二人可略为消恨。索性就在本山养息些日，自用玄功尸解坐化，比较要强得多。",
+          "instruct": "温和关切，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "阴素棠",
+      "api": {
+        "voice": {
+          "role": "阴素棠",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "道友好意深恩，铭感人骨。但我二人自知孽重，人已残废，即便厚颜托庇，无如元气大亏，已难运用玄功，转不如求诸道友赐我们兵解，还痛快些。至于仇人，和我一样，自有他的孽报，我二人也无所用其快意了。",
+          "instruct": "决绝中带着感激，声音虚弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俞峦知她无颜再留，笑道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "既然如此，昔年我蒙好友伽因赠我几道护神灵符，尚未用完。现赠你二人两道，以免此去万一遇上有力量的妖人为难。我再令石贤侄用他祖父的灵石剑送别，免被太白真精之气所伤，如何？",
+          "instruct": "温和从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阴、赤二人闻言，更是感激涕零。俞峦随命石完将灵石剑放出，一道墨绿光华绕向二人颈间，立有两道青光拥着二人的元神飞起，朝众举手谢别，电也似疾，往山外飞去。只剩两条残尸，横倒在地上。俞峦笑对众人道。",
+          "instruct": "肃穆中带着释然，语速平缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "灵石剑",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "灵石剑出",
+            "sound_cn": "一道墨绿光华绕向二人颈间，发出清越的剑鸣",
+            "sound_en": "a dark green light circling around the two's necks, with a clear sword hum",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "元神飞起",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "元神遁去",
+            "sound_cn": "两道青光拥着元神飞起，破空声如电疾逝",
+            "sound_en": "two blue lights carrying the souls rising, the whoosh vanishing like lightning",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我看这两人本是正教门下，只为一时失足，铸成大错，由此陷溺日深，落得这等惨况。这类修道人的元神，最引妖邪觊觎，她事前既无准备，虽仗功力尚高，随身法宝也都带走，但是越这样越可虑。元神在飞剑、法宝护持之下，四处飘流，寻找生机，万一撞上异教中几个元凶，必被擒去，又受炼魂之惨。可见我们修道人必须谨慎，丝毫大意不得呢！",
+          "instruct": "感慨深沉，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时金神君在天心环宝光笼罩之下，始而哀声求告，惨号不已。自从神魔消灭以后，神情越发惨痛。俞峦始终不理。他又向众人求告苦诉，说。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "我本意也为想求兵解，并无与众为敌之心。处治仇人虽然太过，但这两个也是你们对头。我除盗宝以外，并无侵害之念，为何连兵解也所不许？",
+          "instruct": "痛苦哀求，声音虚弱颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人天性疾恶，又见女仙那等光景，料知这类邪魔不能轻放。李健无什经历，心肠又软，竟看不过去，笑问女仙道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "李健",
+      "api": {
+        "voice": {
+          "role": "李健",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这厮虽然可恶，身受已够，给他一个痛快如何？",
+          "instruct": "带着不忍，语气犹豫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你只见他此时惨状，可知邪魔残害生灵时的残酷吗？否则他教祖尸毗老人也早救他来了。我此举实有用意，既是这等说法，请蝉弟、文妹消灭了吧。",
+          "instruct": "冷静坚定，带着深意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金神君听李健一说，方觉有了一些生机。又听了俞峦之言，自知绝望，面色立转狞厉，怒吼道。",
+          "instruct": "紧张中突转"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "金神君",
+      "api": {
+        "voice": {
+          "role": "金神君",
+          "role_voice": "诡异神秘-沙哑,浑厚",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "贱婢休狠！我虽形神皆灭，但我教是最重恩怨，我还有几个门人，已早被我接着师祖警告时遣走，早晚定必寻你报仇。",
+          "instruct": "怨毒狂吼，声音嘶哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，金、朱二人手指处，天心环宝光大盛，裹着魔影只一绞，便由浓而淡，神影齐消。俞峦道。",
+          "instruct": "肃杀终结，语速平缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "宝光大盛",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "天心绞魔",
+            "sound_cn": "天心环宝光大盛，裹着魔影猛然绞动，发出清越而凌厉的光鸣",
+            "sound_en": "the Tianxin Ring's light blazing, twisting the demon shadow, with a clear and sharp luminous hum",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我知魔徒把师仇重如山海，照例必来为师拼命，特留他多活些时。谁知竟被事前遣散，又留后患，还不如早除去呢。可将残尸移往山外掩埋，就便往魔宫查看一回，谁愿同去？事完，日内也该往幻波池去了。",
+          "instruct": "略带遗憾，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人均料魔宫景物奇丽，多愿同去，只云翼一人独留。众人随即行法，一片红光，将地上残尸血肉一同卷起，相偕飞起。众人纵遁光同行，飞到前山魔宫门外一看，乃是一座危崖，地势隐僻，内里光景黑暗，甚是污秽。众人方要走进，石完在前，猛瞥见大蓬金刀烈火电掣飞来。金、石、朱三人知触埋伏，各人法宝刚刚飞起，想要抵御，一片红霞已先飞向前去，挡得一挡，那千万把金刀本如潮水涌来，忽然一闪不见。众人方觉奇怪，猛听地底轰隆之声大震，危崖似要崩坍。俞峦猛喝。",
+          "instruct": "紧张中带着探索，节奏紧凑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "红光卷起",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "红光卷尸",
+            "sound_cn": "一片红光将残尸血肉卷起，发出低沉的嗡鸣",
+            "sound_en": "a red light rolling up the remains, with a low hum",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "金刀烈火",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "魔宫埋伏",
+            "sound_cn": "大蓬金刀烈火从魔宫门内电掣飞来，呼啸声密集如潮",
+            "sound_en": "a burst of golden knives and raging fire flying out from the demon palace gate, the whoosh dense as a tide",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14,
+            "trigger_keyword": "轰隆大震",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "地底轰鸣",
+            "sound_cn": "地底传来轰隆巨震，危崖摇动似要崩坍，岩石滚落声沉闷",
+            "sound_en": "a great rumbling from underground, the cliff shaking as if about to collapse, rocks rolling with dull thuds",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位速退！许还有变。",
+          "instruct": "急切喝止，声音短促"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人见俞峦面带惊奇，刚同飞出洞外，俞峦手指处，阴、赤二人残尸刚投入洞内，又听琅琅梵唱之声，鼻端闻到一股异香，眼前大放光明。众人听出这是金刚天龙禅唱，方想此是佛门中最高降魔大法，魔头已死，此是魔窟，怎会有这禅唱之声。难道内中埋伏厉害，有什前辈神僧赶到不成？抬头一看，正是尸毗老人在一片佛光笼罩之下，刚由魔窟之中飞出，一闪不见。经声也由近而远，渐渐隐去，跟着，地底雷鸣风吼响了一阵，危崖倏地整座下陷，几乎成了平地。俞峦喜道。",
+          "instruct": "庄严宏大，节奏从紧张转为平和"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "琅琅梵唱",
+            "trigger_offset": -0.3,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "天龙禅唱",
+            "sound_cn": "金刚天龙禅唱声从洞内传出，庄严肃穆，带着佛光的温暖和异香",
+            "sound_en": "the Diamond Dragon Zen chant coming from the cave, solemn and majestic, with warmth of Buddha light and a strange fragrance",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "危崖下陷",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "危崖崩塌",
+            "sound_cn": "地底雷鸣风吼声中整座危崖下陷，碎石轰鸣，尘土冲天",
+            "sound_en": "the entire cliff collapsing with underground thunder and wind, stones roaring, dust rising to the sky",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我只说魔徒必要报仇，不料全宫徒众全被他们教祖用佛法度化，解去冤孽，连魔宫也被毁去。照此情形，已无后患，我们回山去吧。",
+          "instruct": "如释重负，语气轻快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人方要回山，忽听破空之声。抬头一看，两道白光正横空飞来。石生认出是本门中人，忙纵遁光迎上前去。双方相遇，便同降落，来人正是石奇、赵燕儿。好久不见，俱都心喜，忙同约往峡中叙阔。燕儿似有话说，石奇拦道。",
+          "instruct": "平静叙述，节奏放缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "破空之声",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光飞至",
+            "sound_cn": "两道白光从空中横飞而来，破空声由远及近",
+            "sound_en": "two white lights flying across the sky, the whoosh drawing nearer",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "石奇",
+      "api": {
+        "voice": {
+          "role": "石奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师弟你忙作甚？到了金石峡再谈，不是一样？",
+          "instruct": "带着笑意，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人随到峡中落座。一问来意，才知燕儿自从幻波池脱难以后，回山与石奇同修了些日，便下山修积善功。这日在云贵交界深山中遇见一位破了左脚的女异人，也不肯说名字，自称修道数百年，一向独居洞中，有一法宝能查知过去未来之事。二人见那女异人一身道骨仙风，知是前辈女散仙，便同去她洞内。见那法宝是一形如鹅卵的大球，非金非玉，半青半黑，乍看无奇。主人行法之后，立时通体晶明，随同心念现出许多人物影子。二人因而得知，目前徐祥鹅在大咎山附近深山中，被一隐迹多年的妖妇困在洞内，欲与苟合，祥鹅固执不从，现为邪法所困，尚有二日灾难。并连不久幻波池也有妖邪来犯，金、石诸人均要往援，以及七矮开府金石峡与小南极天外神山，好些经过，一齐现出。二人本就惦念这些男女同门，本身法力又差，便向主人求教。异人答说：祥鹅该有七日灾难，尚差二日，不宜早去。幻波池也在日内，你们去否，均无妨害。不过金、石诸人此行关系颇重，现时人在金石峡，那里还有我一个师侄，如能替我带封信去，你们双方都有益处。二人听完，未容回答，眼前一花，便被移出老远，手上多了一封信。再回原处寻找，连人带洞全都隐去。便照所说飞来，途中遇见一个身材高大，白发红颜的老和尚，给了一个锦囊，托令转交金蝉，带与李洪，随即也是一闪不见。随将书信、锦囊递过。俞峦惊喜道。",
+          "instruct": "叙事舒缓，充满奇遇的惊奇感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "道骨仙风",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "清幽洞府",
+            "sound_cn": "洞府中仙风习习，玉磬轻响，氛围清幽",
+            "sound_en": "the cave filled with immortal aura, jade chimes gently ringing, serene and mystical",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "鹅卵大球",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "宝球晶明",
+            "sound_cn": "形如鹅卵的宝球变得通体晶明，发出柔和的光鸣",
+            "sound_en": "the egg-shaped treasure ball turning clear and bright, with a soft luminous hum",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来是我跋师叔所赐书信。想起昔年我去求助时，她那侄孙稽一鸥为了我事，曾代跪求三日夜，始终不肯赐见，只得痛哭而去，不久便受师罚。想不到她老人家早成地仙，对我并未忘情，此函必有恩意。",
+          "instruct": "惊喜感慨，语气中带着怀念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随即向空跪祝通诚，然后开看，面上立现喜容。朱文问她有何喜事？俞峦笑道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我昔年失身妖邪，便为先前邪魔求婚不遂，表面不肯勉强，却助同党暗算，致我被逐师门，受此苦难。非圣姑为我留藏的灵丹法宝，不能成道。而那水宫宝库，经她仙法封闭，既要我本人亲到，另外还有好些阻力。我势孤力弱，实是艰难，主人又非素识。易道友虽是老友白幽女转世，但是去时正值强敌围攻之际，那宝库又只有当日能开，时机瞬息，稍纵即逝。虽与诸位道友同行，省事不少，终拿不稳。有跋师叔指示仙机，我固有望，还可为主人除去一个大害，岂非喜事？石、赵二位道友所遇，便是尸毗老人佛法化身，所赠锦囊，中有法宝，不过须等李道友面交，才能开看罢了。",
+          "instruct": "带着欢喜和释然，语速平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金、石二人因徐祥鹅天性至孝，入门年久，法力却不甚高，一班同门都对他敬爱。他人也谦和，从不以先进自居。都恨不得立时赶往救援。俞峦笑道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此是定数，跋师叔信上也曾提到。只差半日，定要先去也可。但那妖妇邪法既高，人又刁猾，狡诈多疑，自被媖姆禁闭多年，越成惊弓之鸟。所居山洞，地势广大，内有三条道路，多半远通百里以外，稍被警觉，立时遁走。人还不易救出，甚或投鼠忌器，受她要挟。我们又不能说了不算。最好我们分成三起，明日起身。照那三条出口，由石道友往正洞一带诱敌，下余两路，俱都隐形前进，三面夹攻，断她逃路。同时由钱、石二位贤侄穿山入内，寻到徐道友，能救则救，不能则用太乙青灵铠将他暗中护住，免受痛苦，到了时机自会脱困。诸位以为如何？",
+          "instruct": "从容谋划，语速平缓，条理清晰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人知她法力甚高，算计周详，全都说好。本留云氏姊弟和韦蛟留守，俞峦说九姑持有鬼母朱樱两件法宝，此行有用，令和自己同出同归，事完便借金石峡暂居。韦蛟恋师，又羡慕天外神山灵景，意欲同行。金蝉说本山须留守，幻波池之行又极凶险，就去也等事完回来同行。韦蛟不敢多说，只得罢了。众人随依俞峦照信上所说，指明地点，分别起身：金蝉、朱文、石生作一路；云九姑、李健、赵燕儿作一路；石奇独带钱莱、石完去往正面诱敌；俞峦隐形，暗中策应。由金蝉与俞峦各施仙法，封闭仙府，下了两层禁制，然后一同飞起。行近大咎山上空，方使分路，隐形下降。只石奇等三人到了妖窟附近降落。",
+          "instruct": "叙事平缓，交代分路细节"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "仙府封闭",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "禁制发动",
+            "sound_cn": "仙府禁制层层落下，发出低沉的封闭嗡鸣",
+            "sound_en": "immortal palace restrictions descending layer by layer, with a low sealing hum",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6,
+            "trigger_keyword": "一同飞起",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "遁光齐飞",
+            "sound_cn": "众人遁光一同飞起，破空声此起彼伏",
+            "sound_en": "everyone's escape lights rising together, whooshing one after another",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 74,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那妖妇名叫五铢神女萧宝娘，以前本是五淫尊者情妇，因是生性淫凶，恣情淫欲，又移情别向，后被发现，已被困在魔牢以内，将被残杀。不料媖姆师徒寻上门来，用修罗刀和太乙五烟罗将五淫尊者杀死，形神俱灭，妖窟也被仙法封闭。妖妇便在里面用尽心力，破牢而出。无如出口已被仙法封闭，苦熬了些年，每日用法宝开山，开通两条长路。正开出口，恰值小寒山二女火炼毒手摩什，在七宝金幢、天璇神砂诸般至宝与魔火阴雷震撼之下，附近山岳崩塌了好几座。当地原是五淫尊者安置妖妇的别宫，与毒手魔宫甚近，媖姆禁法无意中被佛光照破。妖妇先还不敢出来，事完之后，本想另找地方，但不舍魔窟富丽，又因地势隐僻，暂时不会有人知道。为防万一，又将所开两条洞径打通，设下许多埋伏。起初还不敢明目张胆任性为恶，只是暗往城镇中摄些壮男，回山淫乐，把人弄死，再炼生魂。妖妇这日偶往山外，路遇徐祥鹅，用邪法诡计诱入洞中，困入牢内，再用邪法强迫顺从。祥鹅定力甚强，宁死不从。妖妇从未遇到这等好根骨的美少年，不舍杀害，正在相持不下。石奇等三人到时，妖妇正因所摄壮男已被淫死，祥鹅又甘受痛苦，只在飞剑、法宝防身之下，不受摇惑。妖妇简直无可如何，一时急怒，决计先往山外寻找几个壮男回来，暂解心烦。在此数日之内，此人降顺便罢，否则对方乃峨眉门下，一放立有杀身之祸，只好施展魔法将其杀死，连元神也不能放走。因洞中原有侍女，早被五淫尊者怒发时全数杀死，剩了妖妇孤身一人，惟恐祥鹅逃遁，行时并用邪法层层封闭。不料刚一出洞，便见下面山径上走来长幼三人。定睛一看，内一道装少年，品貌根骨均不在徐祥鹅之下。随行两幼童，一个俊美如仙，一望而知是个有根器的美质；另一个却是丑怪瘦小得出奇。料定三人均非庸流。因三人是步行，不知深浅。又想旁门中不会有此人品，疑是祥鹅同党。先还不敢冒失，准备好了邪法，布下罗网。然后闪向道旁大树之后，暗中留神查看。",
+          "instruct": "叙事平缓，交代妖妇背景和当前局面"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "邪法诡计",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "邪气氤氲",
+            "sound_cn": "洞中邪气弥漫，隐约有阴森的嘶嘶声",
+            "sound_en": "the cave filled with demonic qi, faint eerie hissing sounds",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 75,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谁知这三人似和常人一样，不能远看，并未发现自己，径由下面绕山而过。看来意似想采取右侧山凹中新结实的佛棕果，并非为己而来。又觉出对方法力似乎有限。忙即赶去，快要到达，忽见同来两幼童各喊师伯，我二人往那边去玩一会。说完，便往斜刺里危崖后飞步跑去，一闪不见。妖妇也是色令智昏，这一临近，越觉那少年丰神俊朗，宛如玉树临风，越看越爱。也未留意两幼童因何不见，喜孜孜走上前去，故意作些媚态，娇声喝道。",
+          "instruct": "叙述转为轻松，带讽刺意味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 76,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你知这里是什么地方吗？随便采我仙果，胆子不小。其实石奇先受俞峦指教，早就发现，故意侧走，本意想将妖妇引开，再令钱莱、石完穿山入内，往护徐祥鹅，以防妖妇警觉逃遁，或是情急伤人。石完目光最强，忽发现前面谷中好些大树，俱都东歪西斜，好似经过地震，倒地重生。内有十几株从未见过的奇树，却是株株挺立，高约三丈，下半苍鳞如铁，干粗皮厚，上半也无枝干，只在顶上密层层生着一丛长达一两丈，形似芭蕉，比较宽长的翠叶。叶丛中心一株尺许高的金茎，顶上一朵尺多方圆红花，莲瓣重合，鲜艳非常。花底生着一圈长圆六棱，与茎同色的拳大果子。石完忙指令看。石奇认出是陀罗蕉，又名佛棕，乃南海大浮山落星原所产仙果，每隔十三年开花结实一次。每丛必须十三株同植，挨次结实，周而复始。峨眉开府时，小寒山二女曾带了百多枚作为贺礼，说是路过大咎山发现此果，采得以后，才知毒手摩什由南海移来，差点没把小命送掉。此果色、香、味三绝。采时不能近铁，并要算准时候，在旁守伺，一过中午不采，便即坠地入土化去。生的也颇好吃，只欠灵效。石完也曾听祖父说过，此是磁铁精气所化。略一商议，便同赶去。钱、石二人首将快成熟的采了几个，瞥见妖妇赶来，连忙借故走开，乘其未见，隐形穿山，往妖洞中飞去。石奇刚采了一个果子在吃，忽听身后妖妇发话，暗中戒备。回头一看，那妖妇生得骨瘦如柴，细眼疏眉，小鼻小口，两颧高耸，面白如纸，周身仿佛笼上一层淡烟，活像吊死鬼，故意媚声媚气说话，满脸阴险狡诈神情。心想：我也曾见过旁门中好些妖妇，虽然一身邪气，多是美色，几曾见过这等丑八怪也想迷人？忍不住又好气又好笑，假意问道。",
+          "instruct": "叙述转为轻松诙谐，带讽刺和喜剧色彩"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2,
+            "trigger_keyword": "佛棕果",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "采果之声",
+            "sound_cn": "采下佛棕果时发出轻微的清脆声响",
+            "sound_en": "the crisp sound of picking a Buddha Palm fruit",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 77,
+      "role": "石奇",
+      "api": {
+        "voice": {
+          "role": "石奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此是野生之物，人皆可采，如何认为己有？",
+          "instruct": "带着不屑和嘲讽，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 78,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妖妇不知石奇天生笑脸，又想借着说话耽延，好令钱莱、石完入内下手，暗中早有防备。妖妇以为容易勾引，把腰一扭，媚笑道。",
+          "instruct": "叙述带讽刺意味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 79,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你在那里做梦。此是灵树谷，果名佛棕，乃我由大浮山落星原移植来此，吃了能够长生。看你像个修道人，我洞中仙果、灵丹甚多，只是孤身寂寞。如肯与我交好，同去洞中享受，包你无穷快乐。你意如何？石奇虽见妖妇由洞中走出，因貌又丑又瘦，走起路来故意扭扭捏捏，仿佛弱不禁风神气，其状太怪，心更厌恶。还拿不定是否萧宝娘本人，喝问道。",
+          "instruct": "叙述带讽刺和厌恶"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 80,
+      "role": "石奇",
+      "api": {
+        "voice": {
+          "role": "石奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你叫什么名字？如此讨厌！",
+          "instruct": "厌恶喝问，语气冷淡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 81,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妖妇见石奇怒容相向，也不发急，仍媚笑道。",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 82,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我便是五铢神女萧宝娘。你是何人？话未说完，石奇一听正是萧宝娘本人，大喝。",
+          "instruct": "紧张中突转"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 83,
+      "role": "石奇",
+      "api": {
+        "voice": {
+          "role": "石奇",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无知妖妇，今日休想活命！",
+          "instruct": "怒喝，声音响亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 84,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时手扬处一道白光，连同下山新得的坎离神梭早同时发将出去，紧跟着又将太乙神雷连珠打出。妖妇背运当头，不料石奇如此辣手，相隔又近，骤不及防，忙施邪法防身，已是无及。那坎离梭最是神妙，出手红、黑两道精光电一般射到。等将护身妖光放出，一条左臂已被炸成粉碎。未容还攻，神雷又当头打下。总算石奇功力尚差，妖妇邪法颇高，飞遁神速，只被神雷震出老远，未将妖光击散，当时措手不及，怒叫一声，往洞前逃去。石奇见她逃时咬牙切齿，面容狞厉，上来得手，哪知厉害。暗忖：似此丑怪妖妇，又无同党，何值小题大作？还恐妖妇惊逃，忙纵遁光追去。还未到达洞前，先是一片极淡薄的黑烟由头上飞过，微闻狐骚焦臭之气。知是邪法，忙将身剑合一，扬手太乙神雷往上打去。哪知并未生效，眼前倏地一暗，四外漆黑，全身已被浓烟笼罩，什么也看不见。同时面前突现出一面黄光闪闪的妖牌，另有三根针形妖光相继射到，当时便觉头晕。原来妖妇因被坎离梭所伤，成了残废，恨极石奇，仍未忘了淫欲之念，竟想用所炼阴灵牌与迷阳针，将仇人迷倒，擒入洞内，吸完元精，再加残杀。石奇一见妖网飞来，雷击不散，立将身剑合一，虽然不曾当时晕倒，也觉头晕心烦，神昏欲醉。暗道不好！又见妖牌连连晃动，妖针不住飞舞攒刺，与剑光稍一接触，身便酸痛发软，才知邪法厉害。只得把随身法宝全施出来，太乙神雷也发个不休。经此一来，虽然好些，但那黑烟越来越浓，随散随聚，也分不出方向进退。石奇正想自己人多，只要守定心神，怕她何来？眼前忽又一花，黑烟全收，身已落在一个极高大华丽的洞府之中，四外环立着好些旗幡。妖妇便在外面厉声喝道。",
+          "instruct": "紧张激烈，充满战斗动作"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "白光",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞剑出鞘",
+            "sound_cn": "一道白光和坎离梭同时飞出，破空声凌厉",
+            "sound_en": "a white light and the Kanli Shuttle flying out together, with sharp whooshes",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "坎离梭",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神梭炸响",
+            "sound_cn": "坎离梭炸开妖妇左臂，红黑精光迸射，爆炸声震耳",
+            "sound_en": "the Kanli Shuttle blasting the demoness's left arm, red and black light bursting, explosion deafening",
+            "volume": "-8%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "太乙神雷",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "神雷连珠",
+            "sound_cn": "太乙神雷连珠打出，雷声轰轰震耳",
+            "sound_en": "Taiyi divine thunder striking in succession, thunder rumbling deafeningly",
+            "volume": "-8%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20,
+            "trigger_keyword": "黑烟笼罩",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "妖烟弥漫",
+            "sound_cn": "极淡薄的黑烟弥漫开来，带着狐骚焦臭之气，发出嘶嘶声",
+            "sound_en": "a faint black smoke spreading, with a foul fox odor, hissing",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 85,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你已陷入五淫尊者遗留的小诸天五淫色界魔阵之内，休看四外无什阻隔，你只冲出试试。如若从我，还可免死；否则，我只将魔法发动，任你法宝防身，不消三日，形消神灭而亡。说时，石奇已觉出身上似有极大吸力裹住，不想冲出还好，稍一前冲，妖旗微微拂动，鼻端立时闻到一股温香，口生异味，耳听淫声，眼前现出诸般微妙的幻景，心头杂念纷呈，周身酸痛麻痒同时交加，知道厉害。忙即回光内视，定虑澄神，在宝剑防身之下，强自忍耐，潜心待救。妖妇没想到先后所擒之人，定力如此坚强。对于石奇更是咬牙切齿，恨入骨髓。无如五淫尊者遗留的邪法异宝，只这一两件最为阴毒，自身只能照本画符，又不能发挥它的全部威力。方在厉声咒骂，心灵忽生警兆，知道左右两洞俱都有人侵入。本来情虚，心方一惊，一道金霞已由侧面飞来，跟着又有数十百丈金光雷火打到。仗着当地乃昔年五淫尊者法坛重地，所留埋伏甚多，均极厉害，立即施为，暂时还能抵御。来人正是李健。他本随俞峦和云九姑一路，到了东洞入口，李健笑问。",
+          "instruct": "紧张魔幻，充满魔阵压迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "妖旗拂动",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "魔幡摇动",
+            "sound_cn": "妖旗微微拂动，发出低沉而惑人的沙沙声，温香弥漫",
+            "sound_en": "the demon banners gently stirring, with a low and seductive rustle, warm fragrance spreading",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10,
+            "trigger_keyword": "金霞飞来",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金霞破阵",
+            "sound_cn": "一道金霞从侧面飞来，金光雷火随之而至，发出清越的轰鸣",
+            "sound_en": "a golden glow flying in from the side, golden thunder and fire following, with a clear rumble",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 86,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妖妇共只一人，我们何须如此戒备？俞峦笑道：妖妇妖法虽高，尚非我们对手。但她本是海外一散仙弃妾，后投左道，炼就三尸化身，稍不留意，便被遁走，又留后患。还有她那前夫当分手时，曾许以危急性命关头，必往救她一次。此人法力颇高，少时恐要来援，必须在他到前除害。否则人被救走，一个不巧，还树强敌。我与云道友已经商定，在外守候，分头下手，你持有令师祖的宝镜，可由东洞入内，到了中洞广场，金、石、朱三位道友也由西洞赶到，两下里会合，立可成功。李健闻言大喜，忙照所说途径赶来，仗着宝镜神妙，沿途埋伏全被冲破。妖妇复仇心急，色令智昏，分明已发现有了警兆，仍想迫令石奇降顺。这一迟疑，李健来势又极神速，等到觉出不妙，敌人已经飞到。忙将洞中原有埋伏发动抵御，虽然未为雷火所诛，但是敌人宝光强烈，威力甚大，必难持久。妖妇先还自恃前随五淫尊者刘独炼就三尸化身，长于隐形飞遁，魔法甚高，又有原留魔法异宝，以为无妨。偏偏遇见敌人持有极乐真人镇山之宝，正是克星。相持不多一会，除魔法禁制暂时尚能仗以自保外，连所用两件法宝，均为宝镜破去。敌人又将飞剑放出，敌住三根飞针，专一运用宝镜破那诸般禁制，那面阴灵牌已被宝镜照破，大片神雷连珠爆发，四外洞壁已震塌了百余丈，满洞都是金光雷电布满，越往后威势越盛。妖妇心虽发慌，不舍这片基业。后又看出李健是天生小人，并非道家元婴炼成，不如意料之甚，心又放定了些。以为洞中三条逃路，均有邪法埋伏，又有两件法宝不及取用，还想支持一会，真个不行再说。在这一迟疑中，忽又觉出西洞也有敌人破禁而入。心方吃惊，又是数十百丈一道金霞和红、紫、银、白四道飞剑齐由身后飞来，并还夹着霹雳之声，两道宝镜金光相对一照，魔法埋伏首被破去大半，不由心胆皆寒。匆迫间刚刚逃进小诸天五淫色界妖阵以内，惊魂未定，猛又瞥见一幢青荧荧的冷光裹着三个人飞来，正是前见两幼童和日前被困牢中的徐祥鹅。三起敌人刚一会合，两幼童朝自己望了一望，忽然隐去。妖妇以为敌人是想隐形入阵，暗忖：我这魔阵虽不能发挥它的全力，用以退守，还可无害，隐形何用？稍微挨近，立时警觉，略一施为，便可将人擒住，并不足虑。只是敌人太强，四面包围，除非豁出受伤，决难遁走。正想暗中准备，收那色界魔阵妖幡，能全身而退更好；否则自己一生便吃了又瘦又丑的亏，除前夫是为夙世情孽，真心相爱外，所有情人全靠邪法媚术强迫而来，从未得人颠倒，想起就气。这类肉身无甚可惜，况又残废一臂，转不如就此弃去，日后另寻一个美女附形重生，岂不是好？妖妇先前害怕，无非惜命。既肯舍此躯壳，至多把三尸元神葬送一个，生魂仍能保全，还有何怕？主意打好，自认得计，反倒拿稳起来。忽见石奇尚在宝光护身之下，同在阵内。外面敌人神雷宝光尽管强烈，外层护阵的玄武乌煞罗喉血焰神罡虽被激荡起千万重乌金色的光云血焰，电旋星飞，看去危险异常，急切间尚攻不进来。妖妇想起前仇，不由怒从心上起，反正不能如愿，乐得报仇。当此危机一发，情急逃生之际，仍欲妄逞凶威。正在暗中施为，打算在临逃以前，冷不防猛下毒手，用外层妖光魔火将石奇震死，就势惑乱敌人心目，以便逃走。忽听脚底有人喝骂。",
+          "instruct": "紧张激烈，多线交织，充满战斗场面"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "宝镜神妙",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "宝镜金光",
+            "sound_cn": "宝镜放射出耀眼的金光，照破沿途埋伏，发出清越的光鸣",
+            "sound_en": "the magical mirror emitting dazzling golden light, breaking through ambushes along the way, with a clear luminous hum",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8,
+            "trigger_keyword": "洞壁震塌",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "洞壁崩塌",
+            "sound_cn": "四外洞壁被震塌百余丈，碎石轰鸣，尘土弥漫",
+            "sound_en": "the cave walls collapsing for over a hundred zhang, stones roaring, dust filling the air",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "青荧冷光",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冷光救人",
+            "sound_cn": "一幢青荧荧的冷光裹着三人从阵中飞出，光鸣清越",
+            "sound_en": "a blue cold light carrying three people flying out from the formation, with a clear hum",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 30,
+            "trigger_keyword": "玄武乌煞",
+            "trigger_offset": -0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "血焰神罡",
+            "sound_cn": "外层玄武乌煞罗喉血焰神罡激荡起千万重乌金色光云血焰，发出低沉而恐怖的轰鸣",
+            "sound_en": "the outer Xuanwu Wusha Luohou blood flame divine barrier stirring up thousands of layers of dark golden light clouds and blood flames, with a low and terrifying roar",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 87,
+      "role": "石完",
+      "api": {
+        "voice": {
+          "role": "石完",
+          "role_voice": "开朗男生-开朗,阳光",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "丑妖妇，你的劫运到了！",
+          "instruct": "大喝，声音清脆响亮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 88,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心方一惊，声到人到。猛见那幢青色冷光突然裂地而出，同时又有一团银红色火花飞起，当时爆炸，一声天惊石破的迅雷震过，阵中心要收未收的两面主旗首先粉碎。青光立即暴长，石奇首被罩住，救出阵去。原来钱莱、石完由魔牢内救出徐祥鹅，本定在当地待机，因闻雷声寻来。一见石奇尚未出困，妖妇也逃入阵内，众人竟奈何她不得，以为邪法厉害，心有成见，只想由地底冲入阵去，将人救走。却不知道魔阵妙用全在那些旗幡上面，并与外层魔焰妖光有内外相生之妙。外层玄武乌煞神罡为轩辕师徒独门邪法异宝，五淫尊者更将它炼成为一件法宝，比毒手摩什还要厉害，如非妖妇功力较差，众人直奈何它不得。就这样，急切间也难攻进。可是内层主幡一破，外层神罡灵效大减，主幡本就脆弱，太乙青灵神光和石火神雷又是它克星，用得恰到好处。其实魔阵已破，二人只消再一进攻，妖妇三尸元神一个也休想逃走。二人只顾救人，急切间不知魔阵已破，等将石奇护住，一同冲出，妖妇已吓得亡魂失魄，哪里还敢再留，忙施邪法，在一片暗灰色妖光护身之下，运用邪法，准备变化逃遁。阵外诸人看出外层焰光乃轩辕老怪邪法，也是惊疑，大家惟恐妖妇逃遁，各以全力进攻。金、石二人正想用玉虎金牌连同每人二十七口修罗刀一试，朱文的天心环先取了出来，正在高呼蝉弟，你那心环呢？一言未了，钱莱、石完已在阵中裂地而出，外层乌光血焰竟被震散。金、石二人的玉虎金牌各发出百丈金光，千道银霞，飞压上去，魔阵立破。猛瞥见妖妇飞身欲逃，金蝉修罗刀恰在手上，急切间忙用天心环，连同石生共是五十四道寒碧精光飞将上去，刚将妖妇裹住。忽听洞顶有一老人口音大呼。",
+          "instruct": "紧张激烈，高潮迭起，节奏极快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "银红火花",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "石火神雷",
+            "sound_cn": "一团银红色火花爆炸，天惊石破的迅雷震动全洞",
+            "sound_en": "a silver-red spark exploding, a heaven-shaking thunder shaking the entire cave",
+            "volume": "-6%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5,
+            "trigger_keyword": "主旗粉碎",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "魔幡碎裂",
+            "sound_cn": "两面魔阵主旗在爆炸中粉碎，发出撕裂的脆响",
+            "sound_en": "the two main demon banners shattering in the explosion, with a crisp tearing sound",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12,
+            "trigger_keyword": "玉虎金牌",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "玉虎金辉",
+            "sound_cn": "玉虎金牌发出百丈金光千道银霞飞压而下，气势磅礴",
+            "sound_en": "the Jade Tiger and Golden Medallion releasing a hundred zhang of golden light and a thousand rays of silver glow, pressing down with immense power",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18,
+            "trigger_keyword": "寒碧精光",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "天心绞杀",
+            "sound_cn": "五十四道寒碧精光飞卷而上，裹住妖妇，发出凌厉的光鸣",
+            "sound_en": "fifty-four cold green lights flying up, enveloping the demoness, with a sharp luminous hum",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 89,
+      "role": "洪真武",
+      "api": {
+        "voice": {
+          "role": "洪真武",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "道友，刀下留情！",
+          "instruct": "声音清越如鸾凤，带着急切和恳求"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 90,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "声如鸾凤，甚是清越。二人疾恶心甚，又听语声不熟，心虽惊奇，并未理会，仍指五十四道寒光碧电也似只一绞，妖妇全身粉碎。二人百忙中还不知妖妇得有前夫和五淫尊者真传，最善玄功变化，除非先有太乙五烟罗那样至宝，人虽杀死，元神仍未诛戮。刀光过处，不见妖魂飞起，只当形神皆灭。耳听洞顶裂石之声，宛如疾风怒鸣，从来不曾听过。洞顶上面便是高山，厚达百丈，来人语声竟能直达。二人恐是妖党，正在戒备，说时迟，那时快，就此瞬息之间，忽听朱文、李健同声大喝。",
+          "instruct": "紧张中突转，节奏快速"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "刀光绞动",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "寒光绞杀",
+            "sound_cn": "五十四道寒碧精光绞动，妖妇全身粉碎，发出凄厉的碎裂声",
+            "sound_en": "the fifty-four cold green lights twisting, the demoness's body shattering, with a piercing shattering sound",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "裂石之声",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "洞顶裂开",
+            "sound_cn": "洞顶传来如疾风怒鸣的裂石之声，厚达百丈的山石被喝开",
+            "sound_en": "a sound like a furious wind howling from the cave ceiling, hundred-zhang thick rock split open by a shout",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 91,
+      "role": "朱文",
+      "api": {
+        "voice": {
+          "role": "朱文",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "留神妖妇元神逃走！",
+          "instruct": "急切大喝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 92,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，金、石二人已瞥见三条妖女黑影，被朱、李二人宝镜无心照出。一条已被朱文天心环吸入光中，惨号一声消灭；两条被镜光照定，身上灰色烟光乱爆如雨，尚在惨叫挣扎。金蝉更不怠慢，也将天心环放出，刚刚把一条残魂吸人心环宝光之内，朱文天心环也正朝残余的一条妖魂飞去。猛又听嗤的一声大震，那厚达百余丈的洞顶突然中裂了一个大洞，内一相貌清癯，白面无须的道装老人猛从洞顶飞降，口喝。",
+          "instruct": "紧张激烈，节奏极快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "宝镜照出",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "镜光现影",
+            "sound_cn": "宝镜金光照射下，三条妖魂黑影无所遁形，发出凄厉的惨叫",
+            "sound_en": "under the mirror's golden light, three demon soul shadows revealed, letting out piercing shrieks",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4,
+            "trigger_keyword": "嗤的一声",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "洞顶中裂",
+            "sound_cn": "洞顶发出一声嗤然巨响，百丈山石中裂，一位道装老人飞降而下",
+            "sound_en": "a loud ripping sound from the ceiling, hundred-zhang rock splitting, a Taoist elder descending",
+            "volume": "-10%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 93,
+      "role": "洪真武",
+      "api": {
+        "voice": {
+          "role": "洪真武",
+          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "诸位道友，怎丝毫不留情面，这样斩尽杀绝？",
+          "instruct": "悲愤质问，声音沉痛"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 94,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说扬手先是两片青霞，电也似急飞起，正拦在朱文前面，将妖妇残魂护住。同时又有一片红霞由东洞电掣飞来，也抢在妖魂前面。两边来势虽都神速异常，无如天心环专戮妖魂，宝光照处决无幸免。另一妖魂黑影已被金蝉吸入环光以内，一声鬼叫，已先消灭。众人见这老人满脸悲愤之容，青光却不带邪气，正待喝问为何袒护妖邪，心念才动，还未开口，那红光正是俞峦，已随红霞现身，高呼。",
+          "instruct": "紧张中带着转折，节奏紧凑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "两片青霞",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "青霞护魂",
+            "sound_cn": "两片青霞电掣飞起拦住天心环，发出清越的碰撞声",
+            "sound_en": "two pieces of blue glow flying up to block the Tianxin Ring, with a clear clashing sound",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3,
+            "trigger_keyword": "红霞现身",
+            "trigger_offset": -0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "红霞飞至",
+            "sound_cn": "一片红霞从东洞电掣飞来，俞峦随之现身",
+            "sound_en": "a red glow flying in from the east cave, Yu Luan appearing with it",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 95,
+      "role": "俞峦",
+      "api": {
+        "voice": {
+          "role": "俞峦",
+          "role_voice": "云萱-情感,优雅知性",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "蝉弟、文妹，不可造次！此是妙一真人好友南海青荷岛主洪真武。",
+          "instruct": "急切阻止，声音清朗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 96,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉闻言，忽想起开府时所下柬帖中曾有此人，后听说因事未来。不料这样一个有名散仙，会与妖妇相好。正待向前礼叙，讥嘲他几句，老人已朝金蝉、朱文怒视了一眼，微微叹息了一声，一言未发，将手一招，连青霞带妖魂一齐收去，一片青光闪过，仍由原来裂口飞走，随听轰隆大震一声。众人心疑来人怀恨，有甚报复举动，俞峦笑说无碍。雷声过处，洞顶裂口已经合拢复原。才知来人虽然忿怒，未存敌意。这么厚山石竟被喝开，并使复原，其法力可想而知。正待询问，忽见云九姑带了一个少女飞来。众人见这少女并不相识，年约十五六岁，生得秀丽入骨，又穿着一身雪也似白，非丝非帛的云裳仙衣，宛如奇花初开，自然娟秀，美玉明珠，光艳夺目。一见面，便向金、朱、石三人跪拜在地，口称。",
+          "instruct": "平缓收束，转为惊喜"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1,
+            "trigger_keyword": "轰隆大震",
+            "trigger_offset": -0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "裂口合拢",
+            "sound_cn": "洞顶轰隆一声，裂口合拢复原，山石回归原位",
+            "sound_en": "the ceiling rumbling, the crack closing and restoring, the rocks returning to their places",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 97,
+      "role": "上官红",
+      "api": {
+        "voice": {
+          "role": "上官红",
+          "role_voice": "甜美小橘-甜妹",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "师叔，弟子上官红拜见。",
+          "instruct": "恭敬清甜，声音清脆"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 98,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三人才知少女竟是易静爱徒上官红，无怪上次在碧云塘，癞姑、英琼夸之不已，果是仙骨仙根，一身道气，便差一点的女同门也比不上她，俱都喜赞不置。朱文更是爱极，一手拉起，令与余人分别通名礼见。九姑一说经过，才知俞峦得道多年，见闻甚多，知道妖妇乃洪真武弃妾。真武本是得道多年的散仙，人也颇好，只为未成道前风流自赏，纳此妖妇为妾。后虽逐出，情孽未断，仍有故剑之思。昔年曾许妖妇危难相救，到时必要来援。俞峦受了前辈仙人指教，既恐留害，又恐金蝉等法宝神奇，与洪真武发生误会，于是把人分成三路。东洞一路，只令李健入内。自己隐身空中，暗中相机应付。由九姑用鬼母朱樱的两件法宝拦阻来人，与之相持，只等众人成功，再放入内。不料对方法力甚高，那碧磷斧和九姑的几件法宝竟阻他不住，又不便出面相助。真武虽知妖妇罪恶，为尽人事而来，但是情孽未断，必以全力救护；金蝉等自是不容，双方只要破脸，从此多事。正在为难，忽见一道经天白虹电掣飞来，一到便用飞剑法宝助战。二女吃洪真武绊住，先是大声恫吓，二女不听，又不肯结怨伤人，竟拼舍去一件法宝，化身脱出宝光圈外，喝石开山而下。俞峦恐双方动武，忙来阻止，妖妇残魂虽被救去，但是三尸元神已灭其二，除来人孽缘未断，或许受累而外，已无能为力；双方又未结怨，乐得做个好人，由他救去。朱文再问上官红怎会来此？上官红随说起幻波池之事。众人闻言，不禁大惊。欲知详情，且听下回分解。",
+          "instruct": "叙事收束，语速平缓，带悬念"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "经天白虹",
+            "trigger_offset": -0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "白虹飞至",
+            "sound_cn": "一道经天白虹电掣飞来，破空声如雷贯耳",
+            "sound_en": "a white rainbow shooting across the sky like lightning, the whoosh like thunder",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "法坛布局",
+        "start_line": 1,
+        "end_line": 5,
+        "prompt": "very subtle low volume cinematic background ambience, hidden altar in mountain cave, flickering magical light, tense anticipation, faint distant humming of barriers, soft echoes of shifting earth, no sharp sounds, no voices, no music melody",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "魔头现身对决",
+        "start_line": 6,
+        "end_line": 40,
+        "prompt": "very subtle low volume cinematic background ambience, demon lord confronting enemies in underground cave, crackling demonic energy, deep rumbling of dark magic, eerie whispers and threatening aura, intense standoff, no sharp foreground sounds, no voices, no music melody",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "惨烈搏杀",
+        "start_line": 20,
+        "end_line": 30,
+        "prompt": "very subtle low volume cinematic background ambience, fierce and bloody battle, screams and clashes echoing, demonic blood shadows, desperate struggle, dark and grim, no distinct foreground events, no voices, no music melody",
+        "volume": "-16%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "群仙除魔",
+        "start_line": 31,
+        "end_line": 64,
+        "prompt": "very subtle low volume cinematic background ambience, immortals joining forces to subdue demons, divine light clashing with demonic fire, thunderous explosions and resonant hums, triumph and justice prevailing, majestic and awe-inspiring, no sharp foreground sounds, no voices, no music melody",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "妖妇洞府",
+        "start_line": 74,
+        "end_line": 86,
+        "prompt": "very subtle low volume cinematic background ambience, seductive yet dangerous demoness cave, eerie smoke and faint floral fragrance, lurking evil intent, subtle sense of entrapment and allure, no sharp sounds, no voices, no music melody",
+        "volume": "-20%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "五淫魔阵",
+        "start_line": 85,
+        "end_line": 88,
+        "prompt": "very subtle low volume cinematic background ambience, the Five Lusts Demon Array, demonic banners swaying, sensual illusions and oppressive enchantment, faint seductive music and burning flames, perilous and deceptive, no sharp foreground sounds, no voices, no music melody",
+        "volume": "-18%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "佛光度化魔宫",
+        "start_line": 63,
+        "end_line": 64,
+        "prompt": "very subtle low volume cinematic background ambience, Buddha's light descending to transform demon palace, solemn Zen chanting and celestial fragrance, miraculous closing of the cliff, serene and sacred, no sharp sounds, no voices, no music melody",
+        "volume": "-22%",
+        "fade_in": 3,
+        "fade_out": 4,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "仙府密议",
+        "start_line": 65,
+        "end_line": 73,
+        "prompt": "very subtle low volume cinematic background ambience, immortals gathering in Jade Gorge, discussing plans, calm and strategic, faint mountain wind and distant birds, serene and purposeful, no sharp sounds, no voices, no music melody",
+        "volume": "-24%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

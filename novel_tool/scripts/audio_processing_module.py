@@ -1183,7 +1183,7 @@ class AudioGenerator:
             每个切片的起始 line_id 列表，如 [0, 128, 256]
         """
         target_chunk_ms = target_chunk_seconds * 1000
-        max_chunk_ms = int(os.environ.get("CHAPTER_CHUNK_MAX_MINUTES", "15")) * 60 * 1000
+        max_chunk_ms = int(os.environ.get("CHAPTER_CHUNK_MAX_MINUTES", "10")) * 60 * 1000
         min_seg_ms = min_tail_seconds * 1000
 
         sorted_ids = sorted(line_ranges.keys())
@@ -1294,11 +1294,18 @@ class AudioGenerator:
             changed = False
 
             # 2a. 合并过短段 (从前往后，尾段也要检查)
+            # 合并时确保合并后的段不超过 max_chunk_ms
             merged = [chunk_starts[0]]
             i = 1
             while i < len(chunk_starts):
                 seg_dur = id_to_ms[chunk_starts[i]] - id_to_ms[merged[-1]]
-                if seg_dur < p2_min_seg:
+                # 检查合并后再下一段的累积会不会超上限
+                will_overflow = False
+                if i + 1 < len(chunk_starts):
+                    extended_dur = id_to_ms[chunk_starts[i + 1]] - id_to_ms[merged[-1]]
+                    will_overflow = extended_dur > max_chunk_ms
+                
+                if seg_dur < p2_min_seg and not will_overflow:
                     i += 1
                     changed = True
                 else:
@@ -1334,20 +1341,37 @@ class AudioGenerator:
                 best_dist = float('inf')
                 # 极端场景也放宽 dur 下限
                 p2_min_dur = p2_min_seg
-                for lid in sorted_ids:
-                    if lid == 0:
-                        continue
-                    ms = id_to_ms[lid]
-                    dur = ms - seg_start_ms
-                    if dur < p2_min_dur or dur > max_chunk_ms:
-                        continue
-                    remaining = seg_end_ms - ms
-                    if remaining < p2_remaining_min:
-                        continue
-                    dist = abs(ms - target_ms)
-                    if dist < best_dist:
-                        best_dist = dist
-                        best_lid = lid
+
+                # 候选切分点搜索：逐级放宽约束，确保总能切开超长段
+                # ⚠️ 只放宽 dur_max 前段上限，不降级 remaining_min，避免产生 < 6min 短段
+                fallback_levels = [
+                    # Level 0: 严格约束
+                    {"dur_min": p2_min_dur, "dur_max": max_chunk_ms, "remaining_min": p2_remaining_min},
+                    # Level 1: 放宽前段上限 10%
+                    {"dur_min": p2_min_dur, "dur_max": int(max_chunk_ms * 1.1), "remaining_min": p2_remaining_min},
+                    # Level 2: 放宽前段上限 20%，兜底保证切分
+                    {"dur_min": p2_min_dur, "dur_max": int(max_chunk_ms * 1.2), "remaining_min": p2_remaining_min},
+                ]
+
+                for level, constraints in enumerate(fallback_levels):
+                    for lid in sorted_ids:
+                        if lid == 0:
+                            continue
+                        ms = id_to_ms[lid]
+                        dur = ms - seg_start_ms
+                        if dur < constraints["dur_min"] or dur > constraints["dur_max"]:
+                            continue
+                        remaining = seg_end_ms - ms
+                        if remaining < constraints["remaining_min"]:
+                            continue
+                        dist = abs(ms - target_ms)
+                        if dist < best_dist:
+                            best_dist = dist
+                            best_lid = lid
+                    if best_lid is not None:
+                        if level > 0:
+                            print(f"    ⚠️ 超长段切分已降级至 level {level}，约束放宽")
+                        break
                 if best_lid is not None:
                     new_starts.append(best_lid)
                     changed = True

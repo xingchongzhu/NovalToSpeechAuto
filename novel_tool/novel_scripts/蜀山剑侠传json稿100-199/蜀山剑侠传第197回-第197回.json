@@ -15,40 +15,40 @@
       "speed": "-10%"
     },
     "郝潜夫": {
-      "role_voice": "云诚-成熟,标准男声",
-      "pitch": "-2Hz",
-      "volume": "0%",
-      "speed": "-4%"
-    },
-    "萧清": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
-    "萧玉": {
-      "role_voice": "儒雅青年-磁性,性感",
-      "pitch": "-1Hz",
-      "volume": "0%",
-      "speed": "-2%"
-    },
-    "萧逸": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+    "萧清": {
+      "role_voice": "明朗-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
-      "speed": "-2%"
+      "speed": "0%"
+    },
+    "萧玉": {
+      "role_voice": "文乐-阳光少年,情感",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "+2%"
     },
     "瑶仙": {
-      "role_voice": "俏皮女声-活泼,元气",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "-2%"
+      "role_voice": "元气甜妹-元气,甜美",
+      "pitch": "+4Hz",
+      "volume": "+1%",
+      "speed": "0%"
     },
     "绛雪": {
-      "role_voice": "甜美小橘-甜妹",
-      "pitch": "0Hz",
+      "role_voice": "小玲-稚嫩,萝莉女声",
+      "pitch": "+6Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    },
+    "萧逸": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "-2Hz",
       "volume": "0%",
-      "speed": "-1%"
+      "speed": "-3%"
     }
   },
   "data": [
@@ -62,13 +62,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "第197回",
-          "instruct": "庄重开场"
+          "text": "第197回 强欢笑 心凄同命鸟苦缠绵 肠断可怜宵",
+          "instruct": "庄重开场，凄婉悲凉"
         },
-        "effects": [],
-        "mix": {
-          "mode": "voice_only"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
       }
     },
     {
@@ -81,13 +81,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "强欢笑，心凄同命鸟；苦缠绵，肠断可怜宵。潜夫冷笑道：",
-          "instruct": "回目标题，语气沉郁中透着悲凉"
+          "text": "潜夫冷笑道。",
+          "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -96,17 +96,17 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云诚-成熟,标准男声",
-          "speed": "-4%",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "-2Hz",
+          "pitch": "+1Hz",
           "text": "恐怕昨晚私会情人，跑累了吧？你怎对真人还说假话？",
-          "instruct": "冷嘲热讽，语气尖锐中带着不屑"
+          "instruct": "冷笑质问，带着嘲讽"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -119,13 +119,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清忙叫：",
-          "instruct": "紧张焦急"
+          "text": "萧清忙叫。",
+          "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -134,17 +134,17 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "明朗-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
-          "pitch": "+1Hz",
+          "pitch": "0Hz",
           "text": "好哥哥，莫要这样。",
-          "instruct": "低声求告，语气恳切"
+          "instruct": "急切，压低声音劝阻"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -153,17 +153,17 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云诚-成熟,标准男声",
-          "speed": "-4%",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "-2Hz",
+          "pitch": "+1Hz",
           "text": "这样败类，不但不屑说他，昨晚明知他私会崔家丫头，我却没有过问。他三个只管奸谋诡计，早晚犯我手里，自有公道。",
-          "instruct": "愤然鄙视，语气刚正"
+          "instruct": "语气激烈，带着愤恨"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -176,13 +176,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清见他神态激烈，出声渐高，恐兄长走来听去，一面低声求告，一面又问：",
+          "text": "萧清见他神态激烈，出声渐高，恐兄长走来听去，一面低声求告，一面又问。",
           "instruct": "紧张叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -191,17 +191,17 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "明朗-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
           "text": "我这孤孽之子有什喜信？",
-          "instruct": "低声询问，语气期盼中透着不安"
+          "instruct": "低声，带着期盼"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -214,13 +214,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "潜夫见他急得可怜，便道：",
+          "text": "潜夫见他急得可怜，便道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -229,17 +229,17 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云诚-成熟,标准男声",
-          "speed": "-4%",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "-2Hz",
+          "pitch": "+1Hz",
           "text": "看你面子，只要不生变，从此我不再提他三男女就是。我和你商量的话，已对师父说了，定准你母亲一葬，便由师父把你唤去同住。你如迟疑，不躲开他们，早晚同归于尽，悔不及了。",
-          "instruct": "郑重告诫，语气严峻"
+          "instruct": "带着关切和告诫"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -252,26 +252,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清年幼胆小，天性又厚，始而不舍兄长，意欲相机挽回，委决不定。继而吃萧玉气寒了心，又强迫他娶绛雪为妻，一同苟且，便决计与兄决裂。但决定以后，又想起萧逸平日虽爱自己，无奈父母所行太恶，焉知无恨？万一迁怒，不肯过于关照，如何是好？一听潜夫之言，也颇心喜。又想：自己一去，兄长无人谏劝，不知伊于胡底。自己在侧也是无用，事已至此，照昨晚自吐心腹，天良丧尽，说不得只好先打脱身主意，日后再竭尽心力，挽救一点是一点吧。想到这里，不住悲叹。潜夫知他天性至厚，恐其顾此失彼，故意怒问：",
-          "instruct": "紧张叙述"
+          "text": "萧清年幼胆小，天性又厚，始而不舍兄长，意欲相机挽回，委决不定。继而吃萧玉气寒了心，又强迫他娶绛雪为妻，一同苟且，便决计与兄决裂。但决定以后，又想起萧逸平日虽爱自己，无奈父母所行太恶，焉知无恨？万一迁怒，不肯过于关照，如何是好？一听潜夫之言，也颇心喜。又想：自己一去，兄长无人谏劝，不知伊于胡底。自己在侧也是无用，事已至此，照昨晚自吐心腹，天良丧尽，说不得只好先打脱身主意，日后再竭尽心力，挽救一点是一点吧。想到这里，不住悲叹。潜夫知他天性至厚，恐其顾此失彼，故意怒问。",
+          "instruct": "内心独白与叙述交织"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "不住悲叹",
-            "trigger_offset": 0.3,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "悲叹声",
-            "sound_cn": "萧清抑制不住的低声悲叹",
-            "sound_en": "Xiao Qing sighing in grief repeatedly, soft sorrowful breaths, subtle despair",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -280,17 +267,17 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云诚-成熟,标准男声",
-          "speed": "-4%",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "-2Hz",
+          "pitch": "+1Hz",
           "text": "你还不愿去么？那我就回复师父去。",
-          "instruct": "故作怒态，激将试探"
+          "instruct": "故意怒问，带着催促"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -303,13 +290,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清慌道：",
-          "instruct": "焦急"
+          "text": "萧清慌道。",
+          "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -318,17 +305,17 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "明朗-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
-          "pitch": "+1Hz",
+          "pitch": "0Hz",
           "text": "哪有不愿之理？我是觉着家兄孤单可怜，我又劝他不转，太伤心了。",
-          "instruct": "慌忙解释，语气诚恳"
+          "instruct": "慌乱，带着悲伤"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -341,26 +328,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "潜夫冷笑一声，正要答话，忽听萧玉在喊：",
-          "instruct": "紧张叙述"
+          "text": "潜夫冷笑一声，正要答话，忽听萧玉在喊。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "萧玉在喊",
-            "trigger_offset": -0.5,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "远处呼唤",
-            "sound_cn": "萧玉从室内传来的呼唤声",
-            "sound_en": "Xiao Yu calling from inside the room, distant voice, slightly muffled by walls",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -369,17 +343,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
+          "pitch": "+2Hz",
           "text": "毛弟！",
-          "instruct": "呼唤，语气平常中带着少许温情"
+          "instruct": "呼喊，带着亲昵"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -392,13 +366,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清想起了今早无人，必说绛雪亲事。一面应声，一面悄嘱潜夫千万等有人来再走。潜夫怒问：",
+          "text": "萧清想起了今早无人，必说绛雪亲事。一面应声，一面悄嘱潜夫千万等有人来再走。潜夫怒问。",
           "instruct": "紧张叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -407,17 +381,17 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云诚-成熟,标准男声",
-          "speed": "-4%",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "-2Hz",
+          "pitch": "+1Hz",
           "text": "莫非怕他欺你不成？",
-          "instruct": "略带怒意，不以为然"
+          "instruct": "带着怒气"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -430,13 +404,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清不好明说，只答：",
+          "text": "萧清不好明说，只答。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -445,17 +419,17 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "明朗-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
           "text": "有为难事，不是欺我。请你陪我一陪，却不要给他难堪，免得走了生气。",
-          "instruct": "低声央求，语气为难"
+          "instruct": "低声央告"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -468,38 +442,38 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "潜夫把头一点，萧清忙去煮面。萧玉刚起，见日光已上，四无人声，昨晚友爱之情尚还未尽。喊了两声，只听人在厨房答应，不见走来，料是新起烧水。也想到兄弟劳苦，昨晚不知受冻没有。今天人多事多，意欲赶往相助。刚进厨房，一眼瞥见潜夫坐在饭桌旁，桌上放有年菜空碗剩汤，勾起前隙，好生不快。勉强向潜夫略为招呼，便问：",
-          "instruct": "平静叙述"
+          "text": "潜夫把头一点，萧清忙去煮面。萧玉刚起，见日光已上，四无人声，昨晚友爱之情尚还未尽。喊了两声，只听人在厨房答应，不见走来，料是新起烧水。也想到兄弟劳苦，昨晚不知受冻没有。今天人多事多，意欲赶往相助。刚进厨房，一眼瞥见潜夫坐在饭桌旁，桌上放有年菜空碗剩汤，勾起前隙，好生不快。勉强向潜夫略为招呼，便问。",
+          "instruct": "叙述"
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "trigger_keyword": "忙去煮面",
-            "trigger_offset": 0.3,
-            "duration": 3,
+            "trigger_delay": 2.0,
+            "duration": 3.0,
             "process_mode": "overlay",
-            "name": "厨房烧火",
-            "sound_cn": "厨房里生火煮面的声音",
-            "sound_en": "lighting fire and cooking noodles in kitchen, wood crackling in stove, water bubbling in pot, gentle clink of ladle",
-            "volume": "-24%",
+            "name": "煮面烧水",
+            "trigger_keyword": "煮面",
+            "trigger_offset": -1.0,
+            "sound_cn": "厨房中烧水煮面，锅碗瓢盆碰撞声",
+            "sound_en": "water boiling in a pot, noodles being stirred, clattering of bowls and chopsticks in a kitchen",
+            "volume": "-22%",
             "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 8.5,
-            "trigger_keyword": "刚进厨房",
-            "trigger_offset": 0.3,
-            "duration": 2,
+            "trigger_delay": 10.0,
+            "duration": 1.0,
             "process_mode": "overlay",
-            "name": "掀帘进厨",
-            "sound_cn": "掀开厨房门帘进入的声响",
-            "sound_en": "lifting kitchen door curtain and entering, fabric rustling, soft footstep on floor",
-            "volume": "-24%",
+            "name": "脚步走进",
+            "trigger_keyword": "刚进厨房",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉走进厨房的脚步声",
+            "sound_en": "footsteps entering the kitchen, light thuds on wooden floor",
+            "volume": "-22%",
             "pitch": "+0Hz"
           }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -508,17 +482,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
+          "pitch": "+2Hz",
           "text": "弟弟在做什么？",
-          "instruct": "随口询问，语气随意"
+          "instruct": "带着关切，但语气勉强"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -531,13 +505,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清忙答：",
+          "text": "萧清忙答。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -546,17 +520,17 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "明朗-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
           "text": "我早起烧水待客，肚皮饿了，多亏郝世哥来帮我下了两碗挂面吃了，正给你煮呢。",
-          "instruct": "如实回答，语气自然"
+          "instruct": "带着感激和殷勤"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -569,32 +543,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉心想：",
-          "instruct": "平静叙述"
+          "text": "萧玉心想：此时无人，正好向兄弟劝导，偏生小郝跑来，撞魂碍眼。心中有气，又不便发作。舀些汤罐水洗漱后，自往房中等面。满拟潜夫与己面和心违，不会随来。谁知潜夫知萧清相留作伴，必有原因，乘他回房，抽空跑回家中告知二老，决计守着萧清，不到午后客来不走。面好人回，也同走进。人家丧乱相助，还须承情，不能过于怠慢。潜夫也不理他，自和萧清谈说，帮同料理一切。萧玉每唤萧清，潜夫必定随往，在自厌恶，无计可施。萧玉也颇聪明，几句喊过，恍然大悟。明白兄弟不愿绛雪为妻，有心找出人来作梗，不禁忿怒。暗骂：不知好歹的东西，除非你不认我为兄，离家别居，谁还能保你一世？我如不把这亲事做成，四人合力同报亲仇，誓不为人！因绛雪叮嘱不许硬逼，成否都不许再给兄弟气受，否则不肯甘休。当时恨在心里，索性避开，不再答理。直挨到申未之交，才来了二三十人，还俱是萧逸门下，萧清相厚的同门师兄弟，因奉师命，会同前来。事前已先着人送信，说丧家无人，所有祭席纸箔俱都带有，一到就上供，供完一起烧。佛事照例由本家子弟和村中一些信佛通经的人，在灵前唪诵。来人一半师命难违，一半看在萧清面上，草草终场。萧清自觉冷落，不似往日别家热闹虔敬，事难怨人，好生伤心，人走将尽，犹在灵前悲声诵经不起。萧玉却知这是具文，巴不得早些人走天黑，好去赴约，见状正合心意。不料郝潜夫受了乃弟之嘱，独独不走。萧玉实忍不住厌恶，方要发作，还算萧清见机，看出乃兄神色不妙，悄嘱潜夫，自己难关已过，可请回去，明早再行详告。潜夫也要归侍父母安歇，方始别去。萧玉因瑶仙令他早去，奉若纶音。潜夫一走，更无避忌，只和萧清说了句。",
+          "instruct": "叙述，心理活动丰富"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 25,
-      "role": "旁白",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "此时无人，正好向兄弟劝导，偏生小郝跑来，撞魂碍眼。",
-          "instruct": "内心独白，语气懊恼"
+          "pitch": "+2Hz",
+          "text": "留心门户，不许外人走进。",
+          "instruct": "叮嘱，带着急切"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -607,57 +581,57 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "心中有气，又不便发作。舀些汤罐水洗漱后，自往房中等面。满拟潜夫与己面和心违，不会随来。谁知潜夫知萧清相留作伴，必有原因，乘他回房，抽空跑回家中告知二老，决计守着萧清，不到午后客来不走。面好人回，也同走进。人家丧乱相助，还须承情，不能过于怠慢。潜夫也不理他，自和萧清谈说，帮同料理一切。萧玉每唤萧清，潜夫必定随往，在自厌恶，无计可施。萧玉也颇聪明，几句喊过，恍然大悟。明白兄弟不愿绛雪为妻，有心找出人来作梗，不禁忿怒。暗骂：",
-          "instruct": "紧张叙述"
+          "text": "匆匆进房，披上昨晚斗篷风帽，立即起程。这时天未夜深，又值新正初三，人都睡足，各家都在想法行乐。花炮满天，爆竹之声此起彼应，密如贯珠。四外红灯高低错落，灿若繁星。去崔家这条路虽最僻静，山巅林抄，也有好些灯光掩映。这还是大雪之后，村主情趣不佳，无人为首，仅仅村人自为点缀。如在昔年，还要热闹风光得多。萧玉终是作贼心虚，一路掩掩藏藏，如飞驶行。且喜路上只回避不及遇到过两次人。又因有风帽遮脸，都吃误认，不知是己，喊了两声别人名字，装没听见；再故意向旁路一绕，藏向隐处，看人走远，再加速前行：所以全未看破。暗赞：瑶姊真个聪明。如非这身装束，几露马脚。边想边走，一会赶到。由外望内，仍和昨夜一样冷清乌黑，不见灯光。轻轻往门上一弹，绛雪首先应声而出，引他入内。到了瑶仙室内一看，镜子梳妆桌已经移开，却把方桌摆向正中，上首设着四副杯筷，桌前放着蜡扦香炉，尚还未点，满桌菜肴，像是摆供神气。两旁各有两把坐椅，却没杯筷。地下铺着红毡。这还不奇。最奇是二女都穿着一身吉服，瑶仙薄施脂粉，越显美艳，面上神色也看不出是喜是恨。萧玉不解何意，喊了声。",
+          "instruct": "紧张叙述，渲染节日夜景"
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "trigger_keyword": "舀些汤罐水",
-            "trigger_offset": 0.3,
-            "duration": 2.5,
+            "trigger_delay": 3.0,
+            "duration": 4.0,
             "process_mode": "overlay",
-            "name": "舀水洗漱",
-            "sound_cn": "从汤罐中舀水洗漱的水声",
-            "sound_en": "scooping water from a pot for washing, water splashing into basin, gentle clink of ladle against pottery",
-            "volume": "-26%",
+            "name": "花炮爆竹",
+            "trigger_keyword": "花炮满天",
+            "trigger_offset": -1.0,
+            "sound_cn": "远处花炮声和爆竹声此起彼伏，热闹喧嚣",
+            "sound_en": "distant fireworks bursting and firecrackers popping continuously in celebration",
+            "volume": "-20%",
             "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 4,
-            "trigger_keyword": "自往房中等面",
-            "trigger_offset": 0.3,
-            "duration": 2,
+            "trigger_delay": 16.0,
+            "duration": 0.8,
             "process_mode": "overlay",
-            "name": "走向房内",
-            "sound_cn": "转身走向房内的脚步声",
-            "sound_en": "walking back into the room, footsteps on wooden floor, door creaking slightly",
-            "volume": "-26%",
+            "name": "弹门",
+            "trigger_keyword": "轻轻往门上一弹",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉轻弹门板的声音",
+            "sound_en": "soft tapping on a wooden door with a fingernail, hollow click",
+            "volume": "-22%",
             "pitch": "+0Hz"
           }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 27,
-      "role": "旁白",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "不知好歹的东西，除非你不认我为兄，离家别居，谁还能保你一世？我如不把这亲事做成，四人合力同报亲仇，誓不为人！",
-          "instruct": "内心独白，语气狠绝"
+          "pitch": "+2Hz",
+          "text": "姊姊。",
+          "instruct": "轻唤，带着不解"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -670,45 +644,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "因绛雪叮嘱不许硬逼，成否都不许再给兄弟气受，否则不肯甘休。当时恨在心里，索性避开，不再答理。直挨到申未之交，才来了二三十人，还俱是萧逸门下，萧清相厚的同门师兄弟，因奉师命，会同前来。事前已先着人送信，说丧家无人，所有祭席纸箔俱都带有，一到就上供，供完一起烧。佛事照例由本家子弟和村中一些信佛通经的人，在灵前唪诵。来人一半师命难违，一半看在萧清面上，草草终场。萧清自觉冷落，不似往日别家热闹虔敬，事难怨人，好生伤心，人走将尽，犹在灵前悲声诵经不起。萧玉却知这是具文，巴不得早些人走天黑，好去赴约，见状正合心意。不料郝潜夫受了乃弟之嘱，独独不走。萧玉实忍不住厌恶，方要发作，还算萧清见机，看出乃兄神色不妙，悄嘱潜夫，自己难关已过，可请回去，明早再行详告。潜夫也要归侍父母安歇，方始别去。萧玉因瑶仙令他早去，奉若纶音。潜夫一走，更无避忌，只和萧清说了句：",
-          "instruct": "紧张叙述"
+          "text": "未及问故，瑶仙不容说话，径令绛雪领往别室更衣，出来再说。萧玉只得随去，乃是绛雪卧室，见大椅上放着一身吉服。心中奇怪，二次想间。绛雪眼圈一红道。",
+          "instruct": "叙述"
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "trigger_keyword": "灵前唪诵",
-            "trigger_offset": 0.3,
-            "duration": 6,
+            "trigger_delay": 3.5,
+            "duration": 2.0,
             "process_mode": "overlay",
-            "name": "诵经声",
-            "sound_cn": "灵前众人低沉诵经的声音",
-            "sound_en": "low chanting of Buddhist sutras before the funeral altar, solemn murmurs, repetitive and respectful rhythm",
-            "volume": "-24%",
+            "name": "更衣",
+            "trigger_keyword": "更衣",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉换穿吉服，布料摩擦窸窣声",
+            "sound_en": "cloth rustling as formal attire is put on, soft fabric sounds and belt adjusting",
+            "volume": "-22%",
             "pitch": "+0Hz"
           }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 29,
-      "role": "萧玉",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "留心门户，不许外人走进。",
-          "instruct": "低声叮嘱，语气急促"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "姊姊今天就嫁你，这新郎不愿做么？快换了衣服出来，我去她房中等你。",
+          "instruct": "眼圈发红，带着复杂的情绪"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -721,81 +695,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "匆匆进房，披上昨晚斗篷风帽，立即起程。这时天未夜深，又值新正初三，人都睡足，各家都在想法行乐。花炮满天，爆竹之声此起彼应，密如贯珠。四外红灯高低错落，灿若繁星。去崔家这条路虽最僻静，山巅林抄，也有好些灯光掩映。这还是大雪之后，村主情趣不佳，无人为首，仅仅村人自为点缀。如在昔年，还要热闹风光得多。萧玉终是作贼心虚，一路掩掩藏藏，如飞驶行。且喜路上只回避不及遇到过两次人。又因有风帽遮脸，都吃误认，不知是己，喊了两声别人名字，装没听见；再故意向旁路一绕，藏向隐处，看人走远，再加速前行：所以全未看破。暗赞：",
-          "instruct": "紧张叙述"
+          "text": "萧玉闻言，虽是心愿之事，但想起双方母丧三日，便这等举动，未免于心不安。瑶仙性情，说了就做，又不敢迟疑。一面脱去斗篷风帽，忙喊。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "披上斗篷风帽",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "披斗篷声",
-            "sound_cn": "披上斗篷的布料摩擦声",
-            "sound_en": "putting on cloak and hood, fabric rustling, cloth settling over shoulders, soft swish",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 5.5,
-            "trigger_keyword": "花炮满天",
-            "trigger_offset": 0.3,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "爆竹烟花",
-            "sound_cn": "远处此起彼伏的爆竹声和烟花绽放声",
-            "sound_en": "distant fireworks and firecrackers bursting in rapid succession, celebratory pops and bangs, echoes off hills",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 18,
-            "trigger_keyword": "如飞驶行",
-            "trigger_offset": 0.5,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "快步行走",
-            "sound_cn": "在雪地里快步行走的脚步声",
-            "sound_en": "walking quickly on snow in a hurry, stealthy footsteps crunching, urgent and tense pace",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 33,
-            "trigger_keyword": "藏向隐处",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "躲藏移动",
-            "sound_cn": "快速躲向隐蔽处的脚步声",
-            "sound_en": "quickly moving to hide in a concealed spot, swift footsteps, fabric brushing against brush",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 31,
-      "role": "旁白",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "瑶姊真个聪明。如非这身装束，几露马脚。",
-          "instruct": "内心独白，语气佩服"
+          "pitch": "+2Hz",
+          "text": "妹妹，为何今晚便要行礼？快请言明，免得少时不对姊姊心意，招她生气。",
+          "instruct": "带着不安和犹豫"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -808,57 +733,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "边想边走，一会赶到。由外望内，仍和昨夜一样冷清乌黑，不见灯光。轻轻往门上一弹，绛雪首先应声而出，引他入内。到了瑶仙室内一看，镜子梳妆桌已经移开，却把方桌摆向正中，上首设着四副杯筷，桌前放着蜡扦香炉，尚还未点，满桌菜肴，像是摆供神气。两旁各有两把坐椅，却没杯筷。地下铺着红毡。这还不奇。最奇是二女都穿着一身吉服，瑶仙薄施脂粉，越显美艳，面上神色也看不出是喜是恨。萧玉不解何意，喊了声：",
-          "instruct": "紧张叙述"
+          "text": "绛雪把嘴一撇道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "轻轻往门上一弹",
-            "trigger_offset": 0.2,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "轻弹门扉",
-            "sound_cn": "手指轻轻弹在门上的声音",
-            "sound_en": "lightly tapping on the door with fingertips, soft rhythmic knocks on wood",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 2.5,
-            "trigger_keyword": "应声而出",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "开门迎入",
-            "sound_cn": "开门迎入的脚步声和门轴转动声",
-            "sound_en": "opening the door to welcome someone in, door creaking on hinges, soft footsteps",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 33,
-      "role": "萧玉",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊。",
-          "instruct": "轻声呼唤，语气疑惑"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "少时她自会说。凭你这样人，我姊姊的心意才测不透呢。从今以后，你只照她说的去做，包你没错就是。我先走了。",
+          "instruct": "带着轻蔑，语气冷淡"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -871,13 +771,26 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "未及问故，瑶仙不容说话，径令绛雪领往别室更衣，出来再说。萧玉只得随去，乃是绛雪卧室，见大椅上放着一身吉服。心中奇怪，二次想问。绛雪眼圈一红道：",
-          "instruct": "紧张叙述"
+          "text": "说罢，不再答理，径直走出。萧玉见那衣服俱是乃岳生前所穿，长短大小俱差不多，匆匆穿好，赶将出去。二女已将香烛点好，先同向上跪下，叩头默祝，容甚悲愤，却未流泪。叩罢起立，瑶仙朝绛雪看了一眼，绛雪便对萧玉正色说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "叩拜",
+            "trigger_keyword": "向上跪下",
+            "trigger_offset": 0.0,
+            "sound_cn": "二女跪拜叩头，衣料摩擦和磕头轻响",
+            "sound_en": "kneeling and bowing, soft rustling of clothes and gentle thuds of heads touching floor",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -886,17 +799,17 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊今天就嫁你，这新郎不愿做么？快换了衣服出来，我去她房中等你。",
-          "instruct": "语气感慨中透着期盼"
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "姊姊为你痴情所感，本来决计嫁你。今日母亲接三，下午来了几家女眷，男的只萧逸同了三个小狗男女。走时居然暗点姊姊亲事，意思百期之后，便由他作主过礼。分明有人泄了机密，他为卖好，顺水推舟。姊姊恨他入骨，怎肯让仇人出面主婚？当时哭诉：母死伤心，不愿为人，今生决以丫角终老。因料他已知姊姊和你有了情分，并还和他说明：母亲在日，曾将姊姊许给萧玉表弟，彼此也都爱好。但遭此祸变，万念皆灰。加以两家均受村人嫉恨，难保日后不有口舌。前日还令我与你送话，请抽空来此当面说明心意。谁知你也和她一样想头，等服终以后，便即出家为僧，以后彼此不婚不嫁。姊姊劝你不从，只好听之，知他怜悯遗孤，心迹是非久而自明，所以不避嫌疑羞耻，明说出来，出嫁一层再也休提。这该死的竟信以为真，不但把你来此私会一节掩饰过去，反倒夸我姊姊有孝心，有志气，再三劝慰。还在想等日久哀思少减，心活一点，再行劝办。姊姊等他走后，一想奉有母命，不是私约。当此危急艰难之际，不久又要设法报仇，名分一日不定，万一有什挫折，也对不起你。此时全村皆仇，事贵从权，能继母志为上，顾忌什么虚情浮礼？恰好今晚吉时，决计先和你祝告过两家父母，当时拜堂，定了名分。然后换去吉服，三人同心，共报亲仇。你意如何？",
+          "instruct": "正色诉说，带着悲愤和决绝"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -909,26 +822,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉闻言，虽是心愿之事，但想起双方母丧三日，便这等举动，未免于心不安。瑶仙性情，说了就做，又不敢迟疑。一面脱去斗篷风帽，忙喊：",
-          "instruct": "紧张叙述"
+          "text": "萧玉虽觉这样过于草率，但为美色所惑，也就没有深思，反附和道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "脱去斗篷风帽",
-            "trigger_offset": 0.3,
-            "duration": 2.5,
-            "process_mode": "overlay",
-            "name": "脱斗篷声",
-            "sound_cn": "脱去斗篷和风帽的布料摩擦声",
-            "sound_en": "taking off cloak and hood, fabric rustling, cloth shifting, gentle movements",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -937,17 +837,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "妹妹，为何今晚便要行礼？快请言明，免得少时不对姊姊心意，招她生气。",
-          "instruct": "语气急切，透着不安"
+          "pitch": "+2Hz",
+          "text": "我早说过，只要姊姊说话，生死祸福，无不惟命，说什么听什么，还用商量则甚？",
+          "instruct": "附和，带着讨好"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -960,32 +860,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "绛雪把嘴一撇道：",
+          "text": "瑶仙笑道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 39,
-      "role": "绛雪",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "少时她自会说。凭你这样人，我姊姊的心意才测不透呢。从今以后，你只照她说的去做，包你没错就是。我先走了。",
-          "instruct": "语气神秘，带着一丝不满"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "只恐口不应心，未必能都听我话吧？",
+          "instruct": "带着笑意，但语气认真"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -998,69 +898,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "说罢，不再答理，径直走出。萧玉见那衣服俱是乃岳生前所穿，长短大小俱差不多，匆匆穿好，赶将出去。二女已将香烛点好，先同向上跪下，叩头默祝，容甚悲愤，却未流泪。叩罢起立，瑶仙朝绛雪看了一眼，绛雪便对萧玉正色说道：",
-          "instruct": "紧张叙述"
+          "text": "萧玉力言。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "穿好吉服",
-            "trigger_offset": 0.3,
-            "duration": 2.5,
-            "process_mode": "overlay",
-            "name": "穿衣声响",
-            "sound_cn": "穿上吉服的布料摩擦声",
-            "sound_en": "putting on ceremonial clothes, fabric rustling, silk sliding, adjusting collars",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 5,
-            "trigger_keyword": "香烛点好",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "香烛点燃",
-            "sound_cn": "点燃香烛的轻微声响",
-            "sound_en": "lighting incense sticks and candles, soft crackling of wick catching flame, slight burning smell",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 8.5,
-            "trigger_keyword": "叩头默祝",
-            "trigger_offset": 0.2,
-            "duration": 2.5,
-            "process_mode": "overlay",
-            "name": "叩头声",
-            "sound_cn": "叩头时额头碰地的沉闷声响",
-            "sound_en": "kowtowing respectfully, head hitting floor with soft dull thuds, repeated impacts",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 41,
-      "role": "绛雪",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊为你痴情所感，本来决计嫁你。今日母亲接三，下午来了几家女眷，男的只萧逸同了三个小狗男女。走时居然暗点姊姊亲事，意思百期之后，便由他作主过礼。分明有人泄了机密，他为卖好，顺水推舟。姊姊恨他入骨，怎肯让仇人出面主婚？当时哭诉：母死伤心，不愿为人，今生决以丫角终老。因料他已知姊姊和你有了情分，并还和他说明：母亲在日，曾将姊姊许给萧玉表弟，彼此也都爱好。但遭此祸变，万念皆灰。加以两家均受村人嫉恨，难保日后不有口舌。前日还令我与你送话，请抽空来此当面说明心意。谁知你也和她一样想头，等服终以后，便即出家为僧，以后彼此不婚不嫁。姊姊劝你不从，只好听之，知他怜悯遗孤，心迹是非久而自明，所以不避嫌疑羞耻，明说出来，出嫁一层再也休提。这该死的竟信以为真，不但把你来此私会一节掩饰过去，反倒夸我姊姊有孝心，有志气，再三劝慰。还在想等日久哀思少减，心活一点，再行劝办。姊姊等他走后，一想奉有母命，不是私约。当此危急艰难之际，不久又要设法报仇，名分一日不定，万一有什挫折，也对不起你。此时全村皆仇，事贵从权，能继母志为上，顾忌什么虚情浮礼？恰好今晚吉时，决计先和你祝告过两家父母，当时拜堂，定了名分。然后换去吉服，三人同心，共报亲仇。你意如何？",
-          "instruct": "正色陈说，语气决绝中带着悲壮"
+          "pitch": "+2Hz",
+          "text": "哪有此事？",
+          "instruct": "急切否认"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1073,32 +936,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉虽觉这样过于草率，但为美色所惑，也就没有深思，反附和道：",
+          "text": "绛雪道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 43,
-      "role": "萧玉",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "我早说过，只要姊姊说话，生死祸福，无不惟命，说什么听什么，还用商量则甚？",
-          "instruct": "语气坚决，透着讨好"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "我信你。莫要错过吉时，姊姊和姊夫该拜堂了。",
+          "instruct": "带着催促"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1111,32 +974,69 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙笑道：",
-          "instruct": "平静叙述"
+          "text": "瑶仙为报母仇，虽然心深计毒，终是红闺幼女，一听拜堂，也是有点腼腆。人既美貌，再带几分羞意，益更娇艳。萧玉看了，越发心荡魂销，直恨不能一碗水将她生咽下去，先向红毯上立定。瑶仙经绛雪一拉，也随即走过，由绛雪低声赞礼，同拜下去。跟着奠酒。然后将上位杯筷撤下来，分到两旁。萧玉、瑶仙并坐，绛雪对面相陪。刚一坐定，瑶仙又给绛雪斟了杯酒，然后离座，扑地拜倒。绛雪骤出不意，忙同跪拜，大惊问道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "拜堂",
+            "trigger_keyword": "拜下去",
+            "trigger_offset": 0.0,
+            "sound_cn": "二人跪拜红毯，衣料和地毯摩擦声",
+            "sound_en": "kneeling and bowing on red felt carpet, soft rustling and gentle thuds",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "斟酒",
+            "trigger_keyword": "斟了杯酒",
+            "trigger_offset": 0.0,
+            "sound_cn": "瑶仙为绛雪斟酒，酒液流入杯中的声音",
+            "sound_en": "wine being poured from a porcelain pot into a cup, gentle liquid trickle",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 9.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "扑地拜倒",
+            "trigger_keyword": "扑地拜倒",
+            "trigger_offset": 0.0,
+            "sound_cn": "瑶仙向绛雪拜倒，衣服和地板摩擦声",
+            "sound_en": "body dropping to the floor in a deep bow, cloth rustling and soft impact",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 45,
-      "role": "瑶仙",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "只恐口不应心，未必能都听我话吧？",
-          "instruct": "带着一丝调侃和试探"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "姊姊，这是做什么？",
+          "instruct": "大惊，带着不解"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1149,32 +1049,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉力言：",
+          "text": "瑶仙慨然答道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 47,
-      "role": "萧玉",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "哪有此事？",
-          "instruct": "语气急切，竭力辩解"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "由明日起，我们三人便入忧患之中，仇敌厉害，人事难知。我是母亲生女，不问是非成败，俱非继她遗志不可。玉弟有半子之义，又是我亲爱丈夫，承他痴情钟爱，随我卧薪尝胆，虽然为我所累，一则出诸他的心愿，二则我仇也是他仇，义不容辞。惟独妹子于仇敌素不相干，只为母亲临终一言，便随我共赴汤火。在你固是孝义忠烈，在我却是问心不过。今生无以为报，只好叩几个头，略表我感激之意。你若不受，我便不起来了。",
+          "instruct": "慷慨激昂，带着感激和坚决"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1187,13 +1087,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "绛雪道：",
+          "text": "绛雪也慨然道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1202,17 +1102,17 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "我信你。莫要错过吉时，姊姊和姊夫该拜堂了。",
-          "instruct": "语气缓和，带着祝福"
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "姊姊既这么说，妹子如不敢当；倒觉不好。妹子告罪，先起就是。",
+          "instruct": "慨然接受，语气坚定"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1225,50 +1125,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙为报母仇，虽然心深计毒，终是红闺幼女，一听拜堂，也是有点腼腆。人既美貌，再带几分羞意，益更娇艳。萧玉看了，越发心荡魂销，直恨不能一碗水将她生咽下去，先向红毯上立定。瑶仙经绛雪一拉，也随即走过，由绛雪低声赞礼，同拜下去。跟着奠酒。然后将上位杯筷撤下来，分到两旁。萧玉、瑶仙并坐，绛雪对面相陪。刚一坐定，瑶仙又给绛雪斟了杯酒，然后离座，扑地拜倒。绛雪骤出不意，忙同跪拜，大惊问道：",
-          "instruct": "紧张叙述"
+          "text": "瑶仙又叩了几下，绛雪受了，方始归座。萧玉肩挨玉人，正涉遐想，见此悲壮情形，看出瑶仙今日之举，全为前路艰危，吉凶难卜，又不愿受仇人主婚，暗和自己正了夫妻名分，以便策励复仇，兼免嫌忌。看神气，定是有名无实，未必肯让自己温存抚爱。不禁把满腹热念消去一大半。瑶仙二次入座，便举杯劝饮，谈笑风生，更不再提伤心之事。萧玉见她玉面生春，目波明媚，端的容光照人，仪态大方，令人爱而忘死，不禁又心荡神移起来。坐既挨近，瑶仙大方，毫不羞涩，乘她劝饮之际，试触柔荑，全无愠色，心中越喜。暗忖：既已拜堂，当然还要合卺。虽然新遭大故，不能丧心病狂，销魂真个，照此神情，每夜来此相偎相抱，并头共枕，睡上一会，总可如愿。正在胡思乱想，绛雪道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "拜堂",
-            "trigger_offset": 0.3,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "拜堂跪拜",
-            "sound_cn": "拜堂时跪地叩头的声响",
-            "sound_en": "kowtowing during wedding ceremony, heads hitting floor with soft thuds, formal and solemn",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 6.5,
-            "trigger_keyword": "斟了杯酒",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "斟酒声",
-            "sound_cn": "酒液倒入杯中的声音",
-            "sound_en": "pouring wine into a cup, gentle liquid splashing, slight clink of glass against glass",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 9.5,
-            "trigger_keyword": "扑地拜倒",
-            "trigger_offset": 0.2,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "拜倒叩头",
-            "sound_cn": "扑地拜倒的沉闷声响",
-            "sound_en": "throwing oneself to the ground in a kowtow, heavy thud, respectful prostration",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1277,17 +1140,17 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "姊姊，这是做什么？",
-          "instruct": "语气惊讶，不知所措"
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "大家酒足饭饱，该请新夫妇合卺了。",
+          "instruct": "带着暗示和笑意"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1300,32 +1163,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙慨然答道：",
-          "instruct": "平静叙述"
+          "text": "萧玉看瑶仙醉态娇慵，星眸微展，半睁半合，似有睡意，闻言未置可否。见绛雪起身来扶，也装着有点醉意，半假半真地随同绛雪将瑶仙扶向床上，脱鞋倒卧。绛雪将帐帘放下，悄声说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "扶床",
+            "trigger_keyword": "扶向床上",
+            "trigger_offset": 0.0,
+            "sound_cn": "扶人上床，衣料摩擦和床板轻微响声",
+            "sound_en": "helping someone onto the bed, soft rustling of clothes and creaking of bed frame",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 53,
-      "role": "瑶仙",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "由明日起，我们三人便入忧患之中，仇敌厉害，人事难知。我是母亲生女，不问是非成败，俱非继她遗志不可。玉弟有半子之义，又是我亲爱丈夫，承他痴情钟爱，随我卧薪尝胆，虽然为我所累，一则出诸他的心愿，二则我仇也是他仇，义不容辞。惟独妹子于仇敌素不相干，只为母亲临终一言，便随我共赴汤火。在你固是孝义忠烈，在我却是问心不过。今生无以为报，只好叩几个头，略表我感激之意。你若不受，我便不起来了。",
-          "instruct": "语气慨然，透着悲壮和恳切"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "姊姊几夜没睡过一时好觉，照例酒后必睡。你帮我收拾完毕，我走，你自陪她。茶桶内泡有好茶。她气不得，莫再气她。",
+          "instruct": "悄声叮嘱，带着关切"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1338,32 +1214,69 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "绛雪也慨然道：",
-          "instruct": "平静叙述"
+          "text": "萧玉诺诺连声。二人合力忙着收拾餐具，一切还原。事毕，绛雪抿嘴一笑，端了残肴退向别室而去。萧玉独坐房内，对床寻思：今夜之事，该当如何？女儿家爱羞，如不趁热开张亲近，明夜必难。有心上床温存一会，玉人喜怒难测，一个不巧，误会自己欲谋不轨。愿了还好，一非情愿，必然大怒，不好收拾。按说此时最好守俟床前，待她醒转，自己开恩，以表忠诚，方为上策。无如一刻千金，良宵易度。当夜必须归去，其势不能终夜，到时绛雪必来催走。万一不醒，或是怕羞不愿亲近，好容易有此一日，错过岂不可惜？似这样进既不敢，退又不舍，眼巴巴望着心上人，只有一帐之隔，不能亲近。思潮起伏，心中乱跳，举棋不定。忍不住走到床前，偷偷揭开帐缝一看，瑶仙面朝外侧卧枕上，睡甚安稳，实在不忍惊扰。看过两次，心想：放帘时瑶仙已经合眼，不曾看见。不能亲近，且看她个够再说。随把帐子挂起，将灯移近。灯下美人，又当醉后，越看越爱。爱到极处，试把被角微微揭开，忽闻见一股温香自被中透出，立觉心旌摇摇，不能自制。瑶仙本是和衣而卧，被揭处姿态毕呈，首先触目的，便是平时最心爱的那双纤足。村人自从上辈迁隐以来，便订规章垂诫，不许妇女缠足，以免习武操作全都不便，一有事变，妇女不但无用，反成累赘。瑶仙天生丽质，本就通体秾纤合度；加上母女二人俱都爱好天然，把一双足整理得踵跗丰妍，底平指敛，柔若无骨，虽不缠足，临睡仍穿睡鞋，以免走样，端的美秀已极。这时穿着一双雪也似白的袜子，净无微尘，俏生生叠在一起，格外显得动人。再加上那玉股丰盈，柳腰纤细，虽被衣服裹住，外观只是一点轮廓，越易引起人的隐微思索。萧玉对此活色生香，一时情不自禁，悄悄俯身下去，先从双足嗅起，以次而上，闻来闻去。快要闻到脸上，有心亲她一亲，又不敢造次。只得跪在床前，凑近口边，尽管偷闻芳息。正在得趣不解馋之际，瑶仙倏地由醉梦中，将两条玉臂向前一伸，恰将萧玉的头搂住，口中模糊梦话道。",
+          "instruct": "叙述，萧玉的心理活动"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 8.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "挂帐移灯",
+            "trigger_keyword": "把帐子挂起",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉挂起帐帘、移动油灯的声音",
+            "sound_en": "bed curtain being tied back and oil lamp being slid across the table, soft scraping",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "揭开被角",
+            "trigger_keyword": "把被角微微揭开",
+            "trigger_offset": 0.0,
+            "sound_cn": "被角被揭开，布料窸窣声",
+            "sound_en": "corner of quilt being lifted, soft rustling of fabric",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "俯身闻香",
+            "trigger_keyword": "俯身下去",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉俯身凑近，衣料摩擦声",
+            "sound_en": "leaning down close, soft rustling of clothes and gentle breathing",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 55,
-      "role": "绛雪",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊既这么说，妹子如不敢当；倒觉不好。妹子告罪，先起就是。",
-          "instruct": "语气感动，带着决然"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "玉哥哥，你真爱我么？",
+          "instruct": "梦中呓语，带着朦胧的深情"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1376,45 +1289,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙又叩了几下，绛雪受了，方始归座。萧玉肩挨玉人，正涉遐想，见此悲壮情形，看出瑶仙今日之举，全为前路艰危，吉凶难卜，又不愿受仇人主婚，暗和自己正了夫妻名分，以便策励复仇，兼免嫌忌。看神气，定是有名无实，未必肯让自己温存抚爱。不禁把满腹热念消去一大半。瑶仙二次入座，便举杯劝饮，谈笑风生，更不再提伤心之事。萧玉见她玉面生春，目波明媚，端的容光照人，仪态大方，令人爱而忘死，不禁又心荡神移起来。坐既挨近，瑶仙大方，毫不羞涩，乘她劝饮之际，试触柔荑，全无愠色，心中越喜。暗忖：",
-          "instruct": "紧张叙述"
+          "text": "原来二人年岁相差只有十多天，以前瑶仙尚存客气，先喊表哥；两小无猜，日渐亲密，又改称玉哥。平日喊惯了口。直到畹秋死前不久，才问明生日，改呼玉弟。萧玉却始终呼之为姊。爱极忘形之际，忽然娇呼亲密，玉腕环抱。玉人梦中尚且如此，可见情深爱重，如何消受得起。忙就势温存，紧紧贴在玉腮上面，尽量亲热起来。才亲上几口，正在魂销心醉，欲死欲仙之际，瑶仙突地惊醒。见萧玉跪在枕前，正和自己亲热，立即挣身坐起，似要发作。见萧玉满面惊惶，跪地未起，又觉可怜。叹了口气，说道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "举杯劝饮",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "碰杯声",
-            "sound_cn": "举杯相碰的清脆声响",
-            "sound_en": "clinking wine glasses together, delicate chime of crystal against crystal",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 57,
-      "role": "旁白",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "既已拜堂，当然还要合卺。虽然新遭大故，不能丧心病狂，销魂真个，照此神情，每夜来此相偎相抱，并头共枕，睡上一会，总可如愿。",
-          "instruct": "内心独白，透着贪恋和期盼"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "还不起来，是甚样子？",
+          "instruct": "带着嗔怪和无奈"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1427,32 +1327,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "正在胡思乱想，绛雪道：",
-          "instruct": "平静叙述"
+          "text": "萧玉慌不迭应声起立，忸怩道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 59,
-      "role": "绛雪",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "大家酒足饭饱，该请新夫妇合卺了。",
-          "instruct": "语气带着促狭和笑意"
+          "pitch": "+2Hz",
+          "text": "姊姊不要生气，我实在太爱你了。",
+          "instruct": "忸怩不安，带着表白"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1465,57 +1365,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉看瑶仙醉态娇慵，星眸微展，半睁半合，似有睡意，闻言未置可否。见绛雪起身来扶，也装着有点醉意，半假半真地随同绛雪将瑶仙扶向床上，脱鞋倒卧。绛雪将帐帘放下，悄声说道：",
-          "instruct": "紧张叙述"
+          "text": "瑶仙也不理他，自起对镜理了理发。手抬处，露出嫩藕一般半截玉臂。看得萧玉心里直痒，只是不敢再为冒失，深悔适才只顾亲她，手在颈上环抱，就忘了抚摩一下。瑶仙理完了发，仍回卧枕上，向萧玉道。",
+          "instruct": "叙述"
         },
         "effects": [
           {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "扶向床上",
-            "trigger_offset": 0.3,
-            "duration": 3,
+            "trigger_delay": 2.0,
+            "duration": 1.0,
             "process_mode": "overlay",
-            "name": "扶人上床",
-            "sound_cn": "扶人上床的脚步声和布料摩擦声",
-            "sound_en": "helping someone onto the bed, footsteps shuffling, fabric rustling, mattress creaking gently",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 4.5,
-            "trigger_keyword": "脱鞋倒卧",
-            "trigger_offset": 0.3,
-            "duration": 2.5,
-            "process_mode": "overlay",
-            "name": "脱鞋卧床",
-            "sound_cn": "脱去鞋子倒卧床上的声音",
-            "sound_en": "taking off shoes and lying down on bed, soft thud of shoes hitting floor, mattress shifting",
-            "volume": "-26%",
+            "name": "理发",
+            "trigger_keyword": "理了理发",
+            "trigger_offset": 0.0,
+            "sound_cn": "瑶仙整理头发，发簪轻响",
+            "sound_en": "hair being smoothed and arranged, soft rustling of hairpins",
+            "volume": "-22%",
             "pitch": "+0Hz"
           }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 61,
-      "role": "绛雪",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊几夜没睡过一时好觉，照例酒后必睡。你帮我收拾完毕，我走，你自陪她。茶桶内泡有好茶。她气不得，莫再气她。",
-          "instruct": "低声叮嘱，语气关切"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你来同我躺在一个枕头上，应个景儿。适才酒醉，我还有好些话没对你说呢。",
+          "instruct": "带着温柔和认真"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1528,57 +1416,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉诺诺连声。二人合力忙着收拾餐具，一切还原。事毕，绛雪抿嘴一笑，端了残肴退向别室而去。萧玉独坐房内，对床寻思：",
-          "instruct": "平静叙述"
+          "text": "萧玉受宠若惊，忙即应声走到床前，偏身卧倒。瑶仙往里一让，萧玉方想就势拉她，瑶仙叹道。",
+          "instruct": "叙述"
         },
         "effects": [
           {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "收拾餐具",
-            "trigger_offset": 0.3,
-            "duration": 3.5,
-            "process_mode": "overlay",
-            "name": "收拾碗筷",
-            "sound_cn": "收拾餐具时的瓷器碰撞声",
-            "sound_en": "clearing dishes and utensils, gentle clinking of porcelain and chopsticks, stacking bowls and cups",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 5,
-            "trigger_keyword": "抿嘴一笑",
-            "trigger_offset": 0.3,
+            "trigger_delay": 1.5,
             "duration": 1.5,
             "process_mode": "overlay",
-            "name": "轻笑离去",
-            "sound_cn": "轻笑后端着餐具离去的声音",
-            "sound_en": "soft chuckle and footsteps retreating, carrying dishes, gentle clinking fading",
-            "volume": "-24%",
+            "name": "偏身卧倒",
+            "trigger_keyword": "偏身卧倒",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉侧身躺到床上，床板轻响",
+            "sound_en": "lying down on the bed sideways, creaking of bed frame and rustling of quilt",
+            "volume": "-22%",
             "pitch": "+0Hz"
           }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 63,
-      "role": "旁白",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "今夜之事，该当如何？女儿家爱羞，如不趁热开张亲近，明夜必难。有心上床温存一会，玉人喜怒难测，一个不巧，误会自己欲谋不轨。愿了还好，一非情愿，必然大怒，不好收拾。按说此时最好守俟床前，待她醒转，自己开恩，以表忠诚，方为上策。无如一刻千金，良宵易度。当夜必须归去，其势不能终夜，到时绛雪必来催走。万一不醒，或是怕羞不愿亲近，好容易有此一日，错过岂不可惜？",
-          "instruct": "内心独白，语气焦灼犹豫"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "痴儿，痴儿！你怎一味情痴，丝毫不知利害？",
+          "instruct": "带着叹息和怜惜"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1591,45 +1467,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "似这样进既不敢，退又不舍，眼巴巴望着心上人，只有一帐之隔，不能亲近。思潮起伏，心中乱跳，举棋不定。忍不住走到床前，偷偷揭开帐缝一看，瑶仙面朝外侧卧枕上，睡甚安稳，实在不忍惊扰。看过两次，心想：",
-          "instruct": "紧张叙述"
+          "text": "萧玉惊问何故。瑶仙凄然欲哭道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "揭开帐缝",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "掀帐轻响",
-            "sound_cn": "轻轻掀开床帐的布料摩擦声",
-            "sound_en": "gently parting the bed curtain and peeking in, soft rustling of fabric, careful movement",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 65,
-      "role": "旁白",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "放帘时瑶仙已经合眼，不曾看见。不能亲近，且看她个够再说。",
-          "instruct": "内心独白，语气痴迷"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "我对不起你，好在只有这片刻之间，只要不胡来，由你爱我一会吧。",
+          "instruct": "凄然欲哭，带着愧疚"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1642,57 +1505,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "随把帐子挂起，将灯移近。灯下美人，又当醉后，越看越爱。爱到极处，试把被角微微揭开，忽闻见一股温香自被中透出，立觉心旌摇摇，不能自制。瑶仙本是和衣而卧，被揭处姿态毕呈，首先触目的，便是平时最心爱的那双纤足。村人自从上辈迁隐以来，便订规章垂诫，不许妇女缠足，以免习武操作全都不便，一有事变，妇女不但无用，反成累赘。瑶仙天生丽质，本就通体秾纤合度；加上母女二人俱都爱好天然，把一双足整理得踵跗丰妍，底平指敛，柔若无骨，虽不缠足，临睡仍穿睡鞋，以免走样，端的美秀已极。这时穿着一双雪也似白的袜子，净无微尘，俏生生叠在一起，格外显得动人。再加上那玉股丰盈，柳腰纤细，虽被衣服裹住，外观只是一点轮廓，越易引起人的隐微思索。萧玉对此活色生香，一时情不自禁，悄悄俯身下去，先从双足嗅起，以次而上，闻来闻去。快要闻到脸上，有心亲她一亲，又不敢造次。只得跪在床前，凑近口边，尽管偷闻芳息。正在得趣不解馋之际，瑶仙倏地由醉梦中，将两条玉臂向前一伸，恰将萧玉的头搂住，口中模糊梦话道：",
-          "instruct": "紧张叙述"
+          "text": "萧玉忙一把将她抱住，惊问。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "将灯移近",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "移灯声响",
-            "sound_cn": "将油灯移近的轻微声响",
-            "sound_en": "moving oil lamp closer, gentle scraping on wooden table, slight metallic clink of lamp base",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 6.5,
-            "trigger_keyword": "俯身下去",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "俯身衣响",
-            "sound_cn": "俯身时衣服的轻微摩擦声",
-            "sound_en": "leaning down slowly, fabric rustling, body shifting weight, quiet movement",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 67,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "玉哥哥，你真爱我么？",
-          "instruct": "梦呓般低语，带着痴情"
+          "pitch": "+2Hz",
+          "text": "姊姊何出此言？",
+          "instruct": "惊慌不解"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1705,26 +1543,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "原来二人年岁相差只有十多天，以前瑶仙尚存客气，先喊表哥；两小无猜，日渐亲密，又改称玉哥。平日喊惯了口。直到畹秋死前不久，才问明生日，改呼玉弟。萧玉却始终呼之为姊。爱极忘形之际，忽然娇呼亲密，玉腕环抱。玉人梦中尚且如此，可见情深爱重，如何消受得起。忙就势温存，紧紧贴在玉腮上面，尽量亲热起来。才亲上几口，正在魂销心醉，欲死欲仙之际，瑶仙突地惊醒。见萧玉跪在枕前，正和自己亲热，立即挣身坐起，似要发作。见萧玉满面惊惶，跪地未起，又觉可怜。叹了口气，说道：",
-          "instruct": "紧张叙述"
+          "text": "瑶仙叹道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "挣身坐起",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "起身声响",
-            "sound_cn": "从床上突然坐起的声响",
-            "sound_en": "suddenly sitting up in bed, mattress creaking, fabric rustling, quick startled movement",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1733,17 +1558,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "还不起来，是甚样子？",
-          "instruct": "带着嗔怪和无奈"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你哪里知道，你不用说，连我和绛妹都落在妈的算计中了。实告诉你，妈为报仇，死时对我曾用不少心机，还教我对你许多权谋。我事后追思，始得明白。其实妈平日爱我如命，便不如此，非再转过一个人生，此仇也是必报。何况我又性情刚烈，言出必行，怎肯负我死母？明知不可为，仍然照她所说去做。前昨两晚，我对你忽冷忽热，以及今日，均照妈的指使。前晚你在外面受冻，我的心直如刀刺一样，但是无法。事已至此，不这样，怎会使你死心塌地为我尽力呢？可是你知道么，由明日起，便是起始复仇之日？仇人何等厉害，你我如何近得他身？即或侥幸成功，他手下有本领的门徒那么多，全村何人不会武艺，我夫妻姊妹三人，一个也休想落个全尸。事如不成，守着对妈誓言，你我夫妻永无团圆恩爱之日。地老天荒，此恨无穷，叫我这负心人怎对得起你？",
+          "instruct": "悲叹，越说越心酸，带着无尽的悔恨和痛苦"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1756,13 +1581,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉慌不迭应声起立，忸怩道：",
-          "instruct": "平静叙述"
+          "text": "越说越心酸，竟把头埋在萧玉怀中，哀哀痛哭起来。萧玉闻言，忙宽慰她道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1771,17 +1596,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "姊姊不要生气，我实在太爱你了。",
-          "instruct": "语气慌乱，带着讨好"
+          "pitch": "+2Hz",
+          "text": "好姊姊，快莫伤心，你听我说……",
+          "instruct": "急切宽慰"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1794,26 +1619,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙也不理他，自起对镜理了理发。手抬处，露出嫩藕一般半截玉臂。看得萧玉心里直痒，只是不敢再为冒失，深悔适才只顾亲她，手在颈上环抱，就忘了抚摩一下。瑶仙理完了发，仍回卧枕上，向萧玉道：",
+          "text": "瑶仙泣道。",
           "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "对镜理发",
-            "trigger_offset": 0.3,
-            "duration": 2.5,
-            "process_mode": "overlay",
-            "name": "梳头声",
-            "sound_cn": "对着镜子梳理头发的声音",
-            "sound_en": "combing hair before the mirror, gentle strokes through hair, wooden comb clicking softly",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1822,17 +1634,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "你来同我躺在一个枕头上，应个景儿。适才酒醉，我还有好些话没对你说呢。",
-          "instruct": "语气温和，带着醉后慵懒"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "她老人家只顾复仇心切，到死还用心机，害了爱女，又害了爱婿。事到如今，还有什么说的？绛妹怕你寒心失志，让我不向你吐露。我知道你爱我入骨，为我死了都甘心，不说更难对你，好歹死时也做个明白鬼。女人终是祸水，我也不懂有什么好处，值你这等爱法？为我一个苦命人，害得你不孝不弟，不仁不义，末了再送一条小命，真冤枉呀！",
+          "instruct": "泣不成声，带着自责和悲伤"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1845,45 +1657,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉受宠若惊，忙即应声走到床前，偏身卧倒。瑶仙往里一让，萧玉方想就势拉她，瑶仙叹道：",
-          "instruct": "紧张叙述"
+          "text": "萧玉慨然道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "偏身卧倒",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "卧倒床上",
-            "sound_cn": "偏身卧倒在床上的声音",
-            "sound_en": "lying down on the bed beside her, mattress creaking, body settling, fabric rustling",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 75,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "痴儿，痴儿！你怎一味情痴，丝毫不知利害？",
-          "instruct": "语气带着怜惜和叹息"
+          "pitch": "+2Hz",
+          "text": "姊姊对我这样说法，怎样横死都值。何况人定胜天，也还未必。你说我爱你如命，可知你也和我一样。适才你还怪我亲你，实在我先虽爱极，并没敢乱动。还是你在梦中喊我玉哥哥，伸手先抱我的呀。",
+          "instruct": "慨然表白，带着安慰"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1896,32 +1695,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉惊问何故。瑶仙凄然欲哭道：",
-          "instruct": "平静叙述"
+          "text": "瑶仙闻言，益发伤心，重又哽咽，悲泣不止。萧玉一面温存抚爱，一面温言劝勉道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 77,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "-2Hz",
-          "text": "我对不起你，好在只有这片刻之间，只要不胡来，由你爱我一会吧。",
-          "instruct": "语气凄然，透着愧疚"
+          "pitch": "+2Hz",
+          "text": "人活百岁终须死。我不信只有今生，就无来世。只要彼此心坚，今生能报仇，逃出山去团圆，固是求之不得；设有差池，你我不会再托人生，重结夫妻么？不过今生姊姊惯冷落我，来生我也变个女的，让姊姊变男的，也来爱我，却不似姊姊那样心硬，要亲就亲，要爱就爱，那比今生还好呢。",
+          "instruct": "痴情劝勉，带着幽默和深情"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1934,45 +1733,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉忙一把将她抱住，惊问：",
-          "instruct": "紧张叙述"
+          "text": "这一番痴话，把瑶仙也引得破涕为笑。凄声说道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "一把将她抱住",
-            "trigger_offset": 0.2,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "拥抱声",
-            "sound_cn": "一把将人抱住时布料摩擦和轻微声响",
-            "sound_en": "pulling someone into a sudden embrace, fabric rustling, arms encircling, soft gasp",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 79,
-      "role": "萧玉",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "姊姊何出此言？",
-          "instruct": "语气惊惶"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "好弟弟，我照母亲之计，本定今夜正名以后，稍微让你亲近，把心系住。到了明早，不是为了本题，决不许轻易相见；就见也做得你啼笑皆非，近身不得。适才我是装醉，本意你那样热情，不会不起儿女之私。我呢，既要你为我效死，名分上又是你的妻子，为报母仇，稍微不遵母计，以身相报，不使你枉负虚名，也不为过。可是这么一来，你虽是个人，却近于禽兽。从此我非但看你不起，虽为我百死，也是应该，并且也不会再有好嘴脸对你。谁想你对我真个情有独钟，并无邪念。始而绛妹暗号说你换衣踌躇，继又见你行礼勉强，已觉出你并非禽处兽爱。后来我装醉卧床，仍没有丝毫邪念。我姊妹事前已露出合卺同床口风，你不会不晓得。你爱只管爱极，连惊醒我都不舍得，别的更无庸说。到此才知妈乃临危乱命，所说男子皆为色欲，十九无天良，女子一失身立败之言，不足为凭。现在事情不容易改，我也决不再对你用什权谋。不过人言可畏，事贵机密。你到我家，清弟决不向人泄露，仇人如何知晓？可知有人已对我们留意。尚幸仇人犹念旧情，不但说时用话暗示，连儿女都不使在侧，听那口气，还不许别人欺侮编造。但我们到底不可不防。还有绛妹钟情清弟，劝她不听，我看此事直和报仇一样艰难。并恐清弟不久还要离你往依仇人，到时千万不可拦阻。你只弟兄二人，他不在内，还可留根，以免覆巢之下，更无完卵。便绛妹虽然情痴，也不愿她和我们一起受害。这都是前世冤孽，没法子的事。我已想开，时光不再，反正是你妻子，一会该走，且由你亲热个够吧。",
+          "instruct": "凄声诉说，带着释然和深情"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -1985,13 +1771,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙叹道：",
-          "instruct": "平静叙述"
+          "text": "萧玉起初不是没有欲念，只为新遭丧变，私会情人已乖伦理，如何还敢生邪心。天人交战，时起时止，心终不能无动。及至瑶仙披诚相与，自吐心腹，心中加了许多感激快慰，情爱也随之加增，色欲之私，反倒去了个干净，只相偎相抱，蜜爱轻怜。转不似起初微触肌肤，立即心荡神驰了。一个是多年渴望，才将温香在抱；一个是为檀郎痴情感动，尽去昔谋。二人你爱我，我爱你，恨不能将两个身子融化作一团。偶然想到未来的忧患，又乐极悲来，不可断绝。末了再互相抚慰，尽量温存怜惜，重复拭泪为欢。端的荡气回肠，无限缠绵恩爱，比那真个销魂还要甜蜜亲爱得多。无奈时光易逝，欢娱苦短。瑶仙觉得已到时候，连番催起。萧玉自然不舍，又知瑶仙已不会再加嗔怪，推说到时绛妹必要进房来催，她没前来，可知尚早。只管赖在床上，紧搂瑶仙不肯起来。瑶仙实在也是又怜又爱，不舍分别。二人又恩爱了一阵，瑶仙方估计时久，不能再挨下去，忽听绛雪在帘外咳嗽。萧玉还在留恋，瑶仙无法，只得星波微睨，佯嗔道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2000,17 +1786,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "-2Hz",
-          "text": "你哪里知道，你不用说，连我和绛妹都落在妈的算计中了。实告诉你，妈为报仇，死时对我曾用不少心机，还教我对你许多权谋。我事后追思，始得明白。其实妈平日爱我如命，便不如此，非再转过一个人生，此仇也是必报。何况我又性情刚烈，言出必行，怎肯负我死母？明知不可为，仍然照她所说去做。前昨两晚，我对你忽冷忽热，以及今日，均照妈的指使。前晚你在外面受冻，我的心直如刀刺一样，但是无法。事已至此，不这样，怎会使你死心塌地为我尽力呢？可是你知道么，由明日起，便是起始复仇之日？仇人何等厉害，你我如何近得他身？即或侥幸成功，他手下有本领的门徒那么多，全村何人不会武艺，我夫妻姊妹三人，一个也休想落个全尸。事如不成，守着对妈誓言，你我夫妻永无团圆恩爱之日。地老天荒，此恨无穷，叫我这负心人怎对得起你？",
-          "instruct": "语气悲伤欲绝，倾吐心声"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你又不听我的话了么？",
+          "instruct": "佯嗔，带着无奈"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2023,26 +1809,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "越说越心酸，竟把头埋在萧玉怀中，哀哀痛哭起来。萧玉闻言，忙宽慰她道：",
-          "instruct": "紧张叙述"
+          "text": "萧玉毕竟久受挟持，见她有了怒意，慌道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "哀哀痛哭",
-            "trigger_offset": 0.3,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "痛哭声",
-            "sound_cn": "瑶仙埋在萧玉怀中哀哀痛哭的声音",
-            "sound_en": "Yaoxian sobbing and wailing in Xiao Yu's arms, heart-wrenching cries of grief and despair",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2051,17 +1824,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "好姊姊，快莫伤心，你听我说……",
-          "instruct": "语气急切，急于安慰"
+          "pitch": "+2Hz",
+          "text": "好姊姊，莫生气，我走就是。",
+          "instruct": "慌乱，带着不舍"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2074,13 +1847,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙泣道：",
-          "instruct": "平静叙述"
+          "text": "瑶仙听到“走”字，心里一酸。又见他说完，放手欲起，仍是平日丝毫不敢和自己拂逆神情。忍不住挨向萧玉身上，双伸玉腕，紧紧搂定。边亲边凄声说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2089,17 +1862,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "-2Hz",
-          "text": "她老人家只顾复仇心切，到死还用心机，害了爱女，又害了爱婿。事到如今，还有什么说的？绛妹怕你寒心失志，让我不向你吐露。我知道你爱我入骨，为我死了都甘心，不说更难对你，好歹死时也做个明白鬼。女人终是祸水，我也不懂有什么好处，值你这等爱法？为我一个苦命人，害得你不孝不弟，不仁不义，末了再送一条小命，真冤枉呀！",
-          "instruct": "语气悲泣，自责深重"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "好弟弟，莫伤心，我还不一样舍不得你？这是没法的呀。但愿皇天鉴怜，使我夫妻不问如何，将来仍得团圆吧。",
+          "instruct": "凄声，带着悲切和期盼"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2112,32 +1885,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉慨然道：",
-          "instruct": "平静叙述"
+          "text": "说时，满腔热泪，夺眶而出，流了萧玉一脸。重又叹道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 87,
-      "role": "萧玉",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊对我这样说法，怎样横死都值。何况人定胜天，也还未必。你说我爱你如命，可知你也和我一样。适才你还怪我亲你，实在我先虽爱极，并没敢乱动。还是你在梦中喊我玉哥哥，伸手先抱我的呀。",
-          "instruct": "语气慨然，带着深情和辩解"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "唉！照我们日后所行所为，只恐鬼物见嫉，天是不会垂怜的了。",
+          "instruct": "叹息，带着绝望"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2150,32 +1923,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙闻言，益发伤心，重又哽咽，悲泣不止。萧玉一面温存抚爱，一面温言劝勉道：",
-          "instruct": "紧张叙述"
+          "text": "萧玉眼含痛泪，反手搂抱，正待慰解。绛雪在外说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 89,
-      "role": "萧玉",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "人活百岁终须死。我不信只有今生，就无来世。只要彼此心坚，今生能报仇，逃出山去团圆，固是求之不得；设有差池，你我不会再托人生，重结夫妻么？不过今生姊姊惯冷落我，来生我也变个女的，让姊姊变男的，也来爱我，却不似姊姊那样心硬，要亲就亲，要爱就爱，那比今生还好呢。",
-          "instruct": "语气温柔，带着痴情和安慰"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "姊姊，我已来了一会了，请和姊夫起来，说几句话，走吧。",
+          "instruct": "带着催促"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2188,13 +1961,26 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "这一番痴话，把瑶仙也引得破涕为笑。凄声说道：",
-          "instruct": "平静叙述"
+          "text": "瑶仙闻言，料时不早，心中一惊，连忙松手挣脱萧玉怀抱，略拭眼泪，由床上纵下地来，取鞋要穿。萧玉也跟着坐起，见瑶仙坐在床边，跷起一只俏生生的纤足。适才床上一滚，袜带脱落，恰将足瞳露出，玉肌如雪，又白又嫩。不禁情动，觉着这双香脚，尚未亲热抚爱，是个憾事。惟恐瑶仙又说他苦缠，连忙改坐为跪，先朝瑶仙扮个苦脸哀乞之容，然后俯身下去，将那一条软玉捧将起来，先是连摸带微闻，随又朝她袜口露肉一段狂嗅不已。继见瑶仙停手相待，任他爱玩，愈发心贪，又试探着想将素袜脱去。瑶仙见他太已情狂，不忍斥责，只得喊道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "纵下地来",
+            "trigger_keyword": "纵下地来",
+            "trigger_offset": 0.0,
+            "sound_cn": "瑶仙从床上跳下地，轻巧落地声",
+            "sound_en": "light jump from bed to floor, soft landing and fabric rustling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2203,17 +1989,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "好弟弟，我照母亲之计，本定今夜正名以后，稍微让你亲近，把心系住。到了明早，不是为了本题，决不许轻易相见；就见也做得你啼笑皆非，近身不得。适才我是装醉，本意你那样热情，不会不起儿女之私。我呢，既要你为我效死，名分上又是你的妻子，为报母仇，稍微不遵母计，以身相报，不使你枉负虚名，也不为过。可是这么一来，你虽是个人，却近于禽兽。从此我非但看你不起，虽为我百死，也是应该，并且也不会再有好嘴脸对你。谁想你对我真个情有独钟，并无邪念。始而绛妹暗号说你换衣踌躇，继又见你行礼勉强，已觉出你并非禽处兽爱。后来我装醉卧床，仍没有丝毫邪念。我姊妹事前已露出合卺同床口风，你不会不晓得。你爱只管爱极，连惊醒我都不舍得，别的更无庸说。到此才知妈乃临危乱命，所说男子皆为色欲，十九无天良，女子一失身立败之言，不足为凭。现在事情不容易改，我也决不再对你用什权谋。不过人言可畏，事贵机密。你到我家，清弟决不向人泄露，仇人如何知晓？可知有人已对我们留意。尚幸仇人犹念旧情，不但说时用话暗示，连儿女都不使在侧，听那口气，还不许别人欺侮编造。但我们到底不可不防。还有绛妹钟情清弟，劝她不听，我看此事直和报仇一样艰难。并恐清弟不久还要离你往依仇人，到时千万不可拦阻。你只弟兄二人，他不在内，还可留根，以免覆巢之下，更无完卵。便绛妹虽然情痴，也不愿她和我们一起受害。这都是前世冤孽，没法子的事。我已想开，时光不再，反正是你妻子，一会该走，且由你亲热个够吧。",
-          "instruct": "语气凄婉，透着深情和决绝"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "绛妹进来吧，我下床了。",
+          "instruct": "带着无奈和纵容"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2226,26 +2012,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉起初不是没有欲念，只为新遭丧变，私会情人已乖伦理，如何还敢生邪心。天人交战，时起时止，心终不能无动。及至瑶仙披诚相与，自吐心腹，心中加了许多感激快慰，情爱也随之加增，色欲之私，反倒去了个干净，只相偎相抱，蜜爱轻怜。转不似起初微触肌肤，立即心荡神驰了。一个是多年渴望，才将温香在抱；一个是为檀郎痴情感动，尽去昔谋。二人你爱我，我爱你，恨不能将两个身子融化作一团。偶然想到未来的忧患，又乐极悲来，不可断绝。末了再互相抚慰，尽量温存怜惜，重复拭泪为欢。端的荡气回肠，无限缠绵恩爱，比那真个销魂还要甜蜜亲爱得多。无奈时光易逝，欢娱苦短。瑶仙觉得已到时候，连番催起。萧玉自然不舍，又知瑶仙已不会再加嗔怪，推说到时绛妹必要进房来催，她没前来，可知尚早。只管赖在床上，紧搂瑶仙不肯起来。瑶仙实在也是又怜又爱，不舍分别。二人又恩爱了一阵，瑶仙方估计时久，不能再挨下去，忽听绛雪在帘外咳嗽。萧玉还在留恋，瑶仙无法，只得星波微睨，佯嗔道：",
-          "instruct": "紧张叙述"
+          "text": "随手一推，将脚夺过，朝萧玉白了一眼，似笑似愠地低语道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "帘外咳嗽",
-            "trigger_offset": -0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "轻咳声",
-            "sound_cn": "绛雪在帘外轻声咳嗽提醒的声音",
-            "sound_en": "Jiang Xue coughing lightly outside the curtain, subtle clearing of throat, soft warning signal",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2254,17 +2027,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "你又不听我的话了么？",
-          "instruct": "佯装嗔怒，带着娇态"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "这大半夜还没狂够？天都什么时候了？看爹爹这身衣服被你揉成什么样子？",
+          "instruct": "似笑似愠，带着嗔怪"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2277,32 +2050,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉毕竟久受挟持，见她有了怒意，慌道：",
-          "instruct": "平静叙述"
+          "text": "同时绛雪也掀帘走进。萧玉知道再闹，恐要触怒，只得穿鞋下床，自去椅上坐定。绛雪抱着萧玉衣服走来，见萧玉满脸泪脂狼藉，目光注定瑶仙，如呆子一般。一身吉服满是皱痕。瑶仙也是云鬓蓬松，泪光莹滑，脂粉零乱，皱纹满衣。直似二人扭结着，打了一次长架神气，暗中好笑。想起适才所闻情景，又代二人可怜可惨，眼睛一酸，几乎落下泪来。瑶仙原不避她，便问。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 95,
-      "role": "萧玉",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "好姊姊，莫生气，我走就是。",
-          "instruct": "语气慌乱，透着讨好"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "妹子既然早来，天想快亮了吧？",
+          "instruct": "带着询问"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2315,32 +2088,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙听到",
+          "text": "绛雪道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 97,
-      "role": "旁白",
+      "role": "绛雪",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "走",
-          "instruct": "平静叙述"
+          "role": "绛雪",
+          "role_voice": "小玲-稚嫩,萝莉女声",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+6Hz",
+          "text": "时候倒还不算很晚，但你必有话没对姊夫说呢。",
+          "instruct": "带着暗示"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2353,26 +2126,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "字，心里一酸。又见他说完，放手欲起，仍是平日丝毫不敢和自己拂逆神情。忍不住挨向萧玉身上，双伸玉腕，紧紧搂定。边亲边凄声说道：",
-          "instruct": "紧张叙述"
+          "text": "瑶仙闻言，略一寻思道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "双伸玉腕",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "紧抱声",
-            "sound_cn": "伸出双臂紧紧搂抱的布料摩擦声",
-            "sound_en": "reaching out and embracing tightly, fabric rustling, arms wrapping around, soft whisper",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2381,17 +2141,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "-2Hz",
-          "text": "好弟弟，莫伤心，我还不一样舍不得你？这是没法的呀。但愿皇天鉴怜，使我夫妻不问如何，将来仍得团圆吧。",
-          "instruct": "语气凄婉，含泪倾诉"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "妹子，你到这里来，我有话说。",
+          "instruct": "带着郑重"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2404,26 +2164,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "说时，满腔热泪，夺眶而出，流了萧玉一脸。重又叹道：",
-          "instruct": "紧张叙述"
+          "text": "绛雪倏地面容一变，随了过去。萧玉见状，暗忖：她姊妹说话，此时怎还避我？留心一查看，见瑶仙附着绛雪耳朵说了几句话，绛雪始而摇头，继而耳语，意似不愿。末了瑶仙面带惶急，又拜了两拜。绛雪方始有了允意，朝萧玉瞟了一眼，又叹口气。萧玉先前不解，后见瑶仙不住万福央告，从小自今，第一次看见她软脸向人，才悟出瑶仙必是见兄弟不要绛雪为妻，怜她狐单，意欲二女同归。暗忖：姊姊对我恩情如海，怎还忍心再爱别人？何况她又一心恋着兄弟，此举万来不得。且装不知，等将来姊姊对我提起，我再婉言相拒便了。正在胡思乱想，瑶仙已把话说完，走过来说道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "热泪夺眶而出",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "落泪声",
-            "sound_cn": "泪水滴落的细微声响",
-            "sound_en": "tears falling and dripping onto fabric, subtle wet droplets, emotional moment",
-            "volume": "-30%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2432,17 +2179,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "-2Hz",
-          "text": "唉！照我们日后所行所为，只恐鬼物见嫉，天是不会垂怜的了。",
-          "instruct": "语气绝望，透着自省"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "天还尚早，玉弟吃点东西再走，我已请绛妹偏劳了。",
+          "instruct": "带着温柔"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2455,32 +2202,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉眼含痛泪，反手搂抱，正待慰解。绛雪在外说道：",
-          "instruct": "平静叙述"
+          "text": "绛雪又看了萧玉一眼，转身走出。萧玉大喜，又想过去搂抱。瑶仙说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 103,
-      "role": "绛雪",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊，我已来了一会了，请和姊夫起来，说几句话，走吧。",
-          "instruct": "语气催促，带着无奈"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你这人怎这样俗法？乖乖给我坐在那里。",
+          "instruct": "假怒，带着嗔怪"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2493,57 +2240,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙闻言，料时不早，心中一惊，连忙松手挣脱萧玉怀抱，略拭眼泪，由床上纵下地来，取鞋要穿。萧玉也跟着坐起，见瑶仙坐在床边，跷起一只俏生生的纤足。适才床上一滚，袜带脱落，恰将足踵露出，玉肌如雪，又白又嫩。不禁情动，觉着这双香脚，尚未亲热抚爱，是个憾事。惟恐瑶仙又说他苦缠，连忙改坐为跪，先朝瑶仙扮个苦脸哀乞之容，然后俯身下去，将那一条软玉捧将起来，先是连摸带微闻，随又朝她袜口露肉一段狂嗅不已。继见瑶仙停手相待，任他爱玩，愈发心贪，又试探着想将素袜脱去。瑶仙见他太已情狂，不忍斥责，只得喊道：",
-          "instruct": "紧张叙述"
+          "text": "萧玉央告道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "由床上纵下地来",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "纵身下床",
-            "sound_cn": "从床上纵身跃下地来的声响",
-            "sound_en": "jumping down from bed to the floor, light landing, feet touching floor softly",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 7,
-            "trigger_keyword": "改坐为跪",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "跪地声响",
-            "sound_cn": "从坐到跪的衣料摩擦和膝盖落地声",
-            "sound_en": "changing from sitting to kneeling, fabric rustling, knees hitting floor with soft thud",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 105,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "绛妹进来吧，我下床了。",
-          "instruct": "语气带着无奈和催促"
+          "pitch": "+2Hz",
+          "text": "那么我和姊姊都坐在床边去吧。",
+          "instruct": "带着央求"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2556,13 +2278,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "随手一推，将脚夺过，朝萧玉白了一眼，似笑似愠地低语道：",
+          "text": "瑶仙假怒作色道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2571,17 +2293,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "这大半夜还没狂够？天都什么时候了？看爹爹这身衣服被你揉成什么样子？",
-          "instruct": "似笑似愠，带着娇嗔"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "我偏不坐床边。",
+          "instruct": "假怒，带着娇嗔"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2594,26 +2316,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "同时绛雪也掀帘走进。萧玉知道再闹，恐要触怒，只得穿鞋下床，自去椅上坐定。绛雪抱着萧玉衣服走来，见萧玉满脸泪脂狼藉，目光注定瑶仙，如呆子一般。一身吉服满是皱痕。瑶仙也是云鬓蓬松，泪光莹滑，脂粉零乱，皱纹满衣。直似二人扭结着，打了一次长架神气，暗中好笑。想起适才所闻情景，又代二人可怜可惨，眼睛一酸，几乎落下泪来。瑶仙原不避她，便问：",
-          "instruct": "紧张叙述"
+          "text": "说罢走了过来，推萧玉道。",
+          "instruct": "叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "掀帘走进",
-            "trigger_offset": 0.3,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "掀帘入室",
-            "sound_cn": "掀开门帘走进房间的布料摩擦声",
-            "sound_en": "lifting door curtain and entering the room, fabric rustling, soft footsteps on floor",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2622,17 +2331,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "妹子既然早来，天想快亮了吧？",
-          "instruct": "平静询问"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "过去些，我还没有地方坐呢。",
+          "instruct": "带着轻柔的催促"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2645,32 +2354,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "绛雪道：",
-          "instruct": "平静叙述"
+          "text": "萧玉已知她怒是假的，连忙让出一半椅子，二人并肩坐下。瑶仙道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 111,
-      "role": "绛雪",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "绛雪",
-          "role_voice": "甜美小橘-甜妹",
-          "speed": "-1%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "时候倒还不算很晚，但你必有话没对姊夫说呢。",
-          "instruct": "语气提醒"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "妈对爹常说：上床夫妇，下床君子。本来你此时该走，是我可怜你太不容易，和绛妹求说，留你稍坐一会，吃点东西，身上暖和些再走。你如像方才一样胡闹，我就生气了。说点正经话多好。",
+          "instruct": "带着认真和温柔"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2683,13 +2392,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙闻言，略一寻思道：",
-          "instruct": "平静叙述"
+          "text": "萧玉装着委曲应了。瑶仙说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2698,17 +2407,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "妹子，你到这里来，我有话说。",
-          "instruct": "语气带着商量的意味"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你莫和我做作，我此时为你，心比刀绞还要难受呢。",
+          "instruct": "带着痛苦和深情"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2721,32 +2430,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "绛雪倏地面容一变，随了过去。萧玉见状，暗忖：",
-          "instruct": "紧张叙述"
+          "text": "萧玉惊问。",
+          "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 115,
-      "role": "旁白",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "她姊妹说话，此时怎还避我？",
-          "instruct": "内心独白，语气疑惑"
+          "pitch": "+2Hz",
+          "text": "姊姊说不伤心，怎又伤心了？",
+          "instruct": "惊讶，带着关切"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2759,45 +2468,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "留心一查看，见瑶仙附着绛雪耳朵说了几句话，绛雪始而摇头，继而耳语，意似不愿。末了瑶仙面带惶急，又拜了两拜。绛雪方始有了允意，朝萧玉瞟了一眼，又叹口气。萧玉先前不解，后见瑶仙不住万福央告，从小自今，第一次看见她软脸向人，才悟出瑶仙必是见兄弟不要绛雪为妻，怜她孤单，意欲二女同归。暗忖：",
-          "instruct": "紧张叙述"
+          "text": "瑶仙道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "trigger_keyword": "附着绛雪耳朵",
-            "trigger_offset": 0.3,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "附耳私语",
-            "sound_cn": "附耳低声交谈的细碎气声",
-            "sound_en": "whispering closely into the ear, secretive murmurs, hushed breathy tones, intimate confiding",
-            "volume": "-30%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 117,
-      "role": "旁白",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "旁白",
-          "role_voice": "云健-低沉",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "姊姊对我恩情如海，怎还忍心再爱别人？何况她又一心恋着兄弟，此举万来不得。且装不知，等将来姊姊对我提起，我再婉言相拒便了。",
-          "instruct": "内心独白，带着占有欲"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "不是伤心，是难受，这且不对你说。我来问你：明日该是起始复仇日子，虽不是当天行事，要在两家葬母之后才行发难，事前总该有个打算。我知你已豁出一条命，但白送性命于事无济，岂不更冤？你打什么主意没有？",
+          "instruct": "带着严肃和关切"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2810,32 +2506,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "正在胡思乱想，瑶仙已把话说完，走过来说道：",
+          "text": "萧玉道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 119,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "天还尚早，玉弟吃点东西再走，我已请绛妹偏劳了。",
-          "instruct": "语气温和"
+          "pitch": "+2Hz",
+          "text": "昨晚为此我想了一夜，觉着人要舍命，事无不成，只有一桩难处。现在主意已经想好，但我不能先说。姊姊必须怜我，不要见怪，也必须依我的话做。总之事成，我必能脱身。不过姊姊、绛妹事前务要先逃。一则免我心悬姊姊，于事有碍；二则免你两姊妹事后白白受害。",
+          "instruct": "带着决绝和安排"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2848,13 +2544,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "绛雪又看了萧玉一眼，转身走出。萧玉大喜，又想过去搂抱。瑶仙说道：",
-          "instruct": "平静叙述"
+          "text": "还要往下说时，瑶仙已明白他心意，不过身任其难，拼死行刺，却放自己逃走，并非什么好主意。笑说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2863,17 +2559,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "你这人怎这样俗法？乖乖给我坐在那里。",
-          "instruct": "带着几分嗔怪"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你倒说得容易，果真你能近得人身也罢。告诉你，这个方法我们早已想过，只是万般不得已的下策。须到万般绝望，只杀老的一人，才拼这命呢。此刻还不到时候，千万做它不得。我适才想，到底事缓易图，到时看事行事的对，用不着先就愁烦。现和绛妹商定，改换前策。决计过了百期，商好步骤，出其不意，说下手就下手。横竖我三人早晚死在一起，乐得快活一天算一天。明天你先不要来，等过破五或首七葬后，清弟必走，那时再想法时常聚首。一则你母亲生你一场，也该尽点孝心；二则你也少受人一点唾骂；并且还可证实我对仇人日间所说的话，免去他的疑心，日后下手也较易些。你看如何？",
+          "instruct": "带着笑意和计议，实则语重心长"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2886,32 +2582,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉央告道：",
-          "instruct": "平静叙述"
+          "text": "萧玉自是不愿，方要开口，瑶仙微怒道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 123,
-      "role": "萧玉",
+      "role": "瑶仙",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "那么我和姊姊都坐在床边去吧。",
-          "instruct": "语气带着央求"
+          "role": "瑶仙",
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你这人不知好歹，不是冒失，就是只图眼前。本来为避仇敌和村人疑忌，今日一聚，便当与你疏远。因为可怜你，推后了几天。适才又向绛雪求说，拼着多受艰难，反正不要性命，下手日期既改在百期以后，还由你时常相聚，你偏连这个三几天的分手都耐不得。绛妹为此还埋怨我对你情痴，恐怕难免将来误事，倒落个两头不讨好，真呕人呢。",
+          "instruct": "微怒，带着娇嗔和无奈"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2924,32 +2620,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙假怒作色道：",
+          "text": "萧玉慌道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 125,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "我偏不坐床边。",
-          "instruct": "假怒，带着娇俏"
+          "pitch": "+2Hz",
+          "text": "我又没说不听，姊姊错怪我了。",
+          "instruct": "慌乱辩解"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2962,13 +2658,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "说罢走了过来，推萧玉道：",
+          "text": "瑶仙说道。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -2977,17 +2673,17 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "过去些，我还没有地方坐呢。",
-          "instruct": "语气中带着娇嗔"
+          "role_voice": "元气甜妹-元气,甜美",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+4Hz",
+          "text": "你那几根肠子，我数都数得清，还看不出你的神气？才一点也不错怪你呢。既肯听我，从此我在下手三日以前，决不再想伤心的事。只等你过了破五常来，只要不思邪，一切由你。总算报答对我的痴情，做鬼也心安些。就这机会，万一能想法使清弟和绛妹这段姻缘成就，我就索性把他两个撇开，否则万无两全之理。报仇之事，有我夫妻已足，但能少饶一个，总是好的。话却要出丧以后得便再说，不可操切。清弟如再固执，绛妹虽是女流，刚烈更胜于我，便是清弟允婚，也只心上安乐，未必就此罢手。她叫你不要勉强清弟，便由于终不能长相爱好之故。再如不允，忿激之下，更是无法劝转。适才看她神情，弄巧还会先我发难。为你这冤家，此后还得对她多留一点神呢。",
+          "instruct": "带着深情的警告和安排"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3000,32 +2696,57 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉已知她怒是假的，连忙让出一半椅子，二人并肩坐下。瑶仙道：",
-          "instruct": "平静叙述"
+          "text": "萧玉听了，才知瑶仙适才和绛雪耳语，另有深意，益发刻骨沦肌，感激涕零。瑶仙又劝他，彼此心迹已明，此后好在心里，不可过于轻狂。萧玉把她爱若性命，敬如天人，一一应了。瑶仙见他果然不再乱动手脚，无形之中又加增了若干怜爱。一会，绛雪端着三份挂面进来，催着吃完。萧玉受了瑶仙之教，知道绛雪不怎看得他起，不能再留。于万般无奈之中，不等开口，起身告辞。瑶仙请绛雪收拾盘碗。待萧玉穿好衣服斗篷，亲自送出。到门口，又任他紧紧搂抱亲了两亲，方始各自凄然分别。萧玉别时虽然难受，走到路上，想起前事，恍如梦境，只觉心身康泰，无虑无优。到家天已快亮。轻轻掩进一看，兄弟正跪灵前，对着一盏昏灯默默诵经，尚且未睡。不禁重又激发天良，抱愧万分，低声唤道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 7.0,
+            "duration": 2.0,
+            "process_mode": "overlay",
+            "name": "端面",
+            "trigger_keyword": "端着三份挂面",
+            "trigger_offset": 0.0,
+            "sound_cn": "绛雪端面进来，碗筷轻碰声",
+            "sound_en": "bowls and chopsticks clinking softly as noodles are brought in",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "掩门",
+            "trigger_keyword": "轻轻掩进",
+            "trigger_offset": 0.0,
+            "sound_cn": "萧玉轻轻掩门进屋，门轴微响",
+            "sound_en": "door being gently pushed open and closed, soft creak and latch clicking",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 129,
-      "role": "瑶仙",
+      "role": "萧玉",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧玉",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "妈对爹常说：上床夫妇，下床君子。本来你此时该走，是我可怜你太不容易，和绛妹求说，留你稍坐一会，吃点东西，身上暖和些再走。你如像方才一样胡闹，我就生气了。说点正经话多好。",
-          "instruct": "语气认真，带着关切"
+          "pitch": "+2Hz",
+          "text": "毛弟，我身坠情网，甘为罪人，实在对不起你这好兄弟。",
+          "instruct": "低声，带着愧疚和忏悔"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3038,32 +2759,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉装着委曲应了。瑶仙说道：",
-          "instruct": "平静叙述"
+          "text": "萧清如在平日，经此一言，早已感动。因日里见他那等神情，全不以亡母为念，入晚便赴情人幽会，彻夜不归，料定与瑶仙有了苟且。三奸同谋。祸发无日，万难挽救，心已凉到极点。只当又是受人指教，软语卖好，便作说客。自己本是睡了一觉起来，想借为亡母念经乞福为名，以备抵挡他的絮絮不休，挨过破五，舍此他去。闻言不但没觉出乃兄天良发现，反觉惶急，怕听下文。故意念完一遍，才答话道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 4.0,
+            "process_mode": "overlay",
+            "name": "诵经",
+            "trigger_keyword": "默默诵经",
+            "trigger_offset": -1.0,
+            "sound_cn": "萧清低声诵经，木鱼轻响",
+            "sound_en": "soft chanting of sutras and occasional gentle tap of a wooden fish",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 131,
-      "role": "瑶仙",
+      "role": "萧清",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "你莫和我做作，我此时为你，心比刀绞还要难受呢。",
-          "instruct": "语气深情感伤"
+          "pitch": "0Hz",
+          "text": "我跪在神前许下心愿，今晚为妈念完这一藏经。哥哥请先睡吧。",
+          "instruct": "冷淡而礼貌，带着疏离"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3076,13 +2810,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉惊问：",
-          "instruct": "平静叙述"
+          "text": "萧玉听了，越发惭愧，有心陪他同念，又觉不孝之罪已无可追，不是念这一夜经便能挽盖，心也沉不下去。知道乃弟志诚心坚，说了必行，只得说道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3091,17 +2825,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "姊姊说不伤心，怎又伤心了？",
-          "instruct": "语气关切"
+          "pitch": "+2Hz",
+          "text": "毛弟累了三天，早些念完进来睡吧。你该死的哥哥不陪你了。",
+          "instruct": "带着愧疚和无奈"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3114,32 +2848,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙道：",
-          "instruct": "平静叙述"
+          "text": "萧清也没听进耳去，含糊应了。弟兄二人同室异梦，各有各的心事，勉强挨过破五。到了头七，崔、萧两家同时出殡，萧逸亲往照看，两家子女各不免悲哭一番。等到安葬完毕，萧逸便把萧氏弟兄唤至面前，先训勉几句，教以此后如何为人。临分手时，忽作不经意地对萧清道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "duration": 4.0,
+            "process_mode": "overlay",
+            "name": "出殡哀乐",
+            "trigger_keyword": "出殡",
+            "trigger_offset": -1.0,
+            "sound_cn": "出殡时的哀乐和悲哭声，庄严肃穆",
+            "sound_en": "solemn funeral music and weeping, mournful atmosphere with gongs and bells",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 135,
-      "role": "瑶仙",
+      "role": "萧逸",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧逸",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
           "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "不是伤心，是难受，这且不对你说。我来问你：明日该是起始复仇日子，虽不是当天行事，要在两家葬母之后才行发难，事前总该有个打算。我知你已豁出一条命，但白送性命于事无济，岂不更冤？你打什么主意没有？",
-          "instruct": "语气严肃认真"
+          "pitch": "-2Hz",
+          "text": "清侄你年纪大幼，用功正紧之际，天性又厚，日内可搬到我家去住，免得孤凄伤心，耽误进境吧。",
+          "instruct": "沉稳慈和，带着关怀"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3152,32 +2899,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉道：",
+          "text": "郝潜夫在侧，首先赞诺说。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 137,
-      "role": "萧玉",
+      "role": "郝潜夫",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role": "郝潜夫",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "昨晚为此我想了一夜，觉着人要舍命，事无不成，只有一桩难处。现在主意已经想好，但我不能先说。姊姊必须怜我，不要见怪，也必须依我的话做。总之事成，我必能脱身。不过姊姊、绛妹事前务要先逃。一则免我心悬姊姊，于事有碍；二则免你两姊妹事后白白受害。",
-          "instruct": "语气郑重，欲言又止"
+          "pitch": "+1Hz",
+          "text": "清弟每日在家哭得可怜，好在都不在家里做斋，索性今天搬去也好。",
+          "instruct": "附和，带着劝解"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3190,32 +2937,45 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "还要往下说时，瑶仙已明白他心意，不过身任其难，拼死行刺，却放自己逃走，并非什么好主意。笑说道：",
-          "instruct": "平静叙述"
+          "text": "随约了两个同门弟兄，不由分说，拉了萧清就去搬运铺盖和兵刃书籍。萧玉自受二女指教，虽在意中，见乃弟对他避之惟恐不逞，看神情似早预定，别时只说了。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "搬运",
+            "trigger_keyword": "搬运铺盖",
+            "trigger_offset": 0.0,
+            "sound_cn": "搬运铺盖和书籍的动静，布料和木器摩擦声",
+            "sound_en": "luggage being moved, cloth rustling and wooden objects being lifted and carried",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 139,
-      "role": "瑶仙",
+      "role": "萧清",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "你倒说得容易，果真你能近得人身也罢。告诉你，这个方法我们早已想过，只是万般不得已的下策。须到万般绝望，只杀老的一人，才拼这命呢。此刻还不到时候，千万做它不得。我适才想，到底事缓易图，到时看事行事的对，用不着先就愁烦。现和绛妹商定，改换前策。决计过了百期，商好步骤，出其不意，说下手就下手。横竖我三人早晚死在一起，乐得快活一天算一天。明天你先不要来，等过破五或首七葬后，清弟必走，那时再想法时常聚首。一则你母亲生你一场，也该尽点孝心；二则你也少受人一点唾骂；并且还可证实我对仇人日间所说的话，免去他的疑心，日后下手也较易些。你看如何？",
-          "instruct": "语气果断，透着谋划"
+          "text": "哥哥保重。",
+          "instruct": "简短冷淡，带着决绝"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3228,32 +2988,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉自是不愿，方要开口，瑶仙微怒道：",
-          "instruct": "平静叙述"
+          "text": "全无留恋。想起众叛亲离，不以为人，又是伤心，又是气忿。二女在葬场上尽哀尽礼，正眼也没看萧氏兄弟一下，做得极好。连萧逸都几乎觉得人言难凭，未必会步乃母后尘了。萧清因郝潜夫和诸同门苦劝，依叔受业，又非远离，永不相见，再加目睹乃兄种种倒行逆施之状，为顾大局，自以洁身避祸为是。又见兄长自初三夜回来，直到出殡，都守在家中，同办亡母身后，更不外出，神情也不似日前昏乱，也不再代绛雪说亲，相待更是和善。以为乃兄受人愚弄，忽然悔悟，不禁又勾动手足之情，不舍弃之而去。继一想：本就不远，天天都可相见。只要查出哥哥真个改好，索性和叔父求说，连他一齐搬过去，永离祸害，岂不更好？迁居叔家，事已定局，想过也就拉倒。郝潜夫虽然就近，因防出事，不便托他查看。在萧逸家中住了三日，每日归视，萧玉俱在读书习武。成心隔上三日又往查看，仍未离开。萧清问他。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 141,
-      "role": "瑶仙",
+      "role": "萧清",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "萧清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "你这人不知好歹，不是冒失，就是只图眼前。本来为避仇敌和村人疑忌，今日一聚，便当与你疏远。因为可怜你，推后了几天。适才又向绛雪求说，拼着多受艰难，反正不要性命，下手日期既改在百期以后，还由你时常相聚，你偏连这个三几天的分手都耐不得。绛妹为此还埋怨我对你情痴，恐怕难免将来误事，倒落个两头不讨好，真呕人呢。",
-          "instruct": "微怒中带着关切"
+          "pitch": "0Hz",
+          "text": "怎不去向叔父求教。",
+          "instruct": "带着关心和试探"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3266,13 +3026,13 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉慌道：",
+          "text": "萧玉说。",
           "instruct": "平静叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3281,17 +3041,17 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role_voice": "文乐-阳光少年,情感",
+          "speed": "+2%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "我又没说不听，姊姊错怪我了。",
-          "instruct": "语气慌乱辩解"
+          "pitch": "+2Hz",
+          "text": "叔父定信郝家小儿馋言。否则你也不会搬走。自来消谤莫如自修。自从毛弟一去，我十分愧悔发奋。好在郝老还讲公道。我是想做出点样子，等吹到叔父耳中去，连恨我的人都改了口气，说我好时，我再往求他连我一起叫去，弟兄一同受业多好。这也是瑶仙表姊的好处。我实在爱她如命，她妈又曾许我。谁知母死伤心，立誓不嫁。我连求她三日，始而还存客气，末一天竟下逐客之令，使我伤心已极。不信你问郝家小鬼，哪晚我不在此看书习武到深夜，几曾离开过么？",
+          "instruct": "带着辩解和伪装"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3304,32 +3064,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "瑶仙说道：",
-          "instruct": "平静叙述"
+          "text": "萧清闻言，大为感动。私底下一问潜夫，潜夫冷笑答道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 145,
-      "role": "瑶仙",
+      "role": "郝潜夫",
       "api": {
         "voice": {
-          "role": "瑶仙",
-          "role_voice": "俏皮女声-活泼,元气",
-          "speed": "-2%",
+          "role": "郝潜夫",
+          "role_voice": "君凯-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "0Hz",
-          "text": "你那几根肠子，我数都数得清，还看不出你的神气？才一点也不错怪你呢。既肯听我，从此我在下手三日以前，决不再想伤心的事。只等你过了破五常来，只要不思邪，一切由你。总算报答对我的痴情，做鬼也心安些。就这机会，万一能想法使清弟和绛妹这段姻缘成就，我就索性把他两个撇开，否则万无两全之理。报仇之事，有我夫妻已足，但能少饶一个，总是好的。话却要出丧以后得便再说，不可操切。清弟如再固执，绛妹虽是女流，刚烈更胜于我，便是清弟允婚，也只心上安乐，未必就此罢手。她叫你不要勉强清弟，便由于终不能长相爱好之故。再如不允，忿激之下，更是无法劝转。适才看她神情，弄巧还会先我发难。为你这冤家，此后还得对她多留一点神呢。",
-          "instruct": "语气认真透着深情，带着忧虑"
+          "pitch": "+1Hz",
+          "text": "你不用问，此人丧心病狂，无药可医了。",
+          "instruct": "冷笑，带着鄙夷"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3342,69 +3102,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉听了，才知瑶仙适才和绛雪耳语，另有深意，益发刻骨沦肌，感激涕零。瑶仙又劝他，彼此心迹已明，此后好在心里，不可过于轻狂。萧玉把她爱若性命，敬如天人，一一应了。瑶仙见他果然不再乱动手脚，无形之中又加增了若干怜爱。一会，绛雪端着三份挂面进来，催着吃完。萧玉受了瑶仙之教，知道绛雪不怎看得他起，不能再留。于万般无奈之中，不等开口，起身告辞。瑶仙请绛雪收拾盘碗。待萧玉穿好衣服斗篷，亲自送出。到门口，又任他紧紧搂抱亲了两亲，方始各自凄然分别。萧玉别时虽然难受，走到路上，想起前事，恍如梦境，只觉心身康泰，无虑无优。到家天已快亮。轻轻掩进一看，兄弟正跪灵前，对着一盏昏灯默默诵经，尚且未睡。不禁重又激发天良，抱愧万分，低声唤道：",
-          "instruct": "紧张叙述"
+          "text": "萧清再三盘诘。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "端着三份挂面进来",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "端面进房",
-            "sound_cn": "端面进来时的碗筷轻碰声",
-            "sound_en": "carrying three bowls of noodles into the room, gentle clinking of bowls and chopsticks",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 12,
-            "trigger_keyword": "穿好衣服斗篷",
-            "trigger_offset": 0.3,
-            "duration": 2.5,
-            "process_mode": "overlay",
-            "name": "穿衣整装",
-            "sound_cn": "穿好衣服和斗篷的布料摩擦声",
-            "sound_en": "putting on clothes and cloak properly, fabric rustling, belts adjusting, cloth settling",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 20.5,
-            "trigger_keyword": "轻轻掩进",
-            "trigger_offset": 0.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "轻声进门",
-            "sound_cn": "轻轻掩进门内的脚步声",
-            "sound_en": "gently entering through the door, careful footsteps, door closing softly",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 147,
-      "role": "萧玉",
+      "role": "萧清",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role": "萧清",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
           "volume": "0%",
-          "pitch": "+1Hz",
-          "text": "毛弟，我身坠情网，甘为罪人，实在对不起你这好兄弟。",
-          "instruct": "语气惭愧自责"
+          "pitch": "0Hz",
+          "text": "哥哥每夜出去也未？",
+          "instruct": "追问"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3417,45 +3140,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清如在平日，经此一言，早已感动。因日里见他那等神情，全不以亡母为念，入晚便赴情人幽会，彻夜不归，料定与瑶仙有了苟且。三奸同谋。祸发无日，万难挽救，心已凉到极点。只当又是受人指教，软语卖好，便作说客。自己本是睡了一觉起来，想借为亡母念经乞福为名，以备抵挡他的絮絮不休，挨过破五，舍此他去。闻言不但没觉出乃兄天良发现，反觉惶急，怕听下文。故意念完一遍，才答话道：",
-          "instruct": "紧张叙述"
+          "text": "潜夫答道。",
+          "instruct": "平静叙述"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "念经",
-            "trigger_offset": 0.3,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "诵经声",
-            "sound_cn": "灵前低声诵经的连绵声音",
-            "sound_en": "low chanting of sutras before the funeral altar, continuous murmuring, solemn and rhythmic",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 149,
-      "role": "萧清",
+      "role": "郝潜夫",
       "api": {
         "voice": {
-          "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role": "郝潜夫",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "我跪在神前许下心愿，今晚为妈念完这一藏经。哥哥请先睡吧。",
-          "instruct": "语气疏离冷淡"
+          "pitch": "+1Hz",
+          "text": "每夜室中必有灯光和些似练武非练武的声音，有时深更半夜还有，灯光也时有时无。天一黑老早关门，书声经声从未听见。谁知道他闹什把戏？",
+          "instruct": "带着怀疑和厌恶"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3468,32 +3178,32 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧玉听了，越发惭愧，有心陪他同念，又觉不孝之罪已无可追，不是念这一夜经便能挽盖，心也沉不下去。知道乃弟志诚心坚，说了必行，只得说道：",
-          "instruct": "平静叙述"
+          "text": "萧清知他厌恶乃兄，不再夜出幽会情人，似可证实，也就不往下问。后来越想前情越觉可疑：第二夜绛雪来唤，所说之言曾经暗中听见，还要强制自己娶那贱婢，第三夜天亮回来，忽然改变，并还说明心事，要为二女报仇。说他悔悟还可，二女怎会和他决绝，誓死不嫁？他既从此灰心，怎口口声声又说瑶仙好呢？话大难信，决计亲往一探。因每日均有夜课，不能分身，这晚借口回家取课本，向萧逸告假往取。萧逸见室中无人，点了点头叹道。",
+          "instruct": "叙述"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
       "id": 151,
-      "role": "萧玉",
+      "role": "萧逸",
       "api": {
         "voice": {
-          "role": "萧玉",
-          "role_voice": "儒雅青年-磁性,性感",
-          "speed": "-2%",
+          "role": "萧逸",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
           "volume": "0%",
-          "pitch": "-1Hz",
-          "text": "毛弟累了三天，早些念完进来睡吧。你该死的哥哥不陪你了。",
-          "instruct": "语气低沉，带着自责"
+          "pitch": "-2Hz",
+          "text": "清侄，我知你心事。你天性真厚，潜夫昨日已和我说过。你去了徒自伤心，还有气呕，不要去了。",
+          "instruct": "叹息，带着了解"
         },
-        "effects": [],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
     },
     {
@@ -3506,37 +3216,66 @@
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "萧清也没听进耳去，含糊应了。弟兄二人同室异梦，各有各的心事，勉强挨过破五。到了头七，崔、萧两家同时出殡，萧逸亲往照看，两家子女各不免悲哭一番。等到安葬完毕，萧逸便把萧氏弟兄唤至面前，先训勉几句，教以此后如何为人。临分手时，忽作不经意地对萧清道：",
-          "instruct": "紧张叙述"
+          "text": "萧清脸方一红，萧逸又说出一番活来。原来近日瑶仙也入了情魔，每晚萧玉必往相聚。惟恐人知，绛雪出主意，每晚由绛雪前往李代桃僵，故意做出些灯光人影和脚步跳动之声，直等天亮前萧玉回家，绛雪才走。其实绛雪也有深心。知道萧清友爱，又不放心他哥哥。村人俱恨萧玉，只要看出他在家，不难瞒过，必不会入内相见。可是萧清疑兄不在，早晚必乘夜查看谏劝；知兄在家，更少不了常来慰问。明知不是伴，无如爱之过深，只要能见到，说上些时的活，凭自己的口齿心思，未必无望；就不行，也死了这条心，到底还见着他一次。此一念痴情，每夜替人守空房，眼都望穿。萧玉和瑶仙是情爱愈浓，愈忧异日一败涂地，不可收拾。每聚必定尽情亲爱，也必定痛哭几场。萧逸因二女装得甚像，几被瞒过。谁想门人虑祸，早在暗中查探，据实禀告。虽然三人知道私情泄露，至多略受羞辱，还可借此掩饰，无关紧要；心事却关系太重，丝毫泄露不得。所以葬母以后，彼此暗中相戒，永不再提，防备周密，不但机密未泄，二人暗室无亏情况，反藉以露出。萧逸闻报，又怜又恨，知道二人每聚必哭，情迹可疑。继一想：二人本来相爱，又有母命，乐得成全。即便畹秋遗意有甚奸谋，一坠情网，彼此都想顾全，互不舍情人送死，纵有逆谋，日久自消。反正小夫妻不会分开，管他则甚？便把这情理暗中晓谕告密之人，坚嘱不许张扬。他们本是夫妻，不过不该丧中私会。窥探阴私，不是正人君子所为。既未探出逆迹，就有也无能为，可由他自去，以后不再作窥探，违者处罚。众门人知师父智勇双全，所说也极有理，谁都害他不了。既是心念旧好，诸多回护，探了几次，不过如此，也就不以为意。萧逸只疑心瑶仙有诈，却没把绛雪放在心上，疏忽过去，以致闹出不少事故。潜夫因师父不许再对人说，萧清问他，也未明言。这时听萧逸一说真相，才知兄长实在非人。与人幽会无妨，照他那晚自言自语口气，逆谋迟早发作。此事只自己一人知情，举发吧，同胞骨肉，于心怎忍；不举发，迟早祸发，万一真个伤了叔父，如何是好？想来想去，只盼叔父所说二人为了情爱，不敢妄动，渐息逆谋，方是绝妙。此外，除了随时随地跟定叔父和诸弟妹，留心戒备，更无善策。这一来，反盼兄长和瑶仙情爱日厚，不但不想劝阻，连旧日的家都不再回去，免他见了内愧碍眼。于是苦了绛雪，每夜盼穿秋水，不见萧清归家，其势又不能去寻他。由想成痴，痴极转恨。忿激之下，自觉生趣毫无，有时赌气不去。看了两小夫妻人前人后，卿卿我我情景，虽然为乐不长，结果一样伤心，到底人家你怜我爱，偿了心愿。自己能够过这样半天日子，当时死都不屈。相形之下，越发难堪。暗忖：姊姊忽然把握不住，会把姊夫这样的人爱如性命。近来日子越近，二人每一想到报仇的事就抱头痛哭，大有怕死之意。自己承她母女视若姊妹骨肉一般，报仇二字，原本不在多人，反正活着无味，何不把这事一人承担下来？事完给她开脱，作为替主报仇，与人无干。再骂上几句因私情不忆母仇的话，以为证实，成就他们美满姻缘，何苦非三人同死不可？越想越激烈，勇气骤增。决计照畹秋遗言，将所用之物暗中准备，即日乘机发难。瑶仙先对她还留神防范，日子一久，见毫无异状，应用各物又在柜中锁着，算计她不用那两样东西无法下手，既未明索暗取，也就不以为意，疏懈下来。",
+          "instruct": "叙述，揭露真相"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "trigger_keyword": "出殡",
-            "trigger_offset": 0.3,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "出殡队伍",
-            "sound_cn": "出殡时的队伍行进声和低泣声",
-            "sound_en": "funeral procession moving forward through snow, footsteps shuffling, muffled weeping, solemn bustle",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ],
-        "mix": {
-          "mode": "mix"
-        }
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
       }
-    },
-    {
-      "id": 153,
-      "role": "萧逸",
-      "api": {
-        "voice": {
-          "role": "萧逸",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "清侄你年纪大幼，用功正紧之际，天性又厚，日内可搬到我家去住，免得孤凄伤心，耽误进境吧。",
-          "instruct": "语气温和平淡
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "萧家厨房晨间",
+        "start_line": 1,
+        "end_line": 24,
+        "prompt": "very subtle low volume cinematic background ambience, early morning in a simple village kitchen, clay walls and wooden beams, fire crackling in a stove, water boiling in an iron pot, faint daylight seeping through paper windows, quiet atmosphere with underlying tension, occasional clatter of bowls and chopsticks, distant rooster crowing, soft creak of wooden furniture settling, low erhu hum with melancholic undertone, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "村中新年夜景",
+        "start_line": 25,
+        "end_line": 26,
+        "prompt": "very subtle low volume cinematic background ambience, deep night in a snowy village during New Year, fireworks and firecrackers echoing in the distance, red lanterns hanging along the streets like scattered stars, soft wind blowing through pine trees, occasional laughter and distant shouts of celebration, peaceful yet festive atmosphere, subtle crunch of footsteps in fresh snow, distant temple bell tolling once, deep guqin resonance with a touch of melancholy, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "瑶仙闺房拜堂合卺",
+        "start_line": 27,
+        "end_line": 127,
+        "prompt": "very subtle low volume cinematic background ambience, interior of a young woman's chamber at night, elegant wooden furniture and red silk decorations, flickering oil lamp casting warm light, wedding altar table with incense and candles, faint smell of sandalwood and wine, bed with curtains drawn, soft rustling of silk wedding clothes and cotton quilts, tense yet romantic atmosphere, occasional creak of the bed frame, distant wind outside brushing against the eaves, deep erhu hum with sorrowful and passionate tones, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "灵前诵经与葬礼",
+        "start_line": 128,
+        "end_line": 152,
+        "prompt": "very subtle low volume cinematic background ambience, dimly lit mourning hall with a solitary oil lamp, a young man kneeling before the altar softly chanting sutras, occasional tap of a wooden fish, faint smell of incense and candle smoke, deep night stillness, later transitioning to funeral procession with distant gongs and weeping, solemn and grief-filled atmosphere, soft whisper of prayers, gentle erhu hum with resignation and sorrow, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

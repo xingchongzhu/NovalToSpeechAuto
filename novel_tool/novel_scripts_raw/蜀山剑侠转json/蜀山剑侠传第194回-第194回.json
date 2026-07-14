@@ -21,7 +21,7 @@
       "speed": "0%"
     },
     "瑶仙": {
-      "role_voice": "少女-甜美,元気",
+      "role_voice": "元气甜妹-元气,甜美",
       "pitch": "+5Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -474,7 +474,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -625,7 +625,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -733,7 +733,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -860,7 +860,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -1037,7 +1037,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -1277,7 +1277,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -1430,7 +1430,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -1846,7 +1846,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -2050,7 +2050,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -2329,7 +2329,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "少女-甜美,元気",
+          "role_voice": "元气甜妹-元气,甜美",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",

@@ -1,0 +1,1897 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第287回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-中年男性磁性声音"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "余英男": {
+      "role_voice": "傲娇女友-甜美,优雅",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "吴文琪": {
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "火无害": {
+      "role_voice": "霸道少爷-成熟,稳重",
+      "pitch": "-2Hz",
+      "volume": "+1%",
+      "speed": "-3%"
+    },
+    "全绍": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "史准": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "崔海客": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "伍常山": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-2Hz",
+      "volume": "+1%",
+      "speed": "-3%"
+    },
+    "连山大师": {
+      "role_voice": "神秘法师-低沉,浑厚",
+      "pitch": "-5Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "易静": {
+      "role_voice": "病娇姐姐-柔和,舒缓",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "方元二弟子": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "+3Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第287回",
+          "instruct": "庄重开场，沉稳有力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "遗偈悟连山，获藏珍双英并秀；飞光离远峤，惊浩劫一女还山。原来英男自从在南疆碧云塘与英琼分手之后，想起李文衎因被化血神刀所伤，暂住姑婆岭秦寒萼洞中，等候七矮陷空岛取来灵药医治，才能复原；易、李、癞姑三人随去北海。剩下自己孤身一人在外行道，现当师长闭关和休宁岛群仙胜会，群邪势更猖狂，诸须留意。师父又命自己不久有一要事，必须办完，始许与英琼在幻波池同修，不知能否胜任。越想越觉可虑，几次开看仙示，后半空白，终无字迹。心想：",
+          "instruct": "平静叙述，带着忧思"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "南疆山野暮色",
+            "sound_cn": "南疆碧云塘山野间微风拂过草木，远处溪流潺潺，鸟鸣渐息，余英男独自行走的脚步声轻缓，暮色苍茫中隐有孤寂之感",
+            "sound_en": "Southern frontier wilderness with gentle breeze brushing grass and trees, distant stream flowing, birds fading, Yu Yingnan walking alone with soft footsteps in twilight loneliness",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "碧云塘",
+            "trigger_offset": -0.5
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "何时才能应验，得与平生良友同修？",
+          "instruct": "内心独白，语气期盼而忧虑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正在日日盼望。这日偶从莽苍山经过，想起昔年风雪被困，受那寒冰冻髓之苦，如非英琼舍命相救，又得诸同门照护，早已惨死，事后想起十分心寒。同时又想到上次元江取宝，曾得到一件前古奇珍，此宝形如一块黑铁，无什宝光。开府时师父妙一夫人只说关系她今后成就甚大，时至自晓，也未传授用法。莫非与师父所说那件要事有关不成？心中寻思，不觉飞近山阴，意欲就便去往风穴一探，看那狂风是否还有那样厉害，就便试验自身道力能否忍受。心念一动，便即寻去。因为当初受创太甚，回思尚有余悸，分明近来功力大增，仍然谨慎，不敢直飞风穴。到了穴前下降，步行走去，耳听穴中悲风怒号，异声乱起，山阴一面，昏沉沉惊沙蔽空，暗无天日，与山阳日丽风和，繁花盛开，大不相同。风已归穴，并不猛烈，声势尚且如此厉害，越发不敢大意。方要去往穴口，忽见前面乱石丛中似有黄色妖光闪动，忙即隐身，悄悄藏在左近，仔细探听，才知是两个妖人，一名全绍，一名史准，恰是万珍、李文衎昔年强敌，因为被二女所败，正在商议报复之计。原来月儿岛火海之下困着一个怪人，名叫火无害，本是人与大荒异兽火汗交合而生，其形如猿。后在东极大荒南星原左近得到一部道书，将周身红毛化去，成了一个异派中的有名散仙。怪人因是天生异禀，从小便能发火，成道以后更擅玄功变化。偶听人言，月儿岛火海之中藏有连山大师遗留的好些奇珍，并有一部火经，如能得到，便能吸取太阳真火，炼成火仙。他想起自己天赋异禀，正好合用；加以生来不畏烈火，不问人口是否发火时期，均可前往：因此一得信便赶了去。事有凑巧，那月儿岛自经连山大师仙法封闭，常年烈火千丈，由火山口内喷出，上冲霄汉；再不便是布满冰雪，全岛坚如精钢，就是那精于穿山地遁的人也休想入内。这时刚巧嵩山二老取完法宝走去，火口未到封闭时候，火无害既是火精，正好入内，立时冲焰冒火而下。当时觉着火势十分猛烈，运用全力才得勉强下降，仿佛奇热之内，另具一种威力。火无害人极自恃，毫不在意。等到入内，又是容容易易将那火经得到，看完大喜。明知火海禁忌，一任来人多大神通，要取法宝，只凭各人缘福，取上一件，当时就走，方可无事。但他心生贪念，以为下面最厉害的是那烈火，既无所惧，又见守洞石人已被斩断，破了禁法，所以并不厉害。临走时发现中洞一座神碑上有",
+          "instruct": "紧张叙述，从回忆转入当前"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "莽苍山风穴悲风怒号",
+            "sound_cn": "莽苍山山阴风穴中悲风怒号，异声凄厉，惊沙蔽空暗无天日，风声如泣如诉，与山阳繁花盛开形成强烈对比",
+            "sound_en": "Mangcang Mountain wind cave with mournful howling, eerie sounds, sandstorm darkening the sky, wind wailing like weeping, contrasting sharply with sunny flowering slopes",
+            "volume": "-20%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "风穴",
+            "trigger_offset": -0.5
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "黄色妖光闪动",
+            "sound_cn": "乱石丛中黄色妖光一闪，邪气嘶嘶声",
+            "sound_en": "yellow demonic light flashing among rocks, sinister hissing",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "黄色妖光",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "双英并美，离合南明，以火济火，玉汝于成",
+          "instruct": "念诵碑文，语气庄重，字字清晰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "十六字偈语。旁加小注，说碑中藏有一件至宝，名为离合五云圭，乃大师昔年降魔镇山之宝。本是阴阳两面合成的一道圭符，阳符另有藏处，尚未出世，大师所藏只是阴符，特意留赠有缘来人得去，如与阳符合壁重炼，便具无上威力。火无害以为应在自己身上，又不知火海法宝只此一经一宝，下余已被嵩山二老相继取走。本来火口已封，此是大师仙法神妙，早就算出前因后果，特意放其入内，使仗本身火力与所学火经炼那神碑，好使法宝出世，留赐英男。当时便在碑下习那火经，不消数日，便已精通。正在如法施为，开碑取宝，上面火口忽然封闭，一声雷震，断了出路。火无害自恃神通，又将火经炼会，妄以为从此太阳真火可随意运用，取之不尽，颠山覆岳，易如反掌，毫未放在心上，仍在烈焰之中化炼神碑。炼到四十九日过去，忽然满洞金光云霞似万道金蛇闪得一闪，惊天动地一声大震，当即把全身震成粉碎。虽仗玄功变化，应变神速，元神得以保住，但被阴阳相生的五行真火包围，四面更有千万根奇亮如电的七色金银光针环身乱射，只当中留有一个大圆空洞，元神被困在内。不想冲出还好一些，那千万光针近身即止；只一想逃，立由上下四外猛射过来，元神立被击散。认出是大五行绝灭神光线，威力之大，不可思议。性又浮躁，也不知吃了多少苦头，元神常被击散，后来实在受不住那苦痛，只得停止。始而藏身中心空处，忍苦待机，后被悟出玄机，竟在里面修炼起来。连经数百年，居然将元神炼成形体，和观音座前红孩儿神情相似。未两年静中参悟，得知大师禁法再有数年便解。这时神碑已被炼开，中现一洞，离合五云圭便藏在内。因碑上有",
+          "instruct": "紧张叙述，交代火无害来历"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "月儿岛火海喷涌",
+            "sound_cn": "月儿岛火山口烈焰千丈冲霄，浓烟滚滚，岩浆沸腾声如雷鸣，火光映红天际",
+            "sound_en": "Yue'er Island volcanic crater with thousand-foot flames shooting, thick smoke rolling, lava bubbling like thunder, red light painting sky",
+            "volume": "-16%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "月儿岛",
+            "trigger_offset": -0.5
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雷声震断出路",
+            "sound_cn": "一声雷震，火口封闭，出路断绝的轰鸣",
+            "sound_en": "thunderclap sealing the fire mouth, cutting off escape route",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "一声雷震",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "大五行绝灭神光线",
+            "sound_cn": "金光云霞如万道金蛇闪烁，千万七色光针环身乱射，滋滋破空声",
+            "sound_en": "golden clouds flashing like ten thousand golden snakes, countless seven-colored needles shooting around, sizzling through air",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "万道金蛇",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "以火济火",
+          "instruct": "念诵碑文，语气庄重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "之言，认定此宝为他所有，正在里面苦心耐守。全绍、史准不知由何处探出底细，想将风雪中的风母精气摄去，炼成八面妖幡。然后再施邪法，用一阵极大妖风将月儿岛自顶揭去，救火无害出困，与之联合，去寻白云大师与万、李二女报仇雪恨。英男一听妖人说得甚凶，又知妖幡已经炼成七面，用邪法隐蔽，收藏在月儿岛上，只等最末一幡炼成，立时下手。再听说起",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖幡隐蔽",
+            "sound_cn": "妖幡邪法隐蔽的阴风阵阵声",
+            "sound_en": "demonic banners hidden with sinister wind sound",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "妖幡",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "离合南明",
+          "instruct": "念诵碑文，语气庄重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "的偈语，好似应在自己身上，不禁跃跃欲试。但因人单势孤，不知对方深浅，有点踌躇。恰巧女空空吴文琪就住在附近不远，已由山顶上两次发现妖踪。因值妖人事成回去，等到赶来，人已逃走。这次有了成算，算好时日，隔山遥望，发现妖光，立即寻来。没看出英男隐身左侧，只见妖人用一面妖幡正施展邪法，将穴中数十百根风柱摄起。眼看无数大小风柱矗立穴中，发出极凄厉的异啸，互相挤轧排荡，电漩星飞，凌空急转。忽然随着妖人手指处，由风柱丛中飞起一根，被一股黄光裹住，急转了一阵。倏地由大而小，化为一缕黑烟，往幡上飞去，晃眼不见。看出邪法厉害，不由大怒。二妖人也是该死。先炼邪法，是在穴中，本来人不知鬼不觉，便可成功。因为连番无事，渐渐胆大，又不耐穴中狂风玄霜之苦，便在上面行法祭炼，致被二女先后发觉。吴文琪比英男修道年久，颇有经历，看出妖幡炼成，是个大害。又由侧面隐身飞来，见状更不寻思，左手一指仙剑，朝妖幡上飞去，右手猛发太乙神雷。等到妖人警觉，已是无及。幡悬穴上，吃剑一绞，当时粉碎，妖人却未受伤。紧跟着，吴文琪将雷火金光似暴雨一般打去。妖人将最重要主幡失去，方在急怒交加，想要迎敌，英男也已现身，手指南明离火剑，化为一道朱虹，电掣飞出。二女也忙见面，联合一气。妖幡一破，幡上所摄风母也全复原，化为滚滚狂风，重又归穴。英男南明离火剑最具威力，妖人还未施为，一道朱虹已经上身，持幡妖人先被腰斩。另一妖人见势不佳，纵起妖光便逃。英男本来谨慎，这时因见妖人邪法有限，忽然胆大起来。想起前在峨眉，师长同门曾说月儿岛火海藏有连山大师好些奇珍，关系重要。白、朱二老连去数次，虽然取走不少，最后一次更将守洞石人斩断，法宝全数取走。但下山时听师父口气，好似门人还有岛上之行，内中法宝藏珍也未取尽；又听妖人之言，岛上还有七面妖幡，万一所说阴谋成功，岂非异日大害？本来就想追去，耳听文琪身后急呼：",
+          "instruct": "紧张急促，斗法开始"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "风穴风柱异啸",
+            "sound_cn": "风穴中数十百根风柱矗立，发出凄厉异啸，互相挤轧排荡，电漩星飞",
+            "sound_en": "wind cave with hundreds of wind pillars standing, piercing howls, churning and spinning like stars",
+            "volume": "-18%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "风柱",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "仙剑绞碎妖幡",
+            "sound_cn": "吴文琪仙剑飞绞妖幡，幡裂粉碎声",
+            "sound_en": "Wu Wenqi's flying sword shredding demon banner, tearing and shattering",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑一绞",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "太乙神雷暴雨",
+            "sound_cn": "太乙神雷金光如暴雨倾泻，连珠炸响",
+            "sound_en": "Taiyi divine thunder golden rain pouring, chain explosions",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "太乙神雷",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "南明离火剑出鞘",
+            "sound_cn": "英男手指处一道朱虹电掣飞出，剑鸣清越",
+            "sound_en": "Yingnan pointing and a vermilion rainbow flashing out, sword singing clearly",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "南明离火剑",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "吴文琪",
+      "api": {
+        "voice": {
+          "role": "吴文琪",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "余师妹，此是八反教下妖人，不可放他逃走。我须封闭风穴，不能同行。你那离火剑是他克星，但追无妨。",
+          "instruct": "急促呼喊，语气关切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英男闻得传声，人已飞起，再听这等说法，自然穷迫不舍。妖人飞遁本快，因同党被杀，恨极仇敌，回顾英男追来，不时在前现身引逗，意欲将英男引往月儿岛，用邪法诱入火海之中烧死报仇。英男更是急怒，连追了一日夜，也不知追出多远，看出妖人志在诱敌，也未放在心上。料定是往月儿岛，所去方向也对，不特不肯停止，除害之心反而更切。正急追间，忽见大海茫茫，无边无岸，脚底波浪滔天，鱼龙隐现，势甚险恶。又追了一阵，遥望最前四面愁云低压中，由海上冲起一根大火柱，浓烟滚滚，直上天半，把当地天空全映成了暗赤颜色，上空暗云也被冲开了一个大洞。定睛一看，前面现出一座荒岛，上有火山，那火柱直由岛中心火山口内喷出。妖人已往岛上飞去，忙即加急前迫，晃眼追近。那根撑天火柱带同千丈浓烟，突似惊虹飞堕，直落下去，现出全岛。等飞到岛上，妖人已无踪影。为防逃遁，暗将新学的太清玄门禁制施展出来，先将全岛暗中罩住，然后降落。到地一看，这岛自经上次嵩山二老带了金须奴末次取宝，发生过一次地震，已不是平日所说的原形。四面断崖零落，宛如一个极大的破盆，中现一个数十丈方圆的大火口，浓烟刚往下落。环岛波涛汹涌，骇浪如山，暗雾蒸腾，湿云若幕，风却静得一点都没有。岛上满地都是熔石浆汁所积的怪石，残沙满地，色红如火，硫磺之气，闻之欲呕。全岛更无一个生物，端的炎热荒凉，无异地狱。运用慧目查看，并无异兆。因无妖党来迎，也未见有别的动静。胆子越大，以为妖人巢穴就在岛上，不知藏身何处。烈火浓烟已经归穴，想起昔年所闻，欲往火口内连山大师藏珍之所瞻拜遗容，求取藏珍，以冀不虚此行。到了穴口，又因妖人未除，妖幡不知藏在何处，曾听说过月儿岛火山的厉害，不敢冒失，欲下又止。准备寻到妖人，破了邪法，再入火口觅取藏珍。以前惦记英琼，时常拜观仙柬，终无字迹出现，竟忘取看，便在岛上穷搜。哪知妖人已与穴中怪人火无害勾结，人已隐在火口之内，等其人阱。英男查听全岛毫无迹兆，最后想到妖人一到，立时火止烟消，断定妖人藏在下面。孤身深入，不免谨慎，几次想下，不敢冒失。后想妖人法力如高，经此半日早已发动。为求万全，何不隐身而下，相机行事？主意打定，便将法宝、飞剑准备停当，隐身往火穴中降落。那火穴深达数百丈，自经地震之后，形势已变，到处满是沸浆熔石。连山大师藏珍的洞府，石门已经紧闭。英男见下面仍无妖邪迹兆。大师为本山第一代开山三师祖之一，法力无边，不可思议。虽听妖人说过，内里不时仍发浓烟烈火，猛恶非常，危机四伏，人不能近。但自己身为本门弟子，既有机缘来此，决可无事。于是便放了心，一心取宝，竟把洞中所困妖人忘却，便朝洞门下拜，通诚默祝道：",
+          "instruct": "紧张急促，追至月儿岛"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "大海波涛火柱冲天",
+            "sound_cn": "大海茫茫波涛滔天，愁云低压中火柱冲起，浓烟滚滚映红天际，硫磺味刺鼻",
+            "sound_en": "vast ocean with surging waves, fire pillar rising under low clouds, thick smoke reddening sky, sulfur smell sharp",
+            "volume": "-16%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "火柱",
+            "trigger_offset": -0.5
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "太清禁制罩岛",
+            "sound_cn": "英男施展太清玄门禁制，无形光罩笼罩全岛的嗡鸣",
+            "sound_en": "Yingnan casting Taiqing prohibition, invisible light covering the island with hum",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "太清玄门禁制",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "熔石沸浆声响",
+            "sound_cn": "岛上沸浆熔石滋滋作响，硫磺气弥漫",
+            "sound_en": "boiling lava and molten rocks sizzling, sulfur gas filling air",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "沸浆",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "弟子余英男追一妖邪到此，遍寻不见，才知仙府佳城，就在当地。敬乞大师祖深恩垂怜，准许弟子入内，瞻拜法身，并乞恩赐法宝，使弟子微末道行，以后仗以诛邪行道，为本门发扬德威，感恩不尽。",
+          "instruct": "虔诚祈祷，语气恭敬恳切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "祝罢起立，暗忖：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "新近学会太清玄门禁制，不知能否开禁而入？",
+          "instruct": "内心自语，语气迟疑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正待行法开门，那两扇石大门忽然无故开放，徐徐往两旁分开。料知先前祝告，大师显灵，许其入内，不禁大喜，二次下拜，恭恭敬敬走了进去。入内一看，里面乃是一座广堂，石色如玉，昔年所闻四壁所留各种法宝痕影，均已无踪。正面壁上却现出大师遗容影子，羽衣星冠，丰神俊秀，望如大罗金仙，神态如活。知道大师虽不出现，既容瞻仰，可见有缘，断定此行不虚，越发心喜。英男第三次跪拜下去，正在通诚祝告，忽见满洞金霞乱闪，惊惶四顾中，似见大师手指后左壁，朝她微笑，随即金光彩霞一闪即隐。方想左壁也许藏有法宝之类，欲往观看，正面洞壁忽然不见，中现一洞，内里红光奇亮，精芒射目。定睛一看，原来门内便是后洞，离地丈许，凌空悬着一个大火球，大约五丈。中有丈许空隙，内里一个形如童婴的红人，通体精赤，安稳合目而坐。身困火球之中，上下四外都是烈火包围，火中更杂有千万丝其细如发的七色光线，如暴雨飞芒，环身攒射，只是射离红人两三尺便即回收，毫光闪闪，闪烁不停。红人似有警觉，面现怒容，但未睁眼说话。猛想起来时妖人之言，火中所困必是所说怪人火无害无疑。看情势似为仙法所困，不能为害，也未管他，暗中戒备，由火球旁绕了过去。英男也是一时疏忽。下时身形已隐，仙法神妙，外人本看不出。因在入门之时发现大师遗容，又无别的异兆，为示诚敬，将隐身法撤去，不曾再用，致被红人看出形迹。等到绕过火球，回头一看，红人身子也已掉转，光线立发威力，精芒突盛，乱箭一般朝中心攒射上去。红人好似禁受不住，面上立现痛苦悲愤之容。等到坐定不动，隔了一会，才复原状。英男看出那是平日所闻大五行绝灭神光线，只不知怎会多了两样颜色？因知火中红人身受禁制，不能为害，也就不去睬他。本打算绕行一周，再去左壁之上查看。刚由右面绕过，忽见左侧有一神碑，上现",
+          "instruct": "庄严叙述，入洞见火球困人"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "石门徐徐开启",
+            "sound_cn": "两扇石大门徐徐向两旁分开，石门摩擦的沉重低响",
+            "sound_en": "two stone doors slowly opening with heavy grinding sound",
+            "volume": "-18%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "石大门",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金霞乱闪火球显现",
+            "sound_cn": "满洞金霞乱闪，红光奇亮，火球凌空悬浮，七色光针如暴雨飞芒",
+            "sound_en": "golden light flashing, red light blazing, fireball floating, seven-colored needles like rain of light",
+            "volume": "-16%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "金霞",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "七色光线攒射",
+            "sound_cn": "七色光线突然暴长乱箭般朝中心攒射，滋滋声密集",
+            "sound_en": "seven-colored rays suddenly bursting and shooting toward center like arrows, dense sizzling",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "光线",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "双英并美，离合南明，以火济火，玉汝于成",
+          "instruct": "念诵碑文，语气庄重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "十六个朱书篆字，并有好些符篆。暗忖：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "双英、南明均与自己暗合，不禁狂喜。",
+          "instruct": "内心惊喜，语气兴奋"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "忙赶过去。刚到碑前，碑上便发奇光，再看上面，又现出两行字迹。大意是说碑中藏有一件法宝，名为离合五云圭，本是阴阳两面，昔年连山大师只得到一面阴圭，仗以威震群魔，为连山著名四宝之一。此圭本是前古至宝，那面阳圭与另一件至宝归化神音原藏在元江江心水眼金船以内，不曾出世，这面阳圭威力绝大，但是非将阴圭得到，两仪合壁，再经仙法重炼一百零八日，不能发生灵效。阴圭因经大师苦心炼过，自具威力妙用。为此在成道以前，算准前因后果，将阴圭藏在神碑之内，等英男得到阳圭，数年之后亲自来取，重用本门仙法炼过，便可由心运用。但是炼时必须缜密，能在地底更好。并且注明取宝收用之法。字迹甚小，随看随隐，看完便已不见。碑上一洞立发奇光，耳听风雷之声自碑中起。才知大师特留至宝，等她来取。同时想起元江所得那块如黑铁的宝物和妙一夫人平日所示先机，才知那黑铁便是阳圭。因听碑中雷声隆隆，越来越急，唯恐延误，忙即谢恩，匆匆起立，如法施为。先将阳圭取在手内，手掐太清诀印，向碑立定。再将南明离火剑化为一道朱虹，朝碑上所现朱痕轻轻落下。剑光到处，只听霹雳一声，神碑立分为二，一幢墨绿色的圭形宝光突然由内飞出。初现时高才三尺，精芒万道，耀目难睁，当中裹着六七寸长一根圭形黑影，凌空直上。刚离碑顶，宝光大盛，其力奇大，剑光几乎制它不住。附近熔石吃墨光稍微扫中，立时粉碎消灭，无影无踪。英男见此宝威力大得出奇，不敢怠慢。同时又听前面风火交鸣，全洞壁都在摇撼，当是应有文章。心想：",
+          "instruct": "紧张激昂，取宝过程"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "碑发奇光",
+            "sound_cn": "神碑上奇光迸发，嗡鸣声起",
+            "sound_en": "divine stele emitting strange light with hum",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "奇光",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "风雷声自碑起",
+            "sound_cn": "碑中传出隆隆风雷声，越来越急",
+            "sound_en": "wind and thunder rumbling from the stele, growing urgent",
+            "volume": "-16%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "风雷之声",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "南明离火剑落痕",
+            "sound_cn": "南明离火剑化为朱虹轻轻落在朱痕上，剑鸣清越",
+            "sound_en": "Nanming Lihuo Sword turning into vermilion rainbow landing on mark, clear ring",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱虹",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神碑裂开圭光飞出",
+            "sound_cn": "霹雳一声神碑裂开，墨绿色圭形宝光冲天而起，精芒万道，碎石纷飞",
+            "sound_en": "thunder crack as stele splits, dark green gui-shaped light shooting up, brilliant radiance, rocks flying",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "霹雳一声",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "大师祖既留此宝与我，可见一切早已算定，无须害怕。",
+          "instruct": "内心坚定，语气自信"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "全神贯注在取宝上面，也未在意。一面指定剑光，以全力将神圭紧紧裹住；一面暗照仙示，用元江所得阳圭，左手掐诀，右手一扬，将阳圭朝墨光中打去。说也奇怪，就这晃眼之间，墨光已经暴长好几丈，洞顶已被攻陷一洞，碎石下坠，纷落如雨，南明离火剑几乎制它不住。谁知那么一根暗无光华的黑铁打到里面，只听当的一声，墨光突收，化为七寸长短一柄宝圭，停立空中。再用分光捉影之法一招，立即随手飞来，那柄阳圭已经不见。英男仔细一看，原来阴圭和阳圭差不许多，只是较大，中有浅凹，仿佛正反两面的古令符，阳圭正嵌其中，严丝合缝，成了一体。合壁以后，连那阳圭也是宝光外映，精芒眩目，英男自是喜极。英男回顾火球中所困红人，见他双目怒睁，注定自己，咬牙切齿，好似愤怒已极，无可奈何神气。碑上只注此宝取用之法，对于所困红人和前追妖邪一字未提。深知这大五行绝灭神光线的威力，人又谨慎，觉着法宝已经到手，师祖将此怪人困在这里，不杀不放，必有原因，仍以省事为妙。但是碑上曾说，此宝需要重炼，才能由心运用，偏又注明收用之法甚详，是何缘故？好在能发能收，荒岛无人，又在地底，不怕伤害生灵，何不试它一试？一时好奇心盛，念头微动，立即如法施为。满拟和初收时一样容易，何况南明离火剑可以将其圈住，不致有失。哪知仙机莫测，两圭合壁以后，威力大增，再一出手，便比先前厉害得多。当初发时，侧顾火中红人，满面惊惶，张口乱喊，但为火球所阻，听不真切。手微一动，上下四外的光雨立即暴长乱射。红人似吃不住，却又万分情急，无计可施。英男因自己名列三英，功力独次，法宝又只几件，平日想起便觉惭愧。一旦得此至宝奇珍，正在志满意足之际，哪将红人放在心上。只听外洞风火之势越发强烈，认定大师算就前因，预有安排，必无他害，只稍微心动了一下，仍旧如法施为。刚照碑上所传用法扬手发出神圭，猛觉出手时力大异常，疾逾电掣，虎口几被震裂。同时眼前墨光暴长，精芒四射中，洞壁上下纷纷崩陷消溶，还在继长增高，南明离火剑大有圈它不住之势。宝光虽作墨绿色，但是奇亮无比，所到之处无坚不摧，如非应变神速，飞身纵避，另取法宝防身，遁向一旁，直非受伤不可。英男大吃一惊，正以全力指挥剑光，如法回收，忽听身后有人厉声大喝道：",
+          "instruct": "紧张激烈，神圭合璧威力暴增"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "阳圭打入墨光",
+            "sound_cn": "阳圭飞入墨光中，当的一声合璧",
+            "sound_en": "yang gui flying into dark light with a clang",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "当的一声",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "墨光暴长洞壁崩陷",
+            "sound_cn": "墨光暴长数丈，洞壁崩陷碎石如雨，南明离火剑嗡鸣挣扎",
+            "sound_en": "dark light expanding several zhang, cave walls collapsing with rain of rocks, Nanming sword humming in struggle",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "墨光",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "全绍",
+      "api": {
+        "voice": {
+          "role": "全绍",
+          "role_voice": "云毒-低沉,解说大神",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "火道友无须气愤，我已将八反神风发动，贱婢休想活命！",
+          "instruct": "厉声大喝，语气阴狠"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "声才入耳，前洞烈火红光已随着无量狂风潮涌而来，风火中更夹有千万飞刀火剑，却不见妖人影子。等到把话听完，上下四外的洞壁已似雪山崩塌，带着千丈尘沙，纷纷倒坍下来，立被困在里面。那柄神圭已快收转，微一疏神，重又暴长，威力更大，收它更难。一面还须应敌。万分情急之下，因见上下四外均是烈火狂风包围笼罩，知道此是后洞深处，相隔地面不下千丈，多高法力也难冲出。来路为火所断，势最猛恶，不敢冒险前冲，又恐至宝得而复失。惊惶忙乱中也未看清，便将身剑合一，本意先收神圭，再打脱困主意。及至身与剑合，未等施为，忽看出那些烈火狂风挨近神圭宝光便被荡开，那困陷红人的大火球也是如此。这高达百丈，大有数十丈方圆的后洞，已成火海，全洞已被烈火狂风、飞刀飞箭布满，只当中神圭和那火球所在之处，四外各有一圈空隙，风火刀箭挨近便即消灭。但那风火的声势越来越猛，宛如山崩海啸一般，洞壁又在纷纷崩坍，全洞一齐摇撼，地面也似波涛起伏，仿佛就要地震陆沉光景。英男惊魂乍定，心想：",
+          "instruct": "紧张急促，被困火海"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "八反神风烈火狂涌",
+            "sound_cn": "烈火红光伴无量狂风潮涌，千万飞刀火剑呼啸，洞壁崩塌如雪山倾倒",
+            "sound_en": "fire and red light with boundless wind surging, thousands of flying knives and fire swords howling, walls collapsing like snow mountain",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "八反神风",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "妖人不见踪影，本洞本是火山，如今火势已被引发，加上邪风刀箭十分厉害，还不知有无其他阴谋埋伏。幸而所得法宝威力神妙，不曾受害。照此形势，只能仗以防身御火，不能再收。似此相恃，何时是个了局？初来不知底细，万一被妖人真将全岛揭去，引发地火，如何能当？",
+          "instruct": "内心愁急，语气忧惧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正在愁急，心中默念：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "连山太师祖，速显神通，助弟子诛邪脱困。",
+          "instruct": "虔诚默祷，语气恳切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "猛又想起：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "情势凶险，师父所赐仙柬今日未看，也许现出字迹。",
+          "instruct": "内心恍然"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心念一动，便将仙柬取出，暗中观看，不禁大喜。原来仙柬说师命所办要事，便指离合五云圭而言。并说三英并秀，两女一男，以后英男、英琼一同行道，相得益彰。英男法宝虽较众同门少，此宝炼成以后，却具无上威力。不久还因此宝另有遇合，关系将来成就不少。但那红人火无害暂时无须理他，此人不久也必脱困，来向英男寻仇。如与相遇，不到时机，不可迎敌。到时自知，自有安排。所得神圭，杀气最重，出必伤人，必须重炼，也由于此。妖人乃八反教中著名余孽，必须除去。但其隐形神妙，又得火无害前在洞中被杀时遗留之宝防身，难于下手。看完柬帖，可将下山时所赐法宝禹王鉴朝东北角上照去，邪法立破，现出妖幡妖人，速用太乙神雷震碎妖幡。内中一面上绘风火刀箭的主幡，乃妖人本门至宝，必来抢护。只等妖幡由身侧飞起，可冷不防连人带神圭朝前冲去，妖人必死。再照大师传授收了此宝，不问何处，一直上冲，立可脱险。不过此宝威力特大，又是身剑合一，前半须要仗它开路攻山，脱出火围，方可回收。诛邪以后，此宝有了反应，收时虽较容易，地火仍被引发，整座月儿岛都将崩裂，沉入海眼之内。此时无论是何异景，不可留连回顾，速往中土飞回，立可无事。再隔二三年，便与英琼相见，先后同往幻波池修炼，那时便可重炼神圭。底下还有几句奖勉的话，英男看完，大喜心定，胆子更壮。那妖人也是该死。自仗火无害所留法宝，连同自炼妖幡，发动风火之后，见敌人身剑合一，守在神圭宝光之中，一任全力施为，全无用处。不时又见火无害使用平日双方所定眼色、手势不住示意，怪其弄巧成拙。知道此人性如烈火，法力又高，虽然与己道路不同，但不久脱困，可以是一大助，极力倾心结纳。未了见火无害怒目相视，顿生毒念，暗忖：",
+          "instruct": "紧张叙述，仙柬现字"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "仙柬现字奇光",
+            "sound_cn": "仙柬上忽然发出奇光，字迹显现的轻响",
+            "sound_en": "immortal talisman shining with strange light, words appearing with soft hum",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "仙柬",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前数月费尽心力，冒险入洞，与之相见，对方始而意存轻视，置之不理。后经同伴苦口劝说，卑礼相求，始允联合，但须将妖幡炼成，助其取宝脱困，才肯下交。虽乘日前每百年一次的神光减退之时，面谈过一切，允将洞中遗留之宝借用，神情仍是强傲无比。身在困中，尚且如此，将来未必能如己意，去与正教中人为仇作对。今日偏又弄巧成拙，定必愤恨，纵不为仇，也难望其一党。反正不妙，莫如乘此时机，连他带仇敌一齐葬送。就算道书、五云圭都不能到手，借用之宝总是我的。",
+          "instruct": "妖人内心，语气阴毒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心念一动，立即施为，英男也正下手，双方恰好同时发动。妖人不现身，尚要破他隐形邪法，妖人事前再一大骂，英男惟恐一击不中，闻声先将禹王鉴取出，一道青红二色形似坎离二卦的宝光冲破火层，由火海中照将过去。右手太乙神雷不等妖幡出现，先就连珠打出。妖人瞥见敌人手上突现出一面宝镜，上有坎离二卦，射出一青一红长短各四五道奇光，猛射过来，邪法立破。那七面妖幡本在邪法隐蔽之下，在火海中分立招展，邪法一破，也全出现，心方一惊，对方连珠霹雳已经打到，近侧三面妖幡先被震碎，如非逃避得快，人也重伤。百忙中瞥见那面师传主幡正在敌人身右，随手可以破去，此宝一失，再炼休想。情急万分，顿忘利害，又恃飞遁神速，一纵妖光，忙抢过去，正待回收。英男还没想到妖人会自寻死路，一声清叱，连人带宝一齐施为。手中灵诀一发，那神圭吃剑光和太清仙法强行制住，本就郁怒待发，再经主人施为，威力立时暴长百倍。只见墨光精芒突然大盛，电一般朝前冲去。妖人见状大惊，知道不妙，想逃无及，吃墨光射中，当时惨死。英男因恐其元神逃走，又用神雷乱打。不料神圭威力太强，一经施为，上下四外一齐加增，一头宛如撑天晶柱向上突伸，一头便往地底冲去。四外宝光再一加强，四壁挨着便倒，连那火球也被荡了好几荡，内中七色光线自然发生威力妙用，红人又是受苦不小。英男百忙中见宝光如此强烈，晃眼便将后洞毁去了大半，地底又被宝光攻陷了一个大深坑，火中红人又是那么苦痛悲愤，心想：",
+          "instruct": "激昂紧张，诛杀妖人"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "禹王鉴破邪",
+            "sound_cn": "禹王鉴射出青红二色奇光，冲破火层，照破妖法",
+            "sound_en": "Yu Wang Mirror emitting green and red light, piercing fire layer, breaking demon magic",
+            "volume": "-15%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "禹王鉴",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "太乙神雷连珠碎幡",
+            "sound_cn": "太乙神雷连珠炸响，三面妖幡粉碎，碎片飞溅",
+            "sound_en": "Taiyi divine thunder chain explosions, three demon banners shattering with fragments flying",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "连珠霹雳",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "神圭暴长冲杀妖人",
+            "sound_cn": "神圭墨光精芒暴长百倍，如撑天晶柱冲杀妖人，惨叫声起",
+            "sound_en": "gui light expanding hundredfold like sky pillar striking and killing demon with scream",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "神圭",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "此宝新得，妙用莫测，威力再加，一个制它不住，反而不美。而且师命原是诛邪即去，连回顾都不许，如何停留？",
+          "instruct": "内心警觉，语气果断"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心念一动，立照预定行事，将手一指，连人带宝一齐朝洞顶冲去。就这功成迟疑，微一停顿之间，地底烈火已被引发，由宝光攻陷的深坑中，一股浓烟激射出来，直射洞顶，晃眼由黑转红，化为百丈烈焰。又与常火不同，其红如血，火力又大又猛，耳听轰轰怒鸣，火穴随即加大，靠近穴口的地面立即熔化，成为沸浆。火口越来越大，火势越旺，略一回顾，洞顶火冲之处，也和地面一样，着火便即消熔。沸浆熔汁宛如瀑布飞泉，四下喷射，映着火光，发出亮晶晶的异彩，壮丽无俦。英男因仗神圭护身，已经冲破洞顶，超出火上。回顾下面，声势如此强烈猛恶，不由耳鸣目眩，心神惊悸，虽有仙柬预示，也甚胆寒。方想当地离上层不知多少丈，这等烈火，怪人怎会不死？猛觉脚底火头上冲荡之力其大无比，往上冲来，休想稍微迟延。总算宝光神奇，不可思议，那么坚厚的玉石洞顶，吃宝光一冲，只听一连串轰轰隆隆之声，所到之处，洞石直似残雪遇上大火，挨着便即消灭，现出一个井形大洞，一直向上开去，连熔石沸浆都见不到一点。不多一会，便将那数百丈的地底攻穿，冲出岛上。英男正忙着收回法宝，想要飞走，脚底来路火口一股烈火浓烟已激射上来，晃眼升高数百丈。同时先前下降的旧火口还有大股火烟狂喷出来。两火口前后对立，直似两根冲天火柱矗立岛上，比起初来所见，猛恶十倍。地底异声大作，宛如百万天鼓惊霆发自地中，全岛一齐摇撼。当地形势险恶，本就雾暗云愁，骇浪如山，再受烈火浓烟热力鼓荡，越发惊涛群飞，海啸大作。那一座月儿岛，仿佛一叶孤舟飘行于茫茫大海，突遇飓风，浮沉起伏于万丈洪涛之中，眼看就被海中恶浪卷去光景。英男正待收宝回飞，猛瞥见神圭上面飞起一片银霞，略闪不见，已经收到手内，忽生异兆，不知何故。心方惊疑，忽又听圭上有人发话道：",
+          "instruct": "激昂叙述，地火爆发"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "地火引爆浓烟血焰",
+            "sound_cn": "地底浓烟激射化百丈血焰，轰轰怒鸣如百万天鼓，沸浆熔汁瀑布般喷射",
+            "sound_en": "underground smoke shooting into hundred-foot blood-red flames, rumbling like million war drums, boiling lava splashing like waterfall",
+            "volume": "-12%",
+            "pitch": "-2Hz",
+            "keyword": "地底烈火",
+            "trigger_keyword": "地底烈火",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "冲天火柱全岛摇撼",
+            "sound_cn": "两根冲天火柱矗立岛上，地底异声如天鼓，全岛摇撼，海啸大作",
+            "sound_en": "two fire pillars standing on island, underground sounds like war drums, whole island shaking, tsunami roaring",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "冲天火柱",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "连山大师",
+      "api": {
+        "voice": {
+          "role": "连山大师",
+          "role_voice": "神秘法师-低沉,浑厚",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-5Hz",
+          "text": "孙儿大功告成，还不快走！百里以内，不许回顾。",
+          "instruct": "威严庄重，深远悠长"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "圭上银霞发话",
+            "sound_cn": "神圭上银霞一闪，传出庄严声音",
+            "sound_en": "silver radiance flashing on gui, solemn voice coming out",
+            "volume": "-16%",
+            "pitch": "-3Hz",
+            "trigger_keyword": "圭上",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "听出是连山大师留音仙示，又记起仙柬现字，忙答：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "孙儿遵命。",
+          "instruct": "恭敬应答，语气果断"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "更不怠慢，一纵遁光，加急飞行，往来路飞去。行时身后银霞隐而复现，似还有别的宝光彩霞围在身后，那被烈火映成暗赤色的海水也改映成了金银色，惊波万丈，齐幻异彩，骇浪千重，尽闪霞辉，海天无涯，景更雄奇。奉命在先，不敢回顾。心想：",
+          "instruct": "紧张急促，急速飞离"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光飞离破空",
+            "sound_cn": "遁光急速破空飞离，身后金银霞光映照海天",
+            "sound_en": "flight light speeding away with whoosh, golden and silver radiance reflecting on sea and sky",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "一纵遁光",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "地底烈火何等厉害，太师祖的法体正藏火穴之内，万一为火所化，岂非憾事？何况火山崩裂，必将发生海啸地震，这一带海水全被煮沸，至少千里方圆之内，海中生灵决无幸免，自己偏又无此法力挽救灾劫。太师祖命在百里以内不许停留回顾，必有原因。莫非仙机莫测，事前早有准备不成？",
+          "instruct": "内心忧思，语气复杂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心中寻思，飞遁神速，不觉飞出百里以外。忍不住停身回顾，只见先前来处，满空都是金光银霞，将月儿岛全部笼罩在内。宛如一口极大银钟，罩在茫茫黑海万丈洪涛之上，直达海底。中有两股烈火浓烟由顶透出，直射天心，空中愁云惨雾被冲开了两个大洞，火柱特高。远望过去，上半好似无数彩绢裹着两支奇大无比的红烛，用尽目力，也看不出到底有多高。四边云雾也被映成了千万层冰纨彩縠，料已直射九天高处。英男正眺望间，先前所见羽衣星冠，丰神秀朗的仙人，在一幢银霞笼罩之下，悬空立在岛上光钟以内，手掐灵诀，用剑向那火柱连指。火势越来越盛，突然连根拔起，朝空直上。大师将手一扬，发出两片金光，将那离地而起的火柱底层托住。紧跟着远远一声雷震，钟形银光忽隐，连人带火柱便同朝空飞起，一串霹雳之声响过，便已无踪。再看月儿岛，已整个不见，海上波涛仍和初来时所见一样。只天心高处略有两道赤虹，由暗影中破雾冲去，刺空直上，晃眼高出重霄，几非目力所及。英男至此才知连山大师对此灾劫已早防到，特意假手后辈门人来此取宝，开一穴口。再由本身元神以极大神通，将这隐伏地底万千年的烈火毒焰送往两天交界之处，连同劫灰一齐化去。法力之高，端的不可思议。师命不许停留，也未回首观察那火无害的生死存亡，便自回飞。英男到了东天目山，听门人楚青琴说前山有一妖人时常经过，形迹可疑。李文衎也已伤愈回山，正在商议。原来那妖人正是七手夜叉龙飞，因听妖徒归报说，东天目山住有几个峨眉女弟子，相貌极美，竟然上门生事。李、余二女合力应敌，龙飞大败而去，许久不曾再来。二女后遇徐祥鹅，说起龙飞来历，又知祥鹅与之有杀师之仇。于是三人联合一起，前往天台山连寻几次，均未遇上。为防打草惊蛇，隐忍多时。这日徐祥鹅独往天台山查探，二女忽接法牌传声，说与龙飞路遇，正在苦斗，请即往助，立即赶去。英男用南明离火剑连毁龙飞两样法宝，又被遁去。祥鹅志切师仇，不时仍往东天目山去访二女，本意合力除害，屡被漏网，以为二女尚难除他，想再约两个有力同门相助。走后不久，二女偶往仙霞岭寻人，归途文衎因事他去。英男回山闻报英琼来访，并在山头收了一件异宝，正赶龙飞寻来，为英琼、上官红所败，负伤逃去。英男立即跟踪追赶，二女见面，恰好各人所持仙束全现字迹，准其幻波池同修，俱都大喜。英琼因恐幻波池有事，作别先走。英男也想回去，与文衎师徒辞别，并带新收爱徒楚青琴同行。火无害原因元神逐渐凝炼，成道在即，又算出那大五行绝灭神光线不久便失灵效，本在静心耐守。后为二妖人所劝，意欲先期出困，致被英男寻来。不特多年想要的至宝被人夺去，又将地火引发，如非来人只顾取宝，不与为难，几乎送命。就这样，仍受了不少痛苦。最厉害的是大师早就算定月儿岛他年崩发，必将引起一场大劫，特意算就前因，预为布置，将那地火先分成好几次发泄，最后再以本身元灵将其送往天空消灭。当火发时威力绝大，火无害人在火口以内，自然禁不住，身外又有神光包围，不能逃脱。事定之后，全岛陆沉，海水倒灌而入，风浪稍大，火球受了水力冲荡，神光便生反应，人也同受苦难。因而越发把英男恨入骨髓，刚一脱困，便寻了来。本意想往峨眉窥探，中途遇见昔年海外老友凌虚子崔海客问起前情，先用好言婉劝，不听。后来又说：",
+          "instruct": "平稳叙述，连山大师化劫"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "连山大师元神化劫",
+            "sound_cn": "满空金光银霞如银钟罩岛，仙人手掐灵诀以剑指火，火柱连根拔起冲空直上，霹雳声中月儿岛消失",
+            "sound_en": "golden and silver light like bell covering island, immortal pointing sword at fire, fire pillar rising into sky, thunder and island vanishing",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "金光银霞",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "雷震霹雳连响",
+            "sound_cn": "远远一声雷震，钟形银光忽隐，一串霹雳之声响过",
+            "sound_en": "distant thunderclap, bell-shaped silver light vanishing, chain thunderclaps",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "一声雷震",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "崔海客",
+      "api": {
+        "voice": {
+          "role": "崔海客",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "峨眉鼎运方隆，万去不得。你那对头现在东天目山，不久便往幻波池圣姑伽因旧居修道，这几人均颇难惹，必须留意。",
+          "instruct": "诚恳劝告，语气老成"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "火无害不知崔海客受了一音大师叶缤之托，特意将他引往幻波池，并激他将二女东天目山故居毁去，以防文衎师徒在彼势孤，为妖邪所暗算。闻言暴怒，立即寻去。到了东天目山，暗入洞中一看，人已不在，桌上放有英男留书，知道已往幻波池，怒不可遏，便用所炼太阳真火将全洞炸碎。总算司空兰运气还好，采药他出，刚刚回来，发现一个红人破禁入洞，知道厉害，藏在远处窥探。正打不出主意，猛听一声大震，全洞已成粉碎，千百丈烈火红光，惊沙碎石飞涌中，红人已破空直上，一闪无踪。洞府全毁，只得在附近另觅居处，等乃师回来，再作计较。不提。火无害由当地赶到依还岭，发现仇人在下，还同了两个同伴，自是眼红，便将所炼太阳真火发将出去，化为一片火海，将静琼谷笼罩在下。无如太乙五烟罗自经媖姆重炼之后，威力越发神妙，一任毒火猛攻，全无用处。火无害看出法宝神妙，又看出敌人功力甚深，想起崔海客之言，也颇惊心。无如事已至此，只好一拼，便以全力猛攻，想将全山炼化，以报前仇。易静见上面火势越盛，看出太阳真火厉害，因英男话未说完，方、元二人神态从容，知必无害，也就听之。回到谷中旧居洞内落座，先由英男说完取宝经过，元皓随说来意。原来方、元二人自从碧云塘分手，随了灵云、轻云、紫玲三女在外面行道。不久便同往紫云宫，开建海中仙府，与宫中潜伏的散仙斗了些日，最后双方和解。散仙知道三女本是宫中原主，也就不再相强，只将前破紫云宫的神兵残金要走多半。五女随将独角龙鲛收服，同在宫中修炼了好些时。又将门人金萍、龙力子、赵铁娘等招去，传以本门道法。方、元二人本有根底，又得枯竹老人和本门传授，功力日高，不时也分头出外行道。这日方、元二人和轻云又来中土，在洪泽湖龟山遇见严人英与华山派四妖人苦斗，三人上前助战。刚将妖人杀死逐走，忽遇女仙杨瑾说起幻波池之事，形势十分险恶，给了一封柬帖，命其来援。轻云见杨瑾说时，先用佛光将当地罩住，似恐被人听去光景，心方惊奇，身旁仙柬又忽发奇光。这类事最是少见，知关重大，忙向师门跪拜，通诚开看，空白柬忽现字迹。大意是说：幻波池日内有一异人火无害往犯，此人原禀丙火之精而生，天赋奇资，已经炼成火仙，得道多年。虽是旁门，性情刚烈，平素并不为恶。并与本门师祖连山大师有渊源，本人却不知道。大师早就算明因果，已将他困入火海二百多年，火性尚未完全磨退。近始出困，来向英男寻仇，一开始无须理他。英男所得神圭，本须重炼一百零八日，始能随心应用，无如有事，决来不及。此宝乃前古奇珍，威力太大。那面阳圭形似穿山甲，腹有十八只九指利爪，便是制火无害之宝。因其炼时宝光强烈，上冲霄汉，易启外人觊觎，以致到手多时，尚不能炼。目前恰是时机，又得杨瑾所赐芬陀大师灵符可以速成，勉强应用。看完仙示，轻云、人英另外有事，不必同往。方、元二弟子，可拿了杨瑾所赐灵符、柬帖速飞依还岭，传示易、余二女，由易静先率众人在静琼谷中防守，依言行事。英男独往幻波池后宫重地，炼那神圭，仗着灵符之力与地底隐蔽，宝气不至外露。用太清仙法加功重炼，约有五十五日便可成功，可以勉强运用。将来尚有一强仇大敌，须仗此宝御敌除害，届时再行重炼。别的机宜，均由方、元二人临时告知，不能预泄。易静、英男闻言大喜，立即如命行事。略为叙谈，易静便带英男隐身先往幻波池，见过华、李诸人，由英男设坛炼宝，易静再回静琼谷防守待机。仙法神妙，来去无踪，火无害毫未看出，连用火攻，一晃八日，见下面始终被那一层五色淡烟护住，端的连草也未烧焦一根。先是急怒交加，越想越恨，暗忖：",
+          "instruct": "平稳叙述，火无害寻仇至依还岭"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "太阳真火焚山",
+            "sound_cn": "太阳真火化为火海笼罩静琼谷，烈焰滔天，五色淡烟护住山谷丝毫无损",
+            "sound_en": "solar true fire turning into sea of flames covering Jingqiong Valley, five-colored mist protecting valley completely",
+            "volume": "-16%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "太阳真火",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "火无害",
+      "api": {
+        "voice": {
+          "role": "火无害",
+          "role_voice": "霸道少爷-成熟,稳重",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "我这太阳真火何等厉害，任你法宝如何神奇，早晚连人带山化成灰烬。",
+          "instruct": "暴怒自语，语气凶横"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "后见炼了多日毫无动静，忽然想起：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "火无害",
+      "api": {
+        "voice": {
+          "role": "火无害",
+          "role_voice": "霸道少爷-成熟,稳重",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "被困近三百年，以前又在极海潜修，中土之事不知详情。听崔海客说，峨眉派出了许多后起之秀，比起昔年长眉真人在时声势还要强盛，今日一见果然不虚。敌人退时并无败意，尤其大荒枯竹老人的青灵箭又是真火克星。自己虽在火海被困，苦炼多年，真火威力极大。出困时又将地底残余的毒焰全数收来，按照连山大师所留坎离神经苦炼，功力越高，不畏此箭。对方并不知道底细，既有法力，怎不出战？不是另有大援，便是别有制胜之策。门人如此，师长可知。自己前困火海，受尽苦难，好容易才得脱身，对方师长又是连山、长眉一脉真传，莫要弄巧成拙，仇报不成，反中敌人圈套。虽说炼就元神玄功变化，到底可虑，不能不防。",
+          "instruct": "内心思虑，语气渐弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "火无害方在心虚，猛又想起那离合五云圭关系自己成败太大，如能得到，本身真火便能化炼精纯，大小分合，由心运用，可以细如毫芒，不致一发不可收拾，波及无辜，造那无心之孽，累及将来功行。更可将那真火炼成丹元，早成正果。于是重又激怒，猛力进攻起来。似这样举棋不定，不觉过了多日。几次施展玄功变化，化为一道尺许长的烈焰，混在火中，打算乘隙暗入谷中，猛发烈火，里外夹攻，但均为宝网所阻，无隙可乘。易静奉有机宜，又将谷口禁制故意变动隐现。火无害素看出谷中还设有太清禁制和乙木仙遁，青霞万道，神木如林，风雷殷殷，随时隐现，情知厉害。暗忖：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "禁制隐现",
+            "sound_cn": "谷口禁制变动隐现，青霞万道，风雷殷殷",
+            "sound_en": "prohibition shifting and appearing, cyan radiance, wind and thunder rumbling",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "禁制",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "火无害",
+      "api": {
+        "voice": {
+          "role": "火无害",
+          "role_voice": "霸道少爷-成熟,稳重",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "圣姑五行仙遁，敌人已能全部应用，神妙无穷。休看木能生火，能长自己威力，如是先后天互相化生，难免不为所制。",
+          "instruct": "内心惊疑，语气动摇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "越想越可疑，就此退走，心又不甘。这日火无害正用烈火加紧攻打，忽见一道人飞来，正是老友崔海客，见面便说：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "崔海客",
+      "api": {
+        "voice": {
+          "role": "崔海客",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "峨眉势盛道高，神圭本是连山大师留与余英男之物。道友既非此宝不能成道，海外仇敌又多。最厉害的便是那九烈神君夫妇，听说道友出困，已在合谋，想要报复前仇。你一人势孤，如何能敌？依我之见，不如就拜在对方门下，不特此宝可为你用，并还得益不少，更不畏仇人夹攻。再不，索性与这班妖邪联合一气，也可苟全一时。凭你一人，决非峨眉对手，似此孤立，必定自误。",
+          "instruct": "连将带激，语气甚巧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "火无害",
+      "api": {
+        "voice": {
+          "role": "火无害",
+          "role_voice": "霸道少爷-成熟,稳重",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "先母遗命，说我身具恶质，务要勉为正人。因此虽以旁门成道，向不与群邪交往，以前遭忌也由于此。火海脱困前，几为两妖人所动，与之联合，至今悔恨。以后不特宁死不与妖人一党，只要敢犯我，必与一拼。至于拜师一层，休说后生无名贱婢，不配做我师父，况又是我仇敌，岂非笑话？就她法宝神妙，我也必以全力再接再厉，不将神圭得回不止。任她人多势众，料难伤我，怕她何来？",
+          "instruct": "暴怒激愤，语气刚烈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "崔海客",
+      "api": {
+        "voice": {
+          "role": "崔海客",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "道友息怒，我实好心。休看对方年轻，已得玄门正宗传授，拜她为师，有何辱没？何况对方取才甚严，还未必肯收呢。人各有志，难于相强。我知道友独断独行，向不容人忠告，不过日内如有左道中人来此侵犯，你意如何？",
+          "instruct": "从容试探，语气温和平缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "火无害以前曾因树敌太多，受海客解围之德，生平只此至交。却不知海客受人之托而来，故意诱激，语有深意。气愤头上，不暇思索，脱口答道：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "火无害",
+      "api": {
+        "voice": {
+          "role": "火无害",
+          "role_voice": "霸道少爷-成熟,稳重",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "当我胜败未分以前，不问来人是何用意，只要伸手，哪怕同向贱婢作对，也无异我的仇敌。我也知你恐我情急势穷，去与妖邪联合，故意激将。但我生平言出必践，放心好了。",
+          "instruct": "脱口而出，语气刚决"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "崔海客知他中计，便不再说，略为劝勉几句，随即别去。这时已是五十天过去，火无害见持久无功，下面敌人索性把谷口禁制撤去，现出内景，笑语之声，隐隐传来。方、元二人性又滑稽，更指着上面笑骂不已，说：",
+          "instruct": "平稳叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "方元二弟子",
+      "api": {
+        "voice": {
+          "role": "方元二弟子",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "余师姊正炼神圭，到日便要取你狗命！",
+          "instruct": "笑骂，语气刻毒戏谑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "语极刻毒。火无害恨到极处，忽想起幻波池乃敌人巢穴，恨不能一齐毁灭。一发狠，便将那丈许大一团团的烈火，连珠也似朝下打去，整座依还岭立时全成火山。同时又将轻不使用的太阳神针满山乱放。此宝也是采用日华炼成，其细如针，发时一道亮若银电的精光，所到之处，多么坚固的山石，挨着便即攻陷成一大洞，威力极猛。本来此宝阴毒，奉有遗命，不许妄用。火无害这时愤极出手，心想不论何处，攻破一洞，立可穿山人内，夺宝报仇。哪知宝网神妙，一经对敌，便生灵效，并且隐现无常，无论飞往何处下手，均有五色淡烟护住，仍攻不进。火无害正急得无计可施，忽又想起那火经上又曾载明神圭的妙用，好似一落敌手，便为所制，敌人所说必是真情。正在满山飞舞，怒火头上，忽见一道纯青色的长虹带着极强烈的破空之声电射而来，晃眼临近，现出一个相貌丑恶的矮胖妖道，见面便厉声喝道：",
+          "instruct": "紧张激烈，火无害发狂"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "连珠烈火太阳神针",
+            "sound_cn": "火无害连珠烈火将山烧成火山，太阳神针亮若银电满山乱射，山石穿洞，五色淡烟却始终护住山谷",
+            "sound_en": "chain fire turning mountain into volcano, Solar Needles like silver lightning shooting everywhere, piercing rocks, five-colored mist always protecting valley",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "太阳神针",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青色长虹破空",
+            "sound_cn": "一道纯青色长虹带着强烈破空声电射而来",
+            "sound_en": "pure cyan rainbow streaking with sharp whoosh",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "青色长虹",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "伍常山",
+      "api": {
+        "voice": {
+          "role": "伍常山",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "何方道友，快些收手。敌人有太乙五烟罗防护，决难攻进，待我下手。",
+          "instruct": "厉声喝问，语气狂傲"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，火无害已经犯了本来恶性，正在眼红之际，一听来人词色狂傲，又看出是左道中人，想起海客之言，不由怒火上撞，天性暴烈，也没问来历姓名，接口大喝：",
+          "instruct": "紧张急促"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "火无害",
+      "api": {
+        "voice": {
+          "role": "火无害",
+          "role_voice": "霸道少爷-成熟,稳重",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "我得道千年，向不许人干涉我的事。事有先后，敌人就在下面，你有法力只管施为，问我做什？",
+          "instruct": "暴怒大喝，语气凶横"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.6,
+            "process_mode": "overlay",
+            "name": "暴喝",
+            "sound_cn": "火无害暴怒大喝声震山谷",
+            "sound_en": "Huowuhai's furious roar echoing valley",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "接口大喝",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来人正是日前受伤，被沙红燕、邹勤救走的伍常山，也是一个猛恶任性的人。来时发现依还岭上有一小红人满空飞舞，手发烈火，朝下乱打，因怀盛怒而来，又恃攻山法宝厉害，急于收功，冒失上前，没问对方来历，便喝停手。不料遇见对头，闻言大怒。又以素性狂傲，不愿输口，说为太阳真火所阻，不能下手的话。当时暴怒，口喝：",
+          "instruct": "紧张叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "伍常山",
+      "api": {
+        "voice": {
+          "role": "伍常山",
+          "role_voice": "云强-浑厚,激昂解说",
+          "speed": "-3%",
+          "volume": "+1%",
+          "pitch": "-2Hz",
+          "text": "鼠辈无知，敢于口出不逊！",
+          "instruct": "暴怒大喝，语气凶狂"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "暴喝",
+            "sound_cn": "伍常山暴怒大喝",
+            "sound_en": "Wu Changshan's furious shout",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "口喝",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "扬手一道青色刀光，发了出去。火无害法力本高，更有天赋奇能，动作神速。先前只为易静等所用法宝恰到好处，才落下风。一见伍常山，心早厌恶，扬手先是一团烈火，紧跟着一声长啸，飞身而起。因愤来人神态可恶，又将太阳神针暗发出去。",
+          "instruct": "紧张激烈，冲突爆发"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青色刀光与烈火相撞",
+            "sound_cn": "青色刀光与烈火团在空中相撞爆炸，太阳神针暗发破空锐响",
+            "sound_en": "green blade light and fireball colliding in air with explosion, Solar Needle shooting with sharp hiss",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "青色刀光",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "长啸飞起",
+            "sound_cn": "火无害一声长啸飞身而起",
+            "sound_en": "Huowuhai's long howl as he leaps up",
+            "volume": "-16%",
+            "pitch": "+2Hz",
+            "trigger_keyword": "一声长啸",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "莽苍山风穴",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume cinematic background ambience, Mangcang Mountain with howling wind cave, sandstorm darkening the sky, eerie and desolate, distant mountain stream, lonely and mysterious atmosphere, deep guqin low resonance, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-25%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "风穴斗法",
+        "start_line": 9,
+        "end_line": 9,
+        "prompt": "very subtle low volume cinematic background ambience, wind cave with hundreds of pillars howling, demon banners flapping, thunder and sword light flashing, fierce magical battle, low drum and erhu tension, slow evolving continuous ambience, no sharp foreground bursts, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 100,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "月儿岛火海",
+        "start_line": 11,
+        "end_line": 15,
+        "prompt": "very subtle low volume cinematic background ambience, volcanic island with thousand-foot flames and thick smoke, sulfur smell, boiling lava, hellish and dangerous, low guqin and drum, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 100,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "洞府取宝",
+        "start_line": 15,
+        "end_line": 21,
+        "prompt": "very subtle low volume cinematic background ambience, ancient cave with stone doors and fireball, seven-colored light rays, mysterious and solemn, hidden power and tension, deep guqin and bell resonance, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "神圭合璧地火爆发",
+        "start_line": 21,
+        "end_line": 33,
+        "prompt": "very subtle low volume cinematic background ambience, dark gui light exploding and expanding, cave walls collapsing, underground fire erupting, thousand-foot flames and boiling lava, intense and chaotic, low drum and plucked tension, slow evolving continuous ambience, no sharp foreground bursts, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 100,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "连山大师化劫",
+        "start_line": 39,
+        "end_line": 39,
+        "prompt": "very subtle low volume cinematic background ambience, golden and silver radiance covering island like great bell, divine spirit ascending with fire pillars, solemn and miraculous, deep bell and chanting resonance, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 80,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "依还岭火攻对峙",
+        "start_line": 41,
+        "end_line": 55,
+        "prompt": "very subtle low volume cinematic background ambience, Jingqiong Valley under sea of solar fire, five-colored mist protecting, tense standoff, distant voices and laughter, hidden patience and strategy, low guqin and pipa, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "火无害与崔海客对话",
+        "start_line": 47,
+        "end_line": 52,
+        "prompt": "very subtle low volume cinematic background ambience, two ancient immortals conversing amid fiery backdrop, tense negotiation with hidden meaning, low guqin and soft strings, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "太阳神针乱射与伍常山冲突",
+        "start_line": 55,
+        "end_line": 61,
+        "prompt": "very subtle low volume cinematic background ambience, violent clash between two furious demons, sword light and fire colliding, thunderous explosions, intense and chaotic, low drum and plucked tension, slow evolving continuous ambience, no sharp foreground bursts, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 100,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

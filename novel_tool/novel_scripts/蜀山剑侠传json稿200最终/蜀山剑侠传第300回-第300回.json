@@ -1,0 +1,1446 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第300回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-中年男性磁性声音"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "飞龙真人": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "归吾": {
+      "role_voice": "儒雅青年-磁性,性感",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "白明玉": {
+      "role_voice": "文雅女生-温柔,优雅",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "朱骛": {
+      "role_voice": "俏皮女声-活泼,元气",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "商建初": {
+      "role_voice": "风发少年-潇洒,磁性",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "笑和尚": {
+      "role_voice": "明朗-阳光少年,情感",
+      "pitch": "+3Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "乌灵珠": {
+      "role_voice": "龙小诚-磁性低音",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "伍神师": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "徐通": {
+      "role_voice": "云名-爽朗,诙谐",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "易辰": {
+      "role_voice": "云风-沉稳,自然男声",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "黎望": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "商梧传话": {
+      "role_voice": "云诚-成熟,标准男声",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "众妖人": {
+      "role_voice": "云毒-低沉,解说大神",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "妖妇": {
+      "role_voice": "性感魅惑-成熟,性感",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "-2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第300回",
+          "instruct": "庄重开场"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "密爱轻怜，再世仙缘圆旧梦；精芒掩醒，无边毒火堕诸天。原来小南极附近飞龙岛散仙飞龙真人本是旁门左道，以前曾因受正教仙人惩治，几遭诛戮。但由此洗心革面，不再为恶，长年在岛上苦修，极少出外。偶游中土，行经海南岛，适值甄海投生在一个姓归的渔民家里，因是怪胎，受尽欺凌，年才七岁，父母双亡，仗着生来力大，为一土豪牧马。这日骑马下山，马忽失足滑跌，人虽未伤，马却跌成残废，不敢回去，连夜逃走，为奇蛇所伤，被飞龙真人救去，收到门下，取名归吾。飞龙真人知其根骨深厚，夙孽甚重，对他说道：",
+          "instruct": "平静叙述，娓娓道来"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "飞龙岛海天",
+            "sound_cn": "飞龙岛上海风轻拂，碧波拍岸，海浪声绵延不绝，海鸟鸣叫，海岛清幽寂寥",
+            "sound_en": "Feilong Island with sea breeze, waves lapping shore, endless ocean roar, seabirds calling, quiet and solitary island atmosphere",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞龙岛",
+            "trigger_offset": -0.5
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "马蹄跌滑",
+            "sound_cn": "马蹄滑跌的闷响，马匹惊嘶声",
+            "sound_en": "horse slipping with dull thud, horse neighing in fright",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "马忽失足",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "奇蛇嘶鸣",
+            "sound_cn": "奇蛇嘶嘶吐信声",
+            "sound_en": "strange snake hissing",
+            "volume": "-17%",
+            "pitch": "+2Hz",
+            "trigger_keyword": "奇蛇",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "飞龙真人",
+      "api": {
+        "voice": {
+          "role": "飞龙真人",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "旁门中人终无好结果，我不久便要兵解转世。现将本门道法全数传你，等我兵解以后，最好遇机改归正教，切勿自满。",
+          "instruct": "郑重告诫，语气深沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "甄海感激应诺，每日苦炼，不满十年，便将师传全数学会。飞龙岛上原产有一种灵药，乃师命他加意防守。一日，飞龙师又对归吾说：",
+          "instruct": "平稳叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "苦炼修行",
+            "sound_cn": "每日苦炼修行时法宝嗡鸣声与吐纳声",
+            "sound_en": "daily cultivation with treasure hum and breathing",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "每日苦炼",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "飞龙真人",
+      "api": {
+        "voice": {
+          "role": "飞龙真人",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我连日默运玄机，已算出前因后果，得知你前生二子现名甄艮、甄兑，已拜在峨眉门下。因他们天性纯孝，时常背人向天泣告，苦求师长恩允，许其父子重逢，他们以后必定寻来，你便可归入正教。你的前生夙孽，也因二子孝心感格，减去不少。你那前生爱妻也转了世，作了小南极四十六岛旁门散仙白菱礁主的女儿，名叫白明玉。不过不到时期不能前往相见，否则便要生出许多危害。",
+          "instruct": "谆谆叮嘱，语气感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时归吾已尽得师传，洞悉前因。想起以前夫妻二人海外同修，本极恩爱逍遥，只为一念贪嗔，受人蛊惑，往紫云宫夺宝，致被仇人虎头和尚将强敌引上门来，身遭惨死。爱妻也因伤重而亡。如今既知下落，恨不能当时便寻了去。无如他素敬师长，不敢违背，等了些年。正在日夜相思，白明玉忽来岛上盗取仙草。因其投生时法力尚在，灵智未失，前生之事尚还记得不少，但不知丈夫就是本岛主人。正下手采药之时，归吾忽然惊觉，发动禁法，将其困住。因不知来人是前生爱妻，欲下毒手伤害，又爱其美貌，忽然心软，发话现身。明玉这才认出对方乃是前生丈夫，忙即出声相唤。归吾因明玉相貌已变，先未认出，直到对方大声疾呼，方始问明经过。劫后重逢，悲喜交集。旁门中人，本来不禁婚嫁，何况是前世夫妻，不免重温旧梦。明玉之母乃一妖妇，人最凶狠，淫荡无耻，与四十七岛群邪多有交往。因为明玉贞烈端好，本非所喜。明玉虽将灵药取回，但其法宝已被丈夫破去，有点得不偿失。何况又在岛上留了三日，才行回去。本想禀明乃母，不料才一回岛，便见乃母好友、邻岛妖人徐神君父子在座。知道乃母滥交，徐神君之子水灵儿徐通对自己垂涎已久，屡次求婚，乃母还曾强迫许婚，均因自己厌恶对方，誓死不从，为此失欢。恐其进谗，未敢向母禀告自己与前生丈夫团聚之事。等徐氏父子走后，乃母重提旧事，仍令嫁与徐通。明玉已与丈夫隔世重逢，自然不肯。妖妇恋奸情热，只图讨好情夫，见女坚拒，不由大怒。吓得明玉有满腹的话不敢出口。就此因循下去，不时私往飞龙岛与丈夫相见，年月一多，自然泄漏。妖妇和徐氏父子俱都愤恨，几次往寻归吾生事，于是成了仇敌。明玉终被乃母监禁，不能擅离一步。归吾思恋爱妻，竟冒奇险，由地底暗入白菱礁，强将明玉救出，带了逃走。刚一回岛，男女妖人便已寻来。归吾也是恨极，用师传异宝，冷不防将徐神君杀死。妖妇同了徐通见机逃走，随约四十七岛妖人赶来报仇。因众寡悬殊，归吾不敌，只得带了明玉逃走。眼看快被仇敌追上，幸遇南海玄龟殿前辈散仙易周之子易辰，将妖妇杀死，群邪也都受伤惊逃。易辰便令归吾夫妻在玄龟殿附近觅一小岛，暂时隐居，以待仙缘遇合，全家团聚。归吾夫妻住了些年，忽忆前师遗命，曾说前生爱子本年必往小南极相会。同时又想起岛上所产灵药虽然深藏岛洞山腹之内，已用法术封禁，外人不易寻到，也难采取，但今当结实之期，意欲暗中回岛查看，将灵药连根移来，以免落人敌手。哪知刚到不久，便被徐通用邪法查见，约来乌鱼岛上妖人，将夫妻二人一起擒去，欲用阴火炼化归吾附身宝光，将其残杀；并逼明玉归顺，供众妖人淫乐。被困四日，受尽苦难，正在拼命挣扎、万分危急之际，总算五行有救。原来金钟岛主叶缤门下女弟子朱骛，因那年峨眉赴会之后，乃师去往双杉坪炼那绝尊者灭魔宝篆，想起前在灌口手刃亲仇以前，曾被仇敌邪法所困，多亏土木岛主商梧之子商建初相助，才免于难。又见对方少年英俊，并为自己受伤，深觉对人不起，但所居远在北海，不便往访。不知夙缘前定，彼此一见钟情。回岛不久，又出去行道，商建初三寻始遇。朱骛见他中了妖道毒刀，几乎残废，虽仗陷空岛灵药解救，元气亏耗，尚未复原，事由救护自己而起，好生不安。双方本就倾心，日子一久，情爱越厚，不时背了众同门，另往别岛约地相会。这日朱骛忽然想起故乡风物，双方情爱日益加深，师父又不在家，师妹朱红和别的同门、侍者见自己与商建初一双两好，不但不为叫破，反想促成神仙眷属，处处与己方便，日子一多，渐渐成了形影不离，便与商建初商量，欲回故乡一趟。商建初爱极朱骛，百依百随，闻言立即应诺，两人便往中土飞来。二人本意是往湖南故乡，畅游三湘七泽之胜。中途听一同道说起东海三仙旧居钓鳌矶附近，尚留有不少灵芝，本年正当结实。于是仗着师门深交，欲往求取，以为当地必有峨眉门人防守，一求即允。不料到后一看，芝圃四外竟设有极严密的仙法禁制，无法入内。商建初见她失望，意欲讨好。因自上次受伤回山，虽受乃父商梧责罚，却赐了两件法宝，均是土木真气炼成，便和朱骛说，打算用土遁入内，采取灵芝。朱骛因峨眉乃师门至交，怎能行此盗窃之事？执意不允。二人原坐在钓鳌矶旁山石之上，正在说笑，忽听远远破空之声。商建初自从灌口吃亏，遇事留心，闻声仰望，三道暗绿色的妖光夹着几丝红线，正由天边破空穿云而来，看出是左道妖邪，忙把二人身形隐去。晃眼之间，遁光飞堕，现出一僧一道，相貌均甚凶恶。内一妖道背插妖旗和九柄短剑，更是一身邪气。才一落地，便朝右侧危崖下走去。二人听出妖道乃慈云寺漏网的七手夜叉龙飞，另一人则是妖僧。因听人说苦行头陀门人笑和尚在东海钓鳌矶洞中面壁十九年，名为受罚，实则是乃师借此传授他本门无形仙剑，以为三次峨眉斗剑之用。七手夜叉龙飞想起前仇，欲乘对方入定之际，施展邪法暗算，收炼生魂。朱骛知道妖人不怀好意，首先激动义愤。商建初本恨妖人，又有心上人的话，便一同暗中跟去。到了洞前一看，因有仙法禁制，妖人无法攻入，便在洞外布下妖阵，意欲摄取生魂。朱、商二人因以前曾为邪法所败，还不敢现身冒失动手。又见洞外禁制神妙，邪法无功。正想看上一会再相机下手，忽见邪法发动，妖旗上飞起四五十个魔鬼影子，不住舞蹈，厉声悲啸。朱、商二人身在妖阵以外，听去都觉心惊神摇，令人生悸，知道邪法厉害。忽见一个面如冠玉，又白又胖的小和尚，满脸笑容，在一片金光笼罩之下，由洞中飞出。数十魔鬼立时张牙舞爪，扑将上去，小和尚立被困住。商建初知是笑和尚的元神，便先将乃父镇山之宝六甲金光障扬手飞出，想将笑和尚护住。不料那形似六角屏风的金光刚一发动，人影一闪，忽然不见，自己踪迹却被二妖人看破。妖道扬手便是一片碧阴阴的妖光，电也似疾布满天空，往下压来。朱、商二人逃避不及，隐形法竟被破去，只得动手。二妖人的邪法十分厉害，幸而商建初持有父传至宝，放出二行真气，将身护住，未遭毒手。双方正相持间，二妖人忽似有什警兆，一同破空遁去。朱、商二人因见笑和尚先前失踪，不知是否为邪法所害，正在互相谈论，因洞口有仙法禁制，无法入内查看。忽听壁中有人笑道：",
+          "instruct": "紧张急促地叙述，内容跨度大"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "禁法发动困人",
+            "sound_cn": "归吾发动禁法的嗡鸣声，光幕罩落",
+            "sound_en": "Gui Wu activating prohibition with hum, light curtain descending",
+            "volume": "-17%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "发动禁法",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "劫后重逢相拥",
+            "sound_cn": "归吾与明玉相认后相拥的衣料摩擦与轻泣声",
+            "sound_en": "Gui Wu and Ming Yu embracing after recognition, fabric rustle and soft sobbing",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "劫后重逢",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "妖妇怒摔杯盏",
+            "sound_cn": "妖妇大怒摔碎杯盏的瓷器破裂声",
+            "sound_en": "demoness smashing cups in anger, porcelain shattering",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "不由大怒",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "地底救出",
+            "sound_cn": "归吾由地底穿出的泥土碎裂声",
+            "sound_en": "Gui Wu bursting from underground, soil cracking",
+            "volume": "-17%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "地底暗入",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "碧阴阴妖光飞堕",
+            "sound_cn": "三道暗绿妖光划空飞堕的破空声",
+            "sound_en": "three dark green demon lights descending with sharp whoosh",
+            "volume": "-15%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "碧阴阴的妖光",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "邪法妖阵魔鬼悲啸",
+            "sound_cn": "妖旗上飞起四五十魔鬼影子，厉声悲啸，阴风阵阵",
+            "sound_en": "dozens of demon shadows rising from banner, howling mournfully, sinister wind",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "魔鬼影子",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "六甲金光障飞出",
+            "sound_cn": "商建初扬手六甲金光障飞出的嗡鸣",
+            "sound_en": "Shang Jianchu releasing Six-Armor Golden Barrier with hum",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "六甲金光障",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "二位道友，怎的如此性急？这两个妖人日前已经来过，知我面壁入定，意欲暗算；不知我年来苦修，未等期满，内功已经圆满。同时我又发现先恩师的遗偈，得知此举实是师恩深重，玉我于成。本不需要十九年功候便可完满，只为尚有孽缘未了，意欲令我多留数年，免去烦扰。无形仙剑炼成，虽可随意出山，但峨眉仙府参拜教主，仍须十九年期满，才能前往。在此数年之内，仅许出洞三次。本来我已约有两位同门好友，打算用一幻影绊住敌人，等他到来，一起夹攻，将其除去。不料妖道恶运未终，已被逃走。你们虽然误了我事，盛情高义也颇感谢，此时尚难出见。你二人前坐山石之上，有家师留赐的灵符，我转赠二位道友，万一有甚为难之事，不妨照我所说用法，将符展动。因家师遗留的法宝、灵符均已被我得到，飞行颇快，不消多时，便能赶往相助。还有先逃妖道名叫龙飞，炼有九子母阴魂剑和一面摄魂妖幡，邪法厉害，你二人已和他成仇，遇时必须留意才好。",
+          "instruct": "从容笑说，语气亲切"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "壁中传声",
+            "sound_cn": "笑和尚声音从石壁中传出的回声",
+            "sound_en": "Xiao Heshang's voice echoing from within the stone wall",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "壁中有人笑道",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱、商二人闻言，才知笑和尚法力甚高，原来故意诱敌，连忙称谢。寻到所赠灵符，笑和尚传了用法，又指示去往芝圃的门户，二人大喜称谢。采了两本灵芝，同往南海飞去。刚到金钟岛，见小师妹朱红和一妖人对敌，正在相持。二人连忙上前，一同合力将妖人打败，妖人受伤逃走。一问，方知妖人乃乌鱼岛主乌灵珠之子乌角，天性淫凶，无恶不作。朱红去邻岛闲游路遇，被其暗中跟来，先畏岛主叶缤的威名，不敢轻于招惹，只是恋恋不舍，时往窥探。后来探出叶缤不在岛上，一时色令智昏，约一同党，暗用邪法隐形，打算冷不防把朱红暗中摄走。不料岛上设有仙法禁制，并有一面宝镜。朱红日前又早发现有一相貌奇丑的猴形怪人在岛前隐形窥探，先不叫破，暗告同门设伏相待。二妖人还未深入宫中，便被朱红将隐形邪法破去。同来妖党见势不佳，已先逃走。只乌角一人尚在恋战，不肯就走。朱骛想起四十七岛妖人的多年夙仇，师父双杉坪炼法便为此事，孽子竟乘师父不在，来此相犯，不由大怒。商建初为了迎合二女心意，自恃父亲所传法宝，欲代除害。乌角偏不知道死活，第二日又约了几个妖党前来，一到便被商建初杀死了两个，乌角受伤逃走。当时不追，原可无事。为讨好心上人，一同追往乌鱼岛上。岛主乌灵珠正用邪法阴火祭炼归吾夫妻，忽见爱子被敌人追来，看出对方乃土木岛主门下，先还不想结怨。无如商建初自恃法宝神妙，又忿妖人先前出语淫秽，立意将其除去，一任对方警告，终不肯退，于是动起手来。乌灵珠乃四十六岛妖人之首，妖法厉害，因知土木岛商氏二老十分难惹，虽然动手，仍不肯结怨。一时疏忽，竟被二人仗着二行真气开路，闯入法坛，将归吾夫妻救出险地。乌灵珠本意想将二人困入法坛，一见对方发动二行真气，又持有土木岛镇岛之宝六甲金光障，再一喝问姓名，竟是商梧独生爱子，越发不敢伤害。朱、商和归吾夫妻四人会合以后，仍可逃走，偏见成功容易，敌人邪法均为自己所破，一时贪功好胜，妄想将乌鱼岛众妖人一齐杀死。孽子乌角又是恶贯满盈，看出乃父首鼠两端，赶往后宫向乃母哭诉，一同赶来，想逼乃父为他报仇。到时正遇上乌灵珠和来人一面对敌，一面发话警告之际，惟恐敌人胆小逃走，不由分说，母子二人一齐动手。商建初本已看出敌人邪法厉害，伎俩未穷，偏生朱骛天性疾恶，尚无退意。乌灵珠又口口声声说：",
+          "instruct": "紧张叙述，群邪围攻"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "采灵芝",
+            "sound_cn": "采摘灵芝的轻微折断声",
+            "sound_en": "picking lingzhi with soft snap",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "采了两本灵芝",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "朱红斗妖",
+            "sound_cn": "朱红与妖人对敌的法宝碰撞声",
+            "sound_en": "Zhu Hong fighting demon, magical weapons clashing",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱红和一妖人对敌",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.2,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "邪法阴火祭炼",
+            "sound_cn": "乌鱼岛上阴火翻腾，祭炼邪法的嘶嘶声与哀嚎",
+            "sound_en": "Wuyu Island with Yin fire churning, demonic refining sizzling and wailing",
+            "volume": "-15%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "邪法阴火",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "二行真气开路",
+            "sound_cn": "二行真气破开邪法的轰鸣声",
+            "sound_en": "Erxing Qi breaking through demon magic with roar",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "二行真气",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "乌灵珠",
+      "api": {
+        "voice": {
+          "role": "乌灵珠",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "我与你父无仇无怨，你年幼无知，不值计较，姑且宽容，但所救两人必须留下。",
+          "instruct": "厉声警告，语气阴沉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "因此不肯退走。正在相持，待以全力一拼，一见孽子同一妖妇重又出现，不由勾动怒火，扬手把土木神雷打将出去。妖妇母子自恃太甚，以为敌人深入重地，死活由心，万无败理，其实已是煞星照命。原来商建初因在灌口受伤，断去一臂，回山受完责罚，将断臂续好之后，商梧便对他说：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "土木神雷爆炸",
+            "sound_cn": "商建初扬手土木神雷炸响，震天动地，碎石飞溅",
+            "sound_en": "Shang Jianchu throwing Earth and Wood Divine Thunder, earth-shaking explosion, rocks flying",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "土木神雷",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.6,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "母子粉碎",
+            "sound_cn": "妖妇母子被震碎的血肉飞溅声",
+            "sound_en": "demoness and son shattered, flesh splattering",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "震成粉碎",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "冰魄神光合灭元神",
+            "sound_cn": "冰魄神光罩下，元神消灭的轻响",
+            "sound_en": "Ice Soul Divine Light descending, spirit vanishing softly",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "冰魄神光",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "商梧传话",
+      "api": {
+        "voice": {
+          "role": "商梧传话",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我门人子侄，从未吃过人亏。你既心爱此女，限在三年之内，接来本岛完婚。另将本门至宝土木晶砂赐你，外加柬帖一封。寻到此女，便即回岛完婚，过期不成，休再见我。",
+          "instruct": "严肃叮嘱，语气威严"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "商建初因为养伤，已和朱骛数年未见，闻命大喜，伤愈立往寻访。不料朱骛奉命行道，很久不曾寻到。最后前往金钟岛相访，方得相遇，并还看出对他钟情，心中狂喜。后来探明心意，同了朱骛回山，禀知父亲，说朱骛已经允婚，但要禀明师父方始来归。以为父亲、叔父言行如一，向无更改，三年期限将满，朱骛又非等师父回山请命不可，恐父怪罪，还在提心吊胆。不料商梧听完之后，对小夫妻甚是奖勉，并赐朱骛一件防身法宝为见面礼。此宝名碧云屏，一经施为，便有一片碧云将身护住，万邪不侵。这时，建初因心上人痛恨仇敌，不肯退走；又见乌灵珠有些情虚，好似怯敌。心想：",
+          "instruct": "平稳叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "碧云屏赐下",
+            "sound_cn": "碧云屏赐下的宝光嗡鸣",
+            "sound_en": "Bi Yun Ping bestowed with soft hum",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "碧云屏",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "商建初",
+      "api": {
+        "voice": {
+          "role": "商建初",
+          "role_voice": "风发少年-潇洒,磁性",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "自己的防身法宝十分神妙，又带有土木晶砂，至多不胜，全身而退，当可无害。",
+          "instruct": "内心自信，语气轻快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "于是全力发动，妖妇母子恰巧撞上，骤出不意，竟被震成粉碎。朱骛恨极孽子，又将新近炼成的冰魄神光往起一合，连元神也一齐消灭。乌灵珠当时大怒，悲愤填膺，咬牙切齿，把心一横，所布妖阵本已准备停当，当时发难。朱、商二人法宝虽然神妙，具有威力，无如对方精于玄功变化，邪法厉害。先前妖妇母子之死，只因其轻敌太甚，以为敌人已陷妖阵，弹指之间，便可报仇，没料到那等快法。双方来势又均极神速，乌灵珠又在迟疑不决，就这事机瞬息之间，微一疏忽，母子二人已被土木神雷震成粉碎，形神皆灭。这原是朱、商二人一时侥幸。等到敌人真个翻脸成仇，以叶缤法力之高，昔年屡与四十七岛群邪恶斗，尚难全胜，何况乌灵珠近年为防叶缤报仇，又联合群邪炼了不少邪法异宝，朱、商二人如何能是对手。不过乌灵珠对商梧父子仍有点惧怕，因而一面发动妖阵，将仇人困住；一面又向四十七岛群邪发出警报，一齐召来，以备万一。四人在阵中被困了三日，商建初虽仗父传法宝护身，并用土木晶砂、二行真气护在宝光之外，暂时不致受害，无如敌阵中阴火凶毒异常，休说脱身，稍被乘隙侵入，便遭惨死，连元神也被摄去，永受炼魂之惨。群邪因见敌人晶砂神妙，急切间不能奏功，为防夜长梦多，商氏二老警觉赶来，仇报不成，反为所败，索性各把邪法异宝纷纷施为，把整座乌鱼岛笼罩在万丈妖云阴火之下。商建初看出厉害，先还想父亲得信，必要来援，才一被困，便将本门告急信号发出。哪知两次求救，到了第四日上尚无音信。心疑飞光信号被阴火邪法隔断，这才急起来。惟恐心上人遇险，万分愁急之中，忽想起笑和尚所赠灵符，忙即取出，如法施为。又隔了一日夜，救兵仍未见来。知道父亲和叔叔钟爱自己，闻警决不坐视。便笑和尚赠符时的口气，也是十分诚恳，又系第一次向其求救，焉有不来之理，必为邪法所破无疑。生机已断，眼看那紫、碧二色的阴火邪焰像火山也似包围在宝光层外，二行真气已被化炼去一半，群邪多人更在一旁各施邪法异宝助威，中间又杂有大片阴雷，声势猛恶，比前更盛。乌灵珠见持久无功，竟还不足，更把多年苦功炼来对付叶缤的七二秘魔元命神幡和摄心铃取出施为。这两件都是魔教中有名异宝。摄心铃更是厉害，共有三枚，其中一枚在峨眉开府以前为两位长老毁去，乌灵珠得有一枚，经用邪法重炼，凶威更盛。朱、商和归吾夫妻四人，先见妖人取出一面上绘无数血影的妖幡，才一展动，幡上便涌起一片血光，光中现出许多奇形怪状、相貌狞恶的魔鬼影子，一个个张牙舞爪，口中发出极尖锐的惨啸，在大片其红如血的妖光中沉浮隐现，呼啸不已。不知怎的，目光竟被吸住，想要下看，直办不到。一会工夫，便觉目眩心悸，周身冷战，神魂欲飞。后来还是朱骛看出不妙，忙令三人留意，才把心神勉强镇定，一味运用玄功，潜心内视，不去看它，觉得稍好一些。耳听妖人厉声喝道：",
+          "instruct": "激昂紧张，妖阵阴火"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖阵发动万丈妖云",
+            "sound_cn": "乌灵珠发动妖阵，万丈妖云阴火笼罩全岛的轰鸣声",
+            "sound_en": "Wu Lingzhu activating demon formation, ten-thousand-zhang demon cloud and Yin fire covering the island with roar",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "妖阵",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "告急信号发出",
+            "sound_cn": "商建初发出本门告急信号的尖锐破空声",
+            "sound_en": "Shang Jianchu sending urgent signal with sharp whistle",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "告急信号",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.2,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "灵符展动",
+            "sound_cn": "笑和尚灵符展动的轻响",
+            "sound_en": "Xiao Heshang's talisman unfolding softly",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵符",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "七二秘魔元命神幡",
+            "sound_cn": "妖幡展动血光涌现，无数魔鬼惨啸，摄心铃幽咽凄人心脾",
+            "sound_en": "demon banner unfolding with blood light, countless demon shadows howling, Heart-Seizing Bell ringing mournfully",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "摄心铃",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "紫碧阴火化炼二行真气",
+            "sound_cn": "紫碧二色阴火像火山般包围，二行真气滋滋化炼，阴雷连珠爆炸",
+            "sound_en": "purple-green Yin fire like volcano surrounding, Erxing Qi sizzling being refined, Yin thunder chain exploding",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "紫碧二色的阴火",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "乌灵珠",
+      "api": {
+        "voice": {
+          "role": "乌灵珠",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "无知狗男女，急速束手就擒，听候发落，还可以少受苦难；如再倔强，我那无上仙法一经发动，白受许多苦难，仍不免一死。那时求生不得，求死不能，悔之晚矣！",
+          "instruct": "厉声威吓，语气凶残"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便将摄心铃取出，刚一晃动，四人便闻得一种极悠扬娱耳的异声隐隐传来，虽然满阵都是妖光邪火布满，那么强烈的风火之声，竟掩不住这种异声，听去十分真切。只觉得越听越好听，渐渐全神贯注，顿忘处境之危。这摄心铃最是阴毒，专摄修道人的元神。乍听无奇，只一入耳，便随人心意发出各种极为微妙的异声，元神立被吸住，渐渐神志昏迷，真魂出窍，休想活命。也是四人命不该绝，众妖人中有数人忽然看中二女美貌，意欲先好后杀，再炼真魂，不令乌灵珠当时杀害，以致缓了一步，邪法便不曾全部发挥。四人正相持间，朱骛忽听铃声有异，猛想起以前师父曾说乌鱼岛妖人邪法厉害尚在其次，最厉害的是手中有一魔教中异宝，名为摄心铃，共是三枚，各有妙用，以乌灵珠所得一枚为最厉害，又经邪法炼过，遇上必须小心。方才所闻异声，必是此铃无疑。忙即暗告三人留意。本来还是无力防御，事有凑巧。当初妖人为防应敌之际误伤同党，四十七岛妖人全都经其指教，得有密传。明玉之母本是四十七岛群邪之一，也曾在场，明玉曾听乃母说过，听朱骛一说，想起前言，不禁大惊。忙用玄功先将双耳闭住，再朝众人警告，传以防御之法。经此一来，才得勉强支持。但是众人说话时也为妖人听去。乌灵珠眼看敌人心神摇动，快要成擒，忽被明玉提醒，转危为安，不由大怒，便向众妖党大喝道：",
+          "instruct": "紧张急促，危机迫近"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "摄心铃惑魂异声",
+            "sound_cn": "摄心铃发出悠扬娱耳异声，铃声幽咽渐渐转为淫艳，惑人心神，心旌摇摇",
+            "sound_en": "Heart-Seizing Bell emitting seductive sounds, turning from mournful to sensual, enchanting the mind, heart trembling",
+            "volume": "-16%",
+            "pitch": "+1Hz",
+            "trigger_keyword": "摄心铃",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "双耳闭住玄功",
+            "sound_cn": "明玉运用玄功闭住双耳的轻响",
+            "sound_en": "Ming Yu closing ears with mystical power, soft sound",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "双耳闭住",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "乌灵珠",
+      "api": {
+        "voice": {
+          "role": "乌灵珠",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "贱婢白明玉，乃白道友所生逆女，乃母为她惨死，摄心铃的用法她原知道，现被泄机，只好将此宝妙用全力发挥，使其形神皆灭，不必保全。此是贱婢自寻死路，不能再照诸位道友原意了。",
+          "instruct": "暴怒大喝，语气凶残"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，把手一招，收回妖幡，手掐灵诀，朝空一扬。立有一团心形碧光飞起空中，晃得一晃，碧光便自加大，光中现出许多赤身魔女影子。铃声也响个不住，先是铃语幽咽，凄人心脾。四人因有明玉邪法防御，又都是各存戒心，还未受什危害。及至响了一阵，铃声骤转洪烈，宛如无数大鼓迅雷，中杂狂风烈火，一齐怒鸣，震撼天地。四人中朱骛法力较高。商建初法宝最为神妙，自从闻警，得知妖铃厉害，惟恐有失，又发出一片二行真气，由里面将四人一齐护住。那铃声听去虽极猛恶，并无他异，心方略定。铃声忽转淫艳，碧光中的赤身魔女都是粉光致致，皓体呈辉，媚目流波，风情无限，朝着众人搔首弄姿，轻盈起舞，作出许多淫荡不堪之态。稍一注目，多看两眼，心神便被摄住。众人两耳本已封闭，又加二行真气防护，原可不受铃声摇惑。谁知五官相连，目光被摄，两耳也受了感应，立时心旌摇摇，不能自主。最厉害的是明知邪法厉害，耳目所及，心神一受迷惑，真魂将被摄去，偏生不能自制。身外阴火阴雷及各色妖光血焰，又似狂涛暴雨一般纷纷压到，护身宝光和外层的二行真气已被炼去十之八九。六甲金光障虽然无恙，但是二行真气化尽以后，是否仍能支持，尚说不定。眼看情势更加危急，众妖人正在笑骂相告，说是成功在即。摄心铃所化碧色心形妖光忽然转成紫色，光焰更强，内中赤身魔女更现出许多妙相。白明玉曾听乃母说过，知妖光一转成粉红颜色，生魂便被摄去；跟着一片黑烟冒过，妖光再转纯黑，人便成了灰烬，永受炼魂之惨。眼看妖光由碧转紫，渐渐由浓而淡，快由深红转淡红，知危机已迫，绝难逃生。无奈先前疏忽，被其乘隙侵入，再想行法防御已办不到。自己知道底细，耳目尚被摄住，其他三人更不用说。白明玉想起死时惨状，惊魂都颤，越想越伤心，扑到归吾身上，痛哭待死。忽听暗中有人笑骂道：",
+          "instruct": "紧张急促，绝境求生"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "心形碧光赤身魔女",
+            "sound_cn": "心形碧光飞空加大，赤身魔女搔首弄姿，铃声淫艳，碧光由碧转紫渐转红",
+            "sound_en": "heart-shaped green light expanding, naked demonesses dancing seductively, bell turning from mournful to sensual, light shifting from green to purple to red",
+            "volume": "-15%",
+            "pitch": "+1Hz",
+            "trigger_keyword": "心形碧光",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "阴火阴雷狂涛暴雨",
+            "sound_cn": "阴火阴雷如狂涛暴雨压来，二行真气被炼化的滋滋声，妖光血焰翻涌",
+            "sound_en": "Yin fire and thunder pressing like storm, Erxing Qi being refined with sizzle, demon light and blood flame surging",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "阴火阴雷",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "明玉痛哭",
+            "sound_cn": "白明玉扑到归吾身上痛哭的抽泣声",
+            "sound_en": "Bai Mingyu throwing herself on Gui Wu and sobbing",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "痛哭待死",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "该死妖孽，竟敢使用这等恶毒妖阵。今日你们恶贯满盈，劫数到了。",
+          "instruct": "暗中笑骂，语气不屑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "暗中传声",
+            "sound_cn": "笑和尚从暗中传出的笑骂声，带着回声",
+            "sound_en": "Xiao Heshang's laughing voice from hiding, echoing",
+            "volume": "-17%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "暗中有人笑骂道",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众妖人闻声大怒，细一查看，哪有人影。各将法宝、飞剑只朝那发话之处飞射过去，还是不见敌人影子。随又听暗中骂道：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "法宝飞剑乱射",
+            "sound_cn": "众妖人法宝飞剑朝发话处乱射的破空声与碰撞声",
+            "sound_en": "demons' treasures and swords shooting wildly toward the voice, whoosh and clang",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "法宝飞剑",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "无知妖孽，你那邪法只向别人卖弄，岂能伤我毫发？我不过见正主人未来，他是我师父的朋友，不便抢先，姑且由你多活片时；否则，一举手间，你们这群妖孽立遭惨戮。不信，我先将你这摄心铃破去，教你看点颜色如何？",
+          "instruct": "暗中笑骂，语气轻蔑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众妖人闻言，忽想起阵中已成火海，还有无数阴雷、异宝夹攻施威，听敌人口音，年纪不大，竟在阵中隐形发话，若无其事，连影子也见不到，料是能手，不禁惊奇，一齐朝那发话之处各以全力纷纷夹攻。那摄心铃本来高悬在四人头上，光已转成淡红，四人均觉四肢绵软，心神如醉，老是要晕的神气。商、朱二人耳听阵中来人隐形发话，十分耳熟，因心神已为邪法所制，危机一发，急切间也未听出是谁。还是明玉比较内行，见丈夫向前呆望，神思昏昏，知道不妙，正在强摄心神，大声疾呼哭喊：",
+          "instruct": "紧张急促"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "妖光转淡红",
+            "sound_cn": "摄心铃妖光转为淡红的低沉嗡鸣",
+            "sound_en": "Heart-Seizing Bell light turning pale red with low hum",
+            "volume": "-17%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "转成淡红",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "白明玉",
+      "api": {
+        "voice": {
+          "role": "白明玉",
+          "role_voice": "文雅女生-温柔,优雅",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "是哪位仙人来此，请快将妖铃破去，救我四人性命。否则，妖光一转粉色，我们便没命了。",
+          "instruct": "哭喊求救，语气惊恐"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，猛瞥见一幢金光祥霞大约亩许，突自空中出现，只闪得一闪，便将摄心铃妖光裹住，一片香风过处，妖光立灭。乒乓两声，现出一个形似人心，拳头般大的黑色妖铃，尚在满空跳荡。众妖人一见金光，认出是佛门至宝，眨眼之间妖光消灭，摄心铃正在金光之中跳动挣扎，不由又惊又怒。乌灵珠更是情急，忙纵妖光跟踪追去，想将妖铃夺回。说时迟，那时快，一团拳大红光突又出现，打向妖铃之上，霹雳一声，震成粉碎。乌灵珠在有一身邪法，飞遁神速，竟未追上。敌人也始终未现身。妖铃一破，四人邪法立解，恢复原状。那六甲金光障乃前古至宝，本有灵性，宝主人虽然中邪，将要晕倒，仍能发出威力，不令阴火侵入。但那外层的二行真气已被阴火化尽，救星稍微到晚一步，四人仍无幸理。经此一来，四人全都复原。先还不知隐形人是谁，竟具有这么高法力。正待询问，请其现身，忽听哈哈笑道：",
+          "instruct": "激昂振奋，佛光破铃"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金光祥霞裹铃",
+            "sound_cn": "一幢金光祥霞亩许大从天而降，裹住摄心铃，香风过处妖光立灭，佛光嗡鸣",
+            "sound_en": "golden radiance descending like canopy, wrapping the bell, demon light vanishing with fragrant wind, Buddha light humming",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光祥霞",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "妖铃跳荡",
+            "sound_cn": "黑色妖铃在金光中跳荡挣扎的乒乓声",
+            "sound_en": "black demon bell jumping and struggling in golden light with clinks",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "乒乓两声",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.7,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "霹雳碎铃",
+            "sound_cn": "一团拳大红光打向妖铃，霹雳一声震碎妖铃，碎片飞溅",
+            "sound_en": "fist-sized red light striking the bell, thunderous crack shattering it, fragments flying",
+            "volume": "-13%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "霹雳一声",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "四人复原",
+            "sound_cn": "妖铃破后四人邪法立解恢复的轻舒气声",
+            "sound_en": "four people recovering as demon magic breaks, sighs of relief",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "四人全都复原",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "无知妖孽死在临头，还敢发威么？你要见我不难，可惜不能白见。",
+          "instruct": "哈哈笑道，语气戏谑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "哈哈笑声",
+            "sound_cn": "笑和尚哈哈笑声从空中传来",
+            "sound_en": "Xiao Heshang's laugh echoing from above",
+            "volume": "-16%",
+            "pitch": "+2Hz",
+            "trigger_keyword": "哈哈笑道",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，叭的一声，乌灵珠身旁有一妖人竟被隐形人照脸一掌，打了个皮开肉绽，口鼻歪斜，鲜血直流。原来那妖人乃团沙岛主伍神师，人最阴险狡诈，因敌人不肯现身，表面随同群邪毒口咒骂，暗中却把独门异宝天魔钉准备停当，打算冷不防朝那发话之处猛下毒手。此钉经妖人多年苦功炼成，发时只有寸许长一丝灰色妖光，中在人身，立时暴长，火弹也似化为一蓬血光，将人震成粉碎。更能由心运用，大小隐现，无不如意。比宝相夫人的白眉针还要阴毒得多，最难防御。为数又多，满拟大量发出，凭着自己心灵运用，追赶敌人不舍，一任对方隐形飞遁和防身法宝多么神妙，似此半隐半现，至多能避开一半，另一半决躲不掉，只要稍露空隙，立被打中，便不死也必重伤。心里正打着如意算盘，没想到死在临头。那来人不特借有佛门至宝香云宝盖，万邪不侵，威力神妙，并还持有前师留赐的聆音查形的一枚玉环，外加无形剑气防身，多厉害的邪法也无用处。本意想打乌灵珠，因见妖人长于玄功变化，不易击中，正想主意。忽见旁立妖道相貌丑恶，神情鬼祟，手藏袖内，暗掐法诀；另一手托着一百零八根短只三分，碧光闪闪，似钉非钉之物，先取一半发将出来，光细如丝，出手变成灰色，又由千百丈阴火妖光之内发出，如非师传玉环查看，多好慧目法眼也难分辨。这一半发出以后，便环绕在自己的身外，因被无形剑气挡住，无法进攻。但那妖钉似有灵性，始终环绕身外，冻蝇钻窗一般钻射不已。另一半出手不见，针光全隐。那人知其隐光暗算，心中有气，忙即飞身上前，施展佛家金刚掌，只一下便将妖人打个头晕眼花，鲜血直流，几乎晕倒。当时怒火上攻，一面行法止痛，一面准备邪法，待要还攻。乌灵珠看出敌人隐形神妙，法力高强，双方一明一暗，更易吃亏，知非其敌，忙喝：",
+          "instruct": "紧张急促，笑和尚戏妖"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "叭的一掌",
+            "sound_cn": "笑和尚一掌打在伍神师脸上，皮开肉绽的闷响与鲜血飞溅声",
+            "sound_en": "Xiao Heshang slapping Wu Shenshi's face, flesh splitting with a crack, blood splattering",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "叭的一声",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.6,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "天魔钉钻射",
+            "sound_cn": "寸许灰色妖光如冻蝇钻窗般钻射，密集的破空声与叮叮撞击声",
+            "sound_en": "inch-long grey demon lights drilling like flies, dense hissing and clinking against invisible sword",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "天魔钉",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "乌灵珠",
+      "api": {
+        "voice": {
+          "role": "乌灵珠",
+          "role_voice": "龙小诚-磁性低音",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "道友留意！",
+          "instruct": "急声提醒，语气紧张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，耳听哈哈一笑，面前人影一晃，现出一个又白又胖的小和尚，先那一幢金光一闪不见。众妖人先因敌人隐形神妙，邪法无功，均以为是一个本领极高的正教中仙人。及见来人现身，竟是一个未成年的小和尚，生得唇红齿白，带着一脸顽皮淘气神情，说话偏是那样难听，全都大怒。四十六岛妖人原以乌灵珠和伍神师、四首神君崔晋为首。方才接到警号，都当来了强敌。有几个吃过叶缤大亏，怀恨多年的，更误以为叶缤寻来，又急又怒。各把前些年所炼邪法、异宝一齐带上，人数也不下八九十人，除却有限几个妖人事前离岛外出，其余全都赶到。先见敌人已被困入妖阵，正受阴火化炼，还当乌灵珠小题大做。后来问出中有一人乃北海土木岛主商梧之子，虽然有些顾虑，但都自恃人多势众，早有准备，仍未放在心上。不料现在有人隐形入阵，连受讥嘲，并将至宝摄心铃破去，伍神师又被打伤，全都痛恨。内中乌、伍二妖人更因先前吃过大亏，怒上加怒，恨不得把敌人吞吃下去，才能消恨。隐身人现身以后，再一细看，对方空着双手，笑嘻嘻摇头晃脑，凌虚而立，并无法宝、飞剑随身，急切间竟看不出他的来历深浅。如非先前吃过大亏，又见那么强烈的阴火妖光，敌人竟在阵中从容出现，若无其事，决想不到会有那等厉害。对方年岁不大，从未听人说过，除有限十余人之外，多疑还有师长随来，隐形在旁，故示神奇。不由同声喝骂，纷纷施为，一时阴雷妖光如暴雨一般，齐向小和尚打去，四外的阴火更是潮涌而至。乌灵珠二次又取妖幡连连晃动，打算破去隐形，摄取敌人元神。哪知敌人正是东海三仙中苦行头陀惟一爱徒笑和尚，已经尽得师传，身有无形剑气防护，万难伤害。只是性喜滑稽，故意取笑。等到邪法异宝一齐发动，忽然哈哈一笑，仍然空着双手，凌虚飞行在妖光火海之中，如鱼游水。那么多邪法异宝夹攻上去，分明已打到身上，不知怎地竟如无觉。身外也无宝光出现，口中直喊：",
+          "instruct": "紧张急促，笑和尚现身"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "人影一晃现身",
+            "sound_cn": "笑和尚突然现身的轻响，金光一闪",
+            "sound_en": "Xiao Heshang appearing suddenly with soft sound, golden light flashing",
+            "volume": "-17%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "人影一晃",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 0.6,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "阴雷妖光暴雨",
+            "sound_cn": "众妖人阴雷妖光如暴雨打向笑和尚，阴火潮涌而至，轰隆声与嘶嘶声交织",
+            "sound_en": "demons' Yin thunder and demon light raining on Xiao Heshang, Yin fire surging, booming and hissing interweaving",
+            "volume": "-14%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "阴雷妖光",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "明朗-阳光少年,情感",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+3Hz",
+          "text": "妖人大多，我一个人除他不完，只杀一半，又恐金钟岛主怪我多事。内中还有一个妖人，又有人受他母亲所托，向我说情，我看他母亲碧梧仙子面上，想要委曲求全，偏不认得此人，教我为难。我多年不曾出山，手又痒得厉害，如不给他们吃点小苦，手痒难受，错了机会，以后哪里能找到这么多的妖邪杀痒去？",
+          "instruct": "嬉笑调侃，语气轻松"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "边喊边跑，神速异常。笑和尚跑着跑着，忽然把头一晃，便到了某一个妖人身前，扬手便打，手法又重又快。最厉害的是挨打的人虽有法宝防身，并无用处，一打必中，打上便是一个满脸花，不是头破血流，便是半边脸肿起老高。再不就是一掌打个半死，几乎闭过气去。众妖人先还当挨打的几个一时疏忽，防备不严，为敌所乘。后见无打不中，而且每打必重。渐渐看出只有崔晋和精通玄功变化的主要十余人不曾受伤，余者无一能免。群邪连受打击，全都大怒，恨之切骨。对于先困四人，已无暇再顾及，各以全力与隐形之敌拼斗。一时大片妖光邪火和各色宝光如虹飞电舞，狂涛暴雨一般，紧紧追逐在笑和尚身后。哪知并无用处，敌人好似始终不曾在意，飞驰又是极快，一任多么厉害的邪法异宝，到了笑和尚身上，始终和没事人一样。乌灵珠见同党吃亏太甚，自恃还有两件法宝，以及与几个为首群邪合炼的邪法可用。当初只因这些邪法异宝太狠毒，易受正教中人嫉视，上干天忌，又是专为对付叶缤一人而炼，共只能用三次，约定非遇叶缤本人，不许妄用。如今见敌人十分猖狂，群邪纷纷受伤，齐催他下手，不禁犹豫起来。原来乌灵珠所炼诸天秘魔乌梭为魔教中无上利器，最是凶毒，一经施为，诸天日月星辰齐受感应，发出一种极强烈无比的毒火烈焰，天际罡风也被引来。在一个时辰以内，方圆三数千里内，成了一个大黑气团，天昏地暗，日月无光，全被这类毒焰布满，无异混沌世界。附近岛屿也差不多全要陆沉，至于山崩地陷，热浪沸空，更是题内文章。这还是行法人事前有备，虽不能收，事完之后仍可行法将其送往两天交界的罡气层上化去，尚且如此猛恶，否则在此方圆千里内外固成死圈，所有生物无一幸免，便是邻近之处，无论人畜，沾上一点毒气，也必惨死。他当初是因为叶缤的法力太高，炼有冰魄神光，居于有胜无败之势；近又学会绝尊者的灭魔宝篆，功候更深。这多年来双方仇怨日深，群邪虽各炼有几件邪法异宝，恐非其敌，这才下了数年苦功，把他发现多年，因为许多顾忌而未敢尝试的魔教中无上法宝秘魔乌梭取出，联合十二个有力同党，在海底深处辟一洞穴，外加重重防备，费尽心力，炼成三枚。打算将来强仇上门，能胜更好，否则便与一拼。乌灵珠这时虽然恨极笑和尚，一则觉着对方是无名之辈，小题大做还在其次，最要紧是此宝隐秘多年，从未试过，贸然取用，被正教中人得知，固必不容，又犯天忌，再被强仇知道，有了准备，岂不徒劳？还有四十七岛俱都邻近，岛上宫室园林，均经群邪多年苦心经营，才有今日，一经发难，便全毁去。炼时又是极难，非有十二个有力同党相助，合力同炼，不能成功。炼时稍一疏忽，前功尽弃，还会惹火烧身。每日提心吊胆，费了数年心血，好容易才得圆满。虽因年时尚浅，功候还差，又因上干天忌，不敢试验，能发而不能收，未达炉火纯青之境，但用以对敌，多高法力的人也禁不住。因为慎重，除一同炼法的十三人外，下余同党均不知道。一旦使用，敌人固是必死，便四十六岛群邪也必难于保全。当初乌灵珠为防伤害同党，虽在海底设有躲避之处，事前将人撤退，或者无妨，到底不曾试过。为此踌躇，欲发不敢。乌灵珠正劝众人少安勿躁，自己还有法宝不曾使用，真要不行，再打主意。不料笑和尚因见伍神师相貌丑恶，行事险恶，发出那样凶毒的妖针，越看越有气，有意除害，偏不当时下手，故意恶作剧，仗着飞遁神速，隐形巧妙，出没无常，专和他作对。冷不防飞身过去，扬手就打，也不施展杀手，一味引逗恶闹，打得又狠又准。就这一会工夫，竟打了个遍体鳞伤，一任邪法异宝防护，毫无用处。拼着挨打，听其自然还好一些，防备越严，打得越重。也不知用什么方法，打在身上，又痛又痒，连骨髓一齐酸麻，万难禁受。刚一行法把痛止住，第二下又打上身来。防是没法防，攻又没法攻，空自愤怒，咬牙切齿。那三枚秘魔乌梭炼成以后，为防强敌法力太高，未等应用便有疏失，原交乌、伍二妖人分别保管，二妖人也不敢妄用。后来挨打次数太多，痛苦难禁，暗忖：",
+          "instruct": "激昂紧张，笑和尚戏弄群邪"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "笑和尚穿梭妖阵掌掴",
+            "sound_cn": "笑和尚在妖光火海中穿梭如鱼游水，掌掴群邪的啪啪声，挨打者的惨呼声",
+            "sound_en": "Xiao Heshang swimming through demon fire like fish, slapping demons with crack after crack, cries of pain",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "扬手便打",
+            "trigger_offset": -0.3
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "群邪咒骂追杀",
+            "sound_cn": "群邪怒骂声与法宝破空声交织，妖火翻涌，虹飞电舞",
+            "sound_en": "demons cursing and treasures howling, demon fire churning, rainbow and lightning dancing",
+            "volume": "-14%",
+            "pitch": "-1Hz",
+            "trigger_keyword": "连受打击",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "多年盛名之下，为一无名后辈所伤，此仇不报，以后如何见人？",
+          "instruct": "伍神师内心，语气羞愤"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "虽然越想越恨，仍然顾忌此宝的威力太大，恐伤同党和各岛宫室灵景，还是迟疑不决。事有凑巧，同党离依岛主云雷真人黎望，忽由中土飞回，遥望岛上妖阵发动，知有强敌，赶来相助。黎望本是昔年正教中弃徒，兼有正邪两家之长，法力尚在其次，更有一件至宝，名为云雷仙网，一经施为，多么厉害的水火风雷，均能防御。发时一片红色仙云，中杂亿万五色火星，除防身外，并能发出大片五色神雷，神妙非常。当众妖人炼宝之时，知道毒焰厉害，虽然能致敌死命，自己的岛宫也化劫灰，甚或波及同党，只有此宝可以制止。无如黎望虽因犯过被逐，投身邪教，毕竟出身正教，颇知邪正之分；又见所投妖师为恶太重，致遭诛戮，死得极惨，越发胆寒。更想起昔年母亲碧梧仙子崔芜兵解以前曾再三托人告诫，彼时正为心中气愤，一意孤行，不曾在念，及至妖师遭劫，母亲坐化，想起以前不听母教，渐生悔恨。虽与群邪同居小南极，相交多年，不便离去；又因以前失足，随同为恶，积重难返，正教中无门可入，因循至今，遇事便有了分寸。一听乌灵珠等人祭炼那么凶毒的邪法异宝，知道此举既干天忌，又犯众怒，决无好结果。始而设词推托，不肯加入同炼。后竟避往中土，去了数年，方始归来。一听妖人向其借宝，以为御敌时作防身之用，迫于情面，虽然应允，并非所愿。没奈何，只得时常离岛外出，意图回避。邪法炼成以后，敌人既未寻来，群邪也因为以前连遭惨败，一味养精蓄锐，暗中准备，不敢轻易发难，始终隐忍待机，不曾出手。当初秘魔乌梭炼成之时，群邪曾与黎望约定：将来有事，如若他出，便以信火催归，请其相助。黎望这次由外回来，发现乌鱼岛上来了强敌，不便坐视。心想：",
+          "instruct": "平稳叙述，黎望登场"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "信火催归",
+            "sound_cn": "黎望接到信火催归的尖啸声，破空赶来",
+            "sound_en": "Li Wang receiving urgent signal and returning with sharp whistle",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "信火",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "黎望",
+      "api": {
+        "voice": {
+          "role": "黎望",
+          "role_voice": "云诚-成熟,标准男声",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "敌人连妖阵尚不能破，群邪明占上风，决不会施展此宝。",
+          "instruct": "内心思量，语气侥幸"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-中年男性磁性声音",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "因而本打算敷衍。不料才一到达，十三妖人却有一半请其相助。自己答应在先，难以反悔，只得将宝网发出。先是手掌大一蓬彩绢掷向地上，立似轻云飞絮，海上狂涛一般，往四方八面，贴着地皮海波，电也似疾地舒展开去，晃眼工夫，极大一片海面，全被这片彩云紧紧盖住。",
+          "instruct": "紧张叙述，云雷仙网展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "云雷仙网展开",
+            "sound_cn": "黎望掷出云雷仙网，彩绢如轻云飞絮贴着海波急速展开，呼呼声响，亿万五色火星闪烁",
+            "sound_en": "Li Wang throwing Cloud Thunder Net, colorful silk spreading like clouds across sea with whoosh, billions of five-colored sparks shimmering",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "云雷仙网",
+            "trigger_offset": -0.3
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "飞龙岛海天",
+        "start_line": 1,
+        "end_line": 4,
+        "prompt": "very subtle low volume cinematic background ambience, isolated island with ocean waves lapping shore, sea breeze rustling trees, distant seabirds calling, quiet and solitary atmosphere, deep guqin low resonance, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-25%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "白菱礁妖氛",
+        "start_line": 5,
+        "end_line": 5,
+        "prompt": "very subtle low volume cinematic background ambience, dark island lair with sinister atmosphere, waves crashing on jagged rocks, whispered plotting, tension and treachery, low erhu and pipa, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "钓鳌矶笑和尚面壁",
+        "start_line": 5,
+        "end_line": 6,
+        "prompt": "very subtle low volume cinematic background ambience, coastal cliffs with ancient cave, mystical prohibition shimmering, demon banners flapping, ghostly howls, tense and mysterious, low guqin and drum, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "金钟岛朱骛商建初",
+        "start_line": 7,
+        "end_line": 7,
+        "prompt": "very subtle low volume cinematic background ambience, golden bell island with immortal palace, gentle sea breeze, romantic encounter, soft and warm atmosphere, soft pipa and xiao, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "乌鱼岛妖阵阴火",
+        "start_line": 7,
+        "end_line": 13,
+        "prompt": "very subtle low volume cinematic background ambience, volcanic island with demon formation, purple-green Yin fire churning like sea, thunderous explosions, desperate struggle, intense and chaotic, low drum and plucked tension, slow evolving continuous ambience, no sharp foreground bursts, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 100,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "摄心铃惑魂",
+        "start_line": 15,
+        "end_line": 17,
+        "prompt": "very subtle low volume cinematic background ambience, demonic bell ringing with seductive tones, heart-shaped green light pulsing, naked demonesses dancing, mind-shattering temptation, deep erhu and eerie chime, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "笑和尚破铃救难",
+        "start_line": 23,
+        "end_line": 23,
+        "prompt": "very subtle low volume cinematic background ambience, golden Buddha light descending like canopy, sacred radiance overwhelming demonic energy, thunderous explosion shattering the bell, triumphant and awe-inspiring, deep bell and chanting resonance, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-22%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 80,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "笑和尚戏群邪",
+        "start_line": 27,
+        "end_line": 29,
+        "prompt": "very subtle low volume cinematic background ambience, chaotic battlefield with demon fire and thunder, small monk darting through like fish, slapping demons with playful fury, laughter and curses interweaving, intense and lively, low pipa and yangqin, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-25%",
+        "fade_in": 1,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 100,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "秘魔乌梭之虑",
+        "start_line": 29,
+        "end_line": 31,
+        "prompt": "very subtle low volume cinematic background ambience, tense moment of hesitation, dark and dangerous power waiting to be unleashed, deep drum and low drone, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-26%",
+        "fade_in": 1.5,
+        "fade_out": 1.5,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "黎望云雷仙网",
+        "start_line": 31,
+        "end_line": 33,
+        "prompt": "very subtle low volume cinematic background ambience, red celestial cloud spreading across sea like silk, five-colored sparks shimmering, tension of impending battle, mysterious and powerful, deep guqin and gong, slow evolving continuous ambience, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-24%",
+        "fade_in": 1.5,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}
