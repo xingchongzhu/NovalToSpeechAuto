@@ -1,0 +1,110 @@
+# ============================================================
+# Audio Transcription Tool — whisper.cpp + faster-whisper 双引擎
+# ============================================================
+#
+# ⚡ 主引擎: whisper.cpp (C++ 原生, Apple Silicon Metal GPU 加速)
+# 🐍 备用引擎: faster-whisper (Python/CTranslate2, 含逐字时间轴)
+#
+# ── 安装 ─────────────────────────────────────────────────
+#
+#   主引擎 (推荐):
+#     brew install whisper-cpp
+#
+#   备用引擎 (可选, 需要逐字时间轴时):
+#     pip install faster-whisper requests torch
+#
+# ── GGML 模型下载 ────────────────────────────────────────
+#
+#   首次运行自动下载到 models/ 目录:
+#     tiny     (75MB)   - 最快, 准确度一般
+#     base     (142MB)  - 轻量
+#     small    (466MB)  - ★推荐, 速度精度兼优
+#     medium   (1.5GB)  - 高精度
+#     large-v3 (3GB)    - 最强中文识别
+#
+#   或手动下载:
+#     https://huggingface.co/ggerganov/whisper.cpp/tree/main
+#
+# ── 使用示例 ──────────────────────────────────────────────
+#
+#   单个音频 → JSON 与音频同目录同名:
+#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3
+#
+#   目录批量转写:
+#     python3 novel_tool/scripts/audio_transcribe.py -i ./配音/
+#
+#   指定输出目录:
+#     python3 novel_tool/scripts/audio_transcribe.py -i ./配音/ -o ./subtitles/
+#
+#   URL 下载后转写:
+#     python3 novel_tool/scripts/audio_transcribe.py -i https://example.com/audio.mp3
+#
+#   强制用 faster-whisper (含逐字时间轴):
+#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3 --force-faster-whisper
+#
+#   大模型高精度:
+#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3 -m large-v3
+#
+#   输出 SRT 字幕:
+#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3 -f srt
+#
+#   静默模式 (自动化脚本):
+#     python3 novel_tool/scripts/audio_transcribe.py -i ./配音/ -q
+#
+# ── 引擎对比 ──────────────────────────────────────────────
+#
+#   ┌──────────────────┬────────────┬──────────┬──────────────┐
+#   │                  │ whisper.cpp│ faster    │ 适用场景     │
+#   │                  │ (Metal GPU)│ whisper   │              │
+#   ├──────────────────┼────────────┼──────────┼──────────────┤
+#   │ 速度 (M5)        │ ★★★★★     │ ★★☆☆☆    │ 批量首选.cpp │
+#   │ 中文准确度       │ ★★★★☆     │ ★★★★☆    │ 持平         │
+#   │ 逐字时间轴       │ 段级4s     │ ✅ 毫秒级 │ 需要时用.py  │
+#   │ 安装             │ brew 一条  │ pip 安装  │ .cpp 更简单  │
+#   │ 资源占用         │ 极低       │ 较高      │ .cpp 更省    │
+#   └──────────────────┴────────────┴──────────┴──────────────┘
+#
+# ── 输出 JSON 结构 ────────────────────────────────────────
+#
+#   whisper.cpp 引擎输出:
+#   {
+#     "file": "voice_line_1.wav",
+#     "engine": "whisper.cpp",
+#     "model": "small",
+#     "language": "zh",
+#     "full_text": "完整文本...",
+#     "segments": [
+#       { "id": 1, "start": 0.0, "end": 4.0, "text": "第一段" },
+#       { "id": 2, "start": 4.0, "end": 8.7, "text": "第二段" }
+#     ]
+#   }
+#
+#   faster-whisper 引擎输出 (额外含逐字时间轴):
+#   {
+#     ...同上...,
+#     "words": [
+#       { "word": "第", "start": 0.0, "end": 0.36, "probability": 0.99 }
+#     ]
+#   }
+#
+# ── Shell 自动化示例 ──────────────────────────────────────
+#
+#   # 批量转写目录下所有音频
+#   python3 novel_tool/scripts/audio_transcribe.py -i ./配音/ -q
+#
+#   # 遍历结果
+#   for json_file in ./配音/*.json; do
+#       text=$(python3 -c "import json; print(json.load(open('$json_file'))['full_text'])")
+#       echo "$json_file: ${#text} 字符"
+#   done
+#
+# ── 依赖 ──────────────────────────────────────────────────
+#
+#   whisper.cpp  brew install whisper-cpp
+#   faster-whisper pip install faster-whisper (备用)
+#   requests     pip install requests (URL下载)
+#
+# ============================================================
+
+faster-whisper>=1.0.0
+requests>=2.31.0

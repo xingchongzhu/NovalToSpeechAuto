@@ -36,6 +36,7 @@ import threading
 import warnings
 import gc
 import psutil
+from pathlib import Path
 
 # ======================== 音效/背景音生成引擎注册 ========================
 # 支持 sfx_engine / bgm_engine 参数灵活切换: "woosh" | "stable-audio-3"
@@ -249,7 +250,8 @@ class AudioEngine:
     def __init__(self, temp_dir: str = "./temp_audio", sample_rate: int = 44100, 
                  channels: int = 1, tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  fish_api_url: str = "http://localhost:8080",
-                 target_voice_dbfs: Optional[float] = None):
+                 target_voice_dbfs: Optional[float] = None,
+                 enable_transcribe_check: bool = False):
         self.temp_dir = temp_dir
         self.sample_rate = sample_rate
         self.channels = channels
@@ -258,6 +260,7 @@ class AudioEngine:
         self.qwen_model_path = qwen_model_path
         self.fish_api_url = fish_api_url.rstrip("/") if fish_api_url else "http://localhost:8080"
         self.target_voice_dbfs = target_voice_dbfs
+        self.enable_transcribe_check = enable_transcribe_check  # TTS质检 + 音效精确定位总开关
         self.qwen_tts_model = None
         self._voice_clone_prompt_cache = {}  # 进程内缓存，避免当前运行重复编码参考音频
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
@@ -579,10 +582,10 @@ class AudioEngine:
                             language="chinese",
                             voice_clone_prompt=cached_prompt,
                             style=params.instruct if params.instruct else "neutral",
-                            temperature=0.7,
-                            top_p=0.9,
-                            top_k=50,
-                            repetition_penalty=1.2,
+                            temperature=0.3,
+                            top_p=0.85,
+                            top_k=20,
+                            repetition_penalty=1.05,
                             max_new_tokens=max_tokens
                         )
                     else:
@@ -593,9 +596,9 @@ class AudioEngine:
                             ref_text="",
                             x_vector_only_mode=x_vector_only_mode,
                             style=params.instruct if params.instruct else "neutral",
-                            temperature=0.7,
-                            top_p=0.9,
-                            top_k=50,
+                            temperature=0.3,
+                            top_p=0.85,
+                            top_k=20,
                             repetition_penalty=1.05,
                             max_new_tokens=max_tokens
                         )
@@ -635,11 +638,47 @@ class AudioEngine:
             text_segments = _split_long_qwen_text(processed_text)
             all_wavs = []
             sample_rate = None
+
+            # ── 起始稳定化前缀：用 "话说，" 引导每段模型冷启动 ──
+            STABILITY_PREFIX = "话说，"
+            prefix_sample_count = 0
+            # 只要文本不以前缀开头，就生成一次前缀来测量音频长度（复用）
+            if text_segments and not text_segments[0].startswith(STABILITY_PREFIX):
+                try:
+                    print(f"[TTSEngine] 生成起始稳定化前缀: '{STABILITY_PREFIX}'")
+                    prefix_wavs, prefix_sr = _generate_voice_chunk(STABILITY_PREFIX, ref_audio, x_vector_only_mode)
+                    prefix_audio = np.concatenate(prefix_wavs) if isinstance(prefix_wavs, list) else prefix_wavs
+                    prefix_sample_count = len(prefix_audio)
+                    print(f"[TTSEngine] 前缀音频长度: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
+                except Exception as e:
+                    print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
+                    prefix_sample_count = 0
+
+            # 安全上限：根据语速动态计算，"话说，"3字 +0%语速约0.6s
+            # 语速越慢上限越宽，避免裁切到正文
+            try:
+                speed_value = int(params.speed.replace("%", "")) if params.speed else 0
+            except (ValueError, AttributeError):
+                speed_value = 0
+            speed_factor = 1.0 + (speed_value / 100.0)  # -10% → 0.9
+            base_prefix_duration = 0.9  # 基准上限（+0%语速）
+            safe_duration = base_prefix_duration / speed_factor  # 慢速时放宽：0.9/0.9=1.0s
+            MAX_PREFIX_SAMPLES = int(prefix_sr * safe_duration) if prefix_sample_count > 0 else 0
+            safe_trim = min(prefix_sample_count, MAX_PREFIX_SAMPLES)
+
             for index, text_segment in enumerate(text_segments, start=1):
-                if len(text_segments) > 1:
-                    print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
-                wavs, sr = _generate_voice_chunk(text_segment, ref_audio, x_vector_only_mode)
-                chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                if safe_trim > 0:
+                    segment_with_prefix = STABILITY_PREFIX + text_segment
+                    if len(text_segments) > 1:
+                        print(f"[TTSEngine] 分段 {index}/{len(text_segments)} 添加前导词 ({len(text_segment)}字): '{segment_with_prefix[:24]}...'")
+                    wavs, sr = _generate_voice_chunk(segment_with_prefix, ref_audio, x_vector_only_mode)
+                    chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                    chunk_audio = chunk_audio[safe_trim:]
+                else:
+                    if len(text_segments) > 1:
+                        print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
+                    wavs, sr = _generate_voice_chunk(text_segment, ref_audio, x_vector_only_mode)
+                    chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
                 all_wavs.append(chunk_audio)
                 sample_rate = sr
 
@@ -847,7 +886,8 @@ class AudioEngine:
         return audio
 
     def mix_audio(self, voice: AudioSegment, bgm: AudioSegment, effects: List[AudioSegment], 
-                  mix_config: MixConfig, effect_params: List = None, voice_text: str = "") -> AudioSegment:
+                  mix_config: MixConfig, effect_params: List = None, voice_text: str = "",
+                  voice_path: str = None) -> AudioSegment:
         """按规则混音
         
         Args:
@@ -856,7 +896,8 @@ class AudioEngine:
             effects: 音效列表
             mix_config: 混音配置
             effect_params: 音效参数列表（含 trigger_keyword / trigger_offset）
-            voice_text: 当前句文本，用于 trigger_keyword 精确对齐估算
+            voice_text: 当前句文本，用于 TTS 质量校验
+            voice_path: 配音文件路径，用于 whisper.cpp 精确时间轴定位
         """
         print(f"[MixEngine] 混音模式: {mix_config.mode}")
         
@@ -890,19 +931,38 @@ class AudioEngine:
             final_audio = voice
             if len(bgm) > 0:
                 final_audio = final_audio.overlay(bgm)
+            
+            # ── TTS 质量校验：转录语音与剧本原文对比 ──
+            if self.enable_transcribe_check and voice_path and voice_text:
+                self._validate_tts_quality(voice_path, voice_text)
+            
+            # ── whisper.cpp 精确时间轴：为有 trigger_keyword 的音效定位实际时间 ──
+            keyword_map = {}
+            if self.enable_transcribe_check and voice_path:
+                for ep in (effect_params or []):
+                    kw = getattr(ep, "trigger_keyword", "")
+                    if kw:
+                        keyword_map[kw] = getattr(ep, "trigger_offset", 0.0)
+                if keyword_map:
+                    keyword_map = self._locate_keywords_by_transcription(voice_path, keyword_map)
+            
             for i, effect in enumerate(effects):
                 process_mode = "overlay"
                 delay_ms = 0
                 if effect_params and i < len(effect_params):
                     ep = effect_params[i]
                     process_mode = getattr(ep, "process_mode", "overlay") or "overlay"
-                    # trigger_keyword 优先：根据关键字在文本中的位置 + 标点加权估算延迟
                     keyword = getattr(ep, "trigger_keyword", "")
-                    if keyword and voice_text:
+                    if keyword and keyword in keyword_map:
+                        # whisper.cpp 精确定位：关键字实际时间 + offset
+                        actual_time_s = keyword_map[keyword]
+                        offset_s = getattr(ep, "trigger_offset", 0.0)
+                        delay_ms = max(0, int((actual_time_s + offset_s) * 1000))
+                    elif keyword and voice_text:
+                        # 兜底：文本估算 delay
                         offset = getattr(ep, "trigger_offset", 0.0)
                         delay_ms = self._estimate_delay_by_keyword(voice_text, keyword, offset)
                     else:
-                        # 兜底：使用 trigger_delay
                         delay_ms = max(0, int(ep.trigger_delay * 1000))
 
                 if process_mode == "insert":
@@ -955,6 +1015,337 @@ class AudioEngine:
         delay_seconds = chars / 3.0 + pause_weight + offset
         return max(0, int(delay_seconds * 1000))
 
+    # ── whisper.cpp 精确时间轴 + TTS 质量校验 ──
+
+    def _locate_keywords_by_transcription(self, voice_path: str, keyword_map: dict) -> dict:
+        """用 whisper.cpp 转写配音音频，返回每个关键字的实际出现时间（秒）。
+        
+        Args:
+            voice_path: 配音 WAV 文件路径
+            keyword_map: {keyword: offset} 字典
+        Returns:
+            {keyword: actual_time_seconds} 或 {} (失败时)
+        """
+        try:
+            from audio_transcribe import find_whisper_cpp, ensure_whisper_cpp_model
+            
+            whisper_bin = find_whisper_cpp()
+            if not whisper_bin:
+                print("[MixEngine] ⚠️ whisper.cpp 未安装, 回退到文本估算")
+                return {}
+            
+            model_path = ensure_whisper_cpp_model("small")
+            out_base = voice_path.rsplit(".", 1)[0] + "_transcribe"
+            
+            cmd = [
+                str(whisper_bin), "-m", str(model_path),
+                "-f", voice_path, "-l", "zh",
+                "-oj", "-of", out_base, "-np",
+                "-t", str(os.cpu_count() or 4),
+            ]
+            proc = subprocess.run(cmd, capture_output=True, text=True)
+            if proc.returncode != 0:
+                print(f"[MixEngine] ⚠️ whisper.cpp 转写失败, 回退到文本估算")
+                return {}
+            
+            raw_json = Path(out_base + ".json")
+            if not raw_json.exists():
+                return {}
+            
+            with open(raw_json, "r", encoding="utf-8") as f:
+                raw = json.load(f)
+            
+            transcription = raw.get("transcription", [])
+            results = {}
+            
+            for seg in transcription:
+                seg_text = seg.get("text", "")
+                seg_start_s = seg.get("offsets", {}).get("from", 0) / 1000.0
+                
+                for keyword in keyword_map:
+                    if keyword in results:
+                        continue
+                    idx = seg_text.find(keyword)
+                    if idx != -1:
+                        # 粗略按字符位置比例估算关键字在片段中的偏移
+                        char_ratio = idx / max(len(seg_text), 1)
+                        results[keyword] = seg_start_s + char_ratio * 2  # 近似 2s 片段时长
+            
+            # 清理临时文件
+            for ext in (".json", ".srt"):
+                tmp = Path(out_base + ext)
+                if tmp.exists():
+                    tmp.unlink()
+            
+            return results
+        except Exception as e:
+            print(f"[MixEngine] ⚠️ whisper.cpp 定位失败: {e}")
+            return {}
+    
+    def _validate_tts_quality(self, voice_path: str, expected_text: str, threshold: float = 0.65):
+        """用 whisper.cpp 定时分片转写配音，对每段单独打分并汇总。
+        
+        长音频（> 3 分钟）自动切成 3 分钟段分别转录+比对，取分段平均相似度。
+        输出结构：{summary: {overall_score, segment_count, failed_segments}, segments: [{start, end, text, score}]}
+        
+        Args:
+            voice_path: 配音 WAV 文件路径
+            expected_text: 剧本原文
+            threshold: 相似度阈值，默认 0.65
+        """
+        try:
+            from audio_transcribe import find_whisper_cpp, ensure_whisper_cpp_model
+            
+            whisper_bin = find_whisper_cpp()
+            if not whisper_bin:
+                return
+            
+            model_path = ensure_whisper_cpp_model("small")
+            
+            # ── 获取音频时长 ──
+            import wave
+            try:
+                with wave.open(voice_path, 'rb') as wf:
+                    total_duration = wf.getnframes() / wf.getframerate()
+            except Exception:
+                total_duration = 0
+            
+            # ── 超过 10 分钟跳过检测，写 skipped 结果到 JSON ──
+            MAX_CHECK_SEC = 600  # 10 分钟
+            if total_duration > MAX_CHECK_SEC:
+                report_path = voice_path.rsplit(".", 1)[0] + "_quality_report.json"
+                skip_result = {
+                    "summary": {
+                        "overall_score": -1,
+                        "segment_count": 0,
+                        "failed_segment_count": 0,
+                        "threshold": threshold,
+                        "verdict": "skipped",
+                        "reason": f"音频 {total_duration:.0f}s > {MAX_CHECK_SEC}s 跳过检测"
+                    },
+                    "segments": [],
+                }
+                with open(report_path, "w", encoding="utf-8") as f:
+                    json.dump(skip_result, f, ensure_ascii=False, indent=2)
+                print(f"[MixEngine] ⏭️ 音频 {total_duration:.0f}s > {MAX_CHECK_SEC}s, 跳过 TTS 质检")
+                return
+            
+            # ── 分片策略：最长 3 分钟 ──
+            SEGMENT_SEC = 180  # 3 分钟
+            segment_count = max(1, int(total_duration / SEGMENT_SEC) + (1 if total_duration % SEGMENT_SEC > 10 else 0))
+            if segment_count <= 1:
+                segment_boundaries = [(0, 0)]
+            else:
+                step = int(total_duration * 1000 / segment_count)
+                segment_boundaries = [(i * step, step) for i in range(segment_count)]
+            
+            # ── 分段转写 ──
+            segment_scores = []
+            all_transcribed = ""
+            out_base = voice_path.rsplit(".", 1)[0] + "_validate"
+            
+            for seg_idx, (offset_ms, dur_ms) in enumerate(segment_boundaries):
+                seg_output = f"{out_base}_seg{seg_idx}"
+                
+                # 如果有分段，用 -ot 和 -d 限制区间
+                cmd = [
+                    str(whisper_bin), "-m", str(model_path),
+                    "-f", voice_path, "-l", "zh",
+                    "-oj", "-of", seg_output, "-np",
+                    "-t", str(os.cpu_count() or 4),
+                    "-p", str(os.cpu_count() or 4),
+                    "-bs", "1", "-nf", "-sow",
+                ]
+                if segment_count > 1:
+                    cmd.extend(["-ot", str(offset_ms), "-d", str(dur_ms)])
+                
+                proc = subprocess.run(cmd, capture_output=True, text=True)
+                if proc.returncode != 0:
+                    continue
+                
+                raw_json = Path(seg_output + ".json")
+                if not raw_json.exists():
+                    continue
+                
+                with open(raw_json, "r", encoding="utf-8") as f:
+                    raw = json.load(f)
+                seg_text = "".join(seg.get("text", "") for seg in raw.get("transcription", []))
+                all_transcribed += seg_text
+                
+                # ── 分段评分：对应区间文本比对 ──
+                seg_ratio = len(expected_text) / max(segment_count, 1)
+                expected_start = int(seg_idx * seg_ratio)
+                expected_end = int((seg_idx + 1) * seg_ratio) if seg_idx < segment_count - 1 else len(expected_text)
+                expected_chunk = expected_text[expected_start:expected_end]
+                
+                chunk_score = self._text_similarity(seg_text, expected_chunk)
+                segment_scores.append({
+                    "segment": seg_idx,
+                    "start_s": offset_ms / 1000.0 if segment_count > 1 else 0,
+                    "end_s": (offset_ms + dur_ms) / 1000.0 if segment_count > 1 else total_duration,
+                    "score": round(chunk_score, 4),
+                    "transcribed_len": len(seg_text),
+                    "expected_len": len(expected_chunk),
+                })
+                
+                # 清理分段文件
+                for ext in (".json", ".srt"):
+                    tmp = Path(seg_output + ext)
+                    if tmp.exists():
+                        tmp.unlink()
+            
+            # ── 汇总 ──
+            if not segment_scores:
+                return
+            
+            overall_score = sum(s["score"] for s in segment_scores) / len(segment_scores)
+            failed_segments = [s for s in segment_scores if s["score"] < threshold]
+            
+            detail = {
+                "summary": {
+                    "overall_score": round(overall_score, 4),
+                    "segment_count": len(segment_scores),
+                    "failed_segment_count": len(failed_segments),
+                    "threshold": threshold,
+                    "verdict": "pass" if overall_score >= threshold else "fail",
+                },
+                "segments": segment_scores,
+            }
+            
+            # ── 写入详细报告 ──
+            report_path = voice_path.rsplit(".", 1)[0] + "_quality_report.json"
+            with open(report_path, "w", encoding="utf-8") as f:
+                json.dump(detail, f, ensure_ascii=False, indent=2)
+            
+            if overall_score < threshold:
+                msg = (f"[MixEngine] ⚠️ TTS 质检异常! 总分: {overall_score:.1%} "
+                       f"({len(failed_segments)}/{len(segment_scores)} 段不达标)\n"
+                       f"  📋 详细报告: {report_path}\n"
+                       f"  ⚡ 提示: 可手动重新合成该节、调整 TTS 参数或更换角色音色后重试")
+                print(msg)
+                self._append_error_log(voice_path, expected_text, all_transcribed, overall_score,
+                                       extra={"report": report_path, "detail": detail})
+        except Exception as e:
+            print(f"[MixEngine] ⚠️ TTS 质检失败: {e}")
+    
+    @staticmethod
+    def _text_similarity(a: str, b: str) -> float:
+        """计算两个文本的相似度（分窗口 n-gram + LCS 综合）。
+        
+        策略：
+        - 短文本 (< 500 字): 直接用 LCS
+        - 中长文本 (500~5000 字): 滑动窗口取 n-gram 交集均值
+        - 超长文本 (> 5000 字): 等距 10 窗口采样，每窗口 LCS，取中位数
+        """
+        if not a or not b:
+            return 0.0
+        # 只保留中文字符和常见标点
+        keep = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf，。！？、；：""''（）《》…—\u3000]')
+        a_clean = ''.join(keep.findall(a))
+        b_clean = ''.join(keep.findall(b))
+        if not a_clean or not b_clean:
+            return 0.0
+        
+        la, lb = len(a_clean), len(b_clean)
+        
+        # ── 策略 1: 短文本直接 LCS ──
+        if la <= 500 and lb <= 500:
+            return AudioEngine._lcs_ratio(a_clean, b_clean)
+        
+        # ── 策略 2: 中长文本 n-gram 窗口 ──
+        if la <= 5000 and lb <= 5000:
+            n = 3  # trigram
+            window = 200
+            scores = []
+            step = max(1, min(la, lb) // 20)  # 至少 20 个采样点
+            for start in range(0, min(la, lb) - window, step):
+                a_win = a_clean[start:start + window]
+                # 在 b 中找最匹配的区间
+                best = 0.0
+                for b_start in range(0, max(1, lb - window), max(1, window // 2)):
+                    b_win = b_clean[b_start:b_start + window]
+                    # 快速 n-gram 交集
+                    a_grams = {a_win[i:i+n] for i in range(len(a_win) - n + 1)}
+                    b_grams = {b_win[i:i+n] for i in range(len(b_win) - n + 1)}
+                    if a_grams:
+                        score = len(a_grams & b_grams) / len(a_grams)
+                        if score > best:
+                            best = score
+                scores.append(best)
+            return sum(scores) / max(len(scores), 1) if scores else 0.0
+        
+        # ── 策略 3: 超长文本分窗口 LCS ──
+        num_windows = 10
+        window_size = min(1000, la // num_windows, lb // num_windows)
+        if window_size < 50:
+            window_size = 2000  # fallback: 全局抽样
+        step = max(1, (min(la, lb) - window_size) // num_windows)
+        scores = []
+        for i in range(num_windows):
+            start = i * step
+            a_win = a_clean[start:start + window_size]
+            # 在 b 中取对应位置和前后偏移找最佳匹配
+            b_center = min(start, lb - window_size)
+            best = 0.0
+            for offset in (0, -200, 200, -500, 500):
+                b_start = max(0, min(b_center + offset, lb - window_size))
+                b_win = b_clean[b_start:b_start + window_size]
+                r = AudioEngine._lcs_ratio(a_win, b_win)
+                if r > best:
+                    best = r
+            scores.append(best)
+        
+        # 取中位数（对极端窗口鲁棒）
+        scores.sort()
+        mid = len(scores) // 2
+        if len(scores) % 2 == 0:
+            return (scores[mid - 1] + scores[mid]) / 2
+        return scores[mid]
+    
+    @staticmethod
+    def _lcs_ratio(a: str, b: str) -> float:
+        """标准 LCS 比率，短于 2000 字直接算，超过则降采样。"""
+        m, n = len(a), len(b)
+        if m > n:
+            a, b = b, a
+            m, n = n, m
+        if m == 0:
+            return 0.0
+        if m > 2000:
+            step = max(1, m // 2000)
+            a, b = a[::step], b[::step]
+            m, n = len(a), len(b)
+        prev = [0] * (n + 1)
+        for i in range(1, m + 1):
+            curr = [0] * (n + 1)
+            ca = a[i - 1]
+            for j in range(1, n + 1):
+                if ca == b[j - 1]:
+                    curr[j] = prev[j - 1] + 1
+                else:
+                    curr[j] = max(prev[j], curr[j - 1])
+            prev = curr
+        return prev[n] / m
+    
+    def _append_error_log(self, voice_path: str, expected: str, transcribed: str, similarity: float,
+                           extra: dict = None):
+        """追加 TTS 异常记录到错误日志文件。"""
+        log_path = os.path.join(os.path.dirname(voice_path), "tts_error.log")
+        entry = {
+            "file": voice_path,
+            "expected": expected,
+            "transcribed": transcribed,
+            "similarity": round(similarity, 4),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        if extra:
+            entry.update(extra)
+        try:
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+        except Exception as e:
+            print(f"[MixEngine] ⚠️ 写入错误日志失败: {e}")
+    
     def clean_temp_files(self):
         """清理临时音频文件"""
         for file in os.listdir(self.temp_dir):
@@ -2147,7 +2538,8 @@ class AudioGenerator:
             effects=effect_audios,
             mix_config=line_config.mix_config,
             effect_params=line_config.effect_params,
-            voice_text=line_config.voice_params.text
+            voice_text=line_config.voice_params.text,
+            voice_path=voice_output_path,
         )
         
         if self.persist_intermediate_audio or generated_new_audio or remixed_audio:
