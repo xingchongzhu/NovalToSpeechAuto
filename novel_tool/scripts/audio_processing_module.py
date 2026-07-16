@@ -1557,232 +1557,25 @@ class AudioGenerator:
 
         return result
 
-    def _find_chunk_splits(self, line_ranges: Dict[int, tuple], total_duration_ms: int,
-                           target_chunk_seconds: int = 600, min_tail_seconds: int = 480) -> List[int]:
-        """根据总时长均分找到最佳切分点（优先在角色切换点切分，后处理保证每段 8~15min）。
+    def _find_chunk_splits_audio(self, total_duration_ms: int, target_chunk_seconds: int = 480) -> List[int]:
+        """按完整音频时长均分切点，返回每段的起始毫秒列表。
 
-        Phase 1: 贪心分配，均分后为每个等分点就近选角色切换点
-        Phase 2: 统一后处理 —— 过短合并 + 超长按句号边界切分，循环至稳定
+        策略：
+          1. N = round(total / target)，至少为 1
+          2. 切点 = total * k / N（k=0,1,...,N-1），即每段起始毫秒
 
         Args:
-            line_ranges: {line_id: (start_ms, end_ms)}，按 id 升序
             total_duration_ms: 音频总时长（毫秒）
-            target_chunk_seconds: 目标片段时长（秒），默认 600（10 分钟）
-            min_tail_seconds: 片段最低时长（秒），默认 480（8 分钟）
+            target_chunk_seconds: 目标每段时长（秒），默认 480（8 分钟）
 
         Returns:
-            每个切片的起始 line_id 列表，如 [0, 128, 256]
+            每段起始毫秒列表，如 [0, 480000, 960000]
         """
         target_chunk_ms = target_chunk_seconds * 1000
-        max_chunk_ms = int(os.environ.get("CHAPTER_CHUNK_MAX_MINUTES", "10")) * 60 * 1000
-        min_seg_ms = min_tail_seconds * 1000
-
-        sorted_ids = sorted(line_ranges.keys())
-        if not sorted_ids:
-            return [0]
-
-        data_lines = self.config.get("data", [])
-
-        def _role_at(line_id: int) -> str:
-            if 0 <= line_id < len(data_lines):
-                return data_lines[line_id].get("role", "")
-            return ""
-
-        # ======================== Phase 1: 贪心分配 ========================
-        # 极端场景兼容：当句子很少（≤30 句）或平均句长 > 60s 时，放宽约束
-        avg_dur_ms = total_duration_ms / len(sorted_ids)
-        sparse_script = len(sorted_ids) <= 30 or avg_dur_ms > 60_000
-        relaxed_tail_ms = min(min_seg_ms // 2, max(min_seg_ms // 4, 3 * 60 * 1000)) if sparse_script else min_seg_ms
-        # 稀疏模式下以 max_chunk_ms 算段数，避免过度拆分
-        chunk_target_ms = max_chunk_ms if sparse_script else target_chunk_ms
-        num_chunks = max(1, math.ceil(total_duration_ms / chunk_target_ms))
-        if num_chunks <= 1:
-            return [sorted_ids[0]]
-
-        ideal_cut_positions = [total_duration_ms * k / num_chunks for k in range(1, num_chunks)]
-
-        # 收集所有候选切点 (line_id, start_ms, is_role_transition)
-        candidates: list = []
-        for i in range(1, len(sorted_ids)):
-            lid = sorted_ids[i]
-            start_ms = line_ranges[lid][0]
-            remaining_ms = total_duration_ms - start_ms
-            if remaining_ms < relaxed_tail_ms:
-                break
-            prev_lid = sorted_ids[i - 1]
-            prev_role = _role_at(prev_lid)
-            curr_role = _role_at(lid)
-            is_transition = bool(prev_role and curr_role and prev_role != curr_role)
-            candidates.append((lid, start_ms, is_transition))
-
-        used: set = set()
-        selected_cuts: list = []
-        prev_cut_ms = line_ranges[sorted_ids[0]][0]
-
-        for ideal_pos in ideal_cut_positions:
-            best_lid = None
-            best_score = float('inf')
-            best_start_ms = 0
-            for lid, start_ms, is_transition in candidates:
-                if lid in used:
-                    continue
-                dist = abs(start_ms - ideal_pos)
-                score = dist + (0 if is_transition else target_chunk_ms)
-                if score < best_score:
-                    best_score = score
-                    best_lid = lid
-                    best_start_ms = start_ms
-            if best_lid is None:
-                continue
-            chunk_dur = best_start_ms - prev_cut_ms
-            relaxed_min = relaxed_tail_ms if sparse_script else min_seg_ms
-            relaxed_remaining = relaxed_tail_ms if sparse_script else min_seg_ms
-            if chunk_dur < relaxed_min:
-                # 段长不足，找满足段长约束的最近候选
-                best_lid = None
-                best_start_ms = 0
-                best_fallback_score = float('inf')
-                for lid, start_ms, is_transition in candidates:
-                    if lid in used:
-                        continue
-                    dur = start_ms - prev_cut_ms
-                    if dur < relaxed_min or dur > max_chunk_ms:
-                        continue
-                    remaining_ms = total_duration_ms - start_ms
-                    if remaining_ms < relaxed_remaining:
-                        continue
-                    fscore = abs(start_ms - ideal_pos) + (0 if is_transition else target_chunk_ms)
-                    if fscore < best_fallback_score:
-                        best_fallback_score = fscore
-                        best_lid = lid
-                        best_start_ms = start_ms
-                if best_lid is None:
-                    continue
-            selected_cuts.append(best_lid)
-            used.add(best_lid)
-            prev_cut_ms = best_start_ms
-
-        selected_cuts.sort()
-
-        # 构建 chunk_starts
-        chunk_starts = [sorted_ids[0]]
-        prev_ms = line_ranges[sorted_ids[0]][0]
-        for cut_id in selected_cuts:
-            cut_ms = line_ranges[cut_id][0]
-            chunk_starts.append(cut_id)
-            prev_ms = cut_ms
-
-        # ======================== Phase 2: 统一后处理 ========================
-        # 从 sorted_ids 构建 start_ms 索引
-        id_to_ms = {lid: line_ranges[lid][0] for lid in sorted_ids}
-
-        # 极端场景使用放宽约束
-        p2_min_seg = relaxed_tail_ms if sparse_script else min_seg_ms
-        p2_remaining_min = relaxed_tail_ms if sparse_script else 6 * 60 * 1000
-
-        MAX_ITERS = 20
-        for _ in range(MAX_ITERS):
-            changed = False
-
-            # 2a. 合并过短段 (从前往后，尾段也要检查)
-            # 合并时确保合并后的段不超过 max_chunk_ms
-            merged = [chunk_starts[0]]
-            i = 1
-            while i < len(chunk_starts):
-                seg_dur = id_to_ms[chunk_starts[i]] - id_to_ms[merged[-1]]
-                # 检查合并后再下一段的累积会不会超上限
-                will_overflow = False
-                if i + 1 < len(chunk_starts):
-                    extended_dur = id_to_ms[chunk_starts[i + 1]] - id_to_ms[merged[-1]]
-                    will_overflow = extended_dur > max_chunk_ms
-                
-                if seg_dur < p2_min_seg and not will_overflow:
-                    i += 1
-                    changed = True
-                else:
-                    merged.append(chunk_starts[i])
-                    i += 1
-            # 检查尾段 — 只有合并后不会超上限才合并
-            last_tail_ms = total_duration_ms - id_to_ms[merged[-1]]
-            if len(merged) > 1 and last_tail_ms < p2_min_seg:
-                prev_start_ms = id_to_ms[merged[-2]]
-                if total_duration_ms - prev_start_ms <= max_chunk_ms:
-                    merged.pop()
-                    changed = True
-            chunk_starts = merged
-
-            # 2b. 切分超长段（逐段检查，含尾段；极端场景放宽 remaining）
-            new_starts = [chunk_starts[0]]
-            for i in range(1, len(chunk_starts) + 1):
-                seg_start_ms = id_to_ms[new_starts[-1]]
-                if i < len(chunk_starts):
-                    seg_end_ms = id_to_ms[chunk_starts[i]]
-                else:
-                    seg_end_ms = total_duration_ms
-                seg_dur = seg_end_ms - seg_start_ms
-
-                if seg_dur <= max_chunk_ms:
-                    if i < len(chunk_starts):
-                        new_starts.append(chunk_starts[i])
-                    continue
-
-                # 超长段，找离 target_ms 最近的句子边界
-                target_ms = seg_start_ms + max_chunk_ms
-                best_lid = None
-                best_dist = float('inf')
-                # 极端场景也放宽 dur 下限
-                p2_min_dur = p2_min_seg
-
-                # 候选切分点搜索：逐级放宽约束，确保总能切开超长段
-                # ⚠️ 只放宽 dur_max 前段上限，不降级 remaining_min，避免产生 < 6min 短段
-                fallback_levels = [
-                    # Level 0: 严格约束
-                    {"dur_min": p2_min_dur, "dur_max": max_chunk_ms, "remaining_min": p2_remaining_min},
-                    # Level 1: 放宽前段上限 10%
-                    {"dur_min": p2_min_dur, "dur_max": int(max_chunk_ms * 1.1), "remaining_min": p2_remaining_min},
-                    # Level 2: 放宽前段上限 20%，兜底保证切分
-                    {"dur_min": p2_min_dur, "dur_max": int(max_chunk_ms * 1.2), "remaining_min": p2_remaining_min},
-                ]
-
-                for level, constraints in enumerate(fallback_levels):
-                    for lid in sorted_ids:
-                        if lid == 0:
-                            continue
-                        ms = id_to_ms[lid]
-                        dur = ms - seg_start_ms
-                        if dur < constraints["dur_min"] or dur > constraints["dur_max"]:
-                            continue
-                        remaining = seg_end_ms - ms
-                        if remaining < constraints["remaining_min"]:
-                            continue
-                        dist = abs(ms - target_ms)
-                        if dist < best_dist:
-                            best_dist = dist
-                            best_lid = lid
-                    if best_lid is not None:
-                        if level > 0:
-                            print(f"    ⚠️ 超长段切分已降级至 level {level}，约束放宽")
-                        break
-                if best_lid is not None:
-                    new_starts.append(best_lid)
-                    changed = True
-                if i < len(chunk_starts):
-                    new_starts.append(chunk_starts[i])
-
-            chunk_starts = new_starts
-            if not changed:
-                break
-
-        # 去重
-        seen = []
-        for lid in chunk_starts:
-            if not seen or lid != seen[-1]:
-                seen.append(lid)
-
-        if len(seen) <= 1:
-            return [sorted_ids[0]]
-
-        return seen
+        total_seconds = total_duration_ms / 1000.0
+        N = max(1, round(total_duration_ms / target_chunk_ms))
+        print(f"[ChunkSplit] total={total_seconds/60:.1f}min, target={target_chunk_seconds//60}min, N={N}")
+        return [int(total_duration_ms * k / N) for k in range(N)]
 
     @staticmethod
     def _find_role_transition_after(sorted_ids: List[int], start_idx: int,
@@ -1875,67 +1668,90 @@ class AudioGenerator:
         total_ms = len(merged_audio)
         total_seconds = total_ms / 1000.0
 
-        # 超过目标时长（默认 10 分钟）时按句子边界切分
-        target_chunk_seconds = int(os.environ.get("CHAPTER_CHUNK_MINUTES", "10")) * 60
-        min_tail_seconds = int(os.environ.get("MIN_TAIL_MINUTES", "8")) * 60
+        # 目标段长 8 分钟
+        target_chunk_seconds = int(os.environ.get("CHAPTER_CHUNK_MINUTES", "8")) * 60
 
-        # 超过平台硬上限 15 分钟（喜马拉雅 max_chapter_ms）时按句子边界切分
-        if line_ranges and total_seconds >= 15 * 60:
-            chunk_starts = self._find_chunk_splits(
-                line_ranges, total_ms,
-                target_chunk_seconds=target_chunk_seconds,
-                min_tail_seconds=min_tail_seconds
-            )
-            # 打印切分点日志，确认语句完整性
-            if len(chunk_starts) > 1:
-                print(f"\n📋 章节切分检查 ({len(chunk_starts)} 段):")
-                data_lines = self.config.get("data", [])
-                for ci in range(len(chunk_starts) - 1):
-                    cur_start = chunk_starts[ci]
-                    next_start = chunk_starts[ci + 1]
-                    # 上一段最后一句
-                    last_line = data_lines[next_start - 1] if next_start - 1 < len(data_lines) else {}
-                    last_text = last_line.get("api", {}).get("voice", {}).get("text", "")
-                    # 下一段第一句
-                    first_line = data_lines[next_start] if next_start < len(data_lines) else {}
-                    first_text = first_line.get("api", {}).get("voice", {}).get("text", "")
-                    last_role = last_line.get("role", "?")
-                    first_role = first_line.get("role", "?")
-                    suffix = self._chunk_suffix(ci, len(chunk_starts))
-                    next_suffix = self._chunk_suffix(ci + 1, len(chunk_starts))
-                    chunk_dur = (line_ranges[next_start][0] - line_ranges[cur_start][0]) / 1000.0
-                    print(f"  切分{suffix}→{next_suffix}: 段{ci+1}时长={chunk_dur/60:.1f}min | "
-                          f"段尾[{last_role}]: {last_text[-40:]} | "
-                          f"段头[{first_role}]: {first_text[:40]}")
-        else:
-            chunk_starts = [0]  # 不切分
+        print(f"\n📋 [Export] 进入导出阶段，总时长={total_seconds/60:.1f}min, "
+              f"target_chunk={target_chunk_seconds//60}min")
 
-        total_chunks = len(chunk_starts)
-        sorted_ids = sorted(line_ranges.keys()) if (line_ranges and total_chunks > 1) else []
+        # 用总时长 ÷ 目标段长，四舍五入得段数 N，直接算每段起止毫秒
+        chunk_offsets = self._find_chunk_splits_audio(total_ms, target_chunk_seconds)
+        chunk_offsets.append(total_ms)  # 末尾边界
+        total_chunks = len(chunk_offsets) - 1
+
+        # 多段切分时，line_0 是章节标题（如"第134回"），每段已有独立的 chunk_title_audio，
+        # 需要把 line_0 对应的音频从正文中剔除，避免标题重复朗读。
+        # 单段时保留 line_0（不生成 chunk_title_audio，正文直接包含标题）。
+        title_end_ms = 0
+        if total_chunks > 1 and line_ranges and 0 in line_ranges:
+            title_end_ms = int(line_ranges[0][1])
+            print(f"  [Export] 多段切分，剔除 line_0（章节标题 {title_end_ms}ms）")
+
+        print(f"\n📋 章节切分（{total_chunks} 段），每段起始偏移 (ms): {chunk_offsets[:-1]}")
+
         output_paths = []
+        title_text = self.config["data"][0].get("api", {}).get("voice", {}).get("text") or self.config.get("chapter", "无名章节")
 
-        for chunk_index, start_id in enumerate(chunk_starts):
-            # 确定当前片的起止位置
-            # 切分时跳过 id=0 的章节标题（正文第一句），避免与片头叠加
-            actual_start = start_id
-            if total_chunks > 1 and start_id == 0 and 1 in line_ranges:
-                actual_start = 1
-            start_ms = line_ranges[actual_start][0] if (line_ranges and actual_start in line_ranges) else 0
-            if chunk_index < total_chunks - 1:
-                next_start_id = chunk_starts[chunk_index + 1]
-                end_ms = line_ranges[next_start_id][0] if line_ranges else total_ms
+        for chunk_index in range(total_chunks):
+            start_ms = chunk_offsets[chunk_index]
+            end_ms = chunk_offsets[chunk_index + 1]
+            chunk_duration_sec = (end_ms - start_ms) / 1000.0
+
+            # 第 N 集标签（仅多段时使用）
+            label = f"{title_text} 第{chunk_index + 1}集" if total_chunks > 1 else title_text
+            print(f"\n📻 拼接第{chunk_index + 1}/{total_chunks}集，正文 {chunk_duration_sec/60:.1f}min: '{label}'")
+
+            # 生成标题前缀音频（仅多段时需要）
+            if total_chunks > 1:
+                title_audio = self._generate_chunk_title_audio(label)
             else:
-                end_ms = total_ms
+                title_audio = None
 
+            # 构造正文区间：多段时剔除 line_0 对应的 offset，避免标题+chunk_title 重复
             chunk_body = merged_audio[start_ms:end_ms]
-            suffix = self._chunk_suffix(chunk_index, total_chunks)
+            if total_chunks > 1 and title_end_ms > 0 and start_ms < title_end_ms:
+                # 当前段的起始正好是 line_0 或其他前段，但 title 只在开头
+                # 需要把 line_0 部分（0..title_end_ms）去掉，然后只取有效正文
+                if start_ms == 0:
+                    chunk_body = merged_audio[title_end_ms:end_ms]
+                else:
+                    # 后续段 start_ms > title_end_ms，无需处理
+                    pass
 
-            # 切分时每段片头通过 _build_platform_audio 追加标题前缀（仅非首段）
-            self._current_chunk_suffix = suffix if total_chunks > 1 else ''
-            self._is_first_chunk = (chunk_index == 0)
-            final_audio = self._build_platform_audio(chunk_body)
-            suffix = self._chunk_suffix(chunk_index, total_chunks)
+            # 拼接：片头 + 标题前缀 + 正文 + 片尾
+            final_chunk = AudioSegment.silent(duration=0, frame_rate=self.platform_profile.sample_rate)
 
+            # 片头
+            metadata = self._extract_platform_metadata()
+            intro_text = self.platform_profile.intro_template.format(**metadata) if self.platform_profile.intro_template else None
+            intro = self._load_platform_asset_audio("片头", intro_text) if intro_text else None
+            if intro:
+                final_chunk += intro
+                print(f"  ✅ 片头已加载（{len(intro) / 1000:.1f}s），拼接到正文前")
+
+            # 集标题
+            if title_audio:
+                title_audio = title_audio.set_frame_rate(self.platform_profile.sample_rate).set_channels(self.platform_profile.channels)
+                final_chunk += AudioSegment.silent(duration=200, frame_rate=self.platform_profile.sample_rate)
+                final_chunk += title_audio
+                print(f"  📢 已追加章节标题前缀: '{label}' ({title_audio.duration_seconds:.1f}s)")
+
+            # 正文
+            final_chunk += AudioSegment.silent(duration=200, frame_rate=self.platform_profile.sample_rate)
+            final_chunk += chunk_body
+
+            # 片尾
+            outro_text = self.platform_profile.outro_template.format(**metadata) if self.platform_profile.outro_template else None
+            outro = self._load_platform_asset_audio("片尾", outro_text) if outro_text else None
+            if outro:
+                final_chunk += AudioSegment.silent(duration=300, frame_rate=self.platform_profile.sample_rate)
+                final_chunk += outro
+                print(f"  ✅ 片尾已加载（{len(outro) / 1000:.1f}s），拼接到正文后")
+
+            total_dur_sec = final_chunk.duration_seconds
+            print(f"  📏 最终音频总时长: {total_dur_sec:.1f}s / {total_dur_sec/60:.2f}min")
+
+            suffix = self._chunk_suffix(chunk_index, total_chunks)
             output_ext = self.platform_profile.output_format
             chapter_output_path = os.path.join(
                 self.chapter_dir, f"{self.chapter_clean_name}{suffix}.{output_ext}"
@@ -1946,7 +1762,7 @@ class AudioGenerator:
 
             chunk_label = f"[{chunk_index + 1}/{total_chunks}]" if total_chunks > 1 else ""
             print(f"  📡 {chunk_label} 正在编码导出，格式: {output_ext.upper()}/{self.platform_profile.channels}ch/{self.platform_profile.sample_rate}Hz...")
-            final_audio.export(chapter_output_path, **export_kwargs)
+            final_chunk.export(chapter_output_path, **export_kwargs)
             print(f"  💾 导出完成: {chapter_output_path}")
             output_paths.append(chapter_output_path)
 

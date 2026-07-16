@@ -905,7 +905,7 @@ def scan_char_voice_novels():
 
 
 def _parse_char_voice_md(novel_name: str):
-    """解析角色配音表 MD 文件，返回行列表"""
+    """解析角色配音表 MD 文件（8列格式：角色名|配音名|年龄|性别|性格|声音建议|使用范围|备注），返回行列表"""
     md_path = _get_char_voice_md_path(novel_name)
     if not md_path or not md_path.exists():
         return []
@@ -918,7 +918,7 @@ def _parse_char_voice_md(novel_name: str):
         if m:
             current_category = m.group(1).strip()
             continue
-        # 表格数据行：| 角色名 | 配音名 | ... |
+        # 表格数据行：| 角色名 | 配音名 | 年龄 | 性别 | 性格 | 声音建议 | 使用范围 | 备注 |
         if not line.startswith('|'):
             continue
         parts = [p.strip() for p in line.strip('|').split('|')]
@@ -929,14 +929,17 @@ def _parse_char_voice_md(novel_name: str):
             continue
         char_name = parts[0]
         voice_name = parts[1] if len(parts) > 1 else ''
-        char_desc = parts[2] if len(parts) > 2 else ''
-        voice_desc = parts[3] if len(parts) > 3 else ''
-        scope = parts[4] if len(parts) > 4 else ''
-        note = parts[5] if len(parts) > 5 else ''
+        age = parts[2] if len(parts) > 2 else ''
+        gender = parts[3] if len(parts) > 3 else ''
+        char_desc = parts[4] if len(parts) > 4 else ''  # 性格
+        voice_suggestion = parts[5] if len(parts) > 5 else ''  # 声音建议
+        scope = parts[6] if len(parts) > 6 else ''  # 使用范围
+        note = parts[7] if len(parts) > 7 else ''  # 备注
         if char_name and voice_name:
             rows.append({
                 'char': char_name, 'voice': voice_name, 'category': current_category,
-                'char_desc': char_desc, 'voice_desc': voice_desc, 'scope': scope, 'note': note
+                'age': age, 'gender': gender, 'char_desc': char_desc,
+                'voice_suggestion': voice_suggestion, 'scope': scope, 'note': note
             })
     return rows
 
@@ -948,8 +951,9 @@ def get_char_voices(novel_name: str):
 
 
 def update_char_voice(novel_name: str, char_name: str, new_voice: str,
-                      new_char: str = '', category: str = '', char_desc: str = '', note: str = ''):
-    """更新角色配音表 MD，并同步修改所有对应 JSON 剧本中 roles_definition"""
+                      new_char: str = '', category: str = '', char_desc: str = '', note: str = '',
+                      age: str = '', gender: str = '', voice_suggestion: str = ''):
+    """更新角色配音表 MD（8列格式），并同步修改所有对应 JSON 剧本中 roles_definition"""
     md_path = _get_char_voice_md_path(novel_name)
     if not md_path or not md_path.exists():
         return {'error': f'配音表不存在: {novel_name}'}
@@ -960,17 +964,17 @@ def update_char_voice(novel_name: str, char_name: str, new_voice: str,
     new_lines = []
     for line in lines:
         if line.startswith('|'):
-            parts = line.strip('|').split('|')
-            if len(parts) >= 2 and parts[0].strip() == char_name:
-                parts[0] = f' {new_char or char_name} '
-                parts[1] = f' {new_voice} '
-                if category and len(parts) > 2:
-                    pass  # category is not a column in char voice table; skip
-                if char_desc and len(parts) > 2:
-                    parts[2] = f' {char_desc} '
-                if note and len(parts) > 5:
-                    parts[5] = f' {note} '
-                line = '|' + '|'.join(parts) + '|'
+            parts = [p.strip() for p in line.strip('|').split('|')]
+            if len(parts) >= 2 and parts[0] == char_name:
+                parts[0] = new_char or char_name
+                parts[1] = new_voice
+                if age: parts[2] = age
+                if gender: parts[3] = gender
+                if char_desc: parts[4] = char_desc
+                if voice_suggestion: parts[5] = voice_suggestion
+                if category or len(parts) > 6: parts[6] = category  # 使用范围
+                if note and len(parts) > 7: parts[7] = note  # 备注
+                line = '| ' + ' | '.join(parts) + ' |'
                 updated_md = True
         new_lines.append(line)
     md_path.write_text('\n'.join(new_lines), encoding='utf-8')

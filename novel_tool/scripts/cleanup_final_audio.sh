@@ -9,10 +9,28 @@
 # ============================================================
 set -euo pipefail
 
-OUTPUT_DIR="output/蜀山剑侠传_json"
+# 基于脚本所在目录解析输出目录
+# 脚本位于 novel_tool/scripts/，项目根目录为 ../../，输出目录在 output/
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(dirname "$(dirname "$SCRIPT_DIR")")"
 
-if [ ! -d "$OUTPUT_DIR" ]; then
-    echo "错误: 目录 $OUTPUT_DIR 不存在"
+# 支持多个输出目录，优先使用存在的目录
+OUTPUT_DIR=""
+for candidate in \
+    "$PROJECT_ROOT/output/蜀山剑侠传json稿100-199" \
+    "$PROJECT_ROOT/output/蜀山剑侠传json稿" \
+    "$PROJECT_ROOT/output/蜀山剑侠传json稿200最终"; do
+    if [ -d "$candidate" ]; then
+        OUTPUT_DIR="$candidate"
+        break
+    fi
+done
+
+if [ -z "$OUTPUT_DIR" ]; then
+    echo "错误: 未找到任何输出目录"
+    echo "脚本目录: $SCRIPT_DIR"
+    echo "项目根目录: $PROJECT_ROOT"
+    echo "尝试了: output/蜀山剑侠传json稿100-199, output/蜀山剑侠传json稿, output/蜀山剑侠传json稿200最终"
     exit 1
 fi
 

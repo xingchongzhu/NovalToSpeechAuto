@@ -1,0 +1,1383 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第151回 本是双清翻成投怀燕 剧怜同病难为比翼鹣",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "云健-低沉"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "云健-低沉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "初凤": {
+      "role_voice": "云丽-温柔,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "金须奴": {
+      "role_voice": "云强-浑厚,激昂解说",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "二凤": {
+      "role_voice": "文雅女生-温柔,优雅",
+      "pitch": "+2Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "三凤": {
+      "role_voice": "可爱女生-可爱,甜美",
+      "pitch": "+3Hz",
+      "volume": "+1%",
+      "speed": "+1%"
+    },
+    "冬秀": {
+      "role_voice": "清冷女神-低沉女声,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "慧珠": {
+      "role_voice": "知性姐姐-温柔,亲切",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "白谷逸": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "朱梅": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第151回",
+          "instruct": "庄重开场，带有仙侠史诗感"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二凤正在好笑，忽听金须奴鼻间似有嗡嗡之声，仿佛透气不出。人中间隐现出一根红线，渐久渐显。猛地心中一动，试用手一撕，哗的一声，从人中自鼻端以上直达头脑全都裂开，肉厚约有寸许。心中大喜，手捏两面皮往左右一分，竟是连头连耳带着脑后金发，顺顺当当地揭了下来。最后才揭向口边，往上微微使力一起，一张似分还合的人面皮便揭了下来。同时眼前一亮，榻上卧的哪里是平日所见形如丑鬼的金须奴，竟变了一个玉面朱唇的美少年。正在惊奇，榻上人的一双凤目倏地睁开，又瞳剪水，黑白分明，衬着两道漆也似的剑眉斜飞入鬓，越显英姿飒爽，光彩照人。二凤呆了一会，只见金须奴口吻略动，似要说话，又气力不支神气。二凤问道：",
+          "instruct": "叙述惊奇，语速由缓转快，突出换形过程的奇异"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "用手一撕",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "面皮撕裂",
+            "sound_cn": "面皮从人中撕裂，哗啦一声脆响，皮肤剥离的细微撕裂声",
+            "sound_en": "facial skin tearing from the philtrum with a sharp rip, subtle peeling sounds",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "揭了下来",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "面皮揭落",
+            "sound_cn": "整张人面皮连头带耳完整揭下，轻柔剥离声，内里新肤乍现",
+            "sound_en": "whole face mask peeling off completely with head and ears, gentle tearing, fresh skin revealed",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 20.0,
+            "trigger_keyword": "眼前一亮",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "光华闪耀",
+            "sound_cn": "新肤露出时光华一闪，如明珠出匣，映照满室，光彩流转",
+            "sound_en": "fresh skin emerging with a flash of light, like a pearl emerging from its case, illuminating the room, radiance flowing",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "凤目倏地睁开",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双目睁开",
+            "sound_cn": "凤目倏然睁开，眼波流转，神光内蕴的轻微气息",
+            "sound_en": "phoenix eyes suddenly opening, gaze flowing, subtle breath of inner light",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "你要坐起么？",
+          "instruct": "语气关切，轻声询问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴用目示意。二凤便过去扶他坐起，玉肌着手，滑如凝脂，鼻间隐闻一股子温香气息。又见他仿佛大病初回，体惫不支神气，不由添了怜惜之念。及至将他扶了坐起。背后皮壳业已自行脱落，粉光致致，皓体呈辉，真是明珠美玉，不足方其朗润。这时金须奴脱形解体之后，除身高未减外，余者通身上下俱已换了形质，只是起坐须人，暂时还不能言笑罢了。二凤先笑朝他称贺道：",
+          "instruct": "叙述细腻，带着怜惜与赞美"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "背后皮壳",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "皮壳脱落",
+            "sound_cn": "背后皮壳自行脱落，细碎裂响，粉光肌肤展露",
+            "sound_en": "back shell falling off on its own, light cracking, pinkish glowing skin revealed",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "trigger_keyword": "皓体呈辉",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "新体辉光",
+            "sound_cn": "新换的身体如明珠美玉般辉光流转，衣物窸窣轻响",
+            "sound_en": "newly transformed body glowing like pearls and jade, robes rustling softly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "你如今已是换形解体，变了一身仙骨。再有四天静养，便即大功告成了。",
+          "instruct": "语气喜悦，带着祝贺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴将头点了点，不住用目示意，看向两腿。二凤猜他是要打坐入定，运用玄功，便代他将双膝盘好。起初忙着代他揭去外皮，一见变得那般美好，虽然出乎意外，因为一心关注他的成败安危，还不觉得怎样，仅止赞美惊奇而已。及至扶他安然坐起，王肤相亲，香泽微闻，心情于不知不觉中已经有些异样。再给他一盘腿，猛一眼望到对方龙穴之下垂着一根玉茎，丹菌低垂，乌丝疏秀，微微有两根青筋，从白里透红的玉肉之中隐现出来，更显出丰润修直，色彩鲜明。不禁心中起了一种说不出的感觉，立时红生玉靥，害起羞来。忙把金须奴适才所脱的衣服取过，因为变体以后，衣服显得肥大，再加元气未复，不便穿着，只得先将他腹部上下围俺。再看人时，已在榻上紧闭双目，入定过去。这才退回自己榻前坐好，好生无聊。知道金须奴初次回醒，这一打坐，须等真元运行新体，满了十二周天，到当夜子时，天地交泰之际，才能言动自如，暂时还不需人照料扶持。闲着无事，便也用起功来。坐了一会，不知怎的，觉出心神烦乱，再也收摄不住。两三个时辰过去，正在勉强凝神定虑，猛想起金须奴入定已经好久，他现时举动须人相助，不知还原了没有？今日心绪偏又这般乱法。想到这里，睁眼一看，金须奴依然端坐在对面珊瑚榻上，鼻孔里有两条白气，似银蛇一般，只管伸缩不定。知他玄功运行已透十二重关，再不多时，便可完成道基。正暗赞他根行深厚，异日成就必定高出众人之上，猛觉一阵阴风袭入亭内，不由机伶伶打了一个冷战。知道这亭业经初凤行法封锁，无论水火声光都难侵入。那阵阴风明明自外而入，说不定要生甚么变故。一面施展防身法术，仔细四下观察时，甚么迹兆都无。再看榻上金须奴，依旧好端端地坐在那里，一丝未曾转动。只是鼻孔间两道白气吞吐不休，其势愈疾。二凤哪知危机业已潜伏，还以为他功候转深，不久便能下榻，言动如常。又待了一会，才看出金须奴浑身汗出如浆，热气蒸腾，满脸俱是痛苦愁惧之容，神态甚是不妙，不由大吃一惊。暗忖：\"他已是得道多年的人，虽说这次刚刚解体换骨，真元未固，那也是暂时之事。只要玄功运行透过十二重关，不但还原，比起往日道力灵性还要增长许多。适才见他坎离之气业已出窍往复，分明十二重关业已透过，怎便到了这种难忍难耐的样儿？\"越看越觉有异，心中大是不解。看到后来，那金须奴不但面容愈加愁苦，双目紧闭，牙关紧咬，竟连全身都抖战起来。自己没有经过这类事，虽知不是佳兆，无奈想不出相助之法。再一转眼工夫，适才所见那般仙根仙骨的一个英俊少年，竟是玉面无光，颜色灰败，浑身战栗，宛如待死之囚一般。二凤平素对他本多关注，自从解体变形以后，更由赞美之中种了爱根。目睹他遭受这种惨痛，哪里还忍耐得住，一时情不自禁，便向他榻前走去。这时金须奴原正在功将告成之际，受人暗算，偷开法坛，将魔头放了进来。如换旁人，真元未固，侵入魔头，本性早迷，不由自主，甚么恶事都能做出。还算他平日修炼功深，当那真元将固，方要起身与二凤拜谢之际，猛觉阴风侵体，知道外魔已来，情势不妙。连忙运用玄功屏心内视，拼着受尽诸般魔难挨过七日。那怕误了自己，也不误人，恩将仇报。情知一切苦厄俱能勉强忍受，只为感激二凤之念一起，也和日后宝相夫人超劫一般。这意魔之来，却难驱遣，一任他凝神反照，总是旋灭旋生。二凤如果不去理他，虽然受尽苦难，仍可完成道基。偏偏二凤不知厉害，见他万分可怜，走了过去，想起自己身旁还带有一些玉柱中所藏的灵丹。那丹原是三凤掌管，金须奴日前曾向初凤索讨，以备万一之需。三凤执意不允，自己心中不服。恰巧以前初凤交给三凤时，自己取了十余粒，打算背着三凤相授。后来因自己反正要入亭照料，便带了来，准备金须奴还原时给他。这时他正受苦，岂非正合其用？以为此举有益无害，便对金须奴道：",
+          "instruct": "叙述由平静转向紧张，突出魔头入侵的诡异与二凤的焦急"
+        },
+        "effects": [
+          {
+            "trigger_delay": 72.0,
+            "trigger_keyword": "阴风袭入",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "阴风侵袭",
+            "sound_cn": "一阵阴冷之风突然袭入亭内，风声呜咽低沉，气温骤降，令人寒颤",
+            "sound_en": "chilling wind suddenly sweeping into the pavilion, low howling, temperature dropping sharply, causing shivers",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 96.0,
+            "trigger_keyword": "汗出如浆",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "大汗淋漓",
+            "sound_cn": "金须奴浑身大汗如浆涌出，汗水滴落榻面，呼吸急促沉重",
+            "sound_en": "Jinxunu sweating profusely like a flood, sweat dripping onto the couch, rapid heavy breathing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 110.0,
+            "trigger_keyword": "抖战",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "浑身战栗",
+            "sound_cn": "金须奴全身剧烈颤抖，骨骼咯咯作响，牙关紧咬的摩擦声",
+            "sound_en": "Jinxunu shaking violently all over, bones creaking and rattling, teeth grinding harshly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 140.0,
+            "trigger_keyword": "颜色灰败",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "玉面无光",
+            "sound_cn": "玉面光泽尽失，颜色灰败，宛如待死之囚的凄惨喘息",
+            "sound_en": "jade-like face losing all luster, turning ashen, desperate gasps like a condemned prisoner",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "你是怎么了？我给你备了几粒灵丹，你服了它吧。",
+          "instruct": "语气温柔关切，带着怜惜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "可怜金须奴正在挨苦忍受，一闻此言，不由吓了个胆落魂飞，知道大难将至。虽然身已脱骨换胎，十二重关已透，不致全功尽弃，变成凡体；但是这些年的心血、盼想，稍一把持不住，势必败于垂成。在这魔头侵扰紧要关头，又万不能出声禁止。万般无奈中，还想潜运真灵，克制自己，以待大难之来，希望能够避过。正在危急吃紧之际，猛觉二凤一双软绵绵香馥馥的嫩手挨向口边，接着塞进一粒丹药。当下神思一荡，立时心旌摇摇，顿涉遐想。刚暗道得一声：\"不好！\"想要勉强克制时，已是不及。真气一散，自己多少年所炼的两粒内丹，已随口张处喷出一粒。同时元神一迷糊，便已走下榻来。那二凤好心好意拿了一粒丹药走向榻前，刚刚塞入金须奴口内，见他鼻孔中两条白气突然收去，口一张，喷出一口五色淡烟，二凤猝不及防，被他喷了个满头满脸。那金须奴虽和人长得一样，乃是鲛人一类，其性最淫。只为前在北海遇见一位高人，见他生具天赋异禀，根基甚厚，当时度到门下，传授道法，修炼多年。金须奴颇知自爱，自入门后，强自克制，加上乃师提携警觉，从未为非作歹。后来乃师成道兵解时，对他说道：\"你后天淫孽虽尽，先天淫根未除。虽然仗你多年苦功，于本元神之外又炼了第二元神，此时可不防事。将来成道时节，你身在旁门，易为魔扰。如舍弃五百年功行，趁我在这数日内将你本身元神化去，异日可以省却许多阻力。否则到了紧要关头，一个克制不了情魔，难免不为所害，那时悔之晚矣！\"当时金须奴一则仗着自己克欲功深，二则不舍五百年苦功，三则知道无论正邪各派仙人成道时均免不了魔头侵扰。这事全仗自己修为把持如何，到时有无克欲之功。纵舍元丹，在迟五百年成道，仍是一样难免魔劫。便不愿听从，以致留下这点祸根。那五色淡烟便是那粒内丹所化，无论仙凡遇上，便将本性迷去。二凤哪里禁受得住，当时觉着一股子异香透脑，心中一荡，春意横生，懒洋洋不能自主，竟向金须奴身上扑去。神思迷惘中，只觉身子被金须奴抱住，软玉温香，相偎相搂，一缕热气自足底荡漾而上，顷刻布满了全身。越发懒得厉害，有一种说不出的难过神气，血脉债张，浑身微痒，无可抓挠。正要入港，又觉金须奴用力要将自己推下床去。暗忖：\"这厮怎这般薄情寡义？\"不由满腹幽怨，由爱生恨，张开樱口，竟向金须奴肩上就咬。星眼微睁处，看见金须奴那肩头竟似削玉凝脂，琼酥搓就的一般。心刚一动，樱口业已贴向玉肌，莹滑香柔，着齿欲噤，哪里还忍再咬下去，只用齿尖微微啃了一下。爱到极处，如发了狂一般，一双玉臂更将金须奴搂了一个结实。那金须奴灵元还有一点未昧，正在欲迎欲拒，如醉如醒之时，哪禁得起她这么一番挑逗，口里微呻了一声，长臂一伸，也照样将她搂了一个满怀。二人同时道心大乱，双双跌倒在珊瑚榻上，任性颠狂起来。一个天生异质，一个资禀纯粹，各得奇趣，只觉美妙难言，甚么利害念头，全都忘了个干干净净。直绸缪到第六日子夜，魔头才去。二人也如醍醐灌顶，大梦初觉，同时清醒过来，已是柳憔花悴，云霞满身。二人你望着我，我望着你，相对着一声苦笑。彼此心里一阵悲酸，双双急晕过去。等到二次醒转，二凤在榻，猛听耳边金须奴低声相唤。睁眼一看，金须奴正两眼含泪，跪在榻前相唤呢。二凤见他神情悲惨，也甚怜惜。闭目想了想，倏地起身将他拉起道：",
+          "instruct": "叙述由紧张转向悲凉，语调低沉，充满宿命感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "塞进一粒丹药",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "丹药入口",
+            "sound_cn": "丹药塞入口中的轻响，舌尖触药的细微声",
+            "sound_en": "pill being put into mouth, soft touch of pill on tongue",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 26.0,
+            "trigger_keyword": "喷出一口五色淡烟",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "五色淡烟喷出",
+            "sound_cn": "金须奴口中喷出五色淡烟，烟气弥漫嗤嗤作响，带着异香迷魂",
+            "sound_en": "five-colored mist spraying from Jinxunu's mouth, spreading with a hiss, strange fragrance dizzying",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 52.0,
+            "trigger_keyword": "扑去",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "二凤扑倒",
+            "sound_cn": "二凤身体软倒扑向金须奴，衣袍摩擦窸窣，身体倒榻的闷响",
+            "sound_en": "Erfeng collapsing onto Jinxunu, robes rustling, dull thud of bodies falling onto couch",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 70.0,
+            "trigger_keyword": "搂了一个结实",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "相拥纠缠",
+            "sound_cn": "二人紧紧相拥纠缠，衣物窸窣，呼吸急促，低吟声断续",
+            "sound_en": "two embracing tightly and entwining, clothes rustling, heavy breathing, intermittent soft moans",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 136.0,
+            "trigger_keyword": "急晕过去",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "双双晕厥",
+            "sound_cn": "二人同时急晕倒下，身体倒榻的轻响，气息微弱",
+            "sound_en": "both fainting simultaneously, bodies slumping onto couch, faint breathing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "这事不怨你，都怪我自己不好，累你坏了道基。如今错已铸成，无可挽救。少时便到开坛时候。三公主见我这次助你解化，已是不悦，如知我二人经过，岂不正称心意？你比我道行较深，须想套言语遮盖才好。",
+          "instruct": "语气悲切，带着自责与无奈"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "金须奴",
+      "api": {
+        "voice": {
+          "role": "金须奴",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "此乃前生注定魔孽，无可避免。但是这法坛业经大公主行法封闭，那六魔纵然厉害，怎能侵入？想起小奴坐功正在吃紧的当儿，三阳六阴之气已经透出重关，呼吸帝座，眼看真元凝固，骨髓坚凝，内莹神仪，外宣宝相了。忽然阴风侵体，知道中了旁人暗算，将魔放进。拼受诸般苦难，末了一关仍是不能避过，终究失了元阳，坏了戒体，应了先师当日预示。此事别无他人敢为，说不定又是三公主闹的玄虚了。",
+          "instruct": "语气沉重，带着痛惜与愤懑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "三丫头害你不说，怎连我也害在其内？少时开坛出去，怎肯与她甘休！",
+          "instruct": "语气愤怒，带着恨意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "金须奴",
+      "api": {
+        "voice": {
+          "role": "金须奴",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "事有数运，公主不必如此。闹将出去，徒称奸人心意，小奴之罪更是一死难赎。小奴与公主真元虽坏，此后勤苦修持，仍可修到散仙地步。三公主与冬姑如此忮刻私心，大非修道人气度，恶因一种，终有报应，此时无须与她理论。嵩山白、朱二仙约定日内前去，必然预知此事。怜念小奴苦修不易，此行定有挽救之方。好在道基虽坏，凡体已经化解，法力犹存，且等去了回来，再作计较。大公主年来功行精进，三公主们所行之事，当时虽不知道，一见我们的面，必然猜出一些，为了顾全公主颜面，决不说出。公主索性装得坦然些，小奴受公主殊恩，此后不但久为臣奴，上天入地，好歹助公主成道。至不济，也要求一个玉容永驻，长生不死。那怕小奴为此粉身碎骨，在所不辞。",
+          "instruct": "语气坚定而恳切，带着责任与承诺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二凤闻言，愈发感愧道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "你不要再小奴小奴的。你的道行本来胜过我姊妹三人，只为想要超劫解体，求那上乘正果，才自甘为奴。平日受尽她的欺侮，如今你道基已坏，还尽自做人奴才则甚？我身已经属你，如仍主仆，越增我的羞辱。现时且不明言，等我暗向大公主说明经过，由她作主，作为你道已成，不能再沦为奴隶。《地阙金章》曾经载明你我二人有姻缘之分，令我嫁你，索性气气她们。好便罢，不好我和你便离了此地，另寻一座名山修炼，你看如何？",
+          "instruct": "语气决绝，带着爱意与反抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴闻言，先甚惶恐，后来仔细想了一想，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "金须奴",
+      "api": {
+        "voice": {
+          "role": "金须奴",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "公主恩意，刻骨难忘。公主主意已定，违抗也是不准。我金须奴以一寒荒异类，上匹天人，虽然坏了道基，也就无足惜了。",
+          "instruct": "语气感慨，带着感动与决意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，互相对看了一眼，不由又相抱痛哭起来。两人虽不再作寻常儿女燕婉之私，却是互相关怜恩爱到了极点。似这样深情偎依，挨到开坛之时，彼此又把少时出去的措词，以及日后怎样挽救修为之策，商量了一番。这才分坐在两边榻上，静候开坛出去。也是他二人无这天仙福分，才闹到这般结局。其实三凤并非存心要害二人，只因第一日见二凤陪了金须奴入内，初凤镇守主坛，瞑目入定，更是郑重非常，本就有些不服。再加自己和慧珠、冬秀分守三方，不能离开一步。头两三日还能忍耐，勉强凝神坐守。及至金须奴在室中坐到紧要关头，三凤因此动了嗔念，同时也为魔头所乘，不知怎的，觉着气不打一处来，暗忖：\"他一个异类贱奴，过了这一关，道基稳固，日后功行圆满，便可上升仙阙。自己在具仙根，反不如他。\"越想越恨，竟忘了当前利害，赌气离了守位。猛又想起：\"二姊还在里面，魔头万一侵入，岂不连她一齐害了？凡事均有前定，何必忌他则甚？\"这投鼠忌器之心一起，立时心平气和，回了原位。且喜初凤没有觉察，法坛上霞光仍盛，并无动静，还以为没有甚么。谁知那魔头来去渺无痕迹，随念而至。全仗初凤等三人冥心内视，远用灵元，代室内之人防守。三凤念头一错，魔已乘虚而入；再一离开本位，只这刹那之间，便被侵入室中。休说三凤看不出来，就连初凤坐守主坛，只管澄神定虑，反虚生明，直坐到七日来复，下位开坛，也以为自己道心坚定，万念不生，魔头决未侵进，金须奴大功告成了呢。时辰一到，初凤收了禁法，将坛开放。一阵烟光散处，看见晶亭内两边榻上，一边坐定二凤，一边坐定一个赤着上半身的美少年。算计他已超劫化解，换了凡体。地下却堆了一摊人皮金发，好生心喜。连忙带了三凤、冬秀、慧珠等入内。二凤首先下榻说道：",
+          "instruct": "叙述由悲转喜，开坛揭晓，语调明亮"
+        },
+        "effects": [
+          {
+            "trigger_delay": 70.0,
+            "trigger_keyword": "收了禁法",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "法坛开放",
+            "sound_cn": "禁法解除，烟光散开如云雾，晶亭显现的轻响",
+            "sound_en": "forbidden spell lifted, smoke and light dispersing like clouds, crystal pavilion appearing with a soft sound",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 78.0,
+            "trigger_keyword": "人皮金发",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "人皮落地",
+            "sound_cn": "地下人皮金发堆叠，轻响如枯叶，尘埃落定",
+            "sound_en": "discarded skin and golden hair piled on the ground, light rustling like dry leaves, dust settling",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "他此时旧衣已不能穿着。恰好那日收检仙衣，竟有一套道装，式样奇异，不似女子所穿。他没化解前，因为大小相差过甚，没有想到他身上。适才方得想起，待我去与他取来，穿了相见吧。",
+          "instruct": "语气轻快，带着掩饰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三凤方要答话，二凤已经往外走去。一会仙衣取到，放在金须奴身侧，由他自着。五女便退往别殿，等金须奴坐功完了，自去相见。三凤、冬秀见金须奴一旦变得那般俊美英秀，自是又妒又羡。到了别殿坐定，纷问经过。二凤自是伤心，忍着悲痛，照议定之言，说了经过。初凤、慧珠俱赞金须奴根行深厚，有此仙缘。一会金须奴穿了新衣来见，叩头谢恩。众人见那装束甚是奇特：上身一领淡红色的云荷披肩，长只及时，露出两条玉臂；下半身一件金黄色的道裙，长只及膝，赤着一双其白如霜的脚；头上秀发披拂两肩，周身都是彩光宝气，越显出仙风道骨，丰姿美秀。初凤见那身衣服以前置放在玉匣底层，以为都是女衣，不曾取出检视，这一穿上，竟是为他而设，再也无此相称，可见他本是宫中之人，仙缘早经前定。连三凤、冬秀先时还不愿意将仙衣给他，到此也无话可说。当时谁也没有看出异样。直到金须奴告退出去，二凤才怀着满腹悲酸，偷偷告知初凤、慧珠。初凤、慧珠知是前孽，叹惜了一阵。仔细寻思，二凤心意已决，除了下嫁给金须奴外，别无善法，只得答应。等金须奴赴了白、朱二仙之约回来，再由初凤想好说词，当众宣示，以正名分。商量停妥，二凤又背人说与金须奴。不消多日，便从三凤口中探出受害原故。从此金须奴夫妻便和三凤、冬秀二人生了嫌隙，以致日后闹出许多事故。这且不提。等到赴约之日，金须奴带了那柄宝扇，辞别初凤姊妹，径往嵩山飞去。白谷逸、朱梅二人已在少室山顶相候。双方相见之后，金须奴先说了化解入魔经过，哭求指示玄机，有无挽救。白谷逸道：",
+          "instruct": "叙述平缓，带着感慨"
+        },
+        "effects": [
+          {
+            "trigger_delay": 22.0,
+            "trigger_keyword": "穿了新衣",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "穿上仙衣",
+            "sound_cn": "仙衣披上身，绸缎摩擦的轻柔沙沙声，彩光宝气微闪",
+            "sound_en": "immortal robe being put on, soft silk rustling, colorful glow shimmering",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 52.0,
+            "trigger_keyword": "带了那柄宝扇",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "宝扇随身",
+            "sound_cn": "宝扇取在手中，铜铁轻碰声，扇骨展开的轻响",
+            "sound_en": "magic fan taken in hand, light metal clink, fan ribs unfolding softly",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 60.0,
+            "trigger_keyword": "嵩山飞去",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "遁光飞嵩山",
+            "sound_cn": "遁光升起向嵩山飞去，破空声清越悠长",
+            "sound_en": "magical light rising and flying toward Mount Song, clear and prolonged whoosh",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "白谷逸",
+      "api": {
+        "voice": {
+          "role": "白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "月儿岛连山大师所藏旁门法宝甚多，火海数十年才一开放，难免不为左道妖人得去。不到日期，想入火海须要两件防身宝物：一件是长眉真人修道防魔用的九戒仙幢，一件便是你所得的那柄宝扇。仙幢可以护身，宝扇可以消灭守洞石人剑上的真火，相依为用，缺一不可。我二人向长眉真人借宝时，曾闻真人法谕，说紫云三女虽然生具异禀，只是得了一点千年老蚌的灵气，夙根不厚，修到地仙已是侥幸。将来能否避却劫难，尚要看她们修为如何而定。倒是你一个寒荒异类，禀赋天地间至淫奇戾之气而生，竟能反性苦修，不避艰危，用尽毅力，诚心寻求正果，大是难得。目前道基虽坏，恶骨已换。只要仍和以前一样虔诚苦修，前途成就尚非无望。并且长眉真人还有用你之处，应在三百年后，所以特借仙幢，由我二人与你同入火海。那些旁门法宝，我二人一概不要，俱都赠你。只内中有一册连山大师当年的修道目录，藏在大师的遗蜕之下，须要带往峨眉，交与长眉真人。此书装在一个金函以内，非我二人亲自下手，不能取出。余外还有几粒丹药，与初凤、慧珠二人上次在火海中所服功效相同，俱能增长道力，驻颜不老。那日三凤代为我二人取那朱环，未得宝物，我本另想酬谢。不料她竟起了私心，唆使同伴想劫了铁伞道人的宝伞逃走。我二人才故作不知，使其弄巧成拙。此次将各种法宝取出，俱都给你，以酬此劳。尔等俱是旁门，虽说避完灾劫一样长生，可是异日修炼到了吃紧当儿，一个坎离失了调匀，虽不一定便走火入魔，形神消逝，容颜却立时变成了老丑。如得此丹服了，容颜常似婴儿，亘古难老。我二人俱是玄门正宗，要它无用。你可带它回去，分给未服的人每人一粒。不特你夫妻可增道力，也可与向日对头释嫌修好。从此永驻青春，为地仙中留一佳话，岂非妙事？你回宫后，与众人再在海底潜修数十年，避过一切灾厄。那时道行大进，再行分途出海，积修外功。外功圆满，重返海底。等三百多年后，末次大难再一躲过，纵然不能修到金仙，也成为不死之身了。那月儿岛连山大师遗留仙法，非比寻常。那本修道目录一经取出，埋伏立时发动，厉害已极。连我二人俱是冒着奇险行事。你宝物到手，即要先行逃走，彼时各不相顾。故此事前把话与你说明，以免临时仓猝不能细说。从此一别，你与我二人须等三百年后，或能再有相见之期。那时的紫云宫，重重封锁，与世相隔，不论仙凡，俱难擅入，远非昔比。紫云五女勤习那部天书副册魔官秘笈，必已悟彻魔法奥妙，多半自恃道法，起了骄意。那时如有峨眉弟子擅入宫内，有所营求，你夫妻须看我二人分上，不可使其难堪，相机予以方便。那去的人虽然年幼道浅，大都具有仙根异禀，此时助人，日后也无殊自助。否则地仙也是不足五百年一世，何况五女之中还有两三个平日积下许多恶因，到时收果，势所难免。灾劫未至，先树强敌，一旦相逢狭路，大难临头，悔之晚矣！",
+          "instruct": "沙哑烟嗓，语气深沉庄重，交代前因后果与未来，语速从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴一一恭聆训诲，默记于心。白谷逸把话说完，又和朱梅商量好了步骤，才同驾遁光起身。金须奴随了白、朱二人，飞离月儿岛还有老远，便见前面浊浪滔天，寒钊四起，愁云惨雾中，灰沉沉隐现着一片冰原雪山，迥非前一次所见红光烛天的样儿。及至飞落岛上一看，昔日火海俱被寒霜冰雪填没，不知去向，连山形都变了位置，知道火海业已封闭。正在定睛注视，白、朱二人已轻车熟路般走向一座冰壁前面，只双双将手扬了几下，便带了金须奴一同飞起空中。耳听脚底先起了一阵音如金玉的爆裂之声，接着便是震天价一声巨响，那一排耸天插云的晶屏竟然倒坍下来，立时四山都起了回音，冰尘千丈，海水群飞。左近冰山受了这一震之威，全都波及，纷纷爆散震裂。近海一带竟是整座冰山离岸飘去，砰扑排荡，声势骇人，半晌方止。冰壁稍静，三人同时飞身而下。地面上又换了一个境界，除了到处是断冰积雪外，冰壁陷处，现出一个深穴，下面隐隐冒着一缕缕的轻烟。朱梅首先走向穴边，手先朝金须奴一挥，命他留意。然后两手一搓，朝穴中一放，便见一点红光飞向穴底。转眼之间，下面轰的一声，一道火焰倏地从穴底升起。三人早有准备，未等火起，早已二次飞向空中。金须奴低头往下一看，那火势真个厉害。先见地穴只有亩许大小，火刚上来，便是万丈火苗夹着一股浓烟直冲霄汉，那穴便相随震裂，越来越大。所有地面上如山如阜的坚冰积雪，立时都消溶成水，波涛滚滚，夹着少许碎冰块，恰似万股银流互相挤夺争驰，往海中涌去。不到半盏茶时，附近数百里内的冰山雪峰全都消灭。只剩下围着火海的一座石峰，仍恢复了当日火海形状，才略止崩裂烧融之势。三人见火势发泄没有初出来时猛烈，更不怠慢，按照预定方法，由朱梅手持长眉真人九戒仙幢护身，金须奴持着那柄宝扇当前避火。避过火头，下到数十丈深，下面已经无火，除奇炎极热，烁石热金外，那火的根苗只是尺许粗，其直如矢的一股青烟。三人哪敢招惹，匆匆下落海底。守洞石人早手持石剑，迎了上来，剑头一指，便有千百朵五角火星直朝三人射来。金须奴早得白、朱二人嘱咐，知这石人剑上的火非同小可，漫说轻易不能抵御，就是手中宝扇能够破它，稍一怠慢，被它飞近那根火苗，立刻引烧起来。火头不向直飞，径从横里烧来，立时到处都被这种烈火填满，全岛爆炸，纵是大罗神仙，也要化为灰烬。知道厉害无比，忙将宝扇连挥，迎头扇去，不使火星升起。且喜扇到火灭，如同石火星飞，一闪即逝。约有数十扇过去，石人剑上火星才行发完，方得近前。石人口中忽又喷出一股臭气，触鼻欲晕。正不知如何破法，忽听白、朱二人口称连山师祖，喃喃祷祝了几句，一道金光飞出手去，烧向两个石人，只一转，便已断为两截，倒在地上。三人慌忙越过石人，飞身入洞，先到连山大师遗容前，恭恭敬敬叩祝一番，这才起立，分头行事。金须奴见满洞壁上尽是法宝，心花怒放，连忙上前摘取，石人法术已破，无不应手而得。刚刚取完，便听白谷逸低喝道：",
+          "instruct": "叙述火海再开与取宝过程，语调紧张激烈，节奏快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 26.0,
+            "trigger_keyword": "音如金玉的爆裂之声",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "冰壁爆裂",
+            "sound_cn": "冰壁爆裂发出金玉般清脆巨响，冰山崩塌，冰尘飞扬千丈",
+            "sound_en": "ice wall exploding with crisp jade-like sounds, icebergs collapsing, ice dust rising a thousand feet",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 36.0,
+            "trigger_keyword": "震天价一声巨响",
+            "trigger_offset": 0,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "晶屏倒坍",
+            "sound_cn": "整排通天晶屏轰然倒坍，震动天地，回音在山间激荡，海水群飞",
+            "sound_en": "huge crystal screen collapsing with earth-shaking thunder, echoes bouncing between mountains, seawater flying",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 64.0,
+            "trigger_keyword": "一点红光飞向穴底",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "火海再燃",
+            "sound_cn": "红光飞入穴底，随即轰然一声，万丈火焰冲天而起，浓烟滚滚遮天蔽日",
+            "sound_en": "red light flying into pit, then a loud explosion, flames shooting up ten thousand feet, thick smoke blotting out the sky",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 100.0,
+            "trigger_keyword": "千百朵五角火星",
+            "trigger_offset": 0,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "石人火星",
+            "sound_cn": "石人剑上飞出千百朵五角火星，破空呼啸如流星雨，热浪逼人",
+            "sound_en": "stone statue sword sending out hundreds of five-pointed sparks, whooshing like a meteor shower, heat waves intense",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 116.0,
+            "trigger_keyword": "宝扇连挥",
+            "trigger_offset": 0,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "宝扇灭火",
+            "sound_cn": "宝扇连续挥动，火星如石火星飞一闪即灭，扇风呼啸连续不绝",
+            "sound_en": "magic fan waving continuously, sparks extinguishing like shooting stars one after another, fan wind howling without pause",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 140.0,
+            "trigger_keyword": "金光飞出手去",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "金光斩石人",
+            "sound_cn": "一道金光飞出，绕向两个石人旋转一周，瞬间将之斩为两截，石人倒地轰然巨响",
+            "sound_en": "golden light flying out, circling the two stone statues once, cutting them in two instantly, stone statues falling with a loud crash",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 152.0,
+            "trigger_keyword": "飞身入洞",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞身入洞",
+            "sound_cn": "三人飞身进入洞中，衣袂破风声，落地轻响",
+            "sound_en": "three flying into the cave, robes whooshing, light landing",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "白谷逸",
+      "api": {
+        "voice": {
+          "role": "白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "你不快走，等待何时？",
+          "instruct": "沙哑烟嗓，语气急促严厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴回头一看，正当中那面洞壁忽然隐去，连山大师的遗容不知何往，却现出一个羽服星冠的道士，端坐在一个空床上面，容貌装束与遗容一般无二。白、朱二人俱跪在道人座前。正在这惊惶骇顾之际，猛见道人身旁红光一闪，同时白谷逸好似从朱梅手里抢过一样东西，又喊一声：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "洞壁忽然隐去",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "洞壁隐去",
+            "sound_cn": "洞壁无声隐去，光芒转换，空间变幻的嗡鸣",
+            "sound_en": "cave wall disappearing silently, light shifting, spatial transformation humming",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "trigger_keyword": "红光一闪",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "红光闪现",
+            "sound_cn": "道人身旁红光一闪，如电光石火，光芒刺目",
+            "sound_en": "red light flashing beside the Taoist, like lightning, dazzling",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "白谷逸",
+      "api": {
+        "voice": {
+          "role": "白谷逸",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "快拿了走！",
+          "instruct": "沙哑烟嗓，语气急迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "早抛将过来。金须奴第一次闻警，业已起立，准备遁走。一看白谷逸抛过一个玉瓶，猜是那丹药，连忙伸手接住，也说了句：",
+          "instruct": "紧张叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "抛将过来",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "玉瓶入手",
+            "sound_cn": "玉瓶抛来入手，清脆的玉石碰撞声，瓶塞轻响",
+            "sound_en": "jade bottle thrown and caught, clear jade clink, stopper tapping lightly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "金须奴",
+      "api": {
+        "voice": {
+          "role": "金须奴",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "大恩容图后报！",
+          "instruct": "语气感激，语速急促"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "双足一顿，驾遁光飞出洞去。到了洞外，更不怠慢，连挥宝扇，避开火焰，脱出火海，直升上空。白、朱二人取那目录，后文金蝉石生二进紫云官盗取天一贞水时自有交代。且说金须奴满载而归，好不心喜，排云驭气，往回路进发。暗忖：\"白、朱二仙说那丹药共有四粒，除初凤、慧珠已服过外，正好给宫中诸人每人一粒。自己费尽辛苦才行得到，二凤是患难夫妻，当然有份，自不必说。那三凤、冬秀平时相待既是可恶，此次化解又坏在她的手里，再将这种灵丹赠她，情理未免说不过去。如不给她二人，只和二凤一人分吃两粒，一则二凤定要盘问实情，知道不肯；二则多服少服俱是一样，白白糟掉，岂不可惜？那灵兽龙鲛心灵驯善，自己以前也和它相差不多，同是水族，何不将剩余的丹药给它服上一粒？另一粒藏好，以待将来之用？\"又觉与白、朱二人之言有违不妥，一路沉思，委决不下。不觉到了紫云宫上空，飞落海底一看，二凤已在避水牌坊之下相候，手里拿着几片海藻，正与那条龙鲛引逗着玩呢。一见金须奴带着满身霞彩飞来，知道必有喜音，迎着一问。金须奴起初原是想着三凤、冬秀可恼，本不惯于说谎，没料到二凤早在宫外相候，丹药还没有藏过，不便隐瞒，只得将前事说了。谁知二凤竟和他是一般心理，也不愿将丹药分与三凤、冬秀。金须奴经她一说，益发定了主见。就在宫外揭开玉瓶，将丹药先取出三粒，自己与二凤各服一粒，又给龙鲛服了一粒。将余下那粒藏好。这二人一起私心，只便宜了灵兽龙鲛，服丹之后，对着二人不住昂首欢跃，意思甚是感激。二人也觉遍身芬芳，神明湛定，好不心喜。金须奴因所得宝物共有一十三件，有两件因为行时匆促，尚没看清壁间所载用法。件数太多，不及一一取看，打算见了初凤等人，再行同观。二凤道：",
+          "instruct": "叙述金须奴取宝归来，语调轻松喜悦"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "连挥宝扇",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "宝扇开路",
+            "sound_cn": "宝扇连连挥动，火焰向两侧分避，风声呼啸持续",
+            "sound_en": "magic fan waving repeatedly, flames parting to both sides, continuous wind howling",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 50.0,
+            "trigger_keyword": "昂首欢跃",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "龙鲛欢跃",
+            "sound_cn": "龙鲛服丹后昂首欢跃，低鸣声充满喜悦，水花溅起，鳞片闪动",
+            "sound_en": "Longjiao leaping joyfully after taking pill, low happy cries, water splashing, scales shimmering",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "二凤",
+      "api": {
+        "voice": {
+          "role": "二凤",
+          "role_voice": "俏皮女声-活泼,元气",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+2Hz",
+          "text": "呆子！那两个见你得了许多法宝，岂不又要眼红？她们现时都在后宫黄晶殿内修炼法宝，且得些时才完呢。我因心里有事，又不愿和大家炼同样的法宝，才走出来等你。你且把那知道用法的先交给我藏起一半。连能用与不能用的，剩下五六件，算计每人送她一件，也就是了。",
+          "instruct": "语气亲昵，带着俏皮与私心"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴此时对二凤自是言听计从，便将法宝分别取出，与二凤解说，藏起七件。那六件中有一对金连环和一根玉尺，上面虽然刻有朱文古篆，一件叫龙雀环，一件叫璇光尺，俱都不知用法。二人分配好了宝物，将剩的六件，由金须奴拿着同进宫去。在别殿中又谈了一会，初凤等人才行走出。金须奴仍照前行礼，将赴嵩山经过，略说了一说，并将那六件宝物献上，任凭众人挑选。初凤先将宝物接过，分别传观之后，放在一旁，且不发付，对众说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我有一桩心事，藏在心中多年，因未到时，总未说出。想金道友生具仙根异禀，此时道行更是高出我等三人之上，只缘劫难重重，难以避免，这才舍身为奴，在本宫中服役多年，劳苦功高，自不必说。他和二凤妹子还有一段夙缘，应为夫妇，同驻长生，《地阙金章》上早有明示。如今二妹道行已非昔比，金道友更是贞水换骨，化解凡身，一切灾厄均已避过。我计算仙箓所载时日，金道友嵩岳归来，正是他和二凤妹子圆满之期。我平居默坐，体证前因，知道他二人这段姻缘万难解脱。为此当众说明，使他二人配为夫妻，正了名分。大家与金道友既成一家，不许再存歧视之心。还有慧珠姊姊，本是恩母转劫化身，应为宫中道主，屡经我等请求正位，不但坚执不允，反不许母女称谓，令我权作官中之主，否则便要离此他去。此事众姊妹业均知晓，无庸细说。这几日经我熟思切虑，权衡轻重，宫中人渐增多，不可无主，只得恭敬不如从命，同在今日改了称谓。以前我因本宫并无外人，我姊妹三人同胞一体，有甚高下可分？如今已知，除我略有一线之望外，诸人均难修到天仙。不特道行各有深浅，因为无人正经率领，姊妹间常因细故发生嫌隙争执，均非修道人所宜。像上次三妹、冬秀负气出走，几酿大祸。以后我定下规章，共同遵守。我暂为宫中之长，言出法随，诸姊妹与金道友均须随时在意，共勉前修，勿堕仙业，才是正理。",
+          "instruct": "语气庄重威严，宣布婚事与宫规，语速从容"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便命金须奴与二凤交拜行礼。二凤在旁闻言，触动心事，早已泪如雨下。金须奴虽与二凤有约在先，也是又感激，又惶恐，还待谦谢几句，初凤只说了声：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "泪如雨下",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "泪落无声",
+            "sound_cn": "泪珠滚落，轻叩衣襟的细微声响，低泣声",
+            "sound_en": "tears falling, soft pattering on robe, quiet sobbing",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前缘注定，无须再作俗套。",
+          "instruct": "语气坚定，不容推辞"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便促二人行礼。金须奴慨然道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "金须奴",
+      "api": {
+        "voice": {
+          "role": "金须奴",
+          "role_voice": "云风-沉稳,自然男声",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "小奴以仆当主，妄跻非分，情出不已。此中因果和苦衷，主人俱已洞悉，不便多言。今承主人深恩，正名当主，仍须无废主仆礼数才对。",
+          "instruct": "语气诚恳，带着谦卑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便单独向初凤姊妹、慧珠、冬秀五人，行了臣仆之礼。然后起身与二凤交拜天地道祖之后，再行分别与众行礼。众人除慧珠早经初凤说明外，三凤、冬秀俱都蒙在鼓里。加上金须奴得宝不私，恰好又是六件，正好各得其一，不由减了敌视之心。不料初凤说出这番话。现时初凤不但道力高深，不由众人不服。对于众姊妹更是言温理正，身端容肃，俨然表率，三凤、冬秀本已日益敬畏。再加事起仓猝，初凤又说出本人已为宫中之长，言出法随等语。二人事前没有商量，一心只在盘算宝物，闻言虽甚为骇异，谁也不愿首先发难。见初凤说时，二凤满面泪容，以为她以主配奴，必不甘愿，料初凤决难勉强。满想等二凤一开口，再行群起出言阻挠。谁知二凤只流了两行珠泪，竟是一言不发，就随了金须奴交拜起来。几次想发话，又不好出口。末后想要劝阻，已是不及，只得隐忍过去。初凤等二凤、金须奴与众人分别行礼之后，又对众人道：",
+          "instruct": "叙述婚礼进行，语调平静中带有感慨"
+        },
+        "effects": [
+          {
+            "trigger_delay": 16.0,
+            "trigger_keyword": "交拜",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "交拜行礼",
+            "sound_cn": "二凤与金须奴交拜天地道祖，衣袍拂地，叩拜轻响，礼乐声起",
+            "sound_en": "Erfeng and Jinxunu bowing to heaven, earth, and Taoist ancestors, robes brushing ground, soft kneels, ceremonial music beginning",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "后苑之中，已由慧珠姊姊设下酒食。那酒也是慧姊从人间学来方法，用宫中异果制的。我们虽不必效那世俗排场，礼节总不可废。加以妹夫多年劳苦功高，今日总算劫难完满，又新得了许多宝物，正好给他夫妇二人贺喜，就便大家也尝尝新。我还有许多话，且到后苑落座之后再说吧。",
+          "instruct": "语气和蔼，带着喜气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人便随初凤到了后苑。三凤见一张珊瑚案上，早排满了酒果之类，怪不得适才黄晶殿炼宝，初凤、慧珠俱不在侧。这才知道初凤、慧珠固是早有安排，便连二凤也久已承诺了，所以初凤一说，便无异词，只瞒着她和冬秀二人。越想越气，只是不好出口，不住朝冬秀以目示意，陪坐在旁，一言不发。初凤明白二人心意，不愿大家日后还是犯心，只想不出用甚法儿给双方释嫌修好。二凤见初凤欢饮中间，忽然停杯寻思，偶想起那六件宝物尚在前殿，便问初凤怎样分配。初凤闻言，猛想起适才金须奴献那六宝时，三凤神气甚是垂涎，只要把她一人感动，冬秀自无话说。便命三凤往前殿取来，大家看了，再行定夺。三凤巴不得自己先挑选一番，便笑道：",
+          "instruct": "平静叙述"
+        },
+        "effects": [
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "酒果之类",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "宴席杯盏",
+            "sound_cn": "珊瑚案上酒果陈列，杯盏轻碰声，宴席氛围温馨",
+            "sound_en": "wine and fruits arranged on coral table, soft clinking of cups and dishes, warm banquet atmosphere",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "三凤",
+      "api": {
+        "voice": {
+          "role": "三凤",
+          "role_voice": "傲娇女友-甜美,优雅",
+          "speed": "+1%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "那些宝物件件霞光闪闪，想必不是寻常。如能知道用法，岂不更好？",
+          "instruct": "语气带着期待与试探"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴便将得宝时，壁间所载用法，大半俱已记下，只龙雀环、璇光尺两件，原嵌在一处，刚取到手，便听白真人示警，匆匆遁走，没顾得细看壁间符偈用法等语说了。三凤好以小人之心度人，暗忖：\"白、朱二人既以全宝相赠，怎便忙在一时？偏是自己爱那柄短尺，他却不知用法，哪有这种巧事？分明知道这两件宝物最好，故意不肯说，以便别人不要，据为己有。少时分配，定和冬秀要这两件，豁出去自己再破些时苦功，重行祭炼，也是一样使用。\"主意打定，推说要冬秀相陪，以便搬取，拉了冬秀径往前殿。二人走后，金须奴不敢瞒着初凤，便将宝物实数说了，只灵丹一层未说。初凤正觉宝物乃金须奴所得，他虽谦让，分与众人，于理不合，但又想借赠宝给大家释隙和好，一时难以委决，闻言甚喜。一会三凤和冬秀各捧三宝回席，交与初凤。初凤重给大家传观之后，说道：",
+          "instruct": "平静叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妹夫亲身犯险跋涉一场，此宝又经白、朱二仙指明赠他一人，论情理原不该分给大家。一则今日妹夫、二妹嘉礼之期；二则妹夫情意殷殷，定要分给每人一件，过分谦谢，反倒不似自家人情分。家庭私谊，俱是以大让小，不比修道守法，以长为尊。这些宝物，俱是新得，我等俱未用过，莫测高深。且由妹夫说明用处，再由冬秀、三妹、慧珠姊姊依次挑取，我与宝主殿后如何？",
+          "instruct": "语气温和，主持分配"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三凤、冬秀早已在前殿商量好要哪两件，正愁初凤分配不能随心所欲，此举正合心意，高兴自不必说。别人知道初凤用意，更无异词。便由金须奴取宝在手，一一解说试演。除那两件不知用法以外，其余四件，以一件名为炼刚柔的，看去最为厉害。此宝形如一个鸡心，中有鹅卵大小，颜色鲜红，表里透明，只有许多芝麻大小的黑点，通身细孔密布，其软如棉，也不知是甚么东西炼成。一经使用，便飞出一片脂香，万缕彩丝。另由那针眼细孔中射出一种又粘又腻，颜色清明，香中略带腥咸之味的汁水。敌人法宝飞剑，除了一种西方太乙纯金之精炼成之宝，是它的克星外，余下只一沾上，立时百炼钢化为绕指柔，坠落地上。另三件一名销魂鉴；一名烦恼圈；一名遁形符，是两面竹简，可以分合。具有妙用，且待后文详叙。三凤、冬秀等金须奴说完，仍是取那预定之宝：三凤取了那璇光尺，冬秀取了那龙雀环。慧珠倒取了那炼刚柔，初凤取了那遁形竹简，将剩下的销魂鉴、烦恼圈仍还给金须奴与二凤。重新开怀畅饮。众人取完宝物之后，金须奴见三凤只管拿着那璇光尺摆弄，霞光闪闪，幻成无数连环光圈，与别的宝物不同。暗忖：\"此宝取时，最后嵌在龙雀环的后面，甚是隐秘，正看偈语用法，便即闻警遁走，仿佛壁间有'璇功万象'几字。起初没打算将宝物隐起一半，适才在宫外和二凤见面，匆匆挑选，只检那名好和自己略知深浅的藏起，不曾细考。因为这尺不知用法，没有在意。及至出了手，才觉出珍奇有异，偏又落在三凤手中。\"不由便对那尺多望几眼。三凤原就留心，这一来，更以为不出自己所料，两下嫌隙始终仍未解除。初凤在席上又说：",
+          "instruct": "叙述宝物分配与试演，语调平缓"
+        },
+        "effects": [
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "霞光闪闪",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "宝光闪烁",
+            "sound_cn": "璇光尺霞光闪闪，幻化无数连环光圈，光芒流转的嗡鸣",
+            "sound_en": "Xuan Guang Ruler glowing with rosy light, conjuring countless linked rings, light humming with radiance",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "云墨-情感,成熟知性",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "据我连日暗中参悟，众人只能修到散仙地步。既有这样好的珠宫贝阙，等白真人所说的敌人寻上门来以后，大家可分头出海，将那有根基的女孩子度些入宫，以充宫中侍女。一面传授道法，创立宗派；一面积修外功。等外功圆满，使用天魔遁法封锁海底。大家只在宫中潜修，享那仙府清福，再不出宫干预闲事，静俟最后一劫过去，便与海同寿，岂不是好？",
+          "instruct": "语气展望未来，带着憧憬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "云健-低沉",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人俱都称善。",
+          "instruct": "平静收尾"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "水精亭换形与魔头入侵",
+        "start_line": 1,
+        "end_line": 7,
+        "prompt": "very subtle low volume cinematic background ambience, underwater crystal pavilion deep in the palace, soft bioluminescent glow from coral and pearl walls, gentle water currents flowing through translucent chambers like breathing, sacred and still atmosphere of spiritual transformation, sudden chilling wind seeping in through forbidden seals with a low moan, distant eerie whispers of demons circling, oppressive and dangerous tension building with each breath, human heartbeat and trembling undercurrents, deep guqin with discordant erhu notes creating creeping suspense and foreboding, no sharp foreground events, no voices, no music, no melody, no repetitive loop feeling",
+        "volume": "-28%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "魔劫与悲戚之会",
+        "start_line": 8,
+        "end_line": 18,
+        "prompt": "very subtle low volume cinematic background ambience, quiet underwater palace chamber after storm, soft glow of pearls and jade casting gentle shadows, water ripples reflecting on crystal walls like memories, solemn and sorrowful atmosphere of confession, fate and resignation, distant water chimes like tears falling, subtle echoes of whispered conversations and shared grief, deep erhu and xiao flute weaving melancholy and reluctant acceptance, no sharp foreground events, no voices, no music, no melody, no repetitive loop feeling",
+        "volume": "-28%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "月儿岛火海再开与取宝",
+        "start_line": 19,
+        "end_line": 26,
+        "prompt": "very subtle low volume cinematic background ambience, arctic wasteland with frozen sea stretching to the horizon under gray sky, massive ice cliffs and crystal screens collapsing with thunderous cracks like mountains breaking, volcanic fire erupting from deep within the earth's core with a primal roar, roaring flames and boiling water mixing violently with melting ice, intense heat and bitter cold clashing in a dramatic spectacle, perilous atmosphere of ancient magic and forbidden power, low taiko drums and crashing cymbals building epic tension and urgency, no sharp foreground events, no voices, no music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "紫云宫婚宴与法宝分配",
+        "start_line": 27,
+        "end_line": 42,
+        "prompt": "very subtle low volume cinematic background ambience, magnificent underwater palace banquet hall adorned with pearls and coral, tables laden with exotic fruits and immortal wine glowing with ethereal light, soft glow of jade and gold illuminating the gathering, cheerful yet subtly tense social atmosphere of celebration masking jealousy and rivalry, gentle water chimes and distant ceremonial music providing warmth, festive mood with underlying currents of competition and unspoken grudges, gentle yangqin and pipa melodies weaving through the banquet, no sharp foreground events, no voices, no music, no melody, no repetitive loop feeling",
+        "volume": "-28%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}
