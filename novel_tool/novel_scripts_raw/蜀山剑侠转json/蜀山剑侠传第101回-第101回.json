@@ -21,13 +21,13 @@
       "speed": "+1%"
     },
     "申若兰": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云蒂-知性,磁性",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "0%"
     },
     "裘芷仙": {
-      "role_voice": "温婉女士-知性,温婉",
+      "role_voice": "云懿-古风,甜美",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "-2%"
@@ -39,61 +39,61 @@
       "speed": "0%"
     },
     "袁星": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "学霸男同桌-成熟,稳重",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+3%"
     },
     "石奇": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "赵燕儿": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "孙凌波": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+2Hz",
       "volume": "-1%",
       "speed": "+1%"
     },
     "施龙姑": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "+3Hz",
       "volume": "+1%",
       "speed": "-1%"
     },
     "道姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "和蔼奶奶-温暖,亲和",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "0%"
     },
     "齐灵云": {
-      "role_voice": "云懿-古风,甜美",
+      "role_voice": "云米-情感,知性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "+2Hz",
       "volume": "-1%",
       "speed": "0%"
     },
     "秦紫玲": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "-2%"
     },
     "南姑": {
-      "role_voice": "小玲-稚嫩,萝莉女声",
+      "role_voice": "柔美女友-温柔,甜美",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+1%"
@@ -111,7 +111,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第101回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -254,7 +254,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -341,7 +341,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -379,7 +379,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -428,7 +428,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -466,7 +466,7 @@
       "api": {
         "voice": {
           "role": "裘芷仙",
-          "role_voice": "温婉女士-知性,温婉",
+          "role_voice": "云懿-古风,甜美",
           "speed": "-2%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -504,7 +504,7 @@
       "api": {
         "voice": {
           "role": "申若兰",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云蒂-知性,磁性",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -553,7 +553,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -591,7 +591,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -806,7 +806,7 @@
       "api": {
         "voice": {
           "role": "申若兰",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云蒂-知性,磁性",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -855,7 +855,7 @@
       "api": {
         "voice": {
           "role": "申若兰",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云蒂-知性,磁性",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -893,7 +893,7 @@
       "api": {
         "voice": {
           "role": "申若兰",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云蒂-知性,磁性",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -942,7 +942,7 @@
       "api": {
         "voice": {
           "role": "申若兰",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云蒂-知性,磁性",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -1060,7 +1060,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1149,7 +1149,7 @@
       "api": {
         "voice": {
           "role": "赵燕儿",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1198,7 +1198,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1247,7 +1247,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1346,7 +1346,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1415,7 +1415,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1504,7 +1504,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1563,7 +1563,7 @@
       "api": {
         "voice": {
           "role": "孙凌波",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+1%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -1622,7 +1622,7 @@
       "api": {
         "voice": {
           "role": "道姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "和蔼奶奶-温暖,亲和",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -1681,7 +1681,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "+3%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1760,7 +1760,7 @@
       "api": {
         "voice": {
           "role": "施龙姑",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -1819,7 +1819,7 @@
       "api": {
         "voice": {
           "role": "孙凌波",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+1%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -1987,7 +1987,7 @@
       "api": {
         "voice": {
           "role": "裘芷仙",
-          "role_voice": "温婉女士-知性,温婉",
+          "role_voice": "云懿-古风,甜美",
           "speed": "-2%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -2046,7 +2046,7 @@
       "api": {
         "voice": {
           "role": "秦紫玲",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "-2%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -2095,7 +2095,7 @@
       "api": {
         "voice": {
           "role": "秦紫玲",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "-2%",
           "volume": "-1%",
           "pitch": "+1Hz",

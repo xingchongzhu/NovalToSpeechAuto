@@ -15,67 +15,67 @@
       "speed": "-10%"
     },
     "笑和尚": {
-      "role_voice": "文乐-阳光少年,情感",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "李洪": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "陈岩": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "甄艮": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "甄兑": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "归吾": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "+2%"
     },
     "绛云真人": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "-1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
     "赤尸神君": {
-      "role_voice": "诡异神秘-沙哑,浑厚",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "-4Hz",
       "volume": "+2%",
       "speed": "-6%"
     },
     "苏宪祥": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
     "虞孝": {
-      "role_voice": "风发少年-潇洒,磁性",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "狄鸣歧": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第305回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": [],
         "mix": {
@@ -277,7 +277,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -315,7 +315,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -378,7 +378,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -492,7 +492,7 @@
       "api": {
         "voice": {
           "role": "甄艮",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -530,7 +530,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -581,7 +581,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -644,7 +644,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -695,7 +695,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -733,7 +733,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -771,7 +771,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -809,7 +809,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -872,7 +872,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -910,7 +910,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -961,7 +961,7 @@
       "api": {
         "voice": {
           "role": "甄兑",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1012,7 +1012,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1050,7 +1050,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1088,7 +1088,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1151,7 +1151,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1214,7 +1214,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1277,7 +1277,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1328,7 +1328,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1379,7 +1379,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1430,7 +1430,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1468,7 +1468,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1506,7 +1506,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1544,7 +1544,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1595,7 +1595,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1658,7 +1658,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1709,7 +1709,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1760,7 +1760,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1811,7 +1811,7 @@
       "api": {
         "voice": {
           "role": "赤尸神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1862,7 +1862,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1925,7 +1925,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -1963,7 +1963,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2026,7 +2026,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -2077,7 +2077,7 @@
       "api": {
         "voice": {
           "role": "陈岩",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2128,7 +2128,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -2166,7 +2166,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2217,7 +2217,7 @@
       "api": {
         "voice": {
           "role": "绛云真人",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -2268,7 +2268,7 @@
       "api": {
         "voice": {
           "role": "苏宪祥",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",

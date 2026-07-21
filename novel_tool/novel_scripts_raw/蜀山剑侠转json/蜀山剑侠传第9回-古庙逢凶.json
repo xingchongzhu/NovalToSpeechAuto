@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "周云从": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "体贴男友-温暖,体贴",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "宋时": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "云硕-情感主播,清脆男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -33,7 +33,7 @@
       "speed": "-5%"
     },
     "了一": {
-      "role_voice": "云澈-温柔,男声,标准男声",
+      "role_voice": "儒雅总裁-低沉,舒缓",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -45,31 +45,31 @@
       "speed": "-8%"
     },
     "酒保": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "明叔-故事博主,书单达人",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "小沙弥": {
-      "role_voice": "小灵-童声",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+5Hz",
       "volume": "0%",
       "speed": "+5%"
     },
     "侍妾甲": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "侍妾乙": {
-      "role_voice": "妩媚可人-甜美,御姐",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "史举子": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "云雷-温柔,新闻男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -87,7 +87,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第9回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -169,7 +169,7 @@
       "api": {
         "voice": {
           "role": "酒保",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "明叔-故事博主,书单达人",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -245,7 +245,7 @@
       "api": {
         "voice": {
           "role": "酒保",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "明叔-故事博主,书单达人",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -321,7 +321,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -418,7 +418,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -456,7 +456,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -532,7 +532,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -570,7 +570,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -798,7 +798,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -836,7 +836,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -874,7 +874,7 @@
       "api": {
         "voice": {
           "role": "小沙弥",
-          "role_voice": "小灵-童声",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+5%",
           "volume": "0%",
           "pitch": "+5Hz",
@@ -912,7 +912,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -950,7 +950,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -999,7 +999,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1058,7 +1058,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1096,7 +1096,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1134,7 +1134,7 @@
       "api": {
         "voice": {
           "role": "史举子",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云雷-温柔,新闻男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1172,7 +1172,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1210,7 +1210,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1248,7 +1248,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1335,7 +1335,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1373,7 +1373,7 @@
       "api": {
         "voice": {
           "role": "宋时",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "云硕-情感主播,清脆男声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1411,7 +1411,7 @@
       "api": {
         "voice": {
           "role": "史举子",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云雷-温柔,新闻男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1546,7 +1546,7 @@
       "api": {
         "voice": {
           "role": "侍妾甲",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1615,7 +1615,7 @@
       "api": {
         "voice": {
           "role": "侍妾乙",
-          "role_voice": "妩媚可人-甜美,御姐",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1691,7 +1691,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1805,7 +1805,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1854,7 +1854,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1892,7 +1892,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

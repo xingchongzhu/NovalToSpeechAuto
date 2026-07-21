@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "凌云凤": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "温柔女神-女神,温柔",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -27,97 +27,97 @@
       "speed": "0%"
     },
     "颠仙": {
-      "role_voice": "云睿-情感",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "俞允中": {
-      "role_voice": "病弱少年-低缓,病弱",
+      "role_voice": "病娇白莲-低沉,病娇",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "戴湘英": {
-      "role_voice": "元气甜妹-元气,甜美",
+      "role_voice": "云蕾-清脆,标准",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "刘泉": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "优柔哥-激动,优柔",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "赵光斗": {
-      "role_voice": "仗剑君子-明亮,清亮",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "魏青": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "王几-快嘴解说,影视燃剪",
       "pitch": "-2Hz",
       "volume": "+1%",
       "speed": "-4%"
     },
     "凌浑": {
-      "role_voice": "老伯-沧桑岁月爷",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "萧清": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+2%"
     },
     "萧逸": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "萧玉": {
-      "role_voice": "风发少年-潇洒,磁性",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "崔瑶仙": {
-      "role_voice": "邪魅御姐-性感,邪魅",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "0%"
     },
     "甘熊": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "+2Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "甘象": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+3%"
     },
     "申武": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "柴成": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "郝潜夫": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -147,7 +147,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第188回",
-          "instruct": "庄重开场，音色沉稳"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -357,7 +357,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -408,7 +408,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -446,7 +446,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -509,7 +509,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -547,7 +547,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -598,7 +598,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -784,7 +784,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -927,7 +927,7 @@
       "api": {
         "voice": {
           "role": "颠仙",
-          "role_voice": "云睿-情感",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -990,7 +990,7 @@
       "api": {
         "voice": {
           "role": "颠仙",
-          "role_voice": "云睿-情感",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1065,7 +1065,7 @@
       "api": {
         "voice": {
           "role": "戴湘英",
-          "role_voice": "元气甜妹-元气,甜美",
+          "role_voice": "云蕾-清脆,标准",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1135,7 +1135,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1173,7 +1173,7 @@
       "api": {
         "voice": {
           "role": "颠仙",
-          "role_voice": "云睿-情感",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1224,7 +1224,7 @@
       "api": {
         "voice": {
           "role": "戴湘英",
-          "role_voice": "元气甜妹-元气,甜美",
+          "role_voice": "云蕾-清脆,标准",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1243,7 +1243,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1262,7 +1262,7 @@
       "api": {
         "voice": {
           "role": "戴湘英",
-          "role_voice": "元气甜妹-元气,甜美",
+          "role_voice": "云蕾-清脆,标准",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1300,7 +1300,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1338,7 +1338,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1376,7 +1376,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1414,7 +1414,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1452,7 +1452,7 @@
       "api": {
         "voice": {
           "role": "颠仙",
-          "role_voice": "云睿-情感",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1503,7 +1503,7 @@
       "api": {
         "voice": {
           "role": "颠仙",
-          "role_voice": "云睿-情感",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1605,7 +1605,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1656,7 +1656,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1713,7 +1713,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1751,7 +1751,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1789,7 +1789,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1840,7 +1840,7 @@
       "api": {
         "voice": {
           "role": "赵光斗",
-          "role_voice": "仗剑君子-明亮,清亮",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1878,7 +1878,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1916,7 +1916,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1954,7 +1954,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2005,7 +2005,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2043,7 +2043,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2094,7 +2094,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2157,7 +2157,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2220,7 +2220,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2347,7 +2347,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2460,7 +2460,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2498,7 +2498,7 @@
       "api": {
         "voice": {
           "role": "甘熊",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+2Hz",
@@ -2536,7 +2536,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2587,7 +2587,7 @@
       "api": {
         "voice": {
           "role": "甘熊",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+2Hz",
@@ -2674,7 +2674,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2712,7 +2712,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2750,7 +2750,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2788,7 +2788,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -2826,7 +2826,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2864,7 +2864,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2927,7 +2927,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2965,7 +2965,7 @@
       "api": {
         "voice": {
           "role": "赵光斗",
-          "role_voice": "仗剑君子-明亮,清亮",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3003,7 +3003,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3085,7 +3085,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3123,7 +3123,7 @@
       "api": {
         "voice": {
           "role": "申武",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -3161,7 +3161,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3199,7 +3199,7 @@
       "api": {
         "voice": {
           "role": "申武",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -3262,7 +3262,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3393,7 +3393,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3431,7 +3431,7 @@
       "api": {
         "voice": {
           "role": "柴成",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3469,7 +3469,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3520,7 +3520,7 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3558,7 +3558,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3609,7 +3609,7 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3660,7 +3660,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3711,7 +3711,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -3749,7 +3749,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3800,7 +3800,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3851,7 +3851,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "-4%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -3889,7 +3889,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -3927,7 +3927,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -3965,7 +3965,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4003,7 +4003,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4041,7 +4041,7 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4104,7 +4104,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4142,7 +4142,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4180,7 +4180,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4218,7 +4218,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4269,7 +4269,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4382,7 +4382,7 @@
       "api": {
         "voice": {
           "role": "赵光斗",
-          "role_voice": "仗剑君子-明亮,清亮",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4420,7 +4420,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4458,7 +4458,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4496,7 +4496,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4534,7 +4534,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4667,7 +4667,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4718,7 +4718,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4756,7 +4756,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4794,7 +4794,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4832,7 +4832,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -4870,7 +4870,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4921,7 +4921,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -4972,7 +4972,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -5010,7 +5010,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -5048,7 +5048,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -5086,7 +5086,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -5137,7 +5137,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -5188,7 +5188,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -5226,7 +5226,7 @@
       "api": {
         "voice": {
           "role": "崔瑶仙",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -5264,7 +5264,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -5302,7 +5302,7 @@
       "api": {
         "voice": {
           "role": "崔瑶仙",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -5340,7 +5340,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -5403,7 +5403,7 @@
       "api": {
         "voice": {
           "role": "刘泉",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "优柔哥-激动,优柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

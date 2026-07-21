@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "周淳": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "冷淡疏离-低沉,浑厚",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "张亮": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "傲慢青年-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -39,7 +39,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第7回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -103,7 +103,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -162,7 +162,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -200,7 +200,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -249,7 +249,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -298,7 +298,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -336,7 +336,7 @@
       "api": {
         "voice": {
           "role": "张亮",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲慢青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -425,7 +425,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -463,7 +463,7 @@
       "api": {
         "voice": {
           "role": "张亮",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲慢青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -512,7 +512,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -571,7 +571,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -609,7 +609,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -668,7 +668,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -737,7 +737,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -775,7 +775,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -824,7 +824,7 @@
       "api": {
         "voice": {
           "role": "周淳",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "冷淡疏离-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

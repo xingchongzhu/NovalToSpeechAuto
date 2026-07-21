@@ -21,7 +21,7 @@
       "speed": "-4%"
     },
     "崔绮": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "Tina老师-老师",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -39,7 +39,7 @@
       "speed": "0%"
     },
     "穷神（怪叫花子）": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -51,67 +51,67 @@
       "speed": "-6%"
     },
     "佟元奇": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "法元": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "成熟总裁-成熟,浑厚",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "姚开江": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "阳明-广告,广播",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "罗九": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "意气少年-有力,成熟",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "白琦": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云彦-古风,小说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "张琪": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "志安-影视,娱乐",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "张瑶青": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "小莉-女声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "岳大鹏": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "天轮-体育,影视,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "许龙": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "青峰-影视解说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "吴文琪": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "轻盈朵朵-官方,标准",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "何玫": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "撒娇学妹-撒娇,可爱",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -123,79 +123,79 @@
       "speed": "0%"
     },
     "孔灵子": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "麦克-纪录片之王,麦克阿瑟",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "郁次谷": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "龙三叔-沉稳质感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "吕宪明": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "俊翔-湖北话,直播",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "郭云璞": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "湾区大叔-磁性,性感,台湾腔",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "陈长泰": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "胡子叔叔-低沉,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "心源": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "玄极": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "戴衡玉": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "许超": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "幽默叔叔-亲和,明亮",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "凌云凤": {
-      "role_voice": "云萱-情感,优雅知性",
+      "role_voice": "温柔女神-女神,温柔",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "戴湘英": {
-      "role_voice": "元气甜妹-元气,甜美",
+      "role_voice": "云蕾-清脆,标准",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "黄人龙": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "云闯-磁性,青年男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "黄人瑜": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "云顺-资讯,广告男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -213,7 +213,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第72回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -326,7 +326,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -385,7 +385,7 @@
       "api": {
         "voice": {
           "role": "法元",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "成熟总裁-成熟,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -464,7 +464,7 @@
       "api": {
         "voice": {
           "role": "法元",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "成熟总裁-成熟,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -502,7 +502,7 @@
       "api": {
         "voice": {
           "role": "姚开江",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "阳明-广告,广播",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -540,7 +540,7 @@
       "api": {
         "voice": {
           "role": "姚开江",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "阳明-广告,广播",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -589,7 +589,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -638,7 +638,7 @@
       "api": {
         "voice": {
           "role": "穷神（怪叫花子）",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -717,7 +717,7 @@
       "api": {
         "voice": {
           "role": "郭云璞",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "湾区大叔-磁性,性感,台湾腔",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -766,7 +766,7 @@
       "api": {
         "voice": {
           "role": "罗九",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "意气少年-有力,成熟",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -804,7 +804,7 @@
       "api": {
         "voice": {
           "role": "法元",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "成熟总裁-成熟,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -853,7 +853,7 @@
       "api": {
         "voice": {
           "role": "罗九",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "意气少年-有力,成熟",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -902,7 +902,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -961,7 +961,7 @@
       "api": {
         "voice": {
           "role": "白琦",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云彦-古风,小说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1020,7 +1020,7 @@
       "api": {
         "voice": {
           "role": "岳大鹏",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "天轮-体育,影视,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1079,7 +1079,7 @@
       "api": {
         "voice": {
           "role": "许龙",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "青峰-影视解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1117,7 +1117,7 @@
       "api": {
         "voice": {
           "role": "张琪",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "志安-影视,娱乐",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1155,7 +1155,7 @@
       "api": {
         "voice": {
           "role": "许龙",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "青峰-影视解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1193,7 +1193,7 @@
       "api": {
         "voice": {
           "role": "张琪",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "志安-影视,娱乐",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1242,7 +1242,7 @@
       "api": {
         "voice": {
           "role": "许龙",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "青峰-影视解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

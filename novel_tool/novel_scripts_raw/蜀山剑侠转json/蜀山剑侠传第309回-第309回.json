@@ -15,25 +15,25 @@
       "speed": "-10%"
     },
     "妖妇": {
-      "role_voice": "性感魅惑-成熟,性感",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "赵长素": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "-2Hz",
       "volume": "+2%",
       "speed": "0%"
     },
     "铁姝": {
-      "role_voice": "云洁-严厉,严厉女声",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "鸠盘婆": {
-      "role_voice": "孟婆-烟嗓,影视",
+      "role_voice": "俏皮女声-活泼,元气",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -45,13 +45,13 @@
       "speed": "-2%"
     },
     "石慧": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+4Hz",
       "volume": "+1%",
       "speed": "+3%"
     },
     "上官红": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -69,7 +69,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第309回",
-          "instruct": "庄重开场，沉稳而肃穆"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -134,7 +134,7 @@
       "api": {
         "voice": {
           "role": "妖妇",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -153,7 +153,7 @@
       "api": {
         "voice": {
           "role": "妖妇",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -216,7 +216,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -254,7 +254,7 @@
       "api": {
         "voice": {
           "role": "赵长素",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -397,7 +397,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -460,7 +460,7 @@
       "api": {
         "voice": {
           "role": "妖妇",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -511,7 +511,7 @@
       "api": {
         "voice": {
           "role": "赵长素",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -562,7 +562,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -644,7 +644,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -719,7 +719,7 @@
       "api": {
         "voice": {
           "role": "赵长素",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -918,7 +918,7 @@
       "api": {
         "voice": {
           "role": "赵长素",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1076,7 +1076,7 @@
       "api": {
         "voice": {
           "role": "石慧",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+4Hz",
@@ -1215,7 +1215,7 @@
       "api": {
         "voice": {
           "role": "石慧",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+4Hz",
@@ -1290,7 +1290,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1373,7 +1373,7 @@
       "api": {
         "voice": {
           "role": "赵长素",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1449,7 +1449,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1512,7 +1512,7 @@
       "api": {
         "voice": {
           "role": "赵长素",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1619,7 +1619,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1670,7 +1670,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1789,7 +1789,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1883,7 +1883,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1934,7 +1934,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1985,7 +1985,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -2117,7 +2117,7 @@
       "api": {
         "voice": {
           "role": "铁姝",
-          "role_voice": "云洁-严厉,严厉女声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2180,7 +2180,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -2218,7 +2218,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -2269,7 +2269,7 @@
       "api": {
         "voice": {
           "role": "石慧",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+4Hz",
@@ -2344,7 +2344,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -2458,7 +2458,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2534,7 +2534,7 @@
       "api": {
         "voice": {
           "role": "鸠盘婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",

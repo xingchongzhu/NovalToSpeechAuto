@@ -21,6 +21,8 @@ SFX_ENGINE="woosh"
 BGM_ENGINE="stable-audio-3"
 # 默认输出平台
 PLATFORM="ximalaya"
+# TTS 合成模式: voice_design=文字描述造音色(无需参考音频,通过配音表Prompt+剧本语气控制) | clone=克隆音频(需clone-audio/下有对应音色文件)
+TTS_MODE="voice_design"
 
 # 确保所有目录存在
 mkdir -p "$TEMP_BASE_DIR"
@@ -81,6 +83,7 @@ show_help() {
   echo "  --sfx-engine <引擎>  音效引擎: woosh | stable-audio-3 (默认: $SFX_ENGINE)"
   echo "  --bgm-engine <引擎>  背景音引擎: stable-audio-3 | woosh (默认: $BGM_ENGINE)"
   echo "  --platform <平台>    输出平台: default | ximalaya (默认: $PLATFORM)"
+  echo "  --tts-mode <模式>    TTS合成模式: voice_design(文字造音色,默认) | clone(克隆音频)"
   echo "  --debug              启用调试模式"
   echo "  -h, --help           显示帮助信息"
   echo ""
@@ -170,6 +173,7 @@ main() {
   local sfx_engine="$SFX_ENGINE"
   local bgm_engine="$BGM_ENGINE"
   local platform="$PLATFORM"
+  local tts_mode="$TTS_MODE"
   local keep_segments=""
   local debug=""
   
@@ -205,6 +209,10 @@ main() {
         ;;
       --platform)
         platform="$2"
+        shift 2
+        ;;
+      --tts-mode)
+        tts_mode="$2"
         shift 2
         ;;
       --debug)
@@ -257,6 +265,7 @@ main() {
     --sfx-engine "$sfx_engine" \
     --bgm-engine "$bgm_engine" \
     --platform "$platform" \
+    --tts-mode "$tts_mode" \
     $keep_segments \
     $debug
   

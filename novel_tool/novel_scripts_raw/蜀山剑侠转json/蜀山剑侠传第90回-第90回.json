@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "许飞娘": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "温婉女士-知性,温婉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -33,37 +33,37 @@
       "speed": "0%"
     },
     "凌浑": {
-      "role_voice": "老伯-沧桑岁月爷",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "魏青": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "王几-快嘴解说,影视燃剪",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "乐三官": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "寒萼": {
-      "role_voice": "龙菲菲-甜美娇气",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "秦紫玲": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "齐灵云": {
-      "role_voice": "云懿-古风,甜美",
+      "role_voice": "云米-情感,知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -75,7 +75,7 @@
       "speed": "0%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第90回",
-          "instruct": "庄重开场，念回目"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -126,7 +126,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -175,7 +175,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -213,7 +213,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -251,7 +251,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -289,7 +289,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -348,7 +348,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -386,7 +386,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -521,7 +521,7 @@
       "api": {
         "voice": {
           "role": "铁蓑道人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "神秘法师-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -559,7 +559,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -578,7 +578,7 @@
       "api": {
         "voice": {
           "role": "铁蓑道人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "神秘法师-低沉,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -616,7 +616,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -744,7 +744,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -813,7 +813,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -872,7 +872,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -910,7 +910,7 @@
       "api": {
         "voice": {
           "role": "寒萼",
-          "role_voice": "可爱女生-可爱,甜美",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -948,7 +948,7 @@
       "api": {
         "voice": {
           "role": "许飞娘",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -997,7 +997,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1202,7 +1202,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1221,7 +1221,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1270,7 +1270,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1329,7 +1329,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1367,7 +1367,7 @@
       "api": {
         "voice": {
           "role": "乐三官",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1416,7 +1416,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1475,7 +1475,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1524,7 +1524,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1573,7 +1573,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1622,7 +1622,7 @@
       "api": {
         "voice": {
           "role": "乐三官",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1730,7 +1730,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1749,7 +1749,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1768,7 +1768,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1787,7 +1787,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1806,7 +1806,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1825,7 +1825,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1844,7 +1844,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1882,7 +1882,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1931,7 +1931,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1980,7 +1980,7 @@
       "api": {
         "voice": {
           "role": "魏青",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "王几-快嘴解说,影视燃剪",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

@@ -15,55 +15,55 @@
       "speed": "-10%"
     },
     "天痴上人": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "-3Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "矮叟朱梅": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-5Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "神驼乙休": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "-2Hz",
       "volume": "+2%",
       "speed": "-2%"
     },
     "追云叟白谷逸": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "采薇僧朱由穆": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "姜雪君": {
-      "role_voice": "云萱-情感,优雅知性",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "妙一真人": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云健-低沉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "白云大师": {
-      "role_voice": "和蔼奶奶-温暖,亲和",
+      "role_voice": "鹤宁-小说,情感,沙哑低沉",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-5%"
     },
     "餐霞大师": {
-      "role_voice": "云瑶-成熟,知性",
+      "role_voice": "龙媛-温暖治愈,有声小说",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -75,37 +75,37 @@
       "speed": "-8%"
     },
     "李宁": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "role_voice": "油腻大叔-油桑,低沉",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "阿童": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "佩佩-情感,动漫,可爱女声",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+2%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "石生": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+1%"
     },
     "秦寒萼": {
-      "role_voice": "龙菲菲-甜美娇气",
+      "role_voice": "活泼刁蛮-活泼,可爱",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "0%"
     },
     "女神婴易静": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
@@ -117,31 +117,31 @@
       "speed": "0%"
     },
     "癞姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "袁星": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "学霸男同桌-成熟,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "刘遇安": {
-      "role_voice": "云澈-温柔,男声,标准男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "米鼍": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "+2%"
     },
     "上官红": {
-      "role_voice": "纯真少女-纯真",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+3Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -153,7 +153,7 @@
       "speed": "-5%"
     },
     "门人乙": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
@@ -225,7 +225,7 @@
       "api": {
         "voice": {
           "role": "天痴上人",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -306,7 +306,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -325,7 +325,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-2%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -363,7 +363,7 @@
       "api": {
         "voice": {
           "role": "天痴上人",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -382,7 +382,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -482,7 +482,7 @@
       "api": {
         "voice": {
           "role": "门人乙",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -585,7 +585,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -604,7 +604,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -715,7 +715,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -734,7 +734,7 @@
       "api": {
         "voice": {
           "role": "女神婴易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -879,7 +879,7 @@
       "api": {
         "voice": {
           "role": "女神婴易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",

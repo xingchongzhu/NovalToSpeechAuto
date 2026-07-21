@@ -17,7 +17,7 @@ novel_tool/
 ├── novel_scripts_raw/                     # 小说原始 TXT 文稿及 JSON 转换稿
 │   └── 蜀山剑侠传/
 ├── character_voice_tables/                # 每部小说的正式角色配音表
-│   └── 蜀山剑侠传角色配音表.md
+│   └── 蜀山剑侠传角色配音表.json
 ├── scripts/
 │   ├── audio_processing_module.py        # 核心音频处理与合成逻辑
 │   ├── novel_batch_executor.py           # Python 批量执行入口

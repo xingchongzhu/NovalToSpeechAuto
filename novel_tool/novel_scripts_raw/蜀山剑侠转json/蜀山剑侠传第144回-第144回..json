@@ -21,7 +21,7 @@
       "speed": "0%"
     },
     "初凤": {
-      "role_voice": "云丽-温柔,情感",
+      "role_voice": "龙安莉-利落从容女",
       "pitch": "+4Hz",
       "volume": "+2%",
       "speed": "+3%"
@@ -51,7 +51,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第143回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -109,7 +109,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -184,7 +184,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -222,7 +222,7 @@
       "api": {
         "voice": {
           "role": "三凤",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "可爱女生-可爱,甜美",
           "speed": "+3%",
           "volume": "+2%",
           "pitch": "+4Hz",
@@ -260,7 +260,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -298,7 +298,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -336,7 +336,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -423,7 +423,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -510,7 +510,7 @@
       "api": {
         "voice": {
           "role": "初凤",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "龙安莉-利落从容女",
           "speed": "+3%",
           "volume": "+2%",
           "pitch": "+4Hz",
@@ -548,7 +548,7 @@
       "api": {
         "voice": {
           "role": "邵冬秀",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -611,7 +611,7 @@
       "api": {
         "voice": {
           "role": "初凤",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "龙安莉-利落从容女",
           "speed": "+3%",
           "volume": "+2%",
           "pitch": "+4Hz",

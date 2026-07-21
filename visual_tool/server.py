@@ -72,6 +72,98 @@ def synthesize_tts(text: str, voice: str, speed: str, volume: str, pitch: str, i
     return str(out_path.relative_to(BASE_DIR))
 
 
+def synthesize_vd_preview(vd_prompt: str, text: str = "各位好，本次进行语音克隆采样试音，吐字标准，节奏稳重") -> str:
+    """VoiceDesign 试听合成，返回相对于 BASE_DIR 的输出路径"""
+    from audio_processing_module import VoiceParams, AudioEngine
+    h = hashlib.md5(f"vd_{vd_prompt}_{text}".encode()).hexdigest()[:12]
+    out_path = LAB_OUTPUT_DIR / f"vd_{h}.wav"
+    if out_path.exists():
+        return str(out_path.relative_to(BASE_DIR))
+
+    tid = f"vd_{h}"
+    q = _log_queues.get(tid, queue.Queue())
+
+    # 取消上一个正在进行的 VD 合成
+    _cancel_vd_synthesis()
+
+    q.put({"type": "log", "data": f"🎤 VoiceDesign 合成中... | Prompt: {vd_prompt[:60]}..."})
+    
+    engine = AudioEngine(
+        temp_dir=str(LAB_OUTPUT_DIR),
+        tts_engine="qwen3-tts",
+        tts_mode="voice_design",
+        qwen_model_path="Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    )
+    params = VoiceParams(text=text, role="vd_preview", role_voice="",
+                         speed="0%", volume="0%", pitch="0Hz",
+                         tts_mode="voice_design",
+                         voice_design_prompt=vd_prompt)
+
+    # 设置当前合成任务
+    _vd_current_cancel = threading.Event()
+    _vd_current_thread = threading.current_thread()
+
+    try:
+        audio = _do_vd_synthesis(engine, params, q, _vd_current_cancel)
+        audio.export(str(out_path), format="wav")
+        dur = len(audio) / 1000.0
+        q.put({"type": "log", "data": f"✓ VoiceDesign 合成完成 | 时长 {dur:.1f}s"})
+        q.put({"type": "done", "data": str(out_path.relative_to(BASE_DIR))})
+        return str(out_path.relative_to(BASE_DIR))
+    except Exception as e:
+        if "被取消" in str(e):
+            q.put({"type": "error", "data": f"⏹ 已取消"})
+        else:
+            q.put({"type": "error", "data": str(e)})
+        raise
+    finally:
+        _vd_current_cancel = None
+        _vd_current_thread = None
+
+
+_vd_current_cancel = None  # threading.Event for cancellation
+_vd_current_thread = None  # 当前合成线程
+
+
+def _cancel_vd_synthesis():
+    """取消正在进行的 VoiceDesign 合成"""
+    global _vd_current_cancel, _vd_current_thread
+    if _vd_current_cancel is not None:
+        _vd_current_cancel.set()
+        _vd_current_cancel = None
+        _vd_current_thread = None
+
+
+def _do_vd_synthesis(engine, params, log_q, cancel_event):
+    """在独立线程执行 VoiceDesign 合成，支持取消"""
+    import threading as _th
+    result_holder = {}
+    error_holder = {}
+
+    def _run():
+        try:
+            result_holder["audio"] = engine.text_to_speech(params)
+        except Exception as e:
+            error_holder["error"] = e
+
+    t = _th.Thread(target=_run, daemon=True)
+    t.start()
+    dots = 0
+    while t.is_alive():
+        if cancel_event.is_set():
+            log_q.put({"type": "log", "data": "⏹ 正在取消合成..."})
+            # 线程是 daemon，主线程结束时会被强制终止
+            raise RuntimeError("VoiceDesign 合成被取消")
+        t.join(timeout=3)
+        dots += 1
+        log_q.put({"type": "log", "data": f"  生成中... 已耗时 {dots * 3}s"})
+
+    t.join()
+    if "error" in error_holder:
+        raise error_holder["error"]
+    return result_holder["audio"]
+
+
 def synthesize_sfx(prompt: str, duration: float) -> str:
     """音效生成，返回输出路径"""
     from woosh_generate_audio import generate_audio
@@ -861,30 +953,38 @@ CHAR_VOICE_TABLE_DIR = BASE_DIR / "novel_tool" / "character_voice_tables"
 
 
 def _normalize_novel_name(novel_name: str) -> str:
-    """从配音表文件stem提取小说名用于查找MD文件
+    """从配音表文件stem提取小说名用于查找 JSON/MD 文件
     支持:
-      '蜀山剑侠传'          -> 文件 蜀山剑侠传角色配音表.md
-      '蜀山剑侠传角色配音表 copy' -> 文件 蜀山剑侠传角色配音表 copy.md
+      '蜀山剑侠传'          -> 文件 蜀山剑侠传角色配音表.json
+      '蜀山剑侠传角色配音表 copy' -> 文件 蜀山剑侠传角色配音表 copy.json
     """
     # 如果直接对应一个文件 stem（即传入的是 file.stem），直接用
+    json_path = CHAR_VOICE_TABLE_DIR / f"{novel_name}.json"
+    if json_path.exists():
+        return novel_name
     md_path = CHAR_VOICE_TABLE_DIR / f"{novel_name}.md"
     if md_path.exists():
-        return novel_name  # caller will use stem directly
-    # 否则尝试拼接 角色配音表.md
+        return novel_name
     return novel_name
 
 
 def _get_char_voice_md_path(novel_name: str):
-    """给定小说名（可能是 stem 或纯小说名），返回对应 MD 文件路径"""
-    # 优先：直接当 stem 查找（如 '蜀山剑侠传角色配音表 copy'）
+    """给定小说名，优先返回 JSON 文件路径，其次 MD"""
+    # 优先：JSON 文件
+    p_json = CHAR_VOICE_TABLE_DIR / f"{novel_name}.json"
+    if p_json.exists():
+        return p_json
+    p2_json = CHAR_VOICE_TABLE_DIR / f"{novel_name}角色配音表.json"
+    if p2_json.exists():
+        return p2_json
+
+    # 其次：MD（向后兼容）
     p = CHAR_VOICE_TABLE_DIR / f"{novel_name}.md"
     if p.exists():
         return p
-    # 其次：拼接 角色配音表.md（如 '蜀山剑侠传'）
     p2 = CHAR_VOICE_TABLE_DIR / f"{novel_name}角色配音表.md"
     if p2.exists():
         return p2
-    # 去掉 _json 后缀再试
     for suffix in ('_json', 'json稿', 'JSON稿'):
         if novel_name.endswith(suffix):
             base = novel_name[:-len(suffix)]
@@ -895,51 +995,87 @@ def _get_char_voice_md_path(novel_name: str):
 
 
 def scan_char_voice_novels():
-    """返回角色配音表目录下所有可用的小说名列表（含 copy 等变体）"""
+    """返回角色配音表目录下所有可用的小说名列表（JSON 优先，去重）"""
+    seen = set()
     names = []
+    # JSON 优先
     for f in _list_dir_safe(CHAR_VOICE_TABLE_DIR):
-        if f.is_file() and f.suffix == '.md' and '角色配音表' in f.name:
-            # 取文件名去掉 .md，作为选项展示（保留 copy 等后缀以便区分）
-            names.append(f.stem)
+        if f.is_file() and '角色配音表' in f.name and f.suffix == '.json':
+            if f.stem not in seen:
+                names.append(f.stem)
+                seen.add(f.stem)
+    # MD 补充
+    for f in _list_dir_safe(CHAR_VOICE_TABLE_DIR):
+        if f.is_file() and '角色配音表' in f.name and f.suffix == '.md':
+            if f.stem not in seen:
+                names.append(f.stem)
+                seen.add(f.stem)
     return names
 
 
 def _parse_char_voice_md(novel_name: str):
-    """解析角色配音表 MD 文件（8列格式：角色名|配音名|年龄|性别|性格|声音建议|使用范围|备注），返回行列表"""
-    md_path = _get_char_voice_md_path(novel_name)
-    if not md_path or not md_path.exists():
+    """解析角色配音表文件（优先 JSON），返回行列表"""
+    file_path = _get_char_voice_md_path(novel_name)
+    if not file_path or not file_path.exists():
         return []
-    text = md_path.read_text(encoding='utf-8')
+
+    # JSON 格式
+    if file_path.suffix == '.json':
+        try:
+            data = json.loads(file_path.read_text(encoding='utf-8'))
+        except Exception:
+            return []
+        rows = []
+        LEVEL_ORDER = ["旁白", "主要角色", "重要角色", "次要角色", "临时角色"]
+        for level in LEVEL_ORDER:
+            if level not in data:
+                continue
+            for c in data[level]:
+                rows.append({
+                    'char': c.get('角色名', ''),
+                    'voice': c.get('配音名', ''),
+                    'category': c.get('角色级别', level),
+                    'age': c.get('年龄', ''),
+                    'gender': c.get('性别', ''),
+                    'char_desc': c.get('性格', ''),
+                    'vd_prompt': c.get('VoiceDesign_Prompt', ''),
+                    'scope': c.get('使用范围', ''),
+                    'note': c.get('备注', ''),
+                    'category_raw': c.get('分类', ''),
+                })
+        return rows
+
+    # 向后兼容：MD 格式
+    text = file_path.read_text(encoding='utf-8')
     rows = []
     current_category = ''
     for line in text.splitlines():
-        # 分类标题
         m = re.match(r'^##\s+(.+)', line)
         if m:
             current_category = m.group(1).strip()
             continue
-        # 表格数据行：| 角色名 | 配音名 | 年龄 | 性别 | 性格 | 声音建议 | 使用范围 | 备注 |
         if not line.startswith('|'):
             continue
         parts = [p.strip() for p in line.strip('|').split('|')]
         if len(parts) < 2:
             continue
-        # 跳过表头/分割行
         if parts[0] in ('角色名', '---', '') or parts[0].startswith('---'):
             continue
         char_name = parts[0]
         voice_name = parts[1] if len(parts) > 1 else ''
         age = parts[2] if len(parts) > 2 else ''
         gender = parts[3] if len(parts) > 3 else ''
-        char_desc = parts[4] if len(parts) > 4 else ''  # 性格
-        voice_suggestion = parts[5] if len(parts) > 5 else ''  # 声音建议
-        scope = parts[6] if len(parts) > 6 else ''  # 使用范围
-        note = parts[7] if len(parts) > 7 else ''  # 备注
+        char_desc = parts[4] if len(parts) > 4 else ''
+        voice_suggestion = parts[5] if len(parts) > 5 else ''
+        scope = parts[6] if len(parts) > 6 else ''
+        note = parts[7] if len(parts) > 7 else ''
+        vd_prompt = parts[8] if len(parts) > 8 else ''
         if char_name and voice_name:
             rows.append({
                 'char': char_name, 'voice': voice_name, 'category': current_category,
                 'age': age, 'gender': gender, 'char_desc': char_desc,
-                'voice_suggestion': voice_suggestion, 'scope': scope, 'note': note
+                'voice_suggestion': voice_suggestion, 'scope': scope, 'note': note,
+                'vd_prompt': vd_prompt,
             })
     return rows
 
@@ -952,35 +1088,71 @@ def get_char_voices(novel_name: str):
 
 def update_char_voice(novel_name: str, char_name: str, new_voice: str,
                       new_char: str = '', category: str = '', char_desc: str = '', note: str = '',
-                      age: str = '', gender: str = '', voice_suggestion: str = ''):
-    """更新角色配音表 MD（8列格式），并同步修改所有对应 JSON 剧本中 roles_definition"""
-    md_path = _get_char_voice_md_path(novel_name)
-    if not md_path or not md_path.exists():
+                      age: str = '', gender: str = '', vd_prompt: str = ''):
+    """更新角色配音表（优先 JSON），并同步修改所有对应 JSON 剧本中 roles_definition"""
+    file_path = _get_char_voice_md_path(novel_name)
+    if not file_path or not file_path.exists():
         return {'error': f'配音表不存在: {novel_name}'}
 
-    # 1. 更新 MD 文件
-    lines = md_path.read_text(encoding='utf-8').splitlines()
-    updated_md = False
-    new_lines = []
-    for line in lines:
-        if line.startswith('|'):
-            parts = [p.strip() for p in line.strip('|').split('|')]
-            if len(parts) >= 2 and parts[0] == char_name:
-                parts[0] = new_char or char_name
-                parts[1] = new_voice
-                if age: parts[2] = age
-                if gender: parts[3] = gender
-                if char_desc: parts[4] = char_desc
-                if voice_suggestion: parts[5] = voice_suggestion
-                if category or len(parts) > 6: parts[6] = category  # 使用范围
-                if note and len(parts) > 7: parts[7] = note  # 备注
-                line = '| ' + ' | '.join(parts) + ' |'
-                updated_md = True
-        new_lines.append(line)
-    md_path.write_text('\n'.join(new_lines), encoding='utf-8')
+    # ── JSON 格式更新 ──
+    if file_path.suffix == '.json':
+        try:
+            data = json.loads(file_path.read_text(encoding='utf-8'))
+        except Exception:
+            return {'error': 'JSON 解析失败'}
+
+        updated = False
+        LEVEL_ORDER = ["旁白", "主要角色", "重要角色", "次要角色", "临时角色"]
+        for level in LEVEL_ORDER:
+            if level not in data:
+                continue
+            for c in data[level]:
+                if c.get('角色名') == char_name:
+                    c['配音名'] = new_voice
+                    if new_char:
+                        c['角色名'] = new_char
+                    if age:
+                        c['年龄'] = age
+                    if gender:
+                        c['性别'] = gender
+                    if char_desc:
+                        c['性格'] = char_desc
+                    if vd_prompt:
+                        c['VoiceDesign_Prompt'] = vd_prompt
+                    if note:
+                        c['备注'] = note
+                    if category:
+                        c['角色级别'] = category
+                    updated = True
+                    break
+            if updated:
+                break
+
+        if updated:
+            file_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+    else:
+        # ── MD 格式更新（向后兼容）──
+        lines = file_path.read_text(encoding='utf-8').splitlines()
+        updated = False
+        new_lines = []
+        for line in lines:
+            if line.startswith('|'):
+                parts = [p.strip() for p in line.strip('|').split('|')]
+                if len(parts) >= 2 and parts[0] == char_name:
+                    parts[0] = new_char or char_name
+                    parts[1] = new_voice
+                    if age: parts[2] = age
+                    if gender: parts[3] = gender
+                    if char_desc: parts[4] = char_desc
+                    if voice_suggestion: parts[5] = voice_suggestion
+                    if category or len(parts) > 6: parts[6] = category
+                    if note and len(parts) > 7: parts[7] = note
+                    line = '| ' + ' | '.join(parts) + ' |'
+                    updated = True
+            new_lines.append(line)
+        file_path.write_text('\n'.join(new_lines), encoding='utf-8')
 
     # 2. 同步更新所有 JSON 剧本中的 roles_definition
-    # 从 novel_name 中提取纯小说名（去掉"角色配音表 copy"等后缀）来查找 json 目录
     _pure = novel_name
     for _suf in ('角色配音表 copy', '角色配音表'):
         if _pure.endswith(_suf):
@@ -988,7 +1160,6 @@ def update_char_voice(novel_name: str, char_name: str, new_voice: str,
             break
     novel_script_dir = SCRIPT_BASE / f"{_pure}_json"
     if not novel_script_dir.exists():
-        # 尝试查找包含纯小说名的目录
         for d in SCRIPT_BASE.iterdir():
             if d.is_dir() and _pure in d.name:
                 novel_script_dir = d
@@ -1015,7 +1186,7 @@ def update_char_voice(novel_name: str, char_name: str, new_voice: str,
 
     return {
         'status': 'ok',
-        'md_updated': updated_md,
+        'updated': updated,
         'synced_count': len(synced_files),
         'synced_files': synced_files
     }
@@ -1381,6 +1552,42 @@ class Handler(http.server.BaseHTTPRequestHandler):
             except Exception as e:
                 return self._send({"error": str(e)}, code=500)
 
+        if path == '/api/lab/vd-preview':
+            vd_prompt = body.get('vd_prompt', '')
+            text = body.get('text', '各位好，本次进行语音克隆采样试音，吐字标准，节奏稳重')
+            if not vd_prompt.strip():
+                return self._send({"error": "VoiceDesign Prompt 不能为空"}, code=400)
+            try:
+                # 启动合成（后台线程），返回 task_id，前端通过 SSE 获取日志和结果
+                import hashlib as _hl
+                import queue as _q
+                h = _hl.md5(f"vd_{vd_prompt}_{text}".encode()).hexdigest()[:12]
+                tid = f"vd_{h}"
+                # 注册 task
+                _cancel_vd_synthesis()  # 先取消上一个
+                with _gen_lock:
+                    _gen_tasks[tid] = {"status": "running", "logs": [], "paths": [], "current": ""}
+                _log_queues[tid] = _q.Queue()
+
+                def _run_vd():
+                    q = _log_queues[tid]
+                    try:
+                        out = synthesize_vd_preview(vd_prompt, text)
+                        with _gen_lock:
+                            _gen_tasks[tid]["status"] = "done"
+                            _gen_tasks[tid]["result"] = out
+                        q.put({"type": "done", "data": out})
+                    except Exception as e:
+                        q.put({"type": "error", "data": str(e)})
+                        with _gen_lock:
+                            _gen_tasks[tid]["status"] = "error"
+
+                _th = threading.Thread(target=_run_vd, daemon=True)
+                _th.start()
+                return self._send({"task_id": tid, "status": "running"})
+            except Exception as e:
+                return self._send({"error": str(e)}, code=500)
+
         if path == '/api/lab/sfx':
             prompt = body.get('prompt', '')
             duration = body.get('duration', 5.0)
@@ -1468,7 +1675,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
                     new_char=body.get('new_char', char_name),
                     category=body.get('category', ''),
                     char_desc=body.get('char_desc', ''),
-                    note=body.get('note', '')
+                    note=body.get('note', ''),
+                    age=body.get('age', ''),
+                    gender=body.get('gender', ''),
+                    vd_prompt=body.get('vd_prompt', ''),
                 ))
             except Exception as e:
                 return self._send({"error": str(e)}, code=500)

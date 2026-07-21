@@ -21,7 +21,7 @@
       "speed": "-8%"
     },
     "西方野魔": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -33,7 +33,7 @@
       "speed": "0%"
     },
     "毒龙尊者": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "擎苍-低沉,浑厚",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
@@ -45,13 +45,13 @@
       "speed": "0%"
     },
     "金株银蛛": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "师文恭": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "role_voice": "紫英-低沉磁性",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
@@ -75,7 +75,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第85回",
-          "instruct": "庄重开场，念回目"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -119,7 +119,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -157,7 +157,7 @@
       "api": {
         "voice": {
           "role": "西方野魔",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -176,7 +176,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -214,7 +214,7 @@
       "api": {
         "voice": {
           "role": "西方野魔",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -233,7 +233,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -282,7 +282,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -419,7 +419,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -457,7 +457,7 @@
       "api": {
         "voice": {
           "role": "金株银蛛",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -544,7 +544,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -669,7 +669,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -707,7 +707,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -794,7 +794,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -832,7 +832,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -870,7 +870,7 @@
       "api": {
         "voice": {
           "role": "西方野魔",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -939,7 +939,7 @@
       "api": {
         "voice": {
           "role": "西方野魔",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -977,7 +977,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1015,7 +1015,7 @@
       "api": {
         "voice": {
           "role": "西方野魔",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1034,7 +1034,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1102,7 +1102,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1140,7 +1140,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1216,7 +1216,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1254,7 +1254,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1292,7 +1292,7 @@
       "api": {
         "voice": {
           "role": "绿袍老祖",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "诡异神秘-沙哑,浑厚",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1330,7 +1330,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1368,7 +1368,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1504,7 +1504,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1561,7 +1561,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1599,7 +1599,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1637,7 +1637,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1675,7 +1675,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1782,7 +1782,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1851,7 +1851,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1927,7 +1927,7 @@
       "api": {
         "voice": {
           "role": "毒龙尊者",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "擎苍-低沉,浑厚",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -2022,7 +2022,7 @@
       "api": {
         "voice": {
           "role": "师文恭",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "紫英-低沉磁性",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",

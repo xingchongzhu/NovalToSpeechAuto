@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "易静": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -27,67 +27,67 @@
       "speed": "0%"
     },
     "癞姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "石生": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "阿童": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "佩佩-情感,动漫,可爱女声",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "甄艮": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "甄兑": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "易鼎": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "易震": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "灵威叟": {
-      "role_voice": "云健-低沉",
+      "role_voice": "老叨-故事",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "寒光": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "玄玉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -194,7 +194,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -213,7 +213,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -232,7 +232,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -282,7 +282,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -448,7 +448,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -486,7 +486,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -505,7 +505,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -555,7 +555,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -605,7 +605,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -666,7 +666,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -685,7 +685,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -704,7 +704,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -754,7 +754,7 @@
       "api": {
         "voice": {
           "role": "灵威叟",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老叨-故事",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1224,7 +1224,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1307,7 +1307,7 @@
       "api": {
         "voice": {
           "role": "寒光",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1326,7 +1326,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1345,7 +1345,7 @@
       "api": {
         "voice": {
           "role": "寒光",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1364,7 +1364,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1402,7 +1402,7 @@
       "api": {
         "voice": {
           "role": "玄玉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1452,7 +1452,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1513,7 +1513,7 @@
       "api": {
         "voice": {
           "role": "寒光",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",

@@ -30,17 +30,18 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3", platform: str = "default", sort_mode: str = "pinyin"):
-        self.script_dir = script_dir  # 小说剧本目录
-        self.output_dir = output_dir  # 输出目录
-        self.temp_dir = temp_dir      # 临时目录
-        self.tts_engine = tts_engine  # TTS引擎类型
-        self.sfx_engine = sfx_engine  # 音效生成引擎
-        self.bgm_engine = bgm_engine  # 背景音生成引擎
-        self.platform = platform      # 输出平台
-        self.qwen_model_path = qwen_model_path  # Qwen TTS模型路径
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3", platform: str = "default", sort_mode: str = "pinyin", tts_mode: str = "voice_design"):
+        self.script_dir = script_dir  # 小说剧本目录的上级目录
+        self.output_dir = output_dir  # 音频输出目录
+        self.temp_dir = temp_dir  # 临时目录
+        self.tts_engine = tts_engine
+        self.tts_mode = tts_mode  # "clone" | "voice_design"
+        self.qwen_model_path = qwen_model_path  # None 时由 audio_processing_module 自动选
+        self.sfx_engine = sfx_engine  # 音效引擎
+        self.bgm_engine = bgm_engine  # 背景音引擎
+        self.platform = platform  # 输出平台
         self.script_path = os.path.dirname(os.path.abspath(__file__))  # 脚本所在目录
-        self.sort_mode = sort_mode    # 排序模式: pinyin(拼音) | chapter(章节号) | name(文件名)
+        self.sort_mode = sort_mode    # 排序模式
         
         # 创建目录
         os.makedirs(self.output_dir, exist_ok=True)
@@ -229,8 +230,10 @@ class NovelBatchGenerator:
                     "--sfx-engine", self.sfx_engine,
                     "--bgm-engine", self.bgm_engine,
                     "--platform", self.platform,
-                    "--qwen-model-path", self.qwen_model_path if self.qwen_model_path else "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+                    "--tts-mode", self.tts_mode,
                 ]
+                if self.qwen_model_path:
+                    cmd.extend(["--qwen-model-path", self.qwen_model_path])
 
                 result = subprocess.run(cmd, stdout=sys.stdout, stderr=sys.stderr, text=True, check=False)
 
@@ -294,8 +297,10 @@ def main():
                        help="保留临时片段文件")
     parser.add_argument("--debug", action="store_true", 
                        help="启用调试日志")
-    parser.add_argument("--sort-mode", type=str, default="pinyin", 
+    parser.add_argument("--sort-mode", type=str, default="pinyin",
                        help="排序模式: pinyin(拼音排序，默认) | chapter(章节号排序) | name(文件名排序)")
+    parser.add_argument("--tts-mode", type=str, default="voice_design",
+                       help="TTS 合成模式: voice_design(文字描述造音色，默认) | clone(克隆音频)")
     
     args = parser.parse_args()
     
@@ -323,6 +328,7 @@ def main():
         bgm_engine=args.bgm_engine,
         platform=args.platform,
         sort_mode=args.sort_mode,
+        tts_mode=args.tts_mode,
     )
     
     logger.info(f"排序模式: {args.sort_mode}")

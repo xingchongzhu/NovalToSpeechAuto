@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "畹秋": {
-      "role_voice": "邪魅御姐-性感,邪魅",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -27,37 +27,37 @@
       "speed": "+2%"
     },
     "绛雪": {
-      "role_voice": "小玲-稚嫩,萝莉女声",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+4Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "欧阳霜": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "萧逸": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "萧玉": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "萧清": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "+1%"
     },
     "郝潜夫": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -75,7 +75,7 @@
       "speed": "-6%"
     },
     "村人群体": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第194回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -187,7 +187,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -263,7 +263,7 @@
       "api": {
         "voice": {
           "role": "空中人声",
-          "role_voice": "云健-低沉",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -363,7 +363,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -549,7 +549,7 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -663,7 +663,7 @@
       "api": {
         "voice": {
           "role": "郝潜夫",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -714,7 +714,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -771,7 +771,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -822,7 +822,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -898,7 +898,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -961,7 +961,7 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -999,7 +999,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1100,7 +1100,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1163,7 +1163,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1201,7 +1201,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1239,7 +1239,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1315,7 +1315,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1379,7 +1379,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1481,7 +1481,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1519,7 +1519,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1582,7 +1582,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1620,7 +1620,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1658,7 +1658,7 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -1733,7 +1733,7 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -1771,7 +1771,7 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -1897,7 +1897,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1935,7 +1935,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1986,7 +1986,7 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -2101,7 +2101,7 @@
       "api": {
         "voice": {
           "role": "绛雪",
-          "role_voice": "小玲-稚嫩,萝莉女声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -2177,7 +2177,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2215,7 +2215,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2253,7 +2253,7 @@
       "api": {
         "voice": {
           "role": "村人群体",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2367,7 +2367,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2418,7 +2418,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",

@@ -15,43 +15,43 @@
       "speed": "-10%"
     },
     "周云从": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "体贴男友-温暖,体贴",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "商风子": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "不羁青年-清亮,明亮",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "小三儿": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "小凡-影视,小说,动漫",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "黎半风": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "尤太真": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "道童_晁敏": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "道童_柏直": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"
@@ -69,7 +69,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第138回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -151,7 +151,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -202,7 +202,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -253,7 +253,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -329,7 +329,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -367,7 +367,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -386,7 +386,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -437,7 +437,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -488,7 +488,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -563,7 +563,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -614,7 +614,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -652,7 +652,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -703,7 +703,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -754,7 +754,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -805,7 +805,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -856,7 +856,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -919,7 +919,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -970,7 +970,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1045,7 +1045,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1108,7 +1108,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1127,7 +1127,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1178,7 +1178,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1461,7 +1461,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1636,7 +1636,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1687,7 +1687,7 @@
       "api": {
         "voice": {
           "role": "尤太真",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1706,7 +1706,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1769,7 +1769,7 @@
       "api": {
         "voice": {
           "role": "尤太真",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1832,7 +1832,7 @@
       "api": {
         "voice": {
           "role": "尤太真",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1907,7 +1907,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1982,7 +1982,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2033,7 +2033,7 @@
       "api": {
         "voice": {
           "role": "道童_晁敏",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2071,7 +2071,7 @@
       "api": {
         "voice": {
           "role": "道童_柏直",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2146,7 +2146,7 @@
       "api": {
         "voice": {
           "role": "道童_晁敏",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2184,7 +2184,7 @@
       "api": {
         "voice": {
           "role": "黎半风",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2222,7 +2222,7 @@
       "api": {
         "voice": {
           "role": "道童_晁敏",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2273,7 +2273,7 @@
       "api": {
         "voice": {
           "role": "商风子",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "不羁青年-清亮,明亮",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2348,7 +2348,7 @@
       "api": {
         "voice": {
           "role": "黎半风",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

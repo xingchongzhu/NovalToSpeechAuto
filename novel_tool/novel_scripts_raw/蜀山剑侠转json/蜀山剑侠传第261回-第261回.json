@@ -15,67 +15,67 @@
       "speed": "-10%"
     },
     "李洪": {
-      "role_voice": "风发少年-潇洒,磁性",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "谢琳": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "谢璎": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "小莉-女声",
       "pitch": "0Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "杨瑾": {
-      "role_voice": "云墨-情感,成熟知性",
+      "role_voice": "杨婧-纪实,纪录片",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "阮征": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-1%"
     },
     "魔女": {
-      "role_voice": "性感魅惑-成熟,性感",
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
       "pitch": "+4Hz",
       "volume": "-1%",
       "speed": "-1%"
     },
     "齐灵云": {
-      "role_voice": "云懿-古风,甜美",
+      "role_voice": "云米-情感,知性",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "尸毗老人": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "侍女拉蛮": {
-      "role_voice": "邪魅御姐-性感,邪魅",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+4%"
     },
     "谢山": {
-      "role_voice": "云健-低沉",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-10%"
     },
     "燃脂头陀": {
-      "role_voice": "云健-低沉",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-10%"
@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第261回",
-          "instruct": "庄重开场，浑厚沉稳"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -163,7 +163,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -182,7 +182,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -257,7 +257,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -276,7 +276,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -295,7 +295,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -314,7 +314,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -333,7 +333,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -352,7 +352,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -371,7 +371,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -390,7 +390,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -441,7 +441,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -460,7 +460,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -479,7 +479,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -517,7 +517,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -580,7 +580,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -599,7 +599,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -618,7 +618,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -637,7 +637,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -656,7 +656,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -675,7 +675,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -750,7 +750,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -769,7 +769,7 @@
       "api": {
         "voice": {
           "role": "谢山",
-          "role_voice": "云健-低沉",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -832,7 +832,7 @@
       "api": {
         "voice": {
           "role": "燃脂头陀",
-          "role_voice": "云健-低沉",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -851,7 +851,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -870,7 +870,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -889,7 +889,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -908,7 +908,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -927,7 +927,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -946,7 +946,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -965,7 +965,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -984,7 +984,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1022,7 +1022,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -1133,7 +1133,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1152,7 +1152,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1171,7 +1171,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1190,7 +1190,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1209,7 +1209,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -1356,7 +1356,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1394,7 +1394,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1413,7 +1413,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1488,7 +1488,7 @@
       "api": {
         "voice": {
           "role": "杨瑾",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "杨婧-纪实,纪录片",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1507,7 +1507,7 @@
       "api": {
         "voice": {
           "role": "杨瑾",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "杨婧-纪实,纪录片",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1526,7 +1526,7 @@
       "api": {
         "voice": {
           "role": "杨瑾",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "杨婧-纪实,纪录片",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1613,7 +1613,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1712,7 +1712,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -1731,7 +1731,7 @@
       "api": {
         "voice": {
           "role": "阮征",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1750,7 +1750,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -1769,7 +1769,7 @@
       "api": {
         "voice": {
           "role": "阮征",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1788,7 +1788,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -1851,7 +1851,7 @@
       "api": {
         "voice": {
           "role": "阮征",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1902,7 +1902,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -1953,7 +1953,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -2016,7 +2016,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2115,7 +2115,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -2134,7 +2134,7 @@
       "api": {
         "voice": {
           "role": "魔女",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -2153,7 +2153,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2204,7 +2204,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2223,7 +2223,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2274,7 +2274,7 @@
       "api": {
         "voice": {
           "role": "侍女拉蛮",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+4%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2312,7 +2312,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2331,7 +2331,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2350,7 +2350,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2413,7 +2413,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2476,7 +2476,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2514,7 +2514,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2533,7 +2533,7 @@
       "api": {
         "voice": {
           "role": "阮征",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2552,7 +2552,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2615,7 +2615,7 @@
       "api": {
         "voice": {
           "role": "阮征",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2653,7 +2653,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2716,7 +2716,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云懿-古风,甜美",
+          "role_voice": "云米-情感,知性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2767,7 +2767,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云懿-古风,甜美",
+          "role_voice": "云米-情感,知性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2842,7 +2842,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2861,7 +2861,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -2880,7 +2880,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2899,7 +2899,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2918,7 +2918,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -2937,7 +2937,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -2956,7 +2956,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2975,7 +2975,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -2994,7 +2994,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3013,7 +3013,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -3032,7 +3032,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -3051,7 +3051,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -3070,7 +3070,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -3089,7 +3089,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -3108,7 +3108,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",
@@ -3127,7 +3127,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3146,7 +3146,7 @@
       "api": {
         "voice": {
           "role": "谢琳",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -3165,7 +3165,7 @@
       "api": {
         "voice": {
           "role": "李洪",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3184,7 +3184,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "小莉-女声",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "0Hz",

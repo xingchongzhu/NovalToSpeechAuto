@@ -15,19 +15,19 @@
       "speed": "-10%"
     },
     "乌头婆": {
-      "role_voice": "孟婆-烟嗓,影视",
+      "role_voice": "俏皮女声-活泼,元气",
       "pitch": "-3Hz",
       "volume": "+1%",
       "speed": "-5%"
     },
     "黄衣怪人甲": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "黄衣怪人乙": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -39,19 +39,19 @@
       "speed": "0%"
     },
     "申屠宏": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "花无邪": {
-      "role_voice": "云墨-情感,成熟知性",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "-3%"
     },
     "妖人甲": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-5%"
@@ -75,25 +75,25 @@
       "speed": "-3%"
     },
     "凌浑": {
-      "role_voice": "老伯-沧桑岁月爷",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "猿长老": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "龙娃": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "怪徒": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -111,7 +111,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第258回",
-          "instruct": "庄重开场，沉稳有力"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -169,7 +169,7 @@
       "api": {
         "voice": {
           "role": "乌头婆",
-          "role_voice": "孟婆-烟嗓,影视",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "-5%",
           "volume": "+1%",
           "pitch": "-3Hz",
@@ -220,7 +220,7 @@
       "api": {
         "voice": {
           "role": "黄衣怪人甲",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -439,7 +439,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -526,7 +526,7 @@
       "api": {
         "voice": {
           "role": "黄衣怪人甲",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -577,7 +577,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -615,7 +615,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -678,7 +678,7 @@
       "api": {
         "voice": {
           "role": "怪徒",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -729,7 +729,7 @@
       "api": {
         "voice": {
           "role": "花无邪",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-3%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -780,7 +780,7 @@
       "api": {
         "voice": {
           "role": "怪徒",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -875,7 +875,7 @@
       "api": {
         "voice": {
           "role": "黄衣怪人甲",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -938,7 +938,7 @@
       "api": {
         "voice": {
           "role": "花无邪",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-3%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -989,7 +989,7 @@
       "api": {
         "voice": {
           "role": "妖人甲",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1040,7 +1040,7 @@
       "api": {
         "voice": {
           "role": "黄衣怪人乙",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1123,7 +1123,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1199,7 +1199,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1250,7 +1250,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1351,7 +1351,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1426,7 +1426,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1477,7 +1477,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1515,7 +1515,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1566,7 +1566,7 @@
       "api": {
         "voice": {
           "role": "猿长老",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1629,7 +1629,7 @@
       "api": {
         "voice": {
           "role": "花无邪",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-3%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -1680,7 +1680,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1731,7 +1731,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1788,7 +1788,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1851,7 +1851,7 @@
       "api": {
         "voice": {
           "role": "凌浑",
-          "role_voice": "老伯-沧桑岁月爷",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1938,7 +1938,7 @@
       "api": {
         "voice": {
           "role": "花无邪",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-3%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -2013,7 +2013,7 @@
       "api": {
         "voice": {
           "role": "申屠宏",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -2076,7 +2076,7 @@
       "api": {
         "voice": {
           "role": "花无邪",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-3%",
           "volume": "-1%",
           "pitch": "+1Hz",

@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "萧逸": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "-2Hz",
       "volume": "+2%",
       "speed": "-5%"
@@ -27,61 +27,61 @@
       "speed": "0%"
     },
     "绛雪": {
-      "role_voice": "小玲-稚嫩,萝莉女声",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+4Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "萧玉": {
-      "role_voice": "病弱少年-低缓,病弱",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+1Hz",
       "volume": "+2%",
       "speed": "-2%"
     },
     "萧清": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "+2Hz",
       "volume": "+3%",
       "speed": "+2%"
     },
     "郝潜夫": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "-1Hz",
       "volume": "+2%",
       "speed": "-5%"
     },
     "吴诚": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "+2%",
       "speed": "-2%"
     },
     "甘熊": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "-3Hz",
       "volume": "+3%",
       "speed": "-2%"
     },
     "甘象": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "-2Hz",
       "volume": "+3%",
       "speed": "0%"
     },
     "刘泉": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "优柔哥-激动,优柔",
       "pitch": "-1Hz",
       "volume": "+2%",
       "speed": "-5%"
     },
     "赵光斗": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "+1Hz",
       "volume": "+2%",
       "speed": "0%"
     },
     "俞允中": {
-      "role_voice": "病弱少年-低缓,病弱",
+      "role_voice": "病娇白莲-低沉,病娇",
       "pitch": "+1Hz",
       "volume": "+2%",
       "speed": "-2%"
@@ -93,7 +93,7 @@
       "speed": "-5%"
     },
     "萧珍": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "+4Hz",
       "volume": "+3%",
       "speed": "+2%"
@@ -111,7 +111,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第199回",
-          "instruct": "庄重开场，气息沉稳"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -493,7 +493,7 @@
       "api": {
         "voice": {
           "role": "吴诚",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+2%",
           "pitch": "0Hz",
@@ -512,7 +512,7 @@
       "api": {
         "voice": {
           "role": "甘象",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "+3%",
           "pitch": "-2Hz",
@@ -531,7 +531,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -550,7 +550,7 @@
       "api": {
         "voice": {
           "role": "甘象",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "+3%",
           "pitch": "-2Hz",
@@ -569,7 +569,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -588,7 +588,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+2Hz",
@@ -607,7 +607,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+2Hz",
@@ -626,7 +626,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-2%",
           "volume": "+2%",
           "pitch": "+1Hz",
@@ -645,7 +645,7 @@
       "api": {
         "voice": {
           "role": "萧清",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "云智-情感,情感男声",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+2Hz",
@@ -664,7 +664,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-2%",
           "volume": "+2%",
           "pitch": "+1Hz",
@@ -683,7 +683,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "病弱少年-低缓,病弱",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "-2%",
           "volume": "+2%",
           "pitch": "+1Hz",

@@ -146,7 +146,7 @@ bash start.sh
 - 输出：`output/{小说名}/{章节名}/{配音,音效,背景音,混音}/`
 - 音色：`clone-audio/{音色名}.mp3`
 - 音色说明表：`.comate/skills/novel-to-script/references/克隆音频角色列表说明.md`（唯一权威文件，音色库编辑写回此处）
-- 角色配音表：`novel_tool/character_voice_tables/{小说名}角色配音表.md`
+- 角色配音表：`novel_tool/character_voice_tables/{小说名}角色配音表.json`
 
 ## 注意事项
 

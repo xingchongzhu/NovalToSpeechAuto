@@ -15,67 +15,67 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+2%"
     },
     "石生": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "+1%"
     },
     "阿童": {
-      "role_voice": "风发少年-潇洒,磁性",
+      "role_voice": "佩佩-情感,动漫,可爱女声",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+2%"
     },
     "石完": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+3%"
     },
     "钱莱": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "+1%"
     },
     "灵奇": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-1%"
     },
     "甄兑": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "易震": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+1%"
     },
     "干神蛛": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "妖蚿": {
-      "role_voice": "九尾狐-魅惑,狐仙",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "+4Hz",
       "volume": "+2%",
       "speed": "+1%"
     },
     "易鼎": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -170,7 +170,7 @@
       "api": {
         "voice": {
           "role": "甄兑",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云智-情感,情感男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -253,7 +253,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -419,7 +419,7 @@
       "api": {
         "voice": {
           "role": "干神蛛",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -457,7 +457,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -563,7 +563,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -713,7 +713,7 @@
       "api": {
         "voice": {
           "role": "妖蚿",
-          "role_voice": "九尾狐-魅惑,狐仙",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "+1%",
           "volume": "+2%",
           "pitch": "+4Hz",
@@ -776,7 +776,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -863,7 +863,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -914,7 +914,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -996,7 +996,7 @@
       "api": {
         "voice": {
           "role": "钱莱",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1028,7 +1028,7 @@
       "api": {
         "voice": {
           "role": "钱莱",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1047,7 +1047,7 @@
       "api": {
         "voice": {
           "role": "钱莱",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1098,7 +1098,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1149,7 +1149,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1187,7 +1187,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1225,7 +1225,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1276,7 +1276,7 @@
       "api": {
         "voice": {
           "role": "甄兑",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云智-情感,情感男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1314,7 +1314,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1352,7 +1352,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1390,7 +1390,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1441,7 +1441,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1492,7 +1492,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1511,7 +1511,7 @@
       "api": {
         "voice": {
           "role": "灵奇",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1581,7 +1581,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1656,7 +1656,7 @@
       "api": {
         "voice": {
           "role": "钱莱",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1694,7 +1694,7 @@
       "api": {
         "voice": {
           "role": "钱莱",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1745,7 +1745,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1783,7 +1783,7 @@
       "api": {
         "voice": {
           "role": "易震",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1802,7 +1802,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1840,7 +1840,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+3%",
           "volume": "+1%",
           "pitch": "+2Hz",

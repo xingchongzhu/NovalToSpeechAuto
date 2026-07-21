@@ -15,37 +15,37 @@
       "speed": "-10%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "若兰": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+1%"
     },
     "林寒": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "庄易": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "宫琳": {
-      "role_voice": "云梦-情感,知性,纯净甜美",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "妖妇（萨若那）": {
-      "role_voice": "性感魅惑-成熟,性感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+3Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -63,7 +63,7 @@
       "speed": "+2%"
     },
     "宫装少女（余娲门下）": {
-      "role_voice": "高冷御姐-高冷,御姐",
+      "role_voice": "小莉-女声",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -75,7 +75,7 @@
       "speed": "+1%"
     },
     "铁妹": {
-      "role_voice": "九尾狐-魅惑,狐仙",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+2Hz",
       "volume": "+2%",
       "speed": "+1%"
@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第276回",
-          "instruct": "庄重沉稳，章回标题播报"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -151,7 +151,7 @@
       "api": {
         "voice": {
           "role": "庄易",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -189,7 +189,7 @@
       "api": {
         "voice": {
           "role": "林寒",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -264,7 +264,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -371,7 +371,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -409,7 +409,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -447,7 +447,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -485,7 +485,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -523,7 +523,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -586,7 +586,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -624,7 +624,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -662,7 +662,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -713,7 +713,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -751,7 +751,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -802,7 +802,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -853,7 +853,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -891,7 +891,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -929,7 +929,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -967,7 +967,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1005,7 +1005,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1056,7 +1056,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1094,7 +1094,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1157,7 +1157,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1195,7 +1195,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1233,7 +1233,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1284,7 +1284,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1367,7 +1367,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1405,7 +1405,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1500,7 +1500,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1607,7 +1607,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1670,7 +1670,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1752,7 +1752,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1871,7 +1871,7 @@
       "api": {
         "voice": {
           "role": "妖妇（萨若那）",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -1934,7 +1934,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2009,7 +2009,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2084,7 +2084,7 @@
       "api": {
         "voice": {
           "role": "妖妇（萨若那）",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -2147,7 +2147,7 @@
       "api": {
         "voice": {
           "role": "妖妇（萨若那）",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -2210,7 +2210,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2261,7 +2261,7 @@
       "api": {
         "voice": {
           "role": "妖妇（萨若那）",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -2312,7 +2312,7 @@
       "api": {
         "voice": {
           "role": "妖妇（萨若那）",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -2375,7 +2375,7 @@
       "api": {
         "voice": {
           "role": "宫琳",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "俊逸公子-成熟,稳重",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2426,7 +2426,7 @@
       "api": {
         "voice": {
           "role": "宫装少女（余娲门下）",
-          "role_voice": "高冷御姐-高冷,御姐",
+          "role_voice": "小莉-女声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2501,7 +2501,7 @@
       "api": {
         "voice": {
           "role": "宫装少女（余娲门下）",
-          "role_voice": "高冷御姐-高冷,御姐",
+          "role_voice": "小莉-女声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2588,7 +2588,7 @@
       "api": {
         "voice": {
           "role": "宫装少女（余娲门下）",
-          "role_voice": "高冷御姐-高冷,御姐",
+          "role_voice": "小莉-女声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2651,7 +2651,7 @@
       "api": {
         "voice": {
           "role": "宫装少女（余娲门下）",
-          "role_voice": "高冷御姐-高冷,御姐",
+          "role_voice": "小莉-女声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2726,7 +2726,7 @@
       "api": {
         "voice": {
           "role": "铁妹",
-          "role_voice": "九尾狐-魅惑,狐仙",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "+1%",
           "volume": "+2%",
           "pitch": "+2Hz",
@@ -2777,7 +2777,7 @@
       "api": {
         "voice": {
           "role": "铁妹",
-          "role_voice": "九尾狐-魅惑,狐仙",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "+1%",
           "volume": "+2%",
           "pitch": "+2Hz",
@@ -2876,7 +2876,7 @@
       "api": {
         "voice": {
           "role": "铁妹",
-          "role_voice": "九尾狐-魅惑,狐仙",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "+1%",
           "volume": "+2%",
           "pitch": "+2Hz",

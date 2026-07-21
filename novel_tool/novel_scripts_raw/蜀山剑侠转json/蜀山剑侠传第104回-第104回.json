@@ -15,37 +15,37 @@
       "speed": "-10%"
     },
     "周云从": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "体贴男友-温暖,体贴",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "周子敬": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "张老四": {
-      "role_voice": "老伯-沧桑岁月爷",
+      "role_voice": "夏候渊-历史,书单",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "张玉珍": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "YUMI-正经青年,语音助手",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+1%"
     },
     "张三姑": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云洁-严厉,严厉女声",
       "pitch": "+1Hz",
       "volume": "-1%",
       "speed": "0%"
     },
     "闵小棠": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -57,13 +57,13 @@
       "speed": "0%"
     },
     "齐登": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-4%"
     },
     "小三儿": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "小凡-影视,小说,动漫",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第104回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -114,7 +114,7 @@
       "api": {
         "voice": {
           "role": "周子敬",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -152,7 +152,7 @@
       "api": {
         "voice": {
           "role": "张老四",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "夏候渊-历史,书单",
           "speed": "-3%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -271,7 +271,7 @@
       "api": {
         "voice": {
           "role": "齐登",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -320,7 +320,7 @@
       "api": {
         "voice": {
           "role": "齐登",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -358,7 +358,7 @@
       "api": {
         "voice": {
           "role": "闵小棠",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -396,7 +396,7 @@
       "api": {
         "voice": {
           "role": "齐登",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -434,7 +434,7 @@
       "api": {
         "voice": {
           "role": "闵小棠",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -472,7 +472,7 @@
       "api": {
         "voice": {
           "role": "齐登",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -581,7 +581,7 @@
       "api": {
         "voice": {
           "role": "张老四",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "夏候渊-历史,书单",
           "speed": "-3%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -660,7 +660,7 @@
       "api": {
         "voice": {
           "role": "张玉珍",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "YUMI-正经青年,语音助手",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -698,7 +698,7 @@
       "api": {
         "voice": {
           "role": "张三姑",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云洁-严厉,严厉女声",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -736,7 +736,7 @@
       "api": {
         "voice": {
           "role": "张玉珍",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "YUMI-正经青年,语音助手",
           "speed": "+1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -774,7 +774,7 @@
       "api": {
         "voice": {
           "role": "张三姑",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云洁-严厉,严厉女声",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -812,7 +812,7 @@
       "api": {
         "voice": {
           "role": "张三姑",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云洁-严厉,严厉女声",
           "speed": "0%",
           "volume": "-1%",
           "pitch": "+1Hz",
@@ -850,7 +850,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-低沉",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -968,7 +968,7 @@
       "api": {
         "voice": {
           "role": "小三儿",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "小凡-影视,小说,动漫",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1006,7 +1006,7 @@
       "api": {
         "voice": {
           "role": "周云从",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "体贴男友-温暖,体贴",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",

@@ -15,31 +15,31 @@
       "speed": "-10%"
     },
     "笑和尚": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "石生": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+2%"
     },
     "庄易": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "随引": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -57,7 +57,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第121回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -159,7 +159,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -322,7 +322,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -360,7 +360,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -423,7 +423,7 @@
       "api": {
         "voice": {
           "role": "随引",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -442,7 +442,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -461,7 +461,7 @@
       "api": {
         "voice": {
           "role": "随引",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -480,7 +480,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -518,7 +518,7 @@
       "api": {
         "voice": {
           "role": "随引",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -550,7 +550,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -588,7 +588,7 @@
       "api": {
         "voice": {
           "role": "随引",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -607,7 +607,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -645,7 +645,7 @@
       "api": {
         "voice": {
           "role": "随引",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -783,7 +783,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",

@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "司徒平": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "亲切小卓-亲切,弟弟",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "薛蟒": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "孱弱少爷-低沉,性感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -39,19 +39,19 @@
       "speed": "0%"
     },
     "秦紫玲": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "秦寒萼": {
-      "role_voice": "龙菲菲-甜美娇气",
+      "role_voice": "活泼刁蛮-活泼,可爱",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "毒龙尊者": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "擎苍-低沉,浑厚",
       "pitch": "-3Hz",
       "volume": "0%",
       "speed": "-5%"
@@ -69,7 +69,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第78回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -123,7 +123,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -172,7 +172,7 @@
       "api": {
         "voice": {
           "role": "薛蟒",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "孱弱少爷-低沉,性感",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -232,7 +232,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -281,7 +281,7 @@
       "api": {
         "voice": {
           "role": "薛蟒",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "孱弱少爷-低沉,性感",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -340,7 +340,7 @@
       "api": {
         "voice": {
           "role": "薛蟒",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "孱弱少爷-低沉,性感",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -389,7 +389,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -438,7 +438,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -476,7 +476,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -536,7 +536,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -596,7 +596,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -645,7 +645,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -724,7 +724,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -773,7 +773,7 @@
       "api": {
         "voice": {
           "role": "柳燕娘",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "邪魅御姐-性感,邪魅",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -832,7 +832,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -892,7 +892,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -961,7 +961,7 @@
       "api": {
         "voice": {
           "role": "薛蟒",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "孱弱少爷-低沉,性感",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1010,7 +1010,7 @@
       "api": {
         "voice": {
           "role": "薛蟒",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "孱弱少爷-低沉,性感",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1069,7 +1069,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1118,7 +1118,7 @@
       "api": {
         "voice": {
           "role": "万妙仙姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "性感魅惑-成熟,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1187,7 +1187,7 @@
       "api": {
         "voice": {
           "role": "秦寒萼",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "活泼刁蛮-活泼,可爱",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1225,7 +1225,7 @@
       "api": {
         "voice": {
           "role": "秦紫玲",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1284,7 +1284,7 @@
       "api": {
         "voice": {
           "role": "司徒平",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "亲切小卓-亲切,弟弟",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1333,7 +1333,7 @@
       "api": {
         "voice": {
           "role": "秦寒萼",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "活泼刁蛮-活泼,可爱",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1371,7 +1371,7 @@
       "api": {
         "voice": {
           "role": "秦紫玲",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1430,7 +1430,7 @@
       "api": {
         "voice": {
           "role": "极乐真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1500,7 +1500,7 @@
       "api": {
         "voice": {
           "role": "玄真子",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "云智-情感,情感男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1538,7 +1538,7 @@
       "api": {
         "voice": {
           "role": "秦紫玲",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1576,7 +1576,7 @@
       "api": {
         "voice": {
           "role": "玄真子",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "云智-情感,情感男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1625,7 +1625,7 @@
       "api": {
         "voice": {
           "role": "追云叟",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1674,7 +1674,7 @@
       "api": {
         "voice": {
           "role": "优昙大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1734,7 +1734,7 @@
       "api": {
         "voice": {
           "role": "餐霞大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "龙媛-温暖治愈,有声小说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

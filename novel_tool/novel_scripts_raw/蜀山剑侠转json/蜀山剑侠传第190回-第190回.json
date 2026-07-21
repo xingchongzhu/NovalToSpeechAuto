@@ -15,55 +15,55 @@
       "speed": "-10%"
     },
     "萧逸": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "-2Hz",
       "volume": "+2%",
       "speed": "-5%"
     },
     "欧阳霜": {
-      "role_voice": "古风少御-可爱,萌系",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "欧阳鸿": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+2%"
     },
     "畹秋": {
-      "role_voice": "病娇白莲-低沉,病娇",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
     "萧元": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "+2Hz",
       "volume": "+3%",
       "speed": "0%"
     },
     "萧珍": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "+4Hz",
       "volume": "+3%",
       "speed": "+2%"
     },
     "雷二娘": {
-      "role_voice": "云丽-温柔,情感",
+      "role_voice": "温婉女士-知性,温婉",
       "pitch": "-2Hz",
       "volume": "+1%",
       "speed": "-6%"
     },
     "萧璇": {
-      "role_voice": "小楠-童声,萝莉",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "+6Hz",
       "volume": "+5%",
       "speed": "+4%"
     },
     "萧琏": {
-      "role_voice": "小虎-童声",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "+5Hz",
       "volume": "+5%",
       "speed": "+4%"
@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第190回",
-          "instruct": "庄重开场，气息沉稳"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -139,7 +139,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -214,7 +214,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -233,7 +233,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -271,7 +271,7 @@
       "api": {
         "voice": {
           "role": "欧阳鸿",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -290,7 +290,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -309,7 +309,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -328,7 +328,7 @@
       "api": {
         "voice": {
           "role": "欧阳鸿",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -347,7 +347,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -459,7 +459,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -478,7 +478,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -497,7 +497,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -516,7 +516,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -535,7 +535,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -622,7 +622,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -641,7 +641,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -660,7 +660,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -679,7 +679,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "病娇白莲-低沉,病娇",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -742,7 +742,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -761,7 +761,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -848,7 +848,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -867,7 +867,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -886,7 +886,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -905,7 +905,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -924,7 +924,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -943,7 +943,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1030,7 +1030,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1049,7 +1049,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1068,7 +1068,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1087,7 +1087,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1106,7 +1106,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1125,7 +1125,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1144,7 +1144,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1163,7 +1163,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1182,7 +1182,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1201,7 +1201,7 @@
       "api": {
         "voice": {
           "role": "欧阳鸿",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1220,7 +1220,7 @@
       "api": {
         "voice": {
           "role": "欧阳鸿",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "+2%",
           "volume": "+2%",
           "pitch": "+3Hz",
@@ -1307,7 +1307,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1326,7 +1326,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1345,7 +1345,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1364,7 +1364,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1383,7 +1383,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1402,7 +1402,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1421,7 +1421,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1440,7 +1440,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1459,7 +1459,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1478,7 +1478,7 @@
       "api": {
         "voice": {
           "role": "欧阳霜",
-          "role_voice": "古风少御-可爱,萌系",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1497,7 +1497,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1516,7 +1516,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1535,7 +1535,7 @@
       "api": {
         "voice": {
           "role": "萧珍",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+2%",
           "volume": "+3%",
           "pitch": "+4Hz",
@@ -1554,7 +1554,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1709,7 +1709,7 @@
       "api": {
         "voice": {
           "role": "雷二娘",
-          "role_voice": "云丽-温柔,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "-6%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -1728,7 +1728,7 @@
       "api": {
         "voice": {
           "role": "雷二娘",
-          "role_voice": "云丽-温柔,情感",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "-6%",
           "volume": "+1%",
           "pitch": "-2Hz",
@@ -1747,7 +1747,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1766,7 +1766,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1785,7 +1785,7 @@
       "api": {
         "voice": {
           "role": "萧逸",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-2Hz",

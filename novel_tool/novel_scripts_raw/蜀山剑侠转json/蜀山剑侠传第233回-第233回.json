@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "癞姑": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "易静": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+1%"
@@ -33,55 +33,55 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
     "石生": {
-      "role_voice": "明朗-阳光少年,情感",
-      "pitch": "+1Hz",
-      "volume": "+1%",
-      "speed": "-2%"
-    },
-    "甄艮": {
-      "role_voice": "明朗-阳光少年,情感",
-      "pitch": "+1Hz",
-      "volume": "+1%",
-      "speed": "-2%"
-    },
-    "甄兑": {
-      "role_voice": "明朗-阳光少年,情感",
-      "pitch": "+1Hz",
-      "volume": "+1%",
-      "speed": "-2%"
-    },
-    "易鼎": {
       "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
+    "甄艮": {
+      "role_voice": "温润学者-磁性,浑厚",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "-2%"
+    },
+    "甄兑": {
+      "role_voice": "云智-情感,情感男声",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "-2%"
+    },
+    "易鼎": {
+      "role_voice": "霸气青叔-磁性,性感",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "-2%"
+    },
     "易震": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
     "阿童": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "佩佩-情感,动漫,可爱女声",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
     },
     "乌神叟": {
-      "role_voice": "鹤仙-小说,沧桑,历史",
+      "role_voice": "云智-情感,情感男声",
       "pitch": "-4Hz",
       "volume": "+2%",
       "speed": "-6%"
     },
     "灵威叟": {
-      "role_voice": "云健-低沉",
+      "role_voice": "老叨-故事",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -93,19 +93,19 @@
       "speed": "-2%"
     },
     "侏儒/矮怪": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "-4Hz",
       "volume": "+2%",
       "speed": "-4%"
     },
     "寒光": {
-      "role_voice": "小禅-童声",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+4Hz",
       "volume": "-2%",
       "speed": "0%"
     },
     "玄玉": {
-      "role_voice": "小禅-童声",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+4Hz",
       "volume": "-2%",
       "speed": "0%"
@@ -241,7 +241,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第233回",
-          "instruct": "庄重开场，字字清晰"
+          "instruct": "平淡轻快"
         },
         "effects": [
           {
@@ -300,7 +300,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -364,7 +364,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -440,7 +440,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -459,7 +459,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -510,7 +510,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -529,7 +529,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -631,7 +631,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -650,7 +650,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -669,7 +669,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -688,7 +688,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -739,7 +739,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -846,7 +846,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -897,7 +897,7 @@
       "api": {
         "voice": {
           "role": "乌神叟",
-          "role_voice": "鹤仙-小说,沧桑,历史",
+          "role_voice": "云智-情感,情感男声",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -973,7 +973,7 @@
       "api": {
         "voice": {
           "role": "乌神叟",
-          "role_voice": "鹤仙-小说,沧桑,历史",
+          "role_voice": "云智-情感,情感男声",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -992,7 +992,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1011,7 +1011,7 @@
       "api": {
         "voice": {
           "role": "乌神叟",
-          "role_voice": "鹤仙-小说,沧桑,历史",
+          "role_voice": "云智-情感,情感男声",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1062,7 +1062,7 @@
       "api": {
         "voice": {
           "role": "乌神叟",
-          "role_voice": "鹤仙-小说,沧桑,历史",
+          "role_voice": "云智-情感,情感男声",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1081,7 +1081,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1100,7 +1100,7 @@
       "api": {
         "voice": {
           "role": "乌神叟",
-          "role_voice": "鹤仙-小说,沧桑,历史",
+          "role_voice": "云智-情感,情感男声",
           "speed": "-6%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1138,7 +1138,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1213,7 +1213,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1232,7 +1232,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1251,7 +1251,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1302,7 +1302,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1321,7 +1321,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1340,7 +1340,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1422,7 +1422,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1524,7 +1524,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1562,7 +1562,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1600,7 +1600,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1619,7 +1619,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1638,7 +1638,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1732,7 +1732,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1751,7 +1751,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1814,7 +1814,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1833,7 +1833,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1896,7 +1896,7 @@
       "api": {
         "voice": {
           "role": "侏儒/矮怪",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -1991,7 +1991,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2048,7 +2048,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2067,7 +2067,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2086,7 +2086,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2105,7 +2105,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2168,7 +2168,7 @@
       "api": {
         "voice": {
           "role": "寒光",
-          "role_voice": "小禅-童声",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "-2%",
           "pitch": "+4Hz",
@@ -2232,7 +2232,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2283,7 +2283,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2321,7 +2321,7 @@
       "api": {
         "voice": {
           "role": "寒光",
-          "role_voice": "小禅-童声",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "-2%",
           "pitch": "+4Hz",
@@ -2340,7 +2340,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2359,7 +2359,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-低沉",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2378,7 +2378,7 @@
       "api": {
         "voice": {
           "role": "寒光",
-          "role_voice": "小禅-童声",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "-2%",
           "pitch": "+4Hz",
@@ -2429,7 +2429,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2480,7 +2480,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2575,7 +2575,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2594,7 +2594,7 @@
       "api": {
         "voice": {
           "role": "石生",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2613,7 +2613,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2632,7 +2632,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2721,7 +2721,7 @@
       "api": {
         "voice": {
           "role": "阿童",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "佩佩-情感,动漫,可爱女声",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2740,7 +2740,7 @@
       "api": {
         "voice": {
           "role": "甄艮",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2759,7 +2759,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "君凯-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2778,7 +2778,7 @@
       "api": {
         "voice": {
           "role": "甄艮",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2797,7 +2797,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2816,7 +2816,7 @@
       "api": {
         "voice": {
           "role": "甄艮",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "温润学者-磁性,浑厚",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",

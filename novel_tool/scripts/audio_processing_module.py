@@ -142,6 +142,8 @@ class VoiceParams:
     volume: str
     pitch: str
     instruct: Optional[str] = None
+    tts_mode: str = "voice_design"  # "clone" 克隆音频 | "voice_design" 文字描述造音色
+    voice_design_prompt: Optional[str] = None  # VoiceDesign 音色描述提示词（可为空，自动从配音表查找）
 
 @dataclass
 class BGMAudioParams:
@@ -251,13 +253,21 @@ class AudioEngine:
                  channels: int = 1, tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  fish_api_url: str = "http://localhost:8080",
                  target_voice_dbfs: Optional[float] = None,
-                 enable_transcribe_check: bool = False):
+                 enable_transcribe_check: bool = False, tts_mode: str = "voice_design"):
         self.temp_dir = temp_dir
         self.sample_rate = sample_rate
         self.channels = channels
         self.audio_format = "wav"
         self.tts_engine = tts_engine
-        self.qwen_model_path = qwen_model_path
+
+        # 自动选模型：VoiceDesign 模式且未显式指定路径 → 使用 VoiceDesign 模型
+        if qwen_model_path:
+            self.qwen_model_path = qwen_model_path
+        elif tts_mode == "voice_design":
+            self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+            print(f"[AudioEngine] VoiceDesign 模式，模型: {self.qwen_model_path}")
+        else:
+            self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
         self.fish_api_url = fish_api_url.rstrip("/") if fish_api_url else "http://localhost:8080"
         self.target_voice_dbfs = target_voice_dbfs
         self.enable_transcribe_check = enable_transcribe_check  # TTS质检 + 音效精确定位总开关
@@ -267,9 +277,16 @@ class AudioEngine:
         self.clone_audio_dir = os.path.join(project_root, "clone-audio")
         self.voice_prompt_cache_dir = os.path.join(self.clone_audio_dir, ".qwen_prompt_cache")
         
+        # ── VoiceDesign 角色配音表 ──
+        self._voice_design_table = None  # lazy-loaded JSON 配音表
+        self._voice_design_table_path = os.path.join(
+            project_root, "novel_tool", "character_voice_tables", "蜀山剑侠传角色配音表.json"
+        )
+        self._voice_table_missing = set()  # VoiceDesign 模式下配音表缺失的角色名，供上层记录
+
         os.makedirs(self.temp_dir, exist_ok=True)
         os.makedirs(self.voice_prompt_cache_dir, exist_ok=True)
-        
+
         if self.tts_engine == "qwen3-tts":
             self._init_qwen_tts_model()
         elif self.tts_engine == "fish-speech":
@@ -290,6 +307,17 @@ class AudioEngine:
             
             model_path = self.qwen_model_path if self.qwen_model_path else \
                 "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+
+            # 识别模型类型并标记
+            if "VoiceDesign" in model_path:
+                mode_tag = "🎤 VoiceDesign 文字造音色"
+            elif "CustomVoice" in model_path:
+                mode_tag = "🎙 CustomVoice 预设音色"
+            else:
+                mode_tag = "🎙 克隆音频 (Base)"
+
+            short_name = model_path.split("/")[-1] if "/" in model_path else model_path
+            print(f"[TTSEngine] 模型: {short_name}  |  模式: {mode_tag}")
             
             # 自动选择最优设备：MPS(Apple GPU) > CUDA > CPU
             if torch.backends.mps.is_available():
@@ -317,8 +345,207 @@ class AudioEngine:
             print(f"[TTSEngine] 初始化Qwen3-TTS模型失败: {e}")
             raise Exception("Qwen3-TTS模型初始化失败")
 
+    def _load_voice_design_table(self) -> dict:
+        """加载角色配音表 JSON，供 VoiceDesign 模式查找角色 Prompt"""
+        if self._voice_design_table is not None:
+            return self._voice_design_table
+        try:
+            if os.path.exists(self._voice_design_table_path):
+                with open(self._voice_design_table_path, "r", encoding="utf-8") as f:
+                    self._voice_design_table = json.load(f)
+                total = self._voice_design_table.get("统计", {}).get("总计", 0)
+                print(f"[TTSEngine] 已加载角色配音表: {total} 个角色")
+            else:
+                print(f"[TTSEngine] ⚠️ 角色配音表不存在: {self._voice_design_table_path}")
+                self._voice_design_table = {}
+        except Exception as e:
+            print(f"[TTSEngine] ⚠️ 加载角色配音表失败: {e}")
+            self._voice_design_table = {}
+        return self._voice_design_table
+
+    def _lookup_voice_design_prompt(self, role_name: str) -> Optional[str]:
+        """根据角色名在配音表中查找 VoiceDesign_Prompt"""
+        entry = self._lookup_character_entry(role_name)
+        if entry:
+            prompt = entry.get("VoiceDesign_Prompt", "")
+            if prompt:
+                return prompt
+        return None
+
+    def _lookup_character_entry(self, role_name: str) -> Optional[dict]:
+        """根据角色名在配音表中查找完整角色条目"""
+        table = self._load_voice_design_table()
+        levels = ["旁白", "主要角色", "重要角色", "次要角色", "临时角色"]
+        for level in levels:
+            for c in table.get(level, []):
+                if c.get("角色名") == role_name:
+                    print(f"[TTSEngine] 角色「{role_name}」匹配配音表 (from {level})")
+                    return c
+        # 模糊匹配
+        for level in levels:
+            for c in table.get(level, []):
+                name = c.get("角色名", "")
+                if role_name in name or name in role_name:
+                    print(f"[TTSEngine] 角色「{role_name}」模糊匹配 -> 「{name}」")
+                    return c
+        return None
+
+    def _build_fallback_voice_design_prompt(self, role_name: str) -> str:
+        """当配音表没有 VoiceDesign_Prompt 时，用年龄+性别+性格构造"""
+        entry = self._lookup_character_entry(role_name)
+        if entry:
+            age = entry.get("年龄", "")
+            gender = entry.get("性别", "")
+            persona = entry.get("性格", "")
+            parts = []
+            if age:
+                parts.append(age)
+            if gender:
+                parts.append(f"{gender}声")
+            if persona and persona != "自动分配":
+                parts.append(persona)
+            if parts:
+                prompt = "，".join(parts) + "，语速中等，声音清晰自然"
+                print(f"[TTSEngine] 从角色属性构造 VoiceDesign Prompt: {prompt}")
+                return prompt
+            # 角色在表中但没有有效语音属性，仍然使用兜底
+            print(f"[TTSEngine] ⚠️ 角色「{role_name}」在配音表中但无有效语音属性，使用兜底 Prompt")
+            self._voice_table_missing.add(role_name)
+            return f"{role_name}角色声音"
+        # 角色完全不在配音表中 → 抛出异常，跳过该句合成，等待人工修复配音表后重试
+        print(f"[TTSEngine] ⚠️ 角色「{role_name}」不在配音表中，跳过该句合成")
+        raise RuntimeError(f"missing_from_voice_table: 角色「{role_name}」不在配音表中")
+
+    def get_voice_table_missing(self) -> list:
+        """返回并清空 VoiceDesign 模式下配音表缺失的角色列表"""
+        missing = sorted(self._voice_table_missing)
+        self._voice_table_missing.clear()
+        return missing
+
     @staticmethod
-    def _split_long_tts_text(text: str) -> list:
+    def _split_qwen_text(text: str, max_chunk_length: int = 380) -> List[str]:
+        """统一语义断句：Qwen TTS 克隆模式和 VoiceDesign 模式共用"""
+        hard_split_chars = "。！？；!?;"
+        soft_split_chars = "，、：,:"
+        preferred_soft_tokens = ["但是", "不过", "然后", "于是", "所以", "只是", "而且", "因为", "如果", "虽然", "然而", "并且", "同时", "并非", "只是说", "况且", "此外"]
+        protected_prefix_tokens = ["就像", "这也是", "比如", "例如", "即便", "哪怕", "如果", "虽然", "但是", "不过", "而且", "并且", "于是", "所以", "只是", "然而", "同时", "却", "却会", "也会", "都", "就", "便", "还会", "仍然"]
+        protected_suffix_tokens = ["来说", "的话", "而言", "之一", "那边", "位置", "原因"]
+        _max_chunk = max_chunk_length
+        min_split_length = max(80, _max_chunk // 3)
+        target_chunk_length = _max_chunk * 3 // 4
+        absolute_max_chunk_length = _max_chunk + 120
+        min_tail_merge_length = 24
+
+        stripped_text = text.strip()
+        if len(stripped_text) <= _max_chunk:
+            return [stripped_text]
+
+        def _is_protected_boundary(source_text: str, split_at: int) -> bool:
+            left_context = source_text[max(0, split_at - 12):split_at]
+            right_context = source_text[split_at:min(len(source_text), split_at + 12)]
+            if any(right_context.startswith(token) for token in protected_prefix_tokens):
+                return True
+            if any(left_context.endswith(token) for token in protected_suffix_tokens):
+                return True
+            if right_context[:1] in "）)]】」』":
+                return True
+            return False
+
+        def _find_best_split_index(source_text: str) -> int:
+            candidate_ranges = [
+                [idx for idx, ch in enumerate(source_text) if ch in hard_split_chars],
+                [idx for idx, ch in enumerate(source_text) if ch in "，：,:"] ,
+                [idx for idx, ch in enumerate(source_text) if ch == '、'],
+            ]
+            lower_bound = max(min_split_length - 1, len(source_text) // 3)
+            upper_bound = len(source_text) - min_tail_merge_length
+            for candidates in candidate_ranges:
+                valid_candidates = [
+                    idx for idx in candidates
+                    if lower_bound <= idx < upper_bound and not _is_protected_boundary(source_text, idx + 1)
+                ]
+                if valid_candidates:
+                    return min(valid_candidates, key=lambda idx: abs((idx + 1) - target_chunk_length)) + 1
+
+            for token in preferred_soft_tokens:
+                token_index = source_text.rfind(token, lower_bound, upper_bound)
+                if token_index > 0 and not _is_protected_boundary(source_text, token_index):
+                    return token_index
+            return -1
+
+        segments: List[str] = []
+        current = ""
+
+        def _flush_current(force: bool = False):
+            nonlocal current
+            candidate = current.strip()
+            if candidate and (force or len(candidate) >= min_split_length or not segments):
+                segments.append(candidate)
+                current = ""
+
+        for char in stripped_text:
+            current += char
+            current_length = len(current.strip())
+            if current_length < min_split_length:
+                continue
+
+            if char in hard_split_chars and current_length >= target_chunk_length * 0.7:
+                if not _is_protected_boundary(current, len(current)):
+                    _flush_current(force=True)
+                    continue
+
+            if char in "，：,:" and current_length >= target_chunk_length:
+                if not _is_protected_boundary(current, len(current)):
+                    _flush_current(force=True)
+                    continue
+
+            if current_length >= _max_chunk:
+                split_at = _find_best_split_index(current)
+                if split_at > 0:
+                    left = current[:split_at].strip()
+                    right = current[split_at:].strip()
+                    if left:
+                        segments.append(left)
+                    current = right
+                elif current_length >= absolute_max_chunk_length:
+                    fallback_candidates = [idx for idx, ch in enumerate(current) if ch in hard_split_chars + soft_split_chars]
+                    if fallback_candidates:
+                        split_at = fallback_candidates[-1] + 1
+                        left = current[:split_at].strip()
+                        right = current[split_at:].strip()
+                        if left:
+                            segments.append(left)
+                        current = right
+                    else:
+                        _flush_current(force=True)
+
+        if current.strip():
+            if segments and len(current.strip()) < min_tail_merge_length:
+                segments[-1] += current.strip()
+            else:
+                segments.append(current.strip())
+
+        merged_segments: List[str] = []
+        for segment in segments:
+            if merged_segments and len(segment) < min_tail_merge_length:
+                merged_segments[-1] += segment
+            else:
+                merged_segments.append(segment)
+
+        normalized_segments: List[str] = []
+        for segment in merged_segments:
+            if normalized_segments and len(segment) < min_tail_merge_length:
+                normalized_segments[-1] += segment
+            else:
+                normalized_segments.append(segment)
+
+        if len(normalized_segments) <= 1:
+            return [stripped_text]
+
+        print(f"[TTSEngine] 长句切分: {len(stripped_text)}字 -> {len(normalized_segments)}段")
+        for index, segment in enumerate(normalized_segments, start=1):
+            print(f"[TTSEngine]   分段{index}/{len(normalized_segments)} ({len(segment)}字): {segment[:50]}...")
+        return normalized_segments
         """长文本保守语义断句（Fish Speech 复用）"""
         hard_splits = "。！？；!?;"
         max_chunk = 200
@@ -348,14 +575,17 @@ class AudioEngine:
 
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """文本转语音接口"""
-        print(f"\n[TTSEngine] 使用引擎: {self.tts_engine}")
+        print(f"\n[TTSEngine] 使用引擎: {self.tts_engine} (模式: {params.tts_mode})")
         print(f"[TTSEngine] 生成[{params.role}]语音 ({len(params.text)}字): {params.text[:20]}...")
         print(f"  - 音色: {params.role_voice} | 语速: {params.speed} | 音量: {params.volume}")
         
         try:
             start_time = time.time()
             if self.tts_engine == "qwen3-tts":
-                audio = self._text_to_speech_qwen(params)
+                if params.tts_mode == "voice_design":
+                    audio = self._text_to_speech_qwen_voice_design(params)
+                else:
+                    audio = self._text_to_speech_qwen(params)
             elif self.tts_engine == "fish-speech":
                 audio = self._text_to_speech_fish(params)
             else:
@@ -441,129 +671,8 @@ class AudioEngine:
             return text
 
         def _split_long_qwen_text(text: str) -> List[str]:
-            """对超长文本做保守语义断句，避免长句TTS过慢。"""
-            hard_split_chars = "。！？；!?;"
-            soft_split_chars = "，、：,:"
-            preferred_soft_tokens = ["但是", "不过", "然后", "于是", "所以", "只是", "而且", "因为", "如果", "虽然", "然而", "并且", "同时", "并非", "只是说", "况且", "此外"]
-            protected_prefix_tokens = ["就像", "这也是", "比如", "例如", "即便", "哪怕", "如果", "虽然", "但是", "不过", "而且", "并且", "于是", "所以", "只是", "然而", "同时", "却", "却会", "也会", "都", "就", "便", "还会", "仍然"]
-            protected_suffix_tokens = ["来说", "的话", "而言", "之一", "那边", "位置", "原因"]
-            min_split_length = 120
-            target_chunk_length = 280
-            max_chunk_length = 380
-            absolute_max_chunk_length = 500
-            min_tail_merge_length = 24
-
-            stripped_text = text.strip()
-            if len(stripped_text) <= max_chunk_length:
-                return [stripped_text]
-
-            def _is_protected_boundary(source_text: str, split_at: int) -> bool:
-                left_context = source_text[max(0, split_at - 12):split_at]
-                right_context = source_text[split_at:min(len(source_text), split_at + 12)]
-                if any(right_context.startswith(token) for token in protected_prefix_tokens):
-                    return True
-                if any(left_context.endswith(token) for token in protected_suffix_tokens):
-                    return True
-                if right_context[:1] in "）)]】」』":
-                    return True
-                return False
-
-            def _find_best_split_index(source_text: str) -> int:
-                candidate_ranges = [
-                    [idx for idx, ch in enumerate(source_text) if ch in hard_split_chars],
-                    [idx for idx, ch in enumerate(source_text) if ch in "，：,:"] ,
-                    [idx for idx, ch in enumerate(source_text) if ch == '、'],
-                ]
-                lower_bound = max(min_split_length - 1, len(source_text) // 3)
-                upper_bound = len(source_text) - min_tail_merge_length
-                for candidates in candidate_ranges:
-                    valid_candidates = [
-                        idx for idx in candidates
-                        if lower_bound <= idx < upper_bound and not _is_protected_boundary(source_text, idx + 1)
-                    ]
-                    if valid_candidates:
-                        return min(valid_candidates, key=lambda idx: abs((idx + 1) - target_chunk_length)) + 1
-
-                for token in preferred_soft_tokens:
-                    token_index = source_text.rfind(token, lower_bound, upper_bound)
-                    if token_index > 0 and not _is_protected_boundary(source_text, token_index):
-                        return token_index
-                return -1
-
-            segments: List[str] = []
-            current = ""
-
-            def _flush_current(force: bool = False):
-                nonlocal current
-                candidate = current.strip()
-                if candidate and (force or len(candidate) >= min_split_length or not segments):
-                    segments.append(candidate)
-                    current = ""
-
-            for char in stripped_text:
-                current += char
-                current_length = len(current.strip())
-                if current_length < min_split_length:
-                    continue
-
-                if char in hard_split_chars and current_length >= target_chunk_length * 0.7:
-                    if not _is_protected_boundary(current, len(current)):
-                        _flush_current(force=True)
-                        continue
-
-                if char in "，：,:" and current_length >= target_chunk_length:
-                    if not _is_protected_boundary(current, len(current)):
-                        _flush_current(force=True)
-                        continue
-
-                if current_length >= max_chunk_length:
-                    split_at = _find_best_split_index(current)
-                    if split_at > 0:
-                        left = current[:split_at].strip()
-                        right = current[split_at:].strip()
-                        if left:
-                            segments.append(left)
-                        current = right
-                    elif current_length >= absolute_max_chunk_length:
-                        fallback_candidates = [idx for idx, ch in enumerate(current) if ch in hard_split_chars + soft_split_chars]
-                        if fallback_candidates:
-                            split_at = fallback_candidates[-1] + 1
-                            left = current[:split_at].strip()
-                            right = current[split_at:].strip()
-                            if left:
-                                segments.append(left)
-                            current = right
-                        else:
-                            _flush_current(force=True)
-
-            if current.strip():
-                if segments and len(current.strip()) < min_tail_merge_length:
-                    segments[-1] += current.strip()
-                else:
-                    segments.append(current.strip())
-
-            merged_segments: List[str] = []
-            for segment in segments:
-                if merged_segments and len(segment) < min_tail_merge_length:
-                    merged_segments[-1] += segment
-                else:
-                    merged_segments.append(segment)
-
-            normalized_segments: List[str] = []
-            for segment in merged_segments:
-                if normalized_segments and len(segment) < min_tail_merge_length:
-                    normalized_segments[-1] += segment
-                else:
-                    normalized_segments.append(segment)
-
-            if len(normalized_segments) <= 1:
-                return [stripped_text]
-
-            print(f"[TTSEngine] 长句切分: {len(stripped_text)}字 -> {len(normalized_segments)}段")
-            print(f"[TTSEngine] 长句原文: {stripped_text}")
-            for index, segment in enumerate(normalized_segments, start=1):
-                print(f"[TTSEngine]   分段{index}/{len(normalized_segments)} ({len(segment)}字): {segment}")
-            return normalized_segments
+            """克隆模式下文本切分，复用统一断句逻辑"""
+            return self._split_qwen_text(text)
 
         def _generate_voice_chunk(processed_text: str, ref_audio, x_vector_only_mode=True):
             text_len = len(processed_text)
@@ -728,6 +837,146 @@ class AudioEngine:
 
         return audio
 
+    def _text_to_speech_qwen_voice_design(self, params: VoiceParams) -> AudioSegment:
+        """使用 Qwen3-TTS VoiceDesign 模式（文字描述造音色）生成语音，不需要参考音频"""
+        # 强制检测：如果当前加载的模型不支持 voice_design，重新加载 VoiceDesign 模型
+        if self.qwen_tts_model is not None:
+            model_type = getattr(self.qwen_tts_model.model, 'tts_model_type', 'unknown')
+            if model_type == 'base':
+                print(f"[TTSEngine] ⚠️ 检测到 {model_type} 模型不支持 VoiceDesign，强制重新加载 VoiceDesign 模型...")
+                self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+                self.qwen_tts_model = None
+                self._init_qwen_tts_model()
+
+        if self.qwen_tts_model is None:
+            self._init_qwen_tts_model()
+
+        t_line_start = time.time()
+
+        # 1. 获取 VoiceDesign Prompt：优先用 params 传入的，否则从配音表查找
+        vd_prompt = params.voice_design_prompt.strip() if params.voice_design_prompt else None
+        if not vd_prompt:
+            vd_prompt = self._lookup_voice_design_prompt(params.role)
+        if not vd_prompt:
+            # 回退：用配音表中的年龄、性别、性格构造提示词
+            vd_prompt = self._build_fallback_voice_design_prompt(params.role)
+
+        # 2. 拼接剧本语气 instruct
+        instruct = params.instruct.strip() if params.instruct else ""
+        if instruct:
+            full_instruct = f"{vd_prompt}，{instruct}"
+        else:
+            full_instruct = vd_prompt
+
+        print(f"[TTSEngine] VoiceDesign Prompt: {full_instruct}")
+
+        # 3. 文本切分（VoiceDesign 用中等段长：在速度和语气连贯间平衡）
+        cleaned_text = process_polyphone_text(params.text)
+        cleaned_text = cleaned_text.replace('\u201c', '').replace('\u201d', '').replace('\u2018', '').replace('\u2019', '')
+        text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=280)
+
+        # ── 起始稳定化：每段拼"话说，"后固定裁 1.0s（覆盖冷启动+前缀发音）──
+        STABILITY_PREFIX = "话说，"
+        TRIM_SAMPLES = 26400  # 1.1s @ 24000Hz
+
+        import torch
+        all_wavs = []
+        sample_rate = None
+
+        for idx, seg in enumerate(text_segments, 1):
+            if len(text_segments) > 1:
+                print(f"[TTSEngine] VoiceDesign 分段 {idx}/{len(text_segments)} ({len(seg)}字)")
+
+            # 后续分段注入"语气连续"提示，缓解段间语调不一致
+            if idx > 1:
+                seg_instruct = f"语气衔接上文，{full_instruct}"
+            else:
+                seg_instruct = full_instruct
+
+            # 极短文本跳过稳定前缀（<15字冷启动影响可忽略）
+            if len(seg) < 15:
+                actual_text = seg
+                text_len = len(actual_text)
+                max_tokens = min(2048, max(128, text_len * 6))
+            else:
+                # 拼接前缀以稳定冷启动
+                actual_text = STABILITY_PREFIX + seg
+                text_len = len(actual_text)
+                max_tokens = min(2048, max(256, text_len * 8))
+
+            # VoiceDesign 生成
+            result_holder = {}
+            exception_holder = {}
+            done_flag = threading.Event()
+
+            def _run_vd_generate():
+                try:
+                    res = self.qwen_tts_model.generate_voice_design(
+                        text=actual_text, language="Chinese", instruct=seg_instruct,
+                        max_new_tokens=max_tokens,
+                    )
+                    result_holder["result"] = res
+                except Exception as e:
+                    exception_holder["error"] = e
+                finally:
+                    done_flag.set()
+
+            t_seg = time.time()
+            t = threading.Thread(target=_run_vd_generate, daemon=True)
+            t.start()
+            dots = 0
+            dot_interval = 3
+            while not done_flag.wait(timeout=dot_interval):
+                dots += 1
+                elapsed = dots * dot_interval
+                sys.stdout.write(f"\r[TTSEngine]   生成中 ({text_len}字, 已耗时{elapsed}s)...")
+                sys.stdout.flush()
+            if dots > 0:
+                sys.stdout.write("\n")
+                sys.stdout.flush()
+            t.join()
+            if "error" in exception_holder:
+                raise exception_holder["error"]
+
+            elapsed_seg = time.time() - t_seg
+            wavs, sr = result_holder["result"]
+            chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+
+            # 仅在有前缀拼接时才裁剪
+            if len(seg) >= 15 and TRIM_SAMPLES > 0 and len(chunk_audio) > TRIM_SAMPLES:
+                chunk_audio = chunk_audio[TRIM_SAMPLES:]
+
+            wav_duration = len(chunk_audio) / sr if sr else 0
+            rtf = f"{elapsed_seg/wav_duration:.1f}x" if wav_duration > 0 else "?"
+            prefix = f"   分段{idx}/{len(text_segments)}" if len(text_segments) > 1 else f"   单段"
+            print(f"[TTSEngine] {prefix} 完成 | {elapsed_seg:.1f}s | 音频 {wav_duration:.1f}s | RTF {rtf}")
+            all_wavs.append(chunk_audio)
+            sample_rate = sr
+
+        merged = np.concatenate(all_wavs) if len(all_wavs) > 1 else all_wavs[0]
+        merged = np.clip(merged, -1, 1)
+        max_val = np.max(np.abs(merged))
+        if max_val > 0:
+            merged = merged / max_val * 0.9
+
+        audio_data_int16 = (merged * 32767).astype(np.int16)
+        audio = AudioSegment(
+            audio_data_int16.tobytes(),
+            frame_rate=sample_rate,
+            sample_width=audio_data_int16.dtype.itemsize,
+            channels=1
+        )
+        audio = audio.set_frame_rate(self.sample_rate).set_channels(self.channels)
+        if self.target_voice_dbfs is not None and audio.rms > 0:
+            audio = audio.apply_gain(self.target_voice_dbfs - audio.dBFS)
+        audio = audio.fade_in(100)
+
+        # 打印整句耗时汇总
+        t_total = time.time() - t_line_start
+        dur = len(audio) / 1000.0
+        print(f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
+        return audio
+
 
     def _text_to_speech_fish(self, params: VoiceParams) -> AudioSegment:
         """使用 Fish Speech API 引擎生成语音"""
@@ -778,7 +1027,7 @@ class AudioEngine:
         
         text_len = len(text)
         if text_len > 200:
-            segments = _split_long_tts_text(text)
+            segments = self._split_qwen_text(text)
         else:
             segments = [text]
         
@@ -1361,13 +1610,14 @@ class AudioGenerator:
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
                  persist_intermediate_audio: bool = False,
-                 platform: str = "default"):
+                 platform: str = "default", tts_mode: str = "voice_design"):
         if output_dir is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
             output_dir = os.path.join(base_dir, "../../output")
         
         self.json_path = json_path
         self.tts_engine = tts_engine
+        self.tts_mode = tts_mode  # "clone" | "voice_design"
         self.qwen_model_path = qwen_model_path
         self.sfx_engine = sfx_engine
         self.bgm_engine = bgm_engine
@@ -1415,6 +1665,7 @@ class AudioGenerator:
             tts_engine=self.tts_engine,
             qwen_model_path=self.qwen_model_path,
             target_voice_dbfs=self.platform_profile.target_voice_dbfs,
+            tts_mode=self.tts_mode,
         )
         self.total_lines = len(self.config.get("data", []))
 
@@ -1482,7 +1733,8 @@ class AudioGenerator:
                 speed="-8%",
                 volume="+0%",
                 pitch="+0Hz",
-                instruct="庄重开场",
+                instruct="平淡轻快",
+                tts_mode=self.tts_mode,
             )
         else:
             voice_params = VoiceParams(
@@ -1492,7 +1744,8 @@ class AudioGenerator:
                 speed="-5%",
                 volume="+0%",
                 pitch="+0Hz",
-                instruct="温和收束",
+                instruct="平淡轻快",
+                tts_mode=self.tts_mode,
             )
 
         asset_audio = self.audio_engine.text_to_speech(voice_params)
@@ -1825,7 +2078,8 @@ class AudioGenerator:
                 speed=narrator_speed,
                 volume=narrator_volume,
                 pitch=narrator_pitch,
-                instruct="庄重开场",
+                instruct="平淡轻快",
+                tts_mode=self.tts_mode,
             )
             title_audio = self.audio_engine.text_to_speech(voice_params)
             title_audio = title_audio.set_frame_rate(
@@ -2200,7 +2454,11 @@ class AudioGenerator:
         
         if voice_params_dict and 'text' not in voice_params_dict:
             voice_params_dict['text'] = line.get('text', '')
-        
+
+        # 注入全局 tts_mode（JSON 中未指定时使用）
+        if 'tts_mode' not in voice_params_dict:
+            voice_params_dict['tts_mode'] = self.tts_mode
+
         voice_params = VoiceParams(**voice_params_dict)
         
         bgm_params = None
@@ -2275,6 +2533,15 @@ class AudioGenerator:
             )
             generated_new_audio = True
             voice_audio = self.audio_engine.text_to_speech(line_config.voice_params)
+
+            # VoiceDesign 模式：检查配音表中角色但无有效语音属性（如缺失年龄/性别/性格），记录警告
+            if self.tts_mode == "voice_design":
+                for missing_role in self.audio_engine.get_voice_table_missing():
+                    self.record_failed_line(
+                        line_config,
+                        Exception(f"missing_from_voice_table: 角色「{missing_role}」在配音表中但无有效语音属性，已使用兜底 Prompt"),
+                    )
+
             voice_audio.export(voice_output_path, format="wav")
             if self.persist_intermediate_audio:
                 print(f"💾 单句配音已保存: {voice_output_path}")
@@ -2511,10 +2778,10 @@ class AudioGenerator:
 
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
-            print(f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，跳过整章合成")
+            missing_from_voice = any("missing_from_voice_table" in e.get("error", "") for e in self.failed_lines.values())
+            reason = "（配音表缺失）" if missing_from_voice else ""
+            print(f"\n⚠️ 检测到 {failed_count}/{self.total_lines} 句合成失败{reason}，已跳过，将在后续修复配音表后重新合成")
             print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
-            self.audio_engine.clean_temp_files()
-            return None
 
         # 合并所有临时文件（使用 ffmpeg concat 节省内存）
         print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
@@ -2625,10 +2892,10 @@ class AudioGenerator:
 
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
-            print(f"\n🛑 检测到 {failed_count}/{self.total_lines} 句合成失败，跳过整章合成")
+            missing_from_voice = any("missing_from_voice_table" in e.get("error", "") for e in self.failed_lines.values())
+            reason = "（配音表缺失）" if missing_from_voice else ""
+            print(f"\n⚠️ 检测到 {failed_count}/{self.total_lines} 句合成失败{reason}，已跳过，将在后续修复配音表后重新合成")
             print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
-            self.audio_engine.clean_temp_files()
-            return None
 
         # 合并所有临时文件（使用 ffmpeg concat 节省内存）
         print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
@@ -2698,14 +2965,22 @@ class NovelAudioSynthesizer:
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
                  persist_intermediate_audio: bool = False,
-                 platform: str = "default"):
+                 platform: str = "default", tts_mode: str = "voice_design"):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
-        
+
         self.script_dir = script_dir or os.path.join(self.base_dir, "../novel_scripts")
         self.output_dir = output_dir or os.path.join(self.base_dir, "../../output")
         self.tts_engine = tts_engine
-        self.qwen_model_path = qwen_model_path if qwen_model_path else \
-            "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+        self.tts_mode = tts_mode  # "clone" | "voice_design"
+
+        # 自动选择默认模型：VoiceDesign 模式用 VoiceDesign 模型
+        if qwen_model_path:
+            self.qwen_model_path = qwen_model_path
+        elif tts_mode == "voice_design":
+            self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+            print(f"[Synthesizer] VoiceDesign 模式，自动使用模型: {self.qwen_model_path}")
+        else:
+            self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
         self.sfx_engine = sfx_engine
         self.bgm_engine = bgm_engine
         self.persist_intermediate_audio = persist_intermediate_audio
@@ -2787,6 +3062,7 @@ class NovelAudioSynthesizer:
                 bgm_engine=self.bgm_engine,
                 persist_intermediate_audio=self.persist_intermediate_audio,
                 platform=self.platform,
+                tts_mode=self.tts_mode,
             )
             
             return generator.generate_chapter_audio()
@@ -3020,14 +3296,16 @@ if __name__ == "__main__":
                         help="音效生成引擎: woosh | stable-audio-3 (默认: woosh)")
     parser.add_argument("--bgm-engine", type=str, default="stable-audio-3",
                         help="背景音生成引擎: stable-audio-3 | woosh (默认: stable-audio-3)")
-    parser.add_argument("--qwen-model-path", type=str, default="Qwen/Qwen3-TTS-12Hz-1.7B-Base", 
-                        help="Qwen TTS模型路径")
+    parser.add_argument("--qwen-model-path", type=str, default=None, 
+                        help="Qwen TTS模型路径（不指定时根据 --tts-mode 自动选择）")
     parser.add_argument("--persist-intermediate-audio", action="store_true",
                         help="保留单句配音/混音等中间音频文件，默认尽量减少落盘")
     parser.add_argument("--platform", type=str, default="ximalaya",
                         help="输出平台配置，如 default | ximalaya")
     parser.add_argument("--sort-mode", type=str, default="pinyin",
                         help="排序模式: pinyin(拼音排序，默认) | chapter(章节号排序) | name(文件名排序)")
+    parser.add_argument("--tts-mode", type=str, default="voice_design",
+                        help="TTS 合成模式: voice_design(文字描述造音色，默认) | clone(克隆音频)")
     
     args = parser.parse_args()
     
@@ -3040,6 +3318,7 @@ if __name__ == "__main__":
         bgm_engine=args.bgm_engine,
         persist_intermediate_audio=args.persist_intermediate_audio,
         platform=args.platform,
+        tts_mode=args.tts_mode,
     )
     
     if args.json_path:

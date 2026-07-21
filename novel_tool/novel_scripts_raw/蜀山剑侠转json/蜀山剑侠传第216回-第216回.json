@@ -15,127 +15,127 @@
       "speed": "-10%"
     },
     "天灵子": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "阿墨-官方旁白",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "熊血儿": {
-      "role_voice": "元气少年-磁性,性感",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "诸葛警我": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "修远-娱乐,种草",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "虞孝": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "狄鸣歧": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "矮叟朱梅": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "癞姑": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "金银二妹": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "向芳淑": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "项纪": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "妙一真人": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云健-低沉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "赤杖仙童阮纠": {
-      "role_voice": "云澈-温柔,男声,标准男声",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "甘碧梧": {
-      "role_voice": "知性姐姐-温柔,亲切",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "0%"
-    },
-    "丁嫦": {
-      "role_voice": "傲娇女友-甜美,优雅",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "0%"
-    },
-    "姜雪君": {
       "role_voice": "温婉女士-知性,温婉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
-    "追云叟白谷逸": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "-8%"
-    },
-    "神驼乙休": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "0%"
-    },
-    "穷神凌浑": {
-      "role_voice": "云强-浑厚,激昂解说",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "0%"
-    },
-    "青囊仙子华瑶崧": {
+    "丁嫦": {
       "role_voice": "知性姐姐-温柔,亲切",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
+    "姜雪君": {
+      "role_voice": "清冷女神-低沉女声,情感",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "追云叟白谷逸": {
+      "role_voice": "老禅师-老者教导之声",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "神驼乙休": {
+      "role_voice": "书君-苍老声,影视,小说,百科",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "穷神凌浑": {
+      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "青囊仙子华瑶崧": {
+      "role_voice": "顾姐-知性,优雅",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
     "石玉珠": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "仙都二女": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -153,7 +153,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第216回 熊血儿喜得阴雷珠 小仙童初涉人天界",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -287,7 +287,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -336,7 +336,7 @@
       "api": {
         "voice": {
           "role": "甘碧梧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -385,7 +385,7 @@
       "api": {
         "voice": {
           "role": "丁嫦",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "知性姐姐-温柔,亲切",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -404,7 +404,7 @@
       "api": {
         "voice": {
           "role": "甘碧梧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -463,7 +463,7 @@
       "api": {
         "voice": {
           "role": "姜雪君",
-          "role_voice": "温婉女士-知性,温婉",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -482,7 +482,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -512,7 +512,7 @@
       "api": {
         "voice": {
           "role": "姜雪君",
-          "role_voice": "温婉女士-知性,温婉",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -531,7 +531,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -569,7 +569,7 @@
       "api": {
         "voice": {
           "role": "甘碧梧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -588,7 +588,7 @@
       "api": {
         "voice": {
           "role": "姜雪君",
-          "role_voice": "温婉女士-知性,温婉",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -637,7 +637,7 @@
       "api": {
         "voice": {
           "role": "石玉珠",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -686,7 +686,7 @@
       "api": {
         "voice": {
           "role": "仙都二女",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -705,7 +705,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -764,7 +764,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-低沉",
+          "role_voice": "云智-情感,情感男声",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -843,7 +843,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -892,7 +892,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -911,7 +911,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -949,7 +949,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -968,7 +968,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1006,7 +1006,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1082,7 +1082,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1101,7 +1101,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1139,7 +1139,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1177,7 +1177,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1196,7 +1196,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1215,7 +1215,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1253,7 +1253,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1302,7 +1302,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1321,7 +1321,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1340,7 +1340,7 @@
       "api": {
         "voice": {
           "role": "金银二妹",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "文雅女生-温柔,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1359,7 +1359,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1408,7 +1408,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-低沉",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1457,7 +1457,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1476,7 +1476,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-低沉",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1514,7 +1514,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1563,7 +1563,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1612,7 +1612,7 @@
       "api": {
         "voice": {
           "role": "妙一真人",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云健-低沉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1650,7 +1650,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-低沉",
+          "role_voice": "温婉女士-知性,温婉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1669,7 +1669,7 @@
       "api": {
         "voice": {
           "role": "青囊仙子华瑶崧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "顾姐-知性,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1718,7 +1718,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1737,7 +1737,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1756,7 +1756,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1805,7 +1805,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1970,7 +1970,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2027,7 +2027,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2046,7 +2046,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2065,7 +2065,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2084,7 +2084,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2143,7 +2143,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2200,7 +2200,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2219,7 +2219,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2268,7 +2268,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2355,7 +2355,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2374,7 +2374,7 @@
       "api": {
         "voice": {
           "role": "狄鸣歧",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2393,7 +2393,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2469,7 +2469,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2507,7 +2507,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2615,7 +2615,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2760,7 +2760,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2798,7 +2798,7 @@
       "api": {
         "voice": {
           "role": "虞孝",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2817,7 +2817,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2836,7 +2836,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2874,7 +2874,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2923,7 +2923,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2961,7 +2961,7 @@
       "api": {
         "voice": {
           "role": "项纪",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2999,7 +2999,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3018,7 +3018,7 @@
       "api": {
         "voice": {
           "role": "项纪",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3037,7 +3037,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3056,7 +3056,7 @@
       "api": {
         "voice": {
           "role": "项纪",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3094,7 +3094,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3132,7 +3132,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3151,7 +3151,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3170,7 +3170,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3219,7 +3219,7 @@
       "api": {
         "voice": {
           "role": "熊血儿",
-          "role_voice": "元气少年-磁性,性感",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3295,7 +3295,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3352,7 +3352,7 @@
       "api": {
         "voice": {
           "role": "虞孝",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3371,7 +3371,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3390,7 +3390,7 @@
       "api": {
         "voice": {
           "role": "虞孝",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3409,7 +3409,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3428,7 +3428,7 @@
       "api": {
         "voice": {
           "role": "虞孝",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3447,7 +3447,7 @@
       "api": {
         "voice": {
           "role": "狄鸣歧",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3466,7 +3466,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "仗剑侠客-明亮,清亮",
+          "role_voice": "修远-娱乐,种草",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3535,7 +3535,7 @@
       "api": {
         "voice": {
           "role": "虞孝",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3554,7 +3554,7 @@
       "api": {
         "voice": {
           "role": "虞孝",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

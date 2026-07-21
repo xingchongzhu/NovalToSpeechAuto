@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "癞姑": {
-      "role_voice": "云墨-情感,成熟知性",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "谢琳": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "文雅女生-温柔,优雅",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -33,25 +33,25 @@
       "speed": "0%"
     },
     "上官红": {
-      "role_voice": "纯真少女-纯真",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "妖尸": {
-      "role_voice": "性感魅惑-成熟,性感",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "+1Hz",
       "volume": "-2%",
       "speed": "-2%"
     },
     "毒手摩什": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-3Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "朱道者": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -64,12 +64,12 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第249回",
-          "instruct": "庄重开场，引人入胜"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -83,7 +83,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -163,7 +163,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -182,7 +182,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -201,7 +201,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -281,7 +281,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -300,7 +300,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -380,7 +380,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -399,7 +399,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -491,7 +491,7 @@
       "api": {
         "voice": {
           "role": "朱道者",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -510,7 +510,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -566,7 +566,7 @@
       "api": {
         "voice": {
           "role": "朱道者",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -585,7 +585,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -653,7 +653,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -672,7 +672,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -716,7 +716,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -735,7 +735,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -803,7 +803,7 @@
       "api": {
         "voice": {
           "role": "朱道者",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -822,7 +822,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -866,7 +866,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -885,7 +885,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -917,7 +917,7 @@
       "api": {
         "voice": {
           "role": "朱道者",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -936,7 +936,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -992,7 +992,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -1011,7 +1011,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1043,7 +1043,7 @@
       "api": {
         "voice": {
           "role": "朱道者",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1062,7 +1062,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1202,7 +1202,7 @@
       "api": {
         "voice": {
           "role": "毒手摩什",
-          "role_voice": "云毒-低沉,解说大神",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -1221,7 +1221,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1265,7 +1265,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",
@@ -1284,7 +1284,7 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "云健-低沉",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1316,7 +1316,7 @@
       "api": {
         "voice": {
           "role": "妖尸",
-          "role_voice": "性感魅惑-成熟,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "-2%",
           "pitch": "+1Hz",

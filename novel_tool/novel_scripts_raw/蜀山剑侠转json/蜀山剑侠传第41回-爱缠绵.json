@@ -15,49 +15,49 @@
       "speed": "-10%"
     },
     "矮叟朱梅": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "追云叟白谷逸": {
-      "role_voice": "幽默大爷-沙哑,烟嗓",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "-5Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "齐灵云": {
-      "role_voice": "云懿-古风,甜美",
+      "role_voice": "云米-情感,知性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "顽石大师": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "鹤凝-历史,古诗词",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "七星手施林": {
-      "role_voice": "云澈-温柔,男声,标准男声",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "李宁": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "role_voice": "油腻大叔-油桑,低沉",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-6%"
@@ -69,7 +69,7 @@
       "speed": "0%"
     },
     "广慧": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第41回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -147,7 +147,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -227,7 +227,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -276,7 +276,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -356,7 +356,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -405,7 +405,7 @@
       "api": {
         "voice": {
           "role": "矮叟朱梅",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -454,7 +454,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -524,7 +524,7 @@
       "api": {
         "voice": {
           "role": "七星手施林",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -584,7 +584,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -644,7 +644,7 @@
       "api": {
         "voice": {
           "role": "追云叟白谷逸",
-          "role_voice": "幽默大爷-沙哑,烟嗓",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -693,7 +693,7 @@
       "api": {
         "voice": {
           "role": "李宁",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "油腻大叔-油桑,低沉",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -839,7 +839,7 @@
       "api": {
         "voice": {
           "role": "李宁",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "油腻大叔-油桑,低沉",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -888,7 +888,7 @@
       "api": {
         "voice": {
           "role": "李宁",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "油腻大叔-油桑,低沉",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -957,7 +957,7 @@
       "api": {
         "voice": {
           "role": "广慧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1006,7 +1006,7 @@
       "api": {
         "voice": {
           "role": "广慧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1044,7 +1044,7 @@
       "api": {
         "voice": {
           "role": "广慧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1103,7 +1103,7 @@
       "api": {
         "voice": {
           "role": "李宁",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "油腻大叔-油桑,低沉",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1152,7 +1152,7 @@
       "api": {
         "voice": {
           "role": "广慧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1201,7 +1201,7 @@
       "api": {
         "voice": {
           "role": "广慧",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1250,7 +1250,7 @@
       "api": {
         "voice": {
           "role": "余英男",
-          "role_voice": "活泼女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1326,7 +1326,7 @@
       "api": {
         "voice": {
           "role": "余英男",
-          "role_voice": "活泼女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1394,7 +1394,7 @@
       "api": {
         "voice": {
           "role": "余英男",
-          "role_voice": "活泼女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1432,7 +1432,7 @@
       "api": {
         "voice": {
           "role": "余英男",
-          "role_voice": "活泼女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",

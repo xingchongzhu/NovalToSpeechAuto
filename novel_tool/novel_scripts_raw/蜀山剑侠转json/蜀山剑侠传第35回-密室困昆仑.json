@@ -15,19 +15,19 @@
       "speed": "-10%"
     },
     "女昆仑石玉珠": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "俏皮女声-活泼,元气",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "了一": {
-      "role_voice": "云澈-温柔,男声,标准男声",
+      "role_voice": "儒雅总裁-低沉,舒缓",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "法元": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "成熟总裁-成熟,浑厚",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -39,19 +39,19 @@
       "speed": "0%"
     },
     "晓月禅师": {
-      "role_voice": "龙小诚-磁性低音",
+      "role_voice": "诡叔-小说,悬疑,午夜场",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "笑和尚": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -63,37 +63,37 @@
       "speed": "0%"
     },
     "孙南": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "云磊-娱乐,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "齐灵云": {
-      "role_voice": "云懿-古风,甜美",
+      "role_voice": "云米-情感,知性",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "吴文琪": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "轻盈朵朵-官方,标准",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "龙飞": {
-      "role_voice": "云毒-低沉,解说大神",
+      "role_voice": "小乐-诙谐解说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "柳宗潜": {
-      "role_voice": "云名-爽朗,诙谐",
+      "role_voice": "泰龙-小说,影视",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -111,7 +111,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第35回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -165,7 +165,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -214,7 +214,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -324,7 +324,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -373,7 +373,7 @@
       "api": {
         "voice": {
           "role": "女昆仑石玉珠",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -411,7 +411,7 @@
       "api": {
         "voice": {
           "role": "了一",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "儒雅总裁-低沉,舒缓",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -491,7 +491,7 @@
       "api": {
         "voice": {
           "role": "晓月禅师",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "诡叔-小说,悬疑,午夜场",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -561,7 +561,7 @@
       "api": {
         "voice": {
           "role": "法元",
-          "role_voice": "龙小诚-磁性低音",
+          "role_voice": "成熟总裁-成熟,浑厚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -610,7 +610,7 @@
       "api": {
         "voice": {
           "role": "女昆仑石玉珠",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "俏皮女声-活泼,元气",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -659,7 +659,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -708,7 +708,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -768,7 +768,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -847,7 +847,7 @@
       "api": {
         "voice": {
           "role": "智通",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -936,7 +936,7 @@
       "api": {
         "voice": {
           "role": "笑和尚",
-          "role_voice": "云名-爽朗,诙谐",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -995,7 +995,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1044,7 +1044,7 @@
       "api": {
         "voice": {
           "role": "智通",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1103,7 +1103,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "明朗-阳光少年,情感",
+          "role_voice": "洒脱青年-傲娇,桀骜",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1251,7 +1251,7 @@
       "api": {
         "voice": {
           "role": "龙飞",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "小乐-诙谐解说",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1321,7 +1321,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "云米-情感,知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",

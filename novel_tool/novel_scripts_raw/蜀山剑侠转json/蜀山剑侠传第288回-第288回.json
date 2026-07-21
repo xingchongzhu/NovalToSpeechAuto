@@ -15,31 +15,31 @@
       "speed": "-10%"
     },
     "火无害": {
-      "role_voice": "诡异神秘-沙哑,浑厚",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "-3Hz",
       "volume": "+2%",
       "speed": "-5%"
     },
     "伍常山": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "-1Hz",
       "volume": "+2%",
       "speed": "-3%"
     },
     "方瑛": {
-      "role_voice": "云健-低沉",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "元皓": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "易静": {
-      "role_voice": "云萱-情感,优雅知性",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
@@ -57,31 +57,31 @@
       "speed": "-1%"
     },
     "癞姑": {
-      "role_voice": "云墨-情感,成熟知性",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "沙红燕": {
-      "role_voice": "邪魅御姐-性感,邪魅",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+1Hz",
       "volume": "+2%",
       "speed": "-1%"
     },
     "辛凌霄": {
-      "role_voice": "云梦-情感,知性,纯净甜美",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
     },
     "庞化成": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "-3Hz",
       "volume": "+2%",
       "speed": "-4%"
     },
     "留骈": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "-1Hz",
       "volume": "+1%",
       "speed": "-2%"
@@ -93,7 +93,7 @@
       "speed": "-2%"
     },
     "商弘": {
-      "role_voice": "云强-浑厚,激昂解说",
+      "role_voice": "书君-苍老声,影视,小说,百科",
       "pitch": "-2Hz",
       "volume": "+2%",
       "speed": "-4%"
@@ -105,19 +105,19 @@
       "speed": "-4%"
     },
     "廉红药": {
-      "role_voice": "云伊-甜美,解说",
+      "role_voice": "俏皮女声-活泼,元气",
       "pitch": "+3Hz",
       "volume": "-1%",
       "speed": "-1%"
     },
     "万珍": {
-      "role_voice": "云瑶-成熟,知性",
+      "role_voice": "温润学者-磁性,浑厚",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "韩玄": {
-      "role_voice": "文乐-阳光少年,情感",
+      "role_voice": "仗剑侠客-明亮,清亮",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -135,7 +135,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第288回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": [],
         "mix": {
@@ -205,7 +205,7 @@
       "api": {
         "voice": {
           "role": "元皓",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -268,7 +268,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -421,7 +421,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -472,7 +472,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -523,7 +523,7 @@
       "api": {
         "voice": {
           "role": "庞化成",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-3Hz",
@@ -561,7 +561,7 @@
       "api": {
         "voice": {
           "role": "留骈",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "-1Hz",
@@ -599,7 +599,7 @@
       "api": {
         "voice": {
           "role": "庞化成",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-3Hz",
@@ -637,7 +637,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -688,7 +688,7 @@
       "api": {
         "voice": {
           "role": "庞化成",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-3Hz",
@@ -726,7 +726,7 @@
       "api": {
         "voice": {
           "role": "沙红燕",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-1%",
           "volume": "+2%",
           "pitch": "+1Hz",
@@ -777,7 +777,7 @@
       "api": {
         "voice": {
           "role": "沙红燕",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-1%",
           "volume": "+2%",
           "pitch": "+1Hz",
@@ -815,7 +815,7 @@
       "api": {
         "voice": {
           "role": "沙红燕",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-1%",
           "volume": "+2%",
           "pitch": "+1Hz",
@@ -853,7 +853,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -891,7 +891,7 @@
       "api": {
         "voice": {
           "role": "沙红燕",
-          "role_voice": "邪魅御姐-性感,邪魅",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "-1%",
           "volume": "+2%",
           "pitch": "+1Hz",
@@ -910,7 +910,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -948,7 +948,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "云梦-情感,知性,纯净甜美",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -986,7 +986,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1037,7 +1037,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1088,7 +1088,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1139,7 +1139,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1177,7 +1177,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1252,7 +1252,7 @@
       "api": {
         "voice": {
           "role": "癞姑",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "龙应严-义正严辞,客服",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1290,7 +1290,7 @@
       "api": {
         "voice": {
           "role": "商弘",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1353,7 +1353,7 @@
       "api": {
         "voice": {
           "role": "商弘",
-          "role_voice": "云强-浑厚,激昂解说",
+          "role_voice": "书君-苍老声,影视,小说,百科",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -1404,7 +1404,7 @@
       "api": {
         "voice": {
           "role": "韩玄",
-          "role_voice": "文乐-阳光少年,情感",
+          "role_voice": "仗剑侠客-明亮,清亮",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",

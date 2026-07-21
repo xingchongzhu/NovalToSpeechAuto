@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "辛凌霄": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "上官红": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
@@ -33,25 +33,25 @@
       "speed": "-2%"
     },
     "易静": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "清冷女神-低沉女声,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "袁星": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "学霸男同桌-成熟,稳重",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "-1%"
     },
     "米明娘": {
-      "role_voice": "知性姐姐-温柔,亲切",
+      "role_voice": "云词-古代诗人",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "癞姑": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "龙应严-义正严辞,客服",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -63,13 +63,13 @@
       "speed": "-1%"
     },
     "艳尸崔盈": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "+3Hz",
       "volume": "+2%",
       "speed": "+1%"
     },
     "刘遇安": {
-      "role_voice": "云澈-温柔,男声,标准男声",
+      "role_voice": "嚣张小哥-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -87,7 +87,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第237回",
-          "instruct": "庄重开场，沉静有力"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -245,7 +245,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -320,7 +320,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -371,7 +371,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -422,7 +422,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -460,7 +460,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -498,7 +498,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -536,7 +536,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -587,7 +587,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -638,7 +638,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -689,7 +689,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -708,7 +708,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -727,7 +727,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -778,7 +778,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -816,7 +816,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -867,7 +867,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -886,7 +886,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -924,7 +924,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -962,7 +962,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1000,7 +1000,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1038,7 +1038,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1169,7 +1169,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1207,7 +1207,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1258,7 +1258,7 @@
       "api": {
         "voice": {
           "role": "辛凌霄",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1296,7 +1296,7 @@
       "api": {
         "voice": {
           "role": "刘遇安",
-          "role_voice": "云澈-温柔,男声,标准男声",
+          "role_voice": "嚣张小哥-傲娇,桀骜",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1378,7 +1378,7 @@
       "api": {
         "voice": {
           "role": "易静",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "清冷女神-低沉女声,情感",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1397,7 +1397,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1416,7 +1416,7 @@
       "api": {
         "voice": {
           "role": "袁星",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "学霸男同桌-成熟,稳重",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1518,7 +1518,7 @@
       "api": {
         "voice": {
           "role": "艳尸崔盈",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "+1%",
           "volume": "+2%",
           "pitch": "+3Hz",

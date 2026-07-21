@@ -179,7 +179,7 @@ audio { filter:invert(0.85); }
             <th style="border:1px solid #30363d;padding:6px 6px;text-align:left;color:#8b949e;width:36px;">性别</th>
             <th style="border:1px solid #30363d;padding:6px 8px;text-align:left;color:#8b949e;width:100px;">性格</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:180px;">当前配音</th>
-            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;">声音建议</th>
+            <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;">VoiceDesign Prompt</th>
             <th style="border:1px solid #30363d;padding:6px 6px;text-align:left;color:#8b949e;width:48px;">分类</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:200px;">备注</th>
             <th style="border:1px solid #30363d;padding:6px 10px;text-align:left;color:#8b949e;width:56px;">操作</th>
@@ -1242,13 +1242,18 @@ function renderCharVoices(rows) {
       </td>
       <td style="border:1px solid #21262d;padding:4px 6px;">
         <div style="display:flex;align-items:center;gap:4px;">
-          <input id="${rowId}_voice" value="${esc(r.voice)}" data-vp-original="${esc(r.voice)}" readonly style="flex:1;background:#0d1117;border:1px solid #30363d;color:${isDup?'#f0883e':'#c9d1d9'};padding:2px 5px;border-radius:3px;font-size:11px;min-width:0;cursor:pointer;" onclick="openVoicePicker('${rowId}','${escJS(r.char)}','${escJS(r.age||'')}','${escJS(r.gender||'')}','${escJS(r.char_desc||'')}','${escJS(r.voice_suggestion||'')}')" title="点击选择音色">
+          <input id="${rowId}_voice" value="${esc(r.voice)}" data-vp-original="${esc(r.voice)}" readonly style="flex:1;background:#0d1117;border:1px solid #30363d;color:${isDup?'#f0883e':'#c9d1d9'};padding:2px 5px;border-radius:3px;font-size:11px;min-width:0;cursor:pointer;" onclick="openVoicePicker('${rowId}','${escJS(r.char)}','${escJS(r.age||'')}','${escJS(r.gender||'')}','${escJS(r.char_desc||'')}','${escJS(r.vd_prompt||'')}')" title="点击选择音色">
           <button onclick="previewCvVoice('${rowId}')" style="padding:2px 6px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#c9d1d9;border-radius:3px;cursor:pointer;white-space:nowrap;">🔊</button>
         </div>
+        ${renderCvVoiceStyleTags(r.voice)}
         <div id="${rowId}_preview" style="margin-top:2px;"></div>
       </td>
       <td style="border:1px solid #21262d;padding:2px 3px;">
-        <input id="${rowId}_voice_sug" value="${esc(r.voice_suggestion||'')}" oninput="markCvRowEdited('${rowId}')" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 4px;border-radius:3px;font-size:11px;box-sizing:border-box;" title="${esc(r.voice_suggestion||'')}">
+        <div style="display:flex;align-items:flex-start;gap:2px;">
+          <textarea id="${rowId}_vd_prompt" oninput="markCvRowEdited('${rowId}')" style="flex:1;height:56px;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 4px;border-radius:3px;font-size:11px;resize:vertical;overflow-y:auto;box-sizing:border-box;font-family:inherit;line-height:1.4;" rows="3" title="${esc(r.vd_prompt||'')}">${esc(r.vd_prompt||'')}</textarea>
+          ${r.vd_prompt ? `<button onclick="previewVdVoice('${rowId}')" title="VoiceDesign 试听" style="padding:2px 4px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#58a6ff;border-radius:3px;cursor:pointer;white-space:nowrap;flex-shrink:0;">🔊</button>` : ''}
+        </div>
+        <div id="${rowId}_vd_preview" style="margin-top:2px;"></div>
       </td>
       <td style="border:1px solid #21262d;padding:2px 4px;">
         <input id="${rowId}_cat" value="${esc(r.category)}" oninput="markCvRowEdited('${rowId}')" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 3px;border-radius:3px;font-size:11px;box-sizing:border-box;">
@@ -1262,6 +1267,93 @@ function renderCharVoices(rows) {
     </tr>`;
   });
   tbody.innerHTML = html;
+}
+
+// 渲染音色风格标签（在角色配音表中显示当前音色的风格）
+function renderCvVoiceStyleTags(voiceName) {
+  if (!voiceName) return '';
+  const cvtRow = cvtData.find(r => r.name === voiceName);
+  if (!cvtRow) return '';
+  const tags = cvtTags(cvtRow);
+  const allTags = [...(tags.gender === 'female' ? ['女'] : tags.gender === 'male' ? ['男'] : []), ...(tags.age ? [tags.age] : []), ...tags.styles];
+  if (!allTags.length) return '';
+  const styleColors = {
+    '动漫':'#58a6ff','影视':'#ffa657','有声':'#7ee787','新闻':'#8b949e',
+    '情感':'#f0883e','评书':'#d2a8ff','游戏':'#79c0ff',
+    '低沉':'#8b949e','甜美':'#ff7b72','知性':'#a5d6ff','温柔':'#f0883e','活泼':'#7ee787',
+  };
+  return `<div style="display:flex;flex-wrap:wrap;gap:2px;margin-top:2px;">` +
+    allTags.map(t => {
+      const bg = styleColors[t] || '#484f58';
+      const fg = ['甜美','游戏','活泼','动漫','影视','知性','温柔','情感'].includes(t) ? '#0d1117' : '#e6edf3';
+      return `<span style="display:inline-block;background:${bg};color:${fg};padding:0 4px;border-radius:3px;font-size:9px;font-weight:600;">${esc(t)}</span>`;
+    }).join('') + `</div>`;
+}
+
+let vdActiveSse = null;  // 当前 VD 预览的 SSE 连接
+
+async function previewVdVoice(rowId) {
+  const vdPrompt = (document.getElementById(rowId + '_vd_prompt')||{}).value || '';
+  if (!vdPrompt) return;
+  const el = document.getElementById(rowId + '_vd_preview');
+  if (!el) return;
+
+  // 如果已有活跃合成 → 取消
+  if (vdActiveSse) {
+    vdActiveSse.close();
+    vdActiveSse = null;
+    el.innerHTML = '<span style="font-size:10px;color:#f0883e;">⏹ 已取消</span>';
+    return;
+  }
+
+  // toggle off player
+  if (el.querySelector('audio')) { el.innerHTML = ''; return; }
+
+  el.innerHTML = '<span style="font-size:10px;color:#58a6ff;"><span class="spinner"></span> 启动 VoiceDesign 合成...</span>';
+  try {
+    const res = await api('/api/lab/vd-preview', {
+      method: 'POST',
+      body: JSON.stringify({vd_prompt: vdPrompt}),
+      headers: {'Content-Type': 'application/json'}
+    });
+    if (res.error) { el.innerHTML = `<span style="font-size:10px;color:#f0883e;">${esc(res.error)}</span>`; return; }
+
+    const tid = res.task_id;
+    // 连接到 SSE 获取实时日志
+    const sse = new EventSource('/api/generate/log?task_id=' + encodeURIComponent(tid));
+    vdActiveSse = sse;
+    let logLines = [];
+    let maxLogs = 5;
+
+    el.innerHTML = '<span style="font-size:10px;color:#58a6ff;">🎤 合成中... <a href="#" onclick="previewVdVoice(\'' + rowId + '\');return false;" style="color:#f0883e;text-decoration:underline;">取消</a></span>';
+
+    sse.onmessage = function(e) {
+      try {
+        const msg = JSON.parse(e.data);
+        if (msg.type === 'log') {
+          logLines.push(msg.data);
+          if (logLines.length > maxLogs) logLines = logLines.slice(-maxLogs);
+          const logsHtml = logLines.map(l => `<div style="font-size:10px;color:#8b949e;">${esc(l)}</div>`).join('');
+          el.innerHTML = `<span style="font-size:10px;color:#58a6ff;">🎤 合成中... <a href="#" onclick="previewVdVoice('${rowId}');return false;" style="color:#f0883e;text-decoration:underline;">取消</a></span>` + logsHtml;
+        } else if (msg.type === 'done') {
+          el.innerHTML = `<audio controls autoplay src="${fileUrl(msg.data)}" style="width:100%;height:24px;"></audio>`;
+          sse.close();
+          vdActiveSse = null;
+        } else if (msg.type === 'error') {
+          el.innerHTML = `<span style="font-size:10px;color:#f0883e;">${esc(msg.data)}</span>`;
+          sse.close();
+          vdActiveSse = null;
+        }
+      } catch(ex) {}
+    };
+    sse.onerror = function() {
+      if (vdActiveSse === sse) {
+        el.innerHTML = '<span style="font-size:10px;color:#f0883e;">连接中断</span>';
+      }
+    };
+  } catch(e) {
+    el.innerHTML = `<span style="font-size:10px;color:#f0883e;">请求失败: ${esc(String(e))}</span>`;
+  }
 }
 
 function previewCvVoice(rowId) {
@@ -1285,7 +1377,7 @@ function onCvVoiceChange(rowId) {
 let vpTargetRowId = '';
 let vpFiltered = [];
 
-async function openVoicePicker(rowId, charName, age, gender, charDesc, voiceSug) {
+async function openVoicePicker(rowId, charName, age, gender, charDesc, vdPrompt) {
   vpTargetRowId = rowId;
   document.getElementById('vp-target-char').textContent = `→ 为「${charName}」选择`;
   const descEl = document.getElementById('vp-char-desc');
@@ -1293,7 +1385,7 @@ async function openVoicePicker(rowId, charName, age, gender, charDesc, voiceSug)
   if (age) descParts.push(`🎂 年龄：${age}`);
   if (gender) descParts.push(`🧑 性别：${gender}`);
   if (charDesc) descParts.push(`📝 性格：${charDesc}`);
-  if (voiceSug) descParts.push(`🎤 声音建议：${voiceSug}`);
+  if (vdPrompt) descParts.push(`🎤 VoiceDesign：${vdPrompt}`);
   if (descParts.length) {
     descEl.innerHTML = descParts.join('<br>');
     descEl.style.display = 'block';
@@ -1339,7 +1431,13 @@ function filterVp() {
       } else if (!tags.langs.some(l => l.includes(lang) || lang.includes(l))) return false;
     }
     if (style && !tags.styles.some(s => s.includes(style) || style.includes(s))) return false;
-    if (q && !r.name.toLowerCase().includes(q) && !r.feature.toLowerCase().includes(q)) return false;
+    if (q) {
+      const searchFields = [
+        r.name, r.feature, r.subsection, r.scene, r.style, r.lang, r.gender, r.age, r.section,
+        ...tags.styles, ...tags.langs, tags.age||'', tags.gender||''
+      ].filter(Boolean).map(s => s.toLowerCase());
+      if (!searchFields.some(f => f.includes(q))) return false;
+    }
     return true;
   }) : voicesData.filter(v => !q || v.name.toLowerCase().includes(q));
 
@@ -1357,6 +1455,12 @@ function renderVpList() {
     if (!grouped[sec]) grouped[sec] = [];
     grouped[sec].push(r);
   });
+  // 风格颜色映射
+  const styleColors = {
+    '动漫':'#58a6ff','影视':'#ffa657','有声':'#7ee787','新闻':'#8b949e',
+    '情感':'#f0883e','评书':'#d2a8ff','游戏':'#79c0ff',
+    '低沉':'#8b949e','甜美':'#ff7b72','知性':'#a5d6ff','温柔':'#f0883e','活泼':'#7ee787',
+  };
   let html = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px;">';
   for (const [sec, items] of Object.entries(grouped)) {
     html += `<div style="grid-column:1/-1;font-size:11px;color:#8b949e;padding:4px 0 2px;border-bottom:1px solid #21262d;">${esc(sec)}</div>`;
@@ -1364,17 +1468,28 @@ function renderVpList() {
       const name = r.name || r.name;
       const sub = r.subsection ? r.subsection.replace(/（共.*?个）/, '') : '';
       const feat = r.feature || '';
+      const tags = cvtTags(r);
       const hasAudio = voicesData.some(v => v.name === name);
       // 查找哪些角色使用了此音色
       const usedByChars = charVoicesData.filter(cv => cv.voice === name).map(cv => cv.char);
       const usedByStr = usedByChars.length ? `👥 已用于：${usedByChars.slice(0,3).join('、')}${usedByChars.length>3?' 等'+usedByChars.length+'个角色':''}` : '';
+      // 生成风格标签
+      const styleTags = tags.styles.map(s => `<span style="display:inline-block;background:${styleColors[s]||'#484f58'};color:#0d1117;padding:0 4px;border-radius:3px;font-size:9px;margin-right:3px;font-weight:600;">${esc(s)}</span>`).join('');
+      // 性别+年龄标签
+      const metaTags = [];
+      if (tags.gender === 'female') metaTags.push('👩');
+      else if (tags.gender === 'male') metaTags.push('👨');
+      if (tags.age) metaTags.push(tags.age);
+      const metaStr = metaTags.length ? `<span style="font-size:10px;color:#484f58;">${metaTags.join('·')}</span>` : '';
       html += `<div class="vp-card" data-vp-name="${escJS(name)}" style="background:#0d1117;border:1px solid #30363d;border-radius:4px;padding:5px 8px;cursor:pointer;display:flex;flex-direction:column;gap:3px;"
           onclick="selectVpVoice('${escJS(name)}')"
           onmouseenter="this.style.borderColor='#58a6ff'" onmouseleave="this.style.borderColor='#30363d'">
         <div style="display:flex;align-items:center;gap:4px;">
           <span style="color:#ffa657;font-size:11px;font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(name)}</span>
+          ${metaStr}
           ${hasAudio ? `<span style="font-size:10px;cursor:pointer;color:#58a6ff;" onclick="event.stopPropagation();previewVpAudio('${escJS(name)}','${escJS(name)}_vp')" title="试听">🔊</span>` : ''}
         </div>
+        ${styleTags ? `<div style="display:flex;flex-wrap:wrap;gap:2px;">${styleTags}</div>` : ''}
         <div style="font-size:10px;color:#8b949e;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${esc(feat)}">${esc(sub)} ${esc(feat.substring(0,30))}${feat.length>30?'…':''}</div>
         ${usedByStr ? `<div style="font-size:10px;color:#d2a8ff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${esc(usedByChars.join('、'))}">${usedByStr}</div>` : ''}
         <div id="${escJS(name)}_vp" style=""></div>
@@ -1505,7 +1620,7 @@ async function saveCvRow(charName, rowId) {
   const newDesc = (document.getElementById(rowId + '_desc')||{}).value || '';
   const newAge = (document.getElementById(rowId + '_age')||{}).value || '';
   const newGender = (document.getElementById(rowId + '_gender')||{}).value || '';
-  const newVoiceSug = (document.getElementById(rowId + '_voice_sug')||{}).value || '';
+  const newVdPrompt = (document.getElementById(rowId + '_vd_prompt')||{}).value || '';
   let newNote = (document.getElementById(rowId + '_note')||{}).value || '';
   newNote = newNote.replace(/\s*\|\s*⚠\s*配音与「.+」重复\s*$/, '').trim();
   if (!newVoice) { alert('请选择配音'); return; }
@@ -1517,16 +1632,16 @@ async function saveCvRow(charName, rowId) {
       method: 'POST',
       body: JSON.stringify({novel: charVoicesNovel, char: charName, voice: newVoice,
                             new_char: newChar, category: newCat, char_desc: newDesc, note: newNote,
-                            age: newAge, gender: newGender, voice_suggestion: newVoiceSug}),
+                            age: newAge, gender: newGender, vd_prompt: newVdPrompt}),
       headers: {'Content-Type': 'application/json'}
     });
     if (res.error) { alert('保存失败: ' + res.error); btn.textContent = origText; btn.disabled = false; return; }
     const row = charVoicesData.find(r => r.char === charName);
     if (row) { row.voice = newVoice; row.char = newChar; row.category = newCat; row.char_desc = newDesc; row.note = newNote;
-               row.age = newAge; row.gender = newGender; row.voice_suggestion = newVoiceSug; }
+               row.age = newAge; row.gender = newGender; row.vd_prompt = newVdPrompt; }
     const fRow = charVoicesFiltered.find(r => r.char === charName);
     if (fRow) { fRow.voice = newVoice; fRow.char = newChar; fRow.category = newCat; fRow.char_desc = newDesc; fRow.note = newNote;
-                fRow.age = newAge; fRow.gender = newGender; fRow.voice_suggestion = newVoiceSug; }
+                fRow.age = newAge; fRow.gender = newGender; fRow.vd_prompt = newVdPrompt; }
     document.getElementById(rowId).dataset.char = newChar;
     markCvRowSaved(rowId);
     const voiceInput = document.getElementById(rowId + '_voice');

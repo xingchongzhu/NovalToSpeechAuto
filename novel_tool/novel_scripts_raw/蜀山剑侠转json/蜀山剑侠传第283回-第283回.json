@@ -15,91 +15,91 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "洒脱青年-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "俞峦": {
-      "role_voice": "云萱-情感,优雅知性",
+      "role_voice": "老禅师-老者教导之声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "石完": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+2%"
     },
     "钱莱": {
-      "role_voice": "君凯-阳光少年,情感",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "石生": {
-      "role_voice": "文乐-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "石奇": {
-      "role_voice": "风发少年-潇洒,磁性",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "李健": {
-      "role_voice": "开朗男生-开朗,阳光",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "阴素棠": {
-      "role_voice": "云墨-情感,成熟知性",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "赤城子": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "云强-浑厚,激昂解说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "金神君": {
-      "role_voice": "诡异神秘-沙哑,浑厚",
+      "role_voice": "幽默大爷-沙哑,烟嗓",
       "pitch": "-5Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "洪真武": {
-      "role_voice": "云森-沧桑男声,忧郁深邃",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "-3Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "上官红": {
-      "role_voice": "甜美小橘-甜妹",
+      "role_voice": "傲娇女友-甜美,优雅",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "云九姑": {
-      "role_voice": "温婉女士-知性,温婉",
+      "role_voice": "小莉-女声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "赵燕儿": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "君凯-阳光少年,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -123,7 +123,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第283回",
-          "instruct": "庄重沉稳，悬念开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -200,7 +200,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -219,7 +219,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -238,7 +238,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -313,7 +313,7 @@
       "api": {
         "voice": {
           "role": "赤城子",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-3%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -364,7 +364,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -427,7 +427,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -478,7 +478,7 @@
       "api": {
         "voice": {
           "role": "阴素棠",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -497,7 +497,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -548,7 +548,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -567,7 +567,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -630,7 +630,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -705,7 +705,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -768,7 +768,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -819,7 +819,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -870,7 +870,7 @@
       "api": {
         "voice": {
           "role": "阴素棠",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -921,7 +921,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -959,7 +959,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1022,7 +1022,7 @@
       "api": {
         "voice": {
           "role": "阴素棠",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1041,7 +1041,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1116,7 +1116,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1154,7 +1154,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1173,7 +1173,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1192,7 +1192,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1230,7 +1230,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1293,7 +1293,7 @@
       "api": {
         "voice": {
           "role": "阴素棠",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1331,7 +1331,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1350,7 +1350,7 @@
       "api": {
         "voice": {
           "role": "阴素棠",
-          "role_voice": "云墨-情感,成熟知性",
+          "role_voice": "云强-浑厚,激昂解说",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -1388,7 +1388,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1451,7 +1451,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1489,7 +1489,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1527,7 +1527,7 @@
       "api": {
         "voice": {
           "role": "李健",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "君凯-阳光少年,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1546,7 +1546,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1584,7 +1584,7 @@
       "api": {
         "voice": {
           "role": "金神君",
-          "role_voice": "诡异神秘-沙哑,浑厚",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1635,7 +1635,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1710,7 +1710,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1773,7 +1773,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1824,7 +1824,7 @@
       "api": {
         "voice": {
           "role": "石奇",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1887,7 +1887,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1925,7 +1925,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1963,7 +1963,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2109,7 +2109,7 @@
       "api": {
         "voice": {
           "role": "石奇",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2166,7 +2166,7 @@
       "api": {
         "voice": {
           "role": "石奇",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2223,7 +2223,7 @@
       "api": {
         "voice": {
           "role": "石奇",
-          "role_voice": "风发少年-潇洒,磁性",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2422,7 +2422,7 @@
       "api": {
         "voice": {
           "role": "石完",
-          "role_voice": "开朗男生-开朗,阳光",
+          "role_voice": "幽默大爷-沙哑,烟嗓",
           "speed": "+2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2509,7 +2509,7 @@
       "api": {
         "voice": {
           "role": "洪真武",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -2572,7 +2572,7 @@
       "api": {
         "voice": {
           "role": "朱文",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "云妙-情感主播,有声读物",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2635,7 +2635,7 @@
       "api": {
         "voice": {
           "role": "洪真武",
-          "role_voice": "云森-沧桑男声,忧郁深邃",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -2698,7 +2698,7 @@
       "api": {
         "voice": {
           "role": "俞峦",
-          "role_voice": "云萱-情感,优雅知性",
+          "role_voice": "老禅师-老者教导之声",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2749,7 +2749,7 @@
       "api": {
         "voice": {
           "role": "上官红",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "傲娇女友-甜美,优雅",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",

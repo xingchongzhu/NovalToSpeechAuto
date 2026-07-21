@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "齐灵云": {
-      "role_voice": "云懿-古风,甜美",
+      "role_voice": "云米-情感,知性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "花绿绮": {
-      "role_voice": "甜美小橘-甜妹",
+      "role_voice": "霸气青叔-磁性,性感",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -33,37 +33,37 @@
       "speed": "-8%"
     },
     "尸毗老人": {
-      "role_voice": "神秘法师-低沉,浑厚",
+      "role_voice": "傲娇精英-傲娇,磁性",
       "pitch": "-5Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "孙南": {
-      "role_voice": "儒雅青年-磁性,性感",
+      "role_voice": "云磊-娱乐,情感",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "朱文": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云妙-情感主播,有声读物",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "申若兰": {
-      "role_voice": "傲娇女友-甜美,优雅",
+      "role_voice": "云蒂-知性,磁性",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "白衣幼女": {
-      "role_voice": "清甜桃桃-清纯,自然",
+      "role_voice": "开朗小雪-清冷女声,影视,情感",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "吴文琪": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "轻盈朵朵-官方,标准",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第274回",
-          "instruct": "庄重沉稳，悬念开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -151,7 +151,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -226,7 +226,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -301,7 +301,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -339,7 +339,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -358,7 +358,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -396,7 +396,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -415,7 +415,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -434,7 +434,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -529,7 +529,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -548,7 +548,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -586,7 +586,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -637,7 +637,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -656,7 +656,7 @@
       "api": {
         "voice": {
           "role": "花绿绮",
-          "role_voice": "甜美小橘-甜妹",
+          "role_voice": "霸气青叔-磁性,性感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -719,7 +719,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -776,7 +776,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -814,7 +814,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -901,7 +901,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -939,7 +939,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -977,7 +977,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -996,7 +996,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1015,7 +1015,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1053,7 +1053,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1091,7 +1091,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1266,7 +1266,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1304,7 +1304,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1342,7 +1342,7 @@
       "api": {
         "voice": {
           "role": "尸毗老人",
-          "role_voice": "神秘法师-低沉,浑厚",
+          "role_voice": "傲娇精英-傲娇,磁性",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -1468,7 +1468,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1506,7 +1506,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1588,7 +1588,7 @@
       "api": {
         "voice": {
           "role": "吴文琪",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "轻盈朵朵-官方,标准",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1626,7 +1626,7 @@
       "api": {
         "voice": {
           "role": "吴文琪",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "轻盈朵朵-官方,标准",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1886,7 +1886,7 @@
       "api": {
         "voice": {
           "role": "白衣幼女",
-          "role_voice": "清甜桃桃-清纯,自然",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1924,7 +1924,7 @@
       "api": {
         "voice": {
           "role": "齐灵云",
-          "role_voice": "云婷-电台,温柔",
+          "role_voice": "云米-情感,知性",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1943,7 +1943,7 @@
       "api": {
         "voice": {
           "role": "白衣幼女",
-          "role_voice": "清甜桃桃-清纯,自然",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1994,7 +1994,7 @@
       "api": {
         "voice": {
           "role": "白衣幼女",
-          "role_voice": "清甜桃桃-清纯,自然",
+          "role_voice": "开朗小雪-清冷女声,影视,情感",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",

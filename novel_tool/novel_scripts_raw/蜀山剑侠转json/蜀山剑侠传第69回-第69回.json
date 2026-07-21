@@ -15,31 +15,31 @@
       "speed": "-10%"
     },
     "白琦": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云彦-古风,小说",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "戴衡玉": {
-      "role_voice": "云风-沉稳,自然男声",
+      "role_voice": "俊逸公子-成熟,稳重",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-3%"
     },
     "许超": {
-      "role_voice": "明朗-阳光少年,情感",
+      "role_voice": "幽默叔叔-亲和,明亮",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "赵心源": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "云成-阅读,标准",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "黄玄极": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "东方浩然-古代文豪",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -51,7 +51,7 @@
       "speed": "0%"
     },
     "佟元奇": {
-      "role_voice": "云诚-成熟,标准男声",
+      "role_voice": "云风-沉稳,自然男声",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -63,43 +63,43 @@
       "speed": "-3%"
     },
     "文琪": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "老伯-沧桑岁月爷",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "轻云": {
-      "role_voice": "开朗小雪-清冷女声,影视,情感",
+      "role_voice": "龙小诚-磁性低音",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "何玫": {
-      "role_voice": "俏皮女声-活泼,元气",
+      "role_voice": "撒娇学妹-撒娇,可爱",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "俞允中": {
-      "role_voice": "病弱少年-低缓,病弱",
+      "role_voice": "病娇白莲-低沉,病娇",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "凌云凤": {
-      "role_voice": "云萱-情感,优雅知性",
+      "role_voice": "温柔女神-女神,温柔",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "戴湘英": {
-      "role_voice": "元气甜妹-元气,甜美",
+      "role_voice": "云蕾-清脆,标准",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "虞舜农": {
-      "role_voice": "仗剑侠客-明亮,清亮",
+      "role_voice": "中二青年-傲娇,桀骜",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -117,7 +117,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第69回",
-          "instruct": "庄重开场"
+          "instruct": "平淡轻快"
         },
         "effects": []
       },
@@ -171,7 +171,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -240,7 +240,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -299,7 +299,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -358,7 +358,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -396,7 +396,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -434,7 +434,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -472,7 +472,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -510,7 +510,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -529,7 +529,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -578,7 +578,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -597,7 +597,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -616,7 +616,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -635,7 +635,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -654,7 +654,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -673,7 +673,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -692,7 +692,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -741,7 +741,7 @@
       "api": {
         "voice": {
           "role": "俞允中",
-          "role_voice": "儒雅青年-磁性,性感",
+          "role_voice": "病娇白莲-低沉,病娇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -790,7 +790,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -849,7 +849,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -868,7 +868,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -887,7 +887,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -906,7 +906,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -955,7 +955,7 @@
       "api": {
         "voice": {
           "role": "凌云凤",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "温柔女神-女神,温柔",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1014,7 +1014,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1073,7 +1073,7 @@
       "api": {
         "voice": {
           "role": "铁蓑道人",
-          "role_voice": "云风-沉稳,自然男声",
+          "role_voice": "神秘法师-低沉,浑厚",
           "speed": "-3%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1122,7 +1122,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1221,7 +1221,7 @@
       "api": {
         "voice": {
           "role": "文琪",
-          "role_voice": "俏皮女声-活泼,元气",
+          "role_voice": "老伯-沧桑岁月爷",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1270,7 +1270,7 @@
       "api": {
         "voice": {
           "role": "何玫",
-          "role_voice": "开朗小雪-清冷女声,影视,情感",
+          "role_voice": "撒娇学妹-撒娇,可爱",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1308,7 +1308,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1346,7 +1346,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1365,7 +1365,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1384,7 +1384,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1403,7 +1403,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1452,7 +1452,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1490,7 +1490,7 @@
       "api": {
         "voice": {
           "role": "佟元奇",
-          "role_voice": "云诚-成熟,标准男声",
+          "role_voice": "云风-沉稳,自然男声",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1509,7 +1509,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1558,7 +1558,7 @@
       "api": {
         "voice": {
           "role": "玉清大师",
-          "role_voice": "知性姐姐-温柔,亲切",
+          "role_voice": "云墨-情感,成熟知性",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1637,7 +1637,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "傲娇女友-甜美,优雅",
+          "role_voice": "龙小诚-磁性低音",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
