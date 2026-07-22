@@ -63,7 +63,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第8回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -82,7 +82,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说周淳听见那家院内有哭喊救命之声，连忙纵身上屋，用目往院中一看。只见当院一个和尚，手执一把戒刀，正在威胁一个妇人，说道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -93,7 +93,9 @@
             "sound_cn": "纵身跳上屋顶的轻响",
             "sound_en": "light landing on roof tiles, soft thud",
             "volume": "-24%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "说周淳听见那",
+            "trigger_offset": 0
           }
         ]
       },
@@ -112,7 +114,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那妇人说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -131,7 +133,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，又喊了两声救命。那和尚正待动手，周淳已是忍耐不住，便道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -169,7 +171,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话到人到剑也到，一道寒光，直往和尚当胸刺去。那和尚见他来势甚急，也不由吃了一惊，一个箭步纵了出来，丢下手上戒刀，抄起身旁禅杖，急架相还。战了几个回合，忽然一声怪笑，说道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -180,7 +182,9 @@
             "sound_cn": "宝剑出鞘的金属声",
             "sound_en": "sword being drawn from sheath, metallic shing",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "话到人到剑也",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2,
@@ -190,17 +194,21 @@
             "sound_cn": "剑刺出的破风声",
             "sound_en": "sword thrusting through air, sharp whoosh",
             "volume": "-20%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "到人到剑也到",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 5,
+            "trigger_delay": 22.3,
             "duration": 3,
             "process_mode": "overlay",
             "name": "禅杖格挡",
             "sound_cn": "禅杖与剑碰撞的金属声",
             "sound_en": "staff clashing with sword, metallic clang",
             "volume": "-16%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "禅杖，急",
+            "trigger_offset": 0
           }
         ]
       },
@@ -238,7 +246,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，一根禅杖如飞电一般滚将过来。周淳听了那和尚的话来路蹊跷，仔细一看，原是半年来时刻提防的多臂熊毛太，不想今日无意中在此相遇。已知他艺业大进，自己一定不是对手。便将手中剑紧了一紧，使了个长蛇出洞势，照毛太咽喉刺去。和尚见来势太猛，不由将身一闪。周淳乘此机会，蹿出圈外，说道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -249,7 +257,9 @@
             "sound_cn": "禅杖横扫的风声",
             "sound_en": "staff sweeping through air, heavy whoosh",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "一根禅杖如飞",
+            "trigger_offset": 0
           }
         ]
       },
@@ -325,7 +335,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳这番话，原是无中生有的一番急智。谁知毛太听了，信以为实，不禁心惊。心想：“周淳如拜餐霞大师为师，我的剑术一定不是他的对手。但是自己好容易十年心血，今天不报此仇，也大不甘心。”便对周淳道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -382,7 +392,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，二人又打在一处。只见寒光凛凛，冷气森森，两人正是不分上下。周淳杀得兴起，便道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -393,7 +403,9 @@
             "sound_cn": "刀剑与禅杖连续碰撞声",
             "sound_en": "continuous clashing of sword and staff, rapid metal strikes",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "二人又打在一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -450,7 +462,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时，那个妇人已逃得不知去向。二人一前一后，由院内纵到墙外的一片空地上，重新又动起手来。仇人见面，分外眼红，施展平生武艺，杀了个难解难分。周淳见毛太越杀越勇，果然不是当年阿蒙。又恐他放出飞剑，自己不是敌手，百忙中把手中宝剑紧了一紧。恰好毛太使了一个泰山压顶的架势，当头一禅杖打到。周淳便将身子一闪。毛太更不怠慢，急转禅杖的那一头，向周淳腰间横扫过来。周淳见来势甚猛，不敢用剑去拦，将脚一点，身子纵起有七八尺以上。毛太见了大喜，乘周淳身子悬起尚未落地之时，将禅杖一挥，照周淳脚上扫去。周淳早已料到他必有此一举，更不怠慢，毛太禅杖未到时，将右脚站在左脚面上，借势一用力，不但不往下落，反向上蹿高数尺。这是轻身法中的蜻蜓点水、燕子飞云踪的功夫，乃周淳平生的绝技。毛太一杖打空，因为用力过猛，身子不禁往前晃了一晃。周淳忽地一个仙鹤盘云势，连剑带人，直往毛太顶上扑下。毛太喊了一声\"不好\"，急忙脚下一用劲，身子平斜往前纵将出去，虽然是逃得快，已被周淳的剑尖将左臂划破了四五寸长一道血槽，愈发忿怒非凡。周淳不容毛太站定，又是飞身一剑刺将过来。毛太好似疯了的野兽一般，急转身和周淳拼命相持。\n\n这时已是将近黄昏，周淳战了半日，知是轻易不能取胜，忽地将身一纵，将剑一舞，形成丈许长的一道剑花。毛太又疑心他使什么绝技，稍一凝神。周淳乘机拔腿就跑。毛太见仇人逃走，如何肯善罢甘休，急忙紧紧在后头追赶。周淳一面跑，一面悄悄将连珠弩取出，拿在手中。毛太见周淳脚步渐慢，正待纵身向前。周淳忽地回头，手儿一扬，道一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -461,17 +473,21 @@
             "sound_cn": "连续打斗声，兵器碰撞与脚步",
             "sound_en": "ongoing fight, clashing and footsteps",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "那个妇人已逃",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 14,
+            "trigger_delay": 233.1,
             "duration": 2,
             "process_mode": "overlay",
             "name": "纵身声响",
             "sound_cn": "周淳纵身跃起的声音",
             "sound_en": "springing up, light leap",
             "volume": "-22%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "纵身向前",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 30,
@@ -481,17 +497,21 @@
             "sound_cn": "剑尖划破皮肉的声音",
             "sound_en": "sword cutting flesh, slicing",
             "volume": "-16%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "然不是当年阿",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 50,
+            "trigger_delay": 230.8,
             "duration": 3,
             "process_mode": "overlay",
             "name": "奔跑脚步",
             "sound_cn": "周淳奔跑的脚步声",
             "sound_en": "running footsteps, rapid pace",
             "volume": "-24%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "步渐慢，",
+            "trigger_offset": 0
           }
         ]
       },
@@ -529,7 +549,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "只见一线寒光，直望毛太面门。毛太知是暗器，急忙将头一低，避将过去。谁想周淳的连珠钢弩，一发就是十二支，不到危险时，轻易不取出来使用；如用时，任你多大武艺，也难以躲避。毛太如何知道厉害，刚刚躲过头一支，接二连三的弩箭，如飞蝗般射到。好毛太，连跳带接。等到第七支上，万没想到周淳忽将五支弩箭同时发出：一支取咽喉，两支取腹部，两支取左右臂，这个名叫五朵梅花穿云弩。任你毛大善于躲避，也中了两箭：一支中在左臂，尚不打紧；一支恰好射到面门。原来毛太见来势甚急，无法躲避，满想用口去接，谁想左臂所中之箭在先，又要避那一支，一时心忙意乱，顾了那头，顾不了这头，一个疏忽，将门牙打断了两个。立刻血流如注，疼痛难忍，没奈何只得忍痛回身便跑。周淳本当得意不可再追才是，因见毛太受伤，心中一高兴，回转身就追。\n\n那毛太因听周淳之言，他已拜餐霞大师为师，所以不敢用飞剑敌他。后来两人打了半日，不见胜负，又急又恨，也就忘了用剑。及至毛太受伤，周淳反身追了过去，不禁省悟过来。心想：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -540,7 +560,9 @@
             "sound_cn": "弩箭飞射的破空声",
             "sound_en": "crossbow bolts flying, whistling",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "见一线寒光",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8,
@@ -550,7 +572,9 @@
             "sound_cn": "连续弩箭射出的声音",
             "sound_en": "rapid bolt firing, multiple shots",
             "volume": "-20%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "急忙将头一低",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18,
@@ -560,7 +584,9 @@
             "sound_cn": "弩箭射中面部的声音",
             "sound_en": "bolt hitting face, thud",
             "volume": "-16%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "不到危险时",
+            "trigger_offset": 0
           }
         ]
       },
@@ -598,18 +624,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正想之间，回头一看，周淳追赶已是相离不远。便将身回转，取出金身罗汉法元所赐的赤阴剑，手扬处，一道黄光，向周淳飞来。周淳正追之际，忽见毛太回身，便怕他是要放剑，正后悔穷寇莫追，自己太为大意，毛太已将剑光放出。周淳知道厉害，拨转身如飞一般向前奔逃。毛太一见，知道以前周淳说拜餐霞为师的一番话全是假的，自己上了他老大一个当，愈加忿怒，催动剑光，从后追来。周淳已跑入一片树林之内，剑光过处，树枝纷纷坠落如雨。\n\n这时周淳与剑光相离不过一二丈光景，危险已极。知道性命难逃，只得瞑目待死。\n\n毛太见周淳已临绝地，得意至极，不禁哈哈大笑。这时剑光已在周淳顶上，往下一落，便要身首异处。在这间不容发的当儿，忽然一声长啸，由一株树上，飞下一道青光，其疾如电，恰恰迎头将黄光敌住。在这天色昏黑的时候，一青一黄，两道剑光，如神龙夭矫，在天空飞舞，煞是好看。毛太满想周淳准死在他的剑下，忽然凭空来了这一个硬对头，不禁又是急又是怒。周淳正待瞑目就死，忽然半晌不见动静。抬头一看，黄光已离去顶上，和空中一道青光相持。知有高人前来搭救，心神为之一定。只是昏黑间，看不出那放剑救自己的人在哪里。所幸他目力甚好，便凝神定睛往那放剑之处仔细寻找，只见一个道人，坐在身旁不远的一株大树上。便轻轻走了过去，想等杀了毛太以后，叩谢人家。等到近前一看，不禁大喜，原来那人身背一个红葫芦，依稀认得正是这几个月来梦魂颠倒要会的醉道人。正待上前搭话，醉道人忽朝他摆了摆手，周淳便不再言语。这时天空中黄光越压越小，青光愈加炫出异彩，把一个多臂熊毛太急得搓耳捶胸，胆战心寒。正在不可开交之际，周淳便趁毛太出神不备，取出怀中暗器没羽飞蝗石，照准毛太前胸打去，打个正着，将毛太打跌一跤。一分神间，黄光越发低小，眼看危险万分。忽然西南天空有三五道极细的红线飞来，远远有破空的声音。醉道人忽跳下树来，悄悄对周淳说道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 14.7,
             "duration": 3,
             "process_mode": "overlay",
             "name": "飞剑破空",
             "sound_cn": "黄光飞剑破空声",
             "sound_en": "yellow flying sword buzzing, shrill",
             "volume": "-16%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "剑，手扬",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12,
@@ -619,7 +647,9 @@
             "sound_cn": "剑光斩断树枝的断裂声",
             "sound_en": "branches snapping as sword passes",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "罗汉法元所赐",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 35,
@@ -629,7 +659,9 @@
             "sound_cn": "醉道人长啸及飞剑出鞘声",
             "sound_en": "whistling cry and sword unsheathing",
             "volume": "-14%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "放出",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 40,
@@ -639,7 +671,9 @@
             "sound_cn": "青黄二道剑光在空中相持的尖啸声",
             "sound_en": "clashing flying swords, high-pitched screeching",
             "volume": "-16%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "一般向前奔逃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 62,
@@ -649,7 +683,9 @@
             "sound_cn": "飞蝗石击中毛太前胸的闷响",
             "sound_en": "stone hitting chest, dull thud",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "树林之内",
+            "trigger_offset": 0
           }
         ]
       },
@@ -687,7 +723,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "不容周淳还言，一手已是穿入周淳胁下，收起剑光，架起周淳，飞身向大道往城内而去。\n\n那毛太正在急汗交流之际，见青光退去，如释重负，连忙将自己的剑收回。再一看周淳，已不知去向。始终不知对面敌手是谁，正在纳闷。忽见眼前一道红光一闪，面前立定一人，疑是仇人，正待动手。那人忽道。",
-          "instruct": "快速叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -698,7 +734,9 @@
             "sound_cn": "醉道人携周淳腾空而起的风声",
             "sound_en": "whoosh of being lifted and flying away",
             "volume": "-20%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "不容周淳还言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -736,7 +774,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毛太定睛一看，原来是自己的莫逆好友飞天夜叉秦朗，不禁大喜，连忙上前见礼。秦朗便问毛太因何一人在此。毛太便将下山寻周淳报仇，在慈云寺居住，今日巧遇周淳，受骗中箭，后来自己放出赤阴剑才得取胜，忽然暗中有人放出仙剑将周淳救去，正抵敌不过，放剑的人与周淳顷刻不知去向的话，说了一遍。秦朗道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -774,7 +812,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗本是华山烈火祖师的得意门人，倚仗剑法高强，无恶不作。他所炼的剑，名唤红蛛剑，厉害非常。起初也曾拜法元为师，烈火祖师又是法元所引进，与毛太也算同门师兄弟，二人非常莫逆。毛太见他一来，青光便自退去，也认为敌人是惧怕秦朗，便向秦朗谢了救命之恩。秦朗道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -812,7 +850,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正在大吹特吹之时，忽然听得近处有人说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -831,7 +869,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗性如烈火，如何容得那人这般奚落，不禁大怒，便骂道。",
-          "instruct": "愤怒叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -869,7 +907,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话言未了，叭的一声，一个重嘴巴，正打在左颊上，打得秦朗火星直冒。正待回身迎敌，四外一看，并不见那人踪影。当着毛太的面，又羞又急。便骂道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -880,7 +918,9 @@
             "sound_cn": "重掌打在脸上的脆响",
             "sound_en": "heavy slap on face, sharp crack",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "话言未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -918,7 +958,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那人忽在身旁答道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -937,7 +977,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗听了，更加忿恨，打算一面同那人对答，听准那人站的方向，用飞剑斩他。于是装着不介意的样子，答道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -975,7 +1015,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那人道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -994,7 +1034,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗这时已算计那人离他身旁不过十余步光景，不等他话说完，出其不意，将手一张，便有五道红线般的剑光，直往那人站着的地方飞去。一面运动这剑光，在这周围数十丈方圆内上下驰射，把树林映得通红。光到处，树枝树叶齐飞，半晌不见那人应声。毛太道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1005,7 +1045,9 @@
             "sound_cn": "五道红线剑光飞射的尖锐破空声",
             "sound_en": "five red sword beams shooting, high-pitched screech",
             "volume": "-16%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "秦朗这时已算",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3,
@@ -1015,7 +1057,9 @@
             "sound_cn": "剑光削断树枝的断裂声",
             "sound_en": "sword beams slicing branches, crackling",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "已算计那人离",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1053,7 +1097,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话言未了，忽然又是叭的一声，毛太脸上也挨了一个嘴巴。毛太忿恨万分，也把剑光放出，朝那说话的地方飞去。只听那人哈哈大笑，说道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1064,7 +1108,9 @@
             "sound_cn": "毛太被掌掴的脆响",
             "sound_en": "slap on Mao Tai's face, sharp crack",
             "volume": "-18%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "话言未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1083,7 +1129,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗、毛太二人又是气，又是急。明知那人本领高强，自己飞剑无济于事，但是都不好意思收回，只好运动剑光，胡乱射击。那人更不肯轻易闲着，在他二人身旁，不是打一下，就是拧一把、捏一把，而且下手非常之重，打得二人疼痛非常。后来还是毛太知道万难迎敌，便悄悄对秦朗说。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1094,7 +1140,9 @@
             "sound_cn": "拳打、拧捏的闷响",
             "sound_en": "punching and pinching sounds, dull thuds",
             "volume": "-20%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "毛太二人又是",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1132,7 +1180,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗无奈，也只得借此下台，恐怕再受别的暗算，叫毛太加紧提防，各人运动剑光护体，逃出树林。且喜那人不来追赶。二人跑到慈云寺，已是上气不接下气。\n\n进庙之后，由毛太引见智通。智通便问他二人为何如此狼狈。毛太说明经过之事。智通听了，半晌沉吟不语。毛太便问他是什么缘故。智通道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1170,7 +1218,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦、毛二人答道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1227,7 +1275,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "张亮乃是毛太新收爱徒，一听这般凶信，不禁又急又气，定要往城内去探消息。智通连忙劝阻，叫他不可造次。便对秦朗说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1284,18 +1332,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通谢过秦朗，便叫人去把门下弟子四金刚，以及白日前来投奔的四川路上的大盗飞天蜈蚣多宝真人金光鼎、独角蟒马雄、分水犀牛陆虎、闹海银龙白缙，以及全体英雄，齐至大殿，有事相商。传话去后，先是本庙的四金刚大力金刚铁掌僧慧明、无敌金刚赛达摩慧能、多臂金刚小哪吒慧行、多目金刚小火神慧性等四人先到，随后便是金光鼎等进来施礼落座。\n\n智通道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 5,
+            "trigger_delay": 44.3,
             "duration": 4,
             "process_mode": "overlay",
             "name": "众人脚步",
             "sound_cn": "众人走入大殿的脚步声",
             "sound_en": "footsteps of many people entering hall",
             "volume": "-24%",
-            "pitch": "0Hz"
+            "pitch": "0Hz",
+            "trigger_keyword": "行、多目",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1333,7 +1383,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毛太听了，忙问出了什么奇事？智通道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1371,7 +1421,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "多目金刚小火神慧性道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1390,7 +1440,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1428,7 +1478,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人听了，俱都无甚主见，不发一言。惟独毛太报仇心切，执意要去寻周淳拼个死活。智通拦他不住，只得由他。一宿无话。到了第二日，秦朗辞别大众，起程往西藏去了。秦朗走后，众人也都拿了智通的信，分别出门请人。不提。毛太吃完早饭，也不通知智通，一人离了慈云寺，往城内去寻周淳报仇。要知后事如何，且看下回分解。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },

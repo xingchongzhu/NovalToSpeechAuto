@@ -117,7 +117,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第69回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -136,7 +136,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一心向道\n软语劝檀郎拔地移山\n驱神通古洞白、戴两人忙吩咐收拾洁净房子，与远来诸位道长安歇。湘英、云凤便在私下求文琪、轻云两位侠女转求玉清大师收在门下。大师笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -147,7 +147,9 @@
             "sound_cn": "长工洒扫房屋，扫帚声、脚步声忙碌",
             "sound_en": "servants cleaning rooms, broom sounds and busy footsteps",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一心向道",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -157,7 +159,9 @@
             "sound_cn": "湘英、云凤凑近文琪、轻云耳边低声私语",
             "sound_en": "Xiangying and Yunfeng whispering to Wenqi and Qingyun",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一心向道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -195,7 +199,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "文琪、轻云代求了几次，玉清大师执意不收，只得照实复了湘英、云凤。湘英见玉清大师肯给她转介到素因大师门下，知道仙人不会说诳话，只恐与素因大师无缘，又是愁，又是喜。背地又私自亲求玉清大师，事完之后务必将她带走。她的意思，是赖定了玉清大师，不管是谁也罢，倘若素因大师一定不收，仍可死跟定玉清大师不走开，无论如何艰难辛苦，好歹死活也要将剑术学成。玉清大师人本和善，被她苦求，也就答应。湘英自是心安理泰。惟独云凤为人外和内刚，性极孤傲，见大师那等似拒绝不拒绝的说法，疑心自己资质不够，没有仙缘，十分气苦。也背地去求了几次，被大师婉言拒绝，只说她目前尘缘未断，日后所遇仙缘，成就在湘英之上。云凤不得要领，不由暗怪爹爹不该早早给她配亲。如果自己早知尘世上还有剑仙，嫁人则甚？越想越悔，对允中也淡漠起来。到了夜深人静，便去焚香，对曾祖姑凌雪鸿祝告，求她默佑早遇仙缘。到了初二晚半天，云凤从后园走出，路遇俞允中，便将他唤住道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -206,7 +210,9 @@
             "sound_cn": "湘英低声恳求玉清大师，语气哽咽",
             "sound_en": "Xiangying pleading with Yuqing Dashi, tearful voice",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "轻云代求了几",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -216,7 +222,9 @@
             "sound_cn": "深夜焚香，香烟缭绕，夜风轻拂，云凤低声祝告",
             "sound_en": "incense burning in the night, smoke curling, Yunfeng praying softly",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云代求了几次",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -226,7 +234,9 @@
             "sound_cn": "云凤从后园走出，叫住允中，脚步声急促",
             "sound_en": "Yunfeng calling out to Yunzhong, hurried footsteps",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大师执意不收",
+            "trigger_offset": 0
           }
         ]
       },
@@ -264,7 +274,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中对这位未过门的爱妻真是爱敬而忘死，时常想到初三一过，好歹择日定婚，早成美眷。忽听云凤却背人和他说体己话，乐得心花怒放，便跟她走到一座山石后面无人之处。云凤寻了一块石头坐下。允中站在旁边，正待用耳恭听，云凤忽然脸上一红，朝他笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -275,7 +285,9 @@
             "sound_cn": "二人一前一后走向山石后面，脚步声沙沙",
             "sound_en": "two walking to a secluded spot, footsteps on gravel",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "允中对这位未",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -285,7 +297,9 @@
             "sound_cn": "允中心跳加速的轻微喘息声",
             "sound_en": "Yunzhong's quickened breath, nervous excitement",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "中对这位未过",
+            "trigger_offset": 0
           }
         ]
       },
@@ -323,7 +337,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时似有意似无意地朝自己坐的石头上一指。允中闻言，受宠若惊地挨着坐了下来。云凤微微将身往旁一偏。允中初近香泽，虽在平时老成，也不禁心旌摇摇，趁势拉过云凤一只纤手。云凤由他抚弄，毫没有一丝扭捏。允中从夕阳返照下，看见身旁坐着的玉人真是容光照人，娇艳欲滴。不禁神醉心飞，两只眼睛注在云凤脸上，握住她的玉手，只管轻轻握拢，不发一言。半晌，云凤笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -334,7 +348,9 @@
             "sound_cn": "二人坐下时衣料摩擦声，云凤微微偏身",
             "sound_en": "cloth rustling as they sit, Yunfeng shifting slightly",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说时似有意似",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -344,7 +360,9 @@
             "sound_cn": "允中轻轻拉过云凤的手，衣料微响",
             "sound_en": "Yunzhong gently taking Yunfeng's hand, soft rustle",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "时似有意似无",
+            "trigger_offset": 0
           }
         ]
       },
@@ -382,7 +400,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -420,7 +438,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤又道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -458,7 +476,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -496,7 +514,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤忽然正色道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -553,7 +571,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤冷笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -564,7 +582,9 @@
             "sound_cn": "云凤一声冷笑，带着不屑",
             "sound_en": "Yunfeng's cold laugh, contemptuous",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云凤冷笑道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -716,7 +736,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一路说着，站起身来就走。允中忙喊：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -727,7 +747,9 @@
             "sound_cn": "云凤起身离去，衣料急促摩擦",
             "sound_en": "Yunfeng rising and leaving, hurried cloth rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一路说着",
+            "trigger_offset": 0
           }
         ]
       },
@@ -765,7 +787,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤已走远了。其实允中何尝没有上进之心，当佟元奇来时，便托黄、赵二人代他恳求收入门下。佟元奇只笑说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -776,7 +798,9 @@
             "sound_cn": "云凤脚步声渐渐远去",
             "sound_en": "Yunfeng's footsteps fading away",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云凤已走远了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -814,7 +838,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中家道殷富，眼前又守着一个美丽英武的娇妻就要过门，起初原有点见猎心喜。及至见求了两次不得要领，也就愿学鸳鸯不羡仙了。后来听凌操说云凤、湘英要拜玉清大师，吓了一跳，忙托凌操劝阻，自己时时刻刻都在留神打听。幸而玉清大师不肯替云凤设法，才得放心。知道云凤性傲，怕羞了她，见面时装作不知，从不谈起。今日见云凤约他到无人之处密谈，满拟是一半天事情解决，和他商量新婚布置，说几句体己话儿。不想云凤说了一大篇道理，还是书归正传，要和他暂时分别个三年五载，去从玉清大师学道。好似兜头一盆冷水，直凉到脚底心。知道云凤主意已定，决难挽回，又不敢径去告诉凌操，惹翻了她更不好办。眼看本月佳期又成空想，如何不急？越想越烦，垂头丧气回到前厅。因为明晨便是初三，除有一二人在外巡守外，余人俱在厅中叙谈。允中坐定后只管沉思，几番看见云凤和湘英以及四位侠女谈谈说说，十分热闹，连正眼也不看他，越加心中难受。允中离玉清大师坐得最近，忽见玉清大师对他微笑点了点头，允中心中一动。暗想：“我的心事莫非已被她看出？何不将计就计，明阿示意求她不要将云凤带走？剑仙来去无踪，她如决心不带，云凤想走也是不行。”正要心中商量明日如何措词，忽听玉清大师笑对佟元奇道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -825,7 +849,9 @@
             "sound_cn": "前厅众人叙谈，低声交谈，瓷杯轻响",
             "sound_en": "hall filled with quiet conversation, tea cups clinking",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "允中家道殷富",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -835,7 +861,9 @@
             "sound_cn": "允中垂头丧气，轻轻叹气",
             "sound_en": "Yunzhong sighing in disappointment",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "眼前又守着一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -930,7 +958,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中听了，知道玉清大师言中之意并没有答应将云凤带走，稍放宽心。不过玉清大师说她别有仙缘，想必是推托之言，即有也在日后。且不去管它，只等事情一完，立刻催促老岳父办喜事，那时夫妻恩爱，再要生男育女，她就想走也不行了。想到这里，不禁愁怀顿解，喜形于色。云凤何等聪明，听玉清大师之言，好似指出她心事，表示拒绝，又愁又急。适才偷见允中发愁，这会又见他转愁为喜，暗恨他幸灾乐祸，不由心头火起。暗想：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -941,7 +969,9 @@
             "sound_cn": "云凤暗恨允中，牙关紧咬声",
             "sound_en": "Yunfeng gritting teeth in frustration",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "允中听了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -979,7 +1009,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "深怕玉清大师不允，剑仙飞行绝迹，跟踪不上，那时白丢人，还是学不成剑。还想等到夜深人静，再向玉清大师苦求，以死相要。心虽如此，脸上却毫不露出丝毫痕迹，仍和诸侠女谈笑自如。这且不言。白琦见明日便是双方生死关头，布置一切非常严整。亲自跑到广场上巡看数次，觉着满意。晚饭后，才请佟元奇、玉清大师、铁蓑道人主持一切。佟元奇辈分最高，也不再客气了，居中坐下。玉清大师与铁蓑道人分坐两旁。其余各人也都依次就座。佟元奇道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -990,7 +1020,9 @@
             "sound_cn": "白琦在广场巡查，脚步沉稳，号令声",
             "sound_en": "Bai Qi inspecting the square, steady footsteps and commands",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "深怕玉清大师",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -1000,7 +1032,9 @@
             "sound_cn": "众人依次入座，衣料摩擦声",
             "sound_en": "guests taking seats, cloth rustling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大师不允",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1038,7 +1072,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "分配既定，佟元奇请铁蓑道人去至吕村探看虚实。铁蓑道人去了约有个把时辰，业已会见魏青，探看清楚，回来报道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1049,7 +1083,9 @@
             "sound_cn": "铁蓑道人驾剑光飞回，破空声由远及近",
             "sound_en": "Iron Cloak Daoist returning on sword light, whoosh from afar",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "分配既定",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1059,7 +1095,9 @@
             "sound_cn": "铁蓑道人轻轻落地，衣袂声",
             "sound_en": "landing softly, cloth rustle",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "配既定",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1097,7 +1135,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "佟元奇哈哈笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1108,7 +1146,9 @@
             "sound_cn": "佟元奇爽朗大笑，声震厅堂",
             "sound_en": "Tong Yuanqi's hearty laugh, filling the hall",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "佟元奇哈哈笑",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1146,7 +1186,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这一番话，大家都非常佩服佟元奇老谋远虑。到了三更向尽，忽然前面望楼上号灯招展，锣声大震。白琦大吃一惊，疑是吕村不守信义，黑夜偷袭戴家场。但是敌人有好些俱会剑术，为何公然由正面谷口进入？一面下令准备，自己约了玄极、心源，飞身出去观看动静。等到会见来人，才知俱是自己的好友和同门师兄弟等，连忙接了进来，与众人相见。原来日前白琦到了善化去寻罗新不在，只见着罗新的弟子楚鸣球。等了几日，不见罗新回转，便托楚鸣球等罗新回来转告，自己仍回戴家场等候。白琦走后，楚鸣球非常替他担心，自己因奉师命不能走开。正在为难，忽然日前来了罗、白二人的好友、湘江五侠中的虞舜农，楚鸣球便把白琦之事相告。虞舜农闻言动了义愤，赶回湘潭，把湘江五侠中的黄人瑜、黄人龙、木鸡、林秋水约齐，还约了善化关帝庙岳大鹏，俱是有名的侠士，连夜赶到戴家场。谷口防守的人见来人步履如飞，行迹可疑，展起号灯，才引起这场误会。戴家场平空又添了几位侠士，越加安心静等明日交手。不提。到了初三早起，大家一齐聚集前厅。各人按照佟元奇分配的职守位置，自去依言行事。只剩下白琦、戴衡玉、许超、心源、玄极以及玉清大师、铁蓑道人、万里飞虹佟元奇三位剑仙在前厅静候。湘江五侠把守谷口。直到辰牌时分，不见敌人踪影。众人正在奇怪，忽听轰隆一声大震过去，外面好似地裂山崩，人声嘈杂，响成一片。厅中八位剑侠急忙出看，只见鱼神洞那边尘土飞扬，起有数十丈高下。村民惶惶，以为大祸将至。白琦连忙下令传谕众人：此乃妖法，不能伤人，大家务要镇定，不许自己惊惶。这些村民平昔都受过训练，又早听人说三位庄主请来了不少剑仙侠客为他们帮忙。适才以为地震，才个个惊惶。现在见庄主同了几位剑仙出来，只震了一声立刻停止，以为定是剑仙法力，又见白琦传令，也都安心，不敢妄动了。玉清大师知是吕村来的妖人弄的玄虚，正待迎上前，忽见两道剑光，文琪、轻云两侠女双双飞至，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1157,7 +1197,9 @@
             "sound_cn": "三更向尽，望楼号灯招展，锣声大震",
             "sound_en": "third watch ending, signal lights flashing, gongs sounding alarm",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这一番话",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -1167,7 +1209,9 @@
             "sound_cn": "谷口传来急促脚步声，来人步履如飞",
             "sound_en": "urgent footsteps from the valley, running fast",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这一番话",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -1177,7 +1221,9 @@
             "sound_cn": "轰隆巨响，山崩地裂，尘土飞扬数十丈",
             "sound_en": "loud rumble, mountains cracking, dust rising tens of feet",
             "volume": "-8%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "佩服佟元奇老",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1187,7 +1233,9 @@
             "sound_cn": "村民惊呼声四起，人声嘈杂",
             "sound_en": "villagers crying out in panic, chaotic voices",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "到了三更向尽",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 11.0,
@@ -1197,7 +1245,9 @@
             "sound_cn": "白琦高声传令，声音沉稳镇定",
             "sound_en": "Bai Qi issuing orders, calm and steady voice",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "然前面望楼上",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 13.5,
@@ -1207,7 +1257,9 @@
             "sound_cn": "两道剑光破空而至，文琪、轻云降落",
             "sound_en": "two sword lights arriving, Wenqi and Qingyun landing",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灯招展",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1245,7 +1297,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "交代已毕，仍回原处防守去了。顷刻何玫又御剑飞报：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1256,7 +1308,9 @@
             "sound_cn": "何玫驾剑光飞来，破空声",
             "sound_en": "He Mei flying in on sword light, whoosh",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "交代已毕",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1294,7 +1348,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "佟元奇道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1332,7 +1386,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "何玫奉命去讫。佟元奇道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1427,7 +1481,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "大家正在说话，轻云又来飞报道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1438,7 +1492,9 @@
             "sound_cn": "轻云御剑飞来，剑光轻盈",
             "sound_en": "Qingyun flying in, light sword whoosh",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大家正在说话",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1476,7 +1532,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "佟元奇仍命轻云回守原地。对玉清大师道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1533,7 +1589,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，掐指一算，然后说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1544,7 +1600,9 @@
             "sound_cn": "玉清大师掐指推算，指尖轻扣声",
             "sound_en": "Yuqing Dashi counting on fingers, soft taps",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "掐指一算",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1582,7 +1640,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "于是将计谋略述一遍。商量定后，白琦又陪着这几位剑侠步至广场看了一看。这广场正对着戴家场大门，背后是一座大山峰，山峰两旁又突出两个小山峰，恰好将这一片广场包围。两座芦棚便搭在那两座小山峰的半腰上，斜对着当中的擂台。自从佟元奇、玉清大师先后到来，以前的布置好些变更。改由两座席棚下起步，在每个席棚前面二丈远近，先埋下一根莲花桩。这莲花桩用薄木块做成，形似莲花，木板底下却用一根细竹竿顶牢，插在土内。桩前四五尺远近，用极细的黄沙堆成三四丈长、尖顶的沙堤。沙堤两尽头相对处相隔丈许，又有两个莲花桩分插在两方沙堤之内。再由此折向擂台方面，尽是锋利无比的三尖两刃刀，刃头朝上，长短不一，排成各种式样的道路，直达台口。又有两个莲花桩，比先前两个却来得大些，竹竿也要细些。两边席棚相隔原不过十多丈，遥遥相对。离正面擂台更近，才只六七丈远。白琦成心要显露他湘江派的绝顶武功，才用这各种的布置。双方比武的人，各由擂台纵到那随风摇摆的莲花桩上站定，遥向对面道一声“请”。再由莲花桩上纵到那平整如削的沙堤上面。先不奔擂台，各用登萍渡海草上飞的功夫，顺着沙堤直奔两棚相对的中心点，纵到二个莲花桩上。这时两方相离不过丈许，可以在此各说几句江湖上的交代。然后举手再道一声“请”，就在桩上站定，随意使一个架式。转回身纵到那数丈长的刀堤上面，顺着刀堤直奔擂台，纵到第三个莲花桩上，跳上离地四五丈的擂台上交手。这三个莲花桩一个比一个不同：头一个插在土内，还稍结实；第二个插在沙内，跑在沙堤上面，原不准有脚印，再由沙上纵到莲花桩上，岂不更难？末后刀堤倒还不大紧要，最难是由第三个莲花桩上往台上纵，非有绝顶轻身功夫，如何能办得到？白琦同众剑侠巡视一遍，觉着满意。再看时光已交巳末，白琦这才同了玉清大师，一明一暗往鱼神洞口而去。话说白琦别了诸位剑侠，整了整衣带，独自往鱼神洞走去。刚离洞口不远，便见轻云、文琪两侠女从空中飞至，见了白琦报道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1593,7 +1651,9 @@
             "sound_cn": "众人步至广场，脚步声在空旷中回响",
             "sound_en": "footsteps across the square, echoing in the open",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "于是将计谋略",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -1603,7 +1663,9 @@
             "sound_cn": "埋设莲花桩，木桩入土，竹竿插地",
             "sound_en": "planting lotus stakes, wood thudding and bamboo sliding into earth",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "谋略述一遍",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.5,
@@ -1613,7 +1675,9 @@
             "sound_cn": "黄沙堆成沙堤，沙土簌簌落下",
             "sound_en": "building sand embankments, sand trickling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "量定后",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1623,7 +1687,9 @@
             "sound_cn": "三尖两刃刀插入地面，金属碰撞声",
             "sound_en": "planting three-pronged blades, metallic clinks",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "着这几位剑侠",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1661,7 +1727,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白琦闻言，默记心头。文琪、轻云交代已毕，自去依照适才佟元奇所说准备。不提。",
-          "instruct": "叙述结尾"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1672,7 +1738,9 @@
             "sound_cn": "文琪、轻云驾剑光离去，破空声渐远",
             "sound_en": "Wenqi and Qingyun flying away, whoosh fading",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白琦闻言",
+            "trigger_offset": 0
           }
         ]
       },

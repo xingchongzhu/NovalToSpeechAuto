@@ -57,7 +57,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第22回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -76,7 +76,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说金身罗汉法元见病维摩朱洪神情冷淡，正待往别处找寻能人相助，忽见正南方飞来了几道红线，知是秦朗打此经过，连忙上前唤住，二人相见，各把前事述说了一遍。秦朗道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -87,17 +87,9 @@
             "sound_cn": "数道红色剑光划破长空，发出尖锐凛冽的破风呼啸声，由远及近急速飞来",
             "sound_en": "several sharp red sword lights piercing through the sky, producing a shrill and cold whistling sound, approaching rapidly from afar",
             "volume": "-18%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 4.0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "衣袂风声",
-            "sound_cn": "法元抬手唤住秦朗时，宽大僧袍在风中猎猎作响，衣料翻飞",
-            "sound_en": "Fa Yuan's wide monk robes flapping loudly in the wind as he raises his hand to call Qin Lang",
-            "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金身罗汉法元",
+            "trigger_offset": 0
           }
         ]
       },
@@ -135,7 +127,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -173,7 +165,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -211,7 +203,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元闻言，也甚以为然，便同秦朗回了原路。刚刚走到泷前，便见鹿清正在洞外，见他二人回来，好似很不痛快，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -222,17 +214,9 @@
             "sound_cn": "师徒二人走在布满碎石与落叶的山路上，脚步沉稳而略显焦急，沙沙声伴随轻微踩碎枯枝的脆响",
             "sound_en": "two people walking steadily yet anxiously on a mountain road covered with gravel and fallen leaves, rustling sounds accompanied by subtle cracking of dry twigs",
             "volume": "-24%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 3.0,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "林间风声",
-            "sound_cn": "紫金泷山间松涛阵阵，风穿过层层松针时发出如海浪般细密绵长的沙响",
-            "sound_en": "wind rustling through layers of pine needles in the Zijinlong forest, producing a dense and long rustling sound like ocean waves",
-            "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -270,7 +254,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -308,7 +292,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元把好话说了许多，鹿清只是摇头，不吐一句真言。反说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -346,7 +330,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，道一声“得罪”，便转向崖后自去。法元见了这般景况，如生不快，但是无可如何。秦朗见鹿清出言傲慢，也是满心大怒，因晓月禅师道法高深，不敢有所举动，只得随了法元，离了紫金泷，往山脚下走去。师徒二人正要商量往别处寻人，忽然空中一道黑影，带着破空声音，箭也似的，眨眨眼已飞下一个相貌奇丑的少年，穿着不僧不道的衣服。秦朗疑心此人来意不善，忙作准备。法元连忙止住。那少年见了法元，躬身施礼，说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -357,7 +341,9 @@
             "sound_cn": "一道黑影撕裂空气，发出尖锐刺耳的坠落摩擦声，速度快如闪电",
             "sound_en": "a black shadow tearing through the air with a sharp and piercing falling friction sound, moving as fast as lightning",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.8,
@@ -367,7 +353,9 @@
             "sound_cn": "薛蟒双足重重踏在地面上，溅起尘土，发出沉闷有力的撞击声",
             "sound_en": "Xue Mang's feet landing heavily on the ground, kicking up dust with a dull and forceful thud",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "道一声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.5,
@@ -377,7 +365,9 @@
             "sound_cn": "薛蟒落地后，身上不僧不道的古怪衣袍因惯性仍在翻滚飘动，布料摩擦作响",
             "sound_en": "after landing, Xue Mang's strange robe fluttering and rolling due to inertia, fabric rustling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便转向崖后自",
+            "trigger_offset": 0
           }
         ]
       },
@@ -415,7 +405,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -453,7 +443,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "薛蟒闻言，便告辞走去。走不几步，忽然回头，又问法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -464,7 +454,9 @@
             "sound_cn": "薛蟒转身迈步离开，脚步踏在沙土上渐行渐远，突然停下转身，衣角摩擦带起一阵轻响",
             "sound_en": "Xue Mang turning and walking away, footsteps on sandy ground gradually fading, then suddenly stopping and turning back, fabric brushing lightly",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "薛蟒闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -502,7 +494,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -540,7 +532,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "薛蟒道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -578,18 +570,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便自作别而去。法元师徒二人等薛蟒走后，便整了整僧衣，二人虔心诚意往紫金泷而去。那晓月禅师是何派剑仙？为何使法元等这般敬重？这里便再补述两笔。那晓月禅师也是峨眉派剑仙鼻祖长眉真人的徒弟，生来气量偏狭，见他师弟乾坤正气妙一真人齐漱溟末学新进，反倒后来居上，有些不服。只是长眉真人道法高深，越发不赞成他的举动，渐渐对他疏淡。晓月含恨在心。等到长眉真人临去时，把众弟子叫到面前，把道统传与了玄真子与齐漱溟。差点没把晓月肚皮气炸，又奈何他们不得。他早先在道教中，原名灭尘子。真人又对众弟子道：“此番承继道统，原看那人的根行厚薄、功夫深浅为标准，不以入门先后论次序。不过人心难测，各人又都身怀绝技，难免日后为非作歹，遗羞门户。我走后，倘有不守清规者，我自有制裁之法。”说罢，取出一个石匣，说道：“这石匣内，有我炼魔时用的飞剑，交与齐漱溟掌管。无论门下何人，只要犯了清规，便由玄真子与齐漱溟调查确实，只须朝石匣跪倒默祝，这匣中之剑，便会凌空而起，去取那人的首级。如果你二人所闻非实，或颠倒是非，就是怎样默祝，这石匣也不会开，甚或反害了自己。大家须要紧记。”长眉真人吩咐已毕，便自升仙而去。众同门俱都来与齐漱溟和玄真子致贺，惟有晓月满心不快，强打笑颜，敷衍了一阵。后来越想越气，假说下山行道，便打算跑到庐山隐居，所谓眼不见心不烦。因知寡不敌众，又有长眉真人留下的石匣，倒也并不想叛教。不想在庐山住了几年，静极思动，便游天台雁荡。在插虹涧遇见追云叟，因论道统问题，晓月恼羞成怒，二人动起手来，被众同门知道，都派他不对。他才一怒投到贵州野人山，去削发归佛，拜了长狄洞的哈哈老祖为师，炼了许多异派的法术。到底他根基还厚，除记恨玄真子与齐漱溟而外，并未为非作歹。众同门得知此信，只替他惋惜，叹了几口气，也未去干涉他。后来他又收了打箭炉一个富户儿子名叫朱洪的为徒，便常在打箭炉居住。那里乃是川滇的孔道，因此又认得了许多佛教中人。他偶游至黄山，爱那紫金泷之胜，便在那里居住。他同许飞娘的关系，是因为有一年为陷空老祖所困，遇见许飞娘前来解围，因此承她一点情。他早知法元要来寻他，因为近年来勤修苦炼，不似从前气盛，虽仍记前嫌，知齐漱溟、玄真子功行进步，不敢造次。所以法元来了两次，俱命鹿清等设辞拒绝。法元第二次走后，便接到许飞娘的飞剑传书，心神交战了好一会，结果心中默默盘算了一会，觉得暂时仍不露面为是。便把鹿清叫在面前，嘱咐了几句，并说若是法元再来，你就如此如彼地对答他。鹿清连声说“遵命”。暂且不提。且说法元师徒二人一秉至诚，步行到紫金泷，早已看见鹿清站在涧岸旁边。鹿清看见法元师徒回转，不待法元张口，便迎上前来说道：",
-          "instruct": "庄重讲述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0,
+            "trigger_delay": 68.0,
             "duration": 25,
             "process_mode": "overlay",
             "name": "山涧流水与鸟鸣",
             "sound_cn": "紫金泷山涧清澈溪水持续潺潺流淌，撞击在卵石上发出清脆悦耳的水花声，远处林间偶尔传来几声悠扬的鸟鸣和秋虫低吟",
             "sound_en": "clear mountain stream continuously gurgling in Zijinlong, splashing melodiously against pebbles, occasional distant birdsong and autumn insect chirps from the woods",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "叫到面前",
+            "trigger_offset": 0
           }
         ]
       },
@@ -627,7 +621,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元尚疑鹿清又是故意推辞，正待发言，那秦朗已把薛蟒吩咐之言，照样说了一遍。鹿清闻得秦朗提起薛蟒致意，果然换了一副喜欢面孔，先问秦朗的姓名，然后问他因何与薛蟒相熟。谈了几句后，渐渐投机。三人便在涧石上面坐下，又谈了一阵。法元乘机请他帮忙，请晓月禅师下山。鹿清知道法元心中疑虑，便向他说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -638,7 +632,9 @@
             "sound_cn": "三人依次在涧边平整的青石上坐下，粗布衣料与粗糙石面摩擦，发出细微的窸窣声响",
             "sound_en": "three people sitting down one by one on smooth bluestones by the stream, coarse fabric rubbing against rough stone surface with slight rustling",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元尚疑鹿清",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -648,7 +644,9 @@
             "sound_cn": "坐下时腰间悬挂的玉佩或法器轻微碰撞石头边缘，发出清脆的玉石敲击声",
             "sound_en": "jade pendants or magic tools hanging from waists lightly tapping the stone edges while sitting, producing clear jade clinks",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元尚疑鹿清",
+            "trigger_offset": 0
           }
         ]
       },
@@ -686,7 +684,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元方才深信不疑。又问鹿清道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -724,7 +722,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "鹿清道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -762,7 +760,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元见鹿清说话胸无城府，也不知道什么礼节称呼，纯然一片天真，非常可爱。正想同他多谈几句，想打听晓月禅师在此隐居，是否为觅那断玉钩？方要张口，便听崖后洞中有一个病人的声音唤道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -773,7 +771,9 @@
             "sound_cn": "朱洪的声音从崖后幽深的山洞中穿透出来，带着病弱的喘息和空旷回音，显得沉闷遥远",
             "sound_en": "Zhu Hong's voice penetrating from the deep cave behind the cliff, carrying weak breath and hollow echo, sounding dull and distant",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元见鹿清说",
+            "trigger_offset": 0
           }
         ]
       },
@@ -811,7 +811,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "鹿清闻言，便忙向二人作辞道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -849,7 +849,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便急忙走去。法元与秦朗见鹿清走后，师徒二人一同离了紫金泷，计算时日还早，便想起到庐山白鹿洞去寻雷音的师叔八手观音飞龙师太下山相助，顺便打听雷音、龙化的下落。剑光迅速，不一日便到了庐山白鹿洞前。降下剑光，正待举步，忽见一阵腥风起处，连忙定睛看时，只见洞内蹿出一只吊睛白额猛虎，望着二人扑来。法元知是飞龙师太喂的家畜，不肯用剑伤它，忙望旁边一闪。刚刚避过，又见眼前一亮，由洞内又飞出一条独角白鳞大蟒，箭也似一般疾，直向秦朗扑去。那秦朗哪知其中玄妙，喊一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -860,7 +860,9 @@
             "sound_cn": "庐山白鹿洞前猛然卷起一阵浓烈刺鼻的腥风，夹杂着猛兽洞穴特有的潮湿与野性气息",
             "sound_en": "sudden strong and pungent foul wind sweeping in front of the Bailu Cave, mixed with damp and wild odor typical of a beast's den",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便急忙走去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.5,
@@ -870,7 +872,9 @@
             "sound_cn": "吊睛白额猛虎张开血盆大口，发出一声震撼山林的狂啸，声波震得树叶簌簌作响",
             "sound_en": "the fierce tiger with white forehead opening its huge mouth, letting out a earth-shaking roar that makes leaves tremble",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忙走去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -880,7 +884,9 @@
             "sound_cn": "猛虎后腿猛蹬地面，巨大的身躯裹挟着风声朝法元猛扑过去，虎爪掠过地面掀起碎石",
             "sound_en": "tiger pushing off fiercely with hind legs, its massive body lunging at Fa Yuan with a whoosh, claws scraping gravel",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "元与秦朗见鹿",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.5,
@@ -890,17 +896,21 @@
             "sound_cn": "独角白鳞大蟒如离弦之箭从洞内激射而出，粗壮鳞片与地面剧烈摩擦，发出密集的沙沙刮擦声",
             "sound_en": "the white one-horned python shooting out of the cave like an arrow, thick scales grating against the ground with dense rustling and scraping",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "走后",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 8.5,
+            "trigger_delay": 29.5,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "秦朗剑光出鞘",
             "sound_cn": "秦朗反应极快，脑后几道红线瞬间飞起，剑光破空发出凌厉的铮鸣",
             "sound_en": "Qin Lang reacting swiftly, several red sword lights rising from behind his head instantly, producing a sharp and powerful clang",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑光迅速",
+            "trigger_offset": 0
           }
         ]
       },
@@ -938,7 +948,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "脑后一拍，几道红线飞起。法元忙喊：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -976,7 +986,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "已来不及，剑光过去，把那三丈来长的白蟒挥成两段。那只黑虎见它同伴被杀，将前足微伸，后足伏地，一条长尾，把地打得山响，正要作势前扑。法元见白蟒被秦朗所杀，知道闯下大祸，又听得洞内有阵阵雷声，便知不妙。也不及说话，伸手将秦朗一拉，喊一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -987,7 +997,9 @@
             "sound_cn": "凌厉剑光横扫而过，锋利剑刃切割蟒蛇鳞甲与血肉，发出裂帛般的锐响",
             "sound_en": "sharp sword light sweeping across, sharp edge cutting through python scales and flesh with a crisp tearing sound",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "已来不及",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.8,
@@ -997,7 +1009,9 @@
             "sound_cn": "被斩断的蟒蛇两截残躯重重砸落地面，发出沉闷沉重的肉体撞击声，尘土飞扬",
             "sound_en": "the two severed halves of the python falling heavily to the ground with a dull and heavy thud, kicking up dust",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "已来不及",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.5,
@@ -1007,17 +1021,21 @@
             "sound_cn": "黑虎见同伴被杀，暴怒之下粗壮铁尾如钢鞭般猛烈抽打地面，发出震耳欲聋的啪啪巨响",
             "sound_en": "the black tiger, enraged by its companion's death, violently lashing the ground with its thick iron-like tail, producing deafening loud cracks",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑光过去",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 5.5,
+            "trigger_delay": 34.0,
             "duration": 3,
             "process_mode": "overlay",
             "name": "洞中雷声滚滚",
             "sound_cn": "白鹿洞深处传来阵阵沉闷滚动的雷声，伴随着低沉的轰鸣和大地轻微的颤抖，预示巨大危险即将降临",
             "sound_en": "deep rumbling thunder rolling from inside the Bailu Cave, accompanied by low booming and slight trembling of the ground, foretelling immense danger",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "雷声，便",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.5,
@@ -1027,7 +1045,9 @@
             "sound_cn": "法元情急之下伸手猛拉秦朗衣袖，衣料被扯紧发出紧绷的摩擦声",
             "sound_en": "Fa Yuan urgently grabbing Qin Lang's sleeve, fabric tightening with a tense friction sound",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白蟒挥成两段",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1057,7 +1077,9 @@
             "sound_cn": "两人同时催动剑光冲天而起，两道光芒划破空气，伴随着尖锐的呼啸声急速向远方遁去",
             "sound_en": "both of them simultaneously driving their sword lights to soar into the sky, two beams of light tearing through the air with sharp whistling, fleeing rapidly into the distance",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "快逃",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1076,20 +1098,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人剑光起处，飞身破空而去。法元在路上埋怨秦朗道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0.5,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "高空风声",
-            "sound_cn": "剑光飞行至高空，耳边只剩下持续而猛烈的风流呼啸声，衣袍被狂风吹得猎猎作响",
-            "sound_en": "flying at high altitude, continuous and fierce wind roaring past the ears, robes flapping violently in the gale",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1125,7 +1136,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "秦朗见师父埋怨，情知做错，也无可奈何。他虽入道多年，嗜欲未尽，尚不能辟谷。法元虽能数日不饥，一样不能断绝烟火。二人见雷音找不着，无处可请别人，算计日期还早，本想回慈云寺去。又想起峨眉剑仙暂时不来寺中寻事，是因为自己不在寺中，表示余人不堪一击的原故。此时回寺，难免独力难支。他是知道追云叟的厉害的，便不想早回去。偶然想起每次往返武昌，并未下去沽饮，又在山中数日，未动荤腥，便想下去饮食游玩，沿路不再御剑飞行，一路沿江而上，观赏风景。秦朗自然更是赞成。师徒二人，于是到了汉阳，找了个僻静所在，按下剑光落地。然后雇了一只小船，往江中游玩一番，再渡江上黄鹤楼上去沽饮。上楼之后，只见楼上酒客如云，非常热闹，便找了一个靠窗的座头坐下。自有酒保上前招呼，他师徒二人便叫把上等酒菜只管拿来。随即凭窗遥望，见那一片晴川，历历远树，几点轻帆，出没在烟波浩渺中，非常有趣。移时酒保端来酒菜，他二人便自开怀畅饮。不提。",
-          "instruct": "平静收束"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1136,7 +1147,9 @@
             "sound_cn": "汉阳江边，清波粼粼，江水轻柔地拍打着岸边岩石和停泊的船身，发出规律而舒缓的水声",
             "sound_en": "at Hanyang riverbank, clear rippling water gently lapping against rocks and moored boats, producing rhythmic and soothing water sounds",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "情知做错",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.0,
@@ -1146,7 +1159,9 @@
             "sound_cn": "他们雇的小木船在江面上随波轻轻摇晃，老旧的木板和船桨发出吱吱呀呀的摩擦声",
             "sound_en": "the hired small wooden boat gently swaying on the river waves, old planks and oars creaking with friction",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也无可奈何",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -1156,7 +1171,9 @@
             "sound_cn": "黄鹤楼上人声鼎沸，酒客们高谈阔论、划拳行令，杯盘碰撞声、说笑声交织成一片热闹的市井交响",
             "sound_en": "bustling noise on Yellow Crane Tower, drinkers chatting loudly, playing finger-guessing games, clinking of cups and plates, laughter interweaving into a lively market symphony",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "尚不能辟谷",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -1166,7 +1183,9 @@
             "sound_cn": "酒保端上酒菜，粗瓷碗和陶质酒坛放在木桌上发出沉闷的碰撞声，筷子搁在碗沿上清脆一响",
             "sound_en": "waiter serving wine and dishes, coarse porcelain bowls and clay wine jars landing on wooden table with dull thuds, chopsticks resting on bowl rims with a clear clink",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元虽能数日",
+            "trigger_offset": 0
           }
         ]
       },

@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第257回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -100,7 +100,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃一听这等好法，心中大喜。忙即跪求，说师祖灵药甚多，自己向道实是坚诚，将来可邀恩赐，年纪又轻，来日方长。乃母以前多病，自己不久从师远去，实不放心，意欲带回，如法传与乃母服用。",
-          "instruct": "叙述龙娃的急切和喜悦，语速稍快"
+          "instruct": ""
         },
         "effects": [
           {
@@ -111,7 +111,9 @@
             "sound_cn": "龙娃欣喜跪下，膝盖碰地的沉闷声响",
             "sound_en": "dull thud of knees hitting the wooden floor in a hurry",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "龙娃一听这等",
+            "trigger_offset": 0
           }
         ]
       },
@@ -130,7 +132,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话未说完，申屠宏笑道：",
-          "instruct": "平静叙述，带出申屠宏的语气"
+          "instruct": ""
         },
         "effects": []
       },
@@ -168,7 +170,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃还待跪求，耳旁忽听有人低声说道：",
-          "instruct": "叙述声音转为神秘，语速放慢"
+          "instruct": ""
         },
         "effects": []
       },
@@ -206,7 +208,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃听那语声甚低，和花仙口音差不多，知花无邪还有两粒，必是怜念自己孝心，怕老师客气，不许再收，少时暗中相送。又看出申屠宏词色坚决，似有不快之容，只得依言服了。随去一旁，如法打坐。一个时辰过去后，忽觉周身轻快，头脑清灵，昨日师传坐功，也可如意运行。等坐完一周天，忽觉肚中乱响，疑要解手，又记着适才所闻耳语，便起身辞别。申屠宏只当他见母心切，嘱令缜密，暂时对娘也不可泄露山中取经之事，否则无益有害。随令回家，明日再来。",
-          "instruct": "叙述龙娃的心理活动和后续行动，节奏平缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -217,7 +219,9 @@
             "sound_cn": "龙娃吞咽丹药的细微咕噜声",
             "sound_en": "soft gulp sound of swallowing a pill",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "语声甚低",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 70.0,
@@ -227,7 +231,9 @@
             "sound_cn": "肚子咕噜噜的轻响，略带不适",
             "sound_en": "soft rumbling and gurgling of a stomach",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随令回家",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 82.0,
@@ -237,7 +243,9 @@
             "sound_cn": "龙娃从打坐中起身，衣料摩擦声",
             "sound_en": "soft rustle of clothes as someone stands up from a seated position",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随令回家",
+            "trigger_offset": 0
           }
         ]
       },
@@ -256,7 +264,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃见老师并未看出，越发心喜，应声走出。下坡便是谷口，又觉不该瞒着老师要外人的东西，灵丹已经服下，既想老母康健长生，又恐老师仙人发觉怪罪，再者，刚蒙恩师收容，便即背师行事，也太辜恩，两面为难，越想越急。心想花仙必来林内赠丹，三次走近林侧，又复退回，实在想不出两全之策。最后无奈，便朝师门遥跪，虔心默祝，说此次背师行事，实出不已，从此不敢再犯。为了老娘，情愿受责，但求老师开恩，不要疑心自己胆大欺心，不再传授道法。独个儿跪祝了两遍，才往林中走进。",
-          "instruct": "叙述龙娃内心的挣扎和矛盾，语气转为焦虑和无奈"
+          "instruct": ""
         },
         "effects": [
           {
@@ -267,7 +275,9 @@
             "sound_cn": "龙娃在谷口来回踱步的脚步声，由近及远",
             "sound_en": "sound of pacing footsteps on gravel, walking back and forth anxiously",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "娃见老师并未",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28.0,
@@ -277,7 +287,9 @@
             "sound_cn": "龙娃朝师门方向跪下，衣料擦地和低微的呼吸声",
             "sound_en": "soft sound of kneeling, fabric rustling, and a faint sigh",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便即背师行事",
+            "trigger_offset": 0
           }
         ]
       },
@@ -296,7 +308,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "满拟耗了不少时候，花仙必已在内，入林一看，并无人影。先疑人已来过，背师行事，也许偷偷出来，放了丹药回去了。借着月光，寻遍林内不见，又疑被老师绊住，暂时无法分身。惟恐错过，便在林中守候。哪知越等越没有影，眼看月色平西，时已深夜。昨晚乃母虽说好容易遇此仙缘，以后当惟师命是从，不回家也不妨事，终以从未这么晚回去过，恐娘担心。暗忖：",
-          "instruct": "叙述龙娃的等待和焦急，语气转为忧虑"
+          "instruct": ""
         },
         "effects": [
           {
@@ -307,7 +319,9 @@
             "sound_cn": "深夜林中微风拂过树叶的沙沙声，带着凉意",
             "sound_en": "gentle night wind rustling through leaves in the forest, cool and steady",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "满拟耗了不少",
+            "trigger_offset": 0
           }
         ]
       },
@@ -345,7 +359,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩性情，想到就走。正往回飞跑，忽见前面一株倒地多年的枯树干上，坐着一个比自己还小好几岁的白衣小孩子，月光正照其上，看去衣饰甚是华美。龙娃以前是个牧童，左近村落无多，人家幼童全都相识。暗忖：",
-          "instruct": "叙述龙娃的行动和发现，语气转为惊奇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -356,7 +370,9 @@
             "sound_cn": "龙娃急促奔跑在林间小路上的脚步声",
             "sound_en": "rapid running footsteps on a dirt path, breathless and quick",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "孩性情",
+            "trigger_offset": 0
           }
         ]
       },
@@ -394,7 +410,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "走近一看，见那孩子生得又白又胖，二目神光炯炯，黑白分明。深秋天气，身上穿着一件非丝非帛，映月生光的短衣裤，下面赤着一双白足，所着藤鞋也极有光泽。上衣圆领敞露，胸前悬着一块形制奇特，从未见过的玉牌；腰挂三枚如意金环，约有茶杯口大小；左肩斜插着一柄非金非玉的连柄双钩。这三件东西，全是光华闪闪，人又长得那么英俊美秀，互一陪衬，格外好看。小孩至多不过七八岁光景，人小腿短，坐在树干上，悬着两条欺霜赛雪的小胖腿，不住踢动，正在昂首望月，见人走过，直如未见。",
-          "instruct": "描绘小孩的形貌和装束，语气充满惊奇和赞叹"
+          "instruct": ""
         },
         "effects": [
           {
@@ -405,7 +421,9 @@
             "sound_cn": "月光下林间的静谧氛围，远处有秋虫鸣叫",
             "sound_en": "quiet night forest atmosphere under moonlight, with distant autumn insects chirping softly",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "走近一看",
+            "trigger_offset": 0
           }
         ]
       },
@@ -424,7 +442,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃心虽爱好，想要亲近，终以自惭形秽，恐对方是个富贵人家公子，自讨没趣。已将走过，忽想起：",
-          "instruct": "叙述龙娃的矛盾心理"
+          "instruct": ""
         },
         "effects": []
       },
@@ -462,7 +480,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "哪知刚一坐下，对面小孩突把俊眼一瞪道：",
-          "instruct": "叙述小孩的突然反应，语气紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -473,7 +491,9 @@
             "sound_cn": "龙娃在石墩上坐下时衣料的摩擦声",
             "sound_en": "soft rustle of fabric as someone sits down on a stone",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "哪知刚一坐下",
+            "trigger_offset": 0
           }
         ]
       },
@@ -511,7 +531,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃见小孩说话难听，方自有气，想还他两句，想起大户人家小孩照例看不起人，所带仆人又多凶恶。此地离家已近，如与争吵，惊动他家大人，必不说理。就打得他过，不受欺负，或是腿快逃脱，被他寻上门去，老娘必要受气。再说，他比我小，也应让他。念头一转，气方平息。忽见小孩口角上似有笑容，不似真个厌恶自己。猛又想道：",
-          "instruct": "叙述龙娃的心理变化，从生气到平复"
+          "instruct": ""
         },
         "effects": []
       },
@@ -549,7 +569,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "微一沉吟，小孩又笑问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -587,7 +607,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃闻言，暗忖：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -625,7 +645,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心又一动。终因小孩年幼，末次带笑说话，神情更显天真稚气，仍当作是偶然，立时乘机答道：",
-          "instruct": "叙述龙娃的猜测和回应"
+          "instruct": ""
         },
         "effects": []
       },
@@ -663,7 +683,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -701,20 +721,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃已经借着问答，凑近前去，越看越觉这小孩宛如美玉明珠，容光朗润，如花仙面色，同是从来未见。尤其那一双黑白分明的俊眼，隐蕴精光，令人不敢与之对视。暗忖：",
-          "instruct": "叙述龙娃的观察和猜测"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "脚步轻移",
-            "sound_cn": "龙娃小心地向小孩凑近的脚步声",
-            "sound_en": "light, cautious footsteps approaching on the forest floor",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -750,7 +759,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "立意想探出个底细才走，便笑答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -788,7 +797,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩把俊眼一瞪，微嗔道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -826,7 +835,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃人本机智，加以新服仙丹，福至心灵，一听话里有因，分明点出方才之事，大为惊异。猛想起画儿上的哪吒红孩儿，不也是小孩么？如何因他年小看轻？这等人物，从来未见，焉知不是仙人所变？虽还拿他不定，终以恭谨为是。立即躬身答道：",
-          "instruct": "叙述龙娃的醒悟和恭敬"
+          "instruct": ""
         },
         "effects": []
       },
@@ -864,7 +873,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩插口说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -902,7 +911,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃闻言，回忆老师和花仙俱都力说禁图何等重要，妖人任多疏忽，也无失落之理，想不出是甚原故。照此说来，不特一切均是这位小仙暗助，适才耳旁低语，令往林中赐丹，也正是他，怪不得口音有点相似。当时又惊又喜，不等说完，忙即跪下礼拜。等小孩发完了话，才恭答道：",
-          "instruct": "叙述龙娃的恍然大悟和感激"
+          "instruct": ""
         },
         "effects": [
           {
@@ -913,7 +922,9 @@
             "sound_cn": "龙娃又惊又喜，匆忙跪下的沉闷声响",
             "sound_en": "urgent thud of kneeling down in surprise and joy",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "娃闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -951,7 +962,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩见他叩拜惶急，哈哈笑道：",
-          "instruct": "叙述小孩的语气转为轻松"
+          "instruct": ""
         },
         "effects": []
       },
@@ -981,7 +992,9 @@
             "sound_cn": "灵丹从指尖弹出时的轻微破风声",
             "sound_en": "soft whoosh of a small pill being flicked from fingertips",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "母甚孝",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1000,7 +1013,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时早将一粒丹药递过。龙娃见这丹药不似坎离丹一红一白，只有绿豆大小，色作纯碧，清香袭人，闻之神爽，似比先服还好。喜出望外，重又拜谢说：",
-          "instruct": "叙述丹药的特性和龙娃的喜悦"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1011,7 +1024,9 @@
             "sound_cn": "丹药轻轻落在龙娃掌心的细微声响",
             "sound_en": "soft, tiny click of a pill landing in an open palm",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "时早将一粒丹",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1049,7 +1064,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩把龙娃唤起，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1087,7 +1102,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话终人起，小孩手扬处，一片金霞闪过，便即无踪。龙娃连忙望空拜谢，欢欢喜喜跑回家去。老母果在织布未睡，心中一酸，扑上身去，母子相抱，亲热了一阵。问知乃母，料他归晚，到家必有话说，适才强令兄长安歇，独自守候。龙娃随将灵丹、银子取出，悄声说了当日奇遇，看着乃母将灵丹吃下。因不知何日就要分别，甚是依恋，谈到鸡鸣，方始安歇。小孩贪睡，乃母因他睡晚，知道随神仙读书只是具文，上午无事，不令乃兄唤起。龙娃起来，日色已将近午，吓了一跳，匆匆洗漱，和乃母说了两句，便往外跑。赶到书堂一看，一班学童均在高声朗诵，老师含笑教读，并无异状。刚向圣人老师行礼归坐，翻开书本，忽听耳旁说道：",
-          "instruct": "叙述龙娃回家后的温馨场景和次日见闻，语气转为平缓温馨，随后带出惊奇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1098,7 +1113,9 @@
             "sound_cn": "小孩消失时，一片金霞闪过的破空声",
             "sound_en": "soft shimmer and whoosh of golden light fading into thin air",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金霞闪过",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.0,
@@ -1108,7 +1125,9 @@
             "sound_cn": "老母深夜未眠，织布机有节奏的咔嗒声",
             "sound_en": "rhythmic clack-clack of a weaving loom operating late at night",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "扑上身去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 35.0,
@@ -1118,7 +1137,9 @@
             "sound_cn": "远处传来报晓的鸡鸣声，天色已明",
             "sound_en": "distant rooster crowing, signaling the break of dawn",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "龙娃随将灵丹",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 80.0,
@@ -1128,7 +1149,9 @@
             "sound_cn": "学堂里村童们朗朗的读书声，稚嫩而整齐",
             "sound_en": "sound of village children reciting their lessons aloud in unison",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一班学童均在",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 92.0,
@@ -1138,7 +1161,9 @@
             "sound_cn": "龙娃翻开书本时纸张的轻响",
             "sound_en": "soft rustle of paper as a book is opened",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "开书本",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1176,7 +1201,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃听出是花仙口音，知她隐身在侧，低声谢了。一会日午，申屠宏便说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1214,7 +1239,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "村童应声，辞别散去。龙娃忽然想起母亲昨晚曾说今日杀鸡煮饭，等自己归吃午饭，恐怕久候，忙赶出去，托一村童带话，告知乃母，老师今日甚喜，起晚书未读熟，已在学中吃饭，不必等候。申屠宏轻易不动烟火，为掩俗人耳目，故意在学房中做些吃食，其实多是这班村童享受，留饭是常事。龙娃说完，正要回去，忽见昨日两黄衣怪人又在谷中现身，看神气，似由山外新回，见众村童正在吵闹跳蹦，朝自己看了一眼，便往谷中走去。假装与众村童说笑同行，蜇向谷口，偷眼往里一看，最前面转角处，黄影一闪，便即不见。恐被发觉，又往前走了一段，再从容走回。过了谷口，跑进书房一看，花无邪已经现身，桌上放着二尺多长，碗口粗细两节巨藕，以及四个碗大桃子。见了龙娃，方要开口，龙娃已抢先说道：",
-          "instruct": "叙述龙娃的日常和发现黄衣怪人的紧张，语气转为谨慎"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1225,7 +1250,9 @@
             "sound_cn": "村童们放学后散去的嬉笑打闹声",
             "sound_en": "sound of village children laughing and playing as they leave school",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "龙娃忽然想起",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28.0,
@@ -1235,17 +1262,21 @@
             "sound_cn": "黄衣怪人在谷口转角处一闪而逝的破风声",
             "sound_en": "quick whoosh of a yellow figure disappearing around a corner",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不必等候",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 45.0,
+            "trigger_delay": 115.7,
             "duration": 2,
             "process_mode": "overlay",
             "name": "开门声",
             "sound_cn": "龙娃跑进书房，推开木门的声响",
             "sound_en": "soft creak of a wooden door being pushed open quickly",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "开口，龙",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1283,7 +1314,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "花无邪闻言，秀眉微皱，似在想事，略问了两句，答道：",
-          "instruct": "叙述花无邪的反应"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1321,7 +1352,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃大喜，忙即拜谢道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1378,7 +1409,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃见被老师识破，红着一张脸道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1435,7 +1466,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃不肯。花无邪道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1473,7 +1504,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "申屠宏自是谦谢。龙娃道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1511,7 +1542,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "申屠宏也说有理。当下三人分吃。初意龙娃所说，必是他家中之事。及至龙娃说完昨夜回去，遇一小仙人赠丹经过，俱都大惊。尤其申屠宏觉着本门禁制何等神妙，任多厉害的外人，即便自己不是对手，一近禁圈，必然警觉。此人竟会来去自如，并向龙娃耳边说话，一点也未发觉。是何能人，有此法力？想来想去，幼童打扮的前辈仙人，只有极乐真人李静虚，但那行动装束均不相似。如系老前辈所炼元神，化身游戏，又不应那等天真稚气。听他要龙娃拜他为师的口气，分明是同辈中人。同门师弟虽有几个未见过的幼童，一则入门不久，无论如何，不会有此高深功力。再说年纪也本幼小，照他戏弄妖妇，盗图情形，必是一个极有力而与本门有关的大助手。怎么一点也想不出他的来路？花无邪虽然修炼功深，佛道两门均有深造，但是一向隐修海外，交游不广，更是闻所未闻。知道此人必是正教中高人，好意从旁暗助，法力既高，隐身尤为神妙，弄巧此时便在室中都不一定。惟恐出语不慎，被人轻笑，互相示意，各说了两句感佩欲见的话。申屠宏又暗中运用禁法一查，并无回应，知道人不在侧。似此神出鬼没，平生仅见，益发留心。不提。",
-          "instruct": "叙述申屠宏和花无邪的惊讶和推测，语气充满震惊和思索"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1522,7 +1553,9 @@
             "sound_cn": "桃藕放在木桌上时发出的低沉碰撞声",
             "sound_en": "dull, solid thumps of peaches and lotus root being placed on a wooden table",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "申屠宏也说有",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1541,7 +1574,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一会，花无邪起身告辞。申屠宏劝她夜来慎重，最好暂时不去。见花无邪微笑不语，知劝不住，只得罢了。花无邪走后，便命龙娃将桃藕包好送回，无令人知，明日午后再来。龙娃笑道：",
-          "instruct": "叙述花无邪离开和申屠宏的安排"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1552,7 +1585,9 @@
             "sound_cn": "花无邪起身告辞时衣料窸窣声",
             "sound_en": "soft rustle of robes as someone stands up to leave",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "花无邪起身告",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1609,7 +1644,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃不敢强求，只得辞别回去。申屠宏想起赠丹小孩奇怪，试再行法一查看，并无影迹，却看出珠灵涧有二妖人刚走。知道当晚花无邪去了，凶多吉少。经过一夕长谈，得知此女以前诸生孽累极重，竟能以精诚毅力，排除万难，才有今日。前此犯规，原是无心之失，分明神尼芬陀故意将她逐出师门，激使奋志潜修，消除魔障，以期正果。想起自家身世、经历，好些与她相同，恩师本有暗助之命，自更非以全力往援不可。只那幼童来得奇怪，怎会查不出点影迹？昨日曾闻身侧笑声，查看无踪，以为误认，忽略过去。凭自己耳力，焉有误听之理？定是此人在侧发笑无疑。虽幸这等重要的禁图，竟会任龙娃拾来讨好，又以灵丹相赠，不似存有敌意，但人心难测，尚未见面，终以小心为是。再把柬帖拜观，第二张空白忽现，只是指示当晚如何应付，对于小孩只字未提。本因两老怪难惹，虽照第一张柬帖行事，令花无邪事急往乌牙洞飞去，心中终是忧疑，恐难胜任。不料竟有安排，心便放了一半。便在室中默运玄功，调神炼气，算准时候再去。",
-          "instruct": "叙述申屠宏的忧虑和决断，语气深沉"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1628,28 +1663,32 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一晃，到了子夜将近。因那天蝉灵叶乃上元仙府奇珍流落人间的，共只九片。除昆仑派得有一片外，下余几片几乎全在海外散仙手中。自己这一片，原因十年前路遇一女散仙，为翼人耿鲲所困，自己本非耿鲲之敌，也不知火中困有何人，只为一时仗着宁甘不久身犯奇险，将极乐真人所赐用来保命免劫的一道灵符舍去，将女仙救出险地。跟着阮征赶来，用手戴二相环，发出威镇群邪的天璇神砂，将穷迫不舍的妖孽耿鲲惊走，那女仙才得保全性命。事完，仔细一看，那女仙竟是前世误杀的对头，这两世三生七八十年中，已经救过她夫妻三次，始终仇恨难消，以为又要反戈相向，哪知这次竟是消了夙怨。只是说她丈夫也因夙孽，转劫之后，不似她心灵坚定，中途不慎误入旁门，不合在东洞庭路遇严师婆门人姜雪君，生心调戏，现被擒往王屋山别府，日受风雷苦难，已有半年。雪君法力高强，素称冰心铁手，疾恶如仇，去必无幸，不敢前往。此次为耿鲲所困，也为海外求人之故。知道峨眉与严家师徒颇有渊源，如能代往求情，将她屡世同修的恩爱丈夫救出，立时前怨齐消，并还感谢不尽。身是师门弃徒，虽知严氏师徒最难说话，好容易八十一年限期将满，有此解孽良机，如何不去？那女仙关心太切，便用这天蝉叶隐形尾伺。依了阮征，雪君时喜出游，明求未必肯允，索性乘其出外，用二相环破了禁法，将人救走。然后同在洞中束身待罪，任凭处治，好歹把这一块心病去掉。幸是自己持重，知她师徒性情，决不容捣鬼，径往叩关求见，果然对方早知来意。结果是四次登门苦求，受了好些险阻艰难，才将人救出。同时那女仙目睹自己和阮征为他夫妻身受了许多苦难，始终志不少懈，才将对方感动，把一个就快形神俱灭的恩爱丈夫救了出来；又知二人以前实是无心之失，为此受了大罚，能否重返师门，尚不可知。不特反仇为恩，自动将前生遭劫时所喷血光收去，并以两片天蝉叶相赠。女仙夫妻才走，雪君便自出洞道歉，才知她是奉了师命，乘机解免这场冤孽。随将天蝉叶要去，由严师婆重用仙法炼过，前年方始发还，实比别人所用要强得多。申屠宏连经灾劫之余，行事谨慎，知道此行要遇好些强敌。昨晚龙娃所遇小孩隐形神妙，常在暗处，虽似相助，心迹如何，究不可知。如用此宝隐身，便两老怪也不易发现。宁可多费一点事，终较稳妥。便将天蝉叶取出，照着严师婆所传，行法施为。以为加上一层法力，比起寻常取用要强得多。哪知正施为间，又听窗外有人“嗤”的笑了一声，与上次所闻笑声相似，不禁大惊。",
-          "instruct": "叙述天蝉叶的来历和申屠宏的谨慎，语气充满回忆和警惕"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.0,
+            "trigger_delay": 122.4,
             "duration": 5,
             "process_mode": "overlay",
             "name": "夜风声",
             "sound_cn": "子夜时分，窗外风声萧瑟",
             "sound_en": "cold, rustling wind blowing outside the window at midnight",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "风雷苦难",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 170.0,
+            "trigger_delay": 359.9,
             "duration": 2,
             "process_mode": "overlay",
             "name": "窗外笑声",
             "sound_cn": "窗外传来一声短促、略带戏谑的轻笑",
             "sound_en": "short, mocking chuckle heard from just outside the window",
             "volume": "-15%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "笑了一声",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1668,7 +1707,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "申屠宏屡世修为，向道精勤，虽然久离师门，法宝多未发还，如论法力，实是峨眉门下头等人物。加以久经大敌，心思极细，应变神速。本来室外设有禁制，声一入耳，手指处，立将禁法催动，便将师传五行禁制迷踪现迹之法同时施展出来。虽因来人心意善恶难知，未肯遽下毒手，但这几种均是极厉害的太清仙法，威力至大。就是精通此法的本门高手能够分解，当时也无不现形迹之理。哪知一任施为，仍无迹兆。心中惊奇，不便显出，故作从容，笑问道：",
-          "instruct": "叙述申屠宏的应对和惊疑，语气紧张而沉稳"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1679,7 +1718,9 @@
             "sound_cn": "五行禁制被催动时发出的低沉嗡鸣声",
             "sound_en": "low, resonant hum as the magical formation is activated",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "申屠宏屡世修",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1717,7 +1758,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说完，终无回音。因是笑声在外，全神注定门外禁制有无变动，不曾留意身后。正想再用言语激令出现，忽听身后书桌上纸笔微响，知道人已入室。表面故作不知，仍朝外说话，倏地回身将手一扬，同时左肩摇处，一片银光立将全室满布，口喝：",
-          "instruct": "叙述申屠宏的惊觉和反应，语气转为惊骇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1728,7 +1769,9 @@
             "sound_cn": "书桌上纸张被触碰和毛笔滚动的声音",
             "sound_en": "soft rustle of paper and the subtle roll of a brush on a desk",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "因是笑声在外",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.0,
@@ -1738,7 +1781,9 @@
             "sound_cn": "银光瞬间爆开，布满全室的嗖嗖声",
             "sound_en": "sharp whoosh of silver light erupting to fill the entire room",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "神注定门外禁",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1776,7 +1821,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随说，随将五行禁制催动，当时五色光华一齐闪变。心想：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1787,7 +1832,9 @@
             "sound_cn": "五行禁制完全催动，五色光华流转的呼啸声",
             "sound_en": "rushing sound of five-colored light swirling as the formation reaches full power",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随将五行禁制",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1825,7 +1872,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "方一动念，猛瞥见一片极淡的金光祥霞微一闪动，觉有一种极大潜力，在禁光中荡了一荡，便自逝去。再加施为，仍和先前一样，无迹可寻，知已冲禁遁去。照此高强法力，真是罕见。又看出那金光祥霞是佛门传授，自来自去，只是故意取笑，并无敌意。惟恐因此树怨，便朝窗外赔话道歉，也无应声。只得收法一看，桌上一纸一笔忽然不见，测不透此人是甚用意。时限已经快到，正待起身，忽听噗的一声，禁圈微动，由门外飞进一物落向桌上，乃是失去的纸，将笔裹住。打开一看，上写：",
-          "instruct": "叙述申屠宏与神秘人物的短暂交锋，语气充满惊愕和困惑"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1836,7 +1883,9 @@
             "sound_cn": "一片淡金色的佛光祥霞一闪而逝",
             "sound_en": "gentle shimmer and soft fade of a golden halo of light",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一动念",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -1846,7 +1895,9 @@
             "sound_cn": "一个纸团从门外飞入，落在桌上的沉闷声响",
             "sound_en": "dull thud of a paper ball landing on a wooden desk from across the room",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "禁光中荡了一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1865,7 +1916,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "答应帮可怜人的忙，偏不早去，在此坐一冷板凳，当穷酸，害人家受苦，已是可气，还用五行禁制吓我。幸而我警觉得快，不曾上当，没有丢脸。要被你捉住，我就不和你好了。我去珠灵涧和老怪物洞中等你。那姓花的女子不久便要粉身碎骨，元神还要被妖僧擒去，受那十四年风雷水火苦劫，才得出头，有多可怜，还不快去！",
-          "instruct": "朗读纸条上的内容，语速较快，带着戏谑和急切"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1876,7 +1927,9 @@
             "sound_cn": "展开纸条时纸张抖动的脆响",
             "sound_en": "crisp rustle of paper as a note is unfolded",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "答应帮可怜人",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1895,7 +1948,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "另外一行写着：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1914,7 +1967,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "你猜我是谁？如何反朝我赔礼？可笑，可笑，可笑。",
-          "instruct": "语气带着戏谑和神秘"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1933,7 +1986,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "没有具名。字虽刚劲，语却稚气。暗忖：",
-          "instruct": "叙述申屠宏的猜测"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1971,7 +2024,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "忽然想起一个前生至好，但他转劫重生才只数年，不应有此法力，并有严师照管，也不会放他一人下山犯险。此时人已先往珠灵涧，不知能否相见？果是所料之人，真乃快事。极欲相见，又加时限越近，忙即起身，往珠灵涧隐形飞去。还未到达，相隔老远，便见崖前约有十多丈的五色精光彩霞，将涧面连同对面十数亩平地一齐笼罩。内有五座旗门，随同烟光明灭，不时隐现。并有七八道妖人遁光穿梭也似，在旗门之下往复出没，其疾如电。涧壁上面，却看不出什动静。申屠宏断定花无邪在紧要关头被人识破，情急之下，准备与众妖人一拼。心想：",
-          "instruct": "叙述申屠宏的猜测和行动，以及到达珠灵涧后的所见"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1982,7 +2035,9 @@
             "sound_cn": "申屠宏施展法术，身形破空而去的声音",
             "sound_en": "whoosh of a cultivator flying through the air, wind rushing past",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "然想起一个前",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -1992,7 +2047,9 @@
             "sound_cn": "五色旗门运转时发出的光芒与低沉嗡鸣",
             "sound_en": "low hum and shimmering of the five-colored magical banners in motion",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "时人已先往珠",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2030,7 +2087,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "主意打定，便往涧侧一座兀立平地的小峰上飞去。那峰离战场只数十丈远近，高约二三十丈，虽比对崖低些，看不见崖顶景物，涧壁下面双方斗法之处，却可一览无遗。见那旗门甚是神妙，烟光杂沓，随着众妖人在阵中飞驰穿行，闪变不停。因作旁观，人在阵外，也看不出里面真相。刚落到峰上，想用慧目法眼查看花无邪到底进入外层崖壁也未，忽听身侧有人低唤：",
-          "instruct": "叙述申屠宏飞往小峰隐蔽，语气紧张而专注"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2041,7 +2098,9 @@
             "sound_cn": "申屠宏轻轻落在小峰岩石上的声响",
             "sound_en": "soft thud of landing gently on a rocky peak",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "意打定",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2079,7 +2138,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "同时瞥见一只小手四外乱捞。知是龙娃，不知怎会来此？并还隐身在侧，只现一手？好生惊异。恐泄机密，忙把手抓住一带，龙娃果现全身。天蝉叶甚是神妙，不特隐圈大小由心，连声音也可由心隐去。因知龙娃隐身之处也有界限，单他一人不能到此。于是忙把隐圈放大，问他怎能来此？何人带来？此时可在原地？龙娃说了经过。原来龙娃回家送桃藕时，又遇昨夜小仙人，因感他成全赠丹恩德，邀往家中见母拜谢。恰值兄长他出，又看出小仙想吃桃藕，由老母作主，将桃子赠了小仙一个，将藕分吃。小仙因将乃兄的一份吃掉，乃母又想将自有之桃留给长子，小仙便说他不能白吃小辈的东西，令乃母将桃吃下，另赐灵丹一粒，与乃兄服用。说完，还教给龙娃两种法术和一张隐形防身的绢符。说如遇危难，只须手掐灵诀，口喷真气，将符一扬，立可由心飞走。教到夜间，才行教会。乃母为他备了酒菜留饭，小仙说久已不吃人间烟火，吃得很香，只不肯多吃。吃完，问龙娃想寻老师看热闹不想。龙娃自是愿意，随告乃母，也许明早才回，不要担心。乃母自服丹药，一夜之间，白发全黑，身轻体健，又见许多灵迹，自是信服拜谢。小仙随带龙娃往当地飞来，二到便往峰顶落下，一同隐身旁观。先是两个男女妖人来此布阵，满地俱是黑烟交织，又插了七根长幡，才行走去，黑烟、妖幡已早不见。小仙等妖人走后，令龙娃少候，先将手一扬，一片金霞略闪即隐。跟着飞落，触动埋伏，黑烟、妖幡忽又出现。幡上更飞出无数鬼火和红绿妖光，还有许多恶鬼，将小仙围在里面。龙娃正在愁急，哪知小仙一点也不害怕，由胸前玉块上发出一片极淡的霞光，将全身包住。先是满阵乱飞，逗鬼玩，他走到哪里，恶鬼便追到哪里。鬼数很多，奇形怪状，凶恶已极，偏是不敢近身。追得满阵乱跑，阴风滚滚，上下四外，千百条黑烟连同暴雨一般的鬼火，也随同围涌上去，看去十分厉害吓人，可是一到小仙身旁，便自消灭。有时追得急了，吃他猛然回身飞起，双手齐伸，朝鬼脸上打去。那么高大凶恶的恶鬼，吃他打中，立时咝咝惨叫，化成一团团绿光黑气，往旁滚去，鬼叫之声，越发惨厉。鬼仍不退，依旧前仆后拥，黑烟鬼火随灭随生，跌跌撞撞追逐不已。龙娃正看得好玩，小仙想是玩厌了，不耐烦再逗下去，将手一招，便往峰上飞回。下面恶鬼烟火阻他不住，跟着如潮水一般涌上。龙娃正在心惊，小仙已先飞到，将腰间挂的三个如意金环往空一抛，脱手便是三圈四五尺的金光，分三层悬向峰前。恶鬼似知不妙，带了黑烟想逃，已是无及。由头一个光圈内飞出一股紫色光气直射阵中，将恶鬼和烟光鬼火一齐裹住，天龙吸水般往圈中吸进。鬼大圈小，鬼数又多，不知怎的，一到圈旁便自缩小，投入极快。三圈相隔不过丈许，过第一圈时，还略辨出一点痕迹。未容余烟消散，第二圈中又射出一股红光，正好接住吸进，其势极快，只听一片极凄惨的卿卿鬼叫。第三金圈的一股银光刚刚射出，与前两圈红光紫气合成一条三色长衙，恶鬼妖光连同数十丈方圆大片黑烟，已全消灭无踪。只剩七根上绘恶鬼妖符，带有不少污血的长幡，分立地上。小仙笑：",
-          "instruct": "叙述龙娃讲述的经过，语气由疑惑转为惊奇和生动，描绘小仙破阵的场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2090,7 +2149,9 @@
             "sound_cn": "一片金霞一闪即逝，破空声轻微",
             "sound_en": "brief shimmer and soft whoosh of golden light fading instantly",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不特隐圈大小",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 55.0,
@@ -2100,7 +2161,9 @@
             "sound_cn": "鬼幡发动，阴风怒号，鬼火呼啸的声音",
             "sound_en": "howling of dark wind and eerie shrieking of ghostly flames",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "夜小仙人",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 125.0,
@@ -2110,7 +2173,9 @@
             "sound_cn": "如意金环射出紫红银三色神光，吸纳鬼物的声音",
             "sound_en": "low hum of magical rings and swoosh of tricolor light absorbing ghosts",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "吃得很香",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2148,7 +2213,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随收金环，往下面飞绕了一遍，妖幡便挨次隐去。手扬处，空中又是金霞微闪。小仙说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2159,7 +2224,9 @@
             "sound_cn": "空中金霞再次微微一闪的轻柔声响",
             "sound_en": "soft shimmer and whisper of golden light in the air",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "收金环",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2197,7 +2264,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃两次请问姓名，均不肯说，只说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2235,7 +2302,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃不敢再问，只上下留意，看他相貌，也被觉察，笑骂：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2273,7 +2340,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "末句话没说完，又笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2311,7 +2378,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正说笑间，便见花无邪飞来，到时也颇审慎，先在空中飞翔了两转，发下一道光华，见无动静，方始欣然降落。由身畔囊内取出一寸大小五座旗门，分向五方掷去，随手一道五色光华闪过，便即隐去。掷完，立往对壁飞去，壁上接连现了六次金光，人便不见。小仙说：",
-          "instruct": "叙述花无邪的到来和行动"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2322,7 +2389,9 @@
             "sound_cn": "花无邪御剑飞来的破空声",
             "sound_en": "whoosh of a flying sword approaching through the air",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说笑间",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -2332,7 +2401,9 @@
             "sound_cn": "五座旗门被掷出展开时的嗖嗖声",
             "sound_en": "swishing sounds of five small banners being thrown and unfurling",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "下一道光华",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2370,7 +2441,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随往对壁飞去，也是一晃不见。一会，小仙飞回。花仙也从壁飞出，面带愁急之容，正在四下张望。忽听破空之声，一道暗赤光华，由五龙岩那一面斜飞过来。光中现出一个身材高大，相貌凶恶的红脸道人，还未落地，花仙已带着一道青光迎上，两下里斗在一起。那五座旗门也未发动。妖道邪法厉害，一会青光便被红光裹住，眼看青光暗淡。正替花仙着急，接连又是好几阵破空之声。小仙倏地左肩一摇，手朝空中一扬，那连柄双钩立化为两钩金红色的精光，交尾而出，电也似疾，朝红光飞去。红脸妖道似知不敌，想要收光飞去。小仙始终不曾现身，钩光也未现形，到了上空，突然下去。红光想要逃走，如何能够，只一接触，便将红光绞住。本来妖道也不免死，不知用甚邪法，由身旁放出一片红光，破空遁去。红光立被绞碎，洒了一天红雨。花仙也飞落，手朝上一举，道声多谢，人便隐去。这原是一眨眼之事。花仙身形一隐，那些妖人也随同破空之声，纷纷飞落，共是九人，昨日男女妖人也在其内，好似不见红脸妖道和花仙在场，有些奇怪。一个说道：",
-          "instruct": "叙述双方斗法的激烈场景，语气紧张而快速"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2381,7 +2452,9 @@
             "sound_cn": "青光与红光激烈碰撞，火花四溅的轰鸣声",
             "sound_en": "loud clashing of green and red light, sparks flying",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "往对壁飞去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.0,
@@ -2391,7 +2464,9 @@
             "sound_cn": "多名妖人御光破空而来的杂乱呼啸声",
             "sound_en": "multiple rushing whooshes of demonic cultivators arriving",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "光华",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 32.0,
@@ -2401,7 +2476,9 @@
             "sound_cn": "断玉钩化为两道金红精光，破空而出的锐啸",
             "sound_en": "shrill whoosh of twin hooks transforming into golden-red beams of light",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "还未落地",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2439,7 +2516,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "另一妖人答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2477,7 +2554,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "四手天尊何永亮忽然失惊道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2515,7 +2592,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众妖人方在随声附和，忽听花仙在暗中冷笑，喝道：",
-          "instruct": "叙述花仙突然出声"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2553,7 +2630,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话未说完，众妖人已齐声怒喝，十来道妖光邪焰，齐朝花仙发声所在飞去。妖女温三妹更由怀中取出一镜，待要向前照去，数十丈五色光华，连同五座旗门，倏地同时涌现。众妖人知已入伏，阵法厉害，一声招呼，聚在一起，各施邪法，想将阵破去，就此绕阵飞驶起来。妖女宝镜晚了一步，为旗门所隔，并未照出花仙。龙娃见众妖人合力前攻，破完一座旗门，又有一座旗门出现，光焰万道，变化无穷，好看已极。正看到有兴头上，小仙笑道：",
-          "instruct": "叙述双方激战，旗门变化，语气紧张而精彩"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2564,7 +2641,9 @@
             "sound_cn": "妖人法宝齐出，攻击旗门的光焰爆裂声",
             "sound_en": "explosive sounds of magical weapons clashing against the formation",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "未说完",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2602,7 +2681,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随即走去，待有不到半个时辰飞回，说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2640,7 +2719,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，人便不见。一会，果有一阵风落向石侧，试喊了一声老师。申屠宏闻言，越知来时所料不差，小小婴童，竟有这高法力，好生欣慰。少时必能相见，便不再去寻找。暗忖：",
-          "instruct": "叙述申屠宏的欣慰和思索"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2651,7 +2730,9 @@
             "sound_cn": "一阵微风吹过，带起衣袂和石上草叶的细响",
             "sound_en": "gentle breeze rustling clothes and grass on the rock",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人便不见",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2689,7 +2770,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "越想越愁，又不知他隐向何方。只得悄嘱龙娃：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2727,7 +2808,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "龙娃应诺。这时，下面众妖人已经悟出旗门幻象，一个提醒，纷纷警觉，不由急怒交加。一面各施法宝，将四外环攻的五色精光挡住；一面想九人合力，施展九天都篆、秘魔阴雷，将旗门震成粉碎，再制敌人死命。申屠宏见下面九妖人按九官方位立定，由何永亮为首，各持一面妖幡，幡上飞起一股绿色光气，正往中央聚齐，看出是崆峒派独门辣手秘魔阴雷。知道阴雷已是阴毒无比，况又加上九天都篆，一经爆发，除却对崖有佛家禁制可以无害外，休说阵地一带，连自己存身的小石山也必被震成粉碎。花无邪的五遁旗门，断送还在其次，万一人在崖外，未得入内，再自恃法力，不知隐退，骤为阴雷邪火所伤，凶多吉少。偏为小师弟佛法掩蔽，看不出人在何处。因昨晚一谈，越觉花无邪身世可怜。又知崆峒派首要诸人为炼这种邪法，残杀修道之士过多，本已引起各正教公愤，仍还夜郎自大，公然在骑田岭设下九天秘魔大阵，想将各正派仙侠一网打尽。不料极乐真人李静虚恰在此时功候完满，元神化身，单人入阵，用太乙神雷大破妖阵，首要妖人几乎全数伏诛。由此瓦解，剩下十多个余孽，匿迹销声，久不听人说起。不想竟是处心积虑，隐伏山下，重又炼成阴雷。照此情形，早晚必定猖撅。崆峒阴雷与九烈神君所炼，异曲同工，这班妖人虽非已死诸首要之比，到底不可大意。一时仗义，便把阮征所借的二相环取下，静俟绿烟凝聚成一碧绿火球，待要爆发之际，下手破去，免得留在世上害人。主意打定，忽见西南方现出一团愁云惨雾，乍看邪气一团，不过亩许方圆，晃眼展开，铺天盖地而来。云中隐隐闻得极凄厉的异声，其势神速已极，声才入耳，月光立暗，妖云已是飞近。看出来势太凶，为防万一，刚把龙娃一抱，妖云也停留阵地之上，现出一个丑怪妖妇。生得又高又大，脸似乌金，一头灰发披拂两肩，左右鬓脚各挂着一串纸钱。生就一张马脸，吊额突睛，颧高鼻陷，大口血唇，自牙森列，下巴后缩，口眼鼻子乱动。手如鸟爪，长臂赤足。身穿一件灰白麻衣，腰悬革囊。才一到达，一声狞笑，把手一伸，便有五条黑影由指爪上飞出，往阵中抓去。下面五股绿色烟光正往中央斜射，互相会合，凝成一团，尚在流转不休，那绿气也正发之不已。只要绿气放完，变作一个绿阴阴的晶球，阴雷便自爆发。邪法虽未完成，但那绿色光气，一样沾它不得，并且所差只是瞬息之间，一样可化无量阴火爆发，端的厉害已极。不料妖妇鬼手影到处，便似一蓬丝般抓了起来，另一头便与妖幡脱离。手法更快，五条黑气往起一裹，便即无踪。当妖云到时，众妖人陷身阵中，不曾觉察。忽见五条手一般的黑影自空飞下，阴雷便被收去。除却两个稍为知底的以外，全都暴怒。未及发话，二次鬼手正要飞下，五色遁光一闪，面前一暗，旗门也便无踪，变了一片空地。众妖人瞥见空中一团阴云邪雾裹着一个妖妇，纷纷喝骂，待要围攻。妖妇已先厉声喝道：",
-          "instruct": "叙述妖妇乌头婆的突然出现和恐怖手段，语气紧张而充满压迫感"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2738,7 +2819,9 @@
             "sound_cn": "九道绿色阴雷向中央凝聚，发出滋滋的邪气涌动声",
             "sound_en": "hissing and crackling of green demonic thunder gathering in the center",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众妖人已经悟",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 60.0,
@@ -2748,7 +2831,9 @@
             "sound_cn": "一团愁云惨雾铺天盖地飞来的呼啸声",
             "sound_en": "roaring sound of a massive cloud of gloom sweeping in from the sky",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "又加上九天都",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 80.0,
@@ -2758,7 +2843,9 @@
             "sound_cn": "五条巨大黑影鬼手破空抓摄阴雷的锐啸声",
             "sound_en": "shrill, rushing sound of five giant shadowy hands grabbing the thunder",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "断送还在其次",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2796,7 +2883,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众妖人一见所料不差，果是此人，又在旁大声喝阻：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2834,7 +2921,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "于是全都停手为礼，转问：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2872,7 +2959,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "乌头婆面容立转惨厉，怪声答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2910,7 +2997,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众妖人知她炼就七煞形音摄魂大法，道力稍差的人，声音一被听见，立被将魂摄去。一双鬼手更是厉害，在场诸人谁也禁不起她一抓。正在面面相觑，未及答话。妖妇说完，也不再理睬妖人，径向对崖说道：",
-          "instruct": "叙述众妖人的畏惧和妖妇的转向"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2948,7 +3035,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正说之间，花无邪并无回音，也未现形，只听一个小孩的口音道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2986,7 +3073,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妖妇闻言，怒喝：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -3024,7 +3111,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩接口骂道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -3062,7 +3149,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妖妇闻言，并不发火，冷笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -3100,7 +3187,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "小孩接口怒喝：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -3138,7 +3225,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话未说完，人已现身。只见一片祥霞，拥着一个背插双钩，腰悬如意金环，胸悬玉辟邪，各焕奇光，短衣赤足的童子。年纪看去虽不似三岁，最多也只七八岁光景。生得粉装玉琢，俊美非常，加上那一身装束佩饰，一身仙风道气，分明天上金童，下降凡世。众妖人知道，既是妙一真人之子，善者不来，全都暗中惊奇不置。申屠宏在旁，却代他捏着一把冷汗，一见现出身来，这等形相，不禁惊喜交集，忙用本门传声告以留意。未及跟踪飞去，双方已是动手。原来老妖妇闻是妙一真人之子，面上先现惊疑之色。及至听到未两句，面色忽转狞厉，正要下手，人已现出。乌头婆老好巨猾，刁狡非常，一见这等仙姿英仪，暗忖：",
-          "instruct": "叙述李洪现身和双方对峙的紧张场面，语气充满惊叹和紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -3149,7 +3236,9 @@
             "sound_cn": "一片祥霞涌现，环绕着李洪出现的柔光声响",
             "sound_en": "soft, radiant whoosh of auspicious clouds appearing around a figure",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "未说完",
+            "trigger_offset": 0
           }
         ]
       },
@@ -3187,7 +3276,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心方一寒，猛瞥见李洪在祥霞拥护之下，一手掐着灵诀，一手戟指喝骂。众妖人除温三妹手藏袖口中微动，目注对面，似在暗中行法外，余人全都斜视自己，要看对此婴童如何发落。众目之下，就此退去，实在难堪，至少也应将那禁图抢夺了来，才可落场。好在来时禁网已经暗中布好，花无邪隐身多妙，只一离壁飞行，便即现形。此子仍以吓他逃走为妙。如真不知进退，逼我下毒手，也说不得了。念头一转，厉声喝道：",
-          "instruct": "叙述乌头婆的心理转变和决定，语气紧张而带有压迫感"
+          "instruct": ""
         },
         "effects": []
       },
@@ -3225,7 +3314,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随说，便有一团灰色暗光，朝李洪打去。这还是妖妇不愿与峨眉派结仇，没想伤害李洪，上来未下杀手，只将自炼阴煞奇秽的天垢珠发出。满拟此宝除能污秽敌人飞剑、法宝外，并还发出一种极秽奇腥之气，闻到便即晕倒。如能将人擒到，说上几句放走更好，否则他的护身宝光必然被污，失却灵效。敌人虽然仙根深厚，终是幼童，奇秽难当，必逃无疑。哪知李洪并不领情，所带法宝，乃灵峤三仙所赠，专御邪法，不怕污秽。并还深知妖妇来历，胸有成竹。一见天垢珠冉冉飞来，笑骂道：",
-          "instruct": "叙述双方正式交手，语气紧张而激烈"
+          "instruct": ""
         },
         "effects": [
           {
@@ -3236,7 +3325,9 @@
             "sound_cn": "一团灰色暗光破空飞行的低沉呼啸声",
             "sound_en": "low, rushing whoosh of a grey bead of light flying through the air",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "有一团灰色暗",
+            "trigger_offset": 0
           }
         ]
       },
@@ -3274,7 +3365,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，那团灰暗的光气，已是飞近身侧。照例敌人不论用甚飞剑、法宝，只一出手，妖光立即爆散，化为大片邪气，向人飞涌，其势极快，并具灵性，稍有缝隙，即被侵入，法宝、飞剑沾上就失灵效，众妖人深知妖妇全身法宝，无不阴毒厉害，李洪不死必伤。不料李洪若无其事，口说着话，手往胸前玉辟邪上一按，立有万道毫光，暴雨也似朝前射出，妖光立被撞成无数烟缕，四下飞射。妖光虽破，残烟剩缕仍是奇秽极毒。妖妇事出意外，骤不及防，又惊又怒，百忙中恐毒烟飞射，伤了身旁妖党，越发丢人。既然法宝已毁，不愿收回，愤急之余，将手一扬，残烟重又前飞。吃李洪宝光一挡，消灭大半，下余邪烟，便由李洪左右两侧绕飞过去。同时妖妇也已横心，待下毒手，双手一伸，飞出十条黑影，正向李洪抓去。猛觉心灵一动，知道花无邪已离崖飞起，待要逃走。想起此女禁图关系重要，怎今日轻重倒置，与小狗怄甚闲气？忽听温三妹喝道：",
-          "instruct": "叙述双方斗法的激烈场面，语气紧张而精彩"
+          "instruct": ""
         },
         "effects": [
           {
@@ -3285,7 +3376,9 @@
             "sound_cn": "玉辟邪爆发出万道毫光，暴雨般射出的轰鸣声",
             "sound_en": "intense whoosh and crackle of thousands of beams shooting from the jade pendant",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "已是飞近身侧",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 22.0,
@@ -3295,7 +3388,9 @@
             "sound_cn": "十条黑影从妖妇指尖飞出，抓向李洪的尖锐破空声",
             "sound_en": "sharp, terrifying shriek of ten shadowy hands extending to grab",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "并具灵性",
+            "trigger_offset": 0
           }
         ]
       },
@@ -3333,7 +3428,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "目光到处，花无邪已经现身，住斜刺里飞去。原来花无邪日前连破外壁六字灵符，以为洞门已现，只要照前图施为，当可如愿。不料门上还有混元真气封固，连施法力，均未攻破。李洪去唤申屠宏回来，看出她久攻不开，便往相助，仗着断玉钩之力，方觉有点意思，妖妇便已赶来。二人均知妖妇邪法厉害，李洪便令花无邪暂且停手避开，不可出声。由己上前，如能把妖妇逐走，再打主意。天残、地缺师徒历久未来，只要两老怪不出面作梗，仍是有望。花无邪明知艰险，终以功亏一贯，不舍就走，想看看再说。其实，当时妖妇已下禁网，稍有行动，便被察觉，以不动为好。谁知妖气残烟猛飞过来，才闻到一丝，立觉腥秽奇臭，难于忍受。尚幸功力甚高，忙运玄功封闭七窍，不令侵入，虽未中毒晕倒，余气尚是飞扬。惟恐有失，又想起来时申屠宏之言，妙一真人预示先机，定无差错。不合贪功求速，事未成功，反把强敌引来。妖妇人随声到，来去如电，此后防不胜防，又非敌手。再不见机，吃她摄去元神，永沦苦孽，休想出头。越想心越寒，便照申屠宏所说，往乌牙洞那一面乘隙遁去。身才飞出，立触禁网。同时妖女温三妹知花无邪尚在壁上隐迹，暗用镜光查照，因有李洪佛家禁蔽，不曾照见。这一飞出禁地，立被照出。虽然妖妇所设禁网在发动邪法以前并不伤人，花无邪功力又高，照旧飞驶，可是踪迹已现，不能再隐。妖妇见了，自然不放过，立舍李洪，口唤得一声：",
-          "instruct": "叙述花无邪的失策和被迫遁走，语气紧张而急切"
+          "instruct": ""
         },
         "effects": [
           {
@@ -3344,7 +3439,9 @@
             "sound_cn": "花无邪从崖壁飞出，向斜刺里遁走的破空声",
             "sound_en": "rushing whoosh of a cultivator suddenly flying off to the side",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "现身",
+            "trigger_offset": 0
           }
         ]
       },
@@ -3382,7 +3479,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那一双鬼手影便即抓去。妖妇呼音摄神之法厉害无比，如换别人，必被鬼手抓中，真魂元神已被摄住。总算花无邪得有佛门真传，禅功坚定，事前又有戒心。身刚飞出不远，忽听怪妇用极凄厉的怪声呼唤，才一入耳，便觉心旌摇摇，真神欲飞。知道不妙，忙运玄功制住心神，不去理睬，仍催遁光加急飞遁。不料妖妇飞行更快，人还未到，那双鬼手影已是追近。花无邪心灵上也有了警兆，眼看要糟。幸亏那旁李洪见妖妇鬼手舍了自己，去追花无邪，心中一急，把日前路遇女神童朱文谈起南疆斗法，因而要来的乾天一元霹雳子，由侧面照准妖妇便打。同时左肩一摇，断玉钩立化两道金红光华，交尾电掣而出，朝那黑手影剪去。双方都快，恰巧迎个正着。李洪这主意早就打好，不过提前先发，满拟妖妇必受重创，甚或震成粉碎。哪知妖妇在百多年前，也为孽子惹事，吃过此宝苦头，颇为内行。一见豆大一点紫色晶光迎面斜飞而来，知道此宝乃昔年幻波池威震群魔的乾天一元霹雳子，不禁大惊，口喝：",
-          "instruct": "叙述情势危急，李洪出手救援，语气紧张而激烈"
+          "instruct": ""
         },
         "effects": [
           {
@@ -3393,7 +3490,9 @@
             "sound_cn": "巨爪黑影破空追袭花无邪的凄厉风声",
             "sound_en": "shrieking, tearing wind of shadowy hands pursuing through the air",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一双鬼手影便",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 16.0,
@@ -3403,7 +3502,9 @@
             "sound_cn": "乾天一元霹雳子破空而出的尖锐啸声",
             "sound_en": "sharp, piercing whistle of a small purple thunder bead flying",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "总算花无邪得",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.0,
@@ -3413,7 +3514,9 @@
             "sound_cn": "断玉钩化为金红两道电光，交尾剪出的锐响",
             "sound_en": "shrill, twin whoosh of golden-red light beams crossing paths",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "禅功坚定",
+            "trigger_offset": 0
           }
         ]
       },
@@ -3451,7 +3554,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "忙即收手退回时，只听震天价一个霹雳过去，紫色星光已化为万道紫光奇焰，横飞爆散。这一震之威，数十丈方圆以内的山林树木全都粉碎。众妖人虽均久经大敌，闻声立纵遁光逃避。两个逃得慢一点的，均受了重伤。申屠宏如非为防龙娃受伤，加以禁制，相隔又远，所立小山也难免于波及了。李洪见紫光过处，妖妇鬼手前半似乎扫中了些，可是逃遁极速，晃眼无踪。方想妖妇也许知难而退，不料去得快，回得也快，远远一声极凄厉的怒啸，人随声到。妖妇虽然吃了点亏，并不向李洪报复，径由斜刺里朝花无邪追去。本来双方动作神速，花无邪逃并不远，又不合闻雷回顾，见妖妇逃走，群邪伤避，略一迟疑，四山回响未息，妖妇又追来。又避开了李洪一面，那一双数十丈的鬼手黑影，重又发出。李洪知道断玉钩乃晓月禅师苦炼多年，准备用来抵抗长眉真人玉匣飞刀的前古奇珍，到手以前又经天蒙禅师佛法传授，妖妇鬼手依然竟似无伤，照此情势，不将花无邪擒到不休。只有霹雳子是其所畏，无奈自己共只向朱文讨来两粒，妖妇来去如电，就发出去也未必能使受伤。如再一击不中，便无制她之法。不禁又惊又急，立纵遁光横截上去，手中暗藏未一粒霹雳子，准备迎头再发。这一面，申屠宏见状也着了急，也是隐身飞起，与李洪不约而同往前追截。忽见由乌牙洞那一面飞来一片天幕也似的黄云，放过花无邪，将妖妇阻住。那云直似一片横亘天半的屏障，上面现出两个死眉死眼，一般高矮的黄衣怪人。这两个怪人，不特容貌身材相同，连神情动作也都一样，乍看直似云屏上画着两个孪生兄弟，不似生人。各睁着一双呆暗无光的怪眼，望着妖妇，一言不发。申屠宏一见，便知仙束之言已应，忙用本门传声，招呼李洪速急隐形，退往小山，恩师有话。李洪深知怪人来历，本就想坐观虎斗，只是少年好事，不知厉害，打算乘隙下手，与妖妇一个杀着。又以众妖人吃了点亏，俱各忿怒，见妖妇去而复转，气焰更盛，跃跃欲试，已经出声喝骂，待与妖妇合流动手，也想借此除去两个。心方盘算，忽听传声，并有父谕，立即隐身前往会合。因是先后隐形，飞遁神妙，怪人、妖妇全未看出去向。刚到土山，便听两怪人同声说道：",
-          "instruct": "叙述霹雳子爆炸的威力和黄衣怪人的出现，语气紧张而宏大"
+          "instruct": ""
         },
         "effects": [
           {
@@ -3462,7 +3565,9 @@
             "sound_cn": "霹雳子爆炸的震天巨响和冲击波，树木粉碎的声音",
             "sound_en": "deafening explosion and shockwave, the sound of trees and rocks being shattered",
             "volume": "-10%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "退回时",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 35.0,
@@ -3472,7 +3577,9 @@
             "sound_cn": "妖妇去而复返，发出远传四山的凄厉怒啸",
             "sound_en": "piercing, furious howl of the demoness returning, echoing across the mountains",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "非为防龙娃受",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 55.0,
@@ -3482,7 +3589,9 @@
             "sound_cn": "一片天幕般的黄云飞来，发出隆隆的破空声",
             "sound_en": "deep, rushing whoosh of a massive yellow cloud screen sweeping in",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "晃眼无踪",
+            "trigger_offset": 0
           }
         ]
       },
@@ -3520,20 +3629,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "李洪闻言，方要开口，吃申屠宏连忙阻住，告以少安勿躁，且看下文。师徒三人往前一看，妖妇鬼手已是收回，仍由一团阴云惨雾环身凌空而立，望着两怪人，也不动手，口眼鼻子不住乱动，面容悲愤已极。众妖人见此阵仗，全部收势，悄悄避向一旁。双方沉默相持，约有半盏茶时，妖妇好似进退两难，忽然厉声说道：",
-          "instruct": "叙述双方对峙的紧张局面，语气充满悬念"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "风声与死寂",
-            "sound_cn": "对峙时，空旷山野间的风声和压抑的寂静",
-            "sound_en": "wind howling across the empty field, oppressive and dead silence",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -3569,7 +3667,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "两怪人始终呆视如死，并不理睬。",
-          "instruct": "叙述怪人的反应，气氛紧张而神秘"
+          "instruct": ""
         },
         "effects": []
       },

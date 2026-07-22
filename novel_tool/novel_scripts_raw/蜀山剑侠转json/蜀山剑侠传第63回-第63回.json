@@ -123,7 +123,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第63回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -142,7 +142,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "大家谈了一阵，彼此越来越投机。白琦、戴衡玉兄妹从许钺口中听出黄、赵二人俱会剑术，十分钦慕，便请许超转留黄、赵、许三人助一臂之力。心源道：",
-          "instruct": "平静叙述，气氛融洽"
+          "instruct": ""
         },
         "effects": [
           {
@@ -153,7 +153,9 @@
             "sound_cn": "厅中火盆炭火燃烧，发出细微的噼啪声，暖意融融",
             "sound_en": "charcoal burning in the brazier, soft crackling sounds, warm and cozy",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大家谈了一阵",
+            "trigger_offset": 0
           }
         ]
       },
@@ -191,7 +193,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便将追云叟命周淳传书之事说了一遍。还恐白、戴三人不信，又将身旁书信取出。白琦道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -202,7 +204,9 @@
             "sound_cn": "赵心源从怀中取出书信，纸张与衣料摩擦发出轻微声响",
             "sound_en": "Zhao Xinyuan taking out a letter from his bosom, soft rustling of paper and fabric",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便将追云叟命",
+            "trigger_offset": 0
           }
         ]
       },
@@ -240,7 +244,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "黄、赵二人野鹤闲云，见主人盛意相留，彼此难得意气相投；又闻得陈、罗二人如此横行，只要不误追云叟使命，正乐得为民除害。便答应明日回转岳麓，去将一些随身东西取来，住到二月初三，看了追云叟书信再定行止。白、戴二人闻言大喜。凌操同俞允中俱受了罗九的伤，幸而白琦知道门径，加意治疗，在后园养病。闻说来了三位剑侠，连凌云凤都要扶病出来请见。白琦说他二人不能劳顿，随请黄、赵、许三人入内相见。谈起来，凌操还是心源初次学武时的同门师叔，彼此自然愈发亲近，第二日，黄、赵、许三人回转长沙岳麓，分别将东西取来，在戴家场住下。惟有许钺急于要到三游洞拜师，还要回家料理一切，说住了正月十五便要回去。白琦见他去意甚坚，不便过分挽留，只得等他住过十五再说。到了除夕这晚上，戴衡玉大摆筵席，款待三位嘉客。酒席上面，黄玄极道：",
-          "instruct": "叙述日常，语气平缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -251,7 +255,9 @@
             "sound_cn": "除夕酒席上杯箸碰撞声，轻快的瓷器叮当声夹杂着说笑声",
             "sound_en": "sounds of cups and chopsticks clinking at New Year's Eve feast, light porcelain sounds mingled with laughter",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "赵二人野鹤闲",
+            "trigger_offset": 0
           }
         ]
       },
@@ -289,7 +295,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一句话将众人提醒，戴衡玉道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -319,7 +325,9 @@
             "sound_cn": "戴衡玉放下酒杯，杯底与桌面轻碰发出清脆声响",
             "sound_en": "Dai Hengyu putting down his wine cup, crisp click as it touches the table",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "是黄道兄提起",
+            "trigger_offset": 0
           }
         ]
       },
@@ -338,7 +346,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白琦道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -376,7 +384,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺抢先说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -414,7 +422,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心源、玄极也说愿往。白琦说：\"三位嘉宾初来，又在年下，正好盘桓，怎敢劳动？\"禁不住许钺一定要去，只请派人领去。白琦道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -452,7 +460,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便起立斟了一满杯，对许超说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -463,7 +471,9 @@
             "sound_cn": "白琦倒酒，酒液注入杯中发出清亮的水声",
             "sound_en": "Bai Qi pouring wine, clear liquid sound as it fills the cup",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便起立斟了一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -501,7 +511,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超闻言，立刻躬身说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -531,7 +541,9 @@
             "sound_cn": "许超将杯中酒一饮而尽，喉头滚动发出轻微吞咽声",
             "sound_en": "Xu Chao draining his cup, soft swallowing sound",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "遵命",
+            "trigger_offset": 0
           }
         ]
       },
@@ -550,7 +562,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "端来酒杯一饮而尽。早有人将随身兵刃送上。许超接过兵刃，朝众人重打一躬，道声再见，转身下堂而去。许钺因是自己兄弟，不便再拦，只得由他。众人重又入座，白琦殷勤劝客，若无其事一般。大家献筹交锗，直饮到二更向尽，仍无动静。当下有长工撤去杯箸，由白、戴二人陪到房内闲谈。因是除夕晚上，大家守岁，俱不睡觉，谈谈说说，非常有趣。直到三更以后，戴衡玉入内敬完了神出来，向大家辞岁。接着全家大小、亲友长班以及戴家场阖村的人，分别行了许多俗礼。许钺见衡玉一家团圆，非常热闹，不禁心中起了一些感触。猛想起：\"许超同自己分手了多少年，不曾见面，无端异地骨肉重逢，还练了一身惊人本领。适才也未及同他细谈别后状况，自己不久便要往三游洞寻师，说不定就许永久弃家出世。何不把那一份家业连同儿女都托他照管，岂不是好？\"想到这里，便趁众人忙乱着辞岁礼之际溜了出来，门上人知他是本村贵客，也未盘问。许钺在席上业已问明鱼神洞路径，离了戴家，便往前走。只听满村俱是年锣鼓的声音，不时从人家门外，看见许多乡民在那里迎财神，祭祖先，各式各样的花炮满天飞舞，只不见那日初进村时所见的九龙赶星的一支号花罢了。许钺一路上看见许多丰年民乐，旨酒卒岁景象，颇代村民高兴。正走之间，忽地一道数十丈高的横冈平地耸起，知道这里已离鱼神洞不远。只见天上寒星闪耀，山冈上面静悄悄的，更无一个人影，又不见许超在何处守望。再往回路看时，依然是花炮满天乱飞，爆竹同过年锣鼓的声音隐隐随风吹到。许钺更不思索，将身连纵几下，已到高冈上面。正用目四外去寻许超时，忽听耳旁一声断喝，接着眼前一亮，两柄雪亮的钢刀直指胸前。许钺急忙将身往后一纵，纵出有三五丈远近。定睛朝前看时，原来是两个本村壮勇，每人一手提着本村号灯，一手拿着一把钢刀。正要想还言，忽听脑后风声，许钺久经大敌，忙将头一偏，便有两杆长枪寒星一般点到。许钺知道戴家场的人个个都会一些武术，并且布置周密，再不从速自通来历，无论伤了哪一方面，都不合适。一面将身横纵出去，一面喊道：",
-          "instruct": "叙述除夕夜景和许钺离村，语气平缓渐转紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -561,7 +573,9 @@
             "sound_cn": "远处传来除夕花炮的噼啪声和冲天炮的呼啸声，村中喜庆热闹",
             "sound_en": "distant New Year firecrackers crackling and skyrockets whistling, festive village atmosphere",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "端来酒杯一饮",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -571,17 +585,21 @@
             "sound_cn": "村中传来过年锣鼓的声响，节奏欢快，隐隐随风飘来",
             "sound_en": "New Year drum and gong sounds from the village, lively rhythm carried by the wind",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "早有人将随身",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 8.0,
+            "trigger_delay": 168.9,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "纵身上冈",
             "sound_cn": "许钺纵身跃上高冈，脚步落在山石上发出轻响",
             "sound_en": "Xu Yue leaping up onto the ridge, feet landing lightly on the rocks",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞舞，只",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9.0,
@@ -591,17 +609,9 @@
             "sound_cn": "巡守壮勇一声短促有力的断喝，充满警惕",
             "sound_en": "guard letting out a sharp commanding shout, full of alertness",
             "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 9.5,
-            "duration": 1,
-            "process_mode": "overlay",
-            "name": "钢刀出鞘",
-            "sound_cn": "两柄钢刀同时出鞘，发出清脆的金属摩擦声",
-            "sound_en": "two steel blades drawn simultaneously, crisp metallic scraping sound",
-            "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "接过兵刃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.5,
@@ -611,7 +621,9 @@
             "sound_cn": "两杆长枪从身后刺来，带起尖锐的破风声",
             "sound_en": "two spears thrusting from behind, sharp whistling through the air",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朝众人重打一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -649,7 +661,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那四人闻言，便将四盏红灯提起，直射到许钺的面上，认出是日前庄主请来的嘉客，连忙上前赔话道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -660,7 +672,9 @@
             "sound_cn": "四盏红灯同时照亮许钺的面容，灯光映照在岩石上发出微光",
             "sound_en": "four red lanterns illuminating Xu Yue's face, light reflecting faintly on the rocks",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那四人闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -698,7 +712,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺也谦逊了两句，便问三庄主许超何往。那四人当中为首的一个叫戴满官的说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -719,18 +733,7 @@
           "text": "上半夜曾见三庄主到此，说他要往鱼神洞故道前去办一点事，叫我四人不准擅离一步。如到天色快明他还不曾回来时，等第二班替我们的人到来，便去与大庄主同各位报信。起初我们还看见他提着长枪在鱼神洞口盘桓。二更过后，就见他独自走进洞去，从此便不见出来。那鱼神洞深有四五十丈，原是通吕村的必由之路。前些年这山崩下来，将这条路填塞，鱼神洞的脊梁被山石压断，也堵死了，变成两头都不通气。日前我们在此防守，总是把四人分成两班，带了许多酒菜，跑进洞去，弄上一些柴火，在里面取暖喝酒。四个人分着两班防守，有两个伙伴听见里面有鬼哭神嗥的声音，隐隐还看见洞的深处有青光闪动，疑惑是出了妖怪，吓得跑了出来。我们两人不信，也到洞中去看，起初没有什么响动。正要怪我们那两个伙伴说诳，忽见从洞内深处飞出一道青光，一道白光，从我们头上穿出，飞向洞外，把我二人吓倒在地。停了一会，出洞看时，什么踪影都没有。本想报告三位庄主，三位庄主素不信神信鬼，恐怕说我们胆小偷懒，忍了好些天。因为三庄主素来随和，爱同我们说笑，也是我多嘴，说鱼神洞内出了妖怪，说起此事。如今三庄主到洞中一去不见出来，我真替他担心呢！",
           "instruct": "语气朴实中带着担忧，叙述时带有紧张感"
         },
-        "effects": [
-          {
-            "trigger_delay": 1.0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "风声呼啸",
-            "sound_cn": "山冈上夜风呼啸，吹动衣袂和草木，增添紧张气氛",
-            "sound_en": "night wind howling on the ridge, rustling clothes and grass, adding tension",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -747,7 +750,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺闻言大惊，略一寻思，便对戴满官说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -785,7 +788,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，携了手中兵刃，直往鱼神洞走去，许钺走到鱼神洞口一看，只见洞口高约二丈，已被碎石堆积，只容得一二人出入，里面黑洞洞的。倾耳细听，没有什么动静。姑且朝着洞内喊了两声许超的小名，洞深藏音，又加上许钺丹田气足，分外清越。许钺喊了两声，再仔细凝神，听那山洞的回音。忽喊一声：",
-          "instruct": "叙述探洞，语气紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -796,7 +799,9 @@
             "sound_cn": "许钺走近洞口，脚下碎石滑落发出沙沙声响",
             "sound_en": "Xu Yue approaching the cave entrance, loose stones sliding underfoot with soft rustling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "携了手中兵刃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -806,7 +811,9 @@
             "sound_cn": "许钺喊声在洞中回荡，层层叠叠，余音悠长",
             "sound_en": "Xu Yue's voice echoing in the cave, layers of sound reverberating, long lingering echoes",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "携了手中兵刃",
+            "trigger_offset": 0
           }
         ]
       },
@@ -825,7 +832,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "\"不好！\"也不进洞，径自回到原处，向戴满官要了一只号灯。二次来到洞前，用手掩住灯光，走进洞去，摸着一块石头，脸朝黑处坐下，睁眼往前凝视，有半盏茶的工夫。然后眼闭上，调息敛神，又待了片刻。然后睁开二目，朝黑暗中看去，居然看清路径，知道这洞内必另还有透光之处，不然决不会看得这般明显。许钺这一种暗中看物的功夫，名叫虚室生白夜光眼。初练的时节，先预备一间黑暗屋子，里面点上一根香火，从明亮处走将进去，睁开二目，向室中预设的香火凝视片刻。然后闭目凝神，有半刻光景，重又睁眼注视香火，不眨眼，直看到两眼酸到不能支持。又将眼闭上，养神片刻光景，重又睁眼注视香火。每晚须有一定次数，逐渐将香火做的目标减小。到了三个月以后，撤去香火，换上一根白的木棍，照样去练。一直练到木棍由大而小，木棍颜色由白而黄而红，功夫才算练成，从此暗中视物非常清楚。许钺刚才喊了两声，听出余音虽长，没有回响；又听戴满官说，许超入洞业已时间很久，知道这洞必已被人打通，许超入内，也许遭了毒手。本想回去说与众人知道，又恐许超万一没有出事，这般劳师动众，未免示弱。仗着艺高人胆大，又练就这一双夜眼，好歹先去寻寻许超下落再说。便向戴满官要了一只号灯。将漏光的一面朝着石壁，准备自己万一迷路时的标记。那号灯只有一面透光，又是红色，射在石壁上面，依稀只有些微影子，不是练过夜眼的人，绝不会看见。许钺还不大放心，重又坐下，调息安神，在黑暗中把目光调好，睁眼朝四外一看，自己坐的这块石头旁边还有柴灰余烬同一把酒壶，知是巡守的村壮所遗。再往前面一看，这洞颇有曲折。许钺人本细心，运用夜眼，蹑足凝神，朝前一路看，一路走。往里走了有三四十丈远近，忽然走到尽头，四外细寻，并无出路。心想：\"那四个壮勇明明看见许超从此进来，这洞虽然曲折，却只有一条道，并无歧路，怎么已到尽头，还不见许超何在？莫不是他们看错了，许超不曾进来？或者洞外还有一条道路，也未可知。那前晚守夜的人所听的哭声，同洞内冲出那一青一白的两道光华，又是什么缘故呢？\"正在寻思之际，忽听一种极细微的声音，从那尽头处石壁后发出。许钺更不怠慢，轻轻挨近石壁，将耳朵贴在上面一听，竟是一种搬动重东西的声音，仿佛还听得好些人在一处说话，只是听不十分清楚。知道已有踪迹可寻，仗着耳力甚聪，屏息凝神，细听了好一会，才听出一个尖声尖气的嗓子说道：",
-          "instruct": "详细叙述许钺运用夜眼探洞，语气专注紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -836,7 +843,9 @@
             "sound_cn": "石壁后传来极细微的声响，像是石头移动和远处人声",
             "sound_en": "very faint sounds from behind the stone wall, like stones moving and distant voices",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也不进洞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -846,7 +855,9 @@
             "sound_cn": "许钺将耳朵贴近石壁，衣料与石面摩擦发出轻微声响",
             "sound_en": "Xu Yue pressing his ear against the stone wall, soft rustle of fabric against rock",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也不进洞",
+            "trigger_offset": 0
           }
         ]
       },
@@ -876,7 +887,9 @@
             "sound_cn": "石壁后传来多人说话声，模糊不清，带着争执的语调",
             "sound_en": "muffled voices from behind the stone wall, indistinct arguing tones",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我当初原说那",
+            "trigger_offset": 0
           }
         ]
       },
@@ -895,7 +908,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说到这里，又听一人接口说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -933,7 +946,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "先前那人又道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -963,7 +976,9 @@
             "sound_cn": "石头被搬动和堆放的声响，沉闷而沉重",
             "sound_en": "stones being moved and stacked, dull and heavy sounds",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "你也不用再难",
+            "trigger_offset": 0
           }
         ]
       },
@@ -982,7 +997,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随后又听石头移动之声响了一下。接着便有许多脚步之声，由近而远，直到听不见丝毫响动。许钺估量石壁后面的人业已走远，听那些人所说的一番话，知道许超凶多吉少。急忙回身取来号灯，将油纸取下，细细往石壁上面去照。果然发现石壁靠左边有一个孔洞，离地有四五尺高下，宽约三尺，地下还有许多脚印。那洞现在虽被一块大石填塞，经辨认结果，已看出是人工所为。用手推了两下，却推它不动。许钺不肯死心，再往别的地方用力推扳，无意中忽然觉着右下角那一块山石隐隐有些活动。拿灯一照，果然看出一些裂痕，心中大喜。且不动手，先把这石壁端详了一会，看出这座鱼神洞当中，半截地势比较宽广。当年那座山峰倒将下来，将洞顶压穿，把往来要道堵塞。山石倒下来时节，受了巨烈震动，表面虽然浑成一块，却有不少震裂的地方，起初人本不甚注意，直到敌人打算掘通故道，偷袭戴家场，才发现有一块石头，业已同石壁本身分家，便把它移开了去。今晚想是又有人主张，不要用这种险法，重新将它填死，不想又被自己发现。不过许超如在此处出去被擒，石壁那面敌人必有防备。如不从此路设法，一则自己道路不熟，二则听人说相隔太远，恐耽延时间，许超出了差错。仔细一寻思，决定仍然开通此路出去。便将长枪搁在地下，拔出身旁主剑，朝那石头裂缝中直插了进去，用力往怀里一搬，居然随手而开。许钺怕惊动了石壁后面敌人，轻轻将剑入鞘，蹲下身来，用两手扳着那石头棱角，用尽平生之力，稳住劲，沉住气，往怀中一拉，毫不费事地把一块二尺方石头拉了出来，探头往那小洞中一看，忽见一丝光线射在石头上面，知已将石壁开通，可以由此出去。原来当初山崩的时候，一座山峰的峰尖正压在鱼神洞的脊梁上，这一块大石半截插入地内，厚的地方差不多有三四丈，偏偏有两处薄的才只尺许，受不住那么大压力，恰好一左一右裂成两块。所以许钺毫不费事，一拉便开。许钺将石洞开通之后，不知对面敌人还有什么埋伏，不敢造次爬将过去。先取下自己戴的一顶小帽插在枪尖上，伸出洞去，晃了几晃，一面用耳细听，并无动静，这才撤回来。放下枪，轻轻爬将过去一看，不由叫了一声惭愧。原来这座石壁竟是空心的，那一面被自己开通，这一面虽然未开，却天生成有三四寸方圆的孔窍。就着孔窍中往外一望，外面果然有两个人在地下打着地铺，业已入睡。当中一个火盘，盘沿上还有许多酒菜茶水。虽然这两个防守的人业已睡着，要打算破壁出去，必定将这二人惊醒。如果从孔窍中用暗器结果他二人性命，然后出去，又怕误伤无辜。再推了推石壁，竟是非常坚实，不动兵刃，决难出去。正在为难，忽觉脑后一阵凉风，怕是敌人暗器，急忙藏头缩颈，将身往下一偏。眼看两条黑影一晃，接着便又听喳喳两声，紧跟着一声轰隆巨响，石壁凭空倒下，震得地下尘土乱飞。面前站定二人，那守夜的人惊醒过来，才待起身，已被那二人用点穴法点倒。许钺定睛一看，来的二人正是玄极、心源。心中大喜，急忙跳将过去相见。刚要问他二人因何到此，心源道：",
-          "instruct": "叙述许钺发现线索和打通石壁，语气紧张激动"
+          "instruct": ""
         },
         "effects": [
           {
@@ -993,7 +1008,9 @@
             "sound_cn": "许钺将剑插入石缝用力撬动，剑身与石头摩擦发出刺耳声响",
             "sound_en": "Xu Yue inserting sword into stone crack and prying, harsh scraping sound of metal against rock",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "接着便有许多",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1003,7 +1020,9 @@
             "sound_cn": "许钺将二尺方的大石从孔洞中拉出，石头摩擦地面发出沉闷声响",
             "sound_en": "Xu Yue pulling out the two-foot square stone from the hole, dull scraping sound against the ground",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许多脚步之声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9.0,
@@ -1013,7 +1032,9 @@
             "sound_cn": "许钺将长剑轻轻插回剑鞘，发出清脆的金属归位声",
             "sound_en": "Xu Yue sliding the sword back into its scabbard, crisp metallic click",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "步之声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -1023,7 +1044,9 @@
             "sound_cn": "石壁被黄玄极和赵心源轰然推倒，发出震耳欲聋的巨响，尘土飞扬",
             "sound_en": "stone wall collapsing with a deafening crash as Huang Xuanji and Zhao Xinyuan push it down, dust flying",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "直到听不见丝",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -1033,7 +1056,9 @@
             "sound_cn": "两名守夜人被点中穴道，发出短促的闷哼声，随即倒地不动",
             "sound_en": "two guards hit with acupoint sealing technique, brief grunts then collapsing motionless",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "毫响动",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1071,7 +1096,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，先将被擒两个守夜之人点开活穴，与玄极各自鹰捉小鸟一般提了一个到旁边去，分头审问许超踪迹。那二人道：",
-          "instruct": "紧张叙述，审问场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1082,7 +1107,9 @@
             "sound_cn": "赵心源点开守夜人穴道，被点者发出一声轻响恢复活动",
             "sound_en": "Zhao Xinyuan releasing the acupoint seal, slight sound as the guard regains movement",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "先将被擒两个",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1092,7 +1119,9 @@
             "sound_cn": "守夜人被提起时衣甲和可能的镣铐发出金属碰撞声",
             "sound_en": "guard's armor and possible chains clinking as he is lifted",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "先将被擒两个",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1130,7 +1159,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢叩头，请求黄、赵二人饶命。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1141,7 +1170,9 @@
             "sound_cn": "两名守夜人连连叩头，额头触地发出轻响，哀求饶命",
             "sound_en": "two guards kowtowing repeatedly, foreheads tapping the ground, begging for mercy",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说罢叩头",
+            "trigger_offset": 0
           }
         ]
       },

@@ -75,7 +75,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第85回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -94,7 +94,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "约有个把时辰，二人到了喜马拉雅山红鬼谷外落下。",
-          "instruct": "平静叙述，交代地点"
+          "instruct": ""
         },
         "effects": [
           {
@@ -105,7 +105,9 @@
             "sound_cn": "两人从空中落下，脚踩雪地的轻微声响和衣袍风声",
             "sound_en": "two figures landing on snow, soft footstep sounds and robe rustling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "约有个把时辰",
+            "trigger_offset": 0
           }
         ]
       },
@@ -143,7 +145,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "西方野魔久闻他爱吃人的心血，知道他才脱罗网，故态复萌。心想：红鬼谷有千百雪山围绕，亘古人踪罕到，来此的人俱都与毒龙尊者有点渊源，不是等闲之辈，倒要看他是如何下手。却故意解劝道：",
-          "instruct": "平静叙述，略带思虑"
+          "instruct": ""
         },
         "effects": []
       },
@@ -200,7 +202,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "西方野魔见他如此狂法，便问道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -257,7 +259,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人正说之间，忽然东方一朵红云如飞而至，眨眨眼入谷内去了。",
-          "instruct": "平静叙述，带神秘"
+          "instruct": ""
         },
         "effects": [
           {
@@ -268,7 +270,9 @@
             "sound_cn": "一朵红云急速飞来，破空声伴随着呼啸风声，瞬间消失",
             "sound_en": "a red cloud rushing through the air swiftly, whooshing with wind, disappearing in a flash",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人正说之间",
+            "trigger_offset": 0
           }
         ]
       },
@@ -306,7 +310,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，又听一阵破空声音，云中飞来两道黄光，到了谷口落下。西方野魔还未看清来人面目，忽听绿袍老祖一声怪笑，一阵阴风起处，绿烟黑雾中现出一只丈许方圆的大手，直往来人身后抓去。刚听一声惨叫，忽见适才那朵红云较前还疾，从谷内又飞了出来，厉声说道：",
-          "instruct": "紧张急促，描述突变"
+          "instruct": ""
         },
         "effects": [
           {
@@ -317,7 +321,9 @@
             "sound_cn": "两道黄光破空而来，发出尖锐的呼啸声",
             "sound_en": "two yellow beams shooting through the air with sharp whistling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一阵破空声音",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -327,7 +333,9 @@
             "sound_cn": "阴风骤起，绿烟黑雾中一只大手猛然抓出，带起沉闷的呼啸",
             "sound_en": "sudden eerie wind, a huge hand emerging from green smoke and black mist, with a dull whoosh",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "方野魔还未看",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 16.0,
@@ -337,7 +345,9 @@
             "sound_cn": "一声短促尖锐的惨叫，随即戛然而止",
             "sound_en": "a short sharp scream cut off abruptly",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忽听绿袍老祖",
+            "trigger_offset": 0
           }
         ]
       },
@@ -375,7 +385,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，红云落地，现出一个十一二岁的童子，一张红脸圆如满月，浓眉立目，大鼻阔口。穿一件红短衫，赤着一双红脚，颈上挂着两串纸钱同一串骷髅骨念珠。一手执着一面金幢，一手执着一个五老锤，锤头是五个骷髅攒在一起做成，连锤柄约有四尺。满身俱是红云烟雾围绕。西方野魔认出来人是五鬼天王尚和阳，知他的厉害，连忙起身为礼。尚和阳才同绿袍老祖照面，便厉声说道：",
-          "instruct": "描述尚和阳形貌，紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -386,7 +396,9 @@
             "sound_cn": "金幢轻轻晃动，发出金属碰撞和风铃般的清脆声",
             "sound_en": "golden banner gently swaying, metallic jingling and wind-chime-like tinkling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "红云落地",
+            "trigger_offset": 0
           }
         ]
       },
@@ -443,7 +455,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "先前黄光中现出的人，原是两个女子，一个已被绿袍老祖大手抓到，未及张口去咬，被尚和阳夺了去。他二人是女魔鸠盘婆的门下弟子金株、银蛛。因接了毒龙尊者请柬，鸠盘婆长于先天神数，最能前知，算出各异派俱不是峨眉对手，不久正教昌明，自己虽也是劫数中人，总想设法避免，不愿前来染这浑水，又不便开罪朋友，便派金妹、银妹二人到来应应卯，相机行事。不想刚飞到谷口，银妹险些做了绿袍老祖口内之食。她二人俱认得五鬼天王尚和阳是师父好友，他在此便不妨事。于是走了过来，等尚和阳和绿袍老祖谈完了话，先向尚和阳道谢救命之恩。然后说道：",
-          "instruct": "平静叙述，交代背景"
+          "instruct": ""
         },
         "effects": []
       },
@@ -481,7 +493,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "绿袍老祖听她二人言语尖刻，心中大怒，不问青红皂白，又将元神化成大手抓去。金妹、银蛛早已防备，不似适才疏神，未容他抓到，抢着把话说完，双双将脚一顿，一道黄烟过处，踪迹不见。",
-          "instruct": "紧张急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -492,7 +504,9 @@
             "sound_cn": "一道黄烟猛然升起，随后消散，人已不见",
             "sound_en": "a yellow smoke rising suddenly and dissipating, figures vanishing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "听她二人言语",
+            "trigger_offset": 0
           }
         ]
       },
@@ -530,7 +544,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "绿袍老祖二次未将人抓着，在自树了一个强敌，又听尚和阳如此说法，心中好生忿怒。只因尚有求人之处，不得不强忍心头，勉强说道：",
-          "instruct": "平静叙述，压抑怒火"
+          "instruct": ""
         },
         "effects": []
       },
@@ -568,7 +582,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "尚和阳也不去理他。他和西方野魔早先原也交好，见他也断了一只臂膀，扶着绿袍老祖半截身躯，神态十分狼狈，便问他因何至此。西方野魔把自己的遭遇大概说了一遍，只不说出事因雪魂珠而起。尚和阳闻言大怒道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -606,7 +620,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便约二人进去。西方野魔又问毒龙尊者此次约请的都是什么能人。尚和阳道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -644,7 +658,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，忽然一道黄烟在地下冒起，烟散处现出一个蛮僧打扮的人，说道：",
-          "instruct": "突然，带神秘"
+          "instruct": ""
         },
         "effects": [
           {
@@ -655,7 +669,9 @@
             "sound_cn": "一道黄烟从地下冒起，发出轻微的嘶嘶声",
             "sound_en": "a yellow smoke rising from the ground with a soft hiss",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -693,7 +709,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "来人身材高大，声如洪钟，正是滇西派长教毒龙尊者。绿袍老祖一见是他，不由心头火起，骂一声：",
-          "instruct": "叙述带紧张"
+          "instruct": ""
         },
         "effects": []
       },
@@ -731,7 +747,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "张开大手，便要抓去。尚和阳见二人见面便要冲突，忙伸左手，举起白骨锤迎风一晃，发出一团愁烟惨雾，鬼哭啾啾，一齐变活，各伸大口，露出满嘴白牙，往外直喷黑烟。尚和阳拦住绿袍老祖骂道：",
-          "instruct": "紧张急促，描述斗法"
+          "instruct": ""
         },
         "effects": [
           {
@@ -742,7 +758,9 @@
             "sound_cn": "白骨锤晃动，愁烟惨雾弥漫，鬼哭啾啾，黑烟喷出",
             "sound_en": "bone hammer shaking, sending out mournful smoke and mist, ghostly wailing, black smoke billowing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便要抓去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -780,7 +798,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "绿袍老祖闻言虽然不快，一则尚和阳同毒龙尊者交情比自己深厚，两人均非易与，适才原是想起前怨，先与毒龙尊者来一个下马威，并非成心拼命；二则尚和阳虽然出言专横，自己正有利用他之处，他所说之言也未尝不合自己心意，乐得借此收场。便对尚和阳答道：",
-          "instruct": "平静叙述，内心权衡"
+          "instruct": ""
         },
         "effects": []
       },
@@ -818,7 +836,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毒龙尊者见绿袍老祖发怒动手，自己一来用人之际，又是地主，只一味避让，并未还手。一闻此言，哈哈笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -856,7 +874,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "绿袍老祖正要答言，西方野魔已上前先与毒龙尊者见礼，转对绿袍老祖道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -894,7 +912,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "尚和阳也催着有话到里面去再说。毒龙尊者为表示歉意，亲自抱了绿袍老祖在前引路。毒龙尊者移居红鬼谷不久，西方野魔尚是初来，进谷一看，谷内山石土地一片通红。入内二十余里，只见前面黄雾红尘中隐隐现出一座洞府。洞门前立着四个身材高大的持戈魔士，见四人走近，一齐俯伏为礼。耳听一阵金钟响处，洞内走出一排十二个妙龄赤身魔女，各持舞羽法器，俯伏迎了出来。那洞原是晶玉结成，又加毒龙尊者用法术极力经营点缀，到处金珞璎花，珠光宝气，衬着四外晶莹洞壁，宛然身入琉璃世界。西方野魔心中暗暗惭愧：自己与毒龙尊者同师学道，只为一时负气，一意孤行。别了多年再行相见，不想毒龙尊者半途又得了天魔真传，道力精进，居然作了滇西魔教之祖。自己反落成一个残废，向他乞怜。这般享受，生平从未遭遇过一天。反不如当初与他合同组教，何至今日？正在愧悔，心中难受，绿袍老祖见着左右侍立的这些妖童魔女，早不禁笑开血盆大嘴，馋涎欲滴。毒龙尊者知他毛病，忙吩咐左右急速安排酒果牲畜，一面着人出去觅取生人来与他享用。侍立的人领命去后，不多一会，摆好酒宴，抬上活生生几只活牛羊来。毒龙尊者将手一指，那些牛羊便四足站在地下，和钉住似地不能转动。在座诸人宗法稍有不同，奉的却都是魔教，血食惯了的。由毒龙尊者邀请入席坐定后，绿袍老祖更不客气，两眼觑准了一只肥大的滇西牛，身子倚在锦墩上面，把一只鸟爪般的大手伸出去两丈多远，直向牛腹抓去，将心肝五脏取出，回手送至嘴边，张开血盆大口一阵咀嚼，咽了下去。随侍的人连忙用玉盘在牛腹下面接了满满一盘子血，捧上与他饮用。似这样一口气吃了两只肥牛、一只黄羊的心脏，才在锦墩上昏昏睡去。毒龙尊者、尚和阳、西方野魔三人，早有侍者依照向例，就在鲜活牛羊的脊背上将皮划开，往两面一扯，露出红肉。再用刀在牛羊身上去割片下来，放在玉盘中，又将牛羊的血兑了酒献上。可怜那些牲畜，临死还要遭这种凌迟碎剐，一刀一刀地受零罪。又受了魔法禁制，口张不闭，脚也一丝不能转动，只有任人细细宰割，疼得怒目视着上面，两眼红得快要发火一般。这些魔教妖孽连同随侍的人们，个个俱是残忍性成，见那些牛羊挣命神气，一些也不动恻隐。西方野魔更呵呵大笑道：",
-          "instruct": "描述洞府奢华和食牲惨状，略带愤慨"
+          "instruct": ""
         },
         "effects": [
           {
@@ -905,7 +923,9 @@
             "sound_cn": "一阵金钟声清脆响起，回荡在洞府中",
             "sound_en": "a clear golden bell chime echoing through the cave",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "耳听一阵金钟",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 115.0,
@@ -915,7 +935,9 @@
             "sound_cn": "大手撕开牛腹，血肉分离，伴有沉闷的撕裂声",
             "sound_en": "huge hand ripping open the cow's belly, tearing flesh and muscle with dull ripping sounds",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "何至今日",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 145.0,
@@ -925,7 +947,9 @@
             "sound_cn": "尖刀切割活牛肌肉，发出持续而令人不适的撕裂声",
             "sound_en": "sharp knife slicing into living cow's muscle, continuous and uncomfortable tearing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "立的人领命去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -963,7 +987,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "又对毒龙尊者说起在鬼风谷遇见那几个不知来历的少年男女同自己失宝受伤之事。毒龙尊者闻言，怒道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1001,7 +1025,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "西方野魔道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1077,7 +1101,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正说之间，一道光华如神龙夭矫，从洞外飞入。毒龙尊者连忙起身道：",
-          "instruct": "突然，带惊奇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1088,7 +1112,9 @@
             "sound_cn": "一道光华如龙般飞入洞中，带出呼啸声",
             "sound_en": "a beam of light flying into the cave like a dragon, with a whooshing sound",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "正说之间",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1126,7 +1152,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，来人已现身出来，答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1164,7 +1190,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "尚和阳与西方野魔见来人正是万妙仙姑许飞娘，互相见完了礼。绿袍老祖喝醉了牛羊血，也醒过来。万妙仙姑未料到他虽然剩了半截身子，还没有死，知他性情乖戾，连忙恭敬为礼。大家正落座谈话，忽见俞德从外面进来，朝在座诸人拜见之后，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1202,7 +1228,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这一番话说完，只气得在座诸人个个咬牙切齿。尚和阳一听雪魂珠已落对头之手，才想起西方野魔适才对他不曾说起夺珠之事，是怕自己知道也去夺取，差点误了自己之事。暗骂：你这不知进退的狗残废，不用我收拾你，早晚叫你尝尝绿贼的苦头！心上正如此想，并未形于颜色。毒龙尊者便问万妙仙姑，司徒平因何背叛。万妙仙姑道：",
-          "instruct": "叙述众人反应，略带内心活动"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1240,7 +1266,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一句话将毒龙尊者提醒，问在座诸人可愿一同前去。西方野魔一手正扶着绿袍老祖，自忖能力现时已不如众人，心无主意。绿袍老祖忽趁人不在意，暗中伸手拉了他一把，随即说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1278,7 +1304,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，又向万妙仙姑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1316,7 +1342,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "万妙仙姑尚是头一次见绿袍老祖说话如此谦恭，不肯怠慢，连忙从身畔葫芦内取出八粒丹药，分授与绿袍老祖、西方野魔道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1354,7 +1380,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人闻言大喜，连忙称谢不迭。尚和阳在旁早冷眼看出绿袍老祖存心不善。因师文恭素来看自己不起，这次竟为毒龙尊者请得有自己，不肯到红鬼谷相见，越加忿恨，巴不得他再遇恶人，快自己心意，也就不去管他。毒龙尊者与师文恭交情甚深，一听他为自己约请受了重伤，痛恨交集，恨不得急速前往青螺医救，忙催众人起身道：",
-          "instruct": "叙述各人心理，暗流涌动"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1392,20 +1418,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "当下俞德早已先行，毒龙尊者陪了尚和阳、绿袍老祖、西方野魔、万妙仙姑一齐起身出洞。尚和阳道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 2.0,
-            "duration": 2.0,
-            "process_mode": "overlay",
-            "name": "衣袂风声",
-            "sound_cn": "众人起身时衣袍拂动和风声",
-            "sound_en": "robes rustling and wind sound as everyone rises",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1441,7 +1456,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "脚一顿处，一朵红云将四人托起空中，不顿饭时候到了青螺魔宫。迎接进去，到了里面，见着独角灵官乐三官同一些魔教中知名之士。因为救人情急，彼此匆匆完了礼，同到后面丹房之中。见师文恭正躺在一座云床之上，面如金纸，不省人事，断手放在两旁，两只手臂业已齐腕断去。尚和阳近前一看伤势，惊异道：",
-          "instruct": "叙述场景转换，紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1452,7 +1467,9 @@
             "sound_cn": "红云腾空而起，急速飞行的呼啸声",
             "sound_en": "red cloud rising into the air, rushing flight with whooshing wind",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一朵红云将四",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1490,7 +1507,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毒龙尊者一听师文恭中的是天狐白眉针，知道厉害，忙问尚和阳：",
-          "instruct": "急切询问"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1547,7 +1564,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毒龙尊者闻言，越加着急道：",
-          "instruct": "急切"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1585,7 +1602,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人便问何故。毒龙尊者道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1623,7 +1640,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，万妙仙姑接口道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1661,7 +1678,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人商议了一会，除此更无良法，只得请万妙仙姑快去快回。万妙仙姑走后，众人听说宝相夫人也来为难，知道这个天狐非同小可，不但她修道数千年炼成了无数奇珍异宝，最厉害是她这次如果真能脱劫出来，便成了不坏之身，先立于不败之地。虽不一定怕她，总觉又添了一个强敌。毒龙尊者猛想起后日才是端阳，何不用水晶照影之法，观察观察敌人的虚实？一面吩咐俞德去准备，对众人道：",
-          "instruct": "叙述众人商议"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1699,7 +1716,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "乐三官久闻魔教中水晶照影，能从一个晶球中将千万里外的情状现将出来，虽然只知经过不知未来，如果观察现时情形，恍如目睹一般，自然想开一开眼界。尚和阳本来恨极了师文恭，巴不得他身遭惨死。先以为赤城子和滇西派有仇，决不肯借宝取针，才在人前卖弄，说出此针来历。不想万妙仙姑却与阴素棠是至好，赤城子对阴素棠言听计从，万一将吸星球借来，岂不便宜了对头？知道绿袍老祖适才未安好心，当着众人必不能下手，一听毒龙尊者邀他出去护坛，正合心意。便答道：",
-          "instruct": "叙述各人心理"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1737,7 +1754,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时故意对绿袍老祖使了个眼色。一会俞德进来，毒龙尊者便命他在丹房中陪伴绿袍老祖与西方野魔，自己陪了尚、乐二人，率领八魔到前面行法去了。毒龙尊者也是一时大意，以为绿袍老祖行动不便，不如任他和西方野魔在丹房中静养，不想日后因此惹下杀身之祸。这且不提。众人到了前殿，法坛业已设好，当中供起一个大如麦斗的水晶球。毒龙尊者分配好了职司，命八魔按八卦方位站好，尚、乐二人上下分立。自己跪伏在地，口诵了半个多时辰魔咒，咬破中指，含了一口法水，朝晶球上喷去。立刻满殿起了烟云，通体透明的晶球上面，白蒙蒙好似幂了一层白雾。毒龙尊者同尚、乐二人各向预设的蒲团上盘膝坐定，静气凝神望着前面。一会工夫，烟云消散，晶球上面先现出一座山洞，洞内许飞娘居中正坐，旁边立着一个妖媚女子，还有一个瞎了一只眼的汉子在那里打一个绑吊在石梁上的少年。一会又将少年解绑，才一落地，那少年忽从身上取出一面小幡一晃，便化了一幢彩云，将少年拥走，不知去向。球上似走马灯一般，又换了一番景致。只见一片崖涧，涧上面有彩云笼罩，从彩云中先飞起一个似鹰非鹰的大鸟，背上坐着一双青年男女，直往西方飞去。一会又飞上三个少年女子，也驾彩云往西方飞去。似这样一幕一幕的，从紫玲等动身在路上杀死妖道，赶到小长白山遇见西方野魔斗法，与灵云、英琼等相遇，直到师文恭受伤回山，都现了出来。毒龙尊者本是滇西魔教开山祖师叱利老佛的大弟子，叱利老佛圆寂火化时，把衣钵传了毒龙尊者。又给他这一个晶球，命毒龙尊者以后如遇危难之事，只须依法施行，设坛跪祝，叱利老佛便能运用真灵，从晶球上面择要将敌人当前实况现出，以便趋吉避凶。只是这法最耗人精血，轻易从不妄用。这次因见西方野魔同师文恭都是道术高强的魔教中知名之士，竟被几个小女孩子所伤，知道敌人不可轻侮；又听尚和阳说宝相夫人二次出世，尤为惊心。所以才用晶球照影之法观察敌人动静。及至球上所现峨眉派几个有名能人并未在内，好生奇怪。晶球上面又起了一阵烟雾，这次却现出一座雪山底下的一个崖凹，凹中盘石上面坐着一个形如枯骨的道姑，旁边石上坐着适才与师文恭、俞德对敌的那一班男女，好似在那里商议什么似的。正待往下看去，球上景物未换，忽然现出一个穿得极其破烂的花子，面带讥笑之容，对面走来，越走人影越大，面目越真。尚和阳在旁已看出来人是个熟脸，见他渐走渐近，好似要从晶球中走了出来。先还以为是行法中应有之景，虽然惊异，还未喊毒龙尊者留神。转瞬之间，球上花子身体将全球遮蔽。猛听毒龙尊者道：",
-          "instruct": "详述行法过程和晶球异象，紧张神秘"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1748,7 +1765,9 @@
             "sound_cn": "毒龙尊者跪伏念诵魔咒，低沉急促的咒语声回荡",
             "sound_en": "Poison Dragon Master kneeling and chanting demonic spells, low and rapid incantation echoing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "麦斗的水晶球",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 75.0,
@@ -1758,7 +1777,9 @@
             "sound_cn": "口中法水喷出，溅在晶球上发出轻微的滋滋声",
             "sound_en": "spiritual water sprayed from mouth onto crystal ball with soft sizzling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "立刻满殿起了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 140.0,
@@ -1768,7 +1789,9 @@
             "sound_cn": "晶球中花子身影突然放大，伴有低沉的嗡嗡声",
             "sound_en": "beggar figure in the crystal ball suddenly magnifying, with low buzzing",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "了一番景致",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1806,7 +1829,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "手扬处，随手便有一枝飞叉，夹着一团烟火往晶球上的花子飞去。尚和阳首先觉察不好，一面晃动魔火金幢，一面将白骨锁心锤祭起迎敌。就在这一眨眼的当儿，晶球上面忽然一声大爆炸过去，众人耳旁只听一阵哈哈大笑之声。敌人未容法宝近身，早化成一道匹练般的金光，冲霄飞去。毒龙尊者同尚、乐二人不暇再顾别的，连忙升空追赶时，那道金光只在云中一闪，便不见踪迹。知道追赶不上，只得收了法宝回来。进殿一看，那个晶球业已震成了千百碎块，飞散满殿。八魔当中有那防备不及的，被碎晶打了个头破血出。白白伤了一件宝贝，敌人虚实连一半也未看出。正在懊丧，回头见俞德立在身后吞吞吐吐，欲言又止，便问：",
-          "instruct": "紧张激烈，描述爆炸和追赶"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1817,7 +1840,9 @@
             "sound_cn": "飞叉带着烟火破空而出，呼啸作响",
             "sound_en": "flying fork shooting out with fire and smoke, whooshing",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随手便有一枝",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -1827,7 +1852,9 @@
             "sound_cn": "晶球突然大爆炸，碎片飞散，伴有震耳轰鸣",
             "sound_en": "crystal ball exploding violently, fragments scattering, with deafening roar",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "夹着一团烟火",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -1837,7 +1864,9 @@
             "sound_cn": "一道金光冲天而起，破空声锐利",
             "sound_en": "a golden light shooting into the sky, sharp whooshing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "子飞去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1875,7 +1904,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "俞德答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1913,7 +1942,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毒龙尊者道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1951,7 +1980,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "俞德又说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1989,7 +2018,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毒龙尊者闻言大惊，忙问何故。俞德战兢兢地答道：",
-          "instruct": "震惊急切"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2046,7 +2075,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，仍又倒下。绿袍老祖便催西方野魔动手。西方野魔还在迟疑不肯，绿袍老祖将大手伸出，不知怎地一来，西方野魔只得拔出身上的戒刀，上前将师文恭齐腰斩断。弟子这时才看出绿袍老祖并非行动须人扶持，以前要人抱持是假装的。西方野魔斩下了师文恭半截身躯，绿袍老祖便如一阵风似地将身凑了上去，与师文恭下半截身躯合为一体。又夺过西方野魔手中戒刀，将师文恭左右臂卸下，连那两只断手，将一只递与西方野魔，自己也取了一只接好。喊一声走，化成一道绿光飞出房中，冲霄而去。他二人动手时节行动甚速，弟子知道不好，来请师父去救，不但来不及，而且法坛四外用法术封闭，也进不来。一时情急，便将弟子的飞剑放出。谁知才近那道绿光，便即落地。眼看他二人害了师师叔逃走，救护不及，只好在外面待罪，等师父行法终了，再行领责。",
-          "instruct": "详细叙述谋杀过程，紧张残忍"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2057,7 +2086,9 @@
             "sound_cn": "戒刀斩断身体，发出沉闷的切割声",
             "sound_en": "monk's knife cutting through body with dull slicing sound",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "绿袍老祖将大",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 25.0,
@@ -2067,7 +2098,9 @@
             "sound_cn": "一道绿光冲天而起，破空飞去，呼啸声渐远",
             "sound_en": "a green light shooting up into the sky, flying away with whooshing fading",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "腰斩断",
+            "trigger_offset": 0
           }
         ]
       },

@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第16回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -100,7 +100,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "兰因知夫妻俱不能在家久待，便问家事如何料理。漱溟道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -138,7 +138,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "承基听说父母学仙，不要他去，放声大哭。就连兰因与灵云，也是依依不舍，再四替他求情。漱溟道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -149,7 +149,9 @@
             "sound_cn": "少年悲痛的哭声，抽泣声，伤心欲绝",
             "sound_en": "boy crying bitterly, sobbing, heartbroken",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不要他去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -187,7 +189,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "又将承基唤在面前，再四用言语开导于他，把\"不孝有三，无后为大\"的话，开导了一番。承基不敢违抗，心中好生难过。兰因心疼爱子，又把他唤在无人之处，劝勉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -225,7 +227,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "承基知道母亲从不失言，才放宽心。又悄悄告诉他妹妹：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -263,7 +265,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "漱溟在家中住了三日，便请过张家夫妻。张大娘的丈夫明德，也是一个归林的廉吏，两袖清风。漱溟把赠产托子的话再三恳托。张明德劝了半天无效，只好由他。由漱溟召集全家，说明自己要携眷出去做官，愿将产业赠与张家，以作教养承基的用途；匀出一部分金钱，分与众人。因恐惊人耳目，故意配了两件行李，一口箱子，辞别众人，买了两匹马，把行李箱子装好，带了妻女动身。等到离家已远，便叫兰因下马，在行李中取出应用东西之后，将两马各打一鞭，任凭它们落荒走去。取了一件斗篷，将灵云裹定，背在身上；一手抱定兰因。只道一声：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -274,7 +276,9 @@
             "sound_cn": "鞭子抽打马匹的清脆响声，马匹嘶鸣，马蹄声远去",
             "sound_en": "whip cracking on horses, horses neighing, hoofbeats fading away",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也是一个归林",
+            "trigger_offset": 0
           }
         ]
       },
@@ -312,7 +316,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便破山飞去。到了峨眉，引见长眉真人、同门师弟兄。夫妻二人在洞中用功数十年。后来长眉真人迁居蓬莱，漱溟夫妻与众道友创立峨眉派，专一行侠仗义。又收了两个得意的弟子。那一年夫妻借故兵解，重入尘凡。师兄玄真子奉师命二次度化，夫妻二人童身重入仙山，才参上乘道法，成峨眉剑仙领袖。兰因因爱九华清境，才在那里开辟一个洞府，与灵云居住。有时也来看望女儿。偶然遇见许飞娘，飞娘竭力拉拢，几次要拜兰因为师，都被兰因谦让。飞娘常到洞中下棋，故尔认得灵云，唤她叫云姑。承基自父母仙去，力求上进，文武功名，俱已成就。上体亲心，娶妻生子。每日盼母来度，杳无音讯。他到峨眉寻亲，三次不遇。后来玄真子看他可怜，指引他得了一枝肉芝，服用之后，得享高寿。又因灵药之力，真灵不昧，投生川东李家，乳名金蝉。他犹记兰因，每日思念前生父母。兰因二次成道，不肯自食前言，便将金蝉度到九华，与灵云同居，这就是那个小孩子。那白衣少年，便是白侠孙南。他奉追云叟之命，前来约请兰因夫妇，顺便还办一件要事。孙南先到峨眉，齐漱溟已离却洞府他往。孙南便赶到九华，见着兰因，才知道这次各派收徒，有许多外派旁门要和峨眉派为难。五台、华山两派，更要借此机会，图报历来仇恨，表面上尚未发动，暗中已在积极准备。一旦引起斗争，什么能人都有，简直是各派剑仙空前大劫。兰因又对孙南说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -323,7 +327,9 @@
             "sound_cn": "破空飞行的呼啸声，风声猎猎，由近及远",
             "sound_en": "whistling of flying through air, wind howling, fading",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "破山飞去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -361,7 +367,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南自奉师命下山，原想多认识几位异人。他在短期之内，连遇着追云叟、醉道人同兰因，俱是前辈有名的剑仙，而且对他都很加青眼，心中非常高兴。今见兰因看得起他，叫他帮同办事，心中非常高兴。他年纪还轻，到底童心未退，便问兰因道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -399,7 +405,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "兰因道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -437,7 +443,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，灵云与金蝉从黄山餐霞大师那里回来，兰因便叫他二人与孙南见礼。到了第三日，兰因便起程下山，临行时便对灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -475,7 +481,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢自去。原来乾坤正气妙一真人自二次入道，苦修百余年，已能参透天地玄秘。他因灵云等年幼，九华近邻俱都是异派旁门，恐怕出了万一，特在这洞门右右，就着山势阴阳，外功符篆，摆下这颠倒八阵图，无论你什么厉害的左道旁门，休想进阵一步。一经藏身阵内，敌人便看不见阵内人的真形。多厉害的剑光，也不能飞进阵内一步。这天灵云正同孙南讲经，金蝉在洞外闲眺，忽见半空中飞来几道红线，接着崖前降下一个矮胖和尚，知是妖人，连忙进洞告知灵云。灵云也觉得诧异，本来九华自从齐漱溟辟为别府后，左道旁门轻易不敢进山一步。今天来者不善，便打算去观看动静。因为不知来人能力多大，便与金蝉隐身到八阵图坎方巽位中观看；叫孙南在乾宫上站定，以作策应。后来金蝉用言语将法元激怒时，孙南正想来到灵云这边来，他却不知道离了方位，再想入阵，比登天还难。他起初在乾宫站定时，远远望见灵云姊弟二人又是说，又是笑，非常有趣，所以他打算到他姊弟二人站的地方去。及至离开乾宫，再往对面一看，只是一片树林，清朗疏澈，也听得见他二人说话，就是不见踪影。又见那和尚恶狠狠望着林中，强敌在前，方知不妙，便打算退回原地。起初进阵是灵云指引，现在失了南针，简直无门可入。只得按着适才所看方向，朝林中走去试试。他刚刚走进坎宫，法元已下毒手。如非灵云手快，将他从阵外拉入，险些丧了性命。",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -486,7 +492,9 @@
             "sound_cn": "数道红线破空飞来的尖锐呼啸声，剑光刺目",
             "sound_en": "several red sword lights shooting through air with sharp whistles, brilliant glare",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "苦修百余年",
+            "trigger_offset": 0
           }
         ]
       },
@@ -505,7 +513,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这金蝉不知怎的，平日最恨许飞娘不过，所以懒得理她。等她走后，才与孙南一齐出来。灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -543,7 +551,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，看了孙南一眼，不觉脸飞红潮。又道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -581,7 +589,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，也不等金蝉发言，一道白光，已自腾空而去。孙南见他二人斗嘴，正待要劝时，业已无影无踪，不由便埋怨了金蝉两句。金蝉虽然心中有些发慌，脸上仍作镇静道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -592,7 +600,9 @@
             "sound_cn": "一道白光冲天而起，破空声远去",
             "sound_en": "white sword light shooting into sky, whistling fading away",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也不等金蝉发",
+            "trigger_offset": 0
           }
         ]
       },
@@ -630,7 +640,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南听了，笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -668,7 +678,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉听了，拍手大笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -679,7 +689,9 @@
             "sound_cn": "双手清脆拍击声，带着得意",
             "sound_en": "hands clapping sharply, with pride",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉听了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -717,7 +729,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉继续说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -747,7 +759,9 @@
             "sound_cn": "一阵阴风呼啸，带着腥臭味扑面而来",
             "sound_en": "gust of yellow wind howling, stench of rottenness wafting",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "黄风过去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -766,7 +780,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉又说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -796,7 +810,9 @@
             "sound_cn": "巨大的爆裂声，山石崩塌，震耳欲聋",
             "sound_en": "huge explosion, rocks collapsing, deafening rumble",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "将身子向前一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -815,7 +831,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南听了大惊道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -853,7 +869,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },

@@ -51,7 +51,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第26回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -70,7 +70,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -108,7 +108,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时已届辰初二刻，日光渐渐照满长江。江上的雾，经红日一照，幻出一片朝霞，非常好看。二人正说得起劲，忽见上流头摇下一只小舟，在水面上驶行若飞。陶钧忙道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -119,7 +119,9 @@
             "sound_cn": "江上薄雾在朝阳映照下泛起金色霞光，江水轻拍堤岸，远处传来水鸟低鸣",
             "sound_en": "thin river mist glowing golden under the morning sun, gentle waves lapping the shore, distant waterfowl calls",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时已届辰初",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -129,7 +131,9 @@
             "sound_cn": "上流一叶小舟破水而来，船桨击水声轻快急促，由远及近",
             "sound_en": "a small boat coming swiftly from upstream, paddle strokes quick and crisp, approaching from afar",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "时已届辰初二",
+            "trigger_offset": 0
           }
         ]
       },
@@ -167,7 +171,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺远远向来船看了又看道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -205,7 +209,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，来船业已离岸不远，这才看清船上立着一位红衣女子，一个穿青的少年尼姑。那红衣女子手中擎着一个七八十斤的大铁锚，离岸约有两三丈远，手一扬处，便钉在岸上，脚微一点，便同那妙龄女尼飞身上岸，看去身手真是敏捷异常。陶钧正要称羡，忽听许钺口中“嗳”的一声，还未及说话，那两个人已经走到二人面前。那红衣女子首先发言，对许钺道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -216,7 +220,9 @@
             "sound_cn": "七八十斤的大铁锚被红衣女子扬手抛出，重重钉入岸边的泥土中，发出沉闷的巨响",
             "sound_en": "heavy iron anchor weighing seventy or eighty catties thrown by the red-clad woman, piercing the riverbank soil with a deep thud",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -226,7 +232,9 @@
             "sound_cn": "红衣女子与女尼飞身上岸，衣袂带风，落地轻盈无声",
             "sound_en": "red-clad woman and the nun leaping ashore, robes fluttering, landing lightly and silently",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -264,7 +272,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "陶钧闻言，便知来人定是许钺所说的红娘子余莹姑了，因恼她出言无状，正要开口。许钺忙拉了他一把，便对余莹姑说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -275,7 +283,9 @@
             "sound_cn": "许钺急忙拉住陶钧的衣袖，衣料摩擦发出轻微的声响",
             "sound_en": "Xu Suo hastily pulling Tao Jun's sleeve, fabric rustling softly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -313,7 +323,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "余莹姑闻言，大怒道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -343,7 +353,9 @@
             "sound_cn": "余莹姑腰间宝剑铮然出鞘，剑光寒芒一闪，龙吟般的金属声久久不散",
             "sound_en": "Yu Yinggu's sword ringing as it leaves the scabbard, cold gleam flashing, metallic hum lingering",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我与你不共戴",
+            "trigger_offset": 0
           }
         ]
       },
@@ -362,7 +374,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺闻言，哈哈笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -373,7 +385,9 @@
             "sound_cn": "许钺仰头发出爽朗的长笑，笑声中带着几分无奈与坦荡",
             "sound_en": "Xu Suo letting out a carefree laugh, with a hint of helplessness and openness",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许钺闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -411,7 +425,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，两手往胸前一搭，神色自如。那穿青女尼自上岸来，便朝陶钧望了个目不转睛。这时见二人快要动手，连忙插嘴道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -449,7 +463,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺正恐朱梅不来，陶钧跟着吃苦，闻言大喜，连忙抢着说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -487,7 +501,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那女尼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -525,7 +539,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺闻言，感觉如释重负，不由胆气便壮了三分。他的枪原是蛟筋拧成，能柔能刚，可以束在腰上。一声：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -536,7 +550,9 @@
             "sound_cn": "许钺从腰间取出蛟筋长枪，枪身一抖便笔直挺立，发出铿锵有力的金属震颤声",
             "sound_en": "Xu Suo taking out his dragon-sinew spear from his waist, shaking it straight with a powerful metallic ring",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许钺闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -574,7 +590,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便取将出来，一脱手，笔杆一般直，拿在手中，静等敌人下手。余莹姑原有口吃毛病，偏偏许钺、素因回答，俱都是四川、湖北一带口音，说得非常之快，简直无从插口，只有暗中生气。及至听素因说出比兵刃，不比剑的话，似乎语气之间，有些偏向敌人，好生不解。自己本认为这是不共戴天之仇，原打算先把敌人嘲弄个够，再放飞剑出去报仇。如今被素因说了多少冠冕堂皇的话，又的确是本门中的规矩，无法驳回。越想越有气，早知如此，不请她同来反倒省事。若不是临行时师父嘱咐",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -593,7 +609,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "见了素因师兄如同见我，凡事服从她命令",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -612,7 +628,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "的话，恨不得顶撞她几句，偏用飞剑杀与她看。正在烦闷之间，又见许钺亮出兵刃，立等动手，不由怒发千丈道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -650,7 +666,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言罢，道一声：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -671,18 +687,7 @@
           "text": "请！",
           "instruct": "清冷"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.2,
-            "duration": 0.8,
-            "process_mode": "overlay",
-            "name": "莹姑纵身",
-            "sound_cn": "余莹姑脚点处纵出丈许远近，剑光一闪，亮出越女剑法起手式",
-            "sound_en": "Yu Yinggu leaping a zhang away, sword flashing as she assumes the starting stance of Yue Nu sword style",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -699,7 +704,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "脚点处，纵出丈许远近，左手掐着剑法，右手举剑横肩，亮出越女剑法第一招青驾展翅的架势，静待敌人进招。那一种气静神闲、沉着英勇的气概，再加上她那绝代的容华，不特许、陶二人见了心折，就连素因是神尼优昙得意弟子，个中老手，也暗暗称许她入门不久，功行这样精进。这时许钺在这生死关头，自然是不敢大意，将手中长枪紧一紧，上前一纵，道一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -710,7 +715,9 @@
             "sound_cn": "许钺紧握长枪向前一纵，枪尖破风发出凌厉的呼啸声",
             "sound_en": "Xu Suo gripping his spear and leaping forward, spear tip cutting through air with a sharp whoosh",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "脚点处",
+            "trigger_offset": 0
           }
         ]
       },
@@ -748,7 +755,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "抖起三四尺方圆的枪花，当胸点到。莹姑喊一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -759,7 +766,9 @@
             "sound_cn": "许钺枪尖抖出三尺方圆枪花，破风声急如骤雨",
             "sound_en": "Xu Suo shaking a three-foot-wide flower of spear points, wind sound rapid like rain",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "抖起三四尺方",
+            "trigger_offset": 0
           }
         ]
       },
@@ -797,7 +806,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "急忙举剑相迎。谁知许钺枪法神化，这一枪乃是虚招。等到莹姑举剑来撩时，他见敌人宝剑寒光耀目，削在枪上，定成两段。莹姑的剑还未撩上，他将枪一缩，枪杆便转在左手，顺势一枪杆，照着莹姑脚面扫去。莹姑不及用剑来挡，便将两脚向上一纵，满想纵得过去，顺势当头与许钺一剑。谁想许钺这一枪杆也是虚招，早已料到她这一着。莹姑刚刚纵过，许钺枪柄又到手中，就势一个长蛇入洞，对准莹姑腹部刺到，手法神妙，迅速异常。许家梨花枪本来变化无穷，许钺从小熬炼二十余年，未有一日间断。又从名师练习内功，升堂入奥，非同小可。莹姑所学越女剑，本非等闲，只因一念轻敌，若非许钺手下留情，就不死也带了重伤了。许钺这几年来阅历增进，处处虚心，极力避免结仇树敌。深知莹姑乃剑仙爱徒，此次但求无过，于愿已足，故此不敢轻下毒手。枪到莹姑腹前，莹姑不及避让，",
-          "instruct": "紧张急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -808,7 +817,9 @@
             "sound_cn": "许钺枪杆顺势横扫，带起风声直取莹姑脚面",
             "sound_en": "Xu Suo sweeping his spear shaft sideways, wind rushing at Yinggu's feet",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "急忙举剑相迎",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.2,
@@ -818,7 +829,9 @@
             "sound_cn": "许钺枪柄回转，如长蛇般直刺莹姑腹部，枪风凌厉",
             "sound_en": "Xu Suo turning his spear handle and thrusting like a snake at Yinggu's abdomen, fierce spear wind",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "急忙举剑相迎",
+            "trigger_offset": 0
           }
         ]
       },
@@ -837,7 +850,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "呀的一声未喊出口，许钺已将枪掣回。莹姑忙将身体纵出去丈许远近，再看身上衣服，已被许钺枪尖刺破。又羞又恼，剑一指，纵将过来，一个黄河刺蛟的招数，当胸刺到。许钺见她毫不承情，便知此人无可商量，便想些微给她一点厉害。知道剑锋厉害，不敢用枪去迎，身子往右一偏，避开莹姑宝剑，朝着敌人前侧面纵将过去。脚才站定，连手中枪，一个金龙回首，朝莹姑左胁刺到。这回莹姑不似先前大意，见许钺身子轻捷如猿，自己一剑刺空，他反向自己身后纵将过来，早已留心。等到许钺一枪刺到，刚刚转过身来，使用剑照枪杆底下撩将上去。许钺知道不好，已无法再避。自己这一条枪，费尽无数心血制造，平时爱若性命，岂肯废于一旦。在这危机一发之间，忽然急中生智，不但不往回拖枪，反将枪朝上面空中抛去。接着将脚一垫，一个黄鹤冲霄燕子飞云势，随着枪纵将出去。那枪头映着日光，亮晶晶的，刚从空中向衰草地上斜插下来，许钺业已纵到，接在手中。忽然脑后微有声息，知道不好，不敢回头，急忙将头一低，往前一纵，刷的一声，剑锋业已将右肩头的衣服刺了一个洞。如非避得快，整个右肩臂，岂不被敌人刺了一个对穿？原来莹姑剑一直朝许钺枪上撩去，没想到许钺会脱手丢枪。及至许钺将枪扔起，穿云拿月去接回空中枪时，莹姑怎肯轻饶，一个危崖刺果的招数，未曾刺上。知道许钺使这种绝无仅有的奇招，正是绝好机会，毫不怠慢，也将脚一登，跟着纵起。二人相差原隔丈许远近，只因许钺纵去接枪，稍微慢了一慢，恰好被莹姑追上，对准后心，一剑刺到。宝剑若果迎着顺风平刺出去，并无有金刃劈风的声音，最难警觉。还算许钺功夫纯熟，步步留心，微闻声息，便知敌人赶到身后，只得将身往左一伏，低头躲去，肩头衣服刺了一下。也顾不得受伤与否，知已避过敌人剑锋，忽地怪蟒翻身，枪花一抖，败中取胜，许家独门拿手回头枪，当胸刺到。莹姑见自己一剑又刺了个空，正在心中可惜，不料敌人回敬这样快法。这时不似先前大意，将身一仰，枪头恰好从莹姑腹上擦过。莹姑顺手掣回剑，往上一撩，但听叮当一声，莹姑也不知什么响声，在危险之中，脚跟一垫，平斜着倒退出去两三丈远。刚刚立起，许钺的枪也纵到面前。原来许钺始终不想伤莹姑性命，回身一枪猛刺，正在后悔自己不该用这一手绝招。忽见莹姑仰面朝天，避开自己枪尖，暗暗佩服她的胆智，便想就势将枪杆向下一插，跌她一交。谁知莹姑在危险忙迫之中，仍未忘记用剑削敌人的兵刃。起初一剑刺空，敌人又枪法太快，无法避让。及至仰面下去，避开枪头，自己就势撤回，一面往后仰着斜纵，一面用剑往上撩去。许钺也未想到她这样快法，急忙掣回手中枪，已是不及，半截枪头，已被敌人削断，掉在地下，痛惜非常。心一狠，便乘莹姑未曾站稳之际，纵近身旁，一枪刺去。莹姑更不怠慢，急架相还。二人这番恶斗，惊险非常，把观战的素因和陶钧二人都替他们捏一把汗。陶钧起初怕许钺不是来人敌手，非常焦急。及见许钺一支枪使得出神入化，方信名下无虚，这才稍放宽心。他见这两个人，一个是绝代容华的剑仙，一个是风神挺秀的侠士，虽说许钺是自己好友，可是同时也不愿敌人被许钺刺死，无论内中哪一个在战场上躲过危机，都替他们额手称庆。深知二虎相争，早晚必有一伤，暗中祷告师父快来解围，以免发生惨事。诚于中，形于外，口中便不住地咕噜。那素因起初一见陶钧，神经上顿时受了一番感动，便不住地对他凝望。及至陶钧被她看得回过脸去，方才觉察出，自己虽是剑仙，到底是个女子，这样看人，容易惹人误会。及至许、余二人动起手来，便注意到战场上去。有时仍要望陶钧两眼，越看越觉熟识。二人同立江边，相隔不远。素因先前一见陶、许二人，便知这两人根基甚厚，早晚遇着机会，要归本门。因无法劝解莹姑，这才故意来作公证人，原是不愿伤许钺的性命。忽见陶钧嘴唇乱动，疑心他是会什么旁门法术，要帮许钺的忙，便留神细听。如果他二人已入异派，用妖法暗算莹姑，此人品行可知，那就无妨用飞剑将二人一齐斩首。及至看陶钧口中咕噜，脸上神色非常焦急，又有些不像，便慢慢往前挨近。陶钧专心致志在那里观战，口中仍是不住地唤着",
-          "instruct": "紧张急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -848,7 +861,9 @@
             "sound_cn": "许钺将长枪向上抛起，枪身在阳光下亮晶晶的破空飞起",
             "sound_en": "Xu Suo throwing his spear upward, the shaft glittering in the sunlight as it arcs through the air",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "呀的一声未喊",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -858,7 +873,9 @@
             "sound_cn": "莹姑一剑削断枪头，金属断裂声清脆刺耳，枪尖坠地",
             "sound_en": "Yinggu's sword shearing off the spearhead, crisp metallic snap, tip clattering to the ground",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "呀的一声未喊",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -868,7 +885,9 @@
             "sound_cn": "二人兵器连续碰撞，铮鸣声不绝于耳，火星四溅",
             "sound_en": "weapons clashing repeatedly, ringing sounds incessant, sparks flying",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "未喊出口",
+            "trigger_offset": 0
           }
         ]
       },
@@ -887,7 +906,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "师父，你老人家快来",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -906,7 +925,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "。素因耳聪，何等灵敏，业已听出陶钧口中念的是：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -925,7 +944,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "大慈大悲的矮叟朱梅朱师父，你老人家快来替他二人解围吧！",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -944,7 +963,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "素因闻言，大大惊异：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -963,7 +982,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这矮叟不是嵩山少室二老之一朱梅朱师伯么？他老人家已多少年不收徒弟了，如今破例来收此人，他的根基之厚可知。不由又望了陶钧一眼，猛看见陶钧耳轮后一粒朱沙红痣，不由大吃一惊，脱口便喊了一声：",
-          "instruct": "惊讶叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1001,7 +1020,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "陶钧正在口目并用的当儿，忽听有人喊他的乳名，精神紧张之际，还疑心是家中尊长寻来，便也脱口应了一声道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1039,7 +1058,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便听有人答言道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1077,7 +1096,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "陶钧闻言诧异，猛回头，见那叫素因的妙年女尼，站近自己身旁，笑容可掬。不知她如何知道自己乳名？正要发问，忽听素因口中说一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1107,7 +1126,9 @@
             "sound_cn": "素因突然惊呼，声音中带着紧张与担忧",
             "sound_en": "Su Yin's sudden exclamation, filled with tension and worry",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不好",
+            "trigger_offset": 0
           }
         ]
       },

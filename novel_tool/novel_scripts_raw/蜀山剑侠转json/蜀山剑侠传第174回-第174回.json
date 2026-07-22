@@ -63,8 +63,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平淡轻快"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_only"
@@ -81,8 +82,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -100,7 +102,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "急切呼救，声细如蚊"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -117,12 +120,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "跪在水面上",
+            "trigger_keyword": "小人那两道光",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -150,7 +153,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "低声而审慎"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -167,8 +171,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -186,7 +191,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "哀声恳求，气息微弱"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -203,8 +209,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -222,7 +229,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "带着好奇"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -239,7 +247,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写易静三次揭鼎不成的过程"
+          "instruct": ""
         },
         "effects": [
           {
@@ -296,7 +304,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "内心独白，带着决意"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -313,8 +322,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -332,7 +342,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "内心独白，沉稳而审慎"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -349,7 +360,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -394,7 +405,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "急切警告"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -411,7 +423,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写宝鼎发射光线、天遁镜化解危机的惊险场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -468,7 +480,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "带着惊奇"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -485,12 +498,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 3.0,
-            "trigger_keyword": "怪啸",
+            "trigger_keyword": "易静往壁间一",
             "trigger_offset": 0,
             "duration": 1,
             "process_mode": "overlay",
@@ -530,7 +543,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "庄重而威严，带着警示"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -547,7 +561,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -580,7 +594,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "强颜欢笑，内心不快"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -597,8 +612,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -616,7 +632,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "诚恳劝慰"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -633,8 +650,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -652,7 +670,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "冷笑，带着不满和讥讽"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -669,8 +688,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -688,7 +708,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "委婉提醒"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -705,8 +726,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -724,7 +746,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "勉强同意"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -741,7 +764,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写英琼开鼎取宝的顺利过程和鼎中珍宝"
+          "instruct": ""
         },
         "effects": [
           {
@@ -798,7 +821,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "内心独白，充满喜爱和向往"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -815,7 +839,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -832,7 +856,7 @@
           },
           {
             "trigger_delay": 3.0,
-            "trigger_keyword": "字条化去",
+            "trigger_keyword": "竟不能动",
             "trigger_offset": 0,
             "duration": 0.3,
             "process_mode": "overlay",
@@ -860,7 +884,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "虔诚默祷"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -877,7 +902,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写鼎盖被神力吸合的异象"
+          "instruct": ""
         },
         "effects": [
           {
@@ -922,7 +947,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "沉稳建议"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -939,8 +965,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -958,7 +985,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "内心独白，带着满足和归心"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -975,7 +1003,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1008,7 +1036,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "审慎而专业"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1025,8 +1054,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1044,7 +1074,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "内心独白，急切而直率"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1061,7 +1092,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写池水急漩、小人垂危的危急场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1118,7 +1149,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "急切呼告"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1135,8 +1167,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1154,7 +1187,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "急切而凝重"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1171,8 +1205,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1190,7 +1225,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "好奇询问"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1207,8 +1243,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1226,7 +1263,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "惊呼"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1243,12 +1281,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写易静救人的神奇过程"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "伸手往屏风上小池之中",
+            "trigger_keyword": "一片霞",
             "trigger_offset": -0.3,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -1271,8 +1309,8 @@
             "pitch": "+0Hz"
           },
           {
-            "trigger_delay": 10.0,
-            "trigger_keyword": "飞落池中",
+            "trigger_delay": 16.1,
+            "trigger_keyword": "水。一面",
             "trigger_offset": 0,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -1300,7 +1338,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "急切而微弱，声细如蚊"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1317,7 +1356,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1362,7 +1401,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "急切吩咐"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1379,8 +1419,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1398,7 +1439,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "带着怨气，语气冷淡"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1415,7 +1457,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1460,7 +1502,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "带着恼怒"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1477,8 +1520,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1496,7 +1540,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "急促果断"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1513,8 +1558,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写洞门被青光封锁的困境"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1532,7 +1578,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "内心独白，惊疑不定"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1549,7 +1596,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1582,7 +1629,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "急切而直率"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1599,8 +1647,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1618,7 +1667,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "沉稳劝解"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1635,8 +1685,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1654,7 +1705,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "审慎分析"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1671,7 +1723,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1704,7 +1756,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "带着庆幸和惊叹"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1721,8 +1774,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1740,7 +1794,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "惊喜"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1757,8 +1812,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1776,7 +1832,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "带着期待"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1793,7 +1850,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1838,7 +1895,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "短促有力，施法口诀"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1855,7 +1913,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1888,7 +1946,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "审慎吩咐"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1905,7 +1964,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1922,7 +1981,7 @@
           },
           {
             "trigger_delay": 3.5,
-            "trigger_keyword": "金莲",
+            "trigger_keyword": "施展禁法",
             "trigger_offset": 0,
             "duration": 1,
             "process_mode": "overlay",
@@ -1950,7 +2009,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "急切"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1967,7 +2027,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写李宁出手相救和封锁洞门的宏大场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2036,7 +2096,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "沉稳而感叹，带着遗憾"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2053,8 +2114,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2072,7 +2134,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "带着悔意和好奇"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2090,7 +2153,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "慈祥而感慨，解释前因后果"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2107,8 +2171,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2126,7 +2191,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "慈祥教诲"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2143,8 +2209,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2162,7 +2229,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "好奇询问"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2180,7 +2248,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "沉稳解释"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2197,7 +2266,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2230,7 +2299,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "好奇追问"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2248,7 +2318,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "带着慈祥的笑意"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2265,7 +2336,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2310,7 +2381,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "带着不服和跃跃欲试"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2328,7 +2400,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "慈祥而带着笑意"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2345,8 +2418,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2364,7 +2438,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "内心独白，带着惊叹和思量"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2381,7 +2456,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2414,7 +2489,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "洪钟般的大喝"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2431,8 +2507,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2450,7 +2527,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "慈祥而庄重的开示"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2467,8 +2545,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2486,7 +2565,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "带着困惑"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2504,7 +2584,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "慈祥而从容"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2521,8 +2602,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2540,7 +2622,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "平静指点"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2557,8 +2640,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2576,7 +2660,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "简短而郑重"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2593,7 +2678,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，气氛转为祥和"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2638,7 +2723,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "慈祥安排"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2655,8 +2741,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2674,7 +2761,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "好奇询问"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2692,7 +2780,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "沉稳而带着深意"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2709,12 +2798,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "默诵",
+            "trigger_keyword": "当下指着宝鼎",
             "trigger_offset": 0,
             "duration": 1,
             "process_mode": "overlay",
@@ -2742,7 +2831,8 @@
           "volume": "-4%",
           "pitch": "-2Hz",
           "instruct": "郑重叮嘱"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2759,7 +2849,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，本章结尾"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2776,7 +2866,7 @@
           },
           {
             "trigger_delay": 6.0,
-            "trigger_keyword": "祥光围拥",
+            "trigger_keyword": "将手一指",
             "trigger_offset": -0.3,
             "duration": 2,
             "process_mode": "overlay",

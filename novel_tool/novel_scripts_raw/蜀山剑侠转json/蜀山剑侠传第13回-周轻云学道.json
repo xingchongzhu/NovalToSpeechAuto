@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第13回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -100,7 +100,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说追云叟正与醉道人、周轻云在慈云寺外树林之中谈说俞德受伤之事，忽见西方飞来了几道红线，便把醉道人和周轻云一拉，喊一声：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -111,7 +111,9 @@
             "sound_cn": "远处几道红线破空飞来，尖锐的呼啸声由远及近，带着凌厉的风声",
             "sound_en": "distant sharp whistling of several red streaks flying through the air, approaching rapidly, with piercing wind sound",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "在慈云寺外树",
+            "trigger_offset": 0
           }
         ]
       },
@@ -149,7 +151,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "三人一同驾起剑光，飞回了碧筠庵。这时已到五更左右，冬天夜长，天还未亮。他三人也不去惊动周淳，进了经房坐下。醉道人唤起松、鹤二童预备茶点。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -160,7 +162,9 @@
             "sound_cn": "三道剑光破空飞行，风声凌厉，衣袂猎猎作响",
             "sound_en": "three sword lights flying through the air, sharp wind whistling, robes flapping loudly",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "三人一同驾起",
+            "trigger_offset": 0
           }
         ]
       },
@@ -255,7 +259,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "谈了一会，周淳起来，轻云上前见礼。周淳又向追云叟、醉道人参拜。轻云便到内屋坐了一会内功，已是日出三丈，也就不打算睡了。醉道人背了葫芦，便要往外走。追云叟连忙将他唤转，从怀中取出一样东西与他。醉道人连忙称谢，接过来便藏在怀中，走了出去。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -266,7 +270,9 @@
             "sound_cn": "一个小物件从怀中取出，轻轻递出的声响，布料摩擦声",
             "sound_en": "small object taken from bosom, light handing-over sound, cloth rustling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "已是日出三丈",
+            "trigger_offset": 0
           }
         ]
       },
@@ -342,7 +348,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "轻云听了大喜，正要请问摩伽仙子玉清大师的来历，还未开口，眼前一亮，满室金光，忽听一个女子口音说道：",
-          "instruct": "惊奇叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -353,7 +359,9 @@
             "sound_cn": "满室金光骤然亮起，带有轻微的嗡嗡声，似佛光普照",
             "sound_en": "sudden golden light filling the room, faint buzzing sound, like Buddha's radiance",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "问摩伽仙子玉",
+            "trigger_offset": 0
           }
         ]
       },
@@ -391,7 +399,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳、轻云定晴一看，室中凭空添了一个妙龄女尼，头戴法冠，足登云履，身穿一件黄锻子僧衣，手执拂尘，妙相庄严，十分美丽，正在和追云叟为礼。追云叟笑道：",
-          "instruct": "细致描述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -429,7 +437,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那妙龄少尼说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -467,7 +475,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "追云叟笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -505,7 +513,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便叫周淳、轻云参见。又对他二人说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -543,7 +551,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳、轻云十分惊异，心想：追云叟和她相别已五十多年，此人怕没有一百来岁，怎么容颜还如少女一般？追云叟道：",
-          "instruct": "内心惊讶叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -581,7 +589,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "玉清大师道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -619,7 +627,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "追云叟道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -657,7 +665,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "玉清大师道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -695,7 +703,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "追云叟道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -733,7 +741,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "玉清大师道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -771,7 +779,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，便指着轻云道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -809,7 +817,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "追云叟忙问根由。玉清大师道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -847,7 +855,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "轻云插口道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -885,7 +893,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "玉清大师道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -923,7 +931,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "追云叟道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -961,20 +969,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，摩伽仙子便告别追云叟，带了轻云，回转辟邪村。追云叟也带了周淳，回山炼剑。不提。且说智通自从俞德、毛太受伤，医药无效，自己单丝不成线，孤树不成林。尤其俞德更是昏迷不醒，呻吟不绝。正在无可奈何之际，忽然了一进来报道：",
-          "instruct": "转场叙述"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 2.0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "脚步走近",
-            "sound_cn": "一个人快步走进来的脚步声，衣料摩擦声",
-            "sound_en": "quick footsteps entering, cloth rustling, approaching",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1010,7 +1007,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通急忙出来一看，见是金身罗汉法元，心中大喜，当即上前参拜。这法元生得十分矮胖，相貌凶恶，身穿一件烈火袈裟，手持一技铁禅杖。见了智通，便问毛太可在此地？智通便把毛太寻周淳报仇，如何在林中遇了能手，被人戏弄，后来滇西派粉面佛俞德来到庙中，那晚来了两个刺客，好似一男一女，毛太同俞德如何中了暗算，现在后殿养伤，昏迷不醒，一一说了一遍。法元听了大怒，便叫智通引他进去。法元见毛太已是断了一只左臂，正在昏睡，不禁连连叹惜。忙叫智通取来一碗无根水，从身旁取了两粒丹药，与他二人灌了下去。又将两粒丹药化开，敷在伤处。这时毛太业已清醒过来，见了法元，便要下床叩拜。法元道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1021,7 +1018,9 @@
             "sound_cn": "药丸从瓶中倒出，落入水中的轻微声响",
             "sound_en": "pills poured from bottle, light splash into water",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "了能手",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1059,7 +1058,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毛太疼痛难忍，便也就恭敬不如从命，眼含痛泪，又将前事说了一遍，请法元与他报仇。法元道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1097,7 +1096,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便问智通：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1135,7 +1134,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1173,7 +1172,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1211,7 +1210,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "毛太正愁自己成了废人，听了法元之言，不由精神一振，便问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1249,7 +1248,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1287,7 +1286,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1325,7 +1324,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1363,7 +1362,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1401,7 +1400,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1439,7 +1438,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1477,7 +1476,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元听了，哈哈大笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1488,7 +1487,9 @@
             "sound_cn": "法元洪亮的大笑声，中气十足，带着嘲讽",
             "sound_en": "loud hearty laugh from Fa Yuan, full of energy and sarcasm",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元听了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1526,7 +1527,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，俞德服用丹药后，药力发动，虽不能马上还原，倒也疼消痛止。醒来见了法元，知道是他解救，便勉强下床叩谢。法元道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1564,7 +1565,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便出房，化成几道红线，望空而去。到了第二日，智通正与毛太、俞德闲话，先是大力金刚铁掌僧慧明回来，报道：",
-          "instruct": "叙述转场"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1575,7 +1576,9 @@
             "sound_cn": "几道红线破空飞远，风声渐弱，逐渐消失",
             "sound_en": "several red streaks flying away through air, wind sound fading, disappearing",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便出房",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1613,7 +1616,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "智通听了，不由叹口气道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1624,7 +1627,9 @@
             "sound_cn": "智通长长的叹息，无奈和失望",
             "sound_en": "long sigh from Zhi Tong, helpless and disappointed",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "智通听了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1662,18 +1667,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "慧明退了下来。隔了三四日，无敌金刚赛达摩慧能、多臂金刚小哪吒慧行、多目金刚小火神慧性等先后回庙，所请的人，也有请到的，也有托故不来的，也有当真不在的。那所请到的是：崂山铁掌仙祝鹗、江苏太湖洞庭山霹雳手尉迟元、沧州草上飞林成祖、云南大竹子山披发狻猊狄银儿、华山烈火祖师的弟子飞天夜叉秦朗等。除了烈火祖师是另一派，也是与峨眉派积有深仇的，余人皆是智通、毛太的师兄弟辈，长一辈的师叔、师伯俱未请到。滇西毒龙尊者推说有事，事办完了来不来不一定。他门下大弟子俞德，业已先来。飞天夜叉马觉，出门未归。算计人虽不少，只是并无出类拔萃的剑仙，未免有些失望。到底慰情聊胜于无，只好再作区处。又过了两天，飞天蜈蚣多宝真人金光鼎，率领他的弟子独角蟒马雄、分水犀牛陆虎、闹海银龙白缙等，高高兴兴走进庙来，见了众人，见礼已毕，便道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 2.0,
+            "trigger_delay": 121.3,
             "duration": 2,
             "process_mode": "overlay",
             "name": "多人脚步声",
             "sound_cn": "几个人走进来的脚步声，脚步声杂乱，衣料摩擦",
             "sound_en": "multiple footsteps entering, mixed, cloth rustling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "走进庙来",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1711,7 +1718,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "俞德、智通等听了，也自欣喜。过了几天，法元从崆峒山跑了回来，虽将灵药取到，但是已隔多日，效验微小。只得将断臂与毛太接上，敷上灵药加紧包扎，就烦大力金刚铁掌僧慧明护送毛太回五台山将息。等毛太、慧明走后，法元把人聚集在大殿，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1722,7 +1729,9 @@
             "sound_cn": "众人聚拢到大殿的脚步声，衣袍摩擦声",
             "sound_en": "footsteps gathering in main hall, robes rustling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "智通等听了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1760,7 +1769,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说完，别了众人，便往三山五岳，寻访能人相助去了。",
-          "instruct": "平静收束"
+          "instruct": ""
         },
         "effects": []
       },

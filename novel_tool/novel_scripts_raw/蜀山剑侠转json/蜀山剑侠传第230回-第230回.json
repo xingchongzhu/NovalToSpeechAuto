@@ -111,7 +111,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第230回 鸣鼓兴戎 众仙奋斗蛮人祖 腾光护法 七矮欣逢枯竹仙",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -130,7 +130,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "原来癞姑奉命下山时，除道书仙示与易、李二人同观外，另还有一封密束。在依还岭静琼谷三人同居炼法时，因易、李二人同说：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -142,7 +142,8 @@
             "sound_en": "soft rustle of paper as Laigu takes out the sealed letter from her bosom, the gentle crack of sealing wax breaking like thin ice",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "密束"
+            "trigger_keyword": "原来癞姑奉命",
+            "trigger_offset": 0
           }
         ]
       },
@@ -161,7 +162,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "无论柬帖上示甚仙机，反正决不违背，定遵师命行事，先看何妨？",
-          "instruct": "转述易、李二人之言"
+          "instruct": ""
         },
         "effects": []
       },
@@ -180,7 +181,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑不便不允，只得取出同看。哪知本来外面标明了开读日期，竟变成了一通白柬，四外只字皆无。三人知是不到日期，擅自开阅所致，好生悔惧，只得同向峨眉通诚求恕，重将柬帖封好。癞姑性喜滑稽，表面游戏三昧，对于师长却极虔敬。这次迫于情面，擅自开阅，事后想起不应违背师命，悔恨之余，每日均背人默祝一回，字迹终未再现。癞姑认定柬帖关系极为重大，早晚总要现出字来，始终如一，迄未懈怠。及至二次去往红木岭神宫窥探虚实，觑便盗取紫郢剑，心想：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -192,7 +193,8 @@
             "sound_en": "soft rustle of blank paper unfolding, the sound of surprise and dismay from three voices, a quiet sigh like wind through bamboo",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "白柬"
+            "trigger_keyword": "癞姑不便不允",
+            "trigger_offset": 0
           }
         ]
       },
@@ -211,7 +213,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "此剑乃师祖留传镇山之宝，竟会失去，敌我强弱相差，事机已迫。",
-          "instruct": "内心独白，语气焦虑而自责"
+          "instruct": ""
         },
         "effects": []
       },
@@ -230,7 +232,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "重又遥向师父通诚求告，乞示仙机。祝罢取柬一看，果然字迹复现，并还附有一道灵符。大意是说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -242,7 +244,8 @@
             "sound_en": "soft shimmer as characters reappear on the paper, glowing with golden light like fireflies, the paper vibrating faintly like butterfly wings",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "字迹"
+            "trigger_keyword": "重又遥向师父",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -253,7 +256,8 @@
             "sound_en": "soft shimmer of a talisman within the letter, glowing with contained power like the first light of dawn, a faint vibration like a temple bell's echo",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "灵符"
+            "trigger_keyword": "灵符",
+            "trigger_offset": 0
           }
         ]
       },
@@ -272,7 +276,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "南疆之行，应有多人遭劫，虽在众弟子领命时先行嘱咐，令其到时度德量力，不可轻往，但定数所限，也只一些功力太差，本不在劫之人不往；在劫者仍是不免于难，不过命不该死，均有救星。英琼一时疏忽，虽然紫郢剑失去，但是神物通灵，敌人不能长久把握，终必飞回，无庸往盗。倒是五云桃花瘴厉害，弟子中将有六人中毒，非敌人千年蘘荷所炼的灵药，不能解救。只要一个对时过去，中毒不救，便无生理。即使日后敌人被迫悔祸，也难挽救。此事实系重要。恰好红发老祖去年收一门人，乃昔日绿袍老祖门下妖徒随引，自为金蝉所救，亟思改邪归正。因前孽太重，恐各正教不肯收容，知道红发老祖与白、朱二老交好，欲借以为进身之阶，恰巧红发老祖被洪长豹窃去的两件法宝，虽为金蚕恶蛊所毁，残余之物被他收去，于是前往南疆，献宝求进。事前又有两个与他交好的妖人为之先容，因得收录。近见红发师徒因易、李、周三人无知冒犯细故，以致成仇，认作要步以前妖师前辙，心中大不为然。此人在绿袍老妖门下多年，精通邪法，仅比辛辰子、唐石稍次。易、李二人入阵经过他的阵地，便吃警觉，故和同党闲谈泄机。他一心畏祸，向往本门，恐与红发老祖师徒同尽。那藏灵药的所在，他便知晓。现在阵中第四十九峰坎宫上把守，可隐形往见，径与明言，他必乐为相助。红发老祖法力颇高，不可轻敌。又值新挫之后，戒备尤严。如若遇上，务要远避，不可自恃隐身神妙，擅自近前。红发老祖想将紫郢剑攫为己有，起了贪心，全神贯注剑上。但盗药一层，也极艰难，得手以后，速急出阵。这时妙相峦谷外众弟子，有的无心巧遇，有的受一异人指点，正与众妖人所约的一干妖邪异派斗法大胜，连伤多人。红发老祖闻警出援，紫郢剑也自飞回，激愤之下，必放五云桃花瘴伤人，乘他元神尚未飞落以前，速用佛光护身，手持六甲分光轮，冲破黑煞妖网入内。一面向众弟子等警告，并将灵符展动，发生妙用，先将敌人惊退；一面抢护中毒诸人，冲出阵外。此符妙用威力只一刹那间，敌人事后必然看破，加紧追来。如若回身应敌，或被追上，救星到来相隔尚远，伤人必多，务要速逃。可令易鼎，易震用神梭开路，从地下遁走。尔与易静等精通地遁之人相助，前后呼应，便可无事。当机贵速，并且前去盗药，阻碍横生，又忌和人动武。须俟敌人倾巢出战时方能得手，稍微延误，便致债事。务须忍耐，丝毫大意不得。以后到了危急之际，仍用法牌求救，自有人来相助。此事前因后果，早在开府后三日，与玄真子大师伯默运玄机推算。众弟子法力虽非红发老祖之敌，但比他门下妖人和各派妖邪却强得多。又各持有至宝仙剑之类，只要应敌谨慎，多可无虑。在劫诸弟子虽有六人之多，终能化险复原。到时，当另有人来指示。",
-          "instruct": "叙述柬帖仙示，语气郑重而舒缓"
+          "instruct": ""
         },
         "effects": []
       },
@@ -291,7 +295,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "末了，柬上又说三人前者不应违命，擅阅此柬，姑念初犯，知悔诚求，再犯重责不贷等语。癞姑看完惊喜，拜谢师恩之后，立即依言行事。自从先前由天狗坪阵地逃脱以后，敌人知道来人精通地遁之术，便将全地面另加禁制，也恐难阻来人闯入，故除戒备加严外，到处罗网密布，远非昔比，人一出土，立有警兆。纵使法力高不被擒住，敌人师徒也必全数惊动，下手不得。全阵地方圆二三百里，大小石峰何止千数。那坎宫四十九峰，不知从何数起，随引又未见过，事机更须慎秘。癞姑好容易费了好些时候心力，才由地底把坎宫四十九峰辨明，峰上把守的却有两个妖人。虽看出内有一断臂妖人，相貌神情与众妖人嚣张凶野大不相同，料是随引无疑，但那同守妖人不走，也无法上去。只得手持宝镜，隔着地面向上观看。心正不耐，那妖人忽然走去。心想：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -303,7 +307,8 @@
             "sound_en": "low rumble of earth parting as Laigu travels underground, the sound of stone and soil flowing around her like water, sand and gravel shifting",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "地遁"
+            "trigger_keyword": "地遁",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -314,7 +319,8 @@
             "sound_en": "soft shimmer as the mirror is raised, cold light flickering like autumn water as she peers upward through the earth, shadows shifting",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "宝镜"
+            "trigger_keyword": "柬上又说三人",
+            "trigger_offset": 0
           }
         ]
       },
@@ -333,7 +339,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "别处所见更不相似，只此一人还差不多，坎宫阵位又对。反正是撞，且上去试试。",
-          "instruct": "内心独白，语气决断"
+          "instruct": ""
         },
         "effects": []
       },
@@ -352,7 +358,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "事有凑巧，念头才动，敌人又在演习妖阵，风雷四起，立即乘机裂土而出。先还恐观察不真，引动仇敌，特意避开峰后无人之处，一面上升，一面行法复原，以备万一看错，容易遮掩。好在身形已隐，或者无害。不料才一出土，迎面微风过处，现出所料那人，朝那刚复原的地穴低语道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -364,7 +370,8 @@
             "sound_en": "soft crack as earth splits open, soil scattering like petals, stones rolling, the sound of emergence from underground like tearing silk",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "裂土而出"
+            "trigger_keyword": "裂土而出",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -375,7 +382,8 @@
             "sound_en": "low thud as the earth closes back up, soil settling into place with a soft rustle of sand and stone",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "复原"
+            "trigger_keyword": "事有凑巧",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -386,7 +394,8 @@
             "sound_en": "soft rustle of wind brushing past, robes stirring, a figure appearing suddenly",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "微风"
+            "trigger_keyword": "微风",
+            "trigger_offset": 0
           }
         ]
       },
@@ -424,7 +433,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑见他目光四注，似在观察来人所在，知未看出自己一面，暗中戒备，低声问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -481,7 +490,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑便把来意说知。随引闻言，好似喜出望外。先飞身峰上，四顾无人，重又下来，跪地默祷了一阵，起来答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -493,7 +502,8 @@
             "sound_en": "swift whoosh as Suiyin leaps to the peak, his robes snapping like a hawk, landing softly with a scatter of small stones",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "飞身"
+            "trigger_keyword": "飞身",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -504,7 +514,8 @@
             "sound_en": "soft rustle of robes as Suiyin kneels, faint murmurs of prayer like flowing water",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "跪地"
+            "trigger_keyword": "跪地",
+            "trigger_offset": 0
           }
         ]
       },
@@ -542,7 +553,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑见他其意甚诚，虽与柬上不与红发老祖对面之言少违，但是此外更无善策，已然半日光阴耗过，事不宜迟，便即允了。先料同伴妖人少停即至，谁知候有个把时辰，终未见来，二人俱都愁急。随引刚把心一横，待要拼着相随同逃，弃了阵地前往盗取，忽听铜鼓之声。随引急道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -554,7 +565,8 @@
             "sound_en": "distant booming of bronze drums like rolling thunder, urgent and heavy, each beat a call to war echoing through the mountains without end",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "铜鼓"
+            "trigger_keyword": "癞姑见他其意",
+            "trigger_offset": 0
           }
         ]
       },
@@ -592,7 +604,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑闻言更为忧急，忙令随引前导，许以事若发觉，不能存身，必为设法引进到正教门下；如若无事，仍须暂留，以作内应。随引原也想她吐口，闻言喜之不胜，立即趋前引导。一会直入妖宫，路上遇到好几拨告急妖人，随引只作闻得鼓声传警，见师请命出战。众妖人有的忙出，有的忙进，无一理会。等赶到宫内，告急的人已是七次。随引甚是机智，进门遇见秦玠，知他奸狡，对自己却极降心结交，故意告以阵中空虚可虑，来向师父请求派人镇守，勿令全出。秦玠笑答：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -604,7 +616,8 @@
             "sound_en": "soft footsteps echoing through the demon palace corridors like footsteps in an empty valley, demonic aura faint as mist, cold wind brushing past",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "妖宫"
+            "trigger_keyword": "癞姑闻言更为",
+            "trigger_offset": 0
           }
         ]
       },
@@ -642,7 +655,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正说之间，忽闻哧的一声，一道紫虹破空飞去。癞姑见紫郢剑飞回，好生欢喜。随引知乃师必追，假作回阵，往侧一闪。等红发老祖负伤追出，秦玠紧随在后，随引和癞姑打一手势，乘机掩了进去。并嘱癞姑依着前说途径入内，为防妖童侍卫看破，也把身形隐起。才到里面，红发老祖师徒便已飞回，匆匆入内取药行法，并医手伤。二人暗中尾随在后，红发老祖直入后洞，二人等他取药出来，方始掩进。刚同现形，由随引指点，把两种灵药取到，传授用法，红发老祖已然将伤治愈，忿怒出战。二人一同隐身走出，到了洞外僻处，癞姑方始作别，仍由地下遁走。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -654,7 +667,8 @@
             "sound_en": "clear, resonant ring as the purple rainbow sword light shoots through the air, a sound of liberated power like a dragon's cry echoing to the heavens",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "紫虹"
+            "trigger_keyword": "正说之间",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -665,7 +679,8 @@
             "sound_en": "soft rustle as two figures vanish like reflections in water, the sound of concealment and stealth, a door gently opening and closing",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "隐身"
+            "trigger_keyword": "隐身",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -676,7 +691,8 @@
             "sound_en": "soft clink of jade bottles like pearls falling on a jade plate, the gentle sound of pills being taken, a bottle set down on the table",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "取药"
+            "trigger_keyword": "取药",
+            "trigger_offset": 0
           }
         ]
       },
@@ -695,7 +711,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "至于先和妖邪苦斗的诸同门，除后来庄易、林寒、严人英三人，是路遇百禽道人公冶黄，说听一老友说起此事，令来为众弟子接应外，只金蝉、石生、甄艮、甄兑、易鼎、易震六人是受异人指点，特为此事而来。余如司徒平、秦寒萼、杨鲤、李文衎、向芳淑五人，原为两起，在云南各县行道，不期而遇。忽然发现两个妖人，意欲暗算，吃五人看破。那妖人本是雷抓子的好友，斗法不胜，便往妙相峦遁走。五人恨他为恶，穷追到此，遇见谷外埋伏的妖人妖人，双方打了起来，金、石等六人便赶来助战。陆蓉波、廉红药、郑八姑一起，奉命先寻洞府栖身，蓉波想起昔年随父云游，路过边山，发现好些胜地，而郑八姑说江西也有两处极好山水，于是议定分头寻访，寻到后再从众议。陆、廉二女曾共患难，又以自身法力功行各有所短，便做了一路，展转寻来。行近当地，望见许多同门在和妖人相持，也上前相助。跟着又是余英男为首，算计易、李、癞姑三人南疆之行将到，独自约了申若兰前来接应，就便和英琼说那将来同求师长，令与英琼一起，同在幻波池修炼之事。路上又遇见何玫、崔绮、黑孩儿尉迟火、铁沙弥悟修、灵和居士徐祥鹅等几个同门，于是相约同来，以致人多势盛。对方那些异派妖人，如金眼狒狒左清虚、追魂童子萧泰、无发仙吕元子，以及被玉清大师打中子午火云针、又被斩断一臂的明珠禅师，还有孔露子曹飞等二十余人，多一半是慈云寺、戴家场两地漏网的余孽。还有五台、华山派暗中派来勾引妖人的几个妖妇淫娃，法力更是有限。只一个万妙仙姑许飞娘本领最高，偏又未来。这伙妖孽见对方俱是少年男女，又都个个生得仙风道骨，十九英姿飒爽，容华美秀，有的以前还曾交过手，还当易与，暗幸峨眉诸老无一在场，正好下手。谁知撞着了丧门，这班敌人均有异宝、仙剑随身，简直无一好惹，才一照面，便被飞剑杀了三个妖妇、两个妖党，这才看出不可轻侮。内中又有几个法力较高的妖人，再纷纷出来助战，死亡越多。终盼红发老祖出场，转败为胜，报复前仇，相持不去。哪知红发老祖也无用处，终于惨败。峨眉诸同门虽有六人受伤，却可救转。计算敌人伤亡，连各异派的妖邪和门下妖人，不下四十余人之多。众人奉命下山，初次出马，所遇还是劲敌，居然大获全胜，自是佳兆，互相谈说，高兴非常。癞姑因师父柬帖上有异人相助之言，金、石等六矮弟兄又说是有异人指点，却未明言何人，就向金蝉问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -707,7 +723,8 @@
             "sound_en": "clash of swords like thunder and explosive bursts of demonic light like fireworks, battle cries and the roar of combat shaking heaven and earth",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "斗法"
+            "trigger_keyword": "至于先和妖邪",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -718,7 +735,8 @@
             "sound_en": "sharp ring of a sword cutting through the air like lightning, a brief cry cut short, demonic light fading like smoke",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "飞剑"
+            "trigger_keyword": "飞剑",
+            "trigger_offset": 0
           }
         ]
       },
@@ -813,7 +831,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑闻言佯怒，伸手要抓。金蝉拦道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -825,7 +843,8 @@
             "sound_en": "swift rustle of sleeve as Laigu reaches out in mock anger like a bird's wing, Jinchan's hand blocking hers with a soft tap",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "伸手"
+            "trigger_keyword": "癞姑闻言佯怒",
+            "trigger_offset": 0
           }
         ]
       },
@@ -920,7 +939,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "石生方要还言，金蝉把两只俊眼一瞪道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -977,7 +996,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人也附和催促。金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1008,7 +1027,8 @@
             "sound_en": "soft rustle of bamboo leaves as the white-clad youth shakes the branch in his hand, a sound of serene power in the night, clear and musical",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "竹枝"
+            "trigger_keyword": "竹枝",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1019,7 +1039,8 @@
             "sound_en": "soft hum of the protective formation like rippling water, the gentle rustle of night wind brushing robes like a sigh",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "入定"
+            "trigger_keyword": "我至今还",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1057,7 +1078,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，三人已同时施展。哪知法术无效，法宝也未飞出。忙手探宝囊，三人所有法宝连同九天十地辟魔神梭也不知怎的，都会失去。因知被盗，一时情急，又认作是对头，急口喝骂，叫大家留意。一面飞剑迎敌，一面运用法力想将失宝收回，身剑合一。刚刚飞起，吃他用竹枝向空一指，人剑全被定住，悬于空中，所失法宝，自然更收不回。我和石、鼎弟正在惊惶，小和尚恐他盗宝遁走，自恃法力，放出佛光，将他围住。本意佛光全仗本身道力，多厉害的敌人也夺不去，也没法破。因见对方厉害，特以本身元灵运用，心与光合，意欲逼他还了三人法宝，问明来历，如与诸尊长稍有一面之缘，便可放走。没想到佛光倒是将那少年圈住，可是自己真灵也被吸住，一样不能脱身。那少年笑道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1069,7 +1090,8 @@
             "sound_en": "soft tap of bamboo against air like a brush on silk, followed by a sudden silence as three figures are frozen mid-flight, like ice meeting jade",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "竹枝"
+            "trigger_keyword": "竹枝",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1080,7 +1102,8 @@
             "sound_en": "soft chime as Buddhist light encircles the youth like a rising moon, a sacred hum like temple bells in harmony, radiance flowing with serene power",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "佛光"
+            "trigger_keyword": "佛光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1118,7 +1141,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "我和艮弟不动手不好，动手又非其敌。他说那些话，急切间又不易解透。双方发动太快，又不及拦阻。方想如何说法得体，还是小师弟心灵，上前和他施了一礼，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1156,7 +1179,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那少年已然盘膝坐在山石上面，闻言笑指我二人道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1168,7 +1191,8 @@
             "sound_en": "soft rustle as the youth sits cross-legged on the stone like a mountain, placing the bamboo branch across his knees like an ancient qin",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "盘膝"
+            "trigger_keyword": "那少年已然盘",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1206,7 +1230,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随说，手上现出甄、易三人所失法宝，说声：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1218,7 +1242,8 @@
             "sound_en": "soft shimmer as three treasures appear in the youth's palm like starlight, glowing with their own light like the Milky Way",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "法宝"
+            "trigger_keyword": "手上现出甄",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1256,7 +1281,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "三人立即飞落，将宝收回，我们才知他果有来历，所说不虚，一面赔话，并请去了小和尚的禁制。他笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1268,7 +1293,8 @@
             "sound_en": "soft whoosh as three figures descend from the air like cranes returning to the forest, their robes fluttering like clouds, landing lightly like leaves on water",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "飞落"
+            "trigger_keyword": "飞落",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1306,7 +1332,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "阿童自将佛光放出，身便不能转动，跟着面现笑容，似无所苦。少年话才说完，没等我问，便接口道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1344,7 +1370,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "我知小和尚得有佛门妙谛，功力颇高，道心坚定，极难受制动摇，竟会如此听话。妙在是双方不落言诠，便即领会，这比收去我们的法宝还要高明，自然惊服万分。他这才说起，三位姊姊已与老怪师徒成仇，只因恐有同门遭劫重伤，不肯用法牌告急求救，实则反而不妙，也是定数，故尔如此。这事与他有关，不容袖手，早由远道赶来当地隐居，只等我们到后，寻到护法的人，立即前往。道路却是不同，各走各的。令我们速来妙相峦，谷外伏有妖邪，正与几个同门相持，可上前助战，只忌入谷陷阵。敌人虽然厉害，却奈何我六人不得，只管放心。那少年对于小师弟好似格外喜爱，别时，执手殷殷，期勉甚多。并说我六人别府不在此山，不久便有遇合，景物灵奇，不在依环岭、幻波池以下。等我们新居觅到，他把事情办完，必还抽暇来访。我说他那坐处太敞，既然须人护法，还恐人知，似此佛光远照，如有仇敌，岂不跟踪寻来，怎不重换一僻静之处？他说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1382,7 +1408,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "我们闻言，见有青光一闪，定睛一看，哪是什山顶高林，这地方竟是一个大石洞，四面钟乳四垂，晶辉耀影，宛如缨络宝盖，天花飞舞，泛彩流光，奇丽非常。他独坐在一块天生的水晶石上，小和尚正坐在他的身前，手指着一圈佛光，将二人一同围住。大家打坐之处，就在他对面不远石钟乳下，原来便和我们一起。法力如此神妙，不可思议，怎不令人惊服呢！我们随即告别起身，到了妙相峦前，果遇妖人倚众行凶，诸位同门也相继赶到。原来小和尚并不限定两天，只等他事一办完，立可赶来。既有会心，必能知他底细。今己差不多一日，只等小和尚一来，就可问出他到底是哪一位老前辈。",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1394,7 +1420,8 @@
             "sound_en": "soft flash of green light like rippling jade unfolding, the illusion dissolving like morning dew to reveal the true cave like a scroll unrolling",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "青光"
+            "trigger_keyword": "青光",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1405,7 +1432,8 @@
             "sound_en": "soft shimmer of stalactites like jeweled canopies, crystal light like inverted galaxies, water droplets falling with a clear, bell-like cascade",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "钟乳"
+            "trigger_keyword": "我们闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1424,7 +1452,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人正听得有兴，忽听铜鼓咚咚，杀声甚急，由湖心中隐隐透出。方、元二人倏地一惊，飞身赶将出去。众人料知有事，也忙相继追出。易静忙道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1436,7 +1464,8 @@
             "sound_en": "urgent booming of bronze drums like thunder splitting the sky, faint battle cries rising from the lake like a thousand horses galloping, each beat heavy on every heart",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "铜鼓"
+            "trigger_keyword": "众人正听得有",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -1447,7 +1476,8 @@
             "sound_en": "swift whoosh as Fang and Yuan leap out like startled birds, their robes snapping like hawks, footsteps landing with purpose",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "飞身"
+            "trigger_keyword": "飞身",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1485,7 +1515,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "甄、易兄弟四人应了。易静说完，也自追出。方、元二人正在湖面行法，湖面上灵旗招展，湖心圆镜又现。只见妙相峦那边红光突涌，黑气蓬勃，上冲霄汉，飞也似涌出数十亩大小一片暗赤云光。中现数十妖人，以红发者祖为首，飞驰而来，飞行异常神速。镜光中望去，只见无数山峦峰岭，溪谷岩壑，迎着敌人来路，似电一般闪过，晃眼工夫，已被飞越百里远近。看那情势，正朝当地而来，知道一会便要到达。林寒、严人英、金蝉、石生、秦寒萼齐声说：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1497,7 +1527,8 @@
             "sound_en": "roaring of red light like a sea of blood and black smoke like ink pillars rising to the heavens, a tide of demonic cloud rolling toward them, blotting out the sky",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "红光"
+            "trigger_keyword": "红光",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1508,7 +1539,8 @@
             "sound_en": "swift rush of mountain peaks flashing past in the mirror like a zoetrope, enemies closing distance like shooting stars, wind howling like tearing silk",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "镜光"
+            "trigger_keyword": "镜光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1546,7 +1578,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "易、李二人也主张分人出山迎敌，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1584,7 +1616,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便令方、元二人速将湖上禁制略撤，同时放众人过湖应战。方瑛一面催动法术，口中急道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1660,7 +1692,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人闻言，又见二人行法正急，方瑛说几句话的工夫，元皓已是面红汗出，不便相强，只得听之。方瑛抽空把话说完，立即一同加紧布置。先是手掐灵诀，不住向湖中急画符篆。画完，双手往外一扬，湖面灵旗隐现中，便有五色烟光相继明灭。等到五行真气布满九宫，一声雷震，五方五色烟光复随灵旗一起涌现，合成一片氤氲，疾转起千万朵祥云，汇为繁霞，照眼生缬，笼罩在湖面之上。紧跟着，二人把口一张，喷出一片红雨洒向湖心。同时，各将手一指，又是一声雷震，湖心镜光倏地隐去。全湖霞光、锦云也似万千道电闪，一齐掣动，一瞥不见。湖面上依旧是清波浩浩，一片澄泓，清可鉴人毫发。方、元二人方始如释重负，走了过来。元皓向众说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1672,7 +1704,8 @@
             "sound_en": "thunderous boom like heavenly drums first striking, five-colored smoke emerging like brocade, auspicious clouds covering the lake like a celestial palace reflected, echoes rolling without end",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "雷震"
+            "trigger_keyword": "雷震",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1683,7 +1716,8 @@
             "sound_en": "soft splash as red rain falls on the lake like falling petals, ripples spreading like pearls on a jade plate, light shimmering like a rainbow",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "红雨"
+            "trigger_keyword": "红雨",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1694,7 +1728,8 @@
             "sound_en": "soft chime as the mirror light vanishes like a silver bell breaking, the lake returning to a clear, still surface like a newly polished mirror",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "镜光"
+            "trigger_keyword": "镜光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1732,7 +1767,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "元皓先时也颇气壮，自从妙相峦一战，看出敌人委实厉害，不可轻视。因自己身有专御毒瘴神刀之宝，可以无害；再者，由层层禁制中往返飞渡，也比众人迅速容易，不必再另由人主持运用，故告奋勇，前往试探。众人不知她本一番好意，听她一面说敌人邪法厉害，不可轻撄其锋，自己却请当先出敌，语气好似有些轻视意味，虽未怪他兄妹骄狂，多半心中不服。内中又有好几个俱都身有异宝，以为敌人毒瘴、神刀虽然厉害，凭自己这几件护身法宝，至多不胜，也决不致有甚差池。适才几为邪法所困，乃是骤出不意，不知邪法底细。此时有了防备，上去首先准备好护身之法，当无受害之理。老怪自是难敌，且先多杀他一些徒党，一则去害，二则为六个中毒的同门报仇，岂不是好？众人中易静、癞姑、李英琼深知方、元二人对于本门向往情切，竭忠尽智为众出力，说话天真，心实为好。林寒、庄易、严人英、陆蓉波、甄兑、甄艮学道年数较久，性又和善，火气早退，闻言随口应诺，不以为意。余人差不多俱都存有侥幸尝试之心，因身是客，主人相待又极忠诚，出力不少，并且易、林、严、庄等十来个功力较深的同门俱已齐声应诺，不便再说什话，只得罢了。说时迟，那时快，先后不过刻许工夫，湖中镜光一隐，加上危崖阻隔，来敌形影已不再见。四边山容清丽，岚光欲活，只见天光云影，树色众声，融汇出无限天机。湖上埋伏禁制又全隐蔽，水面上静荡荡的，看不出丝毫警兆。如非适才目睹镜光中所现形影，万万想不到这等清和幽静的境地，会隐伏有绝大杀机，一触即发。易静、癞姑二人久经大敌，终较老练，估计仇敌将到，见众人仍在聚立闲谈，纷向方、元二人询问说笑，一点不知戒备，各人面上又多半是杀气隐透眉宇，虽无晦色死气，到底可虑。方喝：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1770,7 +1805,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话刚说完，遥听天风呼呼之声，由远而近。众人方各仰望之间，适才镜光中所见大片红云，已铺天盖地由左侧数百丈高的危崖之上疾卷过来，那来势比第一次对敌所见还要凶恶，大约来敌均经精选，不似以前之滥。外来的异派，除先会过的几个法力较高者外，又添了五六个男女妖人，着山装的妖徒，不过二十余人。连一些外来妖邪，共只四十六人，看去俱非弱者。红发老祖已换了一身古怪装束：满头红发一齐披散，穿着一件孔雀翎毛织就的短衣，一条短裤，左臂偏袒，双腿到脚一齐赤裸。另披着一件其长过人的红斗篷，不知何物所制，薄如蝉翼，光色鲜艳异常，后半拖出老长。周身俱是红云围绕，背上插着三叉一刀，左肩另挂着一个黑漆葫芦，腰间还佩有革囊、宝袋之类。左右各有一个手持长幡的妖徒，内中一个正是那雷抓子。下余众妖徒和外来诸妖人，俱都相随在后，宛如百丈火云簇拥着数十个妖魔鬼怪，分外显得狞猛威武。金、石、秦、廉诸人，方欲开口喝骂，元皓拦道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1782,7 +1817,8 @@
             "sound_en": "roaring wind like a tidal wave crashing on the shore, a vast cloud of red light rolling over the cliffs like an inverted sea of blood, the sound of ten thousand horses thundering",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "天风"
+            "trigger_keyword": "天风",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1820,7 +1856,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人闻言，定睛一看，果然众妖人到后，只在红云拥绕之中，沿着三面危崖和湖边一带疾转如飞，似在搜索敌人情景。不时又各把手一指，便有一片妖光魔火，朝所疑之处飞去。等看不出有甚征兆，又往别处搜索。在叫那些古木竹林遭殃，吃妖火毁去不少，别无一点反应。众妖人好似奇怪，渐渐分散开来。红发老祖侧身停立空中，手掐灵诀，口诵邪咒，血红色的光华，乱箭一般四下乱飞了一阵，面上神情忽变，好像有些省悟。妖徒雷抓子报应已到。他本和两外教妖党乱施邪法，四面穷搜，因有禁法妙用，湖形已隐，幻出一片又高又峻危崖，但是形状丑恶，草木不生，极不起眼，又当来路之右。众妖人多以为敌人巢穴是在正面，只和以前外层山景一样，吃隐形法蔽住，仇敌藏在其内，不敢出斗，一味向正面和左面进攻，不曾十分留意。偶朝湖这面发出一些魔火妖陷，又吃禁法阻住，暗中消灭，急切间全未觉出有异。这时不知怎的，和乃师一样，竟会看出破绽。雷抓子贪功心盛，还未等红发老祖发出号令，便和两外教妖人各施法力，一面发出飞叉、飞剑开路，一面忙纵妖光朝前冲去。本心恃有乃师后援和同行二妖人的法力，心料敌人如若自问能胜，早已出敌，再说先前也不至逃走。便想乘峨眉诸老闭关清修，仇敌无处求援之机，多杀些人泄恨，使双方仇怨日深，不可化解。生怕师父耳软心活，为了四九重劫，转与正教暗中结纳，又与白、朱二老至好，事闹这么大，非出本心。适才回山，尽管痛恨，听口气已是大为后悔。本就心中畏怯，迫于无奈，到了紧要关头，再来两个挟持得他住，如白、朱二老之辈，软硬齐施，若一劝说，就许忍痛屈从，变了初心。所以稍见有隙可乘，立以全力施为。那同党二妖人，更是受人重托而来，巴不得乱子越大，不可收拾才称心思。加以本身法力也实不弱。于是三人合力往湖这面猛然一冲。对岸方、元二人料定有此一举，早有准备，安心要他入网。对于雷抓子，更是仇人相见，分外眼红。见他同两妖人冲来，忙即行法，将禁法略微开放，诱他进入。雷抓子和两妖人哪知就里，只当寻常道家禁制以及隐形之术。一见飞叉、飞剑妖光到处，冲荡起千层霞影，错认禁法将破，同行二妖人又由远方初到，平素骄狂自满，还没有和峨眉诸弟子见过高下，哪知利害。三人不约而同，各纵遁光，奋力前冲。红发老祖原也看出左侧有禁法隐伏，方想观察深浅，行法试探，妖徒等三人已经冲进。一眼瞥见对面现出霞影千重，散而不乱，便知不妙，忙喝：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1832,7 +1868,8 @@
             "sound_en": "crackling of demonic fire like rain pouring down, consuming ancient trees and bamboo like paper burning, popping and snapping without end like frying beans",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "妖火"
+            "trigger_keyword": "妖火",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1843,7 +1880,8 @@
             "sound_en": "sharp whistle of flying forks cutting through the air like dancing lightning, demonic light flickering like ghostfire, the sound of aggressive advance",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "飞叉"
+            "trigger_keyword": "飞叉",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1854,7 +1892,8 @@
             "sound_en": "soft rustle as a thousand layers of rosy light unfold like brocade curtains, scattered yet ordered like constellations, light flowing with hidden danger",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "霞影"
+            "trigger_keyword": "霞影",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1892,7 +1931,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "雷抓子等三妖人闻言心方一惊，身外霞影已由分而合，将三人一齐包没。当时身上一紧，眼花缭乱，所有邪法妖光全失效用。知道不妙，忙想退回，已是无及，一片金光裹上身来，人便失去知觉，金光再裹着一绞，一齐惨死，尸骨无存。外面众妖人只见三人身影被金霞卷去，耳听一片水火风雷之声响过，金霞一闪即隐，仍复原状。红发老祖看出内藏先天五遁禁制，三人必已形神皆灭，气得咬牙切齿，高声咒骂。侧耳细听，对方终无回应，料定敌人负固不出。这五遁禁制已极神妙，不易攻破，恐还有别的妙用藏在其内，尽管暴跳如雷，终不敢冒失行事。明知仇敌俱是一些末学新进，无名后辈，胜之不武，不胜为笑。无如事已至此，连次挫败丧亡，已成奇耻大辱。来时原因适才追敌归途，发现这一带山形忽变，看出以前有人行法隐蔽，今始现出全貌。自己所居密迩，这多年来竟被瞒过，对方法力可想而知。更没想到对方隐此多年，竟会是仇人一党。因觉山中空虚，恐有别的仇敌乘虚而入，赶紧回驶，未及来探。回到神宫，运用玄机一占算，不特行法隐蔽山形的与仇人利害相关，所有逃走的仇敌全数在彼藏伏，连那失去的五云桃花瘴与此也有关联，如何不急怒交加。因卦象先凶后吉，颇有伤折，特意加功戒备，把生平所炼几件得意法宝全都带上。满拟仇人多高法力也难抵当，何况多是一些初出山的后辈，哪知一到便将爱徒和二妖党葬送。事已至此，除却一拼，更无善策，越想越忿恨。急怒攻心之下，忙命诸徒党先勿妄动，等自己试探明了敌人禁法是何来历，破去之后，再作计较。说罢，越众前立，面对三妖人丧命之处，扬手先发出一大片雷火，朝前打去。雷火到处，又变了一番景象：对面危崖忽然隐去，化作一片混茫，青濛濛浮空一片，不见边际。当中涌起大蓬黑烟，迎着雷火只一卷，便同没入青霭之中，隐闻风水之声，无影无踪。红发老祖以为看那地形，决不应是平地，必是敌人洞府所在山崖之内，没想到那是大片湖荡。一见变幻如此神奇，又以所发雷火虽非正教诸长老太乙神雷之比，却也具有极大威力，吃黑烟一卷，竟如石沉大海，杳无踪影，用尽目力查看，也看不出对方地形虚实，不禁大为惊异。以自己的法力，虽然迟早可破，但却不会容易。上来已先受挫，如何还再冒失。红发者祖强忍愤怒，把主意想好，命众妖徒再往后退，且停高空，不要降落，以防万一敌人挪移阵势，又中暗算，任自己一人施为。随向后面瞪目厉声喝骂道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1904,7 +1943,8 @@
             "sound_en": "roaring of water, fire, wind, and thunder, a brief cry cut short like a snapped string, then utter silence as the golden light consumes them",
             "volume": "-10%",
             "pitch": "+0Hz",
-            "trigger_keyword": "金霞"
+            "trigger_keyword": "金霞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1915,7 +1955,8 @@
             "sound_en": "thunderous explosion of demonic fire and lightning like the sky falling, a roar like ten thousand thunders, flames leaping skyward illuminating the night like day",
             "volume": "-10%",
             "pitch": "+0Hz",
-            "trigger_keyword": "雷火"
+            "trigger_keyword": "雷火",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -1926,7 +1967,8 @@
             "sound_en": "low rumble as a mass of black smoke rises like ink spilling over clouds, swallowing the fire and lightning like stones sinking in the sea, the faint sound of wind and water like distant tides",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "黑烟"
+            "trigger_keyword": "黑烟",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1964,7 +2006,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众妖人也同声喝骂不止。湖对岸诸人看得逼真，见妖人狼狈急怒之状，俱觉好笑。元皓笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1976,7 +2018,8 @@
             "sound_en": "cacophony of curses and shouts from the demonic crowd like a flock of crows, their voices echoing across the lake without end like a market in chaos",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "喝骂"
+            "trigger_keyword": "喝骂",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2014,7 +2057,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人多半喜事，除易静、林寒、庄易等六七人外，俱都赞好。方瑛道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2071,7 +2114,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人也多随声附和。癞姑便问方、元二人：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2147,7 +2190,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "林寒和陆蓉波同声劝阻道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2185,7 +2228,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "要知后事如何，请看下文便知分晓。",
-          "instruct": "悬念收尾"
+          "instruct": ""
         },
         "effects": []
       },

@@ -99,7 +99,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第96回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -118,18 +118,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "且说芷仙和袁星从石坪过去，又见迎面现出一所石室，两扇石门半开半掩。芷仙跟着袁星侧身而入，见里面像是一条石甬道，不透天光，甚是黑暗。芷仙便将霜蛟剑拔出试了试，剑才出手，好似一道电闪一样，黑暗之中，比适才外面所见还要显得光亮。心中大喜，借着剑上光芒，觅路又往前走，越走路越显得狭窄。走到后来，也不知走了多少里路。忽然走到尽头，迎面好似被山石堵死，到处一找，并无出路。不禁大为失望，便埋怨袁星道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.3,
+            "trigger_delay": 26.2,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "霜蛟剑出鞘",
             "sound_cn": "霜蛟剑出鞘，银光电闪，清越龙吟，照亮黑暗甬道",
             "sound_en": "frost dragon sword drawn, silver light flashing, clear dragon ring, illuminating dark tunnel",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑拔出试",
+            "trigger_offset": 0
           }
         ]
       },
@@ -167,7 +169,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，正要停步回身，忽见有一丝青光从对面石头缝里一闪。芷仙知自己剑光是白的，先怀疑是袁星也将剑拔出。及见袁星夹着双剑站在那里，口中直喊奇怪，不住朝那尽头山石上看视，才觉出有些奇怪。此时那一丝青光已从石缝中连闪了好几下，芷仙也学袁星往那发光之处看时，并看不出所以然来，那一丝青光也不再现了。正想问袁星可知什么缘故，袁星已经轻声说道。",
-          "instruct": "神秘叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -178,7 +180,9 @@
             "sound_cn": "一丝青光从石缝中闪现，幽光闪烁，忽明忽灭，如鬼火飘忽",
             "sound_en": "a thread of green light flashing through stone crack, flickering, fading like ghost fire",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "正要停步回身",
+            "trigger_offset": 0
           }
         ]
       },
@@ -216,7 +220,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "芷仙闻言，贪心又起，便道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -254,7 +258,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "袁星道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -292,7 +296,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，将手中长剑交与芷仙，用两只长臂按在石头上面，奋起神力，狂啸一声，朝前推去，连推几下，并无动静。芷仙仍将长剑交它道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -303,7 +307,9 @@
             "sound_cn": "袁星奋力推动巨石，狂啸声起，石块摩擦声沉闷，青筋暴起",
             "sound_en": "Yuan Xing pushing stone with great force, roar, stone grinding, veins bulging",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "将手中长剑交",
+            "trigger_offset": 0
           }
         ]
       },
@@ -341,7 +347,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "袁星道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -379,7 +385,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "芷仙总觉有些徒劳，不住叫袁星接剑回去。袁星猛见芷仙手中剑光直闪，忽然心中一动，跳起身来，喜叫道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -417,7 +423,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，接过长剑一抽，一青一黄两道剑光同时出匣。手一抬，直向山石上刺去，只听嚓嚓几声，剑到石开，磨盘大的石块纷纷往下坠落。喜得袁星越发起劲，运动一双长剑，上下左右乱刺起来。不消一会，早将山石穿通了一个三四尺方圆、丈许深的孔洞。芷仙见它时而用剑连斫带刺，时而又腾出手来去搬那石头，有时海碗大的石头迸落到它身上，也不在意，仍是兴高采烈，猛力进行，只激得大小碎石满洞飞迸。自己恐被碎石打着，也不敢上前相助。似这样又过了顿饭时间，猛听坠石纷飞中袁星欢呼起来。近前一看，它已将这两三丈深的石壁洞穿，洞外面天光直射进来，便听到洞外涛声震耳。袁星接连又是几剑，竟开辟出一个可以过人的小洞了。芷仙自是喜欢，便随着袁星从这新辟的石穴中走了出去。到了外面一看，哪里有什么宝物，自己存身之处却是一片伸出的平崖，有数亩方圆地方。一面是孤峰插云，白云如带，横亘峰腰，将峰断成两载。虽在夏日，峰顶上面积雪犹未消融，映着余霞，幻成异彩。白云以下，却又是碧树红花，满山如绣。一面是广崖耸立，宽有数十百丈。高山上面的积雪受了阳光照射，融化成洪涛骇浪，夹着剩雪残冰，激荡起伏，如万马奔腾，汹涌而下。中间遇着崖石凸凹之处，不时激起丈许高的白花，随起随落。直到崖脚尽处，才幻作一片银光，笼罩着一团水雾，直往百丈深渊泻落下去，澎湃呼号，声如雷轰，滔滔不绝。再往对面一看，正对着这面洞门，也是一片平崖，与这边一般无二。平崖当中，现出一座洞府，洞门石壁，有丈许大的朱书“飞雷”二字。原来自己已经到了洞外，对面飞雷洞仿佛听灵云等说过似的。正算计过崖与否，忽听碧霄中一声鹤唳。抬头一看，一只仙鹤在斜日阳光下闪动着两片银羽盘空摩云而来，眨眼工夫，落到对崖上。这才看出仙鹤背上还爬着一个白衣道童，看年纪不过十五六岁，身子半骑半躺在仙鹤背上，一只手攀定仙鹤背颈，一只手抓紧仙鹤的左翼，仙鹤降地，兀自还不下来。那仙鹤忽地朝着对面洞里长鸣了两声，不多一会，便从洞里又跑出一个青衣道童，年纪和先前道童不差上下，口中直说。",
-          "instruct": "紧张激烈叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -428,7 +434,9 @@
             "sound_cn": "袁星双剑刺向山石，嚓嚓连声，碎石迸溅，磨盘大石块坠地轰然",
             "sound_en": "Yuan Xing's twin swords striking stone, chipping, rocks splintering, boulders falling with crash",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "接过长剑一抽",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -438,7 +446,9 @@
             "sound_cn": "洞外飞瀑轰鸣如雷，涛声震耳，冰雪融水汹涌而下，万马奔腾",
             "sound_en": "outside waterfall thundering like thunder, waves roaring, melting ice and snow surging down like ten thousand horses",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "黄两道剑光同",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9.0,
@@ -448,7 +458,9 @@
             "sound_cn": "仙鹤长鸣响彻云霄，银羽闪动，清唳悠扬，回荡山谷",
             "sound_en": "crane's long cry echoing through sky, silver wings flashing, clear and resonant, echoing in valley",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "手一抬",
+            "trigger_offset": 0
           }
         ]
       },
@@ -486,7 +498,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一面忙着将那道童从仙鹤背上扶了下来，正要往洞里走去。芷仙猛听背后一声娇喊道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -524,7 +536,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，早从芷仙身后飞起一团黑影，纵向对崖，把芷仙吓了一大跳。定睛一看，见是英琼，便猜若兰也来了，再回身一看，果然若兰也站在身后。原来芷仙同了袁星入洞之后，好半天不见出来，南姑等四人在崖前等得心焦，依了于、杨二人，便要跟踪寻了去。南姑道。",
-          "instruct": "平稳叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -535,7 +547,9 @@
             "sound_cn": "英琼纵身飞越对崖，衣袂破风，落地轻响，尘土微扬",
             "sound_en": "Ying Qiong leaping across cliff, robes fluttering, soft landing, dust rising",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -573,7 +587,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "四人正在议论不定之际。英琼与若兰本是中毒以后，精神疲倦，才回洞去打坐养息。及至按着峨眉真传用了一回内功以后，二人彼此互问真气运行如何。若兰首先说气不归元，非常吃力。英琼虽然稍好一些，也说没有往日自然。若兰便对英琼道。",
-          "instruct": "平稳叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -611,7 +625,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼忿怒道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -649,7 +663,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰笑道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -687,7 +701,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼笑道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -725,7 +739,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -763,7 +777,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -801,7 +815,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -839,7 +853,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，秀眉一耸，推了若兰一下，笑说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -877,7 +891,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人正在谈笑辩难之际，忽见芝仙从外面捧着两片其红如火的草叶进来。自从芝仙被移植之后，英琼、若兰、金蝉三人无事时，都爱抱着它玩。灵云因这样要妨害它的道行，时常劝阻，三人仍是不听。芝仙也最爱三人抱它。这时它高高兴兴跑了进来，若兰先和它道谢舍血相救之德，英琼已抢着将它抱在膝上。还未及张口逗弄，芝仙已将一片朱草直往英琼口中便塞，嘴里咿咿呀呀说个不住。英琼见那朱草通体透明，其红如火，一叶二歧，尖上结着珊瑚似的一粒红豆，清香透鼻，知道是一片仙草。见它往自己口里乱塞，便问道。",
-          "instruct": "舒缓叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -888,7 +902,9 @@
             "sound_cn": "芝仙轻盈跑入，脚步细碎，衣袂飘动，咿呀声轻快",
             "sound_en": "zhi xian running in lightly, soft footsteps, robes fluttering, cheerful chirping",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人正在谈笑",
+            "trigger_offset": 0
           }
         ]
       },
@@ -926,7 +942,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "芝仙呀呀两声，点了点头。英琼先将那叶上红豆吃进嘴里，觉得又甜又香，索性连叶子也吃下去，竟是甘芳满颊，甜香袭人，顿时神清气爽。正在咀嚼余味，芝仙已挣脱了英琼的手，跑回若兰身旁，将那一片也递给若兰。若兰见英琼吃了朱草之后，满口通红，正要笑她，忽见芝仙来教自己也吃，便笑道。",
-          "instruct": "舒缓叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -964,7 +980,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼笑道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1002,7 +1018,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰也闻得朱草香味，再听英琼一说，不由也学了英琼的样，将朱草吃了下去，果然芳腾齿颊。英琼见她赞美，正要取笑，那芝仙倏地挣脱了手，跳下地去，往门外便跑。英琼直喊回来，那芝仙回头朝二人将小手招了招，仍往外头跑去。若兰道。",
-          "instruct": "舒缓叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1013,7 +1029,9 @@
             "sound_cn": "芝仙跳下地，脚步轻快，小手招展，蹦跳而去",
             "sound_en": "zhi xian jumping down, quick footsteps, little hand waving, hopping away",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "若兰也闻得朱",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1051,7 +1069,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，一面点头，便同了若兰，跟在芝仙后面追去。那芝仙跑得甚快，放开其白如雪的两条嫩腿，出了大元洞，便往西面崖旁飞也似跑去。南姑姊弟与于、杨二人正在崖前等得心焦，忽见远远跑来一个精赤条条尺许高的小人，其疾如飞，后面追的又是英琼、若兰，杨成志喜事，便迎着小人拦了上去。偏偏那里是一条窄径，那小人跑得正疾，猛不防前面有人兜拦，口里呀呀直叫，一时收不住势，又无处避让，眼看要被杨成志擒获。英琼、若兰二人本是和芝仙追赶着玩，一眼看见有人拦住芝仙去路，眼看就要将它捉住，头一个英琼就不愿意，娇叱道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1062,7 +1080,9 @@
             "sound_cn": "芝仙快速奔跑，脚步细碎，喘息声声，衣袂飘飞",
             "sound_en": "zhi xian running fast, quick footsteps, panting, robes fluttering",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1100,7 +1120,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "接着脚一点，飞身纵将过去。说时迟，那时快，芝仙早一纵丈许高下，从杨成志头上纵过，往崖上一跳，晃眼之间不见踪迹。同时英琼也飞到杨成志跟前，埋怨道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1111,7 +1131,9 @@
             "sound_cn": "英琼飞身纵出，衣袂破风，落地轻响，身形矫健",
             "sound_en": "Ying Qiong leaping, robes fluttering, soft landing, agile movement",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "接着脚一点",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1149,7 +1171,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰也从后面赶到，看得清楚。见英琼粉脸通红，指着杨成志没头没脸地乱说。杨成志被她说得颊红脸涨，一句也不敢作声。觉得怪僵的，便劝解道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1187,7 +1209,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1225,7 +1247,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时南姑姊弟同于建也走了过来，因为同来的人出了乱子，都吓得不敢言语。这时见问，虎儿到底年纪还轻，便指着西崖上说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1263,7 +1285,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1301,7 +1323,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "南姑才接口道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1339,7 +1361,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼、若兰闻言，都动了好奇之心。英琼便对四人道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1377,7 +1399,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "四人自是一一点头遵命。英琼、若兰又问明了芷仙、袁星去处，双双将脚一点，便到了上面。洞口藤草已被袁星分开，那洞显得明明白白，二人便相随入内。过了瀑布、石梁，到那石室中一看，空空洞洞，什么也没有。出室寻路，上下曲折，又走了不少路。二人借着剑光，一路在洞中飞行，一路观察，顷刻间便走完那通飞雷洞的甬道。忽听潮音盈耳，声如雷轰。出洞一看，见了四外奇景，不禁惊异。同时见芷仙、袁星向着对崖眺望。顺眼一看，正遇那道童从洞内跑出来，扶那鹤背上的同伴。英琼见是熟人，不由心中大喜，忙不择地一面喊着，早飞身过去，和那道童相见。那道童也认得英琼，连笑带说道。",
-          "instruct": "平稳叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1388,7 +1410,9 @@
             "sound_cn": "潮音盈耳，飞瀑轰鸣，声如雷轰，震人心魄，水雾翻腾",
             "sound_en": "tidal sound filling ears, waterfall thundering, roaring, heart-shaking, mist surging",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "四人自是一一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1426,7 +1450,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，便喊若兰、芷仙、袁星都过崖来，先引见那道童道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1464,7 +1488,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便请芷仙和袁星快回。这时若兰已略听芷仙说起她得剑大概。英琼忽然看见芷仙、袁星各捧宝剑，因为急欲要和燕儿述说别后之事，顾不得细问，只略略介绍了姓名，便催芷仙、袁星回去。芷仙因听英琼说，因自己走开，新来四人生了事，早着了慌，忙不迭地同了袁星回洞去了。芷仙走后，赵燕儿便扶着先前道童，请英琼、若兰进洞。英琼、若兰一看这座飞雷洞，又和别处洞府不同。洞门像是人工制就的两扇石门，入门便踏着数十层石级往下走。到了洞底，便见迎面八根钟乳凝成的石柱直撑洞顶，分两行对面排列，如同水晶柱一般通体透明。尤其难得的是，八根水晶柱都是大小匀圆，粗细如一，位置齐整。当中一座丹炉。迎着丹炉，放着五个蒲垫，估量是燕儿师徒用功之所。穿过水晶柱走几步，又是大小粗细不等的百千根钟乳，自顶下垂数十丈，凝成一座水晶屏，恰好将前后隔断，只两旁留出大小如一，宽约三尺，高约八尺的门户。再由门中进去，便见无数根钟乳结成的水晶墙隔成大小十数间屋子。从洞顶到下面，高有三十余丈。也不知哪里来的光亮，射在晶墙、晶屏、晶柱上面，照得合洞光明，到处都是冰花幻彩，照眼生缬。再加上洞中石床、石几之类似晶似玉，莹滑朗润，越显得气象庄严，宝光四射，明洁无尘，气象万千。燕儿将那道童扶到尽里面石室中石床上面卧倒，便请英琼、若兰随意稍坐，急匆匆去寻丹药去了。英琼、若兰见那道童身上并无血迹，只是牙关紧闭，面如金纸，瞪着双眼，不住流动，好似要说什么话说不出口似的。一会工夫，燕儿取来丹药和一片莲叶相似的草，若兰认得那药草正是福仙潭的乌风草，忍不住问道。",
-          "instruct": "舒缓叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1475,7 +1499,9 @@
             "sound_cn": "飞雷洞中水晶柱折射光芒，冰花幻彩，宝光四射，叮咚清响",
             "sound_en": "crystal pillars reflecting light in flying thunder cave, ice flowers shimmering, treasure radiance, clear tingling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便请芷仙和袁",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1513,7 +1539,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "燕儿一面忙着救那道童，一面口中答道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1551,7 +1577,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时那道童经燕儿给他服了髯仙李元化炼就的仙丹，又用乌风草在浑身拂试，面色业已逐渐好转。燕儿知道无有妨碍，便说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1562,7 +1588,9 @@
             "sound_cn": "乌风草在皮肤上拂拭，沙沙轻响，药草清香弥漫",
             "sound_en": "black wind grass brushing on skin, soft rustle, herbal fragrance spreading",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说时那道童经",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1600,7 +1628,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1638,7 +1666,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1676,7 +1704,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1714,7 +1742,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼还要再说时，若兰已将头发披散，从身上取出一个羊脂白玉瓶儿，说一声。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1752,7 +1780,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "将瓶口对准道童，口中念念有词，一阵奇香过处，那道童脸上倏地飘起几丝粉雾。燕儿见那香黛人欲醉，正在惊异，若兰手中瓶口早闪出一两丝五色火花，射向道童脸上。刚把那几丝粉雾吸进玉瓶之内，便听那道童口中喊得一声。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1763,7 +1791,9 @@
             "sound_cn": "玉瓶口闪出五色火花，粉雾被吸入瓶中，嗤嗤轻响，奇香渐收",
             "sound_en": "jade bottle flashing multicolored sparks, mist being absorbed, soft hissing, fragrance fading",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "将瓶口对准道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1801,7 +1831,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "立刻醒了转来，一眼看见旁边站定两个绝色少女，大喝一声。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1839,7 +1869,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便要上前动手。言还未了，燕儿知道误会，忙喊。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1877,7 +1907,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，忙与二人介绍见礼，匆匆又各说了一些来历。那道童名叫石奇，乃是人家一个弃儿，从小就被髯仙救到山中收为弟子，本领资禀都不在燕儿以下。一听英琼、若兰是妙一夫人门下，本是同门，又加二人英姿飒爽，秀骨如仙，想起适才冒昧，好生过意不去。大家坐定之后，英琼忙与燕儿细谈经过，才知李宁出家，英琼遇见许多仙缘，众同门凝碧崖练剑；以及燕儿随周淳到成都路上，因叫门投宿不应，周淳纵身入内，遇见七星手施林；燕儿一人在门外等候，险些葬身蛇口，多蒙髯仙救度上山，收归门下学习剑术；后来髯仙等破了慈云寺，从成都回来，才知周淳已被嵩山二老中的追云叟收归门下等情节。彼此听了，都十分感叹欣幸。英琼久闻髯仙之名，便问燕儿。",
-          "instruct": "平稳叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1915,7 +1945,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "燕儿道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1953,7 +1983,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，忽听一声鹤唳。燕儿猛然想起，向石奇道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1964,7 +1994,9 @@
             "sound_cn": "仙鹤长鸣，清唳悠扬，响彻洞府，余音袅袅",
             "sound_en": "crane's long cry, clear and resonant, echoing through cave, lingering",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2002,7 +2034,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "石奇道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2040,7 +2072,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼听那女孩问人可曾见过一只金眼大黑雕，不禁心中一动。原来英琼从莽苍山得剑回来，得着余英男留书，说她师父广慧师太圆寂以后，原打算搬到后崖来，和她同居作伴。不想遇见已经脱离昆仑派的女剑仙阴素棠，将她逼走，带往枣花崖而去。不知怎么的，她总觉阴素棠太厉害，同她不甚投缘，希望英琼回来，千万请神雕佛奴到枣花崖阴素棠那里将她背回。当时英琼本想开辟了凝碧崖之后，就派神雕前去接她。偏巧灵云深知阴素棠根柢，又知她自从脱离昆仑派后，常和异派勾结，助纣为虐，新近炼了两样法宝甚是厉害，难得有这么一个人在她门下，正好窥探她一些虚实。英男本是三英之一，异日峨眉门下的健者，因缘早已注定，更不愁她会由此被外人网罗了去。阴素棠虽然外行不义，剑术已得昆仑真传。她对英男定是看出她资禀过人，才执意强迫收她为徒，并无恶意，乐得借此让她学些本领。有了这几层原因，便主张英琼不要忙着去接。英琼素来极敬服这位大师姊，虽然心中不无恋恋，经灵云一再开导，又加与众同门住在这种洞天福地，日常用功习剑，乐事甚多，日久也就淡然若忘。这会听石奇说了这一番话，再一问容貌装扮，越发断定那小女孩定是英男无疑，越想越觉自己对不起人。起初以为她学剑倒还不怎样，现知英男在那里受人欺负，想必盼自己如望岁一般，岂可再袖手不管？但是枣花崖地方从未去过，石奇被那女贼擒去时，因在昏迷之中，并未认明路径，到底是不是枣花崖也还不一定。石奇初交，又非对方敌手，自是不便相烦。燕儿虽系世交，听他语气，虽比自己得师早，本领还未必有自己大。自己在青螺吃了苦头，长了点阅历，知道凡事不可冒昧。想起昔日金蝉曾同朱文骑着神雕追寻英男，到过一个所在，不知是那枣花崖不是。现在既然用石奇、燕儿两人不着，不如先回洞去与芷仙、若兰二人商量，等神雕回来，再邀若兰同去，见机行事。当下便和燕儿道。",
-          "instruct": "内心思考"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2078,7 +2110,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便起身告辞。若兰先前听到石奇之言，因和英琼常谈，也早疑那小女孩是余英男，当着生人亦未及多问。一见英琼沉思了一会，忽然起身说要回去有事与她商量，更猜料中八九。刚张口要问时，见英琼朝她看了一眼，知她不愿当着多人说出，便不再问。及至石、赵二人款留不住，彼此定了后会，二人往回路走时，若兰忍不住问英琼，那小女孩到底是不是英男，为何当着人不肯说出？英琼便将自己的心思说了。若兰道。",
-          "instruct": "平稳叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2116,7 +2148,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼忙问何故。若兰道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2154,7 +2186,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，喜欢道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2192,7 +2224,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2230,7 +2262,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，虽觉若兰言之有理，到底还是快去接回才放心。当下站定略微商量，仍回身返回飞雷洞，去向燕儿说，最好借髯仙仙鹤一骑，先去认明路径，再作计较。谁知才出洞门，便见一青二白三道剑光斗在一起，难解难分。再一细看，那使白光的正是石奇和燕儿两人。使青光的是一个女子，装束鲜艳，容态妖烧，眉目间隐含荡意，口口声声要石奇和她回去。要论这三道剑光，都差不了多少，只因是两打一，所以占了上风。那女子见不能取胜，一面指挥剑光迎敌，一面将长发披散，从身后取出一个尺许长的拂尘，口中念咒，正要施展妖法，恰好英琼、若兰二人赶到。英琼一见，便要动手。若兰忙道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2241,7 +2273,9 @@
             "sound_cn": "一青二白三道剑光交锋碰撞，金铁交鸣，火花四溅，剑气纵横",
             "sound_en": "three sword lights clashing, metallic ring, sparks flying, sword qi crisscrossing",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2279,7 +2313,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼依言行事，看若兰如何。若兰早将那白玉瓶儿取出，仍和先前一样披发念咒。那女子并未留意身后来了两个劲敌，刚刚将拂尘转动，飞起一团彩雾，猛听身后一声娇叱道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2290,7 +2324,9 @@
             "sound_cn": "拂尘转动，彩雾飞起，香气弥漫，邪法将施，妖氛四起",
             "sound_en": "fly whisk turning, colored mist rising, fragrance spreading, evil spell starting, demon aura rising",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼依言行事",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2328,7 +2364,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "急忙偏身回头一看，原来是一个十三四岁的小女孩，身材容貌和自己师妹余英男不相上下，不过比英男还要来得英朗，佩着一柄长剑站在那里，指着自己辱骂。就在这一转瞬间，还未及张口，猛觉手上一动。再一回头，一道青光闪处，另一个年纪稍长的女孩手中拿着一个白玉瓶子，瓶口发出五色火花，收自己发出去的香雾，另一只手却将自己的拂尘抢了逃走。也不知她用什么法术隐身，竟飞到自己面前，俱未觉察，直到她将自己宝贝抢走，才行看清。不由又惊又怒，正要另施妖法报仇，这时又听先见的小女孩喝道。",
-          "instruct": "激烈叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2339,7 +2375,9 @@
             "sound_cn": "玉瓶五色火花闪动，拂尘被抢走，风声轻响，法宝易主",
             "sound_en": "jade bottle with multicolored sparks, fly whisk snatched, soft wind, treasure changing hands",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "急忙偏身回头",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -2349,7 +2387,9 @@
             "sound_cn": "紫郢剑出鞘，紫光如神龙，破空声凌厉，寒芒逼人",
             "sound_en": "purple sword drawn, purple light like dragon, sharp whoosh, cold radiance",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忙偏身回头一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2387,7 +2427,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那女子正愁敌人太多，双拳难敌四手，一见石奇、赵燕儿真个将剑收回，正待指挥飞剑去追若兰，忽见一道紫巍巍剑光如同神龙一般飞到。先前抢宝女子却收了剑光，站在前面，拿着自己拂尘，笑嘻嘻观阵，并不上前助战。",
-          "instruct": "紧张收束"
+          "instruct": ""
         },
         "effects": []
       },

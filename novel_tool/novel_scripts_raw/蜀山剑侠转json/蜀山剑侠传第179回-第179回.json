@@ -138,7 +138,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "庄重平稳的播报"
+          "instruct": ""
         }
       },
       "mix": {
@@ -156,7 +156,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写杨瑾借体回生的前因"
+          "instruct": ""
         },
         "effects": [
           {
@@ -206,7 +206,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "苍凉叙述，描写风雪中婴儿被弃冻死的悲惨场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -223,7 +223,7 @@
           },
           {
             "trigger_delay": 6.0,
-            "trigger_keyword": "冻死",
+            "trigger_keyword": "福见妻晕死",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -268,7 +268,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -304,7 +304,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -340,7 +340,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -390,7 +390,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -426,12 +426,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "银子",
+            "trigger_keyword": "从怀中将婴儿",
             "trigger_offset": -0.3,
             "duration": 0.4,
             "process_mode": "overlay",
@@ -476,7 +476,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -512,7 +512,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写井囡幼年成长和病中感应恩师的情景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -562,7 +562,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -598,7 +598,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -634,7 +634,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -670,7 +670,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -706,7 +706,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -742,7 +742,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -778,7 +778,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -814,7 +814,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -850,7 +850,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -886,7 +886,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -922,7 +922,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -958,7 +958,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -994,7 +994,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1030,7 +1030,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1066,7 +1066,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1098,7 +1098,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1134,7 +1134,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1170,7 +1170,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写杨瑾下山行道、被称为玄裳仙子的经过"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1226,7 +1226,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写阿珍入魔教后回家之事"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1288,7 +1288,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1324,7 +1324,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1360,7 +1360,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1396,7 +1396,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾行道至与许飞娘相遇的经过"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1458,7 +1458,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写斗法开始"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1520,12 +1520,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写五遁神桩围困杨瑾的惊险场面"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "青白两缕长烟",
+            "trigger_keyword": "疏忽之间",
             "trigger_offset": 0,
             "duration": 2,
             "process_mode": "overlay",
@@ -1588,7 +1588,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，写许飞娘的心理活动"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1624,7 +1624,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1660,7 +1660,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1696,7 +1696,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1732,7 +1732,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1768,7 +1768,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1804,7 +1804,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1840,7 +1840,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1894,7 +1894,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写极乐真人驾临解救杨瑾的宏大场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1974,7 +1974,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2024,7 +2024,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，写王荣父子旁观斗法的心理和行动"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2060,7 +2060,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2096,7 +2096,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2132,7 +2132,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，讲述王荣父子被害原委"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2168,7 +2168,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2204,7 +2204,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2240,7 +2240,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2276,12 +2276,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "取出银子",
+            "trigger_keyword": "杨瑾先当是穷",
             "trigger_offset": -0.3,
             "duration": 0.4,
             "process_mode": "overlay",
@@ -2326,7 +2326,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，作为本章收尾"
+          "instruct": ""
         }
       },
       "mix": {

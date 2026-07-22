@@ -213,7 +213,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第219回 弭祸无形 采薇僧岷山施佛法 除恶务尽 朱矮叟灌口显神通",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -232,7 +232,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "峨眉开府以后，妙一真人等送走赴会群仙。先是杨瑾飞来，说送谢山、叶缤、仙都二女和李洪五人往寒山去见忍大师，中途先遇师父神尼芬陀，奉命折转。归途又遇岷山白犀潭女仙韩仙子门人美魔女毕真真、丑女花奇，言说二人误杀了南海聚萍岛散仙凌虚子崔海客的门徒虞重，又误伤了骑鲸客的爱徒勾、崔，恐受乃师的重责，苦求杨瑾到凝碧仙府，转求神驼乙休和妙一夫人，代向乃师乞恩。并说起铜椰岛天痴上人，日内将往白犀潭寻乙休夫妻践约报仇等话。乙休听完，全未在意，和众人说笑了一阵，便自飞去。众仙正在谈论，跟着便是白眉和尚衣钵传人采薇僧朱由穆，同了李宁和媖姆的爱徒姜雪君，一同飞进殿来。互相礼见落座之后，众仙因杨瑾先已说过三人要来，中途又有芬陀之命，都是分手不久去而复转，料知事情必关重大。矮叟朱梅首先问道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -244,7 +244,8 @@
             "sound_en": "swift whoosh of robes as three figures descend into the hall, their footsteps landing softly on the jade floor with a gentle rustle",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "飞进殿来"
+            "trigger_keyword": "飞进殿来",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.5,
@@ -255,7 +256,8 @@
             "sound_en": "soft rustle of silk and fabric as the immortals settle into their seats after exchanging greetings",
             "volume": "-24%",
             "pitch": "+0Hz",
-            "trigger_keyword": "落座"
+            "trigger_keyword": "落座",
+            "trigger_offset": 0
           }
         ]
       },
@@ -369,7 +371,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，向众仙作别。杨瑾因师父不久飞升，奉命日后寄居峨眉，那九疑鼎便存放在太元洞内。随请朱梅少候，径去太元洞取来九疑鼎，然后辞别众仙，随了矮叟朱梅一同飞走。后文别有交代不提。朱、杨二人走后，众仙重向朱、李、姜三人询问前事。采薇僧朱由穆笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -381,7 +383,8 @@
             "sound_en": "swift whoosh as Yang Jin retrieves the cauldron and flies away with Zhu Mei, the sound of their departure fading into the distance",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "一同飞走"
+            "trigger_keyword": "一同飞走",
+            "trigger_offset": 0
           }
         ]
       },
@@ -514,7 +517,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妙一真人素爱英琼，见李宁到来，便要传声相唤。李宁道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -552,7 +555,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妙一夫人还未答言，采薇僧朱由穆笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -590,7 +593,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "李宁素最敬服师兄，不敢再说，欣谢领命。妙一夫人也说：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -761,7 +764,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随即传声呼唤二女。姜雪君笑答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -773,7 +776,8 @@
             "sound_en": "clear resonant call echoing through the hall as Lady Miao Yi summons the two female disciples with her transcendent voice",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "传声呼唤"
+            "trigger_keyword": "传声呼唤",
+            "trigger_offset": 0
           }
         ]
       },
@@ -811,7 +815,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一干小辈同门，为了殿前风景虽好，离师长坐处太近，诸多畏敬，尽管赐宴欢聚，不敢高声谈笑。又以会短离长，分别在即，此番下山，不知还能与谁相见，都想各寻友好话别，并订日后相晤之约。觉得灵桂仙馆景物清丽，地又偏僻，诸葛警我、岳雯、郑八姑、齐灵云等为首四人，俱主暂时交情虽不免有厚薄，同门谊重，日久仍是一样，大家又无避人的话，不要分开，便把筵宴设在灵桂仙馆，连二袁、雕、鸠、鹫、鹤、芝等灵物，也都召集一起，开怀畅饮，互叙离衷。李、廉二女忽听师长传声相唤，不知何事，忙即赶来。进殿一看，所来三人俱都喜出望外。当向在座尊长，一一拜见。妙一夫人便把前事一说。先由朱由穆指示通行火宅事宜，传了定珠用法。跟着姜雪君也把红药唤近身旁，笑道：",
-          "instruct": "叙述，充满温馨"
+          "instruct": ""
         },
         "effects": [
           {
@@ -823,7 +827,8 @@
             "sound_en": "joyful laughter and gentle clinking of cups from the Linggui Immortal Lodge, the sound of a warm gathering of disciples bidding farewell, mingled with the rustle of robes",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "开怀畅饮"
+            "trigger_keyword": "开怀畅饮",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -834,7 +839,8 @@
             "sound_en": "quick footsteps of the two female disciples hurrying back to the main hall, their robes rustling with urgency",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "忙即赶来"
+            "trigger_keyword": "忙即赶来",
+            "trigger_offset": 0
           }
         ]
       },
@@ -872,7 +878,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "李、廉二女分别叩谢起立，随侍在侧。朱由穆笑令二女回灵桂仙馆，仍与同门欢聚。二女不舍，躬身辞谢。李宁知爱女孺慕心切，笑说：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -929,7 +935,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二女方始拜谢辞别。英琼来时，众人要她乘机把玉清大师请去。英琼在外，任事任人不怕，独对师长谨畏胆小，不似金蝉、石生惯于涎脸。但面皮又薄，不肯拂逆同门之意，随口应诺。见了诸尊长，却不敢向玉清大师开口，只偷看了两眼。这时拜别要走，又朝玉清大师看了一眼，想是不敢，正待退出。玉清大师已经明白，笑问：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -941,7 +947,8 @@
             "sound_en": "hesitant footsteps as Yingqiong pauses at the door, her reluctance to leave evident in the soft shuffling of her shoes on the jade floor",
             "volume": "-24%",
             "pitch": "+0Hz",
-            "trigger_keyword": "正待退出"
+            "trigger_keyword": "正待退出",
+            "trigger_offset": 0
           }
         ]
       },
@@ -998,7 +1005,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "玉清大师笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1036,7 +1043,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随向众仙略说，和二女同往灵桂仙馆走去。姜雪君道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1048,7 +1055,8 @@
             "sound_en": "soft footsteps of Yuqing Dashi and the two girls leaving together, their conversation fading as they walk toward the Linggui Lodge",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "同往"
+            "trigger_keyword": "随向众仙略说",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1162,7 +1170,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众仙谈说了一阵，不觉已是第二日午后。朱梅、杨瑾带了九疑鼎，携同金钟岛主叶缤的女弟子朱鸾，一同飞回，言说赶往灌口山，朱鸾已为妖道师徒所困。照着矮叟朱梅开府时的本意是想乘着会后送客，众弟子可以随意伴送同辈至交这半日余闲，即令癞姑、向芳淑、申若兰陪了朱鸾，先去姑婆岭要路埋伏，由朱鸾当先，明报父仇，三女助战。同时暗令诸葛警我借送熊血儿为名，赶去撞上，血儿心感向芳淑赠阴雷珠之德，必要上前劝阻。妖道师徒生性刚愎，血儿性如烈火，必要闹翻，双方势成骑虎，不能并立，血儿必用红欲袋。朱梅再暗约杨瑾、叶缤赶去，便能一网打尽。哪知刚用千里传音嘱咐完了诸葛警我，待和杨、叶二人商议时，极乐真人李静虚因见妖徒神风使者项纪奉了妖师巫启明之命，暗随四女身后，要用妖法摄形。矮叟朱梅又在暗中隐形，尾随下去，默运玄机，算知就里。等朱梅一回来，李静虚暗中招向一旁，告以妖道近来邪法厉害，血儿红欲袋已难擒他，弄巧还许两败，仍被妖道漏网。此宝将来有用，此时不可损坏。叶、杨二人会后即往小寒山，也无此空闲。杨瑾不久虽仍回来，姑婆岭之行仍赶不上，留她未始不可，却有别的枝节。众弟子会后送客，虽可随意，但在不曾奉命下山以前，不宜与人争斗。妖人师徒此去要往灌口山访友，朱鸾半途也要折往，必定相遇，虽有虚惊，却有解救，毫无妨害。如往除妖道，三日以内，均赶得上。朱梅生性疾恶，一见妖道师徒闹鬼，便自追去，全以己意行事，也未细加推算。听了李静虚之言，立即传声，告知诸葛警我变计行事。及至杨瑾到来，一同赶往，见朱鸾同一少年被困妖云之中。少年为救朱鸾，身已负伤，仗着护身法宝神妙，急切间妖道尚奈何这一双男女不得，双方正在相持。朱、杨二人事先商定，惟恐妖人漏网，早算计好下手方略，暗施禁法，将妖道师徒逃路隔断，安置九疑鼎，然后和杨瑾一同现身。上来先用飞剑和法华金轮，将妖徒神风使者项纪消灭。妖道自恃邪法，更不知九疑鼎埋伏空中，自己所用法宝飞刀，全被朱、杨二人毁坏，或是收去。见势不佳，把心一横，施展玄功变化，行使恶毒妖法，拼着耗损真元，意欲暗算杨瑾、朱鸾和那少年。不料杨瑾师传佛门四宝，神妙无穷；又得矮叟朱梅预告，当双方斗法正激之际，早已留神戒备，法华金轮始终不曾离身。一见妖道神态有异，立即回转金轮宝光，连朱鸾一齐护住，势速如电。妖道不但没有伤着，反被杨瑾将计就计，故作不知，用飞剑敌住妖道化身，暗中运用般若刀断去妖道半条左膀。同时朱梅见妖道分化元神，又放出碧血神网，惟恐朱鸾和那少年骤不及防，遭了毒手，忙放连珠太乙神雷，两下夹攻，妖道受伤又是不轻。妖道先是不知朱、杨二人为了成全朱鸾多年来的孝思，使其手刃父仇，一味破法收宝，削弱他的法力，迟不下那杀手。心疼至宝，又怀杀徒之恨，情切报仇，总想杀死一两个，稍微泄忿，只管恋战不退。及至妖法无功，力竭势穷，连受重创之际，才知再若迟延，必难幸免。便急用断臂化为替身，欲用血光遁法遁走，却已无及，刚一飞起空中，便被九疑鼎所化大口阻住去路。妖道情急之下，将所有残余法宝，一齐施为，俱被收去。加上朱梅埋伏发动，身后左右又有幻象追逐堵截，无可逃遁。微一疏神，朱鸾受了矮叟朱梅之教，由幻影掩护，飞近身来，暗运飞剑，将他腰斩。妖道虽然身首异处，但还自恃炼就三尸，可以别寻庐舍，再作报仇之计。起初被困，只为不舍原身法体，吃了许多的亏，本就打算舍身遁走。原身一斩，无可顾忌，方以为这样更易逃遁，任怎不济，也保得两个元神。谁知恶贯已盈，该遭恶报。敌人早有准备，等的就是这一步，来势急逾雷电，他那里念头才动，腰斩残身还未坠落地上，迎面九疑鼎所化大口已早喷出千条瑞气，夹着万点金星，电射而来。身后矮叟朱梅连放太乙神雷，连同杨瑾的法华金轮宝光，朱鸾与那少年的飞剑法宝，上下四外合成一片，电雷光霞，潮涌而至。妖道神志已昏，觉着身后上下左右，雷火剑光法宝繁密如网，敌势大盛，危机四伏。但三尸元神稍有丝毫空隙现出，便可逃走。以为分开遁走，必不能全保，并且其力较弱，原身已失，如被敌人伤却一个元神，再要修炼，须要三十六年苦功。见对面大口虽然神妙，专一迎头堵截，为体大只数丈，大口以外，尽有空隙，只要避开正面，便可逃走。误认三尸元神不比法宝飞剑易被收去，飞遁又极神速。但心中怯敌，非但没有避开正面九疑鼎，反欲由口边空处掠过。却没有想到，他那三尸元神，修炼功深，如往后逃，太乙神雷和那些飞剑、法华金轮必将他困住，不过元神受震，真气耗损。朱鸾和那少年功力不济，防备不密，忍苦强挨下去，仍可伺隙逃遁。如将三尸元神分开，不求保全，只逃脱一两个，更是有望。这一胆怯畏难，又思保全，不舍伤损，时机稍纵即逝，恰中了敌人的道儿。那九疑鼎虽然虚悬空中，宝物不大，四外全是空处，避开正面仿佛容易，可是此乃前古至宝，有无上威力，神妙无穷，能随主人意念运用，其应如响。何况此时鼎中混元真气已经喷出，急往后逃，尚且无及，如何反迎上去，岂不自投罗网？妖道三尸元神遁得固快，此鼎更为神速，明明悬在迎面，妖道元神所化三条相连的影子电也似疾，往左上方斜飞过去，那大口竟似早有知觉，如影随形一般，随着妖道逃处，不先不后，同时往左上方一斜仰，口中混元真气便将妖道三尸元神一齐吸住，卷了进去。杨瑾忙即赶向对面高峰悬鼎之处，撤去禁法，招回大口，九疑鼎回了原形。然后照着师传口诀，如法施为，手指处，鼎中一连水火风雷之声过去，妖道元神立即消灭在内。于是持鼎重回原处。杨瑾持鼎回到原处，朱鸾已先在彼，正用宝剑穿了妖道心肺，捏土为香，望空拜祝，祭告先灵。那少年也站在旁边，左手捧着一条受伤的右手，正朝朱梅行礼，见杨瑾来，忙又礼拜。杨瑾见那少年虽非峨眉诸大弟子之比，却也英姿俊秀，颇有道气。一问才知姓商名建初，乃北海土木岛主商梧之子。因闻峨眉开府，志切观光，欲寻一与峨眉门下知交的同道，代为先容，前往参与盛会。及至寻到一问，那同道已离山他出。只遇见一个同修的道友，一问，才知那同道只认得两个峨眉后辈：一个是灵和居士徐祥鹅，一个是七星手施林。原来他俩辈分不够，自己想往峨眉观光尚且不敢冒昧，怎可为人先容。商建初闻此言，自是扫兴。心仍不死，以为还有些日，才是会期，如能寻见本人商量，也许能有机缘。知那同道入川访友，便即寻去。寻到灌口山左近的天掌崖遇上，两人一谈前事，越发绝望，不但那同道自身不能引进，并还说起乃翁商梧、乃叔商栗，以前与东海三仙有过嫌隙，道路又是不同，如何去得？商建初这才息了前念，两人盘桓几天。这日商建初告辞先行，路过当地，瞥见妖雾弥漫，朱鸾为妖人师徒所困，自恃家传法宝，上前相助。不料妖人厉害，朱鸾虽暂得救，他却中了妖道的碧灵刀，如非修炼多年，识得厉害，赶紧将右臂关穴闭住，几遭不测。法力虽非妖道之敌，幸有乃父采五金之精所炼异宝六甲金光幛，连朱鸾一齐护住，直到遇救脱险，才没有遭毒手。他对朱鸾颇有情愫。朱鸾因他为己受伤，也极关切。因那伤处虽由朱梅给了一粒灵丹嚼碎敷治，但只能止痛，如免残废，必须往陷空岛求得灵玉膏，才可痊愈。刀毒甚重，不宜延迟。商建初明知由此可与峨眉交往，并和朱鸾时常亲近，但因伤重，必须速治。况且老父性情甚暴，前与东海三仙结怨，平日并无闻知，那同道之友又不肯细说，不知为了何事，出时老父正在入定，也不曾说起。此行是往峨眉，万一仇怨甚深，冒昧前往，就算对方不计较，回岛也受斥责。想了又想，无可奈何，只得朝朱、杨三人辞别飞去。杨瑾见人已飞去，朱鸾还在凝望，知道二人情根已种，难于解开。虽代朱鸾可惜，但这类事，夙缘前定，非真夙根深厚，具大智慧之人，无法解脱，也就听之。因朱鸾元气耗损，也受了点伤，好友门下，又是自己前生引进，大难虽过，面上晦色犹未尽退。生怕她海天万里，孤身飞行，万一再有波折，事出仓促，无法往援。好在日内便往铜椰岛，正好顺路带送回去，就便还可令她在峨眉养息二三日，增长一些见识，便令随同回来。见过众仙之后，略谈前事。妙一夫人便把灵云唤来，命将朱鸾领去，与诸弟子一齐相聚，觅地安置，以待后日同行。灵云应命领去。不提。",
-          "instruct": "紧张叙述，充满战斗场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1174,7 +1182,8 @@
             "sound_en": "low rumbling and hissing as dark demonic clouds roll in, the air filled with a foul and oppressive energy, crackling with evil magic and howling wind",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "妖云"
+            "trigger_keyword": "妖云",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -1185,7 +1194,8 @@
             "sound_en": "sudden resonant hum as the Nine Doubt Cauldron transforms into a giant maw, spewing forth thousands of auspicious rays and golden sparks with a powerful whoosh that shakes the air",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "九疑鼎"
+            "trigger_keyword": "九疑鼎",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1196,7 +1206,8 @@
             "sound_en": "rapid series of thunderous explosions as the Taiyi Divine Thunder is unleashed, bolts of lightning and flames weaving into a dense net of destruction, the sound echoing across the mountains",
             "volume": "-10%",
             "pitch": "+0Hz",
-            "trigger_keyword": "太乙神雷"
+            "trigger_keyword": "太乙神雷",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -1207,7 +1218,8 @@
             "sound_en": "sonorous ring of the Dharma Wheel as its golden light spins and expands, radiating brilliant beams that illuminate the entire battlefield, a sacred hum accompanying its rotation",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "法华金轮"
+            "trigger_keyword": "法华金轮",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -1218,7 +1230,8 @@
             "sound_en": "sharp whistle of the Prajna Blade cutting through the air, followed by a sickening thud and a piercing shriek as the demon's arm is severed",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "断去"
+            "trigger_keyword": "钟岛主叶缤的",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -1229,7 +1242,8 @@
             "sound_en": "sharp whistle of a flying sword cutting through the air, followed by a sickening thud as the demon's body is cleaved in two",
             "volume": "-12%",
             "pitch": "+0Hz",
-            "trigger_keyword": "腰斩"
+            "trigger_keyword": "腰斩",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.0,
@@ -1240,7 +1254,8 @@
             "sound_en": "powerful eruption of primal chaos energy from the cauldron, the sound of water, fire, wind, and thunder all merging into a single roar as the demon's essence is annihilated",
             "volume": "-10%",
             "pitch": "+0Hz",
-            "trigger_keyword": "混元真气"
+            "trigger_keyword": "混元真气",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 25.0,
@@ -1251,7 +1266,8 @@
             "sound_en": "brief, cut-off shriek as the demon's three souls are sucked into the cauldron, followed by a moment of complete silence before the return of peace",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "消灭"
+            "trigger_keyword": "照着矮叟朱梅",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1270,7 +1286,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众仙言笑宴饮，光阴易过，不觉到了第三日午后。妙一真人唤来诸葛警我，命传谕门下男女诸弟子，当晚亥末子初，齐集前殿候命，分往左右二元洞内，通行火宅、十三限两处难关，以验各人道力，以便加授本门心法，下山行道。诸葛警我领命去讫。一会到了时候，众弟子因下山在即，十分谨畏。男的由诸葛警我、岳雯为首，女的由女殃神郑八姑、齐灵云为首，老早便齐集殿前平台之上，分班侍立，恭候传呼。到了亥时将尽，妙一真人先请玄真子升座。玄真子道：",
-          "instruct": "庄严叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1282,7 +1298,8 @@
             "sound_en": "orderly rustle of robes and synchronized footsteps as disciples assemble in formation on the platform, their movements precise and reverent, the sound of discipline",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "齐集殿前"
+            "trigger_keyword": "齐集殿前",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1320,7 +1337,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妙一真人又朝在座诸同门谦谢，敬请随时匡益，同完大业。然后居中端肃升座，上首玄真子，下首妙一夫人，其余同门诸仙，各依次第顺序列坐；嵩山二老、采薇僧朱由穆、姜雪君、李宁、杨瑾、玉清大师等外客，另在两旁设有宾位，分别就座。这时早有值班弟子灵和居士徐祥鹅、沙弥悟修、李文衍、吴文琪四人先人殿中，侍立听命。妙一真人命传众弟子进殿。徐祥鹅领命，去到殿门外面，一声传呼。众男女弟子立时整肃衣裳，肃恭而进，到了众仙座前，一同参拜。妙一真人吩咐起立，男左女右，侍立两侧。温语谕道：",
-          "instruct": "庄严叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1332,7 +1349,8 @@
             "sound_en": "soft rustle of ceremonial robes as Master Miao Yi ascends to his seat, the fabric settling with dignity",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "升座"
+            "trigger_keyword": "妙一真人又朝",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -1343,7 +1361,8 @@
             "sound_en": "resounding call from Xu Xiang'e as he summons the disciples into the hall, his voice carrying clearly across the platform and echoing in the night air",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "一声传呼"
+            "trigger_keyword": "一声传呼",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -1354,7 +1373,8 @@
             "sound_en": "measured footsteps and soft rustle of robes as all disciples enter the hall in solemn procession, their movements disciplined and respectful, a quiet wave of devotion",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "肃恭而进"
+            "trigger_keyword": "肃恭而进",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -1365,7 +1385,8 @@
             "sound_en": "unified rustle as all disciples kneel in unison, the soft sound of fabric and knees meeting the jade floor in reverence",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "一同参拜"
+            "trigger_keyword": "一同参拜",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1403,7 +1424,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众弟子随同叩谢师恩，由诸葛警我等为首四弟子率领，先往少元洞走去。那去右元洞的道路，原有两途：一是日前小仙童虞孝、铁鼓吏狄鸣歧没走完的一条道路，乃以后初次入门弟子必由之径；一是不经下面峡谷，经由崖顶通行。到了尽头，崖势忽然降低十余丈，在三面危崖环绕之中，现出一片形如圆盂的盆地。当中有一座十丈方圆的石崖，石质如玉，正中一洞，门额上有“灵虚可接”四个朱书古篆，此是右元洞的出口。那入口尚在崖后。众弟子先到少元洞前会齐。到时，亥正将过，诸葛警我令众暂停。说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1415,7 +1436,8 @@
             "sound_en": "steady rhythm of footsteps as the disciples march in formation towards the Shaoyuan Cave, their pace measured and resolute, the sound of robes brushing in unison",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "先往少元洞"
+            "trigger_keyword": "先往少元洞",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1453,7 +1475,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人俱知诸葛警我人最长厚，对于同门师弟妹，更是无分先后进，一体爱护，知无不言，言无不尽。但能为力，无不尽心，任劳任过，均非所计。岳雯、郑八姑、齐灵云三人，也和他大致相同，表率群伦。闻言知为众同门犯险尽力，好生欣喜，无不应命，便随诸葛警我取路前往。到后一看，那右元洞三面危崖环峙，独崖后正洞入口一面，是条白玉甬路，由少元洞右一片茂林和十来处楼台亭馆绕来，沿途景物备极清丽。快到洞前，忽然一水前横，宽约三丈，将路隔断。对岸设着一个悬桥，众人到时，刚刚自行落下，桥侧也无盘索之类。过去方是元洞入口，洞门上刻“火宅严关”四个朱书古篆，两旁另有好些符篆。门颇高大，整洁异常。诸葛警我等四人中，只灵云一人在开府创设左右二元洞时，另有使命离开，不曾随侍，虽然见到一些，未知底细。方觉与那次所见景物形势都不一样，及问八姑，才知两洞禁制重重，神妙无穷，休说洞中火宅严关，便是外景也可变易。那日因为不少异派中人假名观光，随同游历全府，居心多不可问，始而想乘隙扰害，暗中闹鬼；及见出手的妖人纷纷伏诛挫败，不敢妄动，表面敛迹，仍在逐处留心，一半学乖，一半窥探底细，以为日后重来之计。掌教真人表面故作不知，实则防备甚严。尤其这左右两洞关系重地，多用仙法变易，当时所见，多非实境。休说那些异派妖人，便自己这面好些位得道多年的仙人，也多半被瞒过去，事后方始知悉。八姑说完，诸葛警我已将众人领至门前分列，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1465,7 +1487,8 @@
             "sound_en": "gentle sound of flowing water as the stream runs across the path, punctuated by the soft creak of the suspension bridge swaying slightly in the night breeze",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "一水前横"
+            "trigger_keyword": "一水前横",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -1476,7 +1499,8 @@
             "sound_en": "soft clink of chains as the suspension bridge lowers itself into place, settling with a gentle thud",
             "volume": "-20%",
             "pitch": "+0Hz",
-            "trigger_keyword": "自行落下"
+            "trigger_keyword": "自行落下",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1514,7 +1538,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便朝洞门恭谨参拜起立，令众留意。然后沉稳心神，运用玄功，从容往内走进。众人隔洞遥窥，见诸葛警我安然步入，先前并无异状。进约丈许，忽见洞中云烟变幻，晃眼仍复原状，人已无踪。跟着又见一片极淡薄祥光，一闪而灭。岳雯喜道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1526,7 +1550,8 @@
             "sound_en": "soft rustle of robes as Zhuge Jingwo bows reverently to the cave entrance then rises, his movements deliberate and respectful",
             "volume": "-24%",
             "pitch": "+0Hz",
-            "trigger_keyword": "参拜起立"
+            "trigger_keyword": "参拜起立",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -1537,7 +1562,8 @@
             "sound_en": "soft whoosh of swirling mist and clouds within the cave, the air shifting and changing as the magical barrier is activated, a deep resonant hum accompanying the transformation",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "云烟变幻"
+            "trigger_keyword": "云烟变幻",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -1548,7 +1574,8 @@
             "sound_en": "brief, ethereal flash of pale auspicious light, appearing and vanishing in an instant like a fleeting dream",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "祥光"
+            "trigger_keyword": "祥光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1586,7 +1613,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人闻言，有的尚在思忖，觉着太易，诸葛警我已驾遁光，越崖飞来。众人笑问：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1598,7 +1625,8 @@
             "sound_en": "soft whoosh of light as Zhuge Jingwo flies back over the cliff, his beam of light landing gently before the assembled disciples with a quiet rustle",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "驾遁光"
+            "trigger_keyword": "驾遁光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1617,7 +1645,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "洞中经历如何？",
-          "instruct": "询问"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1655,7 +1683,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "有的自加谨畏，别具会心；有的仍是将信将疑，俱觉全洞前后十来丈远近，御剑飞行，瞬息过完，只要到时按定心思，不起杂念，当无败理。各有各的打算，正在寻思。底下该当岳雯进去。岳雯也是照样朝洞通诚礼拜，然后走进。却不似诸葛警我那样安步而入，一起步便身剑合一，化成一道金光，飞将进去。那景象也大不相同，刚飞入内，满洞忽起祥氛，遥望烟云变幻，霞辉急漩如潮，将金光卷去不见，电转云飞，待了好一会，尚未停歇，也未见人回转。众人见状，方在惊疑，诸葛警我笑说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1667,7 +1695,8 @@
             "sound_en": "sharp whistle as Yue Wen transforms into a beam of golden light and flies into the cave, his sword and body merging in a flash of brilliance that cuts through the air",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "身剑合一"
+            "trigger_keyword": "身剑合一",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -1678,7 +1707,8 @@
             "sound_en": "sudden surge of auspicious clouds and swirling mists within the cave, the golden light disappearing into a vortex of colorful radiance, the sound of cosmic forces at play",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "祥氛"
+            "trigger_keyword": "有的自加谨畏",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1716,7 +1746,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "语声才住，一道金光自空飞堕，岳雯现身，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1728,7 +1758,8 @@
             "sound_en": "soft thud as a beam of golden light descends from the sky, landing gently before the group as Yue Wen reappears, his robes settling",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "金光"
+            "trigger_keyword": "金光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1766,7 +1797,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人问他经历，岳雯答说：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1804,7 +1835,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "当岳雯未出之时，郑八姑对齐灵云说：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1842,7 +1873,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云对八姑甚是敬服，知她用雪魂珠化身，决能通过，但以劫后余身，心存谨畏。深悉火宅玄关微妙，惟恐万一有失，欲使二人合为一体，彼此相助，实为万全。闻言喜诺，便和众人说了。诸葛警我笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1880,20 +1911,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，八姑、灵云行礼起立，八姑首先化成一团冷莹莹的银光飞起，罩向灵云头上；灵云立即身剑合一，化成一道彩光，与空悬的银光会合，电驰星飞，往洞中飞去。那右元洞深只十丈，前后洞门相对，中间并无一物阻隔。由外望内，却冥冥蒙蒙，无底无限，不能透视过去。八姑、灵云飞入光景，又自不同。先和诸葛警我一样，一径飞入，毫无异状，只是银光护着彩光，比初进时要小却十倍以上，恍如一点带着彩霞的寒星，朝前飞驶，越飞越远。照情理说，这一会至少也至百里以外，却还未见出洞。众方诧异，岳雯叹道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
-          {
-            "trigger_delay": 0.5,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "雪魂珠起",
-            "sound_cn": "雪魂珠化为银光飞起，冷光莹莹，寒气森森",
-            "sound_en": "soft chime as the Snow Soul Pearl transforms into a cool silver radiance, rising to envelop Qi Lingyun with a protective glow, the air chilling slightly",
-            "volume": "-16%",
-            "pitch": "+0Hz",
-            "trigger_keyword": "雪魂珠"
-          },
           {
             "trigger_delay": 2.0,
             "duration": 2,
@@ -1903,7 +1923,8 @@
             "sound_en": "swift whoosh as Qi Lingyun merges with her sword, becoming a rainbow of light that joins with the silver glow and flies into the cave, the sound of two forces uniting",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "身剑合一"
+            "trigger_keyword": "身剑合一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1979,7 +2000,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话还未完，忽然祥光一瞥而过。再看洞中空空，依然原状，银光、剑光俱无踪影。紧跟着便见二人由洞顶越崖飞回，降落下来。一问经历，果如诸葛所言。因久飞不到，忽悟玄机，心智益发空灵，晃眼飞出，别无所遇。众人纷纷赞佩。八姑、灵云自然推说，全仗雪魂珠取巧，才能有此。互相略谈几句，诸葛警我便问：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1991,7 +2012,8 @@
             "sound_en": "brief flash of auspicious light as the two female disciples fly back over the cave top, landing softly before the group with a gentle rustle",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "祥光"
+            "trigger_keyword": "祥光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2029,7 +2051,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人觉着右元火宅似难实易，不似左元十三限繁难，关口太多，稍一不慎，全功尽弃。又都自恃道心尚还坚定，不畏苦难，便无法力，也能通过，何况还有飞剑法宝护身。内中更有急于赶往前殿去见师父的，如李英琼、廉红药等，多半俱愿就地一试。另一半意存观望，看人行事，再定去取。诸葛警我知道内有几人，必须由火宅通行。事由前定，话先说明，同门之谊，已经尽到，便不再作主张，径问何人先往。英琼性直，孺慕情殷，急于往见慈父。只为班行在后，未便抢先，立候一旁。见众人互相谦让，诸葛警我又说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2086,7 +2108,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众中有好几个，因此一关是成败所系，未免存有戒心，能得一年力较浅的人去试头阵，就便判断自己能否学步，有无成功之望，自然甚好。却不知英琼先前蒙召，传授定珠，得了佛家至宝护身，可以通行无虑，如何比得上。英琼说完，正要通诚向前行礼。众中癞姑表面随和滑稽，人却侠肠刚直。又久在屠龙师太门下，颇悉佛、道两门奥妙。事前又听屠龙师太和眇姑暗中详示两洞微妙，以及通行之法，预有师承，成竹在胸。比诸葛警我等为首四人，功力或有未逮，专说这左右二洞的玄机精微，却更明白得多。因和英琼私交至厚，当时见众谦退，多半意在观望，却令英琼这样道浅年幼的人当先，去试头阵。虽说想下山行道的人，谁都必须经此一关，英琼名列三英，料必早有预定。但是下山的人，师长并未明说，到底难知。众人任她上前，未免有点自私，心中不服。忙抢过去说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2124,7 +2146,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼日前已听她暗中泄机，知她法力高深。传授定珠时，父亲又曾告诫说：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2162,7 +2184,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "平生好强自恃的人，这时福至心灵，虽然抢前，却比谁都要谨畏。本来就有戒心，一听癞姑自愿作伴同行，料定知己交厚，有心相助，自是欣慰。二人随同参拜，起身入洞。英琼因自己经历太浅，格外谨慎，老早打定不求有功，但求无过的主意。尽管近来修为勤奋，功力精进，毫不似前轻率自恃。一入洞门，便将佛家至宝定珠放出。癞姑不知她能用此宝，本意随同护持，就己所知，分任艰难，竭尽智力，代为抵御。不料反而得了她的扶助，到了紧要关头，免却了许多繁难魔扰，无须再坚忍毅力，拼受苦痛。先见英琼才一进洞，便伸手来拉，还当她临场胆小害怕。方想：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2174,10 +2196,11 @@
             "sound_en": "soft chime as the Buddha's Precious Pearl is released, eighteen spheres of radiant light appearing like stars, casting a serene and sacred glow over the entrance, the sound of a divine blessing",
             "volume": "-14%",
             "pitch": "+0Hz",
-            "trigger_keyword": "定珠"
+            "trigger_keyword": "平生好强自恃",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 1.0,
+            "trigger_delay": 16.7,
             "duration": 2,
             "process_mode": "overlay",
             "name": "入洞脚步",
@@ -2185,7 +2208,8 @@
             "sound_en": "light footsteps entering the cave, the sound echoing slightly in the hollow space, a sense of stepping into the unknown",
             "volume": "-22%",
             "pitch": "+0Hz",
-            "trigger_keyword": "起身入洞"
+            "trigger_keyword": "行，料定",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2204,7 +2228,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "真糟！平日看她学道虽然年浅，功力尚是不凡，日前并还再三指点，告以机宜，怎上来便如此胆怯？",
-          "instruct": "内心独白"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2223,7 +2247,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "此念一动，魔头便自袭来，幸有英琼，能以法力道心和魔头硬对，又是洞口，未到玄关要地。于是赶紧运用玄功和师传法力，准备防护。猛瞥见英琼手掐佛家大金刚降魔诀，脸色甚是庄严，一点不显慌张畏缩之状，方料有什作为。随见十八团慧光，宝相明辉，朗若日星，飞向空中，成一大圈，静静地环绕在二人头上。才知早有准备，不禁大为喜慰。癞姑毕竟喜事，一见有佛家至宝护身，英琼得了高明指教，智珠内莹，决无他虞，有恃无恐，便想藉这火宅严关，一试自己定力和法力高下，竟傍着英琼向魔头挑战，故意触动沿途禁制埋伏，往前走去。",
-          "instruct": "叙述，带有紧张与期待"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2235,7 +2259,8 @@
             "sound_en": "low ominous hiss as the demonic force approaches, accompanied by a chill wind and the whisper of phantom voices, the air crackling with malevolent energy testing the disciples' resolve",
             "volume": "-18%",
             "pitch": "+0Hz",
-            "trigger_keyword": "魔头"
+            "trigger_keyword": "此念一动",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -2246,7 +2271,8 @@
             "sound_en": "sharp click and hum as the hidden magical traps are deliberately triggered, flashes of demonic light and the sound of ancient mechanisms awakening",
             "volume": "-16%",
             "pitch": "+0Hz",
-            "trigger_keyword": "触动"
+            "trigger_keyword": "魔头便自袭来",
+            "trigger_offset": 0
           }
         ]
       },

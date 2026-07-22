@@ -63,7 +63,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第55回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -82,18 +82,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "相逢狭路\n初会飞龙师预示仙机\n同谒红花姥若兰还待追赶，灵云连忙上前唤住。这时朱文也从林外走将进来。灵云见朱文脸上浮肿全消，虽然清瘦许多，却是动止轻捷，不似先前委顿，知道病毒已除，好生高兴。朱文看见金蝉，不由妙目含苯，待要说他两句，又不好意思说什么似的。灵云刚要问若兰有关金氏姊弟的来历，金蝉抢先说道：",
-          "instruct": "叙述相聚"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.0,
+            "trigger_delay": 15.5,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "脚步轻盈",
             "sound_cn": "朱文从林外走来的轻盈脚步声，衣料轻响",
             "sound_en": "light footsteps of Zhu Wen walking in from the forest, cloth rustling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "走将进来",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -103,7 +105,9 @@
             "sound_cn": "朱文羞涩扭捏，衣料轻微摩挲声",
             "sound_en": "Zhu Wen shyly fidgeting, soft fabric rustle",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "相逢狭路",
+            "trigger_offset": 0
           }
         ]
       },
@@ -133,7 +137,9 @@
             "sound_cn": "丧门钉被剑光击破，烟消火灭声",
             "sound_en": "magic nail shattered by sword light, fizzle and pop",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "才那三个怪人",
+            "trigger_offset": 0
           }
         ]
       },
@@ -152,7 +158,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱文听金蝉说他曾在涧上面探头，羞了个面红过耳。金蝉却天真烂漫，并未觉着什么。灵云本想说他两句，又怕当着若兰羞了朱文，只看了他两人一眼。听金蝉把话说完，笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -163,7 +169,9 @@
             "sound_cn": "朱文害羞扭捏，衣料细微摩挲",
             "sound_en": "Zhu Wen fidgeting shyly, soft rustle of clothes",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱文听金蝉说",
+            "trigger_offset": 0
           }
         ]
       },
@@ -201,7 +209,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -239,7 +247,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见若兰那般深恨金氏姊弟，觉着奇怪，便问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -277,7 +285,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -315,7 +323,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话言未了，忽听一声怪叫道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -326,7 +334,9 @@
             "sound_cn": "飞龙师太怪叫一声，突然降临",
             "sound_en": "strange sharp cry, sudden appearance of Feilong Shitai",
             "volume": "-16%",
-            "pitch": "-3Hz"
+            "pitch": "-3Hz",
+            "trigger_keyword": "话言未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -364,7 +374,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云等闻言大惊，面前已出现一个中年道姑，生得豹头环眼，黄发披肩，穿着一件烈火道衣，手中拿着一个九节十八环的龙头拐杖。若兰已认出来人便是金氏姊弟的师父、庐山白鹿洞八手观音飞龙师太，知道不是耍处，硬着头皮上前叫了一声师叔。飞龙师太狞笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -375,7 +385,9 @@
             "sound_cn": "龙头拐杖重重顿地，铿锵声",
             "sound_en": "dragon-head staff striking ground heavily, clang",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云等闻言大",
+            "trigger_offset": 0
           }
         ]
       },
@@ -405,7 +417,9 @@
             "sound_cn": "飞龙师太狞笑声，森冷低沉",
             "sound_en": "sinister cold laughter, low and chilling",
             "volume": "-18%",
-            "pitch": "-4Hz"
+            "pitch": "-4Hz",
+            "trigger_keyword": "你眼里还有什",
+            "trigger_offset": 0
           }
         ]
       },
@@ -424,18 +438,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰闻言，正待申辩，早恼了朱文、金蝉，也不答话，双双将剑光放起。飞龙师大骂道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.0,
+            "trigger_delay": 10.2,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "剑光出鞘",
             "sound_cn": "朱文、金蝉同时放起剑光，破空声",
             "sound_en": "sword lights of Zhu Wen and Jinchan drawn, whooshing",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑光放起",
+            "trigger_offset": 0
           }
         ]
       },
@@ -473,7 +489,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，长啸一声，手扬处，指头上发出五道青灰色的光华，抵住朱文、金蝉剑光。一面还待伸手去拿若兰时，忽然一阵天昏地暗过去，一霎时满山都是云岚彩雾，分不出东西南北。只听若兰说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -484,7 +500,9 @@
             "sound_cn": "飞龙师太长啸，声音凄厉",
             "sound_en": "long piercing howl, sharp and shrill",
             "volume": "-16%",
-            "pitch": "-3Hz"
+            "pitch": "-3Hz",
+            "trigger_keyword": "长啸一声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -494,7 +512,9 @@
             "sound_cn": "五道青灰光华与剑光碰撞，铿锵声",
             "sound_en": "five grey sword lights clashing, metallic clangs",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "长啸一声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -504,7 +524,9 @@
             "sound_cn": "满山云岚彩雾骤起，风声呼啸",
             "sound_en": "sudden mist and colored clouds rising, wind howling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "手扬处",
+            "trigger_offset": 0
           }
         ]
       },
@@ -542,7 +564,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话言未了，耳边果听得一种极尖锐极难听的声音说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -572,7 +594,9 @@
             "sound_cn": "红花姥姥声音尖锐刺耳，带有回音",
             "sound_en": "sharp piercing voice with echo, cutting through the air",
             "volume": "-18%",
-            "pitch": "-6Hz"
+            "pitch": "-6Hz",
+            "trigger_keyword": "飞龙道友",
+            "trigger_offset": 0
           }
         ]
       },
@@ -591,7 +615,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "又听飞龙师太接着道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -629,7 +653,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说着，依旧一阵狂风过去，一轮红日已挂树梢，清光满山，幽景如画，宛不似适才双方引刃待发神气。若兰道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -640,7 +664,9 @@
             "sound_cn": "狂风停息，晴空万里，鸟鸣声",
             "sound_en": "wind ceasing, clear sky, birds singing",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "依旧一阵狂风",
+            "trigger_offset": 0
           }
         ]
       },
@@ -716,7 +742,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -754,7 +780,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，拿眼望着若兰。若兰答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -792,7 +818,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云闻言，略放宽心。四人在月光下又计议了一阵。若兰生性喜洁，因桂屋已然污秽，好在自己明日便要随灵云等同行，也就不打算再去屋中打扫。谈到三更向尽，对灵云等说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -803,7 +829,9 @@
             "sound_cn": "月下虫鸣，夜深人静，微风拂叶",
             "sound_en": "night insects chirping under moonlight, gentle breeze through leaves",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -879,7 +907,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说着，四人便一同前去，不久便到。灵云见红花姥姥所居洞府，虽然是一座石洞，有数十间石室，到处都是文绣铺壁，陈设富丽，更奇怪是合洞光明，如同白昼。朱文、金蝉觉得希奇，几次要问，都被灵云使眼色止住。灵云等三人随着若兰，到各室游玩了一会，走到姥姥昔日的丹房落座。若兰从身上将紫烟锄取出，对灵云说道：",
-          "instruct": "叙述洞府"
+          "instruct": ""
         },
         "effects": [
           {
@@ -890,7 +918,9 @@
             "sound_cn": "洞中光明如昼，静谧深远，隐约滴水声",
             "sound_en": "cave brightly lit like daytime, deep silence, faint dripping water",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "四人便一同前",
+            "trigger_offset": 0
           }
         ]
       },
@@ -928,7 +958,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云正要答言，四人同时听见一种尖锐声音说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -958,7 +988,9 @@
             "sound_cn": "姥姥声音尖锐，回荡洞中，伴有微弱回响",
             "sound_en": "sharp voice echoing in the cave, with faint reverberation",
             "volume": "-18%",
-            "pitch": "-6Hz"
+            "pitch": "-6Hz",
+            "trigger_keyword": "你们天亮后可",
+            "trigger_offset": 0
           }
         ]
       },
@@ -977,7 +1009,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰闻言，知道师父一会便要圆寂飞升，并且生前不与她再见，想起这十余年相随恩义，不禁跪在地下痛哭起来。灵云也领了朱文、金蝉拜谢姥姥昨晚接引之德。若兰痛哭了一阵，又听姥姥的声音说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -988,7 +1020,9 @@
             "sound_cn": "若兰跪地放声痛哭，悲切哽咽",
             "sound_en": "Ruolan kneeling and crying bitterly, sobbing and wailing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "若兰闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1026,7 +1060,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰知道姥姥言行坚决，既不容她见面，求也无益，只得忍着悲怀，起来领了灵云等三人走出丹房。果然见丹房旁似陷出一个地穴，便由金蝉前导，走了下去。往下走约数十丈远近，又转过好几个弯，觉得前面愈走愈觉黑暗，不时闻见一股瘴疠之气，中人欲呕。幸喜金蝉能在暗中视物，四人拉拉扯扯，一任金蝉招呼行走，好容易才摸到姥姥所说的那一块平伸出潭腰的巨石。四面愈觉黑暗，头脑兀自昏眩起来，除金蝉外，灵云等对面难分。四人摸摸索索，才去寻那素草。灵云正觉头眼昏眩，忽然闻见一阵幽香，顺手一摸，居然将那草摸着，心中大喜。立刻取来分与众人，还不敢含在口内，用鼻闻了一闻，立刻头脑清凉，心神皆爽，知道不会有错，才把草含入口中。金蝉看下面青光荧荧流动，知是那于潜琉璃，离近了反看不出那神鳄存身所在。因姥姥适才嘱咐，四人俱都属息宁神，静以待变。四人坐了有好一会，忽听那上面有人说话。金蝉便见似龙一样的东西，直从上面投入潭中。还未到得潭底，灵云等坐的那块石头下面，倏地也蹿起日前所见那条红蟒一般的东西，与那条火龙迎个正着，斗将起来。金蝉定眼细看，叵耐四围黑气浓厚，只看出两道红光夭矫飞舞，分不出那东西的首尾。眼看这两样东西斗了有一个时辰，兀自难分胜负。猛听潭上面大喝一声，又飞下一道青森森的光华，往那两道红光中只一绕，便听一声怪啸过处，先飞下来的那条火龙和那道青光，依旧飞回潭上。潭中却是黑沉沉的，什么迹象俱无。猜是神鳄已除，只不见潭上人下来，金蝉性急，正要招呼朱文取出宝镜，忽见潭上先前那道青光，同了一道较小的青光，飞入潭底。最奇怪的是那青光上面还附着一团丈许方圆白光，带着那一道较小的青光，流星赶月一般满潭飞绕。光影里看出四围黑氛非常浓厚，倒好似白光本身发出一团黑雾似的，在潭中滚来滚去。似这样上下飞舞了一阵，这青白三道光华，倏地聚在一处电也似疾地直投潭底，看看飞到那于潜琉璃发光的所在不远。这道白光经下面于潜琉璃上面所发出来的青光反射，竟照得潭底通明。金蝉等才看出潭底是一大块平地，偏西南角上黑聋茸的，不知是什么东西，余下简直是一无所见。这时前飞的那一道白光已到潭底，若兰恐怕于潜琉璃要被旁人夺去，好生着急。谁知那道白光只略微顿了一顿，与后飞的那一道青光同时投向西南。还未飞到尽头，忽见黑暗之中喷起几缕极细的黑烟，倏地散开，化成一团浓雾，直向那三道青白光华包围上去。一声怪啸过处，那三道青白光华好似抵敌那黑烟不过，拨转头，风驰电掣一般，飞回潭上。金蝉迎面往上看时，黑暗之中，依稀有几个人影闪动，几声喁喁细语过去，便听不见动静了。金蝉看得正出神，耳旁忽听得有人唤道：",
-          "instruct": "叙述潭中潜伏与激斗"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1037,7 +1071,9 @@
             "sound_cn": "四人摸索着走过黑暗地穴，脚步声回响，衣料摩擦",
             "sound_en": "footsteps echoing in dark underground passage, cloth rustling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "若兰知道姥姥",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -1047,7 +1083,9 @@
             "sound_cn": "红蟒般神鳄从石下蹿出，水声激荡，怪叫",
             "sound_en": "crocodile leaping from under the rock, splashing water and roaring",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "既不容她见面",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1057,7 +1095,9 @@
             "sound_cn": "火龙与神鳄搏斗，龙吟兽吼，水花四溅",
             "sound_en": "dragon and crocodile fighting, roars and splashes",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也无益",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -1067,7 +1107,9 @@
             "sound_cn": "青光斩落，怪啸声，神鳄被除",
             "sound_en": "green sword light striking, strange cry, crocodile slain",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "来领了灵云等",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 15.0,
@@ -1077,7 +1119,9 @@
             "sound_cn": "三道青白光华在潭中飞绕，破空声",
             "sound_en": "three sword lights swirling in the pool, whooshing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "出丹房",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -1087,7 +1131,9 @@
             "sound_cn": "几缕黑烟喷出，化作浓雾，滋滋声",
             "sound_en": "black smoke spreading into thick fog, hissing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "旁似陷出一个",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 21.0,
@@ -1097,7 +1143,9 @@
             "sound_cn": "三道剑光怪啸一声，破空遁去",
             "sound_en": "sword lights fleeing with strange cry, whoosh",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便由金蝉前导",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1116,7 +1164,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“破潭的两个人还不下去，等待何时？”灵云等闻言，一齐警觉。当下金蝉抖擞精神，向若兰手中取过紫烟锄。朱文从身旁也取出天遁镜，才揭开那面乾坤镜袱，便发出数十丈的五彩光华，照耀潭底。若兰见朱文有此至宝，心中大喜。因姥姥之命，只叫这一双童男女下去，便和灵云仍站在原处警备。众人在这天遁镜的光华中，早看出潭底静悄悄的，黑云尽散，紫雾全消。惟有西南角上有一块牛形的奇石，从那石的身上，不断地冒出一缕缕的黑烟。若兰关心那一块于潜琉璃，忙往潭底看时，那青光被这五彩光华一照，好似太阳底下的灯台，渺小得可怜。想看看潭中神鳄到底是何形象，竟不见踪迹，想已被飞龙师大收了回去了。正在用目四望，忽听朱文、金蝉“嗳呀”了一声。若兰大惊，忙往潭中看时，原来朱文、金蝉双双携手下去时，金蝉性急，脚先沾地。谁知那潭底看似平地，却是虚软异常，金蝉才一落地，便陷了下去，心中一急，一用力，更陷下去尺许。那泥竟火热一般燎烫，眼看要陷入这污泥火潭之中。幸喜朱文细心，处处留神，手中觉着金蝉往下一坠，忙用气功往上一提，把金蝉提了上来。可是受了金蝉拉的力量，两脚也稍微沾地，觉得热烫难耐。知道不好，一面提着金蝉，喊一声，各将身子悬空，离地约有三尺，飞身前进。倒把灵云在上面吓了一大跳。金蝉飞到那块于潜琉璃跟前，将紫烟锄夹在左臂，顺手俯身下去，拾将起来，揣在怀中。正要同朱文飞向西南角上去破那块毒石，猛见地下有一摊血迹，依稀看出穿山甲一般的一条鳄鱼尾巴，直往地下慢慢陷落。那上半截身子，想是在被斩时早已入土了。朱文拉了金蝉飞离那块毒石不远，见石上发出来的黑气越来越厚，知道厉害，便将手中宝镜对准毒石。毒石黑气被镜上五彩光华近处一逼，纷纷四散。朱文见毒石为宝镜所制，益发飞身近前。金蝉抡起紫烟锄往那石上砍去，那锄才着后面，便有一大团紫雾青光。那石受了这一击，竟发出一种极难听的呻吟声，被紫烟锄劈成两半。金蝉见毒石伎俩已尽，由朱文将左手宝镜对准石头上面，自己用力一连就是十几锄，把这一块四五尺高的毒石连根锄倒，四散纷飞。这石锄倒以后，才看见石后面长着数十根菜叶一般的东西，叶黑如漆，在那里无风自动，知是那乌风草。起初下来时，上了一个当，此刻自然处处留心。好在那乌风草长在干处，便用紫烟锄连根掘起，挑在肩上。那毒石一经掘倒，依然和鳄鱼一样，慢慢陷入泥中。金蝉掘那乌风草时，因是身子悬空，不好用力，若不是朱文用力拉提，险些脚又沾地。二人取到了乌风草以后，还想寻觅有无千年何首乌。正在四下寻找，耳听一阵沸汤之声，又觉身上奇热。忙将宝镜往潭心一照，只见潭心泥浆飞溅，热气上腾，恰好似刚煮开了的饭锅一样。一转瞬间，四围尽是泥浆，一圈大一圈小地沸涨飞沫。朱文猛想起姥姥嘱咐的话，喊一声：“不好！”不及说话，拉了金蝉，才飞到适才站立的那块巨石上面，脚底下的泥潭噗的一声过处，泥浆飞起有十来丈高下，沸泥中心隐隐看见喷出有火光。再找灵云、若兰二人，踪迹不见。知道此潭的四围山峰就要崩裂，又惊又急，欲待从原路回转姥姥洞府，已无路可通。幸喜烟云尽散，四外清明，二人只得飞身上潭。不由回望潭下，已是飞焰四张，泥浆沸涌，觉着站的地方隐隐摇动。不敢延迟，猛抬头看见潭后一道青光和一道金光，正和一道青灰色的光华驰逐，知道灵云、若兰遇见敌人。才待赶上前去，又见飞起一团绿雾，接着飞起亩许方圆一块乌云，耳旁又是一阵轰隆砰叭的声音，知是四围山峰崩裂。朱文等正在着急，不暇再顾别的，双双飞向潭后，见姥姥的洞府业已震坍。飞龙师大同着那日林中所见金氏姊弟，不知使用什么法术，飞起一团绿雾，灵云、若兰用神网护着身体，正在相持。朱文不管金蝉，娇叱一声，手举天遁镜，照将过去，五彩光华照处，绿雾立刻在日光下化作轻烟四散。那飞龙师太正在扬扬得意，忽见一男一女飞来，一照面便发出百十丈五彩光华。紧跟着那个男童手扬处，两道红紫色的光，夹着霹雳之声，电也似地飞来。知道今日万难取胜，情势非常危险，只得错一错口中钢牙，将脚一蹬，带了三个徒弟，驾起剑光，破空逃走。这时金蝉猛觉脚底奇痛，腿上也烫了无数水泡。朱文也觉脚底热痛。便不再追赶敌人，上前与灵云相见。正要细说破潭之事，猛见若兰奔入室中，一会工夫，背起一个红衣的人，头上包着一块红布，分不清面目，跑了出来，口中连喊：",
-          "instruct": "叙述破潭与取草"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1127,7 +1175,9 @@
             "sound_cn": "天遁镜揭开，五彩光华迸发，嗡鸣声",
             "sound_en": "mirror unveiling, colorful light burst, humming",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "破潭的两个人",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1137,7 +1187,9 @@
             "sound_cn": "金蝉脚陷火泥，惊呼声",
             "sound_en": "Jinchan's foot sinking into hot mud, cry of surprise",
             "volume": "-18%",
-            "pitch": "+1Hz"
+            "pitch": "+1Hz",
+            "trigger_keyword": "破潭的两个人",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -1147,7 +1199,9 @@
             "sound_cn": "紫烟锄砍中毒石，轰隆巨响，石头呻吟",
             "sound_en": "purple smoke hoe striking the poison stone, loud crash, stone groaning",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "还不下去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.5,
@@ -1157,7 +1211,9 @@
             "sound_cn": "毒石被劈成两半，碎石纷飞，咣当声",
             "sound_en": "poison stone split in half, fragments scattering with clangs",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "等待何时",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9.0,
@@ -1167,7 +1223,9 @@
             "sound_cn": "潭底泥浆沸腾喷涌，热气蒸腾，咕嘟声",
             "sound_en": "mud boiling and erupting, steam hissing, bubbling",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一齐警觉",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -1177,7 +1235,9 @@
             "sound_cn": "四围山峰崩裂，轰隆声连绵不绝，石块坠落",
             "sound_en": "mountains crumbling, continuous rumbling, rocks falling",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉抖擞精神",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 15.0,
@@ -1187,7 +1247,9 @@
             "sound_cn": "天遁镜五彩光华照破绿雾，嗞嗞声，雾气消散",
             "sound_en": "mirror light dissolving green mist, sizzling, mist vanishing",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "兰手中取过紫",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 17.0,
@@ -1197,7 +1259,9 @@
             "sound_cn": "金蝉霹雳剑夹着雷声飞出，轰隆雷鸣",
             "sound_en": "Jinchan's thunder swords flying out with thunderclaps",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "烟锄",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 19.5,
@@ -1207,7 +1271,9 @@
             "sound_cn": "飞龙师徒破空遁走，剑光呼啸远去",
             "sound_en": "Feilong and disciples fleeing, sword lights whooshing away",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "旁也取出天遁",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1245,7 +1311,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见若兰眼含痛泪，满脸惊惶，忙把路让开，跟上前去。这时福仙潭业己崩裂，火焰飞空，高起有数十丈，照得半山通红。若兰跑向潭边，便把红花姥姥尸身捧起，掷入火内。跪在地下，放声大哭，直哭得力竭声嘶。灵云好容易才将她劝住。若兰道：",
-          "instruct": "叙述火葬"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1256,7 +1322,9 @@
             "sound_cn": "福仙潭烈焰冲天，噼啪燃烧声，热浪扑面",
             "sound_en": "flames roaring from the pool, crackling, heat waves",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云见若兰眼",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1266,7 +1334,9 @@
             "sound_cn": "若兰跪地放声大哭，声嘶力竭，悲痛欲绝",
             "sound_en": "Ruolan kneeling and crying loudly, heartbroken, wailing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云见若兰眼含",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1304,7 +1374,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见她楚楚可怜，愈加爱惜，点头允了她的要求。将她扶起，又替她拢了拢云鬓，手搀手走了回来。这时金蝉火毒已发，疼得浑身是汗，满地乱滚。朱文虽然比较轻些，也觉着脚底热痛难耐。见金蝉那般痛苦，想起路上那般殷勤服侍，老大地不忍心，拉着金蝉双手，不住地抚慰。金蝉索性滚入朱文怀中，得了这一种温暖的安慰，虽然脚腿热痛，心头还舒服一些。朱文恐怕若兰走来看见，想叫他起来，又难以出口。正在着急，灵云、若兰已然回转。朱文忙喊道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1315,7 +1385,9 @@
             "sound_cn": "金蝉因火毒疼痛呻吟翻滚，喘息声",
             "sound_en": "Jinchan groaning and rolling in pain, heavy breathing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云见她楚楚",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1353,7 +1425,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云闻言大惊，连忙上前问故。朱文便将误踏潭底浮泥，中了热毒，说了一遍。若兰闻言，也不答话，重又跑进石室，取出一瓶药酒道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1391,7 +1463,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云大喜，忙接了过来，先取些敷在金蝉腿上，觉着遍体清凉，金蝉直喊好酒。灵云又将他的草鞋脱下，用酒将肿处擦满，立刻疼消热止。金蝉猛翻身坐起，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1402,7 +1474,9 @@
             "sound_cn": "药酒涂抹在皮肤上的轻柔声",
             "sound_en": "medicine being applied, soft rub and dab",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云大喜",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1440,7 +1514,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云才想起忘了朱文，好生不过意，急忙过来与朱文脱鞋。朱文偏偏抵死不肯，一双秀目只望着金蝉。金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1478,7 +1552,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢便滚。朱文见他神态可笑，自己也觉着腿底热疼渐渐厉害，不能久挨，笑对金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1489,7 +1563,9 @@
             "sound_cn": "金蝉滚过草地，草叶摩挲声",
             "sound_en": "Jinchan rolling over grass, leaves rustling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说罢便滚",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1538,7 +1614,9 @@
             "sound_cn": "金蝉随手折下一根草茎把玩，清脆折断声",
             "sound_en": "Jinchan snapping a grass stem, crisp break",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我也是前世作",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1557,7 +1635,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一面说，将头一拱，一个倒翻筋头，滚到旁边大树一边，隐藏起来。招得若兰哈哈大笑。灵云也不好说什么，绷着脸来替朱文脱鞋。朱文道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1568,17 +1646,21 @@
             "sound_cn": "金蝉倒翻筋斗滚到树后，衣袂风声",
             "sound_en": "Jinchan somersaulting to tree, cloth rustle and thud",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一面说",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 1.5,
+            "trigger_delay": 14.0,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "若兰笑声",
             "sound_cn": "若兰被逗得哈哈大笑，爽朗清脆",
             "sound_en": "Ruolan laughing heartily, clear and cheerful",
             "volume": "-22%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "笑。灵云",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1608,7 +1690,9 @@
             "sound_cn": "朱文下意识缩回脚，衣料轻响",
             "sound_en": "Zhu Wen instinctively pulling back her foot, soft cloth rustle",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "由我自己来吧",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1684,7 +1768,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说到这里，朱文不知怎的，竟不愿她再往下说。恰好灵云也就止住，便用话岔开道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1722,7 +1806,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云这时已帮着朱文将脚上鞋袜脱去，只见她这双脚生得底平指敛，胫跗丰满，皮肤白腻，柔若无骨。近脚尖处紫黑了一片，灸手火热。知道火毒不轻，无暇再和她斗嘴，急忙将药酒与她敷上。朱文觉得脚底下一片清凉，热痛全止，便要穿上鞋袜。灵云劝她：“既然药酒见效，索性停一会，再擦一次，以收全功。”说罢，又拿了药酒走到金蝉藏身之所，见他将身倚着树根，正在仰天呆想。看见灵云走来，急忙问道：",
-          "instruct": "叙述敷药"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1733,7 +1817,9 @@
             "sound_cn": "鞋袜被脱下，轻微窸窣声",
             "sound_en": "shoes and socks being removed, soft rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云这时已帮",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1743,7 +1829,9 @@
             "sound_cn": "药酒涂抹在朱文脚上，轻柔声",
             "sound_en": "medicine applied on Zhu Wen's foot, gentle rub",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云这时已帮着",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1781,7 +1869,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云正色答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1819,7 +1907,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉与朱文在黄山、九华相处多年，竹马青梅，两小无猜，又都有些孩子气，时好时恼。自从醉仙崖诛蟒以后，朱文服了肉芝，灵根愈厚，常从餐霞大师口中听出一些语气，知道自己还有许多尘缘，惊心动魄，抱定宗旨，与金蝉疏远。金蝉童心未尽，虽然觉着闷气，还不十分在心。及至他二人成都相见，在碧筠庵、辟邪村两处住了多日，金蝉便常寻朱文去一块玩。起初朱文还狠着心肠，存心不理。金蝉无法，好在同门小弟兄甚多，赌气抛了朱文，与笑和尚、孙南等亲近。朱文也不去理他，双方也就日益地疏远。偏偏这一班小弟兄们静极思动，互相约成两组去探慈云寺，无形中又共了一次患难。后来朱文贪功，中了晓月禅师的妖法，金蝉舍死忘生，将她救回。朱文从迷惘中醒来，看见金蝉在旁，情急悲泣，芳心中不由得起了一种感动。偏偏嵩山二老又命灵云姊弟陪她取乌风草，路上承蒙她姊弟尽心爱护，不避污秽，为她受了许多辛苦。他二人感情本来最好，起初生疏原是矫情做作。好些日在患难中朝夕相处，彼此在不知不觉中，心情上起了一种说不出的变化。也并不似世俗儿女，有那燕婉之求，只觉你对我，我对你，都比别人不同似的。因此形迹之间，自然有许多表现。心里头本是干干净净，可是一听旁人语含讥讽，便都像有什么心病似的，羞得满脸通红。刚才金蝉因朱文示意他回避，便躺在树后，仰天默想，男女之间为何要拘这形迹？又想起前些年与朱文交好，胜似手足，中间忽又疏远起来，天幸这次因她中了妖毒，倒便宜自己得在她面前尽一些心。不晓她病好以后，会不会再和自己疏远？正在胡思乱想，被灵云走来数说了一顿，很觉自己丝毫没有错处，你还不是一样爱护她，偏不许我。虽然这般想法，以为他姊姊说的话大无道理，说得他不服，可是脸上不知怎的，依旧羞起两朵红云，做声不得。只得把眼仰望天上的浮云，顺手折一枝草花，不住在手中揉搓。灵云以为他于心有愧，无话可答，记挂着朱文还要擦药上路，便将药酒与他敷了一遍，又走了回去。若兰已然走开，只朱文一人坐在草地上，低头看着那一双脚出神。灵云远远点了点头，也不说什么，走上前来，二次与她将药酒敷好。朱文见脚上已然一丝不觉痛苦，恐怕金蝉走来，忙将鞋袜穿着整齐，站起身来。举目往洞后一望，只见福仙潭内火焰高举，上冲云霄，轰隆哗啦之音不绝于耳，看去非常惊心骇目。灵云便问朱文：",
-          "instruct": "叙述心理与背景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1830,7 +1918,9 @@
             "sound_cn": "福仙潭火焰冲天，轰隆声不断，热浪隐约",
             "sound_en": "distant flames roaring and rumbling from the pool, heat haze",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉与朱文在",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1887,7 +1977,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人正说到此地，忽听一阵呼呼之声，狂风大起，洞后火焰愈炽，热气逼人。金蝉从树后跑将过来，寻着适才脱的那双草鞋。刚刚穿好，瞥见若兰身上背了一个包裹，满脸通红，从洞内飞身出来，还未到三人跟前，口中大叫道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1898,7 +1988,9 @@
             "sound_cn": "狂风大作，风声呼呼，树枝摇晃",
             "sound_en": "strong wind howling, branches swaying",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人正说到此",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1908,7 +2000,9 @@
             "sound_cn": "若兰从洞中飞身而出，衣袂破风",
             "sound_en": "Ruolan flying out of the cave, cloth whooshing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人正说到此地",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1946,7 +2040,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，先自腾身而起。灵云等三人见若兰那般惶急，不敢怠慢，拾起地下的乌风草，飞身便起。这时脚底已在那里摇动，一转瞬间，轰隆一声巨响过去，接着劈啪劈啪，好似万马奔驰的声音，无量数的大小石块树木望空迸起，满天乱飞。不是三人飞起得快，险些被那碎石打着。三人在空中，见适才站立的那一个山坡，平空陷了一个无底深坑，一大股青烟由地心笔直往上激射起来，迎着日光，变成一团火云。接着地底喷出数十丈高的烈火，泥石经火化成液体，飞溅滚沫，许多树林溅着火星，烧成一片。那一座红花姥姥所居的洞穴石室，已不知去向。再望福仙潭那边，业已变成一片火海。那未经喷火之处，经这一番大地震后，周围数十里的大小树木，有的连根拔起，有的凭空震动，一座名山胜景，洞天福地，在这一刹那间，竟会变成泥坑火海。无怪乎人世上的崇楼杰阁，容易变成瓦砾荒丘了。灵云见火势逼人难耐，招呼一声，正等飞身同行。若兰道：",
-          "instruct": "叙述大地震与飞逃"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1957,7 +2051,9 @@
             "sound_cn": "山崩地裂，轰隆巨响，万马奔腾般轰鸣",
             "sound_en": "earth splitting, thunderous rumbling, like stampeding horses",
             "volume": "-10%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -1967,7 +2063,9 @@
             "sound_cn": "大小石块满天迸飞，呼啸声",
             "sound_en": "rocks flying everywhere, whooshing",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -1977,7 +2075,9 @@
             "sound_cn": "地火喷涌，炽热燃烧，噼啪爆裂",
             "sound_en": "flames erupting from earth, crackling and roaring",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云等三人见",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2015,7 +2115,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云等三人随她回转身来，才看见相距不远，有两个小小的峰头，便随若兰飞身到了峰上。想是天留胜迹，不愿教它全化灰烬，这样小小一座山峰，竟是岩石幽奇，花明柳媚，居然丝毫没有受着地震山崩的影响。四人到了上面立定，往来路一看，只见数十处烈焰飞空，砂石乱飞，天已变成红色，幸喜还是逆风，大家已是热得遍体汗流。金蝉不耐炎热，正要催大家快走，忽见若兰望着福仙潭跪倒，重又大哭起来。灵云、朱文正要上前劝慰，忽见福仙潭内火焰越来越大，一会工夫，腾起一块亩许大的彩云，停留不散。倏地一道红光，往空冲起，红光中一个遍体通红、奇形怪状的赤身女子，由那块彩云笼罩着，直往四人站立的那座山峰飞来。灵云等三人疑是火坑中出来怪物，正要准备放剑。若兰哭道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2026,7 +2126,9 @@
             "sound_cn": "若兰再次跪地大哭，悲切凄厉",
             "sound_en": "Ruolan kneeling and crying again, mournful and piercing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云等三人随",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -2036,7 +2138,9 @@
             "sound_cn": "亩许彩云腾空，红光冲天，伴有奇异嗡鸣",
             "sound_en": "colored cloud rising, red light shooting up, mysterious hum",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人随她回转身",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2074,7 +2178,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云连忙止住朱文、金蝉，跪伏在地。说时迟，那时快，那红光中女子已飞到四人头上，含笑向着下面点了点头。然后电闪星驰，往西南方向飞去，日光底下，依稀看见一点红星，转瞬不见。若兰看见姥姥已然成道，尸解而去，悲哭了好一会。灵云等三人费了若干唇舌，才将她劝住。便邀她同到嵩山见了追云叟，送上乌风草复命之后，再同回九华，引见到妙一夫人门下。若兰哽咽着说道：",
-          "instruct": "叙述姥姥飞升"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2085,7 +2189,9 @@
             "sound_cn": "红光如电闪飞逝，破空声渐远，留下余音",
             "sound_en": "red light flashing away, whoosh fading, lingering echo",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵云连忙止住",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2123,7 +2229,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，拉着灵云、朱文的手，越加显得小鸟依人，动人爱怜。灵云便问若兰是否还要回到桂屋走一趟，若兰道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2180,20 +2286,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱文因在姥姥洞中听金蝉说起桂屋中景致，昨日病中不曾领略，想去一看。灵云拗她不过，只好同去。四人到了桂屋一看，那株参天老树业已震断，幸喜桂树不曾被火延烧，桂屋中零星用品遗了一地。若兰忽然看到一个小盒，便拾起揣在身上。朱文便问何物。若兰道：",
-          "instruct": "叙述回到桂屋"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "脚步踩碎片",
-            "sound_cn": "踩在瓦砾碎片上的脚步声，碎木断裂",
-            "sound_en": "footsteps on debris and fragments, wood cracking",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2229,7 +2324,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云因若兰说起那香，猛想起昨日在涧边，幸而留神身上没有沾着污秽，连日风尘劳顿，且喜事已办完，还添了一个山林闺伴，非常高兴，便想到那温泉中洗一回浴，商量分班去洗。若兰道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2267,7 +2362,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，四人一同走到涧边，且喜温泉无恙，只是水越发热了些。商量既妥，还是金蝉在涧上巡风，灵云等三人洗完，再让他洗。这样轮流洗浴完毕，大家上来休息了一会，又互把破潭和灵云、若兰遇见飞龙师太师徒的事说了一遍。原来适才朱文、金蝉双双下潭之时，灵云、若兰在上面看见五彩光华当中，金蝉脚往下一坠，与朱文同时一声惊叫，大吃一惊，几乎飞身下去援救。再定睛用目一看，他二人已是驾起剑光，飞往西南角上，知道不曾失脚，才放了宽心。久闻奇石、神鳄的厉害，正想看个究竟，忽与若兰同时听见红花姥姥呼唤，叫若兰同灵云快去后洞，并说她们站的那块大石就要崩裂。灵云闻言大惊，不放心金蝉、朱文在下面，想要招呼他们。若兰只说无碍，姥姥现在已被敌人包围，危险万分，催她快去。灵云只得半信半疑，随着若兰，二次从石洞中回转原来姥姥洞府。才得现出身来，便听天崩地裂一声巨响，前洞业已塌坍。前面站立一个二尺来高、长得婴儿一般、浑身通红的女人，身上发出十余丈的红光，与昨日林中所遇的飞龙师太及师徒四人苦苦相持。若兰见了大惊，忙喊：",
-          "instruct": "叙述后续说明"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2278,7 +2373,9 @@
             "sound_cn": "温泉流水潺潺，愉悦轻松，水汽氤氲",
             "sound_en": "hot spring flowing, pleasant and relaxing, steam rising",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "四人一同走到",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2316,18 +2413,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，几乎哭出声来。灵云早已料到那红色女婴定是姥姥炼的婴儿，不俟若兰说完，肩微动处，一道金光如蛟龙一般飞上前去，抵住来人四道青灰色剑光。那婴儿见灵云上前，急忙往后便走，若兰道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.0,
+            "trigger_delay": 16.4,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "金光飞出",
             "sound_cn": "灵云金光如蛟龙飞出，破空凌厉",
             "sound_en": "Lingyun's golden light flying like a dragon, sharp whoosh",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光如蛟",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2365,7 +2464,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，随那婴儿如飞转回后洞。那飞龙师太起初以为灵云人单势孤，原未放在心上，谁知一交手，才知来人飞剑竟非寻常可比。本来昨日树林交手，灵云因不知金氏姊弟来历，特意相让。今天听红花姥姥已被她师徒所害，怎肯相容。剑刚发将出去，运用她父母真传，一口混元真气喷将出去。头一个先遇着金燕的剑光，金燕刚觉着来人剑光厉害，重于泰山，知道不好，想要撤回，已来不及，被灵云剑光往下一压，立刻将她真气击散，化为一块顽铁。飞龙师太知道自己三个徒弟绝非来人对手，忙叫金莺、金驼退将下来；一面用自己剑光迎敌，将手从腰中掏出一个葫芦，将在庐山多年修炼的绿云瘴放了出来。这时恰好若兰赶到，将飞剑放出，双战敌人。灵云见飞龙师大放起一团亩许方圆的绿雾，远远便闻见腥臭触鼻，不知破法，不敢造次。先将玉清大师赠的乌云神鲛网放在空中，现出一块亩许方圆的乌云，将她与若兰护住，各将剑光收回。这时四面俱是地裂山崩，火烟四起。忙问：",
-          "instruct": "叙述灵云战飞龙"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2376,7 +2475,9 @@
             "sound_cn": "飞剑激烈碰撞，金属铿锵声，火花四溅",
             "sound_en": "sword lights clashing violently, metallic clangs, sparks",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随那婴儿如飞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -2386,7 +2487,9 @@
             "sound_cn": "金燕剑光被击散，坠落地面，叮当声",
             "sound_en": "Jin Yan's sword light shattered, falling with clinks",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随那婴儿如飞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -2396,7 +2499,9 @@
             "sound_cn": "绿云瘴从葫芦中放出，嘶嘶声，腥臭弥漫",
             "sound_en": "green mist released from gourd, hissing, foul stench spreading",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "如飞转回后洞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -2406,7 +2511,9 @@
             "sound_cn": "乌云神鲛网展开，风声呼呼，笼罩二人",
             "sound_en": "dark cloud net spreading, wind whooshing, enveloping them",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那飞龙师太起",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2444,7 +2551,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰悲泣道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2482,7 +2589,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话言未了，忽听外面射进数十丈长的五彩毫光，光到处烟消雾散。原来朱文、金蝉已然破潭回来，用矮叟朱梅的天遁镜，将妖法破去，赶走飞龙师徒。",
-          "instruct": "叙述破法"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2493,7 +2600,9 @@
             "sound_cn": "天遁镜五彩毫光射入，嗞嗞声，烟雾消散，光明大放",
             "sound_en": "colored mirror light shooting in, sizzling, mist dissolving, bright glow",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "话言未了",
+            "trigger_offset": 0
           }
         ]
       },

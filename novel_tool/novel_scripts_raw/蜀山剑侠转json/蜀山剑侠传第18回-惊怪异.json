@@ -51,7 +51,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第18回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -70,7 +70,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云纵到高处，借着星月之光，往醉仙崖那边看时，只见愁云四布，彩雾弥漫，有时红光像烟和火一般，从一个所在冒将出来。再看星光，知是子末丑初。灵云知道事体重大，急忙飞身回洞，见金蝉和孙南二人也赶将出来，灵云忙叫二人回去。到了洞中，便把将才所见述说一遍。金蝉急得跳起来说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -81,7 +81,9 @@
             "sound_cn": "远处红光如烟火般冒出，隐隐雷声，诡异阴森",
             "sound_en": "distant red light bursting like fire and smoke, faint rumbling, eerie and gloomy",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "借着星月之光",
+            "trigger_offset": 0
           }
         ]
       },
@@ -119,7 +121,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云也着了慌，正待商量怎样去法，忽然从洞外飞进一人。金蝉大吃一惊，不由喊道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -130,7 +132,9 @@
             "sound_cn": "一人从洞外飞速飞入，破空声由远及近，衣袂风声",
             "sound_en": "someone flying in from outside cave, whistling approaching, robes flapping",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "待商量怎样去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -168,7 +172,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南也着了忙，首先将剑放起。灵云道力高深，早看见来人是谁，连忙叫道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -179,7 +183,9 @@
             "sound_cn": "孙南的剑光骤然飞出，破空锐啸，剑光凛冽",
             "sound_en": "Sun Nan's sword light suddenly shooting out, sharp whistle, cold gleam",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "南也着了忙",
+            "trigger_offset": 0
           }
         ]
       },
@@ -217,7 +223,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "来人见剑光来得猛，便也把手一扬，一道青光，已将孙南的剑接住。等到灵云说罢，双方俱知误会，各人把剑收回。孙南知道自己莽撞，把脸羞得通红。金蝉已迎上前去，拉了来人之手，向孙南介绍道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -228,7 +234,9 @@
             "sound_cn": "青光与孙南的剑光碰撞，清脆的金铁交鸣声，火花一闪",
             "sound_en": "green light clashing with Sun Nan's sword, crisp metallic ring, spark flashing",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见剑光来得猛",
+            "trigger_offset": 0
           }
         ]
       },
@@ -266,7 +274,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "各人见礼己毕，灵云埋怨金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -304,7 +312,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅忙代金蝉分辩道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -342,7 +350,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见她偏向金蝉，又想起适才金蝉着急情形，暗暗好笑，不便再说，便问朱梅来意。朱梅道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -380,7 +388,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云等闻言大喜，忙请朱梅就座叙话。四人坐定之后，便商量擒妖之计，井问法宝用法。朱梅道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -418,7 +426,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -456,7 +464,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅便笑嘻嘻对着金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -494,7 +502,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉急忙拿出，递与朱梅。又道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -505,7 +513,9 @@
             "sound_cn": "法宝递出的轻微响动，锦囊布帛摩擦声",
             "sound_en": "treasure handed over, brocade pouch rustling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉急忙拿出",
+            "trigger_offset": 0
           }
         ]
       },
@@ -543,7 +553,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -581,7 +591,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见他二人说得亲密的样儿，不由望着孙南一笑。金蝉尚不觉察，已明白，怕他姊姊讥笑，急忙说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -619,7 +629,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -657,7 +667,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -695,7 +705,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅噗哧一笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -706,7 +716,9 @@
             "sound_cn": "朱梅的一声清脆轻笑，带着活泼和俏皮",
             "sound_en": "Zhu Mei's clear laugh, lively and playful",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱梅噗哧一笑",
+            "trigger_offset": 0
           }
         ]
       },
@@ -744,7 +756,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便把那颗天黄珠拿起，交与灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -782,7 +794,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，又取出三枝药草，长约三四寸许，一茎九穗，通体鲜红，奇香扑鼻，递了一枝给金蝉。又说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -793,7 +805,9 @@
             "sound_cn": "药草从袖中取出的轻微窸窣声，奇异的香气弥漫",
             "sound_en": "herbs taken from sleeve with soft rustle, strange fragrance spreading",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "取出三枝药草",
+            "trigger_offset": 0
           }
         ]
       },
@@ -831,7 +845,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉听罢，心中大喜，忙道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -869,7 +883,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -907,7 +921,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便对灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -945,7 +959,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -983,7 +997,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南看见朱梅长得那般美丽，又有那般本领，又是一脸英风侠气，非常羡慕。便想起自己在自用了许多苦功，谁知下山以来所遇见的，不要说老前辈，就是师兄弟，都一个赛似一个，心中甚觉惭愧。又见朱梅同金蝉对答，天真烂漫的样儿，非常有趣，莫名其妙地又起了一种特别感想。正在出神之际，忽听朱梅问他，便起立答道：",
-          "instruct": "叙述心理"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1021,7 +1035,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1059,7 +1073,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时又递与孙南一根朱草，又从身旁取出金光灿烂的一枝短矛，都拿来交与孙南道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1070,7 +1084,9 @@
             "sound_cn": "一枝金色短矛递出，金属轻微碰撞声",
             "sound_en": "golden short spear handed over, light metallic clink",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "时又递与孙南",
+            "trigger_offset": 0
           }
         ]
       },

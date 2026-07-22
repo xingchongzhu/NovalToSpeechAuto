@@ -137,7 +137,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "庄重平稳的播报"
+          "instruct": ""
         }
       },
       "mix": {
@@ -155,7 +155,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -191,7 +191,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -281,7 +281,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写王宫宴饮的场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -310,7 +310,7 @@
           },
           {
             "trigger_delay": 6.0,
-            "trigger_keyword": "杯箸",
+            "trigger_keyword": "谈说间",
             "trigger_offset": 0,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -337,12 +337,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写毒酒事件的开始"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "嘤嘤",
+            "trigger_keyword": "做完功课醒来",
             "trigger_offset": 0,
             "duration": 0.3,
             "process_mode": "overlay",
@@ -423,12 +423,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写毒酒发作和沙、咪二人救主的惊险过程"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "掷",
+            "trigger_keyword": "刚一想到这里",
             "trigger_offset": 0,
             "duration": 0.4,
             "process_mode": "overlay",
@@ -440,7 +440,7 @@
           },
           {
             "trigger_delay": 2.5,
-            "trigger_keyword": "呀的一声惨叫",
+            "trigger_keyword": "渐觉头脑有",
             "trigger_offset": -0.3,
             "duration": 0.6,
             "process_mode": "overlay",
@@ -464,7 +464,7 @@
           },
           {
             "trigger_delay": 6.0,
-            "trigger_keyword": "撕破",
+            "trigger_keyword": "觉头脑有些昏",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -509,7 +509,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤闯入刑室救出驼女和王妃"
+          "instruct": ""
         },
         "effects": [
           {
@@ -619,7 +619,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -687,7 +687,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤出洞平乱的场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -773,7 +773,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，驼女讲述鸦利叛乱的来龙去脉"
+          "instruct": ""
         }
       },
       "mix": {
@@ -791,7 +791,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写鸦利的阴谋算计"
+          "instruct": ""
         }
       },
       "mix": {
@@ -827,7 +827,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，鸦利花言巧语骗取小王信任"
+          "instruct": ""
         }
       },
       "mix": {
@@ -845,7 +845,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写政变开始的瞬间"
+          "instruct": ""
         },
         "effects": [
           {
@@ -907,7 +907,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -981,7 +981,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1017,7 +1017,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1053,7 +1053,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1089,7 +1089,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1125,7 +1125,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写鸦利劝降驼女失败、改用药酒暗算云凤的完整经过"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1193,7 +1193,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写乱事平定后的处理和云凤的反应"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1243,7 +1243,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1279,7 +1279,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1315,7 +1315,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写祭坛准备和云凤除妖的决心"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1333,7 +1333,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写妖人降临祭坛的恐怖场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1431,12 +1431,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤飞针和飞剑连击、重创妖人的精彩战斗"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 15.0,
-            "trigger_keyword": "扬手",
+            "trigger_keyword": "引他入伏",
             "trigger_offset": -0.3,
             "duration": 0.6,
             "process_mode": "overlay",
@@ -1448,7 +1448,7 @@
           },
           {
             "trigger_delay": 17.0,
-            "trigger_keyword": "打在左半边脸上",
+            "trigger_keyword": "必然精干邪",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -1484,7 +1484,7 @@
           },
           {
             "trigger_delay": 24.0,
-            "trigger_keyword": "呀的一声惨啸",
+            "trigger_keyword": "告五姑垂",
             "trigger_offset": -0.3,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -1523,7 +1523,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1559,7 +1559,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写除妖后的收尾和云凤决定再留一日"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1603,7 +1603,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤到达雪山脚底的失望心情"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1657,7 +1657,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1729,7 +1729,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写艰难的雪山攀登"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1791,7 +1791,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1845,7 +1845,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写三小使用冰橇滑雪下山的准备"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1913,7 +1913,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤施展轻功从峭壁纵落的惊险过程"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1987,7 +1987,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，本章结尾，留下余韵"
+          "instruct": ""
         }
       },
       "mix": {

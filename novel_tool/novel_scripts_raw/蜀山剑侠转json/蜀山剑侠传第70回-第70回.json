@@ -189,7 +189,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第70回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -208,19 +208,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白琦赶到鱼神洞口，天光业已交午。心想寻一个隐身之处藏躲，等敌人到来再行出现。刚走到一个岩石后面，忽见上面睡着一个相貌奇丑的叫花子，将身伏在石上睡得正香，先还没有注意。刚想另寻一块山石坐下，忽听那花子口中喃喃说出梦话道：",
-          "instruct": "平静叙述，引入花子"
+          "instruct": ""
         },
         "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "山间风声",
-            "sound_cn": "鱼神洞口山风轻拂，吹动草木和花子的百结鹑衣，发出沙沙声响，午间静谧",
-            "sound_en": "gentle mountain wind at the Fish God Cave entrance, rustling grass, trees, and the beggar's tattered clothes, quiet midday stillness",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          },
           {
             "trigger_delay": 1.0,
             "duration": 1.5,
@@ -229,7 +219,9 @@
             "sound_cn": "穷神在梦中喃喃低语，声音含混沙哑，带着几分迷离和凶悍",
             "sound_en": "beggar murmuring in his sleep, voice hoarse and muddled, with a hint of fierceness",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白琦赶到鱼神",
+            "trigger_offset": 0
           }
         ]
       },
@@ -248,7 +240,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "\"好大胆的东西，真敢一个人往这里来。我把你一把抓死。\"白琦闻言，心中一动。暗思：\"适才轻云回报，也说这里发现过一个花子。这几年全湘年景甚佳，人民都安居乐业，深山之中哪里来的花子？这人形迹可疑，倒不可对他轻视呢。\"想到这里，只见这花子一边说着梦话，倏地翻身坐起，右手起处，抓起一个粗如儿臂的大蛇，头大身长，二目通红，精光四射，七八寸长的信子火一般地吐出，朝着那花子直喷毒雾，大有欲得而甘心的神气。怎奈蛇的七寸已被那花子一把抓紧，不得动转。那蛇想是愤怒非常，倏地上半身一动，猛从那花子所坐的一块大石之后伸起两三丈的蛇身，遍体五色斑斓，红翠交错。刚伸出来时，身子笔一般直，身上彩纹映日生光，恰似一根彩柱。说时迟，那时快，就在白琦骇然转瞬之间，那蛇倒竖着下半身，风也似疾，直往那花子身上卷去，将那花子围了数匝，掉转长尾往花子脸上便刺。白琦见势不佳，刚要拔剑上前，那花子喊一声：",
-          "instruct": "紧张叙述，花子擒蛇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -259,7 +251,9 @@
             "sound_cn": "穷神倏地翻身坐起，破衣摩擦石面发出窸窣声，动作迅捷",
             "sound_en": "beggar suddenly sitting up, tattered clothes rustling against the rock, swift movement",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "好大胆的东西",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -269,7 +263,9 @@
             "sound_cn": "巨蛇吐出火一般的信子，发出嘶嘶的毒雾喷射声，令人毛骨悚然，毒雾弥漫",
             "sound_en": "giant snake flicking its fiery tongue, hissing and spitting poison mist, spine-chilling, mist spreading",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "真敢一个人往",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -279,7 +275,9 @@
             "sound_cn": "巨蛇身躯如风般卷向花子，鳞片摩擦发出密集的沙沙声，将花子紧紧缠住数匝",
             "sound_en": "snake's body coiling around the beggar like wind, scales rustling densely, tightening its grip in several loops",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "把你一把抓死",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -289,7 +287,9 @@
             "sound_cn": "巨蛇长尾如鞭般破空刺向花子面门，带起尖锐的破风声",
             "sound_en": "snake's tail whipping through the air toward the beggar's face, sharp whistling sound",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白琦闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -308,7 +308,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "\"好家伙！\"他那一双被蛇束紧的手臂，不知怎地竟会脱了出来，左手依然持着蛇头，右手已经抓住蛇尾。那蛇虽然将花子身躯束住，却是头尾俱已失了效用。一面使劲去束那花子，一面冲着花子直喷毒雾。那花子和那蛇四目对视，一瞬也不瞬。白琦已觉这花子决非常人，正要移步近前。那花子瞪着双目，好似与蛇拼命，不能说话。见白琦近前，一面摇着持蛇尾的右手，两只眼睛冒出火来一般，倏地大喝一声，双臂振处，蛇身已经断成好几半截，掉在地下。那花子好似有点疲倦神气，站起身来，弹了弹身上的土。身上所穿的那件百结鹑衣，被那条怪蛇一绞，业已绞成片片，东挂一片，西搭一片，露出漆黑的胸背，如铁一般又黑又亮。那花子满不作理会，连正眼也不看白琦一眼，懒洋洋地往岩侧走去。白琦正要追上前去请教，遥闻鞭炮之声从鱼神洞那方传来。刚一迟疑之际，忽然何玫如飞而至，见面说道：",
-          "instruct": "激烈叙述，花子断蛇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -319,7 +319,9 @@
             "sound_cn": "花子双臂猛然一震，蛇身应声断裂成数段，发出沉闷的骨裂和肌肉撕裂声",
             "sound_en": "beggar's arms shaking with sudden force, snake body snapping into several pieces with dull cracking and tearing sounds",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "好家伙",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -329,7 +331,9 @@
             "sound_cn": "断裂的蛇身段接连坠落在地，撞击岩石和地面，发出连续沉重的闷响",
             "sound_en": "severed snake segments falling onto rocks and ground one after another, continuous heavy thuds",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "好家伙",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -339,7 +343,9 @@
             "sound_cn": "穷神站起身轻轻弹去身上尘土，发出轻微的拍打声，动作从容",
             "sound_en": "beggar standing up and lightly brushing off dust, soft patting sounds, unhurried movement",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "好家伙",
+            "trigger_offset": 0
           }
         ]
       },
@@ -369,7 +375,9 @@
             "sound_cn": "何玫如飞而至，衣袂破风声急促，脚步轻落地面",
             "sound_en": "He Mei arriving swiftly, robes rustling with haste, feet landing lightly",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "敌人业已从吕",
+            "trigger_offset": 0
           }
         ]
       },
@@ -388,7 +396,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢自去。就在白琦和何玫说话的顷刻之间，回头再看花子，业已踪迹不见。白琦也无暇及此，只得飞步往鱼神洞便跑，好在相隔不远，一会便到。及至到了洞口，因为洞顶已经揭去，前看十分明显。先还只听鞭炮之声，没有什么动静。一会工夫，看见有二十多人，装束不一，僧道俗家均有。为首四人：一个和尚，一个道士，一个穿着极华丽的衣服，还有一个穿着十分特别。渐渐走近前来，才看清第四人身高七尺，发披两肩。额上束一个金箍。上半身披着一张鹿皮作半臂，露出一只右膀，上面刺着五毒花纹。腰际挂着一串铜圈，一把带鞘的缅刀。背上背着长弩匣子。腰间也围了一张兽皮，看不出是什么野兽。赤裸裸露出一双紫色的双腿，上面积着许多松脂沙砾，并刺有不少奇怪花纹。面如金纸，长面尖头。两眼又圆又大，绿黝黝发出凶光。鼻孔朝天，凹将下去。两颧高耸，两耳尖而又偏，一张阔嘴宽有三寸，灰发长颈，耳颈两处俱挂着一些金圈。相貌狰狞，非常威武。白琦便知此人定是那山人姚开江了。见他身后还跟着两个与他装束差不多的，只是没有他高大威武。这一伙人走离白琦约有两三丈远近，白琦未即迎上前去，忽见从那一群人当中抢先走出一个高大汉子，手中执着一封柬帖，跑到白琦面前，高声说道：",
-          "instruct": "叙述敌人到来，语气紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -399,17 +407,21 @@
             "sound_cn": "远处传来迎接宾客的鞭炮声，噼啪作响，硝烟弥漫，热闹中透着肃杀",
             "sound_en": "distant firecrackers sounding in welcome, crackling with gunpowder smoke, lively yet with an undercurrent of tension",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说罢自去",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 4.0,
+            "trigger_delay": 16.9,
             "duration": 3,
             "process_mode": "overlay",
             "name": "众人脚步",
             "sound_cn": "二十余人脚步声杂沓，衣料摩擦，铜圈叮当碰撞，渐渐走近",
             "sound_en": "sounds of over twenty people approaching, mixed footsteps, rustling clothes, bronze rings jingling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "步往鱼神",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -419,7 +431,9 @@
             "sound_cn": "姚开江腰际铜圈随步伐碰撞，发出清脆连续的金属叮当声，节奏分明",
             "sound_en": "Yao Kaijiang's bronze rings clinking together with each step, clear and continuous metallic jingling, rhythmic",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "话的顷刻之间",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.0,
@@ -429,7 +443,9 @@
             "sound_cn": "姚开江背上长弩匣子随步伐轻轻晃动，发出木料碰撞的沉闷声响",
             "sound_en": "Yao Kaijiang's crossbow case swaying with his steps, dull wood-on-wood sounds",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "刻之间",
+            "trigger_offset": 0
           }
         ]
       },
@@ -467,7 +483,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白琦一面接过柬帖，笑答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -478,7 +494,9 @@
             "sound_cn": "白琦接过柬帖，纸张摩擦发出轻响，指尖触纸细声",
             "sound_en": "Bai Qi receiving the invitation, soft rustling of paper, fingertips brushing against it",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白琦一面接过",
+            "trigger_offset": 0
           }
         ]
       },
@@ -516,7 +534,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "魏青见来人便是白琦，使了一个眼色。回转身去，将白琦的话说与那几个为首的人。白琦也就跟着迎上前去，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -554,7 +572,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那个穿着华丽的人上前答话道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -611,7 +629,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "吕宪明闻言，冷笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -622,7 +640,9 @@
             "sound_cn": "吕宪明发出一声冷笑，充满不屑和敌意，声音在空旷处回荡",
             "sound_en": "Lv Xianming letting out a cold laugh, full of contempt and hostility, echoing in the open space",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "吕宪明闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -660,7 +680,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便指着那和尚道：\"此位是五台派剑仙金身罗汉法元老师。\"又指那山人道：\"这位便是南疆第一位法术高强的剑仙姚开江老师。\"白琦连说\"幸会\"，少不得敷衍两句。法元、姚开江却大模大样地不发一言。白琦只顾装作不知，除陈、罗三人外，又将其余诸人请教。果然内中有好几个江洋大盗、采花淫贼，白琦一一默记心头。随意周旋几句，并自请前面引路，和吕宪明比肩而行。一路往前走，估量走出约有半里多路，故意用言语逗吕宪明道：",
-          "instruct": "叙述引见过程，语气平缓暗藏机锋"
+          "instruct": ""
         },
         "effects": []
       },
@@ -698,7 +718,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "吕宪明哈哈大笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -709,7 +729,9 @@
             "sound_cn": "吕宪明发出一阵哈哈大笑，带着狂妄和得意，笑声在山间回荡",
             "sound_en": "Lv Xianming letting out a burst of laughter, arrogant and smug, echoing in the mountains",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "吕宪明哈哈大",
+            "trigger_offset": 0
           }
         ]
       },
@@ -747,7 +769,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白琦笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -785,7 +807,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，不俟吕宪明还言，将手往前一指，只听一阵殷殷雷声。众人都立足回望，眼看早半天被姚开江用妖法扶起的山峰，竟缓缓往鱼神洞旧道压下。姚开江所使那六丁开山之法却并不到家，无非用妖法将山峰竖起，再用邪神从旁扶持，只能暂时惑乱人心，不能持久。这时玉清大师同白琦按照约定办法，白琦将手往前一指，玉清大师便用正法将邪神驱走，破了妖法，再用法术禁制，使那百十丈孤峰缓缓倒下。吕村诸人见白琦破了姚开江妖法，心中大惊。尤其是姚开江，自出世以来，从未遇见敌手，满想这个戴家场还有什么大了得的人物在内？谁知今早起来打开鱼神洞故道之后，不多一会，便觉神思恍惚。先还以为连日忙于酬应，不曾用功，急忙寻了一个静室，先用一回功夫。不知怎的，一颗心神总是按捺不住，连平日推算都不灵了。虽然觉着有好些不祥之兆，仍旧自信法术高强，没把敌人放在心上。勉强算了算日干生克，知道午时比较最好，到了午时，这才动身。及至过了鱼神洞旧道，见戴家场迎来的只有一人，见白琦生得并不威武，越加心中小看。这回见他也不掐诀念咒，只将手一指，便破了这个法术，当着众人又羞又怒。当下也不作声，暗中仍使妖法指挥妖神上前，想把山峰扶起。他的妖法煞是惊人，居然将山峰顶在半空，不上不下，似要倒下来又不倒下来的神气。吕宪明知是姚开江施为，才转忧为喜，笑向白琦道：",
-          "instruct": "紧张叙述，斗法开始"
+          "instruct": ""
         },
         "effects": [
           {
@@ -796,7 +818,9 @@
             "sound_cn": "空中传来低沉的雷声，隆隆作响，震人心魄，回荡山谷",
             "sound_en": "low rumbling thunder rolling through the air, deep and unsettling, echoing through the valley",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不俟吕宪明还",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -806,7 +830,9 @@
             "sound_cn": "百十丈高的孤峰缓缓向鱼神洞旧道压下，发出隆隆的巨响和碎石滚落声，尘土飞扬",
             "sound_en": "the hundred-zhang peak slowly descending toward the Fish God Cave path, rumbling loudly with falling rocks, dust rising",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不俟吕宪明还",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -816,7 +842,9 @@
             "sound_cn": "姚开江暗中驱动妖法，山峰悬在半空与玉清大师的正法相持，发出低沉的嗡鸣和鬼啸",
             "sound_en": "Yao Kaijiang's demonic magic holding the peak suspended, clashing with Yujing Dashi's power, low humming and ghostly howls",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "将手往前一指",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -826,7 +854,9 @@
             "sound_cn": "山峰被妖法顶在半空不上不下，发出持续的沉闷嗡鸣声，似有千斤之力在相抗",
             "sound_en": "peak suspended in midair by demonic power, continuous dull humming sound, as if immense forces were clashing",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "往前一指",
+            "trigger_offset": 0
           }
         ]
       },
@@ -864,7 +894,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白琦见山峰悬在中途，好似被什么东西托住，相持不下，也不知玉清大师是否是姚开江的敌手，正在暗暗惊疑。偶一回头，忽见旁边树林内石头后面，站着适才所见那个擒蛇的叫花子，正远远朝着山峰用手比划，口中喃喃微动，好似念咒一般。白琦也不知那叫花子是仇是友，什么来历。正可惜适才没有机会同他谈上一谈，忽听吕宪明语带讥讽，越加着急。正在为难之际，忽然面前一道光亮一闪，玉清大师现身飞来，说道：",
-          "instruct": "紧张叙述，花子再现"
+          "instruct": ""
         },
         "effects": [
           {
@@ -875,7 +905,9 @@
             "sound_cn": "穷神远远朝着山峰用手比划，口中喃喃微动，发出低沉含混的念咒声",
             "sound_en": "beggar gesturing toward the peak from afar, lips moving slightly, low and indistinct chanting",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白琦见山峰悬",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -885,7 +917,9 @@
             "sound_cn": "一道光亮闪过如电光石火，玉清大师现身，光芒耀眼",
             "sound_en": "flash of light like lightning as Yujing Dashi appears, dazzling brilliance",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白琦见山峰悬",
+            "trigger_offset": 0
           }
         ]
       },
@@ -923,7 +957,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，那叫花子忽从林中如飞穿出，口喊：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -934,7 +968,9 @@
             "sound_cn": "叫花子从林中如飞穿出，衣袂破风，身形迅疾如电",
             "sound_en": "beggar darting out from the forest like flying, robes rustling, swift as lightning",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -972,7 +1008,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人惶骇转顾之际，只见那叫花子将手一挥，立刻便有震天价一个大雷发将出来，接着便听山崩地震之声。众人再看所立的地方，已经移出里许地来，相隔戴家场已不远了。回望鱼神洞那边，沙石飞扬，红尘蔽天，日光都暗，隐隐看见许多奇形怪状的牛鬼蛇神随风吹散。再寻适才那个叫花子，踪迹不见。姚开江锐气大减。法元看见玉清大师也来此地，又恨又急，正不知峨眉派还有何人在场。事已至此，只得硬着头皮上前，到时再说了。这时广场已近，衡玉、许超迎上前来，少不得说了一套客气话，将众人迎进去。佟元奇率领众人已在大厅中等候，在外诸剑侠也都一起入内。法元见峨眉派并无多少主要人物在内，不禁心花大开，反倒笑容满面，上前与佟元奇、玉清大师招呼。双方有不认得的，都由白琦、戴衡玉、吕宪明、郭云璞代为引见，然后分宾主落座。主席第一桌是万里飞虹佟元奇、铁蓑道人、玉清大师、赵心源、黄玄极、白琦、凌操七人；第二桌是湘江五侠中的虞舜农、黄人瑜、木鸡及戴衡玉、俞允中、许超、张琪七人；第三桌是何玫、崔绮、吴文琪、周轻云、张瑶青、凌云凤、戴湘英七位侠女。除岳大鹏、黄人龙、林秋水三人是在外面料理未回外，戴家场主要人物俱都在场。由三位地主分别敬酒。宾席上面第一桌是金身罗汉法元、山人姚开江、陈长泰、罗九、吕宪明、郭云璞同华山派的哑道人孔灵子，也是七人。第二桌是华山派火狮子曹飞、白虎星君郁次谷、多臂熊毛太、霹雳手尉迟元、九尾天狐柳燕娘、小方朔神偷吴霄、三眼红蜺薛蟒七人。第三、四桌是柳燕娘的远房兄弟粉牡丹穿云燕子柳雄飞、五花蜂崔天绶、威镇乾坤一枝花王玉儿，这三人是福建武夷山的有名淫贼海盗；还有西川三寇五花豹许龙、花花道人姚素修、假头陀姚元，风箱峡恶长年魏七、水蛇魏八、独霸川东李镇川、混元石张玉、八手箭严梦生、回头追命萧武、长江水虎司马寿。这十三人分坐两桌，俱是江湖上的江洋大盗，杀人不眨眼的魔君。白、戴诸人也有见过一两面的，也有闻名尚未见过的。戴家这间广厅约有七大开间，因早探得吕村来的人数，将厅上所有的陈设全部移开，摆了八桌，分成两行，主宾对向，各据一面。此时坐满了七桌，尚余一桌。白琦正要命人撤去，忽见岳大鹏、黄人龙、林秋水陪着二人从外面走了进来，后面跟着适才擒蛇那个花子，朝上一揖，自就主位。那花子也跟着落座，更不客气，也不让岳、黄、林三人，竟自一路大吃大喝起来。法元见过花子现身，以为是白琦请来的助手，倒不怎样希奇。其余众人，适才凡分配到外面去的，此时见他随了岳、黄、林进来，到主座上去，俱以为是他三人约来的朋友。这一干剑侠当然不以衣冠相貌取人，又在敌我对峙、折冲樽俎之间，各人看了一眼，也就罢了。玉清大师从异派出身改邪归正，见识甚广。适才在鱼神洞同姚开江斗法，相持不下，忽见一道紫巍巍的光华微微在日光下一闪，将敌人妖法连自己的法术一起破去，便知不好，恐怕山峰倒下伤人，连忙飞身回来，叫白琦暂避。正怕有些来不及，一眼瞥见那个花子纵到众人面前，用移山缩地之法，将众人送出险地，心中一动。刚要寻他答话，已经不见。暗想：\"这个人好似那怪叫花子，已经多年不曾听人谈起，今日却在此地露面。此人向来任性，作事不分邪正，高兴就伸手，厉害非凡。要是吕村请来，今日胜负正不可知呢。\"因时间紧迫，只略略通知了一下佟元奇，二人入席以后还在发愁。此时忽见他跟着岳、黄、林三人进来到主座上去，真是请都请不到的人会自己前来。与佟元奇对看了一眼，二人默默会心不言。知道此人性情特别，如果下位去招待他，反而不好，只得装作不理会。何、崔、吴、周四侠女适才在鱼神洞就见过他，此时见他入内落座，虽觉客来不速，回看佟元奇与玉清大师面带喜色，知是请来的好帮手，只不好去问姓名罢了。惟独白琦对他久已留心，先还以为是岳、黄、林三人相识的异人，当着敌人在前，不好意思下位去问。后来想到自己是个主人，初次见面，连姓名都不曾请教，岂非无礼？正在踌躇之际，忽听耳朵边有人说话道：",
-          "instruct": "叙述宴会场景，气氛微妙"
+          "instruct": ""
         },
         "effects": [
           {
@@ -983,7 +1019,9 @@
             "sound_cn": "一道紫巍巍的光华在日光下微微一闪，发出低沉而神秘的光晕声，似有若无",
             "sound_en": "a faint purple glow flashing in the sunlight, low and mysterious hum, barely perceptible",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人惶骇转顾",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -993,7 +1031,9 @@
             "sound_cn": "震天价一声霹雳炸响，天地为之震颤，雷声滚滚，金光四射",
             "sound_en": "deafening thunderclap exploding, shaking heaven and earth, rolling thunder, golden light radiating",
             "volume": "-10%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人惶骇转顾",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1003,7 +1043,9 @@
             "sound_cn": "山崩地裂之声轰鸣，沙石飞扬，红尘蔽天，日光黯淡，牛鬼蛇神随风吹散",
             "sound_en": "roaring sound of mountains collapsing and earth splitting, sand and stones flying, dust blotting out the sun, demons scattering in the wind",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人惶骇转顾之",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -1013,7 +1055,9 @@
             "sound_cn": "花子施展移山缩地之法，众人瞬间被移出里许，风声呼啸，衣袂猎猎",
             "sound_en": "beggar performing mountain-moving and earth-shrinking magic, crowd instantly transported, wind rushing, robes flapping",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "只见那叫花子",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -1023,7 +1067,9 @@
             "sound_cn": "无数奇形怪状的牛鬼蛇神被风吹散，发出尖细的惨啸声，逐渐消失在远方",
             "sound_en": "countless strange demons and spirits scattering in the wind, sharp faint howls fading into the distance",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "花子将手一挥",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1033,7 +1079,9 @@
             "sound_cn": "宴会厅中杯箸碰撞声、劝酒声、说笑声交织，气氛热烈中暗藏机锋",
             "sound_en": "sounds of cups and chopsticks, toasts, and laughter in the banquet hall, lively but with undercurrents of tension",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "立刻便有震天",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9.0,
@@ -1043,7 +1091,9 @@
             "sound_cn": "穷神旁若无人地大吃大喝，杯箸作响，咀嚼声粗犷豪放，旁若无人",
             "sound_en": "beggar eating and drinking heartily without restraint, loud clinking of cups and chopsticks, rough chewing sounds, oblivious to all",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便有震天价一",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -1053,7 +1103,9 @@
             "sound_cn": "穷神随岳大鹏等人入席后朝上一揖，衣料摩擦声，动作随意而不失礼数",
             "sound_en": "beggar making a casual bow after entering with Yue Dapeng and others, fabric rustling, informal yet courteous",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "天价一个大雷",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1072,7 +1124,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "\"快打仗了，不要管我。我不白吃你的，不要心疼害怕。\"声细如蝇，非常清楚。回望诸人，都是坐得好端端的。再看那叫花子时，正对他点头呢。正在这时，恰好衡玉、许超将主客两边的酒敬罢回席。佟元奇站起身来，朝着法元那一席说道：",
-          "instruct": "叙述花子传音，语气神秘"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1083,7 +1135,9 @@
             "sound_cn": "花子传音入密，声音细如蚊蝇却清晰入耳，带着玩世不恭和深不可测",
             "sound_en": "beggar's voice transmitting directly into the ear, soft as a mosquito but clear, playful yet mysterious and unfathomable",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "快打仗了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -1093,7 +1147,9 @@
             "sound_cn": "佟元奇站起身来，衣袂轻响，椅子移动声沉稳",
             "sound_en": "Tong Yuanqi standing up, robes rustling, chair moving steadily",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "快打仗了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1131,7 +1187,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "法元闻言，起身笑答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1142,7 +1198,9 @@
             "sound_cn": "法元起身，椅子移动声和衣袂摩擦声，气势沉稳",
             "sound_en": "Fa Yuan standing up, slight sound of chair moving, robes rustling, with steady presence",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1180,7 +1238,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "佟元奇闻言，笑答道：\"既然如此，也不用多言，贫道及敝村全体遵命领教就是。\"说罢，主席上便全体起立道\"请\"，法元等也相率起身，分至广场，各按宾主登了芦棚。佟元奇、法元二人心事，一样的怕不会剑术的人吃亏，既经双方同意，彼此都觉安心。不提。",
-          "instruct": "叙述收尾，双方准备交手"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1191,7 +1249,9 @@
             "sound_cn": "主宾双方全体起身，椅子移动声和脚步声交织，气氛紧张而肃然",
             "sound_en": "both sides rising from their seats, chairs scraping and footsteps mingled, tense and solemn atmosphere",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "佟元奇闻言",
+            "trigger_offset": 0
           }
         ]
       },

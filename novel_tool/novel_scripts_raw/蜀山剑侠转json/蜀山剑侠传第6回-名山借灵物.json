@@ -51,7 +51,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第6回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -70,7 +70,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白云大师说罢，便由壁上取出一个长匣，乃是精铁铸成，十分坚固。又从葫芦内取出几十粒丹药。然后将盒盖揭开，只见里面伏着一条二尺四寸长的蜈蚣，遍体红鳞闪闪发光，两粒眼珠有茶碗大小，绿光射眼。白云大师将那丹药放在盒内，那蜈蚣忽然蠕蠕欲动，大师忙将盒盖关上。髯道人道。",
-          "instruct": "生动描述，节奏神秘"
+          "instruct": ""
         },
         "effects": [
           {
@@ -81,7 +81,9 @@
             "sound_cn": "白云大师从壁上取下沉重铁匣的声音",
             "sound_en": "heavy iron box being taken down from stone wall shelf, metallic scrape against stone surface, thud when held",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白云大师说罢",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 11,
@@ -91,7 +93,9 @@
             "sound_cn": "白云大师从葫芦中倒出几十粒丹药的声音",
             "sound_en": "small medicinal pills pouring out of gourd into palm, soft clattering of round pellets, faint ceramic sound",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "又从葫芦内取",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 22,
@@ -101,7 +105,9 @@
             "sound_cn": "精铁匣盖揭开的金属摩擦声",
             "sound_en": "heavy iron box lid slowly being lifted open, metallic creak of hinges, resonant clang of ancient iron",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "四寸长的蜈蚣",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 38,
@@ -111,7 +117,9 @@
             "sound_cn": "盒中蜈蚣感应丹药蠕蠕欲动的细微声响",
             "sound_en": "giant centipede stirring restlessly inside iron box, chitin legs scratching on metal, ominous slithering",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "然蠕蠕欲动",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 44,
@@ -121,7 +129,9 @@
             "sound_cn": "白云大师急忙盖上铁匣的声响",
             "sound_en": "Buddhist nun hastily closing iron box lid, sudden metallic clang echoing in chamber, urgent thud",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "将盒盖关上",
+            "trigger_offset": 0
           }
         ]
       },
@@ -178,20 +188,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "三人谈谈说说，问了些周淳所精的功夫，不觉已是东方微明。白云大师道。",
-          "instruct": "平静叙述，节奏舒缓"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 8,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "黎明鸟鸣",
-            "sound_cn": "东方微明时远处传来的清晨鸟鸣声",
-            "sound_en": "early morning bird calls from distant hills, dawn chorus beginning to wake, gentle twittering through mist",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -246,7 +245,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便同了二人起身，往山谷中走去。这时，一轮红日已经从地平线上往上升起，途径看得非常清楚。走到一处，只见山势非常险恶，寸草不生。白云大师便对髯道人道。",
-          "instruct": "生动描述，节奏明快"
+          "instruct": ""
         },
         "effects": [
           {
@@ -257,7 +256,9 @@
             "sound_cn": "三人走在险恶山路上的脚步声",
             "sound_en": "three people walking on rocky mountain path, steady footsteps on stone and gravel, journey pace",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人起身",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14,
@@ -267,7 +268,9 @@
             "sound_cn": "晨风掠过荒凉山岭的呼啸声",
             "sound_en": "morning wind blowing across barren mountain ridge, hollow whistling through rocky crevices, desolate atmosphere",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "途径看得非常",
+            "trigger_offset": 0
           }
         ]
       },
@@ -305,7 +308,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便独自向前走去。髯道人同了周淳纵上山峰，只见山谷中有一个大洞，深黑不可见底。白云大师走到离洞不远，嘬嘬呜呜的叫了几声，忽然狂风大起，白云大师拨转身往回路便走。说时迟，那时快，洞中一阵黑风过去，冲出一条大蛇，金鳞红眼，长约十丈，腰如缸瓮，行走如飞。看看追出半里多地，白云忽地回身喊一声。",
-          "instruct": "紧张描述，节奏急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -316,7 +319,9 @@
             "sound_cn": "白云大师嘬嘬呜呜啸声召蛇的声音",
             "sound_en": "immortal nun making strange whistling call to summon demon, eerie resonant vocal tone echoing across valley",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大洞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18,
@@ -326,7 +331,9 @@
             "sound_cn": "洞中忽然狂风大作，妖气冲天",
             "sound_en": "sudden violent wind erupting from cave entrance, demonic gale howling with foul sulfur stench, ominous rumble",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "师走到离洞不",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28,
@@ -336,7 +343,9 @@
             "sound_cn": "十丈长金鳞大蛇冲出洞穴，山摇地动",
             "sound_en": "massive golden scaled snake charging out of dark cave, heavy body slithering on rock, earth trembling with its movement",
             "volume": "-15%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便走",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 38,
@@ -346,7 +355,9 @@
             "sound_cn": "巨蛇行走如飞追赶白云大师的声音",
             "sound_en": "giant snake slithering at incredible speed across valley, rapid heavy movement of massive body in pursuit",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "长约十丈",
+            "trigger_offset": 0
           }
         ]
       },
@@ -384,7 +395,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "从手中飞出一道紫光。那蛇见了这光，便由口中吐出丈许长的火焰，与这道光华绞在一起。斗了片时，那蛇自知不敌，拨转身回头便走。髯道人便将手上玄英剑放出来，一道青光，朝蛇头飞去。那蛇见不是路，便将蛇身盘作一堆，喷出烈火毒雾，与这两道剑光战在一起，饶你仙剑厉害，也是不能伤它分毫。白云大师与髯道人各人占了一个山峰，指挥剑光，与那蛇对敌，斗了半日，不分胜败。白云没奈何，只得与髯道人打个招呼，各人将剑光收起。那蛇看见剑光忽然退去，认为敌人已败，正待向白云大师扑来。忽然从白云大师手中飞起一物，通体红光耀目，照得山谷皆红。原来白云大师见剑仍是不能取胜，已是将匣内蜈蚣放出。这蜈蚣才一出匣，迎风便长，长有丈余。那蛇见蜈蚣飞来，知道已逢劲敌，更不怠慢，拼命地喷火喷雾，与那蜈蚣斗在一起。斗有片时，那蜈蚣一口将蛇的七寸咬住，那蛇也将蜈蚣的尾巴咬住，两下都不肯放松。那蛇被蜈蚣咬得难受，不住地将长尾巴在山石上扫来扫去，把山石打得如冰雹一般，四散飞起，煞是奇观。这时，他三人已走在一处。髯道人意欲将玄英剑放起，助那蜈蚣一臂之力。白云大师怕伤了蜈蚣，连忙止住。正说话时，忽然震天动地一声响过去，蛇与蜈蚣俱都纹丝不动。原来那蛇被咬，负痛不过，一尾扫过去，将谷口凸出来有丈许高的山石打断，恰好落在它的头上，打得脑浆迸裂，那蜈蚣也力竭而死。",
-          "instruct": "激烈战斗描述，节奏紧凑"
+          "instruct": ""
         },
         "effects": [
           {
@@ -395,7 +406,9 @@
             "sound_cn": "白云大师手中飞出紫色剑光的破空声",
             "sound_en": "purple immortal sword light flying out from master's hand, sharp mystical whoosh cutting through air, resonant energy",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "从手中飞出一",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9,
@@ -405,7 +418,9 @@
             "sound_cn": "大蛇口中吐出丈许长火焰的呼啸声",
             "sound_en": "giant snake spewing long tongue of demonic flame from its mouth, roaring fire blast with hissing undertone",
             "volume": "-15%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "出丈许长的火",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 19,
@@ -415,7 +430,9 @@
             "sound_cn": "髯道人玄英剑化作青光飞出的破空声",
             "sound_en": "immortal sword Xuan Ying transforming into blue light flying toward snake head, sharp metallic whistle of spiritual blade",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "拨转身回头便",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 26,
@@ -425,7 +442,9 @@
             "sound_cn": "紫青两道剑光与喷火毒雾激烈交锋",
             "sound_en": "purple and blue sword lights clashing violently with snake's fire and poison mist, explosive magical collision in air",
             "volume": "-15%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一道青光",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 58,
@@ -435,7 +454,9 @@
             "sound_cn": "蜈蚣飞出铁匣，红光耀目迎风而长",
             "sound_en": "giant centipede flying out of iron box with blinding red light, expanding in wind to massive size, chitin legs rustling",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "分胜败",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 75,
@@ -445,7 +466,9 @@
             "sound_cn": "蜈蚣一口咬住大蛇七寸的撕咬声",
             "sound_en": "centipede viciously biting down on snake's vital neck point, crunching chitin mandibles piercing scales, painful hiss",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云大师扑来",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 86,
@@ -455,7 +478,9 @@
             "sound_cn": "巨蛇负痛用长尾巴横扫山石的轰响",
             "sound_en": "giant snake's massive tail sweeping across mountain rocks in agony, violent crashes and stone fragments flying like hail",
             "volume": "-15%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "原来白云大师",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 112,
@@ -465,7 +490,9 @@
             "sound_cn": "丈许高山石崩塌砸下，震天动地的巨响",
             "sound_en": "massive boulder taller than a man collapsing with thunderous crash, mountain shaking impact, rocks shattering everywhere",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一起",
+            "trigger_offset": 0
           }
         ]
       },
@@ -522,7 +549,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正说话时，忽从山头上飞下一个黑衣女郎，腰悬一个葫芦，走到二人面前行礼道。",
-          "instruct": "平静叙述，节奏一转"
+          "instruct": ""
         },
         "effects": [
           {
@@ -533,7 +560,9 @@
             "sound_cn": "黑衣女郎御剑从山头飞下的破空声",
             "sound_en": "young sword immortal woman descending from mountain peak on flying sword, rush of wind and mystical energy, graceful landing",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忽从山头上飞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9,
@@ -543,7 +572,9 @@
             "sound_cn": "周轻云落地敛衽行礼的衣袂声",
             "sound_en": "young woman in black robe landing gracefully and performing formal bow, soft rustle of silk sleeves, respectful gesture",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "个葫芦",
+            "trigger_offset": 0
           }
         ]
       },
@@ -581,7 +612,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，走到蜈蚣身旁，取出一粒丹药，放在它口内，那蜈蚣便缩成七八寸光景，便取来放在身旁葫芦之内。又对白云大师道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -592,7 +623,9 @@
             "sound_cn": "蜈蚣服丹后缩成七八寸的神奇变化声",
             "sound_en": "magical centipede shrinking dramatically after swallowing elixir pill, mystical transformation with subtle energy hum",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "寸光景",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18,
@@ -602,7 +635,9 @@
             "sound_cn": "将缩小的蜈蚣装入腰间葫芦的声音",
             "sound_en": "placing shrunken creature into gourd container at waist, soft clink of magical gourd sealing shut",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "白云大师道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -640,7 +675,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "白云大师才知道她是周淳的女儿，十分代她喜幸，便将周淳唤将下来。他父女重逢，自是欢喜。周淳正要访求餐霞大师帮忙，适才在白云大师处，因忙于捉妖，不曾启齿，今见女儿到来，正好命她代求。便对轻云说了多臂熊毛太寻仇，同自己往成都之事，又教轻云代请餐霞大师下山。轻云道。",
-          "instruct": "温馨描述，节奏舒缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -651,7 +686,9 @@
             "sound_cn": "白云大师呼唤周淳从山峰下来的声音",
             "sound_en": "Buddhist master calling Zhou Chun down from mountain peak, voice echoing across valley, footsteps beginning descent",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "淳唤将下来",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28,
@@ -661,7 +698,9 @@
             "sound_cn": "父女重逢相拥的温馨场景声",
             "sound_en": "father and daughter reuniting after long separation, emotional murmur of joy, soft embrace with fabric rustle",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "今见女儿到来",
+            "trigger_offset": 0
           }
         ]
       },
@@ -699,7 +738,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳听了，不觉心中一块石头落地。轻云辞别三人，回山复命不提。周淳心想白云大师与髯道人俱是成名剑仙，便有投师之意。白云大师道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -710,7 +749,9 @@
             "sound_cn": "周轻云御剑辞别离去的声音",
             "sound_en": "daughter bidding farewell and ascending on flying sword, soft whoosh of mystical departure fading into sky",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "落地",
+            "trigger_offset": 0
           }
         ]
       },
@@ -748,7 +789,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便拾了许多枯树枝叶，将蛇身焚化。髯道人说奉师父静虚老祖之命，要急忙去度一个富有仙根的人，以免被五台派的人收罗了去。说罢嘬口一声长啸，只见云端中飞下一只大仙鹤，髯道人跨了上去，说声再见，便自冲霄飞起。周淳才知那日山中斗蛇的仙鹤，就是髯道人的坐骑。他虽听了女儿轻云之言，终觉放心不下，顺便邀白云大师相助。白云大师道。",
-          "instruct": "生动描述，节奏渐缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -759,7 +800,9 @@
             "sound_cn": "焚烧蛇身时火焰熊熊燃烧的声音",
             "sound_en": "burning massive snake body with pile of dry branches, intense crackling fire flames, fat sizzling in heat",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "拾了许多枯树",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 25,
@@ -769,7 +812,9 @@
             "sound_cn": "髯道人嘬口长啸召唤仙鹤的啸声",
             "sound_en": "Taoist immortal letting out long resonant whistle to summon crane mount, piercing call echoing through clouds",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见云端中飞下",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 29,
@@ -779,7 +824,9 @@
             "sound_cn": "仙鹤从云端飞下展翅落地的声音",
             "sound_en": "large immortal crane descending from clouds with powerful wing beats, resonant cry echoing, graceful landing on mountain",
             "volume": "-20%",
-            "pitch": "+50Hz"
+            "pitch": "+50Hz",
+            "trigger_keyword": "髯道人跨了上",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 36,
@@ -789,7 +836,9 @@
             "sound_cn": "髯道人跨上仙鹤冲霄飞起的声音",
             "sound_en": "Taoist immortal mounting crane and ascending into sky, powerful wing strokes, wind rushing past, fading into clouds",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "淳才知那日山",
+            "trigger_offset": 0
           }
         ]
       },
@@ -827,7 +876,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳心中半信半疑，没奈何，只得单身辞别上路。行了数日，已到成都。到处打听毛太，都说不曾见过这样的一个和尚。周淳只得在那里等候轻云到来，等了三个多月，也不曾来，心中十分不解。这时已是正月下旬。成都城厢内外庵观林立，古迹甚多。有一天，闷坐店房，十分无聊，信步走到南门外武侯祠去游玩。",
-          "instruct": "平静叙述，节奏转缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -838,7 +887,9 @@
             "sound_cn": "周淳独自一人走在通往成都的古道上的脚步声",
             "sound_en": "solitary traveler walking on ancient road to Chengdu, steady footsteps on dusty path, contemplative journey pace",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "信半疑",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 17,
@@ -848,7 +899,9 @@
             "sound_cn": "成都城内市井喧闹的人声和叫卖声",
             "sound_en": "bustling atmosphere of ancient Chengdu city, distant crowd chatter, street vendors calling, horses and carts passing",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "样的一个和尚",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 42,
@@ -858,7 +911,9 @@
             "sound_cn": "周淳在店房中闷坐叹气的声音",
             "sound_en": "Zhou Chun sighing heavily while sitting idly in inn room, soft exhale of boredom and worry, creak of wooden chair",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "分无聊",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 50,
@@ -868,7 +923,9 @@
             "sound_cn": "周淳信步走出店房前往武侯祠的脚步声",
             "sound_en": "Zhou Chun strolling leisurely out of inn toward Wuhou Shrine, casual footsteps on stone street, aimless wandering",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "到南门外武侯",
+            "trigger_offset": 0
           }
         ]
       },
@@ -887,7 +944,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "要知后事如何，且看下回分解。",
-          "instruct": "悬念收尾，余韵悠长"
+          "instruct": ""
         },
         "effects": []
       },

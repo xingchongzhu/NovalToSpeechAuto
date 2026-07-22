@@ -75,7 +75,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第29回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -94,7 +94,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "矮叟朱梅的大弟子纪登，在师父下山后，因恐金光鼎等又来烦扰，轻易不肯出门。这日清晨起来，算计师父快要回来，便在崖前站定。果然立了不多一会，遥望天边，有两粒黑点朝崖前飞来。移时，朱梅携着陶钧在金鞭崖前降下。纪登连忙上前拜见。朱梅叫陶钧见过师兄，一同进了观门，朱梅命纪登将打坐并练气口诀，日夕传与陶钧用功。又到云房内取出一柄长剑赐与陶钧，叫他按照剑诀练习。陶钧拜谢之后，接过宝剑一看，连头带尾，有三尺六寸长。剑柄上有七个金星，上面刻着",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -105,7 +105,9 @@
             "sound_cn": "两道剑光划破晨空由远及近，带着尖锐的破风呼啸声，在青城山金鞭崖前激起一阵尘土，衣袂翻飞后落定",
             "sound_en": "two sword lights tearing through the morning sky from afar, with sharp whistling, landing before the Golden Whip Cliff on Qingcheng Mountain, kicking up a puff of dust, robes settling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "矮叟朱梅的大",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -115,7 +117,9 @@
             "sound_cn": "纪登上前拜见，衣袍拂地发出庄重的沙沙声，脚步稳健有力",
             "sound_en": "Ji Deng stepping forward to pay respects, robe sweeping the ground with solemn rustling, footsteps steady and firm",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱梅的大弟子",
+            "trigger_offset": 0
           }
         ]
       },
@@ -134,7 +138,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金犀",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -153,7 +157,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "两个篆字。用手一攥剑柄，微一用力，已自铮然出匣，寒光凛凛，瘆人毛发，端的是柄好剑，心中高兴已极。从此每日跟随纪登早晚用功。不提。矮叟朱梅在观里住了几日，单把纪登叫过一旁，嘱咐了几句，便自下山，往成都而去。这时成都碧筠庵醉道人，自同追云叟分别后，虽然宝剑被污，却蒙追云叟将大乙钩赠他使用，比较原来宝剑还要神化。他每日除在成都市上买醉外，便在庵中传授松、鹤二童剑术。这日正在院中闲立，远远看见天空中一道青光飞来，定睛一看，正是追云叟带到衡山，去用千年朱灵草替自己洗炼的宝剑，心中大喜，手一抬，那宝剑业已落在手中。仔细看时，居然返本还原，仍是以前灵物，暗暗感激追云叟的高义。心想：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -164,7 +168,9 @@
             "sound_cn": "陶钧微一用力，金犀宝剑铮然出匣，发出一声清越悠长的龙吟般的剑鸣，剑光寒芒四射",
             "sound_en": "Tao Jun drawing the sword with slight effort, the Golden Rhinoceros Sword emerging with a clear prolonged dragon-like hum, cold light radiating",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "两个篆字",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -174,7 +180,9 @@
             "sound_cn": "一道青光从远空急速飞来，剑光破空发出低沉的嗡鸣声，精准地落入醉道人手中，发出一声轻响",
             "sound_en": "a green light flying swiftly from the distant sky, the sword humming low as it lands precisely in Drunk Daoist's palm with a soft sound",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "用手一攥剑柄",
+            "trigger_offset": 0
           }
         ]
       },
@@ -193,7 +201,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这口剑虽是自己炼就神物，并不似三仙二老他们的剑，完全用五行真气，采炼五金之精而成。衡山相隔数千里，怎得认主归来，不爽毫厘？正在惊奇，忽听破空的声音，抬头看时，周淳业已驾剑光从空中降下，见了醉道人，上前拜见。醉道人道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -204,7 +212,9 @@
             "sound_cn": "又一道剑光破空而至，周淳从空中轻身降下，衣袂在风中猎猎翻飞，靴底落地发出沉稳的轻响",
             "sound_en": "another sword light arriving, Zhou Chun descending from the sky, robe flapping in the wind, boots landing with a steady soft sound",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这口剑虽是自",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -214,7 +224,9 @@
             "sound_cn": "周淳上前向醉道人躬身行礼，衣袍摩擦发出轻微的沙沙声响",
             "sound_en": "Zhou Chun bowing to Drunk Daoist, robe rustling softly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这口剑虽是自",
+            "trigger_offset": 0
           }
         ]
       },
@@ -252,7 +264,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳躬身答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -282,7 +294,9 @@
             "sound_cn": "周淳躬身行礼，衣料发出轻微的摩擦声",
             "sound_en": "Zhou Chun bowing, fabric rustling softly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "师叔休得过奖",
+            "trigger_offset": 0
           }
         ]
       },
@@ -301,7 +315,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "留备后用，百毒不侵",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -320,7 +334,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "八个字。弟子此时已是两脚麻痹，幸喜双手还能动转，连忙将那两颗丹药取出嚼碎，咽了下去，立时觉着神志清朗异常。可是红雾依旧未消，心知那崖必非善地。而衡山顶上一年到头，俱是白云封锁，每年只有两次云开。如采不着药草，误了家师之命，恐受责罚，依旧在崖前寻找。忽听崖旁洞内有小儿啼声，走向前一看，只见一个山洞，高宽各约二丈。洞口有一个没有壳的大蝎子，长约七八尺光景，口中喷出红雾，声如儿啼。幸喜那东西才得出壳，行动极为笨缓。弟子服了灵丹，毒雾不侵，便用宝剑将它斩为数段。忽见红光从那东西身后的洞中发出。走近看时，正是一丛千年朱灵草，上面还结着七个橘子大小的果儿，鲜红夺目。弟子便连根拔起，不敢再为迟延，急忙下山。走到半路回头看时，业已云雾满山，稍迟一步，便无路下来了。家师见弟子取得仙草，甚是嘉奖。说起那蝎子时，家师起初本未料到有这样怪物，幸喜尚未成形，又有灵丹护卫。不然一近它身，怕不化为脓血？那灵草一千三百年结一回果，成熟七天，便入地无踪。服了之后，益气延年，轻身换骨，又抵百十年苦功。家师便将仙果七个赐与弟子。吃下去当时周身酥软，连泻三日。痊愈后力大身轻，远胜寻常。如今可以力擒虎豹，手捉飞鸟。家师深恩，又传弟子许多路剑法。另换了一口炼成的宝剑，照口诀勤习了四十九日，便能御剑飞行。师叔的剑也同时洗炼还原。又说起赠丹的老前辈，才知是家师的好友朱梅叔。今早命弟子前来送信，顺便将师叔宝剑送回。行近成都，那宝剑好似认得家一般，一个不留神，便脱手飞去。弟子随后追赶，见它往此地飞来，已知师叔收去，才放了心。家师说李师叔约请各派剑仙，不日陆续来到，请师叔代为招接。家师尚有他事，来年正月初五前准到。此番乃是邪正两方正面冲突的开端，彼此约请的能人剑客不在少数。这第一次交手，必须要挫他们的锐气，同时把他们用作根据地的慈云寺一举消灭，以减少他们的势力。家师还请师叔除夕前到寺中探一探动静，说他们那里能人甚多，如被他们窥破，只说是特去通知比试日期，不可轻易地动手。弟子奉命转达，请师叔斟酌办理。",
-          "instruct": "清朗讲述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -331,7 +345,9 @@
             "sound_cn": "周淳将丹药嚼碎咽下，发出清晰的吞咽声，随即精神为之一振",
             "sound_en": "Zhou Chun chewing and swallowing the pills, a clear gulping sound, then a surge of energy",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "八个字",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -341,7 +357,9 @@
             "sound_cn": "周淳运起宝剑奋力斩向巨蝎，剑光闪过，伴随一声斩断甲壳的脆响和巨蝎倒地的沉闷震动",
             "sound_en": "Zhou Chun raising his sword and hacking the giant scorpion, a flash of light followed by a crisp crack of shell and the dull thud of the creature collapsing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "八个字",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.5,
@@ -351,7 +369,9 @@
             "sound_cn": "周淳将千年朱灵草连根拔起，泥土松动滚落的声响清晰可闻，根须断裂发出细碎的声响",
             "sound_en": "Zhou Chun uprooting the thousand-year Zhu Ling Grass, soil loosening and falling with clear sounds, roots snapping softly",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "子此时已是两",
+            "trigger_offset": 0
           }
         ]
       },
@@ -370,7 +390,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "醉道人听罢，当下谢了周淳冒险采灵草之义。因为追云叟不在峨眉派统系之下，与峨眉开山祖师长眉真人俱都是朋友称呼。长眉真人飞升时，大弟子玄真子志在专修内功，禀明真人，愿把道统让给根基厚的师弟齐漱溟，自己却同追云叟、苦行头陀二友前往东海隐居，同参上乘玄宗。醉道人是齐漱溟的师弟，他因追云叟虽是师兄好友，到底人家得道的年代长，又与长眉真人有一面之识，平素总以晚辈自居。周淳称他师叔，他不肯承受。周淳饮水思源，自己入门又浅，再三不肯改口，只得由他。到了第三天，先是后辈剑仙中峨眉派掌教剑仙乾坤正气妙一真人的女儿齐灵云，同着她的兄弟金蝉，髯仙李元化的弟子白侠孙南，奉了妙一夫人荀兰因之命，前来听候调遣。又过了几天，髯仙同门师兄弟风火道人吴元智，带着大弟子七星手施林来到。施林与周淳本有一面之缘，当下周淳便谢了当日施林指引之恩，二人谈得甚是投机。第二天起，罗浮山香雪洞元元大师、巫山峡白竹涧正修庵白云大师、陕西太白山积翠崖万里飞虹佟元奇同他弟子黑孩儿尉迟火、坎离真人许元通、云南昆明池开元寺哈哈僧元觉禅师同他弟子铁沙弥悟修、峨眉山飞雷岭髯仙李元化先后来到。醉道人与周淳竭诚款待，松、鹤二童忙了个手脚不停。到了除夕的那一天，醉道人同各位剑侠正在云房闲话，罗浮七仙中的万里飞虹佟元奇说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -381,7 +401,9 @@
             "sound_cn": "成都碧筠庵中脚步往来不绝，各路剑仙陆续到来，寒暄声、笑声交织成一片热闹景象，松鹤二童忙碌地端茶送水",
             "sound_en": "Biyun Nunnery bustling with coming and going, sword immortals arriving one after another, greetings and laughter interweaving, the two child attendants busy serving tea",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "醉道人听罢",
+            "trigger_offset": 0
           }
         ]
       },
@@ -419,7 +441,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "髯仙李元化答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -457,7 +479,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "醉道人道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -495,7 +517,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "髯仙闻言，哈哈大笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -506,7 +528,9 @@
             "sound_cn": "髯仙李元化发出一阵洪亮爽朗的大笑声，在云房中回荡不绝，充满豪迈之气",
             "sound_en": "Immortal Li Yuanhua letting out a hearty and resonant laugh, echoing in the cloud chamber, brimming with boldness",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "髯仙闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -544,7 +568,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "醉道人便问究竟，各位剑仙也都想听髯仙说出经过。髯仙道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -582,7 +606,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "大家正要听髯仙说将下去，忽然一阵微风过处，朱梅业已站在众人面前，指着髯仙说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -593,7 +617,9 @@
             "sound_cn": "一阵微不可察的清风拂过，朱梅凭空现身于众人面前，衣袍轻轻飘动，落地无声却气势凛然",
             "sound_en": "a barely perceptible breeze passing through, Zhu Mei appearing suddenly before everyone, robe lightly fluttering, landing silently yet with commanding presence",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大家正要听髯",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -603,7 +629,9 @@
             "sound_cn": "朱梅抬手一指髯仙，手指带起一丝极轻微的破风声",
             "sound_en": "Zhu Mei raising his hand to point at Immortal Li, a faint swish of air",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大家正要听髯",
+            "trigger_offset": 0
           }
         ]
       },
@@ -641,7 +669,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众剑仙闻言大惊，连忙让座，请问究竟。朱梅道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -652,7 +680,9 @@
             "sound_cn": "众剑仙纷纷起身让座，椅子移动发出轻微的摩擦声，衣袍窸窣作响",
             "sound_en": "the immortals rising and making room, chairs scraping softly, robes rustling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众剑仙闻言大",
+            "trigger_offset": 0
           }
         ]
       },
@@ -690,7 +720,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，檐前有飞鸟坠地的声息，帘起处进来一人，面如金纸，见了诸位剑仙，匍匐在地。矮叟朱梅连忙从身上取出一粒百草夺命神丹，朝那人口中塞了进去。醉道人与髯仙见来人正是岷山万松岭朝天观水镜道人的门徒神眼邱林，不知为何这样狼狈。急忙将他扶上云床，用一碗温水将神丹灌了下去。待了半盏茶时，邱林腹内咕噜噜响了一阵，脸上由金紫色渐渐由白而红，这才恢复原状。睁眼看见诸位剑侠在旁，便翻身坐起。这时各派剑侠中小兄弟们，本同周淳、孙南等在前面配殿中谈话，听说矮叟朱梅与邱林先后来到，便都入房相见。邱林坐起之后，先谢了矮叟朱梅赐丹之恩，然后说起慈云寺中景况及他脱险情形。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -701,7 +731,9 @@
             "sound_cn": "一只飞鸟从檐前坠地，发出扑棱翅膀的挣扎声和轻微的撞击声，紧接着帘子被猛地掀开",
             "sound_en": "a bird falling from the eaves with a flapping of wings and a light thud, followed by the curtain being thrown open",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.8,
@@ -711,7 +743,9 @@
             "sound_cn": "邱林踉跄着匍匐在地，身体重重撞在地面上，发出沉闷的声响，伴随痛苦的喘息",
             "sound_en": "Qiu Lin stumbling and collapsing to the ground, body hitting the floor with a heavy thud, accompanied by pained gasps",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.8,
@@ -721,7 +755,9 @@
             "sound_cn": "朱梅取出一粒丹药塞入邱林口中，醉道人用温水送服，水声伴随着吞咽声，紧张而急切",
             "sound_en": "Zhu Mei placing a pill into Qiu Lin's mouth, Drunk Daoist giving him warm water, water sounds and swallowing, tense and urgent",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.5,
@@ -731,7 +767,9 @@
             "sound_cn": "邱林腹中咕噜作响，脸色逐渐恢复血色，翻身坐起时衣料摩擦声清晰，长出了一口气",
             "sound_en": "Qiu Lin's stomach rumbling, his complexion gradually recovering, sitting up with clear fabric rustling, letting out a long breath",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "檐前有飞鸟坠",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.5,
@@ -741,7 +779,9 @@
             "sound_cn": "配殿中众小辈剑仙闻讯纷纷赶来，脚步声杂沓，衣袍摩擦声不绝于耳",
             "sound_en": "younger sword immortals from the side hall arriving in haste, footsteps in a flurry, robes rustling continuously",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞鸟坠地的声",
+            "trigger_offset": 0
           }
         ]
       },

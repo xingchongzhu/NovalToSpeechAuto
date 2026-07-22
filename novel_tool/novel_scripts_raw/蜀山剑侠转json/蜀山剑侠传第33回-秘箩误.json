@@ -87,7 +87,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第33回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -106,7 +106,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人回观之后，醉道人把前事说了一遍。又说自己业经擅作主张，与他们订下十五之约。他们人虽众多，看不出有什么特别人物在内。但不知他们所请的人到齐没有。矮叟朱梅道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -117,7 +117,9 @@
             "sound_cn": "众人回到辟邪村玉清观，脚步声杂沓交错，衣袍摩擦声与低声交谈声交织成一片热闹的回响",
             "sound_en": "the group returning to Yuqing Temple at Poxie Village, footsteps shuffling and overlapping, robes rustling and low murmurs interweaving into a lively echo",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人回观之后",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -127,7 +129,9 @@
             "sound_cn": "众人各自落座，椅凳与地面摩擦发出轻微的吱呀声",
             "sound_en": "the group taking their seats, chairs and stools scraping lightly against the floor with soft creaks",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人回观之后",
+            "trigger_offset": 0
           }
         ]
       },
@@ -165,7 +169,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人谈了一会，便议定由玉清大师、醉道人、顽石大师、髯仙李元化四人，分班每日前往慈云寺探看虚实。转眼光阴，便到了正月初五。双方陆续又来了不少帮手。辟邪村玉清观来的是：餐霞大师弟子女空空吴文琪同女神童朱梅，东海三仙之一玄真子的大弟子诸葛警我，东海三仙之一苦行头陀的大弟子笑和尚，神尼优昙的大弟子素因等。慈云寺那边来的是：许飞娘门徒三眼红蜺薛蟒，晓月禅师的两个门徒通臂神猿鹿清、病维摩朱洪，武当山金霞洞明珠禅师，飞来峰铁钟道人等。许飞娘因有特别原因，不能前来。晓月禅师日内准到。法元闻讯之后，稍放宽心。到了初九那一天，追云叟白谷逸才到了辟邪村。众人上前，分别拜见之后，追云叟又谢了矮叟朱梅先到之情。随后便问素因与玉清大师：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -176,7 +180,9 @@
             "sound_cn": "追云叟驾着一道剑光从天而降，剑光敛去时发出一阵低沉的嗡鸣声，衣袍在风中猎猎翻飞，落地时尘土微扬",
             "sound_en": "Zhuiyun Sou descending in a sword light from the sky, the light fading with a low hum, robe flapping in the wind, dust rising softly as he lands",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人谈了一会",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.8,
@@ -186,7 +192,9 @@
             "sound_cn": "众人纷纷上前拜见追云叟，衣袍窸窣声与脚步声交织成一片，充满敬意与热忱",
             "sound_en": "the group stepping forward one by one to pay respects to Zhuiyun Sou, robes rustling and footsteps interweaving, filled with reverence and warmth",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人谈了一会",
+            "trigger_offset": 0
           }
         ]
       },
@@ -224,7 +232,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "素因答道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -262,7 +270,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "追云叟闻言道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -300,7 +308,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，女神童朱梅忽然走将过来，朝着追云叟跪了下去，随将手中一封书信呈上，起来侍立一旁。追云叟接过餐霞大师书信，看了一遍，点了点头，朝着矮叟朱梅说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -311,7 +319,9 @@
             "sound_cn": "女神童朱梅跪地呈上书信，衣袍拂地发出庄重的沙沙声，书信展开时纸张发出细微的声响",
             "sound_en": "Goddess Zhu Mei kneeling and presenting a letter, robe sweeping the ground with a solemn rustle, paper rustling softly as it is unfolded",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "女神童朱梅忽",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -321,7 +331,9 @@
             "sound_cn": "追云叟展信阅读，纸张翻动发出轻微的沙沙声",
             "sound_en": "Zhuiyun Sou unfolding and reading the letter, paper rustling softly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "女神童朱梅忽",
+            "trigger_offset": 0
           }
         ]
       },
@@ -359,7 +371,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "矮叟朱梅面带喜容道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -397,7 +409,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这一番话，众人当中，只有一二人明白，连女神童朱梅本人也莫名其妙。不过她在山中久闻三仙、二老之名，并且知道一老中，有一个与他同名同姓。不知怎的，日前见了矮叟朱梅以后，心中无端起了万般厌恶此人之感，自己也不知什么原故。现在听追云叟说了这一番话，估量其中定有前因，又不敢问，尽是胡猜乱想。忽听追云叟说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -435,7 +447,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "在百数十年前，矮叟朱梅朱道友同女神童朱梅的前生名叫文瑾，乃是同窗好友。幼年同是巍科，因见明末奸臣当道，无意作官，二人双双同赴峨眉，求师学道。得遇峨眉派鼻祖长眉真人的师弟水晶子收归门下，三年光阴，道行大进。同时，师父水晶子也兵解成仙。有一天，二人分别往山中采药，被文道友在一个石壁里发现了一部琅嬛秘笈，其中尽是吐纳飞升之术。文道友便拿将回来，与朱道友一同练习。练了三年工夫，俱都练成婴儿，脱离躯壳，出来游戏。山中岁月，倒也逍遥自在。当时文道友生得非常矮小，朱道友却是一表非凡。道家刚把婴儿练成形时，对于自己的躯壳，保护最为要紧。起初他二人很谨慎，总是一个元神出游，一个看守门户，替换着进行。后来胆子越来越大，常有同时元神出游的时候，不过照例都是先将躯壳安置在一个秘密稳妥的山洞之中。也是文道友不该跟朱道友开玩笑，他说那琅嬛秘笈乃是上下两卷，他拿来公诸同好的只是第一卷，第二卷非要朱道友拜他为师，不肯拿出来。朱道友向道心诚，不住地央求，也承认拜文道友为师。文道友原是一句玩笑话，如何拿得出第二卷来？朱道友却认为是文道友成心想独得玄秘，二人渐渐发生意见。后来朱道友定下一计：趁文道友元神出游之时，他也将元神出窍，把自己躯壳先藏在山后一个石洞之中，自己元神却去占了文道友的躯壳，打算借此挟制，好使文道友将第二卷琅嬛秘笈献了出来。等到文道友回来，见自己躯壳被朱道友所占，向他理论，朱道友果然借此挟制，非叫他献出原书不可。等到文道友赌神罚咒，辨证明白，朱道友也打算让还文道友躯壳时，已不能够了。原来借用他人躯壳，非功行练得极深厚，绝不能来去自如。这一下，文道友固然吓了个胆落魂飞，朱道友也闹了个惶恐无地，彼此埋怨一阵，也是无用。还是朱道友想起，双方将躯壳掉换，等到道成以后，再行还原。这个法子同打算原本不错，等到去寻朱道友本身躯壳时，谁想因为藏得时候疏忽了一点，被野兽钻了进去，吃得只剩一些尸骨。文道友以为朱道友是存心谋害，誓不与朱道友甘休。但是自身仅是一个刚练成形的婴儿，奈何他不得。每日元神在空中飘荡，到晚来依草附木，口口声声喊朱道友还他的躯壳。山中高寒，几次差一点被罡风吹化。朱道友虽然后悔万分，但也爱莫能助。日日听着文道友哀鸣，良心上受刺激不过，正打算碰死在峨眉山上，以身殉友。恰好长眉真人走过，将文道友元神带往山下，找一个新死的农夫，拍了进去。朱道友听了这个消息，便将他接引上山，日夕同在一处用功。叵耐那农夫本质浅薄，后天太钝，不能精进。并且记恨前仇，屡次与朱道友拼命为难，想取朱道友的性命，俱被朱道友逃过。他气忿不过，跳入舍身岩下而死。又过了数十年，朱道友收了一个得意门徒，相貌与文道友生前无二，爱屋及乌，因此格外尽心传授。谁想这人心怀不善，学成之后，竟然去行刺朱道友。那时朱道友已练得超神入化，那人行刺未成，便被朱道友元神所斩。等到他死后，又遇见长眉真人，才知果然是文道友投生，朱道友后悔已是不及。又隔了若干年，朱道友在重庆市上，看见一双乞儿夫妇倒毙路侧，旁边有一个两岁女孩，长得与文道友丝毫无二。这时朱道友已能前知，便算出来果是文道友三次托生。当时原想将她带回山中抚养，又鉴于前次接二连三地报复不休，将来难免麻烦；欲待不管，一来良心上说不过去，二来见这女孩生就仙骨，资禀过人，如被异教中人收了去，同自己冤冤相报，还是小事，倘或一个走入歧途，为祸世间，岂不孽由己造？自己生平从未带过女徒弟，为难了好一会，才想起黄山餐霞大师。当下便买了两口棺木，将女孩父母收殓，将这女孩带往黄山，拜托餐霞大师培养教育。餐霞大师见这女孩根基厚，颇为喜欢，当下便点头应允。那女孩因在路上受了风寒感冒，头上有些发热。朱道友的丹药本来灵异，便取了一粒，与那女孩调服。那女孩服了朱道友灵药之后，不消片刻，便神志清醒过来，居然咿呀学语，眉目又非常灵秀，餐霞大师与朱道友俱各欢喜非常。朱道友见那女孩可爱，便用手抚弄。谁想那女孩前因未昧，一眼认清朱道友面目，恶狠狠睁着两只眼，举起两只小手，便往朱道友脸上一抓，竟自气晕过去。朱道友知她怀恨已深，自己虽用许多苦心，难于解脱，不由得叹了口气，回身便走。餐霞大师因这女孩没有名字，忙将朱道友唤转，叫他与女孩取名。朱道友为纪念前因起见，又不知那女孩生身父母名姓，便说就叫她朱梅，说完走了。直到今日，才与这女孩二次见面。这便是女神童朱梅与朱道友的一段因果。这女神童朱梅因今年在华山去除毒蟒，误中了白骨箭，得服肉芝之后，把她生来恶根，业已化除净尽。虽然异日决不会再发生什么举动，但是你们两人俱都应当由我把话说明。因为峨眉派着眼门户光大，女神童朱梅是后辈中最优良的弟子。她的险难也太多，很有仰仗朱道友相助的时候。我既受餐霞大师委托，与你们两家化解，依我之见，莫如朱道友破一回例，收这女神童为门下弟子，以后如遇危险，朱道友责无旁贷，努力扶她向上，把昔日同门之好，变为师生之谊。把她的名字，也改过来，以便称呼。了却这一件公案，岂不两全美？",
-          "instruct": "庄重讲述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -446,7 +458,9 @@
             "sound_cn": "远处传来一声悠远沉厚的古钟鸣响，余音在观中回荡不绝，烘托讲述三世往事时的沧桑与宿命之感",
             "sound_en": "a distant ancient bell tolling deep and resonant, its echoes lingering through the temple, evoking the weight of karma and lifetimes past",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "在百数十年前",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -456,7 +470,9 @@
             "sound_cn": "追云叟讲述间，殿中烛火微微摇曳，发出轻微的噼啪声响",
             "sound_en": "as Zhuiyun Sou speaks, the candle flames in the hall flicker gently, with soft crackling sounds",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "数十年前",
+            "trigger_offset": 0
           }
         ]
       },
@@ -475,7 +491,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "矮叟朱梅闻言，微笑不语。那女神童朱梅这才恍然大悟，听到前生伤心处，不由掉下两行泪珠来。她自服了肉芝之后，久已矜平躁释，再加餐霞大师日常训导之力，心地空灵已极。平日常听师父说，自己根行甚厚，异日必可大成，但是多灾多难。师父三十年内便要飞升，巴不得有这一个永远保镖的，时常照护于她。见追云叟要叫她拜矮叟朱梅为师，这种莫大良机，岂肯失之交臂。一时福至心灵，便不等招呼，竟自走了过来，朝着追云叟与朱梅二人双膝跪下，口称：",
-          "instruct": "感动叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -486,7 +502,9 @@
             "sound_cn": "女神童朱梅泪珠无声滑落，发出一声轻微而压抑的抽泣，在寂静的殿中格外清晰",
             "sound_en": "Goddess Zhu Mei's tears falling silently, a soft and restrained sob, particularly clear in the quiet hall",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "矮叟朱梅闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.8,
@@ -496,7 +514,9 @@
             "sound_cn": "朱梅移步上前，衣袍轻拂地面，发出细碎的声响",
             "sound_en": "Zhu Mei stepping forward, robe brushing lightly against the floor with soft sounds",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "矮叟朱梅闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -526,7 +546,9 @@
             "sound_cn": "女神童朱梅双膝跪地，膝盖与地面接触发出一声清响，额低垂以示至诚",
             "sound_en": "Goddess Zhu Mei kneeling on both knees, a clear sound as knees meet the ground, head bowed in utmost sincerity",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "师父在上",
+            "trigger_offset": 0
           }
         ]
       },
@@ -545,7 +567,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "矮叟朱梅见她跪倒，想起前因，不禁泪下。也不像往日滑稽状态，竟然恭恭敬敬站起，用手相搀，说道：",
-          "instruct": "感动叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -556,7 +578,9 @@
             "sound_cn": "矮叟朱梅眼中泪光闪动，一滴老泪顺着脸颊滑落，滴在衣襟上发出极轻的声响",
             "sound_en": "Aishou Zhu Mei's eyes glistening with tears, a single drop rolling down his cheek, falling onto his robe with the faintest sound",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "矮叟朱梅见她",
+            "trigger_offset": 0
           }
         ]
       },
@@ -594,7 +618,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，从怀中取出一面三寸许方圆的铜镜，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -605,7 +629,9 @@
             "sound_cn": "矮叟朱梅从怀中缓缓取出一面三寸铜镜，镜面与衣料摩擦发出轻微的沙沙声，铜镜在烛光下泛起温润的光泽",
             "sound_en": "Aishou Zhu Mei slowly taking out a three-inch bronze mirror from his bosom, the mirror rubbing against fabric with a soft rustle, the bronze surface gleaming warmly in the candlelight",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "从怀中取出一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -643,7 +669,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "女神童朱梅跪接宝镜以后，又谢了师父赐名之恩。小辈剑侠中，俱都代女神童朱梅庆幸这一番异数，彼此又互贺了一回。从此，女神童朱梅，便改名朱文。不提。追云叟与矮叟朱梅率领众剑侠，在辟邪村玉清观又住了数日，不觉已是灯节期近。到了十三日下午，醉道人回来，报道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -654,7 +680,9 @@
             "sound_cn": "朱文双手恭敬接过宝镜，铜镜落入掌心时发出一声清脆悦耳的碰触声",
             "sound_en": "Zhu Wen receiving the bronze mirror with both hands in reverence, a crisp and pleasing sound as it meets her palms",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "女神童朱梅跪",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.6,
@@ -664,7 +692,9 @@
             "sound_cn": "小辈剑侠们纷纷上前贺喜，欢笑声与祝贺声交织成一片热闹景象",
             "sound_en": "the younger sword immortals stepping forward to offer congratulations, laughter and well-wishes interweaving into a lively scene",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "女神童朱梅跪",
+            "trigger_offset": 0
           }
         ]
       },
@@ -683,7 +713,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "后日便是十五，他们那里请的主要人物，如晓月禅师、毒龙尊者、烈火祖师、万妙仙姑许飞娘等，俱都一个未到，不解何故。追云叟闻言，寻思一会，仍嘱咐他们四人随时留意打探，不可轻敌妄动。这时候最难受的，是小一辈的剑侠。初来时，以为一到便要与慈云寺一干人分个高下，一个个兴高采烈。谁想到了成都，一住已有二十天，不见动静。每日随侍各位老前辈，在玉清观中行动言语俱受拘束，反不如山中自由自在。金蝉性质最为活泼淘气，估量就是到了十五，有众位老前辈在场，自己又有姊姊管束，未必肯让他出去与人对敌。临来时，母亲赐给他一对鸳鸯霹雳剑，恨不能择个地方，去开个利市。无奈单丝不成线，孤木不成林，打算约请两个帮手，偷偷前往慈云寺去，杀掉两个妖人，回来出出风头。姊姊灵云又寸步不离，难以进行，好生焦闷。偏巧这日醉道人奉命走后，齐灵云因女神童朱文约她下棋，灵云便要金蝉前去观阵。金蝉假装应允，等到齐、朱二人聚精会神的时候，偷偷溜了出来。小弟兄中，他同周轻云、孙南、张琪兄妹、苦行头陀的大弟子笑和尚最说得来。他因张琪兄妹年幼，剑术未成，不便约人家涉险。先去找着了轻云、孙南，又对笑和尚使了个眼色，四人一同走到观后竹园中，各自寻了一块石头坐下。轻云、笑和尚便问他相邀何事。金蝉道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -694,7 +724,9 @@
             "sound_cn": "玉清观后竹园中，夜风穿林而过，竹叶相互碰撞发出连绵的沙沙声响，月色朦胧如水银泻地，四人各自在青石上落座",
             "sound_en": "night wind rustling through the bamboo garden behind Yuqing Temple, bamboo leaves clashing with continuous rustling sounds, pale moonlight like quicksilver spilling on the ground, the four taking seats on bluestones",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "后日便是十五",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.2,
@@ -704,7 +736,9 @@
             "sound_cn": "四人各自在青石上坐下，衣料与粗糙石面摩擦发出轻微的沙沙声",
             "sound_en": "the four sitting down on bluestones, fabric rubbing against rough stone with soft rustling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "日便是十五",
+            "trigger_offset": 0
           }
         ]
       },
@@ -734,7 +768,9 @@
             "sound_cn": "金蝉说到兴起处一拍膝盖，发出轻快的声响",
             "sound_en": "Jin Chan slapping his knee in excitement, a light and brisk sound",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我到此最早",
+            "trigger_offset": 0
           }
         ]
       },
@@ -753,7 +789,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南知道事情非同小可，以追云叟那么大法力，尚主持重，这样大事，岂是几个小孩子所能办的？但是他知道金蝉小孩脾气，不敢驳回，只拿眼望着别人，不发一言。轻云天资颖异，在餐霞大师门下，入门虽浅，功夫最深。新近又跟玉清大师学了许多法术，艺高人胆大。虽然觉得事情太险，但去否都可，并不坚持一面。那笑和尚本是书中一个主要人物，他的出身甚奇，留待后叙。年才十四五岁，为苦行头陀生平惟一弟子。五岁从师，练就一身惊人艺业。性情也和金蝉差不多，长就一个圆脸，肥肥胖胖，终日笑嘻嘻，带着一团和气。可是他胆子却生来异乎寻常之大。再加以苦行头陀轻意未收过徒弟，因他生有异质，便不惜把自己衣钵尽心传授，平日又多所奖励。此次奉命前来到场，曾有信与二老，说他可以随意听候调遣，那意思就是他均可胜任。他本领大，心也大，自然是巴不得去闯个祸玩玩。他听完了金蝉之言，见孙南、周轻云俱不发言，便站起身来说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -764,7 +800,9 @@
             "sound_cn": "笑和尚猛地站起身，衣袍带起一阵风声，圆脸在月色下泛起兴奋的光彩",
             "sound_en": "Laughing Monk springing to his feet, robe rustling with a gust of wind, his round face glowing with excitement in the moonlight",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "孙南知道事情",
+            "trigger_offset": 0
           }
         ]
       },
@@ -802,7 +840,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "轻云本是无可无不可的，见笑和尚小小年纪这般奋勇，怎肯示弱，当下也点头应允。孙南见二人赞同，便也不好意思反对。又商量了一会，定下三更时分，一同前往。金蝉又叫笑和尚到时故意约自己同榻夜话，以免灵云疑心拦阻，不叫他去。四人刚把话说完，齐灵云、朱文、吴文琪三人一起，又说又笑，并肩走入后园。见他四人在这里，灵云便上前问金蝉道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -813,7 +851,9 @@
             "sound_cn": "齐灵云、朱文、吴文琪三人并肩走入竹园，说笑声由远及近，脚步踩在落叶上发出沙沙声响",
             "sound_en": "Qi Lingyun, Zhu Wen, and Wu Wenqi entering the bamboo garden side by side, their laughter and voices approaching, footsteps crunching on fallen leaves",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "轻云本是无可",
+            "trigger_offset": 0
           }
         ]
       },
@@ -851,7 +891,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉闻言，冷笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -881,7 +921,9 @@
             "sound_cn": "金蝉发出一声冷笑，带着少年人的倔强与不服气",
             "sound_en": "Jin Chan letting out a cold laugh, with a teenager's stubbornness and defiance",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "怎么你可找朋",
+            "trigger_offset": 0
           }
         ]
       },
@@ -900,7 +942,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云正要回答，吴文琪连忙解劝道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -938,7 +980,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -976,7 +1018,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1014,7 +1056,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说完，不等灵云开言，竟自走去。灵云过来，刚要问笑和尚，金蝉与他说些什么。笑和尚生平从不会说假话，也不答应，把大嘴咧着，哈哈一声狂笑，圆脑袋朝着众人一晃，无影无踪。",
-          "instruct": "诙谐收束"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1025,7 +1067,9 @@
             "sound_cn": "笑和尚仰头发出一阵爽朗狂放的大笑声，笑声洪亮如钟，在竹园中回荡不绝，充满少年人的豪气与顽皮",
             "sound_en": "Laughing Monk throwing his head back and letting out a bold and hearty laugh, resonant as a bell, echoing through the bamboo garden, filled with a youth's boldness and mischief",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不等灵云开言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.8,
@@ -1035,7 +1079,9 @@
             "sound_cn": "笑和尚圆脑袋一晃，身形凭空消失无踪，只余衣袍带风的轻微声响和一串余笑在夜风中飘散",
             "sound_en": "Laughing Monk shaking his round head and vanishing without a trace, only the faint rustle of his robe and the lingering echo of laughter drifting away in the night breeze",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不等灵云开言",
+            "trigger_offset": 0
           }
         ]
       },

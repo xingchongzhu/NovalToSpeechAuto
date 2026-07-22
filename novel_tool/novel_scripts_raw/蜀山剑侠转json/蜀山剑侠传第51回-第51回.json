@@ -75,7 +75,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第51回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -94,7 +94,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妙一夫人望着眼前站的这一班男女，一个个眉目清秀，泪脸含娇。虽然都还是丰采翩翩，花枝招展的男女，可是大半真元已亏，叫他们回了家，也不过是使他们骨肉家人团聚上三年五载，终归痨病而死罢了。当下一点人数，连男带女竟有二十四个。便朝他们说道：",
-          "instruct": "平静叙述，略带悲悯"
+          "instruct": ""
         },
         "effects": [
           {
@@ -105,7 +105,9 @@
             "sound_cn": "人群中传出压抑的低低啜泣声，女子们以袖掩面，抽噎声在洞壁间回响",
             "sound_en": "low suppressed sobbing rising from the crowd, women covering faces with sleeves, choked cries echoing off cave walls",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "妙一夫人望着",
+            "trigger_offset": 0
           }
         ]
       },
@@ -143,7 +145,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这一班青年男女听了，俱都面面相觑，彼此各用目光对视。妙一夫人知道他们默认，不好意思明说。便又对他们说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -181,7 +183,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，那些女人果然都腼腼腆腆地退到适才出来的石室之中去了。只有一个女子哭得像泪人一般，跪在地下不动。英琼见那女子才十五六岁，生得非常美貌，哭得甚是可怜，便上前安慰她道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -192,7 +194,9 @@
             "sound_cn": "裘芷仙跪地哀哭，哭声凄楚动人，泪如雨下，肩膀不住颤抖，令人心碎",
             "sound_en": "girl kneeling and sobbing brokenly, weeping heart-wrenchingly, tears streaming, shoulders trembling pitifully",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那些女人果然",
+            "trigger_offset": 0
           }
         ]
       },
@@ -230,7 +234,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那女子见英琼来安慰她，抬头望了英琼一眼，越加伤心痛哭起来。妙一夫人先时对这一干男女虽然发了恻隐之心，因要在天亮前把诸事预备妥当，知道他们俱受过妖人采补，不甚注意。及至见末后这一个女子哀哀跪哭，不肯进去，才留神往她脸上一看，不禁点了点头。这时朱梅不耐烦听这些男女哭声惨状，早又带了猩猩二次往后面石室中去了。英琼见那女子劝说无效，还是不住口地哭，正待不由分说将她抱往里面，妙一夫人忙道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -268,7 +272,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，连忙应声，垂手侍立。那女也止住哭声。妙一夫人先在众人脸上望了一望，再唤英琼击钟。英琼领命，便将钟敲了一下。这些女子在这颠沛流离的时候，还是没有忘了害羞，谁也不肯抢先出来。妙一夫人连催两次，无人走出。恼得英琼兴起，走到她们房门口，只见那些女子正在推推躲躲，哭笑不得，被英琼随手一拉，牵小羊似地牵了一个出来。妙一夫人便看来人受害深浅，在众少男中选出一个。这一双男女知道事已至此，便都跪下，互说了家乡姓名，叩谢妙一夫人救命成全之恩，起来侍立一旁。英琼又将钟击了一下，那些女子还是不肯出来，还是英琼去拉出来，如法炮制。直到三五对过去，大家才免了做作，应着钟声而出。这里头的男女各居半数，只配了十一对，除起初那个跪哭的女子外，还有一个男子无有配偶。那女子起初看众人在妙一夫人指挥下成双配对，看得呆了。及至见众人配成夫妻，室中还剩一个男的，恐怕不免落到自己头上，急忙从地上挣扎起来，跑向妙一夫人身前跪下，哭诉道：",
-          "instruct": "略带诙谐转沉重"
+          "instruct": ""
         },
         "effects": [
           {
@@ -279,7 +283,9 @@
             "sound_cn": "铜钟被敲响，浑厚悠远的钟声在山洞中回荡，余音袅袅不绝",
             "sound_en": "bronze bell being struck, deep resonant tone echoing through cave with lingering reverberation",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "琼闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14,
@@ -289,17 +295,21 @@
             "sound_cn": "铜钟再次被敲响，声音在石室中回旋激荡，震得人心微颤",
             "sound_en": "bell struck again, sound swirling and echoing through stone chamber, trembling hearts",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "再唤英琼击钟",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 26,
+            "trigger_delay": 38.3,
             "duration": 4,
             "process_mode": "overlay",
             "name": "人群低语与脚步声",
             "sound_cn": "众人低语和细碎脚步声混杂，衣料摩擦声此起彼伏，羞怯而慌乱",
             "sound_en": "low murmurs and shuffling footsteps mingling, fabric rustling rising and falling, shy and flustered",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "走出。恼",
+            "trigger_offset": 0
           }
         ]
       },
@@ -329,7 +339,9 @@
             "sound_cn": "裘芷仙连连叩头，额头撞击石地发出沉闷的声响，一声声叩在人心上",
             "sound_en": "girl kowtowing repeatedly, forehead striking stone floor with dull thuds, each one striking the heart",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "女裘芷仙",
+            "trigger_offset": 0
           }
         ]
       },
@@ -348,7 +360,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时泪珠盈盈，十分令人哀怜，感动得旁观那些男女，也都偷偷饮泪吞声不止。妙一夫人适才细看裘芷仙，已知她非凡品。又见剩下那个男的，虽然面目秀美，却是受害已深，看他相貌又不似有根底人家子弟，不配做芷仙的配偶。再听芷仙哭诉一番，料知她的被污，完全中了妖法，无力抵抗，并且看出她的为人贞烈，不由动了恻隐之心。正要开言说话，那裘芷仙已把话说完，又叩了十几个头，站起身来，一头往石壁上猛撞过去。英琼身法何等敏捷，见她楚楚可怜，早动了怜悯之心，哪容见死不救！身子一纵，抢上前去，将她抱了回来。妙一夫人便道：",
-          "instruct": "哀感动人转紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -359,7 +371,9 @@
             "sound_cn": "旁观众人偷偷拭泪啜泣，低低的哭声此起彼伏，衣袖摩擦声细碎",
             "sound_en": "crowd secretly wiping tears and sobbing, low cries rising one after another, sleeves rustling softly",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "感动得旁观那",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10,
@@ -369,17 +383,9 @@
             "sound_cn": "裘芷仙猛然向石壁撞去，额头与石面碰撞发出沉闷声响，令人心惊",
             "sound_en": "girl lunging headfirst toward stone wall, dull thud of head striking rock, jolting the heart",
             "volume": "-20%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 12,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "英琼纵身救人",
-            "sound_cn": "英琼飞身抢上前去，衣袂破风，如飞燕掠水般将裘芷仙稳稳抱回",
-            "sound_en": "girl darting forward with speed, robes whistling, like a swallow skimming water, catching and pulling the other back securely",
-            "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "都偷偷饮泪吞",
+            "trigger_offset": 0
           }
         ]
       },
@@ -417,7 +423,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "裘芷仙一听此言，喜出望外，急忙跪下谢恩，叩头不止。夫人便道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -428,7 +434,9 @@
             "sound_cn": "裘芷仙跪地叩头不止，额头触地发出连续轻响，感激涕零",
             "sound_en": "girl kneeling and kowtowing repeatedly, forehead tapping stone in rapid succession, tears of gratitude",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "裘芷仙一听此",
+            "trigger_offset": 0
           }
         ]
       },
@@ -466,7 +474,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这一干男女都对她羡慕不置。那剩下的男子名唤唐西，乃是一个破落户子弟，学得一手好弹唱，被妖道掠上山来，他偏能承欢取媚。那妖道平时选他作众人中一个领袖，只他一人并不用妖法迷禁，反传了许多妖法与他。裘芷仙被妖道抢来才三日，就被他看在眼里。怎奈芷仙身有仙骨，被妖道看中，预先嘱咐，淫乐跳舞时节，不准他染指。他虽然心中胡思乱想，好在美貌男女甚多，倒也不在心上。今日闻得钟声，引众跳舞而出，忽听妖道被妙一夫人等所杀，大吃一惊。他为人机警，知道如要逃走，定然难保性命，莫如假装与众人一样痴呆，相机行事。后来他见众人都有了配偶，只剩下芷仙一人，知道要轮到他的身上，暗中好生庆幸。心想：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -504,7 +512,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "及至芷仙痛哭，妙一夫人答应带了她走，自己空喜欢一场，还是变成一个光棍，暗恨夫人不替他作主。他本会几样障眼法，便安下不良之心，想抽空子抢了就走。偏偏妙一夫人也是一时大意，看见唐西满身邪气，以为他受毒较深，还不知他已学会邪术，只嫌他眉目流动，知非端人，不大答理他。将众人家乡问明之后，便把人分成两起，准备到了天明，与朱梅分别将他们送回故乡。见朱梅不在室中，正要唤英琼入内相请，朱梅已带了猩猩，二次由后洞走来。猩猩手上又包了一大堆食用之物，搁在石床上面。朱梅对妙一夫人道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -542,7 +550,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妙一夫人闻言，才想起英琼、猩猩俱未进食，便唤大众进前随便取食。这些被难男女，平时饮食起居全系受妖法指挥，一旦醒来，又熬了半夜，俱都有些腹中饥饿，听了夫人吩咐，便都上前取食。英琼见那些食物大半是川中出产的糖食饼饵之类，多日未曾吃过，颇觉好吃，只是有些口干。猛想起自己包裹内还有许多好吃的鲜果同黄精、松子，何不取将出来孝敬师父师伯？想到这里，忙将包裹打开，把莽苍山得来的那些异果取出献上。矮叟朱梅一眼看见那数十枚朱果，大为惊异，便问妙一夫人：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -553,7 +561,9 @@
             "sound_cn": "众人上前取食，碗碟碰撞声、脚步声和低语声混杂成一片",
             "sound_en": "crowd stepping forward for food, bowls and plates clinking, footsteps and low murmurs mingling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "妙一夫人闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4,
@@ -563,7 +573,9 @@
             "sound_cn": "包裹被打开，衣料摩擦声和朱果碰撞的轻响，果香四溢",
             "sound_en": "bundle being opened, fabric rustling and Zhu fruits clinking together softly, fragrance wafting",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "才想起英琼",
+            "trigger_offset": 0
           }
         ]
       },
@@ -601,7 +613,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼起初对妙一夫人说斩木魃经过，因不知朱果名称，只说是因叫猩猩领自己去寻红色果子，才得斩了一个怪物。妙一夫人也未想到英琼会将天地间灵物得来许多。及至见英琼取出，也觉希奇，便叫英琼说斩木魃经过。英琼遵嘱说了一遍。朱梅道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -639,7 +651,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼又把同吃何首乌的事说了一遍。妙一夫人与矮叟朱梅俱惊英琼遇合之奇不置。英琼起初拿出来时，原想孝敬师父、师伯之后，分给这些被难男女。及至听完妙一夫人与朱梅之言，才知此果有许多妙用，不禁心中狂喜，又有些舍不得起来。忙取了十枚献与朱梅，把余下三十多枚献与妙一夫人。夫人笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -650,7 +662,9 @@
             "sound_cn": "英琼将朱果献上，果实落入掌心发出轻微的碰撞声，果香扑鼻",
             "sound_en": "girl offering Zhu fruits, fruits dropping into palms with soft clinks, sweet fragrance rising",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼又把同吃",
+            "trigger_offset": 0
           }
         ]
       },
@@ -688,7 +702,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，随手拈了几个吃了。朱梅也不客气，吃了两个，把其余的揣在身旁，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -699,7 +713,9 @@
             "sound_cn": "二人轻咬朱果，清脆的果肉破裂声和低低的赞叹声",
             "sound_en": "two people biting into fruits, crisp sounds of flesh breaking and soft murmurs of approval",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随手拈了几个",
+            "trigger_offset": 0
           }
         ]
       },
@@ -737,7 +753,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，从身上取出一个两寸长，类似一只冰钻，似金非金、似玉非玉的东西，递与英琼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -748,7 +764,9 @@
             "sound_cn": "朱梅从怀中取出朱雀冰钻，宝物发出极轻微的嗡鸣声，五彩霞光隐现",
             "sound_en": "old man taking out the treasure from his robe, faint humming from the object, hint of five-colored light",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "从身上取出一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -786,7 +804,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼闻言，拿眼望着妙一夫人，还不敢伸手去接。妙一夫人叫英琼跪下领谢。英琼连忙跪下，谢了朱梅，接过那只冰钻。她自从被赤城子带出，虽然辛苦颠沛了好多日子，既得了许多异果奇珍，又得拜了剑侠中领袖为师，可算此行不虚，真是兴高采烈，心头说不出来地喜欢。妙一夫人叫英琼把剩下的朱果包好。英琼再三请夫人多吃几个，妙一夫人见英琼满脸天真至诚，不忍拂她的意，便取了八个带在身上。英琼见裘芷仙站在旁边，秀目盈盈，泪光满面，望着朱果，大有垂涎之态，神气非常可怜。便取了两个朱果递与她道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -824,7 +842,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "芷仙闻言，含羞接过道谢，正要张口去吃。忽然满洞漆黑，伸手不辨五指，一声娇啼过去，接着又是一声惨叫。英琼疑是什么妖怪前来，拔剑出匣时，妙一夫人已将手一搓，发出一道白光，把全洞照得通明。再看地下，躺着一具死尸，业已腹破肠流，鲜血洒了一地。那个猩猩正用地下的碎纸在擦手上的血迹。洞口旁边倒着裘芷仙，业已吓晕过去。那一干被难男女，也吓得挤作一团，嘤嘤啜泣。英琼见那死尸正是适才择配时落后向隅的唐西，疑是猩猩野性未驯，无故伤人，恐怕妙一夫人怪罪，正要上前责问。妙一夫人笑道：",
-          "instruct": "紧张惊变"
+          "instruct": ""
         },
         "effects": [
           {
@@ -835,7 +853,9 @@
             "sound_cn": "洞穴中灯火突然全灭，陷入伸手不见五指的黑暗，阴风骤起呼啸，令人毛骨悚然",
             "sound_en": "cave lights suddenly extinguished, pitch black darkness, sudden eerie wind howling, sending chills down spines",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "芷仙闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1,
@@ -845,7 +865,9 @@
             "sound_cn": "裘芷仙一声惊叫，紧接着唐西发出凄厉的惨叫声，撕心裂肺",
             "sound_en": "girl's startled cry, followed by man's piercing agonized scream, rending the heart",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "芷仙闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3,
@@ -855,7 +877,9 @@
             "sound_cn": "猩猩钢爪抓入唐西胸腹，血肉撕裂声和骨骼碎裂声清晰可怖，血溅满地",
             "sound_en": "gorilla's claws tearing into man's chest and abdomen, ripping flesh and cracking bones audibly, blood splattering",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "含羞接过道谢",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5,
@@ -865,7 +889,9 @@
             "sound_cn": "唐西尸体扑通倒地，鲜血洒落地面发出黏腻的声响，在寂静中格外刺耳",
             "sound_en": "body thudding to ground, blood splattering with wet sticky sounds, particularly harsh in the silence",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "正要张口去吃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6,
@@ -875,7 +901,9 @@
             "sound_cn": "妙一夫人掌心发出白光，瞬间照亮全洞，光芒刺目如烈阳",
             "sound_en": "white light bursting from woman's palm, instantly illuminating entire cave, dazzling like the sun",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "要张口去吃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10,
@@ -885,7 +913,9 @@
             "sound_cn": "被难男女吓得挤作一团，嘤嘤啜泣声和惊叫声交织，颤抖不止",
             "sound_en": "frightened crowd huddling together, whimpering and sobbing mingled with gasps, trembling uncontrollably",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "伸手不辨五指",
+            "trigger_offset": 0
           }
         ]
       },
@@ -923,7 +953,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "原来唐西因见心上人不能到手，仗着自己会了几样小妖法，时时刻刻想摄了芷仙逃走。妙一夫人起初只以为他是受邪太深。等到择配完毕，见他一人向隅，一双贼眼不住在那些女子身上打量，尤其对于芷仙格外注意；又见众人在惊魂乍定后，俱是满脸伤心与害怕的神气，惟独他神态自若，这才对他留一番心，觉得这人不是善良之辈。后来见他吃东西时举动轻捷，不似别人身体亏虚，行步迟钝。细细一看，果然看出这个人以前是假装痴呆，便知是妖人余党。估量他能力有限，不敢班门弄斧，且看一看再说。谁想唐西见妙一夫人等站在室中，离他较远，恰好芷仙接朱果时，正站在他的身旁不远，以为是一个良机。心想：自己虽不是人家敌手，借法逃走，总还可以。当下口中默诵妖诀，将室中灯火弄灭，黑暗之中驾起阴风，才待抱了芷仙御风逃走。他这点障眼法儿，如何遮得住妙一夫人与矮叟朱梅的慧眼，正要上去制止。那猩猩本自通灵，又食了许多灵药仙果，可以暗中视物。眼见唐西要抢了一个女子逃走，如何容得，将身一纵，已抢到唐西面前，一爪抓住芷仙，一爪往唐西胸前一抓，已将他活生生破腹抓死。英琼听了妙一夫人之言，还不大明白。那猩猩自己上前朝英琼跪下，指着死尸，连喊",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -942,7 +972,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "贼怪。",
-          "instruct": "兽语人言，愤怒"
+          "instruct": ""
         },
         "effects": [
           {
@@ -953,7 +983,9 @@
             "sound_cn": "猩猩指着尸体发出愤怒的低吼声，半人言半兽语，充满灵性",
             "sound_en": "gorilla pointing at corpse with angry growl, half-human-half-animal utterance, full of intelligence",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "贼怪",
+            "trigger_offset": 0
           }
         ]
       },
@@ -972,7 +1004,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "妙一夫人又把唐西举动说了一遍，英琼才知究竟。便走过去，将芷仙扶起，唤了几声。芷仙原是一时着了惊吓，被英琼一阵呼唤，悠悠醒转。英琼又对她把前事说了一遍，芷仙便上前谢了众人与猩猩救命之恩。这时天光业已向曙。妙一夫人再细看其他男女，俱都无甚异样，便对朱梅道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -983,7 +1015,9 @@
             "sound_cn": "裘芷仙悠悠醒转，一声轻叹和起身的衣料摩擦声，惊魂未定",
             "sound_en": "girl slowly regaining consciousness, soft sigh and rustle of clothing as she stirs, still shaken",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一夫人又把唐",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1040,7 +1074,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说吧，便从身旁取出一包丹药，拣了十八粒，付与众人。妙一夫人又将石榻上的一个花瓶，叫猩猩拿到外面洗净，取些山泉来。一面同朱梅、英琼齐至后洞察看，又寻出许多首饰金银，拿来分与众人，带回家去。只等猩猩取水回来，服药上路。芷仙把两个朱果捡起吃完，觉得入口甘芳，精神顿振，愈加动了出家之念。一会工夫，天光大亮，猩猩还未回转。英琼刚要出洞去看，忽听一声长啸，猩猩从洞外飞蹿进来，躲向英琼身后，它爪中取水的瓶不知去向。英琼不知就里，正要责问，忽听洞外连声雕鸣，不及再顾别的，纵身出去看时，果是神雕佛奴同约它去的那只白雕，正要离地飞起。英琼这一喜非同小可，高兴得忘了形，竟忘口中呼唤，将身一纵，竟纵起十余丈高下，刚刚抓着神雕佛奴的钢爪。那神雕佛奴原随它的同伴，由峨眉回到白眉和尚那里去炼骨洗心。等到服完白眉和尚赐的丹药之后，白眉和尚对它说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1051,7 +1085,9 @@
             "sound_cn": "朱梅分发丹药，药丸落入掌心发出细碎轻响",
             "sound_en": "old man handing out pills, small pellets dropping into palms with soft sounds",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便从身旁取出",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10,
@@ -1061,7 +1097,9 @@
             "sound_cn": "众人服药喝水，水流声和吞咽声此起彼伏",
             "sound_en": "crowd taking medicine and drinking water, gulping and swallowing sounds rising and falling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "妙一夫人又将",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20,
@@ -1071,7 +1109,9 @@
             "sound_cn": "猩猩从洞外飞蹿而入，发出惊恐的长啸声，脚步急促",
             "sound_en": "gorilla darting into cave with frightened long howl, footsteps rapid and urgent",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一面同朱梅",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 22,
@@ -1081,17 +1121,21 @@
             "sound_cn": "洞外传来神雕连声长鸣，声音响彻云霄，充满熟悉而亲切的气息",
             "sound_en": "eagle calls ringing out from outside cave, resonant cries piercing the sky, familiar and welcome",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼齐至后洞",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 24,
+            "trigger_delay": 86.8,
             "duration": 2,
             "process_mode": "overlay",
             "name": "英琼纵身抓雕",
             "sound_cn": "英琼奋力纵起十余丈高，衣袂破风，稳稳抓住神雕钢爪",
             "sound_en": "girl leaping over ten zhang high, robes whistling, grasping eagle's steel claw securely",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "纵身出去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1110,7 +1154,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "你的同伴玉奴已是脱离三劫，将归正果的了。惟有你三劫未完，杀心太重。我在十年之中，就要圆寂坐化，念你跟随我一场，特地命玉奴将你唤回，与你脱胎换骨，洗心伐髓。你的新主人仙缘甚厚，可仍回到那里，忠心相随，自然能助你完成三劫，得成正果。你此去就无须乎再来了。",
-          "instruct": "庄重叙述白眉和尚之言"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1129,7 +1173,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "神雕佛奴早已通灵，听了白眉和尚之言，已知前因后果，便长鸣了数十声。白眉和尚知它依恋不舍，又对它说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1140,7 +1184,9 @@
             "sound_cn": "神雕发出数十声依恋的长鸣，声音苍凉悠远，在山谷间久久回荡",
             "sound_en": "eagle letting out dozens of lingering calls, desolate and far-reaching, echoing through valley",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "雕佛奴早已通",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1159,7 +1205,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "你不必再依恋我。你的新主人现时已不在峨眉，你此去由莽苍山顺路经过，便能在路上相遇。她正要用你回山，急速去吧。",
-          "instruct": "庄重叙述白眉和尚之言"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1178,7 +1224,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "神雕佛奴仍是依依不舍，几经白眉和尚催迫，才行上道。那白雕玉奴同伴情深，仍旧送它飞回。这两个雕排云横翼，疾如闪电，那消半个时辰，已飞到了莽苍山，各把速度降低，在空中留神细看。神雕佛奴本来淘气，偶然看见山涧之下有个大猩猩用瓶汲水，知是此山修道人用来代替童仆之用的兽类，便想将它抓住，逗它的主人出来，开个玩笑。谁想那猩猩也是通灵之物，汲水中间，忽然看见从未见过的一黑一白两个大雕朝它扑来，知道不好，没命般朝洞中跑回。任它行走如飞，怎赶得上神雕两翼的神速，一眨眼的功夫，便已追上，只一爪，便将猩猩离地抓起有十余丈高下，然后掷了下来。神雕的本意，原想将猩猩跌个半死，好引它主人出来，没料到猩猩身手会那样轻捷。神雕佛奴并不想伤生，只在它后面追随飞翔，不想倒会把自己主人引了出来。它见一个年轻的女子由洞中捷如飞鸟般纵将出来，只一纵，便抓住它的钢爪，早已认清是它的主人李英琼，当下又慢慢飞翔下来。英琼着地后，妙一夫人、矮叟朱梅也走了出来。神雕佛奴又朝空中叫了两声，白雕玉奴也飞翔下来。两个神雕站在英琼旁，竟比她人还高。妙一夫人见了这两个神雕，笑道：",
-          "instruct": "欢快惊奇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1189,7 +1235,9 @@
             "sound_cn": "神雕俯冲而下，钢爪抓住猩猩离地而起，猩猩惊叫声和翅膀扇动的风声交织",
             "sound_en": "eagle diving, steel claws seizing gorilla and lifting from ground, gorilla's startled cry and wing beats mingling",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "送它飞回",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 16,
@@ -1199,7 +1247,9 @@
             "sound_cn": "猩猩被掷回地面，身体落地发出闷响，但轻捷翻身未受伤",
             "sound_en": "gorilla thrown back to ground with dull thud, but landing agilely and unhurt",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "两个雕排云横",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18,
@@ -1209,7 +1259,9 @@
             "sound_cn": "黑雕白雕先后降落到英琼身旁，翅膀收拢的呼呼风声，威风凛凛",
             "sound_en": "black and white eagles landing beside girl, wing flaps folding with whoosh, majestic presence",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "疾如闪电",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1247,7 +1299,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅认得这两个雕是白眉和尚之物，非常厉害，寻常剑仙俱奈何不了它们，居然会听英琼使唤，真是奇怪。笑对英琼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1323,7 +1375,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼同猩猩共患难多日，听了夫人之言，未免依依不舍，只是初入师门，不知师父脾气，怎敢表示不愿。那猩猩早已通灵，一听夫人不叫它与英琼同去，急忙跑过来，朝着妙一夫人跪下，不住地叩头落泪，嘴里头结结巴巴，半人言半兽语地央求。妙一夫人笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1334,7 +1386,9 @@
             "sound_cn": "猩猩跪地叩头，发出结结巴巴的半人言半兽语的哀求和呜咽声，泪水涟涟",
             "sound_en": "gorilla kneeling and kowtowing, pleading in broken half-human-half-animal tongue, sobbing and whimpering, tears streaming",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼同猩猩共",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1372,7 +1426,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，拿眼望着英琼，又看了那雕一眼。英琼恍然大悟，原来妙一夫人不是不让猩猩同去。但是不明白夫人既示意自己去烦白雕带猩猩回山，何以夫人自己不肯明说？因为出来日久，回山心切，也不及细想原因，便朝黑雕佛奴说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1410,7 +1464,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话言未了，那白雕一个腾达，扑向猩猩身上，舒开两只钢爪，就地将猩猩抓起，冲霄而去，吓得那猩猩连声怪叫。眨眨眼冲入云霄，往峨眉方向而去。英琼见白雕去得突兀，也自心惊，正要向黑雕问猩猩的吉凶，妙一夫人道：",
-          "instruct": "紧张欢快"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1421,7 +1475,9 @@
             "sound_cn": "白雕猛扑而下，钢爪抓住猩猩腾空而起，猩猩惊声怪叫，翅膀扇动声强劲有力",
             "sound_en": "white eagle diving and seizing gorilla with steel claws, lifting off with powerful wing beats, gorilla shrieking in surprise",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "话言未了",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2,
@@ -1431,7 +1487,9 @@
             "sound_cn": "白雕载着猩猩冲入云霄，翅膀扇动声渐行渐远，化作天际一点",
             "sound_en": "white eagle carrying gorilla shooting into clouds, wing beats growing distant, fading to a speck in sky",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1469,20 +1527,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，领了英琼，走到无人之处，将许多要诀一一指点。英琼天资颖异，自是牢记于心，一教便会。妙一夫人传完口诀，日光业已满山，便把洞中男女一齐唤出，按照路途方向，与朱梅分领一半，将各人送回家去。不提。",
-          "instruct": "平静收束"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "清晨鸟鸣与阳光",
-            "sound_cn": "洞外传来清晨的鸟鸣声，阳光满山遍野，新的一天在希望中开始",
-            "sound_en": "morning birds singing outside cave, sunlight flooding the mountains, a new day beginning in hope",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"

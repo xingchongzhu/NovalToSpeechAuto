@@ -75,7 +75,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平淡轻快"
+          "instruct": ""
         }
       },
       "mix": {
@@ -93,7 +93,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -129,12 +129,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "蓝龙",
+            "trigger_keyword": "中飞剑",
             "trigger_offset": -0.3,
             "duration": 1.5,
             "process_mode": "overlay",
@@ -179,7 +179,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -215,7 +215,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -289,7 +289,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -325,7 +325,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写天蓝神砂发动与二女被困的宏大场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -423,7 +423,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -459,7 +459,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写朱雀环收走神砂、姬繁败逃的转折"
+          "instruct": ""
         },
         "effects": [
           {
@@ -533,7 +533,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -569,7 +569,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -631,7 +631,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -667,7 +667,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -703,7 +703,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -757,7 +757,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -793,7 +793,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -829,7 +829,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -865,7 +865,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -901,7 +901,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -937,7 +937,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -973,7 +973,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1009,7 +1009,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1045,7 +1045,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤进入白犀潭峡谷的险景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1095,7 +1095,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1131,7 +1131,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1167,7 +1167,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1203,7 +1203,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写玄儿逗引鬼怪、鬼怪暴怒的惊险场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1265,12 +1265,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 3.0,
-            "trigger_keyword": "清磐",
+            "trigger_keyword": "越想越不甘服",
             "trigger_offset": -0.3,
             "duration": 1.5,
             "process_mode": "overlay",
@@ -1282,7 +1282,7 @@
           },
           {
             "trigger_delay": 8.0,
-            "trigger_keyword": "漩涡",
+            "trigger_keyword": "质问仙人",
             "trigger_offset": -0.3,
             "duration": 2,
             "process_mode": "overlay",
@@ -1327,7 +1327,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1377,7 +1377,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写地仙宫阙的奇景与云凤选宝"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1427,7 +1427,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1463,7 +1463,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1517,7 +1517,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1553,7 +1553,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1589,7 +1589,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1625,7 +1625,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，本章结尾"
+          "instruct": ""
         }
       },
       "mix": {

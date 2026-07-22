@@ -75,7 +75,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平淡轻快"
+          "instruct": ""
         }
       },
       "mix": {
@@ -93,7 +93,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -129,7 +129,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -165,7 +165,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -201,7 +201,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -237,7 +237,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -273,7 +273,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -309,7 +309,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -345,7 +345,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -381,7 +381,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -435,7 +435,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -471,7 +471,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -507,7 +507,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -543,7 +543,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -605,7 +605,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -655,7 +655,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾斩杀妖道和恶党的场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -717,7 +717,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -753,7 +753,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -789,7 +789,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -825,7 +825,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -861,7 +861,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -897,7 +897,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -947,7 +947,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -983,7 +983,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1019,7 +1019,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1055,7 +1055,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1091,7 +1091,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾发现毕修祭炼邪法的过程"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1127,7 +1127,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，杨瑾出手攻击毕修，插入毕修身世追述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1189,7 +1189,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1225,7 +1225,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾与毕修斗法、毕修逃遁的经过"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1275,7 +1275,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1311,7 +1311,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1347,7 +1347,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1383,7 +1383,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1419,7 +1419,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1455,7 +1455,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1491,7 +1491,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1527,7 +1527,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾识破毕修诡计并追入歧山妖阵的转折"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1589,7 +1589,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾陷入玄阴魔阵的困境"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1669,7 +1669,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1705,7 +1705,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1741,7 +1741,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1777,7 +1777,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1813,7 +1813,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾飞雷遁法突围与胡嘉玄阴神幕的正面交锋"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1830,7 +1830,7 @@
           },
           {
             "trigger_delay": 5.0,
-            "trigger_keyword": "黑网",
+            "trigger_keyword": "嘉提醒",
             "trigger_offset": -0.3,
             "duration": 1.2,
             "process_mode": "overlay",
@@ -1875,7 +1875,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写杨瑾被玄阴神幕困住的局势"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1911,7 +1911,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1947,7 +1947,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1983,7 +1983,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -2019,7 +2019,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，结尾留有余韵，杨瑾仍在阵中"
+          "instruct": ""
         }
       },
       "mix": {

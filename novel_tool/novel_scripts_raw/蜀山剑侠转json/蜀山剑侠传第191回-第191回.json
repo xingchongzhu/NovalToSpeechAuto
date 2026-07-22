@@ -69,8 +69,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平淡轻快"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_only"
@@ -87,7 +88,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描绘萧逸悔恨痛哭的激烈场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -132,7 +133,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "焦急呼喊，带着哭腔和担忧"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -149,7 +151,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写萧逸借势止哭"
+          "instruct": ""
         },
         "effects": [
           {
@@ -182,7 +184,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "悲声哭泣，以苦肉计哄劝子女"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -200,7 +203,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "急忙应答，带着惊恐和顺从"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -217,7 +221,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，凸显萧逸对子女的心疼"
+          "instruct": ""
         },
         "effects": [
           {
@@ -250,7 +254,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，悲痛绝望，声气低沉"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -267,7 +272,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写萧逸安排村民寻找爱妻的过程"
+          "instruct": ""
         },
         "effects": [
           {
@@ -312,7 +317,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "颤声询问，强忍泪水，语气带着期盼"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -329,7 +335,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写萧逸得知爱子寻母后的内心波澜"
+          "instruct": ""
         },
         "effects": [
           {
@@ -374,7 +380,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，思忖"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -391,8 +398,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -410,7 +418,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "安慰，语气强作镇定，声音微微颤抖"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -427,8 +436,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -446,7 +456,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "流泪回答，语气带着孩童的天真和不解"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -463,8 +474,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -482,7 +494,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "追问，语气带着怀疑和急切"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -499,8 +512,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -518,7 +532,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "哽咽回忆，声音断续，带着伤痛"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -536,7 +551,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "转述母亲的话，语气悲苦而爱怜交织"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -553,8 +569,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，衔接萧珍的长篇回忆"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -628,7 +645,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "转述仙人话语，语气温和慈悲，带着抚慰"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -646,7 +664,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "收尾回忆，语气疲惫，带着恍惚"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -663,8 +682,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，萧逸悲从中来"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -682,7 +702,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，悲痛而绝望，语气低沉"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -699,7 +720,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写全村搜寻与萧逸内心的煎熬"
+          "instruct": ""
         },
         "effects": [
           {
@@ -716,7 +737,7 @@
           },
           {
             "trigger_delay": 8.0,
-            "trigger_keyword": "泪眼已肿",
+            "trigger_keyword": "信以为真",
             "trigger_offset": 0,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -744,7 +765,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "哭泣自语，带着少年人的恨意与决心"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -761,8 +783,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -780,7 +803,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "假意埋怨，语气故作关切，实则暗藏幸灾乐祸"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -797,12 +821,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "摇头",
+            "trigger_keyword": "把萧逸大大埋",
             "trigger_offset": 0,
             "duration": 0.3,
             "process_mode": "overlay",
@@ -830,7 +854,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，绝望已极，声气微弱"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -847,7 +872,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -880,7 +905,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "惊喜呼喊，带着难以置信的喜悦"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -897,8 +923,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -916,7 +943,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "抢着说话，童音清脆，带着重新燃起的希望"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -933,8 +961,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -952,7 +981,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "惊疑询问，语气急切"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -969,8 +999,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1020,7 +1051,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "急切询问，语气充满期盼"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1038,7 +1070,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "转述，语气认真模仿"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1056,7 +1089,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "转述仙人话语，语气温和慈爱，带着抚慰"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1106,7 +1140,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "转述，语气略带责备，却仍温和"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1155,8 +1190,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1174,7 +1210,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "劝慰，语气温柔而强忍悲痛，带着苦楚的笑"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1191,8 +1228,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1210,7 +1248,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "忿然质问，语气激愤，带着少年人的刚烈"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1227,8 +1266,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1246,7 +1286,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，思虑纷乱，语气低沉而迷茫"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1263,8 +1304,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1282,7 +1324,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "佯装愠色，低声喝止，语气带着无奈"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1299,8 +1342,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1318,7 +1362,8 @@
           "volume": "-4%",
           "pitch": "+2Hz",
           "instruct": "低声回答，语气既认真又带着委屈，强忍泪水"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1335,12 +1380,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，时光流转，萧逸追忆往事与悔恨"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "翻书页",
+            "trigger_keyword": "胸有成",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -1368,7 +1413,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "泪汪汪哭诉，带着孩童的期盼与委屈"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1385,8 +1431,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1404,7 +1451,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "红着眼圈，声音哽咽，带着深切的悲痛"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1421,8 +1469,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1440,7 +1489,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，悲痛中带着最后的希望，语气低沉而执着"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1457,8 +1507,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1476,7 +1527,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "劝慰子女，语气温柔而强忍悲苦，带着期许"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1493,8 +1545,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1512,7 +1565,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "低声叮嘱，语气郑重"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1529,12 +1583,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写佛堂祭奠的悲恸场面"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "佛堂",
+            "trigger_keyword": "三小孩连声应",
             "trigger_offset": 0,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -1574,7 +1628,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "忍泪劝慰，语气温和，带着疲惫"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1591,8 +1646,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1610,7 +1666,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "低声哭诉，悔恨交加，声音颤抖而急切"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1627,7 +1684,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1660,7 +1717,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "大声催促，打断哭诉"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1677,8 +1735,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1696,7 +1755,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "憨憨发问，童音天真无邪"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1713,8 +1773,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，萧逸怒火中烧"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1732,7 +1793,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，怒不可遏，咬牙切齿"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1749,12 +1811,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写雪夜竹园祭奠的凄楚场面"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "烛泪",
+            "trigger_keyword": "心内痛苦",
             "trigger_offset": 0,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -1766,7 +1828,7 @@
           },
           {
             "trigger_delay": 5.0,
-            "trigger_keyword": "积雪成团下落",
+            "trigger_keyword": "实已达于极点",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -1778,7 +1840,7 @@
           },
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "痛哭",
+            "trigger_keyword": "当时虽未发作",
             "trigger_offset": -0.3,
             "duration": 2.5,
             "process_mode": "overlay",
@@ -1806,7 +1868,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "哭问，带着急切与失望"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1823,12 +1886,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写萧逸带子女回房后的苦楚"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 2.0,
-            "trigger_keyword": "洗脚",
+            "trigger_delay": 303.4,
+            "trigger_keyword": "水，给三",
             "trigger_offset": 0,
             "duration": 0.8,
             "process_mode": "overlay",
@@ -1856,7 +1919,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "病中呓语哭喊，声音微弱而凄切"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1873,7 +1937,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写萧逸深夜独返竹园发现异状的诡异场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1930,7 +1994,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "内心独白，惊疑不定，语气低沉"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1947,7 +2012,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1980,7 +2045,8 @@
           "volume": "-4%",
           "pitch": "+0Hz",
           "instruct": "惊呼，带着震惊与难以置信"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -1997,12 +2063,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写雷二娘吊死及后续"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 2.0,
-            "trigger_keyword": "吊死",
+            "trigger_delay": 250.7,
+            "trigger_keyword": "索母，总",
             "trigger_offset": 0,
             "duration": 0.5,
             "process_mode": "overlay",
@@ -2030,7 +2096,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "泪眼询问，带着期盼与失落"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2047,8 +2114,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，揭开畹秋、萧元密谋的一角"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2066,7 +2134,8 @@
           "volume": "-6%",
           "pitch": "+0Hz",
           "instruct": "低声诉说，语气带着深切的恐惧与愧疚"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2083,8 +2152,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2102,7 +2172,8 @@
           "volume": "-6%",
           "pitch": "+1Hz",
           "instruct": "故作高声，掩饰偷听，语气故作轻松"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2119,8 +2190,9 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
-        }
+          "instruct": ""
+        },
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2138,7 +2210,8 @@
           "volume": "-4%",
           "pitch": "+3Hz",
           "instruct": "机灵应答，语气自然"
-        }
+        },
+        "effects": []
       },
       "mix": {
         "mode": "voice_on_bgm"
@@ -2155,7 +2228,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，本章结尾，描写畹秋与萧元在雪夜埋伏的凶险时刻"
+          "instruct": ""
         },
         "effects": [
           {

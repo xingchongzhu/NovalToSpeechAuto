@@ -107,7 +107,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "庄重平稳的播报，拉开故事序幕"
+          "instruct": ""
         }
       },
       "mix": {
@@ -125,7 +125,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描述凌云凤下坠和发现怪蛇的危急时刻"
+          "instruct": ""
         },
         "effects": [
           {
@@ -181,7 +181,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描述云凤落地后遭遇藤蔓缠绕和巨蛇飞扑的连续危机"
+          "instruct": ""
         },
         "effects": [
           {
@@ -255,7 +255,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描述云凤心理活动和清理脚下藤网的准备"
+          "instruct": ""
         },
         "effects": [
           {
@@ -317,12 +317,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写群蛇奇特的连环进攻方式，营造千钧一发的氛围"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 2.0,
-            "trigger_keyword": "飞蹿起来",
+            "trigger_keyword": "准备不迎上去",
             "trigger_offset": 0,
             "duration": 1.5,
             "process_mode": "overlay",
@@ -385,7 +385,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写怪蛇如弩箭般射来的危急瞬间"
+          "instruct": ""
         },
         "effects": [
           {
@@ -435,7 +435,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤与巨蛇在空中搏斗，一剑斩首的精彩瞬间"
+          "instruct": ""
         },
         "effects": [
           {
@@ -467,7 +467,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写两条巨蛇缠斗在一起的混乱场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -523,7 +523,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写群蛇自相残杀、纷纷落网的壮观场面"
+          "instruct": ""
         }
       },
       "mix": {
@@ -541,7 +541,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写次蛇力竭而亡的最终结局"
+          "instruct": ""
         }
       },
       "mix": {
@@ -559,7 +559,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤第一次使用飞针法宝，发出霹雳红光，瞬间击杀群蛇的震撼场面"
+          "instruct": ""
         },
         "effects": [
           {
@@ -615,7 +615,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写古树和藤网被飞针火焰引燃，形成一片火海的壮观而惨烈的景象"
+          "instruct": ""
         },
         "effects": [
           {
@@ -644,7 +644,7 @@
           },
           {
             "trigger_delay": 3.0,
-            "trigger_keyword": "烈焰飞腾",
+            "trigger_keyword": "该当全数伏",
             "trigger_offset": 0,
             "duration": 2,
             "process_mode": "overlay",
@@ -671,7 +671,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描述云凤跳出火海，回望火场惨烈景象"
+          "instruct": ""
         },
         "effects": [
           {
@@ -721,12 +721,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写暴雨浇灭火海后的场景，气氛从激烈归于宁静"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.0,
-            "trigger_keyword": "震天价的大霹雳",
+            "trigger_keyword": "云凤见大雨快",
             "trigger_offset": -0.5,
             "duration": 2.5,
             "process_mode": "overlay",
@@ -750,7 +750,7 @@
           },
           {
             "trigger_delay": 50.0,
-            "trigger_keyword": "劫灰",
+            "trigger_keyword": "个多时辰",
             "trigger_offset": -1,
             "duration": 1,
             "process_mode": "overlay",
@@ -825,7 +825,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤在山中跋涉的艰辛和周围的自然景象"
+          "instruct": ""
         },
         "effects": [
           {
@@ -875,7 +875,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤发现黄金果的过程和内心的欣喜"
+          "instruct": ""
         },
         "effects": [
           {
@@ -931,7 +931,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤发现小人踪迹，引发好奇和警惕"
+          "instruct": ""
         },
         "effects": [
           {
@@ -981,7 +981,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤回到洞窟，生火烤衣，为休息做准备"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1043,7 +1043,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤烘烤鞋袜时的细腻心理，带有一丝女儿家的娇态"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1079,7 +1079,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤夜晚的警觉和最终决定休息的过程"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1147,7 +1147,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤清晨发现小人国军队，双方对峙的奇异而紧张的场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1203,7 +1203,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张中带着一丝趣味，描写云凤与小人之间啼笑皆非的误会"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1253,7 +1253,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写小人国对“失职”使者的严厉惩罚，云凤于心不忍"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1303,7 +1303,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张与无奈交织，描写云凤与小人沟通无效，准备离开"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1339,12 +1339,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "紧张叙述，描写云凤再次下山遭到箭雨袭击，随后驼女出现化解误会"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 13.5,
-            "trigger_keyword": "竹箭如暴雨",
+            "trigger_keyword": "直回洞",
             "trigger_offset": -0.5,
             "duration": 1.5,
             "process_mode": "overlay",
@@ -1401,12 +1401,12 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，细致描写驼女的外貌和出场方式，引人注目"
+          "instruct": ""
         },
         "effects": [
           {
             "trigger_delay": 1.5,
-            "trigger_keyword": "拐杖",
+            "trigger_keyword": "随说随从兜中",
             "trigger_offset": 0,
             "duration": 1.5,
             "process_mode": "overlay",
@@ -1505,7 +1505,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤内心的犹豫和权衡，最终决定求助仙剑卜卦"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1541,7 +1541,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤庄重地向仙剑祈祷"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1577,7 +1577,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "带着惊喜和激动，描写仙剑示警的奇景，云凤也因此放下心来"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1645,7 +1645,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤听完描述后的内心恐惧和犹豫"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1681,7 +1681,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写众人准备前往王洞的欢欣气氛"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1731,7 +1731,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写云凤进入小人国王洞的奇特经历，充满了新奇和赞叹"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1785,7 +1785,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1821,7 +1821,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写进入王洞的盛大欢迎仪式和洞内的防御工事"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1865,7 +1865,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1915,7 +1915,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，细致描写王洞内部的奇景和珍藏的宝物"
+          "instruct": ""
         }
       },
       "mix": {
@@ -1951,7 +1951,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，描写进入王宫核心区域，盛大的欢迎场面和奇特的国乐"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2013,7 +2013,7 @@
           "speed": "0.9",
           "volume": "-4%",
           "pitch": "+0Hz",
-          "instruct": "平静叙述，作为本章的收尾，留下余韵"
+          "instruct": ""
         }
       },
       "mix": {

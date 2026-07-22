@@ -63,7 +63,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第57回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -82,7 +82,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "大家正说得高兴，忽听芷仙在床上大叫道：",
-          "instruct": "平静叙述，突然转折"
+          "instruct": ""
         },
         "effects": []
       },
@@ -112,7 +112,9 @@
             "sound_cn": "芷仙在梦中惊叫，声音带着哭腔和恐惧，随即翻身又沉沉睡去",
             "sound_en": "Zhixian crying out in her sleep, voice trembling with fear and sorrow, then turning over and falling back asleep",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "姊姊们千万提",
+            "trigger_offset": 0
           }
         ]
       },
@@ -131,7 +133,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人知她梦中呓语，境由心生，俱都可怜她的遭遇。尤其灵云，自从遇见芷仙，便觉她性情温和，英华内敛，谈吐从容，动人怜爱，不由得点了点头。英琼在这空山古洞之中，寂寞惯了的人，一旦涉远山川，迭经奇险，死里逃生回来，得了许多飞行绝迹、本领高强、同自己差不多的剑仙，来常共晨夕，喜欢得不知如何才好。一会指挥猩猩帮着她打扫床榻，一会又去烧锅煮水弄饭弄菜，把过年时在城内买的那些年货俱搬出来，请大家食用，又把四壁宫灯点起，忙了个不亦乐乎。逗得若兰、金蝉高了兴，也帮她忙进忙出。中间还夹着一个大猩猩蹦前蹦后，显得四壁辉煌，人影幢幢，满洞生春，笑语喧哗，非常热闹。灵云、朱文虽然断绝烟火，但是也还不禁饮食，禁不住英琼劝客情殷，每样都用了些。英琼又去看了看芷仙，见她睡得正香，知道她多少夜不得好睡，昨晚熬了一夜，路上受了许多辛苦颠连，便不去唤她，只与她留下些吃的，灶中添上火，准备她醒来食用。自己仍同大家围坐，计议明早用紫烟锄去掘开通往凝碧崖的后洞。",
-          "instruct": "温暖叙述，洞内热闹景象"
+          "instruct": ""
         },
         "effects": [
           {
@@ -142,7 +144,9 @@
             "sound_cn": "灶中柴火持续燃烧，发出轻微的噼啪声和呼呼的火苗声，温暖而安宁",
             "sound_en": "continuous soft crackling of firewood in the stove, gentle flame sounds, warm and peaceful",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人知她梦中",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -152,7 +156,9 @@
             "sound_cn": "灵云微微点头，衣料摩擦发出轻响",
             "sound_en": "Lingyun nodding slightly, soft rustle of clothing",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "梦中呓语",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -162,7 +168,9 @@
             "sound_cn": "英琼轻声指挥猩猩打扫，猩猩发出低沉的应和声，脚步声缓慢而沉重",
             "sound_en": "Yingqiong softly directing the orangutan to clean, orangutan letting out low grunts of response, slow heavy footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人知她梦中",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -172,7 +180,9 @@
             "sound_cn": "英琼将过年买的年货包裹搬出放在石桌上，布料摩擦和包裹落地的轻响",
             "sound_en": "Yingqiong placing New Year provisions on the stone table, soft rustling of fabric and light thud of bundles",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人知她梦中",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -182,7 +192,9 @@
             "sound_cn": "四壁宫灯被一一点亮，灯芯燃烧发出轻微的噼啪声，洞内顿时明亮温暖",
             "sound_en": "palace lanterns being lit one by one on the walls, soft crackling of wicks, cave suddenly bright and warm",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人知她梦中呓",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -192,7 +204,9 @@
             "sound_cn": "洞内充满欢快的说笑声，众人忙进忙出，气氛热烈温馨",
             "sound_en": "cave filled with cheerful voices and laughter, people bustling about, warm and lively atmosphere",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "境由心生",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -202,7 +216,9 @@
             "sound_cn": "大猩猩在洞中兴奋地蹦来蹦去，沉重的脚步声和兴奋的呼噜声交织",
             "sound_en": "large orangutan hopping excitedly around the cave, heavy footsteps and eager grunts intermingled",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "由心生",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -212,7 +228,9 @@
             "sound_cn": "灶上锅中水烧开，发出咕嘟咕嘟的水沸声和蒸汽升腾的轻响",
             "sound_en": "water boiling in the pot on the stove, bubbling and gurgling, steam rising with soft hiss",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人知她梦中",
+            "trigger_offset": 0
           }
         ]
       },
@@ -231,7 +249,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼又把同余英男交好之事说了一遍。灵云道：",
-          "instruct": "平静叙述，引出回忆"
+          "instruct": ""
         },
         "effects": []
       },
@@ -261,7 +279,9 @@
             "sound_cn": "洞中火堆发出轻微的噼啪声，火苗随着叙述的节奏轻轻摇曳",
             "sound_en": "soft crackling of fire in the cave, flames flickering gently with the rhythm of the story",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "她就是寒琼仙",
+            "trigger_offset": 0
           }
         ]
       },
@@ -280,7 +300,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -310,7 +330,9 @@
             "sound_cn": "回忆中大雪纷飞，寒风呼啸，鹅毛大雪铺天盖地，模糊了视线",
             "sound_en": "memory of heavy snow falling, wind howling, thick snowflakes covering the sky and blurring vision",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "岁被恶婶赶将",
+            "trigger_offset": 0
           }
         ]
       },
@@ -329,7 +351,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英男学成梅花针以后，在四五年前，她随广慧师太在西川路上，遇见一伙强人，劫一个镖客的镖。那强人劫了镖，还要将保镖的人众杀死。英男好生不服，便请她师父上前打抱不平。她师父道：'你不要忙，自有人出头的。这些强人，还是自家人呢。'说罢，果然看见路旁纵出一个壮士，先替那镖客求情，那伙强人不允，动起手来。那壮士武功虽好，怎耐强人太多，堪堪寡不敌众。英男气恨不过，在暗中对那伙强人放了一把梅花针，那伙强人才败了下去。她师父见她放针出去，急忙带了她回到山上，埋怨道：'你怎么爱闯祸，你看那壮士虽然不能抵敌，那旁边树林内还隐着一个能人呢，何苦我们结怨则甚？'说罢，便对英男道：'三五日内，如有人来问我，便说我病了十来天，好多日不曾下山。不论来人怎样无礼，不可轻举妄动，以免再生事端。那来人不久便有人收拾她，她虽万恶，何苦我们自残呢？'果然到了半夜，广慧师太忽然真病起来。倒把英男急得要死，日夜衣不解带地服侍。到了第三天，果然来了一个女子，直闯进来，首先看见英男，便冷笑道：",
-          "instruct": "叙述回忆，语气渐趋紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -340,7 +362,9 @@
             "sound_cn": "英男暗中释放梅花针，细小暗器破空飞出，发出轻微的嗖嗖声，针尖泛着寒光",
             "sound_en": "Yingnan releasing plum blossom needles from hiding, tiny projectiles cutting through air with soft whistling, needle tips gleaming coldly",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "男学成梅花针",
+            "trigger_offset": 0
           }
         ]
       },
@@ -359,7 +383,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "'我听说我那老不死的师父在雪堆中救出一个女花子，想必就是你么？'英男年轻气盛，见那人盛气汹汹，刚要质问她为何出口伤人，广慧师太已在里面呻吟唤道：'外面是哪位道友来了？恕我病中懒于行动，请进来吧。'那女子闻言，又冷笑一声，闯进室内。英男在外偷听，只听广慧师太与来的女子辩论了好半天。那女子一口咬定，各派剑仙中，使用这一种梅花针的，只有她师父同广慧师太，现在真凭实据在此，如何不认？口气非常强硬，咄咄逼人。广慧师太却说自己因误食山中药草，已病倒十来天，声音非常低弱，好似病势越发沉重。英男心如刀割，刚走进房，广慧师太忙对她使眼色，只得重又退出。那女子争论了一阵，半信半疑，说是还要去察访放针人下落，并要用飞剑去杀那壮士。出来时，一眼看见英男，眼中闪出凶光，硬要英男送她出洞。英男刚要倔强，又听广慧师太在内说道：'你这贱丫头，来了几年，连什么也没学会，枉自生了一副聪明面孔。你师姊叫你送她，你也不肯，你就那样懒么？'英男上山以来，从未受过师父责骂，一闻此言，猜是病人肝火太旺，不好不依，只得忍气吞声，送那女子出洞。那女子走了不几步，忽然回头叫道：'你这小鬼丫头！这事定是你偷偷干的吧？'说罢，手扬处，便有两道青光飞来。英男见那女子下毒手施放飞剑，吓得往房内飞跑，连喊师父救命。刚刚跑到病榻之前，广慧师太一伸手，便把她揽在怀里，只说：'你师姊吓你的，不要害怕。'英男等了半晌，不见动静。广慧师太忽然站起说道：'这个业障，真正可杀不可留了！'",
-          "instruct": "紧张叙述，矛盾冲突"
+          "instruct": ""
         },
         "effects": [
           {
@@ -370,7 +394,9 @@
             "sound_cn": "广慧师太在房内发出低弱的呻吟声，声音虚弱而痛苦，带着病容",
             "sound_en": "Guanghui Shitai letting out weak moans from inside, voice feeble and pained, with illness",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我听说我那老",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -380,17 +406,21 @@
             "sound_cn": "魏枫娘大步闯入洞中，脚步声急促而嚣张，衣袂带风",
             "sound_en": "Wei Fengniang striding into the cave, footsteps rapid and arrogant, robes swishing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我听说我那老",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 2.0,
+            "trigger_delay": 55.2,
             "duration": 2,
             "process_mode": "overlay",
             "name": "青光飞剑",
             "sound_cn": "两道青色剑光从女子手中飞出，破空之声尖锐凌厉，直取英男，寒光刺目",
             "sound_en": "two beams of cyan sword light flying from the woman's hand, sharp piercing sound, aimed directly at Yingnan, cold light dazzling",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑仙中，",
+            "trigger_offset": 0
           }
         ]
       },
@@ -409,7 +439,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英男再看广慧师太，面容依旧红润，哪有什么病容。身后青白光已不知去向，还疑是来人飞剑已被师父收去，好生奇怪。正想问时，广慧师太道：'来的那女子，名叫神手比丘魏枫娘，是我师兄广明师太以前的得意门徒。那中梅花针的强人，便是她手下党羽。我知道你闯了那祸，她一定看出梅花针是我独门传授，要寻我们的晦气，故此才将真气内敛，装病哄她。不想由此倒看出你一番孝道，越发令我欢喜。她进门时，本不信我的话，反因你一脸愁苦之容，错疑我生病，才相信我果不曾下山。又见你一身仙骨，满脸英姿，以为你已将我剑术同梅花针学成，私自下山，抱打不平，才逼你送她，放出飞剑，试你一试。你如果已会飞剑，势必也放剑抵敌。她已尽得我师兄所传，漫说是你，我也不好对付。我不想因不愿你学旁门剑术，不曾传授，你自然不会，无法抵敌，逃了进来。她这人虽万恶，却从不肯亲手杀一个无能力抵抗的人，因此才未下毒手。反越加相信我师徒果然不曾离山，收了剑光，又寻旁人晦气去了。这贱婢如此骄横，目无长上，恶贯已盈，不久便遭惨劫。我师徒也犯不着怄气，由她将来自作自受吧。'",
-          "instruct": "叙述真相，语气感慨"
+          "instruct": ""
         },
         "effects": []
       },
@@ -428,7 +458,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英男姊姊因了这一次小风波，练剑之心越急，日夜运用内功。叵耐广慧师太到如今，也未把飞剑口诀传授给她。在我离开峨眉之前，常同她见面，承她教给我许多打坐刺剑之法，有好些颇与仙师妙一夫人所传相似。她并说不久便要搬来与我同住。等我明日陪着诸位姊姊哥哥，把凝碧崖这条道路打开，再去接她来同住吧。",
-          "instruct": "叙述尾声，语气期待"
+          "instruct": ""
         },
         "effects": [
           {
@@ -439,7 +469,9 @@
             "sound_cn": "英琼提起紫烟锄轻轻触碰石壁，发出清脆的金属碰撞声",
             "sound_en": "Yingqiong lifting the Purple Smoke Hoe and lightly touching the stone wall, crisp metallic clink",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "男姊姊因了这",
+            "trigger_offset": 0
           }
         ]
       },
@@ -458,7 +490,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云闻言，也甚赞同。自己师兄妹，头一次聚在一处畅谈，大家越谈越起劲，一个也不去做功夫，也不去安歇，一直谈到天明。床上芷仙睡了一夜，业已醒转，见洞口透进来的曙光，还疑是月色。见众人俱在围坐畅谈，急忙翻身坐起道：",
-          "instruct": "平静叙述，天色将明"
+          "instruct": ""
         },
         "effects": []
       },
@@ -496,7 +528,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -534,7 +566,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "芷仙听说天明，急忙爬下床，说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -545,7 +577,9 @@
             "sound_cn": "芷仙匆忙翻身下床，脚踏在石地上发出轻响",
             "sound_en": "Zhixian hurriedly getting out of bed, feet landing on the stone floor with a soft thud",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "芷仙听说天明",
+            "trigger_offset": 0
           }
         ]
       },
@@ -583,7 +617,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -621,18 +655,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，见众人不会再睡，一会便要去开辟凝碧崖通道，兴冲冲跑到后面去烧水煮粥去了。那猩猩睡伏在石桌旁边，见主人入内，便也跟了进去，帮着烧火打水。一会工夫，先将水烧好，取出与大家盥洗。若兰、金蝉觉着好玩，便也跟进去帮英琼动手。芷仙更是连脸都不洗，先替英琼将杯箸等类摆好。大家忙了一阵，英琼将粥煮好，切了一盘腊味，又取了一大盘咸菜捧将出来。金蝉、若兰最爱吃那腊味，赞不绝口。朱文笑对金蝉道：",
-          "instruct": "叙述忙碌景象，语气轻松愉悦"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 1.0,
+            "trigger_delay": 11.9,
             "duration": 2,
             "process_mode": "overlay",
             "name": "洗漱水声",
             "sound_cn": "众人盥洗时的水声，水花溅起又落下，清晨清爽的氛围",
             "sound_en": "sound of people washing, water splashing and falling, fresh morning atmosphere",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "水煮粥去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -642,7 +678,9 @@
             "sound_cn": "芷仙摆弄杯箸，瓷器碰撞发出清脆的叮当声",
             "sound_en": "Zhixian arranging cups and chopsticks, crisp clinking of porcelain",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见众人不会再",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -652,7 +690,9 @@
             "sound_cn": "若兰和金蝉快步跟入后洞，脚步声轻快，带着欢笑声",
             "sound_en": "RuoLan and Jinchan quickly following into the back cave, light footsteps with laughter",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见众人不会再",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -662,7 +702,9 @@
             "sound_cn": "英琼熟练地切腊味，刀刃与砧板碰撞发出有节奏的笃笃声",
             "sound_en": "Yingqiong skillfully slicing cured meat, rhythmic chopping sound on the cutting board",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见众人不会再",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -672,7 +714,9 @@
             "sound_cn": "英琼取出一大盘咸菜放在石桌上，陶盘与石面碰撞发出轻响",
             "sound_en": "Yingqiong placing a large plate of pickled vegetables on the stone table, ceramic touching stone with a soft clink",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见众人不会再",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -682,7 +726,9 @@
             "sound_cn": "英琼将煮好的粥端出放在石桌上，碗底接触桌面发出轻响",
             "sound_en": "Yingqiong placing the cooked porridge on the stone table, soft sound of bowls touching the table",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见众人不会再",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -692,7 +738,9 @@
             "sound_cn": "金蝉和若兰连声赞叹腊味美味，声音充满满足和喜悦",
             "sound_en": "Jinchan and RuoLan exclaiming in admiration of the cured meat, voices full of satisfaction and delight",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见众人不会再",
+            "trigger_offset": 0
           }
         ]
       },
@@ -722,7 +770,9 @@
             "sound_cn": "众人用碗箸吃粥的声响，间或夹杂着赞叹声",
             "sound_en": "sounds of people eating porridge with bowls and chopsticks, occasional sounds of appreciation",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "九华虽然清苦",
+            "trigger_offset": 0
           }
         ]
       },
@@ -741,7 +791,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，抿着嘴，用两个指头在脸上刮。金蝉见朱文羞着笑他，便也反唇相讥道：",
-          "instruct": "叙述拌嘴场景，语气轻松"
+          "instruct": ""
         },
         "effects": [
           {
@@ -752,7 +802,9 @@
             "sound_cn": "金蝉带着玩笑的语气反唇相讥，声音里带着少年的顽皮",
             "sound_en": "Jinchan teasing back with a playful tone, youthful mischief in his voice",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "抿着嘴",
+            "trigger_offset": 0
           }
         ]
       },
@@ -790,7 +842,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱文正要还言，英琼见二人斗口，忙道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -828,7 +880,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱文冷笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -839,7 +891,9 @@
             "sound_cn": "朱文发出一声冷笑，带着不满和娇嗔",
             "sound_en": "Zhu Wen letting out a cold laugh, with dissatisfaction and coquettishness",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱文冷笑道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -877,7 +931,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉见朱文娇嗔满面，便低下头只顾吃，不再言语。灵云是一向看他二人拌嘴惯了的，也不去答理。见大家都吃得津津有味，便也取了筷子夹一片慢慢咀嚼，那一股熏腊之味竟是越吃越香。笑对金蝉道：",
-          "instruct": "平静叙述，家庭温馨氛围"
+          "instruct": ""
         },
         "effects": [
           {
@@ -888,7 +942,9 @@
             "sound_cn": "金蝉低头专注吃粥，碗筷轻响，不再言语",
             "sound_en": "Jinchan lowering his head and focusing on eating, soft sounds of bowl and chopsticks, silent",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉见朱文娇",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -898,7 +954,9 @@
             "sound_cn": "灵云夹起一片鹿肉，筷子与碗沿轻碰发出清脆声响",
             "sound_en": "Lingyun picking up a slice of venison with chopsticks, light click against the bowl rim",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉见朱文娇",
+            "trigger_offset": 0
           }
         ]
       },
@@ -936,7 +994,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "若兰见朱文、金蝉拌嘴，在旁边也不答言，只顾吃。这会听灵云赞她能干，便笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -974,7 +1032,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时朱文停箸不食，坐在那里干生气。金蝉不时用眼看着朱文，想说什么，又不好说出似的。英琼惦记着那只神雕，匆匆在后面取了两只鹿腿，出洞喂雕去了。芷仙怕他二人闹僵，看他二人神气，知道金蝉业已软化，容易打发，便劝朱文道：",
-          "instruct": "叙述微妙气氛"
+          "instruct": ""
         },
         "effects": [
           {
@@ -985,7 +1043,9 @@
             "sound_cn": "朱文放下筷子，筷子与碗沿碰撞发出清脆声响，带着明显的不悦",
             "sound_en": "Zhu Wen putting down her chopsticks, crisp click against the bowl rim, clear displeasure",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时朱文停箸",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -995,7 +1055,9 @@
             "sound_cn": "金蝉偷偷抬眼看向朱文，衣料微微摩擦，欲言又止",
             "sound_en": "Jinchan sneaking a glance at Zhu Wen, soft rustle of clothing, hesitant to speak",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时朱文停箸",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 0.5,
@@ -1005,7 +1067,9 @@
             "sound_cn": "英琼快步走出洞去，脚步声轻快，带起一阵微风",
             "sound_en": "Yingqiong walking quickly out of the cave, light footsteps, stirring a slight breeze",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时朱文停箸",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1015,7 +1079,9 @@
             "sound_cn": "洞外传来神雕一声低沉的鸣叫，声音洪亮而充满灵性",
             "sound_en": "divine eagle letting out a low resonant cry from outside, loud and full of spirit",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时朱文停箸",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1045,7 +1111,9 @@
             "sound_cn": "芷仙起身走近朱文，脚步声轻柔，带着关切",
             "sound_en": "Zhixian rising and approaching Zhu Wen, soft footsteps, with concern",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "姊姊不要生气",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1064,7 +1132,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "还要往下说时，灵云忙拦道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1102,7 +1170,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱文误会灵云偏袒金蝉，本想说两句，猛想起灵云患难中相待之德，不便出口，越发迁怒金蝉，假装看雕，立起身来，独自行出洞去。金蝉见朱文出洞，知她心中不快，讪讪地立起身来，也跟了出去。若兰天真烂漫，还不曾觉察。芷仙年岁较长，见他二人这般情况，已然看出他二人情感与众不同。暗想：\"原来剑仙中人，一样也有男女之爱。\"不由想起自己的未婚夫婿罗鹭来，好生伤感。灵云见芷仙尽自发呆，便劝慰她道：",
-          "instruct": "叙述微妙情感变化"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1113,7 +1181,9 @@
             "sound_cn": "朱文走出洞外，洞外寒风吹入，带来一阵冷风呼啸声，吹动衣袂",
             "sound_en": "Zhu Wen walking out of the cave, cold wind blowing in from outside with a howl, robes fluttering",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "文误会灵云偏",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1123,7 +1193,9 @@
             "sound_cn": "金蝉随后跟出洞外，脚步声犹豫而轻快，带着关切",
             "sound_en": "Jinchan following out of the cave, footsteps hesitant yet quick, with concern",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱文误会灵云",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1133,7 +1205,9 @@
             "sound_cn": "芷仙轻叹一声，声音中带着感伤和思念，衣料轻轻摩擦",
             "sound_en": "Zhixian letting out a soft sigh, voice filled with sorrow and longing, gentle rustle of clothing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱文误会灵云",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1190,7 +1264,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见芷仙不说，便也不去强她。这时若兰业已吃完，便对灵云道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1228,7 +1302,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，跑出洞去一看，只见英琼一人站在崖边凝望，便问朱文、金蝉二人去向。英琼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1239,7 +1313,9 @@
             "sound_cn": "若兰快步跑出洞去，脚步声轻快而急促，带起衣袂飘动声",
             "sound_en": "RuoLan running quickly out of the cave, light and hurried footsteps, robes swishing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "跑出洞去一看",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1269,7 +1345,9 @@
             "sound_cn": "英琼独自站在崖边凝望远眺，衣袂被山风吹动，目光望向远方",
             "sound_en": "Yingqiong standing alone at the cliff edge gazing into the distance, robes ruffled by mountain wind, eyes looking afar",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我想叫金眼师",
+            "trigger_offset": 0
           }
         ]
       },

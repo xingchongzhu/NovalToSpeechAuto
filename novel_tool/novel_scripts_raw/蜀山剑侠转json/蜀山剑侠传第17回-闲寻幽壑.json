@@ -51,7 +51,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第17回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -70,7 +70,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "我因为这场大祸，是我闯出来的，好多次请母亲去除灭它。母亲总说，这里头有一段因果，非等一个人来相助不可。孙南道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -108,7 +108,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -146,7 +146,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南听了，恍然大悟，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -184,7 +184,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉闻言，大喜道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -222,7 +222,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南知道金蝉性情活泼，胆大包身。自己能力有限，虽然他母亲说除妖要应在自己身上，万一到时斗那妖不过，再要出点差错，这千斤重责，如何担法？欲待不答应，又恐金蝉笑他胆小。甚为两难。只得敷衍他道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -260,7 +260,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉闻言，好生不快道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -298,7 +298,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，鼓着一张小嘴，好似连珠炮一般，说个不停。说完，绷着脸，怒容满面。孙南听了，知道这个小孩子说得出来，便做得出来。自己也是好胜的人，见金蝉说他胆小，越发不好意思。况且在人家这里作客，他是一个小孩子，如果让他前去闹出乱子，更觉难以为情。好在师父说自己生平尚无凶险，估量不妨事，莫如答应同他前去，到时见机行事，知难而退便了。当下便对金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -336,7 +336,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉闻言，便转怒为喜，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -374,7 +374,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "孙南正要答言，忽然眼前一亮，灵云已站在面前，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -385,7 +385,9 @@
             "sound_cn": "一道微光闪现，人影骤然出现，衣袂轻响",
             "sound_en": "a faint light flashes, figure appears suddenly, robes rustling",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "孙南正要答言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -423,7 +425,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉见姊姊回来，满心欢喜，便也就不往下深说了。原来灵云因常听父母说，自己尚要再堕尘劫，心中好生不痛快。偏偏孙南来时，又见母亲对他特别垂青，言语之中，很觉可疑，便疑心到昔日堕劫之言怕要应验。因为这百余年之功行，修来不易，便处处留神，竭力避免与孙南说话。在孙南方面，并无别念，只为敬重灵云的本领，所以时常诚心求教。灵云对母亲素来孝顺，从不违抗，心中虽然不愿，面子上只得照办。一个是志在请益，一个是先有成见。灵云为人和婉，又知道孙南正直光明，见他殷殷求教，怎肯以声音颜色拒人于千里之外。虽然知道自己也许误会了母亲的意思。自己素日本是落落大方，又加道行深厚，心如明镜，一尘不染。不知怎的，一见孙南，莫名其妙地起了一种特别感想，也不是爱，也不是恨，说不出所以然来。欲想不理人家吧，人家光明至诚，又别无错误；要理吧，无缘无故，又心中不安。实则并无缘故，自己偏偏要忸怩不安，有时自己都莫名其妙。适才金蝉当着飞娘，用言语讥讽，原是小孩的口没遮拦，随便说说，并无成见。不知为何，自己听了，简直羞得无地自容。忽然想起：我何不借个因由，避往黄山，每日在暗中窥视金蝉动静，以免发生事端。所以才故意同金蝉斗口，飞往黄山。刚刚起在半空，便遇餐霞大师问她何往。灵云脸色通红，也说不出所以然来。餐霞察言观色，即知深意。便道：",
-          "instruct": "叙述内心活动"
+          "instruct": ""
         },
         "effects": []
       },
@@ -461,7 +463,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云知道不能隐瞒，便跪请设法。餐霞大师道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -499,7 +501,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云又问肉芝怎样才能到手。餐霞大师道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -537,7 +539,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云听了，又忙替金蝉赔罪，为朱梅讲情。餐霞大师道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -575,7 +577,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云谢了又谢，不便再往黄山，辞别大师回洞，藏在暗处，打算再让金蝉着急一夜，一面偷听他和孙南说些什么。正听见金蝉用言语激动孙南，孙南居然中计，不禁暗笑。后来又听见金蝉又说到自己身上，恐他乱说，才现身出来拦阻。金蝉见姊姊回来，心中虽然高兴，脸上却不露风，反说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -613,7 +615,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云笑了笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -651,7 +653,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉听罢，又羞又急，慌不择地跑将过来，拉着灵云的衣袖说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -662,7 +664,9 @@
             "sound_cn": "急促的脚步声，衣料摩擦，拉住衣袖的声音",
             "sound_en": "hurried footsteps, cloth rustling, tugging at sleeve",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "蝉听罢",
+            "trigger_offset": 0
           }
         ]
       },
@@ -700,7 +704,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云见金蝉小脸急得通红，那样着急的样子，不由心中暗暗好笑。便益发哄他道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -738,7 +742,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -776,7 +780,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，两眼晕起红圈，几乎哭了出来。灵云知道金蝉性傲，见他这般景况，也就适可而止。便说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -814,7 +818,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉果然欢喜得口都合不上了，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -852,7 +856,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -890,7 +894,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -928,7 +932,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -966,7 +970,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉听了，忙往内洞取出餐霞大师镇洞之宝。这几样法宝，原是用一个尺许大的锦囊装好。等到金蝉倒将出来一看，里面有三寸直径的一粒大珠，黄光四射，耀眼欲花；其余尽是三尖两刃的小刀，共有一百零八把，长只五六寸，冷气森森，寒光射人。只是不知用法。灵云对金蝉道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -977,7 +981,9 @@
             "sound_cn": "锦囊被解开，法宝倒出的声响，轻微碰撞声",
             "sound_en": "brocade pouch opened, treasures poured out, light clinking",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忙往内洞取出",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1015,7 +1021,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "金蝉带愧说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1053,7 +1059,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵云听了，正要答言，忽听洞外传进一种声音，非常凄厉，情知有异。连忙纵身出洞，往四下一看，只见星月皎洁，银河在天，适才那一种声音，夹着一阵极奇怪的笛声，由醉仙崖那边随风吹来。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1064,7 +1070,9 @@
             "sound_cn": "一阵凄厉的怪声和奇怪的笛声从远处随风飘来，刺耳阴森",
             "sound_en": "eerie howling and strange flute sound drifting from distance, piercing and gloomy",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忽听洞外传进",
+            "trigger_offset": 0
           }
         ]
       },

@@ -99,7 +99,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第67回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -118,7 +118,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超定睛看时，来者正是凌云凤，不由又惊又喜。再看二人业已被云凤点倒，急忙上前相见。云凤也不顾和许超说话，先把地下铜锣拾起，仍挂在那人手上。好在这两人均已闭了哑穴，不能动转说话，仍照适才说话神气将他们摆布坐好，也不去捆绑。许超忙问湘英可曾同来。云凤只说：",
-          "instruct": "紧张叙述，场景急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -129,7 +129,9 @@
             "sound_cn": "云凤拾起铜锣挂在防守人手上，金属碰撞发出轻微叮当声",
             "sound_en": "Yunfeng picking up the brass gong and hanging it on the guard's hand, soft metallic clinking",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超定睛看时",
+            "trigger_offset": 0
           }
         ]
       },
@@ -167,7 +169,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人都知道，先前林中被擒的人若被村中人发现，便难脱身，急忙入洞先救湘英。谁知走到洞中一看，通道已被一块大石堵塞。二人合力推了两下也推不动，急得许超满身是汗。云凤又回身出来，将那两个防守的人拖了一个进洞，解了哑穴，逼问究竟。那人道：",
-          "instruct": "紧张叙述，动作紧凑"
+          "instruct": ""
         },
         "effects": [
           {
@@ -178,7 +180,9 @@
             "sound_cn": "许超和云凤合力推动大石，石头纹丝不动，发出沉闷的摩擦声",
             "sound_en": "Xu Chao and Yunfeng pushing the boulder together, stone not moving, dull grinding sound",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人都知道",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -188,7 +192,9 @@
             "sound_cn": "云凤将防守人拖进洞中，衣料摩擦石地的沙沙声",
             "sound_en": "Yunfeng dragging the guard into the cave, fabric scraping against the stone floor",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人都知道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -207,7 +213,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "\"这洞外面虽小，里面却大。被郭真人用神力搬了一块几千斤重的大石堵死，只留一个三寸大小的洞，准备早晚送饭与那小姑娘吃。等那小姑娘应允同郭真人成亲，只消她在洞中一喊，我们便去送信，郭真人便亲来放她。除了郭真人，别人休想弄得动这块大石。\"许超闻言，便就着他说的送饭小洞，连喊了几声大妹，都不见答应。疑心湘英性烈，已寻自尽，不由悲苦起来。又问那人：",
-          "instruct": "叙述盘问，语气紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -218,7 +224,9 @@
             "sound_cn": "许超呼喊声在洞中回荡，只有空洞的回音，无人应答",
             "sound_en": "Xu Chao's calls echoing in the cave, only hollow echoes, no response",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这洞外面虽小",
+            "trigger_offset": 0
           }
         ]
       },
@@ -256,7 +264,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那人道：\"不但捆绑，还是用的蛟筋绳呢。\"许超喝问道：\"那她手脚俱被捆绑，你们与她送饭，叫她如何拿法？\"说罢气不过，便踢了那人两脚。那人负痛说道：\"我们送东西进去，原是拿竹竿捅到她坐的地方，由她伏在地下，用口就着吃的。\"云凤见问不出办法来，仍把那人哑穴闭住，扶他坐上石头。二人重又回身，替换着朝那个洞口喊了湘英几声，还是没有应声。那石头用尽全身之力，休想动得分毫。慢说许超伤心肠断，就连云凤也泪流不止。二人正没办法，忽听来路上一阵锣声，接着到处锣声四起，响成一片，震动山谷。二人知道事已危急，越发使劲推动那块大石，好容易觉着有一些活动，心中大喜，恨不得连吃奶的力气都使出来。眼看锣声越响越近，忽见一道青光穿进洞来。二人知道敌人来到，危险万分，还不及迎敌，那人收住剑光，急说道：",
-          "instruct": "紧张叙述，锣声四起"
+          "instruct": ""
         },
         "effects": [
           {
@@ -267,7 +275,9 @@
             "sound_cn": "四面传来急促的铜锣声，响成一片，震动山谷，充满警报",
             "sound_en": "urgent gong sounds rising from all directions, echoing and shaking the valley, full of alarm",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人道",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -277,7 +287,9 @@
             "sound_cn": "许超和云凤拼命推动大石，石头终于发出一丝松动的声音",
             "sound_en": "Xu Chao and Yunfeng pushing the boulder desperately, finally a sound of stone shifting slightly",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不但捆绑",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -287,7 +299,9 @@
             "sound_cn": "一道青色剑光穿进洞中，破空之声尖锐，剑光照亮了黑暗的洞穴",
             "sound_en": "beam of cyan sword light shooting into the cave, sharp piercing sound, illuminating the dark cavern",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "还是用的蛟筋",
+            "trigger_offset": 0
           }
         ]
       },
@@ -325,7 +339,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人定睛一看，见是心源，略放宽心。心源也不及同二人细说，忙催二人快走。刚刚走出洞外，忽地从山上跳下一个大汉，手执一把钢叉，大喝：",
-          "instruct": "紧张叙述，出洞遇敌"
+          "instruct": ""
         },
         "effects": [
           {
@@ -336,7 +350,9 @@
             "sound_cn": "大汉从山上跳下，落地发出沉重声响，钢叉带风",
             "sound_en": "big man jumping down from the mountain, heavy thud on landing, steel fork cutting through air",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人定睛一看",
+            "trigger_offset": 0
           }
         ]
       },
@@ -355,7 +371,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "\"奸细往哪里走！\"心源一面拔剑迎敌，一面口中连催云凤、许超快走。心源同那大汉交手只一回合，便回身同了二人逃走。转过两个山凹，逃到一座石洞跟前，见四外无人，忙喊许超、云凤立定。那大汉恰也追到。许超见那大汉穷追，正要将暗器放出，那汉子忽然哈哈大笑道：",
-          "instruct": "紧张叙述，追逐场景"
+          "instruct": ""
         },
         "effects": [
           {
@@ -366,7 +382,9 @@
             "sound_cn": "大汉挥舞钢叉追击，金属与风声交织",
             "sound_en": "big man swinging his steel fork in pursuit, metal whistling through the air",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "奸细往哪里走",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -376,7 +394,9 @@
             "sound_cn": "三人急促奔跑的脚步声，踩在山石和泥土上",
             "sound_en": "urgent footsteps of three people running, on rocks and earth",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "奸细往哪里走",
+            "trigger_offset": 0
           }
         ]
       },
@@ -414,7 +434,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心源便叫许超、云凤：\"现在来不及说话，追我们的是自己人。\"说罢，三人一同进洞。那大汉却不进来，又往来路而去。心源、许超、云凤才进那洞，便有一个年青妇女出来，请三人走进后洞，转了好几个弯，搬开一个大石臼，从那石壁旁边一个小洞钻了进去，原来里头还有很大的地方。那少妇说道：",
-          "instruct": "叙述躲入石洞，语气平缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -425,7 +445,9 @@
             "sound_cn": "年青妇女搬开大石臼，石头摩擦地面发出沉重声响",
             "sound_en": "young woman moving the stone mortar, heavy scraping sound against the ground",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源便叫许超",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -435,7 +457,9 @@
             "sound_cn": "三人依次钻过石壁小洞，衣料与石壁摩擦的窸窣声",
             "sound_en": "three people crawling through the small cave opening one by one, fabric scraping against stone",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "源便叫许超",
+            "trigger_offset": 0
           }
         ]
       },
@@ -454,7 +478,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢自去。一会那大汉回来，原来是陆地金龙魏青。相见之后，问起原因，才知心源昨日见许超自告奋勇前去涉险下书，深怕出了差错，等他走后，便对白琦说明，悄悄跟了他来，一直并未露面。后来见许超伏在崖下听树林中防守的人说话，便知许超要管闲事，没有料到昨晚被擒的却是湘英。虽然觉得许超不自量力，却佩服他的勇敢侠气。正要招呼他同时去救那女子，猛见对面崖下蹿上一人，将林中二人点倒，细一看却是云凤，才有些疑心那被擒的女子是湘英。本想和二人相见，又想：\"凭自己的能力，也未必是吕、郭等对手，莫如跟在他二人后面，万一他二人失事，还可作一个接应。\"便不同他们见面，只远远在后面跟着。走不多远，忽见迎头走来一个大汉，躲在路旁一看，却是魏青，好生诧异。暗想：\"日前去寻铁蓑道人，曾同他相遇，当时邀他到戴家场去，他推说有事，如今却在此地相遇，莫非他也入了吕、郭一党？\"正在寻思，魏青业已走到近前，心源只得上前相见。魏青见是心源，大吃一惊，忙拉他到林中僻静之处，问他怎会来此。心源知他人甚忠直，便也说明来意，只不提起还有别人同来。魏青道：",
-          "instruct": "叙述魏青身份揭示，语气平缓中带转折"
+          "instruct": ""
         },
         "effects": [
           {
@@ -465,7 +489,9 @@
             "sound_cn": "林中树叶被风吹动，沙沙作响，魏青拉心源到僻静处",
             "sound_en": "leaves rustling in the forest as Wei Qing pulls Xinyuan to a secluded spot",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说罢自去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -503,7 +529,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心源闻言，才把湘英失陷，有一姓许的好友连一个姓凌的女子，正设法去救，告诉魏青。魏青闻言，大惊道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -541,7 +567,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心源闻言，忙催魏青赶到了螺丝湾。许、凌二人已经将防守的人点倒，因为无法开洞，正在为难。心源和魏青在对面崖上看得真切，正想下去唤他们，忽听锣声四起，知道业已被人发现，事在危急。心源忙问明了魏青住的所在，教了他一套言词同如何应付，自己急忙飞身入洞，将许、凌二人唤出。魏青却装作知道有了奸细，故意拦住迎敌，容他三人逃出洞去，自己再装作往前追赶，寻找奸细的神气，口中直嚷。果然追了不远，吕、郭二人已经得信追来，见了魏青，忙问究竟。魏青道：",
-          "instruct": "紧张叙述，计划实施"
+          "instruct": ""
         },
         "effects": [
           {
@@ -552,7 +578,9 @@
             "sound_cn": "远处再次传来急促的锣声，警报声响彻山谷",
             "sound_en": "urgent gong sounds again from afar, alarm echoing through the valley",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -562,7 +590,9 @@
             "sound_cn": "心源飞身入洞，衣袂破风声响起",
             "sound_en": "Xinyuan flying into the cave, robes rustling with swift movement",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -600,7 +630,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "郭云璞闻言，深怕这女子又行逃走，急忙下崖，领了众人走到了洞前，才知防守的人已被人点了哑穴。解开一问，同魏青所说的前半截并无差异。再看那封闭的石头，并未移动，知道人未救走。还觉不大放心，仍用法术移开大石，点了火炬进洞一看，忽然洞中一亮，一道长虹急如闪电，出洞破空而去。再看地下，散堆着一段段的长短蛟筋索子，被擒女子却踪迹不见。任你郭、吕二人妖法、剑术厉害，也闹个措手不及。急得郭云璞直跳脚道：",
-          "instruct": "紧张叙述，郭云璞中计"
+          "instruct": ""
         },
         "effects": [
           {
@@ -611,7 +641,9 @@
             "sound_cn": "郭云璞用法术移开大石，石头滚动发出轰隆巨响",
             "sound_en": "Guo Yunpu moving the boulder with magic, stone rolling with a thunderous rumble",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "郭云璞闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -621,7 +653,9 @@
             "sound_cn": "一道长虹如闪电般从洞中飞出，破空之声尖锐，光芒耀眼",
             "sound_en": "long rainbow light shooting out of the cave like lightning, sharp piercing sound, dazzling brilliance",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云璞闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -659,7 +693,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "魏青闻言，不由心中大快。吕、郭二人见到手活羊又被逃走，好生不快，只得率领众人回寨去了。这里心源等互说经过，听见湘英被人救走，知道戴家场诸人俱无这种本领，又是高兴，又是疑虑。尤其许超更是放心不下。云凤本是昨晚湘英走后，和凌操商量，要追湘英回来。说事情本是因她多口而起，倘若湘英遇险，豁出性命不要，也要前去救援。凌操知道爱女脾气外和内刚，怕她说得出做得出，只得答应她，如果湘英天亮不回，大家都一起去。云凤也知再若坚执，父亲更不让走，当下满口应允。心中虽然急如流火，面上一丝也不显出，故意很自然地坐了一会才回房去。凌操等云凤回房，去寻白琦等商议时，云凤业已带了宝剑，连夜照白日所闻路径，赶往吕村去了。云凤不认得山路，只凭着一盏号灯走出山口，将号灯交与防守的村壮，又问了一次吕村道路。赶到吕村业已天明，愈发焦急起来，知道湘英不出事便罢，如要出事，这时已赶不及救援了。奔走了一夜，未免劳乏过度，只得寻了一个僻静山崖底下，稍为歇了歇脚。正要设法擒一个村人打听消息，忽见许超从一条小道上走来。还未及招呼，忽见林中蹿出两个防守的人，将许超唤住，问明来意，请往庄中去了。云凤见许超昨日白天动身，今早才行赶到，不由心中起了希冀。暗忖：\"路那般长法，湘英脚程素来赶不上自己，莫非自己倒跑在湘英前头？\"不由高兴起来。反正这里既是入口地方，索性等许超回来，总可打听出一点动静。万一湘英还没有走到，两下错过，岂不大糟，便决定在此等候湘英一会，如果过些时不到，再作计较。等了一会，湘英既未到来，许超又不见回来，疑心还是自己来迟了一步，说不定二人俱遭毒手，又在白天，诸多不便。越等心越焦急。正在无法可施，忽听崖上有人说话。云凤忙悄悄将身移近一听，果然湘英已在昨晚被擒，囚入螺丝湾石室之内。不由又急又怒，将银牙一错，也无暇考虑利害，纵身上崖，将那两个防守的人擒住，问明螺丝湾路径，鹤行鹭伏，赶到洞口。恰好许超也得信赶来，才与心源等相见。这时湘英虽然遇救，却不知下落，打算回戴家场一看动静。话未说出口，忽听一棒锣声远远传来，许超疑是湘英又遭毒手，拔步往外要跑。魏青一把拉住说道：",
-          "instruct": "叙述云凤赶路经过，语气平缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -670,7 +704,9 @@
             "sound_cn": "云凤在黑夜中赶路的脚步声，偶尔踩到枯枝发出脆响",
             "sound_en": "Yunfeng walking through the night, footsteps on the path, occasional crack of dry twigs",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "魏青闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -680,7 +716,9 @@
             "sound_cn": "山崖上传来模糊的说话声，云凤悄悄靠近偷听",
             "sound_en": "muffled voices from the cliff above, Yunfeng quietly moving closer to eavesdrop",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "青闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -718,7 +756,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心源也觉应该如此，一面拦住许超、云凤，忙着魏青快去打听。魏青知道众人还未用早饭，忙嘱咐他妻子吕氏急速备饭，说罢匆匆自去。这位吕氏人甚贤能，众人进洞时，早已着手准备，一会端上饭来。众人也不客套，各自饱餐一顿。等了一会，魏青尚未回来。许超从闲谈中得知，湘英负气探庄失陷，是因自己而起，又急又悔。虽说被人救去，是否平安回家，也无从得知。适才村中忽然又响了一阵锣声，不知是何吉凶。久等魏青不见回来，越想越担心难过。几次要跑出洞去探看，俱被心源拦住。云凤坐在一旁，口中虽与女主人不时周旋，心里头却是来回地盘算。忽然失声道：",
-          "instruct": "叙述洞中等候，语气焦灼"
+          "instruct": ""
         },
         "effects": [
           {
@@ -729,7 +767,9 @@
             "sound_cn": "众人用饭的碗箸碰撞声，在洞中轻轻回响",
             "sound_en": "sounds of bowls and chopsticks as they eat, echoing softly in the cave",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源也觉应该",
+            "trigger_offset": 0
           }
         ]
       },
@@ -767,7 +807,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "急匆匆起身往外就走。刚走到石壁面前，忽见壁外石臼移开，钻进一人，险些与云凤撞了个满怀。定睛一看，见是魏青。云凤、许超双双抢问，外面锣声是否湘英二次遇险，或是戴家场有人来此涉险。魏青道：",
-          "instruct": "紧张叙述，魏青归来"
+          "instruct": ""
         },
         "effects": [
           {
@@ -778,7 +818,9 @@
             "sound_cn": "石臼被从外面移开，石头摩擦的沉重声响",
             "sound_en": "stone mortar being moved from outside, heavy scraping sound",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "急匆匆起身往",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -788,7 +830,9 @@
             "sound_cn": "魏青钻入洞中，衣料与石壁摩擦的窸窣声",
             "sound_en": "Wei Qing crawling into the cave, fabric scraping against stone",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "急匆匆起身往",
+            "trigger_offset": 0
           }
         ]
       },
@@ -826,7 +870,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤本来急的是临来时，自己老父本不知道，等到发现，一定追来。自己只顾急于来寻湘英，没有顾到衰年老父的利害，适才村中锣响，方才想到。不由心急如焚，当下就疑心是父亲赶来，不顾生死，要出洞探看。如今听了魏青之言，果然自己料得不差，并且又知湘英真个出险，一块石头才行落地。许超关心湘英，自不待言，听魏青说湘英遇救，急于要知详情，只管催问魏青。魏青性直气粗，经云凤、许超这一追问，应接不暇，也不知从哪里说才好。心源知道魏青性情，便拦住许超、云凤，对魏青道：",
-          "instruct": "平静叙述，众人各怀心事"
+          "instruct": ""
         },
         "effects": []
       },
@@ -864,7 +908,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "魏青道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -894,7 +938,9 @@
             "sound_cn": "场中传来激烈的兵器碰撞声和呼喝声，打得正酣",
             "sound_en": "intense sounds of weapons clashing and shouts from the field, fierce fighting",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这事是这样的",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -904,7 +950,9 @@
             "sound_cn": "一道长虹从天而降，光芒耀眼，破空之声凌厉",
             "sound_en": "long rainbow light descending from the sky, dazzling brilliance, sharp piercing sound",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "适才我到前面",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -914,7 +962,9 @@
             "sound_cn": "场中众人发出惊呼声，纷纷后退躲避",
             "sound_en": "crowd gasping in surprise and stepping back",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "到前面",
+            "trigger_offset": 0
           }
         ]
       },
@@ -933,7 +983,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤听见老父为她受了罗九许多侮辱，好不伤心。又猜那年青的定是她未婚夫婿俞允中，难为他自知不敌，为了自己，竟舍死忘生，也跟了前来，可见檀郎多情，老父的眼力不差。不过他们被红脸道人救回戴家场，不见自己回去，岂不还是担心？不禁着急起来，恨不能立刻飞了回去才好。但是魏青出去打听几次，回来总说自从昨晚起，村中连连出事，防守愈加严密，连晚上都不易逃走。众人虽然心焦，也是无法，只得推心源悄悄从后山驾剑光回去送信，好叫众人放心。心源剑术不能带人，分行又怕许超、云凤着急，总未提走字。现见二人如此说法，便由魏青先去看看动静，见左右无人，才出洞去。越过了两处山崖，站在高处一望，见出口上防守严密，已不似早上初来光景，决计绕道飞行回去。刚升起半空，走了没有多远，忽听背后有破空的声音。回头一看，见有一道青光，风驰电掣般由后面追来。心源见来人所驾剑光好像是峨眉派门下，不知因何追赶自己。说时迟，那时快，只在这一转念间，那道剑光已经追到。心源人本持重，知道自己剑术能力有限，又看不出来人用意，急忙把剑光往下一顿，打算避开，让那人过去。脚刚着地，那人也随着下来，向心源看了一看，忽然一阵狞笑道：",
-          "instruct": "紧张叙述，心源遭截"
+          "instruct": ""
         },
         "effects": [
           {
@@ -944,7 +994,9 @@
             "sound_cn": "心源驾剑光飞行的破空声，接着身后传来另一道剑光的追击声",
             "sound_en": "sound of Xinyuan flying on sword light, then another sword light chasing from behind",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云凤听见老父",
+            "trigger_offset": 0
           }
         ]
       },
@@ -974,7 +1026,9 @@
             "sound_cn": "罗九发出一阵阴狠的狞笑，声音低沉而充满敌意",
             "sound_en": "Luo Jiu letting out a sinister laugh, low and full of hostility",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我当是个什么",
+            "trigger_offset": 0
           }
         ]
       },
@@ -993,7 +1047,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "心源降落时节，已认出那人是罗九，知道来意不善，自己也准不是对手，仍装不知，说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1050,7 +1104,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，也不俟心源答话，就将剑光放将出来。心源知道无法再说，想走也走不了，只得也将飞剑放出，拼命支持。",
-          "instruct": "紧张叙述，剑光相搏"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1061,7 +1115,9 @@
             "sound_cn": "罗九放出飞剑，剑光破空之声凌厉，直取心源",
             "sound_en": "Luo Jiu releasing his flying sword, sharp piercing sound, aimed directly at Xinyuan",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也不俟心源答",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1071,7 +1127,9 @@
             "sound_cn": "心源的飞剑迎上罗九的飞剑，两道剑光在空中碰撞，发出清脆的金属铮鸣声",
             "sound_en": "Xinyuan's sword meeting Luo Jiu's sword, two sword lights clashing in midair with crisp metallic ring",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也不俟心源答",
+            "trigger_offset": 0
           }
         ]
       },

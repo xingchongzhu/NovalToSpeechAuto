@@ -93,7 +93,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第66回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -112,7 +112,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "观社戏\n巨眼识真人窥幽林\n惊心闻噩耗云凤也没有在意，走到凌操窗下，棋子落抨的声音，在这静夜里越加显得清脆可听，便迈步走了进去。只见凌操同俞允中翁婿二人，果然在那里下围棋，两家棋子围在一角，正杀得聚精会神，难解难分，连云凤进来也好似不曾看见。云凤便将药罐放下，喊了一声：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -123,7 +123,9 @@
             "sound_cn": "围棋棋子落在棋盘上，清脆的玉质碰撞声",
             "sound_en": "go stones placed on board, crisp clacks",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "观社戏",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -133,7 +135,9 @@
             "sound_cn": "云凤轻轻推门走进，门轴微响",
             "sound_en": "Yunfeng pushing door open, gentle creak",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "观社戏",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -143,7 +147,9 @@
             "sound_cn": "药罐轻轻放在桌上，陶器与木桌碰撞",
             "sound_en": "medicine jar placed on table, soft thud",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "巨眼识真人窥",
+            "trigger_offset": 0
           }
         ]
       },
@@ -181,7 +187,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "凌操也没有朝云凤看，随口答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -219,7 +225,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中的棋势被围了一大片，连云凤进来都没有看见，只顾苦想出神，还以为凌操对他说棋呢，随口答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -257,7 +263,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤看他神气好笑，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -295,7 +301,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中闻言抬头，才看见云风站在身旁，急忙起身让座。起身时一慌，袖子带过去，把棋乱了一大片。凌操推开棋盘，笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -306,7 +312,9 @@
             "sound_cn": "袖子扫过棋盘，棋子哗啦散乱",
             "sound_en": "sleeve sweeping across board, stones clattering",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "允中闻言抬头",
+            "trigger_offset": 0
           }
         ]
       },
@@ -344,7 +352,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中平时少年老成，同云凤患难共处了这些日，爱根种得越深。因是未过门的妻子，当着人前，彼此都有些拘泥。只有晚间送药来吃这一会，室内不常有外人，反倒随便一些。见云凤三不知走了进来，巴不得凌操提议停战，好同云凤说会话儿。便起身答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -382,7 +390,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便将黑白棋子分出，在四角各下上一子，请云风上场。云凤道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -393,7 +401,9 @@
             "sound_cn": "分开黑白棋子，轻轻碰撞声",
             "sound_en": "sorting go stones, soft clicks",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便将黑白棋子",
+            "trigger_offset": 0
           }
         ]
       },
@@ -431,7 +441,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时凌操已将药饮下。今晚的药，因为云凤煎得过了火候，允中端起呷了一口，似乎嫌苦。还要再喝时，云凤从袋中取出七八个大干枣儿递了过去。允中正要伸手去接，云凤已然放在桌子上面，将手缩了回去。允中用药碗遮了面孔，从旁偷偷看了云凤一眼。云凤抿嘴一笑，装作不理会似地将头偏开，朝着凌操道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -442,7 +452,9 @@
             "sound_cn": "干枣从袋中取出，轻轻放在桌上",
             "sound_en": "dried dates taken out and placed on table",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时凌操已将",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -452,7 +464,9 @@
             "sound_cn": "云凤忍不住轻笑一声",
             "sound_en": "Yunfeng's suppressed chuckle",
             "volume": "-26%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "这时凌操已将",
+            "trigger_offset": 0
           }
         ]
       },
@@ -490,7 +504,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中见她刚来就要走，急忙放下药碗，抢着答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -501,7 +515,9 @@
             "sound_cn": "药碗放在桌上，瓷器轻碰",
             "sound_en": "medicine bowl set down, porcelain clink",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "允中见她刚来",
+            "trigger_offset": 0
           }
         ]
       },
@@ -539,7 +555,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云风微嗔道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -577,7 +593,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "凌操见这一双佳儿佳婿情感俱从面上流露，也不去管他二人拌嘴，在旁拈髯微笑，不发一言。后来看出允中的意思是十分不愿意云风就走，便帮着留道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -615,7 +631,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中见丈人也帮他留爱妻，越发得意，现于神色。云凤道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -653,7 +669,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "允中道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -691,7 +707,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云风见他猴急眼巴巴的，也不好意思再公然拒绝，便正色对他说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -729,7 +745,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "凌操知道爱女聪明持重，轻易不说戏言，料事也极为透彻，闻言大惊，连忙问故。云凤便把日里许超和湘英拌嘴斗气，自己从旁解劝，湘英任性使气，老早就推说要睡，自己如何留心，从旁守着不离，等她睡熟才送药来，前后情形说了一遍。凌操闻言，忙说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -767,7 +783,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "云凤见父亲也和自己一样疑心，越加心慌，也不还言，拔脚便走。出了房门，只两三纵已到湘英楼下，匆匆上楼一看，绣帐低垂，床前湘英绣鞋仍和刚才一样，端端正正放在地下。刚要好笑自己多疑，谁知走近床前一看，床上只剩一堆绣被，哪还有个人影。立刻头上金星直冒，急出了一身冷汗。忙往后房一看，那丫头睡得正香。湘英平日所用的一把宝剑连同七星连珠弩俱已不在墙上。再反摸被头，温香尚未散尽，尚疑她不曾去远。便开了楼窗，纵到高处一看，四外寒风飒飒，哪里看得见丝毫踪迹。当下低头略一寻思，也不去喊那丫头，径从楼顶纵下地来，去寻凌操商量去了。这且不言。话说许超持了书信，问明道路，带了几件轻便的兵刃暗器，出了山口，绕着山径小道，直往陈圩走去。到将近黄昏时分，见前面有一个大村寨，打听行人，果是地头蛇追魂太岁陈长泰的庄子。及至走到临近一看，这座村寨前临湘水，后倚崇山，寨前掘有丈多宽的护庄河，将湘水引进去把寨子四面围绕，越显得气象威武。许超正在四外观看，那守护庄桥的豪奴见天色不早，刚要把吊桥扯起，忽见许超走来，远远喝问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -778,17 +794,9 @@
             "sound_cn": "云凤急促的脚步声下楼，楼梯咚咚",
             "sound_en": "Yunfeng hurrying downstairs, rapid thuds",
             "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 3.0,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "纵身上楼",
-            "sound_cn": "云凤纵身上楼，衣袂风声",
-            "sound_en": "Yunfeng leaping upstairs, cloth rustle",
-            "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云凤见父亲也",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -798,7 +806,9 @@
             "sound_cn": "云凤开窗眺望，夜风灌入，飒飒作响",
             "sound_en": "Yunfeng opening window, night wind howling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "样疑心",
+            "trigger_offset": 0
           }
         ]
       },
@@ -836,7 +846,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便有几个人拿着弓箭，远远瞄着许超，作出要放的神气。许超见这些豪奴狐假虎威，傲张作智，十分好笑。情知陈、罗二人不在寨中，此来无非打个招呼而已，乐得拿这些小人臊臊脾、见吊桥已经被那些人扯起，便高声喝道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -847,7 +857,9 @@
             "sound_cn": "弓弦被拉紧的吱嘎声",
             "sound_en": "bowstring being drawn, creak",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便有几个人拿",
+            "trigger_offset": 0
           }
         ]
       },
@@ -885,7 +897,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那些豪奴见许超神气傲慢，不禁大怒，齐喝道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -923,7 +935,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超闻言，哈哈一笑，脚微点处，已经纵过河来。那些豪奴见许超身手如此矫捷，不禁有些胆怯。为首的一个便凑上前来问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -934,7 +946,9 @@
             "sound_cn": "许超纵身越过护庄河，衣袂破风，轻巧落地",
             "sound_en": "Xu Chao leaping across the moat, cloth rustle, light landing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -944,7 +958,9 @@
             "sound_cn": "许超轻蔑地哈哈一笑",
             "sound_en": "Xu Chao's disdainful laugh",
             "volume": "-22%",
-            "pitch": "+1Hz"
+            "pitch": "+1Hz",
+            "trigger_keyword": "许超闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -982,7 +998,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1020,7 +1036,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那些豪奴听许超喊陈、罗二人的姓名，骂道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1058,7 +1074,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便有一个豪奴拿起手中一条枣木短棍掩到许超身后，打算趁一个冷不防将他打倒。许超早已留神，装作看不见，等到那人将棍举起快要打到许超头顶，许超也不转身，也不躲闪，只微微将身往左一偏。接着倒退一步，右手肘往后轻轻倒撞过去，在他胸前撞个正着。那人“嗳呀”一声，身子晃了一晃。许超那容得他缓气立足，时到那人胸前，顺势往上一翻，手背正打在那人面部。跟着反臂回身，右拳起处，那人腮帮子上又着了一下。一个站立不稳，往许超左手正要倒下。许超就势一扁腿，像踢毽子似的，将那人踢了两个溜滚。那些豪奴见许超还手打人，各持器械一齐上前。许超刚把先前那人踢倒，见众豪奴又从后面打来，更不怠慢，将身往下一蹲，一个躺地连环腿，朝众人下半部扫将过去。众豪奴哪禁受得起这一下，被许超打倒了七八个。余人均不敢上前，面面相觑。正没办法，忽见庄门开处，远远跑来一少年。许超正待等那少年近前动手，那人远远高叫道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1069,7 +1085,9 @@
             "sound_cn": "枣木短棍破空挥下，风声呼呼",
             "sound_en": "wooden club swinging down, wind whoosh",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便有一个豪奴",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -1079,7 +1097,9 @@
             "sound_cn": "手肘撞在胸前，闷响一声",
             "sound_en": "elbow striking chest, dull thud",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便有一个豪奴",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1089,7 +1109,9 @@
             "sound_cn": "右拳打在面部，清脆一声",
             "sound_en": "fist landing on jaw, sharp crack",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便有一个豪奴",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.5,
@@ -1099,7 +1121,9 @@
             "sound_cn": "躺地连环腿扫倒多人，噗噗连响",
             "sound_en": "sweeping leg tripping several men, series of thuds",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一个豪奴拿起",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.5,
@@ -1109,7 +1133,9 @@
             "sound_cn": "被扫倒的豪奴摔在地上，沉重声响",
             "sound_en": "fallen servants hitting ground, heavy thuds",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "手中一条枣木",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1147,7 +1173,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，已到面前。众豪奴抢说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1185,7 +1211,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那少年冷笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1223,7 +1249,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢也不再理他们，走到许超面前，深深施一礼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1261,7 +1287,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超见那人虽然年轻，面目英爽，彬彬有礼，不禁化怒为礼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1299,7 +1325,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那人闻言，微微叹了口气，答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1337,7 +1363,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1375,7 +1401,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，道了一声“得罪，告辞”，脚微顿处，纵身过河。那少年也将身一纵，跟踪纵将过去。许超见那少年身法不在自己以下，暗暗惊异，重又请问姓名。才知他便是陈长泰同父异母兄弟，名唤陈长谷，本领也颇了得。许超便请他留步，长谷执意要送，又送了有一里许路，才将吕村路途指明，同许超分手而去。许超见天色已晚，离吕村还须绕着山路走好几十里地。来的时节，白琦曾再三叮嘱，说是无论如何不可黑夜拜庄，以免误会；如果天晚赶不上道，尽可在附近地方住上一宵，明早再去。许超便打算先赶到离吕村不远的一个清水坝镇集上先住上一宵，明早再行前去拜庄。主意打定，脚下使劲一赶路，一口气走了有六七十里山路，绕过了一处山麓，前面便到了清水坝。这时业已是初更时分，远远听见锣鼓喧天。走到近前一看，一片广场上，正搭着草台，在那里演得好热闹的武戏。台前两支粗如人臂的大火炬，还有许多亮子油松，照耀如同白昼。台底下看戏的乡民，扶老携幼，拥挤得水泄不通。余外还有许多卖零食年糕的摊子，大家都争着来买。端的是丰年气象，热闹非凡。许超本来腹中有些饥饿，见有卖食物的摊子，便不打开干粮口袋，径自跑到一个卖烧鸡的摊子上，买了一只肥鸡、四个馒头，又买了一碗粉条汤，加了一勺辣子，就在摊旁胡乱吃了一餐。吃完之后，正打算去寻宿头，见台上戏正到好处，顺眼一望。猛回头看见东首站着一个高身量的道人，正同人打听一个人的姓名，耳朵边忽然听到有“罗九”二字，不由注了点意。假装着往台上看，身子却一步一步凑了过去。同道人问答的人，本是一个老年乡农，等到许超挨近身旁，业已将话答完走去。那道人也自走开。许超见那道人身高七尺以外，年约四十左右，生得虎臂熊腰，一张红脸，映着火光，分外显出红中透亮，不由心中一动。许超不敢冒昧，见那乡农走往西北角人堆里，仰头正往台上看呢。便也挨上前去，在他身后立定。正要想法同那人说话，恰好那乡农看戏看出了神，不知怎地一用力，用手往后一摆，正打在许超胸前。等到觉出打了人回头看时，见打的是一个穿着整齐的少年相公，知道惹了祸，急忙赔礼不迭。许超因想借机同他说话，存心让他打的，乐得就此攀谈。那乡农见许超谈吐谦和，愈觉不安，有问必答。二人一路看戏，一路说话，越来越对劲。不多一会，台上散戏，台底下的人像潮水一般挤散开来。那乡农上了几岁年纪，又全仗许超扶持，没有让别人挤跌在地，非常感激。知道许超是路过此间，要往镇上去寻旅店，便邀许超在他家过宿。许超心中虽然愿意，口中不免客气几句。那乡农道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1386,7 +1412,9 @@
             "sound_cn": "许超纵身过河，紧接着陈长谷也纵身跟上",
             "sound_en": "Xu Chao leaping across river, then Chen Changgu following",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "道了一声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -1396,7 +1424,9 @@
             "sound_cn": "远处戏台锣鼓声、唢呐声热闹传来",
             "sound_en": "distant opera drums and gongs, lively festival noise",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "道了一声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.0,
@@ -1406,7 +1436,9 @@
             "sound_cn": "看戏人群的嘈杂声、喝彩声",
             "sound_en": "crowd noise, cheering and chattering",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "微顿处",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -1416,7 +1448,9 @@
             "sound_cn": "大火炬和油松燃烧的噼啪声",
             "sound_en": "torches and resinous pine crackling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那少年也将身",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 13.0,
@@ -1426,7 +1460,9 @@
             "sound_cn": "许超吃烧鸡和馒头，咀嚼声",
             "sound_en": "Xu Chao eating, chewing sounds",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "跟踪纵将过去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 16.0,
@@ -1436,7 +1472,9 @@
             "sound_cn": "散戏时人群潮水般涌散，杂沓脚步声",
             "sound_en": "crowd dispersing after show, chaotic footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "见那少年身法",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1474,7 +1512,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超见其意甚诚，便也不坚却，随那乡农走了有一箭多地，便到他家。当下揖客入门，便有长工过来招呼。问起那乡农姓名，原来姓向，是个小康之家。许超坐走后，慢慢朝他打听吕村诸人动静。那老者道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1485,7 +1523,9 @@
             "sound_cn": "推开农家院门，木门吱呀",
             "sound_en": "pushing open farmhouse gate, creak",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超见其意甚",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1523,7 +1563,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超又问，戏台旁边同他说话的那个红脸道人是不是本村中人，怎么生得那般高大身量。向老者闻言，连忙摇手道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1553,7 +1593,9 @@
             "sound_cn": "向老者急忙摇手，衣袖簌簌",
             "sound_en": "old man waving hands quickly, sleeve rustle",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "客官年纪轻",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1572,7 +1614,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超猜他是个能人，因为不知他是吕村邀来的同党，所以才向老农打听，不想附会到龙王身上去。知道这些乡下人性情固执，不便同他辩难，便又问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1610,7 +1652,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "向老者闻言想了一想，答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1648,19 +1690,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超闻言，心中益发好笑。这时天已不早，二人谈了一会，早有长工将床铺好，端进灰龙，招呼许超安歇。许超睡在床上，再也猜不透那道人来历，想了一会，径自睡去。到了天明，向老者亲自来招呼茶水点心。许超洗漱之后，用了点心，才与向老者道谢作别。因为昨日说是到湘潭去，不好意思改口，只得先不进村，等到向老者转身，才抄山麓捷径翻到山腰，再由山半取径进吕村去。才入吕村不远，看见路上的人对他很注目。许超知道自己面生招人猜疑，也不去管他，径往前面走去。转进一个山沟，便远远望见吕村的旧寨。正待往前走去，忽见山坡树林内走出二人，各持兵刃，高声大喊道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "清晨鸟鸣",
-            "sound_cn": "山中清晨鸟鸣，清脆悦耳",
-            "sound_en": "morning birds singing in the mountains",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
           {
             "trigger_delay": 2.0,
             "duration": 2,
@@ -1669,7 +1701,9 @@
             "sound_cn": "山风穿过松林，涛声阵阵",
             "sound_en": "morning wind through pine trees, rustling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "超闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1707,7 +1741,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超不俟那人再发话，便将白、戴二人同自己的名帖递了上去，一面说明来意。那二人听说是戴家场的三庄主前来拜庄，便着人飞跑往寨中送信。一会工夫，去人回报，请来客入庄。许超随了那二人走到寨前，早有一个獐头鼠目的人迎了出来，请他入内相见。许超随那人进寨，吕宪明早在阶前迎接，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1718,7 +1752,9 @@
             "sound_cn": "名帖递出，纸张轻响",
             "sound_en": "name card handed over, paper rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超不俟那人",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1728,7 +1764,9 @@
             "sound_cn": "吕村寨门打开，木门沉重声响",
             "sound_en": "village gate opening, heavy creak",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "超不俟那人再",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1766,7 +1804,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超知吕宪明是挖苦他在鱼神洞被擒之事，心中不免有气，只好装听不见。坐定以后，许超照白琦嘱咐的话说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1804,7 +1842,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便将书信取出，托吕宪明转交。吕宪明接过书信，说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1815,7 +1853,9 @@
             "sound_cn": "书信递出，纸张摩擦声",
             "sound_en": "letter handed over, paper rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便将书信取出",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1853,7 +1893,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超口头道了声谢，便起身告辞。吕宪明倒很讲面子，直送到大门外边，才行进去。许超满以为此来不定要闹出什么乱子，没想到事情如此顺手。离了吕村旧寨，往回路便走，刚刚走过适才入口的山坡上，忽听有两个人在树林之中说话。许超人本精细，忙将身隐伏在崖旁僻静之处侧耳去听。只听一个人说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1864,7 +1904,9 @@
             "sound_cn": "许超起身告辞，脚步出门",
             "sound_en": "Xu Chao rising to leave, footsteps out the door",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超口头道了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1902,7 +1944,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "另一人说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1932,7 +1974,9 @@
             "sound_cn": "两人边说边抚弄手中弓弦，轻响",
             "sound_en": "two men plucking bowstring idly, twang",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "你哪里知道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1951,7 +1995,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "以下谈的便是上文金姥姥门下何玫、崔绮被擒之事。许超从这两个人口中听说又有一个女子被擒，不由激动义侠之心。暗想：“何、崔二位侠女原说回山去请她们师父金姥姥，并寻几个帮手，准在二月初三以前赶到戴家场。如今相隔已有多日，尚不见来到。莫非何、崔二侠女请不来金姥姥同别的帮手，不好意思来见众人，故此单身去寻吕、郭二人拼命？但是既知能力不敌，何以又来犯这种无谓的危险？”又觉不对。依了自己脾气，便打算跑进树林将那两人擒住，问个明白。因是来时白琦再三嘱咐谨慎小心，不要多事，自己也知吕、郭、罗三人厉害，又在白天，不敢轻举妄动。仔细盘算，估量自己能力同吕、郭、罗三人动手，虽然一个都不是对手，要是趁他不防，偷偷前去救人，或者不至于就遇危险。自己既以英雄侠士自命，明明见着一个义侠女子陷身虎穴，贞操性命全在危险万分，岂容坐视不救？主意拿定，雄心陡起。他所伏的地方，正是入吕村的口子。这时正是辰未已初，湖南人吃早饭的时候。许超往四外一望，见没有人过来，正要站起身，忽觉林内好半天没有声响，悄悄探头一望，不由大吃一惊。原来那树林内适才说话的两个防守的人，俱已捆绑在地。急忙进林一看，这两个防守的人都被人点了哑穴，不能转动。许超拍醒转来一个，问他被何人捆倒。那人见许超救他，疑是本寨派来的接应，便对许超说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1962,7 +2006,9 @@
             "sound_cn": "许超屏息潜行，脚步轻如落叶",
             "sound_en": "Xu Chao moving stealthily, light footsteps like falling leaves",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "以下谈的便是",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1972,7 +2018,9 @@
             "sound_cn": "轻轻拨开灌木窥探，枝叶簌簌",
             "sound_en": "parting bushes to peek, leaves rustling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "下谈的便是上",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2010,20 +2058,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超正要盘问他的路径同那被擒女子的详情，忽听崖下又有人说话的声音。那人便高叫道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 1.5,
-            "process_mode": "overlay",
-            "name": "崖下脚步声",
-            "sound_cn": "崖下传来脚步声，由远及近",
-            "sound_en": "footsteps approaching from below the cliff",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -2059,7 +2096,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许超疑他看出自己行径，闻言大惊，急忙将那人重新点了哑穴，将身伏在一旁。见那崖旁上来的两人，手中各拿着家伙，口中说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2070,7 +2107,9 @@
             "sound_cn": "许超迅速点中哑穴，噗的一声",
             "sound_en": "Xu Chao swiftly hitting pressure point, soft thud",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超疑他看出",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2108,7 +2147,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "走到近前，见他先来的伙伴被人捆倒，不由失惊道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2146,7 +2185,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，双双过去就解二人身上捆的带子。许超更不怠慢，一个寒鸦掠地势，蹿到二人跟前，把这后来两个接班的也点了哑穴。重又解开先前那人，用手中宝剑逼着问那女子被擒经过。许超听那人说的相貌身材颇似湘英，不由吓了一大跳。心想：“湘英武功虽然了得，但是鱼神洞既过不来，那人又说是在寨中擒住的，当然还是从别的路径来。要不打鱼神洞来，由戴家场到吕村，须要绕十几处险峻山峰，有一百多里的山路。自己走时已在下午，况且云凤和她形影不离，除了半夜偷走，白、戴同凌氏父女决不会让她一人来此涉险。半夜动身赶到此地，无论如何，她没有那么快的脚程。可惜那适才捆人的女子没有被他们看清面目，不知是否云凤，如果是云凤，当然被擒的是湘英无疑了。且不去管她是与不是，先去救出那女子再说。”当下解开那后来两个防守人的束身布带，像先前两个一样，如法炮制捆好，分放在四个岩角僻静之处。把心一横，便往螺丝湾走去。这时村中人早饭已过，山中渐有行人。许超不敢在明处，翻山爬崖，拣那僻静之处鹭伏鹤行，悄悄偷身过去。到了螺丝湾侧一看，原来三面俱是高崖绝壁，一面是一个无底深潭，西石崖上有一个三尺方圆的小洞。许超见洞旁大石上坐着两个防守的人，各拿兵刃铜锣。由上至下，高有十丈。只好绕道下去，再由潭侧蹿上去。便远远抓着古藤，坠到谷底。屏着气，一步一步伏行到离那洞口约有丈许远近停住。那二人也正谈得有劲，并没有防着有人从后暗算。许超到那二人身后不远，把气运足，正要作势朝那二人扑去。忽见那二人坐的大石旁边蹿起一条黑影，接着当啷一声铜锣掉地的声音，把许超吓了一大跳。",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2157,7 +2196,9 @@
             "sound_cn": "许超迅速点倒两个防守人，闷响两声",
             "sound_en": "Xu Chao swiftly disabling two guards, two muffled thuds",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "双双过去就解",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -2167,7 +2208,9 @@
             "sound_cn": "许超抓着古藤坠下谷底，藤蔓簌簌",
             "sound_en": "Xu Chao descending with ancient vines, leaves rustling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "双双过去就解",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -2177,7 +2220,9 @@
             "sound_cn": "许超屏息匍匐前进，衣料摩擦砂石",
             "sound_en": "Xu Chao crawling stealthily, cloth scraping gravel",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人身上捆的带",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.5,
@@ -2187,7 +2232,9 @@
             "sound_cn": "铜锣掉在石上，当啷一声脆响",
             "sound_en": "brass gong dropping on stone, clang",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超更不怠慢",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 9.0,
@@ -2197,7 +2244,9 @@
             "sound_cn": "许超被铜锣声惊到，倒吸一口凉气",
             "sound_en": "Xu Chao startled, sharp intake of breath",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许超更不怠慢",
+            "trigger_offset": 0
           }
         ]
       },

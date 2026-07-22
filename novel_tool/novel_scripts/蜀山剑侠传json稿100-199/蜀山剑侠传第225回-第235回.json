@@ -87,7 +87,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第235回 一径入晶宫 广殿通明参极主 横空张绿网 长天无际遁飞人",
-          "instruct": "庄重开场，气息悠长"
+          "instruct": ""
         },
         "effects": []
       },
@@ -106,32 +106,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落A：从“女神婴易静、癞姑、李英琼……”到“癞姑已用本门传声之法说道：”的全部叙述文字）",
-          "instruct": "紧张中带期待，叙述快速"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "青白光华",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "遁光破空",
-            "sound_cn": "青白遁光破空飞降",
-            "sound_en": "green-white light streaking down with whistle",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "玄色光焰",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "光焰激射",
-            "sound_cn": "玄色光焰从洞口激射",
-            "sound_en": "dark flame shooting up from hole with hiss",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -167,43 +144,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落B：从“易静知有原故……”到“灵威叟满面愁容，由右门飞出，朝癞姑使一眼色，说道：”的全部叙述）",
-          "instruct": "紧张急促，形势突变"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "风雷大作",
-            "trigger_offset": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "风雷阵动",
-            "sound_cn": "阵中风雷轰鸣",
-            "sound_en": "roaring wind and thunder within formation",
-            "volume": "-14%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "白气",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "白气卷人",
-            "sound_cn": "白气如匹练卷走灵奇",
-            "sound_en": "white air current coiling like silk snatching person",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "冰层隔断",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "冰层闭合",
-            "sound_cn": "冰层合拢阻隔",
-            "sound_en": "ice layer closing with heavy thud",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -239,7 +182,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "癞姑闻言会意，抗声答道：",
-          "instruct": "沉稳接话"
+          "instruct": ""
         },
         "effects": []
       },
@@ -277,43 +220,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落C：从“灵威叟闻言，立转喜容……”到“岛主延见。”的全部叙述）",
-          "instruct": "描写壮丽，语气舒缓赞叹"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "水晶长廊",
-            "trigger_offset": 0,
-            "duration": 8,
-            "process_mode": "overlay",
-            "name": "晶宫回响",
-            "sound_cn": "水晶宫内的空灵回响",
-            "sound_en": "ethereal echoes within crystal palace",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "碧波澄静",
-            "trigger_offset": 0,
-            "duration": 5,
-            "process_mode": "overlay",
-            "name": "海水轻涌",
-            "sound_cn": "深海碧波轻轻拍打晶壁",
-            "sound_en": "deep sea water lapping against crystal walls",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "寒金宝柱",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "金光闪烁",
-            "sound_cn": "寒金宝柱射出金光",
-            "sound_en": "golden pillars emitting soft hum",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -349,11 +258,11 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落D：从“便听金钟之声……”到“对众人道：”的全部叙述）",
-          "instruct": "描写细致，气氛紧张"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_keyword": "金钟",
+            "trigger_keyword": "此处为段落",
             "trigger_offset": 0,
             "duration": 4,
             "process_mode": "overlay",
@@ -361,28 +270,6 @@
             "sound_cn": "金钟五响，清越悠长",
             "sound_en": "five clear resonant strokes of golden bell",
             "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "细乐",
-            "trigger_offset": 0,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "仙乐奏起",
-            "sound_cn": "法曲仙音，笙簧细奏",
-            "sound_en": "celestial music playing softly, flutes and strings",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "白玉宫门",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "宫门开启",
-            "sound_cn": "白玉宫门徐徐开放",
-            "sound_en": "white jade gate opening slowly with grinding",
-            "volume": "-18%",
             "pitch": "+0Hz"
           }
         ]
@@ -421,43 +308,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落E：从“众人闻言，自是欣喜……”到“各叫了声师叔。”的全部叙述）",
-          "instruct": "转为欣慰，语气轻快"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "玉牌",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "寒焰熄灭",
-            "sound_cn": "玉牌银光熄灭寒焰",
-            "sound_en": "cold flame extinguished by jade token's silver light",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "铁牌",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "铁牌扳动",
-            "sound_cn": "六角铁牌扳动声",
-            "sound_en": "hexagonal iron plate turned with clank",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "飘然下落",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "落地轻响",
-            "sound_cn": "灵奇飘然落地",
-            "sound_en": "light thud of person landing softly",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -474,7 +327,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落F：从“易静见他的面上忿容未敛……”到“那修士笑道：”的全部叙述）",
-          "instruct": "平静观察，内心欣慰"
+          "instruct": ""
         },
         "effects": []
       },
@@ -531,21 +384,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落G：从“说时，看了灵威叟父子一眼……”到“灵威叟道：”的全部叙述）",
-          "instruct": "平缓叙述，略带好奇"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "乐声再奏",
-            "trigger_offset": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "仙乐再起",
-            "sound_cn": "霜华宫仙乐再次奏起",
-            "sound_en": "celestial music resuming in Shuanghua Palace",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -581,32 +422,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落H：从“随引众人入内……”到“灵威叟已先上前拜倒，口称：”的全部叙述）",
-          "instruct": "描写辉煌，语气庄重赞叹"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "玉阶",
-            "trigger_offset": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "登阶脚步声",
-            "sound_cn": "众人登上白玉台阶",
-            "sound_en": "footsteps ascending white jade stairs echoing",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "甲士",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "甲士列队",
-            "sound_cn": "甲士持戈肃立",
-            "sound_en": "armored warriors standing with halberds",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -642,7 +460,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "陷空老祖微一点首，灵奇便起立侍侧。众人不便再多张望，随同上前，正待躬身下拜，陷空老祖将手一摆，笑道：",
-          "instruct": "平缓过渡"
+          "instruct": ""
         },
         "effects": []
       },
@@ -680,7 +498,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时，众人觉对方手伸处，立有一股奇寒而劲的大力逼来，将身挡住，不令下拜。知他天性奇特，不应违忤。又见座左设有一排十个玉墩，上铺海草织成的白色软席，便同称谢，分别就座。易震年幼辈低，坐于末位。灵奇便侍立在他身后。灵奇之事已了，无庸癞姑解说。仍由易静为首起立，躬身敬谢赐药，指点成全，以及宽宥灵奇之德，并请教诲。陷空老祖道：",
-          "instruct": "叙述平稳，恭敬有加"
+          "instruct": ""
         },
         "effects": []
       },
@@ -775,21 +593,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落I：从“易静见灵奇面上仍带傲容……”到“灵威叟便请众人止步，说道：”的全部叙述）",
-          "instruct": "平静叙述，内心思量"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "拜谢",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "行礼声",
-            "sound_cn": "众人躬身行礼，衣袂轻响",
-            "sound_en": "rustle of robes as people bow in thanks",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -825,32 +631,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落J：从“说罢，手掐灵诀……”到“灵威叟笑道：”的全部叙述）",
-          "instruct": "奇幻升起，语气惊奇"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "云光乱闪",
-            "trigger_offset": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "升腾法光",
-            "sound_cn": "法光托升，云气飞旋",
-            "sound_en": "magical light lifting, swirling clouds and wind",
-            "volume": "-18%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "光华电掣",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "光华一闪",
-            "sound_cn": "光华电掣一闪而过",
-            "sound_en": "lightning flash of light passing",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -886,7 +669,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "随将手一指，亭中晶壁便开了一面，引众同出，举手作别。灵奇又似要开口询问，灵威叟忍不住怒骂了一声：",
-          "instruct": "简短过渡"
+          "instruct": ""
         },
         "effects": [
           {
@@ -936,21 +719,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "（此处为段落K：从“灵奇又复住口……”到“易静笑道：”的全部叙述）",
-          "instruct": "平缓过渡，气氛稍缓和"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_keyword": "冰壁",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "冰壁移开",
-            "sound_cn": "冰壁移开摩擦声",
-            "sound_en": "ice wall grinding open",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -986,7 +757,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼方想说奇景难逢，意欲浏览沿途景致，灵奇插口说道：",
-          "instruct": "过渡"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1043,7 +814,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说时众人已停了下来。易静问他：",
-          "instruct": "过渡"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1081,7 +852,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵奇答道：",
-          "instruct": "过渡"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1102,52 +873,7 @@
           "text": "（此处为灵奇讲述九首神鳌和乙休追妖的长篇独白，从“弟子自在中土为一妖人所伤……”到“岂是这区区泉眼便能逃避得了的？”）",
           "instruct": "回忆往事，语气低沉渐转激昂"
         },
-        "effects": [
-          {
-            "trigger_keyword": "深红如血",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "妖光破空",
-            "sound_cn": "深红妖光破空飞遁",
-            "sound_en": "deep red demonic light streaking",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "金光",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "金光追遁",
-            "sound_cn": "金光与青光合并追击",
-            "sound_en": "golden and cyan light merging in pursuit",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "神箭",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "神箭破空",
-            "sound_cn": "韩仙子神箭射出",
-            "sound_en": "divine arrow shot with piercing whistle",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "神雷",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "神雷震灭",
-            "sound_cn": "法宝神雷齐发震灭妖人",
-            "sound_en": "divine thunder and treasures obliterating demons",
-            "volume": "-12%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1166,52 +892,7 @@
           "text": "（此处为灵奇讲述乙休放人獭、神鳌、耿鲲来袭等后续，从“说完，使命人獭下到海底……”到“无影无踪。”）",
           "instruct": "讲述精彩交锋，语气紧张激昂"
         },
-        "effects": [
-          {
-            "trigger_keyword": "风雷破空",
-            "trigger_offset": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "翼人破空",
-            "sound_cn": "耿鲲双翼破空风雷",
-            "sound_en": "winged demon breaking through with wind and thunder",
-            "volume": "-14%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "火星",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "翼梢火星",
-            "sound_cn": "耿鲲翼梢火星连珠",
-            "sound_en": "sparks like firecrackers from wing tips",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "大网",
-            "trigger_offset": 0,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "天罗地网",
-            "sound_cn": "韩仙子天罗地网展开",
-            "sound_en": "Han Xianzi's great net unfurling with swish",
-            "volume": "-16%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_keyword": "碧色宝光",
-            "trigger_offset": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "碧光斩妖",
-            "sound_cn": "碧色宝光腰斩妖徒",
-            "sound_en": "green treasure light slicing through demons",
-            "volume": "-14%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -1232,7 +913,7 @@
         },
         "effects": [
           {
-            "trigger_keyword": "冷焰",
+            "trigger_keyword": "此处为灵奇讲",
             "trigger_offset": 0,
             "duration": 3,
             "process_mode": "overlay",
@@ -1278,7 +959,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "易静道：",
-          "instruct": "过渡"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1316,7 +997,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "灵奇谢了。",
-          "instruct": "收束，语气平静"
+          "instruct": ""
         },
         "effects": []
       },

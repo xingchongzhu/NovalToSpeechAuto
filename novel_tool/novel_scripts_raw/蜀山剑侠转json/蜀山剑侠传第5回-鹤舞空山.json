@@ -57,7 +57,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第5回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -76,19 +76,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说周淳听了那人之言，连忙跳出一看，忽然燕儿踪影不见，这一吓非同小可。起初尚以为他到附近去方便，谁知四外高声呼唤，仍是不见踪影，不禁急得浑身是汗。又不敢轻易离开此地，怕燕儿回来，寻他不着。正在无可奈何，忽听门内又发出细微的声音说道。",
-          "instruct": "紧张叙述，节奏急促"
+          "instruct": ""
         },
         "effects": [
-          {
-            "trigger_delay": 3,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "急促脚步",
-            "sound_cn": "周淳焦急四处寻找燕儿时的急促脚步声",
-            "sound_en": "hurried footsteps of Zhou Chun searching anxiously around courtyard, rapid pace on packed dirt ground",
-            "volume": "-26%",
-            "pitch": "+0Hz"
-          },
           {
             "trigger_delay": 16,
             "duration": 4,
@@ -97,7 +87,9 @@
             "sound_cn": "周淳焦急呼唤燕儿的喊声在山谷中回荡",
             "sound_en": "Zhou Chun calling out Yan'er loudly into the night, voice echoing across mountain valley with growing panic",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "近去方便",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28,
@@ -107,7 +99,9 @@
             "sound_cn": "门内传出细微虚弱的人声",
             "sound_en": "faint weak voice coming from inside the dark room, barely audible murmur through wooden door",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "开此地",
+            "trigger_offset": 0
           }
         ]
       },
@@ -137,7 +131,9 @@
             "sound_cn": "屋内人虚弱沉重的喘息声",
             "sound_en": "weak labored breathing of dying man inside dark room, rattling breath echoing faintly through wooden door",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "你还不曾走么",
+            "trigger_offset": 0
           }
         ]
       },
@@ -186,7 +182,9 @@
             "sound_cn": "屋内人说话间沉重急促的喘息声",
             "sound_en": "urgent labored breathing between words of dying man, weak gasps and rattling breath, exhausted struggle to speak",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那妖属阴",
+            "trigger_offset": 0
           }
         ]
       },
@@ -205,7 +203,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳万般无奈，只得照那人所说，往前走去。才走不到五里，忽听背后呼呼风起，腥味扑鼻。周淳知道不妙，连忙如飞一般向前奔走，刚刚走到一座庵前，忽然风止。周淳回头一看，只见一团浓雾中，隐约现出两盏红灯，往来路退去。月光底下，分外看得清切，不由出了一身冷汗。再看这茅庵，并不甚大，门前两株衰柳，影子被月光映射在地上，碎阴满地，显得十分幽静。庵内梵音之声不绝，想是此中主人，正在那里做夜课。便轻轻去叩了两下门。便有一小女孩应声答道。",
-          "instruct": "紧张描述，节奏急缓交替"
+          "instruct": ""
         },
         "effects": [
           {
@@ -216,7 +214,9 @@
             "sound_cn": "妖风呼啸，腥风扑面，妖气逼近",
             "sound_en": "evil wind blowing strongly with foul fishy smell, eerie howling sound of demonic presence approaching",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "才走不到五里",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 17,
@@ -226,7 +226,9 @@
             "sound_cn": "周淳拼命向前奔跑的急促脚步声",
             "sound_en": "Zhou Chun running desperately on mountain path, rapid urgent footsteps with straw sandals, breathless pace",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "连忙如飞一般",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 32,
@@ -236,7 +238,9 @@
             "sound_cn": "妖雾中红灯渐渐退去，风止雾散",
             "sound_en": "thick demonic mist slowly receding with two red lantern lights fading away, wind dying down to stillness",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "出两盏红灯",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 53,
@@ -246,7 +250,9 @@
             "sound_cn": "茅庵内传出的梵音诵经声",
             "sound_en": "soft Buddhist chanting drifting from within small nunnery, gentle sutra recitation in peaceful rhythm",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "阴满地",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 66,
@@ -256,7 +262,9 @@
             "sound_cn": "周淳轻轻叩击庵门的声响",
             "sound_en": "gentle knocking on wooden temple door, soft hesitant tapping with knuckles in the quiet night",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "叩了两下门",
+            "trigger_offset": 0
           }
         ]
       },
@@ -313,7 +321,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话还未了，门已开放，出来一妙年女尼，年纪才十三四岁，长得十分美秀，见了周淳，说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -324,7 +332,9 @@
             "sound_cn": "茅庵木门吱呀打开的声音",
             "sound_en": "old wooden temple door creaking open slowly, rusty hinges squeaking softly in night air",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "门已开放",
+            "trigger_offset": 0
           }
         ]
       },
@@ -362,7 +372,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳便随她进去，到了佛堂坐定。那小女尼又去端了一碗茶同几块素馍，与周淳食用，便自进去，许久不见出来。周淳正等得心烦，忽见面前青光一闪，犹如飞鸟般投向后院。周淳好奇心盛，便出了佛堂，轻轻往后院中走去。刚刚走近窗前，忽听有两个人正在说话，好似一男一女。侧耳细听，便听那女的说道。",
-          "instruct": "生动描述，节奏由缓渐紧"
+          "instruct": ""
         },
         "effects": [
           {
@@ -373,7 +383,9 @@
             "sound_cn": "周淳在佛堂蒲团上坐下的声音",
             "sound_en": "Zhou Chun sitting down on woven rush mat in Buddhist hall, soft rustle of robe against mat, settling sound",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "佛堂坐定",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 15,
@@ -383,7 +395,9 @@
             "sound_cn": "小女尼端来茶水和素馍的瓷碗轻碰声",
             "sound_en": "young nun bringing tea and steamed buns on wooden tray, ceramic bowl clinking softly, gentle offering sound",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便自进去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 31,
@@ -393,7 +407,9 @@
             "sound_cn": "青光如飞鸟般闪过，带有轻微的破空声",
             "sound_en": "blue sword light flashing like flying bird across room, subtle whoosh of immortal aura, fleeting spiritual energy",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "轻轻往后院中",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 38,
@@ -403,7 +419,9 @@
             "sound_cn": "周淳轻手轻脚走向后院的脚步声",
             "sound_en": "Zhou Chun tiptoeing cautiously toward backyard, very soft footsteps on wooden floor, careful stealthy approach",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "两个人正在说",
+            "trigger_offset": 0
           }
         ]
       },
@@ -452,7 +470,9 @@
             "sound_cn": "髯仙讲述中提及以剑驱妖的剑光破空声",
             "sound_en": "immortal sword glowing with blue light driving away demon, sharp whoosh of mystical blade cleaving evil aura",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不忍他遭毒手",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 65,
@@ -462,7 +482,9 @@
             "sound_cn": "白儿仙鹤的鸣叫声",
             "sound_en": "white crane crying out softly as immortal mount, gentle bird call echoing in mountain hermitage",
             "volume": "-24%",
-            "pitch": "+30Hz"
+            "pitch": "+30Hz",
+            "trigger_keyword": "寻那姓周的",
+            "trigger_offset": 0
           }
         ]
       },
@@ -557,7 +579,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳正听得出神，被室中人这一问，不由面红耳赤，只得走了进去。见蒲团上坐定一个女尼，年约四五十岁；上首坐定一个道人，一脸虬髯，两目精光四射。知是非常人物，不由纳头便拜。僧、道二人连忙用手相搀，口称不敢。那女尼叫周淳一旁坐下，便道。",
-          "instruct": "生动描述，节奏由窘转敬"
+          "instruct": ""
         },
         "effects": [
           {
@@ -568,7 +590,9 @@
             "sound_cn": "周淳窘迫地推门走入内室的声音",
             "sound_en": "Zhou Chun awkwardly pushing open wooden door to inner chamber, soft creak of hinge, footsteps entering room",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "只得走了进去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 26,
@@ -578,7 +602,9 @@
             "sound_cn": "周淳纳头便拜时膝盖着地的声音",
             "sound_en": "Zhou Chun kneeling down and bowing deeply on wooden floor, knees landing firmly, robe rustling as he prostrates",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人物",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 31,
@@ -588,7 +614,9 @@
             "sound_cn": "僧道二人连忙用手相搀的声音",
             "sound_en": "Buddhist nun and Taoist hastily helping Zhou Chun up, soft fabric rustle of sleeves, gentle hands lifting",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "连忙用手相搀",
+            "trigger_offset": 0
           }
         ]
       },
@@ -664,7 +692,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳连忙拜谢。白云大师道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -675,7 +703,9 @@
             "sound_cn": "周淳再次拜谢的声音",
             "sound_en": "Zhou Chun bowing again in deep gratitude, knees softly touching wooden floor, respectful prostration",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "周淳连忙拜谢",
+            "trigger_offset": 0
           }
         ]
       },
@@ -743,7 +773,9 @@
             "sound_cn": "白云大师讲述中蛇妖吐出毒雾的嘶嘶声",
             "sound_en": "snake demon hissing while spitting poisonous demonic mist, eerie slithering sound mixed with toxic vapor exhaling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "毒雾",
+            "trigger_offset": 0
           }
         ]
       },
@@ -762,7 +794,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳才知道那妖适才忽然不追的原故。白云大师又说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -800,7 +832,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "要知后事如何，且看下回分解。",
-          "instruct": "悬念收尾，余韵悠长"
+          "instruct": ""
         },
         "effects": []
       },

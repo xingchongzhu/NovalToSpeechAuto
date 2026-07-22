@@ -81,7 +81,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第106回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -100,7 +100,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "商风子刚想问笑和尚，使什么法儿将自己制得不能动转？笑和尚道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -138,7 +138,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "风子满腹茫然，待要问时，笑和尚已迈步前行。回到洞中一看，云从睡梦方酣，还未醒来。便问笑和尚道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -149,7 +149,9 @@
             "sound_cn": "笑和尚与风子迈步走进山洞，脚步在石地上回响",
             "sound_en": "footsteps entering the cave, echoing on stone floor, two figures walking in",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "风子满腹茫然",
+            "trigger_offset": 0
           }
         ]
       },
@@ -187,7 +189,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "笑和尚道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -225,7 +227,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，略待片时，云从醒转。笑和尚恐风子无知莽撞，又再三嘱咐云从。将云从霜镡剑要来，暗悬洞口之内，又用法术封了洞口。然后取了饭钵，别了二人，笑嘻嘻将大脑袋一晃，转眼间不知去向。约有个把时辰，端了一钵熟饭，还买了许多荤菜、锅盔回来。风子一见大喜，上前便接过去，首先端与云从食用。笑和尚笑道：",
-          "instruct": "叙述笑和尚化斋归来，语气轻松"
+          "instruct": ""
         },
         "effects": [
           {
@@ -236,7 +238,9 @@
             "sound_cn": "笑和尚将霜镡剑暗悬洞口，剑与石壁的轻碰声",
             "sound_en": "sword hung silently at the cave entrance, light clink of metal against stone",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "略待片时",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -246,7 +250,9 @@
             "sound_cn": "笑和尚口诵真言施法封洞，法术生效的轻响",
             "sound_en": "spell casting to seal the cave, soft hum of magical energy taking effect",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "云从醒转",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -256,7 +262,9 @@
             "sound_cn": "笑和尚将饭钵放落地上，钵与石地的轻响",
             "sound_en": "bowl set down on the stone floor, soft ceramic clink, food arriving",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "无知莽撞",
+            "trigger_offset": 0
           }
         ]
       },
@@ -294,7 +302,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，又从身上取出几两散碎银子，交与风子。云从好生过意不去，忙问究竟。笑和尚道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -305,7 +313,9 @@
             "sound_cn": "笑和尚将碎银交与风子，银两碰撞的轻响",
             "sound_en": "silver coins being handed over, soft clink of money changing hands",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "又从身上取出",
+            "trigger_offset": 0
           }
         ]
       },
@@ -343,7 +353,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "风子听笑和尚戏耍那刻薄人家，不由哈哈大笑。笑和尚本能辟谷，斋饭有时还吃，却不动荤。云从病后腹饥，风子更是连饿数日，狠吞虎咽，各吃了一个大饱。饭后云从精神大振，觉着腹痛作响，由笑和尚扶着，出外行动了一次，才向笑和尚重新跪谢。笑和尚无法，还礼起来，便在洞外闲眺，也无甚动静。下午过去，谷中赤氛又起。尉迟火也从成都赶回，得知醉道人自打发了张三姑娘，不多几日，留话给松、鹤二童，说有要事往衡山一行，归途还往云从家去代他除害。又代他起了一卦，本人凶险甚多，且喜吉人天相。如有人来，可着原人护送云从回家，待他妻子生产，安排好了家务，不必再往成都，径往峨眉飞雷洞李师叔处相见等语。云从闻言，自是大放宽心。尉迟火又问笑和尚，可知这里妖物来历。笑和尚道：",
-          "instruct": "叙述尉迟火归来与对话，语气平稳"
+          "instruct": ""
         },
         "effects": [
           {
@@ -354,7 +364,9 @@
             "sound_cn": "风子听笑和尚戏耍刻薄人家，哈哈大笑",
             "sound_en": "Fengzi bursting into laughter, hearty and amused, echoing in the cave",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "子听笑和尚戏",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -364,7 +376,9 @@
             "sound_cn": "云从与风子大口吃饭，碗筷碰撞声",
             "sound_en": "sound of hungry eating, chopsticks and bowls clinking, ravenous consumption",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不由哈哈大笑",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -374,7 +388,9 @@
             "sound_cn": "笑和尚在洞外闲眺风声衣袂轻响",
             "sound_en": "light rustle of robes as Monk Xiao gazes out from the cave, wind brushing past",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "能辟谷",
+            "trigger_offset": 0
           }
         ]
       },
@@ -412,7 +428,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "尉迟火道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -450,7 +466,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "笑和尚道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -488,7 +504,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "尉迟火道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -526,7 +542,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "风子也说，终年并无人迹，只有野兽来往。如今才想起，自从谷里每日下午有了红雾，连野兽都逐渐稀少绝迹。随大家去极好，但是他娘还葬在这里，恐尸首被妖物所害，要笑和尚想个法儿。笑和尚说：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -564,7 +580,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "当下先飞身上空，相好地势。然后下来，在二三十里周围要口山石上面，口诵真言，画了许多灵符。若有人到此，自会被许多法术妙用化成的怪兽大蟒吓退。笑和尚先没想到最厉害的妖物文蛛，自己又不愿往世俗人家跑。原打算叫云从在这里养病，传他运气化行之法，日夕打坐，就便自己除妖。今见妖物毒气如此重法，又有玉清大师传语，不敢怠慢，只好先送云从回家之后再来。布置完竣，便要动身。风子又去他母亲葬处，将身伏在土堆上，不住数说。三人见他虽未出声大哭，泪落不止，知是伤心到了极处，用好些譬解，才行劝住。将云从交给尉迟火，笑和尚带了风子，吩咐紧闭二目，喊一声：",
-          "instruct": "叙述布置封山与风子拜母，语气略带伤感"
+          "instruct": ""
         },
         "effects": [
           {
@@ -575,7 +591,9 @@
             "sound_cn": "笑和尚飞身上空查看地势，衣袂破风声",
             "sound_en": "leaping into the air to survey the terrain, robes flapping in the wind",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "当下先飞身上",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -585,7 +603,9 @@
             "sound_cn": "笑和尚在石上画符，手指与石面摩擦的轻响，法术生效的低吟",
             "sound_en": "tracing talismans on rocks, soft scrape of finger on stone, low hum of magic taking effect",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "相好地势",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -595,7 +615,9 @@
             "sound_cn": "风子伏在母亲墓前低语落泪，压抑的啜泣声",
             "sound_en": "Fengzi lying on his mother's grave, quiet sobbing and murmured words, grief pouring out",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二三十里周围",
+            "trigger_offset": 0
           }
         ]
       },
@@ -633,7 +655,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "破空便飞，觉着风子并不骨重，越发爱他资质。剑光迅速，飞到贵阳云从家中，天不过二更向尽。这时敌人方面因为接着一个受了重伤的同党送信，说是由川入贵途中，在野外遇见张老四和一个峨眉门下小辈，名叫孙南的，打听醉道人踪迹，露出一些口风，虽未听得详细，已知与周家之事有关。那人又打听到醉道人要往衡山一行，趁张老四与孙南分手走单时节，将他用暗器打倒。自己往回走时，不知怎的，竟会被那小辈孙南追上。正在危急受伤之际，幸遇一人相救，才得活命，一路将养到来，请大家留心在意。敌人一听这信，才知踪迹果被张氏父女看破，喜得张老四已中毒药暗器身死，还不妨事。只恐夜长梦多，便提前由云从父子先下手。及至一打听，云从业已走了数日，猜知必是张老四不回，亲往成都、峨眉两处求救。当天即派同党分两路去追，追上便行杀死。这里也同时发动，数日之内，连用重手法，暗中点伤了好几个周氏老兄弟。张三姑因自家势孤，玉珍又有身孕，如要解救，反启敌人注意，祸发更速，惟有权且隐忍，等醉道人来了施治。事已至此，云从的父母又因子远出，思念太切，还不如说明的好，便命玉珍便中婉言略说真相。云从的父母因家中新出变故愁烦，一听媳妇张玉珍说了经过，心中大惊。想起云从一去多日，尚未出贵州境内，托便人捎过两封书信，以后连亲家张老四都渺无音信。虽然媳妇和张三姑俱说无碍，到底不放心。而云从夫妻又是恐吓着老人，一番孝心，不得不从权行事，势难怪他们。仇敌如此狠毒，事若经官闹明了，反而愈加猖撅，全家俱有性命之忧。张三姑和媳妇只能保住自己全家，不能兼顾别人，眼前同胞骨肉，命在旦夕，焦急如焚。他却不知敌人势大，正因为云从不在家中，恐怕打草惊蛇，想等人将云从追上杀死，再行下手，否则头一个就是他全家遭殃。张三姑和玉珍岂有不知之理，不过恐二老忧惊过甚，不得不拿话壮胆罢了。谁知天不绝人。在大、三、四、五、六房相继出事，无故病倒，除了云从父母知道祸变，他人俱还闷在鼓里之际，有一晚云从父母在中堂以内，正和张三姑、玉珍愁颜相对，忽然一阵微风穿帘而入。张三姑疑是敌人行刺，大喝一声，便飞身迎上前去。烛影闪动处，现出一个背红葫芦的道人。玉珍认得是醉道人，喜从天降，首先伏地下拜。三姑也收剑上前，招呼云从父母一同见礼，又叩谢了救子之恩。坐定以后，一见云从并未跟来，心下好生不定。醉道人看出了心意，说道：",
-          "instruct": "叙述周家敌情与醉道人到来，语气由紧张转欣喜"
+          "instruct": ""
         },
         "effects": [
           {
@@ -644,7 +666,9 @@
             "sound_cn": "笑和尚带风子驾剑光破空飞行的呼啸声",
             "sound_en": "sword aura cutting through the air with a sharp whoosh, flight through the night sky",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "破空便飞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -654,7 +678,9 @@
             "sound_cn": "一阵微风穿帘而入，帘珠轻响",
             "sound_en": "a gentle breeze passing through the curtain, beads clicking softly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "因为接着一个",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 19.5,
@@ -664,7 +690,9 @@
             "sound_cn": "张三姑疑是敌人行刺，大喝一声飞身迎上",
             "sound_en": "Zhang Sangu letting out a sharp cry and leaping forward, quick and fierce",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一个受了重伤",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.5,
@@ -674,7 +702,9 @@
             "sound_cn": "玉珍认出醉道人，伏地下拜，衣料摩擦声",
             "sound_en": "Yuzhen recognizing the Daoist and bowing deeply, fabric rustling in reverence",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "了重伤的同党",
+            "trigger_offset": 0
           }
         ]
       },
@@ -712,7 +742,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，玉珍、三姑还想叩问自己前途时，醉道人袍袖展处，一道光华，破空而去。云从父母吓得慌忙下拜，起来思量，几曾见过这样飞行绝迹的仙人？不由信心大增。知道爱子不久便从他去，成仙虽是好事，到底难于割舍，既是命中注定，想留也未必能够。且喜弟兄无恙，云从再有半月即回，仙人之言，决不会差，才放了心，一切俱等到时再说。第二日，家人偷偷报信，说是昨晚三更后，二老爷上房院中光华乱闪。今日午前，二老爷亲自开门，喊近邻三老爷家去几个人，帮他打扫。入内一看，上房院内有好几滩黄水，只丢下二老和他跟前的外少爷奶妈。其余从二太太起，连那些亲友下人，俱都不在。二老爷说昨晚和二太太拌嘴，天没亮就吵着回娘家。那些下人，原都是那些亲戚荐用，夫妻一赌气，所以二太太连闲住的亲戚和那些下人都带走了。二老爷没人使唤，所以唤去几个服侍，一面招呼旧日用人回来等语。子敬一听，吩咐下人，二老爷性情不好，你们休要乱说。一面入内，去喊媳妇和张三姑来问。只玉珍一人到来，问起此事，玉珍说：",
-          "instruct": "叙述醉道人离去与周家事平，语气平稳"
+          "instruct": ""
         },
         "effects": [
           {
@@ -723,7 +753,9 @@
             "sound_cn": "醉道人袍袖展处化光破空而去，风声呼啸",
             "sound_en": "robes spreading as the Daoist transforms into light and flies away, wind rushing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "三姑还想叩问",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -733,7 +765,9 @@
             "sound_cn": "云从父母慌忙下拜，衣料摩擦与膝盖着地声",
             "sound_en": "bowing hastily, fabric rustling and knees hitting the ground in reverence",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "道人袍袖展处",
+            "trigger_offset": 0
           }
         ]
       },
@@ -771,18 +805,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "子敬夫妻听了，好不骇然。一会，九房弟兄齐来，背人互说了经过，分别嘱咐家人，不准传扬。好在周氏是积善之家，那些人俱非本乡本土，一去不归，先还有人诧异，事不关己，久亦淡忘。这晚正在计算日期，忽见一道金光直坠庭心，现出四人，竟有云从在内。以为同来的人，又是剑仙一流，忙着便要下拜。笑和尚早料到此，先就拦住。云从也忙着略说了一些来历。问起家中之事，果然已了，好不欣慰。因为不是外人，一面着人去唤玉珍与笑和尚等见礼。然后才分别落座，细说详情。云从父母和玉珍见云从面容消瘦许多，本已担心他路途受苦，及听说完经过，才知又是出死入生。小三儿还不知存亡下落，俱都伤心不止。感激笑和尚等相救之德，免不了朝三人又有一番称谢。云从因自己行踪奇特，恐启人疑，悄悄传来心腹家人，嘱咐了一套说词。一面安排来宾住处。笑和尚、尉迟火二人，除教云从、风子二人一些初入门的口诀功夫外，所有外人一概不见。常时依旧出门积修外功，有云从财力相助，救助孤寒的事，着实做了不少。光阴迅速，转眼还有五日，便到端阳。笑和尚因此去除妖，不便携带风子同行，命风子与云从做伴，等玉珍分娩，尽完人事，同往峨眉寻师，再图相见。自己同了尉迟火二人，告辞上路。云从又备了不少黄金白银，请二人带在身旁行善。二人离了周家，驾剑光直飞天蚕岭。行至云贵交界，遇见矮叟朱梅，在空中将二人唤住，一同收了剑光，落地叙话。笑和尚拜见之后，请示机宜。朱梅道：",
-          "instruct": "叙述云从回家、笑和尚尉迟火重返天蚕岭遇朱梅，语气平缓转郑重"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 1.5,
+            "trigger_delay": 37.1,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "金光坠庭",
             "sound_cn": "一道金光直坠庭心，光华耀眼，风声顿收",
             "sound_en": "golden light descending into the courtyard, dazzling radiance, wind settling",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光直坠",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -792,7 +828,9 @@
             "sound_cn": "众人分别落座，座椅轻响，谈话声起",
             "sound_en": "people settling into their seats, chairs creaking softly, conversation beginning",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "好不骇然",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -802,7 +840,9 @@
             "sound_cn": "笑和尚与尉迟火驾剑光飞离周家，破空声",
             "sound_en": "sword aura lifting off from the Zhou residence, whoosh of flight departing",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "周氏是积善之",
+            "trigger_offset": 0
           }
         ]
       },
@@ -840,7 +880,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，先行飞去。二人拜送之后，尉迟火自知能力有限，一切全凭笑和尚主持，无所希冀。笑和尚起初以为妖物纵然厉害，到底初次成形。凭自己能力，还不手到擒拿？及至听了矮叟朱梅嘱咐，先时也未敢怠慢。计算小辈同门，自己素常不惯和师姊妹交往，不便相烦。这投契相熟的，只有玄真子门下诸葛警我，还有金蝉、尉迟火三人。金蝉道行虽浅，两口宝剑却是至宝，不畏邪污。已听尉迟火在成都得来消息，说金蝉端阳节前要往青螺。其他同门虽多，不是不熟，便是本领不济。想了想，还是找诸葛警我去。到了东海三仙洞府中一打听，只遇见玄真子一个道童，说三仙俱在丹炉旁祭炼宝剑，诸葛警我奉命往雁荡采药未归。笑和尚闻言，也没惊动三仙，径直离了东海。一则艺高人胆大，一则贪功心甚，不由改了念头。暗想：'自己本领，隐形潜踪，出神入化，纵有异派妖人作梗，难道还胜似慈云寺那一干妖孽不成？再说各位前辈俱知那妖物出世，为祸不小，岂有不去剪除，放在一边之理？明明怜爱小辈，将这般大功留给自己，自己还不领受，只管找人相助则甚，那火灵珠只得一颗，又不便分润，只须自己事前多加留神便了。'他这一念之差，才惹出失剑百蛮山，再遇绿袍老祖，智劈辛辰子，三探阴风洞，再斩文蛛，风雷洞面壁十九年，几乎丧了道行之事，这且不提。笑和尚自把主意决定后，心想：'矮叟朱梅曾说有妖人在侧暗算，何不早去两日，仔细搜索，作一个预防之法，以备万一，省得临时出错。'当下同了尉迟火，径飞天蚕岭，仍往风子所居的土穴潜身。到时天色尚早，见谷里虽无甚动静，妖氛已浓。飞身四外查看自己前时行法之处，知道无人来过，略觉放心。便叫尉迟火去到村里，备办他自己的食粮，等他回来，再设法封山，遮掩异派中人耳目。还恐妖人早在山内潜伏，尉迟火走后，独自又往周围数十里内加意搜查，稍觉形迹可疑之处，丝毫也不肯放过。到了下午，除谷内妖气较前更浓外，一无所获。自信一双慧眼，决不至于看漏，想是妖人要到时才来。这时尉迟火业已回转，二人又商量了一阵，到时由笑和尚在前面去抢珠子，尉迟火由后面下手斩妖，只要引得那妖物回首，笑和尚再由前面回身，两下夹攻，合力将它除去。这种算计，笑和尚虽然略存私心，但是要换了尉迟火在前，委实也有些能力不够。计议定后，笑和尚才向天默祝，朝着东海下拜，叩求师父法力遥助自己成功。祝罢起身，走到山崖上面，叫尉迟火站在身后，暗运飞剑护法，相机保卫。自己盘膝入定，按照苦行头陀所传两界十方金刚大藏真言，施展开来，用佛法改变山川，潜移异派视线，到时纵有妖人想来，也无门可入。由戌初直到第二日辰初，才行完了大法。起身问尉迟火，昨晚在这密迩妖穴的高岩上面冒险行法，可曾见什么异象？尉迟火道：",
-          "instruct": "叙述笑和尚寻人未果、重返天蚕岭施法，语气平缓"
+          "instruct": ""
         },
         "effects": [
           {
@@ -851,7 +891,9 @@
             "sound_cn": "矮叟朱梅化作遁光飞离，破空声渐远",
             "sound_en": "Zhumei departing in a flash of light, whoosh fading into the distance",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "先行飞去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -861,7 +903,9 @@
             "sound_cn": "笑和尚与尉迟火驾剑光落于天蚕岭，衣袂风声",
             "sound_en": "sword aura landing on Tiancan Ridge, robes settling, wind dying down",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "纵然厉害",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28.0,
@@ -871,7 +915,9 @@
             "sound_cn": "笑和尚盘膝入定施展大法，周围风声沉静",
             "sound_en": "sitting in meditation to cast the great dharma, the wind and sounds falling into a profound stillness",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "叟朱梅嘱咐",
+            "trigger_offset": 0
           }
         ]
       },
@@ -909,7 +955,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "笑和尚道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -947,7 +993,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "因隔端阳还有两夜，闲着也是无事，仍和尉迟火遍山搜寻。因昨日时间已晚，一恐打草惊蛇，二因下午毒气太重，全山俱都查遍，只谷内妖穴没有轻易深入，便着尉迟火在离谷不远的高坡上了望。自己趁着正日照中天，阳光最盛之际，飞身入谷，查看妖穴。到了谷中一看，那谷竟是个死的，恰如瓶口一般。谷底四面危崖掩护，终古不见阳光。地气本就卑湿，再加崖上野生桃杏之属，成年坠落谷中，烂成一片沮洳，臭气潮蒸，中人欲呕。靠近妖穴处，有一个丈许方圆的地穴，背倚危崖，拔地千丈，慧眼观去，深不见底，骨嘟嘟直冒黑气。时见五色烟雾，耳中闻得呼噜呼噜之声，响成一片。笑和尚内服灵丹，还是凌空下视，已觉气味奇腥，头目昏眩，估量这般奇毒险恶之区，除了妖物，异派中纵有能人，也决难潜伏。不愿再作流连，便往回飞走。出谷之际，一眼瞥见谷口内有一块凸出的岩石，上面安排着八堆石块，成一个八卦形势，门户分得非常奇特。石旁野生着许多丛草矮树。猜是前人镇压之物。因为看了谷里形势，甚合下手心意，急于要和尉迟火商量，没有十分在意，匆匆飞回。见尉迟火正在那里呆望，近前一看，觉着尉迟火脸上颜色发青。笑和尚到底细心，问尉迟火可觉身体有些异样？尉迟火说：",
-          "instruct": "叙述笑和尚入谷探穴，语气紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -958,7 +1004,9 @@
             "sound_cn": "笑和尚飞身入谷查看妖穴，衣袂破风",
             "sound_en": "leaping into the valley to inspect the demon lair, robes flapping in the wind",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "隔端阳还有两",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -968,7 +1016,9 @@
             "sound_cn": "谷中腐烂桃杏与潮湿泥沼的臭气弥漫，低沉沼气泡破裂声",
             "sound_en": "stench of rotting fruit and damp swamp filling the valley, low gurgle of marsh gas bubbles popping",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "着也是无事",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -978,7 +1028,9 @@
             "sound_cn": "地穴中骨嘟嘟直冒黑气和五色烟雾，低沉呼噜声",
             "sound_en": "black and five-colored smoke bubbling up from the earth cave, deep gurgling sounds echoing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "迟火遍山搜寻",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1016,7 +1068,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "笑和尚嘱咐小心，不要妄入，一切由自己安排。当下给他吃了一粒丹药，也就放过一边。他却不想尉迟火纵然剑术造就不及他深，但是从师多年，已能飞行绝迹，身剑相合，岂是一夜风露和那些毒气所能侵袭？这一大意，几乎害了尉迟火性命，这且留为后叙。尉迟火眼药之后，头晕稍好，两人商量下手之策。因听苦行头陀说，妖物天生异禀，全身只要一见风，便变成了钢鳞铁骨。只当胸前有一白团，是它心窍，连那初出土时两只后爪，比较柔嫩。别处纵用飞剑斩断，也不能将它除去。且这东西最灵，一受伤，自知不敌，便要化风逃走，无法跟寻。算计妖物从地穴中一出土，必往谷口方面冲出，到时着尉迟火在谷底危崖顶上，居高临下，运用元神，指挥飞剑，静等笑和尚抢珠到手，先用飞剑斩去那两只后爪，妖物必然负痛回身。笑和尚再驾无形遁光，从前面远处动用飞剑，乘它后爪斩断、前爪登起之时，直刺它的心窍。双管齐下，前后夹攻，以防它弃珠不要，入土遁走，异日又为祸人世。计议停妥，不觉到了下午。这次不比往日，夕阳衔山，异声便起，谷内外宛似百十亩晴云笼罩，邪彩氖氢。二人看了，暗自心惊。待了一会，异声渐厉，仿佛是唤二人名字。二人虽是预知厉害，屏息凝神，不去理它，笑和尚还可，尉迟火已觉闻声心颤，烦躁不宁。子夜过去，一粒鲜红如火的明星，倏地从彩雾浓烟中疾如星飞，往上升起，红光闪耀，照得妖穴左近的毒氛妖雾，如蒸云蔚霞，层绢笼彩，五色变幻，绚丽无俦。耳边又听轧轧两声，接着飞起两串绿星，都有碗大，每串约有二十多个，绿闪精莹，光波欲活，随着先前红星，互相辉映，在五色烟雾中，上下飞翔。舞到极处，恰似两条绿色蛟龙，同戏火珠。忽而上出重霄，映得满山都是红绿彩影，忽而下落氛围，变成无数星灯。氤氲明灭，若隐若现。尉迟火看到奇处，不由目定神移，几番出声呼怪，俱被笑和尚止住。等到天将见曙，红绿火星渐渐由高而低，由疾而缓，倏地冲霄三次，瞥然下落，没入妖穴，不见踪影。阳光升起，妖云犹未散去，仍如五色轻纱雾毅，笼罩崖穴。只尉迟火昨早所见妖穴附近的黄烟，始终没有出现，未免又疏忽过去。算计过了今晚，明日正午端阳，便该是妖物出土之期。二人恐惊动妖物，一同飞到远处，各将飞剑放出，互相演习了一阵。尉迟火不知怎的，总觉人不对劲，气机不能自如，吃力勉强。向笑和尚要了一粒丹药服下，又运用了两个时辰内功，一同回至天蚕岭。此番不往妖穴查看，只在附近周围巡视，以防万一有异派妖人潜伏。这连日查看结果，只到处都是些零乱鸟毛，鸟身却不见一个，野兽自然早已绝迹。知道这些飞禽俱为妖物吞食，吃剩羽毛，随风飞散。且喜别的尚无异兆，当下回到风子土穴。尉迟火独自坐在石床上进食，忽然失声道：",
-          "instruct": "叙述妖穴异象与二人计议，语气紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1027,7 +1079,9 @@
             "sound_cn": "笑和尚取出丹药与尉迟火服下，药丸轻响",
             "sound_en": "pill taken and swallowed, soft sound of medicine being consumed",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "和尚嘱咐小心",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -1037,7 +1091,9 @@
             "sound_cn": "二人放出飞剑互相演习，剑光破空声",
             "sound_en": "sword auras being released and practiced, sharp whoosh of blades cutting through air",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "也就放过一边",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -1047,7 +1103,9 @@
             "sound_cn": "子夜妖声渐厉，呼唤名字般的异声在谷中回荡",
             "sound_en": "eerie demon cries growing louder at midnight, calling names like a familiar voice echoing through the valley",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "术造就不及他",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 22.0,
@@ -1057,7 +1115,9 @@
             "sound_cn": "鲜红如火的红星与两串绿星在彩雾中飞舞，如双龙戏珠",
             "sound_en": "bright red star and two strings of green lights dancing in the mist, like twin dragons playing with a pearl",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "但是从师多年",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1095,7 +1155,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "笑和尚问是为何？尉迟火道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1133,7 +1193,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "笑和尚日来一心只在除妖搜敌，百事俱未在心，一闻此言，不禁起了好奇之想，叫尉迟火起来，仔细端详这土穴和那块大石形势，看出那土穴附在崖脚，泥石夹杂，并无别的异处。五月天气，穴内自较外面凉爽，原不足奇。那块大石是风子昔日睡处，虽然是一块方形青石，却是通体整齐，有六尺见方，四面端正，出土约有三尺，下截埋在地里。穴口太小，风子纵有天生神力，决难运进。石身又是那般四周平滑光洁，穴内清凉，抚石却有温意。据风子说，本是狐獾之类扒掘的巢穴，何以洞里面却藏着这一块方石？越看越觉希奇，左右暂时无事，想查个水落石出。略一寻思，先不动石，二人合力将石旁乱石泥沙用剑拨开。然后用穴中风子留下的锹铲，不一会工夫，便将那石扒见了底。细一端详，竟是上下四方，高下如一，毫厘不差。凭二人神力，毫不费事将石抬开，往下一看，粗如人臂的黄精，似无数黑蟒般，纠缠盘结做一堆，也不知有多少。笑和尚折了一截来尝，入口甘芳，胜似先前所食十倍。猛然心中一动，大喜道：",
-          "instruct": "叙述发现异石与黄精，语气好奇转惊喜"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1144,7 +1204,9 @@
             "sound_cn": "二人用剑拨开石旁乱石泥沙，碎石碰撞与沙沙声",
             "sound_en": "pushing aside stones and sand with swords, clatter of rocks and rustle of gravel",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "笑和尚日来一",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -1154,7 +1216,9 @@
             "sound_cn": "用锹铲挖土扒石，铁器铲土的声音",
             "sound_en": "digging with shovel and pick, metal scraping against earth and rock",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "来一心只在除",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -1164,7 +1228,9 @@
             "sound_cn": "二人合力将方石抬开，沉重的摩擦声",
             "sound_en": "lifting the square stone together, heavy scraping and grunt of effort",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "百事俱未在心",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1174,7 +1240,9 @@
             "sound_cn": "笑和尚折下黄精一截，脆响",
             "sound_en": "snapping off a piece of yellow root, crisp breaking sound",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一闻此言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1212,7 +1280,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "尉迟火还要推谢，笑和尚已叫他站过一旁，手指处，一道金光绕石旋转，四周如同霰迸雪飞，霜花四洒。顷刻之间，剥茧碾玉一般，早去了三分之一。先时毫无异状，只石质越往后越觉细腻，金光闪闪，玉雪纷飞。不多一会，六尺见方一块大青石，变成尺多方圆，六尺高的一根石柱，仍是一无所获。笑和尚一面动手，正在后悔自己不该贪心，将天然生就一块光滑成形的大石，削得一无所用。眼看越削越小，已只剩八九寸粗细，忽见金光影里，似有银霞。连忙住手，近前一看，这石上下皆形如常玉，只中心处有银色从石里透出，隐约可辨，估量大小，也不过六七寸之间。知道所料不虚，宝物行即发现。金光过处，先将上半截青石切去，移开一边，再将下半截同样削断。笑和尚刚将石心捧起，准备拿过一旁细看，尉迟火无心中低头往下半截石根上一看，只见哧地一股清泉，细如人指，从下半截石根心处直喷起来。",
-          "instruct": "叙述削石取宝与清泉喷涌，语气由好奇转惊喜"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1223,7 +1291,9 @@
             "sound_cn": "一道金光绕石旋转削切，石屑如霰雪飞洒",
             "sound_en": "golden light spinning around the stone, cutting it like snow, stone chips flying like frost",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "尉迟火还要推",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.0,
@@ -1233,7 +1303,9 @@
             "sound_cn": "石屑如霰迸雪飞、霜花四洒的细碎声响",
             "sound_en": "stone fragments spraying out like snow and frost, fine particles falling with a soft patter",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "他站过一旁",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -1243,7 +1315,9 @@
             "sound_cn": "金光影中银霞透出，石中宝光隐现",
             "sound_en": "silver light emerging from within the stone, hidden treasure glowing through the rock",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "四周如同霰迸",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -1253,7 +1327,9 @@
             "sound_cn": "笑和尚将石心捧起，石与手接触的轻响",
             "sound_en": "stone core lifted carefully, soft sound of rock meeting hands",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "迸雪飞",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 15.5,
@@ -1263,7 +1339,9 @@
             "sound_cn": "一股清泉从下半截石根心处直喷起来，清澈水声",
             "sound_en": "clear spring water gushing from the center of the lower stone base, bright and refreshing sound of water flowing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "霜花四洒",
+            "trigger_offset": 0
           }
         ]
       },

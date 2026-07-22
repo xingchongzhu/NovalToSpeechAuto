@@ -57,7 +57,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第3回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -76,7 +76,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说周淳听了燕儿之言大惊，",
-          "instruct": "紧张叙述，语气陡然收紧"
+          "instruct": ""
         },
         "effects": []
       },
@@ -152,7 +152,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "李宁听了，不禁大惊道。",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -209,7 +209,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "李宁尚未答言，英琼、燕儿两个小孩子，初出犊儿不怕虎，俱各心怀不服。燕儿还不敢张口就说。英琼气得粉面通红，说道。",
-          "instruct": "略带紧张叙述，语气渐急"
+          "instruct": ""
         },
         "effects": [
           {
@@ -220,7 +220,9 @@
             "sound_cn": "少女握紧拳头时衣袖摩擦的声音",
             "sound_en": "young girl clenching fists, fabric of sleeve rustling with tension",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "李宁尚未答言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -269,17 +271,21 @@
             "sound_cn": "白绸布缠绕手臂时布料摩擦的沙沙声",
             "sound_en": "white silk fabric wrapping around arms, soft cloth rustling and tightening",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一点阅历",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 32,
+            "trigger_delay": 82.5,
             "duration": 4,
             "process_mode": "overlay",
             "name": "乘风飞跃",
             "sound_cn": "乘风飞跃时衣袂破空的呼啸声",
             "sound_en": "flying through wind with silk wings, whooshing air and flapping cloth",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "跳，也毫",
+            "trigger_offset": 0
           }
         ]
       },
@@ -298,7 +304,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳顿了顿，继续说道。",
-          "instruct": "停顿叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -328,7 +334,9 @@
             "sound_cn": "仆人递送名帖时纸张刷刷声与脚步声",
             "sound_en": "servant delivering a name card, soft footsteps and paper rustling",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "走到南京的北",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 32,
@@ -338,7 +346,9 @@
             "sound_cn": "一阵急风吹过，店门被吹得半掩，木门吱呀作响",
             "sound_en": "sudden gust of wind blowing shop door half-closed, wooden door creaking loudly",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "及至会面",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 55,
@@ -348,7 +358,9 @@
             "sound_cn": "手用力摇晃木门，门板晃动发出刺耳吱呀声，木屑簌簌落下",
             "sound_en": "hand forcefully shaking wooden door, loud creaking noise, wood splinters falling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便用极委婉的",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 78,
@@ -358,7 +370,9 @@
             "sound_cn": "瓦片被内力击碎，碎片四散落地的清脆破裂声",
             "sound_en": "roof tiles shattered by martial force, sharp cracking sound, debris scattering on ground",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "神弱一点",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 162,
@@ -368,17 +382,21 @@
             "sound_cn": "远处船舱传来女子凄惨绝望的哭喊声",
             "sound_en": "woman crying and screaming desperately from distant boat cabin, anguished voice echoing over water",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "瓦一口痰吐过",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 176,
+            "trigger_delay": 323.3,
             "duration": 2,
             "process_mode": "overlay",
             "name": "纵身跃船",
             "sound_cn": "纵身跃上邻船时衣袂破空与船板震动声",
             "sound_en": "leaping across boats with force, clothes whooshing through air, wooden deck thud on landing",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "纵身出来",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 210,
@@ -388,7 +406,9 @@
             "sound_cn": "金镖脱手破空飞行的尖锐呼啸声",
             "sound_en": "gold dart flying through air at high speed, sharp metallic whistling sound",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "有女子哭喊之",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 218,
@@ -398,17 +418,21 @@
             "sound_cn": "一口气吹灭灯火，火焰骤熄的轻噗声",
             "sound_en": "blowing out oil lamp with one puff, flame extinguishing with soft whoosh",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随身的兵器也",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 228,
+            "trigger_delay": 346.7,
             "duration": 5,
             "process_mode": "overlay",
             "name": "刀剑交锋",
             "sound_cn": "刀剑激烈交锋，金属猛烈碰撞迸出火花的声音",
             "sound_en": "swords and blades clashing fiercely, metal striking metal with sparks, intense combat rhythm",
             "volume": "-15%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑穿云拿",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 256,
@@ -418,7 +442,9 @@
             "sound_cn": "手指被斩断时撕心裂肺的惨叫声",
             "sound_en": "finger being severed by sword, agonized scream of extreme pain",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "经剥卸",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 264,
@@ -428,7 +454,9 @@
             "sound_cn": "钢刀被掷落地面，金属撞击地面的沉重声响",
             "sound_en": "steel blade thrown to wooden floor, heavy metallic clang and reverberation",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "衣时候",
+            "trigger_offset": 0
           }
         ]
       },
@@ -447,7 +475,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "谈话中间，忽听空中一声鹤唳响彻云霄，众人听得出神，不曾在意。周淳听了，连忙跑了下去，一会儿回来。燕儿问道。",
-          "instruct": "平静叙述，中段转为急转"
+          "instruct": ""
         },
         "effects": [
           {
@@ -458,7 +486,9 @@
             "sound_cn": "仙鹤傲然长鸣，声震云霄的高亢嘹亮鹤唳声",
             "sound_en": "majestic crane crying out high above clouds, piercing and resonant call echoing through mountain peaks",
             "volume": "-22%",
-            "pitch": "+50Hz"
+            "pitch": "+50Hz",
+            "trigger_keyword": "谈话中间",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8,
@@ -468,7 +498,9 @@
             "sound_cn": "周淳闻声连忙奔跑出去的急促脚步声",
             "sound_en": "hurried running footsteps on cave stone floor, rapid urgent pace echoing",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "人听得出神",
+            "trigger_offset": 0
           }
         ]
       },
@@ -525,7 +557,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "英琼便问道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -620,7 +652,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "李宁听了，亦以为然，便要同周淳一同前去。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -658,7 +690,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "众人商议停妥，周淳便别了李氏父女，同燕儿直往山下走去。那时已是秋末冬初，金风扑面，树叶尽脱。师徒二人随谈随走，走了半日，已来到峨眉山下。忽然看见山脚下卧着一个道人，只穿着一件单衣，身上十分褴褛，旁边倒着一个装酒的红漆大葫芦。那道人大醉后，睡得正熟。燕儿道。",
-          "instruct": "生动描述，渐转好奇"
+          "instruct": ""
         },
         "effects": [
           {
@@ -669,7 +701,9 @@
             "sound_cn": "秋末寒风穿过枯枝，落叶簌簌飘落的声音",
             "sound_en": "late autumn cold wind blowing through bare branches, dry leaves rustling and falling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "众人商议停妥",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 15,
@@ -679,7 +713,9 @@
             "sound_cn": "师徒二人在山路行走，枯叶在脚下沙沙作响",
             "sound_en": "master and disciple walking down mountain path, dry leaves crunching under straw sandals",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "树叶尽脱",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 25,
@@ -689,7 +725,9 @@
             "sound_cn": "红漆大酒葫芦倒在地上发出的沉闷声音",
             "sound_en": "large red lacquer wine gourd tipping over, hollow thud on ground",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "看见山脚下卧",
+            "trigger_offset": 0
           }
         ]
       },
@@ -746,7 +784,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便走上前去，在道人身旁轻轻唤了两声：道爷，请醒醒吧。又用手推了他两下。那道人愈发鼾声如雷，呼唤不醒。周淳见那道人虽然面目肮脏，手指甲缝中堆满尘垢，可是那一双手臂却莹白如玉，更料他不是平常之人。因为急于要同燕儿回家，又见他推唤不醒，没奈何，便从衣包内取了件半新的湖绉棉袍，与他披在身上。临行又推了他两下，那道人仍是不醒。只得同燕儿到附近饭铺，胡乱吃了一点酒食，匆匆上道。",
-          "instruct": "平静叙述，细节生动"
+          "instruct": ""
         },
         "effects": [
           {
@@ -757,7 +795,9 @@
             "sound_cn": "周淳俯身在道人身旁轻声呼唤的声音",
             "sound_en": "gentle voice calling softly near sleeping Taoist, quiet earnest wake up call",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便走上前去",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8,
@@ -767,7 +807,9 @@
             "sound_cn": "道人酒醉后呼噜震天的响亮鼾声，连绵不断",
             "sound_en": "drunk Taoist snoring extremely loudly, deep rumbling breathing in continuous rhythm",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "轻轻唤了两声",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 38,
@@ -777,7 +819,9 @@
             "sound_cn": "从衣包取出棉袍抖开，披在道人身上的布料摩擦声",
             "sound_en": "taking out cotton robe from cloth bundle, fabric unfolding and draping over sleeping man",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "又见他推唤不",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 52,
@@ -787,7 +831,9 @@
             "sound_cn": "师徒二人在附近饭铺草草吃饭，碗筷杯盏的轻微碰撞声",
             "sound_en": "hurried meal in small roadside eatery, chopsticks and ceramic bowls softly clinking",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "行又推了他两",
+            "trigger_offset": 0
           }
         ]
       },
@@ -806,7 +852,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "到了无人之处，师徒二人施展陆地飞行的脚程，往乌鸦嘴走去，哪消两个时辰，便已离村不远。周淳知道燕儿之母甚贤，此去必受她特别款待，劳动她于心不安，况且天已不早，意欲吃完了饭再去，便同燕儿走进一家酒饭铺去用晚饭。这家酒饭铺名叫知味楼，新开不多时，烹调甚是得法，在那里饮酒的座客甚多。他师徒二人归心似箭，也不曾注意旁人，便由酒保引往雅座。燕儿忽然看见一件东西，甚是眼熟，不禁大吃一惊，连忙喊周淳来看。",
-          "instruct": "悬疑铺垫，由平缓渐转紧张"
+          "instruct": ""
         },
         "effects": [
           {
@@ -817,7 +863,9 @@
             "sound_cn": "师徒二人施展陆地飞行轻功，风声呼啸脚步急促",
             "sound_en": "master and disciple traveling swiftly using lightness skill, fast wind whooshing past, rapid light footsteps",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "到了无人之处",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28,
@@ -827,7 +875,9 @@
             "sound_cn": "知味楼酒馆内食客喧闹、杯盏交错的热闹氛围",
             "sound_en": "lively ancient restaurant interior, many patrons chatting, cups and plates clinking, warm bustling atmosphere",
             "volume": "-25%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "欲吃完了饭再",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 45,
@@ -837,7 +887,9 @@
             "sound_cn": "燕儿看见眼熟之物大吃一惊的短促惊呼与抽气声",
             "sound_en": "young boy suddenly gasping in shock, short startled exclamation of recognition",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "饮酒的座客甚",
+            "trigger_offset": 0
           }
         ]
       },
@@ -856,7 +908,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "要知后事如何，且看下回分解。",
-          "instruct": "悬念收尾，余韵悠长"
+          "instruct": ""
         },
         "effects": []
       },

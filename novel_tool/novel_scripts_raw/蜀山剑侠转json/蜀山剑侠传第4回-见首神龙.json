@@ -63,7 +63,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第4回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -82,7 +82,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说周淳师徒二人进知味楼去用饭，忽然看见一件东西挂在柜房，甚是触目。仔细一看，原来便是在峨眉山脚下那个醉道人所用来装酒的红漆葫芦。四面一看，并无那个道人的踪影。二人起初认为天下相同之物甚多，也许事出偶然，便坐下叫些酒饭，随意吃喝。后来周淳越想越觉稀奇，便将酒保唤来问道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -120,7 +120,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那酒保答道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -158,7 +158,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳一面听，一面寻思，便对酒保说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -196,7 +196,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "酒保疑心周淳喜爱葫芦，想借此拿去，便道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -234,7 +234,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "燕儿正要发言，周淳连忙对他使眼色，不让他说话。知道酒保用意，便说道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -272,7 +272,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "酒保听了周淳之言，方知错会了意。他本认为穷道爷这笔账不大稳当，因为人家照顾太多，不好意思不赊给他；又怕别人将葫芦取走，道人回来讹诈，故而不肯。今见周淳这样慷慨，自然心愿。便连他师徒二人的账算在一起，共合二两一钱五分银子。周淳将酒账开发，又给了一些酒钱，便往燕儿家中走去。燕儿正要问那道人的来历，周淳叫他不要多说，只催快走。不大工夫，已到燕儿门首。燕儿的娘赵老太太，正在门首朝他们来处凝望。燕儿见了他母亲，便舍了周淳，往他娘怀中扑去。周淳见了这般光景，不禁暗暗点头。赵母扶着燕儿，招呼周淳进去。他家虽是三间土房，倒也收拾得干净。堂前一架织布机，上面绷着织而未成的布，横头上搁着一件湖绉棉袍，还有一大包东西，好似包的银子。燕儿便道。",
-          "instruct": "生动描述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -283,7 +283,9 @@
             "sound_cn": "周淳付账时铜钱碰撞的声音",
             "sound_en": "small copper coins clinking together on wooden counter, old Chinese silver pieces jingling, paying restaurant bill",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "周淳将酒账开",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 73,
@@ -293,7 +295,9 @@
             "sound_cn": "燕儿扑进母亲怀抱的声音",
             "sound_en": "young boy running into his mother's embrace, soft fabric rustle of cotton clothes, warm family reunion hug",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "周淳见了这般",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 89,
@@ -303,7 +307,9 @@
             "sound_cn": "堂前织布机有节奏的穿梭声",
             "sound_en": "wooden weaving loom shuttle sliding rhythmically back and forth, gentle creak of old wooden frame, soft cotton thread tension sounds in quiet rural home",
             "volume": "-28%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "堂前一架织布",
+            "trigger_offset": 0
           }
         ]
       },
@@ -341,7 +347,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "赵母便道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -379,7 +385,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳听了赵母之言，便将银包打开一看，约有三百余两。还包着一张纸条，写着“醉道人赠节妇孝子”八个字，写得龙蛇飞舞。周淳便对燕儿道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -390,7 +396,9 @@
             "sound_cn": "打开银包的声音",
             "sound_en": "opening a heavy silver pouch on wooden table, fabric rustling and untying cloth knot, revealing silver ingots inside",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "赵母之言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -428,7 +436,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "赵母忙问究竟。周淳便从峨眉山遇见那道人，直说到酒店还账止。又把带燕儿同走的来意说明。劝赵母只管把银子收用，绝无差错。赵母道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -466,7 +474,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳谢了赵母。到了晚间，周淳又去见马湘，嘱咐许多言语。第二天起身往成都，特地先往酒店中去寻那醉道人，准备结交一个风尘奇士，谁想道人、葫芦俱都不在。便寻着了昨天的酒保，问他下落，那酒保回言。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -477,7 +485,9 @@
             "sound_cn": "清晨前往酒店寻找，推门而入的声音",
             "sound_en": "pushing open a wooden door of inn in early morning, soft creak of old door hinges, empty quiet interior with faint echo",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许多言语",
+            "trigger_offset": 0
           }
         ]
       },
@@ -507,7 +517,9 @@
             "sound_cn": "道人拿葫芦匆忙出门离去的脚步声",
             "sound_en": "rapid footsteps on wooden floor exiting quickly, hurried stride fading away, cloth robe swishing in haste",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "昨天那道人回",
+            "trigger_offset": 0
           }
         ]
       },
@@ -526,7 +538,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳情知醉道人已走，无法寻访，好生不乐。没奈何，只得同了燕儿上路，直往成都。行了数日，忽然走到一个地方，名叫三岔口。往西南走去，便是上成都的大道。正西一条小道，也通成都，比大道要近二百多里，只是要经过许多山岭，不大好走。周淳因闻听过这些山岭中有许多奇景，一来急于要到成都，二则贪玩山景，便同燕儿往小道走去。行了半日，已是走入山径。这山名叫云灵山，古树参天，怪石嵯峨，颇多奇景。师徒二人走得有点口渴，想寻一点泉水喝。恰好路旁有一条小溪，泉水清洁，游鱼可数。便同燕儿下去，取出带来的木瓢，吸了一些溪泉，随意饮用。此时日已衔山，师徒二人怕错过了宿头，连忙脚步加紧，往前途走去。",
-          "instruct": "生动描述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -537,7 +549,9 @@
             "sound_cn": "用木瓢舀取山泉饮用的声音",
             "sound_en": "drinking cool mountain spring water with a wooden ladle, gentle splashing of clear stream water, refreshing sip",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一些溪泉",
+            "trigger_offset": 0
           }
         ]
       },
@@ -556,7 +570,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正走之间，忽听一声鹤唳。周淳道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -567,7 +581,9 @@
             "sound_cn": "仙鹤高亢的鸣叫声",
             "sound_en": "loud clear crane cry echoing through mountain valley, high pitched bird call piercing the silence, resonant echo",
             "volume": "-22%",
-            "pitch": "+50Hz"
+            "pitch": "+50Hz",
+            "trigger_keyword": "走之间",
+            "trigger_offset": 0
           }
         ]
       },
@@ -605,7 +621,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢抬头望天，只见天晴无云，一些踪影全无。燕儿忽然叫道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -643,7 +659,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳连忙看时，只见道旁一块大山石上，站着极大的仙鹤，头顶鲜红，浑身雪白，更无一根杂毛，金睛铁喙，两爪如铜钩一般，足有八九尺高下，正在那里剔毛梳羽。周淳道。",
-          "instruct": "生动描述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -681,7 +697,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "正说之间，忽见山石旁边蹿起一条青蛇，有七八尺长。那鹤见了这蛇，急忙用口来啄。叵耐那蛇跑得飞快，仙鹤嘴到时，已自钻入石洞之中，踪迹不见。铁喙到处，把那山石啄得碎石溅起，火星乱飞。那鹤忽然性起，脚嘴同施，连抓带啄，把方圆六七尺一块山石啄得粉碎。那蛇见藏身不住，正待向外逃窜，刚伸出头时，便被那鹤一嘴擒住。那蛇把身子一卷，七八尺长的蛇身，将鹤的双脚紧紧缠住不放。那鹤便不慌不忙，一嘴先将蛇头啄断，再用长嘴从两脚中轻轻一理，便将蛇身分作七八十段。哪消几啄，便已吃在肚内。抖抖身上羽毛，一声长叫，望空而去，一晃眼间，便已飞入云中。",
-          "instruct": "紧张描述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -692,7 +708,9 @@
             "sound_cn": "青蛇快速蹿出的声音",
             "sound_en": "green snake suddenly slithering out from behind a large rock, rapid scale rustling on stone surface, startling movement",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "山石旁边蹿起",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 22,
@@ -702,7 +720,9 @@
             "sound_cn": "仙鹤铁喙啄击山石的声音",
             "sound_en": "crane iron beak violently pecking mountain rock, stone chips and gravel flying everywhere, sparks bursting from impact",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "踪迹不见",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 50,
@@ -712,7 +732,9 @@
             "sound_cn": "蛇鹤搏斗的激烈声响",
             "sound_en": "intense snake and crane battle, snake hissing loudly while coiling tightly, crane pecking fiercely with sharp beak, chaotic struggle",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一嘴擒住",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 82,
@@ -722,7 +744,9 @@
             "sound_cn": "仙鹤胜利后长鸣飞去",
             "sound_en": "triumphant crane crying out after victory, powerful wings flapping and taking off, soaring cry fading into distant clouds",
             "volume": "-22%",
-            "pitch": "+50Hz"
+            "pitch": "+50Hz",
+            "trigger_keyword": "望空而去",
+            "trigger_offset": 0
           }
         ]
       },
@@ -741,7 +765,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时已是暮色苍茫，暝烟四合。周淳忙催燕儿赶路。走出三里多路，天色向晚。恰好道旁有一所人家，便上前叩门投宿。叩了半日，才听里面有人答话，问道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -752,7 +776,9 @@
             "sound_cn": "敲门的声音",
             "sound_en": "heavy knocking on old wooden door at twilight, firm fist rapping on weathered wooden planks, seeking shelter sound",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一所人家",
+            "trigger_offset": 0
           }
         ]
       },
@@ -790,7 +816,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "周淳说明来意。那人道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -828,7 +854,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便不闻声息。再打门时，也不见答应。周淳生性好奇，便叫燕儿等在外面，道。",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -839,7 +865,9 @@
             "sound_cn": "再次敲门的声音",
             "sound_en": "repeated knocking on wooden door again, urgent fist rapping on old door panels, no answer tension building",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "不闻声息",
+            "trigger_offset": 0
           }
         ]
       },
@@ -877,7 +905,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便纵身越墙而过。这时明月升起，照得院中清澈如画。周淳留神仔细一看，只见院中藤床上卧倒一人，见周淳进来，便道。",
-          "instruct": "生动描述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -888,7 +916,9 @@
             "sound_cn": "纵身越墙的声音",
             "sound_en": "agile martial artist jumping over old courtyard wall, soft landing on dirt ground inside, clothing rustle during vault",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便纵身越墙而",
+            "trigger_offset": 0
           }
         ]
       },
@@ -964,7 +994,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那人说到这里，已是神微力弱，奄奄一息。只见那人手臂上有七颗红痣，鲜明非常。周淳心想此非善地，便扔些干粮与他，随即纵了出来。喊燕儿时，忽然踪影不见。",
-          "instruct": "悬疑叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -975,7 +1005,9 @@
             "sound_cn": "扔干粮给地上卧倒之人的声音",
             "sound_en": "cloth bag of dry food tossed and landing on ground, soft thud on dirt surface, small package dropping",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "善地",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18,
@@ -985,7 +1017,9 @@
             "sound_cn": "纵身跳出墙外的声音",
             "sound_en": "martial artist vaulting over wall and landing outside, agile jump with soft landing, quick exit into night",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "干粮与他",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1004,7 +1038,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "要知后事如何，且看下回分解。",
-          "instruct": "悬念收尾"
+          "instruct": ""
         },
         "effects": []
       },

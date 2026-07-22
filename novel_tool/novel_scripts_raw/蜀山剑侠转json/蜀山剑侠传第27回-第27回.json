@@ -75,7 +75,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第27回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -94,7 +94,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话说陶钧正奇怪素因女尼唤他的乳名，忽见战场上有一个如匹练般的白光飞往战场，陶钧疑心她用飞剑去杀许钺，吓了一跳。回头往战场上看时，这两个拼命相斗的男女二人，已经有人解围了。解围的人，正是盼穿秋水的师父矮叟朱梅。不由心中大喜，赶将过去，同许钺跪倒在地。素因原疑莹姑情急放剑，知道危险异常，便飞剑去拦。及见一个老头忽然现身出来，将莹姑的剑捉在手中，不禁大吃一惊。定睛一看，认出是前辈剑仙矮叟朱梅。自己还在十五年前，同师父往峨眉摩天崖去访一真大师，在半山之上见过一面，才知道他是鼎鼎大名嵩山二老之一。因是入道时遇见的头一位剑仙，他又生得好些异样，故而脑海中印象很深。当下不敢怠慢，急忙过来拜见。起初莹姑同许钺杀了两三个时辰，难分高下。莹姑到底阅历浅，沉不住气，几次几乎中了许钺的暗算，不但不领许钺手下留情，反而恼羞成怒。素因注意陶钧那一会工夫，许钺因为同莹姑战了一个早晨，自己又不愿意伤她，她又不知进退，这样下去，如何是个了局？便想索性给她一个厉害。一面抖擞精神，努力应战；一面暗想诱敌之计。莹姑也因为战久不能取胜，心中焦躁。心想：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -105,7 +105,9 @@
             "sound_cn": "一道如匹练般的白色剑光划破长空，从远处急速飞来，剑光破风发出清脆而悠长的铮鸣声",
             "sound_en": "a white sword light like a bolt of silk tearing across the sky from afar, piercing the air with a crisp and prolonged ring",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "话说陶钧正奇",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -115,7 +117,9 @@
             "sound_cn": "朱梅凭空现身于战场中央，衣袍在风中猎猎鼓荡，身形矮小却带着泰山压顶般的气势",
             "sound_en": "Zhu Mei appearing suddenly in the center of the battlefield, robe billowing in the wind, small stature but with overwhelming presence",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "说陶钧正奇怪",
+            "trigger_offset": 0
           }
         ]
       },
@@ -134,7 +138,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这厮太狡猾，不给他个便宜，决不会来上当的。她万没料到许家梨花枪下，决不能去取巧卖乖，一个假作聪明，便要上当。这时恰好许钺一枪迎面点到，莹姑知道许钺又用虚中套实的招数来诱敌，暗骂：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -153,7 +157,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "贼徒！今番你要难逃公道了。她算计许钺必定又是二仙传道，将枪交于左手，仍照上次暗算自己。便卖个破绽，故意装作用剑撩的神气，把前胸露出，准备许钺枪头刺过，飞身取他上三路。谁知许钺功夫纯熟已极，他的枪法，所谓四两拨千斤，不到分寸，决不虚撤。他见莹姑来势较迟，向后一退，陡地向前探剑，猛一运力，杆枪微偏，照准剑脊上一按，使劲一绞，但听叮叮当当之声。莹姑撤剑进剑都来不及，经不起许钺神力这一绞，虎口震开，宝剑脱手，掉在地上。同时许钺的枪也挨着一些剑锋，削成两段，只剩手中半截枪柄。许钺更不怠慢，持着四五尺长的半截枪柄，一个龙归大海，电也似疾地朝着莹姑小腹上点到。莹姑又羞又急，无法抵御，只得向后一纵，躲过这一招时，许钺已将莹姑的剑拾在手中，并不向前追赶，笑盈盈捧剑而立。莹姑见宝剑被人拾去，满心火发，不暇顾及前言，且自报仇要紧，便将师父当年炼来防魔的青霓剑从怀中取出。许钺见莹姑粉面生嗔，忽从腰间取出一个尺多长的剑匣来，便知不妙，未及开言，那莹姑已将宝剑出匣，一道青光，迎面掷来。情知来得厉害，不及逃避，只得长叹一声，闭目等死。正在无可奈何之际，忽听",
-          "instruct": "紧张急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -164,7 +168,9 @@
             "sound_cn": "许钺枪杆照准剑脊一按一绞，枪剑碰撞发出连串叮叮当当的金属交击声，火星四溅",
             "sound_en": "Xu Suo pressing and twisting his spear against the sword blade, producing a rapid series of metallic clangs, sparks flying",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "今番你要难逃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -174,7 +180,9 @@
             "sound_cn": "莹姑虎口震开，宝剑脱手坠地，金属与沙土碰撞发出沉闷的哐当声",
             "sound_en": "Yinggu's sword falling from her numb hand, metal hitting sandy ground with a dull clang",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "今番你要难逃",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -184,7 +192,9 @@
             "sound_cn": "许钺的枪被剑锋削成两段，半截枪柄坠地发出清脆的断裂声响",
             "sound_en": "Xu Suo's spear being severed by the sword blade, half the shaft hitting the ground with a crisp snap",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "番你要难逃公",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.5,
@@ -194,7 +204,9 @@
             "sound_cn": "莹姑从怀中取出剑匣打开，青霓剑出匣时发出一声清越悠长的龙吟，青光暴涨",
             "sound_en": "Yinggu taking out the sword case and opening it, the Qingni Sword emerging with a clear and prolonged dragon-like hum, green light flaring",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "逃公道了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -213,7 +225,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "哈哈",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -232,7 +244,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "一声，好一会不见动静。再睁眼时，只看见那日江边所遇的矮叟朱梅，站在自己面前，一道白光匹练般正向那个少年女尼飞回。敌人所放的剑光已被朱梅捉在手中，如小蛇般屈伸不定，青森森地发出一片寒光。这时素因与陶钧都先后来到朱梅面前拜见。许钺才猛然想起，不是朱梅赶来，早已性命难保，自己为何还站在一旁发呆？便连忙向朱梅跪下，叩谢解围之德。朱梅见众人都朝他跪拜，好生不悦，连忙喊道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -243,7 +255,9 @@
             "sound_cn": "朱梅伸手凌空一抓，将青霓剑稳稳捉在手中，剑光在他掌中如灵蛇般屈伸不定，发出青森森的寒光与低微的剑鸣",
             "sound_en": "Zhu Mei reaching out and catching the Qingni Sword in mid-air, the blade writhing like a living serpent in his palm, emitting cold blue light and faint humming",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一声",
+            "trigger_offset": 0
           }
         ]
       },
@@ -281,7 +295,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "素因常听师父说他性情古怪，急忙依言起立。那许钺、陶钧，一个是救命恩深，一个是欢喜忘形，只顾行礼，朱梅说的什么，都未曾听见。惹得朱梅发了脾气，走过来，顺手先打了陶钧一个嘴巴。把陶钧打了一个头昏眼花，错会了意，以为是师父一定怪他不该引见许钺，一着急，越发叩头求恕。许钺见陶钧无故挨打，他也替他跪求不止。谁想头越叩得勤，朱梅的气越生得大，又上前踢了陶钧两脚。然后回转身，朝着许钺跪下道：",
-          "instruct": "诙谐叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -292,7 +306,9 @@
             "sound_cn": "朱梅扬手在陶钧脸上扇了一记清脆响亮的耳光，啪的一声格外刺耳",
             "sound_en": "Zhu Mei slapping Tao Jun's face with a crisp and loud smack",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "素因常听师父",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.2,
@@ -302,7 +318,9 @@
             "sound_cn": "朱梅抬脚连踢陶钧两下，发出沉闷的踢击声，陶钧吃痛却不敢躲闪",
             "sound_en": "Zhu Mei kicking Tao Jun twice in succession, dull thuds of impact, Tao Jun in pain but not daring to dodge",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "素因常听师父",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.8,
@@ -312,7 +330,9 @@
             "sound_cn": "朱梅转身面对许钺跪倒，衣袍拂地发出庄重的沙沙声",
             "sound_en": "Zhu Mei turning and kneeling before Xu Suo, robe sweeping the ground with a solemn rustle",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "素因常听师父",
+            "trigger_offset": 0
           }
         ]
       },
@@ -350,7 +370,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这一来，陶、许二人越发胆战心惊，莫名其妙，跪在地下，不知如何是好。朱梅跪在地下，气不过，又把脚在身背后去踢陶钧。陶钧见师父要责打自己，不但不敢避开，反倒迎上前去受打，与师父消气。只消几下，却踢了一个鼻青眼肿。素因早知究竟，深知朱梅脾气，不敢在旁点明。后来见陶钧业已被朱梅连打带踢，受了好几处伤，门牙都几乎踢掉，顺嘴流血，实在看不过去，便上前一把先将陶钧扶起道：",
-          "instruct": "诙谐叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -361,7 +381,9 @@
             "sound_cn": "朱梅跪在地上反身踢打身后的陶钧，连续几声闷响，陶钧被打得鼻青脸肿",
             "sound_en": "Zhu Mei kneeling and kicking Tao Jun behind him, a series of dull thuds, Tao Jun's face bruised and swollen",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这一来",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -371,7 +393,9 @@
             "sound_cn": "素因上前伸手将陶钧扶起，衣料摩擦声与脚步轻响交织",
             "sound_en": "Su Yin stepping forward and helping Tao Jun up, fabric rustling and soft footsteps interweaving",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这一来",
+            "trigger_offset": 0
           }
         ]
       },
@@ -409,7 +433,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时陶钧已被朱梅踢得不成样子，心中又急又怕，素因说的话，也未及听明，还待上前跪倒。许钺却已稍微听出来朱梅口中之言，再听素因那般说法，恍然大悟，这才赶忙说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -447,7 +471,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "同时赶紧过来，把陶钧拦住，又将素因之言说了一遍。陶钧这才明白，无妄之灾，是由于多礼而来。便不敢再轻举妄动，垂手侍立于旁。朱梅站起身来，扑了扑身上的土，朝着素因哈哈大笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -458,7 +482,9 @@
             "sound_cn": "朱梅站起身来，双手拍了拍身上的尘土，发出连续轻快的拍打声响",
             "sound_en": "Zhu Mei standing up and brushing dust from his clothes, a series of light and brisk pats",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "同时赶紧过来",
+            "trigger_offset": 0
           }
         ]
       },
@@ -496,7 +522,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "素因闻言，更不慌忙，朝着朱梅说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -534,7 +560,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "陶、许二人这时才发觉面前少了一个人，那立志报仇的余莹姑，竟在众人行礼忙乱之际，脱身远行，不知去向。朱梅既说她去投江，想必是女子心窄，见二剑全失，无颜回山去见师父，故尔去寻短见。许钺尤觉莹姑死得可惜，不由",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -572,7 +598,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "了一声。朱梅只向他望了一眼。及至素因说了一番话以后，陶、许二人以为朱梅脾气古怪，必定听了生气。谁想朱梅听罢，反而哈哈大笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -610,7 +636,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便往江边下流走去。众人便在后面跟随。走约半里多路，朱梅便叫众人止步。朝前看时，莹姑果在前面江边浅滩上，作出要投身入江的架势。众人眼看她往江心纵了若干次，身子一经纵起，仿佛有个什么东西拦住，将她碰了回来，结果仍旧落在浅滩上，并不曾入水。莹姑的神气，露出十分着急的样子。陶、许二人好生不解。却见朱梅忽然两手笼着嘴，朝着江对面轻轻说了几句。陶钧见师父这般动作，便知又和那日岳阳楼下一样，定是又要朝着江心中人说话。再往前看时，只见寒涛滚滚，江中一只船儿也无，好生诧异。再往江对岸看时，费尽目力，才隐隐约约地看出对岸山脚下有一叶小舟，在那里停泊，也看不出舟中有人无人。朱梅似这样千里传音，朝对岸说了几句，扭回头又嘱咐素因几句话。素因便向许钺说道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -621,7 +647,9 @@
             "sound_cn": "江边寒风刺骨，江浪滚滚拍击堤岸，发出连绵不绝的哗啦水声，寒气逼人",
             "sound_en": "bitter cold wind at the riverbank, rolling waves crashing against the shore with ceaseless splashing, biting cold",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便往江边下流",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -631,7 +659,9 @@
             "sound_cn": "朱梅两手笼在嘴边，一道细如游丝的声音直贯江对岸，声线凝而不散，玄妙异常",
             "sound_en": "Zhu Mei cupping his hands around his mouth, a voice as thin as silk traveling directly across the river, focused and unwavering, marvelously subtle",
             "volume": "-20%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "往江边下流走",
+            "trigger_offset": 0
           }
         ]
       },
@@ -669,7 +699,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "许钺早就有心如此，因无朱梅吩咐，不敢造次。见素因相邀，知是得了朱梅同意，自然赞同，便随素因往浅滩上走去。两下相隔只有二三丈，素因便大喊道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -680,7 +710,9 @@
             "sound_cn": "二人在浅滩上快步涉水前行，靴子踩在沙石与水洼中，发出啪嗒啪嗒的溅水声响",
             "sound_en": "two people wading quickly through the shoal, boots splashing in sand and puddles with rapid splatters",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "许钺早就有心",
+            "trigger_offset": 0
           }
         ]
       },
@@ -718,7 +750,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "这时莹姑还在跳哩，忽听素因呼唤，急忙回头一看，见素因同自己的仇人许钺一同走来，越加羞愧难当，恨不得就死。便咬定牙关，两足一登，使尽平生之力，飞起两丈多高，一个鱼鹰入水的架势，往江心便跳。这一番使得力猛，并无遮拦，扑冬一声，溅起丈高的水花，将江下寒涛激起了一个大圆圈。莹姑落在江中，忽又冒将上来，只见她两手望空乱抓了两下，便自随浪飘流而去。许钺起初见莹姑投江，好似有东西遮拦，心知是朱梅的法术。素因叫他同来救人，疑心是示意他与莹姑赔礼消气。及至见莹姑坠入江流，不知怎么会那样情急，平时水性颇好，当下也不及与素因说话，便奋不顾身地往江心跳去。数九天气，虽然寒冷，且喜水落滩浅，浪力不大。许钺在水中追了几十丈远，才一把抓着莹姑的头发，一伸右手，提着莹姑领口，倒踹着水，背游到江边。将莹姑抱上岸来，业已冻得浑身打战，寒冷难禁。再看莹姑，脸上全青，业已淹死过去。许钺也不顾寒冷，请素因将莹姑两腿盘起，自己两手往胁下一插，将她的头倒转，控出许多清水。摸她胸前，一丝热气俱无，知是受冻所致。正在无法解救，焦急万状，朱梅业已同了陶钧走将过来。只见朱梅好像没事人一般，用手往江面连招。不一会，便见对岸摇来一只小船，正是当初朱梅所乘之舟。船头上站定一个老尼姑，身材高大，满脸通红，离岸不远，便跳将上来。素因连忙上前拜见，口称：",
-          "instruct": "紧张急促"
+          "instruct": ""
         },
         "effects": [
           {
@@ -729,7 +761,9 @@
             "sound_cn": "莹姑纵身投入江心，水花冲天而起，发出巨大的落水声，激起一圈圈扩散的涟漪",
             "sound_en": "Yinggu leaping into the river, water splashing high with a huge impact, ripples spreading outward",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时莹姑还在",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -739,17 +773,21 @@
             "sound_cn": "许钺奋不顾身跃入江中，水花飞溅后是奋力划水的声响，水声急促而有力",
             "sound_en": "Xu Suo jumping bravely into the river, splashes followed by vigorous swimming sounds, urgent and powerful",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "莹姑还在跳哩",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 5.5,
+            "trigger_delay": 30.5,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "控水声",
             "sound_cn": "许钺将莹姑倒转控出腹中江水，清水哗哗流出，伴随着莹姑的呛咳声",
             "sound_en": "Xu Suo turning Yinggu upside down to drain river water from her stomach, water gushing out, accompanied by choking coughs",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "水的架势",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.5,
@@ -759,7 +797,9 @@
             "sound_cn": "小船从对岸缓缓摇来靠岸，船底与沙岸摩擦发出轻微的刮擦声，船板吱呀作响",
             "sound_en": "small boat slowly approaching from the opposite shore and landing, hull scraping gently against the sandy bank, deck boards creaking",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "忙回头一看",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.5,
@@ -769,7 +809,9 @@
             "sound_cn": "元元大师从船头纵身跃上岸边，身形沉稳，衣袂带风，落地有声",
             "sound_en": "Yuan Yuan Dashi leaping ashore from the bow, figure steady, robe fluttering in the wind, landing with a sound",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "急忙回头一看",
+            "trigger_offset": 0
           }
         ]
       },
@@ -807,7 +849,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那老尼道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -845,7 +887,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "朱梅道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -883,7 +925,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那老尼闻言，便回身从腰间取出两粒丹药，叫素因到小船上取来半盏温热水，拨开莹姑牙关，灌了一阵，哇的一声，又吐出了升许江水，缓醒过来。觉着身体被人夹持，回头一看，正是自己仇人许钺，一手插在自己胁下，环抱着半边身体；一手在自己背上轻轻拍打。不由又羞又急，又恼又恨，也没有看清身旁还有何人，喝道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -894,7 +936,9 @@
             "sound_cn": "素因用半盏温热水给莹姑灌药，水声伴随着吞咽声响，温热的水汽弥漫",
             "sound_en": "Su Yin giving Yinggu medicine with warm water, water sounds accompanied by swallowing, warm steam rising",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那老尼闻言",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -904,7 +948,9 @@
             "sound_cn": "莹姑哇地吐出一大口江水，剧烈咳嗽起来，水溅落地面的声响清晰可闻",
             "sound_en": "Yinggu vomiting a mouthful of river water with a retch, followed by violent coughing, water splattering audibly",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "老尼闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -934,7 +980,9 @@
             "sound_cn": "莹姑回手一拳重重打在许钺脸上，发出沉闷的击打声，许钺向后一仰",
             "sound_en": "Yinggu swinging back and punching Xu Suo in the face with a heavy impact, Xu Suo recoiling",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大胆狂徒",
+            "trigger_offset": 0
           }
         ]
       },
@@ -953,7 +1001,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，回手一拳。许钺不及提防，被她打个正着，登时脸上紫肿起来，顺嘴流血。莹姑没好气地往前一纵，忽觉身子有些轻飘飘的，站立不稳。原来她从早上起来，忙着过江找许钺报仇，一些食物未吃，便同劲敌战了一早晨，又加上灌了一肚子江水，元气大亏。纵时因用力大猛，险些不曾栽倒，身子晃了两晃，才得站稳。正要朝许钺大骂，猛听有人喝道：",
-          "instruct": "紧张叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -964,7 +1012,9 @@
             "sound_cn": "元元大师一声威严的断喝如同惊雷炸响，带着不可违抗的威严与怒气",
             "sound_en": "Yuan Yuan Dashi's commanding shout like a thunderclap, carrying unyielding authority and anger",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1002,7 +1052,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "莹姑定神一看，正是自己师父、罗浮山香雪洞元元大师，旁边立着素因同一个老头儿，便是将才收去自己宝剑的人，还有适才相遇的那姓陶的少年。不由又惊又怕，急忙过来，跪在地下，叩头请罪。原来莹姑性如烈火，当初在罗浮山学艺时，元元大师说她躁性未退，只教她轻身功夫和一套越女剑法，不肯教她飞剑。莹姑志在报仇，苦苦哀求，又托许多同门师叔兄辈说情，大师仍然不肯。罗浮山原是人间福地，遍山皆是梅花，景色幽奇。每到十月底边，梅花盛开，一直开到第二年春天，才相继谢落。莹姑无事时，便奉大师之命，深入山谷采药。有一年春天，忽然被她在后山中发现一个山洞，进口处很窄小，越走越深，越走越觉往上尽是螺丝形的小道，渐渐看见前面露出亮光，鼻端时时闻见梅花香味。莹姑天性好奇，仗着自己手中宝剑锋利，不怕毒蛇猛兽侵袭，便直往洞内走去。转过一个钟乳下垂的甬道，忽然前面现出一块平坦的草原，上面有成千株大可合抱的千年老梅，开得正盛。忽见前面又有一片峭壁，写着",
-          "instruct": "平静讲述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1013,7 +1063,9 @@
             "sound_cn": "莹姑跪倒在地，双膝重重落在沙地上，发出沉闷的声响，额头触地",
             "sound_en": "Yinggu kneeling on the sandy ground, knees hitting with a dull thud, forehead touching the earth",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "莹姑定神一看",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1032,7 +1084,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "香雪海",
-          "instruct": "低诵"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1051,7 +1103,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "三个摩崖大字，下面有一个洞口。心想：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1070,18 +1122,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "师父住的那洞，因为万梅环绕，洞中有四时不谢之花，所以叫做香雪洞。这里又有这个香雪海，想必也是因为梅花多的原故。这洞中景致，不知比那香雪洞如何？今日被我发现，倒要进去看看。如果比香雪洞还好，回去告诉师父，便搬在这里来往，岂不更妙？一面想，一面便往洞中走去。适才的洞，步步往上。这个洞，却是步步往下。走了十几步，见里面有一座石屏。转过石屏，隐约之间，看见前面有东西放光。走近前一看，什么都没有。那光从一块石板底下发出，她便用手中剑把石板掘开，底下便现出一把一尺三寸长的小宝剑。估量是个宝物，取在手中，仍将石板盖好。因洞中光线太暗，正要纵身到外看时，忽听有脚步之声，从外进来。疑心是洞中主人前来，不及逃出，便隐藏在屏风旁边，看看来人是谁。暗处看明处，格外清楚。只见来人是两个女子：前面走的一个，只穿了一条裤子，上身衣服全用树叶作成，身材炯娜，眉目间稍含荡意；后面走的一个，穿着一身蓝布衣服，脸容非常美丽，颈上拖了一串锁链。二人走到屏风前面，便立定不走，争论起来。穿树叶的女子说道：",
-          "instruct": "神秘讲述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.5,
+            "trigger_delay": 50.3,
             "duration": 2,
             "process_mode": "overlay",
             "name": "山洞滴水和脚步声",
             "sound_cn": "幽深的山洞深处传来水滴落在石面上的空灵回响，伴随着两个女子走近的脚步声在洞壁间回荡",
             "sound_en": "echoing drips of water on stone from deep within the cave, accompanied by footsteps of two women approaching, reverberating off the cave walls",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "步步往上",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -1091,7 +1145,9 @@
             "sound_cn": "莹姑用剑掘开石板，剑尖与坚硬石面摩擦发出刺耳的嘎嘎刮擦声，碎石滚落",
             "sound_en": "Yinggu prying open the stone slab with her sword, harsh grating of metal against stone, pebbles rolling away",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "住的那洞",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1129,7 +1185,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "蓝衣女子说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1167,7 +1223,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那穿树叶的女子闻言笑道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1205,7 +1261,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "蓝衣女子道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1243,7 +1299,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "穿树叶的女子说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1281,7 +1337,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便转过石屏。这时莹姑得来的小剑，不住在手中震动，好似一个把握不住，便要脱手飞去似的。估量两个女子决非常人，自己恐怕不是来人对手，便不敢造次。又不知蓝衣女子所说的宝物是什么东西，很后悔适才掘石板时，没有往下搜寻。见那两个女子由左往屏后转时，自己便轻脚轻手，由右往屏前转。莹姑胆子甚大，也忘了处境危险，还想偷看所说的宝贝，开开眼界，便隐身在壁脚黑暗所在，看二人动静。只见那穿树叶的女子，手中持了一杆钢叉，叉尖上红光闪闪。她用叉将石板掘开，在里面拨了一阵，又掘起一块小石板，从内中取出一个石匣，说道：",
-          "instruct": "紧张讲述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1292,7 +1348,9 @@
             "sound_cn": "穿树叶女子用钢叉撬开石板，叉尖与石块碰撞发出清脆的叮当声，碎石从缝隙间滚落",
             "sound_en": "leaf-clad woman prying open the stone slab with a steel fork, fork tip clinking against stone with crisp sounds, gravel rolling from the cracks",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便转过石屏",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1330,7 +1388,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "穿蓝衣的女子连忙接过石匣道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1368,7 +1426,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那穿树叶的女子说道：",
-          "instruct": "平静叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1406,7 +1464,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那蓝衣女子好似受了人家恩惠，无法拒绝，很为难地把手中石匣打开。莹姑在暗处看得很清楚。只见那石匣有八寸见方，四寸厚。里面装着一面铜镜，镜背后盘着九条龙，麟角生动非常，晶光四照，寒光射目。另外还有一粒径寸的大珠，方一出匣，登时合洞光明，照得清澈异常。那穿树叶的女子接过镜、珠二宝，正不断连声夸赞好宝，果然价值连城。那穿蓝衣的女子忽然大惊失色，道一声：",
-          "instruct": "紧张讲述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1417,7 +1475,9 @@
             "sound_cn": "夜光珠从石匣中取出，珠光四射如同一轮明月，瞬间照亮整个山洞，光晕流动如波浪",
             "sound_en": "the night-illuminating pearl emerging from the stone case, radiating light like a full moon, instantly flooding the cave with flowing, wave-like luminescence",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那蓝衣女子好",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1427,7 +1487,9 @@
             "sound_cn": "九龙铜宝镜反射出晶亮寒光，与夜光珠交相辉映，铜镜的龙纹栩栩如生",
             "sound_en": "the nine-dragon bronze mirror reflecting cold crystal light, interweaving with the pearl's glow, dragon patterns on the mirror seeming to move",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那蓝衣女子好",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1465,20 +1527,9 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "便直往穿树叶女子身后躲去。",
-          "instruct": "紧张收束"
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 0.3,
-            "duration": 0.8,
-            "process_mode": "overlay",
-            "name": "躲藏脚步声",
-            "sound_cn": "蓝衣女子惊慌失措地躲到穿树叶女子身后，脚步急促而凌乱，衣料摩擦带起轻响",
-            "sound_en": "blue-clad woman retreating behind the leaf-clad woman in panic, footsteps rapid and disorderly, fabric rustling",
-            "volume": "-24%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"

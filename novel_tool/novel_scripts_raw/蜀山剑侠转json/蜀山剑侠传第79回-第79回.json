@@ -69,7 +69,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "第79回",
-          "instruct": "平淡轻快"
+          "instruct": ""
         },
         "effects": []
       },
@@ -88,7 +88,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "结同心\n缘证三生石急报仇\n情深比翼鹅此时正值司徒平二次看完优昙大师手示，喜极忘形，急忙先取过锦墩侧紫玲姊妹留下的冠袍带履试一穿着，竟非常合身。正要出去寻见紫玲姊妹道谢救命之恩，恰好寒萼在外面，因见紫玲停步不前，反叫自己先进去，暗使促狭，装着往前迈步，猛一转身，从紫玲背后用力一推。紫玲一个冷不防，被寒萼推进室来，一着急回手一拉，将寒萼也同时拉了进来。紫玲正要回首呵责，一眼看见司徒平业已衣冠楚楚，朝她二人躬身下拜，急忙敛容还礼。寒萼见她二人有些装模作样，再也忍不住，不禁笑得花枝乱颤。司徒平见这一双姊妹，一个是仪容淑静，容光照人；一个是体态娇丽，宜喜宜嗔。不禁心神为之一荡。再一想到虽然前缘注定，又有三仙、二老作主作伐，自己究是修道之人，二女又有活命之恩，对方没有表示，不敢心存逻想。忙把心神摄住，庄容恭对道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -99,7 +99,9 @@
             "sound_cn": "司徒平试穿冠袍带履，衣料摩擦窸窣作响",
             "sound_en": "Situping trying on robes and belt, cloth rustling softly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "结同心",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -109,17 +111,21 @@
             "sound_cn": "寒萼调皮地推紫玲进门，门扇轻响",
             "sound_en": "Han'e playfully pushing Ziling into the room, door creaking",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "结同心",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 3.0,
+            "trigger_delay": 85.7,
             "duration": 1.5,
             "process_mode": "overlay",
             "name": "寒萼笑声",
             "sound_cn": "寒萼笑得花枝乱颤，清脆悦耳，笑声在石室中回荡",
             "sound_en": "Han'e laughing heartily, clear and lovely, echoing in the stone chamber",
             "volume": "-18%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "笑得花枝",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.5,
@@ -129,7 +135,9 @@
             "sound_cn": "司徒平躬身下拜，衣料轻响",
             "sound_en": "Situping bowing deeply, cloth rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "石急报仇",
+            "trigger_offset": 0
           }
         ]
       },
@@ -167,7 +175,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "紫玲便请司徒平就座，答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -205,7 +213,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平闻言，肃然起敬道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -235,7 +243,9 @@
             "sound_cn": "司徒平声音坚定，带着决绝",
             "sound_en": "Situping's firm voice, resolute",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我司徒平蒙二",
+            "trigger_offset": 0
           }
         ]
       },
@@ -254,7 +264,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平自进谷后，总是将紫玲姊妹一起称呼。忽然一时口急，最后起誓时竟没有提到寒萼，当时司徒平倒是出于无心。紫玲道行比寒萼精进，遇事已能感触心灵，预测前因，闻言心中一动。一面向司徒平代宝相夫人答谢。回首见寒萼笑容未敛，仍是憨憨的和没事人一般，坐在锦墩上面，不禁暗暗对她叹了口气。寒萼见他二人说完，便跑过来，向司徒平问长问短，絮聒不休。司徒平把自己幼年遭难，以及寻师学道受苦经过，直到现在连父母的踪迹、自己的根源都不知道等情由，细细说了一遍。紫玲听到伤心处，竟流下泪来，寒萼又问起餐霞大师门下还有几个女弟子，听说都非常美丽，剑术高强，便要司徒平过些日子，同她前去拜望结交。又听司徒平说，他的剑术虽是万妙仙姑传授，剑却是司徒平从小祖遗之物，被万妙仙姑收去，越觉气忿不平，定要紫玲同她前去盗来。紫玲道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -265,7 +275,9 @@
             "sound_cn": "紫玲轻轻叹了口气，带着无奈和怜惜",
             "sound_en": "Ziling letting out a soft sigh, helpless and sympathetic",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平自进谷",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -275,7 +287,9 @@
             "sound_cn": "寒萼在锦墩上挪动身体，布料摩擦",
             "sound_en": "Han'e shifting on the cushion, cloth rustle",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平自进谷",
+            "trigger_offset": 0
           }
         ]
       },
@@ -313,7 +327,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "寒萼见紫玲不允她去盗回飞剑，气得鼓着腮帮，一言不发。司徒平见她轻颦浅笑，薄怒微嗔，天真烂漫，非常有趣，不禁又怜又笑。便转个话头，把在戴家场和成都比剑的事，就知道的说了一些出来。连紫玲都听出了神。寒萼也转怒为喜。当下又说，昨日司徒平没有见到神鹫，要领司徒平去看。紫玲道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -324,7 +338,9 @@
             "sound_cn": "寒萼赌气鼓着腮帮，嘴里轻轻哼了一声",
             "sound_en": "Han'e puffing her cheeks in anger, letting out a soft huff",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "寒萼见紫玲不",
+            "trigger_offset": 0
           }
         ]
       },
@@ -362,7 +378,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "当下取出两粒丹药，嘱咐司徒平：“服药之后，只可闭目宁神静养，不可打坐练气，反而误事。过了七日，便不妨事。我姊妹去做完功课就来陪你。”说罢，同了寒萼走去。司徒平等她二人走后，想起自己这次居然因祸得福，难得她两人俱是道行高深，天真纯洁，漫说异日还可借她们的力，得成正果；即使不然，能守着这两个如花仙眷，长住这种洞天福地，也不知是几生修到，心中得意已极。只是自己道行有限，宝相夫人那么大本领，又有三仙、二老相助，竟不能为力，反将这脱劫的事，着落在自己身上，未免觉得负重胆怯。但是自己受了二女这般救命之恩，又缔婚姻之谊，女婿当服半子之劳，纵使为救她们母亲而死，也是应该，何况还未必呢，便也放下心来。又想：“二女如此孝心，不惜坏却道根，以身许人，去救她母亲，免去雷劫。自己漫说父母之恩无从去报，连死生下落，都不知道，岂能算人？”想到这里，不由出了一身冷汗。又想：“记得当初投师以前，万妙仙姑曾问自己来踪去迹，听她语气，好像知道那留养自己的道人神气。彼时还未失宠，曾问过万妙仙姑几次，总是一味用言语支吾，好似她已知道自己根底，内中藏有什么机密，不愿泄漏似的。后来问得勤了，有一次居然言语恫吓，不准再向人打听，不然就要逐出门墙，追去飞剑。虽然被她吓住，不敢再问，可是越加起了疑心。世上无有不忠不孝的神仙，师父岂有教人忘本的道理？也曾借奉命出门之便，到原生处去打听，终无下落。知道只有师父知道详情，满想道成以后，仍向她遇机哭求，指示前因。不想渐渐被她疑忌，积威之下，愈发不敢动问，隐忍至今。现在师徒之谊已绝，再去问她，决不肯说。紫玲姊妹神通广大，又认得三仙、二老，莫如和她们商量，托她们转求，示出前因，好去寻访生身父母踪迹。再不，仍用弥尘幡，到那出生处附近各庙宇中打听，只要寻着那个留养自己的道人，便不愁不知下落。”主意一定，见两粒丹药仍在手中，忘记了服，便起身将桌上玉壶贮的灵泉喝了两口，把丹药服下，躺在锦墩上静养。过了好几个时辰，忽然觉着一股温香扑鼻，两眼被人蒙住。用手摸上去，竟是温软纤柔，入握如棉，耳旁笑声哧哧不已，微觉心旌一荡。连忙分开一看，原来是寒萼，一个人悄悄走进来，和自己闹着玩呢。司徒平见她憨憨地一味娇笑，百媚横生，情不自禁，顺着握的手一拉，将她拉坐在一起。便问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -373,7 +389,9 @@
             "sound_cn": "紫玲寒萼走出时轻轻带上门",
             "sound_en": "door gently closing as they leave",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "当下取出两粒",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.0,
@@ -383,7 +401,9 @@
             "sound_cn": "司徒平喝灵泉服药，水流声轻响",
             "sound_en": "Situping drinking spring water and taking medicine, soft gulps",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "当下取出两粒",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -393,7 +413,9 @@
             "sound_cn": "寒萼悄悄蒙住司徒平双眼，轻声嬉笑",
             "sound_en": "Han'e covering Situping's eyes, giggling softly",
             "volume": "-20%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "两粒丹药",
+            "trigger_offset": 0
           }
         ]
       },
@@ -431,7 +453,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "寒萼笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -442,7 +464,9 @@
             "sound_cn": "寒萼轻笑着回答，声音俏皮",
             "sound_en": "Han'e chuckling as she answers, playful tone",
             "volume": "-24%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "寒萼笑道",
+            "trigger_offset": 0
           }
         ]
       },
@@ -472,7 +496,9 @@
             "sound_cn": "寒萼说到高兴处轻轻拍手",
             "sound_en": "Han'e clapping hands lightly in excitement",
             "volume": "-26%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "你总忘不了她",
+            "trigger_offset": 0
           }
         ]
       },
@@ -491,7 +517,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，挣落了司徒平双手，跑了出去。司徒平第一次同寒萼对面，天仙绝艳，温香入握，两眼觑定寒萼一张宜喜宜嗔的娇面，看出了神，心头不住怦怦跳动，只把双手紧握，未听清她说什么。及至见她挣脱了手出去，才得惊醒转来，暗喊一声：“不好！自己以后镇日都守着这两个天仙姊妹，要照今日这样不定，一旦失足，不但毁了道基，而且背了刚才盟誓，怎对得起紫玲一番恩义？”他却不知寒萼从来除姊姊外，未同外人交结，虽然道术高深，天真未脱，童心犹在，只是任性，一味娇憨，不知避嫌。人非太上，孰能忘情？终久司徒平把握不住，与她成了永好，直到后来紫玲道成飞升，两人后悔，已是不及。这也是前缘注定，后文自见分晓。且说司徒平正在悬想善自持心之道，寒萼也一路说笑进来，人未入室，先喊道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -502,7 +528,9 @@
             "sound_cn": "寒萼跑出室外的轻快脚步声，如小鹿般轻盈",
             "sound_en": "Han'e running out, light quick footsteps like a deer",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "挣落了司徒平",
+            "trigger_offset": 0
           }
         ]
       },
@@ -523,18 +551,7 @@
           "text": "嘉客到了，室主人快出来接呀。",
           "instruct": "欢快"
         },
-        "effects": [
-          {
-            "trigger_delay": 0.0,
-            "duration": 0.5,
-            "process_mode": "overlay",
-            "name": "寒萼笑声",
-            "sound_cn": "寒萼人未到声先至，笑声清脆",
-            "sound_en": "Han'e's clear laugh arriving before she does",
-            "volume": "-20%",
-            "pitch": "+2Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -551,7 +568,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平知那神鹫得道多年，曾经抓去自己的飞剑，本领不小，不敢怠慢，急忙立起身来，寒萼已领了神鹫进室。司徒平连忙躬身施了一礼，说了几句钦仰，同道谢昨日无知冒犯，承它不加伤害的话。那神鹫也长鸣示意，其声清越，又与昨日在崖上所听的声音不同。司徒平细看神鹫站在当地，与雕大略相似，从头到脚，有丈许高下，头连颈长约四尺。嘴如鹰喙而圆。头顶上有一丛细长箭毛，刚劲如针。两翼紧束，看上去，平展开来怕有三四丈宽。尾有五色彩羽似孔雀，却没有孔雀尾长，尾当中两根红紫色形如绣带的长尾，长有两三丈。腿长只五尺，粗细不到一尺。钢爪四歧，三前一后，爪大如盆，爪尖长约一尺。周身毛羽，俱是五色斑斓，绚丽夺目。惟独嘴盖上，同腿胫到脚爪，其黑如漆，亮晶晶发出乌光，看上去比钢铁还要坚硬。真是顾盼威猛，神骏非凡，不由暗暗惊异。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -562,7 +579,9 @@
             "sound_cn": "神鹫发出一声清越长鸣，响彻石室，声震四壁",
             "sound_en": "divine vulture letting out a clear long cry, echoing through the stone chamber, shaking the walls",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平知那神",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -572,7 +591,9 @@
             "sound_cn": "神鹫微微展开双翼，五彩羽毛摩擦发出沙沙声",
             "sound_en": "divine vulture slightly spreading wings, colorful feathers rustling",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "徒平知那神鹫",
+            "trigger_offset": 0
           }
         ]
       },
@@ -602,7 +623,9 @@
             "sound_cn": "寒萼边说边轻拍神鹫的羽毛",
             "sound_en": "Han'e patting the divine vulture's feathers as she speaks",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "你看好么",
+            "trigger_offset": 0
           }
         ]
       },
@@ -621,7 +644,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平闻言，忽然心中一动，便问可曾知那道人姓名？寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -659,7 +682,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平想起留养自己的道人也姓岳，急于要知详细，便要去请问紫玲。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -697,7 +720,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平便将自己心事说了出来。寒萼闻言，低头想了一想道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -708,7 +731,9 @@
             "sound_cn": "寒萼低头沉思，手指轻叩桌面",
             "sound_en": "Han'e thinking, tapping fingers lightly on the table",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平便将自",
+            "trigger_offset": 0
           }
         ]
       },
@@ -746,7 +771,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平闻言，连忙起身道谢。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -784,7 +809,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平见她语言率直，憨态中却有至理，一时红了脸，无言可答。寒萼见他不好意思，便凑上来，拉着他的手说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -795,7 +820,9 @@
             "sound_cn": "寒萼拉过司徒平的手，衣料摩擦轻响",
             "sound_en": "Han'e taking Situping's hand, soft cloth rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平见她语",
+            "trigger_offset": 0
           }
         ]
       },
@@ -833,7 +860,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平忙说：“没有。我不过觉得你这人一片天真，太可爱了。”说到这里，猛觉话又有些不妥，连忙缩住。寒萼倒没有怎么在意。那神鹫好似看出他二人亲昵情形，朝二人点了点头，长鸣一声，回身便走。司徒平连忙起身去送时，不知怎的，竟会没了影儿。二人仍旧携手回来坐定。司徒平蒹葭倚玉，绝代仙娃如小鸟依人，香温在抱，虽然谈不到燕婉私情，却也其乐融融，甚于画眉。寒萼又取来几样异果佳酿，与司徒平猜枚击掌，赌胜言欢。洞天无昼夜，两人只顾情言娓娓，也不知过了多少时间。还是寒萼想起该做夜课，方才依依别去。寒萼走后，司徒平便遵紫玲之言静养。寒萼做完功课回来，重又握手言笑，至夜方散。似这样过了六七天，司徒平服了仙丹，又经静养，日觉身子轻快，头脑清灵。姑试练气打坐，竟与往日无异。寒萼也看他业已复元，非常高兴，便引了他满谷中去游玩，把这灵谷仙府，洞天福地，都游玩了个够。不时也引逗那一对白兔为乐。紫玲还是入定未醒。司徒平知道追云叟住的地方相隔不远，问寒萼可曾去过。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -844,7 +871,9 @@
             "sound_cn": "神鹫点了点头，长鸣一声，转身离去，羽翼轻响",
             "sound_en": "divine vulture nodding, giving a long cry, turning away with feather rustle",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平忙说",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -854,7 +883,9 @@
             "sound_cn": "二人猜枚击掌，清脆的拍手声和欢笑声",
             "sound_en": "guessing game, crisp clapping and laughter",
             "volume": "-22%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "司徒平忙说",
+            "trigger_offset": 0
           }
         ]
       },
@@ -892,7 +923,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "两人谈了一阵，因谷中仙境连日观赏已尽，寒萼便要同司徒平去崖上闲眺。司徒平怕紫玲知道见怪，劝寒萼等紫玲醒来同去。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -930,7 +961,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平一来爱她，不肯拂她的高兴，二来自己也想开开眼界，便同了寒萼，去到日前进来的谷口。往上一看，只见上面如同五色冰纨做的彩幕一般，非常好看。那一对白兔，也紧傍二人脚旁，不肯离开。寒萼笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -941,7 +972,9 @@
             "sound_cn": "白兔在脚边轻跳，细碎的兔爪声",
             "sound_en": "white rabbits hopping softly around feet, tiny paw sounds",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平一来爱",
+            "trigger_offset": 0
           }
         ]
       },
@@ -979,7 +1012,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说完，一手拉着司徒平。那一对白兔便跑上来，衔着主人的衣带。寒萼手掐剑决，喊一声“起”，连人带兔，冲过五色云层，到了崖上落下。司徒平见寒萼小小年纪，本领竟如此神妙，不住口地称赞。寒萼娇笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -990,7 +1023,9 @@
             "sound_cn": "寒萼拉着司徒平冲过五色云层，风声猎猎，衣袂飘飞",
             "sound_en": "Han'e pulling Situping through colored clouds, wind rushing, clothes flapping",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一手拉着司徒",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1000,7 +1035,9 @@
             "sound_cn": "二人落在崖上，脚步轻响",
             "sound_en": "landing on the cliff, light footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "一手拉着司徒",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1038,7 +1075,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "二人随谈随笑，走上了崖顶。那一对白兔忽往东方跑去，司徒平猛想起那是来路，惊对寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1049,7 +1086,9 @@
             "sound_cn": "二人走在崖顶草地上，脚步沙沙",
             "sound_en": "walking on the grassy cliff top, soft rustling",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人随谈随笑",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1087,7 +1126,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，忽听寒萼失色惊呼了一声：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1098,7 +1137,9 @@
             "sound_cn": "寒萼突然失声惊呼，带着慌乱",
             "sound_en": "Han'e suddenly gasping in alarm, flustered",
             "volume": "-18%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1136,7 +1177,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平本是惊弓之鸟，大吃一惊，忙问何故。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1174,18 +1215,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平忙往下面看去，烟云变态，哪还似本来面目。只见上来处已变成一泓清溪，浅水激流，溪中碎石白沙，游鱼往来，清可见底。便安慰寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.0,
+            "trigger_delay": 13.7,
             "duration": 2,
             "process_mode": "overlay",
             "name": "溪水声",
             "sound_cn": "下方传来溪水潺潺声，清澈悦耳，游鱼拨水声",
             "sound_en": "stream below murmuring, clear and pleasant, fish splashing lightly",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "水激流，",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1234,7 +1277,9 @@
             "sound_cn": "寒萼急得跺了一下脚",
             "sound_en": "Han'e stamping her foot in frustration",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "你倒说得容易",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1253,7 +1298,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，随手拔起了一株小树，默忆来时步数，看准一个地方，朝溪中扔去，眼看那株小树还没落到溪底，下面冒起一缕紫烟，那株小树忽然起火，瞬息之间不见踪迹。紫烟散尽，再往下面一看，哪里有什么清溪游鱼，又变成了一条不毛的干沟。寒萼知道厉害，急得顿足道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1264,7 +1309,9 @@
             "sound_cn": "寒萼拔起小树，树根带出泥土声",
             "sound_en": "Han'e pulling up a small tree, roots tearing from earth",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随手拔起了一",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -1274,7 +1321,9 @@
             "sound_cn": "小树落入紫烟中，瞬间起火燃烧，嗞嗞声，火焰噼啪",
             "sound_en": "tree falling into purple smoke, catching fire instantly, sizzling and crackling",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "随手拔起了一",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1312,7 +1361,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平也是因为万妙仙姑所居近在咫尺，怕遇见没有活命，虽然着急，仍只得安慰寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1350,28 +1399,20 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "寒萼原是有些小孩子心性，闻言果然安慰了许多，便同司徒平仍上高崖坐下闲眺。这时正值端阳节近，草木丛茂，野花怒开。二人坐在崖顶一株大树下面说说笑笑，不觉日色偏西。遥望紫石、紫云、天都、莲花、文笔、信始诸峰，指点烟岚，倏忽变化，天风冷冷，心神清爽，较诸灵谷洞天另是一番况味。寒萼忽然笑道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
-            "trigger_delay": 0.0,
+            "trigger_delay": 41.2,
             "duration": 2.5,
             "process_mode": "overlay",
             "name": "山风声",
             "sound_cn": "崖顶天风冷冷，吹动衣袂，松涛阵阵",
             "sound_en": "cold wind on the cliff top, clothes fluttering, pine waves",
             "volume": "-24%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 2.5,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "鸟鸣声",
-            "sound_cn": "山间鸟鸣啾啾，远处鹰唳",
-            "sound_en": "birds chirping in the mountains, distant hawk cry",
-            "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "风冷冷，",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1409,7 +1450,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，便要拉了司徒平去崖旁摘采。忽见那两只白兔如飞一般纵跳回来。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1420,7 +1461,9 @@
             "sound_cn": "白兔纵跳着飞奔回来，急促的兔爪声",
             "sound_en": "white rabbits bounding back hurriedly, rapid paw sounds",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "便要拉了司徒",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1450,7 +1493,9 @@
             "sound_cn": "白兔急促叫唤，吱吱声，带着焦急",
             "sound_en": "white rabbits chirping urgently, anxious squeaks",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我们只顾说话",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1469,7 +1514,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "话音未了，两只白兔业已跑近二人身前，叫唤了两声，衔着二人的衣角往来路上拉。寒萼便指问司徒平：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1507,7 +1552,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -1564,7 +1609,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平闻言变色道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1575,7 +1620,9 @@
             "sound_cn": "司徒平脸色突变，倒吸一口凉气",
             "sound_en": "Situping's face changing, sharp intake of breath",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平闻言变",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1632,7 +1679,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平知道寒萼性情，拦她不住。又见那白兔还是尽自往前拉，猛想起今日已离端阳不远，也许万妙仙姑已经到滇西赴约去了。知那白兔通灵，便将一个抱在膝上问道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1643,7 +1690,9 @@
             "sound_cn": "司徒平抱起白兔，兔毛轻响",
             "sound_en": "Situping picking up the white rabbit, fur rustle",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平知道寒",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1681,7 +1730,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "那白兔闻言，果然连叫两声。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1692,7 +1741,9 @@
             "sound_cn": "白兔连叫两声，声音短促清晰",
             "sound_en": "white rabbit calling twice, short clear chirps",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "那白兔闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1730,7 +1781,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平强她不过，只得答应同去。寒萼这才转怒为喜。那一对白兔闻得主人肯去，双双欢蹦，如弩箭脱弦一般，直往五云步那方飞走。寒萼拉着司徒平，喊一声“起”，跟在白兔后面御风而行。快到五云步不远，那白兔忽然改了方向，折往正东，转到一个崖口，停步不前。二人也一同降落下来，随着白兔往崖侧一探头，见有两男一女，各用飞剑正在苦苦支持，当中有一口飞剑正是司徒平被万妙仙姑收去之物。寒萼悄问这三人是谁。司徒平轻轻说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1741,7 +1792,9 @@
             "sound_cn": "寒萼拉司徒平御风飞行，风声呼呼，衣袂猎猎",
             "sound_en": "Han'e pulling Situping flying with wind, wind rushing, clothes flapping",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平强她不",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1751,7 +1804,9 @@
             "sound_cn": "二人降落在崖口，衣袂轻响，脚步落定",
             "sound_en": "landing at the cliff mouth, cloth rustle, feet settling",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "徒平强她不过",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1781,7 +1836,9 @@
             "sound_cn": "司徒平压低声音说话，语速急促",
             "sound_en": "Situping whispering, urgent tone",
             "volume": "-22%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "我们来得真巧",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1800,7 +1857,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，薛蟒又将自己的飞剑放起，三剑夹攻。王森寡不敌众，眼看难以支持。寒萼对司徒平道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1811,7 +1868,9 @@
             "sound_cn": "三剑在空中激烈交击，金属铿锵声连绵不绝，火花四溅",
             "sound_en": "three swords clashing fiercely in air, continuous metallic clangs, sparks flying",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1849,7 +1908,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "司徒平闻言，不敢怠慢，连忙按照平日的口诀运动元气，用手将剑招回时，觉着非常费力。知道万妙仙姑必定传了薛蟒什么口诀，故尔薛蟒能运用真元将剑吸住。正打算用什么法子向薛蟒要回剑囊时，寒萼己等不及了，手扬处，一团红光发出爆音，直向那剑光丛中打去。王森见势不佳，正要收剑改用法宝取胜，忽见敌人的一道剑光飞向斜刺里去。往前一看，原来那边崖口站定一男一女，男的正是苦孩儿司徒平，女的虽不认得，估量也非平常之辈。他只知司徒平是薛蟒师兄，比薛蟒来得厉害，如今必帮薛蟒，更觉众寡不敌；又见那女子一扬手打出一团红光，不知是什么来历。所以不敢再行恋战，未等红光打到，急忙收回飞剑破空逃走。那里薛蟒见王森不支，正在高兴，忽然觉着元气一散，自己承师父所赐，得自司徒平手中的那口飞剑，忽然飞向斜刺里。一眼看见司徒平同着一个幼女站在那里，大吃一惊。一面招呼柳燕娘，一面忙把飞剑收回，想逃回洞去。那女的已放出一团红光打来，他的剑收得快，还差点没有受伤。柳燕娘的飞剑来不及收，挨着一团红光，一声雷响，震得光焰四散，跌到地下，变成顽铁。薛、柳二人见势不佳，正要逃走。寒萼哪里肯容，收回红光，脱手又飞起彩虹一般的五色匹练，将薛、柳二人双双束住，动转不得。寒萼笑对司徒平道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1860,17 +1919,21 @@
             "sound_cn": "寒萼发出金丹，红光带着爆音飞出，轰然作响",
             "sound_en": "Han'e releasing golden elixir, red light with explosive boom",
             "volume": "-10%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "司徒平闻言",
+            "trigger_offset": 0
           },
           {
-            "trigger_delay": 1.5,
+            "trigger_delay": 10.2,
             "duration": 1.0,
             "process_mode": "overlay",
             "name": "飞剑变顽铁",
             "sound_cn": "柳燕娘的飞剑被红光击中，光焰四散，跌落在地，叮当声",
             "sound_en": "Liu Yanniang's sword struck by red light, sparks scattering, clanging to ground",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "剑招回时",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.5,
@@ -1880,7 +1943,9 @@
             "sound_cn": "彩虹匹练飞出，将薛柳二人紧紧束住，绳索勒紧声",
             "sound_en": "rainbow ribbon flying out, binding Xue and Liu tightly, ropes creaking",
             "volume": "-14%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "平闻言",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1918,7 +1983,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，拉了司徒平走向前去。那团红光，原是宝相夫人九转真元所炼的金丹。那匹练般的彩虹，也是紫玲谷镇洞之宝，名彩霓练，能发烈火燃烧，非常厉害。薛、柳二人如何禁受得住。薛蟒被火的得非常疼痛，不住喊师兄饶命。司徒平到底是个厚道的人，见薛、柳二人宛转哀号，动了恻隐之心，先向薛蟒要回了剑囊，请寒萼将宝收起，放他们逃生。寒萼道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -1929,7 +1994,9 @@
             "sound_cn": "彩霓练发出烈火，燃烧声噼啪作响，薛柳惨叫连连",
             "sound_en": "rainbow ribbon emitting flames, crackling, Xue and Liu screaming in pain",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "拉了司徒平走",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1939,7 +2006,9 @@
             "sound_cn": "薛蟒哀号着喊师兄饶命，声音嘶哑",
             "sound_en": "Xue Mang pleading for mercy, crying 'brother spare me', hoarse voice",
             "volume": "-16%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "拉了司徒平走",
+            "trigger_offset": 0
           }
         ]
       },
@@ -1996,7 +2065,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "又再三苦劝。寒萼对薛、柳二人道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2034,7 +2103,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "说罢，收回彩霓练。薛、柳二人周身疼痛，爬伏在地，还想探问司徒平近日踪迹。寒萼不俟司徒平答言，抢先说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2045,7 +2114,9 @@
             "sound_cn": "寒萼收回彩虹匹练，光芒敛去，轻响",
             "sound_en": "Han'e retracting the rainbow ribbon, light fading with a soft whoosh",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "收回彩霓练",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2083,7 +2154,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "薛、柳二人怎敢答言，含羞带恨，相互扶着，转过崖角回洞去了。原来王森自从柳燕娘偷偷随了薛蟒丢下他逃走，久已怀恨在心。偏巧这日随着师父独角灵官乐三官到川西访友，驾剑飞行，路遇万妙仙姑，本是熟人，便约乐三官到青螺山去。乐三官本与峨眉派有仇，当下应允。王森从二人谈话中知道柳燕娘已嫁薛蟒，在五云步居住，不由怒火中烧，偷偷背了乐三官，想赶到黄山五云步寻薛、柳二人算帐。到了黄山，遍寻五云步不着，好生纳闷，在山麓一个庙内住了几日，每日上山寻找。这日走过文笔峰，忽听山石后面有两个女子说话，连忙将身隐住偷听。一个道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2094,7 +2165,9 @@
             "sound_cn": "薛蟒和柳燕娘相互搀扶着离去，脚步声蹒跚",
             "sound_en": "Xue and Liu limping away, unsteady footsteps",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "柳二人怎敢答",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2113,7 +2186,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“师父教我们见了秦家姊妹，就顺西路走回成都，中途路上还有多少事要办。我们等了几天也不见来，真叫人等得心焦。”那一个道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2124,7 +2197,9 @@
             "sound_cn": "山石后传来两个女子低声交谈，声音轻柔",
             "sound_en": "soft voices of two women conversing behind the rocks",
             "volume": "-24%",
-            "pitch": "+2Hz"
+            "pitch": "+2Hz",
+            "trigger_keyword": "师父教我们见",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2143,7 +2218,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“你着急什么？这黄山多好，乐得在此享几天清福，还可以向师父面前领些教益呢？”先说话的女子又道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2162,7 +2237,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“姊姊，我倒不是急于要离开这里，我总想回四川，寻到峨眉去见见那个李英琼罢了。”后说话的女子答道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2181,7 +2256,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“都是同行，早晚还愁见不着么？我昨日听师父说，苦孩儿今日要到五云步寻薛蟒要还飞剑，少时便有热闹好看呢。”先说话的女子又道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2200,7 +2275,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“那天我们若不看苦孩儿面上，薛蟒和姓柳的贱人怕不死在我们两人剑下。苦孩儿寻他要剑，恐怕破不了万妙仙姑的法术，进不了洞府吧？”后说的女子又道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": []
       },
@@ -2219,7 +2294,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "“师父说应在申末酉初。现在午时还早，我们且先回洞下局棋再说。”说罢声音渐远，想是进入文笔峰洞内去了。王森知道餐霞大师也在黄山，听口气，这两个女子来历不小，自己既寻薛、柳二人的晦气，犯不着多树敌。又听出五云步被万妙仙姑用法术封锁，难怪自己连日寻访不着。“苦孩儿”这三个字听去耳熟，那两个女人既说此人要寻薛蟒要还飞剑，想必也是薛、柳二人对头。何不寻一个便于了望之处等候，只要薛、柳二人出现，那苦孩儿如果能将薛、柳二人杀死，岂不是替自己出了怨气？还省得得罪万妙仙姑。如果那人不行，自己再行出面寻薛、柳二人算帐，也还不晚。主意打定，信步走上一座高峰，见对面孤崖峭拔，中隔无底深壑，形势十分险峻。便驾剑光飞了过去，寻了一块山石坐下，随意眺望山景。他却没料到坐的地方就是万妙仙姑的洞府旁边。王森坐了一会，眼看已是申正，还不见动静。正在闷气，忽见崖底蹿上两个肥大白兔，长得十分雄壮可爱，在离王森坐处不远的浅草上打跌翻滚，一丝也不怕，看去非常有趣。猛听一个媚气的女子声音说道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2230,7 +2305,9 @@
             "sound_cn": "两个女子的说话声渐渐远去，脚步声轻响",
             "sound_en": "women's voices fading, light footsteps receding",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "师父说应在申",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2306,7 +2383,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "王森已听出是薛、柳二人声音，不想在无意中竟走到仇敌的所在。知道如被他二人看见，一逃回去，有万妙仙姑法术，再寻就不易了。忙将身子躲过一旁，打算等薛、柳二人出来，自己先抢上前拦住他们去路，再行动手。偏那一对白兔非常凑趣，没等薛、柳二人说完，忽然拨转头往崖下就跑。王森心中巴不得那兔子越跑得远，自己越省事。果然听见柳燕娘着急的声音道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2317,7 +2394,9 @@
             "sound_cn": "白兔拨头就跑，兔爪急促拍地声",
             "sound_en": "white rabbits turning and running, rapid paw thuds",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "王森已听出是",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2355,7 +2434,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "言还未了，薛、柳二人双双在洞内现身穿了出来，只顾追那兔子，并没留神旁边有人。那兔子还好似有了觉察似的，撒开四条腿比箭还疾，直跑出二三里地。王森紧跟薛、柳二人身后，薛、柳二人一丝也没有觉察。王森估计薛、柳二人离洞已远，先相看了来去的路径，大喝一声道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2366,7 +2445,9 @@
             "sound_cn": "薛蟒和柳燕娘从洞中追出，脚步声急促，洞门开合声",
             "sound_en": "Xue and Liu rushing out of the cave, hurried steps, door swinging",
             "volume": "-18%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2404,7 +2485,7 @@
           "volume": "0%",
           "pitch": "0Hz",
           "text": "薛、柳二人见白兔行走甚疾，追赶不上，正要飞出剑去，忽听身后有人叫骂。回头一看，见是王森业已将剑放起，朝柳燕娘当头落下。柳燕娘知道王森脾气翻脸不认人，自己本来理亏，无从分辩，连忙飞剑迎敌。薛蟒也将飞剑放起，双战王森。战了个把时辰，不分胜负。薛蟒自持有了司徒平那口飞剑，连日用师父所传口诀加紧用功，已能指挥如意。这时见不能取胜，便将司徒平的剑放出。万想不到冤家路窄，司徒平会在斜刺里出现，所得的宝剑失去，白费了多日的苦功，临了闹个空欢喜，还带了一身的火伤，又失了柳燕娘的飞剑。明知那女子便是师父卦象上所说的阴人，原想乘机打听口风，又被那女子威喝道破了他的心思。再耽延下去，更得要讨苦吃，只得暗暗咬牙痛恨而去。司徒平得回了飞剑，又见寒萼如此本领高强，越加得意，不住口地夸奖赞美。寒萼只抿了嘴笑。二人见夕阳已薄崎峪，轻柔的阳光从千红万紫的树隙中穿出，射在褐色的山石上，都变了绯色。天空依然还是青的，不过颜色深点。归巢的晚鸦，有时结成一个圆阵，有时三五为群，在天空中自在邀翔，从头上飞过去，一会儿没入瞑色之中，依稀只听得几声呜叫。二人爱这名山暮景，都舍不得驾剑光回去，并肩并头，缓缓往归路行走。刚转过一个高峰，忽听一声娇叱道：",
-          "instruct": "叙述"
+          "instruct": ""
         },
         "effects": [
           {
@@ -2415,7 +2496,9 @@
             "sound_cn": "归巢的晚鸦成群鸣叫，翅膀拍打声此起彼伏",
             "sound_en": "returning crows cawing in flocks, wings flapping in waves",
             "volume": "-20%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "柳二人见白兔",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -2425,7 +2508,9 @@
             "sound_cn": "傍晚山风轻拂，树叶沙沙，暮色渐浓",
             "sound_en": "evening breeze, leaves rustling, dusk deepening",
             "volume": "-26%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "柳二人见白兔",
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -2435,7 +2520,9 @@
             "sound_cn": "二人并肩缓步而行，脚步声轻轻",
             "sound_en": "two walking side by side, soft footsteps",
             "volume": "-24%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "兔行走甚疾",
+            "trigger_offset": 0
           }
         ]
       },
@@ -2465,7 +2552,9 @@
             "sound_cn": "山崖上一条黑影飞下，破空声尖锐，衣袂猎猎",
             "sound_en": "black shadow descending from the cliff, sharp whoosh, clothes flapping",
             "volume": "-12%",
-            "pitch": "+0Hz"
+            "pitch": "+0Hz",
+            "trigger_keyword": "大胆司徒平",
+            "trigger_offset": 0
           }
         ]
       },

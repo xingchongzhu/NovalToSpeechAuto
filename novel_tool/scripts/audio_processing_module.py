@@ -283,6 +283,7 @@ class AudioEngine:
             project_root, "novel_tool", "character_voice_tables", "蜀山剑侠传角色配音表.json"
         )
         self._voice_table_missing = set()  # VoiceDesign 模式下配音表缺失的角色名，供上层记录
+        self._quality_warnings = []  # TTS 质量异常记录
 
         os.makedirs(self.temp_dir, exist_ok=True)
         os.makedirs(self.voice_prompt_cache_dir, exist_ok=True)
@@ -421,6 +422,23 @@ class AudioEngine:
         missing = sorted(self._voice_table_missing)
         self._voice_table_missing.clear()
         return missing
+
+    def get_quality_warnings(self) -> list:
+        """返回并清空 TTS 质量异常记录"""
+        warnings = self._quality_warnings[:]
+        self._quality_warnings.clear()
+        return warnings
+
+    @staticmethod
+    def _strip_silence(audio: AudioSegment, threshold_db: float = -40, min_silence_ms: int = 400) -> AudioSegment:
+        """去除首尾静音（pydub 原生方法，超轻量）"""
+        try:
+            trimmed = audio.strip_silence(silence_thresh=threshold_db, padding=50, min_silence_len=min_silence_ms)
+            if len(trimmed) > 0:
+                return trimmed
+        except Exception:
+            pass
+        return audio
 
     @staticmethod
     def _split_qwen_text(text: str, max_chunk_length: int = 380) -> List[str]:
@@ -593,20 +611,67 @@ class AudioEngine:
             elapsed_time = time.time() - start_time
             print(f"[TTSEngine] 语音生成完成，耗时: {elapsed_time:.2f} 秒")
             audio = self._adjust_audio_params(audio, params.speed, params.volume, params.pitch)
+            audio = self._strip_silence(audio)  # 统一去静音
+
+            # 快速质检（clone 模式也覆盖）
+            dur = len(audio) / 1000.0
+            text_len = len(params.text)
+            if dur < max(0.3, text_len / 10.0):
+                self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": f"音频异常短: {dur:.1f}s ({text_len}字)"})
+                print(f"[TTSEngine] ⚠️ 音频异常短: {dur:.1f}s ({text_len}字)")
+            elif dur > max(5.0, text_len / 1.0):
+                self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": f"音频异常长: {dur:.1f}s ({text_len}字)"})
+                print(f"[TTSEngine] ⚠️ 音频异常长: {dur:.1f}s ({text_len}字)")
+
+            # 静音检测：尾部和中间超过 2s 连续静音
+            samples = np.array(audio.get_array_of_samples(), dtype=np.float32)
+            seg_samples = int(audio.frame_rate * 0.5)  # 0.5s窗口
+            rms_vals = []
+            for i in range(0, len(samples), seg_samples):
+                chunk = samples[i:i+seg_samples]
+                if len(chunk) < seg_samples // 2: break
+                rms_vals.append(float(np.sqrt(np.mean(chunk**2))))
+            if rms_vals:
+                avg_rms = np.mean(rms_vals)
+                thresh = avg_rms * 0.12
+                max_silent = 0
+                current = 0
+                for r in rms_vals:
+                    if r < thresh:
+                        current += 1
+                        max_silent = max(max_silent, current)
+                    else:
+                        current = 0
+                if max_silent >= 4:  # ≥2s
+                    self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": f"连续静音 {max_silent*0.5:.1f}s"})
+                    print(f"[TTSEngine] ⚠️ 检测到 {max_silent*0.5:.1f}s 连续静音")
+
             return audio
         except Exception as e:
             print(f"[TTSEngine] 语音生成失败: {e}")
             raise
 
     def _text_to_speech_qwen(self, params: VoiceParams) -> AudioSegment:
-        """使用Qwen3-TTS引擎生成语音"""
+        """使用Qwen3-TTS引擎生成语音（clone 模式）"""
+        # 旁白 clone 模式需 Base 模型，如果当前是 VoiceDesign → 强制切换
+        if self.qwen_tts_model is not None:
+            model_type = getattr(self.qwen_tts_model.model, 'tts_model_type', 'unknown')
+            if model_type == 'voice_design':
+                print("[TTSEngine] 🔄 clone 模式需要 Base 模型，重新加载...")
+                self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
+                self.qwen_tts_model = None
+                self._init_qwen_tts_model()
+
         if self.qwen_tts_model is None:
             self._init_qwen_tts_model()
         
         import torch
         
         qwen_speaker = params.role_voice if params.role_voice else "麦克-纪录片之王,麦克阿瑟"
-        instruct: str = params.instruct.strip() if params.instruct else "neutral"
+        if params.role == "旁白":
+            instruct = "音量偏低，换气声轻微，适合古风仙侠长篇叙述，紧张叙述，带有感情"
+        else:
+            instruct = params.instruct.strip() if params.instruct else "neutral"
         
         clone_audio_dir = self.clone_audio_dir
         
@@ -833,7 +898,7 @@ class AudioEngine:
         if self.target_voice_dbfs is not None and audio.rms > 0:
             gain_change = self.target_voice_dbfs - audio.dBFS
             audio = audio.apply_gain(gain_change)
-        audio = audio.fade_in(100)
+        audio = audio.fade_in(50).fade_out(80)  # 去除首尾杂音
 
         return audio
 
@@ -870,15 +935,65 @@ class AudioEngine:
 
         print(f"[TTSEngine] VoiceDesign Prompt: {full_instruct}")
 
-        # 3. 文本切分（VoiceDesign 用中等段长：在速度和语气连贯间平衡）
+        # ── VoiceDesign 生成参数（全局统一，批量+单段共用）──
+        VD_TEMPERATURE = 0.6       # 语音节奏随机性 (0.1~1.5, 低=机械平直/高=飘忽不定)
+        VD_SUBTALKER_TEMP = 0.5    # 音色/说话人一致性 (0.1~1.5, 低=同角色音色稳定)
+        VD_TOP_P = 0.95            # 核采样截断 (0.5~1.0, 低=保守单调/高=多样但偶发杂音)
+        VD_MAX_CHUNK = 280         # 长句分段阈值 字 (200~380, 低=多分段快/高=少分段慢)
+
+        # 3. 文本切分
         cleaned_text = process_polyphone_text(params.text)
         cleaned_text = cleaned_text.replace('\u201c', '').replace('\u201d', '').replace('\u2018', '').replace('\u2019', '')
-        text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=280)
+        text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=VD_MAX_CHUNK)
 
-        # ── 起始稳定化：每段拼"话说，"后固定裁 1.0s（覆盖冷启动+前缀发音）──
+        # ── 起始稳定化：每段拼"话说，"后固定裁 1.1s ──
         STABILITY_PREFIX = "话说，"
-        TRIM_SAMPLES = 26400  # 1.1s @ 24000Hz
+        TRIM_SAMPLES = 36000  # 1.5s @ 24000Hz，覆盖冷启动+前缀+叹气
 
+        # 批量生成：多段时尝试一次调用保持音色一致，失败则回退逐段
+        if len(text_segments) > 1:
+            try:
+                actual_texts = [STABILITY_PREFIX + s if len(s) >= 15 else s for s in text_segments]
+                max_tokens = min(2048, max(512, max(len(t) * 8 for t in actual_texts)))
+                
+                print(f"[TTSEngine] VoiceDesign 批量生成 {len(text_segments)} 段")
+                # 批量模式下降低温度/加重复惩罚，防止 logits 溢出 NaN
+                res = self.qwen_tts_model.generate_voice_design(
+                    text=actual_texts, language=["Chinese"]*len(actual_texts),
+                    instruct=[full_instruct]*len(actual_texts),
+                    max_new_tokens=max_tokens,
+                    temperature=0.4, subtalker_temperature=0.3,
+                    top_p=0.9, repetition_penalty=1.08,
+                )
+                wavs, sr = res
+                all_wavs = []
+                for i, w in enumerate(wavs if isinstance(wavs, list) else [wavs]):
+                    chunk = w if isinstance(w, np.ndarray) else np.array(w)
+                    if len(text_segments[i]) >= 15 and len(chunk) > TRIM_SAMPLES:
+                        chunk = chunk[TRIM_SAMPLES:]
+                    all_wavs.append(chunk)
+                sample_rate = sr
+            except Exception as e:
+                print(f"[TTSEngine] ⚠️ 批量生成失败({e})，回退逐段生成...")
+                text_segments = text_segments  # keep for fallback below
+            else:
+                # 批量成功 → 合并返回
+                merged = np.concatenate(all_wavs)
+                merged = np.clip(merged, -1, 1)
+                max_val = np.max(np.abs(merged))
+                if max_val > 0: merged = merged / max_val * 0.9
+                audio_data_int16 = (merged * 32767).astype(np.int16)
+                audio = AudioSegment(audio_data_int16.tobytes(), frame_rate=sr, sample_width=2, channels=1)
+                audio = audio.set_frame_rate(self.sample_rate).set_channels(self.channels)
+                if self.target_voice_dbfs is not None and audio.rms > 0:
+                    audio = audio.apply_gain(self.target_voice_dbfs - audio.dBFS)
+                audio = audio.fade_in(50).fade_out(80)
+                t_total = time.time() - t_line_start
+                dur = len(audio) / 1000.0
+                print(f"[TTSEngine] ⏱ 整句批量完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
+                return audio
+
+        # 单段或批量失败回退 → 逐段生成
         import torch
         all_wavs = []
         sample_rate = None
@@ -913,7 +1028,9 @@ class AudioEngine:
                 try:
                     res = self.qwen_tts_model.generate_voice_design(
                         text=actual_text, language="Chinese", instruct=seg_instruct,
-                        max_new_tokens=max_tokens,
+                max_new_tokens=max_tokens,
+                temperature=VD_TEMPERATURE, subtalker_temperature=VD_SUBTALKER_TEMP,
+                top_p=VD_TOP_P,
                     )
                     result_holder["result"] = res
                 except Exception as e:
@@ -969,12 +1086,22 @@ class AudioEngine:
         audio = audio.set_frame_rate(self.sample_rate).set_channels(self.channels)
         if self.target_voice_dbfs is not None and audio.rms > 0:
             audio = audio.apply_gain(self.target_voice_dbfs - audio.dBFS)
-        audio = audio.fade_in(100)
+        audio = audio.fade_in(50).fade_out(80)  # 去除首尾杂音
+        audio = self._strip_silence(audio)       # 去除中间长静音
 
-        # 打印整句耗时汇总
-        t_total = time.time() - t_line_start
+        # ── 快速质检：检查时长是否合理 ──
         dur = len(audio) / 1000.0
-        print(f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
+        text_len = len(params.text)
+        # 中文正常语速 2~6 字/秒，VoiceDesign 因 temperature 可能波动更大
+        expected_min = max(0.5, text_len / 8.0)  # 最慢 ~8字/秒
+        expected_max = max(1.5, text_len / 1.5)  # 最快 ~1.5字/秒
+        if dur < expected_min:
+            print(f"[TTSEngine] ⚠️ 音频异常短: {dur:.1f}s (预期≥{expected_min:.1f}s, {text_len}字)")
+        elif dur > expected_max * 3:
+            print(f"[TTSEngine] ⚠️ 音频异常长: {dur:.1f}s (预期≤{expected_max:.1f}s, {text_len}字)")
+        else:
+            t_total = time.time() - t_line_start
+            print(f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
         return audio
 
 
@@ -1624,6 +1751,9 @@ class AudioGenerator:
         self.persist_intermediate_audio = persist_intermediate_audio
         self.platform_profile = get_platform_profile(platform)
         self.platform_name = self.platform_profile.name
+        self._quality_warnings = []  # TTS 质量异常记录
+        self._chunk_title_seq = 0   # chunk_title 序号
+        self.completed_count = 0    # 已合成句数（含上次续跑已完成）
 
         # 初始化音效与背景音生成引擎
         self._generate_sfx_batch = get_sfx_engine(self.sfx_engine)
@@ -1643,14 +1773,12 @@ class AudioGenerator:
         self.bgm_dir = os.path.join(self.chapter_dir, "背景音")
         self.effect_dir = os.path.join(self.chapter_dir, "音效")
         self.mix_dir = os.path.join(self.chapter_dir, "混音")
-        self.tmp_dir = os.path.join(self.chapter_dir, "tmp")
 
         os.makedirs(self.intro_outro_dir, exist_ok=True)
         os.makedirs(self.voice_dir, exist_ok=True)
         os.makedirs(self.bgm_dir, exist_ok=True)
         os.makedirs(self.effect_dir, exist_ok=True)
         os.makedirs(self.mix_dir, exist_ok=True)
-        os.makedirs(self.tmp_dir, exist_ok=True)
 
         # 错误段落追踪：记录本章合成失败的行 {line_id: {role, text, error, timestamp}}
         self.failed_lines: Dict[int, Dict[str, Any]] = {}
@@ -1659,7 +1787,7 @@ class AudioGenerator:
         
         platform_channels = self.platform_profile.channels or 1
         self.audio_engine = AudioEngine(
-            temp_dir=self.tmp_dir,
+            temp_dir="./temp_audio",
             sample_rate=self.platform_profile.sample_rate,
             channels=platform_channels,
             tts_engine=self.tts_engine,
@@ -1733,8 +1861,8 @@ class AudioGenerator:
                 speed="-8%",
                 volume="+0%",
                 pitch="+0Hz",
-                instruct="平淡轻快",
-                tts_mode=self.tts_mode,
+                instruct="",
+                tts_mode="clone",  # 片头片尾固定用 clone 保持音色一致
             )
         else:
             voice_params = VoiceParams(
@@ -1744,11 +1872,26 @@ class AudioGenerator:
                 speed="-5%",
                 volume="+0%",
                 pitch="+0Hz",
-                instruct="平淡轻快",
-                tts_mode=self.tts_mode,
+                instruct="",
+                tts_mode="clone",
             )
 
-        asset_audio = self.audio_engine.text_to_speech(voice_params)
+        # 尝试 clone 模式，失败则 fallback 到 voice_design
+        asset_audio = None
+        last_error = None
+        for attempt_mode in ("clone", "voice_design"):
+            try:
+                voice_params.tts_mode = attempt_mode
+                asset_audio = self.audio_engine.text_to_speech(voice_params)
+                break
+            except Exception as e:
+                last_error = e
+                print(f"[PlatformAsset] {asset_type} {attempt_mode} 模式失败: {e}")
+
+        if asset_audio is None:
+            print(f"[PlatformAsset] ❌ {asset_type} 生成失败（clone/voice_design 均不可用）: {last_error}")
+            return None
+
         export_kwargs = {"format": self.platform_profile.output_format}
         if self.platform_profile.bitrate:
             export_kwargs["bitrate"] = self.platform_profile.bitrate
@@ -1981,6 +2124,8 @@ class AudioGenerator:
             if intro:
                 final_chunk += intro
                 print(f"  ✅ 片头已加载（{len(intro) / 1000:.1f}s），拼接到正文前")
+            elif self.platform_profile.intro_template:
+                print(f"  ⚠️ 片头未生成（TTS 合成失败），跳过")
 
             # 集标题
             if title_audio:
@@ -2000,6 +2145,8 @@ class AudioGenerator:
                 final_chunk += AudioSegment.silent(duration=300, frame_rate=self.platform_profile.sample_rate)
                 final_chunk += outro
                 print(f"  ✅ 片尾已加载（{len(outro) / 1000:.1f}s），拼接到正文后")
+            elif self.platform_profile.outro_template:
+                print(f"  ⚠️ 片尾未生成（TTS 合成失败），跳过")
 
             total_dur_sec = final_chunk.duration_seconds
             print(f"  📏 最终音频总时长: {total_dur_sec:.1f}s / {total_dur_sec/60:.2f}min")
@@ -2056,8 +2203,8 @@ class AudioGenerator:
         Returns:
             AudioSegment，或 None（合成失败时）
         """
-        label_hash = hashlib.md5(chapter_label.encode("utf-8")).hexdigest()[:12]
-        cache_path = os.path.join(self.chapter_dir, f"chunk_title_{label_hash}.wav")
+        self._chunk_title_seq += 1
+        cache_path = os.path.join(self.chapter_dir, f"chunk_title_{self._chunk_title_seq:02d}.wav")
         if os.path.exists(cache_path):
             print(f"  📢 复用章节标题前缀缓存: {cache_path}")
             return AudioSegment.from_wav(cache_path).set_frame_rate(
@@ -2078,8 +2225,8 @@ class AudioGenerator:
                 speed=narrator_speed,
                 volume=narrator_volume,
                 pitch=narrator_pitch,
-                instruct="平淡轻快",
-                tts_mode=self.tts_mode,
+                instruct="",
+                tts_mode="clone",  # chunk 标题旁白固定 clone 保证一致
             )
             title_audio = self.audio_engine.text_to_speech(voice_params)
             title_audio = title_audio.set_frame_rate(
@@ -2125,32 +2272,36 @@ class AudioGenerator:
         )
 
     def persist_failed_lines(self):
-        """把当前章节的错误段落记录写入 failed_lines.json
-
-        无错误段落时若日志文件已存在则清理，避免历史脏数据。
-        """
+        """持久化失败行到 JSON 文件"""
         if not self.failed_lines:
-            if os.path.exists(self.failed_lines_log_path):
-                try:
-                    os.remove(self.failed_lines_log_path)
-                except Exception:
-                    pass
             return
+        failed_path = os.path.join(self.chapter_dir, "failed_lines.json")
+        payload = {
+            "novel_name": self.novel_name,
+            "chapter": self.chapter_name,
+            "total_lines": self.total_lines,
+            "failed_count": len(self.failed_lines),
+            "failed_lines": list(self.failed_lines.values()),
+        }
+        with open(failed_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        print(f"💾 失败段落记录已保存: {self.failed_lines_log_path}")
 
-        try:
-            payload = {
-                "novel_name": self.novel_name,
-                "chapter": self.chapter_name,
-                "total_lines": self.total_lines,
-                "failed_count": len(self.failed_lines),
-                "failed_lines": list(self.failed_lines.values()),
-            }
-            os.makedirs(self.chapter_dir, exist_ok=True)
-            with open(self.failed_lines_log_path, "w", encoding="utf-8") as f:
-                json.dump(payload, f, ensure_ascii=False, indent=2)
-            print(f"💾 失败段落记录已保存: {self.failed_lines_log_path}")
-        except Exception as e:
-            print(f"⚠️ 保存失败段落记录时出错: {e}")
+    def _persist_quality_warnings(self):
+        """持久化 TTS 质量异常到 JSON 文件"""
+        if not self._quality_warnings:
+            return
+        warn_path = os.path.join(self.chapter_dir, "quality_warnings.json")
+        payload = {
+            "novel_name": self.novel_name,
+            "chapter": self.chapter_name,
+            "warnings_count": len(self._quality_warnings),
+            "warnings": self._quality_warnings,
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        with open(warn_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        print(f"📝 质量异常记录: quality_warnings.json ({len(self._quality_warnings)} 条)")
 
     def has_failed_lines(self) -> bool:
         """是否记录到失败的段落"""
@@ -2455,8 +2606,11 @@ class AudioGenerator:
         if voice_params_dict and 'text' not in voice_params_dict:
             voice_params_dict['text'] = line.get('text', '')
 
-        # 注入全局 tts_mode（JSON 中未指定时使用）
-        if 'tts_mode' not in voice_params_dict:
+        # 注入 tts_mode：旁白强制用 clone，其余角色跟全局设置
+        role_name = line.get('role', '')
+        if role_name == '旁白':
+            voice_params_dict['tts_mode'] = 'clone'
+        elif 'tts_mode' not in voice_params_dict:
             voice_params_dict['tts_mode'] = self.tts_mode
 
         voice_params = VoiceParams(**voice_params_dict)
@@ -2508,7 +2662,7 @@ class AudioGenerator:
         text_preview = line_config.voice_params.text[:40].replace('\n', ' ')
         current_index = line_config.id + 1
         print(
-            f"\n🎙️ [{self.novel_name} / {self.chapter_name}] 第{current_index}/{self.total_lines}句 | 角色: {line_config.role} | 文本: {text_preview}..."
+            f"\n🎙️ [{self.novel_name} / {self.chapter_name}] 正在合成第{current_index}句，已完成{self.completed_count}句，共{self.total_lines}句 | 角色: {line_config.role} | 文本: {text_preview}..."
         )
         
         voice_output_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
@@ -2518,29 +2672,46 @@ class AudioGenerator:
         
         if os.path.exists(voice_output_path):
             print(
-                f"🟢 [{self.novel_name} / {self.chapter_name}] 第{current_index}/{self.total_lines}句 命中 voice 缓存，重新混音: {voice_output_path}"
+                f"🟢 [{self.novel_name} / {self.chapter_name}] 正在合成第{current_index}句，已完成{self.completed_count}句，共{self.total_lines}句 | 命中 voice 缓存，重新混音"
             )
             remixed_audio = True
             voice_audio = AudioSegment.from_wav(voice_output_path)
         elif os.path.exists(single_output_path):
             print(
-                f"🟡 [{self.novel_name} / {self.chapter_name}] 第{current_index}/{self.total_lines}句 未命中 voice，命中 mixed 缓存，直接复用: {single_output_path}"
+                f"🟡 [{self.novel_name} / {self.chapter_name}] 正在合成第{current_index}句，已完成{self.completed_count}句，共{self.total_lines}句 | 命中 mixed 缓存，直接复用"
             )
+            self.completed_count += 1
             return AudioSegment.from_wav(single_output_path)
         else:
             print(
-                f"🔴 [{self.novel_name} / {self.chapter_name}] 第{current_index}/{self.total_lines}句 未命中缓存，开始生成 TTS"
+                f"🔴 [{self.novel_name} / {self.chapter_name}] 正在合成第{current_index}句，已完成{self.completed_count}句，共{self.total_lines}句 | 未命中缓存，开始生成 TTS"
             )
             generated_new_audio = True
             voice_audio = self.audio_engine.text_to_speech(line_config.voice_params)
 
-            # VoiceDesign 模式：检查配音表中角色但无有效语音属性（如缺失年龄/性别/性格），记录警告
+            # VoiceDesign 模式：检查配音表中角色但无有效语音属性，记录警告
             if self.tts_mode == "voice_design":
                 for missing_role in self.audio_engine.get_voice_table_missing():
                     self.record_failed_line(
                         line_config,
                         Exception(f"missing_from_voice_table: 角色「{missing_role}」在配音表中但无有效语音属性，已使用兜底 Prompt"),
                     )
+
+            # 收集 TTS 质量异常
+            warnings = self.audio_engine.get_quality_warnings()
+
+            # 质量异常 → 自动重试（最多 2 次）
+            for attempt in range(2):
+                if not warnings: break
+                print(f"  🔄 质量异常重试 {attempt+1}/2: {warnings[0]['issue']}")
+                del voice_audio
+                voice_audio = self.audio_engine.text_to_speech(line_config.voice_params)
+                warnings = self.audio_engine.get_quality_warnings()
+
+            if warnings:
+                for w in warnings:
+                    w["line_id"] = line_config.id
+                self._quality_warnings.extend(warnings)
 
             voice_audio.export(voice_output_path, format="wav")
             if self.persist_intermediate_audio:
@@ -2634,6 +2805,7 @@ class AudioGenerator:
             else:
                 print(f"💾 单句混合音频已保存: {single_output_path}")
         
+        self.completed_count += 1
         return mixed_audio
 
     def generate_chapter_audio(self) -> str:
@@ -2643,15 +2815,16 @@ class AudioGenerator:
             self.chapter_dir,
             f"{self.chapter_clean_name}.{output_ext}",
         )
-        # 同时检查未切分和已切分的输出文件
-        first_chunk_path = os.path.join(
-            self.chapter_dir,
-            f"{self.chapter_clean_name}_上.{output_ext}",
-        )
-        if os.path.exists(chapter_output_path) or os.path.exists(first_chunk_path):
-            exist_path = chapter_output_path if os.path.exists(chapter_output_path) else first_chunk_path
-            print(f"✅ 整章音频已存在，跳过生成: {exist_path}")
-            return exist_path
+        # 同时检查未切分和已切分的输出文件（支持 _1/_2/_上/_中 等后缀）
+        import glob as _glob
+        chunk_pattern = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_*.{output_ext}")
+        existing_chunks = _glob.glob(chunk_pattern)
+        if os.path.exists(chapter_output_path):
+            print(f"✅ 整章音频已存在，跳过生成: {chapter_output_path}")
+            return chapter_output_path
+        elif existing_chunks:
+            print(f"✅ 检测到 {len(existing_chunks)} 个已切分音频文件，跳过生成: {os.path.basename(existing_chunks[0])} ...")
+            return existing_chunks[0]
 
         # 检测是否存在上次中断留下的 stream_tmp，自动续跑
         stream_tmp_dir = os.path.join(self.chapter_dir, "stream_tmp")
@@ -2737,44 +2910,89 @@ class AudioGenerator:
             line_ranges = {}
             current_ms = 0
 
-        for line_config in line_configs:
-            # 续跑时跳过已生成的行
-            if resume_ids and line_config.id in resume_ids:
-                print(f"⏭ 跳过已生成: #{line_config.id}")
-                continue
-            try:
-                print(f"📊 当前进度: 第{line_config.id + 1}/{self.total_lines}句")
-                line_audio = self.generate_single_line(line_config)
-                
-                # 记录时间范围
-                start_ms = current_ms
-                duration_ms = len(line_audio)
-                end_ms = start_ms + duration_ms
-                line_ranges[line_config.id] = (start_ms, end_ms)
-                current_ms = end_ms
-                
-                # 流式写入临时文件
-                tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
-                line_audio.export(tmp_file, format="wav")
-                tmp_files.append((line_config.id, tmp_file))
-                
-                # 第一句后添加600ms静音
-                if line_config.id == 0:
-                    silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
-                    silent_file = os.path.join(stream_tmp_dir, f"silent_0.wav")
-                    silent_audio.export(silent_file, format="wav")
-                    tmp_files.append((-1, silent_file))
-                    current_ms += 600
-                
-                # 释放内存
-                del line_audio
-                
-            except Exception as e:
-                print(f"❌ 处理第 {line_config.id} 句时发生异常: {e}")
-                self.record_failed_line(line_config, e)
+        # 初始化已合成计数：基于已有配音文件数
+        if os.path.isdir(self.voice_dir):
+            existing_voice_ids = set()
+            for f in os.listdir(self.voice_dir):
+                if f.startswith("voice_line_") and f.endswith(".wav"):
+                    try:
+                        existing_voice_ids.add(int(f[11:-4]))
+                    except ValueError:
+                        pass
+            self.completed_count = len(existing_voice_ids)
+        else:
+            existing_voice_ids = set()
+            self.completed_count = 0
 
-        # 持久化失败段落记录
+        # ── 按角色分组：同一角色连续合成，减少模型切换 ──
+        role_order = []
+        role_groups = {}
+        for lc in line_configs:
+            role = lc.voice_params.role if hasattr(lc, 'voice_params') else getattr(lc, 'role', '')
+            if role not in role_groups:
+                role_groups[role] = []
+                role_order.append(role)
+            role_groups[role].append(lc)
+
+        for role in role_order:
+            group = role_groups[role]
+            tts_label = "🔊 clone" if role == "旁白" else "🎤 voice_design"
+            print(f"\n  [{role}] {tts_label} → 连续合成 {len(group)} 句")
+
+            for line_config in group:
+                # 已有配音文件 → 直接复用，但仍需加入时间轴和 tmp_files
+                if line_config.id in existing_voice_ids:
+                    voice_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
+                    try:
+                        cached = AudioSegment.from_wav(voice_path)
+                        dur_ms = len(cached)
+                        line_ranges[line_config.id] = (current_ms, current_ms + dur_ms)
+                        current_ms += dur_ms
+                        tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
+                        cached.export(tmp_file, format="wav")
+                        tmp_files.append((line_config.id, tmp_file))
+                        del cached
+                        if line_config.id == 0:
+                            silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
+                            silent_file = os.path.join(stream_tmp_dir, "silent_0.wav")
+                            silent_audio.export(silent_file, format="wav")
+                            tmp_files.append((-1, silent_file))
+                            current_ms += 600
+                    except Exception as e:
+                        print(f"  ⚠️ 缓存配音读取失败 #{line_config.id}: {e}，将重新合成")
+                        existing_voice_ids.discard(line_config.id)
+                    else:
+                        continue
+                try:
+                    print(f"  📊 正在合成第{line_config.id + 1}句，已完成{self.completed_count}句，共{self.total_lines}句")
+                    line_audio = self.generate_single_line(line_config)
+                    
+                    start_ms = current_ms
+                    duration_ms = len(line_audio)
+                    end_ms = start_ms + duration_ms
+                    line_ranges[line_config.id] = (start_ms, end_ms)
+                    current_ms = end_ms
+                    
+                    tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
+                    line_audio.export(tmp_file, format="wav")
+                    tmp_files.append((line_config.id, tmp_file))
+                    
+                    if line_config.id == 0:
+                        silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
+                        silent_file = os.path.join(stream_tmp_dir, f"silent_0.wav")
+                        silent_audio.export(silent_file, format="wav")
+                        tmp_files.append((-1, silent_file))
+                        current_ms += 600
+                    
+                    del line_audio
+                    
+                except Exception as e:
+                    print(f"  ❌ 第 {line_config.id} 句异常: {e}")
+                    self.record_failed_line(line_config, e)
+
+        # 持久化失败段落记录 + 质量异常
         self.persist_failed_lines()
+        self._persist_quality_warnings()
 
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
@@ -2783,11 +3001,29 @@ class AudioGenerator:
             print(f"\n⚠️ 检测到 {failed_count}/{self.total_lines} 句合成失败{reason}，已跳过，将在后续修复配音表后重新合成")
             print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
 
+        # ── 最终对齐校验：已完成数 vs 总行数 ──
+        expected_ids = set(range(self.total_lines))
+        actual_ids = {lid for lid, _ in tmp_files if lid >= 0}
+        missing_ids = expected_ids - actual_ids
+        if missing_ids:
+            print(f"\n❌ 最终校验失败：缺少 {len(missing_ids)} 句配音 ({sorted(missing_ids)[:20]}{'...' if len(missing_ids) > 20 else ''})，中止导出")
+            print(f"  已完成: {self.completed_count}/{self.total_lines}，缺 {len(missing_ids)} 句")
+            return ""
+        if self.completed_count != self.total_lines:
+            print(f"\n⚠️ 计数不一致: completed={self.completed_count}, total={self.total_lines}")
+        else:
+            print(f"\n✅ 对齐校验通过: {self.completed_count}/{self.total_lines} 句全部就绪")
+
         # 合并所有临时文件（使用 ffmpeg concat 节省内存）
         print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
-        # 按实际生成顺序排列：line_0, silent_0(-1排在0之后), line_1, line_2, ...
-        # silent_0 的 line_id=-1 表示它紧跟在 line_0 后面
-        tmp_files.sort(key=lambda x: (x[0] if x[0] >= 0 else 0.5))
+        # 按生成顺序排列 + 去重：line_0, silent_0(-1排在0之后), line_1, line_2, ...
+        seen = set()
+        deduped = []
+        for entry in sorted(tmp_files, key=lambda x: (x[0] if x[0] >= 0 else 0.5)):
+            if entry[0] not in seen:
+                seen.add(entry[0])
+                deduped.append(entry)
+        tmp_files = deduped
 
         merged_wav_path = os.path.join(stream_tmp_dir, "_merged_chapter.wav")
         self._ffmpeg_concat_wavs([f for _, f in tmp_files], merged_wav_path)
@@ -2859,10 +3095,39 @@ class AudioGenerator:
                 if os.path.exists(fpath):
                     tmp_files.append((lid, fpath))
 
+        # 初始化已合成计数：基于已有配音文件数
+        if os.path.isdir(self.voice_dir):
+            existing_voice_ids = set()
+            for f in os.listdir(self.voice_dir):
+                if f.startswith("voice_line_") and f.endswith(".wav"):
+                    try:
+                        existing_voice_ids.add(int(f[11:-4]))
+                    except ValueError:
+                        pass
+            self.completed_count = len(existing_voice_ids)
+        else:
+            existing_voice_ids = set()
+            self.completed_count = 0
+
         # 只对缺失行进行并行生成
-        pending_configs = [lc for lc in line_configs if not (resume_ids and lc.id in resume_ids)]
+        pending_configs = [lc for lc in line_configs if lc.id not in existing_voice_ids]
         total_lines = len(line_configs)
         max_workers = min(3, len(pending_configs)) if pending_configs else 1
+
+        # 已有配音文件直接加入 tmp_files（确保合并时不缺失）
+        for line_config in line_configs:
+            if line_config.id in existing_voice_ids:
+                voice_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
+                try:
+                    cached = AudioSegment.from_wav(voice_path)
+                    tmp_file = os.path.join(stream_tmp_dir, f"line_{line_config.id}.wav")
+                    cached.export(tmp_file, format="wav")
+                    tmp_files.append((line_config.id, tmp_file))
+                    del cached
+                except Exception as e:
+                    print(f"  ⚠️ 缓存配音读取失败 #{line_config.id}: {e}，加入待合成队列")
+                    existing_voice_ids.discard(line_config.id)
+                    pending_configs.append(line_config)
 
         if pending_configs:
             with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -2872,7 +3137,7 @@ class AudioGenerator:
                 }
                 for index, future in enumerate(concurrent.futures.as_completed(future_to_line), 1):
                     line_config = future_to_line[future]
-                    print(f"\n📊 [{self.novel_name} / {self.chapter_name}] 已完成 {index}/{len(pending_configs)} 句（待处理）| 当前返回: 第{line_config.id + 1}句")
+                    print(f"\n📊 [{self.novel_name} / {self.chapter_name}] 已并行完成 {index}/{len(pending_configs)} 句（待处理），总进度 {self.completed_count}/{self.total_lines} | 当前返回: 第{line_config.id + 1}句")
                     try:
                         line_audio = future.result()
                         # 流式写入临时文件
@@ -2887,8 +3152,9 @@ class AudioGenerator:
         else:
             print(f"✅ 所有行已在上次运行中生成，直接合并")
 
-        # 持久化失败段落记录
+        # 持久化失败段落记录 + 质量异常
         self.persist_failed_lines()
+        self._persist_quality_warnings()
 
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
@@ -2897,10 +3163,29 @@ class AudioGenerator:
             print(f"\n⚠️ 检测到 {failed_count}/{self.total_lines} 句合成失败{reason}，已跳过，将在后续修复配音表后重新合成")
             print(f"📋 失败段落明细:\n{self.summarize_failed_lines()}")
 
+        # ── 最终对齐校验 ──
+        expected_ids = set(range(self.total_lines))
+        actual_ids = {lid for lid, _ in tmp_files if lid >= 0}
+        missing_ids = expected_ids - actual_ids
+        if missing_ids:
+            print(f"\n❌ 最终校验失败：缺少 {len(missing_ids)} 句配音 ({sorted(missing_ids)[:20]}{'...' if len(missing_ids) > 20 else ''})，中止导出")
+            print(f"  已完成: {self.completed_count}/{self.total_lines}，缺 {len(missing_ids)} 句")
+            return ""
+        if self.completed_count != self.total_lines:
+            print(f"\n⚠️ 计数不一致: completed={self.completed_count}, total={self.total_lines}")
+        else:
+            print(f"\n✅ 对齐校验通过: {self.completed_count}/{self.total_lines} 句全部就绪")
+
         # 合并所有临时文件（使用 ffmpeg concat 节省内存）
         print(f"\n📦 合并 {len(tmp_files)} 个音频片段...")
-        # 排序：line_0, silent_0(-1排在0之后), line_1, line_2, ...
-        tmp_files.sort(key=lambda x: (x[0] if x[0] >= 0 else 0.5))
+        # 排序 + 去重：line_0, silent_0(-1排在0之后), line_1, line_2, ...
+        seen = set()
+        deduped = []
+        for entry in sorted(tmp_files, key=lambda x: (x[0] if x[0] >= 0 else 0.5)):
+            if entry[0] not in seen:
+                seen.add(entry[0])
+                deduped.append(entry)
+        tmp_files = deduped
 
         # 计算 line_ranges（通过读取各 wav 时长，不需要全部加载到内存）
         line_ranges = {}
