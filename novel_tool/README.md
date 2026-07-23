@@ -23,7 +23,6 @@ novel_tool/
 │   ├── novel_batch_executor.py           # Python 批量执行入口
 │   ├── novel_batch_manager.sh            # Shell 批处理管理脚本
 │   ├── organize_audio_files.py           # 最终音频整理（复制到 小说音频/）
-│   ├── audio_quality_checker.py          # 音频质量检查
 │   ├── polyphone_processor.py            # 中文多音字处理
 │   ├── woosh_generate_audio.py           # Woosh 音效生成引擎
 │   ├── stable_audio3_background_generate_audio.py  # Stable Audio 3 背景音引擎

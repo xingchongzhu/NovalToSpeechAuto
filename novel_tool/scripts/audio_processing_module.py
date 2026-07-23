@@ -38,6 +38,8 @@ import gc
 import psutil
 from pathlib import Path
 
+from check_audio_quality import check_audio_segment
+
 # ======================== 音效/背景音生成引擎注册 ========================
 # 支持 sfx_engine / bgm_engine 参数灵活切换: "woosh" | "stable-audio-3"
 
@@ -564,32 +566,31 @@ class AudioEngine:
         for index, segment in enumerate(normalized_segments, start=1):
             print(f"[TTSEngine]   分段{index}/{len(normalized_segments)} ({len(segment)}字): {segment[:50]}...")
         return normalized_segments
-        """长文本保守语义断句（Fish Speech 复用）"""
-        hard_splits = "。！？；!?;"
-        max_chunk = 200
 
-        stripped = text.strip()
-        if len(stripped) <= max_chunk:
-            return [stripped]
+    @staticmethod
+    def _check_segment_quality(chunk: 'np.ndarray', sr: int, seg_text: str) -> 'tuple':
+        """逐段质检，使用 check_audio_quality 统一逻辑。
+        Returns: (is_good: bool, reason: str)
+        """
+        import numpy as np
+        from pydub import AudioSegment
 
-        segments = []
-        current = ""
-        for ch in stripped:
-            current += ch
-            if ch in hard_splits and len(current) >= 60:
-                segments.append(current)
-                current = ""
-        if current.strip():
-            segments.append(current.strip())
+        # numpy → AudioSegment
+        if chunk.dtype == np.float32 or chunk.dtype == np.float64:
+            chunk_int16 = (np.clip(chunk, -1.0, 1.0) * 32767).astype(np.int16)
+        else:
+            chunk_int16 = chunk.astype(np.int16)
+        audio = AudioSegment(
+            chunk_int16.tobytes(),
+            frame_rate=sr,
+            sample_width=2,
+            channels=1,
+        )
 
-        # 合并过短的尾段
-        merged = []
-        for seg in segments:
-            if merged and len(seg) < 30:
-                merged[-1] += seg
-            else:
-                merged.append(seg)
-        return merged if merged else [stripped]
+        issues = check_audio_segment(audio, text_len=len(seg_text))
+        if issues:
+            return False, "; ".join(issues)
+        return True, ""
 
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """文本转语音接口"""
@@ -613,43 +614,37 @@ class AudioEngine:
             audio = self._adjust_audio_params(audio, params.speed, params.volume, params.pitch)
             audio = self._strip_silence(audio)  # 统一去静音
 
-            # 快速质检（clone 模式也覆盖）
-            dur = len(audio) / 1000.0
-            text_len = len(params.text)
-            if dur < max(0.3, text_len / 10.0):
-                self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": f"音频异常短: {dur:.1f}s ({text_len}字)"})
-                print(f"[TTSEngine] ⚠️ 音频异常短: {dur:.1f}s ({text_len}字)")
-            elif dur > max(5.0, text_len / 1.0):
-                self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": f"音频异常长: {dur:.1f}s ({text_len}字)"})
-                print(f"[TTSEngine] ⚠️ 音频异常长: {dur:.1f}s ({text_len}字)")
+            # 快速质检：仅未拆分的短句做，长句已在各段生成时逐段质检过
+            _split_threshold = 280 if params.tts_mode == "voice_design" else 380
+            _was_split = len(params.text.strip()) > _split_threshold
 
-            # 静音检测：尾部和中间超过 2s 连续静音
-            samples = np.array(audio.get_array_of_samples(), dtype=np.float32)
-            seg_samples = int(audio.frame_rate * 0.5)  # 0.5s窗口
-            rms_vals = []
-            for i in range(0, len(samples), seg_samples):
-                chunk = samples[i:i+seg_samples]
-                if len(chunk) < seg_samples // 2: break
-                rms_vals.append(float(np.sqrt(np.mean(chunk**2))))
-            if rms_vals:
-                avg_rms = np.mean(rms_vals)
-                thresh = avg_rms * 0.12
-                max_silent = 0
-                current = 0
-                for r in rms_vals:
-                    if r < thresh:
-                        current += 1
-                        max_silent = max(max_silent, current)
-                    else:
-                        current = 0
-                if max_silent >= 4:  # ≥2s
-                    self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": f"连续静音 {max_silent*0.5:.1f}s"})
-                    print(f"[TTSEngine] ⚠️ 检测到 {max_silent*0.5:.1f}s 连续静音")
+            if not _was_split:
+                issues = check_audio_segment(audio, text_len=len(params.text))
+                for issue in issues:
+                    self._quality_warnings.append({"role": params.role, "text": params.text[:50], "issue": issue})
+                    print(f"[TTSEngine] ⚠️ {issue}")
 
             return audio
         except Exception as e:
             print(f"[TTSEngine] 语音生成失败: {e}")
             raise
+
+    def _switch_qwen_model(self, target_path: str, reason: str = ""):
+        """切换 Qwen TTS 模型，强制释放旧模型 MPS/CUDA 显存"""
+        import gc as _gc
+        if self.qwen_tts_model is not None:
+            del self.qwen_tts_model
+            self.qwen_tts_model = None
+        _gc.collect()
+        import torch as _t
+        if _t.backends.mps.is_available():
+            _t.mps.empty_cache()
+        elif _t.cuda.is_available():
+            _t.cuda.empty_cache()
+        if reason:
+            print(f"[TTSEngine] 🔄 {reason} → 切换模型...")
+        self.qwen_model_path = target_path
+        self._init_qwen_tts_model()
 
     def _text_to_speech_qwen(self, params: VoiceParams) -> AudioSegment:
         """使用Qwen3-TTS引擎生成语音（clone 模式）"""
@@ -657,10 +652,7 @@ class AudioEngine:
         if self.qwen_tts_model is not None:
             model_type = getattr(self.qwen_tts_model.model, 'tts_model_type', 'unknown')
             if model_type == 'voice_design':
-                print("[TTSEngine] 🔄 clone 模式需要 Base 模型，重新加载...")
-                self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
-                self.qwen_tts_model = None
-                self._init_qwen_tts_model()
+                self._switch_qwen_model("Qwen/Qwen3-TTS-12Hz-1.7B-Base", "clone 模式需要 Base 模型")
 
         if self.qwen_tts_model is None:
             self._init_qwen_tts_model()
@@ -840,21 +832,65 @@ class AudioEngine:
             MAX_PREFIX_SAMPLES = int(prefix_sr * safe_duration) if prefix_sample_count > 0 else 0
             safe_trim = min(prefix_sample_count, MAX_PREFIX_SAMPLES)
 
+            MAX_CLONE_RETRIES = 3
+            t_cumulative = 0.0
+
             for index, text_segment in enumerate(text_segments, start=1):
-                if safe_trim > 0:
-                    segment_with_prefix = STABILITY_PREFIX + text_segment
-                    if len(text_segments) > 1:
-                        print(f"[TTSEngine] 分段 {index}/{len(text_segments)} 添加前导词 ({len(text_segment)}字): '{segment_with_prefix[:24]}...'")
-                    wavs, sr = _generate_voice_chunk(segment_with_prefix, ref_audio, x_vector_only_mode)
-                    chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
-                    chunk_audio = chunk_audio[safe_trim:]
-                else:
-                    if len(text_segments) > 1:
-                        print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
-                    wavs, sr = _generate_voice_chunk(text_segment, ref_audio, x_vector_only_mode)
-                    chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                t_seg_start = time.time()
+                chunk_audio = None
+                sr = None
+
+                for attempt in range(1, MAX_CLONE_RETRIES + 1):
+                    if attempt > 1:
+                        print(f"[TTSEngine]   ⚠️ 分段 {index} 质检异常，重试 {attempt}/{MAX_CLONE_RETRIES}...")
+
+                    if safe_trim > 0:
+                        segment_with_prefix = STABILITY_PREFIX + text_segment
+                        if len(text_segments) > 1 and attempt == 1:
+                            print(f"[TTSEngine] 分段 {index}/{len(text_segments)} 添加前导词 ({len(text_segment)}字): '{segment_with_prefix[:24]}...'")
+                        wavs, sr = _generate_voice_chunk(segment_with_prefix, ref_audio, x_vector_only_mode)
+                        chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                        chunk_audio = chunk_audio[safe_trim:]
+                    else:
+                        if len(text_segments) > 1 and attempt == 1:
+                            print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
+                        wavs, sr = _generate_voice_chunk(text_segment, ref_audio, x_vector_only_mode)
+                        chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+
+                    # ── 逐段质检 ──
+                    is_good, reason = self._check_segment_quality(chunk_audio, sr, text_segment)
+                    if is_good:
+                        print(f"[TTSEngine]   ✅ 分段 {index} 质检通过")
+                        break
+
+                    if attempt == MAX_CLONE_RETRIES:
+                        chunk_max = np.max(np.abs(chunk_audio))
+                        chunk_dur = len(chunk_audio) / sr
+                        print(f"[TTSEngine]   ⚠️ 分段 {index} 重试 {MAX_CLONE_RETRIES} 次仍异常 ({reason})，保留当前结果 (max={chunk_max:.4f}, dur={chunk_dur:.1f}s)")
+                        # ── 保存异常音频到 fatal 目录供人工确认 ──
+                        try:
+                            fatal_dir = os.path.join(os.path.dirname(os.path.abspath(self.temp_dir)), "fatal_audio")
+                            os.makedirs(fatal_dir, exist_ok=True)
+                            safe_text = re.sub(r'[\\/:*?"<>|]', '', text_segment[:20])
+                            ts = int(time.time() * 1000)
+                            fatal_path = os.path.join(
+                                fatal_dir,
+                                f"{params.role}_{ts}_seg{index}_{safe_text}_max{chunk_max:.3f}_dur{chunk_dur:.1f}s.wav"
+                            )
+                            fatal_int16 = (np.clip(chunk_audio, -1, 1) * 32767).astype(np.int16)
+                            AudioSegment(fatal_int16.tobytes(), frame_rate=sr, sample_width=2, channels=1).export(fatal_path, format="wav")
+                            print(f"[TTSEngine]   💾 异常音频已保存: {fatal_path}")
+                        except Exception as save_err:
+                            print(f"[TTSEngine]   ⚠️ 保存异常音频失败: {save_err}")
+
                 all_wavs.append(chunk_audio)
                 sample_rate = sr
+
+                seg_elapsed = time.time() - t_seg_start
+                t_cumulative += seg_elapsed
+                seg_dur = len(chunk_audio) / sr
+                if len(text_segments) > 1:
+                    print(f"[TTSEngine]   分段 {index}/{len(text_segments)} 完成 | {len(text_segment)}字 → {seg_dur:.1f}s | 本段 {seg_elapsed:.1f}s | 累计 {t_cumulative:.1f}s")
 
             if len(all_wavs) == 1:
                 return all_wavs[0], sample_rate
@@ -904,14 +940,12 @@ class AudioEngine:
 
     def _text_to_speech_qwen_voice_design(self, params: VoiceParams) -> AudioSegment:
         """使用 Qwen3-TTS VoiceDesign 模式（文字描述造音色）生成语音，不需要参考音频"""
+        import torch
         # 强制检测：如果当前加载的模型不支持 voice_design，重新加载 VoiceDesign 模型
         if self.qwen_tts_model is not None:
             model_type = getattr(self.qwen_tts_model.model, 'tts_model_type', 'unknown')
             if model_type == 'base':
-                print(f"[TTSEngine] ⚠️ 检测到 {model_type} 模型不支持 VoiceDesign，强制重新加载 VoiceDesign 模型...")
-                self.qwen_model_path = "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
-                self.qwen_tts_model = None
-                self._init_qwen_tts_model()
+                self._switch_qwen_model("Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign", "base 模型不支持 VoiceDesign")
 
         if self.qwen_tts_model is None:
             self._init_qwen_tts_model()
@@ -926,16 +960,16 @@ class AudioEngine:
             # 回退：用配音表中的年龄、性别、性格构造提示词
             vd_prompt = self._build_fallback_voice_design_prompt(params.role)
 
-        # 2. 拼接剧本语气 instruct
+        # 2. 拼接剧本语气 instruct（旁白跳过，配音表 Prompt 已足够描述音色）
         instruct = params.instruct.strip() if params.instruct else ""
-        if instruct:
+        if instruct and params.role != "旁白":
             full_instruct = f"{vd_prompt}，{instruct}"
         else:
             full_instruct = vd_prompt
 
         print(f"[TTSEngine] VoiceDesign Prompt: {full_instruct}")
 
-        # ── VoiceDesign 生成参数（全局统一，批量+单段共用）──
+        # ── VoiceDesign 生成参数（全局统一）──
         VD_TEMPERATURE = 0.6       # 语音节奏随机性 (0.1~1.5, 低=机械平直/高=飘忽不定)
         VD_SUBTALKER_TEMP = 0.5    # 音色/说话人一致性 (0.1~1.5, 低=同角色音色稳定)
         VD_TOP_P = 0.95            # 核采样截断 (0.5~1.0, 低=保守单调/高=多样但偶发杂音)
@@ -946,130 +980,117 @@ class AudioEngine:
         cleaned_text = cleaned_text.replace('\u201c', '').replace('\u201d', '').replace('\u2018', '').replace('\u2019', '')
         text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=VD_MAX_CHUNK)
 
-        # ── 起始稳定化：每段拼"话说，"后固定裁 1.1s ──
+        # ── 起始稳定化：每段拼"话说，"后固定裁剪冷启动杂音 ──
         STABILITY_PREFIX = "话说，"
-        TRIM_SAMPLES = 36000  # 1.5s @ 24000Hz，覆盖冷启动+前缀+叹气
+        TRIM_SAMPLES = 36000  # 1.5s @ 24000Hz
 
-        # 批量生成：多段时尝试一次调用保持音色一致，失败则回退逐段
-        if len(text_segments) > 1:
-            try:
-                actual_texts = [STABILITY_PREFIX + s if len(s) >= 15 else s for s in text_segments]
-                max_tokens = min(2048, max(512, max(len(t) * 8 for t in actual_texts)))
-                
-                print(f"[TTSEngine] VoiceDesign 批量生成 {len(text_segments)} 段")
-                # 批量模式下降低温度/加重复惩罚，防止 logits 溢出 NaN
-                res = self.qwen_tts_model.generate_voice_design(
-                    text=actual_texts, language=["Chinese"]*len(actual_texts),
-                    instruct=[full_instruct]*len(actual_texts),
-                    max_new_tokens=max_tokens,
-                    temperature=0.4, subtalker_temperature=0.3,
-                    top_p=0.9, repetition_penalty=1.08,
-                )
-                wavs, sr = res
-                all_wavs = []
-                for i, w in enumerate(wavs if isinstance(wavs, list) else [wavs]):
-                    chunk = w if isinstance(w, np.ndarray) else np.array(w)
-                    if len(text_segments[i]) >= 15 and len(chunk) > TRIM_SAMPLES:
-                        chunk = chunk[TRIM_SAMPLES:]
-                    all_wavs.append(chunk)
-                sample_rate = sr
-            except Exception as e:
-                print(f"[TTSEngine] ⚠️ 批量生成失败({e})，回退逐段生成...")
-                text_segments = text_segments  # keep for fallback below
-            else:
-                # 批量成功 → 合并返回
-                merged = np.concatenate(all_wavs)
-                merged = np.clip(merged, -1, 1)
-                max_val = np.max(np.abs(merged))
-                if max_val > 0: merged = merged / max_val * 0.9
-                audio_data_int16 = (merged * 32767).astype(np.int16)
-                audio = AudioSegment(audio_data_int16.tobytes(), frame_rate=sr, sample_width=2, channels=1)
-                audio = audio.set_frame_rate(self.sample_rate).set_channels(self.channels)
-                if self.target_voice_dbfs is not None and audio.rms > 0:
-                    audio = audio.apply_gain(self.target_voice_dbfs - audio.dBFS)
-                audio = audio.fade_in(50).fade_out(80)
-                t_total = time.time() - t_line_start
-                dur = len(audio) / 1000.0
-                print(f"[TTSEngine] ⏱ 整句批量完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
-                return audio
-
-        # 单段或批量失败回退 → 逐段生成
-        import torch
+        # ── 分段串行生成（逐段质检，异常自动重试）──
+        max_tokens = 1000
         all_wavs = []
         sample_rate = None
+        t_cumulative = 0.0
+        MAX_RETRIES = 3  # 单段最多重试次数
 
         for idx, seg in enumerate(text_segments, 1):
-            if len(text_segments) > 1:
-                print(f"[TTSEngine] VoiceDesign 分段 {idx}/{len(text_segments)} ({len(seg)}字)")
+            t_seg_start = time.time()
 
-            # 后续分段注入"语气连续"提示，缓解段间语调不一致
-            if idx > 1:
-                seg_instruct = f"语气衔接上文，{full_instruct}"
-            else:
-                seg_instruct = full_instruct
-
-            # 极短文本跳过稳定前缀（<15字冷启动影响可忽略）
             if len(seg) < 15:
                 actual_text = seg
-                text_len = len(actual_text)
-                max_tokens = min(2048, max(128, text_len * 6))
             else:
-                # 拼接前缀以稳定冷启动
                 actual_text = STABILITY_PREFIX + seg
-                text_len = len(actual_text)
-                max_tokens = min(2048, max(256, text_len * 8))
 
-            # VoiceDesign 生成
-            result_holder = {}
-            exception_holder = {}
-            done_flag = threading.Event()
+            chunk = None
+            sr = None
 
-            def _run_vd_generate():
-                try:
-                    res = self.qwen_tts_model.generate_voice_design(
-                        text=actual_text, language="Chinese", instruct=seg_instruct,
-                max_new_tokens=max_tokens,
-                temperature=VD_TEMPERATURE, subtalker_temperature=VD_SUBTALKER_TEMP,
-                top_p=VD_TOP_P,
-                    )
-                    result_holder["result"] = res
-                except Exception as e:
-                    exception_holder["error"] = e
-                finally:
-                    done_flag.set()
+            for attempt in range(1, MAX_RETRIES + 1):
+                # 重试时微调参数增加多样性，首次用默认值
+                retry_temp = VD_TEMPERATURE + 0.05 * (attempt - 1)
+                retry_top_p = min(VD_TOP_P + 0.02 * (attempt - 1), 1.0)
 
-            t_seg = time.time()
-            t = threading.Thread(target=_run_vd_generate, daemon=True)
-            t.start()
-            dots = 0
-            dot_interval = 3
-            while not done_flag.wait(timeout=dot_interval):
-                dots += 1
-                elapsed = dots * dot_interval
-                sys.stdout.write(f"\r[TTSEngine]   生成中 ({text_len}字, 已耗时{elapsed}s)...")
-                sys.stdout.flush()
-            if dots > 0:
-                sys.stdout.write("\n")
-                sys.stdout.flush()
-            t.join()
-            if "error" in exception_holder:
-                raise exception_holder["error"]
+                if attempt > 1:
+                    print(f"[TTSEngine]   ⚠️ 分段 {idx} 质检异常，重试 {attempt}/{MAX_RETRIES} (temp={retry_temp:.2f}, top_p={retry_top_p:.2f})...")
 
-            elapsed_seg = time.time() - t_seg
-            wavs, sr = result_holder["result"]
-            chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                result_holder = {}
+                exception_holder = {}
+                done_flag = threading.Event()
 
-            # 仅在有前缀拼接时才裁剪
-            if len(seg) >= 15 and TRIM_SAMPLES > 0 and len(chunk_audio) > TRIM_SAMPLES:
-                chunk_audio = chunk_audio[TRIM_SAMPLES:]
+                def _gen_one():
+                    try:
+                        res = self.qwen_tts_model.generate_voice_design(
+                            text=actual_text, language="Chinese",
+                            instruct=full_instruct,
+                            max_new_tokens=max_tokens,
+                            subtalker_dosample=False, subtalker_temperature=VD_SUBTALKER_TEMP,
+                            temperature=retry_temp, top_p=retry_top_p, repetition_penalty=1.05,
+                        )
+                        result_holder["result"] = res
+                    except Exception as ex:
+                        exception_holder["error"] = ex
+                    finally:
+                        done_flag.set()
 
-            wav_duration = len(chunk_audio) / sr if sr else 0
-            rtf = f"{elapsed_seg/wav_duration:.1f}x" if wav_duration > 0 else "?"
-            prefix = f"   分段{idx}/{len(text_segments)}" if len(text_segments) > 1 else f"   单段"
-            print(f"[TTSEngine] {prefix} 完成 | {elapsed_seg:.1f}s | 音频 {wav_duration:.1f}s | RTF {rtf}")
-            all_wavs.append(chunk_audio)
+                t = threading.Thread(target=_gen_one, daemon=True)
+                t.start()
+                dots, dot_interval = 0, 3
+                while not done_flag.wait(timeout=dot_interval):
+                    dots += 1
+                    sys.stdout.write(f"\r[TTSEngine]   生成中 ({len(actual_text)}字, 已耗时{dots*dot_interval}s)...")
+                    sys.stdout.flush()
+                if dots > 0:
+                    sys.stdout.write("\n")
+                    sys.stdout.flush()
+                t.join()
+                if "error" in exception_holder:
+                    raise exception_holder["error"]
+
+                wavs_list, sr = result_holder["result"]
+                chunk = np.concatenate(wavs_list) if isinstance(wavs_list, list) else wavs_list
+                if len(seg) >= 15 and len(chunk) > TRIM_SAMPLES:
+                    chunk = chunk[TRIM_SAMPLES:]
+
+                # ── 逐段质检：静音/时长异常/连续静音检测 ──
+                is_good, reason = self._check_segment_quality(chunk, sr, seg)
+
+                if is_good:
+                    print(f"[TTSEngine]   ✅ 分段 {idx} 质检通过")
+                    break  # 合格，跳出重试循环
+
+                if attempt == MAX_RETRIES:
+                    chunk_max = np.max(np.abs(chunk))
+                    chunk_dur = len(chunk) / sr
+                    expected_dur_min = max(0.3, len(seg) / 8.0)
+                    print(f"[TTSEngine]   ⚠️ 分段 {idx} 重试 {MAX_RETRIES} 次仍异常 (max={chunk_max:.4f}, dur={chunk_dur:.1f}s, 预期≥{expected_dur_min:.1f}s)，保留当前结果")
+                    # ── 保存异常音频到 fatal 目录供人工确认 ──
+                    try:
+                        fatal_dir = os.path.join(os.path.dirname(os.path.abspath(self.temp_dir)), "fatal_audio")
+                        os.makedirs(fatal_dir, exist_ok=True)
+                        safe_text = re.sub(r'[\\/:*?"<>|]', '', seg[:20])
+                        ts = int(time.time() * 1000)
+                        fatal_path = os.path.join(
+                            fatal_dir,
+                            f"{params.role}_{ts}_seg{idx}_{safe_text}_max{chunk_max:.3f}_dur{chunk_dur:.1f}s.wav"
+                        )
+                        fatal_int16 = (np.clip(chunk, -1, 1) * 32767).astype(np.int16)
+                        AudioSegment(fatal_int16.tobytes(), frame_rate=sr, sample_width=2, channels=1).export(fatal_path, format="wav")
+                        print(f"[TTSEngine]   💾 异常音频已保存: {fatal_path}")
+                    except Exception as save_err:
+                        print(f"[TTSEngine]   ⚠️ 保存异常音频失败: {save_err}")
+                elif hasattr(torch, 'mps') and hasattr(torch.mps, 'empty_cache'):
+                    torch.mps.empty_cache()
+
+            all_wavs.append(chunk)
             sample_rate = sr
 
+            seg_elapsed = time.time() - t_seg_start
+            t_cumulative += seg_elapsed
+            seg_dur = len(chunk) / sr
+            if len(text_segments) > 1:
+                print(f"[TTSEngine]   分段 {idx}/{len(text_segments)} 完成 | {len(seg)}字 → {seg_dur:.1f}s | 本段 {seg_elapsed:.1f}s | 累计 {t_cumulative:.1f}s")
+
+            if hasattr(torch, 'mps') and hasattr(torch.mps, 'empty_cache'):
+                torch.mps.empty_cache()
+
+        # ── 合并所有分段 ──
         merged = np.concatenate(all_wavs) if len(all_wavs) > 1 else all_wavs[0]
         merged = np.clip(merged, -1, 1)
         max_val = np.max(np.abs(merged))
@@ -1086,22 +1107,22 @@ class AudioEngine:
         audio = audio.set_frame_rate(self.sample_rate).set_channels(self.channels)
         if self.target_voice_dbfs is not None and audio.rms > 0:
             audio = audio.apply_gain(self.target_voice_dbfs - audio.dBFS)
-        audio = audio.fade_in(50).fade_out(80)  # 去除首尾杂音
-        audio = self._strip_silence(audio)       # 去除中间长静音
+        audio = audio.fade_in(50).fade_out(80)
+        audio = self._strip_silence(audio)
 
-        # ── 快速质检：检查时长是否合理 ──
-        dur = len(audio) / 1000.0
-        text_len = len(params.text)
-        # 中文正常语速 2~6 字/秒，VoiceDesign 因 temperature 可能波动更大
-        expected_min = max(0.5, text_len / 8.0)  # 最慢 ~8字/秒
-        expected_max = max(1.5, text_len / 1.5)  # 最快 ~1.5字/秒
-        if dur < expected_min:
-            print(f"[TTSEngine] ⚠️ 音频异常短: {dur:.1f}s (预期≥{expected_min:.1f}s, {text_len}字)")
-        elif dur > expected_max * 3:
-            print(f"[TTSEngine] ⚠️ 音频异常长: {dur:.1f}s (预期≤{expected_max:.1f}s, {text_len}字)")
+        # ── 快速质检（仅未拆分的短句）──
+        if len(text_segments) <= 1:
+            issues = check_audio_segment(audio, text_len=len(params.text))
+            for issue in issues:
+                print(f"[TTSEngine] ⚠️ {issue}")
+            if not issues:
+                t_total = time.time() - t_line_start
+                dur = len(audio) / 1000.0
+                print(f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
         else:
             t_total = time.time() - t_line_start
-            print(f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
+            dur = len(audio) / 1000.0
+            print(f"[TTSEngine] ⏱ 整句完成 | {len(text_segments)}段合并 | 总耗时 {t_total:.1f}s | 音频 {dur:.1f}s | RTF {t_total/dur:.1f}x" if dur > 0 else f"[TTSEngine] ⏱ 整句完成 | 总耗时 {t_total:.1f}s")
         return audio
 
 
@@ -2083,10 +2104,18 @@ class AudioGenerator:
             title_end_ms = int(line_ranges[0][1])
             print(f"  [Export] 多段切分，剔除 line_0（章节标题 {title_end_ms}ms）")
 
+        # 切分时应排除标题时长，否则第一个 chunk 的正文会远短于其他段
+        if total_chunks > 1 and title_end_ms > 0:
+            body_total_ms = total_ms - title_end_ms
+            chunk_offsets = self._find_chunk_splits_audio(body_total_ms, target_chunk_seconds)
+            chunk_offsets = [o + title_end_ms for o in chunk_offsets]  # 整体偏移，跳过标题
+            chunk_offsets.append(total_ms)
+            total_chunks = len(chunk_offsets) - 1
+
         print(f"\n📋 章节切分（{total_chunks} 段），每段起始偏移 (ms): {chunk_offsets[:-1]}")
 
         output_paths = []
-        title_text = self.config["data"][0].get("api", {}).get("voice", {}).get("text") or self.config.get("chapter", "无名章节")
+        title_text = self.config["data"][0].get("api", {}).get("voice", {}).get("text") or self.config.get("chapter", "")
 
         for chunk_index in range(total_chunks):
             start_ms = chunk_offsets[chunk_index]
@@ -2606,8 +2635,9 @@ class AudioGenerator:
         if voice_params_dict and 'text' not in voice_params_dict:
             voice_params_dict['text'] = line.get('text', '')
 
-        # 注入 tts_mode：旁白强制用 clone，其余角色跟全局设置
+        # 注入 tts_mode：line_0 标题旁白强制 clone，其余角色/旁白主线跟全局设置
         role_name = line.get('role', '')
+        line_id = line.get('id', -1)
         if role_name == '旁白':
             voice_params_dict['tts_mode'] = 'clone'
         elif 'tts_mode' not in voice_params_dict:
@@ -2701,8 +2731,19 @@ class AudioGenerator:
             warnings = self.audio_engine.get_quality_warnings()
 
             # 质量异常 → 自动重试（最多 2 次）
+            # 只对时长异常（过短/过长）重试，连续静音不重试（TTS 固有停顿，重试无意义）
+            def _should_retry(w_list):
+                # 判断当前警告列表中是否存在需要重试的项
+                # 过滤规则：只要有任意一个警告的 issue 字段不含"静音"关键字，就认为需要重试
+                # 原因：静音类警告属于 TTS 固有停顿，重试无法改善，只有时长异常等才值得重试
+                return any(w for w in w_list if "静音" not in w.get("issue", ""))
+
             for attempt in range(2):
                 if not warnings: break
+                if not _should_retry(warnings):
+                    for w in warnings:
+                        print(f"  ⚠️ 继续使用（非重试类警告）: {w['issue']}")
+                    break
                 print(f"  🔄 质量异常重试 {attempt+1}/2: {warnings[0]['issue']}")
                 del voice_audio
                 voice_audio = self.audio_engine.text_to_speech(line_config.voice_params)
@@ -2712,6 +2753,7 @@ class AudioGenerator:
                 for w in warnings:
                     w["line_id"] = line_config.id
                 self._quality_warnings.extend(warnings)
+                self._persist_quality_warnings()
 
             voice_audio.export(voice_output_path, format="wav")
             if self.persist_intermediate_audio:
@@ -2990,9 +3032,8 @@ class AudioGenerator:
                     print(f"  ❌ 第 {line_config.id} 句异常: {e}")
                     self.record_failed_line(line_config, e)
 
-        # 持久化失败段落记录 + 质量异常
+        # 持久化失败段落记录
         self.persist_failed_lines()
-        self._persist_quality_warnings()
 
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
@@ -3152,9 +3193,8 @@ class AudioGenerator:
         else:
             print(f"✅ 所有行已在上次运行中生成，直接合并")
 
-        # 持久化失败段落记录 + 质量异常
+        # 持久化失败段落记录
         self.persist_failed_lines()
-        self._persist_quality_warnings()
 
         if self.has_failed_lines():
             failed_count = len(self.failed_lines)
