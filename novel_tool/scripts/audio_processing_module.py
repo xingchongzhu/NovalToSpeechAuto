@@ -286,6 +286,7 @@ class AudioEngine:
         )
         self._voice_table_missing = set()  # VoiceDesign 模式下配音表缺失的角色名，供上层记录
         self._quality_warnings = []  # TTS 质量异常记录
+        self._vd_prefix_cache = {}  # VoiceDesign 起始前缀长度缓存，key=full_instruct → (sample_count, sr)
 
         os.makedirs(self.temp_dir, exist_ok=True)
         os.makedirs(self.voice_prompt_cache_dir, exist_ok=True)
@@ -820,17 +821,10 @@ class AudioEngine:
                     print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
                     prefix_sample_count = 0
 
-            # 安全上限：根据语速动态计算，"话说，"3字 +0%语速约0.6s
-            # 语速越慢上限越宽，避免裁切到正文
-            try:
-                speed_value = int(params.speed.replace("%", "")) if params.speed else 0
-            except (ValueError, AttributeError):
-                speed_value = 0
-            speed_factor = 1.0 + (speed_value / 100.0)  # -10% → 0.9
-            base_prefix_duration = 0.9  # 基准上限（+0%语速）
-            safe_duration = base_prefix_duration / speed_factor  # 慢速时放宽：0.9/0.9=1.0s
-            MAX_PREFIX_SAMPLES = int(prefix_sr * safe_duration) if prefix_sample_count > 0 else 0
-            safe_trim = min(prefix_sample_count, MAX_PREFIX_SAMPLES)
+            # 按实际前缀音频长度裁剪，保留 15% 安全边距避免削到正文
+            safe_trim = int(prefix_sample_count * 0.85) if prefix_sample_count > 0 else 0
+            if safe_trim > 0:
+                print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
             MAX_CLONE_RETRIES = 3
             t_cumulative = 0.0
@@ -850,7 +844,8 @@ class AudioEngine:
                             print(f"[TTSEngine] 分段 {index}/{len(text_segments)} 添加前导词 ({len(text_segment)}字): '{segment_with_prefix[:24]}...'")
                         wavs, sr = _generate_voice_chunk(segment_with_prefix, ref_audio, x_vector_only_mode)
                         chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
-                        chunk_audio = chunk_audio[safe_trim:]
+                        if len(chunk_audio) > safe_trim:
+                            chunk_audio = chunk_audio[safe_trim:]
                     else:
                         if len(text_segments) > 1 and attempt == 1:
                             print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
@@ -980,12 +975,47 @@ class AudioEngine:
         cleaned_text = cleaned_text.replace('\u201c', '').replace('\u201d', '').replace('\u2018', '').replace('\u2019', '')
         text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=VD_MAX_CHUNK)
 
-        # ── 起始稳定化：每段拼"话说，"后固定裁剪冷启动杂音 ──
+        # ── 起始稳定化：每段拼"话说，"后按前缀实际长度动态裁剪 ──
         STABILITY_PREFIX = "话说，"
-        TRIM_SAMPLES = 36000  # 1.5s @ 24000Hz
+        max_tokens = 1000
+
+        # 先生成一次前缀，测量真实音频长度（按 full_instruct 缓存，同角色/语气只生成一次）
+        prefix_sample_count = 0
+        prefix_sr = None
+        need_prefix = (
+            text_segments
+            and any(len(seg) >= 15 for seg in text_segments)
+            and not text_segments[0].startswith(STABILITY_PREFIX)
+        )
+        if need_prefix:
+            cached_prefix = self._vd_prefix_cache.get(full_instruct)
+            if cached_prefix is not None:
+                prefix_sample_count, prefix_sr = cached_prefix
+                print(f"[TTSEngine] 复用前缀长度缓存: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
+            else:
+                try:
+                    print(f"[TTSEngine] 生成起始稳定化前缀: '{STABILITY_PREFIX}'")
+                    _prefix_wavs, prefix_sr = self.qwen_tts_model.generate_voice_design(
+                        text=STABILITY_PREFIX, language="Chinese",
+                        instruct=full_instruct,
+                        max_new_tokens=max_tokens,
+                        subtalker_dosample=False, subtalker_temperature=VD_SUBTALKER_TEMP,
+                        temperature=VD_TEMPERATURE, top_p=VD_TOP_P, repetition_penalty=1.05,
+                    )
+                    prefix_audio = np.concatenate(_prefix_wavs) if isinstance(_prefix_wavs, list) else _prefix_wavs
+                    prefix_sample_count = len(prefix_audio)
+                    self._vd_prefix_cache[full_instruct] = (prefix_sample_count, prefix_sr)
+                    print(f"[TTSEngine] 前缀音频长度: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
+                except Exception as e:
+                    print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
+                    prefix_sample_count = 0
+
+        # 按实际前缀音频长度裁剪，保留 15% 安全边距避免削到正文
+        safe_trim = int(prefix_sample_count * 0.85) if prefix_sample_count > 0 else 0
+        if safe_trim > 0:
+            print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
         # ── 分段串行生成（逐段质检，异常自动重试）──
-        max_tokens = 1000
         all_wavs = []
         sample_rate = None
         t_cumulative = 0.0
@@ -1016,10 +1046,11 @@ class AudioEngine:
 
                 def _gen_one():
                     try:
+                        seg_max_tokens = min(2048, max(512, len(actual_text) * 8))
                         res = self.qwen_tts_model.generate_voice_design(
                             text=actual_text, language="Chinese",
                             instruct=full_instruct,
-                            max_new_tokens=max_tokens,
+                            max_new_tokens=seg_max_tokens,
                             subtalker_dosample=False, subtalker_temperature=VD_SUBTALKER_TEMP,
                             temperature=retry_temp, top_p=retry_top_p, repetition_penalty=1.05,
                         )
@@ -1045,8 +1076,8 @@ class AudioEngine:
 
                 wavs_list, sr = result_holder["result"]
                 chunk = np.concatenate(wavs_list) if isinstance(wavs_list, list) else wavs_list
-                if len(seg) >= 15 and len(chunk) > TRIM_SAMPLES:
-                    chunk = chunk[TRIM_SAMPLES:]
+                if len(seg) >= 15 and safe_trim > 0 and len(chunk) > safe_trim:
+                    chunk = chunk[safe_trim:]
 
                 # ── 逐段质检：静音/时长异常/连续静音检测 ──
                 is_good, reason = self._check_segment_quality(chunk, sr, seg)
@@ -1945,14 +1976,13 @@ class AudioGenerator:
             is_first_chunk = getattr(self, '_is_first_chunk', True)
             chunk_suffix = getattr(self, '_current_chunk_suffix', '')
             if chunk_suffix:
-                chapter_label = self._get_chapter_label(chunk_suffix)
-                chapter_label_with_pause = self._get_chapter_label_with_pause(chapter_label)
-                title_audio = self._generate_chunk_title_audio(chapter_label_with_pause)
+                chapter_label = self._chunk_label(chunk_suffix, with_pause=True)
+                title_audio = self._generate_chunk_title_audio(chapter_label)
                 if title_audio is not None:
                     result = title_audio + AudioSegment.silent(
                         duration=200, frame_rate=self.platform_profile.sample_rate
                     ) + result
-                    print(f"  📢 已追加章节标题前缀: '{chapter_label_with_pause}' ({len(title_audio) / 1000:.1f}s)")
+                    print(f"  📢 已追加章节标题前缀: '{chapter_label}' ({len(title_audio) / 1000:.1f}s)")
 
             result = intro_audio + AudioSegment.silent(duration=200, frame_rate=self.platform_profile.sample_rate) + result
         else:
@@ -2067,15 +2097,10 @@ class AudioGenerator:
             total_chunks: 总片段数
 
         Returns:
-            命名后缀字符串，如 '_上'、'_中'、'_下'、''（不切片时）
+            命名后缀字符串，如 '_1'、'_2'、'_3'、''（不切片时）
         """
         if total_chunks <= 1:
             return ""
-        if total_chunks == 2:
-            return "_上" if chunk_index == 0 else "_下"
-        labels_234 = ["_上", "_中", "_下", "_续"]
-        if total_chunks <= 4:
-            return labels_234[chunk_index]
         return f"_{chunk_index + 1}"
 
     def _export_chapter_audio(self, merged_audio: AudioSegment,
@@ -2115,7 +2140,6 @@ class AudioGenerator:
         print(f"\n📋 章节切分（{total_chunks} 段），每段起始偏移 (ms): {chunk_offsets[:-1]}")
 
         output_paths = []
-        title_text = self.config["data"][0].get("api", {}).get("voice", {}).get("text") or self.config.get("chapter", "")
 
         for chunk_index in range(total_chunks):
             start_ms = chunk_offsets[chunk_index]
@@ -2123,7 +2147,8 @@ class AudioGenerator:
             chunk_duration_sec = (end_ms - start_ms) / 1000.0
 
             # 第 N 集标签（仅多段时使用）
-            label = f"{title_text} 第{chunk_index + 1}集" if total_chunks > 1 else title_text
+            suffix = self._chunk_suffix(chunk_index, total_chunks)
+            label = self._chunk_label(suffix)
             print(f"\n📻 拼接第{chunk_index + 1}/{total_chunks}集，正文 {chunk_duration_sec/60:.1f}min: '{label}'")
 
             # 生成标题前缀音频（仅多段时需要）
@@ -2197,33 +2222,30 @@ class AudioGenerator:
 
         return output_paths[0] if output_paths else ""
 
-    def _get_chapter_label(self, suffix: str) -> str:
-        """根据文件名后缀生成章节标签文本。
+    def _chunk_label(self, suffix: str, with_pause: bool = False) -> str:
+        """根据后缀生成统一的章节标签。
 
         Args:
-            suffix: 文件名后缀，如 '_上'、'_中'、'_下'、'_续'、'_2' 等
+            suffix: 文件名后缀，如 '_1'、'_2'、'_3'，空字符串时返回空
+            with_pause: 是否在"第N集"前插入逗号停顿
 
         Returns:
-            章节标签，如 "第43回 中"、"第43回 下"
+            章节标签，如 "第43回 第1集"、空字符串（suffix 为空时）
         """
+        if not suffix:
+            return ""
         chapter_name = self.config["data"][0].get("api", {}).get("voice", {}).get("text") or self.config.get("chapter", "无名章节")
-        label = suffix.lstrip("_")
-        mapping = {"上": "上", "中": "中", "下": "下", "续": "续"}
-        label = mapping.get(label, f"第{label}集")
-        return f"{chapter_name} {label}"
-
-    def _get_chapter_label_with_pause(self, chapter_label: str) -> str:
-        """在章节标签中插入停顿：在末尾的"上/中/下/续"前插入逗号。"""
-        for word in [" 上", " 中", " 下", " 续"]:
-            if chapter_label.endswith(word):
-                prefix = chapter_label[:-len(word)]
-                return f"{prefix}，{word.strip()}"
-        return chapter_label
+        num = suffix.lstrip("_")
+        label = f"{chapter_name} 第{num}集"
+        if with_pause:
+            import re
+            label = re.sub(r' (第\d+集)$', r'，\1', label)
+        return label
 
     def _generate_chunk_title_audio(self, chapter_label: str) -> Optional[AudioSegment]:
         """为非首段生成章节标题前缀音频（缓存复用）。
 
-        使用旁白音色朗读章节标签，如"第43回 大雪空山… 中"。
+        使用旁白音色朗读章节标签，如"第43回 第1集"。
         缓存 key 基于标签文本 hash，避免重复合成。
 
         Args:
@@ -2857,7 +2879,7 @@ class AudioGenerator:
             self.chapter_dir,
             f"{self.chapter_clean_name}.{output_ext}",
         )
-        # 同时检查未切分和已切分的输出文件（支持 _1/_2/_上/_中 等后缀）
+        # 同时检查未切分和已切分的输出文件（支持 _1/_2 等后缀）
         import glob as _glob
         chunk_pattern = os.path.join(self.chapter_dir, f"{self.chapter_clean_name}_*.{output_ext}")
         existing_chunks = _glob.glob(chunk_pattern)
@@ -3065,6 +3087,18 @@ class AudioGenerator:
                 seen.add(entry[0])
                 deduped.append(entry)
         tmp_files = deduped
+
+        # ⚠️ 关键修正：按角色分组合成时 line_ranges 的时间位置是错乱的，
+        # 必须按最终合并顺序（line_id 排序）重新计算，否则分卷切点会落在错误位置。
+        line_ranges = {}
+        current_ms = 0
+        for line_id, tmp_file in tmp_files:
+            seg = AudioSegment.from_wav(tmp_file)
+            duration_ms = len(seg)
+            del seg
+            if line_id >= 0:
+                line_ranges[line_id] = (current_ms, current_ms + duration_ms)
+            current_ms += duration_ms
 
         merged_wav_path = os.path.join(stream_tmp_dir, "_merged_chapter.wav")
         self._ffmpeg_concat_wavs([f for _, f in tmp_files], merged_wav_path)
@@ -3366,8 +3400,8 @@ class NovelAudioSynthesizer:
             if os.path.exists(chapter_output_path):
                 print(f"✅ 整章音频已存在，跳过生成: {chapter_output_path}")
                 return chapter_output_path
-            # 同时检查分段的"上"文件（长章节会被切分为 _上/_中/_下 等）
-            first_chunk_path = os.path.join(chapter_dir, f"{chapter_clean_name}_上.{output_ext}")
+            # 同时检查分段的第1个文件（长章节会被切分为 _1/_2/_3 等）
+            first_chunk_path = os.path.join(chapter_dir, f"{chapter_clean_name}_1.{output_ext}")
             if os.path.exists(first_chunk_path):
                 print(f"✅ 整章音频已存在（分段），跳过生成: {first_chunk_path}")
                 return first_chunk_path
