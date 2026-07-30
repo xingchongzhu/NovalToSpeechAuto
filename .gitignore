@@ -44,3 +44,4 @@ models/
 !clone-audio/*.flac
 !clone-audio/*.ogg
 
+.venv_311/
