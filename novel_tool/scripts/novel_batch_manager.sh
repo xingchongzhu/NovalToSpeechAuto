@@ -22,7 +22,11 @@ BGM_ENGINE="stable-audio-3"
 # 默认输出平台
 PLATFORM="ximalaya"
 # TTS 合成模式: voice_design=文字描述造音色(无需参考音频,通过配音表Prompt+剧本语气控制) | clone=克隆音频(需clone-audio/下有对应音色文件)
-TTS_MODE="voice_design"
+TTS_MODE="clone"
+# TTS起始稳定化前缀文本(默认空字符串表示禁用)，例如"话说，"或"嗯，"
+STABILITY_PREFIX=""
+# 默认排序模式: chapter=章节号排序(默认) | pinyin=拼音排序 | name=文件名排序
+SORT_MODE="chapter"
 
 # 确保所有目录存在
 mkdir -p "$TEMP_BASE_DIR"
@@ -84,6 +88,8 @@ show_help() {
   echo "  --bgm-engine <引擎>  背景音引擎: stable-audio-3 | woosh (默认: $BGM_ENGINE)"
   echo "  --platform <平台>    输出平台: default | ximalaya (默认: $PLATFORM)"
   echo "  --tts-mode <模式>    TTS合成模式: voice_design(文字造音色,默认) | clone(克隆音频)"
+  echo "  --stability-prefix <文本>  TTS合成时添加起始稳定化前缀(默认空,如'话说，')"
+  echo "  --sort-mode <模式>   排序模式: chapter(章节号排序,默认) | pinyin(拼音排序) | name(文件名排序)"
   echo "  --debug              启用调试模式"
   echo "  -h, --help           显示帮助信息"
   echo ""
@@ -174,6 +180,8 @@ main() {
   local bgm_engine="$BGM_ENGINE"
   local platform="$PLATFORM"
   local tts_mode="$TTS_MODE"
+  local stability_prefix="$STABILITY_PREFIX"
+  local sort_mode="$SORT_MODE"
   local keep_segments=""
   local debug=""
   
@@ -213,6 +221,20 @@ main() {
         ;;
       --tts-mode)
         tts_mode="$2"
+        shift 2
+        ;;
+      --stability-prefix)
+        if [ -n "$2" ] && [ "${2:0:1}" != "-" ]; then
+          STABILITY_PREFIX="$2"
+          shift 2
+        else
+          # 如果没有提供值，使用默认前缀
+          STABILITY_PREFIX="话说，"
+          shift 1
+        fi
+        ;;
+      --sort-mode)
+        SORT_MODE="$2"
         shift 2
         ;;
       --debug)
@@ -266,6 +288,8 @@ main() {
     --bgm-engine "$bgm_engine" \
     --platform "$platform" \
     --tts-mode "$tts_mode" \
+    --stability-prefix "$STABILITY_PREFIX" \
+    --sort-mode "$sort_mode" \
     $keep_segments \
     $debug
   

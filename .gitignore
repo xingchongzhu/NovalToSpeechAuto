@@ -32,3 +32,15 @@ models/
 *.bin
 *.onnx
 
+# 音频文件 — 仅允许 clone-audio/ 目录下的音频上传
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+!clone-audio/*.mp3
+!clone-audio/*.wav
+!clone-audio/*.flac
+!clone-audio/*.ogg
+

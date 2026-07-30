@@ -1,0 +1,1402 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第60回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "赵心源": {
+      "role_voice": "赵心源",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "黄玄极": {
+      "role_voice": "黄玄极",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "周淳": {
+      "role_voice": "周淳",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "神秘老头": {
+      "role_voice": "神秘老头",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "八魔手下甲": {
+      "role_voice": "八魔手下甲",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "八魔手下乙": {
+      "role_voice": "八魔手下乙",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "+2%"
+    },
+    "年轻公子": {
+      "role_voice": "年轻公子",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第60回",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "湘江避祸\n穷途感知音岳麓凭临\n风尘识怪叟话说前文所说的烟中神鹗赵心源，自从在江西南昌陶家庄上打走了许多骗饭耍贫嘴的教师，便在陶家庄上居住，因见陶钧心地纯厚，资质聪明，有心将平生本领传授给他，师徒二人每日用功习武，倒也安然。不想一日同陶钧在庄前闲眺，忽见前面坡上树林中飞来一支银镖，接着远处飞到一人，近前一看，认出是西川八魔手底下的健将神手徐岳。只因八魔主邱舲在西川路上劫一个镖客的镖车，被赵心源出来干涉，看看取胜，又从暗处飞来一把梅花针，将岳舲打败。四处寻找那放针的人不着，疑是心源同党，恨如刻骨，归山与七个兄长商议，定要寻着赵心源同放针的人，碎尸万段，以报前仇。心源当时原是激于一时义愤，本不认得邱舲。后来既已结下冤仇，知道自己不是对手，满拟跑回宜昌三游洞，去求师父侠僧轶凡相助，不想反被侠僧轶凡数落一顿，逐了出去。心源无计可施，只得避难，奔走江湖，才在陶家安居。岂料不几时便被八魔手下人探听明白，拿着银镖请柬前来。心源知大祸将临，明知胜不过人，但是长此避逃，也非长法。昔日还可推作不知，如今已和敌人来使对面，再要藏躲，岂不被天下人耻笑？当下挺身承认，明年端午节准到青螺山赴约。遂辞别陶钧，打算在这半年多的时间内，寻几个帮手。离了陶家庄，路上仔细盘算，知道师父怪他，不该学业未成就自请下山，闯出祸来，又无法收拾，不来管他。除了师父侠僧轶凡外，所有生平几个好友，也不过如陆地金龙魏青之类，俱非八魔敌手，何苦拉人家前来陪绑？想来想去，想起师父的两个好友：一个是嵩山二老中的矮叟朱梅，但是这位老头子行踪无定，可遇而不可求，寻他须碰自己的造化；另一个便是长沙谷王峰隐居的铁蓑道人，他是终年不常下山的，寻他比较能有把握。以上两人，但能寻着一个，就能帮自己除魔，还可强拉他师父侠僧轶凡加入相助。主意打定后，晓行夜宿，便往长沙进发。这时正当满人入关不久，那一些叛臣汉奸名节既亏，哪有几个知道天良，廉洁爱民的？再加上一些为虎作怅的土豪恶霸、猾吏奸胥，狐鼠凭城，擅作威福，到处所闻见的都是民间疾苦与不平的悲呼，差点没把心源肚皮气破。心想：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "银镖飞来",
+            "sound_cn": "银镖从林中破空飞来，钉在树上",
+            "sound_en": "silver dart flying from woods, thud into tree",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "湘江避祸",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "以前在川中居住，因为地广人稀，土地肥沃，虽然也遇见许多赃官恶霸，却不似湖南路上这般厉害。有心伸手打个抱不平，又因日期迫近。如现时想不出一个根本解决办法，徒救个一家两家，不但无济于事，甚而连累事主，为善不终。倒不如暂且由他们委曲偷生，等到自己过了端阳，侥幸除了八魔，再联合多数同道来个大举，反倒痛快。此时索性装作不知，办完自己的事再说。",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心中有事，自然脚程加快。等赶到谷王峰顶，在全山上下寻了一个遍，哪里有铁蓑道人踪影。后来走到岳麓山脚下，看见一个道人，打扮神情有些异样，心源眼光尖锐，知非常人。那道人也觉心源是个能者。双方同到岳庙面前坐定，谈起彼此来历，才知那道人名叫黄玄极，也是来访求铁蓑道人的。他说心源来得不巧，铁蓑道人已在三日前到云贵一带去了。心源大失所望，见那黄玄极人甚正派，本领也不弱，便把自己心事说出，求他相助。黄玄极道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "脚步登山",
+            "sound_cn": "赵心源快步登上岳麓山的脚步声",
+            "sound_en": "Zhao Xinyuan quick footsteps climbing Yuelu Mountain",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心中有事",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "黄玄极",
+      "api": {
+        "voice": {
+          "role": "黄玄极",
+          "role_voice": "黄玄极",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你的仇人八魔，同我也是仇人，只因我人单势孤，奈何他不得。我二人正好联合进行，寻找能手，为民除害。我还有一点小事，再耽搁一天，便可同行了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源虽然心急，也不在此一天。好在自己是孤身一人，同黄玄极商量好了，便自回转寓所，携了自己的小包裹，搬到黄玄极所住的一个小破庙中。时间已是向晚，见黄玄极正同一个穿白的中年人说话，见心源到来，便同双方引见。问起那人姓名，才知他便是昔年名驰冀北“齐鲁三英”中的云中飞鹤周淳。心源见周淳虽然俗家打扮，却是一脸英风道气，谈吐俊朗，目如寒星，非常敬服。黄玄极与周淳本来谈得正起劲，见他进来，坐定以后，却不再言语，猜是有背人之话，便起身告辞。黄玄极看出心源意思，便笑道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "黄玄极",
+      "api": {
+        "voice": {
+          "role": "黄玄极",
+          "role_voice": "黄玄极",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "其实我们说几句话，原不避人，不过暂时尚未到明说的时候，道友不要介意。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源客气了几句，便独自走出庙来闲眺。这时夕阳业已衔山欲没，瞑色苍然，四面峰峦，隐隐笼罩上一层紫烟。东望湘江，如一条匹练，绵亘直下。一面是群峰插云，环峙星罗。一面是平畴广野，村舍茂密。一缕缕白色炊烟，从林樾间透出，袅袅上升。因在隆冬之际，草木凋零，越显出一些清旷之致。心源正看得出神，忽然身后有脚步声音。回转头一看，原来是一个穿着得很破旧的穷老头，一脸油腻，拖着两片破鞋，踢趿踢趿地朝心源走来。要在别人看那老头这身穷相，决不在意，顶多可怜他年老穷困，或者周济几个钱罢了。心源眼光是何等敏锐，还未等那老头近前，已觉出他行动异样；及至走到对面，不由大吃一惊。见那老头虽然穷相，却生得鹤颅鸢肩，行不沾尘，脸上被油腻所蒙，那一双半合的眼睛神光四射，依旧遮掩不住那人行藏，知是一位前辈高明之士。心中一动，便凑上前去搭讪道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "脚步踢趿",
+            "sound_cn": "破鞋拖在地上的踢趿声",
+            "sound_en": "shuffling footsteps of worn-out shoes",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源客气了几",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老丈，你看这晚景好吗？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻言，大怒道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "狗子！你看我这般穷法，还说我晚景好，你竟敢无缘无故挖苦我吗？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源知他误会，被他骂了两句也不生气，反向前赔礼道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老丈休要生气，我说的是夕阳衔山的晚景，不是说老年的晚景。小可失言，招得老丈错怪，请老丈宽恕吧！",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻言，收敛起怒容，长叹了一口气，回转身便走。心源连忙上前问道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "叹气",
+            "sound_cn": "老头长叹一声，充满沧桑",
+            "sound_en": "old man letting out a long weary sigh",
+            "volume": "-22%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "那老头闻言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老丈留步，有何心事，这样懊叹？何不说将出来，小可也好稍尽一些心力。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻言，连理也不理，脚下反倒快起来了。心源见那老头步履矫捷，越猜不是常人，拔脚便追。一直绕到岳麓山的东面一个溪涧底下，那老头才在一块磐石上面坐定，口中仍是不住地叹气。心源赶到老头面前，把刚才几句话又说了一遍。那老头忽然站起身来，劈面一口唾沫吐到心源脸上，说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "追逐脚步声",
+            "sound_cn": "心源快步追赶的急促脚步声",
+            "sound_en": "urgent footsteps as Xinyuan chases",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那老头闻言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "你要帮我的忙吗？你也配？连你自己还照管不过来呢。",
+          "instruct": "恳切请求，语气真诚，满怀期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源无端受那老头侮辱，心中虽然有气，面上仍未带出。及至听到末后一句，愈觉话里有因。揩干了脸上唾沫，赔笑答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小可自知能力有限，不能相助老丈，但是听一听老丈的身世姓名，也好让晚生下辈知道景慕，又有何不可呢？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻言，哈哈笑道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "老头笑声",
+            "sound_cn": "老头沙哑爽朗的大笑",
+            "sound_en": "old man's raspy hearty laugh",
+            "volume": "-20%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "那老头闻言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "你倒有好涵养，不生我老头子的气。你说的话，我有几句不大懂。你大概要问我为什么叹气？你不知道，我有一个好老婆，名叫凌雪鸿，多少年前死了，丢下我老汉一人，孤孤单单。有她在的时候，仗着她会跳房子，到人家去偷些钱来与我买酒喝。如今慢说是酒，就连饭都时常没有吃了。我有一个姓周的徒弟，叫我不要时常偷骗人家酒吃，他情愿供给我，我又不愿意；何况他前些年又是做贼的，他请我吃的酒，多少带点贼腥气，我越吃越不舒服。才跑到岳麓山底下，想遇上两个空子，骗他一些酒吃。谁知等了三天，一个也没遇到。只有那小破庙内有个老道，他倒愿意请我吃酒。可是我算计他请我吃完了酒，定要叫我办一件极难而又麻烦的事，因此我又不敢领情。我在他庙前庙后想了多少时候，不给人家办事吧，人家不会请我喝酒；办罢，我又懒，其实前些年比他这类还难的事，我都不在乎；如今老了，又懒了，打算白吃，又遇不上空子。好容易遇见你，又说什么晚景水井的，勾起我的心事，这还不算，又追来唠叨这半天。我也不知道你是干什么的，只看你请我吃酒不请，就知道你是空子不是。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源见那老头说话疯疯癫癫，知道真人不肯露相。尤其他说他妻子名叫凌雪鸿，非常耳熟，叵耐一时想不起来。心中略一转念，计算那老头不是剑侠一流，也定是一名有道之士。抱定宗旨，不管他如何使自己难堪，决定同他盘桓几时，终要探出他行藏才罢。便笑答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来老丈想喝酒，小可情愿奉请。但老丈肯赏脸吗？",
+          "instruct": "疑惑，语气迟疑，困惑不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老头道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "慢来慢来。这些年来多少人请我吃酒，没有一次不是起初我把他当成空子，结果吃完以后，我却是吃了人家口软，给人家忙了一个不亦乐乎，差点没把我累死。我同你素不相识，一见面就请我吃酒，如今这世界上哪有你这种好人？莫不成我把你当成空子，等到吃完，我倒成了空子？那才不上算呢。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老丈休要过虑，小可实是竭诚奉请。不过小可这里尚是初来，地方不熟，请老丈选择一家好酒铺，小可陪老丈一去如何？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "当下点头应允。两人下山，一路往西门走去。路上心源又问那老头姓名。老头道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "下山脚步声",
+            "sound_cn": "两人下山的脚步声，一轻一重",
+            "sound_en": "footsteps descending the mountain, light and heavy",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "当下点头应允",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "名字前些年原是有的，如今好久不用它了。你口口声声自称小可，想必就是你的小名了，我就叫你小可吧。你也无须叫我老丈，新帐我还没打算还呢，叫我老丈，我听着心烦。这么办：我平时总爱穿白的，却可惜穿上身一天就黑了，你就以我爱白，就叫我老白，我就叫你小可，谁也无须再问姓名。再若麻烦，我不同你去了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源这时已看透那老头大有来历，只好恭敬不如从命。二人走进城后，在西门大街上寻了一家著名的酒楼，唤来酒保，要了许多酒菜。那老头见酒如见命一般，抢吃抢喝，口到杯干，手到盘干。心源几番用言试探，那老头也不言语，只吃他的。心源无法，只得耐心等候他吃完了，跟他回去，想必便知究竟。这一顿酒饭吃了有两个时辰，直到店家都快上门，酒客走尽，那老头才说了声：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "酒楼喧哗",
+            "sound_cn": "酒楼中杯盘碰撞，人声嘈杂",
+            "sound_en": "restaurant noise, clinking cups and chatter",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源这时已看",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "饮酒声",
+            "sound_cn": "老头大口饮酒，咕咚声响",
+            "sound_en": "old man gulping wine, loud swallows",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那老头大有来",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "将就行了！",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "酒气熏人，站起身来。酒保开来帐目，计算仅酒吃下有四十多斤，慢说店家，连心源也自骇然。当下由心源会了酒帐，陪着老头下楼。刚到街上，老头便要分手。心源便请问他住在何处，并说自己意欲陪往。那老头闻言大怒：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我知道你没安好心，明明是借着这一顿酒，想将我灌醉，假说送我回转衡山，认清我住的地方，再去偷我。你恨我白吃，等我吐还你吧。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，张口便吐。心源连忙避开，一个不留神，撞在一个行人身上。那人是一个年轻公子，却神采飘逸，眉目间隐有英气。心源误撞了人，连忙赔话时，那人知心源是无心误撞，也不计较，双方客气两句，各自分别。心源在黑暗中看出那人临去时，脸上却带着愁苦之容，也未十分在意。忙寻老头时，业已走出很远，心源连忙就追。老头回头看见心源迫来，拔脚便跑，任你心源日行千里的脚程，也是追赶不上，双方相差总是数丈远近。直追到城墙旁边，这时城门业已紧闭，一转瞬间，那老头已经站在城上。心源何等快的眼光，并没有看见他怎么上去的。既已看出一些行径，如何肯舍？口中不住地央告，求那老头留步。脚底下一使劲，也纵到了城墙上面。那老头见心源纵身追将上来，“嗳呀”一声，一个倒翻筋斗，栽落护城河下面。心源急忙随着纵身下去，再寻老头，哪里还有踪影。虽知老头是个奇人，特意试他，只猜不出是何用意。见天上繁星隐曜，寒风透骨，大有下雪光景。呆想了一阵，无可奈何，只得无精打采回转岳麓山破庙之内。那黄玄极、周淳已不在庙内，看那供桌上灯台底下压着一张纸条，上面写着：黄、周二人因等他不见回转，现在有事，须到衡山一行，明日午后准可回来。庙中茶水、灯火俱已预备，请他务必等他们回来，一同上路等语。心源见了这张纸条，只得在庙中等候。随便在一个板桌上躺下，思潮起落，再加上泉声松涛响得贴耳，益发睡不着。重又起身，走出庙外一看，四面漆黑，白日所见的峰峦岩岫业已潜迹匿影。心源随便在庙旁一块大石上坐下，一会工夫，树定风息，鹅掌大的雪花一片片飘扬下来。在这万籁俱寂的当儿，连那雪花落地的声音，仿佛都能听见。心源越坐越无聊，忽然觉得前额上流下冰冷一片，用手一摸，原来是雪落在他的头上，被热气融化流了下来。心源见雪越下越大，便站起身来，抖了抖身上积雪，便要回转庙中，忽听一阵破空的声音。心源剑术虽不高明，却是行家，听出来人厉害，连忙把身体藏在树后，隐在暗中，看个动静。刚刚藏好身形，那驾剑光的人已到面前，两道黄光一闪，在破庙门前现出两个奇怪装束的人，竟与昔日西川路上所遇八魔邱舲一样打扮，俱是披头散发，手持丧门长剑，穿得非僧非道，黄光影里看去，形态非常凶恶。心源大吃一惊，猜是八魔跟踪寻来为仇。自思能力决非来人敌手，伏在那里连动也不敢动。正想之间，那二人来到庙前，更不寻思，已走进庙去。心源暗暗侥幸自己不在庙内。正要趁他二人不见时逃避，猛觉左臂一麻，身子立时不能动转。情知中了别人暗算，来的尚不止那两人。不由长叹一声，只得坐以待毙。不大工夫，那先前进去的二人已然走了出来，口中连喊奇怪，说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雪花飘落",
+            "sound_cn": "鹅毛大雪无声飘落，寒风呼啸",
+            "sound_en": "large snowflakes falling silently, cold wind howling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "张口便吐",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "破空剑光",
+            "sound_cn": "两道黄光破空飞来，呼啸声",
+            "sound_en": "two yellow sword lights flying through air, whooshing",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源连忙避开",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "庙门声",
+            "sound_cn": "二人推开庙门走进，门轴吱呀",
+            "sound_en": "two men pushing open temple door, creaking",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "一个不留神",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "明明徐岳说他在这里住，如何会不在此地？",
+          "instruct": "疑惑，语气迟疑，困惑不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "内中另一个人却说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "八魔手下乙",
+      "api": {
+        "voice": {
+          "role": "八魔手下乙",
+          "role_voice": "八魔手下乙",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "三哥不要忙，你看庙中灯点着，料定那厮不会远离，终要回来，我们坐到那石上去等他回来如何？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说着便往心源刚才坐的那块大石走来。这时雪已停止，地上积雪约有寸许。心源在树后看得清楚，见来人往自己身旁走来，不由暗中捏着一把汗。幸而那二人并不曾看见心源，只来到了树前，便在那石头上用手拂了拂余雪，随便坐下。还未坐定，便听一个说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "拂雪声",
+            "sound_cn": "拂去石上积雪的沙沙声",
+            "sound_en": "brushing snow off the stone, soft swish",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "说着便往心源",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "六弟，你看这石头上面显有厚薄痕迹，明有一人在此坐过。莫非那厮就在这附近，不曾走远？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "还有一个答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "八魔手下乙",
+      "api": {
+        "voice": {
+          "role": "八魔手下乙",
+          "role_voice": "八魔手下乙",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "这有何难，我们只消把剑光放出，四处一寻，除非他不在此地，不然还怕他不现身出来不成？",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话言未了，忽听叭的一声。那先说话的人跳起身来，大喊道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "巴掌响",
+            "sound_cn": "清脆响亮的巴掌声",
+            "sound_en": "sharp sound of a slap",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "话言未了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "六弟留神！有人在暗算我二人了。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，先将剑光放出，护住身体。那后说话的人便问究竟。那先说话的答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "剑光护体",
+            "sound_cn": "剑光腾起护住身体的嗡鸣声",
+            "sound_en": "sword light rising to protect body, humming",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "先将剑光放出",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我正在听你说话，忽从黑暗之中有人打了我一个大嘴巴，打得我头上金星直冒。不是有人暗算，还有什么？",
+          "instruct": "疑惑，语气迟疑，困惑不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正说着，又是叭叭两声，一人又挨了一下，打得还非常之重。这二人都大怒起来，各人将剑光放出，上下左右乱刺了一阵。谁知剑光舞得越快，挨打也来得越重，只打得二人头昏脑涨，疼痛难忍。心源在树后正当担惊害怕，忽见二人被一个潜身暗处的人打了个不亦乐乎，非常好笑，几乎忘了自己也是动转不得，同处危险之境。又听那二人当中有一个说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "连续巴掌声",
+            "sound_cn": "连续清脆的巴掌声，啪啪作响",
+            "sound_en": "continuous sharp slaps, crackling sounds",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "正说着",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "剑光乱舞",
+            "sound_cn": "剑光上下乱刺的破空声",
+            "sound_en": "sword lights thrusting wildly, whooshing",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又是叭叭两声",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "八魔手下乙",
+      "api": {
+        "voice": {
+          "role": "八魔手下乙",
+          "role_voice": "八魔手下乙",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "六弟，我看今晚之事，有些稀奇。起初寻那厮不见，原是好好的，为何才往那石头上一坐，便挨起打来？要说是你我敌人，凭着那人能够隐形这一点，便能取我二人性命如同反掌。大概我们冲撞了树神，他竟打我们几下，以作儆戒也未可知。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "另一个道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你说话不要如此随便，现在诸事还不知真假，留神出了笑话。那人既不在庙中，莫如我们暂且回去，明早再来吧。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，每人脸上又是叭叭两下。吓得这两个魔王也不说话，不约而同地驾起剑光便走。心源在树后见二人胆怯逃走，神情非常狼狈，也觉好笑。忽见黄光在空中直转，好似有什么东西阻住似的，逼得那两道黄光如同冻蝇钻窗纸一般，四面乱冲乱撞，只是飞不出圈子去。心源暗暗惊异。一会工夫，两道黄光同时落下，依旧出现先前二人，走到心源藏身的大树面前，交头接耳商量了一阵，各人盘膝在雪地里坐定，将剑光护住身体，口中念念有词，半晌不见动静。只听一人道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "巴掌声",
+            "sound_cn": "又是两记清脆的巴掌声",
+            "sound_en": "two more sharp slaps",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "剑光被困",
+            "sound_cn": "黄光在空中乱转，被无形屏障困住",
+            "sound_en": "yellow sword lights circling but trapped by invisible barrier",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "还未了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "怪哉！怪哉！怎么今晚连我们的法术都不灵了？",
+          "instruct": "疑惑，语气迟疑，困惑不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "另一人答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "八魔手下乙",
+      "api": {
+        "voice": {
+          "role": "八魔手下乙",
+          "role_voice": "八魔手下乙",
+          "speed": "+2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我看此地不会有这么大本领的能人，能够不现身形，破了我的妙法，还将我等困住的，定是那树神与我二人为难。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到这里，声音便放低了。又待了一会，那二人双双走近大树跟前，朝着那树说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "八魔手下甲",
+      "api": {
+        "voice": {
+          "role": "八魔手下甲",
+          "role_voice": "八魔手下甲",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我二人来此寻找仇人，并不曾与尊神为难，何苦与我等作对？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源见那二人站在自己面前，相隔不到丈许，吓得连大气也不敢出。听他二人那里祝告，连自己也疑心是冲撞了本山神灵，故尔不能动转。正在沉思，忽听脑后“噗哧”一声冷笑，把心源吓了一大跳。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "冷笑",
+            "sound_cn": "脑后传来一声阴冷短促的冷笑",
+            "sound_en": "cold short laugh from behind, chilling",
+            "volume": "-18%",
+            "pitch": "-2Hz",
+            "trigger_keyword": "心源见那二人",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "岳麓山晚景",
+        "start_line": 1,
+        "end_line": 7,
+        "prompt": "very subtle low volume cinematic background ambience, Yuelu Mountain at dusk, winter bare trees, distant Xiangjiang River like a silver ribbon, cold wind, peaceful yet melancholic atmosphere, soft xiao flute sound, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "疯老头周旋",
+        "start_line": 8,
+        "end_line": 27,
+        "prompt": "very subtle low volume cinematic background ambience, mountain path and city streets at night, distant sounds of city, mystery and odd encounters, comedic yet intriguing, subtle erhu hum, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "雪夜破庙",
+        "start_line": 28,
+        "end_line": 54,
+        "prompt": "very subtle low volume cinematic background ambience, snowy night at a ruined temple, heavy snow falling, pine trees rustling, tense hiding and waiting, sudden arrival of enemies, deep guqin resonance cold and mysterious, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

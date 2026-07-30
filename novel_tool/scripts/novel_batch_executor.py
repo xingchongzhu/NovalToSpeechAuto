@@ -30,12 +30,13 @@ logger = logging.getLogger(__name__)
 class NovelBatchGenerator:
     """小说批量生成器"""
     
-    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3", platform: str = "default", sort_mode: str = "pinyin", tts_mode: str = "voice_design"):
+    def __init__(self, script_dir: str, output_dir: str, temp_dir: str, tts_engine: str = "qwen3-tts", qwen_model_path: str = None, sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3", platform: str = "default", sort_mode: str = "pinyin", tts_mode: str = "voice_design", stability_prefix: str = ""):
         self.script_dir = script_dir  # 小说剧本目录的上级目录
         self.output_dir = output_dir  # 音频输出目录
         self.temp_dir = temp_dir  # 临时目录
         self.tts_engine = tts_engine
         self.tts_mode = tts_mode  # "clone" | "voice_design"
+        self.stability_prefix = stability_prefix  # 起始稳定化前缀文本，空字符串表示禁用
         self.qwen_model_path = qwen_model_path  # None 时由 audio_processing_module 自动选
         self.sfx_engine = sfx_engine  # 音效引擎
         self.bgm_engine = bgm_engine  # 背景音引擎
@@ -231,9 +232,12 @@ class NovelBatchGenerator:
                     "--bgm-engine", self.bgm_engine,
                     "--platform", self.platform,
                     "--tts-mode", self.tts_mode,
+                    "--sort-mode", self.sort_mode,
                 ]
                 if self.qwen_model_path:
                     cmd.extend(["--qwen-model-path", self.qwen_model_path])
+                if self.stability_prefix:
+                    cmd.extend(["--stability-prefix", self.stability_prefix])
 
                 result = subprocess.run(cmd, stdout=sys.stdout, stderr=sys.stderr, text=True, check=False)
 
@@ -297,11 +301,13 @@ def main():
                        help="保留临时片段文件")
     parser.add_argument("--debug", action="store_true", 
                        help="启用调试日志")
-    parser.add_argument("--sort-mode", type=str, default="pinyin",
-                       help="排序模式: pinyin(拼音排序，默认) | chapter(章节号排序) | name(文件名排序)")
+    parser.add_argument("--sort-mode", type=str, default="chapter",
+                       help="排序模式: chapter(章节号排序，默认) | pinyin(拼音排序) | name(文件名排序)")
     parser.add_argument("--tts-mode", type=str, default="voice_design",
                        help="TTS 合成模式: voice_design(文字描述造音色，默认) | clone(克隆音频)")
-    
+    parser.add_argument("--stability-prefix", type=str, default="",
+                       help="TTS 合成时添加起始稳定化前缀(如'话说，')，默认空字符串表示不添加")
+
     args = parser.parse_args()
     
     # 设置日志级别
@@ -329,6 +335,7 @@ def main():
         platform=args.platform,
         sort_mode=args.sort_mode,
         tts_mode=args.tts_mode,
+        stability_prefix=args.stability_prefix,
     )
     
     logger.info(f"排序模式: {args.sort_mode}")

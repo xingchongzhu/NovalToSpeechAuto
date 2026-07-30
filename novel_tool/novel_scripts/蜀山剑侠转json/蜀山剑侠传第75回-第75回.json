@@ -1,0 +1,1206 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第75回 十年薪胆 二蛮僧炼魔得真传 两辈交期 三剑客中途逢旧雨",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "俞允中": {
+      "role_voice": "俞允中",
+      "pitch": "0Hz",
+      "volume": "-2%",
+      "speed": "-5%"
+    },
+    "喀音沙布": {
+      "role_voice": "喀音沙布",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "梵拿伽音二": {
+      "role_voice": "梵拿伽音二",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "魏青": {
+      "role_voice": "魏青",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "魏青之妻（吕氏）": {
+      "role_voice": "魏青之妻（吕氏）",
+      "pitch": "+2Hz",
+      "volume": "-1%",
+      "speed": "-2%"
+    },
+    "穷神（怪叫花子）": {
+      "role_voice": "穷神（怪叫花子）",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "心源": {
+      "role_voice": "心源",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "铁蓑道人": {
+      "role_voice": "铁蓑道人",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "玄极": {
+      "role_voice": "玄极",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "纪登": {
+      "role_voice": "纪登",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "陶钧": {
+      "role_voice": "陶钧",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "聋哑僧": {
+      "role_voice": "聋哑僧",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "张琪": {
+      "role_voice": "张琪",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "张瑶青": {
+      "role_voice": "张瑶青",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第75回",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "允中在自又急又怒，无计可施。幸而来时服了岳雯两粒丹药，还不甚觉饥饿。第二日午后，那矮胖凶僧来看两次，见允中神态硬朗，一丝也不困惫，暗暗惊奇。一会又去请那高大凶僧来看。两人商量了一阵，那矮凶僧便向允中道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "铁链声响",
+            "sound_cn": "囚室中铁链轻轻碰撞，发出沉闷的金属叮当声，阴冷潮湿",
+            "sound_en": "iron chains clinking softly in the prison cell, dull metallic sounds, cold and damp",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "允中在自又急",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "喀音沙布",
+      "api": {
+        "voice": {
+          "role": "喀音沙布",
+          "role_voice": "喀音沙布",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "看你不出，你居然还是个硬汉子。我们现有一桩事要和你商量，你若应允，便能饶你活命；若是执迷不悟，便将你开膛摘心，与大老爷下酒。你意如何？",
+          "instruct": "语气阴狠，带着威胁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "允中想了一想，答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "俞允中",
+      "api": {
+        "voice": {
+          "role": "俞允中",
+          "role_voice": "俞允中",
+          "speed": "-5%",
+          "volume": "-2%",
+          "pitch": "0Hz",
+          "text": "我已被擒，杀剐任便。你如有事求我，也没有绑着逼迫的。有什么事，先将我放了再商量。事若可行，无不应允；如果是那些奸盗邪淫一类，你就把我杀了，皱一皱眉头，不算汉子。",
+          "instruct": "语气镇定，带着决绝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那矮的凶僧对那高的凶僧道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "喀音沙布",
+      "api": {
+        "voice": {
+          "role": "喀音沙布",
+          "role_voice": "喀音沙布",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这个人倒真是个汉子，比先前那些人强多了。好在我们也不怕他逃上天去。",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便去解了允中的绑。允中被绑一个整天整夜，周身麻木。知道这些凶僧厉害，又会妖法，决难觑便逃走，莫如暂时应允他的请求，见机行事。便问那两个凶僧道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "解绑声",
+            "sound_cn": "铁链被解开，发出哗啦声响，随后沉重地落在地上",
+            "sound_en": "iron chains being unfastened with a clatter, then falling heavily to the ground",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便去解了允中",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "俞允中",
+      "api": {
+        "voice": {
+          "role": "俞允中",
+          "role_voice": "俞允中",
+          "speed": "-5%",
+          "volume": "-2%",
+          "pitch": "0Hz",
+          "text": "有什么事相烦，你说吧。",
+          "instruct": "语气平静，暗中警惕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那矮凶僧先不答言，一手拖了允中走到庭中向阳处，仔细朝允中脸上望了又望。然后再拖他一同走进隔院一间禅房落座。说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "脚步声",
+            "sound_cn": "凶僧拖拽允中走过庭院，脚步声沉重，衣料摩擦沙沙作响",
+            "sound_en": "fierce monk dragging Yunzhong across the courtyard, heavy footsteps, fabric rustling",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那矮凶僧先不",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "喀音沙布",
+      "api": {
+        "voice": {
+          "role": "喀音沙布",
+          "role_voice": "喀音沙布",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我名喀音沙布，是本寺的二老爷。那生得比我高的是本寺大老爷，他的名字叫作梵拿伽音二。我们俱是滇西人，只为得罪了权势，带了手下徒众，到青螺山内盖了一座庙宇参修。十年前忽然来了一个女的，名叫神手比丘魏枫娘，生得十分美貌。我们不该将她留在庙中，被她用法术飞剑伤了我们多人，将我师弟兄二人逼走，占了我们的青螺山。我们无奈，才逃到此地，将这座清远寺的住持赶走，在此暂居。一则因为得罪了权势，滇西不能回去；二则又舍不得青螺山的出产和辛苦经营的庙宇，原打算请了能人仍将青螺山夺回。不想魏枫娘闻得我们仍未远离，前来逼迫我们归顺，作她青螺山的耳目。她有八个徒弟，便是那有名的西川八魔，专一在外奸淫打劫，个个精通法术，本领高强。我们斗又斗不过她，走又无地可走，只得答应下来。此地原是川滇间孔道，平日行旅客商及入滇朝佛的人贪走近路，有不少俱都打此经过。我们占据青螺山时，并不时常打家劫舍，只不过入滇的人俱要到我们寺中进香布施，才保得平安。偶尔劫杀一两次，也是他们不知好歹，既要少走十多天近路，又舍不得香资，恼了我们，才惹出杀身之祸。谁知八魔到此，他们手下人又多，不问青红皂白，见人就抢，遇到妇女就奸，不时还往川中去作大案，满载回来。渐渐这路上断了行人。他们又恐风声太大，知道到青螺山，这里是必由之路，所以逼我们给他们做眼线，以防能人剑客到来寻他们晦气时，好作一准备。只苦了我们，平日此庙本无出产，全仗过路香客布施，被他们这么一来，绝了衣食来源，只得也在川滇边界上做些打劫生活。谁知八魔还是不容，只准我们做眼线，每月由他们那里领些羊米奶油。遇有大宗买卖抢到了手，也得往他们那里送。我们忍气吞声已有多年，天幸魏枫娘这个泼贱在成都被一个女剑仙所杀。我们本想去将青螺山夺回，谁知八魔自魏枫娘一死，害了怕，拜到滇西毒龙尊者门下，练会许多法术，又请了许多能人相助，我们估量不是对手，重又隐忍下来。",
+          "instruct": "语气阴狠，讲述往事，带着怨恨"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "烛火摇曳",
+            "sound_cn": "禅房中烛火轻微摇曳，发出噼啪声，光影在墙上跳动",
+            "sound_en": "candle flame flickering gently in the meditation room, soft crackling, shadows dancing on the wall",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "名喀音沙布",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "喀音沙布",
+      "api": {
+        "voice": {
+          "role": "喀音沙布",
+          "role_voice": "喀音沙布",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "知道他们虽然厉害，但有炼天魔解体的大法能够制他们。我大师兄本会此法，他不该前些年在青螺山被魏枫娘用素女偷元破了元真，失去纯阳，使用不灵了。炼这种大法，须要一个有好根基，元神稳固，心志坚强的童儿，在一个僻静的山顶上，朝着西方炼上两个四九三十六天，才能成就。只是这三十六天当中，预先得学会辟谷打坐，然后坐在那里如法施为，直到大功成就，无论见什么动静和种种妖魔扰乱，动也不动，稍一收不住心神，不但前功尽弃，还有性命之忧。大师兄因见庙中徒众全非童身，不能炼这种大法，便想寻人代替。物色了这多年，偶尔遇见一两个勉强能用，谁知他们的心志不强，结果徒自丧了性命。而且这种法术，须要从未学过别的剑术道法的人才能炼，否则他的元气炼过别的，杂而不纯，仍是无用，所以甚为难得。昨日我们两个徒众见你带有银两，原想照从前一样下你的手。及至引你见了我师兄弟，才看出你是个童身。先还不能肯定你就能行，后来将你捆了一天一夜，才觉出你不但根基禀赋甚厚，尤其是心志坚强，元神凝固，所以才同你商量。你如肯点头答应，不但我们得你帮助，将青螺山夺回，你也就这千载难逢的机会，将我魔教中秘宝学了去，岂非两全其美？不过学时，须要把生死置于度外，无论眼前有什么恐怖景象，全是一些幻景，只要不去理它，转眼消灭；若一把握不住心神，立刻便有性命之忧。我已将真情对你说明，如果不从，那就莫怪我们对你下毒手了。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "允中见他说时神态有许多可疑之点，知道决没有这么简单，但是自己已成了俎上之肉，不任人摆布也是无法脱身；又加自己想到青螺山盗六魔厉吼的首级，正愁无法进去，倘如他说的是实话，这法术学成，便可制八魔死命，岂不是一举两得？把这利害关系在胸头盘算了一会，还是姑且应允了，再相机行事。便答应了。那喀音沙布闻言大喜，也不命人看守允中，出外去了好一会，会同他师兄梵拿伽音二进来，高兴地对允中说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "喀音沙布",
+      "api": {
+        "voice": {
+          "role": "喀音沙布",
+          "role_voice": "喀音沙布",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你真是个信人，好汉子！我故意出去多时，并没人看守你，你却丝毫不想逃走。相助我们成功，无疑的了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，又说了一句番语。允中只一转眼间，从壁内走出三个凶僧，捧了许多食物与允中食用。允中庆幸自己没有想逃。等允中果腹之后，又领允中去沐浴更衣，领到一间净室，由大凶僧梵拿伽音二先传了几天辟谷打坐之法。允中人本聪明，资禀极好，一学便会。二凶僧也非常高兴，遂将一切口诀炼法，秘密传与允中，默默记熟。又再三嘱咐，遇见幻景不要害怕。这时正在夜里。到了子正三刻，梵拿伽音二领允中到院落中去，口中念起梵咒。一会工夫，允中便觉天旋地转，面前漆黑。等到清醒过来，已到了一座山顶石上坐下，头上星月一丝也看不见，远望下面一团漆黑。正要将身站起，耳旁忽听一人说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "食物摆放",
+            "sound_cn": "凶僧将食物摆放在桌上，碗碟碰撞发出轻响",
+            "sound_en": "monks placing food on the table, bowls and plates clinking softly",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又说了一句番",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "梵咒声",
+            "sound_cn": "梵拿伽音二口中念起低沉梵咒，声音含混而神秘，周围空气似乎凝固",
+            "sound_en": "Fan Na Jia Yin Er chanting low Sanskrit spells, muffled and mysterious, air seeming to thicken",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又说了一句番",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "天旋地转",
+            "sound_cn": "允中顿觉天旋地转，耳边风声呼啸，片刻后一切归于寂静",
+            "sound_en": "Yunzhong feeling the world spinning, wind rushing in his ears, then sudden silence",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "说了一句番语",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "\"你不要动，我已派了四个徒弟在你身边保护你，每晚子时我来看你一次。现在你该如法施为了。\"允中闻言，见事已至此，自己又不会妖法，他在暗中还派得有人看守，想逃是决不能够，索性照他所说镇静心神，去炼那天魔解体之法。不提。话说心源、玄极自白、许、俞三人相继失踪，敌人也不来扰乱，见戴家场并无甚事，便同铁蓑道人辞了衡玉、凌操，搬到谷王峰居住，每日练习吐纳剑诀，有时也出山走走。这日心源正在峰头远眺，忽见山脚下走来一个壮汉，迎上前去一看，正是陆地金龙魏青。原来那日大家忙于和吕村交手，直到事完，湘江五侠临走，才把魏青妻子被一个白猿抢去说将出来。心源听说魏青一人赶去援救，并无帮手，好不放心，便想再约一两位剑侠同自己前去，助他一臂之力。玉清大师道：\"久闻衡山白象崖有一只白猿，行走如风，却从未听说伤过人。既然怪叫花凌老前辈知道此事，他告知魏青前去援救，自己决不袖手，我们去了反不妥当。\"心源闻言，又请玉清大师占了一卦，知是逢凶化吉，并无凶险，才放了心。他跟魏青又是师生，又是好友，不见本人总觉悬念，忽然在无心中遇见，自是欣喜，便先问魏青那日经过。魏青道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "山间远风",
+            "sound_cn": "谷王峰头山风轻拂，吹动草木和衣袂，发出沙沙声响",
+            "sound_en": "gentle mountain wind on Guwang Peak, rustling grass, trees, and robes",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你不要动",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "魏青",
+      "api": {
+        "voice": {
+          "role": "魏青",
+          "role_voice": "魏青",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我那日因听凌真人来说，我妻子被白猿抢去。他又说白猿住在白象崖，行走如飞，怕我追赶不上，一面指示我抄近路去追，随手在我背上拍了一把，走得便快起来。在谷口遇见湘江五侠，凌真人不要他们相助，只催我就走。我才一出谷口，便觉身子轻飘飘地直往前飞走，眼看前面大河长涧，只一晃眼身已过岸，走了不多一会，就看见前面一团白影如飞投向东北。渐渐追近，闻得我妻子哭喊之声。追来追去，追到一座石崖，便钻进洞去。近前一看，那洞已被那厮用石头封堵。我便用腰中钢抓前去推那洞门，好容易才将那石洞推开。那白猿跳出，使用一根木棍，不知是什么木头所做，和我争打了好一会。那厮身材伶俐，一纵就是好几丈高，只累得我浑身是汗，渐渐抵敌不住。被那厮一棍将我打翻，用两根春藤将我手脚捆住，拖进洞去。我妻子也在里面，见我被擒，扑上前来将我抱住痛哭。那白猿上来拖她，我妻子偏拼命抓紧我衣服不放。拖开时，竟将我衣服撕了一大片下来，露出臂上刺的龙纹。那厮随即放了我妻子，走近我的身前，一把将我左臂衣服撕开，露出一条赤膀。我正愁它要当着我面，去罗唣我妻子。见它撕我衣服，以为它要生吃我。那春藤有茶杯粗细，捆得非常结实，挣又无法挣脱，气得我眼睛都冒出火来。死原不算什么，最怕是我妻子要被它奸污。便大声对我妻子说道：'你还想活吗？'一句话将我妻子提醒，我妻子本有烈性，一头往石壁上撞去，满拟寻一自尽。谁知那厮竟懂得人言，听我刚一说，便已转过身来，我妻子还未撞到石壁上面，已被它纵上前去拦住。",
+          "instruct": "语气豪爽急促，讲述惊险经过"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "白猿嘶吼",
+            "sound_cn": "白猿在回忆中发出尖锐的嘶吼声，充满野性和愤怒",
+            "sound_en": "white ape letting out sharp wild howls in the memory, full of fury and savagery",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "听凌真人来说",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "妻子哭喊",
+            "sound_cn": "魏青妻子被抢时发出的哭喊声，绝望而凄厉，带着撕心裂肺的痛楚",
+            "sound_en": "Wei Qing's wife crying out in despair, desperate and piercing, heart-wrenching",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "子被白猿抢去",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "钢抓推石",
+            "sound_cn": "魏青用钢抓推洞门，金属撞击石头发出沉闷声响",
+            "sound_en": "Wei Qing pushing the cave door with his steel claw, dull metallic thuds against stone",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "我那日因听凌",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "魏青",
+      "api": {
+        "voice": {
+          "role": "魏青",
+          "role_voice": "魏青",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "它这时忽然改了刚才凶恶神气，用手朝我二人直比，我二人也不懂。它好似又要到我面前，又怕我妻子寻死，便将我妻子拖将过来。茶杯粗的春藤被它用手一扯，便行粉碎。他才将我解开，我兵器不在手内，纵上去就给它一拳。那厮也不还手，只护住我妻子，怕她寻死。那厮身体灵便，因为要护我妻子，吃我打了好几十拳，打得它哇哇直叫，一面用手朝我直比。我先前也不知它朝我摆手用意，因它老拦在我妻子前面，越打我越有气。那厮皮骨坚硬，虽然重手法打得它痛，却不能使它受伤。打了有好一会工夫，一眼瞥见我使的那柄钢抓，被我抢过来拾在手中，正想用你传我那散花盘顶暗藏神龙抢珠的绝招，先将那厮两眼打瞎，再取它的性命。抓刚发将出去，平地忽然冒起一人，正是那破烂叫花凌真人，一伸手先将我的钢抓接去。那白猿想是知他厉害，立时舍了我妻子，跪将下来。凌真人先对那猿说道：'你修炼得好好的，偏要动什么凡心，这一顿打，打得不屈不多吧？'那白猿闻言，竟抱住凌真人一双黑泥腿大号起来。我恨那厮不过，正要就势用抓将它打死。凌真人只用手一挥，便好似平空有一种东西将我拦住，不得上前。凌真人又对我说道：'它也挨你打得够了，你也无须乎再打它了。它虽不该一时妄动凡心，将你妻子背来；可是它如不是天良未泯，认出你左臂刺的龙纹，想起你十五年前在湘潭王家集上救命之恩，凭你这点本领，它要取你性命，岂非易如反掌，还能容你打它这半天吗？再说你既倒反吕宪明，你又随他们前去赴会，我不该不先令你妻子设法逃出。幸而被白猿抢走，不然吕、郭二人回去，明白了你的行径，岂不白害她遭人毒手？那白猿后来护定你妻子者，是因感念昔日你放他的恩义，因你妻子烈性，怕她寻死，又知你打不伤它，所以一任你打，他却护定你妻子不来还手。我已来了一会，我恨这畜生不该妄动凡心，我又还有用它之处，乐得借你手惩治它。后来你要用钢抓弄瞎它眼睛，我才出来拦住。如今你妻子业已遇救，这畜生也不会再起邪心。你的好友赵心源在谷王峰铁蓑道人那里，不久便要到青螺山收拾八魔。无论什么人，只要能遇见我，大半有缘。我送你一样小玩意，你可拿着它先寻亲友，将你妻子安顿。然后到谷王峰跟他们一起去打八魔，到时自有你的好处。'说罢，给我一根藤子编就的软鞭。我也不知道叫什么名字，他也不容我问，只好道谢收下。",
+          "instruct": "语气豪爽，讲述白猿报恩和凌浑赠鞭"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "钢抓破空",
+            "sound_cn": "魏青钢抓出手的破空声，凌厉而急促，带着决绝",
+            "sound_en": "Wei Qing's steel claw flying through the air, sharp and urgent, with finality",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时忽然改了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "凌浑接抓",
+            "sound_cn": "凌浑伸手接住钢抓，发出清脆的金属碰撞声，干净利落",
+            "sound_en": "Ling Hun catching the steel claw with a crisp metallic sound, clean and decisive",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "然改了刚才凶",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时那白猿仍是跪抱在他的膝前，不住长嗥。凌真人道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "白猿长嗥",
+            "sound_cn": "白猿跪在凌浑膝前长嗥，声音悲切恳求，带着哀求的呜咽",
+            "sound_en": "white ape kneeling before Ling Hun and howling mournfully, pleading with sobbing cries",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这时那白猿仍",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "穷神（怪叫花子）",
+      "api": {
+        "voice": {
+          "role": "穷神（怪叫花子）",
+          "role_voice": "穷神（怪叫花子）",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "我怪叫花凌浑向不收徒，如今一开戒，索性连你这横骨未化的畜生都要做起我徒弟来了。你既是这般苦求，你若依得我一件难事，我便收你。",
+          "instruct": "恳切请求，语气真诚，满怀期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那白猿一面点头，一面叩头如捣蒜一般。凌真人想是知它愿意，只见他将手伸进那白猿喉中，好似听见一种脆骨折断的声音。那白猿居然会说起人话来。我起初原没听出他姓凌，因为白猿称他凌真人，才跟着叫的。那白猿会说人话后，凌真人又给了它两粒丹药吃下去，领它同我夫妻出了洞。走过坡脚，便见地下躺着一个大汉，昏迷不醒。旁边还有一条打断了的死蛇和一堆缠着彩丝的铁箭。仔细一看，正是那山人姚开江。问起原因，才知凌真人知他厉害，恐他毒箭伤人，先将他元神收拾，然后引出戴家场，将他制伏。他因元神已死，又被凌真人神雷将他震得昏迷过去，所以人事不省。凌真人悄悄对白猿嘱咐了一番话，由身上取出一粒丹药递与白猿。叫它等我们走后，先用丹药将姚开江救醒，然后将他背走。等到凌真人吩咐白猿已毕，便命我夫妻同他快走，被他用法术将我夫妻送到湘潭一个至亲家中。正要朝他拜谢，他只说了一声\"再见\"，一晃眼便不知去向。事后追思，才想起那白猿是我幼时在我初次从师的王老师家，见我师兄五指开山王传信由衡山打猎捉回来一只苍背老猿，用铁链吊在房中，想磨去它的火性，再来驯练。我彼时年幼无知，又不忍听它昼夜哀号，趁我师兄不在，偷偷将它放走。那时我左臂上就刺有这条龙纹，想不到十五年光阴，它毛会变白，居然会看见我身上龙纹想起前恩，不还我手。将妻子安顿好后，便来寻你，不想一来就遇着。我记得那日在戴家场曾有许多未遇见的能人，可能引我前去相见么？",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "脆骨断裂",
+            "sound_cn": "凌浑手伸入白猿喉中，发出轻微的骨头断裂声，清脆而短促",
+            "sound_en": "Ling Hun's hand reaching into the white ape's throat, soft cracking sound of bone, crisp and brief",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "面点头",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "白猿开口",
+            "sound_cn": "白猿第一次说出人话，声音沙哑生涩，艰难而真诚",
+            "sound_en": "white ape speaking human language for the first time, hoarse and hesitant, difficult yet sincere",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "一面叩头如捣",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源便把前事一一告知，又同他去见了铁蓑道人与黄玄极。魏青从此在谷王寺内暂居，静等端阳节前赶到青螺山去，不时也同心源、玄极到戴家场看望衡玉、凌操。衡玉和他妹子湘英极为友爱，湘英走时，原说到汉阳白龙庵，由玉清大师引见素因大师门下，虽然分别日子不多，总想知道一些音信，苦干家务，不能分身前去看望。便托心源早几天动身，绕道汉阳白龙庵，看看湘英是否已蒙收录。凌操也托心源等，遇见各位剑仙，留神打听允中的下落，如果在青螺山相遇，好歹劝他回来。心源、玄极俱都一一答应下来。回去同铁蓑道人商量，打算四月上旬就动身，先到汉阳探望湘英，带到衡玉口信。然后由陆路走蔓州剑阁入川，到川边青螺山去赴八魔之约。大家商量了一次，因为有魏青同行，好在无事，为期尚早，索性提前动身，沿途还可观赏风景。到了四月初一，铁蓑道人便同了心源、玄极、魏青，四人由长沙起程。走不多日，到了汉阳，好容易寻到了白龙庵，玉清大师业已他往。会见元元大师的徒弟红娘子余莹姑，问起湘英踪迹，才知玉清大师到的那一天，素因大师刚巧在头晚上出门访友，不在庵中。玉清大师原想留湘英在庵中等素因大师回来，湘英一定磨着要随玉清大师同行，玉清大师无法，只好又将她带到成都去了。四人闻言，只得告辞出来。心源猛想起听玉清大师谈过，陶钧现在四川青城山学剑，何不去探看陶钧，就便拜见他师父矮叟朱梅？此老虽是得道多年的前辈剑仙，为人热心，喜抱不平，比年青人还要来得起劲，倘能得他相助到青螺山去，岂非大妙？四人商议定后，先请黄玄极带了魏青先行。心源同了铁蓑道人先到宜昌三游洞，去向师父侠僧轶凡请罪，相机请他下山相助。然后驾剑光赶上黄、魏二人，沿水道而行，到青城山去。把预定绕道陕西边界，经由剑阁栈道走的主意打消了。四人分手后，心源、铁蓑道人剑光迅速，不一日到了三游洞，由铁蓑道人进去代他缓颊，心源跪在洞外请罪。待了一会，铁蓑道人出来说，不但侠僧轶凡不在洞内，连许钺也未在此。洞中只住一个聋哑年迈的和尚，问他什么，也答不上来。心源闻言，便随了铁蓑道人二番进去，遍寻侠僧轶凡与许钺有无遗留什么字迹。那聋哑和尚见二人寻找，想是知道用意，径从一个破蒲团内取出一张纸团递与心源。心源一看，正是许钺所留。原来许钺承矮叟朱梅指引，离了戴家场，回家安排了一些家务，便去投师。好在三游洞在宜昌上游，是个有名胜地，常有人去游玩登临，极容易寻找。也是许钺机缘凑巧，到三游洞时，正赶个正着。原来侠僧轶凡因三游洞风景虽好，仍不能与世隔绝。他先在后洞参修，本与前洞隔绝，不知怎的，把行迹露在一个有心人眼里，传扬出去，说三游洞还有人未去过的后洞，里面住着一位高僧，如何神妙等语。一般人多喜事，从去冬起，不时有些俗人来向他请教佛理。侠僧轶凡不耐烦扰，正要离开，许钺恰巧赶到。侠僧轶凡见许钺根骨尚厚，又是老友朱梅介绍，当时答应下来。许钺拜师不久，侠僧轶凡就带了许钺到川边邓崃山去访友。因为后洞石壁内藏有许多的经卷，暂时不便带走，才去寻了那聋哑和尚来替他看守。许钺在戴家场就听心源说过同八魔结仇及以前得罪师父之事，怕师父性情特别，又是入门不久，不敢替师兄讲情。恐心源走来不知他师徒二人踪迹，在走前写下这一张字条，托聋哑僧代为转交。那聋哑僧因为犯了他师父雪山了了和尚的戒规，罚他遭三十年聋哑之孽。许钺把托他的事写在一张纸上，他虽然又聋又哑，本领同灵性依然存在，不过韬光晦灵，静待孽满罢了。他受了许钺之托，见心源来到，便将许钺字条交付。他的来历，三次峨眉斗剑时自有交代。铁蓑道人见了纸条，他本觉这聋哑僧不是常人，又见侠僧轶凡托他看守经卷，知道那些经卷俱是西土真经，佛门异宝，侠僧轶凡竟能托他代管，更知有大来历。不过看他神态，又不似装作痴聋，揣不出什么用意。先后朝他礼询数次，聋哑僧好似被逼无奈，取了一支秃笔，在纸上写了\"孽重心感，行再相见\"八个字，写罢，径往蒲团上入定去了。铁蓑道人知他不愿人留此，有心试他一试，故意装作偷寻藏经，往他身后石壁走去。还未伸手，聋哑僧已经觉察，只见他举手往头顶上一拍，立刻便是满洞金光。铁蓑道人知道不妙，不及招呼，一把拉住心源，身剑合一，破空便起。回望后面金光红云之中，一个三尺多高的赤身小和尚追来。铁蓑道人并非真心盗经，原是试探他的本领，未便迎敌伤了和气，只得紧催剑光逃走。出去有十里左右，后面不来追赶，才把剑光落下。对心源道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "蒲团取字",
+            "sound_cn": "聋哑僧从破蒲团中取出纸团，纸张摩擦发出轻响，动作缓慢而郑重",
+            "sound_en": "deaf-mute monk taking a paper ball from a worn cushion, soft rustling, slow and deliberate",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "源便把前事一",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 607.9,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "满洞金光",
+            "sound_cn": "聋哑僧举手拍顶，满洞金光迸发，光芒耀眼夺目，气势惊人，佛光普照",
+            "sound_en": "deaf-mute monk raising his hand and striking his head, golden light filling the cave, dazzling and imposing, Buddha's radiance",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光。铁",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "破空飞走",
+            "sound_cn": "铁蓑道人与心源身剑合一破空飞走，风声凌厉急促，剑光如电",
+            "sound_en": "Tiesuo Daoren and Xinyuan flying away as one with their swords, sharp urgent wind sound, sword light like lightning",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "他去见了铁蓑",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "铁蓑道人",
+      "api": {
+        "voice": {
+          "role": "铁蓑道人",
+          "role_voice": "铁蓑道人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "想不到他如此厉害！我因疑他装聋作哑，故意试他一试，不想他竟误会成真。我还可以抵挡，走得慢一点，岂不连累了你，看他来历，好似雪山了了和尚所传佛门心剑的嫡派呢。如今令师已到了邓崃，那里离青螺山甚近，说不定还许为你而去呢。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "心源",
+      "api": {
+        "voice": {
+          "role": "心源",
+          "role_voice": "心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "但愿如此才好。弟子现在别无他念，只望能将八魔除去，恩师恕过前愆，仍得重归门下，从此祝发出家，永安禅悦，于愿足矣。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "铁蓑道人含笑不答。当下同驾剑光，追上黄、魏二人，一同往四川进发。魏青脚程本快，不多几日，四人到了成都。先将城外四座有名的祠堂庙宇看了一看，又到辟邪村去拜见玉清大师，见着张琪兄妹，方知玉清大师已带湘英去寻素因大师去了。轻云、文琪因久不见师父餐霞大师，心中想念，趁着暂时清闲，也回黄山去了。四人谈了一会，告辞出来。心源急于要见陶钧，催着往灌县青城山去。到了青城山金鞭崖，看见陶钧和纪登师兄弟二人正在对坐下棋。原来陶钧自从到了青城，受矮叟朱梅所授的口诀，每日练习剑术，又加纪登从旁尽心指点，进步得非常之快，把一柄金犀剑练得虽不能身剑合一，却已得心应手，指挥如意了。纪登为人，比他师父还要来得特别，竟会与陶钧处得非常莫逆。他二人每日做完了功课，不是去采药登临，便在崖前下棋。这日天气晴明，二人又下棋，忽见崖下上来四人。纪登认得铁蓑道人，连忙上前拜见。陶钧已看出一个是他昔日师父赵心源，心中大喜，便要上前跪拜。心源急忙一把拉住，说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "棋子轻响",
+            "sound_cn": "纪登和陶钧对弈，棋子落在棋盘上发出清脆的声响，从容而有节奏",
+            "sound_en": "Ji Deng and Tao Jun playing chess, crisp sounds of pieces landing on the board, leisurely and rhythmic",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "铁蓑道人含笑",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "心源",
+      "api": {
+        "voice": {
+          "role": "心源",
+          "role_voice": "心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贤弟快休如此。昔日我本自知能力不够，恐怕误你，一向不肯以师礼自居；何况贤弟如今又是朱老前辈高足，再要照以前称呼，不但错了辈分，愚兄反无地自容了。不如以后就用弟兄相称吧。",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧还是不肯，心源只好暂时由他。彼此都引见，介绍姓名，互道了一阵倾仰的话，纪登便请众人去往观中落座。坐定之后，互谈别后之事。陶钧听说许钺已蒙侠僧轶凡收录，十分代他欣幸。心源又把同他别后，到长沙谷王峰寻访铁蓑道人未遇，雪夜遇二魔，追云叟解围，酒楼遇罗九，相逢白琦、戴衡玉，戴家场打擂，怪叫花穷神凌浑二次出世收伏姚开江，白、俞、凌、戴四人相继弃家从师等事，说了一遍。陶钧也将别后在汉皋江边巧遇恩师矮叟朱梅，接引到青城山学道，以及现在早晚用功情形说出。纪登道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "衣料摩擦",
+            "sound_cn": "众人落座时衣料摩擦和椅子移动的轻响",
+            "sound_en": "sounds of people sitting down, fabric rustling and chairs shifting",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧还是不肯",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "纪登",
+      "api": {
+        "voice": {
+          "role": "纪登",
+          "role_voice": "纪登",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这位凌老前辈，真是剑仙中一位怪杰。要讲本领，虽不知多大，但是这些年来听见他的前言往行，从未有人说他败在人手内一回过。日前听师父说，他近来悟彻天人，不久归真，很想物色一两个传人，二次出山想必为此。不过昔日他同白师伯曾有仇隙，也不知如今解了不曾。他既命魏道友同三位到青螺山去，想必到时他必定出来参预。八魔纵然厉害，岂是他老人家对手？赵道友此番前去，必定万无一失了。",
+          "instruct": "心中暗想，犹豫不决，举棋不定"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源便请纪、陶二人引见朱梅。陶钧道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "恩师他老人家行踪不定，不常在观，也许我们正在想念，他老人家就马上出现也说不定。",
+          "instruct": "心中暗想，犹豫不决，举棋不定"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "四人听得朱梅不在观中，多未免觉得机缘不巧。纪登忽然对陶钧笑道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "纪登",
+      "api": {
+        "voice": {
+          "role": "纪登",
+          "role_voice": "纪登",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师弟可想请师父去助赵道友一臂之力么？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "岂有不愿之理？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "纪登道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "纪登",
+      "api": {
+        "voice": {
+          "role": "纪登",
+          "role_voice": "纪登",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "因为我以前曾有劣迹，虽然改行向善，师父总不大喜欢我。我看他对你属望甚殷，你如现在就随赵道友等同去，你不是八魔对手，师父岂能坐视？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧也是少年喜事，刚把飞剑学好，没处使用，心源又是他良师好友，极愿同去相助。只因震于八魔凶名，估量自己能力有限，又未奉有师父之命，不敢贸然说去。听纪登一说，知道师父面前他肯担待，便活了心，答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我实在是想跟去，一则无有师父之命，二则我虽会飞剑，不能身剑合一，道路又远，恐怕反误了赵老师的大事，所以为难。",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "纪登",
+      "api": {
+        "voice": {
+          "role": "纪登",
+          "role_voice": "纪登",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我既叫你去，当然会替你担待，不但你能跟上他们三位，连这位魏道友，我也一样能送他前往。好在为期还早，有意屈留诸位在此盘桓几天，到时我虽不能离此相助，自会送我师弟前去观光。诸位以为如何？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源与陶钧久别重逢，又看他从朱梅学了剑术，好生代他欣幸。自己因为当初不听师言，仅学会一点皮毛，贸然下山，惹得师父见怪，自己到处吃亏，倒并不怎么想陶钧同去。经纪登一说，他是朱梅大弟子，剑术高妙，本来为期尚早，乐得在此同旧雨相聚些时，多拉拢两个帮手。黄、魏二人原是心源请来，更无问题。铁蓑道人与二老、侠僧轶凡及心源、纪登师生两辈，俱是后先所交朋友。他的剑术先传自终南乐众，乐众成道后，又离了终南派自成一家。纪登、心源因为他认识师父，俱执晚辈之礼。他却不以此自居。此次随着心源经川入滇，本想在半路上顺途看望两个好友，见心源等暂住青城，便同众人说，准端阳前赶到青螺山，现时因有事他去，同众人暂别。纪登挽留不住，只得恭送他去。铁蓑道人别了心源去后，心源等三人便留居青城，专候端阳赶到。不提。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "铁蓑道人告辞",
+            "sound_cn": "铁蓑道人起身告辞，衣袂轻响，脚步声稳健地远去",
+            "sound_en": "Tiesuo Daoren rising to take leave, robes rustling, steady footsteps fading",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源与陶钧久",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "清远寺囚室与二蛮僧",
+        "start_line": 1,
+        "end_line": 14,
+        "prompt": "very subtle low volume cinematic background ambience, dark prison cell in an ancient temple, iron chains clinking in the shadows, damp stone walls with moss, faint flickering torchlight casting dancing shadows, mysterious and threatening atmosphere, deep cello drone with tension and menace, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "山顶修炼天魔大法",
+        "start_line": 15,
+        "end_line": 15,
+        "prompt": "very subtle low volume cinematic background ambience, desolate mountain peak at midnight, pitch black sky without stars or moon, howling wind cutting through jagged rocks, sense of isolation and supernatural power, mysterious chanting echoing across the void, eerie and sacred atmosphere, low Tibetan singing bowls with mystical resonance, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "魏青讲述往事",
+        "start_line": 16,
+        "end_line": 20,
+        "prompt": "very subtle low volume cinematic background ambience, open mountain view with distant peaks and valleys, warm afternoon sunlight filtering through clouds, sounds of a robust man recounting a vivid adventure, occasional distant bird calls echoing, atmosphere of reminiscence and wonder at strange fates, light erhu with storytelling warmth and humor, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "三游洞寻访与聋哑僧",
+        "start_line": 21,
+        "end_line": 24,
+        "prompt": "very subtle low volume cinematic background ambience, ancient cave temple with rough stone walls and weathered Buddha statues, faint incense smoke lingering in the air, mysterious old monk with hidden power, sudden golden light and supernatural manifestation, atmosphere of revelation and awe, deep xiao flute with mystery and reverence, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "青城山重逢",
+        "start_line": 25,
+        "end_line": 39,
+        "prompt": "very subtle low volume cinematic background ambience, mountain peak with ancient pines and a stone chess table, warm sunlight through drifting clouds, sounds of reunion and shared stories, laughter and exclamations, sense of friendship and anticipation for adventure ahead, warm guqin with scholarly joy and camaraderie, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

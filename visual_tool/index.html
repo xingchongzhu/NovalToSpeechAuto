@@ -124,7 +124,7 @@ audio { filter:invert(0.85); }
 <div id="log-panel"></div>
 
 <!-- Char Voices Modal -->
-<div id="char-voices-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:32px;overflow:auto;">
+<div id="char-voices-modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:999;padding:8px;overflow:auto;">
   <div style="background:#161b22;border:1px solid #30363d;border-radius:8px;max-width:1000px;margin:0 auto;max-height:92vh;display:flex;flex-direction:column;">
     <div style="padding:10px 14px;border-bottom:1px solid #30363d;flex-shrink:0;">
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
@@ -1221,6 +1221,10 @@ function renderCharVoices(rows) {
     const dup = dupNote(r);
     const noteContent = dup ? (r.note ? r.note + ' | ' + dup : dup) : (r.note || '');
     const isDup = !!dup;
+    // 检查：有配音名但克隆音频库中无对应文件
+    const noAudio = r.voice && voicesData.length && !voicesData.some(v => v.name === r.voice);
+    const voiceBorderColor = r.voice ? (noAudio ? '#f0883e' : '#30363d') : '#f85149';
+    const voiceTextColor = isDup ? '#f0883e' : (r.voice ? (noAudio ? '#f0883e' : '#c9d1d9') : '#f85149');
     html += `<tr id="${rowId}" style="border-bottom:1px solid #21262d;" data-char="${esc(r.char)}">
       <td style="border:1px solid #21262d;padding:4px 4px;text-align:center;color:#484f58;font-size:11px;white-space:nowrap;">${i+1}</td>
       <td style="border:1px solid #21262d;padding:2px 4px;">
@@ -1242,10 +1246,11 @@ function renderCharVoices(rows) {
       </td>
       <td style="border:1px solid #21262d;padding:4px 6px;">
         <div style="display:flex;align-items:center;gap:4px;">
-          <input id="${rowId}_voice" value="${esc(r.voice)}" data-vp-original="${esc(r.voice)}" readonly style="flex:1;background:#0d1117;border:1px solid #30363d;color:${isDup?'#f0883e':'#c9d1d9'};padding:2px 5px;border-radius:3px;font-size:11px;min-width:0;cursor:pointer;" onclick="openVoicePicker('${rowId}','${escJS(r.char)}','${escJS(r.age||'')}','${escJS(r.gender||'')}','${escJS(r.char_desc||'')}','${escJS(r.vd_prompt||'')}')" title="点击选择音色">
+          <input id="${rowId}_voice" value="${esc(r.voice)}" data-vp-original="${esc(r.voice)}" readonly style="flex:1;background:#0d1117;border:1px solid ${voiceBorderColor};color:${voiceTextColor};padding:2px 5px;border-radius:3px;font-size:11px;min-width:0;cursor:pointer;" onclick="openVoicePicker('${rowId}','${escJS(r.char)}','${escJS(r.age||'')}','${escJS(r.gender||'')}','${escJS(r.char_desc||'')}','${escJS(r.vd_prompt||'')}')" title="${r.voice?(noAudio?'⚠ 音色库中无对应音频文件，点击选择音色':'点击选择音色'):'⚠ 未分配配音'}" placeholder="未分配配音">
           <button onclick="previewCvVoice('${rowId}')" style="padding:2px 6px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#c9d1d9;border-radius:3px;cursor:pointer;white-space:nowrap;">🔊</button>
         </div>
         ${renderCvVoiceStyleTags(r.voice)}
+        ${noAudio ? `<div style="font-size:10px;color:#f0883e;margin-top:2px;">⚠ 音色库中无对应音频</div>` : ''}
         <div id="${rowId}_preview" style="margin-top:2px;"></div>
       </td>
       <td style="border:1px solid #21262d;padding:2px 3px;">
@@ -1258,11 +1263,12 @@ function renderCharVoices(rows) {
       <td style="border:1px solid #21262d;padding:2px 4px;">
         <input id="${rowId}_cat" value="${esc(r.category)}" oninput="markCvRowEdited('${rowId}')" style="width:100%;background:#0d1117;border:1px solid #30363d;color:#8b949e;padding:2px 3px;border-radius:3px;font-size:11px;box-sizing:border-box;">
       </td>
-      <td style="border:1px solid #21262d;padding:2px 4px;min-width:200px;max-width:200px;">
+      <td style="border:1px solid #21262d;padding:2px 4px;min-width:100px;max-width:100px;">
         <textarea id="${rowId}_note" oninput="markCvRowEdited('${rowId}')" style="width:100%;height:36px;background:#0d1117;border:1px solid #30363d;color:${isDup?'#f0883e':'#8b949e'};padding:2px 3px;border-radius:3px;font-size:11px;resize:vertical;overflow-y:auto;box-sizing:border-box;font-family:inherit;line-height:1.4;" rows="2">${noteContent}</textarea>
       </td>
       <td style="border:1px solid #21262d;padding:4px 6px;text-align:center;">
         <button class="accent" onclick="saveCvRow('${escJS(r.char)}','${rowId}')" style="padding:2px 8px;font-size:11px;">保存</button>
+        <button onclick="deleteCloneVoice('${escJS(r.char)}','${rowId}',this)" title="删除该角色的克隆音频" style="padding:2px 6px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#f85149;border-radius:3px;cursor:pointer;margin-top:3px;">🗑 删音频</button>
       </td>
     </tr>`;
   });
@@ -1311,9 +1317,11 @@ async function previewVdVoice(rowId) {
 
   el.innerHTML = '<span style="font-size:10px;color:#58a6ff;"><span class="spinner"></span> 启动 VoiceDesign 合成...</span>';
   try {
+    const charName = (document.getElementById(rowId + '_char')||{}).value || '测试角色';
+    const text = `我是${charName}，这是我的声音样本，欢迎收听蜀山剑侠传有声剧。`;
     const res = await api('/api/lab/vd-preview', {
       method: 'POST',
-      body: JSON.stringify({vd_prompt: vdPrompt}),
+      body: JSON.stringify({vd_prompt: vdPrompt, text: text, char_name: charName}),
       headers: {'Content-Type': 'application/json'}
     });
     if (res.error) { el.innerHTML = `<span style="font-size:10px;color:#f0883e;">${esc(res.error)}</span>`; return; }
@@ -1336,7 +1344,11 @@ async function previewVdVoice(rowId) {
           const logsHtml = logLines.map(l => `<div style="font-size:10px;color:#8b949e;">${esc(l)}</div>`).join('');
           el.innerHTML = `<span style="font-size:10px;color:#58a6ff;">🎤 合成中... <a href="#" onclick="previewVdVoice('${rowId}');return false;" style="color:#f0883e;text-decoration:underline;">取消</a></span>` + logsHtml;
         } else if (msg.type === 'done') {
-          el.innerHTML = `<audio controls autoplay src="${fileUrl(msg.data)}" style="width:100%;height:24px;"></audio>`;
+          el.innerHTML = `<div style="display:flex;align-items:center;gap:4px;" data-audio-path="${msg.data}">
+            <audio controls autoplay src="${fileUrl(msg.data)}" style="flex:1;height:24px;"></audio>
+            <button onclick="saveVdToClone('${msg.data}','${rowId}')" title="保存到克隆音色库" style="padding:2px 6px;font-size:10px;background:#238636;border:1px solid #2ea043;color:#fff;border-radius:3px;cursor:pointer;white-space:nowrap;flex-shrink:0;">💾 保存</button>
+            <button onclick="deleteVdPreview('${rowId}')" title="删除试听音频" style="padding:2px 6px;font-size:10px;background:#21262d;border:1px solid #30363d;color:#f85149;border-radius:3px;cursor:pointer;white-space:nowrap;flex-shrink:0;">🗑 删除</button>
+          </div>`;
           sse.close();
           vdActiveSse = null;
         } else if (msg.type === 'error') {
@@ -1354,6 +1366,66 @@ async function previewVdVoice(rowId) {
   } catch(e) {
     el.innerHTML = `<span style="font-size:10px;color:#f0883e;">请求失败: ${esc(String(e))}</span>`;
   }
+}
+
+async function saveVdToClone(audioPath, rowId) {
+  const btn = event.target;
+  const charInput = document.getElementById(rowId + '_char');
+  const charName = (charInput ? charInput.value : '').trim();
+  if (!charName) { alert('无法获取角色名'); return; }
+  const origHtml = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '...';
+  try {
+    const res = await api('/api/lab/vd-save', {
+      method: 'POST',
+      body: JSON.stringify({audio_path: audioPath, char_name: charName}),
+      headers: {'Content-Type': 'application/json'}
+    });
+    if (res.error) {
+      btn.innerHTML = '❌';
+      btn.title = res.error;
+    } else {
+      btn.innerHTML = '✅';
+      btn.title = `已保存: ${res.path}`;
+      // 刷新 voicesData 以便音色列表即时更新
+      try {
+        const r = await fetch('/api/clone-voices');
+        if (r.ok) voicesData = await r.json();
+      } catch(_) {}
+    }
+  } catch(e) {
+    btn.innerHTML = '❌';
+    btn.title = String(e);
+  }
+  setTimeout(() => { btn.disabled = false; btn.innerHTML = origHtml; }, 1500);
+}
+
+async function deleteVdPreview(rowId) {
+  const el = document.getElementById(rowId + '_vd_preview');
+  if (!el) return;
+
+  // 获取音频路径并删除文件
+  const wrapper = el.querySelector('[data-audio-path]');
+  const audioPath = wrapper ? wrapper.getAttribute('data-audio-path') : null;
+
+  if (audioPath) {
+    try {
+      const res = await api('/api/outputs/delete', {
+        method: 'POST',
+        body: JSON.stringify({path: audioPath}),
+        headers: {'Content-Type': 'application/json'}
+      });
+      if (res.error) {
+        console.error('删除音频文件失败:', res.error);
+      }
+    } catch(e) {
+      console.error('删除音频文件请求失败:', e);
+    }
+  }
+
+  // 清空预览区域
+  el.innerHTML = '';
 }
 
 function previewCvVoice(rowId) {
@@ -1657,6 +1729,34 @@ async function saveCvRow(charName, rowId) {
     alert('保存失败: ' + e.message);
     btn.textContent = origText; btn.disabled = false;
   }
+}
+
+async function deleteCloneVoice(charName, rowId, btn) {
+  if (!confirm(`确定要删除「${charName}」的克隆音频文件吗？`)) return;
+  const origHtml = btn.innerHTML;
+  btn.innerHTML = '...'; btn.disabled = true;
+  try {
+    const res = await api('/api/clone-voice/delete', {
+      method: 'POST',
+      body: JSON.stringify({char_name: charName}),
+      headers: {'Content-Type': 'application/json'}
+    });
+    if (res.error) {
+      btn.innerHTML = '❌'; btn.title = res.error;
+    } else if (res.status === 'deleted') {
+      btn.innerHTML = '✅ 已删'; btn.style.color = '#3fb950';
+      // 同步刷新 voicesData
+      try {
+        const r = await fetch('/api/clone-voices');
+        if (r.ok) voicesData = await r.json();
+      } catch(_) {}
+    } else {
+      btn.innerHTML = '—'; btn.title = '音频文件不存在';
+    }
+  } catch(e) {
+    btn.innerHTML = '❌'; btn.title = String(e);
+  }
+  setTimeout(() => { btn.disabled = false; btn.innerHTML = origHtml; btn.style.color = '#f85149'; }, 1500);
 }
 
 let voicesData = [];

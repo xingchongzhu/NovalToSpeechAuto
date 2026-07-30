@@ -1,0 +1,3158 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第217回 弹指悟夙因 普渡金轮辉宝相 闻钟参妙谛 一泓寒月证禅心",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "诸葛警我": {
+      "role_voice": "诸葛警我",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "虞孝": {
+      "role_voice": "虞孝",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "狄鸣歧": {
+      "role_voice": "狄鸣歧",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "天蒙禅师": {
+      "role_voice": "天蒙禅师",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "白眉禅师": {
+      "role_voice": "白眉禅师",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "芬陀大师": {
+      "role_voice": "芬陀大师",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "妙一真人": {
+      "role_voice": "妙一真人",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "妙一夫人": {
+      "role_voice": "妙一夫人",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "玄真子": {
+      "role_voice": "玄真子",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "白云大师": {
+      "role_voice": "白云大师",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "餐霞大师": {
+      "role_voice": "餐霞大师",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "晓月禅师": {
+      "role_voice": "晓月禅师",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "谢山": {
+      "role_voice": "谢山",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "叶缤": {
+      "role_voice": "叶缤",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "屠龙师太": {
+      "role_voice": "屠龙师太",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "李洪": {
+      "role_voice": "李洪",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    },
+    "齐霞儿": {
+      "role_voice": "齐霞儿",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "媖姆": {
+      "role_voice": "媖姆",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "甘碧梧": {
+      "role_voice": "甘碧梧",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "赤杖仙童阮纠": {
+      "role_voice": "赤杖仙童阮纠",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "丁嫦": {
+      "role_voice": "丁嫦",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "知非禅师": {
+      "role_voice": "知非禅师",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "无名禅师": {
+      "role_voice": "无名禅师",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "李宁": {
+      "role_voice": "李宁",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "采薇僧朱由穆": {
+      "role_voice": "采薇僧朱由穆",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "杨瑾": {
+      "role_voice": "杨瑾",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "齐灵云": {
+      "role_voice": "齐灵云",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "周轻云": {
+      "role_voice": "周轻云",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "秦紫玲": {
+      "role_voice": "秦紫玲",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "熊血儿": {
+      "role_voice": "熊血儿",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "追云叟白谷逸": {
+      "role_voice": "追云叟白谷逸",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "岳雯": {
+      "role_voice": "岳雯",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "林寒": {
+      "role_voice": "林寒",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第217回",
+          "instruct": "庄重大气，掷地有声，说书人的韵味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸葛警我也已看见二人，答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "道兄受惊，筵宴将设。左元洞全境暂时已难遍游，只好等二位旧地重游了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "听去声音极细，仿佛相隔甚远。二人一听盛筵未开，才知三日光阴仅只片时，所遇险难却不止百数，不由惊佩交集，喜出望外。一会，诸葛警我走近，见面先抱歉道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "脚步声渐近",
+            "sound_cn": "诸葛警我由远及近走来的脚步声，在谷中回荡",
+            "sound_en": "steady footsteps approaching from a distance, growing clearer as Zhuge Jingwo walks closer through the valley path, the sound echoing softly off the stone walls",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "走近",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "适才因知二兄如欲通行全境，由后山谷走出，尚须时刻。值有一事未向家师复命，抽暇前往，又和熊道友相见，谈了片时。二兄尚未走出，料是途中行法飞行，致触禁制，被困在此。二兄最终虽仍可由此中走出，终非待客之道。而小弟奉命掌管，因家师禁法神妙，可幻可真，一切均早设就，身入其中，只有心向本门，才可通过。而资禀缘福太浅，定力不坚，强由外人接引来此侥幸一试的，到时悔心一生，不愿再入本门，始得中途被摄脱险，摄向山外。否则，便须家师自行停止禁制。此外便是小弟，也须循着一定门户途向出入，不乱飞越。此间看似具体而微，实则景特繁多，包罗万有，可大可小，与佛家须弥芥子之喻，殊途同归。别时匆匆，未及回视，不知二兄触犯哪路禁制，误入何门。仙法微妙，景中人虽不像沧海藏珠那等细微，如不知一定地方，却也千头万绪，找起来甚是艰难。偏偏又有几位贵客降临，中有两位神僧，带来一个幼童李洪，说与掌教师尊，前有多世因缘，他又是九世修为，该为佛门弟子，更有巨大善缘未了，非有带修师父不可。而圣僧功行，不久圆满，不再收徒。凑巧谢真人和金钟岛主叶仙姑也同受了圣僧点化，皈依佛门。掌教师尊和家师正把李洪引进到谢真人门下，宾主商谈正密，未敢渎请，方在为难，意欲亲来一看。走到路上，忽接家师传音相告，说二位误入震宫，因已自己省悟，而能进出小人天界者，均是本门弟子，此时不便任其通行，已在暗中撤禁，使二位仍返原地。连忙赶来，二兄已果然在此。家师已怪小弟行事冒失，难再引路通行。为时无久，圣僧一去，便须开宴。此时长幼仙宾，均返中元前殿。右元火宅之游，只好俟之异日。稍往太元洞一带游览，也到时候了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人已心服口服，自然无不唯命，诸葛警我便向前引路。这时二人虽然勉强起立，身上疲苦仍在，又不好意思出口。心正发愁，因为受了禁制，所以如此，出去后还不知如何。诸葛警我已经觉察，便向二人道：",
+          "instruct": "温馨叙述，语调柔和，暖意融融"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "起身声",
+            "sound_cn": "二人勉强起立，衣料摩擦和轻微的呻吟声",
+            "sound_en": "rustle of robes and soft groans as the two men struggle to stand up, their bodies still aching from the ordeal, the sound of stiff limbs moving",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "勉强起立",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二兄适才想多劳顿，这个无妨。小弟身带家师所炼灵丹，服后立可复原。至于飞剑法力，也可恢复如初，只不过元气消耗，暂缓片时，出谷之后，始可随意施为罢了。",
+          "instruct": "强压怒火，咬牙切齿，愤懑难平"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随取两丸灵丹递过。二人才知此中并不全是幻境，那火宅乾焰，想必更是玄妙莫测。随将丹药接过，称谢服下，仍由原路退出。诸葛警我笑道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "取丹",
+            "sound_cn": "从玉瓶中取出灵丹的轻微声响，瓶塞轻拔",
+            "sound_en": "soft clink of porcelain as two pills are taken from a small jade bottle, the gentle pop of the stopper and the rustle of handing them over",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "取两丸",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "异日通行小人天界的，虽不免因定力信心不坚，不能走完，便被逐出的，毕竟十不逢一。既能来此，终是有缘。照二兄后来情景，并非不可通行。只因盛筵将开，不得不引二兄退出。日后如有机缘，或是暇时想起，何妨再续前游呢？以二兄之道力根骨，再来必举重若轻，从容通行，不致阻滞横生了。",
+          "instruct": "语气温柔，轻声细语，温婉可人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人闻言，想起诸葛警我几次所说，俱都含有深意。暗忖：",
+          "instruct": "神秘叙述，压低嗓音，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "峨眉派近奉长老遗命，光大门户，到处网罗有根器的门人，正邪各派新投入门者，日有增加。对方之言，分明是有为而发。峨眉玄门正宗，法力高深，开府以后，益发隆盛，能投到他们门下，仙业容易成就，自是幸事。无如师门恩重，万无舍此就彼之理。并且所学也是殊途同归，虽然比较艰难，成就迟缓，只要自己努力虔修内外功行，也不患不能求得正果，不是一定非遭兵解。此时见异思迁，非但背师负义，便是峨眉诸长老见了这样人，也决不会看中，弄巧还许摒诸门外。明明不行的事，对方偏三番两次示意引诱，是何缘故？",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "俱觉不解。虞孝最是口直心快，心想莫教旁人看轻，便答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "虞孝",
+      "api": {
+        "voice": {
+          "role": "虞孝",
+          "role_voice": "虞孝",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "贵派玄门正宗，又当最盛之际，光焰万丈，能得列入门墙，神仙位业指顾有期，委实令人钦仰羡慕。只惜愚师兄弟二人，从小便蒙家师度上山去，抚养传授，以至今日，师恩深厚。而敝派修为，又是循序渐进，不比贵派易于成就。近年奉命下山行道，内外功同时并进，更无暇晷。日后对此无边仙景，有贤主人殷勤延款，无此福缘享受，旧地重游，料已无望，只好空自神往罢了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我也明知二兄师门恩重，为副师长厚期，勤于修为，无暇重来。但是未来之事难料，即使诸位法力高深，长于前知的前辈，到自身头上，也当不免有千虑之失。此中消长，实关定数。适才所说，并非想二兄即日来游，只想二兄到了机缘凑巧，或有甚事见教之时，勿忘今日之言。俾得良友重逢，再续今日之游而已。",
+          "instruct": "语气坚定，不容置疑，斩钉截铁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二人闻言，心又一动。当时也未往下深说，已一同走出谷口。三人遥望中元殿前平湖上面，已现出一片晴天，皓月已被引来，照得全景清澈如画。各地仙馆，明灯齐放，光华灿若繁星。灵翠峰、仙籁顶两处飞瀑流泉，一个激射起数十百丈擎天水柱，一个如玉龙飞舞，白练高挂，给那十里虹桥与仙府前面红玉牌坊所发出来的宝光一映，千寻水雾，齐化冰纨，映月流辉。那凝碧崖前和远近山峦上，那些参天矗立，合抱不交的松杉乔木，桫椤宝树，映着宝光月华，格外精神。苍润欲流之中，更浮着一层宝光。并有雕鹫鸠鹤，五色鹦鹉之类，翔舞其上，猿虎糜鹿以及各种异兽，往来游行，出没不绝。而两崖上下的万行花树，百里香光，竞芳吐艳，灿若云霞。湖中青白莲花，芳丛疏整，并不占满全湖，共只十来片，每片二三亩不等，疏密相间，各依地势，亭亭静植在平匀如镜的碧波之中，碧茎翠叶，花大如斗，香远益清，沁人心脾，神志为旺。偶然一阵微风过处，湖面上闪动起千万片金鳞，花影离披，已散还圆，倍益精妙。加上数百仙侣徘徊其中，天空澄霁，更无纤云，当头明月格外光明，与这些花光宝气，瑶岛仙真，上下辉映，越觉景物清丽，境域灵奇。便天上仙宫，也不过如斯。虞、狄二人，先虽见仙府景物之胜，已是暗中叫绝惊奇，想不到新灯上后，明月引来，更增添无限风光，又是一番景象。极欲前往观赏，哪还舍得往别处走。狄鸣歧便说：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "明月波光",
+            "sound_cn": "月光洒落湖面，水波光影闪烁，金鳞万点",
+            "sound_en": "soft shimmer of moonlight cascading onto the lake surface, creating a dance of silver ripples and golden reflections across the water, like countless tiny fish scales flashing",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "二人闻言",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "夜风拂花",
+            "sound_cn": "夜风轻拂花树，花瓣沙沙作响，香风阵阵",
+            "sound_en": "gentle night breeze rustling through countless flowering trees, petals whispering and releasing waves of subtle fragrance into the air, a soft and continuous susurrus",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "微风",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 15.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "飞瀑流泉",
+            "sound_cn": "灵翠峰、仙籁顶两处飞瀑激射，水声轰鸣",
+            "sound_en": "roaring sound of two great waterfalls, one shooting up as a towering column of water, the other cascading down like a white jade dragon, the continuous rush of water echoing across the valley",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞瀑",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 20.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "仙禽异兽",
+            "sound_cn": "雕鹫鸠鹤、五色鹦鹉翔舞鸣叫，猿虎麋鹿往来出没",
+            "sound_en": "distant calls of celestial birds circling and dancing in the moonlight, mingled with the occasional rustle and low sounds of exotic beasts moving through the foliage",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "雕鹫",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "狄鸣歧",
+      "api": {
+        "voice": {
+          "role": "狄鸣歧",
+          "role_voice": "狄鸣歧",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "盛筵将开，道兄恐还有事，仙府后面，不去也罢。",
+          "instruct": "语气恐惧，带着惊慌，战战兢兢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸葛警我人最长厚，因来时玄真子曾说起二人未来之事，二人异日对头现在前面，此去难免遇上。恰好自己职司已完，未来同门师弟，能助他们去一难，岂不是好？本意想引二人到后山闲游，等听奏乐，再去入席。那时人多席众，两个宗派各殊，不在一起，席散自去，无甚交接，两不留意，日后相遇，或可无事。一见二人为前殿平湖奇景所动，极欲赶往，知道师父所说，定数难免，只得听之。暗中留神他们所遇的人是谁，以便再为打算。这时只有掌教妙一真人夫妇和谢山、叶缤，还有三五长老陪着新来的这几位仙宾，在殿中坐谈。余下众仙宾，也刚由各处游玩回来，由白、朱、乙、凌以及本门两辈师徒，三三五五，分别陪伴，在虹桥水阁，玉坊平湖之间，闲游观景。虞、狄二人想往飞虹桥上，赏玩湖中青莲，对诸葛警我道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "众仙闲谈",
+            "sound_cn": "远处虹桥水阁间众仙的闲谈笑语声，悠扬轻快",
+            "sound_en": "distant murmur of immortals chatting and laughing on the rainbow bridge and water pavilions, voices blending into a pleasant background hum, occasional laughter rising above the hubbub",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "闲游观景",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "虞孝",
+      "api": {
+        "voice": {
+          "role": "虞孝",
+          "role_voice": "虞孝",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我二人此时已渐复原，这里各方道友甚多，自会找伴。道兄是贵派同门之长，必还有事，请自便吧。",
+          "instruct": "语气哀求，带着恳求，声泪俱下"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸葛警我口里答应，分手之后，见岳雯、严人英、林寒、庄易、司徒平等十来人俱在平台之上凭栏望月，低声谈笑，齐朝自己招手。到了上面，不愿和众人说话。回头一看，见虞、狄二人走到桥上，迎头先遇见熊血儿同一新交道侣，知道不是。嗣见四人会合说笑，旁有二人走过，面有怒容，朝四人身后恶狠狠看了一眼，沿湖走去。认出那便是朱鸾的仇人巫启明师徒。因四人语声甚低，隔远不曾听见，看神气并未觉察有人怀恨，不知因何成仇，便暗记在心。岳雯笑道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "窃窃私语",
+            "sound_cn": "岳雯等人凭栏低声谈笑的细语声，衣袂轻拂栏干",
+            "sound_en": "soft murmurs and occasional laughter of a group of disciples leaning on the railing, their voices low and intimate, mingled with the rustle of sleeves brushing against the jade balustrade",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "低声谈笑",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "岳雯",
+      "api": {
+        "voice": {
+          "role": "岳雯",
+          "role_voice": "岳雯",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师兄看什么？那两个未来同门，心意如何？",
+          "instruct": "语气疑惑，带着不解，疑虑重重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那两个不肯忘本，堪与我辈为伍。此时只是敬服，尚无入门之意呢。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随问起谢、叶二仙客归入佛门之事。岳雯道：",
+          "instruct": "舒缓叙述，语调平稳，行云流水"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "岳雯",
+      "api": {
+        "voice": {
+          "role": "岳雯",
+          "role_voice": "岳雯",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "林师弟在侧随侍，比我知道得详细。",
+          "instruct": "语气温柔，轻声细语，温婉可人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "林寒",
+      "api": {
+        "voice": {
+          "role": "林寒",
+          "role_voice": "林寒",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小弟也只知道前半。现在如何，因师命退出，就不知道了。",
+          "instruct": "威严庄重，语调铿锵，气势逼人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "神僧来时，我正有事离开。秦师妹语焉不详。我只问天蒙老禅师和谢真人、叶岛主到底是何因果？可曾申说么？",
+          "instruct": "语气疑惑，带着不解，疑虑重重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "林寒",
+      "api": {
+        "voice": {
+          "role": "林寒",
+          "role_voice": "林寒",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这倒未说，只说前事。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来妙一真人夫妇、玄真子等峨眉派长老以及乙休、凌浑，白、朱二老，陪同海内外仙宾，往游仙府全景，兼为新设诸仙景题名。除左元、右元二洞因是门人修炼之所，只在附近转了转，没有进去外，余者仙府全景俱都游览殆遍。未了众仙宾因仙府前殿、虹桥平湖、玉坊飞阁气象万千，自不必说。此外以灵桂仙馆一带最为清丽，尤其那数百株桂树，都是月殿灵根，千年桂实，经用仙法灵泉栽植，每株大约数抱以上，占地亩许，茂枝密叶，繁花盛开，奇香馥郁，宛如金粟世界，令人心醉神怡，徘徊花下，不舍离去。盛会不常，日后难得再来，见时尚早，多想游完全景，再往小坐，留连片时，候到月上中天，始去前殿赴宴。妙一夫人笑道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "桂香夜风",
+            "sound_cn": "夜风中金粟桂花香飘散，细碎花瓣飘落如金雨",
+            "sound_en": "gentle breeze carrying the rich fragrance of osmanthus flowers, soft rustle of falling golden petals like tiny bells, the air filled with the sweet and heady scent of a thousand trees in bloom",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "桂树",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "妙一夫人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "本来定在灵桂仙馆外，金粟坪桂花树下，布筵款客。因在开府以前，群魔合力来犯，意欲施展邪法，崩山坏岳，倒塌峨眉全山，使此间全洞齐化劫灰。多蒙白眉禅师、芬陀大师请来当今第一位神僧天蒙老禅师，去至雪山顶上，施展无边佛法，大显神通，遥遥坐镇，方得消厄于无形，将晓月师兄勾引来的魔头、南疆长狄洞老怪哈哈老祖的元神化身惊走。妖法无功，晓月师兄本可幸免，他偏复仇心甚，不知自量。恰巧轩辕老怪有一妖徒，前与谢道友的义女、仙都二姊妹结怨，意欲乘她姊妹来此，途中加害，不料又被小寒山神尼忍大师以佛法暗助脱险。妖徒追到此，后洞轮值诸弟子自不容他猖狂，又用媖姆大师所赐修罗刀，予以重创。妖徒遁回山去，向师诉苦。老怪平日自尊自大已久，心里虽怯，不敢硬来，终觉扫了他的威望，大为愤恨。自身不敢轻易尝试，表面痛骂门人，怪他咎由自取，不为作主，暗中点醒，使其另约一厉害妖人，合力来犯。另外故意把几件厉害法宝显露出来，使妖徒来乘隙偷去应用。所约妖人，便是二百年前被家师长眉真人飞剑削去半臂，声言此仇必报，说完大话，又将家师所削小半身子索去的妖僧穿心和尚。当时家师明知他是用激将法，一则妖僧数限未尽，二则所习虽是不正，却和九烈等妖人一样，虽有恶行，尚能敬畏天命。除却刚强好胜，专与正人为仇外，不如他的人，明是仇敌，他也不肯加害。同门师兄弟，颇有几个不知他厉害的和他对敌，至多说上几句难听的话，总是放脱，并未伤过一人。因此家师听了他的话，只付之一笑，便即放却。但妖僧从此便在大行山阴，用法力在千寻山腹之中辟一石洞，苦修炼宝，以为报仇之计。去时曾经立誓，如他法力不胜家师，决不出世。嗣闻家师飞升，又急又气，为了昔年誓言，一直在太行山腹内，隐居了二百余年。不但未再见外人，连门下百八名女妖徒，也都在入山以前遣散，不曾留下一个。这次许是静极思动，大劫将临，竟被人将他怂恿出来，与我们为仇。如论妖僧法力，实不在哈哈、轩辕老怪之下。走到路上，晓月恰与相遇，妖僧本还想约两个同道商量，谋定再动。只因晓月与妖徒都是复仇之心太切，晓月更嫉今日开府之举，必欲加以扰害。而天蒙老禅师又用佛法迷踪，隐蔽神光，颠倒阴阳，连妖僧妖徒都误算雪山上三个强敌，事完各自回山，以为正好乘隙下手，即便不能全胜，人也莫我奈何。哪知还未到达，便被困入天蒙禅师大须弥障中。总算天蒙老禅师网开一面，妖僧妖徒各被白眉禅师打了一禅杖逃走。芬陀大师却将晓月禅师擒住，欲送来此间，照家师玉匣仙示处治。本已快到，因天蒙禅师在途中遇一旧友，略谈些时，又同去引度一人，故此小有耽延。前殿承诸位道友前辈施展仙法，点缀景物宏丽，迎接三位前辈神僧，较为庄重。故特将筵席改设在彼，并命门人等择那风景佳处设席，并不限定殿前平台一处。现已一切齐备，只等引来明月，便请入座。三位神僧神尼，大约不久即降，全体同门尚需恭出迎候。诸位欲往灵桂仙馆，只管随意，恕不奉陪了。那天蒙禅师，乃东汉时神僧转世，东汉季年已功行圆满，早应飞升极乐。只为成道之初，曾与同门师兄弟共发宏愿，互相扶持，无论内中何人有甚魔扰，或是中途信心不坚，致昧前因，任转千百劫也必须尽力引度，必使同成正果。当发愿时，双方都是夙根深厚，具大智慧，修为又极勤苦，本来极好的根器。无如入门年浅，求进太急，又以前生各有夙孽情累，遂致为魔所乘。禅师道心坚定，又只有一点夙孽，到时尚能强自镇摄心神，渡过难关。而那同门，却被魔头幻出前生爱宠，少年情葛，凡心一动，立堕魔障，等到醒悟色空，已是无及。并加上一个夙仇相迫，重又转劫入世。虽仗根骨福慧生有自来，又得老禅师累世相随，救度扶持。每次转劫，多是高僧行道，但那一段情缘未了，一直未得成为佛门正果。累得这位老禅师也迟却千余年飞升，中间助他超劫脱难，造成无心之过，并还转劫三生。不过老禅师智慧神通早到功候，虽为良友减削前孽，转动再世，却是生而神明灵异，迥异恒流，与寻常有道之士转劫不同罢了。直到北宋季年，老禅师方始隐居在滇西大雪山阴乱山之中，由此虔修佛法，不轻管人闲事。近年听说不久便要成正果。那同门料他情缘早了，重归佛门，将与老禅师一同飞升。只这位高僧是谁，却访问不出。禅师得道干余年，每次转世，法力只有精进，与白眉和尚齐名，为方今二位有道神僧，法力之高，不可思议。这次居然肯为峨眉出力，岂非异数？有一芬陀大师，群魔已非对手，况又加上这两位神僧，暗以绝大法力相助，自然举重若轻，群邪皆靡了。",
+          "instruct": "语气关切，带着担忧，情真意切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人这一番话，对那与峨眉交厚，早知底细的，还不怎样，那外来诸客，却大出意料之外。一听三位神僧神尼还要亲降，并还擒了晓月禅师同来，皆欲瞻仰，更不再作灵桂仙馆之游，一齐愿去至前殿相候。玄真子微运玄功推算，向妙一真人道：",
+          "instruct": "神秘叙述，压低嗓音，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "玄真子",
+      "api": {
+        "voice": {
+          "role": "玄真子",
+          "role_voice": "玄真子",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三位神僧神尼已将恩师遗旨所说的婴儿度引同来。留宴大约无望，事完即同飞锡。现已快由李善人家起身，我们速率众弟子，去到凝碧崖上空迎候吧。",
+          "instruct": "急切，带着焦虑，心急如焚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一真人随传法旨，命众弟子奏乐，手捧香花，排班出迎。一面转请百禽道人公冶黄、极乐真人李静虚、青囊仙子华瑶崧、媖姆师徒暂时代作主人，陪伴男女仙宾。在座仙宾凡是佛门中人，如神尼优昙、屠龙师太、南川金佛寺知非禅师、苏州上方山镜波寺无名禅师师徒等，或与三位神僧神尼同道相识，或是末学后辈，衷心敬仰，连同外道中高僧如虎头禅师之类，俱都随出迎接。那各派仙宾以及海外散仙，虽不一同出行，也多齐集殿前平台之上，恭候禅驾。谢山、叶缤在旁，忽然灵机一动，见杨瑾正要随众飞起，叶缤首先赶过去说道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "奏乐排班",
+            "sound_cn": "仙乐奏起，众弟子手捧香花列队而行，衣袂沙沙",
+            "sound_en": "celestial music begins to play as disciples form orderly rows holding fragrant flowers, the rustle of ceremonial robes and the soft tread of feet in unison, creating a solemn procession",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "妙一真人随传",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来时令师对我曾示玄机，惜乎我是钝根，未能领悟。我想随同主人出迎，不知可否？",
+          "instruct": "语气威严，带着霸气，号令如山"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "杨瑾",
+      "api": {
+        "voice": {
+          "role": "杨瑾",
+          "role_voice": "杨瑾",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这个有何不可？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，众门人已香花奏乐先行。妙一真人夫妇同了玄真子等一干长老，正由殿中步出。谢山见叶缤已和杨瑾商定，同出迎接，正想开口，妙一真人已先笑道：",
+          "instruct": "神秘叙述，压低嗓音，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谢道友，也想同走么？",
+          "instruct": "语气感激，带着感动，感恩戴德"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白眉老禅师原本见过，这位天蒙老禅师却是闻名已久，想求他指点迷津，因见诸位道友俱在殿台恭候，所以踌躇。同往迎接，正是心愿。",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "天蒙老禅师不为道友，今日还未必肯降临呢。一同去吧。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谢山闻言，心中又是一动。见妙一真人说完这句话，便和本派同辈群仙以及嵩山二老等，还有与白眉、芬陀交厚的仙师，相次由平台上起身，各驾遁光，越过虹桥平湖，往红玉坊外凝碧崖前上空飞去。杨瑾、叶缤二人，并立一处，也快随后起身，谢山赶忙过去笑道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "驾光飞起",
+            "sound_cn": "众仙各驾遁光飞起，衣袂破风声此起彼伏，光芒闪烁",
+            "sound_en": "continuous soft whooshes of immortals rising into the air on their individual beams of light, robes fluttering and wind rushing, the glow of their auras briefly illuminating the night",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "驾遁光",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "日前李道友同我往见白眉，曾示玄机，并有不日再见之言，难得老禅师同降，意欲往迎，就便请教。主人已走，和二位道友做一路吧。",
+          "instruct": "哀求，语调凄切，恳请再三"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "杨、叶二人含笑点头，三人随同飞起，到了凝碧崖上空。斜阳初沉，明月未升，半天红霞，灿如翠绮，正是黄昏以前光景。妙一真人率了两辈同门弟子，各驾云光，雁行排列，停空恭候。此时谢山遥望前面神僧来路，尚无动静。俯视峨眉，就在脚底，满山云雾迷茫，远近峰峦浮沉在云雾之中，如海中岛屿一般，仅仅露出一点角尖。再看云层以下，各庙宇人家，已上灯光，宛如疏星罗列，梵呗之声，隐隐交作。不时传来几声疏钟，数声清磐，越显山谷幽静，佛地庄严，令人意远。知道此时半山以下正下大雨，天色阴晦，所以月还未出，便上灯光。本山为佛门重地，普贤曾现化身，灵迹甚多，古刹林立。不禁想起佛家法力不可思议，一经觉迷回头，大彻大悟，立可超凡入圣。谢山回想自己根骨本厚，从小便喜斋僧拜庙，时有出家之想。记得当时还遇一位老僧点化，只为夙世情缘，割舍不下。后经变故，三生情侣，化作劳燕分飞，一时生离，竟成死别，心灰厌世之余，幸蒙恩师接引，始入玄门，侥幸修到散仙地位。因爱妻也是夙根深厚，只要寻到再生踪迹，便可引度，同修仙业。道成以后，也曾费尽心力，遍寻宇内，竟是鸿飞冥冥，找不到一点踪影。在苒数百年，随时都在留心，直到日前，才发现她早已皈依佛门，得证上乘正果，比起成就，要比自己高得多。不似自己每隔数百年，便要预防一次道家重劫，稍一不慎，便堕凡孽。这多年来，占算寻访，俱无下落，分明爱妻法力高深，恐留情孽相寻，隐迹潜形，不令知闻。近日功行将完，方始略露行藏，令往一见。想不到苦修多年，成就反不如她。谢山还想到幼年所遇高僧，也曾说过自己原是佛门弟子。自入玄门，修炼多年，每值静中参悟，不是不能推算过去未来。惟独对于过去诸生，只记得仿佛做过和尚，也做过道流，详情因果竟是茫然。以自己的法力玄机，直是万无此理，每一想起，便觉奇怪。以为前生必犯了教规，逐出佛门，一经堕劫，便昧夙因，忘却本来，所以别的都能前知，独此不能。事隔多年，忽于武夷山中石洞以内，发掘到古高僧锦囊偈语，方若有悟。同时好友叶缤，恰在海底珊瑚林内水穴之中，发现一具坐化千年的枯佛，得到一个古灯檠，与锦囊偈语诸多吻合。事后虔心参详，那海底枯佛分明是自己汉时遗体，为躲仇家和保持那古灯檠，留待今生遇合，物归原主。但今生偏又是玄门中人，殊觉离奇。新近为了此事，特请极乐真人李静虚引见白眉禅师，初意自己已成散仙，不会再皈依佛门，只不过请其指示前因，到底为了何事堕劫而舍释入道？如说过去有什罪恶，见弃佛门，仙佛一体，殊途同归，一样都是根深福厚始能成就，能为仙即能为佛。何况前生又是佛门弟子，本有夙世因缘，岂非难于索解？此外还要请教的，便是海底佛火心灯的用途，以及和叶缤的夙世渊源。哪知自眉禅师只将心灯来历用法指示，对于所问各节，只示机锋，语甚简略。枉自学道多年，智慧灵明，当时只觉他日成就，决不止此，急切之间，仍难参悟。因有“峨眉再见，回首即是归路”之语，料定必有深意存焉，时还未至，便不多说。今日一听说天蒙禅师将临，忽然灵机连动。现在峨眉上空，忽听下方僧寺疏钟清磐，禅唱梵音，又似有甚醒觉。此为近三百年来未有之景象，甚是奇怪。莫非将来仍要归依佛门，还我本来面目不成？谢山念头一转，侧顾叶缤，站在近侧，也在低眉沉思，容甚庄肃。居中站在众门徒前面的妙一真人和玄真子，正在对谈。因人数众多，随同迎候的外客，不肯悟越主人，多立在左右两侧，相隔较远，语声甚低。仿佛听",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "暮霭钟声",
+            "sound_cn": "远处寺庙传来疏钟清磐声，在山谷间悠悠回荡",
+            "sound_en": "distant tolling of temple bells and clear chime of stone gongs echoing through the misty valleys, the sound rolling across the mountainside, creating a serene and contemplative atmosphere",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "三人随同飞起",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 12.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "梵呗隐隐",
+            "sound_cn": "山下寺庙梵唱隐约传来，悠远而庄严，如潮水般起伏",
+            "sound_en": "faint chanting of Buddhist monks rising from the temples below, ethereal and sacred, blending with the evening mist, the sound rising and falling like a gentle tide",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "阳初沉",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "云雾翻涌",
+            "sound_cn": "脚下云雾翻涌，风穿过云层的低沉呼啸声",
+            "sound_en": "low rumble of wind moving through the dense cloud layer below, a continuous and soft rushing sound like distant ocean waves",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "云雾",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "玄真子",
+      "api": {
+        "voice": {
+          "role": "玄真子",
+          "role_voice": "玄真子",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此子居然如此道心坚定，转动多年，一灵不昧，却也难得。人都羡慕师弟有今日成就，哪知福缘善因，早在千年以前种下呢。",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白云大师元敬在旁插口道：",
+          "instruct": "从容叙述，娓娓道来，引人入胜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "白云大师",
+      "api": {
+        "voice": {
+          "role": "白云大师",
+          "role_voice": "白云大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此子既不应在我门中，年纪偏又是个三岁童婴，禅门中几位至交，不是衣钵早有传人，便是功行将行圆满，不能待他成就。此子发愿又宏，将来外道强敌不知多少，如不得一法力高强的禅师为师，任他生有自来，根器多厚，也难应付。师弟，你这前生慈父，作何打算呢？",
+          "instruct": "语气坚定，不容置疑，斩钉截铁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这一层我早想好了，少时自知分晓。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "餐霞大师",
+      "api": {
+        "voice": {
+          "role": "餐霞大师",
+          "role_voice": "餐霞大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此子之师，可是谢道友么？",
+          "instruct": "语气感激，带着感动，感恩戴德"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一真人点了点头。白云大师笑道：",
+          "instruct": "喜悦叙述，语调轻快，喜气洋洋"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "白云大师",
+      "api": {
+        "voice": {
+          "role": "白云大师",
+          "role_voice": "白云大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这个果然再好没有。我真非善知识，已经拜读玉匣仙示，只差把话写明，竟未想到，岂非可笑？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "先前众仙所谈，谢、叶二人俱未留意。后头是一段问答，全听得逼真。尤其谢山闻言，惊喜交集。照此说法，分明长眉玉匣仙示，早已注明，自己果然还要返本还原，重入佛门。方在推详，忽听白谷逸道：",
+          "instruct": "急促叙述，节奏紧凑，扣人心弦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "追云叟白谷逸",
+      "api": {
+        "voice": {
+          "role": "追云叟白谷逸",
+          "role_voice": "追云叟白谷逸",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "佛光现了，本来是在金顶，怎会如此高法？必是三位神僧神尼要显神通度人吧？",
+          "instruct": "威严庄重，语调铿锵，气势逼人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "峨眉金顶，每值云雾一起，常有佛光隐现。现时只是一圈彩虹，将人影映入其中，与画上菩萨的脑后圆圈相似，并无什强烈光芒。亘古迄今，游山人往往见此奇景。信的人说是菩萨显灵，不信的人多说是山高多云，日华回光，由云层中反射所致。但是宇内尽多高山，任是云雾多密，均无此现象。尤其是身经其境的，那轮佛光总是环在人影的脑后，和佛像一般无二，绝不偏倚，此与峨眉夜中神灯，同是宝景奇迹。千百年来，信与不信，聚讼纷坛，始终各是其是，并无一人说出一个确切不移之理。这在众仙眼里，原无足奇，可是当夜所见佛光，却与往常大不相同。众仙停处本在高空，脚底尽管云雾迷茫，上面却是碧霄万里，澄净如洗，并无纤云。那佛光比众仙立处还要高些，恰在青天白云之中突然出现。先也和峨眉金顶佛光相仿，只大得多，七色彩光也较强些，宛如一圈极大彩虹，孤悬天际，看去相隔颇远。及至众仙纷运慧目注视，晃眼之间，彩光忽射金光，化作一道金轮，光芒强烈，上映天衢，相隔似近在咫尺之间。可是光中空空，并无人影。众正惊顾，忽听身侧不远的知非禅师和无名禅师同声赞道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "佛光显现",
+            "sound_cn": "金轮佛光自天际显现，七色流转化为金光，梵音轻鸣",
+            "sound_en": "sudden emergence of a golden wheel of light in the clear sky, radiating brilliant colors that gradually converge into a single golden radiance, accompanied by a soft, resonant hum like distant celestial chanting",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "峨眉金顶",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "知非禅师",
+      "api": {
+        "voice": {
+          "role": "知非禅师",
+          "role_voice": "知非禅师",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "西方普度金轮，忽宣宝相，定有我佛门中弟子劫后皈依，重返本来。如非累世修积，福缘深厚，引度人焉肯以身试验，施展这等无边法力？此时局中人应早明白，还不上前领受佛光度化么？",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时谢、叶二人瞥见当中迎候的众仙，自妙一真人、玄真子以次，全都肃立躬身，神态异常诚敬，似要拜倒。一闻此言，猛然警觉，福至心灵，不谋而合，更不暇再看旁人动作，双双抢向前头，刚合掌膜拜，口宣佛号，跪将下去，便觉那轮佛光已将全身罩住，智慧倏地空灵，宛如甘露沃顶，心地清凉，所有累劫经历，俱如石火电光，在心头一瞥而过，一切前因后果，全都了了。当时大彻大悟，一同只高呼了一声：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光罩身",
+            "sound_cn": "佛光将二人全身罩住，光华流转如水，梵音轻鸣如磬",
+            "sound_en": "golden light enveloping the two figures completely, soft radiant hum and subtle bell-like chimes surrounding them, the light flowing like water over their forms as they are blessed",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "佛光",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "跪拜衣袂",
+            "sound_cn": "谢山、叶缤跪拜时衣袂擦过石阶的轻响",
+            "sound_en": "soft rustle of robes brushing against the stone floor as Xie Shan and Ye Bin kneel in reverence, the sound of fabric settling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "跪将下去",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我佛慈悲。",
+          "instruct": "悲伤，哽咽，泣不成声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金轮便已不见。事后，二人也仍立原处未动，只是弹指之间，各自换了一副面目，从此皈依佛门，仍还本来罢了。不过佛法神妙，不可思议，这些情景，由谢、叶二人动念起，直到悟彻前因，重返佛门，在场众仙除妙一真人、玄真子、优昙、餐霞、白云等十余位仙人，及外客中的知非禅师、侠僧轶凡、屠龙师大、无名禅师师徒等，总共不到三十人深知此中微妙，此外余人只见佛光，略现即隐，既未看见罩向谁的身上，也未看出有人上前受了度化。便有道行稍高的十来位，也只知道佛家普度神光的来历，专为接引夙根深厚的有缘人之用。能运用这等佛法的，已参上乘功果，行与菩萨罗汉一流。这类佛法，关系自身成败，轻易不肯施为，那金轮乃行法人的元灵慧珠，行法之时，必须觅地入定，功力稍微不到火候，固易为魔侵扰。这类佛法接引，又无异舍身度人，事前须发宏愿。而所接引的人，如非孽重魔高，前生早已成道，也不至于转劫。尤其是根骨越厚，前生道行越高的人，今生的陷入也更深，其或背佛叛道，往往最难回头，即或不然，仗着前生善根，未怎为恶，并还知道摆脱世缘，出家修道，有了成就，但也是个外教中人，决非佛门弟子。已经弃佛归道，身在玄门，将成仙业，对于佛家，纵不鄙薄，令他舍旧从新，也是难事。而这类事，又须全出自愿，进退取舍，系于一念，丝毫不能勉强。一个不领好意，或是到时夙因早昧，视如无关，不肯动念皈依，行法人虽不为此败道，也要为此多修积数百年功果，惹出许多烦恼，末了还须随定此人，终于将他引度入门，完了愿心，方得功行圆满，飞升极乐。中间只管千方百计，费尽心力，仍须对方自己回头，不特依旧不能勉强，连当面明言以告前因后果，剖陈得失利害，使早省悟，均所不能。所以如非交厚缘深，誓愿在先，便是佛门广大，佛法慈悲，也无人敢轻于尝试。主人既出接三位神僧神尼，行法人当然是其中之一。虽断定众中必有有缘人，在等接引度化，看佛光隐得这等快法，被引度人十九皈依，暂时却看不出来是谁。这些人方在相互悬揣，谢、叶二人经此佛光一照，已是心神莹澈，一粒智珠活泼泼的，安然闲立，一念不生。佛光隐后，随听遥远空中，隐隐几声佛号，声到人到，紧接着一阵旃檀异香自空吹堕。众仙知道神僧将降，妙一真人方令奏乐礼拜。面前人影一闪，一个庞眉皓首、怀抱婴儿的枯瘦长身瞿昙，一个白眉白须、身材高大的和尚，一个相貌清奇的中年比丘，身后还随定一个相貌古拙、面带忿怒之色的老和尚，已在当前出现。四位僧、尼到来，也未见有遁光云气，只是凌虚而立。众仙十九认得，第二人起是白眉和尚、芬陀神尼和晓月禅师。那领头一个，自是久已闻名的千岁神僧天蒙禅师无疑。忙即一同顶礼下拜不迭。三位神僧、神尼也各合掌答谢道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "佛号遥至",
+            "sound_cn": "遥远空中传来几声佛号，清越庄严，由远及近",
+            "sound_en": "distant chanting of Buddha's name, clear and solemn, echoing from the far sky, the sound growing gradually closer and more resonant, as if carried on the wind",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金轮便已不见",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "旃檀异香",
+            "sound_cn": "一阵旃檀异香自空中飘堕，香气浓郁庄严，如天雨花",
+            "sound_en": "sudden wave of sandalwood incense wafting down from above, rich and sacred, filling the air with a holy fragrance, as if flowers of light were falling from the sky",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "异香",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "贫僧、贫尼等，有劳诸位道友远迎，罪过，罪过！",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子等恭奉师命，开辟洞府，发扬正教。弟子德薄才鲜，道浅魔高，群邪见嫉，欲以毒计颠覆全山。如彼凶谋得逞，不特弟子等有负恩师天命，罪不可道，便这千百里内生灵，也同膺浩劫，齐化劫灰。多蒙二位老禅师与芬陀大师大发慈悲，以无边法力暗中相助，遍戮邪魔，尽扫妖氛，转危为安，使滔天祸劫消弭无形，功德无量。而弟子等实身受之，感德未已。复荷莲座飞降，弥增光宠。大德何敢言报！敬随玄真子大师兄，率领同门师兄弟以及门下众弟子，谨以香花礼乐，恭迎临贶。伏乞指示迷津，加以教诲，俾克无负师命，免于陨越，不胜幸甚！",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "真人太谦。今日之来，原是贫僧自了心愿。你我所为，同是分内之事，说它则甚？且去仙府说话。",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一真人等躬身应诺，随向侧立，恭让先行。三位僧、尼道声有潜，便自前行，凌虚徐降，往下面凝碧崖前云层中落去，众仙和众仙宾各驾遁光紧随在后。一时钟声悠扬，仙韵齐奏，祥氛散漫，香烟缭绕，甚是庄严。众仙飞降极速，依然三僧、尼先到一步。平台上早有多人仰候，见了三位僧、尼，也都纷纷礼拜。媖姆和极乐真人李静虚及灵峤诸仙，也相继出见。妙一真人随请殿中落座。众仙因这三位僧、尼行辈甚尊，道行法力之高不可思议；尤以天蒙禅师为最，此次先在雪山顶上为开府护法，扫荡邪魔，事后又生擒晓月禅师，一同降临，还有机密话说，得见一面已是缘法，不便冒昧忝列。外客除却灵峤男女四仙、屠龙师太、李宁、杨瑾、神尼优昙、半边老尼、媖姆师徒、采薇僧朱由穆、极乐真人李静虚、百禽道人公冶黄、谢山、半边大师、郑颠仙、知非禅师、易周、侠僧轶凡、无名师徒和乙休、凌浑、嵩山二老等二十余位，余者多自知分际，见两为首主人不曾指名相让，反倒分出人来陪客，料知有事，俱都不曾随入。便是主人这边，也只玄真子、妙一真人夫妇、白云大师、元元大师和四个随侍轮值的弟子在内，余人俱在殿外陪客，不曾同进。那晓月禅师却始终垂头丧气，如醉如痴，随在芬陀大师身侧，行止坐立，无不由人指点，直似元神已丧，心灵已失主驭之状。休说知非禅师见了慨叹，便是玄真子、妙一真人等一干旧日同门，也都代他惋惜不置。宾主就座，随侍四弟子献上玉乳琼浆，天蒙禅师等合掌谢领。玄真子因妙一真人适迎神僧时，曾向晓月禅师行礼，不曾理睬，看出他屡遭挫败，不特怙过不悛，故态依然，反倒因此羞恼成怒，益发变本加厉，心蕴怨毒，誓不两立，故意借受佛法禁制，假装痴呆。似此叛道忘本，执迷不悟的败类，师命尊严，即念同门之情，也是爱莫能救，不便再与多言。见天蒙、白眉就座，略微接谈，各自低眉端坐，宝相庄严，意若有事，便向芬陀大师请问经过。大师答道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "芬陀大师",
+      "api": {
+        "voice": {
+          "role": "芬陀大师",
+          "role_voice": "芬陀大师",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此人真不可救药。叛师背道，罪已难逭。近去南疆，为报前仇，竟炼了极恶毒的邪法，并勾结蛮僧哈哈和一些邪魔妖道，来与诸位道友为仇，被白眉师兄佛法所制。我因念在以前曾有数面之缘，念他到令师门下苦心修为，能有今日也非容易，以为他也是有道之士，怎便为了一念贪嗔，甘趋下流，不知顺逆利害，到了力竭势穷，行遭惨劫之际，还不回头觉醒？于是力向白眉师兄缓颊，略加劝诫，便即放走。他刚一走，天蒙师兄便用佛法隐晦神光，移形幻相。我问何故，二位师兄齐说，此人近来入邪日深，为魔所制，为逞一己之私，多行不义，已是丧心病狂，无法挽救，行即反恩为仇，不久仍要约请厉害妖邪，前来报复为祟。依他本意，颠覆峨眉以后，我们三人中，只我似乎好欺。适我放他，为的是免被白眉师兄押送此间，多受一场屈辱，并还免受那玉匣飞刀斩首之劫。他不但不知感恩，反想仗着邪魔之力，乘我门人不在，孤身入定之时，突然发难，前往暗算。事成固是称心，如若被我发觉，来的妖徒自难免于诛戮，正好就此激引轩辕老怪等为首邪魔，全力寻我三人作对。我听二位师兄之言，还以为他纵然悖谬，还不致如此胆大昏愚。及至默运玄机，细一参详，居然半点不差。到了今日傍午，他果约了几个比较伎俩多一点的妖邪回来，因为佛法所迷，虚实两皆误认，自投罗网。同来妖党，只两个数限未到的见机遁走，余者均被我除去。他也受了佛法禁制，被我擒来。此乃是白眉师兄为践昔年对令师的前约，有意假手于我。至于如何处治，乃是贵派家法与令师遗命，悉听尊便，不与我三人相干了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话刚说完，忽听玱然鸣玉之声。那藏飞刀的玉匣，本奉长眉真人遗命，在开府以后，藏在中元殿顶一个壁凹以内，这时突自开裂，飞出一柄飞刀。那刀只有尺许长，一道光华，寒光闪闪，冷气森森，耀眼侵肌。先由殿顶飞出，疾逾电掣，绕殿一周之后，略停了停，然后忽沉忽浮，缓缓往晓月禅师立处飞去。晓月禅师本是面带愧忿，垂首低眉，经妙一真人揖让，坐在三位僧尼左侧，虽为佛法所禁，不能自脱，到底在正邪两派俱都修炼多年，有了极深造诣，法力高强。本派中人，苦行头陀已经成道，深知天蒙、白眉二位神僧，决不会亲手杀他；芬陀大师也只将人交到为止，谅必不肯加害。此外能制自己死命的，只有玄真子和妙一真人二人。余者连白、朱、乙、凌诸仙宾都算上，不是势均力敌，难分高下；便是至多法力较高，要想伤害自己元神，仍是极难。这些仇敌都有声望，自视甚高，不肯众人合力对付一人。这个僭当教主的仇人，即便不念以前同门之谊，当着开府盛典，各方仙宾云集之际，也必要假仁假义，决不肯于当众加害。只有偏心薄情的前师所留玉匣飞刀，厉害无比。能抵挡此宝的，只有前古共工氏用太乙元精和万年寒晶融和淬炼的断玉钩。此钩现在身上，随心动念，便可飞出迎御。仇人既不肯当众下手，芬陀又只将己禁住，不令逃遁，法力仍在。来时，听白眉口气，好似自己还有后文，不致便遭劫数。便照形势情理来断，这些新旧仇敌，万不至于因见飞刀无效，重又合力下手，置己于死地。断定此来不过受些屈辱，并无凶险。本来早遭劫兵解，凭自己道行法力，转世修为，一样速成。并还可以不必再转人生，当时寻一好庐舍，立可重生修炼。不过仇敌法力功候太高，再行转劫，功力相差，更难追步，此仇越发难报。再者本身修为，煞非容易，现己脱胎换骨，炼就元婴，只为一朝之忿，误入歧途。因前在南疆，与哈哈老祖斗法不胜，拜在他的门下，妄以为可以成仙，报仇雪恨，自为教祖，偿那平日心愿。一步走错，便以错就错到底，渐致仇怨日深，江河日下，无法再反本来。如若当年不动贪嗔，独自虔修，本可炼到天仙地位。就是现在忘本趋邪，只不过不能飞升灵空仙界，又多了道家一次四九重劫，仙业仍然有望。这原来肉体怎舍弃去，为此只有忍辱含垢，等自己脱身以后，准备再用多年薪胆之功，一拼死活。晓月心虽如此想法，而对前师法力素所深知，自己的悖逆颠倒，多行不义，也不是不知其非。尽管受了哈哈妖师魔法暗制，当紧要关头，知道本门法规尊严，言必应验，因而也是有点心惊胆怯，不敢十分自信。昔年长眉真人所留玉匣飞刀家法，以及另外一些简箧遗示，多半俱当众弟子的面，封存收藏，尽管到时始得出现拜观，不知内容，形式全都见过。入殿落座，暗中留神观察，俱无影迹。玄真子只向芬陀大师问询前情，好似事前尚不知悉，否则玉匣早已请出，陈列殿中相待，哪有如此从容暇逸？照此情形，分明因为吉日灵辰，盛会当前，不愿以旧日同门来开杀戒，乐得假充好人。并还想到，叛教的人被外人擒送到此，如不经过处治，任其从容而去，决无此理，至少也要经过一番做作才是。也许仇敌心狠狡诈，既不便当众下手，为盛会杀风景；又好不容易擒到，不舍放脱为以后大患。表面假仁假义，已将玉匣取出，假作顾念前情，仗着外人法力禁制，不能脱身，留此解劝，或是稍微拘禁，便自悔悟。等到会后人去，再将玉匣飞刀请出，能杀便推在师父遗留的家法威力；不能，再行合力加害，必欲杀己为快，以免飞刀为断玉钩所破，有损长眉威严，并还放走仇敌，留下未来心腹之患。主意真个再毒没有。转不如拿话给他叫破，免中暗算。晓月正在胡思乱想，忽见飞刀突在殿顶出现，他自是识货，觉出以前亲见封刀入匣时，虽觉神物灵异，并无如此威力。枉自费尽心力，炼成一柄断玉钩，自信十分能敌。这时两两相较，分明仅能勉强阻挡，不特结局只能缓死须臾，并非敌手，甚至连元神婴儿也为所斩，无能幸免。心胆立寒，不禁悔恨交集。见飞刀电掣，转了一圈，朝已飞来。尺许长一道银光，精芒四射，直似一泓秋水，悬在空中。前面若有极大阻力，其行绝缓。忧惧危疑中，一眼瞥见妙一真人夫妇目注飞刀，面有笑容，大有得意快心之状。中座天蒙禅师，正在低眉入定。连他所抱三岁童婴，也在他怀中闭目合晴，端容危坐，相随入定，迥不似初入仙府，青瞳灼灼，东张西望，活泼天真之状。晓月心中恶毒之极，无从发泄。在座诸人法力高强，一击不中，徒自取辱。因来时天蒙、白眉中途忽离去了好一会，回来便抱个婴儿。听他三人对谈，此子竟是仇人前九世的亲生之子，与天蒙极深渊源。初世便在佛门，因受父母三十九年钟爱，父母年已八十，忽遇天蒙禅师度化出家。后来功行精进，万缘皆空，只有亲恩难报，不能断念，为此誓发宏愿，欲凭自己多生修积，助父母修成仙佛，方成佛门正果。由此苦行八世，俱是从小出家。那前生父母，便是仇人夫妇。因是本身好善，积德累功，终于归入玄门，成就今日仙业。此子虽算完了心愿，但是过去诸生，除头一世在天蒙禅师门下外，余均苦行修持，寿终圆寂，并无多高法力。又以时缘未至，终未见到父母一面。直到现今九世，投生在一个多子的善人家中，名叫李洪。天蒙禅师才去那家，暗地度化而来，一为使他父子重逢，二为自己功行圆满，几桩心愿已了，不日飞升。而此子此生，须将以前诸生所发宏愿一齐修积完满，并还随时助他父母光大门户，直到飞升灵空仙界，始能证果。当此异派云起之际，非有一位法力高强的佛家师父不可，故此带了回来。看他这时入定神气，晓月误以为天蒙禅师正用佛法度此婴儿，使他元神坚凝，日后易于成道。暗忖：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "玉匣开裂",
+            "sound_cn": "玉匣开裂的清脆声响，飞刀破匣而出，寒光一闪",
+            "sound_en": "sharp crack of jade splitting open, followed by the high-pitched ring of a flying blade emerging from its container, a flash of cold light accompanying its release",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "话刚说完",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "飞刀绕殿",
+            "sound_cn": "飞刀绕殿一周，寒光破空，金属嗡鸣声尖锐",
+            "sound_en": "whistling sound of a flying blade circling the hall at tremendous speed, leaving a trail of cold light and a sharp metallic hum that cuts through the air like a razor",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "话刚说完",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "仇人真个阴毒可恶。本是同门至交，因夺了我教主之位，才致今日惨状。现我狼狈至此，毫无动念，反以速死为快。听老秃驴说，此予日后于他发扬光大，大有助益。反正难免兵解，倒不如趁此时机，将此子杀死，就势拼着原法身不要，再去投生转世。一面用断玉钩敌住飞刀，不使刀光照顶，先用飞剑自行兵解，好歹出一点怨气。仇敌虽多高明，此举突然发动，又当自己势迫危临之际，人所不防，只要下手神速，未必便达不到；即或无成，仍是兵解，也无别的害处。",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "想到这里，恶念顿生。说时迟，那时快，晓月念头一转，默运玄功，心念所向，身旁断玉钩便化成两钩金红色极强烈的光华，互相交尾飞出，直朝婴儿飞去。其势比电还疾，法宝又极厉害，相隔又这么近，似此突然发难，便有大法力的人遇上，多半惊惶失措，难于抵御。在座诸仙宾，多半不知此中底细，俱觉此举太狠，激于义愤，知道救已无及，好几位都在厉声呼叱，待要下手。口刚一开，忽见钩光到处，婴儿顶门上突升起一朵金莲花，竟将钩光托住。婴儿一双漆黑有光的炯炯双瞳，也自睁开，一点也不害怕，反伸出一双赛雪似霜的小胖手，不住向上作势连招，似想将钩取下，却不敢之状。天蒙禅师随睁眼喝道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "断玉钩飞出",
+            "sound_cn": "断玉钩化作两道金红光华飞出，破空之声凌厉刺耳",
+            "sound_en": "sharp whoosh as the broken jade hook transforms into two beams of golden-red light, flying towards the baby with deadly speed and a piercing hum that cuts through the hall",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "断玉钩",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金莲托钩",
+            "sound_cn": "婴儿顶门金莲升起，托住钩光，光华流转，梵音清响",
+            "sound_en": "soft chime and radiant glow as a golden lotus rises from the infant's crown, catching and holding the two beams of light with gentle but firm force, the sound of petals unfolding in a sacred resonance",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金莲花",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "众仙惊呼",
+            "sound_cn": "在座仙宾惊怒呼叱声，短促而激烈",
+            "sound_en": "sharp gasps and shouts of alarm and anger from the assembled immortals, a brief chorus of outrage at the sudden attack",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "厉声呼叱",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "洪儿，你将来防身御魔，尚无利器。适才怜你年幼，已将你多生修积功力还原，并赐你我佛门中的大金刚愿力。你既想在证果以前借用此宝，便即取下，何必迟疑？",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "李洪",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "text": "弟子遵命，敬谢恩师。",
+          "instruct": "语气感激，带着感动，感恩戴德，稚气未脱，语气天真，孩童般纯真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说，小手一抓，宝光立化为一柄非金非玉，形制奇古，长约二尺的连柄双钩，落到手里。婴儿这时已经天蒙禅师点化，洞彻夙因。钩取到手以后，立即纵身下地，直朝妙一真人夫妇奔去，眼蕴泪珠，喜孜孜跪在地上，叩头不止。真人夫妇早知来因，随命起立，等到事完，再向诸道长礼拜。妙一夫人随手便抱了起来。且不提多生再遇的母子亲爱。只说那晓月禅师一见婴儿头顶现出金莲，法宝无功，大吃一惊。忙运玄功收回，已被天蒙禅师施展无边佛法，相助婴儿收去，再也收它不回。本就难于幸免，此举残忍，更犯众怒。如不早自打点，就许形神皆灭，再转人生，俱都无望。万分惶急中，欲放飞刀自行兵解时，哪知天蒙禅师话还未和婴儿说完，就这一睁眼的工夫，那柄飞刀本是飞来极缓，这时竟比初现时飞得还快，连放飞剑自杀都来不及。晓月这里断玉钩没有收回来，刚试得一试，飞刀已电掣而至，到了离头丈许，倏地展开，化为一片三丈方圆光幕，将全身罩住，外圈渐有下垂之势。知道厉害，刀光只要往下一围，不特通体立即粉碎，化为一股白烟消灭，连血肉都不会有残余，便自身婴儿元神，也同时化为乌有。想要自裁兵解，势已不能。晓月禅师枉自修炼功深，饶有神通变化，平日妄自狂傲，不肯低首下心向人，到此存亡绝续，危机瞬息的境地，也是心寒体颤，六神皆震。情知长眉真人仙法神奇，在座诸仙谁也解它不得。便是乞怜求饶，也无用处。情急之下，顿生悔心。这时只恨孽由己作，用尽心机，先期百计防范，到头来依然难逃显戮。料定不免于难，便把双目闭上，暗运玄功，打算死中求活，将元神缩小，静俟飞刀上身时，乘隙将元神遁走，作那万一之想。同时默求师父，恩施格外，特赐原宥，只使身受诛戮，不要伤及元神，便是万幸。本心元神不敢即出，战战兢兢，潜伏待机。满拟刀光四外一合，便即了帐。但有丝毫空隙，无论何处，均可变化逃走。正在忧惊颤抖，不知如何是好，等了一会，不见飞刀近身，耳听众仙求情之声。虽然自觉许有生机，惟恐一时疏神，刀光突然合拢，元神不及遁逃，形神皆灭。存心戒惧，认作一发千钧，仍持前念，不敢骤然睁目，分了心神，并遭仇敌耻笑。暗将飞剑紧护元神，潜伏左臂腋下，准备刀光透体时，奋力一挡，略微冲荡开一丝缝隙，飞剑虽未必能保，元神或可幸免。晓月准备停当，仍无动静，方始略微分心静听，果是玄真子、妙一真人诸旧同门师兄弟，在那里代向长眉真人求恩原恕。大意说他叛道背师，投身邪教，忘恩反复，多行不义，该正家法，予以显戮。但他当初只是一念之差，并未为恶。后受邪魔诱迫，迷途不返，日趋堕落，不能自拔，并非出自本心。加之贪嗔之念太重，遭受挫折，有激而发。虽彼执迷不悟，一半也由于弟子等德薄能鲜，不知善处，感化无方，以至今日，为此引咎，情愿分任其责。敬乞恩师大发鸿慈，并看在三位老禅师面上，念他相随多年，能到今日，大非容易。前在本门，实无大过。特降殊恩，姑且原宥，暂免刑诛，予以最后一条自新之路。晓月禅师听出语气纯诚，并非卖好做作。又知此刀乃师留本门家法，便几个道行最高的旧同门，如玄真子、妙一真人等三数人犯了教规，一样受刑，无力避免。先还当前古至宝断玉钩专破飞剑飞刀，可以抵御。谁知师父法力仙机神妙莫测，一经相对，仍是相形见绌，万非其敌。照飞刀的神异威力，谁也阻它不住。按说在眨眼之间，早已应劫上身，怎会虚悬？只觉寒气森森，逼人肌发，尚未下合，不是数限未到，便是师父允了众人求恩原宥之请；即或不然，也好趁这将落未落之际，查看一条出路。似此闭目等死，岂非胆小太过，弄巧反倒误事，更是冤枉。晓月念头一转，忙即睁眼一看，一干旧同门俱朝飞刀跪下，求告将终。随侍四弟子俱未在侧。在座一二十位仙宾，除白眉、芬陀、媖姆、优昙、李静虚在座前站立外，俱都回避旁立。只天蒙禅师一人仍坐原位，右手外向，五指上各放出一道粗如人臂的金光，将飞刀化成的光罩，似提一口钟般凌空抓住，不令再往下落，面容端庄。等妙一真人等求告完毕，忽朝自己微笑道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "刀光展开",
+            "sound_cn": "飞刀化为光幕展开，寒光凛冽，杀气森森逼人",
+            "sound_en": "sharp metallic hiss as the flying blade expands into a three-zhang curtain of light, radiating intense cold and a terrifying aura that chills the air and sends shivers through all present",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "光幕",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "众仙求情",
+            "sound_cn": "玄真子、妙一真人等众仙齐声求情，声音恳切悲悯",
+            "sound_en": "earnest voices of multiple immortals begging for mercy on behalf of the condemned monk, their pleas rising in a chorus of compassion and concern that fills the hall",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "宝光立化为一",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "可惜，可惜！一误何堪再误？长眉真人已允门下诸道友之请，缓却今日惩处，你自去吧。",
+          "instruct": "哀求，语调凄切，恳请再三"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，奋臂一提，刀光便似一团丝般应手而起，被那五道金光握住，绞揉了几下，金光银光同时敛去。禅师手上却多了一把长约七寸、银光如电的匕首。同时玄真子等也纷纷叩谢师恩起立，走到禅师面前。由妙一真人躬身将那飞刀接过，恭恭敬敬拜至殿的中心，双手捧着往上一举，仍化一道银光，飞向殿顶原出现处。又是一声鸣玉般响声，便自回匣，不见一点痕迹。晓月禅师死中得活，想不到如此容易，一时心情竟是恍惚，也不知是喜是忧，是愧是悔，呆在那里。媖姆喝道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "刀光收拢",
+            "sound_cn": "天蒙禅师收起飞刀，金光收敛如丝，匕首显现",
+            "sound_en": "sudden cessation of the light curtain, followed by a soft metallic click as the blade is compressed into a small dagger, the sound of immense power being contained and transformed",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞刀回匣",
+            "sound_cn": "飞刀飞回玉匣，一声鸣玉轻响，余音袅袅",
+            "sound_en": "clear jade-like chime as the flying blade returns to its casket, the sound resonating with finality and peace, like a bell tolling the end of a crisis",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "奋臂一提",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "媖姆",
+      "api": {
+        "voice": {
+          "role": "媖姆",
+          "role_voice": "媖姆",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你已幸逃显戮，还不革面洗心，自去二次为人，呆在这里有何益处？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "晓月禅师这才想起惊悸过甚，逃生出于意外，竟忘了叩谢师恩，还有对方适才此举，不能说是无德于己。侧顾座中，惟有旧友知非禅师，正朝自己摇头叹息，颇似关切，授意自己，此是洗心革面之机，休再执拗。无如对方俱是仇敌，平日势不两立，忽然腼颜向仇人致谢，未免难堪。尤其媖姆和屠龙师太，尚在怒目相视，状甚鄙夷。师恩自是应谢，别的仇人实放不下这个颜面。暗忖：",
+          "instruct": "悬念迭起，步步紧逼，引人入胜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "今只幸免一时，将来如何，仍视自己行径如何而定，也不在此几句虚言。此时方寸已乱，心志未决，受制前师，与受制仇人不同，何必多此一举，留人话柄？",
+          "instruct": "欢快叙述，节奏明朗，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "匆匆一想，便朝殿外礼拜，谢了师父不杀之恩。随又起立，也没向众说话，只朝中座天蒙禅师合掌说道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "晓月禅师",
+      "api": {
+        "voice": {
+          "role": "晓月禅师",
+          "role_voice": "晓月禅师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "多蒙老禅师佛法相救，免我大劫。但我罪孽深重，势已至此，或是从此销声隐退，闭门思过；或是重蹈前辙，再犯刑诛。此时尚还难说。敬谢大德，贫僧去也。",
+          "instruct": "语气感激，带着感动，感恩戴德"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "屠龙师太最是疾恶，前在峨眉门下，便与晓月不和。今见他已是日暮途穷，一干旧同门对他如此恩厚，依然不能感化，刚愎倔强，不肯回头，听那行时口气，仍要卷土重来，为仇到底，不禁愤怒，大喝：",
+          "instruct": "舒缓叙述，语调平稳，行云流水"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "屠龙师太",
+      "api": {
+        "voice": {
+          "role": "屠龙师太",
+          "role_voice": "屠龙师太",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无知叛师孽徒慢走！你以为只有师父家法始能制你？限你三日之内，如无悔过誓言，我便寻你作个了断！",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 74,
+      "role": "晓月禅师",
+      "api": {
+        "voice": {
+          "role": "晓月禅师",
+          "role_voice": "晓月禅师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无耻泼尼！你也是被逐之徒，腼颜来此，也配口发狂言，仗势欺人，还逞什么威风？",
+          "instruct": "疑惑不解，语调迟疑，百思不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 75,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话还未完，忽听天蒙禅师道：",
+          "instruct": "舒缓叙述，语调平稳，行云流水"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 76,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "屠龙休得多此嗔念。他自有个去处，管他则甚？晓月，你还不到地头，何不快走？",
+          "instruct": "语气急切，语速加快，迫不及待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 77,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "听到“走”字，好似声如巨雷，震撼心魄，大吃一惊，又好似着了当头棒喝，心中有些省悟，身不由己，驾起遁光，便往殿外飞去。只是飞遁迅速，殿外长桥卧波，玉坊耀彩，灵峰耸秀，飞瀑鸣玉，到处祥氛瑞气，花光岚影，仙府丽景，已是二度映入眼底。由不得魔头暗制，妒羡交集，贪嗔之念重生，仇恨倍增。当时没有停留，径直飞去。屠龙师太听他辱骂，并未在意，又经禅师唤住，便即归座。白眉禅师叹道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "晓月飞去",
+            "sound_cn": "晓月禅师驾遁光飞走，破空之声凌厉而急促",
+            "sound_en": "sharp whoosh as Xiaoyue Chan master flies away on his beam of light, his departure swift and bitter, the sound of his passage cutting through the air with a resentful edge",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "驾起遁光",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 78,
+      "role": "白眉禅师",
+      "api": {
+        "voice": {
+          "role": "白眉禅师",
+          "role_voice": "白眉禅师",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "此人根骨原本不差，否则当初长眉真人怎肯收录？只因过去一生中夙孽太重，以致一念之差，误投邪教，为魔力所暗制。他在黄山紫金溪隐居时，虽己入了旁门，仍然时常警惕，并未常与妖师亲近。不合妄用机智，自信道力过深，欲巧惜妖师之力，觊觎教祖之位。并还想俟妖师数尽以后，将他门下妖党一齐度到峨眉门下，使其改邪归正，自为教祖，光大门户，为千秋万世玄门宗祖。起念虽由贪嗔，用心设想也未始没有他的道理。即使对现今峨眉诸道友，也不过想到时迫令降伏，屈居其下，并无伤害之心。却不知哈哈老妖得道七八百年，为南疆邪教宗祖，尽管走火入魔，暂时身同木石，元神仍能飞行变化，运用自如。并且入魔不久，苦心虔修，所炼害人害己的阴魔，重又被他的法力智慧降伏。晓月禅师与之斗法，尚且不胜，如何能落在他暗算之中？又不合为一孽徒，妄信妖妇许飞娘的蛊惑，慈云寺斗时，误用妖师秘传十二都天神煞，为苦行道友佛法所破。害人未成，阴魔反制。由南川金佛寺回醒以后，心中愤激太甚，竟不听良友箴规，不辞而别，赶往南疆，从妖师习练妖法。由此越为阴魔暗制，倒行逆施，日趋堕落。实则灵性早迷，明知是害，不计灭亡。平日法力，只能用以济恶，对于本身全无补益。我三人带他到来，原为践我昔年与长眉真人之约，在他大劫未临以前，先给他一个警戒，就便由天蒙师兄用佛法试为其难，看他能否及早回头，以免毁去那数百年修炼之功。飞刀为长眉真人昔年初成道时，降魔镇山之宝，早已通灵变化，神妙无比。除我外，诸位道友中只一两位见他用过。本来绕殿一周之后，他便遭了劫数。因被天蒙师兄用佛法阻住，来势甚缓。他如真能悔悟，一声祝告，刀便飞回。他偏昏昧无知，见难泄忿，意欲暗算婴儿，下手狠毒。那断玉钩乃前古异宝，也非常物。天蒙师兄因为婴儿尚无合用防身之宝，便加以收取。飞刀无了阻挡，立即如电飞来，本是难免。因他当时已生悔心，刀未下合，略微一缓。天蒙师兄又以佛家金刚手，将刀抓住。后经诸道友求情，方免于难。如非入魔太深，我等三人不愿强施佛法，逆数而行，致生别的枝节。只再费点心力，便可强他醒悟。好在他道基颇厚，数应遭此一劫，再经一世修为，始能成就，孽满劫临，自能醒悟。只好略尽心力，稍微警惕。成败祸福，仍然视他一念转移，且由他去。屠龙道友近已功力精进，此中消长不应不知，为何也要与他计较？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 79,
+      "role": "屠龙师太",
+      "api": {
+        "voice": {
+          "role": "屠龙师太",
+          "role_voice": "屠龙师太",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子生性疾恶，见不得这等忘恩背德、狂悖乖谬的行径，意欲加以告诫。听二位老师父法谕，现在想起也觉多事。",
+          "instruct": "感激涕零，语调真诚，真情流露"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 80,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一夫人见双方话完，便把婴儿李洪放下，引导他朝众仙宾分别拜见，略说前生因缘。众仙见李洪生得面如冠玉，唇红齿白，目如朗星，根骨特异，禀赋尤厚。适又经过天蒙禅师佛法启迪，使其神完气旺，髓纯骨坚。小小童婴，顿悟夙因，具大智慧。相貌又是那等俊美，宛如明珠宝玉。内蕴外宣，精神自然流照，无不称奇爱赞。灵峤三仙更极喜爱，等过来拜见时，甘碧梧首先揽至膝前，奖勉了几句，由身边取出一块古玉辟邪，给他佩在颈间，说道：",
+          "instruct": "神秘叙述，压低嗓音，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 81,
+      "role": "甘碧梧",
+      "api": {
+        "voice": {
+          "role": "甘碧梧",
+          "role_voice": "甘碧梧",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "适闻诸道友说，你再有六七年，便须出外行道。目前诸邪猖獗，你又将晓月禅师的断玉钩强借了来，异日难保不狭路相逢。此宝虽无多大威力，却能防御左道中的阴雷魔火诸邪不侵，用以防身，不无小助。客中无以为赠，聊以将意。异日有暇，望在便中过我灵峤荒居，或能有所补益呢。",
+          "instruct": "语气威严，带着霸气，号令如山"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 82,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李洪此时已经恢复前生灵智，迥非来时之比。闻言忙即合掌拜倒，领谢起身。赤杖仙童阮纠同了丁嫦，也各取了一件宝物相赠：一是碧犀球，用以行水，能使万丈洪波化为坦途；一是三枚如意金连环，也是专破左道白骨箭类阴毒邪法之宝。李洪一一拜谢受领，学了用法，去至下首妙一真人面前侍立。妙一真人这才手指李洪，转向谢山道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "宝物授受",
+            "sound_cn": "灵峤三仙取出宝物相赠，玉器轻碰，衣料摩擦声",
+            "sound_en": "soft clinks of jade and the rustle of silk as the three Lingqiao immortals take out their treasures and bestow them upon the young boy, the sound of ancient magic changing hands",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "取了一件",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 83,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "日前拜读家师玉匣留示，才知此子本是佛门弟子。现今几位前辈神僧，功行俱将圆满，不及携带。而此子以前诸生，发愿甚宏，须历年时始得圆满。方今群邪猖狂，此子冲年在外积修善功，不免到处都有左道妖邪与他为仇。非得一位具有极大法力的禅门师父，传以降魔本领，随时照护不可。道友适才皈依佛门，也须有番修积，门下又无弟子，虽有两位令爱，不久便去小寒山忍大师门下清修，不得随侍在侧，将来衣钵，也无传人。如今此子拜在道友门下，实是一举两得，不知道友心意如何？",
+          "instruct": "愤怒，低沉，压抑着怒火"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 84,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小弟为了一些世缘，转劫多生，终无成就。今生枉自修炼多年，对于过去一切因果，竟是茫然。适才出迎三位禅门大师，幸蒙老禅师大发慈悲，宏宣宝相，金轮普度，佛法无边，方始如梦初醒，悟彻夙因。现虽立志皈依佛门，寻求正果，但是自来所学不纯，法力浅薄。贤郎多生智慧，根骨深厚，现虽年幼，不消数年，必能精进，不可思议。小弟初入佛门，尚在学步，如何配做他的师父呢？",
+          "instruct": "悲痛交加，声泪俱下"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 85,
+      "role": "芬陀大师",
+      "api": {
+        "voice": {
+          "role": "芬陀大师",
+          "role_voice": "芬陀大师",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "道友过谦了。休说此子本你前生师侄，夙有因缘，谢道友又何尝不是修积释道两门，殊途同归，无异一体。我佛门中法，说难便难，说易便易。道友新近皈依，仅自彻悟，还未修为，心存客气，自然患为人师。",
+          "instruct": "强压怒火，咬牙切齿，愤懑难平"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 86,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谢山原极爱重李洪，只因初悟夙因，匆匆与前世师兄相晤，有好些话尚未询问，自身尚无师承，如何便收弟子？为此谦辞。及听芬陀大师这等说法，妙一真人只是含笑不语，情知真人言不虚发，事已定局，便起身答道：",
+          "instruct": "欢快叙述，节奏明朗，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 87,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谨谢大师教益。但后辈自身尚无师父，如何收徒？齐道兄之嘱，不敢不遵，只请暂缓，容我拜师受戒之后如何？",
+          "instruct": "感激涕零，语调真诚，真情流露"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 88,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "边说边往天蒙禅师座前走去。本意近前跪倒拜师，请求收为弟子。哪知刚一跪将下去，天蒙禅师本在低眉默坐，忽然伸手向谢山顶上一拍，喝道：",
+          "instruct": "舒缓叙述，语调平稳，行云流水"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "掌击顶门",
+            "sound_cn": "天蒙禅师手掌轻拍谢山顶门，一声清响",
+            "sound_en": "soft but resonant tap on the crown of Xie Shan's head, the sound of a palm connecting with a clear and awakening impact",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "向谢山顶上一拍",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 89,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "你适才已明白，怎又糊涂起来？本有师父，不去问你自己，却来寻我，是何原故？",
+          "instruct": "疑惑不解，语调迟疑，百思不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 90,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谢山吃普度佛光一照，仅只悟彻夙因，以佛法素重传授，未来如何修为，尚须禅师指示。况他又是前生师兄，为了自己，迟却千年证果，受恩深重，觉着拜师万无不允。偏生对付晓月，好些耽搁，不便越众前请。此念横亘于胸，尽管智慧灵明，竟未往深处推求。及被天蒙禅师拍顶一喝，猛地吃了一惊，当时惊醒，神智益发空灵。立即膜拜在地道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 91,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "多谢师兄慈悲普度，指点迷津。",
+          "instruct": "悲伤，哽咽，泣不成声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 92,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "怎见得？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 93,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "波心寒月，池上青莲；还我真如，观大自在。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 94,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "咄！本来真如，作甚还你？寒月是你，理会得么？",
+          "instruct": "呵斥，语调严厉，声色俱厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 95,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "寒月是我，理会得来。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 96,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "好，好！且去，且去！莫再缠我。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 97,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你去，你去！好，好！",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 98,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白眉禅师、芬陀大师随即起立，同向妙一真人道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 99,
+      "role": "白眉禅师",
+      "api": {
+        "voice": {
+          "role": "白眉禅师",
+          "role_voice": "白眉禅师",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "天蒙师兄与寒月师弟因缘已了，我三人尚有一事未办，还须先行，要告辞了。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 100,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "叶缤也和谢山一样，有许多话要请教，并欲拜芬陀为师，一见要走，忙即赶前跪下。被芬陀大师含笑拉起道：",
+          "instruct": "悬念迭起，步步紧逼，引人入胜"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "跪拜声",
+            "sound_cn": "叶缤急步上前跪下的衣料摩擦声",
+            "sound_en": "rustle of robes as Ye Bin hurries forward and kneels, the sound of fabric settling on the floor in a gesture of reverence",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "赶前跪下",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 101,
+      "role": "芬陀大师",
+      "api": {
+        "voice": {
+          "role": "芬陀大师",
+          "role_voice": "芬陀大师",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "道友心意，我已尽知，但贫尼与你缘分止此。行得匆忙，无暇多谈。你和谢道友一样，从此礼佛虔修，自能解脱。一切适才想已知悉，何庸多说？",
+          "instruct": "急切，带着焦虑，心急如焚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 102,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子已知无缘，只请和老禅师一样，略示禅机，赐与法名如何？",
+          "instruct": "威严庄重，语调铿锵，气势逼人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 103,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，殿外云幢上，钟声正打到未一响上。大师笑问道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "钟声尾音",
+            "sound_cn": "云幢上最后一声钟响，余音袅袅，渐散入夜",
+            "sound_en": "the final toll of the bell from the cloud pavilion, its resonant tone fading slowly into the night air, leaving a lingering sense of sacred silence",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "钟声",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 104,
+      "role": "芬陀大师",
+      "api": {
+        "voice": {
+          "role": "芬陀大师",
+          "role_voice": "芬陀大师",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你既虚心下问，可知殿外钟声共是多少声音？",
+          "instruct": "疑惑不解，语调迟疑，百思不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 105,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钟声百零八杵，只有一音。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 106,
+      "role": "芬陀大师",
+      "api": {
+        "voice": {
+          "role": "芬陀大师",
+          "role_voice": "芬陀大师",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "钟已停撞，此音仍还在否？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 107,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "本未停歇，为何不在？如是不在，撞它则甚？",
+          "instruct": "疑惑不解，语调迟疑，百思不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 108,
+      "role": "芬陀大师",
+      "api": {
+        "voice": {
+          "role": "芬陀大师",
+          "role_voice": "芬陀大师",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你既明白，为何还来向我？小寒山有人相待，问她去吧。",
+          "instruct": "语气疑惑，带着不解，疑虑重重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 109,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "叶缤会意大悟，含笑躬立于侧，不再发问。李宁和采薇僧朱由穆、杨瑾三人，见师父将行，各自趋前请命。白眉、芬陀笑道：",
+          "instruct": "喜悦叙述，语调轻快，喜气洋洋"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "趋前请命",
+            "sound_cn": "三人快步上前请命的衣袂拂动声",
+            "sound_en": "swift rustle of robes as three disciples step forward to request their final instructions, their movements respectful and eager",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "趋前请命",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 110,
+      "role": "白眉禅师",
+      "api": {
+        "voice": {
+          "role": "白眉禅师",
+          "role_voice": "白眉禅师",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "自照你们心意做去。随时相助齐道友，发扬光大。行止归去，均在于己。有事自会传谕留示。助己助人，勉力潜修好了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 111,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，三位神僧、尼便往外走。妙一真人等知难挽留，只得恭送出去。众弟子把香花礼乐早已准备。天蒙禅师笑道：",
+          "instruct": "紧张叙述，语速加快，营造紧迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "起身离座",
+            "sound_cn": "三位神僧起身离座，衣袂轻响，步履从容",
+            "sound_en": "soft rustle of robes as the three holy monks rise from their seats, their movements calm and unhurried, preparing to depart with serene dignity",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "往外走",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 112,
+      "role": "天蒙禅师",
+      "api": {
+        "voice": {
+          "role": "天蒙禅师",
+          "role_voice": "天蒙禅师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "何必如此？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 113,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "三人各自合掌当胸，向众辞行，便自平地上升，仍和来时一样，只是易下为上，没有来时云层洞顶阻挡曲折，去势更是神速。妙一真人等忙率两辈同门和先前出接的诸仙宾飞身恭送时，三人身已直上云霄，只见祥光略闪，微闻旃檀异香，便不见踪影。众仙礼送回来，又向谢、叶二仙分别称贺。由此二人便入了佛门，一个改名寒月，一个改名一音。只等小寒山一行，便各回山虔修不提。众仙到了殿内，妙一真人便令婴童李洪行那拜师之礼。谢山自然不再推辞。行礼之后，谢山见晓月禅师所炼断玉钩连同灵峤三仙所赐三宝，由妙一夫人分别给李洪佩戴，钩插在左肩之上。那钩形制古茂，上面满刻奇书古篆符引之类，宝光内蕴，灵异非凡。便对李洪道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "神僧升空",
+            "sound_cn": "三位神僧平地升空，祥光一闪，衣袂飘飘，渐行渐远",
+            "sound_en": "soft whoosh of air as the three holy figures rise smoothly from the ground, a flash of auspicious light marking their swift ascent into the sky, their robes billowing as they ascend",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "平地上升",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "旃檀余香",
+            "sound_cn": "神僧离去后，空中留下淡淡的旃檀余香，久久不散",
+            "sound_en": "faint lingering scent of sandalwood in the air after the departure of the holy monks, a subtle and sacred fragrance that seems to permeate the very atmosphere",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "异香",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 114,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵峤三位仙长所说，务须留意。此钩不特前古异宝，并经现藏宝主人费了若干心血祭炼，原意用以抵御长眉师祖玉匣飞刀，可知厉害。如非天蒙老禅师佛法无边，只恐谁也用它不了，即便到手，也早晚必被原主夺回。看来晓月对于此宝，必定珍惜非常，一旦受制佛法，为一幼童所得，必不甘心。虽然老禅师佛法高深，既肯取以转授，又将它灵性隔断，使为你用，不致被他收回，到将来也不致有甚危害，但还是小心才好。你初拜我为师，本应传授一两件防身御魔之宝。一则我本玄门中人，刚悟前因，还我初服，尚未十分修为；二则我所有法宝，除一心灯外，无甚奇处。好在你已有此神物，更蒙灵峤三仙赠你三宝。此时到底年纪太轻，尚须随我小寒山一行，回山修炼。且等我将法宝重用佛法祭炼，到你他年下山之时，再行传授吧。",
+          "instruct": "语气关切，带着担忧，情真意切"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 115,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李洪拜谢，领命起立，仍去妙一夫人身前立侍，甚是依恋。妙一真人笑道：",
+          "instruct": "温馨叙述，语调柔和，暖意融融"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 116,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "痴儿，你已转劫九世，前后千年修为，怎还如此依依难舍？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 117,
+      "role": "李洪",
+      "api": {
+        "voice": {
+          "role": "李洪",
+          "role_voice": "李洪",
+          "speed": "+2%",
+          "volume": "+2%",
+          "pitch": "+3Hz",
+          "text": "儿子自蒙恩师佛法警悟，想起以前诸生之事，父母慈恩深厚，好容易违颜千载，今始重逢，少时又要随师还山，怎叫儿子能舍？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢，稚气未脱，语气天真，孩童般纯真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 118,
+      "role": "谢山",
+      "api": {
+        "voice": {
+          "role": "谢山",
+          "role_voice": "谢山",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你与令尊千年父子，今始重逢，煞非容易。我为全你孝思，并得多受贤父母教诲，此后许你每年一次归省便了。",
+          "instruct": "语气威严，带着霸气，号令如山"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 119,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "李洪闻言，自是欣慰。妙一夫人道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 120,
+      "role": "妙一夫人",
+      "api": {
+        "voice": {
+          "role": "妙一夫人",
+          "role_voice": "妙一夫人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "今日开府，各位仙宾所赠法宝珍物甚多，前又得了紫云宫、幻波池许多法宝，本可赐你两件。也为年纪太轻，尚非用时，且等将来省亲时，我择那佛门弟子合用之宝，赐你好了。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 121,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "殿外众仙闻知谢山收徒，又是妙一真人夫妇前九世的爱子，纷纷入贺。诸葛警我等来时，正值神僧、神尼去后，李洪在殿中拜师行礼。略听完了经过，见齐灵云、周轻云、秦紫玲在殿右一角聚谈，知三人奉命设置盛筵，正想过去询问众仙席次，齐霞儿已点手相招。近前一问，霞儿笑道：",
+          "instruct": "欢快叙述，节奏明朗，心情愉悦"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "众仙入贺",
+            "sound_cn": "众仙纷纷入贺，道喜声、谈笑声交织，衣袂拂动",
+            "sound_en": "murmur of congratulations and joyful chatter as immortals enter to offer their blessings, voices blending into a warm and celebratory hum, the sound of robes brushing against one another",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "纷纷入贺",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 122,
+      "role": "齐霞儿",
+      "api": {
+        "voice": {
+          "role": "齐霞儿",
+          "role_voice": "齐霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大师兄奉命引度那两人怎么样了？",
+          "instruct": "语气惊讶，带着意外，惊奇不已"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 123,
+      "role": "诸葛警我",
+      "api": {
+        "voice": {
+          "role": "诸葛警我",
+          "role_voice": "诸葛警我",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师父原说他二人师父劫运未到，入我门中，尚非其时。不过二人不久便有大难，此时先给他们稍微点醒便了。这两人资质禀性都好，我看他们已有警觉，只为师门恩重，不肯弃彼就此。到了时机，必来无疑。我为奉命代熊血儿问向芳淑师妹索取阴雷珠，并点化虞、狄二人，竟偷了懒，三位师妹安排筵宴，想已齐备了？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 124,
+      "role": "齐霞儿",
+      "api": {
+        "voice": {
+          "role": "齐霞儿",
+          "role_voice": "齐霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "起初本是不论交情亲疏，所有筵席齐设在平台之上。游园时，灵峤三仙、公冶道长和家师等诸位尊长相继提议，说殿前仙景各有妙处，而到会仙宾各有友好，门人弟子也多偕来，行辈不齐，如在一处，盛会固较庄严，一则有等次，不免拘束，难求尽欢；二则席次也费安排。最好除平台上原设的五席外，余者择那风景佳处，分别设席，听凭到会长幼仙宾自约同道友好，各任心喜，随意入座。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 125,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸葛警我为众门人之长，久与机密，知道此事早在掌教师尊算中。为免一些不相干的外客和旁门中人挑剔厚薄，故令一体设宴平台。却由别的仙宾以观景尽欢为名，除主要五席外，余者分设各处，不论上下各等，俱可随意入座。实则功行深薄，行辈高低，以及道路各有不同，绝不肯掺和在一起。经此一来，既免鱼龙混杂，又免因此生出别的枝节。齐霞儿当然也知此中深意，彼此相视一笑，更不再说。那殿台上的五席，俱是一律两丈四长，一丈二宽的青玉案。仙家筵席，不同俗世，又值开府盛典。每席共坐十二人。当中列有主位，做一字横列，入席者有玄真于与妙一真人等四位，余均本派同辈。两旁作八字形，各有两席相连。只席座均比主席高约半桌，以示尊敬。每边各有二十四位。列坐的，为媖姆、优昙、极乐真人李静虚、百禽道人公冶黄、灵峤三仙、易周、白朱二老、乙休、凌浑等本派至交，以及半边老尼、天灵子、少阳神君、无名禅师、知非禅师、侠僧轶凡等仙宾，不是前辈真仙，便是各派宗主、神僧、神尼之类。那些不速之客以及旁门中人，见此盛况，主人尽管以礼揖让，也都自然自惭形秽，不敢与之并列了。五席之外，如湖堤、桥亭、灵峰、水阁等各处所设筵席，俱和殿台一样形式陈设，只地方不同，人数多寡也各听随意邀约。外来一干后辈，席设水阁之内。本门弟子，只诸葛警我、岳雯、黄玄极、悟修、齐霞儿、易静、癞姑、郑八姑男女八弟子，在湖心阁以内作主人，陪伴后辈，得以与宴。余者有的司乐，有的司厨，有的在侧侍宴，各有职司。只等会后仙宾散去，师长赐宴之后，经过二次传授，或是奉有专命，或是自行呈请，分别由左元十三限，或由右元火宅玄关通行一次。能通过的，三四日内拜师下山行道。自信功行不济、志在虔修的，也不勉强，在仙府内与去留诸同门欢聚畅游三日，便去右元洞壁崖穴之中苦修，到了火候，再行请命。有那本身功力不够，并未奉有特命准予先积外功，随时在外修为，而又妄想一试的，侥幸通过这两处难关之一，自可如愿；如通不过，在师恩卵翼之下，虽还不致有败道丧生，走火入魔的凶险，但也元气大伤，去至右元洞窟，日夕熬炼，多受好些苦难，始得复原。自从妙一真人按照长眉玉敕遗命，订下规条功课，门下弟子虽居住在这仙山福地，将来也必能成就仙业，但是成道以前，修为至难，差之毫厘，谬以千里，功力根骨所限，分毫也勉强不得。如非真个道心坚定，精诚不渝，休得列入门墙。上来根基先自扎稳，所学又是玄门正宗，上乘功课，所以后来峨眉派日益发扬光大，为各派北斗宗盟，门下弟子到头来咸列仙班。即或向道心坚，修为勤奋，而福缘不够，强请入门；或是夙孽太重，无可解脱，入门修炼，此生虽不免于兵解，而转世之后，因有前生修为，道基坚固，再有师长同门垂怜接引，成就自速。至不济也是地仙散仙一流。至于中道为邪魔所诱，叛师背教，或犯严规，误入歧途，以致堕落的，只有一人。此人也并非不知自爱，只为夙世冤孽太重，心又急于建功，不到功候，便强欲下山，仗着灵警智慧，居然通行火宅，走向前殿。偏生教祖他出，代掌仙府的正是此人所拜师父髯仙李元化，见他竟是如此精进，通行火宅，以为可以无虑，未加告诫，反予奖勉。以致下山不久，便遇夙孽纠缠，对方恰是一个厉害邪魔之女，双方苦斗三日，终于受了诱惑，堕了色戒，坏去道基，不敢回山，又迷恋上妖女美色，迫不得已与之同流合污，做了邪魔爱婿。由此行恶日多，终为李英琼飞剑所杀，连转劫重修俱属无望。峨眉派因此取材愈严，门人出处，越发慎重，更无一人再步前辙。此是后话不提。",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "谷中重返与遥望仙府",
+        "start_line": 1,
+        "end_line": 16,
+        "prompt": "very subtle low volume background ambience, moonlit celestial palace at night, ancient pine forest and winding stone paths, gentle breeze carrying fragrance of osmanthus and lotus, distant sound of flowing water from hidden streams, soft chirping of night birds and the rustle of leaves, calm and serene atmosphere of a heavenly gathering, subtle warmth of moonlight filtering through clouds, smooth continuous ambience bed, no sharp sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "殿中密议与佛光普度",
+        "start_line": 17,
+        "end_line": 53,
+        "prompt": "very subtle low volume cinematic background ambience, grand celestial hall with jade pillars and golden lamps, solemn and sacred atmosphere, faint scent of sandalwood and incense lingering in the air, distant chanting of Buddhist monks echoing softly like a gentle tide, occasional resonant chime of ritual bells, hushed voices of immortals in quiet discussion, deep and resonant stillness of a sacred space where momentous events unfold, subtle guqin resonance providing a meditative undertone, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "飞刀惩戒与佛法度化",
+        "start_line": 54,
+        "end_line": 79,
+        "prompt": "very subtle low volume cinematic background ambience, tense atmosphere within a sacred hall, interplay of cold metallic tension and warm spiritual radiance, soft hum of divine weapons suspended in air like coiled serpents, distant echo of chanting and the sound of ritual bells marking the passage of fate, a moment of existential crisis held in delicate balance by immense spiritual power, underlying sense of both righteous judgment and boundless mercy, ancient drum beats creating a deep and resonant tension beneath the surface, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "拜师传法与宴席安排",
+        "start_line": 80,
+        "end_line": 125,
+        "prompt": "very subtle low volume background ambience, joyful and celebratory atmosphere in the celestial palace after the departure of the holy monks, sounds of congratulatory exchanges and festive preparations, soft rustle of robes and light footsteps of disciples setting up feast tables and arranging jade furnishings, distant sounds of celestial music and the gentle clinking of jade cups, warm glow of countless lamps and moonlight flooding the hall, sense of harmony and renewed purpose permeating the air, smooth continuous ambience bed, no sharp sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

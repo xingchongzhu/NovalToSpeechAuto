@@ -1,0 +1,1467 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第44回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "李宁": {
+      "role_voice": "李宁",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "李英琼": {
+      "role_voice": "李英琼",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "余英男": {
+      "role_voice": "余英男",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第44回",
+          "instruct": "庄重宣告，掷地有声，说书人的韵味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "只影感苍茫\n寂寂寒山欣逢佳侣孺心伤离别\n漫漫前路喜得神雕李宁见英琼连珠炮一般说得头头是道，什么都是一厢情愿，又不忍心驳她。刚想说两句话安慰她，那雕已把一堆腊野味吃完，偏着头好似听他父女争论。及至英琼讲完，忽然呱呱叫了两声。英琼疑心雕要喝水，刚要到厨房去取时，那雕忽朝李宁父女将头一点，钢爪一登，跃到风挡之前，伸开铁喙，拨开风挡，跳了出去。李宁父女跟踪出来看时，那雕已走向洞口，只见它将头一顶，已将封洞的一块大石顶开，横翼一偏，径自离洞，冲霄而起。急得英琼跑出洞去，在下面连声呼唤，央求它下来。那雕在英琼头顶上又叫了两声，雪光照映下，眼看一团黑影投向万丈深潭之内去了。英琼狂喊了一会，见雕已飞远，无可奈何，垂头丧气随李宁回进洞内。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣",
+            "sound_cn": "神雕短促鸣叫，引起注意",
+            "sound_en": "eagle's short sharp cry, drawing attention",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "感苍茫",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕展翅冲霄，带起风声",
+            "sound_en": "eagle spreading wings and soaring up, wind rush",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "侣孺心伤离别",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "李宁",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "适才所说那些话，都是能说不能行的。你不见那雕才听你说要向你师祖借它来作伴，它便飞了回去么？依我之见，等那雕奉命来接我去见你师祖时，我向他老人家苦求，给你介绍一个有本领的女师父，这还近一点情理。你师祖虽说你不久自有仙缘，就拿我这回寻师来说，恐怕也非易事呢。",
+          "instruct": "安慰，语调柔和，带着温暖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼到底有些小孩心性，她见爹爹不日出家，自己虽说有仙缘遇合，但不知要等到何时。便想起周淳的女儿轻云，现在黄山餐霞大师处学剑，虽说从未见面，她既是剑仙门徒，想必能同自己情投意合。再加上几代世交，倘能将雕调养驯熟，骑着它到黄山去寻轻云，求她引见餐霞大师，就说是她父亲介绍去的，自己再向大师苦求，决不会没有希望。等到剑术学成，在空中游行自在，那时山河咫尺，更不愁见不着爹爹。所以不但不愁别离，反恨不得爹爹即日身体复原，前往凝碧崖替自己借雕，好依计行事。不想那雕闻言飞去，明明表示拒绝。又动了孺慕孝思，表面怕李宁看出，装作无事，心头上却是懊丧难受到了极处。及至听李宁说求白眉和尚代寻名师，才展了一丝笑容。父女二人又谈了一阵离别后的打算，俱都不得要领，横也不好，竖也不妥当，总是事难两全。直到深夜，才由李宁催逼安睡。英琼心事在怀，一夜未曾合眼，不住心头盘算，到天亮时才得合眼。睡梦中忽听一声雕鸣，急忙披衣下床，冒着寒风出洞看时，只见残雪封山，晨曦照在上面，把崖角间的冰柱映成一片异彩。下望深潭，仍是白云滃翳，遮蔽视线，看不见底。李宁起来较早，正在练习内功。忽见女儿披衣下床，一跃出洞，急忙跟了出来。英琼又把昨日斗雕的地方同自己遇险情形，重又兴高采烈说了一遍。把李宁听了个目眩心摇，魂惊胆战，抱着爱女，直喊可怜。父女二人谈说一阵，便进洞收拾早饭。用毕出来看时，晴日当空，阳光非常和暖，耳旁只听一片轰轰隆隆之声，惊天动地。那山头积雪被日光融化成无数大小寒流，夹着碎冰、矮树、砂石之类，排山倒海般往低凹处直泻下去。有的流到山阴处，受了寒风激荡，凝成一处处的冰川冰原。山崖角下，挂起有一尺许宽、二三丈长的一根根冰柱。阳光映在上面，幻成五色异景，真是有声有色，气象万千。李宁正望着雪景出神，忽见深潭底下白云堆中，冲起一团黑影，大吃一惊，忙把英琼往后一拉。定睛看时，那黑影已飞到了崖角上面，正是那只金眼神雕。英琼心中大喜，忙唤：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.2,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣",
+            "sound_cn": "金眼神雕长鸣响彻山谷",
+            "sound_en": "golden-eyed eagle's long cry echoing across the valley, powerful and resonant",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼到底有些",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金眼师兄快来！",
+          "instruct": "急切，语速加快，透着焦虑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便进洞去，切腊肉野味来款待。那雕到了上面，朝李宁面前走来，叫了两声，便用钢喙在那雪地上画了几画。李宁认出是个“行”字，知道白眉和尚派它前来接引，不敢怠慢。先朝天跪下，默祝一番。然后对那雕说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "跪地声",
+            "sound_cn": "李宁双膝跪地，落在雪地上",
+            "sound_en": "knees hitting snow-covered ground, soft thud",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便进洞去",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "李宁",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "弟子尚有几句话要向小女嘱咐，请先进洞去，少待片刻如何？",
+          "instruct": "恭敬恳切，语调温和，透着父爱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕点头，便随李宁进洞。英琼已将腊野味切了一大盘，端与那雕食用。那雕也毫不客气地尽情啄食。这时李宁强忍心酸，对英琼道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "啄食声",
+            "sound_cn": "神雕啄食腊肉，轻快咀嚼",
+            "sound_en": "eagle pecking at dried meat, quick and eager eating sounds",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那雕点头",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "李宁",
+      "api": {
+        "voice": {
+          "role": "李宁",
+          "role_voice": "李宁",
+          "speed": "-6%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "神雕奉命接我去见师祖，师祖如此垂爱，怎敢不去？只是你年幼孤弱，独处空山，委实令人放心不下。我去之后，你只可在这山头上用功玩耍，切不可远离此间。我随时叩求师祖，与你设法寻师。洞中粮食油盐，本就足敷你我半年多用。我走后，去了我这食量大的，更可支持年半光景。你周叔父一生正直忠诚，决不会中人暗算；他是我性命之交，决不会不回来看我父女。等他回来，便求他陪你到黄山寻找你世姊轻云，引见到餐霞大师门下。我如蒙师祖鉴准，每月中得便求神雕送我同你相见。你须要好生保重，早晚注意寒暖，以免我心悬两地。",
+          "instruct": "语重心长，强忍离愁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼见神雕二次飞来，满心喜欢。虽知李宁不久便要别离，万没想到这般快法。既舍不得老父远离，又怕老父亲失去这千载一时的仙缘。心乱如麻，也不知如何答对是好。那神雕食完腊野味后，连声叫唤，那意思好似催促起程。李宁知道再难延迟，把心一横，径走向石桌之前，匆匆与周淳留了一封长信，把经过前后及父女二人志愿全写了上去。那英琼看神雕叫唤，灵机一动，急忙跑到神雕面前跪下，说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "雕叫",
+            "sound_cn": "神雕急促叫声，催促之意",
+            "sound_en": "eagle's urgent cawing, impatient and urging",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼见神雕二",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "跪地声",
+            "sound_cn": "英琼双膝跪地，落在石板上",
+            "sound_en": "knees hitting stone floor, muffled thud",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼见神雕二",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "家父此去，不知何日回转。我一人在此，孤苦无依，望你大发慈悲，禀明师祖，来与我作伴。等到我寻着剑仙做师父时，再请你回去如何？",
+          "instruct": "恳求，带哭腔"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕闻言，偏着头，用两只金眼看着英琼，忽然长鸣两声。英琼不知那雕心意，还是苦苦央求。一会工夫，李宁将书信写完，还想嘱咐英琼几句，那雕已横翼翩然，跃出洞去。李宁父女也追了出来，那雕便趴伏在地。英琼知道是叫李宁骑将上去。猛想起草索，急忙进洞取了出来，系在那雕头颈之上。又告诉李宁骑法，同降下时那几个危险所在。李宁一一记在心头。父女二人俱都满腹愁肠，虽有千言万语，一句也说不出来。那雕见他父女执手无言，好似不能再等，径自将头一低，钻进李宁胯下。英琼忙喊",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣",
+            "sound_cn": "神雕长鸣两声，声音洪亮",
+            "sound_en": "eagle's two long loud calls, powerful and clear",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那雕闻言",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "雕翼扇动带起强风，冲霄离去",
+            "sound_en": "eagle flapping wings and soaring up, strong gust of wind",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "两只金眼看着",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "爹爹留神",
+          "instruct": "急切，语速加快，透着焦虑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "时，业已冲霄而起。那雕带着李宁在空中只一个盘旋，便投向那深潭而去。英琼这才想起有多少话没有说，又忘了请李宁求白眉师祖，命神雕来与自己作伴。适才是伤心极处，欲哭无泪；现在是痛定思痛，悲从中来。在寒山斜照中，独立苍茫，凄凄凉凉，影只形单。一会儿想起父亲得道，必来超度自己；那白眉师祖又曾说自己不久要遇仙缘，异日学成剑仙，便可飞行绝迹，咫尺千里。立时雄心顿起，止泪为欢，高兴到了万分。一会儿想起古洞高峰，人迹不到，独居空山，何等凄凉；慈父远别，更不知何年何月才得见面。伤心到了极处，便又痛哭一场。又想周淳同多臂熊毛太见面后，吉凶胜负，音讯全无。万一被仇人害死，黄山远隔数千里，自己年幼路不熟，何能飞渡？一着急，便急出一身冷汗。似这样吊影伤怀，一会儿喜，一会儿悲，一会儿惊惶，一会儿焦急。直到天黑，才进洞去，觉得头脑昏昏，腹中也有些饥饿。随便开水泡一点饭，就着咸菜吃了半碗。强抑悲思，神志也渐清宁。忽然自言自语：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "哭泣声",
+            "sound_cn": "英琼低声抽泣，伤心难抑",
+            "sound_en": "soft sobbing, grief-stricken and helpless",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "宁在空中只一",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "呸！李英琼，你还自命是女中英豪，怎么就这般没出息？那白眉师祖对爹爹那样大年纪的人，尚肯度归门下，难道我李英琼这般天资，便无人要？现在爹爹走了，正好打起精神用功。等周叔父回来，上黄山去投轻云世姊；即使他不回来，明年开了春，我不会自己寻了去？洞中既不愁穿，又不愁吃，我空着急做什么？",
+          "instruct": "爽朗，声音洪亮，透着痛快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "念头一转，登时心安体泰。索性凝神定虑，又做了一会内功，上床拉过被子，倒头便睡。她连日劳乏辛苦，又加满腹心事，已多少夜不得安眠。这时万虑皆消，梦稳神安，直睡到第二天已未午初，才醒转过来。忽听耳旁有一种轻微的呼息之声，猛想起昨日哭得神思昏乱，进来时忘记将洞门封闭，莫不是什么野兽之类闯了进来？轻轻掀开被角一看，只喜欢得连长衣都顾不及穿，从石榻上跳将起来，心头怦怦跳动，跑过去将那东西抱着，又亲热，又抚弄。原来在她床头打呼的，正是那个金眼神雕。不知何时进洞，见英琼熟睡，便伏在她榻前守护。这时见英琼起身，便朝她叫了两声。英琼不住地用手抚弄它身上的铁羽，问道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "雕低鸣",
+            "sound_cn": "神雕低鸣两声，温柔亲切",
+            "sound_en": "eagle's soft two low calls, gentle and affectionate",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "念头一转",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我爹爹已承你平安背到师祖那里去了么？",
+          "instruct": "期待欣喜，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕点了点头。回过铁喙，朝左翅根侧一拂，便有一个纸条掉将下来。英琼拾起看时，正是李宁与她的手谕。大意说见了白眉师祖之后，已蒙他收归门下。由师祖说起，才知白眉师祖原是李宁的外舅父。其中还有一段很长的因果，所以不惜苦心，前来接引。又说英琼不久便要逢凶化吉，得遇不世仙缘。那只神雕曾随师祖听经多年，深通灵性。已蒙师祖允许，命它前来与英琼作伴，不过每逢朔望，要回凝碧崖去听两次经而已。叫英琼好好看待于它，早晚用功保重，静候周叔父回来，不要离开峨眉。师祖已说自己儿女情长，暂时决不便回来看望等语。英琼见了来书，好生欣喜，急忙去切腊味，只是原有腊味被神雕吃了两次，所剩不多，便切了一小半出来与那雕吃。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "刀切案板",
+            "sound_cn": "菜刀在砧板上切腊肉的声音",
+            "sound_en": "knife chopping dried meat on wooden board, rhythmic thuds",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那雕点了点头",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一面暗作寻思：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这神雕食量大，现值满山冰雪，哪里去寻野味与它食用？",
+          "instruct": "内心独白，暗自思忖，语带乡愁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心中好生为难。那雕风卷残云般吃完腊味以后，便往外跳去。英琼也急忙跟了出来，只见那雕朝着英琼长鸣，掠地飞起。英琼着了慌，便在下面直喊，眼看那雕在空中盘旋了一阵，并不远离，才放了心。忽地见它一个转侧，投向洪桩坪那边直落下去。一会儿，那雕重又飞翔回来，等到飞行渐近，好似它铁爪下抓着一个什么东西。等到飞离英琼有十丈高下，果然掷下一物。近前一看，原来是一只梅花鹿，业已鹿角触断，脑浆迸裂，掷死过去。那雕也飞身下来，向英琼连声叫唤。英琼见它能自己去觅野食，越发高兴。爱那鹿皮华美温暖，想剥下来铺床。便到洞中取来解刀，将鹿皮剥下，将肉割成小块，留下一点脯子，准备拿铁叉烤来下酒。那雕在一旁任英琼动作，并不过去啄食。一会儿跳进洞去，抓了一块腊猪骨出来，掷在英琼面前。英琼恍然大悟，那雕是想把鹿肉腋熟再吃。当下忙赴后洞，取来水桶、食盐。就在阳光下面将鹿肉洗净，按照周淳所说川人腊熏之法，寻了许多枯枝，在山凹避风之处，将鹿肉腌熏起来。从此那雕日夕陪伴英琼，有时去擒些野味回来腌腊。英琼得此善解人意的神雕为伴，每日调弄，指挥如意，毫不感觉孤寂。几次想乘雕飞翔，那雕却始终摇头，不肯飞起，想是来时受过吩咐的。过不多日，便是冬月十五，那雕果然飞回凝碧崖听经。回来时，带来李宁一封书信，说自己要随师祖前往成都一带，寻访明室一个遗族，顺便往云南石虎山去看师兄采薇僧朱由穆，此去说不定二三年才得回来。到了成都，如能寻着周淳，便催他急速回山。嘱咐英琼千万不要乱走，要好好保养、用功等语。英琼读完书信，难受一会，也无法可想，惟有默祝上苍，保佑她父亲早日得成正果而已。时光易逝，转眼便离除夕不远。英琼毕竟有些小孩子心性，便把在峨眉县城内购买的年货、爆竹等类搬了出来，特别替那只神雕腌好十来条腊鹿腿，准备同它过年。又用竹签、彩绸糊成十余只宫灯，到除夕晚上悬挂。每日做做这样，弄弄那样，虽然独处空山，反显得十分忙碌。到二十七这天，那雕又抓来两只野猪和一只梅花鹿。英琼依旧把鹿皮剥了下来存储。等到跑到洞中取盐来腌这两样野味时，猛发觉所剩的盐，仅敷这一回腌腊之用，以后日用就没有了。急忙跑到后洞存粮处再看时，哪一样家常日用的东西都足敷年余之用，惟独这食盐一项，竟因自己只顾讨神雕的喜欢，一个劲腌制野味，用得太不经济，以致在不知不觉中用馨。虽然目前肉菜等类俱都腌好，足敷三四月之用，以后再打来野味，便无法办理。望着盐缸发了一会愁，想不出什么好办法来，只得先将余盐用了再说。一面动手，一面对那雕说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕掠地起飞，翅膀拍击声",
+            "sound_en": "eagle taking off low, wings flapping",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心中好生为难",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "鹿坠地",
+            "sound_cn": "梅花鹿尸体坠落雪地，沉闷响声",
+            "sound_en": "deer carcass dropping onto snow, heavy thud",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便往外跳去",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 10.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "剥皮声",
+            "sound_cn": "解刀割开鹿皮，撕裂摩擦声",
+            "sound_en": "knife cutting through deer hide, tearing and scraping",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英琼也急忙跟",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金眼师兄，我的盐快没有了，等过了年，进城去买来食盐，你再去打野味吧。现在打来，我是没有办法弄的啊。",
+          "instruct": "无奈，语调低沉，透着无力"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕闻言，忽地冲霄而起。英琼知道它不会走远，司空见惯，也未在意。只在下面喊道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕冲霄",
+            "sound_cn": "神雕振翅直冲云霄，强劲风声",
+            "sound_en": "eagle soaring straight up with powerful wingbeats, strong wind rush",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那雕闻言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "天已快交正午，你去游玩一会，快些回来，我等你同吃午饭呢。",
+          "instruct": "轻松呼唤，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕在空中一个回旋，眨眨眼竟然不见。直到未初，还未回转。英琼腹中饥饿，只得先弄些饭吃。又把猪、鹿的心脏清理出来，与那雕作午餐。到了申牌时分，英琼正在洞前习剑，远望空中，出现一个黑点，知是神雕飞回，便在下面连声呼唤。一会工夫，飞离头顶不远，见那雕两爪下抱定一物，便喊道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣",
+            "sound_cn": "神雕飞回时鸣叫，由远及近",
+            "sound_en": "eagle calling as it returns, sound approaching",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那雕在空中一",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "对你说食盐没有，你如今又不大愿吃鲜肉，何苦又去伤生害命呢？",
+          "instruct": "略带嗔怪，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，那雕已轻轻飞落下来。英琼见它不似以往那样将野兽从空掷下，近前一看，原来是一个大蒲包，约有三尺见方，不知是什么物件。撕开一角，漏出许多白色晶莹的小颗。仔细一看，正是自流井的上等官盐，足有二三百斤重，何愁再没盐用。欢喜若狂，忙着设法运进洞去。出来对那雕说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "蒲包落地",
+            "sound_cn": "大蒲包落在雪地上，沉闷声响",
+            "sound_en": "large burlap bag dropping onto snow, muffled thump",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "撕裂声",
+            "sound_cn": "撕开蒲包麻布的声音",
+            "sound_en": "tearing burlap fabric, ripping sound",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "还未了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金眼师兄，你真是神通广大，可爱可佩！但是我父亲曾经说过，大丈夫作事要光明磊落，不可妄取别人的东西，下次切不可如此啊！",
+          "instruct": "赞叹中带着告诫，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕只是瞑目不答。英琼便将预备与它吃的东西取来给它。正在调弄那雕之时，忽然闻见一阵幽香，从崖后吹送过来。跟踪过去看时，原来崖后一株老梅树，已经花开得十分茂盛，寒香扑鼻。英琼又是一番高兴，便在梅花树下徘徊了一阵。见天色已渐黄昏，不能再携雕出游，便打算进洞去寻点事做。刚刚走到洞口前面，忽见相隔有百十丈的悬崖之前，一个瘦小青衣人，在那冰雪铺盖的山石上面，跳高纵远，步履如飞地直往崖前走去。她所居的石洞，因为地形的关系，后隔深潭，前临数十丈的削壁断涧，天生成的奇屏险障。人立在洞前，可以把十余里的山景一览无遗。而从舍身岩上来，通到这石洞的这一条羊肠小径，又曲折，又崎岖。春夏秋三季，是灌木丛生，蓬草没膝；一交冬令，又布满冰雪，无法行走。自从李宁父女同周淳、赵燕儿走过外，从未见有人打此经过。英琼见那青衣人毫不思索，往前飞走，好似轻车熟路一般，暗暗惊异。心想：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 17.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "风声",
+            "sound_cn": "风送寒梅幽香，轻微风声",
+            "sound_en": "gentle breeze carrying plum blossom fragrance, soft rustle",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "吹送过来",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这块冰雪布满的山石上面，又滑又难走，一个不小心，便有粉身碎骨之虞。自己虽然学了轻身功夫，都不敢走这条道上下，这人竟有这样好的功夫，定是剑仙无疑。莫不是白眉师祖所说那仙缘，就是此人前来接引么？",
+          "instruct": "内心惊异，期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正在心中乱想，那青衣人转过一个崖角，竟自不见。正感觉失望之间，忽然离崖前十余丈高下，一个人影纵了上来。那雕见有人上来，一个回旋，早已横翼凌空，只在英琼头上飞翔，并不下来，好似在空中保护一般。英琼见那上来的人穿着一身青，头上也用一块青布包头，身材和自己差不多高下，背上斜插着一柄长剑，面容秀美，装束得不男不女，看去甚是面熟。正要张口问时，那人已抢先说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕翅声",
+            "sound_cn": "神雕盘旋振翅，警惕护卫",
+            "sound_en": "eagle circling with wing flaps, protective stance",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "正在心中乱想",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "余英男",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我奉了家师之命，来采这凌霄崖的宋梅，去佛前供奉。不想姊姊隐居之所就在此间，可称得上是幸遇了。",
+          "instruct": "温婉有礼，语调温柔，透着少女的坚毅"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，将头上青布包头取下，现出螓首蛾眉，秀丽中隐现出一种英姿做骨。来的这个女子，正是那峨眉前山解脱庵广慧师大门下带发修行的女子余英男。英琼自那日城中回来，先是父亲生病，接着父女分离，劳苦忧闷，又加大雪封山，无法行走，早已把她忘却。现在独处空山，忽然见她来作不速之客，又见人家有这一身惊人的本领，一种敬爱之心油然而生。自己正感寂寞的当儿，无意中添了一个山林伴侣，正好同她结识，彼此来往盘桓。先陪她到崖后去采了几枝梅花，然后到洞中坐定。英男比英琼原长两岁，便认英琼做妹妹。二人谈了一阵，甚是投机，相见恨晚。英男因不见李宁，便问：“尊大人往哪里去了？”英琼闻言，不由一阵心酸，几乎落下泪来，便把李宁出家始未说了一遍。说到惊险与伤心处，英男也陪她流了几次热泪。渐渐天色已晚，英琼掌起灯烛，定要留英男吃完饭再走。英男执意不肯，说是怕师父在家悬望。答应回庵禀明师父，明日午前准定来作长谈，大家研究武术。英琼挽留不住，依依不舍地送了出来。这时已是暮霭苍茫，瞑色四合，山头积雪反映，依稀辨出一些路径。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "折梅声",
+            "sound_cn": "折下梅花枝的清脆声响",
+            "sound_en": "snapping off plum blossom branch, crisp crack",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "将头上青布包",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "姊姊来的这条路非常险滑，这天黑回去，妹子太不放心。还是住在洞中，明日再行吧。",
+          "instruct": "关切挽留，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到此处，忽听空中一声雕鸣。英琼又道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕鸣",
+            "sound_cn": "神雕在夜空中鸣叫，回荡山谷",
+            "sound_en": "eagle's call in the night sky, echoing across the valley",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "说到此处",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "只顾同姊姊说话，我的金眼师兄还忘了给姊姊引见呢。",
+          "instruct": "略带歉意，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，照着近日习惯，嘬口一呼。那雕闻声便飞将下来，睁着两只金眼，射在英男面上，不住地打量。英男笑道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "雕落地",
+            "sound_cn": "神雕轻轻落在雪地上，翅膀收拢声",
+            "sound_en": "eagle landing softly on snow, folding wings",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "照着近日习惯",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "余英男",
+      "api": {
+        "voice": {
+          "role": "余英男",
+          "role_voice": "余英男",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "适才妹子说老伯出家始末，来得太急，也不容人发问。当初背妹妹去见白眉师祖的就是它么？有此神物守护，怪不得妹子独处深山古洞之中，一丝也不害怕呢。",
+          "instruct": "赞叹羡慕，语调温柔，透着少女的坚毅"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便走到那雕面前，去摸它身上的铁羽。那雕一任她抚摸，动也不动。英琼忽然惊叫道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我有主意送你回去了。",
+          "instruct": "兴奋，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英男便问何故？英琼道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不过我还不知道它肯不肯，待我同它商量商量。",
+          "instruct": "认真，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便朝那雕说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金眼师兄，这是我新认识的姊姊余英男，现在天黑，下山不便。请你看我的面子，送她回去吧。",
+          "instruct": "恳求，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那雕长鸣一声，点了一点头。英琼大喜，便向英男说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "雕长鸣",
+            "sound_cn": "神雕长鸣，表示同意",
+            "sound_en": "eagle's long call, indicating agreement",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那雕长鸣一声",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "李英琼",
+      "api": {
+        "voice": {
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你休要看轻它的盛意。它只背过我两次，现在就再也不肯背了。不然我骑着它到处去玩，哪里还会闷呢！你快骑上去吧，不然它要生气的。",
+          "instruct": "活泼催促，语调清脆，透着少女的灵动"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英男见英琼天真烂漫，一脸孩子气，处处都和自己情投意合，好不高兴。又怕英琼笑她胆小，只得点头答应。英琼才高高兴兴把草索取来，系在雕颈，又教了骑法。英男作别之后，骑了上去，立时健翩凌云，将她送走。英琼便回洞收拾晚饭，连夜将石洞打扫，宫灯挂起，年货也陈设起来，准备明日嘉客降临。一会工夫，那雕飞回。英琼也就安歇。第二日天才一亮，英琼便起床将饭煮好。知道英男虽在庵中吃素，却并未在佛前忌荤。特地为她煮了几样野味，同城内带来的菜蔬，崖前掘来的黄精、冬笋之类，摆了一桌。收拾齐备，便跑到崖前去望。到了午牌时分，正要请那雕去接时，英男已从崖下走来。二人见面，比昨日又增加几分亲密。进洞之后，英琼自然是殷勤劝客。英男也不作客气，痛快吃喝。石室中瓶梅初绽，盆火熊熊，酒香花香，融成一片。石桌旁边，坐着这两个绝世娉婷的侠女，谈谈笑笑，好不有趣。那广慧大师原先也是一位剑侠，自从遁入空门，笃志禅悦，别有悟心，久已不弹此调。因此英男虽相从有年，仅仅传了些学剑入门的内功口诀，以作山行防身之用。她说英男不是佛门弟子，将来尚要到人世上作一番事业，所以不与她落发。昨日英男回去，说明与英琼相遇，广慧",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕载人振翅起飞，凌云而去",
+            "sound_en": "eagle taking off with rider, powerful wing beats, soaring into sky",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英男见英琼天",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你遇见这个女魔王，你的机缘也快到了。你明日就离开我这里，和她同居去吧。",
+          "instruct": "对话叙述，语调淡然，透着前辈的睿智"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕载人振翅起飞，凌云而去",
+            "sound_en": "eagle taking off with rider, powerful wing beats, soaring into sky",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你遇见这个女",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英男疑心大师不愿她和英琼交友，便说英琼怎样的豪爽聪明。师父说她是女魔王，莫非她将来有什么不好么？",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕载人振翅起飞，凌云而去",
+            "sound_en": "eagle taking off with rider, powerful wing beats, soaring into sky",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英男疑心大师",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "哪里有什么不好，不过我嫌她杀心太重罢了。你同她本是一条路上人，同她相交，正是你出头之日。我叫你去投她，并非不赞成此举，你为何误会起来？",
+          "instruct": "对话叙述，语调淡然，透着前辈的睿智"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕载人振翅起飞，凌云而去",
+            "sound_en": "eagle taking off with rider, powerful wing beats, soaring into sky",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "哪里有什么不",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英男闻大师之言，才放了宽心。不过从师多年，教养之恩如何能舍？便求大师准许同英琼时常见面，却不要分离才好。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "雕起飞",
+            "sound_cn": "神雕载人振翅起飞，凌云而去",
+            "sound_en": "eagle taking off with rider, powerful wing beats, soaring into sky",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "英男闻大师之",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "寒山洞内对话",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume cinematic background ambience, quiet mountain cave interior at night, dry stone walls and old timber, faint crackle of a small charcoal brazier, soft echo of dripping water from stalactites, subtle room tone of clay and wood, distant wind howling outside but muffled, deep guqin resonance low and distant, calm and intimate atmosphere, no sharp sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "雕来与离别前",
+        "start_line": 4,
+        "end_line": 8,
+        "prompt": "very subtle low volume cinematic background ambience, cave entrance with daylight streaming in, snow reflection, faint sound of wind through stone cracks, occasional ice melting drip, distant eagle cry, soft footsteps on rocky floor, warm fire glow from inside, gentle erhu hum low and melancholic, emotional tension, no sharp events, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "雕载父飞走",
+        "start_line": 9,
+        "end_line": 13,
+        "prompt": "very subtle low volume cinematic background ambience, snowy mountain peak under bright sunlight, crisp cold air, distant roar of melting snow cascading down, occasional ice cracking, strong wind sweeping over ridges, soft rustle of dry branches, lonely and vast, faint xiao flute breathy and sorrowful, no sharp foreground sounds, no voices, no music, no melody, no repetitive loop",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "英琼独处自勉",
+        "start_line": 14,
+        "end_line": 17,
+        "prompt": "very subtle low volume cinematic background ambience, quiet cave interior at night, single oil lamp flickering, soft shadow on stone walls, faint sound of wind outside, occasional drip from icicles, solitary and reflective, sparse pipa plucks, calm determination, no sharp sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "日常与盐事",
+        "start_line": 18,
+        "end_line": 27,
+        "prompt": "very subtle low volume cinematic background ambience, daytime outside cave, snow-covered ground, occasional bird calls, sound of chopping and preparing food, gentle breeze, peaceful daily routine, warm erhu hum, relaxed atmosphere, no sharp events, no voices, no music, no melody, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "英男相遇与夜话",
+        "start_line": 28,
+        "end_line": 46,
+        "prompt": "very subtle low volume cinematic background ambience, late afternoon to night, plum blossom fragrance in air, gentle wind, distant cliff views, soft footsteps on frozen ground, evening calm, intimate conversation, warm fire glow from cave, subtle yangqin shimmer, friendly and hopeful, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

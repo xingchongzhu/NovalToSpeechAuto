@@ -1,0 +1,1388 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第117回-斩妖尸得宝返仙山逢巨恶无心留隐患",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "英琼": {
+      "role_voice": "英琼",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "周轻云": {
+      "role_voice": "周轻云",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "金蝉": {
+      "role_voice": "金蝉",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "笑和尚": {
+      "role_voice": "笑和尚",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "严人英": {
+      "role_voice": "严人英",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "庄易": {
+      "role_voice": "庄易",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "杜远": {
+      "role_voice": "杜远",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "米刘二矮": {
+      "role_voice": "米刘二矮",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "青囊仙子": {
+      "role_voice": "青囊仙子",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "吴立": {
+      "role_voice": "吴立",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第117回",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼听神雕随着落下，还在叫唤，过去一看，原来钢爪之下，还紧紧抓着一个妖人，神气业已奄奄待毙。英琼认出是那日所见羊面妖人的徒弟，正要接过来问，庄易连忙抢上前去，口诵禁法，从身旁取出一根丝绦捆好，提在手上，不使沾地，与众人比了比手势。轻云想起那日被他挣逃，明白用意，知道小妖人曾借土遁逃走，便和众人说了。那道童先是装死，后知识破机关，决难活命，不住口大骂，尤其把庄易骂了个淋漓尽致。众人问他话，也不言语，只管骂两声，高喊一声“师父救命”。金蝉恨他不过，顺手一个嘴巴，连门牙打掉了好几个，他仍是骂不绝口。这时笑和尚也收了宝珠飞来，见他拼死大骂，过来说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "钢爪之下",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "神雕落地",
+            "sound_cn": "神雕收翅落地，钢爪抓地的沉重声响，羽毛扑动",
+            "sound_en": "heavy landing of the divine eagle, steel claws gripping the ground, feathers ruffling",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "口诵禁法",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "丝绦轻响",
+            "sound_cn": "丝绦捆绑时发出的轻柔摩擦声，带着灵力的气息",
+            "sound_en": "soft rustle of silk cords binding, with a subtle spiritual energy hum",
+            "volume": "-26%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "顺手一个嘴巴",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "耳光清脆",
+            "sound_cn": "清脆的巴掌声，带着力道和愤怒",
+            "sound_en": "sharp slap, forceful and angry",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "笑和尚",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "你好好招出实情便罢，否则你想好死，且不能呢！",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，将手一指，使用佛门降魔锁骨缩身之法，那道童立刻觉着周身又疼又痒，骨髓奇酸，实在禁受不住，忙喊：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "将手一指",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "法术轻响",
+            "sound_cn": "施法时手指划过的轻微破空声，带着灵力波动",
+            "sound_en": "soft whoosh of a finger pointing, with spiritual energy ripples",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "杜远",
+      "api": {
+        "voice": {
+          "role": "杜远",
+          "role_voice": "杜远",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "快请住手！我说就是。",
+          "instruct": "恳切请求，语气真诚，满怀期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人问他来意，才知他名杜远，还有一个师兄名叫甄柏，俱是青羊老祖门徒，适才妖尸正将袁星绑出，布置法坛，忽见南山红光烛天，看出是一种千年修炼的稀世奇珍。因为时辰快到，妖尸和青羊老祖俱不能分身。两童宝剑又已被周、李二人日前破去，没有防身利器，虽然得了袁星两口长剑，尚难运用飞行。便命二童同驾青羊老祖的剑光前去探看，准备到子夜炼成了妖幡之后，再去取那宝物，同回云边石燕峪三星洞去，联合各异派能手，与峨眉为仇。二童到了奥区仙府前面，正遇神雕盘空巡视，哪里容得，只一下先将杜远抓擒。甄柏一见不好，首先撇下杜远，独驾剑光逃走。众人一听还逃走了一个，少不得回去报信，已经打草惊蛇，多数主张就此前往。惟独笑和尚不以为然，说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "笑和尚",
+      "api": {
+        "voice": {
+          "role": "笑和尚",
+          "role_voice": "笑和尚",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "妖尸自恃妖法厉害，决不舍去炼幡机会，轻易逃走，至多寻了前来。既然华仙姑事前指示，还以到时进行为是。好在为时无几，我们如不放心，且将人分布妖穴上空，相机行动如何？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉、英琼不肯，仍主早些下手。笑和尚不好意思拗众，只得作为罢论。依了笑和尚与人英，妖童到底年幼，既已说了实话，不妨告诫一番，饶他活命。英琼却说那日亲见他杀猪饮血凶恶之状，妖人手下绝无善类，还是除去好。米、刘二矮也从旁说此人万不可留，久必为恶多端。杜远还待哀求，金蝉已等得不甚耐烦，只说了一声：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "这还有什么为难的？",
+          "instruct": "疑惑，语气迟疑，困惑不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "把手一扬，剑光过处，斩为两截。当下由米、刘二矮前导，同驾剑光，直飞妖穴。到了一看，到处都是黑烟妖雾笼罩，哪里看得出山崖洞府。众人端详了地位，按照前定，首由周、李二人当前开路；余人由金蝉手持弥尘幡护身，跟踪下去。英琼、轻云二人刚一落地，便见庭院之内，景象阴森，无殊地狱变相，与那日地穴所见大略相同。满院云烟笼罩，到处兽嗥鬼哭。数十面大小妖幡，发出黄绿烟光，奇腥刺鼻。二人剑光到处，黑烟随分随聚，虽然不为妖法所伤，只看不清妖尸、妖人与袁星所在。正待指挥剑光，往发光的妖幡上扫去，忽听金蝉高叫道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "剑光过处",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "剑斩妖童",
+            "sound_cn": "飞剑斩断躯体的沉闷声响，干净利落",
+            "sound_en": "dull sound of a flying sword severing a body, swift and clean",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "直飞妖穴",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "剑光破空",
+            "sound_cn": "多道剑光同时破空飞行的呼啸声，交织成一片",
+            "sound_en": "multiple sword lights flying together, whistling and intertwining",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "兽嗥鬼哭",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "兽嗥鬼哭",
+            "sound_cn": "妖幡中传来的野兽哀嚎和鬼魂哭泣声，凄厉阴森",
+            "sound_en": "howling of beasts and wailing of ghosts from the demonic banners, eerie and shrill",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22.0,
+            "trigger_keyword": "黄绿烟光",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "妖烟弥漫",
+            "sound_cn": "妖幡释放黄绿烟雾的嘶嘶声，带着刺鼻的腥臭",
+            "sound_en": "hissing of yellow-green smoke released by demon banners, pungent and foul",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "周师姊，那西边古树前面，不是袁星么？你们还不赶快上前救它！",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼闻言，忙和轻云驾剑光往西飞去。身临切近，青紫两道光华照处，才看见袁星绑在一面长幡之下。英琼剑光过去，数十缕黑丝，化为飞烟四散。袁星脱了羁困，看见紫光在黑烟中飞翔，方要赶过，忽然一只枯如蜡人的怪手伸将过来，一把将袁星抓去，接着群幡齐隐，不见踪迹。英琼闻声追上，那怪手已隐入黑烟之中。这里严人英、庄易、笑和尚、金蝉与米、刘二矮六人，仗着金蝉一双慧眼，早借弥尘幡掩护，各人指挥剑光，将青羊老祖围住。周、李二人见黑烟越来越盛，看不见妖尸所在，袁星又被妖尸抢去，情知危险，又恐妖尸逃脱，焦急万状。一会工夫，青羊老祖的飞剑连被人英等剑光绞断，自知不敌，一同没入黑烟以内。众人益发冥搜无着，只得由人英等六人将剑光在空中交织，以防妖尸遁走。正在无计可施，刘遇安忽对笑和尚道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "青紫两道光华",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双剑照处",
+            "sound_cn": "青索紫郢双剑照亮黑暗的嗡鸣声，光芒大盛",
+            "sound_en": "resonant hum of the Green and Purple Swords illuminating the dark, brilliant light",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "枯如蜡人的怪手",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "怪手抓人",
+            "sound_cn": "枯骨般的手爪破空抓取的尖锐风声",
+            "sound_en": "sharp whoosh of a skeletal claw reaching through the air",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 34.0,
+            "trigger_keyword": "青羊老祖的飞剑连被人英等剑光绞断",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "飞剑绞断",
+            "sound_cn": "多道剑光绞碎敌人飞剑的金属碎裂声",
+            "sound_en": "metallic shattering of enemy sword lights being torn apart by multiple sword beams",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "米刘二矮",
+      "api": {
+        "voice": {
+          "role": "米刘二矮",
+          "role_voice": "米刘二矮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "满天都是黑煞丝，妖尸将温玉光华祭起，我们虽有至宝护身，要想伤他，颇非容易。妖尸诡计多端，迟则生变，莫要中了他的道儿。大仙那粒乾天火灵珠，精光上烛重霄，是纯阳之宝，何妨取出一试？",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "笑和尚自得此珠，因为取自妖物身上，未奉师命，不知用法来历，从未用过。被刘遇安一句话提醒，心想：“用虽不能，若持在手中，照觅妖迹，或者可用，也说不定。”当下忙请金蝉、人英等到一处，用弥尘幡护身，盘膝坐地，口诵真言，解了禁法。刚刚将宝囊取到手中，便觉地皮震动，同时一团红光透起，照彻天地，妖气尽扫，阖院通明。这才看出妖尸已将满院妖幡全数移在隐僻之处，袁星又被绑在一根幡脚之下，青羊老祖守护在侧。妖尸闭目兀坐，口诵手摇，五指上发出五道黑气，指着袁星。英琼、轻云一见袁星情势危急、双双飞出剑去，一取妖尸，一取青羊老祖。紫光过处，青羊老祖应声而倒，斩为两截。刚要协助轻云夹攻妖尸，猛听地底砰的一声大震，立刻地覆天低，当院陷下一个无底的深坑，坑内罡风夹着烈焰，如怒涛一般往上涌起。就趁众人惊心骇顾之间，妖尸倏地化成一股黑气，比电闪还疾，冲到英琼身边。英琼日前吃过苦头，不知是妖尸炼成的黑煞飞剑与身相合，微一顾忌却步，被他就地上又将袁星抢起，也不和众人为敌，满院乱飞，所到之处，将地上竖立的数十百面大小妖幡逐一拔起；二矮知道妖尸就要收幡夹了袁星逃遁，连忙齐声高叫：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "一团红光透起",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "火珠耀世",
+            "sound_cn": "乾天火灵珠绽放的轰鸣声，红光铺天盖地，灼热的气浪翻滚",
+            "sound_en": "thunderous burst of the Heavenly Fire Pearl, red light flooding the sky, waves of scorching heat",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 34.0,
+            "trigger_keyword": "地底砰的一声大震",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "地陷爆裂",
+            "sound_cn": "地底剧烈爆炸的巨响，地面塌陷，烈焰冲天",
+            "sound_en": "massive underground explosion, ground collapsing, flames erupting skyward",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 89.9,
+            "trigger_keyword": "剑去，一",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黑煞飞剑",
+            "sound_cn": "妖尸化作黑煞剑气的尖锐破空声，阴风呼啸",
+            "sound_en": "sharp howl of the demonic body transforming into black sword energy, dark wind screaming",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 52.0,
+            "trigger_keyword": "逐一拔起",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "拔幡声响",
+            "sound_cn": "妖幡被拔起时妖气撕裂的嘶嘶声，幡旗猎猎",
+            "sound_en": "hissing of demon banners being pulled up, dark energy tearing, flags flapping",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "米刘二矮",
+      "api": {
+        "voice": {
+          "role": "米刘二矮",
+          "role_voice": "米刘二矮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位大仙！妖尸就要拔幡遁走，温玉在他胸前黑煞丝结成的囊内，非有生血，不能点破，快快下手！",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二矮只顾一路狂喊，众人早将剑光纷纷飞上前去，虽有剑光弥尘幡护身，烈火不侵，但是妖尸非常厉害，一条黑气，宛如乌龙出海，在七八道剑光丛中闪来避去，怪声啾啾，并没有受着一些伤害。得便就将妖幡收去，转眼工夫，妖幡剩了不到十面。英琼既恐袁星丧命，又恐妖尸带了温玉逃走。正在着急，恰巧笑和尚触动灵机，暗想：“妖尸如此重视那些妖幡，到了这般田地，还想带了逃走，我们怎的见事则迷，何不先将妖幡斩断？”想到这里，径将剑光直往那妖幡上面飞去。这些妖幡，共是八十一面，每一面都经妖尸在地底修炼多年，好容易才采得千百只猩、熊生魂，如何肯舍，打算收一面是一面，到了势在临危，再行遁走。一见众人只顾追敌，不曾顾到妖幡，益发得志。他那黑煞剑在异派中最为厉害，又存心不与紫郢、青索迎敌，一味避让，所以众人困他不住。只可惜安坛之时，颇费手脚，虽能随意移动位置，收起来也非顷刻可能了。知道今日虽无幸理，只须避开紫郢、青索二剑，余人剑光不能伤他。英琼、轻云一时情急，忘了双剑合壁之训，由他往复纵横，干自着急。这时一见笑和尚飞剑去斩妖幡，猛被提醒，二人一个在东，一个在南，双双不约而同，各将剑光直朝一面幡前飞去。也是妖尸该遭劫数，自恃不走，抢幡心切。英琼的紫郢剑原与金蝉的霹雳剑同是一般的颜色，只光华威势略有差异，先与金蝉同追妖尸。妖尸一见笑和尚已将妖幡连连斩去两面，九九之数既不能全，恐再不足八九之数，异日报仇更难，情急匆忙，回顾紫光追来，只图避让，直往幡前飞去，没料到英琼倏地分道扬镳。妖尸一到，正要用收诀取幡，猛见轻云青索剑迎面飞来，一时乱了步数，不及躲闪，打算姑且一挡再走，谅不妨事。无巧不巧，英琼紫郢剑也同时飞到，青、紫两道光华无心合壁，光华大盛，幻成一道异彩，绕着黑气只一绞。只听“吱哇”两声惨叫，黑气四散，一朵黄星疾如星飞，冲霄而去。这时上面妖雾未散，地下烈焰犹在飞腾。金蝉眼快，一眼看见黑烟散处，两团黑影正往火坑中坠落，想起袁星在那黑烟之中，忙将弥尘幡展动，往下一沉，伸出两手，一把一个，抓个正着。上来未及说话，严人英叫道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 22.0,
+            "trigger_keyword": "妖幡连连斩去两面",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "斩幡碎响",
+            "sound_cn": "飞剑斩断妖幡的撕裂声，阴气四散",
+            "sound_en": "sound of flying swords tearing through demonic banners, dark energy dispersing",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 52.0,
+            "trigger_keyword": "弥尘幡展动",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "幡动救人",
+            "sound_cn": "弥尘幡展动的风声，彩云翻涌，迅速下落",
+            "sound_en": "swish of the Misty Dust Banner unfurling, colorful clouds surging, rapid descent",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 56.0,
+            "trigger_keyword": "一把一个",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "双手抓物",
+            "sound_cn": "双手快速抓取物体的声响，带着衣料摩擦",
+            "sound_en": "quick grabbing sound, hands catching objects, with fabric rustle",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "严人英",
+      "api": {
+        "voice": {
+          "role": "严人英",
+          "role_voice": "严人英",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此处快要地震，我们飞身出去再说吧。",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人见金蝉一手提着妖尸躯壳，一手提着袁星，还带着一团红紫光华。知道袁星遇救，妖尸除去，温玉已得，心中大喜。闻言纷纷各驾剑光飞起，到了远处峰头落下。妖尸天灵盖震破，直冒白烟。袁星满口血迹，两手紧持那块温玉，业已死去。英琼见了，不由悲恸起来。米、刘二矮道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "纷纷各驾剑光飞起",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "众人飞离",
+            "sound_cn": "众人驾剑光腾空而起的呼啸声，仓促而有序",
+            "sound_en": "whoosh of everyone taking off on sword lights, urgent but orderly",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "米刘二矮",
+      "api": {
+        "voice": {
+          "role": "米刘二矮",
+          "role_voice": "米刘二矮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "主人不必难受。袁道友想是听我二人说那温玉在黑煞丝结成的囊内，潜光晦华，非有生血，不能破去，趁妖尸夹着它飞行，疏于防范之际，咬碎舌尖，破了妖法，将玉抢到手中。正值妖尸在遭劫之时发觉，急欲运用元神遁走，没顾得下手将袁道友弄死，也许只喷了一口妖气。如将它带回仙府，必能设法起死回生。那妖尸神通广大，幸是我们下手快了一步，妖尸又只图留着它活命，以为炼幡之用；不然微一弹指之间，怕不将它身体裂如碎粉，纵有起死灵丹，也难活命了。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "袁星虽然周身依旧温暖，众人因为连用丹药施救无效，它两口宝剑也不知失落何方，纵得温玉，也觉得不偿失，个个戚然无欢。恼得英琼、轻云性起，各将飞剑放出，指着妖尸枯骨，青紫光华连连绕转，只听碎骨沙沙之声，顷刻粉碎。正待商量携着袁星骸骨回山，忽听山崩地裂一声大震，连众人站立的峰头都摇摇欲坠。眼望妖洞那边沙石纷飞，扬尘百丈，把一座大好灵山仙洞，震塌了一个深坑。金蝉眼快，看见尘沙之中，似有两道光华冲起，正随着许多残枝碎木，由上往下飞落。知是宝物，忙将弥尘幡一晃，一幢彩云直往尘沙之中飞去。少时飞回，捞了许多东西回来。内中正有袁星两口宝剑，只是剑鞘全失。还有一柄拂尘，两个铁铃，一柄乌金小剑。二矮一见大喜道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "青紫光华连连绕转",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "碎骨声响",
+            "sound_cn": "青紫双剑绞碎妖尸枯骨的沙沙声响，骨粉纷飞",
+            "sound_en": "gritty sound of green and purple swords grinding demon bones to dust",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "山崩地裂一声大震",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "山崩地裂",
+            "sound_cn": "整座山崩塌的巨响，地动山摇，尘土漫天",
+            "sound_en": "deafening collapse of the mountain, earth shaking, dust and debris filling the sky",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 14.0,
+            "trigger_keyword": "弥尘幡一晃",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "彩云入尘",
+            "sound_cn": "弥尘幡化作彩云冲入尘埃的呼啸声，风雷隐动",
+            "sound_en": "whoosh of the Misty Dust Banner turning into colorful clouds and diving into the dust, thunder rumbling",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 18.0,
+            "trigger_keyword": "捞了许多东西",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "法宝碰撞",
+            "sound_cn": "多件法宝被捞起时相互碰撞的叮当声",
+            "sound_en": "clinking of multiple treasures being gathered, metallic and wooden sounds",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "米刘二矮",
+      "api": {
+        "voice": {
+          "role": "米刘二矮",
+          "role_voice": "米刘二矮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我等知道地肺倒转，顷刻山崩地裂，不及收回法宝，原打算事定之后，再去掘土搜寻，不想齐大仙竟施妙法，代我们取来。只此两件，是我二人多年辛苦炼成，虽被妖尸收去，灵气已失，再加祭炼，仍可还原。余下还有几件东西，且等随了诸位大仙回转灵山，认明仙府，再来寻取吧。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，拿眼望着轻云。轻云知他二人志在寻回故物，又恐后返峨眉事有变局。因已看出二人向善心诚，便对他们道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你们随我们同返，或是后去，俱不妨事。我等回山，必代你二人力求，如有仙缘，早晚俱是一样，莫如你二人还去寻你们的法宝，就便寻取袁星失落的剑鞘，以免落入外人之手。",
+          "instruct": "恳切请求，语气真诚，满怀期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，金蝉早将所得之物交还二矮。二矮闻言，正合心意，一面谢了金蝉，答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "米刘二矮",
+      "api": {
+        "voice": {
+          "role": "米刘二矮",
+          "role_voice": "米刘二矮",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "既承周仙姑体谅微衷，还望主人开恩成全。万一袁道友难于回生，我二人情愿深入北海，盗取返魂香，救它活转，以报收容之恩。",
+          "instruct": "恳切请求，语气真诚，满怀期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "英琼点了点头。二矮刚走，英琼猛想起神雕为何不见？正问众人可曾看见，忽见神雕健羽摩云，从西南方面盘空而来，转眼到众人头上，钢爪松处，掷下一封柬帖。更不停留，旋转双翼，竟往妖洞陷落之处飞去。英琼打开柬帖一看，乃是青囊仙子华瑶崧交神雕带回来的，大意说：众人去得稍早了一步，妖尸未劫未终，仅仅兵解而去。所炼妖尸、邪宝，俱已失去，解却异日凶焰不少。笑和尚所得乾天火灵珠同这块温玉，俱是纯阳至宝，未有师承，不可妄用。袁星乃被妖尸邪气所中，昏迷不醒，只须回转仙山，用九天元阳尺驱走邪气，再用灵丹调治，即可回生。袁星剑匣与米、刘二矮失去的宝物，俱被埋藏地底，业已告知神雕，自会取去。还有妖尸遗下的数十面聚兽妖幡，也在地下埋藏。妖尸元神虽然遁走，对他心血祭炼而成之物必然不舍，一将元神凝炼成形，或借躯还形，定要回来收取。那幡已与妖尸心灵相通，无论藏在何方，都能跟踪寻觅。尤其那幡上许多无辜猩、熊生魂，永受妖尸禁制，也觉可怜。青囊仙子意欲自己带去，寻一位道行高深的同辈，设下法坛，将幡上邪法破去，解了猩、熊生魂羁缚，以便转轮化生。等神雕将妖幡搜出以后，可做一堆放好，自会来拿；并命众人不可私自携走，无益有损。庄易可随笑和尚、金蝉同往百蛮山先立外功，自有复音良机。余人回转峨眉，双剑合壁，解困退敌之期已至。不久便是妙一真人夫妇回山，开辟峨眉五府，众弟子分宝修真，出世济人之时等语。众人读罢，少不得望空拜谢一阵。尤其是哑少年庄易，受恩深重，临别竟未得向青囊仙子当面叩辞，异日有无见面之期，柬上未曾提起，心中更为难过。金蝉道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "钢爪松处",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "柬帖落地",
+            "sound_cn": "柬帖从钢爪中落下的轻响，纸张与风声",
+            "sound_en": "soft sound of the letter dropping from steel claws, paper rustling in the wind",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "笑师兄，我们此去百蛮山，又得一个好帮手了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "庄易闻言，连忙摇手逊谢不迭。再说神雕一经飞落灵玉崖妖尸地穴之上，钢爪起处，沙石翻飞，顷刻之间，便掘深下去有三数十丈。米、刘二矮又帮着用彻地玄功，一同寻找。不多一会，将七十余面妖幡、两个剑匣，连米、刘二人失去的宝物，全都搜掘出来。二矮当中，以刘遇安存心最贪。他知妖尸主幡共是大小九面，还有两面最小的才只七寸多长短，更见妖尸行法时持在手内，估量是个厉害法宝，恰巧寻时首先被他自己发现，便悄悄取来藏在宝囊以内。神雕何等灵异，况且来时青囊仙子说过数目多少，那妖幡不运用时虽然看似黄色粗麻织成，上面仅只画些赤身男女魔鬼与奇怪符篆，并无异处，但是上面妖气怎能瞒得过神雕，事完以后，还不住在他头上盘桓飞鸣。偏偏众人也飞身过来，刘遇安不由又悔又惊。先已藏过，再当着众人取出，深觉不便；不取出交还，又恐神雕不允。只得悄悄低声默祝：“雕仙成全，容我这一回。”神雕意似不允，眼看越盘越低，众人也身临切近。刘遇安正在为难，忽听一阵破空声音，一道黄光自东方飞来，落地现出一个黄冠草履、身容威猛的长髯道者，直奔那一堆妖幡，伸手便要拾取。事出不意，柬帖又有“自己来拿”之言，多半疑是青囊仙子遣来，方打算上前问讯。只庄易看出来人是异教之士，打算上前拦阻。忽然一道光华一闪，比电还疾，光华敛处，现出一个年老道姑，认出来人正是青囊仙子华瑶崧，业已抢在道人前面，将幡取在手中，对那道人道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "钢爪起处",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "钢爪掘地",
+            "sound_cn": "神雕钢爪猛烈挖掘地面的声响，沙石翻飞",
+            "sound_en": "heavy scraping of the eagle's steel claws digging into the ground, rocks and dirt flying",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 28.0,
+            "trigger_keyword": "一道黄光自东方飞来",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黄光飞至",
+            "sound_cn": "黄光破空飞来的呼啸声，带着凌厉的剑气",
+            "sound_en": "sharp whistle of a yellow light flying in from the east, carrying fierce sword energy",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 32.0,
+            "trigger_keyword": "一道光华一闪",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "青囊现身",
+            "sound_cn": "青囊仙子现身时光华闪现的轻响，如惊鸿一瞥",
+            "sound_en": "soft flash and hum as the Green Bag Fairy appears, like a fleeting shadow",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "青囊仙子",
+      "api": {
+        "voice": {
+          "role": "青囊仙子",
+          "role_voice": "青囊仙子",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "吴道友，飞升在即，还要此物何用？让贫道拿去，解却这些沉沦的冤魂吧。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那道人原是个异派中的能手，路经此地，看出便宜，打算飞身下来，抢了妖幡便走。没料到青囊仙子早已隐身在此，没有得手，反闹了个无趣，不由厉声喝道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "吴立",
+      "api": {
+        "voice": {
+          "role": "吴立",
+          "role_voice": "吴立",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老虔婆，自从那年青城一遇之后，多少道友寻你报仇，俱不知你下落，以为你死多年，不料你却在此兴妖作怪，移形换岳，倒转灵玉崖，坏了灵山仙景，定是你这老虔婆和你手下这一干无知的小辈所为的了。你不露面，还可饶你，你既敢现身出来，如不将灵玉崖那块温玉献出，我定和你清算青城旧帐，叫你这老虔婆难逃公道！",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "青囊仙子",
+      "api": {
+        "voice": {
+          "role": "青囊仙子",
+          "role_voice": "青囊仙子",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我们一别多年，没料道友还是这般气盛。夺去道友金鞭崖，乃是当年道友误听恶徒蛊惑，擅起兵戎，以致为矮叟朱道友赶走。贫道当时因为贵门徒虽然多行不义，道友本身尚少惭德，曾为道友再三缓颊，才得免遭飞剑殒身之难。怎么不去寻朱道友报仇，倒怪起贫道来了？至于倒转地肺，破坏灵玉崖仙景，乃是妖尸谷辰所为。贫道只为峨眉门人斩了妖尸，取去温玉，所遗妖幡附着千百野兽生魂，意欲解除异类冤孽，向峨眉诸道友要了，还未取走，便遇道友驾临，不得不现身出来相见。闻得道友功行不久圆满，理应名山静养，以等仙缘，何苦出山多事？难道忘了极乐真人前时预言么？",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那道人闻言，转身往左右一看，见英琼、轻云、金蝉、笑和尚、庄易、严人英等个个仙风道骨，不比寻常，俱都环立在侧，怒目相视，不由又惊又怒道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "吴立",
+      "api": {
+        "voice": {
+          "role": "吴立",
+          "role_voice": "吴立",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来老虔婆仗着峨眉小辈人多，故尔口出狂言。须知我吴立一生言出法随。你既然在此，盗玉之事，决非这几个小辈所能办到，必定是你主持无疑。快将幡、玉献出，免我动手。",
+          "instruct": "疑惑，语气迟疑，困惑不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "青囊仙子未及答言，金蝉早向庄易、英琼问明敌友，一见道人出言不逊，一个忍耐不住，用手一拉笑和尚，先喝一声：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "金蝉",
+      "api": {
+        "voice": {
+          "role": "金蝉",
+          "role_voice": "金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "无知妖道，擅敢在此猖狂！",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "接着各将霹雳双剑飞出手去。那道人先见这些少年男女资禀出群，虽然惊异，心中还以为不过是峨眉门下新收弟子，以前又未听说过，仗着自己本领，并没放在心上。一听骂声，回脸一看，竟是那面如冠玉，垂发披肩，颈戴金圈，在众人当中最年幼的一个，还不屑放出飞剑，只打算行法禁制，略微给他一点苦吃。就这一转念头之际，忽见那幼童同另一个小和尚将手朝他一指，便有红紫两道光华，夹着风雷之声，迎头飞来，认得是峨眉掌教的霹雳双剑，才知这些小孩并非易与。忙将手一张，先飞出两道黄光，分头敌住。英琼本来早想动手，因为轻云见青囊仙子一任来人出言冒犯，并不发怒动手，猜那道人必非弱者，力主慎重行事，英琼虽被轻云拦住，心中还是跃跃欲试。一见金蝉和笑和尚动手，庄易、严人英也跟着将剑光放出，如何能耐，也将紫郢剑放起。轻云见大家动手，战端已开，道人既非易与，自然是相助为佳了。吴立分出两道黄光，敌住了金蝉、笑和尚。因为对面强敌青囊仙子尚未动手，不敢怠慢，正待另使法术、飞剑取胜时，侧面又飞来一道银光、一道乌光。喊一声：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "霹雳双剑飞出手去",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "霹雳双剑",
+            "sound_cn": "霹雳双剑破空飞出的轰鸣声，带着风雷之势",
+            "sound_en": "thunderous roar of the Twin Thunder Swords flying out, with wind and thunder",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "两道黄光",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "黄光飞剑",
+            "sound_cn": "两道黄色剑光飞出的破空声，与霹雳剑剧烈碰撞",
+            "sound_en": "sharp whoosh of two yellow sword lights, clashing violently with the Thunder Swords",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "吴立",
+      "api": {
+        "voice": {
+          "role": "吴立",
+          "role_voice": "吴立",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来得好！少时让尔等这一干小妖孽知道祖师爷的厉害。",
+          "instruct": "愤怒，咬牙切齿，怒火中烧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随说将手一挥，又飞起七八道黄光，打算一半迎敌，一半乘隙飞将过去，乘敌人措手不及，伤他性命，再另用一口主剑，去敌青囊仙子。谁知这些少年年纪虽轻，剑光却如游龙一般，神化无穷。黄光虽然较多，休说飞越过去伤人，竟被这四道光华阻止，休想上前一步。暗付：“这些小孩，哪里来得这许多好飞剑？”方在失惊之际，倏地又听两声娇叱，对面两个少女，各人又飞出一道紫光、一道青光，比电闪还疾，直往剑光丛里穿去。越知不比寻常，略一迟疑，后来这两道青紫光华已与自己黄光接触，只绕得一绕，倏又合拢，盘绕着三四道黄光，似毒龙互斗，绞结挣命一般，微一屈伸，便见黄光收敛。知道不妙，想收回已经不及，被敌人青紫两道光华联合截住三道黄光一绞，黄光四碎，往下飞落，宛如明月天香，洒了一天桂子。余下六道，一道被敌人银光盘住，一道被乌光盘住，先时两道被霹雳剑盘住，急切间一道也收不回来。剩下还有两道，又被这后两道青紫光华二次盘住，光华渐敛，眼看又要步适才两道后尘。再看青囊仙子，仍是含笑旁立，始终不曾动手。才知今日轻敌，上了大当，不由又痛又惜，又悔又恨，急出一身热汗，无计可施。末后实实不舍多年心血炼就的飞剑，把心一横，用手一拍顶门，先披散了头发，口中念念有词，正要将舌尖咬碎，行法向敌人喷去。忽见满天黄雨，纷纷落下，空中六道黄光，同时又被敌人破去四道。下余两道也在危急，敌人更不容情，立刻破了，纷纷如陨星坠落一般，直飞过来。又听青囊仙子说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "七八道黄光",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黄光齐飞",
+            "sound_cn": "多道黄光同时飞出的呼啸声，交织成一片",
+            "sound_en": "multiple yellow sword lights flying out together, whistling and interweaving",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 22.0,
+            "trigger_keyword": "紫光、一道青光",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青紫齐出",
+            "sound_cn": "青索紫郢双剑飞出的凌厉剑啸声，势如破竹",
+            "sound_en": "sharp sword cries of the Green and Purple Swords flying out, unstoppable",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 38.0,
+            "trigger_keyword": "黄光四碎",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "碎剑落英",
+            "sound_cn": "黄光飞剑被绞碎的清脆碎裂声，碎片如桂花飘落",
+            "sound_en": "crisp shattering of yellow sword lights, fragments falling like osmanthus petals",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 60.0,
+            "trigger_keyword": "满天黄雨",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黄雨纷落",
+            "sound_cn": "飞剑碎片如雨点般纷纷坠落的密集声响",
+            "sound_en": "dense sound of sword fragments raining down like yellow raindrops",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "青囊仙子",
+      "api": {
+        "voice": {
+          "role": "青囊仙子",
+          "role_voice": "青囊仙子",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "峨眉诸道友虽然年轻，已受本门心法，内有紫郢、青索两口仙剑。道友一再执迷，莫非还要待毙么？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "吴立一听那青紫光华，竟是长眉真人当年炼魔之宝，久已闻名，不想今日在此遇上，眼看大祸临头，危机一发，再不见机遁走，定要身败名裂。他自前些年和矮叟朱梅斗剑，失去金鞭崖后，怀恨在心，立志报仇，炼成了二十六口黄精剑，准备约好当年同住金鞭崖的同门伴侣麻冠道人司太虚，去寻朱梅晦气，夺回金鞭崖。到了崂山一谈，才知司太虚自青城一败，隐迹参修，已悟正果，不但不肯相助，反劝他道：“你我二人超劫在即，以前原是自己错误，难怪旁人，何苦又动无明，自寻魔障，耽误飞升？”吴立终觉恶气难消，见司太虚执意不肯下山，一怒而去。因为以前朱梅有追云叟、青囊仙子等人相助，这多年来，更听说与峨眉派有了密切交情，惟恐众寡不敌，想另约几个能人，异日可壮声势，再寻朱梅晦气方休。刚越过莽苍山，迎面飞来一朵黄星，疾如电驶，知是异派中人的元神破空出游。因想看看是谁，给他开个玩笑，忙用玄门先天一气大擒拿法，想将那黄星收住。那黄星竟似早已料到此着，并不躲闪，眼看近前，倏地黄光一闪，自动飞入吴立袍袖之内。吴立很是惊异，便问：“适才我没留神，今见道友这般行径，莫非是我的熟朋友么？”说罢，忽听袖中尖声答道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "迎面飞来一朵黄星",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "黄星飞入",
+            "sound_cn": "黄星破空飞入袖中的尖啸声，如流星划过",
+            "sound_en": "sharp whistle of a yellow star shooting into the sleeve, like a meteor",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "袖中黄星正是妖尸谷辰的元神，告知吴立前因后果，答应将玄阴聚兽幡相赠。吴立利欲熏心，赶来抢幡，与众人激战，飞剑被破，最终驾剑光破空逃走。刚刚飞过峰顶，忽听一声雕鸣，金睛火眼，一只大黑雕直从下面冲霄追来。定睛一看，认出是白眉和尚座下神禽，不由吓了个亡魂皆冒。一面驾着剑光逃遁，一面默使隐身之法，已是慢了一步，被神雕追来，钢爪舒处，正抓在吴立背上，连皮带肉，抓下一大片去。吴立拼命挣脱，且喜身形隐去，神雕也未穷追，才得逃命。这里英琼等见吴立逃走，正要分人去追，青囊仙子连忙止住，吩咐众人：“暂且停手，待我奉些微意。”说罢，将手一指，飞起一道光华，先将空中六道剑光圈住，然后默用玄功收了下来，分给众人，恰好六人各得一口。原来是六柄黄色短剑，大小长短，一般无二，非金非铁，映日生光。众人心中大喜，连忙拜谢。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "一声雕鸣",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "神雕追袭",
+            "sound_cn": "神雕追来的嘹亮鸣叫声，双翼破风，气势凌厉",
+            "sound_en": "piercing cry of the divine eagle in pursuit, wings cutting through the air with fierce power",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "钢爪舒处",
+            "trigger_offset": 0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "钢爪抓背",
+            "sound_cn": "钢爪撕裂皮肉的沉闷声响，带着衣料碎裂",
+            "sound_en": "dull tearing of flesh and cloth as steel claws rip into the back",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 16.0,
+            "trigger_keyword": "飞起一道光华",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "青囊收剑",
+            "sound_cn": "青囊仙子剑光飞起收剑的轻啸声，六口飞剑被一齐收回",
+            "sound_en": "soft whistle of the Green Bag Fairy's sword light rising and collecting six swords at once",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "审问妖童",
+        "start_line": 1,
+        "end_line": 4,
+        "prompt": "very subtle low volume background ambience, rugged mountain slope with scattered rocks, cool breeze rustling through sparse pines, distant eagle cries echoing, tense interrogation atmosphere, soft yet persistent wind, subtle creak of old wooden staff, no voices, no sharp foreground sounds, no music",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "妖穴激战",
+        "start_line": 5,
+        "end_line": 16,
+        "prompt": "very subtle low volume background ambience, dark demonic cave filled with swirling black smoke, eerie howls of beasts and spirits, deep rumble of underground fires, intense battle sounds of sword clashes and energy bursts, urgent and chaotic atmosphere, deep drum beats and cymbal crashes adding tension, no voices in ambience, no melody, no sharp foreground human sounds",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "峰顶聚议",
+        "start_line": 17,
+        "end_line": 27,
+        "prompt": "very subtle low volume background ambience, high mountain peak with panoramic views, cool wind blowing across the summit, distant sounds of collapsing rocks from the demon cave, birds circling overhead, relieved yet solemn atmosphere, soft xiao flute breath carrying a sense of peace and accomplishment, no voices, no sharp events, no music melody",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "抢幡斗法",
+        "start_line": 28,
+        "end_line": 40,
+        "prompt": "very subtle low volume background ambience, intense sword fight on the mountain peak, multiple sword lights clashing and swirling, sharp metallic rings and energy crackles, wind howling around the combatants, urgent and fierce atmosphere, sparse pipa and yangqin adding dramatic tension, no voices in ambience, no melody, no sharp foreground events",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

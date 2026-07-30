@@ -72,15 +72,22 @@ def synthesize_tts(text: str, voice: str, speed: str, volume: str, pitch: str, i
     return str(out_path.relative_to(BASE_DIR))
 
 
-def synthesize_vd_preview(vd_prompt: str, text: str = "各位好，本次进行语音克隆采样试音，吐字标准，节奏稳重") -> str:
+def synthesize_vd_preview(vd_prompt: str, text: str = "我是{角色}，这是我的声音样本，欢迎收听蜀山剑侠传有声剧，给你带来不一样的听觉盛宴，感谢收听。", char_name: str = "") -> str:
     """VoiceDesign 试听合成，返回相对于 BASE_DIR 的输出路径"""
     from audio_processing_module import VoiceParams, AudioEngine
-    h = hashlib.md5(f"vd_{vd_prompt}_{text}".encode()).hexdigest()[:12]
-    out_path = LAB_OUTPUT_DIR / f"vd_{h}.wav"
+    # 文件名：优先用角色名，否则 fallback 到 hash
+    if char_name.strip():
+        safe_name = char_name.replace('/', '_').replace('\\', '_').replace(':', '_')
+        filename = f"vd_{safe_name}.wav"
+    else:
+        h = hashlib.md5(f"vd_{vd_prompt}_{text}".encode()).hexdigest()[:12]
+        filename = f"vd_{h}.wav"
+    out_path = LAB_OUTPUT_DIR / filename
+    # 同名已存在则跳过合成，直接返回缓存（仅当 char_name 非空时生效）
     if out_path.exists():
         return str(out_path.relative_to(BASE_DIR))
 
-    tid = f"vd_{h}"
+    tid = filename.replace('.wav', '')
     q = _log_queues.get(tid, queue.Queue())
 
     # 取消上一个正在进行的 VD 合成
@@ -1554,15 +1561,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path == '/api/lab/vd-preview':
             vd_prompt = body.get('vd_prompt', '')
-            text = body.get('text', '各位好，本次进行语音克隆采样试音，吐字标准，节奏稳重')
+            text = body.get('text', '我是角色，这是我的声音样本，欢迎收听蜀山剑侠传有声剧。')
+            char_name = body.get('char_name', '')
             if not vd_prompt.strip():
                 return self._send({"error": "VoiceDesign Prompt 不能为空"}, code=400)
             try:
                 # 启动合成（后台线程），返回 task_id，前端通过 SSE 获取日志和结果
                 import hashlib as _hl
                 import queue as _q
-                h = _hl.md5(f"vd_{vd_prompt}_{text}".encode()).hexdigest()[:12]
-                tid = f"vd_{h}"
+                safe_name = char_name.replace('/', '_').replace('\\', '_').replace(':', '_') if char_name.strip() else ""
+                tid = f"vd_{safe_name}" if safe_name else f"vd_{_hl.md5(f'vd_{vd_prompt}_{text}'.encode()).hexdigest()[:12]}"
                 # 注册 task
                 _cancel_vd_synthesis()  # 先取消上一个
                 with _gen_lock:
@@ -1572,7 +1580,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 def _run_vd():
                     q = _log_queues[tid]
                     try:
-                        out = synthesize_vd_preview(vd_prompt, text)
+                        out = synthesize_vd_preview(vd_prompt, text, char_name)
                         with _gen_lock:
                             _gen_tasks[tid]["status"] = "done"
                             _gen_tasks[tid]["result"] = out
@@ -1585,6 +1593,49 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 _th = threading.Thread(target=_run_vd, daemon=True)
                 _th.start()
                 return self._send({"task_id": tid, "status": "running"})
+            except Exception as e:
+                return self._send({"error": str(e)}, code=500)
+
+        if path == '/api/lab/vd-save':
+            audio_path = body.get('audio_path', '')
+            char_name = body.get('char_name', '')
+            if not audio_path.strip():
+                return self._send({"error": "audio_path 不能为空"}, code=400)
+            if not char_name.strip():
+                return self._send({"error": "char_name 不能为空"}, code=400)
+            try:
+                import shutil
+                from pydub import AudioSegment
+                src = BASE_DIR / audio_path
+                if not src.exists():
+                    return self._send({"error": f"音频文件不存在: {audio_path}"}, code=400)
+                # 清理文件名中非法字符
+                safe_name = char_name.replace('/', '_').replace('\\', '_').replace(':', '_')
+                dest = CLONE_AUDIO_DIR / f"{safe_name}.mp3"
+                os.makedirs(str(CLONE_AUDIO_DIR), exist_ok=True)
+                audio = AudioSegment.from_file(str(src))
+                audio.export(str(dest), format="mp3")
+                relative_dest = str(dest.relative_to(BASE_DIR))
+                return self._send({"status": "saved", "path": relative_dest, "name": char_name})
+            except Exception as e:
+                return self._send({"error": str(e)}, code=500)
+
+        if path == '/api/clone-voice/delete':
+            char_name = body.get('char_name', '')
+            if not char_name.strip():
+                return self._send({"error": "char_name 不能为空"}, code=400)
+            try:
+                safe_name = char_name.replace('/', '_').replace('\\', '_').replace(':', '_')
+                file_path = CLONE_AUDIO_DIR / f"{safe_name}.mp3"
+                if file_path.exists():
+                    os.remove(str(file_path))
+                    # 同时删除 _lab 下的对应缓存
+                    lab_file = LAB_OUTPUT_DIR / f"vd_{safe_name}.wav"
+                    if lab_file.exists():
+                        os.remove(str(lab_file))
+                    return self._send({"status": "deleted", "name": char_name})
+                else:
+                    return self._send({"status": "not_found", "name": char_name})
             except Exception as e:
                 return self._send({"error": str(e)}, code=500)
 

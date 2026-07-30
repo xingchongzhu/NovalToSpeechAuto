@@ -1,0 +1,2180 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第92回 生死故人情 更堪早岁恩仇 忍见鸳鸯同并命苍茫高世感 为了前因魔障 甘联鹣鲽不羡仙",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "曼娘": {
+      "role_voice": "曼娘",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "魏达": {
+      "role_voice": "魏达",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "魏大鲲": {
+      "role_voice": "魏大鲲",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "魏母": {
+      "role_voice": "魏母",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "魏仲渔": {
+      "role_voice": "魏仲渔",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第92回",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘定睛一看，喊声。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "草丛急响",
+            "sound_cn": "草丛急剧响动，蛇身摩擦草叶的沙沙声",
+            "sound_en": "grass rustling sharply, snake scales scraping through leaves",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "曼娘定睛一看",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "不好！",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "幸喜宝剑在手，连忙甩脱了剑鞘。说时迟，那时快，剑刚出匣，那东西已往曼娘头上蹿了过来。曼娘更不怠慢，将脚一垫，纵身往横里斜蹿出去。就势起手中剑往上一撩，一道白光过处，往那东西的七寸子上绕了一绕，饭碗大一颗蛇头直飞起有十几丈高下。那一段蛇身带着一阵腥风，赤鳞耀目，映着日光，像一条火链般，从曼娘头上飞蹿出去有数十丈远近，才行落地。曼娘起初闻风回视，见那蛇头上骑着一个黑东西，好像适才见的黑小人。斩蛇之后再去寻找，已不知去向了。细看那条大蛇，与前一次误斩龟、蛇所见的那一条一般无二，七寸子下面还有接续的创痕。知道这种红蛇其毒无比，恐它复活害人，不管它是先前那条蛇不是，挥动宝剑，先将它连头带身切成四截，重又一截一截地斫成无数小段，才行住手。觉得手上有些湿糊糊的，低头一看，手上的黑芝根上的成形小人，不知怎地被曼娘无心中碰断了一条臂膀，流出带浅碧色的白浆来。曼娘以为灵药可惜，便就着小人的断臂处去吮吸，入口甘甜，一股奇香刺脑欲醉。喜得曼娘还要口中用力去吸时，忽然觉得一阵头晕眼花，心中作恶，两太阳穴直冒金星，一个支持不住，倒在就地，不省人事。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "宝剑出鞘",
+            "sound_cn": "宝剑出鞘，清越龙吟，剑光如电，寒芒四射",
+            "sound_en": "sword drawn from sheath, clear dragon-like ring, blade like lightning, cold radiance",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "幸喜宝剑在手",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "斩蛇剑光",
+            "sound_cn": "剑光过处，斩断蛇头，风声呼啸，蛇身飞坠，赤鳞闪烁",
+            "sound_en": "sword light passing, snake head severed, wind howling, body falling, red scales glinting",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "喜宝剑在手",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "曼娘晕倒",
+            "sound_cn": "曼娘身体倒地，沉闷的落地声，宝剑脱手",
+            "sound_en": "woman collapsing, heavy thud, sword dropping",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那时快",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "及至醒来一看，自己身子睡在一个崖洞窝铺之内，旁边坐着一老一少两个猎人。老的一个正坐在一个土灶旁边，口中吸着一根五六尺长的旱烟袋，不时用手取些枯枝往灶里头添火。长着一脸胡须，目光炯炯，看上去身材非常高大，神态也极硬朗。年青的一个生得虎臂熊腰，英姿勃勃，身上还穿的是猎人打扮。坐在老猎人侧面，面前堆着十几个黄精和芋头，手中拿着一把小刀，正在那里削个不停。四周壁上，满张着虎豹豺狼野兽的皮，同各种兵器弓弩之类。曼娘不知怎地会得到此，心中惊异。正待从卧处起来，猛觉周身一阵奇痛，四肢无力，慢说下床，连起身也不能够。那两个猎人闻得曼娘在床上转动，年青的一个便喊了一声爹爹，朝铺上努了努嘴。老年猎人便走了过来，对曼娘道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "土灶柴火",
+            "sound_cn": "枯枝在灶中燃烧，噼啪作响，暖意融融",
+            "sound_en": "dry branches burning in stove, crackling, warm atmosphere",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "及至醒来一看",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "魏大鲲",
+      "api": {
+        "voice": {
+          "role": "魏大鲲",
+          "role_voice": "魏大鲲",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "姑娘休要转动，你中毒了。所幸你内功甚好，又得着了半片王母草，巧遇见我儿子打猎经过，将你背回，我就用你得来的那半片王母草将你救了转来。如今你元气大亏，至少还得将养三四个月才能下地。要想身体还原，非半年以上不可。我已叫我老伴给你去寻药去了，如能再得两片王母草，你痊愈还要快些。你现时劳不得神，先静养些时，有话过些日子再说吧。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那少年猎人也走过来插口道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "爹爹如此说法，叫姑娘怎得明白？我们原是四川人，因为有一点事，将我父母同我逼到外乡来。我父亲会配许多草药，知道仙霞岭灵药甚多，特意来此寻采。我最喜欢打猎，昨天到前岭去打猎回来，忽见草地里有一颗断了的大蛇头，心中奇怪。暗想：'这种大毒蛇，能将它除掉，必是个大有本领之人无疑。'正想着往前走，又看见无数断碎蛇身，我便跟踪寻找。见姑娘倒在地上，业已死去，手中拿着一株仙人虞和半片王母草。我原认不得这些灵药。因见姑娘那柄宝剑非常人之物，那蛇定是被姑娘所斩，以为姑娘斩蛇后中了蛇毒。我佩服姑娘有这么大本领和勇气替世人除害，见姑娘胸前还有热气，我爹爹所配灵药能起死回生，才将你背了回来救治。我爹爹说你所中并非蛇毒，乃是把仙人虞这种毒药，错当作了灵芝服了下去。所幸你内功根抵很深，当时并未身死；又加上你得的那半片王母草，乃是千年难逢的灵药，能够起死回生。我爹爹先用王母草给你服下，又用家藏的灵药与你救治。因为缺少一样药草作引子，我母亲到后岭寻找去了，还未回来。我父子虽是采药的猎人，并不是下流之辈。姑娘如家乡甚近，等母亲回来，服完了二次药，给你收拾出地方住上几天，等医得有些样子，我们才敢送你回家去。如果离家甚远，只好等在我家养痊愈了再走。我知姑娘事起仓猝，又和我们素昧平生，必定急于知道我父子的来历，所以才冒昧对你说明。爹爹说姑娘不能劳神，最好照我的话，无须回答。这是性命攸关，请你不要大意，越谨慎小心越痊愈得快。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘闻言，才明白了一个大概。心中最惦记的是自己的一口宝剑，见挂在铺旁，没有失落，才放了心。因神弱力乏，略一寻思，心内便觉发慌，太阳穴直冒金星，头痛欲裂。又见这两个猎人言语诚挚，行止端正，事已至此，只得接受人家好意，由他医治。心中还想说几句感恩道谢的话，谁知气如游丝，只在喉中打转，一句也张不开口来。才知人家所说不假，只得将头冲着这两个猎人微点了点，算是道谢，便即将双眼闭上养神。不多一会，又昏迷过去。过了一阵，觉着有人在扶掖自己，睁眼一看，业已天黑。那少年猎人手中拿着一把火炬，一手捧着一个瓦罐，站在铺前。一个白须如银的年老婆子，一手扶着自己的头，用一个木瓢去盛那瓦罐里的药，一口一口正给自己喂灌呢。那老婆子见曼娘醒来，笑说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "药汤喂服",
+            "sound_cn": "木瓢舀药声，瓦罐轻响，药汤缓缓倒入碗中",
+            "sound_en": "wooden ladle scooping medicine, clay pot clinking, liquid pouring slowly",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "曼娘闻言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "姑娘为世人除害，倒受了大伤了。",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，伸手到曼娘被内摸了摸肚皮，说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "姑娘快行动了。",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那少年猎人闻言，便将火炬插在山石缝中，捧过来一大盆热水，又取了一个瓦钵放在当地，随即退身出去。少年猎人走后，曼娘也觉着肚内一阵作痛，肠子有东西绞住一般，知要行动，便想揭被下地。偏偏身子软得不能动转，手足重有千斤，抬不起来。那老婆子道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "热水盆放下",
+            "sound_cn": "木盆放在地上，水波轻荡，热气升腾",
+            "sound_en": "wooden basin placed on ground, water sloshing, steam rising",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那少年猎人闻",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "姑娘不要着急，都有老身呢。",
+          "instruct": "焦急万分，语速急促，忧心忡忡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，先将风门关好，回转身揭开曼娘盖被，先代曼娘褪了中小衣，一手插入曼娘颈后，一手捧着曼娘两条腿弯。曼娘正愁她上了年岁抱不起来，谁知那老婆子力气颇大，竟和抱小猫一般将曼娘捧起。刚捧到瓦钵上面，曼娘已忍耐不住，扑嘟连声，尿屎齐来，撒了一大瓦钵，奇臭无比。顿时身上如释重负，心里轻松了许多。那老婆子给曼娘拭了污秽，将曼娘捧到床上，也不给她衣服，用被盖好，然后端了瓦钵出去。一会工夫，听得老婆子在外面屋内说话，隐约听得那少年猎人说。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "瓦钵端走",
+            "sound_cn": "瓦钵被端走，轻微陶器碰撞声，脚步声远",
+            "sound_en": "clay basin being carried away, soft ceramic clinking, footsteps fading",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "先将风门关好",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "妈，你不要管我，少时我打地铺就是。救人一命，胜造七级浮屠呢。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老婆子道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "平时我吃素，你还劝我，每日专去打猎杀生，这会又慈悲起来了。她又是个女的，毒中得那么深，有的地方，你和你爹爹又不能近前给我帮忙。偏你这孝顺儿子，会想法磨我老婆子一人。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那少年猎人又说了几句，并未听真。又听得那老婆子道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "妈逗你玩的。我天天想行善修修来世，如今天赐给我做好事的机会，还偷懒吗？她如今刚行动完了，药汤也大热，略让她缓缓气，再给她洗吧。只是你爹爹说，由此每日早晚给她服药、洗澡、行动得好几天，要过十几天，毒才能去尽呢。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那少年猎人道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "诸事全仗妈救她，少时给她洗澡以后，我到底是个男子，虽说行好救人，恐防人家多心，我就不进去了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老婆子又道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我说你这孩子，虎头蛇尾，做事不揩屁股不是？你怎么给我抱回来的？这会又避起嫌疑来了，只要心里头干净，我们问心无愧，怕些什么？女人家长长短短，当然不能叫你在旁边。她这十几天服药之后，身子一天比一天软，白天不说，晚上扶她起来用药，我一个人怎忙得过来？",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那少年猎人闻言，没有言语。那老婆子随即走了进来，先摸了摸当地的木盆。又待了片刻，才走过来，将曼娘仍又捧起，放到木盆里面。曼娘闻得一阵药香，知道木盆中是煮好了的药汤。那老婆子先取盆内药渣给曼娘周身揉搓，未了又用盆中药汤冲洗周身。曼娘浑身少气无力，全凭老婆子扶掖搓洗了个够，用盆旁干净粗布擦干，捧上床去。那婆子又取过一套中小衣，对曼娘道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "药汤搓洗",
+            "sound_cn": "药汤水声，揉搓身体，药香弥漫，水汽氤氲",
+            "sound_en": "medicine water splashing, rubbing sound, herbal fragrance filling the air, steam rising",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那少年猎人闻",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "姑娘衣服不能穿了，这是老身两件粗衣服，委屈点将就穿吧。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘见那老婆子生得慈眉善目，偌大年纪，竟这样不借污秽，殷勤服侍自己。想起自己幼遭孤零，从未得过亲人疼爱，纵横了半生，却来在这荒山僻地死里逃生，受人家怜惜，觉着一阵心酸，只流不出眼泪来。暗想：“猎家父母儿子三人，俱都有如此好心，见义勇为。将来好了，必定要肝脑涂地，报答人家才好。”又想起适才听得他母子在外屋的对答，难得那少年猎人也这样行止光明。又见他家陈设简陋，并住在崖洞窝铺之中，必是个穷苦猎人，让人如此费神劳顿，越想越过意不去。最难受的是，心中有一万句感恩的话，一句也说不出来。正在胡思乱想，那老婆子已是觉察，便用手抚摸曼娘道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "姑娘休要难受，你想心思，我知姑娘有话说不出来，但是不要紧的，我们都猜得到。有什么话，身体好了说不一样吗？别看我们穷，不瞒姑娘说，如今我们并不愁穿吃，只为避人耳目，外面现些穷相罢了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，便听外屋有人说话道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "魏大鲲",
+      "api": {
+        "voice": {
+          "role": "魏大鲲",
+          "role_voice": "魏大鲲",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "姑娘受毒甚重，劳不得神，你少说几句吧。",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老婆子闻言，当即住了口，只劝曼娘不要过意不去，安心调养。曼娘一听外面是那老猎人口音，语气好似警戒老婆子不要多口。明白他是怕老婆子说溜了口，露出行藏。猜这一家定非平常之辈，苦于开不得口，没法问人家姓名，只得全忍在心里。一会工夫，少年猎人从外面捧了一碗东西进来，站在床前。那老婆子道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "别的东西姑娘吃不得，这是煮烂了的黄精，姑娘吃一点吧。",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，仍由老婆子扶起曼娘的头，从少年猎人手中一勺一勺地喂给曼娘吃。曼娘舌端发木，也吃不出什么滋味来。那老婆子也不给曼娘多吃，吃了五六勺，便命端走。到了半夜，曼娘又行动了几次，俱都是老婆子亲身扶持洗擦。曼娘虽然心中不忍，却也无奈。照这样过了有七八天，俱是如此。只泻得曼娘精力疲惫，气如游丝。幸而老猎人一面用泻药下毒，一面还用补药提气。不然的话，任曼娘内功多好，也难以支持。直到第九天晚间才住了泻。那老猎人进屋对曼娘道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "魏大鲲",
+      "api": {
+        "voice": {
+          "role": "魏大鲲",
+          "role_voice": "魏大鲲",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "恭喜姑娘，今天才算是脱了大难了！",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘因遵那猎人一家吩咐，自从中毒以来，一句话也未说过，想说也提不上气来。这几日服药大泻之后，虽然身子一天比一天软弱，心里却一天比一天舒服，不似前些日那样时时都觉如同虫咬火烧了。当晚又喝了一碗黄精和稻米煮的稀饭，由此便一天比一天见好。又过了五六天，才能张口说话。见这一家子对她如此恩义，尤其是那少年猎人对她更是体贴小心，无微不至，把曼娘感激得连道谢的话都说不出口。谁知曼娘病才好了不到两月，刚能下地走动，那老婆子忽然有一晚到外面去拾枯枝，从山崖上失足跌了下来。等到她儿子到城镇上去买米盐回来救转，业已震伤心肺，流血太多，眼看是无救的了。不但老猎人父子十分悲痛焦急，就是曼娘受人家救命之恩，偌大年纪那般不避污秽，昼夜勤劳，自己刚得起死回生，还未及图报大恩，眼睁睁看她就要死去，也是伤心到了极处。偏偏福无双至，祸不单行。那老婆子命在垂危之际，那老猎人夫妻情长，还想作万一打算，吩咐儿子在家服侍，自己带了兵刃出去，希冀也能寻着一点起死回生的灵药，救老伴的性命。老猎人走后，那少年猎人也和曼娘都守在老婆子铺前尽心服侍，希望老猎人出去能将灵药仙草寻了回来。曼娘更是急得跪在地下叩祷神佛默佑善人，不住口许愿。那老婆子看曼娘情急神气，不由得现出了一脸笑容，将曼娘唤到面前，说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "魏母坠崖",
+            "sound_cn": "山崖坠落的沉闷声响，身体撞击岩石，枯枝散落",
+            "sound_en": "person falling from cliff, heavy impact on rocks, branches scattering",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "曼娘因遵那猎",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "姑娘你太好了！我要是有你这么一个……",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到这句，忽然停了口，望了那少年猎人一眼，又深深地叹了一口气。曼娘心中正在烦愁，当时并未觉出那老婆子言中深意。直到天黑，还不见老猎人回转，那少年猎人与那老婆子都着急起来，老婆子不住口地催少年猎人去看，少年猎人又不放心走，好生为难。老婆子见少年猎人不去，便骂道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "深深叹息",
+            "sound_cn": "老婆子长长的叹息声，忧心忡忡",
+            "sound_en": "old woman's deep sigh, full of worry",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "说到这句",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "不孝畜生！你还是只知孝母，不知孝父吗？再不走，我便一头碰死！",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘见老婆子生气，便劝少年猎人道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "恩兄只管前去，你娘便是我娘，我自会尽心服侍的。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那少年猎人又再三悄悄叮嘱曼娘，除了在旁伺候外，第一是不能离开此屋一步。说罢，眼含痛泪，连说几声。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "妈妈好生保重，儿找爹爹去，就回来。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "才拿了兵刃走去。曼娘所说原是一句无心之言，少年猎人才走，那老婆子便把曼娘喊至床前，说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魏达离去",
+            "sound_cn": "脚步声远去，山洞外风声萧萧",
+            "sound_en": "footsteps fading away, wind outside cave",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "才拿了兵刃走",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "好儿，你将才对我儿说的话，是真的愿喊我做娘吗？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘闻言，不由心中一动，猛想起老婆子适才之言大有深意，自己受人深恩，人家又在病中，匆促之间，不知如何答对才好。刚一沉吟，那老婆子已明白曼娘心中不甚愿意，便把脸色一变，叹了口气，低头不语。曼娘半晌才答道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "女儿愿拜在恩公恩母膝下，作为螟岭之女。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这时老婆子越发气喘腹痛，面白如纸，闻得曼娘之言，只把头摇了摇，颤声对曼娘道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "你去与我汲一点新泉来。",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘连日也常在门前闲眺，知道洞前就有流泉，取了水瓢就往门外走去。才一出门，好似听见老婆子在床上辗侧声响，曼娘怕她要下床走动，连忙退步回身一看，那老婆子果然下地，用手摘下墙上一把猎刀正要自刎。曼娘大吃一惊，一时着急，顾不得病后虚弱，一个箭步蹿上前去，抓住老婆子臂膀，将刀夺了下来，强掖着扶上床去。这时老婆子颈间已被刀锋挂了一下，鲜血直往下流，累得曼娘气喘吁吁，心头直跳。那老婆子更是气息仅存，睁着两只暗淡的眼睛，望着曼娘不发一言。曼娘略定了定神，不住口地劝慰，问老婆子何故如此，老婆子只不说话。曼娘正在焦急，忽听门一响处，那少年猎人周身是血，背着老年猎人半死的身躯跑了进来。那老婆子见老年猎人头上身上被暗器兵刃伤了好几处，好似早已料到有这场事似的，对少年猎人道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "猎刀落地",
+            "sound_cn": "猎刀被夺下，金属落地声，刀锋擦过皮肤",
+            "sound_en": "hunting knife snatched, metal hitting ground, blade grazing skin",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "曼娘连日也常",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "魏达闯入",
+            "sound_cn": "门被撞开，急促脚步，喘息声，血衣摩擦",
+            "sound_en": "door bursting open, rushing footsteps, heavy breathing, bloody clothes rustling",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "也常在门前闲",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "他也快死了吧？",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "少年猎人眼含痛泪，微点了点头。老婆子微笑道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "这倒也好，还落个干净，只苦于他不知道我的心。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘正忙着先给老年猎人裹扎伤处，老婆子颤声道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "那墙上小洞里有我们配的伤药，先给我儿子敷上伤处吧。他同我都是活不成的了。",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘见那婆子同少年猎人对那老年猎人都很淡漠，那老年猎人周身受了重伤，躺在铺上，连一句话都不说，好生奇怪。三个恩人，除了身带重伤，便是命在旦夕，也不知忙哪一头是好，听老婆子一说，只得先去给那少年猎人治伤。这时少年猎人业已舍了老年猎人，跪伏在老婆子面前，见曼娘过来给他敷药，便用手拦阻，请曼娘还是去给老年猎人敷治。言还未了，老婆子忽然厉声道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "忤逆儿！你知道这人已活不成了吗？做这些闲事干什么？我还要你裹好伤，去将他寻来与我见上一面呢。",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，用力太过，少年猎人一眼看见老婆子颈间伤痕，忙道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "妈又着急了吗？孩儿准去就是。适才也请过，无奈他不肯来，愿意死在前面坡上。爹又在重伤，只得先背了回来。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便任曼娘给他裹好了伤处，咬牙忍痛，往外走去。去了不多时，又背进一个道装打扮老年人来，额上中了支镖，虽然未死，也只剩下奄奄一息了。那老道先好似怒气冲冲不愿进来似的，及至一见老婆子同老年猎人都是命在旦夕的神气，忽然脸色一变，睁着一双精光照人的眸子，长啸一声道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魏仲渔背入",
+            "sound_cn": "沉重脚步声，身体被放下，喘息声急促",
+            "sound_en": "heavy footsteps, body being laid down, gasping breath",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便任曼娘给他",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "魏仲渔",
+      "api": {
+        "voice": {
+          "role": "魏仲渔",
+          "role_voice": "魏仲渔",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "我错了！",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，挣脱少年猎人的手，扑到床前，一手拉着老婆子，一手拉着老年猎人，说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "魏仲渔",
+      "api": {
+        "voice": {
+          "role": "魏仲渔",
+          "role_voice": "魏仲渔",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "都是我不好，害了你们二人。现在业已至此，无法挽救，你们两人宽恕我吧。",
+          "instruct": "担心忧虑，语气不安，心系他人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老婆子道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "仲渔，这事原是弄假成真。你报仇，恨我们二人，原本不怪你，只是你不该对你儿子也下毒手。他实在是你的亲生骨肉，我跟老大不过是数十年的假夫妻。我临死还骗你吗？你去看他的胸前跟你一样不是？",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那道人一闻此言，狂吼一声，也不知从哪里来的神力，虎也似地扑到少年猎人身旁，伸手往那少年猎人胸前一扯，撕下一大片来，又把自己胸前衣服撕破一看，两人胸前俱有一个肉珠，顶当中一粒血也似的红点。那道人眼中流泪，从身上取了一包药面，递与少年猎人，指着曼娘道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "衣帛撕裂",
+            "sound_cn": "衣帛撕裂声，布帛被扯破，露出胸前肉珠",
+            "sound_en": "fabric tearing, cloth ripping, revealing chest pearl",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那道人一闻此",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "魏仲渔",
+      "api": {
+        "voice": {
+          "role": "魏仲渔",
+          "role_voice": "魏仲渔",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "快叫你妻子给你取水调服。幸而我还留了一手，不然你更活不成了。",
+          "instruct": "喝令制止，语气威严，不容违抗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，转身厉声问老婆子。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "魏仲渔",
+      "api": {
+        "voice": {
+          "role": "魏仲渔",
+          "role_voice": "魏仲渔",
+          "speed": "-3%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "何不早说？",
+          "instruct": "疑惑询问，语气迟疑，寻求答案"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老婆子道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "那时你性如烈火，哪肯容我分辩？举刀就斫。我又有孕在身，如不逃走，岂不母子性命一齐断送？我离了你之后，受尽千辛万苦，眼看就要临盆分娩，我又在病中，无可奈何，只得与老大约法三章，成了名义上的夫妻。三十年来，并未同过衾枕。老大因听人说你拜在欧阳祖师门下，炼下许多毒药喂制的兵刃暗器，要取我全家的性命，我们只好躲开。谁知你事隔三十年，仍然仇恨未消。今早我在前山崖上看见一个道人，认出是你，心中一惊，失足跌了下来。偏老大见我伤重，趁我昏晕之际，想出去采来仙草，救我残生。等我醒来，想起你二人相遇，必定两败俱伤，知道追老大回来也来不及。又恐你连我儿子也下毒手，所以不叫达儿前去探望。后来实实忍耐不住，才叫达儿前去寻找你二人的尸首。不想你毕竟还是对他下了毒手。想起我三人当初曾有'不能同生，但愿同死'之言，今日果然应验了。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，又喊曼娘近前道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "魏母",
+      "api": {
+        "voice": {
+          "role": "魏母",
+          "role_voice": "魏母",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-4Hz",
+          "text": "我知姑娘看不中我的儿子，不过他现中腐骨毒刀，虽然他父亲醒悟过来，给了解药，没有三月五月，不能将养痊愈。请姑娘念我母子救你一场，好歹休避嫌疑，等我三人死后，将尸骨掩埋起来，照料我儿好了再走。我死在九泉，也感激你的恩义。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘正要答言，那老婆子已气喘汗流，支持不住，猛地往后一仰，心脉震断，死在床上。接着便听老年猎人同那道人不约而同地齐声说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "魏母去世",
+            "sound_cn": "身体后仰，倒在床上的闷响，生命逝去",
+            "sound_en": "body falling back, dull thud on bed, life fading",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "曼娘正要答言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "魏大鲲",
+      "api": {
+        "voice": {
+          "role": "魏大鲲",
+          "role_voice": "魏大鲲",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "淑妹慢走，我来也！",
+          "instruct": "语气平和，神态自然，从容不迫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 74,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，那道人拔出额上中的一支铁镖，倒向咽喉一刺。那老年猎人一见，猛地大叫一声，双双死于非命。那少年猎人见他母亲身死，还未及赶奔过去，一见这两人也同时身死，当时痛晕过去。曼娘着了一会急，也是无法，只得先救活人要紧。当下先从少年猎人手上取了解药，给他用水灌服之后，先扶上床去。再一搜道人身畔，还有不少药包，外面俱标有用法，便放过一旁藏好。因那老婆子对她独厚，想趁少年猎人未苏醒前，给她沐浴更衣，明早再和少年猎人商议掩埋之计。走到她身前一看，那老婆子虽然业已咽气好一会，一双眼睛却仍未闭，眼眶还含着一包眼泪。曼娘用手顺眼皮理了理，仍是合不上去。知她恐自己丢下少年猎人一走，所以不肯瞑目，便轻轻默祝道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "铁镖刺喉",
+            "sound_cn": "铁镖刺入咽喉的沉闷声，鲜血滴落",
+            "sound_en": "iron dart piercing throat, dull sound, blood dripping",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "身体倒地",
+            "sound_cn": "双双倒地，沉重的坠地声，惊起尘埃",
+            "sound_en": "bodies falling, heavy thud, dust rising",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "还未了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 75,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "难女受恩父恩母救命之恩，无论如何为难，也得将恩兄病体服侍好了，才能分手；不然，还能算人吗？",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 76,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "谁知祝告了一阵，那老婆子还是不肯闭眼。曼娘无法，只得先给她洗了身子，换过衣服，再打主意。正在动手操作，忽听床上少年猎人大喊一声道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 77,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我魏达真好伤心也！",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 78,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，哇的一声大哭起来。曼娘心中一动，连忙过去看时，那少年猎人虽然醒转，却是周身火热，口中直发谵语。知他身受重伤，一日之间连遭大故，病上加病，暂时绝难痊愈。安葬三人之事，再过几日，说不得只好自己独自办理了。便随手取了两床被，为少年猎人盖上。回身又来料理老婆子身后之事。见她目犹未瞑，暗想：“自己初被难时，因口中不能说话，没有问过他们姓名。后来自己身子逐渐痊可，一向称他们恩父、恩母、恩兄，虽然几次问他们，俱不肯实说，只含糊答应。今日听那少年猎人梦中之言，才知他家姓魏。师父柬帖上说，我和姓魏的本有前缘，偏偏我又受过人家深恩。如今老两口全都死去，只剩他一人带有重伤，还染病在床，弃他而去，他必无生理；如留在此地，他又非一时半时可以痊愈。孤男寡女常住一起，终是不便。自己一向感激他的情义，凡事当退一步想：我如不遇他救到此地，早已葬身虎狼之口，还向哪里去求正果？如今恩母死不瞑目，定是为她儿子牵肠挂肚。何不拼却一身答应婚事，既使死者瞑目，也省得日后有男女之嫌？虽然妨碍修道，师父遗言与柬帖上早已给自己注定，自己天生苦命，何必再做忘恩负义之人？”想到这里，不由一阵心酸，含泪对老婆子默祝道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "魏达大哭",
+            "sound_cn": "痛哭声，撕心裂肺，悲痛欲绝",
+            "sound_en": "crying bitterly, heart-wrenching sobs, overwhelming grief",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "哇的一声大哭",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 79,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你老人家休要死不瞑目，你生前所说的话，我答应就是。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 80,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，那老婆子果然脸上微露出一丝笑容，将眼闭上。这时曼娘心乱如麻。既已默许人家，便也不再顾忌。替老婆子更衣之后，又将老年猎人同道人尸身顺好。先将自己每日应服的药吃了下去，又烧起一锅水来。重新打开那些药包，果然还有治毒刀伤外用之药，便取了些，为少年猎人伤口敷上。那少年猎人时而哭醒，时而昏迷过去。幸喜时届残冬，山岭高寒，不愁尸身腐烂。直到第三天上，少年猎人神志才得略微清楚。重伤之后，悲痛过甚，又是几次哭晕过去。经曼娘再三劝解，晓以停尸未葬，应当勉节哀思，举办葬事。那少年猎人才想起，这几天如非曼娘给自己服药调治，也许自己业已身为异物。又见她身子尚未全好，这样不顾嫌疑，劳苦操作，头上还缠着一块白布，越想越过意不去，当时便要起身叩谢。曼娘连忙用手将他按住道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "药粉敷伤",
+            "sound_cn": "药粉洒在伤口上，轻微声响，药香淡淡",
+            "sound_en": "medicine powder applied to wound, soft sprinkle, faint herbal scent",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那老婆子果然",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 81,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "当初你救我，几曾见我谢来？如今还不是彼此一样、你劳顿不得，我已痊愈，你不要伤心，静养你的，凡事均由我去办，我就高兴了。我衣包中还有几十两银子，现在父母尸骨急于安葬，只须说出办法，我便可以代你去办。",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 82,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "少年猎人也觉自己真是不能转动，又伤心又感激，只得说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 83,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "由南面下山三十余里，走出山口，便见村镇。银子不必愁，后面铺下还有不少。就烦恩妹拿去，叫镇上送三口上等棺木来，先将三老入殓。等愚兄稍好，再行扶枢回川便了。",
+          "instruct": "喜悦，语气轻快，心情愉悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 84,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘又问少年猎人可是姓魏。少年猎人闻言，甚是惊异。曼娘又把他梦中谵语说出，少年猎人才道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 85,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我正是魏达。我生父魏仲渔便是那位道爷。我寄父也姓魏，名叫魏大鲲，便是给你治伤的老年猎人。此中因果，只再说一个大概。当初我母亲和我生父、寄父全是铁手老尼门人。我生父是铁手老尼的亲侄子。我寄父虽然姓魏，却是同姓不同宗。我母亲原和寄父感情最好，叵耐铁手老尼定要我母亲嫁给我的生父，我母亲遵于师命，只得嫁了过去。两三年后，便有了身孕。我父亲素性多疑，见我母亲嫁后仍和寄父来往，老是有气，因为是同门至好，不便公开反目，含恨已非一日。我母亲也不知为了此事受过多少气。偏我寄父感情太重，见我母亲未嫁给他，立誓终身不娶，又时常到我家去看望。这日正遇上我父亲奉师命出了远门，那晚又降下了多少年没有下过的大雪，所居又在深山之中，除了飞行绝迹的剑仙万难飞渡。我母亲和我寄父无法，只得以围棋消遣，坐以待旦。第二日天才一亮，寄父便要回去，偏我母亲要留他吃了点心再走，这一吃耽误了半个多时辰。出门时正赶上我父亲冒着大雪回来，到家看见我母亲正送寄父出来，因在原路上并没见雪中有来的足印，知我寄父定是昨夜未走，起了猜疑。当时不问青红皂白，拔出兵刃就下毒手。我母亲同寄父知道事有凑巧，跳在黄河也洗不清，只得暂顾目前，避开当时的凶险，日后等我父亲明白过来，再和他说理，于是二人合力和我父亲交手。要论当时三人本领，只我母亲已足够我父亲应付，何况还有我寄父相助。不过二位老人家并不愿伤我父亲，好留将来破镜重圆地步，只图逃走了了事。偏我父亲苦苦追赶，拼死不放，口里头又辱骂得不堪入耳。眼见追到离师祖住的庙中不远，恐怕惊动师祖出来袒护，虽然心中无病，形迹却似真赃实犯，分诉不清，师祖性如烈火，绝难活命。我母亲只图避让，不肯还手，一个不留神，被我父亲用手法打倒。寄父急于救我母亲，趁空用暗器也将我父亲打倒，将我母亲救走。我母亲当时并未见我父亲中了寄父的暗器，只以为他是被雪滑倒。逃出来了才得知道，大大埋怨我寄父一顿，说是他不该打这一镖，将来夫妻更难和好。絮聒了半天，末了并未和我寄父同走，自己逃往一个山洞里面住下，一面托人求师祖给她向父亲解说。谁知师祖本来就疑心我母亲嫁人不是心甘情愿，又加上有我父亲先入之言，不但不肯分解，反将我寄父同母亲逐出门墙。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 86,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "魏达继续说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 87,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我父亲吃了寄父的亏，立志炼毒药暗器，非报仇不可。幸而他打算先取了寄父的首级与我母亲看过，再杀我的母亲，所以我母亲一人住在山洞之中，未曾遭他毒手。光阴过了有好几个月，忽然产前身染重病。起初怕我父亲疑上加疑，想将孩子生出后再行乞怜，求他重收覆水，所以并不许我寄父前去看望。一切同门也都因师祖同我父亲说坏话，全无一人顾恤。只我寄父一人知我母亲冤苦，虽因我母亲再三说不准他前去相见，他怕父亲暗下毒手，择了附近偏僻之处暗中保护。每日一清早，便将应用的东西饮食给送到洞门外边，却不与母亲见面。母亲先还以为是同门好友背了师祖所为。后来实在病得人事不知，我寄父又送东西去，连送两日，见我母亲不出洞来取，怕出了什么变故，进洞一看，我母亲业已病倒床上，人事不知了。寄父知她夫妻决难重圆，救人要紧，索性不避嫌疑，昼夜辛勤服侍。他本从师祖学医，能识百草，知道药性，医治了一月，母亲居然在病中临产，生下我来。在半个月上，神志略清，起初看见我寄父还是又惊又怒。后来问起以前每日送东西食物同病中情形，未免感我寄父恩义，事已至此，只得从权。等到产后病愈，一见我是个男孩，胸前肉包红痣和我父亲身上一样，甚为欢喜。将养好后，二人商量了一阵，仍由寄父抱着我送母亲回去见父亲说明经过。才一见面，我父亲不由分说，便将弩箭、飞刀、金钱镖一手三暗器劈面打来，若非寄父早有防备，连我也遭了毒手。当时他见手中暗器俱被寄父接去，知道双拳难敌四手，便说：'无论你们说上天，夺妻之仇与一镖之恨，也是非报不可。除非你二人将我打死。'要我们三年后再行相见。寄父、母亲无奈，只得又逃了回来。母亲一则恨我父亲太实薄情，二则知道寄父爱她甚深，又没有丝毫邪心，自己已是无家可归；后来又听得师祖就在当年坐化，我父亲拜在一位姓欧阳的道爷门下，炼就许多毒药暗器，拼命寻他二人报仇：一赌气，便再嫁给我寄父。他二人虽然同居了三十年，只不过是个名头上的夫妻，彼此互相尊重，从未同衾共枕过。以前的事也从未瞒过我。我也曾三番两次去寻我父亲解说，每次都差一点遭了毒手。后来我父亲本领越发惊人，寄父知道万难抵敌，狭路相逢决难活命，只得携了全家，由四川逃避此地。因我父亲毒药暗器厉害，好容易将解药秘方觅到，想配好以作预防。还未采办齐全，我父亲竟然跟踪到此，三位老人家同归于尽。",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 88,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "魏达继续说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 89,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "今早我听母亲说，她受伤是因为看见我父亲出现，吓了一跳，失足坠下崖来，便知不好。可惜她说得晚了一会，我寄父业已走了。后来久等不回，越猜凶多吉少。等我赶去一看，果然他二位一个中了毒刀，一个中了毒药暗器，俱在那里扭作一团挣命呢。我当时心痛欲裂，不知先救谁好。及至上前将他二人拉开时，被我父亲拾起地上毒刀，就斫了我两下。我没法子，只得先将寄父背回。后来母亲叫我再挣扎去背我父亲时，我已半身麻木了。",
+          "instruct": "悲伤，哽咽，声音颤抖"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 90,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "魏达接着说道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 91,
+      "role": "魏达",
+      "api": {
+        "voice": {
+          "role": "魏达",
+          "role_voice": "魏达",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我到了那里，我父亲已奄奄待毙，见我去还想动手。被我抢过他的兵刃暗器，强将他背来。原是怕母亲生气，以为必无好果，谁知三人在临死以前见面，倒将仇恨消了。我父亲要早明白半天，何致有这种惨祸呢？我父亲所用毒刀，还可用他解药救治。惟独他那回身甩手毒药箭，连他自己也没有解药，我寄父连中他三箭，如何能活？他也中我寄父两支毒药镖。一支打在前胸，业已拔出，虽然见血三四个时辰准死，也还可以解救。但是前额中的一支毒镖，业已深入头脑，焉能活命？我母亲又因失足坠崖时，被地下石笋震伤心脏，换了旁人，早已当时腹破肠流了。我以前还梦想将来用诚心感动三老团圆，如今全都完了！",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 92,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，痛哭不止。曼娘劝慰他道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "悲泣哭声",
+            "sound_cn": "魏达痛哭，悲从中来，撕心裂肺",
+            "sound_en": "Wei Da crying bitterly, grief overwhelming, heartbroken",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "痛哭不止",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 93,
+      "role": "曼娘",
+      "api": {
+        "voice": {
+          "role": "曼娘",
+          "role_voice": "曼娘",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "如今三老均死在异乡，你又无有兄弟姊妹，责任重大。徒自伤感，坏了身体，于事无补，反做不孝之子。你如听我劝，好好地在家保重，我也好放心出门，代你去置办三老的衣裳棺椁。否则这里离镇上不近，抬棺费时，岂不教我心悬两地吗？",
+          "instruct": "愤怒，语气凌厉，毫不留情"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 94,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "曼娘原是怕他一人在家越想越伤心，也寻了短见，才这般说法。魏达本来救曼娘时就一见钟情，不过因为自己平昔以英雄自命，不愿乘人之危，有所表示。魏老婆子猜知儿子心意，几次向他提起，他都不肯。同时相处这些日，爱苗在心田中业已逐渐滋长繁荣，无论如何排遣也丢放不开，一想到曼娘病愈不久便要分手，便有些闷闷的。今日一见曼娘不避嫌疑，照料自己病躯同三老身后，不时诚挚劝慰，处处深情流露，越加感激敬爱到无以复加。再一想曼娘所说的话极有道理，只得遵从曼娘劝解，勉节哀思了。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "斩蛇山野",
+        "name_en": "仙霞岭深山，日光映照，赤鳞蛇出没，剑光如电，腥风扑面",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume background ambience, deep mountain wilderness at daytime, sunlight filtering through dense canopy, dry leaves and scattered rocks underfoot, distant birds chirping in intervals, wind rustling through tall grass and bushes, tension of snake attack building, sudden snake scales scraping on ground, subtle bamboo flute in distance for isolation and suspense, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "崖洞窝铺疗养",
+        "name_en": "猎人崖洞，粗布木架，药香弥漫，火灶温暖，悉心照料",
+        "start_line": 4,
+        "end_line": 34,
+        "prompt": "very subtle low volume background ambience, warm cave dwelling with cloth partitions and rustic wooden frames, faint herbal medicine aroma filling the air, crackling fire in earthen stove with burning branches, soft bubbling of boiling medicinal decoction, gentle wind outside brushing cave entrance, calm and caring atmosphere with occasional wooden ladle scooping water, subtle bamboo wind chime at entrance gently tinkling, deep guqin resonance for nurturing warmth, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "临终悲恸",
+        "name_en": "崖洞内，油灯昏黄，三老垂危，悲恸弥漫，往事如烟，生离死别",
+        "start_line": 35,
+        "end_line": 94,
+        "prompt": "very subtle low volume background ambience, dimly lit cave interior at deep night, oil lamp flickering with dying flame, sadness and grief hanging heavy in the air, faint whispers of final parting, heavy emotional tension and sorrow, soft crackling of dying fire in stove, distant wind howling mournfully outside, occasional sob and sigh, deep guqin resonance for profound sorrow, xiao flute breath for melancholy and loss, no sharp foreground sounds, no voices, no music, no melody, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

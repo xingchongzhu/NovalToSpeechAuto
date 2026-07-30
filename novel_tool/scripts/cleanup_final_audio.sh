@@ -17,6 +17,7 @@ PROJECT_ROOT="$(dirname "$(dirname "$SCRIPT_DIR")")"
 # 支持多个输出目录，优先使用存在的目录
 OUTPUT_DIR=""
 for candidate in \
+    "$PROJECT_ROOT/output/蜀山剑侠转json" \
     "$PROJECT_ROOT/output/蜀山剑侠传json稿100-199" \
     "$PROJECT_ROOT/output/蜀山剑侠传json稿" \
     "$PROJECT_ROOT/output/蜀山剑侠传json稿200最终"; do
@@ -30,7 +31,7 @@ if [ -z "$OUTPUT_DIR" ]; then
     echo "错误: 未找到任何输出目录"
     echo "脚本目录: $SCRIPT_DIR"
     echo "项目根目录: $PROJECT_ROOT"
-    echo "尝试了: output/蜀山剑侠传json稿100-199, output/蜀山剑侠传json稿, output/蜀山剑侠传json稿200最终"
+    echo "尝试了: output/蜀山剑侠转json, output/蜀山剑侠传json稿100-199, output/蜀山剑侠传json稿, output/蜀山剑侠传json稿200最终"
     exit 1
 fi
 

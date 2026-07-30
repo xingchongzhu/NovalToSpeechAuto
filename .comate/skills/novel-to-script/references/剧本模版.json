@@ -1,48 +1,156 @@
 {
-  "project": "剑来有声小说自动生成",
-  "chapter": "剑来第1章-惊蛰",
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第212回",
   "片头": {
-    "novel_name": "剑来",
-    "author": "烽火戏诸侯",
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
     "speaker": "AI合成",
-    "role_voice": "云健-中年男性磁性声音"
+    "role_voice": "旁白"
   },
   "roles_definition": {
     "旁白": {
-      "role_voice": "云健-中年男性磁性声音",
+      "role_voice": "旁白",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-10%"
     },
-    "陈平安": {
-      "role_voice": "风发少年-男声-潇洒,磁性",
+    "猿长老": {
+      "role_voice": "猿长老",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "吴讼": {
+      "role_voice": "吴讼",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "恶弥勒观在": {
+      "role_voice": "恶弥勒观在",
+      "pitch": "0Hz",
+      "volume": "+2%",
+      "speed": "-4%"
+    },
+    "金蝉": {
+      "role_voice": "金蝉",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石生": {
+      "role_voice": "石生",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "+1%"
+    },
+    "李英琼": {
+      "role_voice": "李英琼",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
-    "宋集薪": {
-      "role_voice": "元气少年-男声-磁性,性感",
-      "pitch": "+3Hz",
-      "volume": "+2%",
-      "speed": "+2%"
-    },
-    "锦衣少年": {
-      "role_voice": "明朗-男声-阳光少年,情感",
-      "pitch": "+1Hz",
+    "朱文": {
+      "role_voice": "朱文",
+      "pitch": "+2Hz",
       "volume": "+1%",
-      "speed": "0%"
+      "speed": "-1%"
     },
-    "吴爷爷": {
-      "role_voice": "幽默大爷-男声-沙哑,烟嗓",
-      "pitch": "-6Hz",
+    "袁星": {
+      "role_voice": "袁星",
+      "pitch": "-1Hz",
       "volume": "0%",
-      "speed": "-8%"
+      "speed": "-2%"
     },
-    "稚圭": {
-      "role_voice": "傲娇女友-女声-甜美,优雅",
-      "pitch": "+4Hz",
+    "袁化": {
+      "role_voice": "袁化",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "癞姑": {
+      "role_voice": "癞姑",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "谢琳": {
+      "role_voice": "谢琳",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "谢璎": {
+      "role_voice": "谢璎",
+      "pitch": "+2Hz",
       "volume": "-1%",
       "speed": "-1%"
+    },
+    "玉清大师": {
+      "role_voice": "玉清大师",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "妙一夫人": {
+      "role_voice": "妙一夫人",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "金姥姥罗紫烟": {
+      "role_voice": "金姥姥罗紫烟",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "步虚仙子萧十九妹": {
+      "role_voice": "步虚仙子萧十九妹",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-3%"
+    },
+    "乙休": {
+      "role_voice": "乙休",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "公冶黄": {
+      "role_voice": "公冶黄",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "秦寒萼": {
+      "role_voice": "秦寒萼",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "申若兰": {
+      "role_voice": "申若兰",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "向芳淑": {
+      "role_voice": "向芳淑",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "妖道": {
+      "role_voice": "妖道",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-5%"
+    },
+    "郑八姑": {
+      "role_voice": "郑八姑",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "-3%"
     }
   },
   "data": [
@@ -52,12 +160,12 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "第一章 惊蛰",
-          "instruct": "庄重开场"
+          "text": "第212回",
+          "instruct": ""
         },
         "effects": []
       },
@@ -71,75 +179,14 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "二月二，龙抬头。暮色里，小镇名叫泥瓶巷的僻静地方，有位孤苦伶仃的清瘦少年，此时他正按照习俗，一手持蜡烛，一手持桃枝，照耀房梁、墙壁、木床等处[chù]，用桃枝敲敲打打，试图借此驱赶蛇蝎、蜈蚣等，嘴里念念有词，是这座小镇祖祖辈辈传下来的老话：二月二，烛照梁，桃打墙，人间[jiān]蛇虫无处藏[cáng]。少年姓陈，名平安，爹娘早逝。小镇的瓷器极负盛[shèng]名，本朝[cháo]开国以来，就担当起“奉诏监烧献陵祭器”的重[zhòng]任，有朝[cháo]廷官员常年驻扎此地，监理官窑事务。无依无靠的少年，很早就当起了烧瓷的窑匠，起先只能做些杂事粗活，跟着一个脾气糟糕的半路师傅，辛苦熬了几年，刚刚琢磨到一点烧瓷的门道，结果世事无常，小镇突然失去了官窑造办这张护身符，小镇周边数十座形若卧龙的窑炉，一夜之间[jiān]全部被官府勒令关闭熄火。陈平安放下新折[zhé]的那根桃枝，吹灭蜡烛，走出屋子后，坐在台阶上，仰头望去，星空璀璨。少年至今仍然清晰记得，那个只肯认自己做半个徒弟的老师傅，姓姚，在去年暮秋时分[fēn]的清晨，被人发现坐在一张小竹椅子上，正对着窑头方向，闭眼了。不过如姚老头这般钻牛角尖的人，终究少数[shù]。世世代代都只会烧瓷一事的小镇匠人，既不敢僭越烧制贡品官窑，也不敢将库藏[cáng]瓷器私自贩卖给百姓，只得纷纷另谋出路，十四岁的陈平安也被扫地出门，回到泥瓶巷后，继续守着这栋早已破败不堪的老宅，差[chā]不多是家徒四壁的惨淡场景，便是陈平安想要当[dāng]败家子，也无从下手。当[dāng]了一段时间飘来荡去的孤魂野鬼，少年实在找不到挣[zhèng]钱的营生，靠着那点微薄积蓄，少年勉强填饱肚子，前几天听说几[jǐ]条街外的骑龙巷[xiàng]，来了个姓阮的外乡老铁匠，对外宣称要收七八个打铁的学徒，不给工钱，但管饭，陈平安就赶紧跑去碰运气，不曾[céng]想老人只[zhǐ]是斜瞥了他一眼，就把他拒之门外，当时陈平安就纳闷，难道打铁这门活计，不是看臂力大小，而是看面相[xiàng]好坏？要知道陈平安虽然看着孱弱，但力气不容小觑，这是少年那些年烧瓷拉坯锻炼出来的身体底子，除此之外，陈平安还跟着姓姚的老人，跑遍了小镇方圆百里的山山水水，尝遍了四周各种[zhǒng]土壤的滋味，任劳任怨，什么脏活累活都愿意做，毫不拖泥带水。可惜老姚始终不喜欢陈平安，嫌弃少年没有悟性，是榆木疙瘩不开窍，远远不如大徒弟刘羡阳，这也怪不得老人偏心，师父领进门，修行[xíng]在个人，例如同样是枯燥乏味的拉坯，刘羡阳短短半年的功力，就抵得上陈平安辛苦三年的水准。虽然这辈子都未必用得着这门手艺，但陈平安仍是像以往一般，闭上眼睛，想象自己身前搁置有青石板和轱辘车，开始练习拉坯，熟能生巧。大概每过一刻钟，少年就会歇息稍许时分[fēn]，抖抖手腕，如此循环反复，直到整个人彻底精疲力尽，陈平安这才起身，一边在院中散[sàn]步，一边缓缓舒展筋骨。从来没有人教过陈平安这些，是他自己瞎琢磨出来的门道。天地间[jiān]原本万籁寂静，陈平安听到一声刺耳的讥讽笑声，停下脚步，果不其然，看到那个同龄人蹲在墙头上，咧着嘴，毫不掩饰他的鄙夷神色。此人是陈平安的老邻居，据说更[gèng]是前任监造大人的私生子，那位大人唯恐清流非议、言官弹[tán]劾，最后孤身返回京城述职，把孩子交由颇有私交情谊的接任官员，帮着看[kān]管照拂。如今小镇莫名其妙地失去官窑烧制资格，负责替朝[cháo]廷监理窑务的督造大人，自己都泥菩萨过江自身难保了，哪里还[hái]顾得上官场同僚的私生子，丢下一些银钱，就火急火燎赶往京城打点关系。不知不觉已经沦为[wéi]弃子的邻居少年，日子倒是依旧过得优哉游哉，成天带着他的贴身丫鬟，在小镇内外逛荡，一年到头游手好闲，也从来不曾[céng]为[wèi]银子发过愁。泥瓶巷家家户户的黄土院墙都很低矮，其实邻居少年完全不用踮起脚跟，就可以看到这边院子的景象，可每次跟陈平安说话，偏偏喜欢蹲在墙头上。相比陈平安这个名字的粗浅俗气，邻居少年就要雅致许多，叫宋集薪，就连与他相依为[wèi]命的婢女，也有个文绉绉的称呼，稚圭。少女此时就站在院墙那边，她有一双杏眼，怯怯弱弱。院门那边，有个嗓音响起。",
-          "instruct": "略带伤感"
+          "text": "正说之间，忽听门外\"哈哈\"一笑，飞近一伙人来。众妖人一看，来者正是猿长老，一手扶着细腰仙娘柳如花，一手扶着小金女童么凤，并肩搂抱，飞了进来。恶弥勒观在最爱龙山二淫女，二女偏是厌他俗恶体臭，人又痴肥，毫不理睬。妖僧自己吃不到天鹅肉，却恨别人与二女亲近。见状老大不快，便发话道：",
+          "instruct": ""
         },
-        "effects": [
-          {
-            "trigger_delay": 3.9,
-            "duration": 8,
-            "process_mode": "overlay",
-            "name": "烛火摇曳",
-            "sound_cn": "蜡烛燃烧摇曳声",
-            "sound_en": "Candle Flickering",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 9.9,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "桃枝敲打",
-            "sound_cn": "桃枝敲墙声",
-            "sound_en": "Peach Branch Tapping",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 67.9,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "吹灭蜡烛",
-            "sound_cn": "吹灭蜡烛声",
-            "sound_en": "Blowing Out Candle",
-            "volume": "-22%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 70.9,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "脚步轻踏",
-            "sound_cn": "脚步踏上台阶声",
-            "sound_en": "Footsteps on Steps",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 207.1,
-            "duration": 5,
-            "process_mode": "overlay",
-            "name": "脚步轻踏",
-            "sound_cn": "散步脚步声",
-            "sound_en": "Walking Steps",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          },
-          {
-            "trigger_delay": 310.3,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "脚步轻踏",
-            "sound_cn": "脚步声由远及近",
-            "sound_en": "Footsteps Approaching",
-            "volume": "-25%",
-            "pitch": "+0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
         "mode": "mix"
@@ -147,16 +194,16 @@
     },
     {
       "id": 2,
-      "role": "锦衣少年",
+      "role": "恶弥勒观在",
       "api": {
         "voice": {
-          "role": "锦衣少年",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+1Hz",
-          "text": "你这婢女卖不卖？",
-          "instruct": "含笑询问"
+          "role": "恶弥勒观在",
+          "role_voice": "恶弥勒观在",
+          "speed": "-4%",
+          "volume": "+2%",
+          "pitch": "0Hz",
+          "text": "这里不比自家山中，随便勾搭，无人过问。不问我们来意如何，表面上总是作客。主人男女之分甚严，适才引路那厮明知我们和柳、童两位妹子同来这座楼台，再多十人也有闲空，却把男女分住两起，以示男女有别。聚集无妨，便要亲热，也不要落在外人眼里，省得对头笑我们旁门左道中人只知淫乱，禽兽不如。",
+          "instruct": "不满憎恶，语气阴沉含醋"
         },
         "effects": []
       },
@@ -170,14 +217,27 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "宋集薪愣了愣，循着声音转头望去，是个眉眼含笑的锦衣少年，站在院外，一张全然陌生的面孔。锦衣少年身边站着一位身材高大的老者，面容白皙，脸色和蔼，轻轻眯眼打量[liáng]着两座毗邻院落的少年少女。老者的视线在陈平安一扫而过，并无停滞，但是在宋集薪和婢女身上，多有停留，笑意渐渐浓郁。宋集薪斜眼道。",
-          "instruct": "平静叙述"
+          "text": "猿长老本来兴冲冲进门，方要说话，一见妖僧声色不喜，连理也未理，径往锦墩上一坐，索性把二女一边一个，搂坐在膝头上，由满脸银髯中咧着一张鲜红嘴唇，嘻笑不已。黄猛、卓远峰均和二女有染，知二女妖淫，性复刚傲，一意孤行，爱谁便是谁，法力又强，永不许情人过问，稍有词色，立即变脸决绝。凶僧以前便因吃醋，二女与他反目，永不再使沾身，反而当着人格外欺侮。奈又奈何不得，终于气得避往鄱阳，离群索居，至今不曾和好。虽不能视为禁脔，但知猿长老内媚之功高出己上，二女又是喜新厌故，见状也自不快，只是双方都不能得罪，莫可如何，听妖僧一发话，便料对方不能善罢。果然猿长老笑嘻嘻等妖僧说完，两只细长眼睛倏地一睁，一双凶光闪闪的碧瞳注定妖僧，哈哈笑道：",
+          "instruct": ""
         },
-        "effects": []
+        "effects": [
+          {
+            "trigger_delay": 11.9,
+            "duration": 2,
+            "trigger_keyword": "往锦墩上一坐",
+            "trigger_offset": 0,
+            "process_mode": "overlay",
+            "name": "坐墩声响",
+            "sound_cn": "猿长老落坐锦墩，衣袍窸窣，墩面轻响",
+            "sound_en": "Yuan sitting on brocade stool, robes rustling, soft thud of seating",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
       },
       "mix": {
         "mode": "mix"
@@ -185,16 +245,16 @@
     },
     {
       "id": 4,
-      "role": "宋集薪",
+      "role": "猿长老",
       "api": {
         "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "卖！怎么不卖！",
-          "instruct": "不屑"
+          "role": "猿长老",
+          "role_voice": "猿长老",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你不愿意我爱她两个，要吃飞醋，只管明说，犯不着借题目。实对你说，我这次早听人说，峨眉有不少好炉鼎，便你们不找我，也自要来。老黄、老卓为这两个活宝，将近百年没敢和我见面。今日用着我时，迫于无奈，才约了我来此，还不肯做一路走。可惜无用，我虽老悖，还不犯替别人做牛马。你们也知道，我向来是玄牝交合，很少是我的对手，一交便失阴而死，如像她两姊妹这等棋逢敌手的活宝，至少也得四十九日夜，才得天地交泰，得上一回真快活。我此时和她们干爱不交，也不是忌惮甚人，只为这里共只三四天耽搁，难于尽兴罢了。男女相爱，各凭心愿。你们以为她两姊妹是你们的人，一路同来，我不该平空伸手。既这么说，现时这点亲热，我老头子也不希罕。从今起，各顾各的，我也不再和她两姊妹相聚。只我这样长生快活已足，也不想成地仙，服灵芝肉，你们盗你们的肉芝，我物色我的炉鼎。但是回山以后，她两姊妹如去就我，谁要作梗，却休怪我无情。还有我已命五猿搜探肉芝踪迹，如能到手，我也不要，那是我送给她两姊妹的定情礼物，你们也休想沾染。",
+          "instruct": "嚣张挑衅，语气阴冷霸道"
         },
         "effects": []
       },
@@ -208,12 +268,12 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "锦衣少年微笑道。",
-          "instruct": "平静叙述"
+          "text": "说罢，又朝众妖人狞笑一声，一道白光，便自撇下二女，穿窗而去。二妖女也是面现鄙夷之色，冷笑连声，双双装作看玩景物，款步下阶，往左近闲游去了。猿长老这一席话，休说妖僧大怒，便黄、卓二人也是怒火上升，均欲发作，俱吃吴讼暗中止住。等人走后，吴讼才劝道：",
+          "instruct": ""
         },
         "effects": []
       },
@@ -223,16 +283,16 @@
     },
     {
       "id": 6,
-      "role": "锦衣少年",
+      "role": "吴讼",
       "api": {
         "voice": {
-          "role": "锦衣少年",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+1Hz",
-          "text": "那你说个价。",
-          "instruct": "平静"
+          "role": "吴讼",
+          "role_voice": "吴讼",
+          "speed": "-5%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小不忍则乱大谋。龙山二贱婢原是祸水，这百余年来，为了她俩，关上门在窝里反，闹得同门同道好些伤亡，只我一人立誓不去与她们勾搭，别位道兄哪一个不吃亏？伤朋友，还受她们的恶气。到哪里找不到好女子，何苦非迷恋到身败名裂不止呢？我看老怪物本来隐在山里，拿母猴子做炉鼎，不轻出山害人，无人寻他晦气，过得好好的日子。这次不知又听了何人怂恿，比我们心还凶，竟想将这里的女弟子摄几个回山受用，你看此间一些少女，美固真美，哪一个不是仙根道气？休说无此容易，即使出其不意，一时侥幸，捞走一两个，没等受用成，人家已大兴问罪之师。这不比肉芝，草木之灵，谁到口，谁就算有缘福，已经吃下肚去，无奈我何。即使真个不肯甘休，不是人家对手，逃总能逃，至多弃了旧居，也还值得。老怪物如此贪狂，又把这两个淫贱勾上，定是一场大祸，我们同在此间作客，如与计较，白叫外人耻笑，何苦来呢？倒是老怪物已经下手，我们不能再迟。可令灵枭灵狍一由空中隐形窥查，一由地底搜寻肉芝生根之所。一面命众弟子装着游玩，一半寻访，一半查探敌人虚实。真要不行，听说开府那日，有不少仙果灵药待客，盛况空前，好歹也大家吃点再走。众弟子去后，我们也以玩景为名，暗中接应。还没下手，先就内乱，兆头大是不佳。一切都要小心，除非看准敌人不如你我。只要不明显出来，便暗中吃亏，也须忍住，不可和人破脸，以免不好收场。",
+          "instruct": "沉稳劝解，语气冷静理智"
         },
         "effects": []
       },
@@ -246,14 +306,27 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "少女瞪大眼眸，满脸匪夷所思，像一头惊慌失措的年幼麋鹿。宋集薪翻了个白眼，伸出一根手指，晃了晃。",
-          "instruct": "略带紧张"
+          "text": "议定之后，火法真人黄猛和恶弥勒观在，便将袍袖一抖。只见黄猛袖中飞出一对神枭，生得虎面猫头，通体暗蓝，爪利如钩。观在袖中飞出一只神狍，生得人面羊身，白毛如霜，阔口虎牙；前爪宛如人手，后爪倒钩五歧；自前时起，直到腋下，一边生着九只圆如龙眼，金光闪闪的凶睛。声似儿啼，人立而行。神枭一出袖口，落地身便暴长了好几尺，各自磨牙，乱叫发威，势甚狞恶。妖道喝道，",
+          "instruct": ""
         },
-        "effects": []
+        "effects": [
+          {
+            "trigger_delay": 10.8,
+            "duration": 3,
+            "trigger_keyword": "袖中飞出一对神枭",
+            "trigger_offset": -0.5,
+            "process_mode": "overlay",
+            "name": "神枭飞出",
+            "sound_cn": "神枭自袖中飞出，双翼扑扇，利爪刮擦，怪叫连连",
+            "sound_en": "divine owls flying out of sleeve, wings flapping, claws scraping, eerie screeching",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
       },
       "mix": {
         "mode": "mix"
@@ -261,16 +334,16 @@
     },
     {
       "id": 8,
-      "role": "宋集薪",
+      "role": "妖道",
       "api": {
         "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "白银一万两！",
-          "instruct": "戏谑"
+          "role": "妖道",
+          "role_voice": "妖道",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不用这样！",
+          "instruct": "喝令，短促有力"
         },
         "effects": []
       },
@@ -284,12 +357,12 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "锦衣少年脸色如常，点头道。",
-          "instruct": "平静叙述"
+          "text": "随取了两粒污血炼就的朱丸，喂与二鸟吃了。然后朝那鸟头一按，低语了几句。两只恶枭随手而小，怪叫了两三声，整翅而起，在室中略一回翔，身上便起了一团黑烟，往外飞去，转眼黑烟消灭，鸟影也自隐去。那只恶狍见同伴先行，似欲争功，不住厉声怪叫。妖僧忙也取了块药，与它吃下，照样附耳说了几句。因恨猿长老，并嘱：",
+          "instruct": ""
         },
         "effects": []
       },
@@ -299,16 +372,16 @@
     },
     {
       "id": 10,
-      "role": "锦衣少年",
+      "role": "恶弥勒观在",
       "api": {
         "voice": {
-          "role": "锦衣少年",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+1Hz",
-          "text": "好。",
-          "instruct": "平静"
+          "role": "恶弥勒观在",
+          "role_voice": "恶弥勒观在",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "遇见五猿，不妨暗算。",
+          "instruct": "阴狠叮嘱"
         },
         "effects": []
       },
@@ -322,14 +395,27 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "宋集薪见那少年不像是开玩笑的样子，连忙改口道。",
-          "instruct": "平静叙述"
+          "text": "随将头链撤去。恶狍性烈如火，不等飞出，身子一缩，就地便往下钻。凶僧一把抓住，方喝：",
+          "instruct": ""
         },
-        "effects": []
+        "effects": [
+          {
+            "trigger_delay": 2.8,
+            "duration": 2,
+            "trigger_keyword": "恶狍性烈如火",
+            "trigger_offset": -0.5,
+            "process_mode": "overlay",
+            "name": "恶狍钻地",
+            "sound_cn": "恶狍猛力钻地，地面碰撞沉闷，疼得怪嗥",
+            "sound_en": "evil beast ramming into ground with dull thud, howling in pain from impact",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
       },
       "mix": {
         "mode": "mix"
@@ -337,16 +423,16 @@
     },
     {
       "id": 12,
-      "role": "宋集薪",
+      "role": "恶弥勒观在",
       "api": {
         "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "是黄金万两！",
-          "instruct": "慌乱"
+          "role": "恶弥勒观在",
+          "role_voice": "恶弥勒观在",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这里不行！",
+          "instruct": "急切喝止"
         },
         "effects": []
       },
@@ -360,262 +446,12 @@
       "api": {
         "voice": {
           "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
+          "role_voice": "旁白",
           "speed": "-10%",
           "volume": "0%",
           "pitch": "0Hz",
-          "text": "锦衣少年嘴角翘起，道。",
-          "instruct": "平静叙述"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 14,
-      "role": "锦衣少年",
-      "api": {
-        "voice": {
-          "role": "锦衣少年",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+1Hz",
-          "text": "逗你玩的。",
-          "instruct": "戏谑"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 15,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "宋集薪脸色阴沉。锦衣少年不再理睬宋集薪，偏移视线，望向陈平安。",
-          "instruct": "平静叙述"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 16,
-      "role": "锦衣少年",
-      "api": {
-        "voice": {
-          "role": "锦衣少年",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+1Hz",
-          "text": "今天多亏了你，我才能买到那条鲤鱼，买回去后，我越看越欢喜，想着一定要当面跟你道一声谢，于是就让吴爷爷带我连夜来找你。",
-          "instruct": "感激"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 17,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "他丢出一只[zhī]沉甸甸的绣袋，抛给陈平安，笑脸灿烂道。",
-          "instruct": "生动描述"
-        },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "钱袋抛掷",
-            "sound_cn": "钱袋落地声",
-            "sound_en": "Money Pouch Dropping",
-            "volume": "-20%",
-            "pitch": "+0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 18,
-      "role": "锦衣少年",
-      "api": {
-        "voice": {
-          "role": "锦衣少年",
-          "role_voice": "明朗-男声-阳光少年,情感",
-          "speed": "0%",
-          "volume": "+1%",
-          "pitch": "+1Hz",
-          "text": "这是酬谢，你我就算两清了。",
-          "instruct": "爽朗"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 19,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "陈平安刚想要说话，锦衣少年已经转身离去。陈平安皱了皱眉头。白天自己无意间[jiàn]看到有个中年人，提着只[zhī]鱼篓走在大街上，捕获了一尾巴掌长[cháng]短的金黄鲤鱼，它在竹篓里蹦跳得厉害，陈平安只[zhǐ]瞥了一眼，就觉得很喜庆，于是开口询问，能不能用十文钱买下它，中年人本来只[zhǐ]是想着犒劳犒劳自己的五脏庙，眼见有利可图，就坐地起价，狮子大开口，非要三十文钱才肯卖。囊中羞涩的陈平安哪里有这么多闲钱，又实在舍不得那条金灿灿的鲤鱼，就眼馋跟着中年人，软磨[mó]硬泡，想着把价格砍到十五文，哪怕是二十文也行，就在中年人有松口迹象的时候，锦衣少年和高大老人正好路过，他们二话不说，用五十文钱买走了鲤鱼和鱼篓，陈平安只[zhǐ]能眼睁睁看着他们扬长而去，无可奈何。死死盯住那对爷孙愈行[xíng]愈远的背影，宋集薪收回恶狠狠的眼神后，跳下墙头，似[sì]乎记起什么，对陈平安说道。",
-          "instruct": "略带好奇"
-        },
-        "effects": [
-          {
-            "trigger_delay": 2,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "脚步轻踏",
-            "sound_cn": "脚步声远去",
-            "sound_en": "Footsteps Fading Away",
-            "volume": "-28%",
-            "pitch": "+0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 20,
-      "role": "宋集薪",
-      "api": {
-        "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "你还[hái]记得正月里的那条四脚吗？",
-          "instruct": "略带好奇"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 21,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "陈平安点了点头。怎么会不记得，简直就是记忆犹新。按照这座小镇传[chuán]承数[shù]百年的风俗，如果有蛇类往自家屋子钻，是好兆头，主人绝对不要将其驱逐打杀。宋集薪在正月初一的时候，坐在门槛上晒太阳，然后就有只俗称四脚蛇的小玩意儿，在他的眼皮子底下往屋里窜，宋集薪一把抓住就往院子里摔出去，不曾[céng]想那条已经摔得七荤八素的四脚蛇，愈挫愈勇，一次次，把从来不信鬼神之说的宋集薪给气得不行，一怒之下就把它甩到了陈平安院子，哪里想到，宋集薪第二天就在自己床底下，看到了那条盘踞蜷缩起来的四脚蛇。宋集薪察觉到少女扯了扯自己袖子。少年与她心有灵犀，下意识就将已经到了嘴边的话语，重新咽[yàn]回肚子。他想说的是，那条奇丑无比的四脚蛇，最近额头上有隆起，如头顶生角[jiǎo]。宋集薪换了一句话说出口。",
-          "instruct": "略带神秘"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 22,
-      "role": "宋集薪",
-      "api": {
-        "voice": {
-          "role": "宋集薪",
-          "role_voice": "元气少年-男声-磁性,性感",
-          "speed": "+2%",
-          "volume": "+2%",
-          "pitch": "+3Hz",
-          "text": "我和稚圭可能下个月就要离开这里了。",
-          "instruct": "略带感慨"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 23,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "陈平安叹了口气。",
-          "instruct": "平静叙述"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 24,
-      "role": "陈平安",
-      "api": {
-        "voice": {
-          "role": "陈平安",
-          "role_voice": "风发少年-男声-潇洒,磁性",
-          "speed": "-2%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "路上小心。",
-          "instruct": "真诚"
-        },
-        "effects": []
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 25,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "role": "旁白",
-          "role_voice": "云健-中年男性磁性声音",
-          "speed": "-10%",
-          "volume": "0%",
-          "pitch": "0Hz",
-          "text": "宋集薪半真半假[jiǎ]道。",
-          "instruct": "平静叙述"
+          "text": "地上光华闪处，狍头已与地相撞。不料琼玉地面一点未动，狍头却吃了大亏，疼得怪嗥连声，不顾命般往门外窜去，落地便自入土不见。众妖徒也分别起身往外走去。不提众人内讧，各有诡谋。",
+          "instruct": ""
         },
         "effects": []
       },
@@ -625,40 +461,25 @@
     }
   ],
   "soundscape": {
-       "scene_layers": [
+    "scene_layers": [
       {
-        "name": "少年屋内驱蛇虫",
+        "name": "妖人楼阁内讧",
         "start_line": 1,
-        "end_line": 3,
-        "prompt": "very subtle low volume background ambience, small poor wooden room at night, soft candle room tone, smooth continuous noise bed, no sharp sounds, no prominent events, no voices, no music, no melody, no noise bursts",
-        "duration": 35,
-        "volume": "-22%",
+        "end_line": 7,
+        "prompt": "very subtle low volume cinematic background ambience, ancient immortal mansion grand hall at night, painted beams and carved pillars, soft candlelight flickering, tension-filled atmosphere among demonic cultivators, faint clink of wine cups and rustle of silk robes, subtle incense smoke curling, deep guqin low resonance with dissonant undertones, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
         "fade_in": 2,
         "fade_out": 2,
         "target_dbfs": -30,
         "high_pass_hz": 90,
-        "low_pass_hz": 4200
+        "low_pass_hz": 4000
       },
       {
-        "name": "星空下的孤独",
-        "start_line": 4,
-        "end_line": 4,
-        "prompt": "very subtle low volume background ambience, quiet starry night in an ancient village, gentle smooth night air, extremely sparse soft insects far away, continuous calm ambience bed, no sharp sounds, no prominent events, no chirp bursts, no voices, no music, no melody, no distortion",
-        "duration": 47,
-        "volume": "-22%",
-        "fade_in": 2,
-        "fade_out": 2,
-        "target_dbfs": -30,
-        "high_pass_hz": 90,
-        "low_pass_hz": 3800
-      },
-      {
-        "name": "街巷人物交锋",
-        "start_line": 5,
-        "end_line": 25,
-        "prompt": "very subtle low volume background ambience, quiet narrow alley at night in an ancient town, restrained tension, soft wind, smooth continuous ambience bed, no footsteps, no sharp sounds, no prominent events, no voices, no music, no melody, no noise bursts",
-        "duration": 47,
-        "volume": "-22%",
+        "name": "灵翠峰小峰欢聚",
+        "start_line": 8,
+        "end_line": 13,
+        "prompt": "very subtle low volume cinematic background ambience, small peak top in Emei Immortal Mansion, clear night sky with scattered stars, soft mountain breeze, gentle laughter and conversation of young immortals, distant waterfall murmur, subtle sound of fruit being shared and wine poured, warm erhu melody in distance, joyful and relaxed atmosphere, smooth continuous ambience bed, no sharp sounds, no prominent events, no voices melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
         "fade_in": 2,
         "fade_out": 2,
         "target_dbfs": -30,

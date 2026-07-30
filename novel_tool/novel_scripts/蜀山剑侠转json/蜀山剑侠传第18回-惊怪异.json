@@ -1,0 +1,1134 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第十八回 惊怪异 深宵闻厉声 策群力 仙崖诛毒蟒",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "孙南": {
+      "role_voice": "孙南",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "朱梅": {
+      "role_voice": "朱梅",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "齐灵云": {
+      "role_voice": "齐灵云",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-1%"
+    },
+    "齐金蝉": {
+      "role_voice": "齐金蝉",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第18回",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云纵到高处，借着星月之光，往醉仙崖那边看时，只见愁云四布，彩雾弥漫，有时红光像烟和火一般，从一个所在冒将出来。再看星光，知是子末丑初。灵云知道事体重大，急忙飞身回洞，见金蝉和孙南二人也赶将出来，灵云忙叫二人回去。到了洞中，便把将才所见述说一遍。金蝉急得跳起来说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "红光闪现",
+            "sound_cn": "远处红光如烟火般冒出，隐隐雷声，诡异阴森",
+            "sound_en": "distant red light bursting like fire and smoke, faint rumbling, eerie and gloomy",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "借着星月之光",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "如何？妖蛇已逃去。这都是当初不听我的话，养痈贻患。事不宜迟，我们急速前去吧。",
+          "instruct": "焦急跳脚，按捺不住"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云也着了慌，正待商量怎样去法，忽然从洞外飞进一人。金蝉大吃一惊，不由喊道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "破空飞入",
+            "sound_cn": "一人从洞外飞速飞入，破空声由远及近，衣袂风声",
+            "sound_en": "someone flying in from outside cave, whistling approaching, robes flapping",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "待商量怎样去",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "姊姊快放剑，妖蛇来了！",
+          "instruct": "惊呼，声音中透着惊慌"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "孙南也着了忙，首先将剑放起。灵云道力高深，早看见来人是谁，连忙叫道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "剑光出鞘",
+            "sound_cn": "孙南的剑光骤然飞出，破空锐啸，剑光凛冽",
+            "sound_en": "Sun Nan's sword light suddenly shooting out, sharp whistle, cold gleam",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "南也着了忙",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "齐灵云",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "孙师弟不要无礼，来者是自己人。",
+          "instruct": "急声制止，透着紧张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "来人见剑光来得猛，便也把手一扬，一道青光，已将孙南的剑接住。等到灵云说罢，双方俱知误会，各人把剑收回。孙南知道自己莽撞，把脸羞得通红。金蝉已迎上前去，拉了来人之手，向孙南介绍道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双剑交击",
+            "sound_cn": "青光与孙南的剑光碰撞，清脆的金铁交鸣声，火花一闪",
+            "sound_en": "green light clashing with Sun Nan's sword, crisp metallic ring, spark flashing",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "见剑光来得猛",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "这就是我朱梅姊姊。这是我师兄白侠孙南。",
+          "instruct": "高兴介绍，声音中透着喜悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "各人见礼己毕，灵云埋怨金蝉道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "齐灵云",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你这孩子，专爱大惊小怪。我们这洞府，岂是妖物所敢走进的？也不着清就乱喊，若非朱师妹剑法高强，手疾眼快，岂不受了误伤？孙师弟也太性急一点。",
+          "instruct": "埋怨，带着姐姐的宠溺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅忙代金蝉分辩道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "这也难怪蝉弟，本来我来得鲁莽，况且我从未在晚上来过，师姊不要怪他吧。",
+          "instruct": "温和分辩，透着体贴"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云见她偏向金蝉，又想起适才金蝉着急情形，暗暗好笑，不便再说，便问朱梅来意。朱梅道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "适才我正在用功，忽然师父进来，对我说道，醉仙崖妖蛇明日午时便要出洞，如今它已在那里召集百里毒蛇大蟒，必然现出怪异，恐怕师姊们造次动手，倒造成它逃走的机会。所以命妹子赶来，共同策划。",
+          "instruct": "转述师命，郑重其事"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云等闻言大喜，忙请朱梅就座叙话。四人坐定之后，便商量擒妖之计，井问法宝用法。朱梅道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "妹子年轻，应该听从师姊调遣。家师命我来时，曾将办法指示，待妹子说出来，请师姊参考。",
+          "instruct": "谦逊，透着晚辈的敬意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "齐灵云",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "师妹说哪里话来，既有大师命令，我们当然照计而行，就请师妹吩咐吧。",
+          "instruct": "诚挚，发自内心"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅便笑嘻嘻对着金蝉道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你借家师的法宝呢？",
+          "instruct": "笑问，带着活泼"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉急忙拿出，递与朱梅。又道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "递法宝",
+            "sound_cn": "法宝递出的轻微响动，锦囊布帛摩擦声",
+            "sound_en": "treasure handed over, brocade pouch rustling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金蝉急忙拿出",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "梅姊，我还忘了问你。那日你帮我的忙，我真是感谢不尽。后来恐怕大师知道怪你，又非常后悔，要想送去，又无机会。将才姐姐说，大师业已知道此事，可曾责罚你吗？",
+          "instruct": "关切询问，透着真挚的担忧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "还好，只说了我几句。多谢你关心。",
+          "instruct": "轻松带过，不愿多提"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云见他二人说得亲密的样儿，不由望着孙南一笑。金蝉尚不觉察，已明白，怕他姊姊讥笑，急忙说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "大师不曾怪你，真是太好了。我改日定要前去，替梅姊负荆请罪。如今请你说那法宝的用处吧。",
+          "instruct": "急切转移话题，心虚掩饰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "今日之事，我们应该公举师姊为首领，我算是个军师，由我代大师出计如何？",
+          "instruct": "提议，带着期待"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "好极了，请你快说吧，不要尽说闲话了。",
+          "instruct": "催促"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅噗哧一笑道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "轻笑",
+            "sound_cn": "朱梅的一声清脆轻笑，带着活泼和俏皮",
+            "sound_en": "Zhu Mei's clear laugh, lively and playful",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱梅噗哧一笑",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "就是你一个人性急。如今才不过丑末寅初，离午时还早着呢，你忙什么？听我慢慢说吧。",
+          "instruct": "带笑调侃，透着俏皮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便把那颗天黄珠拿起，交与灵云道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "此珠乃千年雄黄炼成，专克蛇妖。放将出去，有万道黄光，将周围数里罩住。此次妖蛇勾了许多同类，准备出来以后，进袭贵洞，其中很有几条厉害的毒蟒。请师姊将此珠带在身旁，找一个高峰站好，等妖蛇破洞逃出，其余毒蛇聚在一处，朝我们进攻时，便将此珠与师姊的剑光同时放出，自有妙用。",
+          "instruct": "讲解法宝，如数家珍"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，又取出三枝药草，长约三四寸许，一茎九穗，通体鲜红，奇香扑鼻，递了一枝给金蝉。又说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "取药草",
+            "sound_cn": "药草从袖中取出的轻微窸窣声，奇异的香气弥漫",
+            "sound_en": "herbs taken from sleeve with soft rustle, strange fragrance spreading",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "取出三枝药草",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "此名朱草，又名红辟邪，含在口中，百毒不侵。那妖蛇每日子午时，用它奇异的呜声召集同类。我们须将这一百零八把仙刀在妖蛇洞口外，每隔三步插一把，在午时以前，要将刀插完。插时离蛇洞甚近，须含朱草以避毒侵。这是一件最危险而劳苦的事，你敢同我前去吗？",
+          "instruct": "郑重询问，透着认真"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉听罢，心中大喜，忙道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "齐金蝉",
+      "api": {
+        "voice": {
+          "role": "齐金蝉",
+          "role_voice": "齐金蝉",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我去我去。既是要在它出洞以前插完，我们现在早些前去如何？",
+          "instruct": "兴奋主动，跃跃欲试"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你总是这般性急，话还未说完呢。",
+          "instruct": "笑嗔，带着宠溺的责备"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便对灵云道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "你们这里有一个午年五月端午日午时生的人吗？",
+          "instruct": "询问，平和自然"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "灵云道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "齐灵云",
+      "api": {
+        "voice": {
+          "role": "齐灵云",
+          "role_voice": "齐灵云",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "这位孙师弟便是。",
+          "instruct": "介绍，简洁明了"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "孙南看见朱梅长得那般美丽，又有那般本领，又是一脸英风侠气，非常羡慕。便想起自己在自用了许多苦功，谁知下山以来所遇见的，不要说老前辈，就是师兄弟，都一个赛似一个，心中甚觉惭愧。又见朱梅同金蝉对答，天真烂漫的样儿，非常有趣，莫名其妙地又起了一种特别感想。正在出神之际，忽听朱梅问他，便起立答道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "孙南",
+      "api": {
+        "voice": {
+          "role": "孙南",
+          "role_voice": "孙南",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小弟正是那时生的，不知有何差遣？",
+          "instruct": "恭敬有礼，透着晚辈的谦和与求教之心"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱梅道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "此蛇修炼数千年，厉害非常。自从服了肉芝之后，周身鳞甲，如同百炼精钢一般，决非普通仙剑所能伤得它分毫。致它命的地方，只有两处：一处就是蛇的七寸子；一处就是它肚腹正中那一道分水白线。但是它已有脱骨卸身之功，就算能伤它两处致命的地方，也不过减其大半威势，末了还得仗师姊的珠和剑，才能收得了全功。",
+          "instruct": "详细讲解，条理分明"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时又递与孙南一根朱草，又从身旁取出金光灿烂的一枝短矛，都拿来交与孙南道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "递矛",
+            "sound_cn": "一枝金色短矛递出，金属轻微碰撞声",
+            "sound_en": "golden short spear handed over, light metallic clink",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "时又递与孙南",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-1%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "孙师弟，少时间我等到了那里，你口含这朱草，手执这一技如意神矛，跑在醉仙崖蛇洞的上面，目不转睛地望着下面的蛇洞。那蛇妖非常狡猾，它出洞之前，或者先教别的蛇先行出洞，也未可知。一个沉不住气，误用此矛，便要误事。它出来时，又是其疾如风，所以要特别注意。好在妖蛇头上有一头长发，容易辨认。那时你看清它的七寸子，口喊如意神矛，放将出去。",
+          "instruct": "郑重交代，一字一句"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "九华洞府内",
+        "name_en": "九华洞府内，深夜，烛火摇曳，四人围坐商议除妖大计，气氛紧张而专注",
+        "start_line": 1,
+        "end_line": 50,
+        "prompt": "very subtle low volume background ambience, late night inside a cave dwelling, candlelight flickering, four people gathered discussing a plan, tense and focused atmosphere, soft crackle of oil lamp, occasional rustle of robes, distant wind outside, subtle guqin resonance adding solemnity, no sharp sounds, no prominent events, no voices, no music melody, no repetitive looping",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

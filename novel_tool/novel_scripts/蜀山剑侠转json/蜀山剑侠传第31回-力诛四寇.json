@@ -1,0 +1,1401 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第三十一回 力诛四寇 周侠女送友碧筠庵 夜探强敌 醉道人飞身慈云寺",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "金光鼎": {
+      "role_voice": "金光鼎",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "马雄": {
+      "role_voice": "马雄",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "白缙": {
+      "role_voice": "白缙",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "张琪": {
+      "role_voice": "张琪",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "张瑶青": {
+      "role_voice": "张瑶青",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "周轻云": {
+      "role_voice": "周轻云",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "邱林": {
+      "role_voice": "邱林",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "玉清大师": {
+      "role_voice": "玉清大师",
+      "pitch": "+1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "醉道人": {
+      "role_voice": "醉道人",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-6%"
+    },
+    "顽石大师": {
+      "role_voice": "顽石大师",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "朱梅": {
+      "role_voice": "朱梅",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第31回",
+          "instruct": "庄重宣告，掷地有声，说书人的韵味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那金光鼎四人本是好色淫贼，因法元叫智通约来寺中众人不许出外生事，他四人在寺中住了多日，天天眼见智通、俞德淫乐不休，只是不能染指。寺中妇女虽多，但都是些禁脔。欲待出来采花，又被智通止住。虽恨智通只顾自己快活，不近人情，好生不忿。但是寄人篱下，惟有忍气吞声，看见人家快活时心痒痒，咽一口涎沫而已。这日却来了许多能人，他四人班辈又小，本领又低，除奴才似地帮助合寺僧徒招待来宾外，众人会谈，连座位都无一个，越加心里难受。同时淫欲高涨，手指头早告了消乏。昨天看见邱林被金光救去，众人毫无办法。就平日所见所闻，慈云寺这群人决非峨眉派敌手，便安下避地为高之心。今早起来，四人商量停妥，假说要上青城山聘请纪登前来相助。智通因见他等一向表面忠诚，毫不疑心，还送他四人很丰厚的川资，叫他四人早去早回。四人辞别智通出寺之后，金光鼎道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "辞别出寺",
+            "sound_cn": "四人辞别智通走出慈云寺山门，脚步踏在石板路上渐行渐远，沉重的山门在身后缓缓关闭，发出低沉的吱呀声与木石撞击的闷响",
+            "sound_en": "four men leaving Ciyun Temple through the main gate, footsteps on stone pavement gradually fading, the heavy gate closing slowly behind them with a low creak and a dull thud of wood against stone",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那金光鼎四人",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "行囊细响",
+            "sound_cn": "四人背着行囊上路，包袱中银两随着步伐碰撞发出轻微的叮当声",
+            "sound_en": "the four carrying travel bags on their backs, silver coins clinking softly with each step",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那金光鼎四人",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "金光鼎",
+      "api": {
+        "voice": {
+          "role": "金光鼎",
+          "role_voice": "金光鼎",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我等因被轶凡贼和尚追逼，才投到此地。实指望借他们势力，快活报仇。谁想到此尽替他们出力，行动都不得自由，还不把我们当人。如今他们同峨眉派为仇，双方都是暗中准备。莫如我们瞧冷子，到城内打着慈云寺旗号，做下几件风流事，替双方把火药线点燃，我们也清清火气。然后远走高飞，投奔八魔那里安身。你们看此计可好？",
+          "instruct": "低沉，语调压低，透着沉重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这些人原是无恶不作的淫贼，金光鼎会剑术，众人事事听他调遣，从来不敢违抗。又听说有花可采，自然是千肯万肯。当下便分头去踩盘子，调线，当日便访出有四五家，俱是绝色女子。马雄、陆虎本主张晚上三更后去。白缙偏说：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "淫邪低笑",
+            "sound_cn": "四人商议时发出一阵低沉猥琐的淫笑，笑声中充满贪婪与邪念，在空旷的郊外显得格外刺耳",
+            "sound_en": "the four men letting out low lascivious laughs as they plot, their voices filled with greed and lechery, sounding particularly harsh in the open countryside",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这些人原是无",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "白缙",
+      "api": {
+        "voice": {
+          "role": "白缙",
+          "role_voice": "白缙",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "今天该大开荤，天色尚早，何妨多访几家？",
+          "instruct": "轻浮，语调阴柔，透着阴险"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "也是他等恶贯满盈，那几家妇女家门有德，不该受淫贼污辱。他等四人会齐之后，信步闲游，不觉出了北门。彼时北门外最为荒凉。马雄道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "马雄",
+      "api": {
+        "voice": {
+          "role": "马雄",
+          "role_voice": "马雄",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "诸位，你看看我们踩盘子踩到坟堆里来了。快些往回路走，先找地方吃晚饭吧。有这四五家，也够我们快活的了，何必多跑无谓的路呢？况且天也快黑了，就有好人，也不会出来了。",
+          "instruct": "粗豪，语调粗犷，透着草莽气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，忽听西面土堆旁有两个幼年男女说笑的声音道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "张瑶青",
+      "api": {
+        "voice": {
+          "role": "张瑶青",
+          "role_voice": "张瑶青",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "大哥，你看兔子才捉到三个，天都黑了。我们快些回庄吧，回头婆婆又要骂人了。",
+          "instruct": "活泼清亮，语调活泼，透着少女的俏皮"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "声音柔脆，非常好听。众淫贼闻声大喜，便朝前面望去，只见从土堆旁闪出一男一女，俱都佩着一口短剑，手上提三只野兔，年纪约在十六七岁，俱都长得粉装玉琢，美丽非常。四淫贼色心大动。马雄一个箭步纵上前去，拦住去路，说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "马雄箭步纵出",
+            "sound_cn": "马雄一个箭步纵上前去，带起一阵急促的风声，靴底重重落在干裂的沙土地上发出沉闷的震动声",
+            "sound_en": "Ma Xiong springing forward with a swift and sudden step, a gust of air rushing, boots landing heavily on the cracked sandy soil with a dull thud",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "声音柔脆",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "马雄",
+      "api": {
+        "voice": {
+          "role": "马雄",
+          "role_voice": "马雄",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "你们两个小乖乖不要走了，跟我们去享福去吧。",
+          "instruct": "粗豪淫邪，语调粗犷，透着草莽气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，面上已中了那男孩一拳，打得马雄头眼直冒金星，差点没有栽倒在地。不由心中大怒，骂道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "张琪挥拳",
+            "sound_cn": "张琪猛挥一拳重重砸在马雄脸上，拳肉碰撞发出一声沉闷的击打声，马雄痛得闷哼一声",
+            "sound_en": "Zhang Qi throwing a heavy punch into Ma Xiong's face, a dull thud of fist on flesh, Ma Xiong grunting in pain",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "马雄",
+      "api": {
+        "voice": {
+          "role": "马雄",
+          "role_voice": "马雄",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "好不识抬举的乖乖，看老子取你狗命！",
+          "instruct": "暴怒，语调粗犷，透着草莽气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，那一双男女俱都拔剑在手。马雄也将随身兵刃取出迎敌。金光鼎、陆虎、白缙也都上前助战。谁想这两个小孩不但武艺超群，身体灵便，还会打好几种暗器，见淫贼一拥而上，毫无惧色。不一会工夫，四淫贼已有两个带伤。马雄中了那男孩一飞蝗石，陆虎中了那女子一技袖箭，虽不是致命伤，却也疼痛非凡。金光鼎见势不佳，跳过一旁，将剑光放起。这一双男女俱都识货，喊一声：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "群兵交击",
+            "sound_cn": "张琪兄妹与四淫贼刀剑相交，金属碰撞声连续不断如暴雨倾盆，刀光剑影在暮色中闪烁不定",
+            "sound_en": "Zhang Qi and his sister engaging the four villains, swords and blades clashing continuously like a downpour, flashes of steel flickering in the twilight",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "飞蝗石命中",
+            "sound_cn": "张琪手腕一抖，飞蝗石破空而出，带着尖锐的呼啸正中马雄肩头，发出一声闷响",
+            "sound_en": "Zhang Qi flicking his wrist, a stone flying out with a sharp whistle and hitting Ma Xiong's shoulder with a dull thud",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "袖箭破空",
+            "sound_cn": "张瑶青袖箭射出，箭矢破空发出凌厉的风声，精准命中陆虎手臂",
+            "sound_en": "Zhang Yaoqing's sleeve arrow flying out, piercing the air with a fierce whistle, striking Lu Hu's arm precisely",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "还未了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "金光鼎放剑光",
+            "sound_cn": "金光鼎纵身跳到一旁，一道黄色剑光从他手中飞出，划破暮色发出刺耳的破空声",
+            "sound_en": "Jin Guangding leaping aside, a yellow sword light flying from his hand, tearing through the twilight with a sharp screech",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那一双男女俱",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不好！将脚一登，飞纵倒退三五丈远，拨转头，飞驰电掣般落荒逃走。那金光鼎因要擒活的受用，收起剑光，紧紧追赶，打算追上，再用剑光截他归路。正赶之间，只见前面站定一个绝色少年美女，估量是两个小孩同党，哪里放在心上。正待一拥齐上，只见来人并不动手，微微把肩膀一摇，便有一道青光飞出。金光鼎忙喊：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "兄妹飞纵逃走",
+            "sound_cn": "张琪兄妹飞纵倒退数丈，转身如风般狂奔，脚步急促踩踏在干草地上发出凌乱的声响",
+            "sound_en": "Zhang Qi and his sister leaping back several zhang, turning and fleeing like the wind, footsteps drumming rapidly on the dry grass",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "将脚一登",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 12.6,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "金光鼎追赶",
+            "sound_cn": "金光鼎收起剑光拔腿追赶，脚步沉重而急速，衣袍在风中被带起呼呼作响",
+            "sound_en": "Jin Guangding retracting his sword light and giving chase, footsteps heavy and rapid, robe flapping loudly in the wind",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光鼎因",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "周轻云放剑",
+            "sound_cn": "周轻云肩膀微摇，一道青光如闪电般破空飞出，剑鸣清越如龙吟凤啸，在暮色中划过一道耀目的光芒",
+            "sound_en": "Zhou Qingyun shaking her shoulder lightly, a green sword light flying out like lightning, its hum clear as a dragon's cry, leaving a brilliant trail in the twilight",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "将脚一登",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "金光鼎",
+      "api": {
+        "voice": {
+          "role": "金光鼎",
+          "role_voice": "金光鼎",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "留神！",
+          "instruct": "惊惶，语调阴沉，透着邪气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "已来不及，再看马雄、白缙，业已身首异处。陆虎因走在最后，得延残喘。金光鼎见来人飞剑厉害，也把剑放出，一青一黄，在空中对敌。那两个少年男女正慌不择路地逃走，忽见敌人不来追赶。回头看时，见一个女子用一道青光，同敌人的黄光对敌，四个敌人已死了两个。心中大喜，重又回转。那陆虎迷信金光鼎飞剑，还在梦想战胜，擒那女子来淫乐报仇。他见金光鼎与那女子都在神志专一，运用剑光，在旁看出便宜，正待施放暗器。这两个幼年男女业已赶到，脚一纵，双双到了陆虎跟前，也不答言，两人的剑一上一下，分心就刺。陆虎急忙持刀迎敌，不到两个照面，被那男孩一剑当胸刺过，陆虎尸横就地。金光鼎见那一双幼年男女回转，已是着忙。又见陆虎丧命，微一分神，黄光便被青光击为两段，喊一声：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "双贼毙命",
+            "sound_cn": "青光闪过，马雄、白缙瞬间身首异处，两具尸体先后倒地，发出沉重而闷响的撞击声，鲜血喷溅在荒草地上",
+            "sound_en": "the green light flashing, Ma Xiong and Bai Jin beheaded in an instant, two bodies falling one after another with heavy thuds, blood spattering on the dry grass",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "已来不及",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.2,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "一黄一青对敌",
+            "sound_cn": "金光鼎的黄光与周轻云的青光在空中激烈碰撞，剑光交击声如金铁轰鸣，火星在暮色中四溅",
+            "sound_en": "Jin Guangding's yellow light clashing fiercely with Zhou Qingyun's green light in mid-air, the sound like booming metal, sparks flying in the twilight",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "已来不及",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "张琪刺陆虎",
+            "sound_cn": "张琪一剑当胸刺穿陆虎胸膛，剑刃入肉的闷响与陆虎凄厉的惨叫声在荒野中回荡",
+            "sound_en": "Zhang Qi thrusting his sword through Lu Hu's chest, the dull sound of blade entering flesh mingled with Lu Hu's piercing scream echoing across the wilderness",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "已来不及",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "黄光断裂",
+            "sound_cn": "青光如长虹贯日般将黄光击为两段，剑光碎裂时发出一声清脆刺耳的断裂声响",
+            "sound_en": "the green light like a rainbow shattering the yellow light, a crisp and sharp crack as the sword light breaks apart",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "再看马雄",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "金光鼎",
+      "api": {
+        "voice": {
+          "role": "金光鼎",
+          "role_voice": "金光鼎",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "不好！",
+          "instruct": "惊恐，语调阴沉，透着邪气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "想逃命时已是不及，青光拦腰一绕，把金光鼎腰斩两截。这两个少年男女见四淫贼俱已就戮，心中大喜，走将过来，朝着轻云深施一礼，道谢相助之德。轻云见这一双年少男女长得丰神挺秀，骨格清奇，暗中赞赏。当下互相通了姓名。原来那少年男女是同胞兄妹，男的名叫张琪，女的名叫张瑶青，乃是四川大侠张人武的孙儿女，父母早已下世，只剩下祖母白氏在堂，也是明末有名的侠女。张琪兄妹自幼受祖母的训练，学就一身惊人本领。今天因为出来打野兔，遇见淫贼，若非轻云相助，险遭不测。瑶青见轻云年纪同她相仿，便学成剑术，好生欲羡，执意要请轻云到家，拜她为师，学习剑法。轻云因自己年幼，不得师父允许，怎敢收徒，答应破了慈云寺之后，替他二人介绍。这时邱林也在路旁僻静处走了出来，大家又各互相介绍。邱林便对轻云道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "腰斩金光鼎",
+            "sound_cn": "青光如灵蛇般拦腰一绕，金光鼎被斩为两截，身体坠地发出两声沉重的闷响，尸身抽搐几下后归于沉寂",
+            "sound_en": "the green light wrapping like a serpent around Jin Guangding's waist, severing him in two, both halves falling with heavy thuds, the body twitching briefly before falling still",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "想逃命时已是",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "邱林",
+      "api": {
+        "voice": {
+          "role": "邱林",
+          "role_voice": "邱林",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师妹，你看这里虽是偏僻之地，但是这四具死尸若不想法消灭，日后被人发现，岂不株连好人？",
+          "instruct": "沉稳担忧，语调沉稳，透着正气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "师兄但放宽心，我自有道理。",
+          "instruct": "清冷自信，语调清雅，透着侠女的英气"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "取药瓶声",
+            "sound_cn": "周轻云从腰间取出一个精致的白瓷小瓶，瓷瓶与衣料轻轻摩擦发出细微的沙沙声",
+            "sound_en": "Zhou Qingyun taking out a delicate white porcelain vial from her waist, the bottle rubbing softly against her robe with a light rustle",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "师兄但放宽心",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便从腰中取出一个瓶儿，倒出一些粉红色的药粉，弹在贼人身上。说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "弹洒药粉",
+            "sound_cn": "粉红色的药粉从瓶口倾洒而出，如轻雾般飘落在四具尸体上，发出细密而轻微的沙沙声响，随即响起轻微的滋滋腐蚀声",
+            "sound_en": "pink powder spilling from the vial, drifting like mist onto the four corpses, a fine rustling sound, followed by faint sizzling as the bodies begin to dissolve",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便从腰中取出",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "这个药，名为万艳消骨散，乃是玉清大师秘制之药。我在观中虽住日子不多，承大师朝夕指教，又送我这一瓶子药。弹在死人身上，一时三刻，便化成一摊黄水，消灭形迹，再好不过。",
+          "instruct": "清冷讲述，语调清雅，透着侠女的英气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正说时，忽见前面一亮，便有一道金光。四人定睛一看，玉清大师已来到面前，朝着轻云笑道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "金光驾临",
+            "sound_cn": "一道金色光柱从天而降，如旭日东升般照彻暮色荒野，玉清大师在金光中现出身形，衣袂飘然如仙，落地无声",
+            "sound_en": "a golden pillar of light descending from the sky like the rising sun, illuminating the twilight wilderness, Yuqing Dashi appearing within the radiance, robes flowing like an immortal, landing without a sound",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "正说时",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "云姑初次出马，便替人间除害，真是可喜可贺。",
+          "instruct": "温和含笑，语调淡然，透着前辈的睿智"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "邱林先跪谢得救之恩。轻云领着张琪兄妹二人拜见。玉清大师道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "邱林跪谢",
+            "sound_cn": "邱林跪倒在地，双膝重重落在沙土地上，发出沉闷的声响，额头触地以示感恩",
+            "sound_en": "Qiu Lin kneeling on the ground, both knees hitting the sandy soil with a dull thud, forehead touching the earth in gratitude",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "邱林先跪谢得",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我不为他们，我还不来。我适才在棋盘峰经过，无意中偷听得两个异派中人要往成都北门外张家场去收他兄妹二人为徒。我料知他兄妹根基必定很好，我顾不得办事，匆匆赶到张家场，见了他们祖老太太之后，才知道不是外人，他令祖母便是追云叟老前辈的侄曾孙女。后来听说他兄妹出门打野兔去了，我赶到此地，你已将四贼杀死。他兄妹二人根基颇好，学剑术原非难事。但须破了慈云寺之后，替他们介绍吧。",
+          "instruct": "温和讲述，语调淡然，透着前辈的睿智"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "张琪兄妹见玉清大师一脸仙风道骨，又同自己外高祖父相熟，知道决非普通剑侠可比。她既垂青自己，岂肯失之交臂，互相使了个眼色，双双走将过来，跪在地下，执意非请大师收他们为徒不肯起来。玉清大师道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "兄妹跪地",
+            "sound_cn": "张琪兄妹双双跪倒在地，衣袍拂地发出庄重的沙沙摩擦声，姿态虔诚而急切",
+            "sound_en": "Zhang Qi and his sister kneeling together, robes sweeping the ground with solemn rustling, their posture devout and eager",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "张琪兄妹见玉",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "二位快快请起。不是我不肯，因为我生平未收过男弟子。所以要等破寺之后，见了众道友，看你二人与谁有缘，就拜谁为师，你二人何必急在一时呢？",
+          "instruct": "温和劝解，语调淡然，透着前辈的睿智"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "张琪兄妹见大师不肯，还是苦苦哀求不止。玉清大师见二人如此诚心，略一寻思，便对张琪说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你二人既然如此向道心诚，我也正愁你二人回家难免被异派劫骗了去。这么办，我先收你妹子为徒。你呢，不妨先随同我到观中，我先教你吐纳运气之法。破寺之后，再向别位道友介绍便了。",
+          "instruct": "温和决定，语调淡然，透着前辈的睿智"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "张琪兄妹闻言大喜，又叩了几个头，起来垂手站立一旁。邱林病未痊愈，又在野外受了一点晚风，站了多时，不住地浑身抖战。玉清大师忽对他说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "邱林抖战",
+            "sound_cn": "邱林浑身止不住地颤抖，牙关打战发出轻微的磕碰声，显见毒伤发作、寒冷难禁",
+            "sound_en": "Qiu Lin shivering uncontrollably, teeth chattering with faint clicks, clearly suffering from the poison and biting cold",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "张琪兄妹闻言",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "我只顾同他们说话，忘了你的病体。你要知道受毒已深，危在旦夕，我的药方无非苟延残喘而已。我今早出门，就为的是去寻灵药与你解毒，救你性命。也是你吉人天相，我在棋盘峰回转时，路遇嵩山二老之一矮叟朱老前辈，他有专破百毒的仙丹，比我寻得的胜强百倍。他也是往碧筠庵去，你要想活命，趁这天色昏黑之际，勉力施展你平生本领飞跑。哪怕多累，多难受，也不能在半路停留缓气。你只连纵带跳地跑进碧筠庵，先让你浑身死血活动一下，那时再得朱老前辈仙丹，便可活命，切记切记！我和云姑在后暗中护送便了。",
+          "instruct": "郑重叮嘱，语调淡然，透着前辈的睿智"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又对轻云说：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "玉清大师",
+      "api": {
+        "voice": {
+          "role": "玉清大师",
+          "role_voice": "玉清大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "+1Hz",
+          "text": "你送邱林师兄到了碧筠庵，你无须进去，可先回观等我。我领他兄妹二人去见他们祖老太太，说明一切情形，随后就来。",
+          "instruct": "吩咐，语调淡然，透着前辈的睿智"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，邱林便辞别众人，也顾不得周身疼痛，眼目昏花，飞一般往前快跑，虽然累得气喘吁吁，也不敢停留半步。到了碧筠庵，看那丈许的围墙，估量自己还可纵得上去，便不走大门，咬紧牙关，提着气，越墙而过。轻云见邱林到了目的地，知已无碍，便自回转。邱林进房以后，见许多剑仙都在，头昏眼花，也分不出谁是谁来，心中一喜，气一懈怠，一个支持不住，晕倒在地。等到服了矮叟灵药，经了些许时辰，才悠悠醒转，觉得周身疼痛稍减。当下坐起，谢了矮叟朱梅活命之恩，随把慈云寺情形说了一遍。众人听完邱林报告之后，便问矮叟朱梅有何高见。朱梅道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "邱林夜奔",
+            "sound_cn": "邱林在夜色中跌跌撞撞地飞奔，脚步沉重而急促，喘息声粗重嘶哑，衣袍被夜风吹得猎猎作响，偶尔被枯藤绊到发出踉跄的声响",
+            "sound_en": "Qiu Lin stumbling and running desperately through the night, footsteps heavy and urgent, breath ragged and hoarse, robe flapping in the night wind, occasionally tripping over dead vines with stumbling sounds",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "邱林便辞别众",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "越墙而过",
+            "sound_cn": "邱林咬紧牙关纵身越过丈许高的围墙，衣袍在风中鼓荡，落地时靴底踏在院内石板上发出一声清脆的震响",
+            "sound_en": "Qiu Lin clenching his teeth and leaping over the zhang-high wall, robe billowing, boots landing on the courtyard stone with a crisp echo",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "邱林便辞别众",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "邱林昏倒",
+            "sound_cn": "邱林冲进房中后眼前一黑，身体一软重重摔倒在地，发出一声沉闷的撞击声，众剑仙纷纷上前",
+            "sound_en": "Qiu Lin rushing into the room, his vision going dark, his body collapsing heavily to the floor with a dull thud, the immortals rushing forward",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便辞别众人",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "服药苏醒",
+            "sound_cn": "邱林服下朱梅的灵药后，腹中一阵咕噜作响，长舒一口气后悠悠醒转，发出疲惫而轻松的叹息声",
+            "sound_en": "after taking Zhu Mei's elixir, Qiu Lin's stomach rumbling, then a long exhale as he slowly wakes, a tired but relieved sigh",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "也顾不得周身",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "诸位不要害怕。绿袍老祖的妖法与俞德的红砂虽然厉害，届时自有降他们的人。不过他们既来到，早晚必要前来扰闹一番。碧筠庵地方太小，又在城内，大家虽然能够抵御一阵，附近居民难免妖法波及。再者小弟兄们根行尚浅，一个支持不住，中了暗算，便不好施治，岂不是无谓的牺牲？如今事不宜迟，我们大众一齐往辟邪村玉清观去。那里地方又大，远在郊外山岩之中，一旦交起手来，也免殃及无辜。同时今晚请二位道友先到慈云寺去，同他们订好决斗日期，并说明我们全在辟邪村玉清观中。或是他们来，或是我们登门领教，顺便观察虚实。诸位意下如何？",
+          "instruct": "沙哑决断，语调自然，情绪饱满"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众剑侠闻言，俱各点头称善。因为醉道人轻车熟路，便推定他前去订约。朱梅道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "醉道友前去，再好不过。不过敌人与我们结怨太深，他们又是一群妖孽，不可理喻。此去非常危险，还须有一位本领超群之人去暗中策应才好。",
+          "instruct": "沙哑叮嘱，语调自然，情绪饱满"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，一阵微风过处，忽听一人说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "顽石现身",
+            "sound_cn": "一阵清风拂过殿内，一个矮胖道姑凭空现身，手中九个连环叮当作响，声音清脆悦耳",
+            "sound_en": "a gentle breeze passing through the hall, a short plump Daoist nun appearing suddenly, her nine rings clinking with crisp and pleasant sounds",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "言还未了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "顽石大师",
+      "api": {
+        "voice": {
+          "role": "顽石大师",
+          "role_voice": "顽石大师",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "朱矮子，你看我去好么？",
+          "instruct": "爽朗，声音洪亮，透着痛快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "连环叮当",
+            "sound_cn": "顽石大师说话时手中九个连环碰撞，发出一连串清脆悦耳的叮当声，如银铃般在殿中回响",
+            "sound_en": "as Wanshi Dashi speaks, her nine rings clink together, producing a series of crisp and pleasant chimes, like silver bells echoing through the hall",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "朱矮子",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人定睛看时，面前站定一个矮胖道姑，粗眉大眼，方嘴高鼻，面如重枣，手中拿着九个连环，叮当乱响，认出是落雁山愁鹰涧的顽石大师，俱各上前相见。这时朱梅已离座上前，指着顽石大师说道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "朱梅",
+      "api": {
+        "voice": {
+          "role": "朱梅",
+          "role_voice": "朱梅",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你这块顽石也来凑热闹么？你要肯陪醉道友去，那真是太好不过。如今事不宜迟，你二位急速去吧。我同大众，到辟邪村静候消息便了。",
+          "instruct": "沙哑欣然，语调自然，情绪饱满"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.3,
+            "process_mode": "overlay",
+            "name": "朱梅拍掌",
+            "sound_cn": "朱梅欣然拍了一下手，发出清脆的拍掌声",
+            "sound_en": "Zhu Mei clapping his hands in approval with a crisp sound",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你这块顽石也",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，醉道人和顽石大师别了众人，径往慈云寺而去。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "双剑破空",
+            "sound_cn": "醉道人与顽石大师各自驾起剑光冲天而起，两道光芒一青一黄划破夜空，破空声呼啸远去，瞬间消失在夜色深处",
+            "sound_en": "Drunk Daoist and Wanshi Dashi rising in their sword lights, one green and one yellow, tearing through the night sky, their whistling fading rapidly as they vanish into the deep darkness",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "醉道人和顽石",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "慈云寺旁妖人密议",
+        "name_en": "深冬傍晚，慈云寺外荒僻小路上，金光鼎四人辞别出寺，边走边密议出外采花、投奔八魔的阴谋，语气阴险贪婪，寒风卷起落叶",
+        "start_line": 1,
+        "end_line": 6,
+        "prompt": "very subtle low volume cinematic background ambience, late winter evening on a desolate path outside Ciyun Temple, cold wind rustling through skeletal trees, dry leaves skittering across the ground, four men walking in low conspiratorial tones, their voices filled with greed and treachery, distant temple bell tolling mournfully, faint footsteps echoing on the hard earth, subdued and ominous atmosphere, deep guqin resonance with dark and foreboding undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "北门外荒野激战",
+        "name_en": "成都北门外暮色荒野，荒草萋萋，张琪兄妹突遇四淫贼，刀剑相交暗器齐飞，危急时刻周轻云飞剑诛杀四寇，剑光闪如电掣",
+        "start_line": 7,
+        "end_line": 23,
+        "prompt": "very subtle low volume cinematic background ambience, twilight on the desolate land north of Chengdu, withered grass bending in the cold wind, barren hills in the distance, sudden and violent clash between young heroes and lecherous villains, sword lights slashing and weapons clanging with urgent fury, hidden weapons whizzing through the air, urgent and dangerous atmosphere, cold wind howling across the plain like a mournful cry, distant cawing of crows circling overhead, tense and dramatic mood, sparse pipa plucking with fierce and urgent undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "玉清大师收徒授意",
+        "name_en": "战场平息之后，玉清大师乘金光而至，收张瑶青为徒，安排张琪随观习艺，叮嘱邱林夜奔碧筠庵求药，气氛温馨庄重",
+        "start_line": 24,
+        "end_line": 35,
+        "prompt": "very subtle low volume cinematic background ambience, tranquil moment after the battle, golden twilight deepening into dusk, a senior master arriving in radiant light and offering guidance, two young disciples kneeling in devout supplication, warm and sacred atmosphere, gentle breeze carrying the scent of wild grass and distant plum blossoms, birds returning to their nests in the fading light, hopeful and compassionate mood, soft xiao flute playing with tender and benevolent tones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "夜奔碧筠庵求药",
+        "name_en": "夜色如墨，邱林拖着重伤之躯在荒野中奋力飞奔，喘息如牛，咬牙纵过丈许高墙进入碧筠庵，昏倒后被朱梅灵药救醒，报告敌情",
+        "start_line": 36,
+        "end_line": 39,
+        "prompt": "very subtle low volume cinematic background ambience, pitch-black night over the open wilderness, a wounded man running with desperate effort, his breath labored and ragged, the distant warm lights of Biyun Nunnery as his beacon of hope, urgent and perilous journey through the dark, cold night wind cutting through his sweat-soaked robes, the sound of his own heartbeat and footsteps drumming in his ears, tense and desperate mood, deep erhu hum conveying urgency and unwavering determination, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "碧筠庵群仙决策",
+        "name_en": "碧筠庵中灯火通明，众剑仙听完邱林报告后围坐商议，朱梅提议移师辟邪村并派醉道人夜探慈云寺订约，顽石大师主动请缨同行",
+        "start_line": 40,
+        "end_line": 44,
+        "prompt": "very subtle low volume cinematic background ambience, candlelit hall in Biyun Nunnery, sword immortals gathered in solemn council, voices of deliberation and unwavering resolve, warm candlelight casting determined shadows on the walls, night wind gently tapping at the windows, a sense of imminent action and united purpose, low erhu melody with determined and heroic undertones, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      }
+    ]
+  }
+}

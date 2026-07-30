@@ -1,0 +1,2254 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第二十四回 望门投止 赵心源门内接银镖渡水登萍 陶孟仁江心观绝技",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "赵心源": {
+      "role_voice": "赵心源",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "陶钧": {
+      "role_voice": "陶钧",
+      "pitch": "+1Hz",
+      "volume": "+1%",
+      "speed": "0%"
+    },
+    "徐岳": {
+      "role_voice": "徐岳",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "许锁": {
+      "role_voice": "许锁",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "神秘老头": {
+      "role_voice": "神秘老头",
+      "pitch": "-6Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "法元": {
+      "role_voice": "法元",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "秦朗": {
+      "role_voice": "秦朗",
+      "pitch": "-1Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "酒保": {
+      "role_voice": "酒保",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "船家": {
+      "role_voice": "船家",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第24回",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那赵心源原名崇韶，乃是江西世家，祖上在明朝曾为显宦。赵心源从小随宦入川，自幼爱武，在青城山中遇见侠僧轶凡，练了一身惊人的本领。他父亲在明亡以后，不愿再事异族，隐居川东，课子力田。去世之后，心源袭父兄余产，仗义轻财，到处结纳异人名士，艺业也与日俱进。江湖上因他本领超群，又有山水烟霞之痹，赠他一个雅号，叫作烟中神鄂。他与陆地金龙魏青，乃是同门师兄弟。近年因在四川路上帮助一家镖客，去夺回了镖，无意中与西川八魔结下仇怨。因常听魏青说起陶钧轻财好友，好武而未遇名师，便想去投奔于他，借以避祸。好在他的名江湖上并无人知道，八魔只以为四川是他的老家，暂时不会寻访到江西来。又见陶钧情意殷殷，便住在他家中，用心指导他内外功门径。三年光阴，陶钩果然内外功俱臻上乘。对于心源，自然是百般敬礼。有一天，陶钩正同心源在门前眺望，忽然觉得有一个亮晶晶的东西飞来，再看心源，已将那东西接在手中，原来是一支银镖。正待发问，忽见远处飞来一人，到了二人跟前，望着心源笑道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "银镖破空",
+            "sound_cn": "一道银色亮光撕裂空气，从远处急速飞来，银镖划破长空发出尖锐而悠长的呼啸声，精准射向赵心源身前",
+            "sound_en": "a silver dart tearing through the air from afar, sharp and prolonged whistle as it flies, aimed precisely at Zhao Xinyuan",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那赵心源原名",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.8,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "接镖入掌",
+            "sound_cn": "赵心源抬手稳稳接住银镖，金属镖身与掌心碰撞发出清脆的铮鸣声，镖刃因惯性轻轻震颤",
+            "sound_en": "Zhao Xinyuan catching the silver dart steadily, crisp metallic clang as it meets his palm, blade vibrating slightly from momentum",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那赵心源原名",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "银镖余鸣",
+            "sound_cn": "银镖被接住后，金属的余音在空气中缓缓消散，发出一丝极细微的嗡鸣",
+            "sound_en": "after being caught, a faint metallic ring slowly dissipating in the air, barely audible hum",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源原名崇韶",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "徐岳飞身落地",
+            "sound_cn": "徐岳从远处飞纵而至，双足重重踏在地面上，扬起一片尘土，衣袍在落地时鼓荡翻飞",
+            "sound_en": "Xu Yue leaping from afar, landing heavily with both feet, kicking up dust, robe billowing as he touches down",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "名崇韶",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "徐岳",
+      "api": {
+        "voice": {
+          "role": "徐岳",
+          "role_voice": "徐岳",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "俺奉魔主之命，寻阁下三年，正愁不得见面，却不想在此相遇。现在只听阁下一句话，俺好去回复我们魔主。",
+          "instruct": "粗豪带笑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "阴沉狞笑",
+            "sound_cn": "徐岳说话间发出一阵低沉阴森的狞笑，笑声中带着毫不掩饰的威胁与志在必得的得意",
+            "sound_en": "Xu Yue letting out a low and sinister chuckle, laced with undisguised threat and smug confidence",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "俺奉魔主之命",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.8,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "靴尖碾土",
+            "sound_cn": "徐岳说话时下意识地用靴尖碾了碾脚下的沙土，发出细微的摩擦声",
+            "sound_en": "Xu Yue unconsciously grinding his boot tip into the sandy soil, slight friction sound",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "俺奉魔主之命",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "当初俺无意中伤了八魔主，好生后悔。本要登门负荆，偏偏又被一个好友约到此地，陪陶公子练武。既然阁下奉命而来，赵某难道就不识抬举？不过赵某还有些私事未了，请阁下上复魔主，就说赵某明年五月端午，准到青螺山拜访便了。",
+          "instruct": "沉稳坦荡"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那人听了道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "徐岳",
+      "api": {
+        "voice": {
+          "role": "徐岳",
+          "role_voice": "徐岳",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "久闻阁下为人素有信义，届时还望不要失约才好。",
+          "instruct": "阴冷"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，也不俟心源还言，两手合拢，向着心源当胸一揖，即道得一声：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "徐岳",
+      "api": {
+        "voice": {
+          "role": "徐岳",
+          "role_voice": "徐岳",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "请！",
+          "instruct": "阴冷"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "五鬼金沙掌暗劲",
+            "sound_cn": "徐岳双掌合拢作揖时暗运五鬼金沙掌毒功，掌风无声却带着阴寒之气向前涌去，空气仿佛被压缩了一瞬",
+            "sound_en": "Xu Yue clasping hands in a bow, secretly channeling the Five Ghosts Golden Sand Palm poison power, silent yet sinister cold energy surging forward, air seeming to compress for an instant",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "请！",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心源将丹田之气往上一提，喊一声：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "丹田提气",
+            "sound_cn": "赵心源丹田真气猛然上提，腹部微微鼓胀，气息运转发出极低沉的嗡鸣",
+            "sound_en": "Zhao Xinyuan suddenly lifting his true qi from the dantian, abdomen slightly swelling, a very low hum of circulating energy",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心源将丹田之",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "好！阁下请吧！",
+          "instruct": "运气沉喝"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "硬功反震",
+            "sound_cn": "赵心源丹田硬功猛然回震，内力如无形气浪向外迸发，空气都为之震荡",
+            "sound_en": "Zhao Xinyuan's internal force rebounding violently, like invisible shockwaves bursting outward, air trembling with the impact",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "阁下请吧",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "再看那人，无缘无故，好似有什么东西暗中撞了似的，倒退出去十几步，面带愧色，望了他二人几眼，回身便走，步履如飞，转眼已不知去向。陶钧见心源满脸通红，好似吃醉了酒一般，甚觉诧异。刚要问时，心源摇摇头，回身便走。回到陶家，连忙盘膝坐定，运了一会气，才说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "徐岳踉跄后退",
+            "sound_cn": "徐岳被内力反震，脚步踉跄向后倒退十几步，靴底在沙土上拖出两道深深的痕迹，身体摇晃不稳",
+            "sound_en": "Xu Yue staggering back over a dozen steps from the internal force rebound, boot soles dragging two deep tracks in the sandy soil, body swaying unsteadily",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "再看那人",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "徐岳飞身离去",
+            "sound_cn": "徐岳转身飞纵而去，脚步急促如狂风，衣袍猎猎作响，破空声渐行渐远直至消失",
+            "sound_en": "Xu Yue turning and leaping away, footsteps rapid as a gale, robe flapping loudly, air-tearing sounds fading into distance",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "看那人",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "盘膝落座",
+            "sound_cn": "赵心源回到屋内盘膝坐下，衣袍铺展在地，蒲团与地面接触发出轻微的摩擦声",
+            "sound_en": "Zhao Xinyuan sitting cross-legged inside, robe spreading on the floor, cushion meeting ground with soft rustle",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "好似有什么东",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "险哪！",
+          "instruct": "庆幸"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧忙问究竟。心源道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "公子哪里知道。适才那人，便是四川八魔手下的健将，名叫神手青雕徐岳的便是。",
+          "instruct": "低沉诉说"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "银镖放桌",
+            "sound_cn": "赵心源从怀中取出那支银镖轻轻放在桌上，银镖与木桌碰撞发出清脆的叮当声，随即归于沉寂",
+            "sound_en": "Zhao Xinyuan taking the silver dart from his bosom and placing it gently on the table, crisp clink as it meets wood, then silence",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "公子哪里知道",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，将手中接的那支银镖，递与陶钧道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "赵心源",
+      "api": {
+        "voice": {
+          "role": "赵心源",
+          "role_voice": "赵心源",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这便是他们的请柬。只因我四年前，在西川路上，见八魔中第八的一个八臂魔主邱龄，劫一位镖客的镖，他们得了镖，还要将护镖的人杀死。我路见不平，上前解劝，邱龄不服，便同我打将起来。他的人多，我看看不敌，只得败退。不知什么所在，放来一把梅花毒针，将他们打败，才解了镖客同我之围。放针的人，始终不曾露面。八魔却认定了我是他们的仇敌。我听人说，他非要了我的命不可。我自知不敌，只好避居此地。今日在庄外遇见徐岳，若非内功还好，不用说去见八魔，今日已受了重伤。那徐岳练就的五鬼金沙掌的功夫，好不厉害。他刚才想趁我不留神，便下毒手。幸喜我早有防备，用丹田硬功回撞他一下，他就不死，也受了内伤。我既接了八魔请束，不能不去。如今离明年端午，只有九个多月，我要趁此时机，作一些准备，不能在此停留。公子艺业未成，我也不要做公子的师父，辱没了公子资质。天下剑仙异人甚多，公子如果有心，还是出门留心，在风尘中去寻访。只要不骄矜，能下人，存心厚道，便不会失之交臂的。",
+          "instruct": "凝重告诫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧听心源要走，万分不舍，再四挽留不住，又知道关系甚大，只得忍痛让心源走去。由此便起了出门寻师之念。好在家中有陶全掌管，万无一失。于是自己也不带从人，打了一个包袱，多带银两，出门寻觅良师异人。因汉口有先人几处买卖，心源常说，蜀中多产异人，陶钧就打算先到汉口，顺路人川。行了月余，到了汉口。陶家开的几家商店，以宏善堂药铺资本最大，闻得东家到来，便联合各家掌柜，分头置酒洗尘。陶钧志在求师，同这些俗人酬应，甚觉无聊。周旋几天之后，把各号买卖帐目略看了看，逢人便打听哪里有会武术的英雄。那武昌城内赶来凑趣的宏善堂的掌柜，名叫张兴财，知道小东家好武，便请到武昌去盘桓两日，把当地几个有名的武师，介绍给陶钧为友。陶钧自从跟心源学习武功之后，大非昔比。见这一班武师并无什么出奇之处，无非他们经验颇深，见闻较广，从他们口中知道了许多武侠轶闻，绿林佳话，心中好生欲慕。怎奈所说的人，大都没有准住址，无从寻访。便想再住些日，决意入川，寻访异人。众武师中，有一个姓许名锁的，使得一手绝好的子母鸳鸯护手钩，轻身的功夫也甚好，外号展翅金鹏。原是书香后裔，与陶钧一见如故，订了金兰之好。这时已届隆冬，便打算留陶钧过年后，一同入川，寻师访友。陶钧见有这么一个知己伴侣，自然更加高兴。因厌药店烦嚣，索性搬在许锁家中同住。有一天，天气甚好，汉口气候温和，虽在隆冬，并不甚冷，二人便约定买舟往江上游玩。商量既妥，也不约旁人，雇了一只江船，携了行灶酒食。上船之后，见一片晴川，水天如镜，不觉心神为之一快。二人越玩越高兴，索性命船家将船摇到鹦鹉洲边人迹不到的去处，尽情畅饮。船家把船摇过鹦鹉洲，找了一个停泊所在。陶、许二人又叫把酒食搬上船头，二人举酒畅谈。正在得趣之际，忽见上流头远远摇下一只小船，这只船看去简直小得可怜，船上只有一把桨，水行若飞。陶钧正要说那船走得真快，还未说完，那船已到了二人停舟所在。小船上的人是一个瘦小枯干的老头，在数九天气，身上只穿着一件七穿八洞的破单袍，可是浆洗得非常干净。那小船连头带尾不到七尺，船中顶多能容纳两人。船头上摆了一把瓦茶壶，一个破茶碗，还有一个装酒的葫芦。那老头将船靠岸，望了陶、许二人两眼，提了那个葫芦，便往岸上就走，想是去沽酒去。那小船也不系岸，只管顺水飘泊。陶钧觉得希奇，便向许锁道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "鹦鹉洲江景",
+            "sound_cn": "鹦鹉洲边江面开阔，江水轻轻拍打着船身，发出柔和而有节奏的哗啦声，远处水鸟偶尔啼叫",
+            "sound_en": "open river at Parrot Islet, water lapping gently against the boat with soft rhythmic splashes, occasional distant waterfowl calls",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧听心源要",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "小舟破水飞来",
+            "sound_cn": "上流一只极小的木舟如箭般破水而来，单桨击打江面发出急促而清脆的哗啦声，船身几乎要在浪尖上飞起",
+            "sound_en": "a tiny wooden boat shooting downstream like an arrow, single paddle striking the water with rapid and crisp splashes, hull almost leaping on the waves",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "万分不舍",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "老头靠岸",
+            "sound_cn": "老头将小船熟练地靠岸，船底与岸边沙石摩擦发出轻微的刮擦声",
+            "sound_en": "old man skillfully bringing the boat ashore, hull scraping gently against sand and pebbles",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "再四挽留不住",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "大哥，你看这老头，想是贪杯如命，船到了岸，也不用绳系，也不下锚，便上岸去沽酒。一会这船随水流去，如何是好呢？",
+          "instruct": "好奇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时那船已逐渐要离岸流往江心。陶钧忙命船家替他将船拢住。船家领命，便急忙用篙竹竿将那船钩住。说也可笑，那船上除了几件装茶、酒的器具外，不用说锚缆没有，就连一根绳子也没有，好似那老头子根本没有打算停船似的。船家只得在大船上寻了一根绳子，将那小船系在自己船上的小木桩上。许钺年纪虽只三十左右，阅历颇深，见陶钧代那操舟老头关心，并替他系绳的种种举动，只是沉思不语，也不来拦阻于他。及至船家系好小船之后，便站起身来，将那小船细细看了一遍。忽然向陶钧说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "竹竿钩船系缆",
+            "sound_cn": "船家用长竹竿钩住小船的船沿，竹竿与木船碰撞发出空洞的响声，随后绳索系紧在小木桩上发出拉紧的摩擦声",
+            "sound_en": "boatman hooking the small boat's gunwale with a long bamboo pole, hollow thud as it meets wood, then rope being tied tight around a wooden peg with friction sounds",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "说时那船已逐",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "许锁起身",
+            "sound_cn": "许锁从座位上站起身来，衣袍与船板摩擦发出轻微的沙沙声",
+            "sound_en": "Xu Suo rising from his seat, robe brushing against the deck with slight rustling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "那船已逐渐要",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "许锁",
+      "api": {
+        "voice": {
+          "role": "许锁",
+          "role_voice": "许锁",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老弟，你看出那老头有些地方令人可疑么？",
+          "instruct": "沉思"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "那老头在这样寒天只穿一件单衫，虽然破旧，却是非常整洁。可是他上岸的时候，步履迟钝，又不像有武功的样子。实在令人看不透来历。他反正不是风尘中异人，便是山林内隐士，决非常人。等他回来，我们何妨请他喝两杯，谈谈话，不就可以知道了吗？",
+          "instruct": "推测，带着思考"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "许钺道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "许锁",
+      "api": {
+        "voice": {
+          "role": "许锁",
+          "role_voice": "许锁",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老弟的眼力果然甚高，只是还不尽然。",
+          "instruct": "沉稳，透着成熟与内敛"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧正要问是何缘故，那老头已提着一大葫芦酒，步履蹒跚，从岸上回转。刚到二人船旁，便大喝道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "老头蹒跚归来",
+            "sound_cn": "老头步履蹒跚地走回岸边，脚步拖沓而沉重，装满酒的大葫芦在腰间晃荡碰撞，发出沉闷的咕咚声",
+            "sound_en": "old man staggering back to the shore, dragging heavy steps, full wine gourd bumping against his hip with dull thuds",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧正要问是",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "酒葫芦放船",
+            "sound_cn": "老头将酒葫芦放在船头，葫芦与船板碰撞发出沉闷的响动",
+            "sound_en": "old man placing the wine gourd on the bow, gourd meeting deck with a dull thump",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "钧正要问是何",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你们这群东西，竟敢趁老夫沽酒的时候，偷我的船么？",
+          "instruct": "蛮横沙哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "船家见老头说话无礼，又见他穿的那一身穷相，正要反唇相骂。陶钧连忙止住，跳上岸去，对那老头说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "陶钧跳上岸",
+            "sound_cn": "陶钧一个纵身跃上江岸，靴底落在岸边的碎石与泥土上，发出清脆的沙石摩擦声",
+            "sound_en": "Tao Jun leaping ashore with a single bound, boots landing on gravel and soil with a crisp crunch",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "船家见老头说",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "适才阁下走后，忘了系船。我见贵船随水飘去，一转眼就要流往江心，所以才叫船家代阁下系住，乃是一番好意，并无偷盗之心。你老休要错怪。",
+          "instruct": "诚恳辩解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻言，越发大怒道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你们这群东西，分明通同作弊。如今真赃实犯俱在，你们还要强词夺理吗？我如来晚一步，岂不被你们将我的船带走？你们莫非欺我年老不成？",
+          "instruct": "怒骂"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "拐杖顿地",
+            "sound_cn": "老头越说越气，手中的拐杖重重顿在岸边的石头上，发出清脆的敲击声",
+            "sound_en": "old man growing angrier, tapping his walking stick heavily against a riverside stone with a crisp clack",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你们这群东西",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧见那老头蛮不讲理，正要动火，猛然想起赵心源临别之言，又见那老头虽然焦躁，二目神光炯炯，不敢造次，仍然赔着笑脸分辩。那老头对着陶钧，越说越有气，后来简直破口大骂。许钺看那老头，越觉非平常之人，便飞身上岸，先向那老头深施一礼道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "许锁飞身上岸",
+            "sound_cn": "许锁脚尖轻点船头，身形如大鹏展翅般飞身上岸，落地时衣袍带起一阵风声",
+            "sound_en": "Xu Suo lightly pushing off the bow, soaring ashore like a great eagle, robe rustling with wind as he lands",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧见那老头",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "长揖衣声",
+            "sound_cn": "许锁向老头深深作揖，衣料因大幅动作发出轻微的摩擦声",
+            "sound_en": "Xu Suo bowing deeply to the old man, fabric rustling with the motion",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧见那老头",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "许锁",
+      "api": {
+        "voice": {
+          "role": "许锁",
+          "role_voice": "许锁",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你老休要生气，这事实是敝友多事的不好。要说想偷你的船，那倒无此心。你老人家不嫌弃，剩酒残肴，请到舟中一叙，容我弟兄二人用酒赔罪，何如？",
+          "instruct": "恭敬有礼，透着晚辈的谦和"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻言，忽然转怒为喜道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你早说请我吃酒，不就没事了吗？",
+          "instruct": "转怒为喜沙哑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "老头转喜",
+            "sound_cn": "老头说完后发出一阵沙哑而满意的笑声，仿佛刚才的怒气从未存在过",
+            "sound_en": "old man letting out a hoarse and satisfied chuckle, as if his anger had never existed",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你早说请我吃",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧闻言，暗笑这老头骂了自己半天，原来是想诈酒吃的，这倒是讹酒的好法子。因见许钺那般恭敬，知出有因，自己便也不敢怠慢，忍着笑，双双揖客登舟。坐定之后，老头也不同二人寒暄，一路大吃大喝。陶、许二人也无法插言问那老头的姓名，只得殷勤劝酒敬菜。真是酒到杯干，爽快不过。那两个船家在旁看老头那份穷喝饿吃，气忿不过，趁那老头不留神，把小船上系的绳子悄悄解开。许钺明明看见，装作不知。等到船已顺水流出丈许，才故作失惊道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "船头宴饮",
+            "sound_cn": "三人围坐船头饮酒，碗筷碰撞声、酒液倒入碗中的咕嘟声、老头大口吃喝的咀嚼声交织成一片热闹景象",
+            "sound_en": "three people feasting on the bow, clinking bowls and chopsticks, wine gurgling as it's poured, old man's noisy eating and drinking interweaving into lively scene",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "陶钧闻言",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "解绳悄声",
+            "sound_cn": "船家趁老头不注意悄悄解开小船缆绳，绳索滑脱发出极其细微的摩擦声",
+            "sound_en": "boatman quietly untying the small boat's rope while the old man isn't looking, rope slipping with barely audible friction",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "暗笑这老头骂",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "许锁",
+      "api": {
+        "voice": {
+          "role": "许锁",
+          "role_voice": "许锁",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "船家，你们如何不经意，把老先生的船，让水给冲跑了？",
+          "instruct": "故作失惊"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "两个船家答道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "船家",
+      "api": {
+        "voice": {
+          "role": "船家",
+          "role_voice": "船家",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这里江流本急，他老人家船上又无系船的东西，通共一条小绳，如何系得住？这大船去赶那小船，还是不好追，这可怎么办？好在他老人家正怪我们不该替他系住他的小船，想必他老人家必有法子叫那船回来的。",
+          "instruct": "狡辩"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那老头闻船家之言，一手端着酒杯，回头笑了笑道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你说的话很对，我是怕人偷，不怕它跑的。",
+          "instruct": "酒意沙哑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "酒杯轻放",
+            "sound_cn": "老头说完将酒杯放回船板，陶杯与木面碰撞发出清脆的响声",
+            "sound_en": "old man placing his wine cup back on the deck after speaking, ceramic meeting wood with a crisp sound",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你说的话很对",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧心眼较实，不知许钺是试验老头的能耐，见小船顺水飘流，离大船已有七八丈远，忙叫：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "船家快解缆，赶到江心，替老先生把船截回吧。",
+          "instruct": "着急，火烧眉毛"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "船家未及答言，老头忙道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "且慢，不妨事的，我的船跑不了，我吃喝完，自会去追它的，诸位不必费心了。",
+          "instruct": "满不在乎"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "许钺连忙接口道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "许锁",
+      "api": {
+        "voice": {
+          "role": "许锁",
+          "role_voice": "许锁",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我知道老前辈有登萍渡水的绝技，倒正好借此瞻仰了。",
+          "instruct": "恭维"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧这才会意，便也不开口，心中甚是怀疑：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这登萍渡水功夫，无非是形容轻身的功夫到了登峰造极的地步，如在水面行走。昔日曾听见赵心源说过，多少得有点凭借才行。看那船越流越远，这茫茫大江，无风三尺浪，任你轻身功夫到了极点，相隔数十丈的江面，如何飞渡？仔细看那老头，除二目神光很足外，看不出一些特别之点。几次想问他姓名，都被他用言语岔开。又饮了一会，小船隔离更远，以陶、许二人目力看去，也不过看出在下流头，像浮桴似地露出些须黑点。那老头风卷残云，吃了一个杯尽盘空。然后站起身来，酒醉模糊，脚步歪斜，七颠八倒地往船边便走，陶钧怕他酒醉失足江中，刚一伸手拉他左手时，好似老头递在自己手上一个软纸团，随着把手一脱，陶钧第二把未拉住，那老头已从船边跨入江中。陶钧吓了一跳，",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "软纸团入掌",
+            "sound_cn": "陶钧伸手去扶老头时，一个软纸团被轻轻塞入掌心，触感轻柔如棉絮",
+            "sound_en": "Tao Jun reaching out to steady the old man, a soft paper ball gently pressed into his palm, light as cotton",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这登萍渡水功",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "不好！",
+          "instruct": "惊恐，魂飞魄散"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "两字还未喊出口，再看那老头足登水面，并未下沉，回头向着二人，道一声：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "踏水第一步",
+            "sound_cn": "老头一脚踏在江面上，鞋底与水波接触，竟如踩在实地般发出轻微的踏水声，水波在脚下荡开一圈涟漪",
+            "sound_en": "old man's first step on the river, sole meeting water as if on solid ground, light splash, ripples spreading underfoot",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "两字还未喊出",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.6,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "踏水第二步",
+            "sound_cn": "老头再踏一步，第二圈涟漪散开，水流在脚下轻轻涌动，却托住了他的身形",
+            "sound_en": "old man's second step, another ripple spreading, water flowing gently underfoot yet supporting him",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "两字还未喊出",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.0,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "踏水第三步",
+            "sound_cn": "老头第三步踏出，此时已在江面上行走如飞，脚下的浪花轻盈而有序地绽放",
+            "sound_en": "old man's third step, now walking swiftly on the river, light and orderly splashes blooming beneath his feet",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "两字还未喊出",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "再见！",
+          "instruct": "逍遥沙哑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "踢里趿拉，登着水波，望下流头如飞一般走去。把船上众人，吓得目定口呆。江楚间神权最盛，两个船家疑为水仙点化，吓得跪在船头上大叩其头。许钺先时见那老头那般作为，早知他非常人。起初疑他就会登萍渡水的功夫，故意要在人前卖弄。这种轻身功夫，虽能提气在水面行走，但是顶多不过三四丈的距离，用蜻蜒点水的方式，走时也非常吃力。后见小船去远，正愁老头无法下台，谁知他竟涉水登波，如履平地。像这样拿万丈洪涛当作康庄大路的，简直连听都未听说过。深恨自己适才许多简慢，把绝世异人失之交臂。陶钧也深恨自己不曾问那老头姓名。正出神间，忽觉手中捏着一个纸团，才想起是那老头给的。连忙打开一看，上面写着",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "踏水远去",
+            "sound_cn": "老头在江面上越走越远，每一步都踩出一朵细碎的浪花，水声轻快而神奇，渐行渐远",
+            "sound_en": "old man walking further and further on the river, each step creating a tiny splash, water sounds light and miraculous, fading into distance",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "踢里趿拉",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "船家叩头",
+            "sound_cn": "两个船家跪在船头连连叩首，额头撞击船板发出咚咚的沉闷声响，嘴里念念有词",
+            "sound_en": "two boatmen kneeling and kowtowing on the bow, foreheads thumping against the deck with dull rhythms, murmuring prayers",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "登着水波",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "展开纸条",
+            "sound_cn": "陶钧展开手中纸团，纸张展开发出轻微的沙沙声",
+            "sound_en": "Tao Jun unfolding the paper ball, paper rustling softly",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "下流头如飞一",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "迟汝黄鹤，川行宜速",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "八个字，笔力道劲，如同龙蛇飞舞。二人看了一遍，参详不透。因上面",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "川行宜速",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "之言，便想早日入川，以免错过良机。同许钺商量，劝他不要顾虑家事，年前动身。许钺也只得改变原来安排，定十日内将家中一切事务，托可靠的人料理，及时动身。当下嘱咐船家，叫他们不要张扬出去。又哄骗说：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "适才这位仙人留得有话，他同我们有缘，故尔前来点化。如果泄露天机，则无福有祸。",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又多给了二两银子酒钱。船家自是点头应允。不提。二人回到许家，第二天许钺便去料理一切事务。那陶钧寻师心切，一旦失之交臂，好不后悔。因老头纸条上有",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "银两递出",
+            "sound_cn": "陶钧从袖中取出二两碎银递给船家，银两碰撞发出清脆的金属声",
+            "sound_en": "Tao Jun taking out two taels of silver from his sleeve and handing them to the boatman, coins clinking with clear metallic sounds",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又多给了二两",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "迟汝黄鹤",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "之言，临分手有再见的话，便疑心叫他在黄鹤楼相候。好在还有几天耽搁，许钺因事不能分身，也不强约，天天一人跑到黄鹤楼上去饮酒，一直到天黑人散方归，希望得些奇遇。到第七天上，正在独坐寻思，忽然看见众人交头接耳。回头一看，见一僧一俗，穿着奇怪，相貌凶恶，在身后一张桌子上饮酒。这二人便是金身罗汉法元和秦朗，相貌长得丑恶异常，二目凶光显露。陶钧一见这二人，便知不是等闲人物，便仔细留神看他二人举动。那秦朗所坐的地方，正在陶钧身后，陶钧回头时，二人先打了一个照面。那秦朗见陶钧神采奕奕，气度不凡，也知他不是平常酒客。便对法元道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "黄鹤楼喧嚣",
+            "sound_cn": "黄鹤楼上酒客如云，喧嚣的人声、杯盘碰撞声、说笑声交织成一片热闹的市井交响",
+            "sound_en": "bustling Yellow Crane Tower, crowded with drinkers, lively chatter, clinking cups and plates, laughter interweaving into a busy market symphony",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "临分手有再见",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "碗筷轻响",
+            "sound_cn": "陶钧身后的桌子上，法元和秦朗放下碗筷发出轻微的碰撞声",
+            "sound_en": "on the table behind Tao Jun, Fa Yuan and Qin Lang setting down their bowls and chopsticks with light clinks",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "临分手有再见",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "秦朗",
+      "api": {
+        "voice": {
+          "role": "秦朗",
+          "role_voice": "秦朗",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-1Hz",
+          "text": "师父，你看那边桌上的一个年轻秀士，二目神光很足，好似武功很深，师父可看得出是哪一派中的人么？",
+          "instruct": "低语探问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元听秦朗之言，便对陶钧望去，恰好陶钧正回头偷看二人，不由又与法元打了一个照面。法元见陶钧长得丰神挺秀，神仪内莹，英姿外现，简直生就仙骨，不由大吃一惊。便悄悄对秦朗说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "法元",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "此人若论功行，顶多武术才刚入门；若论剑术，更是差得远。然而此人根基太厚，生就一副异禀。他既不会剑术，当然还未被峨眉派收罗了去。事不宜迟，你我将酒饭用完，你先到沙市相候，待我前去引他入门，以免又被峨眉派收去。",
+          "instruct": "低语急切"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "酒碗轻放",
+            "sound_cn": "法元边说边将手中酒碗轻轻放回桌面，碗底与木桌接触发出沉闷的顿响",
+            "sound_en": "Fa Yuan placing his wine bowl back on the table as he speaks, bowl bottom meeting wood with a dull thump",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "此人若论功行",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师徒用了酒饭，秦朗会完饭帐，先自一人往沙市去了。法元等秦朗走后，装作凭栏观望江景，一面留神去看陶钧，简直越看越爱。那陶钧起先见法元和秦朗不断地用目看他，一会又见他们交头接耳，小声秘密私谈，鬼鬼祟祟的那一副情形，心中已经怀疑。后来见秦朗走时，又对他盯了两眼，越发觉得他二人对自己不怀好意。陶钧虽造诣不深，平时听赵心源时常议论，功夫高深同会剑术的人种种与常人不同之点，估量这两个人如对自己存心不善，绝不容易打发。那和尚吃完不走，未必不是监视自己。自己孤身一人，恐难对付；欲待要走，少年气盛，又觉有些示弱。自想出世日浅，并未得罪过人，或者事出误会，也未可知。于是也装作凭栏望江，和看街上往来车马，装作不介意的样子。正在观望之间，忽见人丛中有一个矮子，向他招呼。仔细一看，正是他连日朝思暮想、那日在江面上踏波而行的那个老头，不由心中大喜。正要开口呼唤时，那老头连忙向他比了又比，忽耳旁吹入一丝极微细的声音说道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "秦朗起身离去",
+            "sound_cn": "秦朗会完饭帐起身离座，脚步踏在木梯上发出急促的蹬蹬声，渐渐远去",
+            "sound_en": "Qin Lang settling the bill and rising, footsteps tapping rapidly on wooden stairs, gradually fading",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "师徒用了酒饭",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "茶杯轻放",
+            "sound_cn": "陶钧假装饮茶，茶杯放回桌面发出轻微声响",
+            "sound_en": "Tao Jun pretending to drink tea, placing the cup back on the table with a light sound",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "用了酒饭",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "神秘老头",
+      "api": {
+        "voice": {
+          "role": "神秘老头",
+          "role_voice": "神秘老头",
+          "speed": "-8%",
+          "volume": "0%",
+          "pitch": "-6Hz",
+          "text": "你左边坐着的那一个贼和尚，乃是五台派的妖孽，他已看中了你，想收你作徒弟。你如不肯，他就要杀你。我现时不愿露面，你如想拜我为师，可用计脱身，我在鹦鹉洲下等你。那和尚要想等你下楼，用强迫手段将你带走。你不妨欲取故与，先去和他说话，捉弄他一下。",
+          "instruct": "百里传音细如游丝"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.2,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "百里传音",
+            "sound_cn": "极细如游丝的声音穿透嘈杂人声直灌陶钧耳中，清晰却几乎不为人察觉，仿佛只在陶钧一人耳边回响",
+            "sound_en": "extremely thin thread-like voice piercing through the noisy crowd directly into Tao Jun's ear, clear yet virtually imperceptible to others, as if echoing only in his ear",
+            "volume": "-20%",
+            "pitch": "+2Hz",
+            "trigger_keyword": "你左边坐着的",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说完，便不听声响。再看那老头时，已走出很远去了。说到这里，阅者或者以为作者故意张大其词，否则老头在楼下所说这些话，虽然声小，既然陶钧尚能听见，那法元也是异派剑仙中有数人物，近在咫尺，何以一点听不见呢，阅者要知道，剑仙的剑，原是运气内功，臻乎绝顶，才能身剑合一，可刚可柔，可大可小。那老头说话的一种功夫，名叫百里传音，完全是练气功夫。他把先天真气，练得细如游丝，看准目标，发将出去，直贯对方耳中。声音虽细，却是异常清楚。漫说搂上楼下，这十数丈的距离，就是十里百里，也能传到。剑仙取人首级于百里之外，也是这一种道理。闲话少提，书归正传。话说陶钧闻听老头之言，才明白那和尚注意自己的缘故。又听那老头答应收他为徒，真是喜出望外。又愁自己被和尚监视，脱身不易。望了望那和尚，好似不曾听见老头曾经和自己说过话一般，就此已知他二人程度高下。于是定了定心神，暗想脱身之计。那法元本想等陶钧下楼时，故意自高身价，卖弄两手惊人的本领，好让陶钧死心塌地前来求教。后来见陶钧虽然看了他两眼，也不过和其他酒客一样，并不十分注意，不由暗暗骂了两声蠢才。他和陶钧对耗了一会，不觉已是申未酉初，酒阑人散。黄鹤楼上只剩他两个人，各自都假装眺望江景，正是各有各的打算。陶钧这时再也忍耐不住，但因听那老头之言，自己如果一走，那和尚便要跟踪下楼，强迫他同走，匆速间委实想不出脱身之计。正在凝思怎样走法，偏偏凑趣的酒保因陶钧连来数日，知是一个好主顾，见他独坐无聊，便上来献殷勤道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "酒楼渐静",
+            "sound_cn": "黄鹤楼上酒客逐渐散去，喧嚣声如潮水般退去，只余零星杯盘响动和窗外江风低吟",
+            "sound_en": "Yellow Crane Tower gradually emptying, noise receding like a tide, only occasional clinking and wind through the windows remaining",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便不听声响",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "江风入窗",
+            "sound_cn": "暮色中江风穿窗而入，吹动桌上的纸张发出轻微的沙沙声响",
+            "sound_en": "evening river wind entering through the window, rustling papers on the table with soft sounds",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便不听声响",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "酒保",
+      "api": {
+        "voice": {
+          "role": "酒保",
+          "role_voice": "酒保",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "大官人酒饭用完半天，此时想必有些饥饿。适才厨房中刚从江里打来的新鲜鱼虾，还要做一点来尝尝新么？",
+          "instruct": "殷勤"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "抹布擦桌",
+            "sound_cn": "酒保边说边用抹布擦拭陶钧面前的桌面，布料与木面摩擦发出轻微的沙沙声",
+            "sound_en": "waiter wiping the table in front of Tao Jun with a rag as he speaks, cloth rubbing against wood with soft rustling",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "大官人酒饭用",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "陶钧闻言，顿触灵机，便笑道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "陶钧",
+      "api": {
+        "voice": {
+          "role": "陶钧",
+          "role_voice": "陶钧",
+          "speed": "0%",
+          "volume": "+1%",
+          "pitch": "+1Hz",
+          "text": "我因要等一个朋友，来商量一件要事，原说在傍晚时在此相会，大概也快来啦。既有这样新鲜东西，你就去与我随便做两样。我此时有点内急，要下楼方便方便。倘如我那位朋友前来，就说我去去就来，千万叫他不要走开。",
+          "instruct": "镇定编造"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 0.8,
+            "process_mode": "overlay",
+            "name": "银锭放柜",
+            "sound_cn": "陶钧从怀中取出一锭银子，轻轻放在柜台木面上，银锭与木板碰撞发出沉闷的响声",
+            "sound_en": "Tao Jun taking a silver ingot from his bosom and placing it on the wooden counter, ingot meeting wood with a dull thud",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "我因要等一个",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，又掏出一锭银子，叫他存在柜上，做出先会帐的派头，向酒保要了一点手纸，下楼便走。法元正在等得不耐烦，原想就此上前卖弄手段。及听陶钧这般说法，心想物以类聚，这人质地如此之高，他的朋友也定不差。便打算索性再忍耐片时，看看来人是谁。估量陶钧入厕，就要回来，也就不想跟去。又因枯坐无聊，也叫酒保添了两样菜，临江独酌。等了半日，不见陶钧回来，好生奇怪，心想道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "陶钧快步下楼",
+            "sound_cn": "陶钧快步走下黄鹤楼木梯，脚步急促而轻快，踏在木阶上发出连续的蹬蹬声响，越来越远",
+            "sound_en": "Tao Jun hurrying down the wooden stairs, steps quick and light, continuous tapping on the steps, fading into distance",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又掏出一锭银",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "酒保添菜",
+            "sound_cn": "酒保为法元添上两样小菜，碗碟轻放在桌面发出清脆的碰撞声",
+            "sound_en": "waiter adding two dishes for Fa Yuan, bowls and plates landing on the table with crisp clinks",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又掏出一锭银",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此人竟看破了我的行藏么？冬日天短，这时已是瞑色满江，昏鸦四集。酒保将灯掌上，又问法元为什么不用酒菜。法元便探酒保口气道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "掌灯声",
+            "sound_cn": "酒保取出火折子点燃油灯，火石摩擦出火花，灯芯被点燃发出轻噗一声，暖黄的灯光照亮了暮色中的楼阁",
+            "sound_en": "waiter lighting the oil lamp with a fire striker, flint sparking, wick catching with a soft puff, warm yellow light illuminating the dusky tower",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "此人竟看破了",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "暮色江声",
+            "sound_cn": "黄鹤楼外暮色渐浓，江风带着寒意穿窗而入，江水拍岸声隐约可闻，远处鸦鸣声阵阵",
+            "sound_en": "dusk deepening outside Yellow Crane Tower, cold river wind entering through windows, distant sound of waves lapping against the shore, crows calling in the distance",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "此人竟看破了",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "法元",
+      "api": {
+        "voice": {
+          "role": "法元",
+          "role_voice": "法元",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "适才走的那位相公，不像此地口音，想必常到此地吃酒，你可知道他姓甚名谁，家居何处吗？",
+          "instruct": "探问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那酒保早就觉着法元相貌凶恶，荤酒不忌，有些异样，今见他探听陶钧，如何肯对他说真话。便答道：",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 74,
+      "role": "酒保",
+      "api": {
+        "voice": {
+          "role": "酒保",
+          "role_voice": "酒保",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这位相公虽来过两次，因是过路客人，只知他姓陶，不知他住何处。",
+          "instruct": "谨慎"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 0.5,
+            "process_mode": "overlay",
+            "name": "酒壶轻放",
+            "sound_cn": "酒保说完顺手将酒壶放回托盘，发出轻微的磕碰声",
+            "sound_en": "waiter placing the wine flask back on the tray after speaking, light clink",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这位相公虽来",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 75,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "法元见问不出所以然来，好生不快。又想那少年既然说约会朋友商量要事，也许入厕时，在路上相遇，或者不是存心要避自己。便打算在汉口住两天，好寻觅此人，收为门下，省得被峨眉派又网罗了去。",
+          "instruct": "平和叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "独酌饮尽",
+            "sound_cn": "法元独自斟满一杯酒仰头饮尽，空酒杯放回桌面时发出一声沉闷的响声",
+            "sound_en": "Fa Yuan pouring himself a cup and draining it in one gulp, empty cup meeting the table with a dull thud",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元见问不出",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "夜风摇曳",
+            "sound_cn": "窗外夜风吹动檐下风铃，发出一连串细碎而清越的叮当声",
+            "sound_en": "night wind swaying wind chimes under the eaves, a series of delicate and clear tinkling sounds",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "法元见问不出",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "庄前对峙惊变",
+        "name_en": "深秋午后，江西陶家庄园门前，落叶满径，天高云淡，赵心源与陶钧正眺望远方，忽有银镖破空而至，气氛骤然紧张，随即徐岳飞落，内功暗劲交锋，危机一触即发",
+        "start_line": 1,
+        "end_line": 16,
+        "prompt": "very subtle low volume cinematic background ambience, late autumn afternoon at a manor entrance in Jiangxi, fallen leaves covering the path, clear sky with thin clouds, distant wind rustling through bare trees, tense atmosphere after the silver dart arrives, subtle sound of dry leaves scraping on the ground, watchful and alert mood, low guqin resonance building a sense of imminent danger, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "鹦鹉洲江上奇遇",
+        "name_en": "隆冬时节的汉阳鹦鹉洲外江面，水天如镜，碧空无云，陶钧与许锁乘舟畅饮，忽见一叶小舟破水飞来，载一奇异瘦老头，酒后踏波而行如履平地，江涛浩渺，神秘莫测",
+        "start_line": 17,
+        "end_line": 47,
+        "prompt": "very subtle low volume cinematic background ambience, winter day on the Yangtze River near Parrot Islet, broad river surface like a mirror reflecting pale winter sky, water gently lapping against the boat, distant sailing ships in the haze, mysterious and magical mood with the old man walking on water, occasional call of waterfowl echoing across the river, subtle mist rising from the surface, soft bamboo flute melody fading in and out from afar, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "江上踏波奇观",
+        "name_en": "老头登萍渡水，脚踏万丈洪涛如履平地，在茫茫江面上行走如飞，水花在脚下轻盈绽放，船上众人目瞪口呆，疑为神仙点化",
+        "start_line": 48,
+        "end_line": 59,
+        "prompt": "very subtle low volume cinematic background ambience, miraculous scene of old man walking on the vast Yangtze River, each step creating tiny splashes like blooming flowers, water rippling in concentric circles, awestruck silence on the boat, soft mist and golden winter light, sacred and wondrous atmosphere, distant xiao flute soaring with ethereal notes, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "黄鹤楼暗流初现",
+        "name_en": "冬日薄暮，武昌黄鹤楼上酒阑人散，暮色苍茫，江上昏鸦四集，陶钧独坐望江，身后坐着凶僧法元与秦朗，暗中较量的紧迫感弥漫，一触即发的对峙",
+        "start_line": 60,
+        "end_line": 64,
+        "prompt": "very subtle low volume cinematic background ambience, winter twilight on Yellow Crane Tower, dusk settling over the river, crows gathering in the darkening sky, subdued voices of lingering drinkers, faint lantern light flickering, tense hidden confrontation between Tao Jun and the monks, distant sound of river breeze through the eaves, watchful and calculating mood, sparse plucking of a pipa from a nearby boat, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "黄鹤楼脱身斗智",
+        "name_en": "夜幕降临，黄鹤楼上只剩陶钧与法元二人，各怀鬼胎暗自盘算，酒保殷勤献菜，陶钧急中生智，借故下楼脱身，法元独酌守候，犹自不知已入彀中",
+        "start_line": 65,
+        "end_line": 75,
+        "prompt": "very subtle low volume cinematic background ambience, night falling over Yellow Crane Tower, only Tao Jun and Fa Yuan remaining, each lost in their own calculations, flickering oil lamp casting dancing shadows on the walls, cold night wind seeping through the windows, isolated and watchful mood, subtle tension beneath the surface, distant night watchman's clapper from the city, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

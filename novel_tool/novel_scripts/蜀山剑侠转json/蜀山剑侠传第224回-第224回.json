@@ -1,0 +1,2163 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第224回 巧语释微嫌 寂寂荒山求异宝 玄功消浩劫 茫茫孽海静沉沙",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "霞儿": {
+      "role_voice": "霞儿",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "米明娘": {
+      "role_voice": "米明娘",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "卢妪": {
+      "role_voice": "卢妪",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "白癞": {
+      "role_voice": "白癞",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "+3%"
+    },
+    "鱼仁": {
+      "role_voice": "鱼仁",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "妙一真人": {
+      "role_voice": "妙一真人",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "妙一夫人": {
+      "role_voice": "妙一夫人",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "玄真子": {
+      "role_voice": "玄真子",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "乙休": {
+      "role_voice": "乙休",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "朱由穆": {
+      "role_voice": "朱由穆",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "天痴上人": {
+      "role_voice": "天痴上人",
+      "pitch": "-2Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "枯竹老人": {
+      "role_voice": "枯竹老人",
+      "pitch": "-4Hz",
+      "volume": "0%",
+      "speed": "-8%"
+    },
+    "易静": {
+      "role_voice": "易静",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "易鼎": {
+      "role_voice": "易鼎",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "易震": {
+      "role_voice": "易震",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "楼沧洲": {
+      "role_voice": "楼沧洲",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第224回",
+          "instruct": "庄重大气，掷地有声，说书人的韵味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话说这次霞儿走的是由山阴到山阳的直径，虽经枯竹老人指示，又由空中飞行，不照下面山径行走，比较要近上好几十倍。但是大荒山为东方天柱的主峰，地域广大，方圆三万余里。无终岭和南星原两地还是相隔最近的，但即使照直前飞，无须绕越，也有四千余里之遥。并且近无终岭一带，山高谷深，尽是螺旋曲径，上有枯竹老人所设天罗，不能冲空飞越。三四百里的途程，往复回环，竟要加出好几倍。须把这一带禁地走完，始能升空直飞。迂回曲折，歧路尤多。适见图影稍微记忆不真，略一走岔，入了歧途，便须费上许多心力，还要格外留神，始能寻到正路，真比前面十之八九的途程，要难得多。霞儿看出不是容易，欲速返缓。越过峰前危崖以后，特地将遁光放慢，收了灵符，谨照适见瀑布上面途径缓缓前飞。瞬息便可飞越的路程，竟飞行半个时辰方始飞完。往前数十里，便到那极高峻的横岭，知道没有走错，大功告成了一半，不由心神为之一振。飞越过岭，山阴这一面虽仍冰雪纵横，暗雾昏茫，但是人已升空，可以自在飞行。前途己似康庄，毫无阻滞，便把遁光加急，电射星流，往前驶去。不消多时，山势越往前越高，渐近两半交界的大荒全山最高之处，越过山脊，就是山阳，离南星原只千余里了。霞儿遁光随着山势上升，见沿途光景越发惨淡，草木生物早已绝迹，地上不见一点石土，到处都是万千年前凝积的玄冰陈雪，气候奇寒，微风不扬。遁光由寒氛冷雾中急穿而过，发出飕飕尖声。仰望山谷，雄奇伟大庄严，静荡荡地矗立在高空之中。下视来路，冻雪沉昏，冷雾弥漫，只身后云烟波卷中，露出丈许大小一条缝隙，知是遁光冲过之处。霞儿暗忖：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光破雾",
+            "sound_cn": "霞儿遁光在寒氛冷雾中急穿而过，破空声飕飕作响",
+            "sound_en": "sharp whoosh of a beam of light cutting through icy fog and frozen mist, the sound of swift passage through extreme cold, a trail of displaced air",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "急穿而过",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "玄冰裂响",
+            "sound_cn": "万年玄冰陈雪在遁光扰动下发出细微的崩裂声，冰层深处传来沉闷的响动",
+            "sound_en": "faint crackling and creaking of ancient ice and snow disturbed by the passing light, deep groans from within the frozen mass as millennia-old formations shift slightly",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "玄冰",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 7.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "冷雾翻涌",
+            "sound_cn": "遁光冲过处，身后冷雾翻涌，云烟波卷",
+            "sound_en": "soft rush of frozen mist swirling in the wake of the passing light, the sound of disturbed air and vapor closing back in",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "云烟波卷",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这里寒气融积数千丈，连点微风都无，冰雪万仞，亘古不消，真比滇西大雪山顶还冷得多。休说常人不能攀援，便是寻常修炼多年的人，也禁不住这酷寒奇冷。自来真仙也未必能有人经此，我仅凭本身法力，竟能从容飞渡，也颇可自豪呢。",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "寒风轻啸",
+            "sound_cn": "极寒之地一缕若有若无的风声，低回而悠远",
+            "sound_en": "faint, distant whisper of wind across the frozen waste, the sound of a world where even the air has turned to crystal",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这里寒气融积",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "正寻思间，忽见对面天上隐现微光，有似曙色。晃眼便已飞近山脊之上，离绝顶分界处只有里许。霞儿刚把遁光暂停，待取囊中竹叶书柬观看，猛想起弟子米明娘在神獭岛失陷，只推算出先忧后吉，底细难知。枯竹老人还曾询问有无话说，心急入谷借宝，忘了询问。也不知她倒底有无机缘遇合，应了偈语，来此把宝借去？平日何等心细，怎这次略微贪功心急，便多疏忽？幸与卢妪尚有渊源，妖物受她驱策，不致危害。否则同门三人，只自己刚收一个门人，便保全不住，岂非笑话？可见谋走后动，欲速不达，遇事仍是心急不得。",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "遁光暂停",
+            "sound_cn": "遁光停住，寒气凝结的细微声响，光华收敛的轻鸣",
+            "sound_en": "soft hiss as the beam of light halts, the gentle hum of magical energy settling in the frozen air, a moment of stillness",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "遁光暂停",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 1.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "取竹叶",
+            "sound_cn": "从囊中取出竹叶书柬，竹叶轻响",
+            "sound_en": "soft rustle of bamboo leaves as the letter is taken from the pouch, the sound of ancient wisdom unfolding",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "正寻思间",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随想，随探手法宝囊内，将那两片竹叶取出，分展开来一看，上有不少字迹。原来卢妪十年前破例收一徒弟。近来也时往人间行道，因仗炼有灵丹，只以元神幻化，入世济人。不似老人苦行，直去投身转世，内外功行同修并重，所以将来成就以及抵御最后末劫，比较俱要差些。但她法宝神奇，又有两种灵丹，所收门人颇好，将来可为之助，仿佛有恃无恐，行事极为任性，更与老人夙仇不解。此次霞儿如独自先见老人，彼必不快，向其借宝，难免推拒。所幸明娘中途失陷，那用法宝擒她的，便是卢妪新收弟子白癞。此女相貌奇丑，性情古怪，也似乃师。入门不久，功力虽差，却有两件厉害法宝。日前恰值神獭岛鱼仁来参谒卢妪，白癞忽然静极思动，欲乘乃师入定神游之便，随鱼仁回岛小住，就便抽空私往中土，报复昔年杀母之仇。鱼仁本和她交好，又知乃师溺爱，向不嗔怪，日后又有好多相需之处，逆她不得，便同了去。白癞本是中土人家女儿，年才九岁，母亲受了侧室好谋谗害，备受夫妾二人虐待自尽。她又生具怪相，不得父爱，乃母一死，益受酷毒，实在受罪不过，半夜里由后门逃出，乞讨为生，自觉无拘无束，快活非常。夙根本厚，人又机智，心志尤坚。这日正往东行，忽发奇想，打算顺着日色照直前行，逢山过山，遇水渡水，看走到天地尽头之处，是什情景。仗着生来力大身轻，能耐劳苦，每日认准方向奔驰。先还乞讨为生，嗣走完中土，渐人边野无人之境，渐觉山中食粮甚多，野兽、果实以及嫩草俱可充饥，便不再伸手向人乞讨。无心中又吃了两次灵药，不特身轻如燕，竟能凌波飞行。这一来，减去水路艰难，遇到风浪水宽之处，便把身带的一块木板放向水上，行远气疲，便站在上面歇息，少时重又提气，踏水而渡。水陆奔驰，五六年无日休歇，历程数万里。也不知被她经过多少省地国都，蛮夷部落，最终来到东海，转入大荒的边角上，用前法备了食物，在海面上行走。不料海洋辽阔，连行七日，粮已吃完，仍寻不到可以备办干粮的岛屿与陆地。海行已非一次，这类事常遇到，真个无法，便在海中捞些海藻小鱼，也可充饥。加上自服灵药以后，能耐饥渴，胆子更大，绝粮并不心慌，仍往前行。白癞绝食已有二日，连海藻、小鱼也没处寻，看天色要起大风，进退两难，心正愁思，海上忽起飓风。她那木板比人还大，系在背上可供坐卧。另又带有鱼叉、小刀，风浪、巨鱼皆所不畏。谁知年纪太小，这次风力忒猛，忽然一山浪打来，将她抛起半空，人虽由浪花中飞起，背上木板连同包裹却被打了一个粉碎四散。万里海洋如何提气飞渡？只好相度浪头，避开来势，不令打中，随波驶去。也不知流出了多远，与狂风苦斗又是二日一夜，白癞纵能耐饿，也是不济，已然手足麻木，再也支持不住。匆迫中猛又一个掀天巨浪打来，那水力何等巨大，总算人还机智，识得水性，一见浪来，知道此时入水必被水力压成肉饼，四肢碎裂，再如被它当头压下，更无生路。求生情急，咬牙切齿，运足全身之力，双足踏波，箭一般拼命朝前穿去，欲使浪头打向空处。乘它二次浪起，人只落到浪头之上，便可相随起伏，暂保残生。哪知力已用尽，虽穿出了险地，仍被扫着了些，当时闭气昏死。幸浮在浪头之上，那地方恰离神獭岛近，一浪打向岛边沙滩，昏死三日。鱼仁正在修炼，还未发现。卢妪却自心动警觉，一算来因，知有大用，亲自赶来救醒，度往大荒为徒。一去十余年，始得重来，想起母仇，身世冤苦，立即赶往中土复仇。霞儿师徒到日，她正杀了那妾回来。初生犊儿不知利害，以为师父向来不与人交往，既来岛上，便是敌人，竟用宝网将明娘擒去。不料空中又有敌人现身，太乙神雷连珠般打下，依了她，还想将霞儿一齐擒去。鱼仁看出来人不但法力高强，手中并持有禹鼎，怎敢再动，忙即劝阻。一面避入卢妪所设临危藏伏的山腹中去，外观一色浑成，复有法术掩护，幻人目光，极难看出。霞儿又算出卦象颇吉，也未细搜。刚一飞走，鱼仁便认出明娘是己故交，忙和白癞说明，此人为访自己而来。立即放起，互相引见，盘问来意。明娘自是老练机智，只说此行是为专诚拜谒仙婆，以偿夙愿，恐海上阻滞，烦一老前辈护送至此，先来向鱼道友请问仙婆赐见与否。鱼仁心善，又料定卢妪与她有缘，立即应诺。本意为之先容，未敢作主引去。事有凑巧，明娘灵慧，说话动人，白癞与她一见投缘，仗得师宠，一口应允，并还当日起身。刚到南星原谷外，正值卢妪神游归来。白癞入内一请，卢妪先听引来外人，颇为愤怒；要将明娘重责逐回。及至暗中查看来人，竟是以前愿见之人。便走往谷外对明娘道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "展竹叶",
+            "sound_cn": "竹叶展开的轻响，字迹隐现的微光",
+            "sound_en": "soft rustle of bamboo leaves unfolding, the faint shimmer of ancient script appearing on their surface",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "分展开来",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 15.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "海难狂浪",
+            "sound_cn": "白癞在海上遭遇飓风，巨浪滔天，怒涛呼啸，浪花破碎声震耳",
+            "sound_en": "roaring of a hurricane at sea, massive waves crashing with thunderous force, the sound of a desperate struggle against the elements, spray and foam exploding",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飓风",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 17.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "巨浪拍击",
+            "sound_cn": "掀天巨浪打来，水力冲击的闷响，木板碎裂声",
+            "sound_en": "deafening crash of a colossal wave, the heavy thud of water impact, the sharp crack of wood splintering under the force",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "掀天巨浪",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "卢妪",
+      "api": {
+        "voice": {
+          "role": "卢妪",
+          "role_voice": "卢妪",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "齐道友是我故人，既派他女儿来此借我镇山之宝，又不是不知枯竹老怪是我对头，为何先去寻他，使其日后说嘴？如非念你以前拜山时至诚，又曾对你心许，休看将来我有借重齐道友之处，也决不允。你借此宝回去，功劳不小。你一末学后进，我给你这大人情，将来有事相寻，不可延误。",
+          "instruct": "坚定，带着决心，矢志不渝"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "步履声",
+            "sound_cn": "卢妪走来的脚步声，缓慢而沉重",
+            "sound_en": "slow, heavy footsteps as the old woman approaches, the sound of age and authority",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "齐道友是我故",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "明娘闻言，喜出望外，忙说：",
+          "instruct": "紧张叙述，语速加快，营造紧迫感"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "米明娘",
+      "api": {
+        "voice": {
+          "role": "米明娘",
+          "role_voice": "米明娘",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "家师奉祖师之命，本欲先来此地，因无终岭相隔太远，枯竹老人与家师祖素无渊源，万一不允借宝，还须另外设法。时日已迫，又知仙婆与家师祖为旧友，必可赐借。弟子又自告奋勇，力说昔年仙婆怜鉴，被弟子体会出来，如来拜见，必蒙俯允。为想双方同时并进，归途来此，也能够方便一些，才与弟子分途行事，并非敢于轻慢。还望仙婆鉴谅。",
+          "instruct": "温柔体贴，语调柔和，情意绵绵"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "卢妪",
+      "api": {
+        "voice": {
+          "role": "卢妪",
+          "role_voice": "卢妪",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "你休为她掩饰。就照你所说，你已在神獭岛失陷，虽知我不会伤你，又时机紧急，舍你不顾，独自前行，但那两封书柬均在她的身上，如看得我重，便应就近先来见我。就是老怪物和我暗斗已数百年，见她先来我这里，他必不喜。我见她因我误事，也必设法补救。她偏过门不入，不是轻我，还有何说？法宝可借，但无如此容易。她既是峨眉教祖爱女，远涉辽海，途中又连破我的禁制埋伏，适用慧光查看，她又将行迹隐去，防我看出，可见法力必甚高强。照我前例，有人寻我，除非来人至诚感动，还须与我有缘，我才撤禁，令入而外，便须将我谷口内所设迷阵破去，方许到我南星原内。你且候在谷外，等她回来，破法入见。能进南星原，自无话说；不能，宝也必借，只是必须自己突围而出，或是自等难满，我却不能撤禁放她呢。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "明娘知她性情古怪，从来好胜，说到必做，求说无用。法力又极高强。听此口吻，已然立意为难，比起寻常要胜十倍。师父恐难从容进退，好生愁急。因霞儿飞遁神速得多，米、白二女不如远甚，又在神獭岛上耽延了多半日才起身；到后，又隔了些时，卢妪神游才归，好些耽延。这时，霞儿与枯竹老人相见，两下里虽是势均力敌，但吃老人占了先机，早用慧光查出南星原动静，暗代霞儿隐去行藏，所以卢妪查看不出就里，又是一气。她这里情形，却被对方看去。霞儿不知那竹叶另具隐迹之用，见上面大意略说前事外，并说：卢妪和老人一样，末劫将临。只因天生刚愎之性，宁折不弯，明知妙一真人将来是个福星，因忿霞儿先见老人，犯了小性；又因老人有心气她，预先行法把霞儿行藏隐蔽，看不出身带灵符，到时必以迷阵作难题。可是此妪比老人还要好胜，她那迷阵，从未有人破过，如被破去，必以为生平之耻，另以法力为敌。教霞儿先把法宝要过，令明娘带了先行。破阵入见之时，如见她面上皱纹忽隐，便是忿急，百无顾忌，不可与敌，速用灵符护身，由她头上急冲过去。卢妪身后悬有一个法台，上有她近年防御末劫做替身的法物，平日人看不见。她见这等情景，当霞儿道法高强，知她底细，不顾困人，必以全力回救。乘此时机，速往东南方遁走，离却南星原，再转入回路。以霞光飞遁之速，骤出不意，必可脱身。万一再被追来，不必回斗，只把太乙神雷往后打去，一面加急飞行，便无事了。霞儿刚刚看完，青光一闪，竹叶忽然化去。暗忖：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "竹叶化去",
+            "sound_cn": "竹叶青光一闪，化为虚无，轻响如风过竹梢",
+            "sound_en": "soft sizzle and flash of green light as the bamboo leaves dissolve into nothing, a sound like wind passing through bamboo groves, the message consumed by magic",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "明娘知她性情",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "卢妪和父亲相识，法力又高，如何可以冒昧？枯竹老人虽是好意，但是双方夙仇，焉知不是利用？好在宝物已允借用，我既是后辈，稍屈何妨？对方原是不知身有破阵灵符，自恃太甚，等阵被人破去，面子难堪，势成骑虎，欲罢不能，岂不两败？何不将计就计，能使知难而退，免生嫌怨，不更好吗？",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "霞儿主意打定，又往上飞，晃眼越过岭脊，眼前一亮，便入了光明世界。山阳景物，比起山阴，简直大不相同。霞儿顺岭下降，只见远峰凝翠，近岭摇青，到处嘉木成林，碧草如茵，繁花似锦。那些林木多是七八抱以上。时见幽鹿衔芝，灵猿摘果，花开十丈，叶大如船。沿途珍禽奇兽，时有发现，好些俱非《山海经》上所有。端的景物灵奇，令人应接不暇，心急前途，也无心观览，千余里路，一晃便已飞到。那南星原也在一个山谷以内，谷口外，一片危崖当中，现一圆月形的大洞，高大几及十丈。壁上满是千年老藤，苔藓肥润，厚达三尺，一片浓绿，更无杂色。遥望内里景物，更较谷外清淑美妙。那迷阵却没在谷内。枯竹老人那里还有三百六十五峰可以辨认，这里只是琪花如笑，瑶草含烟，看不出一点形迹，天气又很清明，决不似伏有杀机。白癞刚由谷外走进谷去，只米明娘一人在外守候，遥闻破空之声，挟着一道金光，电驰飞来，恐师父径自入谷，误蹈危机，忙要迎上，霞儿已早看见，降下地来。明娘方欲先说前事，霞儿早知就里，自然会意。故意说道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "破空飞来",
+            "sound_cn": "霞儿驾遁光电驰飞来，破空声由远及近，越来越响",
+            "sound_en": "rapid whoosh of a golden beam of light approaching from the distance, the sound growing from a whisper to a roar as she draws near",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "破空之声",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "降下地来",
+            "sound_cn": "霞儿降下地来，衣袂轻拂，落地轻响",
+            "sound_en": "soft rustle and light thud as Xia'er descends and lands on the ground, her robes settling, the sound of arrival",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "降下地来",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 0.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "灵猿摘果",
+            "sound_cn": "远处山中灵猿摘果的嬉闹声，树枝摇动，果实坠地",
+            "sound_en": "distant chattering and rustling of spiritual apes in the trees, the occasional thud of fruit falling to the ground, the sound of a living paradise",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "灵猿",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "霞儿",
+      "api": {
+        "voice": {
+          "role": "霞儿",
+          "role_voice": "霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "时机已迫，无暇多言，且等见过仙婆，回去再说吧。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随即恭恭敬敬走上前去，面向谷口礼拜道：",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "礼拜衣料",
+            "sound_cn": "霞儿礼拜时衣料摩擦声，裙裾拂过草地",
+            "sound_en": "soft rustle of robes as Xia'er bows in reverence before the valley entrance, the whisper of silk brushing against the grass",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "随即恭恭敬敬",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "霞儿",
+      "api": {
+        "voice": {
+          "role": "霞儿",
+          "role_voice": "霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子齐霞儿，奉家父妙一真人之命，赶来大荒，向仙婆和枯竹老人各借一件法宝。本应先来参谒，因过神獭岛，小徒为岛主擒去，知道仙婆宽宏，岛主不奉命不敢加害，又以时机紧迫，只得先行。为求迅速，欲和小徒分道行事。这一来，剩下弟子一人，分身无计。枯竹老人与家父又仅神交，不知允否。只好变计，专诚拜谒仙婆，并请指示玄机，使弟子到山阴，不致虚行。因沿途所经各岛颇多梗阻，心想家父属在故交，借宝一用，断无不允。而仙婆道法高深，玄机微妙，无远弗瞩。小徒神獭岛失陷，尚可说是仙婆清修千年，事出无意，或者一时念不及此，嗣后当无不知之理。何以每过一关，仍多阻难？心中惊疑。路过南星原以前，默运玄机，虔加估算，才知仙婆神游在外，尚未回山，如若来此守候，虽然日内必归，不致误事，但无终岭之行，却恐延误；又推算出山阴无什阻滞，去了回来，正好赶上。只得遥拜仙居而去，未曾登岸。到时，蒙枯竹老人传声接谈，令破三百六十五峰迷阵入内。弟子法力浅薄，本非所及，幸来时，家父深知两地旧例，带有家师祖长眉真人所遗灵符，侥幸通行，将宝物借到，赶紧来此拜求。尚望仙婆俯允，暂借吸星神簪一用，俾弟子师徒完成大命，感恩弗浅。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话刚说完，忽见谷中奇光明灭，烟岚杂沓，雷霆大震。约有半盏茶时，忽如破锣的老妇口音说道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "奇光明灭",
+            "sound_cn": "谷中奇光明灭，烟岚翻涌，雷霆震响，地动山摇",
+            "sound_en": "sudden flashing of strange lights and rolling smoke within the valley, accompanied by the rumble of thunder, the ground trembling slightly, the sound of magical power awakening",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "奇光明灭",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "卢妪",
+      "api": {
+        "voice": {
+          "role": "卢妪",
+          "role_voice": "卢妪",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "令尊是我故人，你奉命借宝，过门不入，迹近轻侮。本来应稍惩戒，幸我适以慧光查照，得知借宝因由。那驼子也与我有一面之缘，他那好友赤杖仙童更是我的至交。你又说得这般至诚，不问是否全真，我总神游未在，你恐误事，情有可原。虽不再与你为难，但你自老怪物那里走来，我终不愿见你。你那徒弟倒是与我有缘，人更至诚，我谷中设有迷阵和两种禁制，你如进来，以为所阻，我又不肯为不愿见的人撤去。可命你弟子米明娘入内，作为你师徒分途行事，各完使命便了。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "霞儿暗笑：",
+          "instruct": "悬疑叙述，语调低沉，引人探究"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你分明是见我灵符藏在胸前，神光外映，恐令入谷堕了声威，自家量浅，借我几句话，自行收风。只要能把法宝借到，交谁不是一样？",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随口恭答：",
+          "instruct": "舒缓叙述，语调平稳，行云流水"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "霞儿",
+      "api": {
+        "voice": {
+          "role": "霞儿",
+          "role_voice": "霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子愚昧无知，恐误时机，遂致失礼。多蒙仙婆大度包容，谨当遵命。",
+          "instruct": "语气嘲讽，带着讥诮，冷嘲热讽"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "卢妪",
+      "api": {
+        "voice": {
+          "role": "卢妪",
+          "role_voice": "卢妪",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "谁不知我刚愎量小，你却说大度包容，讥嘲我吗？",
+          "instruct": "语气嘲讽，带着讥诮，冷嘲热讽"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "霞儿",
+      "api": {
+        "voice": {
+          "role": "霞儿",
+          "role_voice": "霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "弟子怎敢放肆？仙婆鉴宥。",
+          "instruct": "呵斥，语调严厉，声色俱厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又听老妇狞笑一声：",
+          "instruct": "温馨叙述，语调柔和，暖意融融"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "狞笑声",
+            "sound_cn": "老妇一声狞笑，沙哑而令人不寒而栗",
+            "sound_en": "harsh, rasping laugh, the sound of age and stubborn pride, chilling despite its brevity",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又听老妇狞笑",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "卢妪",
+      "api": {
+        "voice": {
+          "role": "卢妪",
+          "role_voice": "卢妪",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "我昔年宁失天仙位业，致令千年以来多生烦恼，便为本性难移，不肯改却。米明娘可即进来，见我取宝，另外还有别物相赠。谷中迷阵，重要之处适已撤去，一入谷口，可舍明就暗，自有明灯引路。我这迷阵，与老怪物大不相同，中有无穷奥妙，出入皆难。如见奇物美景，不可涉足，只作不见，自可无害。我再命癞女接引好了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "明娘闻言，忙下拜称谢，起身走进。霞儿知不投机，视若路人，不愿多言，静立在外相候。约有半个时辰，才见一个头大身扁，巨目翻睛，塌鼻高颧，满头黄发，头与项一般粗细，上身甚短，下身颇长，手长过膝，掌大如箕，腿细脚大，穿着一身黑锦短衣裤，臂腿全裸，露出一身紧绷绷的白肉，东一块红，西一块紫，通体斑斓，似人非人，似怪非怪，奇丑无比的少女，引了明娘，一起说笑走出。明娘进内，一瞥即隐。出时也一瞥即现。谷中早复原状。以霞儿的道力法眼，竟未看出一点迹象，心中也颇佩服。当下由明娘向双方引见。霞儿实嫌白癞丑恶，略一致谢。问知明娘宝借到手，还得了十五粒九转百炼灵丹。说是仙婆以天痴门下有多人重伤残废，非此不治，全赠妙一真人应用，下余的留备未来之需。霞儿喜出望外，忙率明娘拜谢。卢妪也未还言。随向白癞作别起身，白癞似颇依依，霞儿装着心急归程，也未怎理。师徒二人避开谷口，便驾遁光同飞。且喜归途平顺无阻。飞到东海岸停下，互相略谈经过。打开锦囊一看，那巽灵珠不特附有用法，并附小柬，说是暂不必还，不久尚有他用，到时老人当自收回。霞儿笑对明娘道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "明灯引路",
+            "sound_cn": "谷中明灯引路，足音轻响，迷阵变幻，光影流动",
+            "sound_en": "soft footsteps and the flicker of guiding lights within the valley, the sound of a magical maze shifting and revealing its secrets, shadows moving",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "明娘闻言",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "出谷一瞥",
+            "sound_cn": "明娘与白癞说笑走出谷口，一瞥即现，衣料沙沙",
+            "sound_en": "sudden appearance of figures at the valley entrance, the sound of cheerful conversation and the rustle of robes, laughter echoing briefly",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "出时",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "驾遁同飞",
+            "sound_cn": "霞儿师徒驾遁光同飞，破空声轻快远去",
+            "sound_en": "swift whoosh as Xia'er and her disciple rise into the air together, the sound of their departure fading into the distance",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "驾遁光同飞",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "霞儿",
+      "api": {
+        "voice": {
+          "role": "霞儿",
+          "role_voice": "霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此行大出意料，枯竹老人真讲情面。卢妪得道多年，怎的这等怪性，喜怒无常？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "米明娘",
+      "api": {
+        "voice": {
+          "role": "米明娘",
+          "role_voice": "米明娘",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "白癞平日听鱼仁说，二老人一般古怪。师父如先往南星原，老人相待，恐还要厉害呢。二老不知是什深仇，对别人都不如此，只彼此一有沾连，无论哪一位全是如此。弟子见她时，口吻神情也极卖好，她对师父所说，直是故意，不知何故？",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "霞儿也竟难测，一算时机未误，终以早日赶到为是，随又飞起，赶到铜椰岛，果在限定日内。众仙问完前事，对霞儿师徒自是奖许有加。妙一真人对霞儿道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "驾遁飞起",
+            "sound_cn": "霞儿师徒驾遁光飞起，破空声轻快，渐入云霄",
+            "sound_en": "swift whoosh as Xia'er and her disciple rise into the air, their departure marked by the sound of light travel, ascending into the clouds",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞起",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "地底毒火，尚须三日夜始能喷完。众弟子已各有使命，事毕便由此起身，多半不回仙府。我儿已入佛门，不是本门弟子，只是汝师好意，知你孝心，特意舍却数十年功课，回山效力。你比灵云及众弟子法力较高，又有禹鼎至宝，寻常妖邪多非汝敌。此后修积功行，自会见景生情，随缘行事，无须再为叮嘱。汝弟子米明娘虽出旁门，性情根骨俱是上乘。她和卢妪还有一段因果，此次所得灵丹大是重要，适才还剩六粒在此，不久便有大用。我和汝母及各位伯叔尊长回山，便须遵照先师仙谕，同修大法，以完未来仙业，不到三次峨眉斗剑以前，极少出山。现时群邪披猖，不特原有一些妖邪，如妖鬼、尸魔，以及华山、五台等遗孽，尚在横行。开府前后，又树下不少强敌，多半极恶穷凶，邪法神妙。轩辕老怪、司空妖道尤为此中巨擘。危机隐伏，尚未发现的尚不在内。而边山红发老祖、天残和地缺门下孽徒，以及幻波池艳尸崔盈、小南极群凶、四十六岛妖人，也均要相继与之恶斗。众弟子等虽然受命自天，终属末学新进，法力不济。只因缘福深厚，多有奇遇，所用法宝、飞剑，不是前古奇珍，便是仙传至宝，又得各位前辈仙人嘉许期爱，百计维护，本人也各能知自爱，修为勤奋，始能勉力应付。以我静中推算，除却三五人屡世修积，天生福厚者外，未来险难尚多。运数所限，只有几人能以己力人定胜天，其余终须应劫。师长同门只能事后补救，难以先为解免。此丹乃卢妪以数百年苦功，共用七百余种灵药百炼而成。所炼无多，专为她本人应付未劫之用。炼成之后，万分宝贵，这多年来，只赠了一粒与一同道，一半还是借以试验此丹灵效如何，否则也还未必。此回竟以十五粒相赠，固然是想结交我与天痴道友师徒，别有深心；但她竟不惜耗神，默参未来，为我师徒预防，盛意也极可感。异日如须明娘往助，务要立刻起身，并将你那禹鼎带去，不可贻误。此丹灵效无比，不特起死回生，无论为多厉害的邪法、飞刀、飞剑所伤，只要肢体尚在，有此一粒，便可接续还原，与陷空岛万年续断、灵玉膏各有胜场，非同小可。你等众弟子有难时，前往救治之后，便追随乙、凌、白、朱等各位尊长，随时为众弟子策应好了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "霞儿",
+      "api": {
+        "voice": {
+          "role": "霞儿",
+          "role_voice": "霞儿",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "女儿既无专任，何妨仍许女儿居住仙府，俾遂女儿孺慕之私？遇到各位世兄弟妹有事，再行出去，不是一样吗？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "女儿已将成道，如何还是这等痴法？我和汝母回山以后，便须虔修大道，轻易不能相见，你便居仙府，也见不着。而众弟子因是修为日浅，成就太易，注定该有磨折，吉凶全由自招，承受消弭，各凭缘福，事情仍须经历。他们又均奉命各有去处，往往同时遇险，休说你一人，便诸位前辈仙人，也未必全能为之解免。适才命你接应，不过姑尽人事，聊作后援而已。如在仙府居住，以我儿的法力和仙府新得异宝，众弟子有难，极易查知，先为防范，岂非仍是逆数而行吗？这等行径，于众弟子只暂免目前，得于此者，必失于彼，反而加重。只可随机补救，若先为解免，大非所宜。至于你虽无有专司，反倒成了多多益善。你此次回山，所为何来？当时均应在外修积，始能符你初愿，如何可以随侍不出呢？",
+          "instruct": "语气温柔，轻声细语，温婉可人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又命善遇明娘，不妨多加传授。霞儿一一敬诺。妙一真人知道妖尸败逃，更无妖邪敢再犯险。毒火喷完，劫灰便须下降，海中数千里方圆地域，尚有无量生物，欲早日行法，移向远海，免致临时迁移，不免小有伤害。便请乙、朱、天痴三人相助，以铜椰岛为中心，各向一方，分四面行法移运。天痴上人叹道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "天痴上人",
+      "api": {
+        "voice": {
+          "role": "天痴上人",
+          "role_voice": "天痴上人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "道兄端的顾虑周详，此举真乃亘古以来未有的大功德，即此已完昔年宏愿而有余了。",
+          "instruct": "语气坚定，不容置疑，斩钉截铁"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此乃众志成城，上格天心，方得消弭巨灾浩劫，感召祥和。功德固是不小，全仗天心仁爱及众位道友鼎力相助，小弟因人成事，如何敢贪天功，以为己有？",
+          "instruct": "感激涕零，语调真诚，真情流露"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "朱由穆",
+      "api": {
+        "voice": {
+          "role": "朱由穆",
+          "role_voice": "朱由穆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "齐道友也不必太谦，固然众人出力，连我也不无微劳，决不妄自菲薄。但是天机微妙，何人得知？就算长眉师伯预示先机，试问此时同门诸位道友，何人有此毅力胆识，敢以已成仙业，甘冒古今未有奇险，稍一应付失宜，便堕泥犁，与万劫不复之害相拼？道友这多年来，如履如临，日常筹计，百什种因，预为布置，还在其次。我等出力虽多，首倡者谁？长眉师祖仙示，也只指明时地，略示机宜，一切仍由道兄主持全局，相机应付，我等不过依令奉行。道兄功劳最大，何必谦虚乃尔？",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "乙休",
+      "api": {
+        "voice": {
+          "role": "乙休",
+          "role_voice": "乙休",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小和尚，你忒认真。虽然出家人不讲世故，到底神仙也应谦和有礼，才好相与。他是主体，邀了你们同来成此盛业，难道请人相助，事成之后，却把别人一概抹煞，连句客气话都没有，只说是他一人之功不成？事实俱在，功之大小，早眷天心，何庸多说？根本痴老儿就不该那么说，你一恭维，他当然不能实受，总须谦让两句，才合情理不是，他如答说：'不错，此事只我一人之功，非我不可。连你们来都是多余，不过凑凑热闹，摇旗呐喊，壮点声威。'你就是没有火性的佛门弟子，听了这些话，不动嗔恶二念才怪。自己欠通，还说人家不应谦虚。他不这么说，又怎说呢？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "朱由穆",
+      "api": {
+        "voice": {
+          "role": "朱由穆",
+          "role_voice": "朱由穆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "驼子这张利口贫舌，实实惹厌，我岂是这种心意吗？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "乙休",
+      "api": {
+        "voice": {
+          "role": "乙休",
+          "role_voice": "乙休",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你们这些假道学，我最不信服。你语气明说他不应谦虚，却说心意不是。佛家戒打诳语，口是心非，犯戒一也；听我一说，你便红脸，已动嗔恶之念，犯戒二也；佛法禁毁谤人，你却骂我贫舌利口，犯戒三也。霎时之间，连犯三戒，还说什么四大皆空，一尘不染呢。",
+          "instruct": "强压怒火，咬牙切齿，愤懑难平"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "朱由穆",
+      "api": {
+        "voice": {
+          "role": "朱由穆",
+          "role_voice": "朱由穆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "驼子专喜颠倒是非，捏造黑白，并还恩将仇报。看你下次遭劫，谁再相援？我自落言诠，已居下乘，似你这等妄人，何值一辩？我不理你了。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "乙休",
+      "api": {
+        "voice": {
+          "role": "乙休",
+          "role_voice": "乙休",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小和尚，多年不见，仍然一逗便急。我驼子向不说装门面的话，铜椰岛是我生平第二次丢人的事。我大约还有一次劫难，我已早想好帮忙的人，不劳费心了。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "乙、朱二人本是两世患难良友，说笑已惯，妙一真人、天痴也都知道，俱被引得笑了起来。朱由穆转向妙一真人道：",
+          "instruct": "紧张叙述，语速加快，营造紧迫感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "众仙笑声",
+            "sound_cn": "众仙被引笑，笑声轻松爽朗，回荡在殿中",
+            "sound_en": "light, cheerful laughter of the immortals, the sound of camaraderie and relief after tension, echoing warmly in the hall",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "笑了起来",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "朱由穆",
+      "api": {
+        "voice": {
+          "role": "朱由穆",
+          "role_voice": "朱由穆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "莫为驼子打岔，误了海底生灵，我们一同动手吧。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "四仙随议定方略，各择一面，开始运用仙、释两家道法，由本岛起始，将方圆四五千里以内大小生物，一齐移向远海中去。天痴上人本来好胜自负，又以素擅五行禁制，以为此举擅场，必比三人先完，哪知大谬不然。四人各向一方，同时动手，仍是妙一真人与朱由穆二人最早毕事，也最完善无遗。天痴上人空自大显神通，运用五行挪移大搬运法，费了许多精神，结果勉强步武神驼乙休。但是禁法稍猛，不能皆顺物之性，一半行法，一半诱引，竟有好些年久通灵的水族受了伤害。经此一来，才知功力仍是不济，棋输一着，处处相形见绌，不是可以勉强。心中好生愧服，把平日骄矜之念，为之一祛。这次行法，因是量多物杂，一意保全，也费了一日夜工夫。一晃三天，火穴中烟势日衰，已成强弩之未。妙一真人见大功即将告成，到了明早日出以前，劫灰便须下降。笑对天痴上人道：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "行法移生",
+            "sound_cn": "四仙行法移运海中生物，海浪翻涌，水声哗然，鱼群跃动",
+            "sound_en": "low hum of magical incantations and the continuous rushing of waves as countless sea creatures are relocated, the splash of leaping fish and the rustle of moving water, the sound of a grand undertaking",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "一齐移向",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前次小徒易鼎、易震无知冒犯，尚有法宝遗留磁峰之上，不知可能推情掷还吗？",
+          "instruct": "嘲讽，语调轻蔑，不屑一顾"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "天痴上人",
+      "api": {
+        "voice": {
+          "role": "天痴上人",
+          "role_voice": "天痴上人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "前日相见，便欲奉还，只为连日追随诸道友行法，移散生灵，未暇及此。适才已命小徒楼沧洲去取了。",
+          "instruct": "威严庄重，语调铿锵，气势逼人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此役本系天劫所使，遂致诸位道友各有误会。鼎、震二小徒因随众弟子奉有职司，致迟请罪。乃祖易周先生与道友本系知交，事已过去，贫道已与通函，说明此劫经过。所望看在薄面，互释前嫌，勿再介意，如何？",
+          "instruct": "哀求，语调凄切，恳请再三"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "天痴上人",
+      "api": {
+        "voice": {
+          "role": "天痴上人",
+          "role_voice": "天痴上人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "前本无知，事由误会，道兄一言，无不应命。",
+          "instruct": "语气嘲讽，带着讥诮，冷嘲热讽"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "妙一真人随唤易静和鼎、震兄弟一同降落，向主人请罪赔礼。天痴上人连忙唤起，极口慰勉，说：",
+          "instruct": "急促叙述，节奏紧凑，扣人心弦"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "降落请罪",
+            "sound_cn": "易静与鼎、震兄弟降落请罪，衣袂轻响，脚步落地",
+            "sound_en": "soft rustle of robes as Yi Jing and the two brothers descend and bow in apology, the light thud of their feet on the ground, their movements respectful",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "降落",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "天痴上人",
+      "api": {
+        "voice": {
+          "role": "天痴上人",
+          "role_voice": "天痴上人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "易氏兄弟虽是疏忽，因有妖党中人追来，情有可原，当时已然处罚。现在双方亲如一家，以后同辈相遇，互相扶助。旧事过去，无须再提。齐道兄太甚谦虚。",
+          "instruct": "语气严厉，带着威压，不怒自威"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "楼沧洲恰自宝藏中将易氏弟兄所失之宝取来，随即交还。易氏弟兄正为和金、石、二甄六人约定一同行道，这几位师兄弟各有至宝随身，自己法宝多在铜椰岛失去，相形见绌，好生愁闷，最可惜的是那九天十地辟魔神梭，一见发还无损，好不欢喜，忙各拜谢领去不提。时已深夜，天到子正，穴中毒火便已喷完，只剩丝丝残烟，摇曳上升。一会，残烟也已喷尽。妙一真人便照预计发令，将手一挥，穴上深井一般的大光筒便即撤去。众弟子立驾遁光，散出阵外，分布空中九官方位上。十余位仙人也各降下，与乙休、天痴上人相见，说笑一阵。众仙遥看残月西斜，海中鱼介生物全部迁徙，海面上静荡荡的，只剩波涛向海岸冲击，吞吐呜咽。仰望空中，玄真子与妙一夫人同在八九千寻以上，不见一点形影。那毒烟烈火破空直上，所发风雷之声也早静止，显得夜景分外幽寂，与日前猛恶之势迥乎天渊之别。众仙俱都纷纷祝贺，共庆功成，只等东方微明，便起施为。一会工夫，启明星耀，东方渐有曙色。妙一真人刚喝得一声：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "法宝奉还",
+            "sound_cn": "楼沧洲奉还法宝，玉器轻碰声，宝光微闪",
+            "sound_en": "soft clink of magical treasures being returned, the gentle shimmer of their innate light, the sound of restoration and reconciliation",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "楼沧洲恰自宝",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "残烟摇曳",
+            "sound_cn": "毒火喷完，只剩残烟丝丝摇曳，逐渐消散在夜空中，发出轻微的嘶嘶声",
+            "sound_en": "soft hiss of lingering smoke rising from the fire pit, thin wisps curling and fading into the night sky, the sound of the great conflagration finally dying down",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "残烟",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "波涛呜咽",
+            "sound_cn": "海面波涛冲击海岸，吞吐呜咽，显得格外幽寂，水声轻缓",
+            "sound_en": "gentle rhythmic lapping of waves against the shore, the soft sigh of a sea at rest after a great disturbance, the sound of peace",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "失之宝取来",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "起！",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "便听高天空里异声大作，宛如无数天鼓当空齐鸣，更有千万神兵，铁甲天马，万蹄杂沓，自天杀来。便是雷霆暴震，声势也无如此猛烈。说时迟，那时快，众仙已争先飞起，晃眼数十百道金光霞彩，满空交织，大地立现光明，映得上下四外俱成金色。那匹练般的金霞，闪电也似在空中略一掣动，便即互相联合。只是改直为横，又分作了上下三层，每层相隔约数百丈，其长何止千丈，宛如三道经天长虹，交叉横亘空中。一面众弟子也把各人飞剑，联合成了四道较短的光虹，分四面围列在末层金虹之外。妙一真人、朱由穆与神驼乙休三人，早飞出最高一层金虹之上相待。同时空中异声也越来越近，隐见无数火星，明灭乱迸，聚在一起，大如山岳，瀑布也似往海面上倒泻下来，眼看越来越近。妙一真人为首，喝一声：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "天鼓齐鸣",
+            "sound_cn": "空中异声大作，如天鼓齐鸣，万蹄杂沓，惊天动地",
+            "sound_en": "thunderous roar from the sky like countless heavenly drums and the charge of a million armored steeds, the sound of cosmic forces descending with overwhelming might",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便听高天空里",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "金光交织",
+            "sound_cn": "数十百道金光霞彩满空交织，破空声密集如网，光华闪耀",
+            "sound_en": "continuous whoosh and hum of countless golden beams weaving together in the sky, the sound of immortals forming their great formation, light and sound interweaving",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光霞彩",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "劫灰飞堕",
+            "sound_cn": "火星明灭，劫灰如山岳般倒泻入海，轰鸣震天，火山飞堕",
+            "sound_en": "roaring of burning ash and debris cascading down like a mountain waterfall, the sound of the great deluge of fire and earth, a cataclysm of cosmic proportions",
+            "volume": "-8%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "宛如无数天鼓",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "疾！",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "一道极大的金光，离手飞上前去。那火星便是空中太火毒焰，被罡风消灭以后所剩劫灰，吃玄真子行法禁制，合成一股其大无比的灰瀑，自万丈高空倒泻下来，灰沙互相摩擦激荡，发出无量火星，由上向下，如火山飞堕一般，加上异声怒吼，惊天动地。妙一真人一道金光，迎头一裹，挤得那灰瀑势益猛恶，由金光环绕中直泻下来。众仙所结三道经天长虹，早已列阵相待。最高一道金虹首先迎住，两边金光往上一翘，成了一道长河，将劫灰盛住。左边一头，便渐渐往前伸去，劫灰齐往金河中注入。只听轰轰发发之声，金光闪耀，霞彩横空，上接一根通天火柱，顿成亘古不见之奇。约有盏茶光景，金河的一头未动，一头已伸长了二三百里，渐渐低垂，斜注海中。劫灰由金河中顺流而下，海水立即怒沸，骇浪如山，直上遥空。数千丈大小的劫灰，互相击撞，声如暴雷。那金河随在海面上由近而远，纵横移动，约有刻许工夫，便离去本位。由妙一真人手指一道金光，紧束后尾，往东方移去。空中劫灰仍然往下怒泻，那第二道金虹便迎上去，接个正着。仍是如法炮制，化成金河，一头向西方伸长，渐注入海。所到之处，海水尽沸，东西两应，势更强烈。这时红日正由天边升起，朝云晓霞，一层层齐幻金光，上有金虹斜挂，下有骇浪飞腾，端的气象万千，奇丽无恃。第二道金虹伸得渐远，神驼乙休便放出一道红光，束住光尾，向远方海中移去。第三道金虹又复接上，前两道金虹，本离岛伸长二百里以外，方始下注，近海边百余里内，尚无劫灰注入。所以这次金虹不是一头下垂，待了一会，忽在空中闪了几闪。朱由穆手扬处，飞起一团佛光，将灰瀑围住，口喝：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "金光裹灰",
+            "sound_cn": "金光裹住劫灰，轰轰发发之声不绝，天地为之震颤",
+            "sound_en": "continuous rumbling and roaring as the golden light envelops the ash flow, the sound of immense power containing the torrent, the very air trembling",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "金光",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "金河注海",
+            "sound_cn": "劫灰顺金河注入海中，海水怒沸，骇浪排空，炸响连绵",
+            "sound_en": "thunderous crash of ash-laden water plunging into the sea, waves erupting like mountains, the sound of a new land being born, a continuous roar of creation and destruction",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "顺流而下",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "佛光罩灰",
+            "sound_cn": "朱由穆放出佛光，将灰瀑围住，梵音轻响，光华庄严",
+            "sound_en": "soft chime of sacred light surrounding the ash column, the sound of Buddhist power calming the raging elements, a serene hum amidst the chaos",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "佛光",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "朱由穆",
+      "api": {
+        "voice": {
+          "role": "朱由穆",
+          "role_voice": "朱由穆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位道友，我等各显神通，点缀一个奇景如何？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这第三道金虹，本是法力最高的几位仙人主持，闻言会意，立将金河展开，化成一张华盖，越展越宽，外边俱都向下，将全岛罩住，离海面不过两三丈。那灰柱由佛光中直泻下来，分向四边流坠，泻入海中，散布得均匀已极，由下往上，宛如一顶硕大无朋的金幕。四边火珠如潮，滚滚飞落，由上往下，又似一朵万丈金莲，挟着无量星沙，自天倒挂，煞是奇观。因是离开海面，做一大圆圈，同时下注，朱由穆又频使神通，使那无量星沙远近飞布，激得掀天巨浪，潮涌而起，令人心惊目眩，又是一番奇景。个把时辰过去，第一、第二两道金河放完了劫灰，先后飞回，改为一南一北，接向上面。相继接够了数，仍和先前一样，向南北两头伸长出去，注入海中。近岛的一圈，因是地方不大，头一次劫灰便将海底布够了数。朱由穆二次待要如法施为，被妙一真人由北飞来止住，并说：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "金幕罩岛",
+            "sound_cn": "金虹展开化为华盖罩住全岛，金光万道，铺天盖地",
+            "sound_en": "expanding rustle of golden light forming a canopy over the island, the sound of a vast protective mantle settling into place, light cascading like water",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这第三道金虹",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "星沙飞布",
+            "sound_cn": "无量星沙如潮水般向四周飞布，火珠滚滚，落英缤纷",
+            "sound_en": "continuous hiss and crackle of countless fiery beads scattering across the sea, the sound of a cosmic display of power, like a thousand falling stars",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这第三道金虹",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "百丈毒火所遭灰沙不过石许，倒倾之势，比较上升还快速得多。因要使海底沉沙一律平匀，如若行法散布，势必闹得满空俱被灰尘布满，连月不消，既费时候，使上空两个主持人也更多费心力。所以才请诸位道友各运玄功，将各人飞剑、法宝连成天河，使其分注海中。但是劫灰余毒未尽，分量极重，并为迅速广布，又将空中天河分成三道，以便相互接替，分向四方八面倾注。现在近岛一带，已经铺有三丈来深，不宜再增；空中劫灰，也十去六七，再倒换一两回，便可毕事。大师兄和山荆在灵空交界处灭火消沙，自从那日到山，不曾稍息。朱道友如是有兴，何妨上去助他们一臂？",
+          "instruct": "急切，带着焦虑，心急如焚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，神驼乙休也由南方飞回，说：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "乙休飞回",
+            "sound_cn": "乙休驾红光从南方飞回，破空声低沉而有力",
+            "sound_en": "low whoosh of red light as Yi Xiu returns from the south, his arrival marked by the sound of a powerful presence, the hum of a task completed",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞回",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "乙休",
+      "api": {
+        "voice": {
+          "role": "乙休",
+          "role_voice": "乙休",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这二次布散劫灰，诸位道友已然放心，足可胜任，无须另行戒备。大师兄和齐仙嫂正在贤劳，我和小和尚同去略效微劳吧。",
+          "instruct": "语气欣慰，带着满足，心感安慰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 60,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱由穆早答要去，闻言，说一声：",
+          "instruct": "舒缓叙述，语调平稳，行云流水"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 61,
+      "role": "朱由穆",
+      "api": {
+        "voice": {
+          "role": "朱由穆",
+          "role_voice": "朱由穆",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "好。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 62,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "两道金光比电还疾，只一闪，便双双射入高空云层之中不见。妙一真人看二人去后，微笑道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金光入云",
+            "sound_cn": "两道金光射入高空云层，破空声凌厉，瞬间消失",
+            "sound_en": "sharp whoosh of two golden beams shooting into the high clouds, the sound of swift departure, vanishing into the vast sky in an instant",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "射入",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 63,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "朱道友转劫归来，仍是这等天真，我如晚到一步，这铜椰岛上许多琪花瑶草，日久岂不被灰毒烧死，那被乙道友所断铜椰灵木，如何重生？沉沙不可复起，地底灵泉恐受流毒，趁此片刻余闲，且为此岛添一新景吧。",
+          "instruct": "恐惧，颤抖着声音，惊慌失措"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 64,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随纵遁光飞起，手掐灵诀，指着海中，立有一道金光飞出，电转星驰，环岛飞行三匝，回到原处，一闪即隐。随又用手朝外一指，一声霹雳过去，环着铜椰岛四围，忽起海潮，由岛边沙滩起，宛如击石投水，化成一个水圈，由小而大，往外推展开去。最前浪头，约有三四十丈高下，里许来宽。全圈一般平，无甚高低，直推出百里以外，忽然停止，直似环岛添了一圈浪城。浪花尽管翻流不休，却是通体高低如一，不消不退。天痴上人因众仙行法早有成竹，妙一真人又未招呼，未便插手，正率门人在岛上旁观赞佩，一见妙一真人为本岛添此奇景，好生欣慰，赶忙过去称谢。妙一真人笑道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "金光环岛",
+            "sound_cn": "金光绕岛飞行三匝，破空声呼啸，光华闪耀",
+            "sound_en": "swift whistling of golden light circling the island three times, the sound of magical power encircling the land, a trail of light marking the path",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "环岛飞行",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "海潮涌起",
+            "sound_cn": "环岛海潮涌起，浪花翻腾，水声轰鸣，如千军万马",
+            "sound_en": "roaring of tidal waves rising around the island, the sound of water forming a living wall, like the charge of a thousand steeds",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "随纵遁光飞起",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "霹雳开浪",
+            "sound_cn": "一声霹雳，浪圈定型，水声渐平，归于宁静",
+            "sound_en": "sharp crack of thunder as the wave circle solidifies into a permanent ring, the sound of creation, followed by a settling calm",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "掐灵诀",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 65,
+      "role": "天痴上人",
+      "api": {
+        "voice": {
+          "role": "天痴上人",
+          "role_voice": "天痴上人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "多谢道兄。",
+          "instruct": "感激涕零，语调真诚，真情流露"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 66,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我知此岛多产嘉木灵药，虽仗元磁精气钟育，也还靠了此岛有灵泉滋润之故。初意留这环岛四边百余里，不使劫灰下注，不料一时疏忽，未曾先说。朱道友见金虹分载灰沙，一东一西，有似天河倒泻，他不知那劫灰重逾山岳，又是热毒异常，若有少许触及地面，生物沾上，立被灼死。何况又自八九千丈高空倾天下注，头两道天河已然移开，须另有承受。那第三道天河，原备更番接替之用。见猎心喜，不假思索，见岛一带劫灰尚未注入，只图奇景壮观娱目，却未防到灵泉真脉正藏海底，近岛一带劫灰下压日久，必被侵蚀脉络，渗入其内。此灰奇毒，须受多年海水冲刷，始能消受，全岛草木岂不遭殃？我在远处看见，又不便拦他高兴，只得等大家饱了眼福，再行赶来阻止。我想本岛本产不少巨鲸，现均行法徙去，即使近岛百余里未布劫灰，鱼类无知，稍微游远，便中灰毒。如将此灰行法禁制，在海底逼起一圈长堤，再将鲸群移回，有此一圈阻隔，不致游向圈外中毒，岂非绝妙？不过毒灰虽被推向外圈，因受禁制，不能再受潮汐冲刷，岁月一久，便要继长增高。三百六十年后，必成一圈五色河堤，高出水面。同时，它那余毒，也逐渐由河孔中，往外圈发泄出去，与受海中冲刷，并差不许多。彼时圈中之水，使其化咸为淡，成一环湖，或在堤上另开门户，与海相通，便悉随尊便了。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 67,
+      "role": "天痴上人",
+      "api": {
+        "voice": {
+          "role": "天痴上人",
+          "role_voice": "天痴上人",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-2Hz",
+          "text": "小弟前次愚昧，不知天数，几肇杀身灭形之祸。多蒙道兄鼎力解免，感谢之情，不消说了。但是小弟自来疏狂，不曾轻受人惠，又以昔年走火身僵，山居清修，杜门多年，同道中往还极少。乃日前白犀潭赴约，来去途中，俱中埋伏。小弟或尚无妨，随去弟子却多不免伤陷。不意暗中竟有佛法解救，并还屡现金字告警，预示趋避，人却不肯相见。自思平生友好，佛门中人极少，即有也道成证果，是何因缘如此为力？也曾再三留意，查看踪迹，终如神龙见首，不见端倪。最后，归途又有人解围，方有一小沙弥影子，略闪即逝，相貌既未看清，而照所驾遁光，虽是上乘传授，以他破乙道友仙法，功力似还未到，好生不解。适才想起，道兄对此一劫早识先机，一切预有安排，而那沿途相助之人，行径又似与乙道友相识，不是道兄所托，也心知底细。先见朱道友所放佛光，颇与日前所见相似，当着乙道友不便明问。适又见他飞身上空，所运金光更为相似。受人暗助，连个名姓来历俱未知悉，岂非笑话？道友当必有以告我。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "真人便把白眉和尚命朱、李二人暗助之事说了。并说：",
+          "instruct": "悬疑叙述，语调低沉，引人探究"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 69,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "那小沙弥便是阿童，现在第二道天河上相助行法。",
+          "instruct": "语气威严，带着霸气，号令如山"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 70,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "上人闻言，方始明白，连道惭愧不迭。真人仰望高空，光华闪动，知将告成，便与上人道声：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "光华闪动",
+            "sound_cn": "高空光华闪动，明灭不定，预示大功即将告成",
+            "sound_en": "flickering of distant lights in the high sky, the sound of approaching completion, a silent promise of success",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "光华闪动",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 71,
+      "role": "妙一真人",
+      "api": {
+        "voice": {
+          "role": "妙一真人",
+          "role_voice": "妙一真人",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "少时再谈。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 72,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "纵遁光迎上前去。多半日光阴过去，空中灰沙虽仍下降，势已大减。数千里方圆海底，按预定尺寸快布满了，所差无几。妙一真人身刚飞起，那空中四五道金光，也已随了余灰一同下降。这时三道天河，只有一道载了灰沙远去，两道作十字形，高低横亘。妙一真人仰望灰柱，尾梢散漫，搅成了一团浓雾。本似一根撑天灰柱往下飞堕，因为尾梢降势稍缓，颇有中断之处，事出意外。幸是道妙通玄，法力无边，一见有异，不等向高空传声遥问，手向下方一指，口中传声发令，命将两道大河连合为一，化成一面天幕，将全岛罩住，迎接来势。并命分宫守候的众弟子，小心戒备，各将剑光宝光八面围住，以防灰沙散漫。说时迟，那时快，就十几句话的工夫，空中余灰带着后尾一团浓雾，自天飞堕。玄真子、妙一夫人、乙休、朱由穆四人，各指一道金光，紧随沙雾之后，也一同飞落。眼看相隔那面金光天幕不远，中间一段，忽似花炮迸雪，当空爆炸，灰沙中无量数的火星，宛如箭雨飞蝗，随着万千道浓烟满空飞射。仗着众仙应变神速，上下四方均有戒备。妙一真人更是成竹在胸，早见及此，一见毒灰爆烈，双手一扬，立有十道金光匹练般飞出，当空伸长，分十面远远斜横空中，挡住斜飞之势。同时，下面光幕往上飞去，分列空中。众弟子各用剑光法宝，齐往中间逼去。上空，玄真子等四仙，也将金光化成一面华盖，缓缓压来。有那众弟子阻挡不及、横送出去的，被那横空十道金虹阻住去路，平兜过来。不消半盏茶时，上下四外齐向中间紧拢，成了合钵之势，直似数千丈大的圆盒，将那无量劫余灰沙包藏在内，通体浑成，毫无一丝缝隙。只有金光万丈，映彻海面，烛照云霄。众仙随施法力，将众弟子的剑光逐渐撤出。光球逐渐缩小，约减到百十丈光景，妙一真人才指明地点，令其就此飞入海底，再行如法散布。众仙应诺，共指金球，朝远方海面上飞去。头一道天河，乃是本门师兄弟主持，早将灰沙放完归来，收了剑光，落下相待。妙一真人知已功成无事，也率门人降下。遥望光球沉入海底以后，那一片海面立涌起无数撑天水柱，有无量数山大的水泡冒起，爆声如雷，震撼海岳。本来环岛数千里海底更平添了十来丈厚一层毒沙，到处波翻浪涌，惊涛山立，汹涌奔腾，声如巨雷，不曾片刻宁静；再吃这么大一个光球挟着绝大量的毒沙落往海底，飞舞散布，声势更盛，自不必说。那光球虽然上有极深海水，精光宝气依然上透层波，掩藏不住。只见一个百丈金轮的影子，光芒万道，在天边无数撑空晶柱之中星丸跳掷，出没升降，翔转飞驰，映出半天金霞，比起海上日出之景，还要雄伟得多。未去长幼众仙，俱都赞叹不置。隔了一会，遥望海上金轮忽散，化作十余道金光，飞起空中，略一掉转，相继飞来。晃眼近来，光华敛处，玄真子等十来位仙人一齐现身。妙一真人忙率众迎上前去，分别礼谢，互相又庆贺了一阵。妙一真人便问玄真子等四仙，适才眼见已快收功，如何又生变故？玄真子答道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "天幕合拢",
+            "sound_cn": "两道金虹合为天幕，金光万道，轰然合拢，声震四野",
+            "sound_en": "resonant boom as two golden rivers merge into a vast canopy, the sound of immense power converging, the air itself seeming to solidify",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "纵遁光迎上前",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "灰沙爆炸",
+            "sound_cn": "余灰当空爆炸，火星如箭雨飞蝗，浓烟漫天，爆裂声连绵",
+            "sound_en": "thunderous explosion of the remaining ash, countless sparks flying like arrows and locusts, the sound of a sudden crisis, a cascade of detonations",
+            "volume": "-8%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "纵遁光迎上前",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "光球入海",
+            "sound_cn": "金球沉入海底，水柱冲天，爆声如雷，海啸山崩",
+            "sound_en": "roaring crash as the golden sphere plunges into the sea, water columns shooting skyward, the sound of a new world being shaped, a cataclysmic final act",
+            "volume": "-10%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "飞入海底",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "金轮映霞",
+            "sound_cn": "百丈金轮在海底运转，光芒透出水面，映出半天金霞",
+            "sound_en": "soft hum of the golden wheel moving beneath the waves, its radiance piercing the water to paint the sky in golden hues, the sound of a great work completed",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "空中灰沙虽仍",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 73,
+      "role": "玄真子",
+      "api": {
+        "voice": {
+          "role": "玄真子",
+          "role_voice": "玄真子",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我和弟夫人引了烈焰，直上两天交界之处，如法行事。虽然万年大火毒焰厉害，我们既要使它布散高天，借乾罡之气灭火化沙，消灭火毒；又须聚在一起，只在那千百里禁制圈中，不令随风吹散。乾天罡风又与寻常风力不同，本是极难之事，幸仗天心仁爱，恩师法宝妙用，我和弟夫人又极小心谨慎，不过比预料多费了些心力。一连数日夜，俱都平安过去。哪知到了快要收功时节，忽有警兆。心神一动，我和弟夫人忙运玄机推算，竟是轩辕老怪为与本门寻仇，自知不济，不敢妄动，自装好人，暗中示意妖徒，费了许多心机，加上两件异宝和妖徒最宠爱的妖妇，哀词厚礼，把昔年被恩师逐出中土，遁往北极附近黑伽山落神岭潜伏的本门仇敌老妖兀南公，诱激出来。这老妖孽本就记着恩师的仇，逃时声言必报。不过照他心意，还觉不到报仇时机，欲待机会到来，再将本门长幼一网打尽。一则为宝物、美色所动，二则被妖徒一激，意欲一试。便运妖光，查看我们虚实，竞被看出此间之事。再一推算，本门气运正盛，又建立这一场大功德，自然以后上天降福，方兴未艾。照此下去，直无报仇之日。一时忿极，仗恃所居高出云空，只比灵峤仙府略低百丈的二天交界之处，我们如非专为他留心，虔加推算，决算不出，事隔多年，自不会料到他卷土重来。说也侥幸，他如径去峨眉，我们纵有人在彼防守，恐也非他敌手，就许被他残毁一番。他偏自恃，仍是当年好胜心情，以为本门长幼多集干此，乘虚袭入洞府，胜之不武。但又深知他虽旁门左道，不似妖尸冥顽孤行，八百年苦功，已将修到地仙之位。这场善功如为所败，引起浩劫，自身必应天诛，万劫不复，不敢冒失。他用妖光查看时，这里全功已成七八。意欲候到我们大功告成之前赶到，先乘我和弟夫人行法正急之际，下毒手暗算。然后就势飞下，与本门长幼和在场诸道友为仇，伤得一个是一个。下余等他妖法炼成，再作打算。哪怕我们得天独厚，未必如愿，好歹总可出点怨气。未到以前，以为我等骤出不意，必有伤亡。而天空劫灰已去七八，照此行径，至多铜椰岛和左近海面受灾，俱是无人之地，水中生物又经师弟徒走，造孽不大。哪知仍然被我算出。他那来势特快，我和弟夫人正说抵御之策，便带一有力妖党飞来。一则时机紧迫，未及报警；二则恃有恩师新赐法宝，还有一道灵符，不曾明示用法，分明为他而设。恩师未预示先机，自然认作无足轻重。我们事前大意，不曾防到外敌，也由于此，一时疏忽，以为无害。又知诸位道友在下面各有职司，正在收功吃紧之际，我忽告警，徒乱人意，于事未必有所助益，因此不曾告警。一面仍自施为，一面各运玄功，分化元神迎敌。没想到老妖孽法力远非昔比，连那妖党均非弱者。我和弟夫人空身还能应付，而这时满空劫灰，正由禁制圈中往下急降，尚未放完，必须敌我兼顾，一心二用，未免吃亏。恩师所赐灵符未注功效，放将出去，只可防身，不能克敌。他那法宝也颇厉害，相持时久，诸多可虑。弟夫人正打算向师弟传声密告，请分一二能手升空相助，忽见乙、朱二位道友飞上，四人合力夹攻，他自相形见绌。弟夫人不惜冒险，连施诸般法宝，妖党首先受伤。朱道友又放佛光，发出舍利。他见势不佳，方始说了几句异日寻仇的大话，先令同党遁去。他临去时，想是恶气难消，忘却来时顾忌，也许他是想使我们多费手脚，竟用玄功变化，乘我们一点破绽，元神闯入圈内，将我们禁法破去，震散灰沙，方纵妖光遁走。余灰少说还有万丈方圆一团不曾降完，虚而不实，禁制一破，全都爆散，闹得两天交界满是火星灰雾，散乱横飞。恐随罡风吹堕人间，贻害生灵，而事前禁制，已不可能，灰中毒气已见天风，胀力又是绝大。总算我等四人应变尚速，一见不好，也没顾及追逐妖人，不约而同，各以全力施为，收摄聚集，一面又将罡风挡住。弟夫人出力最多，又纵遁光连挥宝扇，满天追逐阻挡，相助推拢，一面仍使下注。经此一散一聚，合力防御，才未生出大枝节来。大火初灭，毒气尚盛，上天下地，过于广大，若迫束过紧，为害尤烈。早料到毒气经风，必要自行膨胀，摩擦愈烈，愈生变故。但是收尾一圈，费了许多事强行聚拢，中杂乾天罡煞之气，一个不好，二次爆裂，发出亘古未有的巨震，我们修道人自是无妨，这千里以内所有大小岛屿全被震裂，海水逆上千百丈更在意中，就说水族已徙，各岛生物总还不少，本岛就非少数，岂不全数遭殃？对它轻了不好，重又不好，只有在快要降完未爆发前，大家合力将它包没，送入海内；再开一口，徐徐散布，方可无事。其势不能兼顾，仗着诸位道友应变神速，早合成一光幕，向上反兜相待。师弟又率众门人，分列天空中戒备，才放了心。果然还未降完，便已爆裂。这亘古未有之奇灾浩劫，大凶极险，侥幸平安渡过，勉奏全功。只出两次不妨事的小波折，真可喜可贺也！",
+          "instruct": "语带关切，温柔体贴，关心备至"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "老妖来袭",
+            "sound_cn": "老妖兀南公驾妖光来袭，破空声阴森，妖氛弥漫",
+            "sound_en": "sinister whoosh of demonic light as the ancient evil approaches, the sound of a powerful enemy arriving, a dark presence filling the sky",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "兀南公",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "佛光舍利",
+            "sound_cn": "朱由穆放出佛光舍利，梵音庄严，妖氛尽散",
+            "sound_en": "solemn chime of Buddhist light and relics, the sacred sound dispelling the demonic aura, a wave of purity washing over the battlefield",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "我和弟夫人引",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 4.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "妖光遁走",
+            "sound_cn": "老妖败走，纵妖光遁去，破空声急促远去",
+            "sound_en": "harsh screech of demonic light retreating, the sound of a frustrated enemy fleeing, fading rapidly into the distance",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "妖光遁走",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "大荒山阴冰雪绝域",
+        "start_line": 1,
+        "end_line": 3,
+        "prompt": "very subtle low volume cinematic background ambience, vast frozen wasteland at the peak of the eastern celestial pillar, towering cliffs of ancient ice and snow stretching to the horizon, extreme cold and dead silence broken only by the occasional distant crack of millennia-old glaciers shifting, thin veil of frozen mist hanging in the air like a ghostly shroud, oppressive loneliness of a world where life has never touched, soft low-frequency drone of immense geological forces grinding beneath the surface, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "南星原借宝",
+        "start_line": 4,
+        "end_line": 27,
+        "prompt": "very subtle low volume background ambience, serene valley in the sunlit side of the great mountain, ancient cliffs draped with thousand-year-old vines and thick layers of emerald moss, exotic flowers blooming in every shade, soft rustle of rare herbs in the gentle breeze and the delicate chirping of strange birds, occasional distant sound of hidden waterfalls cascading over smooth stones, atmosphere of secluded immortality and ancient magic, subtle warmth of the sun filtering through layered foliage, smooth continuous ambience bed, no sharp sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "铜椰岛收功与劫灰布散",
+        "start_line": 28,
+        "end_line": 72,
+        "prompt": "very subtle low volume cinematic background ambience, vast ocean under the rising sun, rhythmic waves washing against a tropical island's golden shore, distant rumble of great magical workings overhead as cosmic forces are harnessed, occasional thunderous roar of ash falling into the sea like a world being remade, triumphant and solemn atmosphere of a great undertaking completed, underlying hum of countless lives preserved and a cataclysm averted, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-20%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

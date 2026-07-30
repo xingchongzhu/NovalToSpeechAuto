@@ -125,6 +125,24 @@ os.environ['PYTHONUNBUFFERED'] = '1'
 # 忽略音频处理库的无关警告
 warnings.filterwarnings("ignore")
 
+# ======================== 全局常量配置 ========================
+# 标题播报（片头片尾、chunk标题）的固定配音角色
+TITLE_VOICE_ROLE = "紫绡"
+
+# ── macOS malloc zone pressure relief ──
+# Python 释放大块内存后，macOS 的 malloc zone 不会主动归还给 OS，
+# 导致 RSS / physical footprint 虚高。调用此函数强制归还已释放页面。
+def _release_malloc_memory():
+    """强制 Python 将已释放的内存归还操作系统（macOS）"""
+    try:
+        import ctypes
+        import ctypes.util
+        libc = ctypes.CDLL(ctypes.util.find_library("c"))
+        if hasattr(libc, "malloc_zone_pressure_relief"):
+            libc.malloc_zone_pressure_relief(0, 0)
+    except Exception:
+        pass  # 非 macOS 或调用失败则静默跳过
+
 try:
     from pydub import AudioSegment
 except ImportError:
@@ -231,7 +249,8 @@ PLATFORM_PROFILES: Dict[str, AudioPlatformProfile] = {
         channels=2,
         bitrate="192k",
         #intro_template="欢迎您收听由喜马拉雅出品的《{novel_name}》，作者{author}，演播{speaker}，欢迎订阅。",
-        intro_template="欢迎收听《{novel_name}》",
+        #intro_template="欢迎收听《{novel_name}》",
+        intro_template="",
         outro_template="本集播讲完毕，请订阅专辑，下集精彩继续。",
         min_chapter_ms=5 * 60 * 1000,
         max_chapter_ms=15 * 60 * 1000,
@@ -255,12 +274,14 @@ class AudioEngine:
                  channels: int = 1, tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  fish_api_url: str = "http://localhost:8080",
                  target_voice_dbfs: Optional[float] = None,
-                 enable_transcribe_check: bool = False, tts_mode: str = "voice_design"):
+                 enable_transcribe_check: bool = False, tts_mode: str = "voice_design",
+                 stability_prefix: str = ""):
         self.temp_dir = temp_dir
         self.sample_rate = sample_rate
         self.channels = channels
         self.audio_format = "wav"
         self.tts_engine = tts_engine
+        self.stability_prefix = stability_prefix  # TTS 合成起始稳定化前缀文本，空字符串表示禁用
 
         # 自动选模型：VoiceDesign 模式且未显式指定路径 → 使用 VoiceDesign 模型
         if qwen_model_path:
@@ -274,7 +295,8 @@ class AudioEngine:
         self.target_voice_dbfs = target_voice_dbfs
         self.enable_transcribe_check = enable_transcribe_check  # TTS质检 + 音效精确定位总开关
         self.qwen_tts_model = None
-        self._voice_clone_prompt_cache = {}  # 进程内缓存，避免当前运行重复编码参考音频
+        self._voice_clone_prompt_cache = {}  # 进程内缓存，避免当前运行重复编码参考音频（上限 32 条）
+        self._voice_clone_prompt_cache_max_size = 32  # 限制缓存条数，防止内存膨胀
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
         self.clone_audio_dir = os.path.join(project_root, "clone-audio")
         self.voice_prompt_cache_dir = os.path.join(self.clone_audio_dir, ".qwen_prompt_cache")
@@ -286,7 +308,7 @@ class AudioEngine:
         )
         self._voice_table_missing = set()  # VoiceDesign 模式下配音表缺失的角色名，供上层记录
         self._quality_warnings = []  # TTS 质量异常记录
-        self._vd_prefix_cache = {}  # VoiceDesign 起始前缀长度缓存，key=full_instruct → (sample_count, sr)
+        self._vd_prefix_cache = {}  # VoiceDesign 起始前缀长度缓存，key=full_instruct → (sample_count, sr)，上限 64 条
 
         os.makedirs(self.temp_dir, exist_ok=True)
         os.makedirs(self.voice_prompt_cache_dir, exist_ok=True)
@@ -295,6 +317,30 @@ class AudioEngine:
             self._init_qwen_tts_model()
         elif self.tts_engine == "fish-speech":
             print("[TTSEngine] 使用 Fish Speech API 引擎，地址: " + self.fish_api_url)
+
+    def release(self):
+        """释放 AudioEngine 持有的所有资源（TTS 模型、缓存等），防止跨章节内存泄漏"""
+        print("[TTSEngine] 🔓 释放 AudioEngine 资源...")
+        if self.qwen_tts_model is not None:
+            del self.qwen_tts_model
+            self.qwen_tts_model = None
+        self._voice_clone_prompt_cache.clear()
+        self._vd_prefix_cache.clear()
+        self._voice_table_missing.clear()
+        self._quality_warnings.clear()
+        import gc as _gc
+        _gc.collect()
+        try:
+            import torch as _t
+            if hasattr(_t.backends, 'mps') and _t.backends.mps.is_available():
+                _t.mps.empty_cache()
+            elif _t.cuda.is_available():
+                _t.cuda.empty_cache()
+        except Exception:
+            pass
+        _gc.collect()
+        _release_malloc_memory()  # macOS: 将 Python 已释放的内存归还系统
+        print("[TTSEngine] ✅ AudioEngine 资源已释放")
 
     def _init_qwen_tts_model(self):
         """初始化Qwen3-TTS模型"""
@@ -367,13 +413,19 @@ class AudioEngine:
             self._voice_design_table = {}
         return self._voice_design_table
 
-    def _lookup_voice_design_prompt(self, role_name: str) -> Optional[str]:
-        """根据角色名在配音表中查找 VoiceDesign_Prompt"""
+    def _lookup_voice_name(self, role_name: str) -> Optional[str]:
+        """根据角色名在配音表中查找配音名（用于 clone 模式的参考音频文件名匹配）"""
+        # 特殊角色：标题播报、平台片头、平台片尾 使用固定标题配音角色
+        if role_name in ("标题播报", "平台片头", "平台片尾"):
+            print(f"[TTSEngine] 角色「{role_name}」使用固定标题配音 -> 「{TITLE_VOICE_ROLE}」")
+            return TITLE_VOICE_ROLE
+
         entry = self._lookup_character_entry(role_name)
         if entry:
-            prompt = entry.get("VoiceDesign_Prompt", "")
-            if prompt:
-                return prompt
+            voice_name = entry.get("配音名", "")
+            if voice_name:
+                print(f"[TTSEngine] 角色「{role_name}」clone 配音名 -> 「{voice_name}」")
+                return voice_name
         return None
 
     def _lookup_character_entry(self, role_name: str) -> Optional[dict]:
@@ -388,37 +440,51 @@ class AudioEngine:
         # 模糊匹配
         for level in levels:
             for c in table.get(level, []):
-                name = c.get("角色名", "")
-                if role_name in name or name in role_name:
-                    print(f"[TTSEngine] 角色「{role_name}」模糊匹配 -> 「{name}」")
+                if role_name in c.get("角色名", ""):
+                    print(f"[TTSEngine] 角色「{role_name}」模糊匹配配音表「{c.get('角色名')}」(from {level})")
                     return c
         return None
 
-    def _build_fallback_voice_design_prompt(self, role_name: str) -> str:
-        """当配音表没有 VoiceDesign_Prompt 时，用年龄+性别+性格构造"""
+    def _resolve_voice_design_prompt(self, role_name: str, explicit_prompt: Optional[str] = None) -> str:
+        """统一解析 VoiceDesign Prompt，逐级回退，只查一次配音表：
+        1. 调用方显式传入的 prompt
+        2. 配音表中的 VoiceDesign_Prompt 字段
+        3. 配音表中的年龄+性别+性格构造
+        4. 角色名兜底 / 不在表中则抛异常
+        """
+        if explicit_prompt:
+            return explicit_prompt.strip()
+
+        prompt = None
         entry = self._lookup_character_entry(role_name)
-        if entry:
-            age = entry.get("年龄", "")
-            gender = entry.get("性别", "")
-            persona = entry.get("性格", "")
-            parts = []
-            if age:
-                parts.append(age)
-            if gender:
-                parts.append(f"{gender}声")
-            if persona and persona != "自动分配":
-                parts.append(persona)
-            if parts:
-                prompt = "，".join(parts) + "，语速中等，声音清晰自然"
-                print(f"[TTSEngine] 从角色属性构造 VoiceDesign Prompt: {prompt}")
-                return prompt
-            # 角色在表中但没有有效语音属性，仍然使用兜底
-            print(f"[TTSEngine] ⚠️ 角色「{role_name}」在配音表中但无有效语音属性，使用兜底 Prompt")
-            self._voice_table_missing.add(role_name)
-            return f"{role_name}角色声音"
-        # 角色完全不在配音表中 → 抛出异常，跳过该句合成，等待人工修复配音表后重试
-        print(f"[TTSEngine] ⚠️ 角色「{role_name}」不在配音表中，跳过该句合成")
-        raise RuntimeError(f"missing_from_voice_table: 角色「{role_name}」不在配音表中")
+        if entry is not None:
+            prompt = entry.get("VoiceDesign_Prompt", "")
+
+        if not prompt:
+            if entry is not None:
+                age = entry.get("年龄", "")
+                gender = entry.get("性别", "")
+                persona = entry.get("性格", "")
+                parts = []
+                if age:
+                    parts.append(age)
+                if gender:
+                    parts.append(f"{gender}声")
+                if persona and persona != "自动分配":
+                    parts.append(persona)
+                if parts:
+                    prompt = "，".join(parts) + "，语速中等，声音清晰自然"
+                    print(f"[TTSEngine] 从角色属性构造 VoiceDesign Prompt: {prompt}")
+                    return prompt
+                # 角色在表中但没有有效语音属性
+                print(f"[TTSEngine] ⚠️ 角色「{role_name}」在配音表中但无有效语音属性，使用兜底 Prompt")
+                self._voice_table_missing.add(role_name)
+                return f"{role_name}角色声音"
+            # 角色完全不在配音表中 → 抛异常，跳过该句合成
+            print(f"[TTSEngine] ⚠️ 角色「{role_name}」不在配音表中，跳过该句合成")
+            raise RuntimeError(f"missing_from_voice_table: 角色「{role_name}」不在配音表中")
+
+        return prompt
 
     def get_voice_table_missing(self) -> list:
         """返回并清空 VoiceDesign 模式下配音表缺失的角色列表"""
@@ -660,11 +726,11 @@ class AudioEngine:
         
         import torch
         
-        qwen_speaker = params.role_voice if params.role_voice else "麦克-纪录片之王,麦克阿瑟"
-        if params.role == "旁白":
-            instruct = "音量偏低，换气声轻微，适合古风仙侠长篇叙述，紧张叙述，带有感情"
-        else:
-            instruct = params.instruct.strip() if params.instruct else "neutral"
+        voice_name = self._lookup_voice_name(params.role)
+        if not voice_name:
+            raise RuntimeError(f"missing_from_voice_table: 角色「{params.role}」在配音表中未找到 clone 配音名，该句将被跳过")
+        qwen_speaker = voice_name
+        instruct = params.instruct.strip() if params.instruct else ""
         
         clone_audio_dir = self.clone_audio_dir
         
@@ -700,6 +766,10 @@ class AudioEngine:
                         prompt_dict = pickle.load(cache_file)
                     self._voice_clone_prompt_cache[cache_key] = prompt_dict
                     print(f"[TTSEngine] 从磁盘加载voice_clone_prompt缓存: {ref_audio_path}")
+                    # LRU 淘汰
+                    while len(self._voice_clone_prompt_cache) > self._voice_clone_prompt_cache_max_size:
+                        oldest_key = next(iter(self._voice_clone_prompt_cache))
+                        del self._voice_clone_prompt_cache[oldest_key]
                     return prompt_dict
                 except Exception as e:
                     print(f"[TTSEngine] 读取voice_clone_prompt缓存失败，将重新生成: {e}")
@@ -710,6 +780,10 @@ class AudioEngine:
                 x_vector_only_mode=x_vector_only_mode,
             )
             prompt_dict = self.qwen_tts_model._prompt_items_to_voice_clone_prompt(prompt_items)
+            # LRU 淘汰：缓存超出上限时移除最早条目，防止内存膨胀
+            while len(self._voice_clone_prompt_cache) >= self._voice_clone_prompt_cache_max_size:
+                oldest_key = next(iter(self._voice_clone_prompt_cache))
+                del self._voice_clone_prompt_cache[oldest_key]
             self._voice_clone_prompt_cache[cache_key] = prompt_dict
 
             try:
@@ -748,7 +822,7 @@ class AudioEngine:
                             text=processed_text,
                             language="chinese",
                             voice_clone_prompt=cached_prompt,
-                            style=params.instruct if params.instruct else "neutral",
+                            style=params.instruct if params.instruct else "",
                             temperature=0.3,
                             top_p=0.85,
                             top_k=20,
@@ -762,7 +836,7 @@ class AudioEngine:
                             ref_audio=ref_audio,
                             ref_text="",
                             x_vector_only_mode=x_vector_only_mode,
-                            style=params.instruct if params.instruct else "neutral",
+                            style=params.instruct if params.instruct else "",
                             temperature=0.3,
                             top_p=0.85,
                             top_k=20,
@@ -806,15 +880,24 @@ class AudioEngine:
             all_wavs = []
             sample_rate = None
 
-            # ── 起始稳定化前缀：用 "话说，" 引导每段模型冷启动 ──
-            STABILITY_PREFIX = "话说，"
+            # ── 起始稳定化：每段拼前缀后按前缀实际长度动态裁剪 ──
+            max_tokens = 2048
+
+            # 先生成一次前缀，测量真实音频长度
             prefix_sample_count = 0
-            # 只要文本不以前缀开头，就生成一次前缀来测量音频长度（复用）
-            if text_segments and not text_segments[0].startswith(STABILITY_PREFIX):
+            prefix_sr = None
+            stability_prefix = self.stability_prefix
+            need_prefix = (
+                stability_prefix
+                and text_segments
+                and any(len(seg) > 5 for seg in text_segments)
+                and not text_segments[0].startswith(stability_prefix)
+            )
+            if need_prefix:
                 try:
-                    print(f"[TTSEngine] 生成起始稳定化前缀: '{STABILITY_PREFIX}'")
-                    prefix_wavs, prefix_sr = _generate_voice_chunk(STABILITY_PREFIX, ref_audio, x_vector_only_mode)
-                    prefix_audio = np.concatenate(prefix_wavs) if isinstance(prefix_wavs, list) else prefix_wavs
+                    print(f"[TTSEngine] 生成起始稳定化前缀: '{stability_prefix}'")
+                    _prefix_wavs, prefix_sr = _generate_voice_chunk(stability_prefix, ref_audio, x_vector_only_mode)
+                    prefix_audio = np.concatenate(_prefix_wavs) if isinstance(_prefix_wavs, list) else _prefix_wavs
                     prefix_sample_count = len(prefix_audio)
                     print(f"[TTSEngine] 前缀音频长度: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
                 except Exception as e:
@@ -834,23 +917,30 @@ class AudioEngine:
                 chunk_audio = None
                 sr = None
 
+                # 确定实际合成的文本（是否添加前缀）
+                if len(text_segment) <= 5:
+                    actual_text = text_segment
+                elif stability_prefix:
+                    actual_text = stability_prefix + text_segment
+                else:
+                    actual_text = text_segment
+
                 for attempt in range(1, MAX_CLONE_RETRIES + 1):
                     if attempt > 1:
                         print(f"[TTSEngine]   ⚠️ 分段 {index} 质检异常，重试 {attempt}/{MAX_CLONE_RETRIES}...")
 
-                    if safe_trim > 0:
-                        segment_with_prefix = STABILITY_PREFIX + text_segment
-                        if len(text_segments) > 1 and attempt == 1:
-                            print(f"[TTSEngine] 分段 {index}/{len(text_segments)} 添加前导词 ({len(text_segment)}字): '{segment_with_prefix[:24]}...'")
-                        wavs, sr = _generate_voice_chunk(segment_with_prefix, ref_audio, x_vector_only_mode)
-                        chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                    if len(text_segments) > 1 and attempt == 1:
+                        display_text = text_segment[:24] if not stability_prefix else actual_text[len(stability_prefix):24+len(stability_prefix)]
+                        print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {display_text}...")
+                    wavs, sr = _generate_voice_chunk(actual_text, ref_audio, x_vector_only_mode)
+                    chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+
+                    # ── 裁剪前缀（如果启用了稳定化前缀）──
+                    if stability_prefix and safe_trim > 0 and len(text_segment) > 5:
                         if len(chunk_audio) > safe_trim:
                             chunk_audio = chunk_audio[safe_trim:]
-                    else:
-                        if len(text_segments) > 1 and attempt == 1:
-                            print(f"[TTSEngine] 分段生成 {index}/{len(text_segments)} ({len(text_segment)}字): {text_segment[:24]}...")
-                        wavs, sr = _generate_voice_chunk(text_segment, ref_audio, x_vector_only_mode)
-                        chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
+                        else:
+                            print(f"[TTSEngine]   ⚠️ 分段 {index} 音频长度({len(chunk_audio)})小于裁剪量({safe_trim})，跳过裁剪")
 
                     # ── 逐段质检 ──
                     is_good, reason = self._check_segment_quality(chunk_audio, sr, text_segment)
@@ -888,9 +978,11 @@ class AudioEngine:
                     print(f"[TTSEngine]   分段 {index}/{len(text_segments)} 完成 | {len(text_segment)}字 → {seg_dur:.1f}s | 本段 {seg_elapsed:.1f}s | 累计 {t_cumulative:.1f}s")
 
             if len(all_wavs) == 1:
-                return all_wavs[0], sample_rate
+                result = all_wavs[0]
+                return result, sample_rate
 
             merged_audio = np.concatenate(all_wavs)
+            del all_wavs  # 释放分段音频数据，降低峰值内存
             return merged_audio, sample_rate
         
         wavs, sr = None, None
@@ -902,7 +994,8 @@ class AudioEngine:
             if not ref_audio_path:
                 raise FileNotFoundError(
                     f"找不到克隆音频文件: clone-audio/ 下未找到 '{qwen_speaker}.mp3' 或 '{qwen_speaker}.wav'。"
-                    f"请检查 role_voice='{params.role_voice}' 是否与 clone-audio/ 中的音频文件名完全一致。"
+                    f"已从配音表查找角色「{params.role}」的配音名「{qwen_speaker}」，"
+                    f"请确认 clone-audio/ 目录中是否存在对应的音频文件。"
                 )
 
             wavs, sr = _generate_voice(ref_audio_path)
@@ -947,20 +1040,15 @@ class AudioEngine:
 
         t_line_start = time.time()
 
-        # 1. 获取 VoiceDesign Prompt：优先用 params 传入的，否则从配音表查找
-        vd_prompt = params.voice_design_prompt.strip() if params.voice_design_prompt else None
-        if not vd_prompt:
-            vd_prompt = self._lookup_voice_design_prompt(params.role)
-        if not vd_prompt:
-            # 回退：用配音表中的年龄、性别、性格构造提示词
-            vd_prompt = self._build_fallback_voice_design_prompt(params.role)
+        # 1. 获取 VoiceDesign Prompt（统一逐级回退，只查一次配音表）
+        vd_prompt = self._resolve_voice_design_prompt(
+            params.role,
+            params.voice_design_prompt.strip() if params.voice_design_prompt else None,
+        )
 
-        # 2. 拼接剧本语气 instruct（旁白跳过，配音表 Prompt 已足够描述音色）
+        # 2. 拼接剧本语气 instruct
         instruct = params.instruct.strip() if params.instruct else ""
-        if instruct and params.role != "旁白":
-            full_instruct = f"{vd_prompt}，{instruct}"
-        else:
-            full_instruct = vd_prompt
+        full_instruct = f"{vd_prompt}，{instruct}"
 
         print(f"[TTSEngine] VoiceDesign Prompt: {full_instruct}")
 
@@ -968,24 +1056,29 @@ class AudioEngine:
         VD_TEMPERATURE = 0.6       # 语音节奏随机性 (0.1~1.5, 低=机械平直/高=飘忽不定)
         VD_SUBTALKER_TEMP = 0.5    # 音色/说话人一致性 (0.1~1.5, 低=同角色音色稳定)
         VD_TOP_P = 0.95            # 核采样截断 (0.5~1.0, 低=保守单调/高=多样但偶发杂音)
-        VD_MAX_CHUNK = 280         # 长句分段阈值 字 (200~380, 低=多分段快/高=少分段慢)
+        VD_MAX_CHUNK = 350         # 长句分段阈值
+
+        # ── 音色一致性种子：同角色+同 instruct → 相同种子 → 音色稳定 ──
+        _role_seed_key = f"{params.role}:{full_instruct}"
+        VD_BASE_SEED = int(hashlib.md5(_role_seed_key.encode()).hexdigest()[:8], 16) % (2**31)
 
         # 3. 文本切分
         cleaned_text = process_polyphone_text(params.text)
         cleaned_text = cleaned_text.replace('\u201c', '').replace('\u201d', '').replace('\u2018', '').replace('\u2019', '')
         text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=VD_MAX_CHUNK)
 
-        # ── 起始稳定化：每段拼"话说，"后按前缀实际长度动态裁剪 ──
-        STABILITY_PREFIX = "话说，"
+        # ── 起始稳定化：每段拼前缀后按前缀实际长度动态裁剪 ──
         max_tokens = 1000
 
         # 先生成一次前缀，测量真实音频长度（按 full_instruct 缓存，同角色/语气只生成一次）
         prefix_sample_count = 0
         prefix_sr = None
+        stability_prefix = self.stability_prefix
         need_prefix = (
-            text_segments
-            and any(len(seg) >= 15 for seg in text_segments)
-            and not text_segments[0].startswith(STABILITY_PREFIX)
+            stability_prefix
+            and text_segments
+            and any(len(seg) > 5 for seg in text_segments)
+            and not text_segments[0].startswith(stability_prefix)
         )
         if need_prefix:
             cached_prefix = self._vd_prefix_cache.get(full_instruct)
@@ -994,9 +1087,10 @@ class AudioEngine:
                 print(f"[TTSEngine] 复用前缀长度缓存: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
             else:
                 try:
-                    print(f"[TTSEngine] 生成起始稳定化前缀: '{STABILITY_PREFIX}'")
+                    print(f"[TTSEngine] 生成起始稳定化前缀: '{stability_prefix}'")
+                    torch.manual_seed(VD_BASE_SEED)
                     _prefix_wavs, prefix_sr = self.qwen_tts_model.generate_voice_design(
-                        text=STABILITY_PREFIX, language="Chinese",
+                        text=stability_prefix, language="Chinese",
                         instruct=full_instruct,
                         max_new_tokens=max_tokens,
                         subtalker_dosample=False, subtalker_temperature=VD_SUBTALKER_TEMP,
@@ -1005,6 +1099,10 @@ class AudioEngine:
                     prefix_audio = np.concatenate(_prefix_wavs) if isinstance(_prefix_wavs, list) else _prefix_wavs
                     prefix_sample_count = len(prefix_audio)
                     self._vd_prefix_cache[full_instruct] = (prefix_sample_count, prefix_sr)
+                    # LRU 淘汰：上限 64 条
+                    while len(self._vd_prefix_cache) > 64:
+                        oldest = next(iter(self._vd_prefix_cache))
+                        del self._vd_prefix_cache[oldest]
                     print(f"[TTSEngine] 前缀音频长度: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
                 except Exception as e:
                     print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
@@ -1024,10 +1122,12 @@ class AudioEngine:
         for idx, seg in enumerate(text_segments, 1):
             t_seg_start = time.time()
 
-            if len(seg) < 15:
+            if len(seg) <= 5:
                 actual_text = seg
+            elif stability_prefix:
+                actual_text = stability_prefix + seg
             else:
-                actual_text = STABILITY_PREFIX + seg
+                actual_text = seg
 
             chunk = None
             sr = None
@@ -1046,6 +1146,9 @@ class AudioEngine:
 
                 def _gen_one():
                     try:
+                        # 固定种子：同角色+同 instruct → 同音色；分段/重试微调避免完全相同
+                        _seg_seed = VD_BASE_SEED + idx * 100 + attempt
+                        torch.manual_seed(_seg_seed)
                         seg_max_tokens = min(2048, max(512, len(actual_text) * 8))
                         res = self.qwen_tts_model.generate_voice_design(
                             text=actual_text, language="Chinese",
@@ -1076,14 +1179,31 @@ class AudioEngine:
 
                 wavs_list, sr = result_holder["result"]
                 chunk = np.concatenate(wavs_list) if isinstance(wavs_list, list) else wavs_list
-                if len(seg) >= 15 and safe_trim > 0 and len(chunk) > safe_trim:
-                    chunk = chunk[safe_trim:]
+                # 立即释放 model 返回的原始数组引用，避免与 chunk 同时驻留内存
+                del wavs_list
+                result_holder.clear()
+                del result_holder
+                del exception_holder
+                if len(seg) > 5 and safe_trim > 0 and len(chunk) > safe_trim:
+                    # 短句（≤15 字）使用更保守的裁剪比例，避免削到正文
+                    _trim_ratio = 0.5 if len(seg) <= 15 else 1.0
+                    _trim = int(safe_trim * _trim_ratio)
+                    if len(chunk) > _trim:
+                        chunk = chunk[_trim:]
 
                 # ── 逐段质检：静音/时长异常/连续静音检测 ──
                 is_good, reason = self._check_segment_quality(chunk, sr, seg)
 
                 if is_good:
                     print(f"[TTSEngine]   ✅ 分段 {idx} 质检通过")
+                    # 成功生成后清理 MPS/CUDA 缓存，释放 GPU 内存
+                    try:
+                        if hasattr(torch, 'mps') and torch.mps.is_available():
+                            torch.mps.empty_cache()
+                        elif torch.cuda.is_available():
+                            torch.cuda.empty_cache()
+                    except Exception:
+                        pass
                     break  # 合格，跳出重试循环
 
                 if attempt == MAX_RETRIES:
@@ -1106,8 +1226,15 @@ class AudioEngine:
                         print(f"[TTSEngine]   💾 异常音频已保存: {fatal_path}")
                     except Exception as save_err:
                         print(f"[TTSEngine]   ⚠️ 保存异常音频失败: {save_err}")
-                elif hasattr(torch, 'mps') and hasattr(torch.mps, 'empty_cache'):
-                    torch.mps.empty_cache()
+                
+                # 每次重试后清理 MPS/CUDA 缓存，避免 GPU 内存累积
+                try:
+                    if hasattr(torch, 'mps') and torch.mps.is_available():
+                        torch.mps.empty_cache()
+                    elif torch.cuda.is_available():
+                        torch.cuda.empty_cache()
+                except Exception:
+                    pass
 
             all_wavs.append(chunk)
             sample_rate = sr
@@ -1123,6 +1250,7 @@ class AudioEngine:
 
         # ── 合并所有分段 ──
         merged = np.concatenate(all_wavs) if len(all_wavs) > 1 else all_wavs[0]
+        del all_wavs  # 释放分段音频数据，降低峰值内存
         merged = np.clip(merged, -1, 1)
         max_val = np.max(np.abs(merged))
         if max_val > 0:
@@ -1175,7 +1303,9 @@ class AudioEngine:
                 return matches[0]
             return None
         
-        voice_name = params.role_voice if params.role_voice else "麦克-纪录片之王,麦克阿瑟"
+        voice_name = self._lookup_voice_name(params.role)
+        if not voice_name:
+            raise RuntimeError(f"missing_from_voice_table: 角色「{params.role}」在配音表中未找到 clone 配音名，该句将被跳过")
         ref_audio_path = _find_audio_file(voice_name)
         if not ref_audio_path:
             print(f"[TTSEngine][Fish] ⚠️ 未找到参考音频 '{voice_name}'，使用零样本生成")
@@ -1374,6 +1504,7 @@ class AudioEngine:
                 if keyword_map:
                     keyword_map = self._locate_keywords_by_transcription(voice_path, keyword_map)
             
+            print(f"[MixEngine] 开始混入 {len(effects)} 个音效...")
             for i, effect in enumerate(effects):
                 process_mode = "overlay"
                 delay_ms = 0
@@ -1386,22 +1517,29 @@ class AudioEngine:
                         actual_time_s = keyword_map[keyword]
                         offset_s = getattr(ep, "trigger_offset", 0.0)
                         delay_ms = max(0, int((actual_time_s + offset_s) * 1000))
+                        print(f"  🎯 音效{i+1}: 关键字'{keyword}'定位 {delay_ms}ms")
                     elif keyword and voice_text:
                         # 兜底：文本估算 delay
                         offset = getattr(ep, "trigger_offset", 0.0)
                         delay_ms = self._estimate_delay_by_keyword(voice_text, keyword, offset)
+                        print(f"  📍 音效{i+1}: 文本估算定位 {delay_ms}ms (关键字'{keyword}')")
                     else:
                         delay_ms = max(0, int(ep.trigger_delay * 1000))
+                        print(f"  ⏱️ 音效{i+1}: 固定延迟 {delay_ms}ms")
 
                 if process_mode == "insert":
                     insert_position = min(delay_ms, len(final_audio))
                     prefix_audio = final_audio[:insert_position]
                     suffix_audio = final_audio[insert_position:]
                     final_audio = prefix_audio + effect + suffix_audio
+                    print(f"    ✂️ 使用insert模式插入")
                 elif delay_ms > 0:
                     final_audio = final_audio.overlay(effect, position=delay_ms)
+                    print(f"    🔊 叠加到 {delay_ms}ms 位置")
                 else:
                     final_audio = final_audio.overlay(effect)
+                    print(f"    🔊 叠加到开头")
+            print(f"[MixEngine] ✅ 音效混入完成")
         
         elif mix_config.mode == "voice_only":
             final_audio = voice
@@ -1789,14 +1927,16 @@ class AudioGenerator:
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
                  persist_intermediate_audio: bool = False,
-                 platform: str = "default", tts_mode: str = "voice_design"):
+                 platform: str = "default", tts_mode: str = "voice_design",
+                 stability_prefix: str = ""):
         if output_dir is None:
             base_dir = os.path.dirname(os.path.abspath(__file__))
             output_dir = os.path.join(base_dir, "../../output")
-        
+
         self.json_path = json_path
         self.tts_engine = tts_engine
         self.tts_mode = tts_mode  # "clone" | "voice_design"
+        self.stability_prefix = stability_prefix
         self.qwen_model_path = qwen_model_path
         self.sfx_engine = sfx_engine
         self.bgm_engine = bgm_engine
@@ -1846,6 +1986,7 @@ class AudioGenerator:
             qwen_model_path=self.qwen_model_path,
             target_voice_dbfs=self.platform_profile.target_voice_dbfs,
             tts_mode=self.tts_mode,
+            stability_prefix=self.stability_prefix,
         )
         self.total_lines = len(self.config.get("data", []))
 
@@ -1881,7 +2022,7 @@ class AudioGenerator:
             ),
             "role_voice": self._sanitize_metadata_value(
                 intro_config.get("role_voice") or self.roles_definition.get("旁白", {}).get("role_voice"),
-                "麦克-纪录片之王,麦克阿瑟",
+                "旁白",
             ),
             "chapter_label": self._sanitize_metadata_value(
                 intro_config.get("chapter_label") or metadata.get("chapter_label") or chapter_label,
@@ -1902,8 +2043,8 @@ class AudioGenerator:
         if os.path.exists(asset_path):
             return asset_path
 
-        platform_metadata = self._extract_platform_metadata()
-        platform_role_voice = platform_metadata.get("role_voice", "麦克-纪录片之王,麦克阿瑟")
+        # 使用全局固定的标题播报角色（片头片尾统一使用 TITLE_VOICE_ROLE）
+        platform_role_voice = TITLE_VOICE_ROLE
 
         if asset_type == "片头":
             voice_params = VoiceParams(
@@ -2262,22 +2403,22 @@ class AudioGenerator:
                 self.platform_profile.sample_rate
             ).set_channels(self.platform_profile.channels)
 
-        narrator_role = self.roles_definition.get("旁白", {})
-        narrator_voice = narrator_role.get("role_voice", "云健-低沉")
-        narrator_speed = narrator_role.get("speed", "-10%")
-        narrator_volume = narrator_role.get("volume", "0%")
-        narrator_pitch = narrator_role.get("pitch", "0Hz")
+        # 使用全局固定的标题播报角色
+        title_voice = TITLE_VOICE_ROLE
+        title_speed = "-10%"
+        title_volume = "0%"
+        title_pitch = "0Hz"
 
         try:
             voice_params = VoiceParams(
                 text=chapter_label,
-                role="旁白",
-                role_voice=narrator_voice,
-                speed=narrator_speed,
-                volume=narrator_volume,
-                pitch=narrator_pitch,
+                role="标题播报",
+                role_voice=title_voice,
+                speed=title_speed,
+                volume=title_volume,
+                pitch=title_pitch,
                 instruct="",
-                tts_mode="clone",  # chunk 标题旁白固定 clone 保证一致
+                tts_mode="clone",  # chunk 标题固定 clone 保证一致
             )
             title_audio = self.audio_engine.text_to_speech(voice_params)
             title_audio = title_audio.set_frame_rate(
@@ -2657,13 +2798,14 @@ class AudioGenerator:
         if voice_params_dict and 'text' not in voice_params_dict:
             voice_params_dict['text'] = line.get('text', '')
 
-        # 注入 tts_mode：line_0 标题旁白强制 clone，其余角色/旁白主线跟全局设置
-        role_name = line.get('role', '')
-        line_id = line.get('id', -1)
-        if role_name == '旁白':
-            voice_params_dict['tts_mode'] = 'clone'
-        elif 'tts_mode' not in voice_params_dict:
-            voice_params_dict['tts_mode'] = self.tts_mode
+        # 注入 tts_mode：旁白强制 clone（使用 voice_design 生成的参考音频），其他角色走 voice_design
+        #role_name = line.get('role', '')
+        #line_id = line.get('id', -1)
+        #if role_name == '旁白':
+        #    voice_params_dict['tts_mode'] = 'clone'
+        #elif 'tts_mode' not in voice_params_dict:
+        #    voice_params_dict['tts_mode'] = self.tts_mode
+        voice_params_dict['tts_mode'] = self.tts_mode
 
         voice_params = VoiceParams(**voice_params_dict)
         
@@ -2802,18 +2944,24 @@ class AudioGenerator:
                     "output_path": bgm_output_path
                 })
         
+        # 音效处理
+        effect_count = len(line_config.effect_params)
+        if effect_count > 0:
+            print(f"  🎵 本句配置了 {effect_count} 个音效")
+        
         for i, effect_param in enumerate(line_config.effect_params):
             effect_name = effect_param.name.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
             effect_output_path = os.path.join(self.effect_dir, f"effect_line_{effect_name}_{line_config.id}.wav")
             effect_output_paths.append(effect_output_path)
-            #屏蔽音效
             if not os.path.exists(effect_output_path):
-                # 直接使用AI生成音效
+                print(f"    ➕ 音效{i+1}/{effect_count}: {effect_name} ({effect_param.duration}s) - 待生成")
                 sfx_tasks.append({
                     "prompt": effect_param.sound_en,
                     "duration": effect_param.duration,
                     "output_path": effect_output_path
                 })
+            else:
+                print(f"    ✅ 音效{i+1}/{effect_count}: {effect_name} - 已存在，使用缓存")
         
         if bgm_tasks:
             print(f"🔄 开始批量生成 {len(bgm_tasks)} 个背景音 (引擎: {self.bgm_engine}, max_workers=2)...")
@@ -2821,7 +2969,9 @@ class AudioGenerator:
 
         if sfx_tasks:
             print(f"🔄 开始批量生成 {len(sfx_tasks)} 个音效 (引擎: {self.sfx_engine})...")
-            self._generate_sfx_batch(sfx_tasks)
+            generated_sfx = self._generate_sfx_batch(sfx_tasks)
+            success_count = sum(1 for p in generated_sfx if p is not None)
+            print(f"✅ 音效生成完成: {success_count}/{len(sfx_tasks)} 个成功")
         
         if bgm_output_path and os.path.exists(bgm_output_path):
             bgm_audio = AudioSegment.from_wav(bgm_output_path)
@@ -2835,6 +2985,7 @@ class AudioGenerator:
             if line_config.bgm_params.play_mode == "lower" and line_config.bgm_params.lower_db:
                 bgm_audio = bgm_audio - min(line_config.bgm_params.lower_db, 6)
         
+        loaded_effects = 0
         for i, effect_output_path in enumerate(effect_output_paths):
             if os.path.exists(effect_output_path):
                 effect_audio = AudioSegment.from_wav(effect_output_path)
@@ -2849,6 +3000,12 @@ class AudioGenerator:
                 if effect_audio.dBFS < -22:
                     effect_audio = effect_audio + 4
                 effect_audios.append(effect_audio)
+                loaded_effects += 1
+            else:
+                print(f"    ⚠️ 音效文件不存在: {os.path.basename(effect_output_path)}")
+        
+        if effect_count > 0:
+            print(f"  🎵 音效加载: {loaded_effects}/{effect_count} 个成功，即将混入音频")
         
         mixed_audio = self.audio_engine.mix_audio(
             voice=voice_audio,
@@ -2907,8 +3064,57 @@ class AudioGenerator:
             return self.generate_chapter_audio_serial(resume_ids=existing_tmp)
         return self.generate_chapter_audio_parallel(resume_ids=existing_tmp)
 
+    def _periodic_memory_cleanup(self):
+        """定期内存清理：每N句合成后执行，防止MPS/CUDA缓存累积导致内存暴涨"""
+        try:
+            # 记录清理前内存状态
+            mem_before = psutil.virtual_memory()
+            available_before = mem_before.available / 1024 / 1024  # MB
+            percent_before = mem_before.percent
+            
+            # 强制垃圾回收
+            gc.collect()
+            
+            # 清理 PyTorch MPS/CUDA 缓存
+            try:
+                import torch
+                if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                    torch.mps.empty_cache()
+                elif torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+            except Exception:
+                pass
+            
+            # 清理 AudioEngine 的 prompt 缓存（保留最近10条而不是32条）
+            if hasattr(self, 'audio_engine') and self.audio_engine:
+                cache = self.audio_engine._voice_clone_prompt_cache
+                max_keep = 10
+                while len(cache) > max_keep:
+                    oldest_key = next(iter(cache))
+                    del cache[oldest_key]
+                
+                vd_cache = self.audio_engine._vd_prefix_cache
+                while len(vd_cache) > max_keep:
+                    oldest_key = next(iter(vd_cache))
+                    del vd_cache[oldest_key]
+            
+            # macOS: 强制归还已释放内存给系统
+            _release_malloc_memory()
+            
+            # 记录清理后内存状态
+            mem_after = psutil.virtual_memory()
+            available_after = mem_after.available / 1024 / 1024  # MB
+            percent_after = mem_after.percent
+            
+            # 输出内存监控日志
+            freed_mb = available_after - available_before
+            print(f"\n  🧹 [内存清理] 可用: {available_before:.0f}MB → {available_after:.0f}MB (释放{freed_mb:+.0f}MB) | 使用率: {percent_before}% → {percent_after}%")
+            
+        except Exception as e:
+            print(f"  ⚠️ 定期内存清理时出错: {e}")
+
     def _cleanup_chapter_intermediate_dirs(self):
-        """清理整章的中间产物目录（配音、背景音、音效、混音），节省磁盘存储"""
+        """清理整章的中间产物目录（配音、背景音、音效、混音），节省磁盘存储 """
         import shutil
         intermediate_dirs = [
             self.mix_dir,
@@ -2998,17 +3204,24 @@ class AudioGenerator:
                 role_order.append(role)
             role_groups[role].append(lc)
 
+        processed_since_cleanup = 0
+        CLEANUP_EVERY_N_LINES = 5  # 每5句清理一次内存
+
         for role in role_order:
             group = role_groups[role]
-            tts_label = "🔊 clone" if role == "旁白" else "🎤 voice_design"
+            tts_label = f"🎤 {self.tts_mode}"
             print(f"\n  [{role}] {tts_label} → 连续合成 {len(group)} 句")
 
             for line_config in group:
                 # 已有配音文件 → 直接复用，但仍需加入时间轴和 tmp_files
                 if line_config.id in existing_voice_ids:
                     voice_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
-                    try:
-                        cached = AudioSegment.from_wav(voice_path)
+                try:
+                    # 检查混音文件是否也存在
+                    mixed_path = os.path.join(self.mix_dir, f"mixed_line_{line_config.id}.wav")
+                    if os.path.exists(mixed_path):
+                        # 混音文件存在，直接复用
+                        cached = AudioSegment.from_wav(mixed_path)
                         dur_ms = len(cached)
                         line_ranges[line_config.id] = (current_ms, current_ms + dur_ms)
                         current_ms += dur_ms
@@ -3016,17 +3229,21 @@ class AudioGenerator:
                         cached.export(tmp_file, format="wav")
                         tmp_files.append((line_config.id, tmp_file))
                         del cached
+                        self.completed_count += 1
+                        print(f"  ✅ 命中混音缓存 #{line_config.id}，直接复用")
                         if line_config.id == 0:
                             silent_audio = AudioSegment.silent(duration=600, frame_rate=44100)
                             silent_file = os.path.join(stream_tmp_dir, "silent_0.wav")
                             silent_audio.export(silent_file, format="wav")
                             tmp_files.append((-1, silent_file))
                             current_ms += 600
-                    except Exception as e:
-                        print(f"  ⚠️ 缓存配音读取失败 #{line_config.id}: {e}，将重新合成")
-                        existing_voice_ids.discard(line_config.id)
-                    else:
                         continue
+                    else:
+                        # 只有配音文件，需要重新混音
+                        print(f"  🟢 命中配音缓存 #{line_config.id}，重新混音")
+                except Exception as e:
+                    print(f"  ⚠️ 缓存配音读取失败 #{line_config.id}: {e}，将重新合成")
+                    existing_voice_ids.discard(line_config.id)
                 try:
                     print(f"  📊 正在合成第{line_config.id + 1}句，已完成{self.completed_count}句，共{self.total_lines}句")
                     line_audio = self.generate_single_line(line_config)
@@ -3049,6 +3266,12 @@ class AudioGenerator:
                         current_ms += 600
                     
                     del line_audio
+                    
+                    # 定期清理内存，防止累积
+                    processed_since_cleanup += 1
+                    if processed_since_cleanup >= CLEANUP_EVERY_N_LINES:
+                        self._periodic_memory_cleanup()
+                        processed_since_cleanup = 0
                     
                 except Exception as e:
                     print(f"  ❌ 第 {line_config.id} 句异常: {e}")
@@ -3324,7 +3547,8 @@ class NovelAudioSynthesizer:
                  tts_engine: str = "qwen3-tts", qwen_model_path: str = None,
                  sfx_engine: str = "woosh", bgm_engine: str = "stable-audio-3",
                  persist_intermediate_audio: bool = False,
-                 platform: str = "default", tts_mode: str = "voice_design"):
+                 platform: str = "default", tts_mode: str = "voice_design",
+                 stability_prefix: str = ""):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
 
         self.script_dir = script_dir or os.path.join(self.base_dir, "../novel_scripts")
@@ -3344,6 +3568,8 @@ class NovelAudioSynthesizer:
         self.bgm_engine = bgm_engine
         self.persist_intermediate_audio = persist_intermediate_audio
         self.platform = platform
+        self.tts_mode = tts_mode
+        self.stability_prefix = stability_prefix
         
         os.makedirs(self.output_dir, exist_ok=True)
         
@@ -3422,10 +3648,49 @@ class NovelAudioSynthesizer:
                 persist_intermediate_audio=self.persist_intermediate_audio,
                 platform=self.platform,
                 tts_mode=self.tts_mode,
+                stability_prefix=self.stability_prefix,
             )
             
-            return generator.generate_chapter_audio()
+            result = generator.generate_chapter_audio()
+            
+            # 显式释放 TTS 模型等资源，防止跨章节内存泄漏
+            try:
+                generator.audio_engine.release()
+            except Exception as e:
+                print(f"⚠️ 释放资源时出错（不影响已生成的音频）: {e}")
+            del generator
+            gc.collect()
+            try:
+                import torch
+                if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                    torch.mps.empty_cache()
+                elif torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+            except Exception:
+                pass
+            gc.collect()
+            _release_malloc_memory()
+            
+            return result
         except Exception as e:
+            # 异常时也需释放可能已加载的 TTS 模型资源
+            try:
+                if 'generator' in locals() and hasattr(generator, 'audio_engine'):
+                    generator.audio_engine.release()
+                del generator
+            except Exception:
+                pass
+            gc.collect()
+            try:
+                import torch
+                if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                    torch.mps.empty_cache()
+                elif torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+            except Exception:
+                pass
+            _release_malloc_memory()
+            
             error_msg = f"❌ 生成音频时发生错误，跳过本章: {json_file}\n   错误: {e}"
             print(error_msg)
             import traceback
@@ -3597,11 +3862,15 @@ class NovelAudioSynthesizer:
                     continue
                 output_paths.append(output_path)
                 
+                # 每章结束后主动执行 GC，释放 MPS/CUDA 显存
                 available_percent = self._check_memory_usage()
                 print(f"\n📊 当前可用内存: {available_percent:.1f}%")
                 
-                if available_percent < 10.0:
+                if available_percent < 25.0:
                     self._garbage_collect()
+                    # 重新读取可用内存百分比，展示回收效果
+                    available_after = self._check_memory_usage()
+                    print(f"📊 GC 后可用内存: {available_after:.1f}%")
         
         return output_paths
 
@@ -3661,13 +3930,15 @@ if __name__ == "__main__":
                         help="保留单句配音/混音等中间音频文件，默认尽量减少落盘")
     parser.add_argument("--platform", type=str, default="ximalaya",
                         help="输出平台配置，如 default | ximalaya")
-    parser.add_argument("--sort-mode", type=str, default="pinyin",
-                        help="排序模式: pinyin(拼音排序，默认) | chapter(章节号排序) | name(文件名排序)")
+    parser.add_argument("--sort-mode", type=str, default="chapter",
+                        help="排序模式: chapter(章节号排序，默认) | pinyin(拼音排序) | name(文件名排序)")
     parser.add_argument("--tts-mode", type=str, default="voice_design",
                         help="TTS 合成模式: voice_design(文字描述造音色，默认) | clone(克隆音频)")
-    
+    parser.add_argument("--stability-prefix", type=str, default="",
+                        help="TTS 合成时添加起始稳定化前缀(如'话说，')，默认空字符串表示不添加")
+
     args = parser.parse_args()
-    
+
     synthesizer = NovelAudioSynthesizer(
         script_dir=args.script_dir,
         output_dir=args.output_dir,
@@ -3678,6 +3949,7 @@ if __name__ == "__main__":
         persist_intermediate_audio=args.persist_intermediate_audio,
         platform=args.platform,
         tts_mode=args.tts_mode,
+        stability_prefix=args.stability_prefix,
     )
     
     if args.json_path:
