@@ -8,6 +8,11 @@ import torchaudio
 import soundfile as sf
 from voxcpm import VoxCPM
 
+# ── 所有 HF 模型统一使用项目 models/ 目录 ──
+_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+os.environ['HF_HOME'] = os.path.join(_PROJECT_ROOT, "models")
+os.environ['HUGGINGFACE_HUB_CACHE'] = os.path.join(_PROJECT_ROOT, "models", "hub")
+
 
 ROLE_TESTS = [
     {
@@ -208,7 +213,7 @@ def test_voxcpm2_clone_demo(
         vox = VoxCPM.from_pretrained(
             hf_model_id="OpenBMB/VoxCPM2",
             load_denoiser=False,
-            cache_dir="/Users/zhuxingchong/.cache/huggingface/hub",
+            cache_dir=os.environ['HUGGINGFACE_HUB_CACHE'],
             optimize=not skip_warmup,
         )
         init_time = time.time() - start_time

@@ -6,6 +6,7 @@
 
 # 获取脚本所在目录的绝对路径
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
 # 配置项（使用绝对路径）
 SCRIPT_BASE_DIR="$SCRIPT_DIR/../novel_scripts"
@@ -278,6 +279,9 @@ main() {
   # 设置环境变量使用HuggingFace本地缓存，避免网络请求
   export HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION=1
   export HF_HUB_OFFLINE=1
+  # 所有 HF 模型统一使用项目 models/ 目录
+  export HF_HOME="$PROJECT_ROOT/models"
+  export HUGGINGFACE_HUB_CACHE="$PROJECT_ROOT/models/hub"
   
   python3 "$SCRIPT_DIR/novel_batch_executor.py" \
     --script-dir "$script_dir" \

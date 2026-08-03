@@ -10,6 +10,12 @@ import sys
 # HuggingFace 环境变量（须在导入 audio_processing_module 前设置）
 os.environ['HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION'] = '1'
 os.environ['HF_HUB_OFFLINE'] = '1'
+# ── 所有 HF 模型统一使用项目 models/ 目录 ──
+_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+if 'HF_HOME' not in os.environ:
+    os.environ['HF_HOME'] = os.path.join(_PROJECT_ROOT, "models")
+if 'HUGGINGFACE_HUB_CACHE' not in os.environ:
+    os.environ['HUGGINGFACE_HUB_CACHE'] = os.path.join(_PROJECT_ROOT, "models", "hub")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 

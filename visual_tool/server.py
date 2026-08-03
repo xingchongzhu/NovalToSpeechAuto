@@ -392,6 +392,9 @@ def _regen_chapter(info: dict, tid: str):
     env = os.environ.copy()
     env['HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION'] = '1'
     env['HF_HUB_OFFLINE'] = '1'
+    # ── 所有 HF 模型统一使用项目 models/ 目录 ──
+    env['HF_HOME'] = str(BASE_DIR / "models")
+    env['HUGGINGFACE_HUB_CACHE'] = str(BASE_DIR / "models" / "hub")
     q.put({"type": "log", "data": f"重新合成整章: {json_path.name}"})
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                             text=True, bufsize=1, cwd=str(SCRIPT_DIR), env=env)
@@ -1247,6 +1250,9 @@ def run_single_generate(script_path: str, task_id: str, config: dict):
     env = os.environ.copy()
     env['HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION'] = '1'
     env['HF_HUB_OFFLINE'] = '1'
+    # ── 所有 HF 模型统一使用项目 models/ 目录 ──
+    env['HF_HOME'] = str(BASE_DIR / "models")
+    env['HUGGINGFACE_HUB_CACHE'] = str(BASE_DIR / "models" / "hub")
 
     try:
         proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,

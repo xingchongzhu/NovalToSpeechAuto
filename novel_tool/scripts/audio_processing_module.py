@@ -12,8 +12,13 @@ Audio Processing Module
 """
 
 import os
+# ── 将所有 HF 模型统一指向项目 models/ 目录，离线运行，不依赖系统缓存 ──
+_project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+os.environ['HF_HOME'] = os.path.join(_project_root, "models")
+os.environ['HUGGINGFACE_HUB_CACHE'] = os.path.join(_project_root, "models", "hub")
 os.environ['HUGGINGFACE_HUB_DISABLE_REPO_ID_VALIDATION'] = '1'
 os.environ['HF_HUB_OFFLINE'] = '1'
+del _project_root
 
 import io
 import json
