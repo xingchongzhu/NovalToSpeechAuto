@@ -127,7 +127,21 @@ warnings.filterwarnings("ignore")
 
 # ======================== 全局常量配置 ========================
 # 标题播报（片头片尾、chunk标题）的固定配音角色
-TITLE_VOICE_ROLE = "紫绡"
+TITLE_VOICE_ROLE = "云紫绡"
+
+
+def sanitize_chapter_dir_name(json_path: str) -> str:
+    """由剧本 JSON 文件名推导章节输出目录/音频文件名，保证与剧本名一致
+
+    例如 蜀山剑侠传第2回-舞长剑.json -> 蜀山剑侠传第2回-舞长剑
+    兼容历史上误命名的 xxx.json.json / xxx..json
+    """
+    stem = os.path.basename(json_path)
+    while stem.lower().endswith(".json"):
+        stem = stem[:-5]
+    stem = stem.strip().rstrip(".")
+    return stem.replace("\n", "").replace(" ", "_").replace(":", "-").replace("/", "_")
+
 
 # ── macOS malloc zone pressure relief ──
 # Python 释放大块内存后，macOS 的 malloc zone 不会主动归还给 OS，
@@ -1519,13 +1533,24 @@ class AudioEngine:
                         delay_ms = max(0, int((actual_time_s + offset_s) * 1000))
                         print(f"  🎯 音效{i+1}: 关键字'{keyword}'定位 {delay_ms}ms")
                     elif keyword and voice_text:
-                        # 兜底：文本估算 delay
+                        # 兜底：按加权字符进度等比映射到真实音频时长
                         offset = getattr(ep, "trigger_offset", 0.0)
-                        delay_ms = self._estimate_delay_by_keyword(voice_text, keyword, offset)
+                        delay_ms = self._estimate_delay_by_keyword(
+                            voice_text, keyword, offset, voice_duration_ms=voice_duration
+                        )
                         print(f"  📍 音效{i+1}: 文本估算定位 {delay_ms}ms (关键字'{keyword}')")
                     else:
                         delay_ms = max(0, int(ep.trigger_delay * 1000))
                         print(f"  ⏱️ 音效{i+1}: 固定延迟 {delay_ms}ms")
+
+                # 落点越界保护：pydub overlay 对超出末尾的 position 会静默丢弃音效，
+                # 这里回拉落点，保证至少 min(音效时长, 1s) 能被听到
+                if process_mode != "insert":
+                    min_audible = min(len(effect), 1000)
+                    max_pos = max(0, len(final_audio) - min_audible)
+                    if delay_ms > max_pos:
+                        print(f"    ⚠️ 音效{i+1} 落点 {delay_ms}ms 超出音频可用区间({len(final_audio)}ms)，回拉至 {max_pos}ms")
+                        delay_ms = max_pos
 
                 if process_mode == "insert":
                     insert_position = min(delay_ms, len(final_audio))
@@ -1552,7 +1577,8 @@ class AudioEngine:
         
         return final_audio
 
-    def _estimate_delay_by_keyword(self, text: str, keyword: str, offset: float = 0.0) -> int:
+    def _estimate_delay_by_keyword(self, text: str, keyword: str, offset: float = 0.0,
+                                   voice_duration_ms: int = None) -> int:
         """根据关键字在文本中的位置估算延迟毫秒数（标点加权）。
         
         用于 trigger_keyword 精确对齐的兜底方案（未来接入 TTS 字级时间戳后可替换）。
@@ -1561,6 +1587,8 @@ class AudioEngine:
             text: 当前片段完整文本
             keyword: 要匹配的关键字
             offset: 相对关键字的偏移秒数（负数=提前）
+            voice_duration_ms: 该句配音实际时长；提供时按加权字符进度等比映射，
+                               避免固定语速估算在长句尾部严重漂移导致音效落到音频之外
         Returns:
             延迟毫秒数
         """
@@ -1568,17 +1596,27 @@ class AudioEngine:
         if idx == -1:
             return 0
         prefix = text[:idx + len(keyword)]
-        # 标点加权：句号/感叹号/问号 +0.5s，逗号/分号 +0.3s，冒号 +0.4s
-        pause_weight = 0.0
-        for ch in prefix:
-            if ch in '。！？!?':
-                pause_weight += 0.5
-            elif ch in '，,；;':
-                pause_weight += 0.3
-            elif ch in '：:':
-                pause_weight += 0.4
-        chars = len(prefix)
-        delay_seconds = chars / 3.0 + pause_weight + offset
+
+        # 标点加权（按 3 字/秒折算成等效字数）：句号类 +1.5，逗号类 +0.9，冒号 +1.2
+        def _weighted_chars(s: str) -> float:
+            total = float(len(s))
+            for ch in s:
+                if ch in '。！？!?':
+                    total += 1.5
+                elif ch in '，,；;':
+                    total += 0.9
+                elif ch in '：:':
+                    total += 1.2
+            return total
+
+        if voice_duration_ms and voice_duration_ms > 0:
+            total_weight = _weighted_chars(text)
+            if total_weight > 0:
+                ratio = min(1.0, _weighted_chars(prefix) / total_weight)
+                return max(0, int(ratio * voice_duration_ms + offset * 1000))
+
+        # 无音频时长信息时退回固定 3 字/秒估算
+        delay_seconds = _weighted_chars(prefix) / 3.0 + offset
         return max(0, int(delay_seconds * 1000))
 
     # ── whisper.cpp 精确时间轴 + TTS 质量校验 ──
@@ -1955,7 +1993,8 @@ class AudioGenerator:
         self.chapter_name = self.config["chapter"]
         
         self.novel_name = os.path.basename(os.path.dirname(json_path))
-        self.chapter_clean_name = self.chapter_name.replace("\n", "").replace(" ", "_").replace(":", "-")
+        # 章节目录/音频文件名与剧本 JSON 文件名保持一致
+        self.chapter_clean_name = sanitize_chapter_dir_name(json_path)
         
         self.output_dir = os.path.join(output_dir, self.novel_name)
         self.chapter_dir = os.path.join(self.output_dir, self.chapter_clean_name)
@@ -2951,7 +2990,7 @@ class AudioGenerator:
         
         for i, effect_param in enumerate(line_config.effect_params):
             effect_name = effect_param.name.replace(" ", "_").replace("/", "_").replace(":", "_").replace("\n", "")
-            effect_output_path = os.path.join(self.effect_dir, f"effect_line_{effect_name}_{line_config.id}.wav")
+            effect_output_path = os.path.join(self.effect_dir, f"effect_line_{line_config.id}_{effect_name}.wav")
             effect_output_paths.append(effect_output_path)
             if not os.path.exists(effect_output_path):
                 print(f"    ➕ 音效{i+1}/{effect_count}: {effect_name} ({effect_param.duration}s) - 待生成")
@@ -3189,7 +3228,7 @@ class AudioGenerator:
                         existing_voice_ids.add(int(f[11:-4]))
                     except ValueError:
                         pass
-            self.completed_count = len(existing_voice_ids)
+            # 不在这里设置 completed_count，让处理循环自己统计
         else:
             existing_voice_ids = set()
             self.completed_count = 0
@@ -3213,14 +3252,10 @@ class AudioGenerator:
             print(f"\n  [{role}] {tts_label} → 连续合成 {len(group)} 句")
 
             for line_config in group:
-                # 已有配音文件 → 直接复用，但仍需加入时间轴和 tmp_files
-                if line_config.id in existing_voice_ids:
-                    voice_path = os.path.join(self.voice_dir, f"voice_line_{line_config.id}.wav")
                 try:
-                    # 检查混音文件是否也存在
+                    # 混音文件存在 → 直接复用；只有配音文件 → 重新混音
                     mixed_path = os.path.join(self.mix_dir, f"mixed_line_{line_config.id}.wav")
                     if os.path.exists(mixed_path):
-                        # 混音文件存在，直接复用
                         cached = AudioSegment.from_wav(mixed_path)
                         dur_ms = len(cached)
                         line_ranges[line_config.id] = (current_ms, current_ms + dur_ms)
@@ -3238,8 +3273,7 @@ class AudioGenerator:
                             tmp_files.append((-1, silent_file))
                             current_ms += 600
                         continue
-                    else:
-                        # 只有配音文件，需要重新混音
+                    elif line_config.id in existing_voice_ids:
                         print(f"  🟢 命中配音缓存 #{line_config.id}，重新混音")
                 except Exception as e:
                     print(f"  ⚠️ 缓存配音读取失败 #{line_config.id}: {e}，将重新合成")
@@ -3617,7 +3651,8 @@ class NovelAudioSynthesizer:
         
         try:
             chapter_name = config["chapter"]
-            chapter_clean_name = chapter_name.replace("\n", "").replace(" ", "_").replace(":", "-")
+            # 章节目录/音频文件名与剧本 JSON 文件名保持一致
+            chapter_clean_name = sanitize_chapter_dir_name(json_file)
             
             chapter_dir = os.path.join(self.output_dir, os.path.basename(os.path.dirname(json_file)), chapter_clean_name)
             output_ext = get_platform_profile(self.platform).output_format

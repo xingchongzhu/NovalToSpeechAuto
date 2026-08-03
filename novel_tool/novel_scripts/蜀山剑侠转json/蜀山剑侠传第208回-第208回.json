@@ -33,7 +33,7 @@
       "speed": "-2%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -87,7 +87,7 @@
       "speed": "-6%"
     },
     "媖姆": {
-      "role_voice": "媖姆",
+      "role_voice": "严媖姆",
       "pitch": "-5Hz",
       "volume": "-2%",
       "speed": "-8%"
@@ -306,7 +306,7 @@
       "api": {
         "voice": {
           "role": "沙/咪（幼童）",
-          "role_voice": "沙/咪（幼童）",
+          "role_voice": "沙_咪（幼童）",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -699,7 +699,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -1091,7 +1091,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -1976,7 +1976,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2229,7 +2229,7 @@
       "api": {
         "voice": {
           "role": "媖姆",
-          "role_voice": "媖姆",
+          "role_voice": "严媖姆",
           "speed": "-8%",
           "volume": "-2%",
           "pitch": "-5Hz",
@@ -2267,7 +2267,7 @@
       "api": {
         "voice": {
           "role": "媖姆",
-          "role_voice": "媖姆",
+          "role_voice": "严媖姆",
           "speed": "-8%",
           "volume": "-2%",
           "pitch": "-5Hz",
@@ -2305,7 +2305,7 @@
       "api": {
         "voice": {
           "role": "媖姆",
-          "role_voice": "媖姆",
+          "role_voice": "严媖姆",
           "speed": "-8%",
           "volume": "-2%",
           "pitch": "-5Hz",
@@ -2394,7 +2394,7 @@
       "api": {
         "voice": {
           "role": "媖姆",
-          "role_voice": "媖姆",
+          "role_voice": "严媖姆",
           "speed": "-8%",
           "volume": "-2%",
           "pitch": "-5Hz",
@@ -2432,7 +2432,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2483,7 +2483,7 @@
       "api": {
         "voice": {
           "role": "媖姆",
-          "role_voice": "媖姆",
+          "role_voice": "严媖姆",
           "speed": "-8%",
           "volume": "-2%",
           "pitch": "-5Hz",
@@ -2559,7 +2559,7 @@
       "api": {
         "voice": {
           "role": "诸葛警我",
-          "role_voice": "诸葛警我/岳雯",
+          "role_voice": "诸葛警我_岳雯",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2762,7 +2762,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2800,7 +2800,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2889,7 +2889,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -3105,7 +3105,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -3902,7 +3902,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -4029,7 +4029,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -4067,7 +4067,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -4245,7 +4245,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -4321,7 +4321,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -4410,7 +4410,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+5Hz",
@@ -4499,7 +4499,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",
@@ -4601,7 +4601,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+4Hz",

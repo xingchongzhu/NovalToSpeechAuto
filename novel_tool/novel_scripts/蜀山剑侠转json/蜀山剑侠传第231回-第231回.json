@@ -45,7 +45,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
@@ -135,7 +135,7 @@
       "speed": "-5%"
     },
     "红发老祖(元神)": {
-      "role_voice": "红发老祖(元神)",
+      "role_voice": "红发老祖",
       "pitch": "-6Hz",
       "volume": "+5%",
       "speed": "-8%"
@@ -931,7 +931,7 @@
       "api": {
         "voice": {
           "role": "红发老祖(元神)",
-          "role_voice": "红发老祖(元神)",
+          "role_voice": "红发老祖",
           "speed": "-8%",
           "volume": "+5%",
           "pitch": "-6Hz",

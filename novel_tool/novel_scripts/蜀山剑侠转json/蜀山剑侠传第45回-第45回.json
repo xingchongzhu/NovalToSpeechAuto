@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "广慧大师": {
-      "role_voice": "广慧大师",
+      "role_voice": "广慧",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "-5%"
@@ -84,7 +84,7 @@
       "api": {
         "voice": {
           "role": "广慧大师",
-          "role_voice": "广慧大师",
+          "role_voice": "广慧",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -122,7 +122,7 @@
       "api": {
         "voice": {
           "role": "广慧大师",
-          "role_voice": "广慧大师",
+          "role_voice": "广慧",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "-2Hz",

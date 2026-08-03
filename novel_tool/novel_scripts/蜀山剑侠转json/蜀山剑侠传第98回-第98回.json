@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "龙姑": {
-      "role_voice": "龙姑",
+      "role_voice": "施龙姑",
       "pitch": "+4Hz",
       "volume": "-1%",
       "speed": "-1%"
@@ -178,7 +178,7 @@
       "api": {
         "voice": {
           "role": "龙姑",
-          "role_voice": "龙姑",
+          "role_voice": "施龙姑",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -267,7 +267,7 @@
       "api": {
         "voice": {
           "role": "龙姑",
-          "role_voice": "龙姑",
+          "role_voice": "施龙姑",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",
@@ -451,7 +451,7 @@
       "api": {
         "voice": {
           "role": "龙姑",
-          "role_voice": "龙姑",
+          "role_voice": "施龙姑",
           "speed": "-1%",
           "volume": "-1%",
           "pitch": "+4Hz",

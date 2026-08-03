@@ -69,7 +69,7 @@
       "speed": "0%"
     },
     "衡玉": {
-      "role_voice": "衡玉",
+      "role_voice": "戴衡玉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -129,13 +129,13 @@
       "speed": "-5%"
     },
     "湘英": {
-      "role_voice": "湘英",
+      "role_voice": "戴湘英",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "云凤": {
-      "role_voice": "云凤",
+      "role_voice": "凌云凤",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"

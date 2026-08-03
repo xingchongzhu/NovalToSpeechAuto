@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -63,7 +63,7 @@
       "speed": "-5%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "-3Hz",
       "volume": "+1%",
       "speed": "-6%"
@@ -207,7 +207,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -296,7 +296,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -511,7 +511,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -586,7 +586,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "+1%",
           "pitch": "-3Hz",
@@ -1077,7 +1077,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "+1%",
           "pitch": "-3Hz",
@@ -1128,7 +1128,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "+1%",
           "pitch": "-3Hz",
@@ -1191,7 +1191,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "+1%",
           "pitch": "-3Hz",
@@ -2219,7 +2219,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+1Hz",

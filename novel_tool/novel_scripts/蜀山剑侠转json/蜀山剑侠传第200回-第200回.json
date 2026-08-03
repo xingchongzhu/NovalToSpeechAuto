@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "瑶仙": {
-      "role_voice": "瑶仙",
+      "role_voice": "崔瑶仙",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -341,7 +341,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -392,7 +392,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -569,7 +569,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -668,7 +668,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -779,7 +779,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -868,7 +868,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "萧玉（熊形）",
+          "role_voice": "萧玉",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -1895,7 +1895,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2047,7 +2047,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2326,7 +2326,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2593,7 +2593,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -2707,7 +2707,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "+3Hz",
@@ -2999,7 +2999,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "萧玉（熊形）",
+          "role_voice": "萧玉",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -3050,7 +3050,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -3101,7 +3101,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "萧玉（熊形）",
+          "role_voice": "萧玉",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -3152,7 +3152,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -3190,7 +3190,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "萧玉（熊形）",
+          "role_voice": "萧玉",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",
@@ -3506,7 +3506,7 @@
       "api": {
         "voice": {
           "role": "萧玉",
-          "role_voice": "萧玉（熊形）",
+          "role_voice": "萧玉",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "-2Hz",

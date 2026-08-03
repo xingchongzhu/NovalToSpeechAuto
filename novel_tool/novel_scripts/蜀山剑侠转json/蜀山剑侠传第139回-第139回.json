@@ -45,7 +45,7 @@
       "speed": "-4%"
     },
     "英男": {
-      "role_voice": "英男",
+      "role_voice": "余英男",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -354,7 +354,7 @@
       "api": {
         "voice": {
           "role": "英男",
-          "role_voice": "英男",
+          "role_voice": "余英男",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -789,7 +789,7 @@
       "api": {
         "voice": {
           "role": "英男",
-          "role_voice": "英男",
+          "role_voice": "余英男",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -865,7 +865,7 @@
       "api": {
         "voice": {
           "role": "英男",
-          "role_voice": "英男",
+          "role_voice": "余英男",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

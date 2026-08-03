@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "轻云": {
-      "role_voice": "轻云",
+      "role_voice": "周轻云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -181,7 +181,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -232,7 +232,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -372,7 +372,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -486,7 +486,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -663,7 +663,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -946,7 +946,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1060,7 +1060,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

@@ -21,7 +21,7 @@
       "speed": "-2%"
     },
     "女殃神郑八姑": {
-      "role_voice": "女殃神郑八姑",
+      "role_voice": "郑八姑",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -69,13 +69,13 @@
       "speed": "-2%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "翼道人耿鲲": {
-      "role_voice": "翼道人耿鲲",
+      "role_voice": "耿鲲",
       "pitch": "-3Hz",
       "volume": "0%",
       "speed": "-4%"
@@ -429,7 +429,7 @@
       "api": {
         "voice": {
           "role": "女殃神郑八姑",
-          "role_voice": "女殃神郑八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -603,7 +603,7 @@
       "api": {
         "voice": {
           "role": "女殃神郑八姑",
-          "role_voice": "女殃神郑八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -654,7 +654,7 @@
       "api": {
         "voice": {
           "role": "女殃神郑八姑",
-          "role_voice": "女殃神郑八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -705,7 +705,7 @@
       "api": {
         "voice": {
           "role": "女殃神郑八姑",
-          "role_voice": "女殃神郑八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -816,7 +816,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -954,7 +954,7 @@
       "api": {
         "voice": {
           "role": "翼道人耿鲲",
-          "role_voice": "翼道人耿鲲",
+          "role_voice": "耿鲲",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -992,7 +992,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1030,7 +1030,7 @@
       "api": {
         "voice": {
           "role": "翼道人耿鲲",
-          "role_voice": "翼道人耿鲲",
+          "role_voice": "耿鲲",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -1081,7 +1081,7 @@
       "api": {
         "voice": {
           "role": "翼道人耿鲲",
-          "role_voice": "翼道人耿鲲",
+          "role_voice": "耿鲲",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -1132,7 +1132,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1183,7 +1183,7 @@
       "api": {
         "voice": {
           "role": "翼道人耿鲲",
-          "role_voice": "翼道人耿鲲",
+          "role_voice": "耿鲲",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-3Hz",
@@ -1258,7 +1258,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -1347,7 +1347,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",

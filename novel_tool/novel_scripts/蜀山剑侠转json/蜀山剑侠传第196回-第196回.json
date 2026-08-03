@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "二娘": {
-      "role_voice": "二娘",
+      "role_voice": "雷二娘",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "畹秋": {
-      "role_voice": "畹秋",
+      "role_voice": "黄畹秋",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
@@ -39,13 +39,13 @@
       "speed": "-4%"
     },
     "文和": {
-      "role_voice": "文和",
+      "role_voice": "崔文和",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-5%"
     },
     "瑶仙": {
-      "role_voice": "瑶仙",
+      "role_voice": "崔瑶仙",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
@@ -115,7 +115,7 @@
       "api": {
         "voice": {
           "role": "二娘",
-          "role_voice": "二娘",
+          "role_voice": "雷二娘",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -286,7 +286,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -375,7 +375,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -451,7 +451,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -576,7 +576,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -651,7 +651,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -834,7 +834,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -933,7 +933,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1009,7 +1009,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1096,7 +1096,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1279,7 +1279,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1342,7 +1342,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1417,7 +1417,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1455,7 +1455,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1493,7 +1493,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1568,7 +1568,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1619,7 +1619,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1682,7 +1682,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1841,7 +1841,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -1892,7 +1892,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2027,7 +2027,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2078,7 +2078,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2116,7 +2116,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2154,7 +2154,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2192,7 +2192,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2230,7 +2230,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2268,7 +2268,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2306,7 +2306,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2344,7 +2344,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2382,7 +2382,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2433,7 +2433,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2471,7 +2471,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2534,7 +2534,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2585,7 +2585,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2623,7 +2623,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2674,7 +2674,7 @@
       "api": {
         "voice": {
           "role": "文和",
-          "role_voice": "文和",
+          "role_voice": "崔文和",
           "speed": "-5%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2725,7 +2725,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2763,7 +2763,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2801,7 +2801,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -2839,7 +2839,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2877,7 +2877,7 @@
       "api": {
         "voice": {
           "role": "畹秋",
-          "role_voice": "畹秋",
+          "role_voice": "黄畹秋",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",

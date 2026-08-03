@@ -27,13 +27,13 @@
       "speed": "-5%"
     },
     "湘英": {
-      "role_voice": "湘英",
+      "role_voice": "戴湘英",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "云凤": {
-      "role_voice": "云凤",
+      "role_voice": "凌云凤",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -272,7 +272,7 @@
       "api": {
         "voice": {
           "role": "云凤",
-          "role_voice": "云凤",
+          "role_voice": "凌云凤",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -361,7 +361,7 @@
       "api": {
         "voice": {
           "role": "云凤",
-          "role_voice": "云凤",
+          "role_voice": "凌云凤",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -552,7 +552,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -634,7 +634,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -710,7 +710,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -786,7 +786,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -843,7 +843,7 @@
       "api": {
         "voice": {
           "role": "云凤",
-          "role_voice": "云凤",
+          "role_voice": "凌云凤",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -900,7 +900,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1174,7 +1174,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1212,7 +1212,7 @@
       "api": {
         "voice": {
           "role": "云凤",
-          "role_voice": "云凤",
+          "role_voice": "凌云凤",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1231,7 +1231,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1250,7 +1250,7 @@
       "api": {
         "voice": {
           "role": "云凤",
-          "role_voice": "云凤",
+          "role_voice": "凌云凤",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1288,7 +1288,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1326,7 +1326,7 @@
       "api": {
         "voice": {
           "role": "云凤",
-          "role_voice": "云凤",
+          "role_voice": "凌云凤",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1413,7 +1413,7 @@
       "api": {
         "voice": {
           "role": "湘英",
-          "role_voice": "湘英",
+          "role_voice": "戴湘英",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

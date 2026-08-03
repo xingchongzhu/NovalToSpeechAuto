@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
@@ -1858,7 +1858,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",

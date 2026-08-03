@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -51,7 +51,7 @@
       "speed": "-2%"
     },
     "小神僧阿童": {
-      "role_voice": "小神僧阿童",
+      "role_voice": "阿童",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-1%"
@@ -263,7 +263,7 @@
       "api": {
         "voice": {
           "role": "小神僧阿童",
-          "role_voice": "小神僧阿童",
+          "role_voice": "阿童",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -453,7 +453,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -523,7 +523,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -892,7 +892,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

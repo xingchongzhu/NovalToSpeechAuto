@@ -39,7 +39,7 @@
       "speed": "0%"
     },
     "朱梅": {
-      "role_voice": "朱梅",
+      "role_voice": "矮叟朱梅",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -57,7 +57,7 @@
       "speed": "0%"
     },
     "金姥姥罗紫烟": {
-      "role_voice": "金姥姥罗紫烟",
+      "role_voice": "罗紫烟",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -467,7 +467,7 @@
       "api": {
         "voice": {
           "role": "金姥姥罗紫烟",
-          "role_voice": "金姥姥罗紫烟",
+          "role_voice": "罗紫烟",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -671,7 +671,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -760,7 +760,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -900,7 +900,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1082,7 +1082,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1184,7 +1184,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1540,7 +1540,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1629,7 +1629,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1667,7 +1667,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",

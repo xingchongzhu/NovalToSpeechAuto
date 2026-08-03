@@ -27,7 +27,7 @@
       "speed": "0%"
     },
     "追云叟（假扮穷老头）": {
-      "role_voice": "追云叟（假扮穷老头）",
+      "role_voice": "追云叟白谷逸",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -187,7 +187,7 @@
       "api": {
         "voice": {
           "role": "追云叟（假扮穷老头）",
-          "role_voice": "追云叟（假扮穷老头）",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -276,7 +276,7 @@
       "api": {
         "voice": {
           "role": "追云叟（假扮穷老头）",
-          "role_voice": "追云叟（假扮穷老头）",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -365,7 +365,7 @@
       "api": {
         "voice": {
           "role": "追云叟（假扮穷老头）",
-          "role_voice": "追云叟（假扮穷老头）",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -416,7 +416,7 @@
       "api": {
         "voice": {
           "role": "追云叟（假扮穷老头）",
-          "role_voice": "追云叟（假扮穷老头）",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -492,7 +492,7 @@
       "api": {
         "voice": {
           "role": "追云叟（假扮穷老头）",
-          "role_voice": "追云叟（假扮穷老头）",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",

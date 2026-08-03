@@ -27,7 +27,7 @@
       "speed": "-2%"
     },
     "女神婴易静": {
-      "role_voice": "女神婴易静",
+      "role_voice": "易静",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
@@ -235,7 +235,7 @@
       "api": {
         "voice": {
           "role": "女神婴易静",
-          "role_voice": "女神婴易静",
+          "role_voice": "易静",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",

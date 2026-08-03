@@ -33,7 +33,7 @@
       "speed": "-4%"
     },
     "圣姑遗音": {
-      "role_voice": "圣姑遗音",
+      "role_voice": "圣姑",
       "pitch": "+2Hz",
       "volume": "-1%",
       "speed": "-5%"
@@ -169,7 +169,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -269,7 +269,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -345,7 +345,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -383,7 +383,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -421,7 +421,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -472,7 +472,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",
@@ -571,7 +571,7 @@
       "api": {
         "voice": {
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "-5%",
           "volume": "-1%",
           "pitch": "+2Hz",

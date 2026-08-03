@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "风子": {
-      "role_voice": "风子",
+      "role_voice": "商风子",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+2%"
     },
     "云从": {
-      "role_voice": "云从",
+      "role_voice": "周云从",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -109,7 +109,7 @@
       "api": {
         "voice": {
           "role": "风子",
-          "role_voice": "风子",
+          "role_voice": "商风子",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -198,7 +198,7 @@
       "api": {
         "voice": {
           "role": "风子",
-          "role_voice": "风子",
+          "role_voice": "商风子",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -287,7 +287,7 @@
       "api": {
         "voice": {
           "role": "风子",
-          "role_voice": "风子",
+          "role_voice": "商风子",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -524,7 +524,7 @@
       "api": {
         "voice": {
           "role": "风子",
-          "role_voice": "风子",
+          "role_voice": "商风子",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -575,7 +575,7 @@
       "api": {
         "voice": {
           "role": "云从",
-          "role_voice": "云从",
+          "role_voice": "周云从",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -638,7 +638,7 @@
       "api": {
         "voice": {
           "role": "风子",
-          "role_voice": "风子",
+          "role_voice": "商风子",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",

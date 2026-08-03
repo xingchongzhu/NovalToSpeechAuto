@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "霞儿": {
-      "role_voice": "霞儿",
+      "role_voice": "齐霞儿",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -521,7 +521,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -572,7 +572,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -699,7 +699,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -737,7 +737,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -863,7 +863,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -952,7 +952,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

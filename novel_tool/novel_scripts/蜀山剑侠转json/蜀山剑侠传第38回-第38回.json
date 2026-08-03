@@ -63,7 +63,7 @@
       "speed": "0%"
     },
     "素因大师": {
-      "role_voice": "素因大师",
+      "role_voice": "素因",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -99,7 +99,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -159,7 +159,7 @@
       "speed": "0%"
     },
     "黑孩儿尉迟火": {
-      "role_voice": "黑孩儿尉迟火",
+      "role_voice": "尉迟火",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -945,7 +945,7 @@
       "api": {
         "voice": {
           "role": "素因大师",
-          "role_voice": "素因大师",
+          "role_voice": "素因",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -996,7 +996,7 @@
       "api": {
         "voice": {
           "role": "素因大师",
-          "role_voice": "素因大师",
+          "role_voice": "素因",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1413,7 +1413,7 @@
       "api": {
         "voice": {
           "role": "素因大师",
-          "role_voice": "素因大师",
+          "role_voice": "素因",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",

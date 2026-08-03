@@ -81,7 +81,7 @@
       "speed": "0%"
     },
     "赤杖仙童阮纠": {
-      "role_voice": "赤杖仙童阮纠",
+      "role_voice": "阮纠",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -111,19 +111,19 @@
       "speed": "-8%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "穷神凌浑": {
-      "role_voice": "穷神凌浑",
+      "role_voice": "凌浑",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "青囊仙子华瑶崧": {
-      "role_voice": "青囊仙子华瑶崧",
+      "role_voice": "华瑶崧",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -299,7 +299,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "赤杖仙童阮纠",
+          "role_voice": "阮纠",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -919,7 +919,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -976,7 +976,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1166,7 +1166,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1204,7 +1204,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1242,7 +1242,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1490,7 +1490,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1547,7 +1547,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1598,7 +1598,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "赤杖仙童阮纠",
+          "role_voice": "阮纠",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1706,7 +1706,7 @@
       "api": {
         "voice": {
           "role": "青囊仙子华瑶崧",
-          "role_voice": "青囊仙子华瑶崧",
+          "role_voice": "华瑶崧",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

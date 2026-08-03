@@ -33,7 +33,7 @@
       "speed": "-8%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -57,7 +57,7 @@
       "speed": "0%"
     },
     "采薇僧朱由穆": {
-      "role_voice": "采薇僧朱由穆",
+      "role_voice": "朱由穆",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -171,7 +171,7 @@
       "speed": "0%"
     },
     "媖姆": {
-      "role_voice": "媖姆",
+      "role_voice": "严媖姆",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -398,7 +398,7 @@
       "api": {
         "voice": {
           "role": "采薇僧朱由穆",
-          "role_voice": "采薇僧朱由穆",
+          "role_voice": "朱由穆",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -569,7 +569,7 @@
       "api": {
         "voice": {
           "role": "采薇僧朱由穆",
-          "role_voice": "采薇僧朱由穆",
+          "role_voice": "朱由穆",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -626,7 +626,7 @@
       "api": {
         "voice": {
           "role": "采薇僧朱由穆",
-          "role_voice": "采薇僧朱由穆",
+          "role_voice": "朱由穆",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -664,7 +664,7 @@
       "api": {
         "voice": {
           "role": "采薇僧朱由穆",
-          "role_voice": "采薇僧朱由穆",
+          "role_voice": "朱由穆",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -702,7 +702,7 @@
       "api": {
         "voice": {
           "role": "采薇僧朱由穆",
-          "role_voice": "采薇僧朱由穆",
+          "role_voice": "朱由穆",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1146,7 +1146,7 @@
       "api": {
         "voice": {
           "role": "采薇僧朱由穆",
-          "role_voice": "采薇僧朱由穆",
+          "role_voice": "朱由穆",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

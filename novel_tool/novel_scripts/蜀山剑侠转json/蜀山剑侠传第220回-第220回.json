@@ -21,7 +21,7 @@
       "speed": "0%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -69,7 +69,7 @@
       "speed": "-2%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -677,7 +677,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -734,7 +734,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -772,7 +772,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -829,7 +829,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

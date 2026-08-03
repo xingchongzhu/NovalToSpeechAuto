@@ -33,7 +33,7 @@
       "speed": "0%"
     },
     "颠仙": {
-      "role_voice": "颠仙",
+      "role_voice": "郑颠仙",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-4%"
@@ -480,7 +480,7 @@
       "api": {
         "voice": {
           "role": "颠仙",
-          "role_voice": "颠仙",
+          "role_voice": "郑颠仙",
           "speed": "-4%",
           "volume": "0%",
           "pitch": "-4Hz",

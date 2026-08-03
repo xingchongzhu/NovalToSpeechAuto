@@ -45,7 +45,7 @@
       "pitch": "+0Hz"
     },
     "圣姑遗音": {
-      "role_voice": "圣姑遗音",
+      "role_voice": "圣姑",
       "speed": "0.85",
       "volume": "-4%",
       "pitch": "+0Hz"
@@ -538,7 +538,7 @@
         "voice": {
           "text": "开鼎者李，毁鼎者死！琼宫故物，不得妄取。",
           "role": "圣姑遗音",
-          "role_voice": "圣姑遗音",
+          "role_voice": "圣姑",
           "speed": "0.85",
           "volume": "-4%",
           "pitch": "+0Hz",

@@ -45,7 +45,7 @@
       "speed": "-2%"
     },
     "瑶仙": {
-      "role_voice": "瑶仙",
+      "role_voice": "崔瑶仙",
       "pitch": "+5Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -513,7 +513,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -588,7 +588,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",
@@ -708,7 +708,7 @@
       "api": {
         "voice": {
           "role": "瑶仙",
-          "role_voice": "瑶仙",
+          "role_voice": "崔瑶仙",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+5Hz",

@@ -75,13 +75,13 @@
       "speed": "+1%"
     },
     "芷仙": {
-      "role_voice": "芷仙",
+      "role_voice": "裘芷仙",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
     },
     "若兰": {
-      "role_voice": "若兰",
+      "role_voice": "申若兰",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "+1%"
@@ -872,7 +872,7 @@
       "api": {
         "voice": {
           "role": "芷仙",
-          "role_voice": "芷仙",
+          "role_voice": "裘芷仙",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

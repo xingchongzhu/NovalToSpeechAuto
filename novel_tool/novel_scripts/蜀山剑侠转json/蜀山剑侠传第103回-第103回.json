@@ -21,19 +21,19 @@
       "speed": "+2%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "灵云": {
-      "role_voice": "灵云",
+      "role_voice": "齐灵云",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -63,13 +63,13 @@
       "speed": "0%"
     },
     "子敬": {
-      "role_voice": "子敬",
+      "role_voice": "周子敬",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "玉珍": {
-      "role_voice": "玉珍",
+      "role_voice": "张玉珍",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -81,7 +81,7 @@
       "speed": "0%"
     },
     "子华": {
-      "role_voice": "子华",
+      "role_voice": "华瑶崧",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -208,7 +208,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -246,7 +246,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -386,7 +386,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -1979,7 +1979,7 @@
       "api": {
         "voice": {
           "role": "子敬",
-          "role_voice": "子敬",
+          "role_voice": "周子敬",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2017,7 +2017,7 @@
       "api": {
         "voice": {
           "role": "子敬",
-          "role_voice": "子敬",
+          "role_voice": "周子敬",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2144,7 +2144,7 @@
       "api": {
         "voice": {
           "role": "子敬",
-          "role_voice": "子敬",
+          "role_voice": "周子敬",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -2233,7 +2233,7 @@
       "api": {
         "voice": {
           "role": "子华",
-          "role_voice": "子华",
+          "role_voice": "华瑶崧",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -2347,7 +2347,7 @@
       "api": {
         "voice": {
           "role": "子华",
-          "role_voice": "子华",
+          "role_voice": "华瑶崧",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-1Hz",

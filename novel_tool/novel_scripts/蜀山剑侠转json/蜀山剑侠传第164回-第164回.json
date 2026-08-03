@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "轻云": {
-      "role_voice": "轻云",
+      "role_voice": "周轻云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -27,7 +27,7 @@
       "speed": "-2%"
     },
     "冬秀": {
-      "role_voice": "冬秀",
+      "role_voice": "邵冬秀",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -39,7 +39,7 @@
       "speed": "+1%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -69,7 +69,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -99,7 +99,7 @@
       "speed": "-3%"
     },
     "金姥姥罗紫烟": {
-      "role_voice": "金姥姥罗紫烟",
+      "role_voice": "罗紫烟",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -508,7 +508,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -659,7 +659,7 @@
       "api": {
         "voice": {
           "role": "金姥姥罗紫烟",
-          "role_voice": "金姥姥罗紫烟",
+          "role_voice": "罗紫烟",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

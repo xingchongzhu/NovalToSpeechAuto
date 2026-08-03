@@ -45,7 +45,7 @@
       "speed": "-8%"
     },
     "蓝髯客姬繁": {
-      "role_voice": "蓝髯客姬繁",
+      "role_voice": "姬繁",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -1426,7 +1426,7 @@
       "api": {
         "voice": {
           "role": "蓝髯客姬繁",
-          "role_voice": "蓝髯客姬繁",
+          "role_voice": "姬繁",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1502,7 +1502,7 @@
       "api": {
         "voice": {
           "role": "蓝髯客姬繁",
-          "role_voice": "蓝髯客姬繁",
+          "role_voice": "姬繁",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1616,7 +1616,7 @@
       "api": {
         "voice": {
           "role": "蓝髯客姬繁",
-          "role_voice": "蓝髯客姬繁",
+          "role_voice": "姬繁",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

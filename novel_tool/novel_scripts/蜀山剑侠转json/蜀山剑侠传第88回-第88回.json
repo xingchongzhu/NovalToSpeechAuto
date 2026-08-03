@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "灵云": {
-      "role_voice": "灵云",
+      "role_voice": "齐灵云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -33,7 +33,7 @@
       "speed": "-2%"
     },
     "八姑": {
-      "role_voice": "八姑",
+      "role_voice": "郑八姑",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -51,7 +51,7 @@
       "speed": "-2%"
     },
     "寒萼": {
-      "role_voice": "寒萼",
+      "role_voice": "秦寒萼",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
@@ -141,7 +141,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -204,7 +204,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -242,7 +242,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -318,7 +318,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -356,7 +356,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -394,7 +394,7 @@
       "api": {
         "voice": {
           "role": "八姑",
-          "role_voice": "八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -457,7 +457,7 @@
       "api": {
         "voice": {
           "role": "八姑",
-          "role_voice": "八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -508,7 +508,7 @@
       "api": {
         "voice": {
           "role": "八姑",
-          "role_voice": "八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -559,7 +559,7 @@
       "api": {
         "voice": {
           "role": "八姑",
-          "role_voice": "八姑",
+          "role_voice": "郑八姑",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

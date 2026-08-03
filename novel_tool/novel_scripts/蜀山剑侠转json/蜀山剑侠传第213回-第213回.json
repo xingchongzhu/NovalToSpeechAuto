@@ -15,13 +15,13 @@
       "speed": "-10%"
     },
     "仙都二女（谢璎）": {
-      "role_voice": "仙都二女（谢璎）",
+      "role_voice": "谢璎",
       "pitch": "+3Hz",
       "volume": "+1%",
       "speed": "+1%"
     },
     "仙都二女（谢琳）": {
-      "role_voice": "仙都二女（谢琳）",
+      "role_voice": "谢琳",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -33,7 +33,7 @@
       "speed": "+2%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -177,13 +177,13 @@
       "speed": "0%"
     },
     "朱梅": {
-      "role_voice": "朱梅",
+      "role_voice": "矮叟朱梅",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
     },
     "白谷逸": {
-      "role_voice": "白谷逸",
+      "role_voice": "追云叟白谷逸",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -2265,7 +2265,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2430,7 +2430,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2506,7 +2506,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -2544,7 +2544,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -3267,7 +3267,7 @@
       "api": {
         "voice": {
           "role": "朱梅",
-          "role_voice": "朱梅",
+          "role_voice": "矮叟朱梅",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -3356,7 +3356,7 @@
       "api": {
         "voice": {
           "role": "白谷逸",
-          "role_voice": "白谷逸",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",

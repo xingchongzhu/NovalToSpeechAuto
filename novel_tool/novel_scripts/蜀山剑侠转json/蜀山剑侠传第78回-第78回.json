@@ -1496,7 +1496,7 @@
       "api": {
         "voice": {
           "role": "极乐真人",
-          "role_voice": "极乐真人",
+          "role_voice": "极乐真人李静虚",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1699,7 +1699,7 @@
       "api": {
         "voice": {
           "role": "追云叟",
-          "role_voice": "追云叟",
+          "role_voice": "追云叟白谷逸",
           "speed": "-8%",
           "volume": "+2%",
           "pitch": "-4Hz",

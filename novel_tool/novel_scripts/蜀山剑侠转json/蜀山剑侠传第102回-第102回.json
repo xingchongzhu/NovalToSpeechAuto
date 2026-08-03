@@ -15,37 +15,37 @@
       "speed": "-10%"
     },
     "南姑": {
-      "role_voice": "南姑",
+      "role_voice": "章南姑",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "+2%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "灵云": {
-      "role_voice": "灵云",
+      "role_voice": "齐灵云",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "寒萼": {
-      "role_voice": "寒萼",
+      "role_voice": "秦寒萼",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+1%"
     },
     "紫玲": {
-      "role_voice": "紫玲",
+      "role_voice": "秦紫玲",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -57,13 +57,13 @@
       "speed": "-1%"
     },
     "若兰": {
-      "role_voice": "若兰",
+      "role_voice": "申若兰",
       "pitch": "+3Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "芷仙": {
-      "role_voice": "芷仙",
+      "role_voice": "裘芷仙",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -75,7 +75,7 @@
       "speed": "+2%"
     },
     "虎儿": {
-      "role_voice": "虎儿",
+      "role_voice": "章虎儿",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -87,13 +87,13 @@
       "speed": "+2%"
     },
     "轻云": {
-      "role_voice": "轻云",
+      "role_voice": "周轻云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "文琪": {
-      "role_voice": "文琪",
+      "role_voice": "吴文琪",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -150,7 +150,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -201,7 +201,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -239,7 +239,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -277,7 +277,7 @@
       "api": {
         "voice": {
           "role": "寒萼",
-          "role_voice": "寒萼",
+          "role_voice": "秦寒萼",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -334,7 +334,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -372,7 +372,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -435,7 +435,7 @@
       "api": {
         "voice": {
           "role": "寒萼",
-          "role_voice": "寒萼",
+          "role_voice": "秦寒萼",
           "speed": "+1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -473,7 +473,7 @@
       "api": {
         "voice": {
           "role": "紫玲",
-          "role_voice": "紫玲",
+          "role_voice": "秦紫玲",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -524,7 +524,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -562,7 +562,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -600,7 +600,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -651,7 +651,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -714,7 +714,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",
@@ -801,7 +801,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -864,7 +864,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+1Hz",

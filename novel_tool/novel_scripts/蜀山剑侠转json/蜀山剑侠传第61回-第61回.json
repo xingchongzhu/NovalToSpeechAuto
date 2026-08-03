@@ -39,13 +39,13 @@
       "speed": "-8%"
     },
     "三魔钱青选": {
-      "role_voice": "三魔钱青选",
+      "role_voice": "钱青选",
       "pitch": "-2Hz",
       "volume": "0%",
       "speed": "0%"
     },
     "六魔厉吼": {
-      "role_voice": "六魔厉吼",
+      "role_voice": "厉吼",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "+2%"
@@ -485,7 +485,7 @@
       "api": {
         "voice": {
           "role": "三魔钱青选",
-          "role_voice": "三魔钱青选",
+          "role_voice": "钱青选",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-2Hz",

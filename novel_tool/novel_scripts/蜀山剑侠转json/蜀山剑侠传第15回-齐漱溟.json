@@ -57,7 +57,7 @@
       "speed": "-1%"
     },
     "霞儿": {
-      "role_voice": "霞儿",
+      "role_voice": "齐霞儿",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "-1%"
@@ -564,7 +564,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -710,7 +710,7 @@
       "api": {
         "voice": {
           "role": "霞儿",
-          "role_voice": "霞儿",
+          "role_voice": "齐霞儿",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "+2Hz",

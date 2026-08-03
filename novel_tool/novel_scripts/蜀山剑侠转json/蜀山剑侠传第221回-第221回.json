@@ -39,7 +39,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -51,7 +51,7 @@
       "speed": "0%"
     },
     "灵云": {
-      "role_voice": "灵云",
+      "role_voice": "齐灵云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -350,7 +350,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -457,7 +457,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -520,7 +520,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -577,7 +577,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -615,7 +615,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -678,7 +678,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

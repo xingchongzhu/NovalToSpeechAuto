@@ -141,7 +141,7 @@
       "speed": "0%"
     },
     "青囊仙子": {
-      "role_voice": "青囊仙子",
+      "role_voice": "华瑶崧",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -153,7 +153,7 @@
       "speed": "0%"
     },
     "灵云": {
-      "role_voice": "灵云",
+      "role_voice": "齐灵云",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -2993,7 +2993,7 @@
       "api": {
         "voice": {
           "role": "青囊仙子",
-          "role_voice": "青囊仙子",
+          "role_voice": "华瑶崧",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3208,7 +3208,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",

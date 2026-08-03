@@ -21,7 +21,7 @@
       "speed": "-6%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "+3Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -374,7 +374,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -412,7 +412,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -519,7 +519,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",
@@ -784,7 +784,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+3Hz",

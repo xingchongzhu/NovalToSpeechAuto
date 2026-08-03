@@ -33,7 +33,7 @@
       "speed": "-2%"
     },
     "灵云": {
-      "role_voice": "灵云",
+      "role_voice": "齐灵云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -57,7 +57,7 @@
       "speed": "+3%"
     },
     "南姑": {
-      "role_voice": "南姑",
+      "role_voice": "章南姑",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-1%"
@@ -566,7 +566,7 @@
       "api": {
         "voice": {
           "role": "南姑",
-          "role_voice": "南姑",
+          "role_voice": "章南姑",
           "speed": "-1%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -617,7 +617,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -655,7 +655,7 @@
       "api": {
         "voice": {
           "role": "灵云",
-          "role_voice": "灵云",
+          "role_voice": "齐灵云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

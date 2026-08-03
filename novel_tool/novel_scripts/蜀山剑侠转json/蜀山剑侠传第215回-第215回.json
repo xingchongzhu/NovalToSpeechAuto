@@ -69,13 +69,13 @@
       "speed": "-2%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
     },
     "穷神凌浑": {
-      "role_voice": "穷神凌浑",
+      "role_voice": "凌浑",
       "pitch": "-6Hz",
       "volume": "0%",
       "speed": "-8%"
@@ -87,7 +87,7 @@
       "speed": "-4%"
     },
     "百禽道人公冶黄": {
-      "role_voice": "百禽道人公冶黄",
+      "role_voice": "公冶黄",
       "pitch": "-5Hz",
       "volume": "0%",
       "speed": "-6%"
@@ -135,7 +135,7 @@
       "speed": "-2%"
     },
     "赤杖仙童阮纠": {
-      "role_voice": "赤杖仙童阮纠",
+      "role_voice": "阮纠",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -1693,7 +1693,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1788,7 +1788,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -1845,7 +1845,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -2074,7 +2074,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2611,7 +2611,7 @@
       "api": {
         "voice": {
           "role": "百禽道人公冶黄",
-          "role_voice": "百禽道人公冶黄",
+          "role_voice": "公冶黄",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -2775,7 +2775,7 @@
       "api": {
         "voice": {
           "role": "百禽道人公冶黄",
-          "role_voice": "百禽道人公冶黄",
+          "role_voice": "公冶黄",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-5Hz",
@@ -2927,7 +2927,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -2965,7 +2965,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",
@@ -3092,7 +3092,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -3149,7 +3149,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -3212,7 +3212,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "赤杖仙童阮纠",
+          "role_voice": "阮纠",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3269,7 +3269,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "赤杖仙童阮纠",
+          "role_voice": "阮纠",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3339,7 +3339,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "赤杖仙童阮纠",
+          "role_voice": "阮纠",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3453,7 +3453,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -3472,7 +3472,7 @@
       "api": {
         "voice": {
           "role": "赤杖仙童阮纠",
-          "role_voice": "赤杖仙童阮纠",
+          "role_voice": "阮纠",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -3643,7 +3643,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -3681,7 +3681,7 @@
       "api": {
         "voice": {
           "role": "穷神凌浑",
-          "role_voice": "穷神凌浑",
+          "role_voice": "凌浑",
           "speed": "-8%",
           "volume": "0%",
           "pitch": "-6Hz",

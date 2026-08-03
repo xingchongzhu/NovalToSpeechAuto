@@ -15,7 +15,7 @@
       "speed": "-10%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "+2%"
@@ -39,7 +39,7 @@
       "speed": "-2%"
     },
     "百禽道人公冶黄": {
-      "role_voice": "百禽道人公冶黄",
+      "role_voice": "公冶黄",
       "pitch": "-4Hz",
       "volume": "0%",
       "speed": "-6%"
@@ -139,7 +139,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -202,7 +202,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "+2%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -416,7 +416,7 @@
       "api": {
         "voice": {
           "role": "百禽道人公冶黄",
-          "role_voice": "百禽道人公冶黄",
+          "role_voice": "公冶黄",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -491,7 +491,7 @@
       "api": {
         "voice": {
           "role": "百禽道人公冶黄",
-          "role_voice": "百禽道人公冶黄",
+          "role_voice": "公冶黄",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",
@@ -523,7 +523,7 @@
       "api": {
         "voice": {
           "role": "百禽道人公冶黄",
-          "role_voice": "百禽道人公冶黄",
+          "role_voice": "公冶黄",
           "speed": "-6%",
           "volume": "0%",
           "pitch": "-4Hz",

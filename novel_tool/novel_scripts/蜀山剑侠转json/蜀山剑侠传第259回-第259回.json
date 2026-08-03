@@ -63,7 +63,7 @@
       "speed": "-2%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "-3Hz",
       "volume": "+2%",
       "speed": "-5%"
@@ -1377,7 +1377,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-3Hz",
@@ -1510,7 +1510,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-3Hz",
@@ -1746,7 +1746,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-3Hz",
@@ -2165,7 +2165,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-5%",
           "volume": "+2%",
           "pitch": "-3Hz",

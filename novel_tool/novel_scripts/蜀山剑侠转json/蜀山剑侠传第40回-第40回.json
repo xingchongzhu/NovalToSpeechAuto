@@ -21,7 +21,7 @@
       "speed": "0%"
     },
     "万里飞虹佟元奇": {
-      "role_voice": "万里飞虹佟元奇",
+      "role_voice": "佟元奇",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -39,7 +39,7 @@
       "speed": "0%"
     },
     "白侠孙南": {
-      "role_voice": "白侠孙南",
+      "role_voice": "孙南",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -81,7 +81,7 @@
       "speed": "0%"
     },
     "飞天夜叉马觉": {
-      "role_voice": "飞天夜叉马觉",
+      "role_voice": "马觉",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -181,7 +181,7 @@
       "api": {
         "voice": {
           "role": "万里飞虹佟元奇",
-          "role_voice": "万里飞虹佟元奇",
+          "role_voice": "佟元奇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -257,7 +257,7 @@
       "api": {
         "voice": {
           "role": "万里飞虹佟元奇",
-          "role_voice": "万里飞虹佟元奇",
+          "role_voice": "佟元奇",
           "speed": "0%",
           "volume": "0%",
           "pitch": "-1Hz",
@@ -999,7 +999,7 @@
       "api": {
         "voice": {
           "role": "飞天夜叉马觉",
-          "role_voice": "飞天夜叉马觉",
+          "role_voice": "马觉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -1446,7 +1446,7 @@
       "api": {
         "voice": {
           "role": "白侠孙南",
-          "role_voice": "白侠孙南",
+          "role_voice": "孙南",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

@@ -1056,7 +1056,7 @@
       "api": {
         "voice": {
           "role": "谢璎",
-          "role_voice": "谢璎/谢琳",
+          "role_voice": "谢璎_谢琳",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

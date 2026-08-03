@@ -77,8 +77,8 @@ def convert_chinese_to_arabic(text):
     if re.match(r"第(\d+)(回|章)(.*)", text):
         return text
 
-    # 匹配 "第" + 中文数字 + "回/章" 的模式
-    match = re.match(r"(第)(.+?)(回|章)(.*)", text)
+    # 匹配 "第" + 中文数字 + "回/章" 的模式（use search to find it anywhere in filename）
+    match = re.search(r"(第)(.+?)(回|章)(.*)", text)
     if not match:
         return text
 
@@ -88,7 +88,11 @@ def convert_chinese_to_arabic(text):
     suffix = match.group(4) if match.lastindex >= 4 else ""
 
     try:
-        result = _chinese_num_to_int(num_str)
+        # 如果已经是阿拉伯数字，直接使用
+        if num_str.isdigit():
+            result = int(num_str)
+        else:
+            result = _chinese_num_to_int(num_str)
     except (ValueError, KeyError):
         return text
 
@@ -162,10 +166,10 @@ def organize_audio_files():
                     chapter_name = chapter_name.replace("_", " ")
                     
                     # 尝试提取章节序号
-                    # 匹配"第X回"或"第X章"格式
-                    match = re.match(r"第(.+?)回", chapter_name)
+                    # 匹配"第X回"或"第X章"格式（use search instead of match for names prefixed with novel name）
+                    match = re.search(r"第(.+?)回", chapter_name)
                     if not match:
-                        match = re.match(r"第(\d+)章", chapter_name)
+                        match = re.search(r"第(\d+)章", chapter_name)
                     if match:
                         num_str = match.group(1)
                         try:

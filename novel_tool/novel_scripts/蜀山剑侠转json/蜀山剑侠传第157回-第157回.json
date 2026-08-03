@@ -33,7 +33,7 @@
       "speed": "0%"
     },
     "冬秀": {
-      "role_voice": "冬秀",
+      "role_voice": "邵冬秀",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -51,7 +51,7 @@
       "speed": "-5%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+2Hz",
       "volume": "0%",
       "speed": "0%"
@@ -63,13 +63,13 @@
       "speed": "0%"
     },
     "英琼": {
-      "role_voice": "英琼",
+      "role_voice": "李英琼",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "0%"
     },
     "轻云": {
-      "role_voice": "轻云",
+      "role_voice": "周轻云",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "-2%"
@@ -452,7 +452,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -490,7 +490,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -584,7 +584,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -603,7 +603,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -641,7 +641,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -660,7 +660,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "0%",
           "pitch": "+2Hz",
@@ -825,7 +825,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",
@@ -844,7 +844,7 @@
       "api": {
         "voice": {
           "role": "英琼",
-          "role_voice": "英琼",
+          "role_voice": "李英琼",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -863,7 +863,7 @@
       "api": {
         "voice": {
           "role": "轻云",
-          "role_voice": "轻云",
+          "role_voice": "周轻云",
           "speed": "-2%",
           "volume": "0%",
           "pitch": "0Hz",

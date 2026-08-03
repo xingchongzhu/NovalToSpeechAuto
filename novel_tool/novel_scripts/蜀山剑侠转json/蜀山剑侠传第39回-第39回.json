@@ -51,7 +51,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -63,7 +63,7 @@
       "speed": "0%"
     },
     "素因大师": {
-      "role_voice": "素因大师",
+      "role_voice": "素因",
       "pitch": "+1Hz",
       "volume": "0%",
       "speed": "0%"
@@ -99,7 +99,7 @@
       "speed": "0%"
     },
     "游龙子韦少少": {
-      "role_voice": "游龙子韦少少",
+      "role_voice": "韦少少",
       "pitch": "0Hz",
       "volume": "0%",
       "speed": "0%"
@@ -598,7 +598,7 @@
       "api": {
         "voice": {
           "role": "游龙子韦少少",
-          "role_voice": "游龙子韦少少",
+          "role_voice": "韦少少",
           "speed": "0%",
           "volume": "0%",
           "pitch": "0Hz",

@@ -33,7 +33,7 @@
       "speed": "0%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "-2%"
@@ -93,7 +93,7 @@
       "speed": "-2%"
     },
     "侏儒/矮怪": {
-      "role_voice": "侏儒/矮怪",
+      "role_voice": "侏儒_矮怪",
       "pitch": "-4Hz",
       "volume": "+2%",
       "speed": "-4%"
@@ -1550,7 +1550,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -1872,7 +1872,7 @@
       "api": {
         "voice": {
           "role": "侏儒/矮怪",
-          "role_voice": "侏儒/矮怪",
+          "role_voice": "侏儒_矮怪",
           "speed": "-4%",
           "volume": "+2%",
           "pitch": "-4Hz",
@@ -2030,7 +2030,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2417,7 +2417,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -2696,7 +2696,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "-2%",
           "volume": "+1%",
           "pitch": "+1Hz",

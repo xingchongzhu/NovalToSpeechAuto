@@ -27,7 +27,7 @@
       "speed": "-8%"
     },
     "神驼乙休": {
-      "role_voice": "神驼乙休",
+      "role_voice": "乙休",
       "pitch": "-2Hz",
       "volume": "+2%",
       "speed": "-2%"
@@ -39,7 +39,7 @@
       "speed": "-8%"
     },
     "采薇僧朱由穆": {
-      "role_voice": "采薇僧朱由穆",
+      "role_voice": "朱由穆",
       "pitch": "-1Hz",
       "volume": "0%",
       "speed": "-5%"
@@ -87,7 +87,7 @@
       "speed": "+2%"
     },
     "金蝉": {
-      "role_voice": "金蝉",
+      "role_voice": "齐金蝉",
       "pitch": "+1Hz",
       "volume": "+1%",
       "speed": "0%"
@@ -105,7 +105,7 @@
       "speed": "0%"
     },
     "女神婴易静": {
-      "role_voice": "女神婴易静",
+      "role_voice": "易静",
       "pitch": "+2Hz",
       "volume": "+1%",
       "speed": "-1%"
@@ -305,7 +305,7 @@
       "api": {
         "voice": {
           "role": "神驼乙休",
-          "role_voice": "神驼乙休",
+          "role_voice": "乙休",
           "speed": "-2%",
           "volume": "+2%",
           "pitch": "-2Hz",
@@ -514,7 +514,7 @@
       "api": {
         "voice": {
           "role": "金蝉",
-          "role_voice": "金蝉",
+          "role_voice": "齐金蝉",
           "speed": "0%",
           "volume": "+1%",
           "pitch": "+1Hz",
@@ -609,7 +609,7 @@
       "api": {
         "voice": {
           "role": "女神婴易静",
-          "role_voice": "女神婴易静",
+          "role_voice": "易静",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
@@ -716,7 +716,7 @@
       "api": {
         "voice": {
           "role": "女神婴易静",
-          "role_voice": "女神婴易静",
+          "role_voice": "易静",
           "speed": "-1%",
           "volume": "+1%",
           "pitch": "+2Hz",
