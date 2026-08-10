@@ -923,8 +923,10 @@ class AudioEngine:
                     print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
                     prefix_sample_count = 0
 
-            # 按实际前缀音频长度裁剪，保留 15% 安全边距避免削到正文
-            safe_trim = int(prefix_sample_count * 0.85) if prefix_sample_count > 0 else 0
+            # 按实际前缀音频长度裁剪，保留 5% 安全边距避免削到正文
+            # 注意：前缀"话说，"附着在不同正文上时 TTS 合成时长可能略长于独立测量值，
+            # 因此安全边距不能太大，否则前缀残留
+            safe_trim = int(prefix_sample_count * 0.92) if prefix_sample_count > 0 else 0
             if safe_trim > 0:
                 print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
@@ -1127,8 +1129,8 @@ class AudioEngine:
                     print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
                     prefix_sample_count = 0
 
-        # 按实际前缀音频长度裁剪，保留 15% 安全边距避免削到正文
-        safe_trim = int(prefix_sample_count * 0.85) if prefix_sample_count > 0 else 0
+        # 按实际前缀音频长度裁剪，保留 5% 安全边距避免削到正文
+        safe_trim = int(prefix_sample_count * 0.92) if prefix_sample_count > 0 else 0
         if safe_trim > 0:
             print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
@@ -1204,8 +1206,8 @@ class AudioEngine:
                 del result_holder
                 del exception_holder
                 if len(seg) > 5 and safe_trim > 0 and len(chunk) > safe_trim:
-                    # 短句（≤15 字）使用更保守的裁剪比例，避免削到正文
-                    _trim_ratio = 0.5 if len(seg) <= 15 else 1.0
+                    # 短句（≤15 字）裁剪比例降低但仍应去掉大部分前缀，避免残留
+                    _trim_ratio = 0.75 if len(seg) <= 15 else 1.0
                     _trim = int(safe_trim * _trim_ratio)
                     if len(chunk) > _trim:
                         chunk = chunk[_trim:]

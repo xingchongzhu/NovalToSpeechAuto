@@ -1,0 +1,1930 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第307回",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "易静": {
+      "role_voice": "易静",
+      "pitch": "+2Hz",
+      "volume": "0%",
+      "speed": "-2%"
+    },
+    "铁姝": {
+      "role_voice": "铁姝",
+      "pitch": "+3Hz",
+      "volume": "+1%",
+      "speed": "+2%"
+    },
+    "赵长素": {
+      "role_voice": "赵长素",
+      "pitch": "-3Hz",
+      "volume": "0%",
+      "speed": "-4%"
+    },
+    "石慧": {
+      "role_voice": "石慧",
+      "pitch": "+5Hz",
+      "volume": "-1%",
+      "speed": "+2%"
+    },
+    "双鬟甲": {
+      "role_voice": "双鬟甲",
+      "pitch": "+4Hz",
+      "volume": "-1%",
+      "speed": "+2%"
+    },
+    "双鬟乙": {
+      "role_voice": "双鬟乙",
+      "pitch": "+4Hz",
+      "volume": "-1%",
+      "speed": "+2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第307回",
+          "instruct": "庄重大气，掷地有声，说书人的韵味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "雷发紫霆珠霹雳一声逃老魅身潜兜率伞香光百里困神婴其实，赵长素魔法原高，只为人太好猾，上来吃了大亏；又见敌人所用法宝、飞剑无一不是仙府珍奇；加以昔年为天蒙禅师所败，把几件魔教中至宝丧失殆尽；又曾记着禅师遗偈警告，常存戒心，有些胆怯。就这样，仍想先仗敌人之力，破那佛家禁制，只要能够出困，立下杀手暗算。哪知禁法刚破，神雷便似狂涛一般随后涌到，如非精干玄功，飞遁神速，魔法又高，单这连珠霹雳，先就禁受不住。认出此与昔年幻波池圣姑威震群魔的乾天一元霹雳子威力相等，并还同一路数。猛想起前半年魔女铁姝路过岷山，便道来访，曾经提起目前正教昌明，尤以峨眉派为最。悍妻鸠盘婆因为大劫将临，不特格外敛迹，并还再三告诫门人，不许生事；未奉师命，如与正教中人为仇对敌，不问胜败，均加严责。铁姝素来强横，本就心中气愤，偏巧这数年中几次连遇正教中人，发生争斗，均遭失利。最吃亏的是，有一次为了好友天门神君林瑞将所炼神魔借去，为正教中人所灭，自己得信赶去，途遇玉清大师出头作梗，神魔不曾收回，反为所败，回山又受师责。还有一次，助一好友夫妇与峨眉派女弟子朱文为仇，眼看追上，不料尸毗老人出面，将所追峨眉女弟子和灵峤仙府一个后辈女仙强行夺去，回山向师哭诉。这次总算乃师为之作主，但仍不敢径寻峨眉派的晦气，借口峨眉派未与铁蛛为仇，并还望影而逃，与之无干；只有尸毗老人强行出头，欺人太甚，意欲报复，却仍不敢当时就去。过了些日，用晶球照影，看出对头四面楚歌，方始赶往赴约。那次时机不巧，对方敌人曾用仙法颠倒阴阳，隐蔽真情，好些事事前均未看出，以致失利。乃师总算见机，未等现出败象，当先遁走。铁姝复仇心切，还不肯就退，自恃带有九子母天魔，妄想乘人于危。不料到场强敌法力既高，并还专与魔教中人为难，整座火云岭神剑峰全都下有禁制。如非乃师知她性情刚愎，不肯就退，暗用魔法为之接应，几乎命都不保。铁姝经此一来，更加痛恨，自恃乃师当初炼九子母天魔时，为防神魔反噬，曾用铁姝为替身，师徒二人合力同炼，将来抵御天劫非此不可，任闯多大的祸，至多受罚；决不会亲下毒手，和别的门人一样，当时处死，身遭惨杀，还受炼魂之祸。因而日夜气忿，筹思报仇之法。后又访出乃师平日引为后患的昔年强仇，已经一真大师佛法妙用，将元神炼成婴儿。法力较前更高，改名女神婴易静，投到峨眉门下，不久便要入居幻波池求取圣姑所留藏珍。此人最前生名叫白幽女，转劫三世，倒有两世为师父所杀，仇深似海，迟早非来报复不可。前数年，乃师还令门人打听她的下落，近年不知何故，不曾提起。及至回去一说，乃师声色不动，若无其事。后经再三怂恿，才说：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "阴风低啸",
+            "sound_cn": "远处阴风低低呼啸，魔氛隐约，气氛阴森压抑",
+            "sound_en": "distant dark wind howling low, demonic atmosphere lurking, eerie and tense",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "雷发紫霆珠霹",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "晶球微光",
+            "sound_cn": "晶球照影时发出细微的嗡鸣声，光晕流转",
+            "sound_en": "crystal ball humming softly as it reflects images, light ripples flowing",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "又见敌人所用",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "敌人现已投到峨眉派门下，她师长妙一真人夫妇与我相识，这两人虽是正教中有名人物，一向与人为善，对于异派，并不忌恨。本门教规：人不犯我，我不犯人。况我九天秘魔玄经已早炼成，多厉害的仇敌也无奈我何，不足为虑。看她师长面上，只要不来我魔宫侵扰，便由她去。当时因见乃师每日运用玄功，勤炼魔经，以为欲取姑与，谋定后动，仇敌师长法力太高，惟恐泄漏之故，也未在意。过不多日，乃师忽命金妹、银妹去往峨眉庆贺开府，才知师父畏惧峨眉，不敢报仇，还想借此结交。想起本教以往威名，怕过谁来，一直气在心里。新近听说仇人已作幻波池之主，尽得藏珍、灵药，功力日高，已不可制，越想越恨。铁株对赵长素谈时，还埋怨师父胆小怕事，甚是气忿。赵长素心想：",
+          "instruct": "阴森叙述，气氛凝重，暗藏玄机"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "照今日敌人所用法宝和那道力，果如铁姝所言，甚至更盛。幻波池藏珍中，倒有好几件是自己的克星，如其全被得去，休说自己连经重创，惨败之余，非其敌手，便悍妻鸠盘婆欲杀此人，也非容易。心胆一寒，猛生毒计。暗忖：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "心胆寒颤",
+            "sound_cn": "心底寒意泛起，呼吸微促，阴谋在暗中滋生",
+            "sound_en": "chill rising in the heart, breath quickening slightly, dark scheme brewing in the shadows",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "照今日敌人所",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "如与此女明斗，决非其敌，仇报不成，还要受伤。别的同党，有的已被正教诛戮，有的多年未见，不知底细，相隔又远。如将仇敌引往九环山鸠盘婆新辟魔宫，嫁祸东吴，固是极妙。只是急难之中望门投止，以悍妻为人，不但不会怜悯，必还尽情奚落。再要看破自己的阴谋，生出反感，就许将自己和敌人一同困入九连宫内，坐山观虎斗。自己如死敌手，她再发难报仇，固无幸理；便是自己侥幸得胜，也必历诉以前负心之罪，不肯轻易放过。不论胜败，均不好受，转不如设计诱激，借着别人将悍妻引出，既免嘲笑，还可免去应那昔年誓言。想到这里，便不再行法抵敌。为防被人事前看出，拼耗元气，二次咬破舌尖，施展魔法，幻化出一个替身，朝着反方向飞去。又恐敌人误认，不来追赶，另现出一点真形，朝前飞走。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "舌尖咬破",
+            "sound_cn": "咬破舌尖的细微声响，鲜血涌出，魔法随之发动",
+            "sound_en": "slight sound of biting tongue tip, blood flowing, magic spell activated instantly",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "与此女明斗",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "魔光分化",
+            "sound_cn": "黑色魔光剧烈闪动，幻化替身分向两边飞射，破空声刺耳尖锐",
+            "sound_en": "dark demonic light flashing violently, conjured double splitting and flying in opposite directions, sharp whooshing sound",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "如与此女明斗",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "真形飞走",
+            "sound_cn": "赵长素真形朝前方飞遁，魔光一闪即逝，风声急促",
+            "sound_en": "Zhao Changsu's true form flying forward, demonic light flashing briefly, urgent wind sound",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "仇报不成",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "其实，易静见神雷未将妖人困住，一面朝前急追，一面早用法宝查看，已看出妖人幻化替身，东西分驰，赵长素便不故意做作，易静也不至于扑空；赵长素再一显露形迹，易静对那幻影化身直如未见，便紧追不舍。易静性刚疾恶，本就不肯放过，加以赵长素存心诱敌，不住现形引逗，易静怒火更被勾起，决计不将妖人追上，决不罢手。双方飞行都快，不消片刻，便入了川边大雪山境。易静起初也曾疑心妖人故意诱敌，一见所行途向与鸠盘婆魔宫相反，没想到鸠盘婆已迁至此，以致疑心消失。原来近年鸠盘婆因为大劫将临，所炼各种神魔过于阴毒，大犯正邪各派之忌，而前居魔宫高居山顶，炼法时又易被外人发现。新近又为报尸毗老人之仇，乘其坐关入定，前往暗算，不料也大败而归，并且失去至宝一件。回宫以后，越想越觉连树强敌不是好兆。想起自己所炼魔法虽极凶毒，从不无故害人。以前为了门下男女弟子淫凶为恶，并还清理门户，大加杀戮，重定严规，立下戒条，并非不畏天命。好些倒行逆施，均由昔年情场失意而起。如今祸在临头，不知何时就要发作，委实疏忽不得。心气一馁，顾虑便多，以为到处都是危机。本就认定滇西老巢不是善地，意欲觅地迁移，但恐铁姝等悍徒暗中讥笑，正在为难。这日金妹、银妹偶往大雪山中采药，发现深山绝壑之中有一奇景。归告乃师鸠盘婆，用晶球视影一看，竟是古仙人遗留的一座洞天福地。因为以前封山禁法未撤，长年满布阴云，地又十分隐僻，所以从来无人得知。妙在山脉与魔宫通连，中间并有几处天然洞径，稍为行法，便可通连一起，好生欢喜，当即移居在内，至今才只半年。又在万丈冰壑之下，相隔百里，另有一座洞府与之通连，原是前主人女弟子所居，外景尤为灵秀。因防外人发现，便命铁姝移居在内。旧日魔宫老巢，令一门人留守，也不弃去。为求缜密，并用魔法隐蔽，将两处洞府人口封禁。只有赵长素一人听铁姝无心泄漏，外人从未得知。易静对旧魔宫原曾去过，一见所追途向不对，以为妖人夫妇有仇，前途不是妖窟，便是另一妖党所居之处。自恃法力，上次三探幻波池，那等惊险局面，并还隐身宝鼎之内，被那大五行绝灭神光线围困苦炼多日，尚且无害，何况年来道力精进，又有二十余件至宝随身，多厉害的邪法也奈何自己不得。可惜事前不知，毫无准备，否则只消将方瑛、元皓二人带了同来，哪怕敌人所居是在万丈冰山之内，也不怕他逃上天去。越想胆子越壮。一面暗骂：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光破空",
+            "sound_cn": "遁光急速破空飞行，风声猎猎作响，衣袍在高速中鼓荡",
+            "sound_en": "遁光 tearing through the air rapidly, wind howling loudly, robes flapping violently",
+            "volume": "-22%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "易静见神雷未",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "雪山寒风",
+            "sound_cn": "大雪山狂风呼啸，冻云翻涌如浪，雪花冰尘漫天飞舞",
+            "sound_en": "howling gale over snowy mountains, frozen clouds churning, snow and ice dust swirling wildly",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "急追",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 18.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "晶球视影",
+            "sound_cn": "晶球光晕转动，映射出远山奇景，低沉嗡鸣声",
+            "sound_en": "crystal ball glowing and rotating, reflecting distant mountain wonders, low humming resonance",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "便不故意做作",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "老妖孽无须诱敌，只要被我追上，休想活命！一面暗中准备法宝和五行仙遁，并以全力紧催遁光，加速前追。打算只要追近敌人百丈以内，便以全力施为，同时发难，不等追到妖窟，先将妖人除去，免留后患。赵长素先还恐怕敌人半途而废，或是看破阴谋，先自遁走，白费心力，因而故意与追敌保持不大远的距离。后有两次连受敌人法宝追袭，几为所伤，看出厉害，才逃得远一些。追到后来，敌人遁光忽然加快数倍，差一点被追上，越觉厉害，哪里还敢引逗，忙以全力加急前飞，遥望前途已将到达。想起昔年何等威名，只为害人大多，致为天蒙禅师所败，魔法、异宝多被破去，今日连个后生小辈均敌不过，反倒求助昔年门下。越想越难受，但又无计可施。一按魔光，正要往下飞降，下面阴云浓雾忽似狂涛一般往上一合，立被卷了下去。当地原有魔法禁闭，外人到此，只见到处冰峰刺天，雪岭入云，大片冰崖绝壑，冻云弥漫，冷雾昏茫。休说常人，便是慧目法眼，也不能透视到底。加上阴风怒号，雪尘飞舞，全是一派幽冷阴森凄厉之景，谁也不愿在此停留。万想不到，绝岭下面还有偌大一片奇景。即便得知，有那魔法层层禁制，中间一带更有魔火、金刀之险，多高法力也难冲破。易静本用众生环查看逃敌踪迹，向前急追。嗣见妖人亡命飞逃，伎俩已穷，急于追杀，未了一段，恰未用众生环查看，一时疏忽。遥望妖人已快追近，相隔不过二三里之遥，脚底乱山纵横，到处均彼冰雪堆满，前面冻云惨雾越来越厚。正追之间，妖人忽然穿入前面密云浓雾之中，看神气，似正掉头向下，近前再看，已经无踪。忙取法宝查看，不论何方，均看不出丝毫影迹。心正奇怪，忽听妖人咒骂之声发自下面。又有一个女子似朝妖人数说喝骂，仿佛妖人被那女子擒住神气。声音来自崖底，听去甚深，只不真切。暗忖：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "遁光加速",
+            "sound_cn": "遁光骤然加速数倍，破空声如撕裂绸缎般尖厉",
+            "sound_en": "遁光 accelerating abruptly several times over, whooshing sound like tearing silk",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "妖孽无须诱敌",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 10.0,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "阴云合拢",
+            "sound_cn": "下方阴云浓雾如狂涛巨浪般向上合拢，将人猛然卷入，沉闷轰鸣",
+            "sound_en": "dark clouds and dense fog surging upward like raging tidal waves, engulfing suddenly with dull roaring",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "备法宝和五行",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 14.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "魔火金刀",
+            "sound_cn": "禁制中魔火熊熊燃烧，金刀破空锐响，阴森可怖",
+            "sound_en": "demonic fire blazing within the prohibition, golden blades whistling sharply, eerie and terrifying",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "力紧催遁光",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这等荒凉幽寂的雪山危崖，难道还有仙灵隐居不成？心念才动，忽然一阵香风吹过，十分浓烈，好似夜合花的香味。心疑有异，运用慧目注视，前面仍是一片昏茫，布满愁云惨雾，也分不出地形高下。因那香风一阵接一阵由身后顺风吹来，方觉出花香奇怪。猛一回顾，脚底云雾开处，忽现大片奇景。原来身后乃是一片又宽又大，其深数千丈的冰崖绝岭。本来上面布满愁云惨雾，转盼之间，那壑中万丈愁云一团团疾如奔马，正往四外涌去，现出一片数亩宽的云洞。俯视下面，山原绣列，山光如笑，清丽绝伦，居然有山有水，有花有树。所有山峰，均不甚高，估计最高的不过七八十丈，但都玲珑秀拔，宛如二三十根碧玉簪倒插在锦原绣野，清泉白石之间。山巅水涯，现出好些金银宫阕，玉楼飞阁。更有好些珍禽奇兽，飞舞往来，意态悠闲。虽不似小寒山那等清空灵淑，而富丽堂皇只有过之。易静暗想：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "香风浓烈",
+            "sound_cn": "浓烈的夜合花香随风袭来，香气馥郁充盈，经久不散",
+            "sound_en": "strong night-blooming cereus fragrance carried by the wind, rich and lingering scent filling the air",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "这等荒凉幽寂",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "云开景现",
+            "sound_cn": "愁云惨雾如奔马般向四面散去，下方锦绣山河骤然显现，金银宫阙隐现其间",
+            "sound_en": "dark clouds parting like galloping horses, revealing magnificent landscapes below, golden and silver palaces emerging",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "难道还有仙灵",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 10.0,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "珍禽和鸣",
+            "sound_cn": "下方珍禽异兽发出清脆悠扬的鸣叫声，悠然自得如仙境",
+            "sound_en": "rare birds and exotic beasts singing clear and melodious calls, peaceful and leisurely like fairyland",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心念才动",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凝碧仙府也是深山地底，莫非此是地仙宫阕？妖人无心犯禁，已被擒住，主人特地开云引我出见，也未可知。易静原极细心，虽觉花香奇怪，因见无什邪气，也就减了疑虑。本来还想仔细查考，忽听妖人又怒啸了两次，又有主人笑语之声，急切间也没想到，凭自己的听力，上下相隔不过二三十丈，笑语之声已经入耳，又在留神查听，怎会一句也听不出？始终认为妖人已被主人擒住，想是得道年久，行辈较高，欲令自己亲自去见，将所擒妖人当面交付，否则不会如此。即便话不投机，万一遇见妖党，凭自己的道力法宝，也非所惧。略一寻思，便按遁光往下飞降。易静到地一看，比起由上望下又是一番光景。景物之奇还在其次，最怪的是偌大一片地面，到处花树成林，香光灿烂，繁艳无比，已是从来少见；而那些楼台殿阁，又都是金银珠翠、美玉珊瑚之类建造而成，处处显得繁华富丽。分明是仙景，不知怎的，总觉得带有几分火气。先前所闻妖人和女子喝骂笑语之声早已停止。楼台房舍甚多，到处静悄悄，不见人影。心想：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "飞降落地",
+            "sound_cn": "遁光向下缓缓飞降，衣袂轻扬，落地时脚步轻稳",
+            "sound_en": "遁光 descending slowly, robes fluttering gently, light and steady footsteps upon landing",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "仙府也是深山",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "花树摇曳",
+            "sound_cn": "奇花异树在微风中轻轻摇曳，花瓣簌簌飘落，芳香弥漫",
+            "sound_en": "exotic flowers and trees swaying gently in breeze, petals falling with soft rustling, fragrance filling the air",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "此是地仙宫阕",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "对方如存敌意，不应如此光景。初次到此，不知主人姓名来历，不便冒失。意欲往那就近楼台殿阁之前，自吐来意，通名求见。为示谦敬，又存好奇之想，已经深入主人境内，也未飞行，一路暗中留意查看，戒备前行。初意那些楼台相隔不过二三十丈远近，转眼可达，因见景物繁富，一路观赏，也未留意。及至走了一阵，偶一回顾，先见好些楼台殿阁均已落在身后。当时因见景物宁静，除却富贵气重，到处金碧辉煌，异香浓烈而外，看不出别的警兆。以为沿途观景，将路走差；或是一时分神，忽略过去。并未想到深入重地，已陷埋伏之内，危机瞬息，将快发难。第二次恐又惜过，看准地方，再往前走。不料走着走着，微一分神旁顾，前面金碧楼台忽又不见。再一回顾，却又到了身后。易静功力甚高，上来不过闻到魔香，一时疏忽，暂时迷糊，本身元灵坚定，并未丝毫摇动。一经警觉，立时醒悟，忙用玄功镇定心神，当时灵智恢复，重返清明，只仍未想到主人存什恶意。暗忖：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "轻步花径",
+            "sound_cn": "在花径上缓步前行，脚下落花发出轻微窸窣声，衣袂拂过枝叶",
+            "sound_en": "walking slowly on flower path, fallen petals rustling softly underfoot, robes brushing through branches",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "方如存敌意",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "楼台移位",
+            "sound_cn": "金碧楼台在目光转移间悄然变换位置，发出极轻微的空气波动声",
+            "sound_en": "golden and jade pavilions shifting positions subtly as gaze turns, faint air fluctuation sound",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "不知主人姓名",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "凭我三世修为，慧目法眼，眼前这点地面，怎会走过都不觉得？主人分明有阵法布置埋伏，但不知是何用意。孤身深入，对方来历姓名从未听人说过，不可冒失行事。看妖人到此，只先后怒骂吼啸了两次，便不再有声息，可知主人不是寻常人物。虽然自信无疑，到底小心些好。念头一转，仗着所用法宝均与心灵相合，又擅本门潜光蔽影之法，非到应敌出手，敌人决看不出。于是把师传七宝和下山时所得幻波池藏珍中最具防身功效的几件准备停当。表面却装作没事人一般，仍旧从容而行，一任沿途楼台殿阁相继变幻，往后移退，故作受迷不解，仍顺山径往那建有楼舍的大小群峰之中走去。魔法尽管长于变化颠倒，终瞒不过易静一双法眼，这一留意，早看出敌人所用乃是颠倒挪移之法，那二三十座小峰便是阵地。沿途所见金银楼阁，与先前上空所见一样，仍在原处，并未移动。后来所见，乃是主人暗中行法，将原有楼阁行法隐蔽，再将虚影摄去，使在前面出现，诱敌人伏。所以目光微一移动，便自失踪。主人真意虽不可知，这等对客，纵非为敌，也实狂傲无礼。想了一想，觉着可气：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "法宝暗备",
+            "sound_cn": "师传七宝和幻波池藏珍在暗中准备就绪，发出低沉的能量嗡鸣",
+            "sound_en": "master's seven treasures and treasures from Huanbo Pool prepared in secret, low energy hum",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "我三世修为",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你既试我深浅，我也乐得卖弄，相机应付，使你看看本门弟子不是好欺，免得你夜郎自大。易静边想边走，心正寻思，忽见前面枝头满缀繁花，高约数丈的花林之内，走出两个垂髻女鬟。那片花林望去密层层，灿如锦云，花山也似，树高数丈，粗可合抱，形似牡丹。繁花密蕊，千叶连合，奇香浓烈，薰人欲醉。地上浅草如茵，上面满布落花，均未残败。望去宛如一片翠毡，上绣无数五色牡丹，鲜艳无伦。那两女鬟年约十三四岁，生得雪肤花貌，娇小婢停，十分动人怜爱。各穿着一身雪也似白的罗衣，腰系淡青丝带。一个肩扛一根鸭嘴花锄，上挑六角平底、形制精巧的花篮，内放五六朵各色大小鲜花；一个腰佩长剑，手持白玉拂尘。二女由花林深处从容款步而来，并肩笑语，态甚悠闲，对于易静竟似不曾在意。易静见这双鬟生得美秀绝伦，又吃当地景物一陪衬，人面花光，交相掩映，瑶岛仙娃，仿佛相似。暗忖：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "花林走出",
+            "sound_cn": "花林深处枝叶轻响，两个女鬟从繁花丛中款步走出，脚步轻盈细碎",
+            "sound_en": "soft rustling from deep within the flower forest, two young maids emerging gracefully, light and delicate footsteps",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "你既试我深浅",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "佩剑拂尘",
+            "sound_cn": "女鬟腰间佩剑与玉拂尘轻轻碰撞，发出清脆悦耳的声响",
+            "sound_en": "maid's sword and jade fly whisk gently clinking, clear and pleasant tinkling sound",
+            "volume": "-24%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "得卖弄",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "侍女如此，主人可知。也许是位得道多年的前辈地仙，因嫌自己未先通名求见，故意相戏。方在暗笑主人量小：",
+          "instruct": "悬疑叙述，语调低沉，引人探究"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "既助我把妖人擒住，落得卖个人情，偏有许多做作。忽见双鬟本朝自己这面走来，快要临近，忽然侧转，往右走去。易静见她们旁若无人之状，忍不住唤道：",
+          "instruct": "神秘叙述，压低嗓音，营造悬念"
+        },
+        "effects": [
+          {
+            "trigger_delay": 12.1,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "脚步声转",
+            "sound_cn": "双鬟转向右侧，绣鞋踏在草地上发出轻微的沙沙声",
+            "sound_en": "maids turning to the right, embroidered shoes pressing softly on the grass with light rustling",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "走来，快",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "二位姊姊留步。此是哪位仙长洞府？",
+          "instruct": "清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "佩剑的一个转身笑道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "双鬟甲",
+      "api": {
+        "voice": {
+          "role": "双鬟甲",
+          "role_voice": "双鬟甲",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "text": "你是哪里来的？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静见对方笑颜相向，人又那么美好可爱，素日光明磊落，从不肯说一句假话，忙笑答道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我乃峨眉山凝碧崖妙一真人门下弟子易静。令师是哪位仙长，可容拜见领教吗？",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "持花篮的一个面容忽变，冷笑道：",
+          "instruct": "喜悦叙述，语调轻快，喜气洋洋"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "双鬟乙",
+      "api": {
+        "voice": {
+          "role": "双鬟乙",
+          "role_voice": "双鬟乙",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "text": "贱婢已入死地，你和她有什话说？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静方喝：",
+          "instruct": "从容叙述，娓娓道来，引人入胜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "尔等为何口出不逊？叫你师长主人出来见我，免伤和气。",
+          "instruct": "强压怒火，咬牙切齿，愤懑难平，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "话未说完，双鬟同时一声冷笑，把手朝侧一指，喝道：",
+          "instruct": "温馨叙述，语调柔和，暖意融融"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "冷笑刺耳",
+            "sound_cn": "双鬟同时发出尖厉刺耳的冷笑声，充满恶意与嘲讽",
+            "sound_en": "both maids emitting sharp and piercing cold laughter, full of malice and mockery",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "话未说完",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "双鬟乙",
+      "api": {
+        "voice": {
+          "role": "双鬟乙",
+          "role_voice": "双鬟乙",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "text": "不知死活的贱婢，你自看去！",
+          "instruct": "语气试探，带着小心，旁敲侧击"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静闻言，往侧一看，面前倏地一暗。就这晃眼之间，双鬟不见，所有楼台殿阁，繁花美景，一齐失踪。面前现出一座十来丈高大的牌坊，上现「万劫之门」四个大字，其红如血。一片暗赤色的浓影，天塌也似，比电还快，当头下压。身子立陷入万丈红海之中，上不见天，下不见地，四外昏茫，一片殷红如血的浓雾将人埋在里面，隐闻血腥之气刺鼻难闻。易静原是道家元婴炼成的形体，又曾在一真大师门下，对于佛、道两家均有极深根底，又得峨眉真传，这类邪法自难侵害。何况身带法宝甚多，早有防备，尽管深入重地，敌人发动极快，仍是无用。无如命中该有这次灾难，到此境地，仍把对方当作一个旁门中的能手，没想到会是平生夙仇。见状大怒，一面运用玄功，施展法宝，将身护住。正待出手还攻，破那邪法，忽听另一少女用本门传声急唤道：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "天地骤暗",
+            "sound_cn": "周围景象倏然消失，天地陷入浓稠暗红，血腥之气扑面而来",
+            "sound_en": "surroundings suddenly vanishing, plunged into thick crimson darkness, stench of blood assaulting the senses",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "易静闻言",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "万劫之门",
+            "sound_cn": "血红色的「万劫之门」巨牌巍然矗立，字迹如血，散发着不祥之气",
+            "sound_en": "huge blood-red archway with characters 'Gate of Ten Thousand Calamities', ominous and foreboding",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "易静闻言",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "血海翻涌",
+            "sound_cn": "万丈血海如狂涛般翻涌而来，浓稠血雾将一切淹没，浪涛声低沉可怖",
+            "sound_en": "vast blood sea surging like raging tidal waves, thick bloody mist engulfing everything, low and terrible crashing sounds",
+            "volume": "-15%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "往侧一看",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "石慧",
+      "api": {
+        "voice": {
+          "role": "石慧",
+          "role_voice": "石慧",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+5Hz",
+          "text": "被困魔阵的可是幻波池易师伯吗？",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静听这少女语声宛如鸣玉，清脆娱耳，似由地底发出。暗忖：",
+          "instruct": "阴森叙述，气氛凝重，暗藏玄机"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此是何人门下、怎会在此？好在敌人这类阵法，还难不倒自己。便先停手，忙用传声回问：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "我正是幻波池易静，追一老妖人误入埋伏。你是何人门下，叫什名字？",
+          "instruct": "清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "石慧",
+      "api": {
+        "voice": {
+          "role": "石慧",
+          "role_voice": "石慧",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+5Hz",
+          "text": "弟子叫石慧。家师是凌云凤。因寻家师未遇，途遇一女异人，故意相戏，追来此地，被魔女撞见，强要收徒，仗着本门地遁之术，逃来地底潜伏。本来魔女害我容易，无如弟了得那异人指教，逃时乘机偷了她一件要紧东西，她要追逼大紧，便用本门石火神光与之同归于尽。魔女既有此顾忌，又想收我为徒，暂时不肯杀害，只得把地底四面封禁，想断弟子逃路。其实，弟子因得家祖父石仙王的真传，只一沾地，不论万丈石土，均能穿透。因奉那女异人之命，在此等候师伯，不敢离去，好些都是故意做作。魔女凶毒异常，直无人理，她见妖阵无功，医好老男魔后必定亲来。此时无暇详说，且等师伯与魔女斗过一阵，将其打败，再用法宝、神雷朝下猛冲，只要把地面攻破一洞，弟子便可出土，来与师伯会合，一同应敌，那时再说不迟。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静本听金蝉、石生说起过凌云凤与南海双童收服秦岭石仙王关临之孙石慧、石完二人为徒经过，一听是石慧，好生欢喜。闻言还未及答，忽听恶鬼哭啸之声，凄厉刺耳。同时眼前一花，先是四外现出无数大小白骨骷髅，一个挨一个，密层层叠在一起，都是绿发红睛，面容灰白，口中獠牙厉齿森森外露，口喷血焰，互相厉啸，似在唤人名字。全阵又被殷红如血的暗雾布满，衬得万千恶鬼的形态越发狞厉，看去怖人。易静虽听石慧说敌人是个魔女，因那地方与昔年所见魔宫东西相差好几千里，近年又未听说仇敌移居的话，仍未想到强仇大敌近在咫尺，转眼将发生恶斗。仗着法宝、飞剑神奇，早在暗中准备停当，一见恶鬼成群拥来，故意隐忍不发。待其快要拥近身前，突然厉声喝道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "恶鬼哭啸",
+            "sound_cn": "无数恶鬼发出凄厉刺耳的哭啸声，白骨森森相碰，血焰喷涌嘶嘶作响",
+            "sound_en": "countless evil spirits howling and wailing harshly, white bones clacking, blood flames spurting with hissing sounds",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "静本听金蝉",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.5,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "骷髅叠涌",
+            "sound_cn": "白骨骷髅层层叠叠如山涌来，绿发红睛獠牙外露，恐怖至极",
+            "sound_en": "white skulls piling up like mountains and surging forward, green hair and red eyes, fangs bared, utterly terrifying",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "过凌云凤与南",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "无知邪魔，不敢决斗，却叫这类受迫无奈的凶魂厉魄前来送死。",
+          "instruct": "语气坚定，不容置疑，斩钉截铁，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，冷不防将师传七宝连同别的两件法宝、飞剑一齐施展，立有大片宝光齐射精芒，朝众恶鬼冲射过去。紧跟着左手六阳神火鉴，右手太乙神雷，连珠也似四外乱打。那群恶鬼均是铁姝多年聚炼的凶魂厉魄，名为七二神魔，虽极厉害，如何能是易静的对手，这类恶鬼经多年魔法祭炼，均具灵性，早就觉出敌人暗中有极强烈的剑气防身，未敢当时进逼。无奈魔女法令如山，魔阵己被催动，稍微后退，所受惨刑有胜百死。没奈何，只得口中悲啸，狂喷血烟，意欲缓进。谁知敌人发动甚快，威力更大得出奇，前排恶鬼首当其冲，被宝光神雷震散消灭。后面的前进不敢，后退不能，吃六阳神火鉴、太乙神雷联合夹攻，也是纷纷倒退，化为一团团的黑烟，微一滚转，只听一串卿卿啾啾和惨号厉啸之声，便化为乌有，当时消灭了一大片。易静知道这些恶鬼害人甚多，正用飞剑宝光四面扫射，大乙神雷连珠猛击，杀得正高兴头上，耳听石慧地底传声疾呼：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "宝光齐射",
+            "sound_cn": "师传七宝与飞剑同时爆发，大片宝光精芒如暴雨般向恶鬼群冲射而去",
+            "sound_en": "master's seven treasures and flying swords bursting forth, rays of treasure light shooting like rainstorm into the evil spirits",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "冷不防将师传",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.5,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "六阳神火",
+            "sound_cn": "六阳神火鉴发出乾天纯阳真火，鬼影遇火即化为黑烟消散，噼啪爆裂",
+            "sound_en": "Six Yang Fire Mirror emitting pure Yang celestial fire, evil shadows turning to black smoke and dissipating with crackling",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "防将师传七宝",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 7.0,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "太乙神雷",
+            "sound_cn": "太乙神雷连珠炸响，雷霆轰鸣震天，鬼哭魂号被雷声淹没",
+            "sound_en": "Taiyi divine thunder exploding in rapid succession, thunder roaring and shaking the heavens, drowning out ghostly wails",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "件法宝",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 11.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "黑烟消散",
+            "sound_cn": "恶鬼化为团团黑烟滚转消散，伴随着啾啾惨号声逐渐远去",
+            "sound_en": "evil spirits turning into swirling black smoke and dissipating, fading with mournful chirps and howls",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "有大片宝光齐",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 34,
+      "role": "石慧",
+      "api": {
+        "voice": {
+          "role": "石慧",
+          "role_voice": "石慧",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+5Hz",
+          "text": "师伯留意，魔女来了。",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 35,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "声才人耳，猛又听一声极尖锐的厉啸，眼前血光一闪，黑影飞动中，现出一个臂腿赤裸，上穿翠叶云肩，下穿翠羽短裙，肤白如玉，面容冰冷，头插金刀，目射凶光的长身少女。定睛一看，不禁怒从心起，原来那女子正是铁姝。仇人相见，分外眼红。因知魔女邪法高强，不可轻敌，寻常法宝、飞剑无什用处，开头便将师传七宝中的阿难剑发将出去。自古邪正不能并立。魔女铁姝更是天生凶狠刚暴之性，自来有她无人，仗恃炼就神魔和请天秘魔玄经，自信无敌。本身魔法既高，以前所遇敌人又多旁门中人和海外隐居的散仙修士，不是其敌手；或是震于鸠盘婆的凶威，什九退让，自认晦气。有那少数不见机的，多遭残杀，连元神也被摄去，受那炼魂之惨。铁姝自从出山，多少年来不曾失利，于是夜郎自大，越发骄狂。平日自称「顺我者生，逆我者死」，无论何人，均未放在眼里。及至前数年，为了天门神君林瑞，初与玉清大师为敌，便遭惨败，由此对正教中人恨极。但因乃师畏惧天劫，不许向正教中人生事，虽常腹诽，毕竟魔规严厉，不敢违背。只在暗中作祟，凡与正教中人为敌的妖邪，必以全力相助。不料第二次又将所炼神魔失去，等到得信前往寻仇，又遇尸毗老人，大败而归。本在咬牙切齿，无计可施，难得魔头赵长素将仇敌引上门来，如何还肯放过。明知仇敌法力高强，远非昔比，但以天性凶横，自负所炼魔法厉害，当地又布有极厉害的魔阵，什九可以成功。一时疏忽，忘了一件最重要的令符元命牌，前日被一不知姓名的少女巧得了去，尚未取回，好些吃亏之处。如非赵长素再三力劝，说仇敌已将幻波池藏珍得到，法力甚高，不是寻常，直恨不能当时挺身出斗。总算听了老魔之劝，强捺怒火，将敌人诱入魔阵内，然后发难。先还以为准备停当，不怕敌人飞上天去。一见敌人也是怒火上攻，方要开口喝骂，一道金光已电掣飞来。铁姝素来骄狂，冷笑一声，扬手便是九柄碧光闪闪的飞叉，乱箭也似朝前冲去。满拟动作神速，只用一两柄便可敌住对方飞剑，下余上前夹攻，敌人只要沾上一点，便无幸理。何况敌人已陷魔阵之中，还有好些魔法妙用同时发挥威力，法力多强也禁不住。哪知易静一见铁姝现身，便知中了妖人之计，新仇旧忿，同时勾动，立意要制铁姝死命。心虽痛恨，但因魔法厉害，自己初来，虚实不知，又想起数中应有的灾难，越发不敢大意。因而把随身法宝、飞剑光华早隐，只六阳神火鉴正在追杀恶鬼。上来先将阿难剑朝前飞去，暗中又发出一粒灭魔弹月弩和圣姑留赐的降魔至宝紫霆珠。铁姝一味恃强，哪知厉害，飞叉与阿难剑刚一接触，觉出不是寻常飞剑之比，心方一惊，豆大一粒紫光突然爆炸，震天价一声霹雳过去，精芒电射，紫火星飞，那朝敌人进攻的八柄飞叉立被震断了一多半，不由又惊又怒。忙想行法回收，未容施为，紧跟着又是酒杯大小一团银光打向飞叉丛中，也是当时爆炸，将所有飞叉一齐震碎。那紫色雷火毫光一震之后，并未消灭，反似火浪般往上一涌，将残余的断叉残光包围在内，发出大串连珠霹雳之声，全数消灭。铁姝心痛至宝，愤急之下，微一疏神，那柄主叉又被阿难剑裹住，投入雷火丛中，一片爆音过去，也同化为乌有。最厉害的是来势万分猛烈，神速无比，才一入眼，休说行法回收，连念头都不容转，便已消灭。当时愤火中烧，怒发如狂。方想另用邪法异宝取胜，谁知敌人比她更快，眼前倏地一亮，十余道宝光剑光，有好几件降魔至宝在内，六阳神火鉴威力更是神妙，如何能当。铁姝也是气运将终，初时明明见六阳神火鉴宝光所照之处，多年苦炼的七二神魔宛如雪团向火，纷纷消亡，怒火头上，竟会忘了利害。前与尸毗老人拼斗，已伤耗了不少元气，尚未恢复，哪禁得起专破群魔的乾天纯阳真火焚烧冲射。先见宝光剑气纵横飞舞，霞光万道，耀眼欲花，还在暗骂：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "厉啸血光",
+            "sound_cn": "魔女铁姝发出尖锐凄厉的长啸，血光闪动中猛然现身，凶煞之气弥漫四溢",
+            "sound_en": "demoness Tie Shu emitting sharp and piercing howl, appearing suddenly amid blood light, fierce aura spreading around",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "声才人耳",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 6.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "阿难剑出",
+            "sound_cn": "阿难剑化作惊雷金光电掣般飞出，剑鸣如龙吟般清越",
+            "sound_en": "Aran sword flying out like golden lightning, sword hum clear and resonant like dragon roar",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "的厉啸",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "飞叉齐出",
+            "sound_cn": "九柄碧光闪闪的飞叉如乱箭般激射而出，破空声尖锐刺耳",
+            "sound_en": "nine green-glowing flying forks shooting like arrows, sharp and piercing whooshing sounds",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "血光一闪",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 11.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "紫霆珠爆炸",
+            "sound_cn": "紫霆珠炸开震天价一声霹雳，精芒电射紫火星飞，八柄飞叉应声震断",
+            "sound_en": "Purple Thunder Pearl exploding with earth-shattering blast, purple lightning and sparks flying, eight flying forks shattered instantly",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "现出一个臂腿",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 14.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "弹月弩发",
+            "sound_cn": "灭魔弹月弩银光如酒杯飞出，爆炸将所有飞叉尽数震碎，银芒四射",
+            "sound_en": "Moon-Breaking Crossbow releasing silver light like a cup, exploding and shattering all flying forks, silver light flashing",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "上穿翠叶云肩",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 17.0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "连珠霹雳",
+            "sound_cn": "紫色雷火将断叉残光卷入其中，连珠霹雳炸响，轰鸣不绝",
+            "sound_en": "purple thunder flames engulfing broken fork remnants, continuous thunderous explosions, roaring without end",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "下穿翠羽短裙",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 21.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "宝光合围",
+            "sound_cn": "十余道宝光剑光突然合围而上，霞光万道耀眼欲花",
+            "sound_en": "ten-odd treasure and sword lights surrounding suddenly, ten-thousand rays of light dazzling the eyes",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "面容冰冷",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "我炼就八九玄功身外化身，神通广大，魔法高强，贱婢法宝虽多，能奈我何？正想施展分身化形秘魔大法幻化元神，就势暗中制敌死命，猛瞥见宝光丛中飞来六道相连，形如两个乾卦的青光。想起先前那些神魔便为此宝所伤，必定厉害，怎的光并不强？心虽微动，还没料到仇敌深知她的功力虚实，以退为进，到了时机，再冷不防乘机发难，一齐施展。满心妄想伤敌，不曾在意。忽听赵长素大喝：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 37,
+      "role": "赵长素",
+      "api": {
+        "voice": {
+          "role": "赵长素",
+          "role_voice": "赵长素",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "此是乾天纯阳真火，铁姝留意！",
+          "instruct": "语气自然，情绪适中"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "心方一惊，敌人身外十来道各色宝光突然合围而上，那乾卦形的青光立即射上身来，一任长于神通变化，依然措手不及。总算飞遁神速，见势不佳，咬破中指向外一弹，立有一片血焰拥着一条化身，朝那宝光神火撞去，本身就此遁走。因为前后几次吃亏，元气大伤，以致日后死在一个凡人之手，暂且不提。铁姝背运当头，好些魔法神通均未用上，才一上场，便遭此大败，心中更加痛恨，一声厉啸，黑烟一闪，人又隐去。易静恨极仇敌，一看当日形势，知道鸠盘婆师徒骄横残忍，惟我独尊，照例门人对敌，有胜无败，铁姝一败，必定出场。何况铁姝魔法已得乃师真传，伎俩实不止此，自己不过占了应敌神速和几件降魔至宝的光，敌人受创不重，自己的难犹未已。此时危机密布，罗网周密，想要脱身，固是艰难。即便仗着法宝之力冲出重围，仇敌师徒来去如电，晃眼仍被追上，定数所限，不能避免。与其示怯，还不如就此与之一拼，将这最末一次难关渡过，也让各派妖邪看看峨眉派的道力。心念一转，便不再作脱身之想。正在静以观变，忽听铁姝咒骂悲啸之声若远若近，似哭非哭，凄厉刺耳，令人心旌摇摇，闻之生悸。魔女原意是借着老魔头惨败来投的机会，想把事情闹大，使乃师觉得仇敌已追到门上，不能再装糊涂，置之不理。只要把乃师激怒出场，便可报仇。而鸠盘婆本人对于易静，虽认为将来是一个大害，终以顾忌太多，此时又正神游在外，并未想到当日竟会发难。易静却不知道，一听哭喊之声，知道敌人正在用呼音摄神之法，想要暗算。忙运玄功，镇定心神，接口骂道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "血焰化身",
+            "sound_cn": "铁姝咬破中指弹出血焰，化身撞向宝光神火，发出沉闷的爆裂轰鸣",
+            "sound_en": "Tie Shu biting middle finger and releasing blood flame, double crashing into treasure light with dull explosion",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "心方一惊",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 3.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "黑烟隐遁",
+            "sound_cn": "铁姝化作黑烟一闪而隐，魔气消散时发出低沉呼啸",
+            "sound_en": "Tie Shu vanishing into black smoke, demonic energy dissipating with low hissing",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "敌人身外十来",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 7.0,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "哭啸摄魂",
+            "sound_cn": "铁姝发出凄厉悲啸，若远若近似哭非哭，摄人心魄令人心悸",
+            "sound_en": "Tie Shu emitting mournful and harsh cries, distant and near, half-cry half-howl, soul-piercing and unnerving",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "突然合围而上",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 39,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "无知女魔鬼，你那呼音摄神之法，只好欺侮凡人和左道妖邪，如何能够伤我？此时你还不曾伏诛，先哭做什？你师徒恶贯已盈，便无昔年杀身之仇，早晚也必为世除害。反正须决一个死活存亡，既被你们引到此地，正好了断，此时有你无我，有我无你。可叫老魔鬼速出纳命，无须藏藏躲躲，装腔作态，首鼠两端，平白丢人。",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静说罢，魔女并未再现，只听阴沉沉冷笑了两声，底下便没有声息。那身外暗雾，越发浓密。跟着万丈血云，似狂涛一般涌到，晃眼便被包没在内。易静昔年尝过魔法味道，深知厉害。一想恶斗将要开始，宝光已无须隐蔽，打算将防身宝光大都发出，只将几件降魔至宝暗藏在内，到时出其不意，给敌人一个重创。忽听身前不远，赵长素喝骂道：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "阴沉冷笑",
+            "sound_cn": "铁姝发出两声阴沉沉的冷笑，寒意透骨，令人毛骨悚然",
+            "sound_en": "Tie Shu letting out two deep, cold chuckles, chilling to the bone and sending chills down the spine",
+            "volume": "-20%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "易静说罢",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "血云涌至",
+            "sound_cn": "万丈血云如狂涛巨浪般从四面八方涌到，将人完全吞没，浓稠腥臭",
+            "sound_en": "vast blood cloud surging like raging tidal waves from all directions, engulfing completely, thick and foul-smelling",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "易静说罢",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "赵长素",
+      "api": {
+        "voice": {
+          "role": "赵长素",
+          "role_voice": "赵长素",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "易静贱婢！无故伤我徒子徒孙，又将我断去一臂。现已陷入血河阵内，任你多大神通，也必化为脓血而亡，连元神都保不住了。",
+          "instruct": "语气悲切，带着哀伤，如泣如诉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静当日临敌，因知是本身成败关头；又因近读仙示，有二十余日灾难，反正不能避免。因此一上来便稳扎稳打，抱着以静制动的主意，沉着应战，全神贯注，已不是三探幻波池那等心浮自恃。一听发话的是老魔赵长素，先不发作，只是暗中准备法宝，照准敌人发话处，冷不防加以猛击。忽听石慧地底传声说：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "石慧",
+      "api": {
+        "voice": {
+          "role": "石慧",
+          "role_voice": "石慧",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+5Hz",
+          "text": "师伯先莫动手，弟子持有祖父所赐一件奇珍，无论相隔千百丈的山石土地，均如掌上观纹，多厉害的邪法也能透视。惟独魔女的玄功变化比电还快，就能看出也无可如何。其他均可一望而知。这说话的是个断臂老魔，就在师伯身前不远，但有邪法防身，飞遁也是极快，看似想用邪法暗算神气。时机未到以前，师伯先不要动，以免一击不中，打草惊蛇，于事无补。还有弟于日前曾将魔女镇慑神魔的一面白骨令符九天元命牌得到手内，弟子曾对她说，再如强迫，或用魔法暗算，弟子便用家传灵石神雷将那令符炸毁，与之同归于尽。铁姝为此顾忌，虽将弟子困住，不敢动强，便由于此。师伯最好暂时不动，少时照着弟子所说下手，必能成功。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静原因魔法厉害，全阵已成血海，浓如胶质，休说慧目法眼不能透视，便用众生环查看，也只稍微看出一点影迹。最奇的是万丈血海之中鬼影幢幢，闪变不停，为数甚多。赵长素似因以前吃过大亏，隐形之外，并还施有邪法防身，幻化出好些替身，杂在群鬼之中，不时飞舞闪变，隐现无常，急切问不易分辨真假。魔女铁姝更不见有丝毫影迹。偶然发现几缕黑烟往来飞动，都是比电还快，一瞥即隐，是否魔女本人也难断定。既不打算突围逃走，敌人邪法又刚刚开始，反正要被困些日，也须上来挫她一点锐气。正苦无从人手，一击不中，反为所轻，一听石慧这等说法，好生心喜。暗忖：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "前闻此女十分灵慧可爱，想不到初出茅庐，便有这等过人胆智。她仗着家传地遁，穿山逃走，本极容易。为了帮助自己脱难，苦守在此，果然可嘉可爱。忙用传声回答：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 46,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "所说甚是有理。如若看准妖人真形，随时报知。",
+          "instruct": "赌咒，语调铿锵，信誓旦旦，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "又说：",
+          "instruct": "从容叙述，娓娓道来，引人入胜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 48,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "此时敌我势不两立，反正要拼个死活存亡，何时相见都是一样。我凭法宝神雷威力，将地面震穿一洞并非难事，只要你说明地点，立可震穿魔网，出土相见。彼此合力应敌要好得多，为何还要等候？",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 49,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "石慧答以曾受异人指点，时机未到，还要等候些时。易静还未及答，忽听阴风怒号，鬼声啾啾，哀呜怒啸，宛如潮涌，声外血云被数十丈方圆的防身宝光逼住，不得近前。不过除比以前还更浓密而外，并不见风。易静用众生环查看，见血海中还隐藏着好些恶鬼头颅，全都大如车轮，红睛怒凸，绿毛森森，塌鼻阔口，露出上下两排利齿和两根交错的獠牙，二目凶光远射丈许，全都摆出一张似哭似笑的鬼脸，浮沉血海之中，望着自己不住欢笑飞舞，似欲得而甘心之状。若不用宝环查看，便看不出恶鬼影子。方料魔女想用所炼神魔暗中加害，忽听群鬼厉啸声中一声怒喝，面前血光一闪，突现出一幢黑烟，聚而不散，矗立血海之中，烟中裹着魔女铁姝，正在戟指咒骂。易静见魔女二次出现，已换了一身装束，依然裸臂露乳，面容死白。上身披着一件翠鸟羽毛和树叶合织而成的云肩，色作深碧，光彩鲜明，后面露着脊背，前面仅将双乳虚掩。下半身是一条同样面料的短战裙，略遮后臀前阴。本来玉立婷婷，加上楚腰一捻，柔肌胜雪，周身粉滴酥搓，通无微暇，侧面看去，丰神艳绝。偏生满脸狞厉之容，碧瞳若电，凶光远射，柳眉倒竖，隐蕴无限杀机。左肩头上钉着五六把尖刀，亮若碧电。刀柄上各刻有一个恶鬼头，看去不大，但都形态生动，宛然如活。左膀上另钉着九柄血焰叉，光焰熊熊，似欲飞起。右前额也钉着五把三寸来长的金刀和七枝银针，全都深嵌玉肌之内，好似天然生就一样。秀发如云，已全披散，发尖上打着好些环结。前后心各有一面三角形的晶镜。腰间左插令牌，右悬人皮口袋。右手臂上还咬着五个茶杯大小的死人骷髅，与暗藏血海中的恶鬼相貌一般狞厉。通体黑烟围绕，载沉载浮，凌空独立血海之中。那么浓厚的血云，相隔又远，竟如镜中观物，纤毫皆见。易静知道妖女恨极自己，全身披挂而来。那些魔法异宝、血叉金刀之类，还在其次。最厉害的是与先前所穿大同小异的云肩战裙和腰间所悬人皮口袋，一名秘魔神装，一名九幽灵火，同为赤身教镇山之宝，各有威力妙用，厉害非常。魔女既然全用出来，鸠盘婆必在暗中主持。自己还要被困多日，非先挫敌人锐气不可。心念才动，忽又听石慧地底传声疾呼：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "duration": 3.5,
+            "process_mode": "overlay",
+            "name": "阴风鬼哭",
+            "sound_cn": "阴风怒号如潮，鬼声啾啾哀鸣怒啸此起彼伏，凄厉骇人",
+            "sound_en": "dark wind howling like tidal waves, ghostly wailing and mournful cries rising and falling, terrifying and soul-chilling",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "慧答以曾受异",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "魔女现身",
+            "sound_cn": "血光中黑烟涌现，铁姝全身魔装披挂显形，煞气冲天",
+            "sound_en": "black smoke emerging amid blood light, Tie Shu appearing fully armed with demonic armor, fierce aura soaring",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "候些时",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 50,
+      "role": "石慧",
+      "api": {
+        "voice": {
+          "role": "石慧",
+          "role_voice": "石慧",
+          "speed": "+2%",
+          "volume": "-1%",
+          "pitch": "+5Hz",
+          "text": "师伯留意，时机将至。这魔女除她甚难，只可少时用那令符试她一试，能否成功，还拿不定。倒是方才逃来老魔鬼现藏魔女身右，与魔女并立，相隔不过数尺，手持一弓三箭，箭头上已发出暗紫色的魔焰，中杂无数细如牛毛的魔针，指定师伯，似要发射，又似有什顾忌，欲发又止。照弟子所遇异人指教，等到了时候，师伯只听弟子招呼或地底雷声，可用六阳神火鉴照定雷鸣之处，再用先前所发紫色神雷打下，便可将魔法封禁的地面震穿一个大洞，弟于立可飞出，与师伯合力拒敌了。",
+          "instruct": "语气温柔，轻声细语，温婉可人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 51,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静闻言还未及答，魔女见敌人在好几层法宝剑光笼护之下，目注自己，神态从容，一任厉声咒骂，直如未闻，不知敌人正朝地底传声。更没防到前日所困少女竟受异人指点，有意而来，初见时好些都是故意做作。因闻敌人男女同门人多势盛，内中有不少能手，下山行道时，又各赐有一面传音法牌，无论相隔千万里，只要将牌轻击，立可传声发话。同党接到信号，立时纷纷来援，神速非常。敌人此时不动，想是知道魔阵厉害，上来出其不意，略占一点上风，便改攻为守，暗发传音法牌，向众师长、同门求援。想起近年所闻峨眉派师徒的威势和乃师平日之言，尽管平素骄横，也颇惊疑。暗忖：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 52,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这里虽然地势隐僻，敌人同党仍能跟踪寻到。即便魔法禁制埋伏重重，仇敌师长多半闭关有事，未必会来，这班小狗男女虽然入门不久，偏是得天独厚，各有两件仙、佛两门中的至宝奇珍，从未听说他们败过。近闻人言，连丌南公、九烈神君那么高法力，全都吃亏而去。万一纷纷赶到，委实不易应付。再要把几个专管闲事，和峨眉交厚的老鬼如神驼乙休、凌浑夫妇、嵩山二老之类引来，更是惹厌。虽然近年九子母天魔已到功候，一部诸天秘魔玄经也全精通，无如两次和尸毗老魔对敌，元气伤耗太过。师父已近不死之身，自己却是功败垂成，至少要炼一甲子才能复原。不比以前，仗着神通变化，还可与人硬拼。照此情势，必须在仇敌援兵未来之前，将其杀死，才可报仇除害，稍出胸中恶气。心念一动，顿犯凶性，怒骂：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 53,
+      "role": "铁姝",
+      "api": {
+        "voice": {
+          "role": "铁姝",
+          "role_voice": "铁姝",
+          "speed": "+2%",
+          "volume": "+1%",
+          "pitch": "+3Hz",
+          "text": "贱婢先前耀武扬威，此时为何胆小，噤若寒蝉？",
+          "instruct": "疑惑不解，语调迟疑，百思不解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 54,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "随即将左膀微摇，肩膀上魔刀和九柄血焰金叉当先飞出。紧跟着又将右额一拍，右额所钉金刀、银针也各相继电射飞出，朝易静夹攻上去。易静问答已完，笑骂：",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魔刀飞出",
+            "sound_cn": "魔刀和九柄血焰金叉从铁姝身上呼啸飞出，破空声尖锐刺耳",
+            "sound_en": "demon knives and nine blood-flame forks flying out from Tie Shu's body, sharp and piercing whooshing sounds",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "随即将左膀微",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金刀银针",
+            "sound_cn": "金刀银针从铁姝右额电射而出，如雨点般朝易静夹攻",
+            "sound_en": "golden knives and silver needles shooting from Tie Shu's right forehead like rain, attacking Yi Jing from all sides",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "即将左膀微摇",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 55,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "-2%",
+          "volume": "0%",
+          "pitch": "+2Hz",
+          "text": "无知邪魔，你便把全副家当施展出来，也难免于送死。至多把衣服脱去，卖弄你那无耻下作的勾当，能奈我何？今日如非立意除你师徒，破阵飞走不过举手之劳。再者，老魔尚未现形，想看你师徒凶横多年，到底有何伎俩。你当我真个静守不动吗？",
+          "instruct": "语气嘲讽，带着讥诮，冷嘲热讽，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时将手连指，身外宝光突然大盛，兜率宝伞首先暴长，发出万道毫光，宛如一座金光祥霞结成的华盖，将人笼罩。下面又有一片金云将人托住，盘坐其上。铁姝那九柄血焰叉带着血焰金光刚一飞近宝伞之下，突飞起一蓬形似彩丝的云网，暴雨一般向前激射，只一闪，便将九叉一齐缠紧，缩在一起。魔女刚认出那形似彩丝，具有九色的云网，是师父常说幻波池圣姑昔年所炼降魔十四奇珍中的九曲柔丝，暗道不好，忙即行法回收，已是无及，连同发出的魔刀也全被网住，缠了一个结实，休想挣脱分毫。因这两件法宝乃鸠盘婆新近所赐魔教奇珍，与先前仇敌所破魔叉不同，威力甚大，并还专污正教中的法宝、飞剑，不料才一出手，便被敌人网住。恐后发出来的魔刀、魔针同样被人网去，慌不迭收了回来。然后行法收那另外两件法宝，不料连收两次不曾收回，以为敌人想将二宝收去。忽想起刀叉上面的血焰黑烟阴毒无比，得隙即入，敌人稍微沾着一点，便如附骨之疽，任是多高法力，也必昏迷倒地，周身溃烂，化为一摊脓血，万无生理。意欲将计就计，任其收去，到了敌人宝光层内，再行发难。猛瞥见对面宝伞下又飞出酒杯大小三团寒光，才一入眼，已投入彩网之中，叭叭叭接连三声大震，银芒电射，彩云飞舞中，大蓬金花血雨在彩网里面闪得一闪，那九口血焰金叉和那魔刀已全被敌人消灭。这些均是鸠盘婆新传，能与铁姝心灵相连之宝，又只瞬息间事，休说防御，连念头都不能转，便已消灭无踪。经此一来，元气大伤，如何不恨。换了别的敌人，还可施展玄功变化和呼音摄魂等极厉害的魔法，制敌死命；而易静偏是道家元婴炼成，又有好些仙、佛奇珍防护全身，只有师父所炼九子母天魔，用三十六日苦炼之功，才能将其精气元神吸尽，别的魔法均用不上。铁株再一想到师父法令素严，对于门人曾下严令，不许与正教为仇，尤其是对峨眉一派。上次追赶朱文，事后还曾埋怨。今日虽是敌人上门送死，又是师父夙仇，未来大患，无如师父从未吐过口风。而且敌人所追偏又是师父平生痛恨，认为忘恩负义的旧情人。自己和敌人斗了这一阵，敌人并还口出恶言，说她此来是为报仇除害，并将本门至宝和七二神魔消灭好些，分明欺到头上。照师父为人，纵因仇敌道浅力微，不值亲自出手，也必用传声指示机宜，为何全无动静？即便忘却旧仇，也不应如此甘受人欺。必因老魔头在此，心中怀恨，有意隔岸观火，以致自己连带遭殃，还失去好些法宝、神魔。悔恨情急之下，暗忖：",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.8,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "兜率宝伞",
+            "sound_cn": "兜率宝伞猛然暴长绽放万道毫光，金光祥霞形成华盖将人笼罩",
+            "sound_en": "Dou Shuai umbrella expanding abruptly with ten thousand beams of light, golden auspicious radiance forming a canopy",
+            "volume": "-16%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "说时将手连指",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 2.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "九曲柔丝",
+            "sound_cn": "九曲柔丝化作九色彩云网暴雨般激射而出，将九柄血焰金叉和魔刀缠紧收缩",
+            "sound_en": "Nine-curve soft silk shooting out like rain in nine colors, wrapping and tightening around nine blood-flame forks and demon knives",
+            "volume": "-18%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "将手连指",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 5.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "三声大震",
+            "sound_cn": "三团寒光投入彩网中接连爆炸，银芒电射，金花血雨飞溅漫天",
+            "sound_en": "three cold lights exploding in the net with three loud bangs, silver light flashing, golden flowers and blood rain splattering everywhere",
+            "volume": "-12%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "突然大盛",
+            "trigger_offset": 0
+          },
+          {
+            "trigger_delay": 8.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "魔宝消灭",
+            "sound_cn": "血焰金叉和魔刀在宝光神雷中化为乌有，爆发出最后一声沉闷轰鸣",
+            "sound_en": "blood-flame forks and demon knives reduced to nothing in treasure light and divine thunder, one final dull boom",
+            "volume": "-14%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "伞首先暴长",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 57,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "师父性情刚愎，因为老魔忘恩负义，曾有永不再见，见则除非老魔悔祸，照着昔年向本命神魔所发誓愿，甘受师父九百魔鞭，自刺心血，献与神魔，才可化解。否则双方必有一伤，决不两立。势已骑虎难下，有心遣走赵长素，无奈方才话说太满，无法改口。再如相持下去，就许被敌人将血河大阵连同诸般法宝一齐破去，遗羞师门，还要身受严罚。不禁咬牙切齿，悔恨愁急，打不出主意。赵长素老好巨猾，见铁姝魔法无功，连遭挫败，而鸠盘婆又始终不见出面；敌人则只守不攻，所用法宝也已收回。听那前后口气，分明和悍妻师徒势不两立，自己便不引鬼上门，早晚也许一斗。悍妻此时不出面，分明是因为自己。暗忖：",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "咬牙之声",
+            "sound_cn": "铁姝咬牙切齿的细微声响，恨意难平",
+            "sound_en": "Tie Shu grinding her teeth with faint sound, burning hatred",
+            "volume": "-26%",
+            "pitch": "+0Hz",
+            "trigger_keyword": "师父性情刚愎",
+            "trigger_offset": 0
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 58,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你常骄横好胜，铁姝是你爱徒，如若连遭惨败，将所有魔宫至宝一齐失去，看你是否还能置之不理？心念一动，立时喝道：",
+          "instruct": "神秘叙述，压低嗓音，营造悬念"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 59,
+      "role": "赵长素",
+      "api": {
+        "voice": {
+          "role": "赵长素",
+          "role_voice": "赵长素",
+          "speed": "-4%",
+          "volume": "0%",
+          "pitch": "-3Hz",
+          "text": "铁姝！你身旁现有至宝，为何不用？",
+          "instruct": "语气疑惑，带着不解，疑虑重重"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "雪山追踪寒风",
+        "start_line": 5,
+        "end_line": 6,
+        "prompt": "very subtle low volume cinematic background ambience, vast snowy mountains of Sichuan border, howling cold wind across endless ice peaks, frozen clouds swirling thickly and heavily, desolate and harsh environment, sharp icy peaks piercing the dark sky, tense pursuit atmosphere, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "魔境花林",
+        "start_line": 7,
+        "end_line": 10,
+        "prompt": "very subtle low volume cinematic background ambience, beautiful but eerily deceptive flower forest, golden and silver palaces shimmering in the distance, rich and fragrant night-blooming cereus scent permeating heavily, unreal and dreamlike atmosphere, lurking danger and demonic energy beneath the beauty, subtle sense of entrapment, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "血海魔阵",
+        "start_line": 25,
+        "end_line": 34,
+        "prompt": "very subtle low volume cinematic background ambience, vast sea of thick crimson blood, countless white skulls floating and surging like waves, eerie ghostly wails and mournful cries echoing constantly, oppressive and terrifying demonic atmosphere, heavy pressure closing in from all sides, suffocating and dread-filled, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "法宝激战",
+        "start_line": 35,
+        "end_line": 42,
+        "prompt": "very subtle low volume cinematic background ambience, intense magical battle scene, brilliant treasure lights and sword beams flashing wildly, thunderous explosions and metallic clashing sounds, fierce energy fluctuations and crackling, high stakes life-or-death struggle, dramatic and chaotic atmosphere, rapid action and tension, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "魔女现形对峙",
+        "start_line": 49,
+        "end_line": 56,
+        "prompt": "very subtle low volume cinematic background ambience, demoness fully armed with dark magic treasures, black smoke swirling ominously around her, blood-red flames flickering and dancing, intense standoff and hostility, malevolent and threatening aura emanating, tension rising to the peak, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  }
+}

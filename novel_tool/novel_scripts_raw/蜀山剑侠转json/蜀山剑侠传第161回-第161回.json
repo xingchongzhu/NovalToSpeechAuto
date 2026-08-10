@@ -1,0 +1,1283 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "蜀山剑侠传第161回-飞剑斩琼林火树银花惊魔女护身凭宝伞妖光邪雾困神婴",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": {
+      "role_voice": "旁白",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "-10%"
+    },
+    "金蝉": {
+      "role_voice": "齐金蝉",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "石生": {
+      "role_voice": "石生",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "英琼": {
+      "role_voice": "李英琼",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "轻云": {
+      "role_voice": "周轻云",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "易静": {
+      "role_voice": "易静",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "易鼎": {
+      "role_voice": "易鼎",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "易震": {
+      "role_voice": "易震",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "三凤": {
+      "role_voice": "三凤",
+      "pitch": "+4Hz",
+      "volume": "-1%",
+      "speed": "-1%"
+    },
+    "二凤": {
+      "role_voice": "二凤",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "冬秀": {
+      "role_voice": "邵冬秀",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "初凤": {
+      "role_voice": "初凤",
+      "pitch": "0Hz",
+      "volume": "0%",
+      "speed": "0%"
+    },
+    "金须奴": {
+      "role_voice": "金须奴",
+      "pitch": "+3Hz",
+      "volume": "+2%",
+      "speed": "+2%"
+    }
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "第161回",
+          "instruct": "庄重大气，掷地有声，说书人的韵味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金蝉想好了主意，也没和众人商量，径自一指剑光，直往道旁两排琼树上砍去。石生见金蝉动手，也跟着将剑光一指。英琼近年道行精进，虽不似以往时那般性急，飞行这一会，也是有些难耐，见二人飞剑乱砍，也跟着指挥剑光动手。那些琼林仙树，原是每层阵图的门户和魔法的布置，多系神沙炼成的神柱，虽然厉害，哪经得这三口仙剑同时发动，自然不消剑光连连几绕，便即倒断。三人砍得兴起，准备挨排往前砍去，不问它是不是阵中的玄虚和甬道中的陈设点缀，不管三七二十一，给它来个全体毁坏，毁到尽头，总会有人出来交手。前面易静闻声回顾，刚刚转过身来，后面两排琼树已被三人同时施为，用飞剑砍倒了六七株，还在顺路往前面砍去。金、石二人双剑一起同施，砍那左边的；英琼单人用剑光砍那右边的。先时琼树纷纷倒断，并无动静。砍到第八九株上，易静、轻云也想跟着下手。剑光刚飞出去，易静忽然一眼看到，那边琼树乍看分列两行，不过略有高低大小；这时一经细看，方看出不但树的形状枝叶各自不同，连那生根之处也有参差。有的三五丛生，有的挺然独秀，明明暗藏阴阳奇正。方觉有异，那第八、九两株，正同时被金蝉、石生、英琼三人相次砍断。金、石砍的是末一株，树是独株，不似前几株左奇右偶，几株并在一起而生。树刚砍断，便见树根断处，射出丝丝暗碧火花。易静见多识广，早已心动，一见便认出是魔法中极狠毒的阴火，后面必然还有别的厉害作用。昔日自己被赤身教主鸠盘婆用魔法困住，便是被这阴火所伤，通体寒噤，法宝全污，几乎被她用九鬼啖生魂，丧了性命，所以知道厉害。这时大家搜索前进，持着宝幡、宝镜，准备将来施为，又加上一路无事，金蝉、石生、英琼三人再一停步下手，先断好几株，并无异状，未免分神，有些疏忽。一旦变出仓猝，再用法宝护身，必然无及。幸而三人是先将阴火阵中的副柱全行砍断，等到末一根主柱发动，效力要轻一些；再加金须奴走时，意在将人引入内阵，早将阵法封闭，更失了不少效力；那阴火只是本身之力，自行发动。有此三种原因，所以要轻得多。易静一见不妙，情知出声示警，未必能保三人无伤。仗着自己炼有这种护身法宝，忙即将兜率宝伞取出，往发火处投去。口中喝道。",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "一指剑光",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "剑光出鞘",
+            "sound_cn": "金蝉一指剑光飞出，铮的一声清啸如龙吟，剑光劈向琼树",
+            "sound_en": "Jinchan pointing his sword, a clear dragon-like ring as it flies toward the jade tree",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "剑光连连几绕",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "飞剑绕树",
+            "sound_cn": "三口仙剑连连绕树，嗡嗡作响，剑光如电光流转",
+            "sound_en": "three immortal swords circling the trees, buzzing like flowing lightning",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "trigger_keyword": "纷纷倒断",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "琼树倒断",
+            "sound_cn": "琼树纷纷倒断，轰隆声沉重如巨木倾覆，树干断裂声清脆，枝叶纷飞如雨",
+            "sound_en": "jade trees toppling and breaking one after another, heavy crashes like giant logs falling, crisp snapping of branches, leaves flying like rain",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 9.0,
+            "trigger_keyword": "暗碧火花",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "阴火初现",
+            "sound_cn": "树根断处射出丝丝暗碧火花，咝咝声如毒蛇吐信，阴寒之气弥漫四溢",
+            "sound_en": "dark green sparks shooting from broken tree roots, hissing like venomous snakes, chilling aura spreading everywhere",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "魔阵已经发动，妖火厉害，三位道友还不退向我等一处，合力破它！",
+          "instruct": "得意洋洋，语调轻快，志得意满，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，一幢火云刚刚罩向绿火之上。金蝉等三人也都闻警回身，忽听树根下面的地底下，一阵极轻微的爆音过处，一团碧荧荧的光华飞将出来。待要突起，被火云往下一压，两下交接，只三起三落之际，碧光倏地雨一般爆散往四面飞射。那团火云，竟具有相克之妙，也跟着绿光飞射处爆散开来，化成一团火网，将碧光包没。眼看火云中碧光乱掣，由大而小，由多而少，转眼工夫，尽行消灭。火云依旧成了一团整的，被易静将手一招，飞将回来。众人方在称奇欲羡，忽然罡风大作，刺骨奇寒。顷刻之间，黄尘滚滚，两排望不到底的仙树琼林，倏地疾如奔马一般，此东彼西，隐现分合，错综变化，自行移动起来。英琼便招呼轻云，将双剑合壁，上前扫荡。易静忙拦道。",
+          "instruct": "紧张叙述，节奏明快，剑拔弩张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "一幢火云",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "火云罩落",
+            "sound_cn": "兜率宝伞化成一幢火云罩向绿火，轰的一声闷响震彻甬道，火光四溅",
+            "sound_en": "Doushuai umbrella turning into a cloud of fire covering the green flame, dull boom echoing through tunnel, sparks flying",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "trigger_keyword": "碧荧荧的光华",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "碧光飞出",
+            "sound_cn": "一团碧荧荧的光华从树根下飞出，嗡嗡声响，欲要冲天而起",
+            "sound_en": "a mass of green glowing light flying out from under the tree roots, buzzing and trying to rise",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.5,
+            "trigger_keyword": "爆散往四面飞射",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "碧光爆散",
+            "sound_cn": "碧光雨般爆散飞射，嗤嗤声响彻四野，火网铺张将碧光包没吞噬",
+            "sound_en": "green light bursting and scattering like rain, sharp hissing filling the air, fire net spreading to envelop and consume",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "罡风大作",
+            "trigger_offset": 0,
+            "duration": 7,
+            "process_mode": "overlay",
+            "name": "罡风骤起",
+            "sound_cn": "罡风大作刺骨奇寒，呼啸声如鬼哭狼嚎穿云裂石，黄尘滚滚遮天蔽日",
+            "sound_en": "fierce wind rising with bone-chilling cold, howling like wailing ghosts piercing clouds and splitting stones, yellow dust rolling and blotting out sky",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "trigger_keyword": "仙树琼林",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "琼林移动",
+            "sound_cn": "两排琼林疾如奔马般自行移动变幻，嘎吱声此起彼伏如山呼海啸，阵势错综变化",
+            "sound_en": "two rows of jade trees shifting rapidly like galloping horses, creaking sounds rising and falling like mountains and seas, formation intricately changing",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这是敌人因为我们破了他的魔火，必在那里变化阵法，此时还测不透他的深浅。好在我们存身之处，妖法已破，不前进不会有甚危险。索性用宝护身，小心准备，等他部署停当，看明了他的方向门户，生克之妙，再行下手，也还不迟。",
+          "instruct": "语气关切，带着担忧，情真意切，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人对易静自是信心越坚，便即依言停手。约有半个时辰过去，风势忽止，稍现光明。大家运用慧眼一看，尘沙稍息，前面却是黑沉沉的，所有先见的琼林仙树，俱都不知去向。稍微往前一探，那地却是软的。易静仔细看了一阵，昏茫茫一片，休说其中玄妙，连门户也分它不出。知道不撞上前，引阵势发动，一时分它不出。未免心中有些惭愧，红着脸，和众人说了。轻云闻言，仍主张和先前一样，联合前进，不要远离，以防万一。金蝉等三人俱都无话。只女神婴易静因适才初试兜率伞奏了奇效，暗忖：『自己平日在负盛名，与众人俱是新交，出手并未怎样获胜。这神沙甬道中诸般魔阵，纵难识透玄妙，难道还比鸠盘婆的魔法厉害？随了众人，联合前进，有他们那几件至宝护身，固是稳妥，但是适才说了大话，没甚表现，到底不是意思。』想凭着身藏七宝与地行仙遁，单人当先破阵，试它一次。便开言答道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "风势忽止",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "风止尘息",
+            "sound_cn": "风势忽止，凄厉呼啸声渐息渐无，尘沙缓缓沉降，四周陷入一片死寂",
+            "sound_en": "wind suddenly stopping, howling fading to nothing, dust settling slowly into dead silence",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "小妹常随家父研讨过正邪各派诸般阵法，像凝碧崖仙府所设两仪微尘阵之类的先天妙道，玄门秘奥，固所难窥，若说各异派中用魔法妖术布成的邪阵，倒也略知一二。适见前面阵势，竟分不出它的门户，必是敌人知道我等厉害，恐被看破，另用甚么天魔大掩藏等类的蔽眼妖法，将阵隐起。诸位姊妹道友就此同进，自无一失。为求迅速成功，还是由小妹前驱引导，先相机设法，使他门户现出，再行下手为妙。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人对于甬道中的阵法，原无所知，俱把易静当作识途之马。只轻云稍微有些顾虑。易静道。",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "姊姊不须忧疑。适才所用法宝，名为兜率伞，专破魔火妖焰，乃小妹多年来费尽辛苦炼成的七宝之一。此去纵不能胜，有此一伞，足供护身之用了。",
+          "instruct": "悲痛交加，声泪俱下，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，将手一扬，径驾遁光，往前飞去。轻云等四人也各驾遁光追去。先时无甚异状，眼看易静就在前面相隔不远飞驶。忽然阵中起了沙沙之声，四外一暗，前面易静将适才那团火云放起，知道阵势业已发动。方在准备，一转眼间，易静便不知去向。同时上下四方，俱是一团团的黑影飞舞，朝四人身上打来。四人经历过几次，已有准备。金蝉、石生各将幡、镜取出展动。英琼、轻云也忙运用玄功，将双剑合一，扫荡妖气。天遁镜金光照处，那一团团的黑影里，还有许多奇形怪状的乌鲁鬼怪之类，张牙舞爪，飞扑而来，势虽凶恶，但听不见叫嚣之声。这些黑影，吃金光一照，俱都化为轻烟而散。许多乌鲁鬼怪之类，也都眼看消灭。妖法虽破，阵中仍是黑沉沉的。四人也不管它，仍然照旧前进。不多一会，又和先前一般，阴风骤起，寒飓袭人。接着不是沙障围压，便是阴云鬼怪齐至。话不烦絮，似这样一连经过了八九次，俱被众人用法宝飞剑破去。轻云暗想：『全阵只有四十九个阵图，日前已被金蝉、石生破了十几处，纵使被紫云三女用魔法修复，如都照这样破法，至多三五日，必能将全甬道阵图破去。只奇怪这半天工夫，始终未见一个敌人出战，令人不解。』正在寻思，忽听四面起了轰隆之声，不绝于耳。霎时间，那惊天动地般的大霹雳，夹着一团团的大小雷火，密如冰雹，从上下四方打来，声势甚是浩大。四人虽有弥尘幡护身，那一幢五色彩云也时常被大雷火震动。因为此次比起适才诸阵来得厉害，不敢大意。在五色云幢拥护之中，石生手持天遁镜，放起百丈金霞，到处乱照。英琼、轻云试了试，也退入彩云里面，只得运用玄功，将紫郢、青索双剑联合，化成一道青紫色的百丈长虹，放出去迎敌，一面仍往前冲进。剑光金霞到处，虽然奏功，成团雷火遇上便即消散，无奈这阵法乃是外层诸阵中最厉害的一处，那些雷火全是初凤用天魔秘法，从神沙中提炼出来的精英，其多难以数计。况且这时金须奴业已退回黄晶殿，见了初凤，告知敌人如何厉害，凭外层诸阵决阻不住，恐全被破去，在自损失许多异宝神沙，自己已特地缩沙掩阵，将来人引入内阵。依他之见，峨眉门下仅派来几个无名后辈，已有如此神奇的道法剑术，怎能与他结仇作对？莫如乘来人在内阵被困时，想一番说词，两方化嫌归好，将天一贞水交出，不特彼此脸面无伤，日后多一后援，还可稍报昔日嵩山二老赠宝之德。初凤闻言，方在为难踌躇，一眼望到全阵主图上面起了变化，内中一阵又被破去，便对金须奴道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "径驾遁光",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "遁光飞驰",
+            "sound_cn": "易静驾遁光飞驰而去，破空声尖锐如哨，身影迅速消失在黑暗中",
+            "sound_en": "Yijing flying forward on magical light, sharp whistle-like whoosh, figure quickly disappearing into darkness",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 3.5,
+            "trigger_keyword": "沙沙之声",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "沙障发动",
+            "sound_cn": "阵中沙沙声骤起如暴雨倾盆，四外一暗，黑影漫天飞舞扑来",
+            "sound_en": "rustling sound rising like torrential rain in the formation, darkness falling, shadows flying in from all sides",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "trigger_keyword": "天遁镜金光照处",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "宝镜照妖",
+            "sound_cn": "天遁镜放出百丈金光如烈日当空，黑影化为轻烟消散，乌鲁鬼怪惨嚎着灰飞烟灭",
+            "sound_en": "Heavenly Mirror emitting hundred-zhang golden light like the sun, shadows dissolving into smoke, monsters wailing and vanishing to ashes",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "双剑合一",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "双剑合壁",
+            "sound_cn": "紫郢青索双剑合一化成青紫色百丈长虹，龙吟声震耳欲聋，妖气尽扫而空",
+            "sound_en": "Ziying and Qingsuo merging into a green-purple hundred-zhang rainbow, dragon's roar deafening, evil aura swept away completely",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 17.0,
+            "trigger_keyword": "轰隆之声",
+            "trigger_offset": -0.5,
+            "duration": 10,
+            "process_mode": "overlay",
+            "name": "雷火爆发",
+            "sound_cn": "惊天动地的大霹雳轰隆不绝如万炮齐鸣，大小雷火密如冰雹从上下四方打来，震耳欲聋",
+            "sound_en": "earth-shaking thunder roaring without end like ten thousand cannons, great and small thunderbolts like hail from all directions, deafening",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "初凤",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "此事非我固执，无奈三妹现在除去道行稍浅外，所有天魔秘法，已经十之八九学会，又有那柄璇光尺在手。这次峨眉来人太已无礼，她昨日将水要去保管，立誓不与峨眉甘休，此时令她交出，定然不允，徒伤姊妹和气。",
+          "instruct": "语气愤怒，带着恨意，怒不可遏，清雅从容，灵秀聪慧，端庄大气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说到这里，总图上又有一道光华闪了几闪。初凤惊道。",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "光华闪了几闪",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "总图警示",
+            "sound_cn": "总图上光华急促闪烁，嗡鸣声尖锐如警钟，显示又一阵法被破",
+            "sound_en": "lights flashing urgently on the master map, sharp hum like an alarm bell, indicating another formation broken",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 12,
+      "role": "初凤",
+      "api": {
+        "voice": {
+          "role": "初凤",
+          "role_voice": "初凤",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "敌人竟有一人当先，已经冲入内阵，少时纵不死伤，难免被三妹等困住。一人后面还跟有四人，俱都不弱，也在继续前进。目前敌我胜负尚属难分，如被他等将全甬道阵火破去，休说三妹，连我也难就此罢手。来人如有伤亡，或全数困入阵内，三妹必下毒手。为今之计，只有用倒阵法，暂时将未入网的四人引出阵去。一面你急速赶往内阵，传我的话，嘱咐三妹，说如将敌人困住，只可生擒，不可伤害，擒来我处自有处治。",
+          "instruct": "语气悲切，带着哀伤，如泣如诉，清雅从容，灵秀聪慧，端庄大气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "金须奴领命自去。其时，正当轻云等四人紧追易静之际，再进须臾，便入内阵。被初凤阵法一倒转，四人便与易静背道而驰，只当是前进，谁知却是后退。所经诸阵，均是金须奴退时掩蔽的阵图。一则，末一阵被五人前进时，无心破去阵法，本身自起变化现了出来；二则，初凤近来入魔益深，无甚主见，虽听了金须奴良言相劝，仗着自己所炼神沙取用无尽，只要内阵总图不为人全数破去，外阵纵被敌人破去，也不难立时修复，想借此看看敌人本领；三则，又想使敌人多尝一点厉害，讲和交水时，话好说些。有此三种原因，不但未将阵法止住，反暗中行法，加了功效。谁知总图上连起变化，敌人所到之处，竟是势如破竹，所有沙障法术，全被破去。想起自己连费多年心力，好容易炼成这长及千里的神沙甬道，应用起来，连几个不甚知名的峨眉后辈都抵挡不住，不禁又惊又恨，又羞又恼。这时正值轻云等四人快破到末一阵，初凤知道敌人所用几件法宝厉害，便将内层诸阵中的大五行魔火神雷移向前面。如果这一阵再不成功，除了横下心来一拼，再将敌人引入内阵外，别的更是无效。索性暂且从缓，将外层未被敌人攻破诸阵一撤，将敌人放出去，用神沙将门户堵死，等会集全宫首要计议之后，再定和战之策。主意打定，便即施为。轻云见阵中魔火太密，比起昔日史南溪所用烈火风雷，还要厉害得多，虽然近不了身，也震得大家头昏目眩。知道再如冲不过去，时候一久，稍一疏虞，也有伤害。见众人都在运用玄功，各施己力，合力抵御，上下四方，都是一片砰噗轰隆之声，震耳欲聋。几次大声疾呼，俱为雷声所掩。正在这危险之际，内中英琼也是有些禁受不住，猛想起杨鲤所赠沙母，适才因为法宝尽足护身，尚未用过，这时无计可施，何不试它一试？她一取将出来，金蝉、轻云也都先后想起。同时石生更是初经大敌，未免心惊，慌不迭地将两界牌取将出来。大家一齐发动。英琼手脚最快，头一个将沙母按照杨鲤所传用法放出。这东西虽是一个大如雀卵之物，才一出手，便有栲栳般大小。起初是千百层透明五色光霞，荧荧流转。转瞬间遇上雷火，立即噗的一声爆散，成了一团五色彩气，分布开来。千万雷火遇上，便即消灭无声，端的妙用非凡。四人原在弥尘幡彩云拥护之下联合一处，这里三人相次发出沙母，石生也将两界牌施展，金蝉更是时时刻刻准备驾弥尘幡往前急冲。这般诸宝齐施，样样都是凑巧，等到轻云想起那沙母，有一个已经足用。这东西每个只用一次，不比别的宝物能发能收，用了还在。当轻云想到多用可惜时，自己和金蝉已同时跟着英琼发将出去。紧接着雷火一消，前面无了阻拦。云幢飞驶中，一道光华闪过，眼前倏地风清日朗，身已出了甬道，落在岛上。众人好生惊讶，连忙收了弥尘幡。仔细一看，那延光亭地底又起了飞雷之声，一片五色烟光过处，那甬道入口忽然自行填没。众人忙再驾遁光，施展法宝飞剑，照原地方冲去时，光华疾转中，只将那五色金沙冲得如雪雨一般飞洒。费了好些心力，才冲成一个长约数丈，大仅丈许的深坑。这般长约千里的甬道，纵使内中没有魔法异宝，似这般开掘，何年何月，才能冲透？刚停手不多一会，沙又长满，与地齐平。二次入阵，再也休想。又想那女神婴易静，自从下手，独自一人向前攻阵，一直不曾再见，也不知她的生死存亡，料已失陷阵中，凶多吉少。大家俱记得明明在甬道内，连破了许多阵法，往前冲进，忽然一转眼间，竟然冲出阵外，好生不解。金蝉以为是误用了两界牌，便去埋怨石生。英琼道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "砰噗轰隆之声",
+            "trigger_offset": 0,
+            "duration": 8,
+            "process_mode": "overlay",
+            "name": "雷火轰鸣",
+            "sound_cn": "大小雷火砰噗轰隆震耳欲聋，上下四方都是爆裂声如天崩地裂，魔火神雷密如冰雹倾泻",
+            "sound_en": "great and small thunderbolts roaring deafeningly like sky and earth collapsing, explosions from all sides like hailstorm of magic fire and thunder",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 7.0,
+            "trigger_keyword": "正当轻云等四",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "沙母破雷",
+            "sound_cn": "沙母出手如雀卵大小，转瞬爆散为千百层五色彩气，噗的一声闷响如巨囊破裂，千万雷火遇上即无声消灭",
+            "sound_en": "Sand Mother the size of a sparrow egg, instantly bursting into thousand-layer five-colored mist, soft thud like a giant bag bursting, thousands of thunderbolts vanishing silently",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "风清日朗",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "冲出甬道",
+            "sound_cn": "光华闪过眼前豁然一亮，风清日朗海天一色，众人已出甬道落于岛上",
+            "sound_en": "flash of light and sudden brightness, clear sky and bright sun, everyone out of the tunnel and landing on the island",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 15.0,
+            "trigger_keyword": "自行填没",
+            "trigger_offset": 0,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "甬道封闭",
+            "sound_cn": "五色烟光过处，甬道入口轰隆一声闷响自行填没，沙石翻滚如江河倒灌",
+            "sound_en": "five-colored smoke passing, tunnel entrance closing with a dull rumble, sand and stone rolling like rivers flowing backward",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 14,
+      "role": "英琼",
+      "api": {
+        "voice": {
+          "role": "英琼",
+          "role_voice": "李英琼",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "这事乃是敌人弄的玄虚，休怪石弟。适才雷火比雨雹还密，定是魔阵中最厉害的出入门户，被我们误打误撞遇上。弥尘幡飞行迅速，敌人雷火被沙母一破，已无阻隔，我们只说前进，不想却走了回头路。敌人再用阵法来困我们，已来不及，只得将甬道暂行封闭，另想别的主意，与我们为难。否则我们用那许多的法宝飞剑，尚且不易收功，单凭一面两界牌，怎能冲出？如今休说水未取到，人未救出，连易姊姊在中途相助我等，好意同来，单把她一人失陷阵内，也难袖手。目前甬道已封，攻不进去。听杨道友说，明日便是三女生日，许飞娘和一些异派中的妖邪俱要来此庆寿，难道她们就不派个人出来接引？我们除非埋伏在延光亭附近，守到他有人出来，想要攻将进去，恐非易事。还有一个最奇怪处：除小师兄和石弟头一次入阵，遇见过一次敌人外，今日我等入内，攻破他许多处阵法，不但未遇一人，连退出时也无人追赶，不知是甚缘故？",
+          "instruct": "满心欢喜，语调轻快，喜上眉梢，利落中透着不服输，个子小志气大"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "轻云道。",
+          "instruct": "从容叙述，娓娓道来，引人入胜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 16,
+      "role": "轻云",
+      "api": {
+        "voice": {
+          "role": "轻云",
+          "role_voice": "周轻云",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "琼妹之言虽是，只是敌人将甬道封闭，明明注重在守，所以阵中无人应战，只在暗中运用。如说他要接引外来庆祝的宾客，他以前原本就是海底出入，焉知没有别的入口？我们守株待兔，殊非善策，还得另打主意才好。",
+          "instruct": "语气喜悦，带着欢喜，神采飞扬，朝气蓬勃，少年意气，发起挑战的兴奋"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 17,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人想了一阵，仍然暂时依了英琼，姑且埋伏亭外，守过一会再说，俱想不出别的好办法。正在焦急，忽听远远天空中有人御剑飞行，破空前进，音声甚是清脆，老远俱听得见。抬头一看，两道青光，如流星飞坠般，正从来路往岛上飞泻。方以为是来与三女祝寿宾客，细看家数，虽是旁门，但是正而不邪，又觉不类。众人刚在猜疑，各自示意埋伏之际，那两道青光已落向岛上。光敛处，现出一丑一俊两个幼童，一到便往亭中飞去，好似胸中早有成竹。那丑的一个，从怀中取出一把东西，往地上一掷，立时满庭俱起云烟，青光连闪几闪，转眼之间，烟光不见。再看亭中二童，俱无踪影。轻云认出来人正是昨日来时在玄龟殿殿前先遇见的那一双弟兄、女神婴易静之侄易鼎、易震。众人忙追过去一看，那甬道仍和先前一样，不知他二人来此何事，凭着甚么法儿入内，连一点痕迹不显。金蝉慧眼，也只看出易氏弟兄到时，取出一把光华灿烂的东西，围绕着一道金光，只往地上一掷，身子便穿了进去，随即不见。众人猜详了一阵。英琼、轻云因在玄龟殿易静既请自己先行，又说她有几句话要招呼她两个侄子，也许易氏弟兄此来是与易静约好；再不然是易静被困阵中，难以脱身，行法向玄龟殿告急，召来的救兵。可惜适才没有赶到前面，向他一问。这末一猜，果然料中。众人又候了一会，忽又听破空之声，好几道青光黄光，比电还疾，从远方飞来，直穿亭内。众人看出是异派一流，满以为到了甬道入口，三女如派人迎候，势须出现，否则必然被阻，且看清来人是谁，再行下手不迟。谁知这几道光华一落亭中，竟似轻车熟路，另有出入门户一般，连人也未现出，径自直入地底，不见踪迹。众人一见大惊，入宫门户不只这一处，只是外人不知入内之法，这一来简直没了主意。正在着急，猛觉地下又和适才初出时一般，轰隆作响，连全岛也被震动。过了半盏茶时，一团约粗二尺的光华，围绕着一股长有丈许的金光，从甬道入口处飞将出来。才一穿出地面，金蝉、石生疑心敌人又弄玄虚，刚要动手，光华敛处，现出两俊一丑，一女二男，三个矮子。定睛一看，正是易静和易氏弟兄。众人一见大喜，忙上前去询问经过。易静先给大家和易氏弟兄引见。然后说道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "御剑飞行",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "飞剑破空",
+            "sound_cn": "两道青光如流星飞坠破空而来，音声清脆悠长如凤鸣九天，远传天际之外",
+            "sound_en": "two green lights shooting down like shooting stars, clear and crisp sound like phoenix cries from the sky, echoing far beyond",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "trigger_keyword": "往地上一掷",
+            "trigger_offset": 0,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "掷宝入地",
+            "sound_cn": "一把光华灿烂之物掷向地面，轰响一声如金石相击，满庭云烟升腾弥漫",
+            "sound_en": "a handful of shining objects thrown to the ground, loud thud like metal striking stone, clouds of smoke rising and filling the pavilion",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "烟光不见",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "烟光隐没",
+            "sound_cn": "青光连闪几闪后烟光消散，二童身影没入地底消失无踪",
+            "sound_en": "after several flashes of green light, smoke and light fading, the two boys disappearing into the ground without trace",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "轰隆作响",
+            "trigger_offset": -0.5,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "地底震动",
+            "sound_cn": "地下轰隆作响如闷雷滚动，连全岛也被震动颤抖，一团光华从甬道入口飞将出来",
+            "sound_en": "underground rumbling like rolling thunder, the whole island shaking and trembling, a ball of light flying out from the tunnel entrance",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 17.0,
+            "trigger_keyword": "现出两俊一丑",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "易静现身",
+            "sound_cn": "光华敛处现出易静和易氏弟兄，衣袂飘飞如仙，三人稳稳落于地面",
+            "sound_en": "light fading to reveal Yijing and the two Yi brothers, robes fluttering like immortals, three landing steadily on the ground",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 18,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "阵中险遭失利，一言难尽。诸位道友姊妹且慢，大家先择一僻静所在，仍照先时行法隐蔽，容我看完家父的书信再说。",
+          "instruct": "威严庄重，语调铿锵，气势逼人，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 19,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，匆匆引了众人同出亭外，仍往上次藏身的暗礁之下，先行法封锁了藏身之处。从怀中取出一封书信，看完喜道。",
+          "instruct": "阴森叙述，气氛凝重，暗藏玄机"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "取出一封书信",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "展开书信",
+            "sound_cn": "易静从怀中取出一封书信展开，纸张沙沙轻响如风过竹叶",
+            "sound_en": "Yijing taking out a letter and unfolding it, soft rustle of paper like wind through bamboo leaves",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 20,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "诸位道友姊妹勿忧，据家父来信所说，此行不但天一贞水可得，大家还要另得许多宝物，连小妹也可附骥，列入峨眉门墙。神沙甬道虽然厉害，日内掌教师尊必命二位新入门的能手来此相助。除金须奴和陆、杨二位道友外，宫中诸人遭劫被难者颇不在少呢。",
+          "instruct": "得意洋洋，语调轻快，志得意满，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "众人闻言，自是心喜。易静又谈起怎生在阵内遇见敌人，被困脱险之事。原来易静一时好胜，独自当先。谁知众人无心中砍断琼树，将阵破去。三凤在内层阵中已有觉察，不由大怒，忙将阵法倒转，迎上前去。猛又想起敌人护身法宝厉害，上次已要入网，仍是被他逃走，不如引他分散开来，纵不全数受擒，到底擒一个是一个。等易静一入阵，便用魔法将阵分开。轻云等在阵中寻不见易静，在追踪之时，恰值初凤那里也同时发动，只剩易静一人进了内阵。三凤等她到了阵的中央，才同了二凤、冬秀迎上前去。易静原明阵法，正行之间，忽见暗云高低中，千百根赤红晶柱，从四方八面涌现出来，便知敌人阵势发动，局势看去甚为险恶。再一回顾后面，轻云等所驾的那一幢彩云竟无踪影，众人没有跟来，必为敌人分开。自恃身藏七宝，并未放在心上，仍旧照直前进。正待施为，那千百根晶柱忽然发出熊熊烈火，齐往中央挤来。易静骂道。",
+          "instruct": "激烈叙述，语速加快，战意昂扬"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "赤红晶柱",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "晶柱涌现",
+            "sound_cn": "千百根赤红晶柱从四方八面涌现而出，轰隆声沉重如地裂山崩，烈火熊熊燃烧炽热逼人",
+            "sound_en": "thousands of red crystal pillars emerging from all sides, heavy rumbling like earth splitting and mountains crumbling, blazing fire roaring with intense heat",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 22,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "无知妖孽！不敢公然出战，专弄这些障眼妖法济得甚事？",
+          "instruct": "嘲讽，语调轻蔑，不屑一顾，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 23,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，先将兜率宝伞取出，化成一幢红云，护住全身。正在打算用何法宝取胜，那千百根晶柱已挤得离身只有数尺，连成了一团火墙。虽被宝伞红云阻住不能再进，那柱上面发出来的烈火，也是挨近红云便即消灭，可是那些晶柱不计其数，俱一齐往中心挤来。火声风声，轰轰发发，搅成一片，甚是浩大。前面的一被阻住，后面的又跟着拥了上来。等到围成一圈，便互相挤轧排荡，万响齐发，如山崩地裂一般。易静所带法宝虽然玄妙，无奈当初炼时，专为对付赤身教主鸠盘婆报仇之用。除护身法宝兜率宝伞外，其余如用起来，颇为费手，不是当时便可出手。紫云三女虽然无鸠盘婆道力高深，这内阵中的晶柱，却是秉着天魔秘传，用子母神沙炼成，生生不已，变化无穷，多少大小，分散聚合，无不如意，比起鸠盘婆的毒沙邪雾，阴风魔火，还要厉害十倍。易静见四围晶柱兀自不退，几次想仗着宝伞冲将出去，无论冲向何方，仅将柱上所发魔火微微冲散了些，要想冲出重围，哪里能够。而且这面柱上火势才减，其余三面其势又盛。相持了一阵，四面晶柱挤轧之声，越来越密。到了后来，竟和除夕放的花炮一般，爆裂之声，密如雨霰。易静暗忖：『这些烈火晶柱，俱是神沙聚炼，能分能合，如若爆散，必有别的狠毒作用。想不到内阵竟有如此厉害，万一宝伞抵御不住，岂不身败名裂？除了冒险运用法宝，怎能脱困？』想到这里，眼看四围火柱就要爆炸，忙向法宝囊中取宝，准备一拼时，忽听暗中有人对话，似在争论，为风火之声所掩，听不真切。转眼之间，忽然奇光耀眼，那成千的烈火晶柱竟自行退去，立即火灭柱隐，无影无踪。自身仍在甬道当中，面前站定三个仙衣霞裳的女子。易静原没见过紫云宫中诸人，方在猜疑，为首一个已发话道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "兜率宝伞",
+            "trigger_offset": -0.5,
+            "duration": 5,
+            "process_mode": "overlay",
+            "name": "宝伞护身",
+            "sound_cn": "兜率宝伞化成一幢红云护住全身，呼呼风响如烈火鼓荡，晶柱烈火遇云即灭",
+            "sound_en": "Doushuai umbrella turning into a cloud of red mist protecting the body, wind roaring like fire billowing, pillar fire dying on contact with the cloud",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.5,
+            "trigger_keyword": "爆裂之声",
+            "trigger_offset": 0,
+            "duration": 6,
+            "process_mode": "overlay",
+            "name": "晶柱爆裂",
+            "sound_cn": "晶柱爆裂声密如雨霰，砰啪轰隆不绝于耳如万炮齐鸣，火柱互相挤轧排荡震荡不休",
+            "sound_en": "crystal pillars exploding like rain, continuous cracking and booming like ten thousand cannons, fire pillars grinding against each other shaking endlessly",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 10.0,
+            "trigger_keyword": "自行退去",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "晶柱退散",
+            "sound_cn": "奇光耀眼如白昼降临，成千烈火晶柱自行退去消退，火灭柱隐如梦幻泡影无影无踪",
+            "sound_en": "blinding light like day descending, thousands of fire pillars retreating on their own, fire dying and pillars vanishing like dreams without trace",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 24,
+      "role": "三凤",
+      "api": {
+        "voice": {
+          "role": "三凤",
+          "role_voice": "三凤",
+          "speed": "-1%",
+          "volume": "-1%",
+          "pitch": "+4Hz",
+          "text": "大胆女娃，竟敢擅闯仙阵！如非我大姊命人再三相劝，此时业已化成灰烟而灭。快快跪下就缚，由我姊妹三人向你那没有家教的师长答话便罢，否则教你死无葬身之地！",
+          "instruct": "语气急切，语速加快，迫不及待，活泼俏皮，古灵精怪，谁也不怕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 25,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "易静笑骂道。",
+          "instruct": "温馨叙述，语调柔和，暖意融融"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 26,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "你这不识羞的丫头，便是紫云三女么？只当你藏头缩尾，不敢露面，居然还敢口出狂言。你仙姑乃女神婴易静，休要有眼不识泰山。有何本领，只管施展出来，谁还怕你不成！",
+          "instruct": "恐惧，颤抖着声音，惊慌失措，清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "言还未了，侧面一个黄绢女子大怒道。",
+          "instruct": "平静叙述，语气舒缓，如画卷般展开"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "冬秀",
+      "api": {
+        "voice": {
+          "role": "冬秀",
+          "role_voice": "邵冬秀",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二姊、三姊，还不动手，这等峨眉后辈，与她有何话说？",
+          "instruct": "心机深沉，语气阴沉，暗中算计"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，手一指，便是一道青光飞来。易静笑骂道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "一道青光飞来",
+            "trigger_offset": -0.5,
+            "duration": 4,
+            "process_mode": "overlay",
+            "name": "青光出剑",
+            "sound_cn": "冬秀手一指青光飞出如电，破空声尖锐刺耳，直取易静面门",
+            "sound_en": "Dongxiu pointing and green light flying out like lightning, sharp piercing whoosh heading straight for Yijing's face",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "易静",
+      "api": {
+        "voice": {
+          "role": "易静",
+          "role_voice": "易静",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "原来你们仗着人多为胜么？",
+          "instruct": "清冷干练，被激起斗志，不甘示弱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说时，一面先将飞剑放出抵敌，一面心中盘算：『来时曾听杨鲤说起，初凤专在黄晶殿内防守总图。除紫云三女外，宫中有一妖女，名叫冬秀，最为可恶，必是此女无疑。何不先下手为强，暗中施展毒手，给此女尝点厉害？』想到这里，便从怀中取出昔年师父一真上人归真时所赐炼魔之宝乌金芒。此宝与宝相夫人的白眉针大同小异，专刺人的骨窍。虽没白眉针狠毒，也是一真上人初成道时，用那两道修眉炼成，放起来细如毫芒，仅有一丝极细的乌光，比起白眉针还要隐晦，事前如不深知预防，极难逃躲。易静如非深知冬秀、三凤二人最是可恶，也不轻易暗用此宝。该冬秀有此一劫。三凤也是好胜心盛，因听敌人说自己倚仗人多，仗着鱼已入网，早晚受擒，见冬秀已先动手，便不上前。没想到两下里正斗之间，忽然敌人手指处，一丝极细的乌光闪了一下，便即不见。情觉有异，便听冬秀『哎呀』一声，身子几乎跌倒。接着说道。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "乌金芒",
+            "trigger_offset": -0.5,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "乌金芒发",
+            "sound_cn": "易静手指处一丝极细乌光闪了一下，几不可辨几不可闻，破空无声如暗夜幽灵",
+            "sound_en": "Yijing's finger flashing a barely visible thread of black light, silent and deadly like a ghost in the dark",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 2.5,
+            "trigger_keyword": "放出抵",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "冬秀中招",
+            "sound_cn": "冬秀哎呀一声痛呼出口，声音中充满惊痛和难以置信，身子踉跄几乎跌倒",
+            "sound_en": "Dongxiu crying out in pain, voice full of shock and agony, body staggering almost falling",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 32,
+      "role": "冬秀",
+      "api": {
+        "voice": {
+          "role": "冬秀",
+          "role_voice": "邵冬秀",
+          "speed": "0%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "二姊、三姊，休教敌人逃走，我已中了她的暗算了。",
+          "instruct": "轻蔑，语调冷淡，傲然视之，心机深沉，语气阴沉，暗中算计"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 33,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "-10%",
+          "volume": "0%",
+          "pitch": "0Hz",
+          "text": "说罢，便将剑光收回，退过一旁。",
+          "instruct": "恢宏叙述，气势磅礴，大战正酣"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.3,
+            "trigger_keyword": "剑光收回",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "剑光回收",
+            "sound_cn": "冬秀将剑光收回，青光一敛如长鲸吸水，退过一旁衣袂轻响",
+            "sound_en": "Dongxiu withdrawing her sword light, green glow fading like a whale drinking water, stepping back with soft rustle of robes",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "神沙甬道琼林阵",
+        "start_line": 1,
+        "end_line": 5,
+        "prompt": "very subtle low volume background ambience, long underground tunnel with glowing sand walls and rows of jade trees, mysterious and eerie atmosphere, soft hum of enchanted formations, tense anticipation of battle, deep guqin low resonance beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "飞剑斩琼林",
+        "start_line": 1,
+        "end_line": 1,
+        "prompt": "very subtle low volume background ambience, tunnel with flying swords chopping jade trees, crackling of breaking branches and heavy crashes, chaotic destruction of magical formations, rapid pipa tremolo beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "阴火爆发宝伞护身",
+        "start_line": 3,
+        "end_line": 4,
+        "prompt": "very subtle low volume background ambience, tunnel with green demon fire erupting from broken tree roots and red cloud umbrella countering, fierce elemental clash of fire and dark energy, crackling and hissing of opposing forces, urgent and dangerous atmosphere, fierce percussion and low brass beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "众人联手破阵",
+        "start_line": 5,
+        "end_line": 13,
+        "prompt": "very subtle low volume background ambience, tunnel with multiple cultivators fighting together, flying swords and treasures flashing like lightning, repeated breaking of magical formations, determined and united atmosphere, steady drumbeat beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "大五行魔火神雷",
+        "start_line": 9,
+        "end_line": 13,
+        "prompt": "very subtle low volume background ambience, tunnel filled with thunder and fire from all directions, deafening explosions and blinding flashes like apocalypse, overwhelming magical assault crushing from every side, chaotic and desperate atmosphere of survival, fierce percussion and low brass beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-28%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "冲出甬道埋伏",
+        "start_line": 14,
+        "end_line": 17,
+        "prompt": "very subtle low volume background ambience, seaside island pavilion after escaping the tunnel, quiet tension of waiting and watching, sea breeze and distant waves, nervous anticipation and strategy discussion, soft xiao flute distant and breathy, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "易鼎易震入阵救援",
+        "start_line": 17,
+        "end_line": 19,
+        "prompt": "very subtle low volume background ambience, island pavilion with sudden arrivals and mysterious departures, magical lights flashing in the night, rescue operation unfolding, tense and hopeful atmosphere, sparse pipa plucks beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "易静讲述被困经历",
+        "start_line": 21,
+        "end_line": 33,
+        "prompt": "very subtle low volume background ambience, secluded hiding place under dark reef with hushed voices, recounting dangerous battle and narrow escape, reflective and intense storytelling atmosphere, soft guqin resonance beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "内阵晶柱围困",
+        "start_line": 23,
+        "end_line": 25,
+        "prompt": "very subtle low volume background ambience, inner formation with thousands of red crystal pillars rising like forest, intense heat and roaring fire from every direction, crushing pressure of endless pillars closing in, desperate struggle for survival in magical trap, deep bass guqin and drum beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "三女对峙乌金芒",
+        "start_line": 27,
+        "end_line": 33,
+        "prompt": "very subtle low volume background ambience, tunnel chamber with three women confronting a lone cultivator, tense standoff and verbal sparring, sudden flash of hidden weapon and cry of pain, dramatic turn of battle, suspenseful and sharp atmosphere, rapid percussive accents beneath, slow evolving layered soundscape, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  }
+}

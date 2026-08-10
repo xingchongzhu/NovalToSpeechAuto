@@ -25,7 +25,7 @@ PLATFORM="ximalaya"
 # TTS 合成模式: voice_design=文字描述造音色(无需参考音频,通过配音表Prompt+剧本语气控制) | clone=克隆音频(需clone-audio/下有对应音色文件)
 TTS_MODE="clone"
 # TTS起始稳定化前缀文本(默认空字符串表示禁用)，例如"话说，"或"嗯，"
-STABILITY_PREFIX=""
+STABILITY_PREFIX="话说，"
 # 默认排序模式: chapter=章节号排序(默认) | pinyin=拼音排序 | name=文件名排序
 SORT_MODE="chapter"
 
