@@ -19,11 +19,11 @@ Features:
   pip install faster-whisper requests torch         # 备用引擎
 
 Usage:
-    python audio_transcribe.py -i audio.mp3
-    python audio_transcribe.py -i ./配音/
-    python audio_transcribe.py -i ./配音/ -o ./output_json/
-    python audio_transcribe.py -i audio.mp3 -o custom.json
-    python audio_transcribe.py -i https://example.com/audio.mp3
+    python asr_transcribe_cli.py -i audio.mp3
+    python asr_transcribe_cli.py -i ./配音/
+    python asr_transcribe_cli.py -i ./配音/ -o ./output_json/
+    python asr_transcribe_cli.py -i audio.mp3 -o custom.json
+    python asr_transcribe_cli.py -i https://example.com/audio.mp3
 """
 
 import argparse

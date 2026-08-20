@@ -678,6 +678,35 @@ class AudioEngine:
             return False, "; ".join(issues)
         return True, ""
 
+    def _detect_and_trim_prefix_by_asr(self, chunk: 'np.ndarray', sr: int, prefix_text: str = "话说，") -> 'np.ndarray':
+        """使用 asr_prefix_detector 模块检测并裁剪前缀。
+
+        Args:
+            chunk: 音频数据 (numpy array)
+            sr: 采样率
+            prefix_text: 要检测的前缀文本，默认 "话说，"
+
+        Returns:
+            裁剪后的音频数据
+        """
+        try:
+            from asr_prefix_detector import detect_and_trim_prefix
+            project_root = Path(__file__).resolve().parent.parent.parent
+            print(f"[AudioProcessing] 🔍 ASR检测前缀 '{prefix_text}'，音频长度: {len(chunk)/sr:.2f}s")
+            result = detect_and_trim_prefix(
+                chunk, sr, prefix_text=prefix_text, project_root=project_root, search_seconds=3.0
+            )
+            if len(result) < len(chunk):
+                print(f"[AudioProcessing] ✓ 前缀已裁剪，原长度: {len(chunk)}, 新长度: {len(result)}")
+            else:
+                print(f"[AudioProcessing] ⚠ 前缀未找到或裁剪失败")
+            return result
+        except Exception as e:
+            print(f"[AudioProcessing] ✗ ASR裁剪失败: {e}")
+            import traceback
+            traceback.print_exc()
+            return chunk
+
     def text_to_speech(self, params: VoiceParams) -> AudioSegment:
         """文本转语音接口"""
         print(f"\n[TTSEngine] 使用引擎: {self.tts_engine} (模式: {params.tts_mode})")
@@ -926,7 +955,7 @@ class AudioEngine:
             # 按实际前缀音频长度裁剪，保留 5% 安全边距避免削到正文
             # 注意：前缀"话说，"附着在不同正文上时 TTS 合成时长可能略长于独立测量值，
             # 因此安全边距不能太大，否则前缀残留
-            safe_trim = int(prefix_sample_count * 0.92) if prefix_sample_count > 0 else 0
+            safe_trim = int(prefix_sample_count * 1.0) if prefix_sample_count > 0 else 0
             if safe_trim > 0:
                 print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
@@ -956,12 +985,9 @@ class AudioEngine:
                     wavs, sr = _generate_voice_chunk(actual_text, ref_audio, x_vector_only_mode)
                     chunk_audio = np.concatenate(wavs) if isinstance(wavs, list) else wavs
 
-                    # ── 裁剪前缀（如果启用了稳定化前缀）──
-                    if stability_prefix and safe_trim > 0 and len(text_segment) > 5:
-                        if len(chunk_audio) > safe_trim:
-                            chunk_audio = chunk_audio[safe_trim:]
-                        else:
-                            print(f"[TTSEngine]   ⚠️ 分段 {index} 音频长度({len(chunk_audio)})小于裁剪量({safe_trim})，跳过裁剪")
+                    # ── 裁剪前缀（使用 ASR 精确检测）──
+                    if stability_prefix and len(text_segment) > 5:
+                        chunk_audio = self._detect_and_trim_prefix_by_asr(chunk_audio, sr, stability_prefix)
 
                     # ── 逐段质检 ──
                     is_good, reason = self._check_segment_quality(chunk_audio, sr, text_segment)
@@ -1129,8 +1155,8 @@ class AudioEngine:
                     print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
                     prefix_sample_count = 0
 
-        # 按实际前缀音频长度裁剪，保留 5% 安全边距避免削到正文
-        safe_trim = int(prefix_sample_count * 0.92) if prefix_sample_count > 0 else 0
+        # 按实际前缀音频长度裁剪，完全切除前缀
+        safe_trim = int(prefix_sample_count * 1.0) if prefix_sample_count > 0 else 0
         if safe_trim > 0:
             print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
@@ -1205,12 +1231,9 @@ class AudioEngine:
                 result_holder.clear()
                 del result_holder
                 del exception_holder
-                if len(seg) > 5 and safe_trim > 0 and len(chunk) > safe_trim:
-                    # 短句（≤15 字）裁剪比例降低但仍应去掉大部分前缀，避免残留
-                    _trim_ratio = 0.75 if len(seg) <= 15 else 1.0
-                    _trim = int(safe_trim * _trim_ratio)
-                    if len(chunk) > _trim:
-                        chunk = chunk[_trim:]
+                # ── 裁剪前缀（使用 ASR 精确检测）──
+                if stability_prefix and len(seg) > 5:
+                    chunk = self._detect_and_trim_prefix_by_asr(chunk, sr, stability_prefix)
 
                 # ── 逐段质检：静音/时长异常/连续静音检测 ──
                 is_good, reason = self._check_segment_quality(chunk, sr, seg)
@@ -1638,7 +1661,7 @@ class AudioEngine:
             {keyword: actual_time_seconds} 或 {} (失败时)
         """
         try:
-            from audio_transcribe import find_whisper_cpp, ensure_whisper_cpp_model
+            from asr_transcribe_cli import find_whisper_cpp, ensure_whisper_cpp_model
             
             whisper_bin = find_whisper_cpp()
             if not whisper_bin:
@@ -1705,7 +1728,7 @@ class AudioEngine:
             threshold: 相似度阈值，默认 0.65
         """
         try:
-            from audio_transcribe import find_whisper_cpp, ensure_whisper_cpp_model
+            from asr_transcribe_cli import find_whisper_cpp, ensure_whisper_cpp_model
             
             whisper_bin = find_whisper_cpp()
             if not whisper_bin:
@@ -3253,10 +3276,20 @@ class AudioGenerator:
         processed_since_cleanup = 0
         CLEANUP_EVERY_N_LINES = 5  # 每5句清理一次内存
 
+        # 打印角色分组概览
+        print(f"\n📋 角色分组概览（共 {len(role_order)} 个角色）:")
+        for i, r in enumerate(role_order, 1):
+            print(f"   {i}. {r}: {len(role_groups[r])} 句")
+        print()
+
         for role in role_order:
             group = role_groups[role]
             tts_label = f"🎤 {self.tts_mode}"
-            print(f"\n  [{role}] {tts_label} → 连续合成 {len(group)} 句")
+            line_ids = [lc.id + 1 for lc in group]
+            print(f"\n  ════════════════════════════════════════════════════")
+            print(f"  🎭 角色: [{role}] {tts_label}")
+            print(f"  📝 本组合成 {len(group)} 句（第 {line_ids} 句）")
+            print(f"  ════════════════════════════════════════════════════")
 
             for line_config in group:
                 try:
@@ -3286,7 +3319,8 @@ class AudioGenerator:
                     print(f"  ⚠️ 缓存配音读取失败 #{line_config.id}: {e}，将重新合成")
                     existing_voice_ids.discard(line_config.id)
                 try:
-                    print(f"  📊 正在合成第{line_config.id + 1}句，已完成{self.completed_count}句，共{self.total_lines}句")
+                    group_idx = group.index(line_config) + 1
+                    print(f"  📊 [{role}] 组内进度 {group_idx}/{len(group)} | 全文第{line_config.id + 1}句，已完成{self.completed_count}句")
                     line_audio = self.generate_single_line(line_config)
                     
                     start_ms = current_ms
@@ -3317,6 +3351,9 @@ class AudioGenerator:
                 except Exception as e:
                     print(f"  ❌ 第 {line_config.id} 句异常: {e}")
                     self.record_failed_line(line_config, e)
+            
+            # 角色组完成标记
+            print(f"  ✅ 角色 [{role}] 合成完成（{len(group)} 句）")
 
         # 持久化失败段落记录
         self.persist_failed_lines()
