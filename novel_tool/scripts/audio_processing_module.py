@@ -294,7 +294,7 @@ class AudioEngine:
                  fish_api_url: str = "http://localhost:8080",
                  target_voice_dbfs: Optional[float] = None,
                  enable_transcribe_check: bool = False, tts_mode: str = "voice_design",
-                 stability_prefix: str = ""):
+                 stability_prefix: str = "", voice_table_path: Optional[str] = None):
         self.temp_dir = temp_dir
         self.sample_rate = sample_rate
         self.channels = channels
@@ -322,12 +322,15 @@ class AudioEngine:
         
         # ── VoiceDesign 角色配音表 ──
         self._voice_design_table = None  # lazy-loaded JSON 配音表
-        self._voice_design_table_path = os.path.join(
-            project_root, "novel_tool", "character_voice_tables", "蜀山剑侠传角色配音表.json"
-        )
+        if voice_table_path:
+            self._voice_design_table_path = voice_table_path
+        else:
+            # 未指定时回退到默认的蜀山剑侠传配音表（向后兼容）
+            self._voice_design_table_path = os.path.join(
+                project_root, "novel_tool", "character_voice_tables", "蜀山剑侠传角色配音表.json"
+            )
         self._voice_table_missing = set()  # VoiceDesign 模式下配音表缺失的角色名，供上层记录
         self._quality_warnings = []  # TTS 质量异常记录
-        self._vd_prefix_cache = {}  # VoiceDesign 起始前缀长度缓存，key=full_instruct → (sample_count, sr)，上限 64 条
 
         os.makedirs(self.temp_dir, exist_ok=True)
         os.makedirs(self.voice_prompt_cache_dir, exist_ok=True)
@@ -344,7 +347,6 @@ class AudioEngine:
             del self.qwen_tts_model
             self.qwen_tts_model = None
         self._voice_clone_prompt_cache.clear()
-        self._vd_prefix_cache.clear()
         self._voice_table_missing.clear()
         self._quality_warnings.clear()
         import gc as _gc
@@ -928,36 +930,9 @@ class AudioEngine:
             all_wavs = []
             sample_rate = None
 
-            # ── 起始稳定化：每段拼前缀后按前缀实际长度动态裁剪 ──
+            # ── 起始稳定化：每段拼前缀后由 ASR 精确检测裁剪 ──
             max_tokens = 2048
-
-            # 先生成一次前缀，测量真实音频长度
-            prefix_sample_count = 0
-            prefix_sr = None
             stability_prefix = self.stability_prefix
-            need_prefix = (
-                stability_prefix
-                and text_segments
-                and any(len(seg) > 5 for seg in text_segments)
-                and not text_segments[0].startswith(stability_prefix)
-            )
-            if need_prefix:
-                try:
-                    print(f"[TTSEngine] 生成起始稳定化前缀: '{stability_prefix}'")
-                    _prefix_wavs, prefix_sr = _generate_voice_chunk(stability_prefix, ref_audio, x_vector_only_mode)
-                    prefix_audio = np.concatenate(_prefix_wavs) if isinstance(_prefix_wavs, list) else _prefix_wavs
-                    prefix_sample_count = len(prefix_audio)
-                    print(f"[TTSEngine] 前缀音频长度: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
-                except Exception as e:
-                    print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
-                    prefix_sample_count = 0
-
-            # 按实际前缀音频长度裁剪，保留 5% 安全边距避免削到正文
-            # 注意：前缀"话说，"附着在不同正文上时 TTS 合成时长可能略长于独立测量值，
-            # 因此安全边距不能太大，否则前缀残留
-            safe_trim = int(prefix_sample_count * 1.0) if prefix_sample_count > 0 else 0
-            if safe_trim > 0:
-                print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
             MAX_CLONE_RETRIES = 3
             t_cumulative = 0.0
@@ -1114,51 +1089,9 @@ class AudioEngine:
         cleaned_text = cleaned_text.replace('\u201c', '').replace('\u201d', '').replace('\u2018', '').replace('\u2019', '')
         text_segments = self._split_qwen_text(cleaned_text, max_chunk_length=VD_MAX_CHUNK)
 
-        # ── 起始稳定化：每段拼前缀后按前缀实际长度动态裁剪 ──
+        # ── 起始稳定化：每段拼前缀后由 ASR 精确检测裁剪 ──
         max_tokens = 1000
-
-        # 先生成一次前缀，测量真实音频长度（按 full_instruct 缓存，同角色/语气只生成一次）
-        prefix_sample_count = 0
-        prefix_sr = None
         stability_prefix = self.stability_prefix
-        need_prefix = (
-            stability_prefix
-            and text_segments
-            and any(len(seg) > 5 for seg in text_segments)
-            and not text_segments[0].startswith(stability_prefix)
-        )
-        if need_prefix:
-            cached_prefix = self._vd_prefix_cache.get(full_instruct)
-            if cached_prefix is not None:
-                prefix_sample_count, prefix_sr = cached_prefix
-                print(f"[TTSEngine] 复用前缀长度缓存: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
-            else:
-                try:
-                    print(f"[TTSEngine] 生成起始稳定化前缀: '{stability_prefix}'")
-                    torch.manual_seed(VD_BASE_SEED)
-                    _prefix_wavs, prefix_sr = self.qwen_tts_model.generate_voice_design(
-                        text=stability_prefix, language="Chinese",
-                        instruct=full_instruct,
-                        max_new_tokens=max_tokens,
-                        subtalker_dosample=False, subtalker_temperature=VD_SUBTALKER_TEMP,
-                        temperature=VD_TEMPERATURE, top_p=VD_TOP_P, repetition_penalty=1.05,
-                    )
-                    prefix_audio = np.concatenate(_prefix_wavs) if isinstance(_prefix_wavs, list) else _prefix_wavs
-                    prefix_sample_count = len(prefix_audio)
-                    self._vd_prefix_cache[full_instruct] = (prefix_sample_count, prefix_sr)
-                    # LRU 淘汰：上限 64 条
-                    while len(self._vd_prefix_cache) > 64:
-                        oldest = next(iter(self._vd_prefix_cache))
-                        del self._vd_prefix_cache[oldest]
-                    print(f"[TTSEngine] 前缀音频长度: {prefix_sample_count} samples ({prefix_sample_count/prefix_sr:.2f}s)")
-                except Exception as e:
-                    print(f"[TTSEngine] ⚠️ 生成稳定化前缀失败，跳过: {e}")
-                    prefix_sample_count = 0
-
-        # 按实际前缀音频长度裁剪，完全切除前缀
-        safe_trim = int(prefix_sample_count * 1.0) if prefix_sample_count > 0 else 0
-        if safe_trim > 0:
-            print(f"[TTSEngine] 前缀裁剪量: {safe_trim} samples ({safe_trim/prefix_sr:.2f}s, 实际前缀 {prefix_sample_count/prefix_sr:.2f}s)")
 
         # ── 分段串行生成（逐段质检，异常自动重试）──
         all_wavs = []
@@ -2047,6 +1980,14 @@ class AudioGenerator:
         self.failed_lines_log_path = os.path.join(self.chapter_dir, "failed_lines.json")
         
         platform_channels = self.platform_profile.channels or 1
+        # 根据片头 novel_name 自动定位对应的角色配音表（不存在则回退到默认蜀山剑侠传）
+        _project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+        _voice_table_novel = (self.config.get("片头") or {}).get("novel_name") or self.novel_name
+        _voice_table_path = os.path.join(
+            _project_root, "novel_tool", "character_voice_tables", f"{_voice_table_novel}角色配音表.json"
+        )
+        if not os.path.exists(_voice_table_path):
+            _voice_table_path = None
         self.audio_engine = AudioEngine(
             temp_dir="./temp_audio",
             sample_rate=self.platform_profile.sample_rate,
@@ -2056,6 +1997,7 @@ class AudioGenerator:
             target_voice_dbfs=self.platform_profile.target_voice_dbfs,
             tts_mode=self.tts_mode,
             stability_prefix=self.stability_prefix,
+            voice_table_path=_voice_table_path,
         )
         self.total_lines = len(self.config.get("data", []))
 
@@ -3161,11 +3103,6 @@ class AudioGenerator:
                 while len(cache) > max_keep:
                     oldest_key = next(iter(cache))
                     del cache[oldest_key]
-                
-                vd_cache = self.audio_engine._vd_prefix_cache
-                while len(vd_cache) > max_keep:
-                    oldest_key = next(iter(vd_cache))
-                    del vd_cache[oldest_key]
             
             # macOS: 强制归还已释放内存给系统
             _release_malloc_memory()

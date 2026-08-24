@@ -66,8 +66,8 @@ def main():
     parser.add_argument(
         "--voice-table",
         type=str,
-        default=os.path.join(PROJECT_ROOT, "novel_tool", "character_voice_tables", "蜀山剑侠传角色配音表.json"),
-        help="配音表 JSON 文件路径",
+        default=None,
+        help="配音表 JSON 文件路径（默认扫描 character_voice_tables 目录下所有 *角色配音表.json）",
     )
     parser.add_argument(
         "--output-dir",
@@ -115,11 +115,23 @@ def main():
 
     args = parser.parse_args()
 
-    # 加载配音表
-    print(f"加载配音表: {args.voice_table}")
-    voice_table = load_voice_table(args.voice_table)
-    stats = voice_table.get("统计", {})
-    print(f"配音表统计: 总计 {stats.get('总计', '?')} 个角色")
+    # 确定要处理的配音表文件列表
+    if args.voice_table:
+        voice_table_paths = [args.voice_table]
+    else:
+        tables_dir = os.path.join(PROJECT_ROOT, "novel_tool", "character_voice_tables")
+        voice_table_paths = sorted(
+            os.path.join(tables_dir, f)
+            for f in os.listdir(tables_dir)
+            if f.endswith("角色配音表.json")
+        )
+        if not voice_table_paths:
+            print(f"错误: {tables_dir} 目录下未找到 *角色配音表.json 文件")
+            sys.exit(1)
+
+    print(f"待处理配音表: {len(voice_table_paths)} 个")
+    for p in voice_table_paths:
+        print(f"  - {os.path.basename(p)}")
 
     # 创建输出目录
     os.makedirs(args.output_dir, exist_ok=True)
@@ -132,17 +144,22 @@ def main():
         tts_mode="voice_design",
     )
 
-    # 收集所有要处理的角色
+    # 收集所有配音表的所有角色（跨表按角色名去重）
     tasks = []
     seen_names = set()
-    for char, level in iter_all_characters(voice_table):
-        if level not in args.levels:
-            continue
-        name = char.get("角色名", "")
-        if not name or name in seen_names:
-            continue
-        seen_names.add(name)
-        tasks.append((char, level))
+    for vtp in voice_table_paths:
+        print(f"加载配音表: {vtp}")
+        voice_table = load_voice_table(vtp)
+        stats = voice_table.get("统计", {})
+        print(f"  统计: 总计 {stats.get('总计', '?')} 个角色")
+        for char, level in iter_all_characters(voice_table):
+            if level not in args.levels:
+                continue
+            name = char.get("角色名", "")
+            if not name or name in seen_names:
+                continue
+            seen_names.add(name)
+            tasks.append((char, level))
 
     print(f"\n共 {len(tasks)} 个角色待处理 (级别: {', '.join(args.levels)})")
 

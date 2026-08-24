@@ -36,8 +36,11 @@ def get_sensevoice_model():
         try:
             from funasr import AutoModel
             print("[Transcribe] 加载 SenseVoice 模型...")
+            # 使用本地模型路径
+            project_root = Path(__file__).resolve().parent.parent.parent
+            model_path = project_root / "models" / "SenseVoiceSmall"
             _sensevoice_model = AutoModel(
-                model="iic/SenseVoiceSmall",
+                model=str(model_path),
                 vad_model="fsmn-vad",
                 vad_kwargs={"max_single_segment_time": 30000},
                 device="cpu",

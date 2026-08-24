@@ -28,28 +28,28 @@
 # ── 使用示例 ──────────────────────────────────────────────
 #
 #   单个音频 → JSON 与音频同目录同名:
-#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i audio.mp3
 #
 #   目录批量转写:
-#     python3 novel_tool/scripts/audio_transcribe.py -i ./配音/
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i ./配音/
 #
 #   指定输出目录:
-#     python3 novel_tool/scripts/audio_transcribe.py -i ./配音/ -o ./subtitles/
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i ./配音/ -o ./subtitles/
 #
 #   URL 下载后转写:
-#     python3 novel_tool/scripts/audio_transcribe.py -i https://example.com/audio.mp3
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i https://example.com/audio.mp3
 #
 #   强制用 faster-whisper (含逐字时间轴):
-#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3 --force-faster-whisper
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i audio.mp3 --force-faster-whisper
 #
 #   大模型高精度:
-#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3 -m large-v3
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i audio.mp3 -m large-v3
 #
 #   输出 SRT 字幕:
-#     python3 novel_tool/scripts/audio_transcribe.py -i audio.mp3 -f srt
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i audio.mp3 -f srt
 #
 #   静默模式 (自动化脚本):
-#     python3 novel_tool/scripts/audio_transcribe.py -i ./配音/ -q
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i ./配音/ -q
 #
 # ── 引擎对比 ──────────────────────────────────────────────
 #
@@ -90,7 +90,7 @@
 # ── Shell 自动化示例 ──────────────────────────────────────
 #
 #   # 批量转写目录下所有音频
-#   python3 novel_tool/scripts/audio_transcribe.py -i ./配音/ -q
+#     python3 novel_tool/scripts/asr_transcribe_cli.py -i ./配音/ -q
 #
 #   # 遍历结果
 #   for json_file in ./配音/*.json; do

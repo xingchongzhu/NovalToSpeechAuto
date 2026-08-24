@@ -1,0 +1,343 @@
+{
+  "project": "片段剧情有声小说",
+  "chapter": "片段剧情",
+  "片头": {
+    "novel_name": "片段剧情",
+    "author": "未知",
+    "speaker": "AI合成",
+    "role_voice": "旁白01"
+  },
+  "roles_definition": [
+    {
+      "role": "旁白01",
+      "role_voice": "旁白01",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "中年男声，声音醇厚清朗，语速中等，气息沉稳，磁性悦耳，不带角色性格，适合古风说书式叙事"
+    },
+    {
+      "role": "瘦长老者",
+      "role_voice": "瘦长老者",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "老年男声，嗓音尖细清瘦，声调高亢，语速偏快，语气急促警觉，透着精明干练的江湖老手气"
+    },
+    {
+      "role": "殷师兄",
+      "role_voice": "殷师兄",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "老年男声，嗓音低沉浑厚，语速缓慢，声音厚重平和，气派从容，慢条斯理，带富商雍容气质"
+    }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "雪地荒野",
+        "name_en": "白雪覆盖的山坡荒野，寒风凛冽，远处山坳静谧，四野无人，马蹄踏雪声零星，空旷寂寥氛围",
+        "start_line": 0,
+        "end_line": 3,
+        "prompt": "very subtle low volume cinematic background ambience, broad snow-covered wilderness at dusk, cold wind sweeping across open field, faint creak of frozen snow underfoot, distant empty mountain hollow, quiet and desolate winter plain, deep guqin resonance low and sparse, slow evolving layered soundscape, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "山坳追迹",
+        "name_en": "山坳转弯处，雪坡延伸，远处五骑渐行渐远，马蹄溅雪，寒风呼啸，紧张追踪氛围",
+        "start_line": 4,
+        "end_line": 11,
+        "prompt": "very subtle low volume cinematic background ambience, curved mountain hollow with snow-covered slope, fading hoofbeats in the distance, cold wind gusting through rocky pass, thin snow scattering in the air, tense and alert mood, subtle erhu hum low and sustained, slow evolving layered soundscape, no sharp foreground sounds, no prominent events, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "片段剧情",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "庄重开篇报幕，字正腔圆，沉稳大气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "飕的一声，一枝羽箭从东边山坳后射了出来，呜呜声响，划过长空，穿入一头飞雁颈中。大雁带着羽箭在空中打了几个斤斗，落在雪地。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "紧张叙述，语速稍快，表现箭矢破空的迅疾"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "西首数十丈外，四骑马踏着皑皑白雪，奔驰正急。马上乘客听得箭声，不约而同的一齐勒马。四匹马都是身高肥膘的良驹，一受羁勒，立时止步。乘者骑术既精，牲口也都久经训练，这一勒马，显得鞍上胯下，相得益彰。四人眼见大雁中箭跌下，心中都喝一声采，要瞧那发箭的是何等样人物。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "平稳叙述，稍带赞叹语气，表现骑术精良的场面感"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "等了半晌，山坳中始终无人出来，却听得一阵马蹄声响，射箭之人竟自走了。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "略带疑惑的叙述，语速放缓"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "四个乘客中一个身材瘦长、神色剽悍的老者微微皱眉，纵马奔向山坳，其余三人跟着过去。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "快速叙述，表现动作的紧凑和果断"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "转过山边，只见前面里许外五骑马奔驰正急，铁骑溅雪，银鬣乘风，眼见已追赶不上。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "远望叙述，略带焦急和无奈"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 6,
+      "role": "瘦长老者",
+      "api": {
+        "voice": {
+          "text": "殷师兄，这可有点儿邪门。",
+          "role": "瘦长老者",
+          "role_voice": "瘦长老者",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "警觉、压低嗓音，带着疑惑和一丝警惕"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 7,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "那“殷师兄”也是个老者，身形微胖，留着两撇髭须，身披貂皮外套，气派是个富商模样，听那瘦长老者如此说，点了点头，勒马回到大雁之旁，马鞭挥出，啪的一声，抽向雪地，待得马鞭提起，鞭梢已将大雁卷了上来。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "从容细致的叙述，描摹殷师兄的富态与动作的利落"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 8,
+      "role": "殷师兄",
+      "api": {
+        "voice": {
+          "text": "啊！",
+          "role": "殷师兄",
+          "role_voice": "殷师兄",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "失声惊呼，短促而意外，带着发现重要线索的惊讶"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 9,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "三人听到叫声，一齐纵马驰近。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "急促叙述，表现三人闻声迅速聚拢"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "那“殷师兄”连雁带箭向那老者掷去，叫道：",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "动作叙述，语速稍快，引出后续对话"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 11,
+      "role": "瘦长老者",
+      "api": {
+        "voice": {
+          "text": "在这里了，快追！",
+          "role": "瘦长老者",
+          "role_voice": "瘦长老者",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "急切、果断、带着发现目标后的兴奋，音量提高，语速加快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "勒转马头，当先追了下去。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "迅猛收束，叙述动作的干脆利落"
+        },
+        "effects": [
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "旁白01",
+      "api": {
+        "voice": {
+          "text": "这茫茫山坡上一片白雪，四下并无行人，追踪最是容易不过。",
+          "role": "旁白01",
+          "role_voice": "旁白01",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "收束叙述，语速平缓，带一丝冷静的总结感"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    }
+  ]
+}
