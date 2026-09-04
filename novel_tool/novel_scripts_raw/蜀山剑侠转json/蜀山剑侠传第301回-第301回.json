@@ -882,7 +882,7 @@
           {
             "trigger_delay": 82.0,
             "trigger_keyword": "碧蜈钩",
-            "trigger_offset": "-0.8",
+            "trigger_offset": -0.8,
             "duration": 4,
             "process_mode": "overlay",
             "name": "碧蜈绞杀",
@@ -894,7 +894,7 @@
           {
             "trigger_delay": 125.0,
             "trigger_keyword": "笑和尚见状",
-            "trigger_offset": "-0.5",
+            "trigger_offset": -0.5,
             "duration": 3,
             "process_mode": "overlay",
             "name": "妖魂殒灭",
@@ -1034,7 +1034,7 @@
           {
             "trigger_delay": 4.5,
             "trigger_keyword": "长虹射空",
-            "trigger_offset": "-1.2",
+            "trigger_offset": -1.2,
             "duration": 5,
             "process_mode": "overlay",
             "name": "煞火上升",
@@ -1046,7 +1046,7 @@
           {
             "trigger_delay": 10.0,
             "trigger_keyword": "日华耀空",
-            "trigger_offset": "-0.5",
+            "trigger_offset": -0.5,
             "duration": 3,
             "process_mode": "overlay",
             "name": "天清日朗",
@@ -1097,7 +1097,7 @@
           {
             "trigger_delay": 3.5,
             "trigger_keyword": "白光",
-            "trigger_offset": "-1.2",
+            "trigger_offset": -1.2,
             "duration": 5,
             "process_mode": "overlay",
             "name": "白光横海",
@@ -1109,7 +1109,7 @@
           {
             "trigger_delay": 14.0,
             "trigger_keyword": "电气霞光",
-            "trigger_offset": "-1.0",
+            "trigger_offset": -1.0,
             "duration": 5,
             "process_mode": "overlay",
             "name": "霞光迎敌",
@@ -1121,7 +1121,7 @@
           {
             "trigger_delay": 42.0,
             "trigger_keyword": "连珠迅雷",
-            "trigger_offset": "-1.0",
+            "trigger_offset": -1.0,
             "duration": 4,
             "process_mode": "overlay",
             "name": "迅雷连响",
@@ -1172,7 +1172,7 @@
           {
             "trigger_delay": 14.0,
             "trigger_keyword": "红光金霞",
-            "trigger_offset": "-1.0",
+            "trigger_offset": -1.0,
             "duration": 4,
             "process_mode": "overlay",
             "name": "火灵珠光",
@@ -1184,7 +1184,7 @@
           {
             "trigger_delay": 32.0,
             "trigger_keyword": "太乙神雷",
-            "trigger_offset": "-0.8",
+            "trigger_offset": -0.8,
             "duration": 4,
             "process_mode": "overlay",
             "name": "神雷震洞",
@@ -1196,7 +1196,7 @@
           {
             "trigger_delay": 62.0,
             "trigger_keyword": "青蒙蒙",
-            "trigger_offset": "-0.8",
+            "trigger_offset": -0.8,
             "duration": 4,
             "process_mode": "overlay",
             "name": "青光冲空",

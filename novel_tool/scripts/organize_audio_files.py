@@ -10,6 +10,7 @@ import os
 import sys
 import shutil
 import re
+import argparse
 
 def get_audio_duration(file_path):
     """获取音频时长（秒），失败返回 -1"""
@@ -98,16 +99,43 @@ def convert_chinese_to_arabic(text):
 
     return f"{prefix}{result}{unit}{suffix}"
 
-def organize_audio_files():
+def _natural_sort_key(name):
+    """自然排序键：数字按数值比较，避免 '2' 排在 '10' 后面"""
+    return [((1, int(p)) if p.isdigit() else (0, p)) for p in re.split(r"(\d+)", name)]
+
+def _build_display_name(file_name):
+    """从完整音频文件名提取展示名。
+
+    例如 '蜀山剑侠传第201回-第201回_1.mp3' -> '第201回 1'
+        '蜀山剑侠传第225回-第235回_1.mp3' -> '第225回-第235回 1'
+        '蜀山剑侠传第201回-第201回_full.wav' -> '第201回'
+    """
+    base = re.sub(r"\.(mp3|wav)$", "", file_name)
+    base = re.sub(r"_full$", "", base)
+
+    # 匹配 "...第X回[-第Y回][_S]" 结尾
+    m = re.search(r"第(\d+)回(?:-第(\d+)回)?(?:_(\d+))?$", base)
+    if m:
+        start, end, section = m.group(1), m.group(2), m.group(3)
+        if end is None or end == start:
+            chapter = f"第{start}回"
+        else:
+            chapter = f"第{start}回-第{end}回"
+        return f"{chapter} {section}" if section else chapter
+
+    # 兜底：下划线转空格
+    return base.replace("_", " ")
+
+def organize_audio_files(output_dir=None, audio_output_dir=None):
     # 获取脚本所在目录
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     # 计算项目根目录（脚本目录的上两级）
     project_root = os.path.abspath(os.path.join(script_dir, "../.."))
     
-    # 定义目录路径
-    output_dir = os.path.join(project_root, "output")
-    audio_output_dir = os.path.join(project_root, "小说音频")
+    # 定义目录路径（可通过命令行参数覆盖）
+    output_dir = os.path.abspath(output_dir) if output_dir else os.path.join(project_root, "output")
+    audio_output_dir = os.path.abspath(audio_output_dir) if audio_output_dir else os.path.join(project_root, "小说音频")
     
     # 清空目标目录
     if os.path.exists(audio_output_dir):
@@ -131,90 +159,64 @@ def organize_audio_files():
     print(f"📁 源目录: {output_dir}")
     print(f"📁 目标目录: {audio_output_dir}")
     
-    # 遍历output目录下的所有小说目录
-    for novel_name in os.listdir(output_dir):
-        novel_dir = os.path.join(output_dir, novel_name)
-        
-        if not os.path.isdir(novel_dir):
+    # 收集所有完整章节音频：源目录下每个章节目录内直接存放的 .mp3（分节）/_full.wav（整章）
+    # 跳过 配音/音效 等子目录，以及 chunk_title 等分段 wav
+    audio_files = []
+    for chapter_dir_name in sorted(os.listdir(output_dir)):
+        chapter_path = os.path.join(output_dir, chapter_dir_name)
+        if not os.path.isdir(chapter_path):
             continue
-        
-        print(f"\n📖 处理小说: {novel_name}")
-        
-        # 创建小说目标目录
-        novel_audio_dir = os.path.join(audio_output_dir, novel_name)
-        os.makedirs(novel_audio_dir, exist_ok=True)
-        
-        # 遍历小说目录下的章节目录
-        chapters_found = []
-        for chapter_dir in os.listdir(novel_dir):
-            chapter_path = os.path.join(novel_dir, chapter_dir)
-            
-            if not os.path.isdir(chapter_path):
+
+        print(f"\n📖 处理章节: {chapter_dir_name}")
+
+        for file_name in os.listdir(chapter_path):
+            file_path = os.path.join(chapter_path, file_name)
+            if os.path.isdir(file_path):
                 continue
-            
-            # 查找完整音频文件（优先 mp3，其次 wav）
-            for file_name in os.listdir(chapter_path):
-                # 匹配 _full.wav 或章节名.mp3 或章节名.wav
-                is_full = file_name.endswith("_full.wav")
-                is_mp3 = file_name.endswith(".mp3")
-                is_wav = file_name.endswith(".wav") and not file_name.startswith("mixed_") and not file_name.startswith("voice_")
-                
-                if is_full or is_mp3 or is_wav:
-                    chapter_name = file_name.replace("_full.wav", "").replace(".mp3", "").replace(".wav", "")
-                    
-                    # 清理章节名称中的特殊字符
-                    chapter_name = chapter_name.replace("_", " ")
-                    
-                    # 尝试提取章节序号
-                    # 匹配"第X回"或"第X章"格式（use search instead of match for names prefixed with novel name）
-                    match = re.search(r"第(.+?)回", chapter_name)
-                    if not match:
-                        match = re.search(r"第(\d+)章", chapter_name)
-                    if match:
-                        num_str = match.group(1)
-                        try:
-                            chapter_num = _chinese_num_to_int(num_str)
-                        except (ValueError, KeyError):
-                            try:
-                                chapter_num = int(num_str)
-                            except ValueError:
-                                chapter_num = 999
-                        chapters_found.append((chapter_num, chapter_name, file_name, chapter_path))
-        
-        # 按章节号排序
-        chapters_found.sort(key=lambda x: x[0])
-        
-        # 复制文件
-        for chapter_num, chapter_name, file_name, chapter_path in chapters_found:
-            source_file = os.path.join(chapter_path, file_name)
-            # 保持原文件扩展名
-            _, ext = os.path.splitext(file_name)
-            
-            # 转换章节名中的中文数字为阿拉伯数字
-            chapter_name_converted = convert_chinese_to_arabic(chapter_name)
-            
-            # 在结尾添加"_整书免费"
-            target_file = os.path.join(novel_audio_dir, f"{chapter_name_converted}{ext}")
-            
-            # 检查音频时长
-            duration = get_audio_duration(source_file)
-            if duration == 0:
-                print(f"❌ 无效音频文件（时长为0），已删除: {file_name}")
-                os.remove(source_file)
+            # 跳过 macOS 隐藏文件（.DS_Store、._* AppleDouble 资源叉等）
+            if file_name.startswith("."):
                 continue
-            elif duration < 0:
-                print(f"⚠️ 无法读取音频时长，跳过: {file_name}")
+            # 只取完整音频：章节分节 mp3 或整章 _full.wav
+            if not (file_name.endswith(".mp3") or file_name.endswith("_full.wav")):
                 continue
-            
-            # 复制文件
-            try:
-                shutil.copy2(source_file, target_file)
-                print(f"✅ 复制: {file_name} -> {novel_name}/{chapter_name_converted}_整书免费{ext}")
-            except Exception as e:
-                print(f"❌ 复制失败: {file_name} - {e}")
+
+            # 提取展示名：'蜀山剑侠传第201回-第201回_1.mp3' -> '第201回 1'
+            display_name = _build_display_name(file_name)
+            audio_files.append((_natural_sort_key(display_name), display_name, file_path))
+
+    # 按章节号/节号自然排序
+    audio_files.sort(key=lambda x: x[0])
+
+    # 复制文件（全部平铺到目标目录，不建子目录）
+    for _, display_name, source_file in audio_files:
+        display_name_converted = convert_chinese_to_arabic(display_name)
+        _, ext = os.path.splitext(source_file)
+
+        # 检查音频时长
+        duration = get_audio_duration(source_file)
+        if duration == 0:
+            print(f"❌ 无效音频文件（时长为0），已删除: {os.path.basename(source_file)}")
+            os.remove(source_file)
+            continue
+        elif duration < 0:
+            print(f"⚠️ 无法读取音频时长，跳过: {os.path.basename(source_file)}")
+            continue
+
+        target_file = os.path.join(audio_output_dir, f"{display_name_converted}{ext}")
+        try:
+            shutil.copy2(source_file, target_file)
+            print(f"✅ 复制: {os.path.basename(source_file)} -> {display_name_converted}{ext}")
+        except Exception as e:
+            print(f"❌ 复制失败: {os.path.basename(source_file)} - {e}")
     
     print("\n🎉 音频文件整理完成！")
     print(f"📁 所有音频已整理到: {audio_output_dir}")
 
 if __name__ == "__main__":
-    organize_audio_files()
+    parser = argparse.ArgumentParser(description="小说音频整理脚本：将合成音频按小说整理到目标目录")
+    parser.add_argument("--output-dir", type=str, default=None,
+                        help="源目录（合成音频所在目录），默认 <项目根>/output")
+    parser.add_argument("--audio-dir", type=str, default=None,
+                        help="目标目录（整理后音频输出目录），默认 <项目根>/小说音频")
+    args = parser.parse_args()
+    organize_audio_files(output_dir=args.output_dir, audio_output_dir=args.audio_dir)

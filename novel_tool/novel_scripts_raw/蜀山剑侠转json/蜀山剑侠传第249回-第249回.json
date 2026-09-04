@@ -101,7 +101,7 @@
             "volume": "-15%",
             "pitch": "-2Hz",
             "trigger_keyword": "厉声叫骂",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 38.0,
@@ -113,7 +113,7 @@
             "volume": "-22%",
             "pitch": "+2Hz",
             "trigger_keyword": "暗发传音信号",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 132.9,
@@ -125,7 +125,7 @@
             "volume": "-24%",
             "pitch": "0Hz",
             "trigger_keyword": "步。竟然",
-            "trigger_offset": "-1.0"
+            "trigger_offset": -1.0
           },
           {
             "trigger_delay": 25.0,
@@ -137,7 +137,7 @@
             "volume": "-16%",
             "pitch": "+1Hz",
             "trigger_keyword": "一声媚笑",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 28.0,
@@ -149,7 +149,7 @@
             "volume": "-20%",
             "pitch": "0Hz",
             "trigger_keyword": "牙齿一错",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -219,7 +219,7 @@
             "volume": "-22%",
             "pitch": "-1Hz",
             "trigger_keyword": "风内叛，",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 18.0,
@@ -231,7 +231,7 @@
             "volume": "-18%",
             "pitch": "+3Hz",
             "trigger_keyword": "黑影由身后来路急飞而来",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 32.0,
@@ -243,7 +243,7 @@
             "volume": "-20%",
             "pitch": "-2Hz",
             "trigger_keyword": "正反五行埋伏",
-            "trigger_offset": "-1.0"
+            "trigger_offset": -1.0
           },
           {
             "trigger_delay": 48.0,
@@ -255,7 +255,7 @@
             "volume": "-24%",
             "pitch": "0Hz",
             "trigger_keyword": "轻悄悄掩到地头",
-            "trigger_offset": "-1.5"
+            "trigger_offset": -1.5
           },
           {
             "trigger_delay": 85.0,
@@ -267,7 +267,7 @@
             "volume": "-18%",
             "pitch": "+1Hz",
             "trigger_keyword": "忽听室中起了艳歌之声",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -318,7 +318,7 @@
             "volume": "-18%",
             "pitch": "+2Hz",
             "trigger_keyword": "哽咽起来",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 15.0,
@@ -330,7 +330,7 @@
             "volume": "-22%",
             "pitch": "0Hz",
             "trigger_keyword": "左边六角小红门内现身走出",
-            "trigger_offset": "-1.0"
+            "trigger_offset": -1.0
           },
           {
             "trigger_delay": 17.0,
@@ -342,7 +342,7 @@
             "volume": "-20%",
             "pitch": "+2Hz",
             "trigger_keyword": "戟指向前空画了七八下",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.5,
@@ -354,7 +354,7 @@
             "volume": "-18%",
             "pitch": "+1Hz",
             "trigger_keyword": "张口一喷",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 22.0,
@@ -366,7 +366,7 @@
             "volume": "-24%",
             "pitch": "+3Hz",
             "trigger_keyword": "一闪即隐",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -417,7 +417,7 @@
             "volume": "-20%",
             "pitch": "0Hz",
             "trigger_keyword": "咬牙切齿",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 1.5,
@@ -429,7 +429,7 @@
             "volume": "-18%",
             "pitch": "+2Hz",
             "trigger_keyword": "画了一道妖符",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 3.0,
@@ -441,7 +441,7 @@
             "volume": "-22%",
             "pitch": "0Hz",
             "trigger_keyword": "退入门内",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 10.0,
@@ -453,7 +453,7 @@
             "volume": "-24%",
             "pitch": "+1Hz",
             "trigger_keyword": "乘虚随了进去",
-            "trigger_offset": "-1.0"
+            "trigger_offset": -1.0
           },
           {
             "trigger_delay": 50.0,
@@ -465,7 +465,7 @@
             "volume": "-26%",
             "pitch": "-1Hz",
             "trigger_keyword": "闻到一股妖香",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 55.0,
@@ -477,7 +477,7 @@
             "volume": "-24%",
             "pitch": "+2Hz",
             "trigger_keyword": "神光发出威力",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -528,7 +528,7 @@
             "volume": "-20%",
             "pitch": "+1Hz",
             "trigger_keyword": "微微叹息了一声",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.0,
@@ -540,7 +540,7 @@
             "volume": "-24%",
             "pitch": "0Hz",
             "trigger_keyword": "从容款步走人",
-            "trigger_offset": "-1.0"
+            "trigger_offset": -1.0
           },
           {
             "trigger_delay": 10.0,
@@ -552,7 +552,7 @@
             "volume": "-22%",
             "pitch": "+2Hz",
             "trigger_keyword": "手持两寸大小晶镜",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -603,7 +603,7 @@
             "volume": "-18%",
             "pitch": "+1Hz",
             "trigger_keyword": "亲了一亲",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 6.5,
@@ -615,7 +615,7 @@
             "volume": "-22%",
             "pitch": "0Hz",
             "trigger_keyword": "握住，抚摩了一会",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -627,7 +627,7 @@
             "volume": "-20%",
             "pitch": "+2Hz",
             "trigger_keyword": "把足一缩",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -639,7 +639,7 @@
             "volume": "-18%",
             "pitch": "0Hz",
             "trigger_keyword": "扑将上去，双手搂紧",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -690,7 +690,7 @@
             "volume": "-22%",
             "pitch": "+1Hz",
             "trigger_keyword": "轻轻抚弄",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 25.0,
@@ -702,7 +702,7 @@
             "volume": "-26%",
             "pitch": "+3Hz",
             "trigger_keyword": "当时却能博到",
-            "trigger_offset": "0.5"
+            "trigger_offset": 0.5
           }
         ]
       },
@@ -753,7 +753,7 @@
             "volume": "-20%",
             "pitch": "+1Hz",
             "trigger_keyword": "抬起左边一条粉腿",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -765,7 +765,7 @@
             "volume": "-18%",
             "pitch": "+2Hz",
             "trigger_keyword": "吐出一丝粉红色的轻烟",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 5.5,
@@ -777,7 +777,7 @@
             "volume": "-16%",
             "pitch": "+3Hz",
             "trigger_keyword": "飞身纵退出两丈以外",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.5,
@@ -789,7 +789,7 @@
             "volume": "-18%",
             "pitch": "-1Hz",
             "trigger_keyword": "一股青色的道家内元真气立喷出来",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -840,7 +840,7 @@
             "volume": "-14%",
             "pitch": "+2Hz",
             "trigger_keyword": "立化一大片血赤色的火焰",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -852,7 +852,7 @@
             "volume": "-15%",
             "pitch": "+1Hz",
             "trigger_keyword": "火网一般电驰飞堕",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -903,7 +903,7 @@
             "volume": "-20%",
             "pitch": "-1Hz",
             "trigger_keyword": "长叹一声",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -954,7 +954,7 @@
             "volume": "-18%",
             "pitch": "+2Hz",
             "trigger_keyword": "由床头短屏上面发出",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 7.0,
@@ -966,7 +966,7 @@
             "volume": "-16%",
             "pitch": "+3Hz",
             "trigger_keyword": "万千缕其细如针的五色光华",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 12.0,
@@ -978,7 +978,7 @@
             "volume": "-15%",
             "pitch": "+1Hz",
             "trigger_keyword": "火焰大盛",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -1029,7 +1029,7 @@
             "volume": "-20%",
             "pitch": "+2Hz",
             "trigger_keyword": "花容已经大变",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -1080,7 +1080,7 @@
             "volume": "-18%",
             "pitch": "+2Hz",
             "trigger_keyword": "有乌金色影子一闪",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 2.0,
@@ -1092,7 +1092,7 @@
             "volume": "-16%",
             "pitch": "+1Hz",
             "trigger_keyword": "化作一片碧阴阴的光影",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 4.0,
@@ -1104,7 +1104,7 @@
             "volume": "-14%",
             "pitch": "+3Hz",
             "trigger_keyword": "白、金、红、青各色光华，七八道一齐飞射",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 8.0,
@@ -1116,7 +1116,7 @@
             "volume": "-10%",
             "pitch": "+2Hz",
             "trigger_keyword": "霹雳连声，打得满屋俱是星光雷火",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 14.0,
@@ -1128,7 +1128,7 @@
             "volume": "-15%",
             "pitch": "+1Hz",
             "trigger_keyword": "玉榻也已粉碎",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 20.0,
@@ -1140,7 +1140,7 @@
             "volume": "-14%",
             "pitch": "+4Hz",
             "trigger_keyword": "咬牙切齿厉啸一声",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 30.0,
@@ -1152,7 +1152,7 @@
             "volume": "-18%",
             "pitch": "-2Hz",
             "trigger_keyword": "首先发出一大片乌金光华",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 35.0,
@@ -1164,7 +1164,7 @@
             "volume": "-20%",
             "pitch": "-1Hz",
             "trigger_keyword": "离身两丈以外却被四面逼紧",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 45.0,
@@ -1176,7 +1176,7 @@
             "volume": "-12%",
             "pitch": "-3Hz",
             "trigger_keyword": "怪吼一声",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           },
           {
             "trigger_delay": 55.0,
@@ -1188,7 +1188,7 @@
             "volume": "-18%",
             "pitch": "+1Hz",
             "trigger_keyword": "只见乌金色妖光频频闪动明灭",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -1239,7 +1239,7 @@
             "volume": "-14%",
             "pitch": "-1Hz",
             "trigger_keyword": "互相一声狞笑",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },
@@ -1290,7 +1290,7 @@
             "volume": "-20%",
             "pitch": "+1Hz",
             "trigger_keyword": "转身",
-            "trigger_offset": "0"
+            "trigger_offset": 0
           }
         ]
       },

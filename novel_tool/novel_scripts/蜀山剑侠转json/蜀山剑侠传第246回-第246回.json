@@ -7,43 +7,123 @@
     "speaker": "AI合成",
     "role_voice": "旁白"
   },
-  "roles_definition": {
-    "旁白": {
-      "role_voice": "旁白",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "-10%"
+  "roles_definition": [
+    {
+      "序号": 0,
+      "角色级别": "旁白",
+      "角色名": "旁白",
+      "配音名": "旁白",
+      "年龄": "老年（65岁）",
+      "性别": "男",
+      "性格": "沉稳大气，叙述性，不抢角色戏份",
+      "VoiceDesign_Prompt": "老年（65岁），老年男声，语速中等偏快，声音自然略带沙哑，音量偏低，换气声轻微，适合古风仙侠长篇叙述，沉稳从容，有说书人的韵味"
     },
-    "李英琼": {
-      "role_voice": "李英琼",
-      "pitch": "+2Hz",
-      "volume": "+2%",
-      "speed": "-1%"
+    {
+      "序号": 1,
+      "角色级别": "主要角色",
+      "角色名": "李英琼",
+      "配音名": "李英琼",
+      "年龄": "少女（17-18岁）",
+      "性别": "女",
+      "性格": "天真直率，胆大心细，对师长恭敬，对同门热心",
+      "VoiceDesign_Prompt": "少女（17-18岁），清脆明亮的年轻女声，语速中等偏快，声调偏高，透着天真活泼与热情，有时带点急切，但心地纯善"
     },
-    "周轻云": {
-      "role_voice": "周轻云",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "-2%"
+    {
+      "序号": 2,
+      "角色级别": "主要角色",
+      "角色名": "周轻云",
+      "配音名": "周轻云",
+      "年龄": "少女（17-18岁）",
+      "性别": "女",
+      "性格": "沉稳谨慎，心思缜密，善于观察，与英琼配合默契",
+      "VoiceDesign_Prompt": "少女（17-18岁），清柔稳重的女声，语速中等偏慢，声调平稳，透着细心与谨慎，说话温和但坚定"
     },
-    "癞姑": {
-      "role_voice": "癞姑",
-      "pitch": "+1Hz",
-      "volume": "+1%",
-      "speed": "0%"
+    {
+      "序号": 3,
+      "角色级别": "重要角色",
+      "角色名": "癞姑",
+      "配音名": "癞姑",
+      "年龄": "中年",
+      "性别": "女",
+      "性格": "机智圆滑，口齿伶俐，善于应对，佛门修行者，诙谐幽默",
+      "VoiceDesign_Prompt": "中年（40-50岁），圆润明亮的女声，语速中等偏快，声调灵活，透着机敏与世故，略带佛门弟子的从容与慈悲，说话时有一种让人安心的力量，诙谐时带有调侃的韵味"
     },
-    "谢璎": {
-      "role_voice": "谢璎",
-      "pitch": "0Hz",
-      "volume": "0%",
-      "speed": "-2%"
+    {
+      "序号": 4,
+      "角色级别": "重要角色",
+      "角色名": "谢璎",
+      "配音名": "谢璎",
+      "年龄": "少女（外貌年轻）",
+      "性别": "女",
+      "性格": "温柔端庄，清雅稳重，心思细腻，有小寒山神尼弟子之风",
+      "VoiceDesign_Prompt": "少女（17-18岁），清柔温润的女声，语速中等，声调平稳柔和，透着端庄与慈悲，说话时带着长姐般的温厚与关怀"
     },
-    "谢琳": {
-      "role_voice": "谢琳",
-      "pitch": "+3Hz",
-      "volume": "+2%",
-      "speed": "+1%"
+    {
+      "序号": 5,
+      "角色级别": "重要角色",
+      "角色名": "谢琳",
+      "配音名": "谢琳",
+      "年龄": "少女（外貌年轻）",
+      "性别": "女",
+      "性格": "活泼天真，聪慧好胜，喜事爱玩，心思灵巧",
+      "VoiceDesign_Prompt": "少女（17-18岁），清脆明快略带俏皮的女声，语速偏快，声调活泼，透着天真与好胜，说话时带着灵动与自信"
     }
+  ],
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "山侧梅林·前行路上",
+        "name_en": "山侧梅花林中穿行，花树繁密，幽香阵阵，远处传来涛声，清幽雅致",
+        "start_line": 0,
+        "end_line": 4,
+        "prompt": "very subtle low volume cinematic background ambience, mountain slope with plum blossom grove, fragrant flowers blooming, ancient pine and cypress trees, distant sound of springs and waterfalls, clear air with dew, soft morning light filtering through blossoms, deep guqin with subtle xiao flute, calm and elegant atmosphere, smooth continuous ambience bed, no sharp foreground sounds, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "灵石小筑·顶层花园",
+        "name_en": "灵石小筑顶层，奇石灵芝，玉树琼林，湖光山色，仙鹤灵猿，清丽绝伦",
+        "start_line": 5,
+        "end_line": 25,
+        "prompt": "very subtle low volume cinematic background ambience, rooftop garden of spirit stone pavilion, jade trees and rare flowers, lake reflecting the sky, white cranes and spirit deer wandering, distant mountains surrounding like jade screens, soft breeze carrying osmanthus fragrance, warm yangqin shimmer with faint pipa plucks, serene and ethereal atmosphere, smooth continuous ambience bed, no sharp foreground sounds, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "灵石小筑·内室陈设",
+        "name_en": "灵石小筑第五层内室，法宝陈设琳琅满目，丹炉鼎火，法物宝器，神秘玄妙",
+        "start_line": 26,
+        "end_line": 34,
+        "prompt": "very subtle low volume cinematic background ambience, inner chamber of stone pavilion, ancient magical artifacts, bronze furnace with blue flame, talismans and banners hanging, mysterious and profound atmosphere, soft hum of spiritual energy, deep guqin resonance with subtle bell-like tones, smooth continuous ambience bed, no sharp foreground sounds, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "顶层花林·坐谈往事",
+        "name_en": "顶层昙花林中，翠玉桌墩环坐，众人听谢琳讲述得书经过，宁静而温馨",
+        "start_line": 35,
+        "end_line": 55,
+        "prompt": "very subtle low volume cinematic background ambience, flower grove on the rooftop, large bowl-shaped flowers blooming, jade tables and seats, gentle breeze rustling leaves, soft afternoon light, warm and intimate conversation atmosphere, subtle pipa and guqin blending, peaceful and congenial, smooth continuous ambience bed, no sharp foreground sounds, no voices, no music melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 2,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      }
+    ]
   },
   "data": [
     {
@@ -52,8 +132,12 @@
       "api": {
         "voice": {
           "text": "第246回",
-          "instruct": "庄重大气，掷地有声，说书人的韵味",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "庄重大气，掷地有声，说书人的韵味"
         },
         "effects": []
       },
@@ -66,42 +150,37 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "款仙宾清谈灵石筑参慈父同上武夷山周、李二人虽信神尼之言，总想早回静琼谷去，比较放心。但又不便拂二女的盛意，相继笑答道：",
-          "instruct": "温馨叙述，语调柔和，暖意融融",
-          "role_voice": "旁白"
-        },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "山间清风拂衣",
-            "trigger_keyword": "武夷山",
-            "trigger_offset": -1,
-            "sound_cn": "武夷山间清风吹拂衣袂的轻响",
-            "sound_en": "gentle breeze rustling through robes on Wuyi Mountain",
-            "volume": "-24%",
-            "pitch": "0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 2,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "二位姊姊灵境新居，自应观赏。不过静琼谷中只有几个新收门人，我们只坐一会，到了依还岭再作长谈吧。",
-          "instruct": "平静叙述，语气舒缓，如画卷般展开",
-          "role_voice": "旁白"
+          "text": "款仙宾 清谈灵石筑参慈父 同上武夷山周、李二人虽信神尼之言，总想早回静琼谷去，比较放心。但又不便拂二女的盛意，相继笑答道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "平静叙述，语速适中"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 2,
+      "role": "周轻云",
+      "api": {
+        "voice": {
+          "text": "二位姊姊灵境新居，自应观赏。不过静琼谷中只有几个新收门人，我们只坐一会，到了依还岭再作长谈吧。",
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温和有礼，带着急切返回之意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -110,13 +189,17 @@
       "api": {
         "voice": {
           "text": "你们怕什么呢？家师一按灵光，便知前因后果，她说无妨，一定平安，早去也是无用，忙去作什？",
-          "instruct": "坚定，带着决心，矢志不渝，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "俏皮活泼，带着劝慰"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -125,13 +208,17 @@
       "api": {
         "voice": {
           "text": "琳妹也是多余。三位姊姊数千里远来，所居就在妖尸近侧山中，只有几个新收门人，纵然无事，众弟子见师长久出不归，也必忧念，当然以早归为是。来日方长，这次认明地点，以后便可时常往来。此去又是同行，到哪里叙谈不是一样，何必非此不可呢？",
-          "instruct": "温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温和平稳，替他人着想"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -140,13 +227,17 @@
       "api": {
         "voice": {
           "text": "也好。",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "轻快答应"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -154,39 +245,30 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "说时，五人已由山侧梅花林中穿出，连经过了好些灵奇景地，最后离开中央主山，往西北方外围大山走去。一会到了山脚，走入一条平衍空旷，花树林立的峡谷之中。三人随了二女正走之间，忽听涛声洋洋，由前侧面花林掩映的高崖之中传来。英琼笑问：",
-          "instruct": "神秘叙述，压低嗓音，营造悬念",
-          "role_voice": "旁白"
+          "text": "说时，五人已由山侧梅花林中穿出，连经过了好些灵奇景地，最后离开中央主山，往西北方外围大山走去。一会到了山脚，走入一条平衍空旷，花树林立的峡谷之中。三人随了二女正走之间，忽听涛声洋洋，由前侧面花林映掩的高崖之中传来。英琼笑问：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "平静叙述，描写沿途景色"
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "梅花林穿行",
-            "trigger_keyword": "梅花林",
-            "trigger_offset": -1,
-            "sound_cn": "众人穿过梅花林，脚踏落叶与花瓣的轻响",
-            "sound_en": "footsteps through plum blossom forest, leaves and petals crunching softly",
-            "volume": "-22%",
-            "pitch": "0Hz"
-          },
-          {
-            "trigger_delay": 5,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "高崖涛声",
+            "trigger_delay": 2.0,
             "trigger_keyword": "涛声洋洋",
-            "trigger_offset": -0.5,
-            "sound_cn": "花林掩映的高崖中传来洋洋涛声",
-            "sound_en": "surging wave-like sound echoing from the high cliff behind the flowers",
+            "trigger_offset": 0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "sound_cn": "远处传来洋洋涛声，泉水激荡，如潮生般连绵不绝",
+            "sound_en": "distant roaring sound of waves and springs, continuous and full, like the tide coming in",
             "volume": "-20%",
-            "pitch": "0Hz"
+            "pitch": "+0Hz"
           }
         ]
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -195,13 +277,17 @@
       "api": {
         "voice": {
           "text": "这是泉瀑之声么？",
-          "instruct": "语气自然，情绪适中",
-          "role_voice": "李英琼"
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "好奇，语气轻快"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -210,13 +296,17 @@
       "api": {
         "voice": {
           "text": "这是小潮音，我姊姊偶然独坐用功的地方。你没听地名与名字相同吗？本想领你们去都坐上一会，因姊姊一说，只好到我一人用功的地方小坐片刻，吃完灵乳就走，改日再请你们来了。",
-          "instruct": "语气喜悦，带着欢喜，神采飞扬，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "俏皮活泼，带着介绍"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -225,13 +315,17 @@
       "api": {
         "voice": {
           "text": "如此说来，那灵石小筑是二姊的了？",
-          "instruct": "语气自然，情绪适中",
-          "role_voice": "李英琼"
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "含笑猜测，语气机灵"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -240,13 +334,17 @@
       "api": {
         "voice": {
           "text": "你真聪明，那不是地名与我名字音同吗？",
-          "instruct": "朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "得意，语气轻快"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -255,26 +353,17 @@
       "api": {
         "voice": {
           "text": "说罢，便领众人循坡而上。坡上面尽是千百年的松杉古木，各树枝干上寄生着许多不知名的茑萝异花，苍苍翠色中缀以繁花，五色缤纷，灿然娱目。松径两旁又是香草离离，清芬馥郁，沁人心脾。间有奇石挺立，温润如玉，孔窍玲珑，上生紫色灵芝，都如斗大。更有灵猿仙鹿，出没游行，一个个毛色鲜明，轩轩神旺，比起小寒山又别有一种灵奇清丽境界。轻云笑问道：",
-          "instruct": "恢宏叙述，气势磅礴，大战正酣",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "瑰丽叙述，描写景色，语速稍慢，带有赞叹"
         },
-        "effects": [
-          {
-            "trigger_delay": 4,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "灵猿仙鹿",
-            "trigger_keyword": "灵猿仙鹿",
-            "trigger_offset": -0.5,
-            "sound_cn": "灵猿跳跃与仙鹿轻踏的灵动声响",
-            "sound_en": "soft leaps of apes and gentle steps of deer on the path",
-            "volume": "-22%",
-            "pitch": "0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -283,13 +372,17 @@
       "api": {
         "voice": {
           "text": "忍大师佛法无边，小寒山前鸟兽虫蛇，六道众生，一齐皈依向化，这里怎只有这两种生物？",
-          "instruct": "语气威严，带着霸气，号令如山",
-          "role_voice": "周轻云"
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "好奇，语气温和"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -298,13 +391,17 @@
       "api": {
         "voice": {
           "text": "我姊妹从小就厌恶蛇虫，尽管那些猛恶凶毒之物俱受佛法感化，怪模怪样的，看在眼里终究讨厌。这里只我姊妹两人静修固好，平日没些生物点缀，也嫌寂寞，少了生趣天机。所以把那素性生活很驯善，长得干净灵巧好看的，连飞带走，稍微选了几种来。它们都在小寒山前听经多年，久已通灵，闲来调教，也颇好玩。我们闲时各炼一些降魔法术。因奉叶姑姑之命，炼法时必须隔开，除我在小潮音，琳妹是在灵石小筑各居一处，日常行止仍在一起。我二人一同坐禅用功之处，是在依梵窟内。本应请你们都去看看，因忙着要走，只好作罢。琳妹自来好胜，我们几个地方，只依梵窟专为坐禅之用，是一高大石洞，无什修饰陈设。我那小潮音也非灵籁天生，无多点缀。惟独灵石小筑本来景致绝妙，再经她磨着叶姑一同兴建，就着原有形势踵事增华，方圆九里以内，由那嵌空楼台起，下自一草一木之微，差不多都用了心思。本山特有的灵玉乳，也在当地，用以奉客恰好就便。故此请你们到那里去小坐一会。那里还有一些鹤、鹭、翠鸟之类，像那许多生相丑恶之物，一个也没有。你们见识得多，且请到时加以品题吧。",
-          "instruct": "语气喜悦，带着欢喜，神采飞扬，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温柔叙述，语气平和，带着介绍家园的亲切"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -313,13 +410,17 @@
       "api": {
         "voice": {
           "text": "癞姑见二女引了一行从容走来，便知二女尽管法力精进，童心犹在，一定近年用了巧思建此别业，又难得良友重逢，欲使一路观赏前去，看这沿途景物，也委实灵妙清丽非常。闻言，便夸赞道：",
-          "instruct": "急促叙述，节奏紧凑，扣人心弦",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "平静叙述，观察心理"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -328,13 +429,17 @@
       "api": {
         "voice": {
           "text": "二位妹妹慧心巧思，即此途中美景已见一斑。到了地头，更不用说是好到极点了。",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，玩世不恭，粗犷中透着狡黠，自有一套道理",
-          "role_voice": "癞姑"
+          "role": "癞姑",
+          "role_voice": "癞姑",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "夸赞，语气真诚中带着调侃"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -343,13 +448,17 @@
       "api": {
         "voice": {
           "text": "你尽嘴甜，心却奸猾，不似琼妹实在。地方还未走到，先就夸好。你得道多年，多好的仙灵境界没见过，会把我这小地方看在眼里？我知你是哄人呢。琼妹你说到底如何？你要说好，我才信呢。却不许拿你们凝碧崖来作比。",
-          "instruct": "语气喜悦，带着欢喜，神采飞扬，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "似嗔似喜，语气俏皮，带着玩笑"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -358,13 +467,17 @@
       "api": {
         "voice": {
           "text": "妹子年轻，学道日浅，到的地方太少。灵石小筑还没到，难于预料。如论此来所见小寒山佛法灵区，不能以景物论。只那伟大庄严，慈悲祥和的境界，决非别处所能仿佛。就拿二位姊姊别业来说吧，要比紫云宫、陷空岛两处晶阙珠宫，金庭玉柱，富丽堂皇，气象万千，自然难与相比，但那是海底景致。此地的奇石古松，灵芝香草，以及花光岚影，树色泉声，无一样不是灵境天然，清绝人间。甚至一猿一鹿，都带着几分仙气。比之凝碧仙府，也只小大宫室之分。至于两地的泉石花树，也只能说是各擅胜场，两无逊色。除此之外，便只能说是第一次见到的了。",
-          "instruct": "强压怒火，咬牙切齿，愤懑难平",
-          "role_voice": "李英琼"
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "诚恳认真，语速稍慢，带着真挚的赞叹"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -373,13 +486,17 @@
       "api": {
         "voice": {
           "text": "这话还有几分可信，不似癞姊姊，因为心不与口同，所以相貌也不与心同。以她为人法力和心里那么灵，要与琼妹长得一般美貌，多好呢！",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "含笑道，语气俏皮调侃"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -388,13 +505,17 @@
       "api": {
         "voice": {
           "text": "阿弥陀佛！谢谢你的美意。我还是长得丑八怪的样子好些。按说琼妹美虽极美，平时相处说笑也极天真，令人怜爱。但一遇上事，便觉英气太盛。不似你们二位，美到骨髓里去，活泼天真，美丽温柔之中，偏又别有一种清出云表之致，那容光直照人的面目。本来你们是天仙化人，不能拿这句来形容你们。可是清丽温柔都到了极处，此外又无可形容。一见你们，便自惭愧，不敢和你们过分亲热。心中分明爱极，却又不知如何爱法。只一遇上，便舍不得离开，好似暗中有大力量将人吸住，任令我如何都不忍心舍。可惜我不是个妖人，若是妖人，便想粉身碎骨在你两姊妹手里，才对心思。何必像琼妹，像了你二位，不更叫人看了赞好怜爱么？一则没有那大福气和多生修积的玉骨冰肌，仙根灵质；二则我们杀孽本来就多，一班同门都借此修积外功，我若生得像二位姊姊这等仪态万方，我驾着佛门中的心光遁法，四处一游行，把异派妖邪全引了来，不必十分费力，只叫他们引颈就戮。他们休说和我一样心思，只要稍微还有一点人心，必定甘心听命，死而无怨，决不敢逃，于是全被我一人杀光。对于那些遇灾遇害，穷苦无告的千万人民，一人救起来也费事，只向上方神佛求告一阵，撒娇软磨，缠得诸天神佛一生怜爱，于是准如所请，把他们的罪孽一齐赦免。以后，无论多大难题，俱用此法，不消多年，众生全登乐土，永无苦难之人。我固然是功德无量，众同门见什功德都被我一个包揽了去，他们无功可立，不招恨吗？",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，玩世不恭，粗犷中透着狡黠，自有一套道理",
-          "role_voice": "癞姑"
+          "role": "癞姑",
+          "role_voice": "癞姑",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "一本正经地诙谐，语速中等，语调夸张，带着自嘲与调侃，引人发笑"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -403,41 +524,48 @@
       "api": {
         "voice": {
           "text": "这一席话，引得众人都笑了起来。仙都二女笑骂道：",
-          "instruct": "喜悦叙述，语调轻快，喜气洋洋",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "愉快叙述，笑声背景"
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "众人欢笑",
+            "trigger_delay": 0.5,
             "trigger_keyword": "笑了起来",
-            "trigger_offset": -0.3,
-            "sound_cn": "众人被逗笑的开怀笑声",
-            "sound_en": "hearty laughter of the group",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "sound_cn": "众人欢快的笑声，清脆悦耳",
+            "sound_en": "cheerful laughter of the group, bright and pleasant",
             "volume": "-18%",
-            "pitch": "+2Hz"
+            "pitch": "+0Hz"
           }
         ]
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
       "id": 21,
-      "role": "谢璎",
+      "role": "仙都二女（谢璎、谢琳合说）",
       "api": {
         "voice": {
           "text": "你这癞尼姑，还想说些什么？你不是前生造了口孽，还不至于今生长得这么丑怪。还要刻薄人，看堕拔舌地狱呢。",
-          "instruct": "疑惑不解，语调迟疑，百思不解，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "仙都二女",
+          "role_voice": "谢璎_谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "笑骂，语气亲昵带嗔"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -446,13 +574,17 @@
       "api": {
         "voice": {
           "text": "你们不信，我说的是真话。真要阎王与我说理，我要问他，把两间灵气钟于一人，已是该打；为什么故弄狡狯，又化生出两个来，显得有权力，却害我们投胎时少了灵秀之气，变得这等丑八怪？要匀一点与我们，这些丑人就不能美到极处，走在人前也顺点眼不是？",
-          "instruct": "愤怒，低沉，压抑着怒火，玩世不恭，粗犷中透着狡黠，自有一套道理",
-          "role_voice": "癞姑"
+          "role": "癞姑",
+          "role_voice": "癞姑",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "绷着脸一本正经，语气诙谐，引人发笑"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -461,26 +593,29 @@
       "api": {
         "voice": {
           "text": "说完，周、李和二女听着已极可笑，再见她一本正经的丑怪神情，忍不住又是一阵大笑。谢琳笑骂道：",
-          "instruct": "恢宏叙述，气势磅礴，大战正酣",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "愉快叙述"
         },
         "effects": [
           {
-            "trigger_delay": 0,
-            "duration": 2,
+            "trigger_delay": 0.5,
+            "trigger_keyword": "一阵大笑",
+            "trigger_offset": 0,
+            "duration": 1.5,
             "process_mode": "overlay",
-            "name": "又一次大笑",
-            "trigger_keyword": "又是一阵大笑",
-            "trigger_offset": -0.3,
-            "sound_cn": "众人再次被逗笑的笑声",
-            "sound_en": "another round of cheerful laughter",
+            "sound_cn": "众人再次大笑，笑声更加欢畅",
+            "sound_en": "another burst of laughter, even more cheerful and prolonged",
             "volume": "-18%",
-            "pitch": "+2Hz"
+            "pitch": "+0Hz"
           }
         ]
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -489,13 +624,17 @@
       "api": {
         "voice": {
           "text": "你这丑尼姑，实实怄人。我就拿你当回妖人，看你是死是活？",
-          "instruct": "朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "故作微愠，语气带笑"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -504,26 +643,17 @@
       "api": {
         "voice": {
           "text": "说罢，故作微愠，便要伸手。癞姑赶忙摇手道：",
-          "instruct": "急促叙述，节奏紧凑，扣人心弦",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "紧张叙述，动作描写"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 1,
-            "process_mode": "overlay",
-            "name": "摇手声",
-            "trigger_keyword": "故作微愠",
-            "trigger_offset": 0,
-            "sound_cn": "癞姑慌忙摇手，衣袖摩擦的轻响",
-            "sound_en": "rustle of sleeve as she hurriedly waves her hand",
-            "volume": "-24%",
-            "pitch": "0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -532,13 +662,17 @@
       "api": {
         "voice": {
           "text": "好妹妹，只可嘴说，我不是手指头都不敢挨你们吗？我死容易，你那好朋友易姊姊还要我呢。嫌我口直，我赔个礼儿如何？",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，玩世不恭，粗犷中透着狡黠，自有一套道理",
-          "role_voice": "癞姑"
+          "role": "癞姑",
+          "role_voice": "癞姑",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "慌忙求饶，语气滑稽"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -546,14 +680,18 @@
       "role": "谢琳",
       "api": {
         "voice": {
-          "text": "扑哧一声笑道：我真拿你没法。一别数年，以为你道力精进，哪知顽皮也加了倍。",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "text": "我真拿你没法。一别数年，以为你道力精进，哪知顽皮也加了倍。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "扑哧一笑，语气无奈又亲昵"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -562,13 +700,17 @@
       "api": {
         "voice": {
           "text": "癞师姊自来滑稽，这次我由依还岭相见，还是第一次见她这样。定是二位姊姊能够同行，心中欢喜呢。",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢",
-          "role_voice": "周轻云"
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "含笑解释，语气温和"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -577,13 +719,17 @@
       "api": {
         "voice": {
           "text": "癞师姊，休再取笑，前面到了。",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温柔提醒"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -591,51 +737,18 @@
       "role": "旁白",
       "api": {
         "voice": {
-          "text": "众人已早闻到桂花香味，一看那一带松径已将走完，地势也逐渐低平。前面坡下绿草如茵，芊绵一碧，当中现出十里方圆一片湖荡。环湖俱是参夭桂树，金果缀满枝头，繁花盛开，妙香袭脑。左岸大片平地，奇石如林，高低错落，千形万态，拔地而起。琪花瑶草，纷列其上，远远望去，宛若锦绣。当中一座高约十余丈，广约二亩的平顶石峰，形势尤为奇特。近前一看，乃是一座天生的怪石，石质坚莹，润如美王，形似一朵灵芝，挺生芳原平野之上。轮园盘屈，到了近顶之处忽然伸展，成一芝盘。上下四外孔窍甚多，玲珑剔透。尤妙是里面连顶共分七层，每层均有隔断，其平如掌，四壁孔洞既众且多，近顶一层更甚。本来就似一座天生七层奇石楼阁，主人再以法力巧思因势兴建，布置点缀，越发巧夺天工，妙不可言。癞姑和周、李二人随同二女，由底层起，一层层拾级上升，见里面陈设用具，样样古雅精丽，一层胜似一层，各有各的妙处。内中第五层，乃主人独居练习法术之所，却甚简朴。左右两边各设有两种旗门，壁间还挂着许多法物宝器，以及刀剑葫芦之类。当中地上，设有一座大炉鼎，炉火已成青色，内有五金精英合炼的依罗喃法火神兜。另外有大小三个蒲团，一个小金钵，一个七尺长的大玉瓶，炉鼎对面有一长案，上陈法轮、如意、宝塔、金莲等佛家八宝。其余宝物甚多，大都精巧玲珑，形制奇古，珠光宝气，互相流照，五花八门，美不胜收。一问谢琳，这些法宝也有炼成的，也有未炼成的。英琼笑道：",
-          "instruct": "紧张叙述，节奏明快，剑拔弩张",
-          "role_voice": "旁白"
+          "text": "众人已早闻到桂花香味，一看那一带松径已将走完，地势也逐渐低平。前面坡下绿草如茵，芊绵一碧，当中现出十里方圆一片湖荡。环湖俱是参夭桂树，金果缀满枝头，繁花盛开，妙香袭脑。左岸大片平地，奇石如林，高低错落，千形万态，拔地而起。琪花瑶草，纷列其上，远远望去，宛若锦绣。当中一座高约十余丈，广约二亩的平顶石峰，形势尤为奇特。近前一看，乃是一座天生的怪石，石质坚莹，润如美王，形似一朵灵芝，挺生芳原平野之上。轮园盘屈，到了近顶之处忽然伸展，成一芝盘。上下四外孔窍甚多，玲珑剔透。尤妙是里面连顶共分七层，每层均有隔断，其平如掌，四壁孔洞既众且多，近顶一层更甚。本来就似一座天生的七层奇石楼阁，主人再以法力巧思因势兴建，布置点缀，越发巧夺天工，妙不可言。癞姑和周、李二人随同二女，由底层起，一层层拾级上升，见里面陈设用具，样样古雅精丽，一层胜似一层，各有各的妙处。内中第五层，乃主人独居练习法术之所，却甚简朴。左右两边各设有两种旗门，壁间还挂着许多法物宝器，以及刀剑葫芦之类。当中地上，设有一座大炉鼎，炉火已成青色，内有五金精英合炼的依罗喃法火神兜。另外有大小三个蒲团，一个小金钵，一个七尺长的大玉瓶，炉鼎对面有一长案，上陈法轮、如意、宝塔、金莲等佛家八宝。其余宝物甚多，大都精巧玲珑，形制奇古，珠光宝气，互相流照，五花八门，美不胜收。一问谢琳，这些法宝也有炼成的，也有未炼成的。英琼笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "瑰丽叙述，描写灵石小筑及内室陈设，语速稍慢，带有赞叹"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "桂花香湖",
-            "trigger_keyword": "桂花香味",
-            "trigger_offset": -1,
-            "sound_cn": "桂花香风与湖波轻响，沁人心脾",
-            "sound_en": "fragrant osmanthus breeze and gentle lake waves",
-            "volume": "-22%",
-            "pitch": "0Hz"
-          },
-          {
-            "trigger_delay": 3,
-            "duration": 5,
-            "process_mode": "overlay",
-            "name": "拾级上升",
-            "trigger_keyword": "拾级上升",
-            "trigger_offset": -0.5,
-            "sound_cn": "众人登阶的脚步声与衣袂轻响",
-            "sound_en": "footsteps on stone steps and rustling robes",
-            "volume": "-24%",
-            "pitch": "0Hz"
-          },
-          {
-            "trigger_delay": 12,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "炉鼎青焰",
-            "trigger_keyword": "炉火已成青色",
-            "trigger_offset": -0.5,
-            "sound_cn": "炉鼎中青色火焰的轻微燃烧与嗡鸣",
-            "sound_en": "soft crackle and hum of the blue furnace flame",
-            "volume": "-20%",
-            "pitch": "0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -644,13 +757,17 @@
       "api": {
         "voice": {
           "text": "琳姊参的乃是佛家上乘真如妙谛，到此不过三数年，哪里收罗来的这么多法宝？又哪有这许多闲空炼它呢？",
-          "instruct": "语气喜悦，带着欢喜，神采飞扬",
-          "role_voice": "李英琼"
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "好奇，语气惊叹"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -659,13 +776,17 @@
       "api": {
         "voice": {
           "text": "这虽是我自找麻烦，说起来却也有趣。此话太长，且等看完我这荒居，坐定再谈吧。",
-          "instruct": "坚定，带着决心，矢志不渝，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "含笑，语气神秘"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -674,13 +795,17 @@
       "api": {
         "voice": {
           "text": "舍妹妄想将来创立禅宗，广收弟子。恰巧机缘凑合，叶姑溺爱，传了她一部炼法的书，近来论起降魔法力，她自通晓得多，但也分心不少。听家师口气，好似定数，早已料到，因于成败无关，只是平日多上好些麻烦，以及证果迟早之分，所以未加阻止。叶姑先本不想全传舍妹，由于巧取强求而得，因此时常笑说舍妹自寻烦恼。舍妹却说她把这部法诀学全之后，虽不一定便能完遂以前那位著书人的遗志，但到此时，所有禅门与各异派中最厉害的法术法宝，无不洞悉微妙，随意便可抵御消灭，即便多惹麻烦，能除去许多为害生灵的邪魔外道，使其无所逃避，岂不也是极大功德吗？连家父当初助她读全此书的本意，也是如此。叶姑尽管说她，仍乐此不疲。你们没见先前我姊妹心性言行无不如一，这次见面，大致虽仍不差，心意和说话便稍有出入了吗？",
-          "instruct": "语气喜悦，带着欢喜，神采飞扬，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温和平静，向众人解释，略带关切"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -689,13 +814,17 @@
       "api": {
         "voice": {
           "text": "姊姊这等有头无尾的说法，有什意思？她三位听了，也不甚明白，还是到顶落坐再说吧。",
-          "instruct": "语气威严，带着霸气，号令如山，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "略带不满，催促"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -704,38 +833,17 @@
       "api": {
         "voice": {
           "text": "说时，众人已上了第六层石阁。由此往上，一共两层，俱是主人精心布置，准备将来待客延宾之所。石牖宏敞，四望通明，陈设用具比起底下诸层，尤为华美珍奇。跟着便到顶上。癞姑等三人先在下面已然望见上面花木葱茏，苍烟欲活，这时走到一看，竟似一座具体而微的神仙园囿。不特玉树琼林，琪花瑶草，缤纷绮错，更有鹤鹿灵猿游息其中，到处灵香细细，沁人心脾。加以四外碧城遥拥，翠岭绵延，近侧是绣野平铺，芳林疏秀，镜湖浩森，天水相涵。三人凭临其上，觉着别有一种清空灵妙的况味，比起别处仙山福地又自不同，不禁齐声赞妙。谢琳笑道：",
-          "instruct": "神秘叙述，压低嗓音，营造悬念",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "瑰丽叙述，描写顶层景色，语速稍慢"
         },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 6,
-            "process_mode": "overlay",
-            "name": "顶层仙园",
-            "trigger_keyword": "花木葱茏",
-            "trigger_offset": -1,
-            "sound_cn": "顶层花园中的清风、鹤鸣与灵猿嬉戏声",
-            "sound_en": "gentle wind, crane calls and apes playing on the rooftop garden",
-            "volume": "-22%",
-            "pitch": "0Hz"
-          },
-          {
-            "trigger_delay": 3,
-            "duration": 3,
-            "process_mode": "overlay",
-            "name": "镜湖远音",
-            "trigger_keyword": "镜湖浩森",
-            "trigger_offset": -0.5,
-            "sound_cn": "远处镜湖的水波浩淼之声",
-            "sound_en": "distant lake water sounds, vast and serene",
-            "volume": "-24%",
-            "pitch": "0Hz"
-          }
-        ]
+        "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -744,13 +852,17 @@
       "api": {
         "voice": {
           "text": "这里地方不算甚小，但是好景无多，哪似你们峨眉仙府熔山铸水，妙夺天工呢！",
-          "instruct": "语气喜悦，带着欢喜，神采飞扬，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "谦虚中带着得意"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -759,13 +871,17 @@
       "api": {
         "voice": {
           "text": "你还想要什么？你真要能有峨眉那等洞府，哪里去物色那许多仙灵修士去住呢？那么大神仙宫室，只我两姊妹在内，又有什么意思？",
-          "instruct": "疑惑不解，语调迟疑，百思不解，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温柔含笑，劝慰妹妹"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -774,13 +890,17 @@
       "api": {
         "voice": {
           "text": "琳姊原要创立禅宗，将来普度有缘，多收高弟，不就有人住了吗？",
-          "instruct": "语气自然，情绪适中",
-          "role_voice": "李英琼"
+          "role": "李英琼",
+          "role_voice": "李英琼",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "天真接话"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -789,13 +909,17 @@
       "api": {
         "voice": {
           "text": "你说得倒是容易，不知众生好度人难度吗？你看舍妹这一念之因，将来不知要出上多少事呢。",
-          "instruct": "满心欢喜，语调轻快，喜上眉梢，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "略带忧虑，语气温和"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -804,13 +928,17 @@
       "api": {
         "voice": {
           "text": "二位姊姊得忍大师与一音大师真传，今日又得佛门至宝，日后再加以精进，法力日益高强，何致有什为难之事？姊姊未免多虑了。",
-          "instruct": "威严庄重，语调铿锵，气势逼人",
-          "role_voice": "周轻云"
+          "role": "周轻云",
+          "role_voice": "周轻云",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "安慰，语气沉稳"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -819,13 +947,17 @@
       "api": {
         "voice": {
           "text": "学无止境，异派中也大有能手。绝尊者那么高的法力，尚且不能完成尽灭诸般魔法的宏愿，并还因此沉滞正果五百年，终于自家忏悔，方得成就正果。舍妹准备学他，难道比他还强吗？",
-          "instruct": "语气坚定，不容置疑，斩钉截铁，温柔端庄中透着不容置疑的坚毅",
-          "role_voice": "谢璎"
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语重心长，语气深沉"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -834,13 +966,17 @@
       "api": {
         "voice": {
           "text": "如此说来，这部炼法的道书，便是梁武帝的神僧绝尊者住一禅师所著的《灭魔宝箓》了？",
-          "instruct": "语气威严，带着霸气，号令如山，玩世不恭，粗犷中透着狡黠，自有一套道理",
-          "role_voice": "癞姑"
+          "role": "癞姑",
+          "role_voice": "癞姑",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "惊讶，语气认真"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -849,13 +985,17 @@
       "api": {
         "voice": {
           "text": "姊姊多虑，我又不曾发下绝尊者那样为灭群魔不令异派存留的宏愿，学成之后只不过惟力是视，因人而施，把那造孽太多恶行昭著的妖邪除去，别的左道旁门，只要他不甚为害生灵，便不去理他。这也值得如此担心吗？",
-          "instruct": "语带关切，温柔体贴，关心备至，朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "接口笑道，语气轻松自信"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -864,13 +1004,17 @@
       "api": {
         "voice": {
           "text": "谢璎微笑不语。癞姑道：",
-          "instruct": "温馨叙述，语调柔和，暖意融融",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "平静叙述"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -879,13 +1023,17 @@
       "api": {
         "voice": {
           "text": "前听家师说，绝尊者自因诛戮异派邪魔太多，犯了杀孽，一面异派邪魔也应运而生，不特不因绝尊者的法力诛戮消灭减少，反倒人数越众，声势越盛，尽管不是绝尊者的对手，无如对方层出不穷，孤掌难鸣，防不胜防。闹来闹去，闹得几个有法力的门人因习绝尊者这部以魔制魔的法诀，求胜心切，竟然为魔头所乘，误入歧途，倒戈相向。如非法力高深，几遭不测。为了这先后种种因果，竟沉滞五百年方得证果。当绝尊者向我佛座前引咎忏悔之时，曾经求告，说那叛师背他的弟子，平日修为精勤，向道诚毅，生平修积善功至厚，一时受了魔头暗算，致迷本性，事后省悟，立即痛哭自焚。这段因果未了，此书尚须留待他历劫转世，完了他自焚以前的夙愿，将那阴险诡诈万端的魔头除去，始能收回，所以这部法诀并未消去。但那魔头机智绝伦，法力又高，只有此书能够除他，势必处心积虑，百计夺取。为此绝尊者特地在川边倚天崖对面一座石腹内，用极大法力，开了一个三千尺深的石洞，并还制了一个宝幢，将书藏好，放入洞内，外用符咒封锁，以待转世之人来取。那魔头自知孽重和未来因果，仗着运数未终，意欲挽盖。由此匿迹销声，整顿门户，对于门人也分别去留，重加约束，以图苟免。表面看去，好似放下屠刀。无奈所习不正，又是魔法，第一所炼魔头便非害人不可，门徒更是习与性成，积重难返。久了，大约看出收效甚难，于是犯险往盗此书。因知佛法神奇，封锁严固，难于到手，迫于无奈，又以故智，施展最阴毒的魔法，开始攻山。哪知山未攻开，却将禁制触动，几受重伤。同时洞前现出偈语，才知那是佛家大金刚不坏法倒了时限，取书人来，自然开放；否则，休想能动一片山石，只得绝望而归。因此书差不多集正邪各派法术之大成，选择既精，每种均有绝尊者所留解破之法，反正两面俱都齐全，各异派中最厉害神奇的法术法宝均载其上，只要精习以后，任他多么神通的左道妖邪，也绝非其敌。这多年来，正邪各派修士，不知有多少人生心觊觎，休说到手，连那藏宝地方俱找不到一点线索。而对崖龙象庵，乃芬陀大师驻锡之所，又是一个极难惹的正经修道人，左道妖邪自不敢去，久已无人提起。不意竟会落到琳姊手内，莫非你便是绝尊者的高弟转世不成？",
-          "instruct": "语带关切，温柔体贴，关心备至，玩世不恭，粗犷中透着狡黠，自有一套道理",
-          "role_voice": "癞姑"
+          "role": "癞姑",
+          "role_voice": "癞姑",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述绝尊者故事，语气认真，带着好奇与探究"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -894,13 +1042,17 @@
       "api": {
         "voice": {
           "text": "我倒不是。真情此时不能说，我只说练这书的经过吧。",
-          "instruct": "朝气蓬勃，少年意气，发起挑战的兴奋",
-          "role_voice": "谢琳"
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "神秘一笑，语气保留"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -909,53 +1061,36 @@
       "api": {
         "voice": {
           "text": "说罢，随邀癞姑等三人往左侧一片开着形如昙花，其大如碗的花树疏林以内，就着林中所设的翠玉桌墩环坐，谢琳从容述说经过，才知谢山、叶缤、小寒山神尼以及仙都二女，过去生中俱都有极深切的渊源因果。自从谢、叶二人在峨眉开府时皈依佛法，改了法号，同往小寒山，与神尼忍大师劫后重逢，换了忍大师所备的佛家装束以后，谢、叶二人眷恋夙世伦好，又都钟爱二女，由此时往看望。经过详情，以后交代，这里暂时不提。且说忍大师虽知二女将来承受自己衣钵，但是各有因果，殊途同归，修为各异，并不强其仿效。不过二女学道虽已多年，皈依佛法入门尚浅，又是生性好动，天真喜事，当此群仙劫运，异派猖獗之际，如稍放纵，不免多生杀孽，自添烦恼。于是在二女功候未到以前，表面仍借参修上乘佛法为由，轻易不令下山一步。二女至性天真，依恋乃师，又以夙根深厚，具大智慧，功力异常精进。虽然忍大师入定时多，但是灵山佛地尽多胜境，可供留连，每值禅功余暇，只在山中游玩，指点山林泉石，调弄珍禽异兽为乐。谢、叶二人又常来看望。端的山居清娱，一点不觉寂寞。似这样过了两年。原本谢、叶二人至多间月一到，到第二年内分手，一晃过了四个多月均未见来，也无信息。二女思念异常，正赶这日忍大师向二女说法完毕，将要入定。二女知道师父和自己不是寻常师弟情分，人又慈祥和易，平日亲热已惯，从未受过嗔责。于是双双涎着脸皮，投在忍大师怀里，软语求告，要往武夷省亲，便道访看叶姑，问其何以数月不来。忍大师先以二女此行易与强仇相遇，不是敌手，不肯答应。嗣吃二女一味软磨，不忍坚拒。随以佛家心光查知就里，笑对二女道：",
-          "instruct": "恢宏叙述，气势磅礴，大战正酣",
-          "role_voice": "旁白"
-        },
-        "effects": [
-          {
-            "trigger_delay": 0,
-            "duration": 4,
-            "process_mode": "overlay",
-            "name": "花林翠墩",
-            "trigger_keyword": "花树疏林",
-            "trigger_offset": -1,
-            "sound_cn": "花树林间的微风、花瓣轻落与翠玉桌墩轻碰声",
-            "sound_en": "breeze through flowering trees, petals falling, and soft clink of jade stools",
-            "volume": "-24%",
-            "pitch": "0Hz"
-          },
-          {
-            "trigger_delay": 2,
-            "duration": 2,
-            "process_mode": "overlay",
-            "name": "环坐衣袂",
-            "trigger_keyword": "随邀癞姑等三",
-            "trigger_offset": -0.5,
-            "sound_cn": "众人就坐时衣袂与玉墩的轻微摩擦声",
-            "sound_en": "soft rustle of robes as guests sit on jade stools",
-            "volume": "-26%",
-            "pitch": "0Hz"
-          }
-        ]
-      },
-      "mix": {
-        "mode": "mix"
-      }
-    },
-    {
-      "id": 48,
-      "role": "旁白",
-      "api": {
-        "voice": {
-          "text": "（忍大师话语）你爹爹正想你们去呢。只是你们前往峨眉所结强仇毒手摩什，恨你二人切骨。上次寒月、一音二位道友送你们来时，正值仇人先在峨眉所受重创不曾全好，又值轩辕老怪聚众炼法，他正带伤随侍，无暇及此，所以沿途无事。小寒山佛法封禁，休说查看踪迹，连算也算不出来。仇人因查看不出你们的踪迹下落，心中奇怪。轩辕妖宫有一异宝，妖人能以心灵所注，遍查宇内人物动静，随时都在留心观察。本来疑你们也是峨眉门下女弟子，深居凝碧仙府以内，所以查看不出形影。如非自知不是妙一真人对手，轩辕老怪又再三告诫不许冒失，几乎犯险往试。近以峨眉男女弟子凡是法力稍高的，俱已奉命下山行道，仍不见你姊妹踪迹，渐觉料错。没有多日，便遇见一个曾借观礼为由前往窥伺，欲行暗算，结局震于峨眉威力，未敢妄动，腆颜终席而出的异派中人，问出你二人的踪迹。我独自在此隐修多年，同道往还极少，只有一二人，一向坐关，并非眼前正邪各派中知名老人物。大雪山中，正经佛道两家法力最高深的，只有一位老禅师，也是在地底坐关，每六十年才开关说法一日夜，这位自然不是。余者，道家虽有两位，一则各有畏忌，并无仇怨，又都是男的炼士。那异派中人，只知你们被寒月、一音二位送往大雪山。这一回来，虽听说有小寒山拜师之言，但不知详情，连运玄机占算，法宝查看，自己又亲来雪山四处搜寻踪迹，并向一些隐居山中的妖邪访问，俱无下落。越发认定你们是未来隐患，始终没放下复仇之念。你二人在此，他固茫然无知，只一离开小寒山境，出了禁地，立被觉察。此人来去如电，邪法甚是神通，你二人此时尚非其敌，弄巧还要遇上别的妖邪。本不想你二人前往，一则孺慕情殷，二则你父亲又正向我以心灵传意，请我准你二人前去，适才我已应允了他。不过就此前往，必遇险阻。你二人已然拜我为师，我虽持有极大愿力，永不杀生开戒，但我门中佛法无边，具大无畏，也决不容什邪魔外道侵害欺凌。此番不比上次，可以我的符诀法宝救急。就是不与他计较，至多使其不知不觉，或是遇上，莫奈你们何，断无似前望影而逃之理。去是可去，但在三日之后，由我先传你二人有无相护身神光，方可前往。有此神光护身，仇人法宝固难查见，即无心相遇，也是不能稍伤毫发。此时你父亲正在武夷相候，此去必能相见。而你叶姑新近代人经办一事，须要十日之后方能有暇。她在川边倚天崖西双杉坪，你们只听说过，尚未去过。那地方就在雪山边界，虽然不远，境却幽秘，又有法力禁制，终岁云封，外人足迹甚难走进。你们当归路西南，回时可顺雪山边界往西绕去，先寻到了倚天崖上芬陀大师驻锡的龙象庵，再朝西方直飞，约有三十里便是。她见你二人往访自必欣喜，开云相见。由武夷小住，回来再去，也正是时候。途中不可违戒，也不可故现形迹，收了神光生事。否则，将来纠缠便更多了。",
-          "instruct": "激烈叙述，语速加快，战意昂扬",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙事转述，语速中等，交代背景"
         },
         "effects": []
       },
       "mix": {
-        "mode": "mix"
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 48,
+      "role": "忍大师（转述）",
+      "api": {
+        "voice": {
+          "text": "你爹爹正想你们去呢。只是你们前往峨眉所结强仇毒手摩什，恨你二人切骨。上次寒月、一音二位道友送你们来时，正值仇人先在峨眉所受重创不曾全好，又值轩辕老怪聚众炼法，他正带伤随侍，无暇及此，所以沿途无事。小寒山佛法封禁，休说查看踪迹，连算也算不出来。仇人因查看不出你们的踪迹下落，心中奇怪。轩辕妖宫有一异宝，妖人能以心灵所注，遍查宇内人物动静，随时都在留心观察。本来疑你们也是峨眉门下女弟子，深居凝碧仙府以内，所以查看不出形影。如非自知不是妙一真人对手，轩辕老怪又再三告诫不许冒失，几乎犯险往试。近以峨眉男女弟子凡是法力稍高的，俱已奉命下山行道，仍不见你姊妹踪迹，渐觉料错。没有多日，便遇见一个曾借观礼为由前往窥伺，欲行暗算，结局震于峨眉威力，未敢妄动，腆颜终席而出的异派中人，问出你二人的踪迹。我独自在此隐修多年，同道往还极少，只有一二人，一向坐关，并非眼前正邪各派中知名老人物。大雪山中，正经佛道两家法力最高深的，只有一位老禅师，也是在地底坐关，每六十年才开关说法一日夜，这位自然不是。余者，道家虽有两位，一则各有畏忌，并无仇怨，又都是男的炼士。那异派中人，只知你们被寒月、一音二位送往大雪山。这一回来，虽闻有小寒山拜师之言，但不知详情，连运玄机占算，法宝查看，自己又亲来雪山四处搜寻踪迹，并向一些隐居山中的妖邪访问，俱无下落。越发认定你们是未来隐患，始终没放下复仇之念。你二人在此，他固茫然无知，只一离开小寒山境，出了禁地，立被觉察。此人来去如电，邪法甚是神通，你二人此时尚非其敌，弄巧还要遇上别的妖邪。本不想你二人前往，一则孺慕情殷，二则你父亲又正向我以心灵传意，请我准你二人前去，适才我已应允了他。不过就此前往，必遇险阻。你二人已然拜我为师，我虽持有极大愿力，永不杀生开戒，但我门中佛法无边，具大无畏，也决不容什邪魔外道侵害欺凌。此番不比上次，可以我的符诀法宝救急。就是不与他计较，至多使其不知不觉，或是遇上，莫奈你们何，断无似前望影而逃之理。去是可去，但在三日之后，由我先传你二人有无相护身神光，方可前往。有此神光护身，仇人法宝固难查见，即无心相遇，也是不能稍伤毫发。此时你父亲正在武夷相候，此去必能相见。而你叶姑新近代人经办一事，须要十日之后方能有暇。她在川边倚天崖西双杉坪，你们只听说过，尚未去过。那地方就在雪山边界，虽然不远，境却幽秘，又有法力禁制，终岁云封，外人足迹甚难走进。你们当归路西南，回时可顺雪山边界往西绕去，先寻到了倚天崖上芬陀大师驻锡的龙象庵，再朝西方直飞，约有三十里便是。她见你二人往访自必欣喜，开云相见。由武夷小住，回来再去，也正是时候。途中不可违戒，也不可故现形迹，收了神光生事。否则，将来纠缠便更多了。",
+          "role": "忍大师",
+          "role_voice": "忍大师",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "慈祥温和，语速平缓，带着嘱咐"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
       }
     },
     {
@@ -964,8 +1099,12 @@
       "api": {
         "voice": {
           "text": "二女早受叶缤指教，说像乃师的愿力修为太不容易，并且取法太高。二女素来情热，中间稍失坚忍，便易弄巧成拙。将来下山行道以前，务要将这有无相护身神光或是大小旃檀神法学会，方可有备无患，不畏妖邪暗算。只说功力年限均浅，此法神妙不可思议，还不到学的时机，未敢遽然求告。未料得来如此容易，不禁喜出望外，忙即拜谢领命。要知后事如何，请看下文分解。",
-          "instruct": "紧张叙述，节奏明快，剑拔弩张",
-          "role_voice": "旁白"
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "收束叙述，语速稍慢，留有悬念"
         },
         "effects": []
       },
@@ -973,45 +1112,5 @@
         "mode": "voice_only"
       }
     }
-  ],
-  "soundscape": {
-    "scene_layers": [
-      {
-        "name": "山径松林",
-        "start_line": 1,
-        "end_line": 13,
-        "prompt": "very subtle low volume cinematic background ambience, winding mountain path through ancient pine and cypress forest, fragrant herbs, occasional bird calls, soft breeze, leaves rustling underfoot, serene and contemplative, warm erhu hum, smooth continuous ambience bed, no sharp foregrounds, no prominent events, no voices, no music, no melody, no repetitive loop, no noise bursts",
-        "volume": "-26%",
-        "fade_in": 2,
-        "fade_out": 2,
-        "target_dbfs": -30,
-        "high_pass_hz": 90,
-        "low_pass_hz": 4000
-      },
-      {
-        "name": "灵石小筑内外",
-        "start_line": 14,
-        "end_line": 40,
-        "prompt": "very subtle low volume cinematic background ambience, exquisite seven-level stone pavilion with jade furniture, faint incense, distant lake sounds echoing, soft footsteps on stairs, elegant and refined, subtle yangqin shimmer, smooth continuous ambience bed, no sharp foregrounds, no prominent events, no voices, no music, no melody, no repetitive loop, no noise bursts",
-        "volume": "-24%",
-        "fade_in": 2,
-        "fade_out": 2,
-        "target_dbfs": -30,
-        "high_pass_hz": 90,
-        "low_pass_hz": 4000
-      },
-      {
-        "name": "花林坐谈",
-        "start_line": 41,
-        "end_line": 49,
-        "prompt": "very subtle low volume cinematic background ambience, flowering grove with large blossoms, jade seats, gentle wind, soft petals falling, calm and leisurely conversation, sparse pipa plucks, smooth continuous ambience bed, no sharp foregrounds, no prominent events, no voices, no music, no melody, no repetitive loop, no noise bursts",
-        "volume": "-24%",
-        "fade_in": 2,
-        "fade_out": 2,
-        "target_dbfs": -30,
-        "high_pass_hz": 90,
-        "low_pass_hz": 3800
-      }
-    ]
-  }
+  ]
 }

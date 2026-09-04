@@ -1,0 +1,5 @@
+2026/08/30-10:38:15.635 11fed82 Creating DB /Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/.ximalaya_profile/Default/Local Storage/leveldb since it was missing.
+2026/08/30-10:38:15.641 11fed82 Reusing MANIFEST /Users/zhuxingchong/Documents/trae_projects/NovelToSpeechAutoTool/.ximalaya_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/30-10:39:15.642 11fed85 Level-0 table #5: started
+2026/08/30-10:39:15.646 11fed85 Level-0 table #5: 38892 bytes OK
+2026/08/30-10:39:15.647 11fed85 Delete type=0 #3

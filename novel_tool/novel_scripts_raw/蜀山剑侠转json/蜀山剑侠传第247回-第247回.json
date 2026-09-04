@@ -1,0 +1,2245 @@
+{
+  "project": "蜀山剑侠传有声小说自动生成",
+  "chapter": "第247回 灵石筑五女谈心 古杉坪二仙盗法",
+  "片头": {
+    "novel_name": "蜀山剑侠传",
+    "author": "还珠楼主",
+    "speaker": "AI合成",
+    "role_voice": "旁白"
+  },
+  "roles_definition": {
+    "旁白": [
+      {
+        "role": "旁白",
+        "role_voice": "旁白",
+        "speed": "",
+        "volume": "",
+        "pitch": "",
+        "VoiceDesign_Prompt": "老年（62岁），老年男声，语速中等偏慢，声音自然略带沙哑，音量偏低，换气声轻微，适合古风仙侠长篇叙述，沉稳从容，不疾不徐。"
+      }
+    ],
+    "谢璎": {
+      "role": "谢璎",
+      "role_voice": "谢璎",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "16-18岁，温婉清澈的少女声线，语速中等偏慢，声调柔和，带着一丝沉静与深思，气质端庄娴雅，透露出佛门弟子的慧根与慈悲。"
+    },
+    "谢琳": {
+      "role": "谢琳",
+      "role_voice": "谢琳",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "16-18岁，清脆明快的少女声线，语速偏快，声调偏高，带着天真烂漫与一丝傲气，性格活泼，说话时情绪起伏较明显，透出灵慧与侠义之心。"
+    },
+    "寒月大师": {
+      "role": "寒月大师",
+      "role_voice": "寒月大师",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "中年（42岁），男声，清朗温润的出家人口吻，语速平缓，声调不高却有力，透着禅意与智慧，对女儿说话时带着慈爱与关怀，但又不失出家人的清冷超然。"
+    },
+    "叶缤": {
+      "role": "叶缤",
+      "role_voice": "叶缤",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "30-35岁，清冷孤高的女声，语速中等，声线偏于明亮但带有距离感，语气坚定而有力量，透出修道高人的威严与智慧，但对亲近之人会不经意流露出温柔与无奈。"
+    },
+    "老佛婆": {
+      "role": "老佛婆",
+      "role_voice": "老佛婆",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "老年（70岁），女声，声音和蔼慈祥，略带沙哑，语速平缓，语气温和，透着岁月沉淀的智慧与平和，给人以可亲可信之感。"
+    },
+    "妖童": {
+      "role": "妖童",
+      "role_voice": "妖童",
+      "speed": "",
+      "volume": "",
+      "pitch": "",
+      "VoiceDesign_Prompt": "15岁少年，声音尖锐刺耳，带着邪气与蛮横，语速较快，语调挑衅，透出妖孽的狂妄与恶毒，说话时有种令人不悦的张扬感。"
+    }
+  },
+  "soundscape": {
+    "scene_layers": [
+      {
+        "name": "武夷仙居",
+        "name_en": "武夷山山顶，白云浩荡，阳光映照，仙雾缭绕。寒月大师的居所位于梅花林间，屋内清幽雅致，父女三人轻声交谈，气氛温馨而神秘。",
+        "start_line": 1,
+        "end_line": 14,
+        "prompt": "very subtle low volume cinematic background ambience, late morning on mount wuyi, white clouds rolling over mountaintop, sunshine breaking through mist, old plum forest, wooden hut with thatched roof, faint breeze rustling plum branches, soft chirping of distant mountain birds, subtle room tone of wooden beams and clay walls, gentle warmth and familial intimacy, quiet conversation, deep guqin resonance underlying the atmosphere, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "巫峡江边",
+        "name_en": "长江巫峡，两岸危崖耸立，江流湍急。纤夫们赤膊挣扎，号子声、江水声、山风呼啸交织，初冬寒意与劳作之苦弥漫。",
+        "start_line": 15,
+        "end_line": 28,
+        "prompt": "very subtle low volume cinematic background ambience, winter afternoon in wu gorge, steep cliffs rising on both sides, narrow river channel, fast flowing water rushing over shoals, strong cold wind sweeping through the canyon, distant sound of boat trackers' chanting echoing off the rocks, faint creaking of wooden boats, subtle sounds of straining ropes and cables, rough stone path along the water's edge, bare winter trees clinging to the cliffside, atmosphere of hardship and resilience, sparse pipa plucks reflecting the tension, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-26%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      },
+      {
+        "name": "巫峡斗法",
+        "name_en": "巫峡崖顶，怪石嶙峋，妖童施法作恶，气氛紧张。二女现身与妖童斗法，宝光飞剑纵横，邪气妖云翻涌，战斗激烈。",
+        "start_line": 29,
+        "end_line": 50,
+        "prompt": "very subtle low volume cinematic background ambience, cliff top at wu gorge, jagged rocks and sparse shrubs, tense and dangerous atmosphere, thin cold wind swirling, faint metallic tang in the air, distant echo of a child's jeering voice, subtle hum of magical energies, fast-moving air currents from flying spells, subtle vibration of qi and mana, low-frequency tension, deep taiko drum hits underlying the combat, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 1,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4000
+      },
+      {
+        "name": "龙象庵",
+        "name_en": "倚天崖上龙象庵，芬陀大师的道场，宁静庄严。庵内禅堂清寂，老佛婆款待二女，窗外雪山映日，氛围祥和超然。",
+        "start_line": 51,
+        "end_line": 60,
+        "prompt": "very subtle low volume cinematic background ambience, afternoon at longxiang nunnery, leaning against the sky cliff, snow-capped mountains in the distance, serene and sacred atmosphere, old buddhist hall with wooden pillars and incense smoke, subtle scent of sandalwood, faint sound of wind chimes hanging from the eaves, warm sunlight filtering through window lattices, calm and wise conversation, soft yangqin shimmer underlying the peace, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-22%",
+        "fade_in": 3,
+        "fade_out": 3,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 4200
+      },
+      {
+        "name": "双杉坪石室",
+        "name_en": "川边双杉坪，叶缤闭关炼法之地。石室位于峰腹，洞内空旷幽深，法坛金光闪耀，气氛神秘而专注。",
+        "start_line": 61,
+        "end_line": 105,
+        "prompt": "very subtle low volume cinematic background ambience, interior of a stone chamber inside a solitary peak, deep underground, cool and still air, faint echo of stone walls, golden light emanating from a dharma altar, subtle vibration of intense magical practice, a single silver orb floating in the air, soft crackle of energy from a golden pagoda, ancient and mysterious atmosphere, focused and solitary concentration, subtle creak of old wooden beams supporting the roof, deep guqin resonance with a mystical edge, slow evolving layered soundscape, gentle variation over time, smooth continuous ambience bed, no sharp foreground sounds, no prominent events, no voices, no music, no melody, no repetitive loop feeling, no noise bursts",
+        "volume": "-24%",
+        "fade_in": 2,
+        "fade_out": 2,
+        "target_dbfs": -30,
+        "high_pass_hz": 90,
+        "low_pass_hz": 3800
+      }
+    ]
+  },
+  "data": [
+    {
+      "id": 0,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "第247回 灵石筑五女谈心 古杉坪二仙盗法",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "庄重叙述，拉开书卷"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_only"
+      }
+    },
+    {
+      "id": 1,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "上文写到小寒山神尼忍大师传授仙都二女谢璎、谢琳炼那有无相神光，以为日后行道护身之用。二女喜出望外，忙向师父拜谢领命。忍大师随即如法传授。到了第三日上，二女有无相神光便已炼成，运用纯熟，随即拜别起身，遵从师命，由小寒山起，便用无相神光隐去形迹，起身往武夷飞去。到后一看，山顶全是白云铺满，氤氲浩荡，岚光映日之外，竟看不见下面景物。暗忖：“父亲既知女儿要来，又在念女之际，如何这等光景？”方在寻思，待要行法穿云而下，云岚倏地腾涌如山，朝上卷来，四顾身已没入云海之中。谢琳性于较急，刚唤了一声：“爹爹！”忽见一道金光自下方射来，立时冲开一道云巷。二女认出乃父法力，低头一看，云巷下面梅花林外，乃父身着黄葛僧衣，正朝上面含笑招手。连忙争先飞落到地，方要开口，寒月大师将手往上一招，岚光云影重又封合。二女已经双双拜倒在地。寒月一手一个扶起，一同走进屋内，笑道：“你们这次可在此住四五日，要少说话，不问不可开口。”说罢，将手一扬，手上立现出一片白光，光中现有不少字迹，令二女细看。大意是说：一音大师叶缤为助一友人成道，特地费了许多心力，在倚天崖对面千寻石壁之内，将东晋时神僧绝尊者的一部伏魔炼法的真诀取到手内。但是此举那友人固是得益不少，叶缤异日成道却必定因之迟滞，甚或有害。自己又有约在先，不便违约相强，一同参与。再四筹思，只有二女资禀既厚，法力日渐高深，留世又久，可以勉为其难。但是叶缤法力与己差不多，事前如无防备，彼此行踪均可查算明悉。事前如被知悉，她平生最爱二女，惟恐将来连带受累，素性清傲，又不喜人相助，此举决所不愿。为此暗中运用法力，乘叶缤在川边倚天崖双杉坪新居闭门习法，内外隔绝之便，与忍大师以通灵商议，令二女到来，指示机宜。等到叶缤日内尽通诸法，然后一同赶往。这部降魔真诀，以二女此时法力，学之甚易，只要记下，便能依此通解。二女之中，不论何人，凭着各人的愿力缘法，将那部真诀默记下来。叶缤先前自是不肯，但她爱极二女，又知忍大师欲以禅门无上正法传授二女。此时只当多时未见，往遂孺思，又经法力掩饰，匆卒之间，决想不到有此密谋。等到记下以后，已无法补救，只好听其自然了。谢琳看完，甚是欢喜。谢璎却道：“爹爹设想如此周密，又得师父允准，此行自无不成之理。只是练习降魔真诀，乃于女儿修道有益之事，叶姑怎会如此坚决不肯相授？难道此举于女儿将来修道上还有什弊害不成？”寒月大师原以叶缤此事在所必办，但是将来好些险阻艰难。如论交情，自己便为她停滞些年飞升，原非所计，无如中有许多因果，不便相助，心里又放她不下，想来想去，只有二女成道较晚，比较合适。但二女所修不是佛家上乘正觉，如若明了这部真诀，将来法力虽高，于成道上也不免要多添枝节，增加困苦，以此易彼，于心又是不忍。算来只有使一人习此真诀，便可面面皆顾。偏生二女同胞孪生，不特形影不离，连言动心意也是如一。习法的将来成就，自有许多魔扰，其势既不能有所偏厚，任指一人往习。还有，忍大师也不知能容与否。试运心灵一通，竟未坚持成见，对于所虑一节，也说无妨。可是二女来时，寒月心尚踌躇，本想言明，设法选中一人，再行起身。哪知二女平日心性言动如一，这时意念竟有不同，分明各有因缘。此去定只一人习法，免却许多顾虑，再好没有，闻言不禁大喜，答道：“佛家原以清静寂灭为宗，本来无魔，何有于降？出世入世，相由心生，自以不习此法，少去许多烦恼。”谢琳不等说完，插口说道：“爹爹说的是习了此法以后，容易招致魔头，为异日修为之阻吗？女儿先已想过，一则叶姑疼爱女儿恩厚，为她之事义不容辞；二则只要道心空明，具大定力，任什魔头无足为害，自能战胜。还有师父只女儿两个徒弟，又有夙世因果，真如有害，便爹爹肯，师父也绝不肯，怕他何来？女儿此行，既体亲心，并报叶姑多年厚恩，异日还可发大愿力扫荡群魔，一举三得，再好没有。”寒月大师闻言颇喜。及听到末句荡魔之言，细察谢琳双眉隐现一些煞气，谢璎却是依旧心光湛然，神仪如莹，不禁惊喜交集，暗中称幸。当时眉头微皱道：“琳儿今日怎地失了故态？莫把此事太轻看了。”谢琳微笑不答。谢璎自从问过前言以后，始终静立在侧。寒月大师随道：“从此你们不要再开口了，你叶姑近来益发神通广大，此间虽经我法力掩蔽，仍是不可不防。今日是她习法第二日，我们在此说话，倒不致被她警觉。惟恐万一她在无意之间向我通灵，或按神光查听出这种真情，便不肯中我们的计了。”说罢，仍用法力现出金字，令二女归座，指示一切。教以去时如何应付，以及见时如何说法，时机稍纵即逝，不可丝毫大意。谁先记下，便算谁的，各凭机缘，不可强求。叶姑对你二人一样爱重，也本可故意畏难，不尽心力。二女一一应诺。果然第二日，叶缤便与谢山通灵问答，说起近三日因炼《灭魔宝箓》真诀，为求慎重，并试诸般法术威力妙用，在本日通晓之后，一一加以演习。但是此举关系重大，除却内有几种威力异常厉害，不能无的放矢，非遇上事不能演习外，全部演完尚须九日。就这样，仍幸仗有佛门至宝心灯镇压，才敢放胆施为。末了谈到为取此宝，费却许多心力，久未往小寒山探看二女，适才忽生想念。算计事完还得四五十天，欲请谢山日内往小寒山一行，就便劝忍大师不要固执成见。二女虽然夙根深厚，未来成就远大，但她们过去诸生尚有因缘未了，就参佛家上乘大法，也须了完一切因果以后，不可勉强。本心想与忍大师通灵一谈，就便查看二女近日修为如何，偏生忍大师不知何故，竟以轻易不用的佛家大须弥不动尊法，将全山封闭，与外绝缘，接连叩关两次，均无回应，内里情形，已查看不出一点端倪。料是二女功力精进，正在传授大法，恐防分心魔扰，或有什人前往求见之故。道兄近日可曾去过？武夷仙居为何也用法力封锁？自己事完以前，不想再扰忍大师禅修，道兄如有清暇，日内可往探看。谢山答以自己近受天蒙老禅师之教，山居静修，久未往看二女，也颇思念。忍大师决不固执成见。此时尚有他事，难作长谈。等你大功告成，见面再说吧。叶缤想是抽暇询问，谢山答语虽然模糊，以平时相期甚深，彼此诚信已久，本是一时思潮忽动，略谈即止，也未往下盘诘。双方通灵问答过去，谢山笑向二女说完前情。又道：“你叶姑忙于炼法，由此起不到事完，是不会再向我通灵了。我父女可以随意谈笑，只是上空禁法仍不能撤去罢了。我从未向她打过诳语，今番还是第一遭呢。”谢琳笑道：“爹爹答话含糊，并未提到女儿。将来闹穿，为好则有之，各尽其心，哪能说是诳语呢？”谢璎笑道：“琳妹乃是巧辩，心与口违，怎说不诳？不过略迹原心，叶姑也不能怪罢了。”谢山道：“你看绝尊者法力何等高强，她那里习法日期，我竟会不曾算出。否则，令你们晚来数日，也省得耽误功课。”二女同声笑道：“毕竟佛门中人情薄。爹爹以前多爱女儿，极愿常在膝下承欢，不愿离开，才对心思。自从师父与爹爹换上僧衣，往往一别多日，不往探看，就去也无多时停留。这次违颜日子更长，女儿们日夕都在思念，难得有这机会，可以在此承欢些日，共总八九天，一晃就过的光阴，爹爹还嫌女儿来得大早，不是心肠硬吗？”谢山笑道：“痴儿，痴儿。你们这等口吻，你师父偏想你们学她，不是难吗？”谢璎道：“那也不然。师父幼遭孤露，屡世艰厄，万缘已断，自然修上乘功果比较容易。要似女儿这样，又有爹爹，又有师父和叶姑，恐也一样是不免思恋呢。”谢琳道：“我佛无缘无故，时以无上愿力普度众生，便是最情长的人。你看师父法号忍大师，坐关那么多年，一旦前生爱女再劫重逢，金刚不坏的门横巨木，为何只凭女儿两滴泪珠便化乌有呢？这是女儿们先见到她老人家，省了些事，要是爹爹和叶姑同去，想起前情，同声一哭，不也照样开门相见吗？”谢山微笑不语。因已指示机宜，二女尽管天真，法力既非寻常，智慧尤高，一点就透，无须再说。加以老的初证禅修，爱根未断，小的天性纯厚，孺慕依依，又是平日各有修为，父女三人难得如此聚首，互相述说过去未来之事，谢山更对二女温言教勉，言笑晏晏。天伦之乐，光阴易过。一晃便到了叶缤习法的第八日深夜，谢山才对二女道：“你叶姑明日申初大功告成。你们飞行甚速，本无须乎早往，但如算准时刻前去，途中恐有阻碍，时机一误，再也休想。最好黎明起身，就便可绕道倚天崖上龙象庵一谒芬陀大师，不问人在与否，总算把礼尽到，以免过门不入，有些失礼。并可得一落脚之所，不致在双杉坪前呆等，还惹叶姑疑心。就这样，路上无论遇见什事，仍以不理为妙。固然你们炼有神光，起身又早，足可了当。到底事关重大，必须照我所说，申初时分你叶姑法刚习完，宝箓不及收藏的当儿，叩关求见，才恰到好处。差之毫厘，谬以千里；多一事不如少一事。虽有不平，无妨俟诸异回。那宝箓非比寻常，习后功力，尚视各人修为来定高下。你叶姑真个精习，发挥它的全力，尚须时日，何况你们。可是只要当时紧记全书，自能循序渐进。再过二三年，异派妖邪极少敌手。那时无论什么极恶穷凶，除之均非难事，何在今日？如若因此延误，悔之无及，我对叶姑也白用心了。以我计算，事固不会如此，终是谨慎些好。”二女领命，候到天色甫明，便即拜别起身，先往川边倚天崖飞去。",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "平静叙述，娓娓道来，交代前因后果"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 2,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "遁光神速，不消多时，便入川境。也是二女一时高兴，经过巫峡上空时，偶然目注下方，瞥见层崖峡峙，江流如带。那么萧森雄奇幽险的川峡，空中俯视，直似一条蜿蜒不绝的深沟。水面既窄，当日天又睛和，江上风帆三三两两，络绎不绝。过滩的船，人多起岸，船夫纤拉着抢上水，动辄数十百人拉着一条长缆，盘旋上下。于危崖峻壁之间，看去直似一串蚂蚁在石边蠕动，那船也如儿童玩具相似。二女难得出外，觉着好玩，左右还早，所御遁光无形无声，外人又看不出，便把遁光降低，沿着川峡西行。人一降低，景物显大，觉出江山之胜，与空中所见别是一番景象。二女俱有山水之癖，并发动了夙好，可是这一临近，才看出那些纤夫之劳无异牛马，甚或过之。九十月天气，有的还穿着一件破补重密的旧短衣裤，有的除一条纤板外，只拦腰一块破布片遮在下身，余者通体赤裸，风吹日晒，皮肤都成了紫黑色。年壮的看去还好一些，最可怜是那年老的和未成年的小孩，大都满面菜色，骨瘦如柴，偏也随同那些壮年人前呼后喝，齐声呐喊，卖力争进，一个个拼命也似朝前挣扎。江流又急，水面倾斜，水的阻力绝大。遇到难处，齐把整个身子抢仆到地上，人面几与山石相磨。那样山风凛冽的初冬，穿得那么单寒赤裸，竟会通体汗流，十九都似新由水里出来，头上汗珠似雨点一般往地面上乱滴，所争不过尺寸之地。看情景，每过一滩，少说也须两三个时辰。上下起载，还不在内。二女越看，越觉得这些纤夫实在劳苦可怜，不由动了恻隐之心。说也奇怪，二女因是孪生灵婴异质，未到武夷以前，不特言动如一，连心意也都一样，从无相左。及至武夷出来，表面上还不怎显异样，心意却在无形中有了出入。一开始都还记着父亲别时不令多管闲事之诫，虽可怜那些苦人，只是心里动念，没有一定打算出手，遁光却缓了好多。有两三次谢琳看不下限，意欲施为，俱为谢璎阻住，并道：“巫峡有名的浪恶滩险，终年如此。沿江土人以此为生，已成习惯，我们助他一时，济得什事？何况来时爹爹再三叮嘱，什事都不许管，如何可以违背？我们真有好心，何在今日，将来再从长计较，为行旅造福，作一长久之计，不更好吗？”谢琳只得罢了。说时，二人渐渐飞过峡中最著名的苏、摄二滩。二女见江波渐平，风势已正，既不想管闲事，便想催动遁光升空急飞。彼此正问答间，忽听前面喧哗之声汇成一片。往前细看，原来上流三四里纤道上，有三队纤夫，每队三五十人不等，所拉的船却只是三条轻载的客船，每船相去十余丈，正同抢着上流。船并不大，江上看去又那么风平浪静，一条小船，平均四五十人奋力扯纤，竟会抢不上去。这还不说，最怪的是对岸有一危崖，纤夫们背着纤板上来，似不费力，可是船一驶近崖前，便如钉在水上一样；一任纤夫们拼命前挣，汗流如雨，把全身都挣仆到地上，兀自不能再进一步。船头系纤的将军柱，已被拉成了弓形，可是江波粼粼，平稳无风，看不出一点有阻力的异兆。后两船上人见前船这等情景，俱都不敢再上。三船上人都在忙着点香烛祭神许愿，惊惶万状。二女方觉有异，猛听哭喊之声，那头一条船倏地易进为退，顺流倒驶下去。那些纤夫们吃不住劲，事出意外，纤得又紧，不及放脱身上纤板，纷纷随同往后倒跌地上，被那船带着在山石上往回乱滚，身多不由自主。纤道本窄，有的已被带落断崖之下，幸有纤板套住，人未落江，身却虚悬空中。全都吓得心惊胆战，惊叫悲号，江峡回音甚是凄厉，看去惨极。二女心慈好善，怎再看得下这等惨状？事有凑巧，就在此时，谢琳先前本在四下查看，哭声一起，同时又发现一件可疑之事，不禁省悟。怒喝：“姊姊，你快去救那些可怜人，先把船定住。我往前面看看是什东西闹鬼。”谢璎心急救人，也没听完乃妹的话，便即飞起首施法力，先把那船定住，再把落岸的人托上，人却没有现身。就这晃眼的工夫，那头条船已倒退好几十丈。二、三两船见此异变，吓得连忙扳舵退避，侥幸没被倒退下来的船撞上。这两船纤夫把纤板慌不迭地取下，总算见机得快，只随船溜退了二三十丈，便吃谢璎把船定住。船住以后，落岸的纤夫又似被人托了上来。未落岸的因都工于此道，这类事均有经历防备，百忙中各把纤板活扣拉脱，全都受了轻重伤，幸而均非致命。船人见忽转危为安，又有些异迹，俱当神佑，自去叩谢江神，纷纷猜疑。不提。",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转为生动，描绘纤夫艰辛与二女同情"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.5,
+            "trigger_keyword": "船夫纤拉",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "纤夫号子与江流",
+            "sound_cn": "远处传来纤夫们齐声呐喊的号子声，伴随着湍急的江流声，粗犷而艰辛。",
+            "sound_en": "distant sound of boat trackers' rhythmic chanting, mingled with the roar of fast-flowing river water rushing over shoals, echoing through the steep canyon, rough and straining atmosphere",
+            "volume": "-24%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "哭喊之声",
+            "trigger_offset": -0.5,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "惊呼与哭喊",
+            "sound_cn": "人群突然发出的惊呼和哭喊声，充满恐惧与混乱。",
+            "sound_en": "sudden cries of alarm and weeping from the trackers, sharp and distressed, rising in a wave of panic as the boat lurches backward",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 3,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "巫峡有名的浪恶滩险，终年如此。沿江土人以此为生，已成习惯，我们助他一时，济得什事？何况来时爹爹再三叮嘱，什事都不许管，如何可以违背？我们真有好心，何在今日，将来再从长计较，为行旅造福，作一长久之计，不更好吗？",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温柔劝阻，语气中带着无奈与理性"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 4,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳只得罢了。说时，二人渐渐飞过峡中最著名的苏、摄二滩。二女见江波渐平，风势已正，既不想管闲事，便想催动遁光升空急飞。彼此正问答间，忽听前面喧哗之声汇成一片。往前细看，原来上流三四里纤道上，有三队纤夫，每队三五十人不等，所拉的船却只是三条轻载的客船，每船相去十余丈，正同抢着上流。船并不大，江上看去又那么风平浪静，一条小船，平均四五十人奋力扯纤，竟会抢不上去。这还不说，最怪的是对岸有一危崖，纤夫们背着纤板上来，似不费力，可是船一驶近崖前，便如钉在水上一样；一任纤夫们拼命前挣，汗流如雨，把全身都挣仆到地上，兀自不能再进一步。船头系纤的将军柱，已被拉成了弓形，可是江波粼粼，平稳无风，看不出一点有阻力的异兆。后两船上人见前船这等情景，俱都不敢再上。三船上人都在忙着点香烛祭神许愿，惊惶万状。二女方觉有异，猛听哭喊之声，那头一条船倏地易进为退，顺流倒驶下去。那些纤夫们吃不住劲，事出意外，纤得又紧，不及放脱身上纤板，纷纷随同往后倒跌地上，被那船带着在山石上往回乱滚，身多不由自主。纤道本窄，有的已被带落断崖之下，幸有纤板套住，人未落江，身却虚悬空中。全都吓得心惊胆战，惊叫悲号，江峡回音甚是凄厉，看去惨极。二女心慈好善，怎再看得下这等惨状？事有凑巧，就在此时，谢琳先前本在四下查看，哭声一起，同时又发现一件可疑之事，不禁省悟。怒喝：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转为紧张，突出事态紧急"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "喧哗之声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "人群喧哗",
+            "sound_cn": "纤夫们与船夫们惊慌失措的喧闹声，汇成一片。",
+            "sound_en": "murmur of alarmed voices from the trackers and boatmen, rising in a chaotic wave, shouts of fear and confusion",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "哭喊之声",
+            "trigger_offset": -1.0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "惊叫悲号",
+            "sound_cn": "纤夫们被倒拖，发出凄厉的哭喊与惊叫。",
+            "sound_en": "sharp cries of terror and pain as trackers are dragged backward, scraping against rocks, voices echoing in the gorge, mix of fear and agony",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 5,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "姊姊，你快去救那些可怜人，先把船定住。我往前面看看是什东西闹鬼。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "急切而愤怒，语速快"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 6,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢璎心急救人，也没听完乃妹的话，便即飞起首施法力，先把那船定住，再把落岸的人托上，人却没有现身。就这晃眼的工夫，那头条船已倒退好几十丈。二、三两船见此异变，吓得连忙扳舵退避，侥幸没被倒退下来的船撞上。这两船纤夫把纤板慌不迭地取下，总算见机得快，只随船溜退了二三十丈，便吃谢璎把船定住。船住以后，落岸的纤夫又似被人托了上来。未落岸的因都工于此道，这类事均有经历防备，百忙中各把纤板活扣拉脱，全都受了轻重伤，幸而均非致命。船人见忽转危为安，又有些异迹，俱当神佑，自去叩谢江神，纷纷猜疑。不提。谢璎见受伤人多，大都不轻，本心还想施救。回顾谢琳已往前面危崖凹中飞去，猛想起行时父亲之言，不禁心动，无暇再顾受伤诸人，赶紧过去一看，只见谢琳正处治一个小妖童，业已现出原身。妖童似知不敌，破口大骂：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转快，描述事态发展"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "飞起首施法力",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "法术破空",
+            "sound_cn": "谢璎施展法力时发出的轻微破空声与能量涌动声。",
+            "sound_en": "soft whoosh of magical energy being released, gentle hum of power displacing air as a spell is cast to stabilize the boat",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 7,
+      "role": "妖童",
+      "api": {
+        "voice": {
+          "text": "狗丫头无故上门欺人，是好的，随我见我娘去。",
+          "role": "妖童",
+          "role_voice": "妖童",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "凶恶嚣张，破口大骂"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 8,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳已用法宝将妖童罩住，闻言叱道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述平静，衔接台词"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 9,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "无知妖孽，竟敢为祸行旅。你那父母师长决非善类，正好一起除害。想借此放你，却是休想！你自在前引路，我仍用宝光押着你，寻往妖穴便了。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "严厉叱喝，充满正气"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 10,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢璎虽觉谢琳不应多事，但见这妖童形态丑怪，一身妖气，无故害人，所行之事又极阴毒可恶。除非适才见死不救，既救人便须救彻，留此妖邪，不知以后为害多少生灵。又见妖童虽在宝光笼罩之下，仍似有恃无恐，不住厉声辱骂，也实可气。暗忖：“自有护身神光，身形说隐即隐，百邪不侵，如有纠缠，给他一走，料也不致误事。但是爹爹既有预诫，仍以小心为是。自己且不露面，人在暗中总好一些。”便向谢琳传声示意。谢琳却甚托大，答说：“区区么么小丑，他那父母师长也必有限，除他容易，不必顾虑许多。”谢璎仍未将身现出，妖童竟似有了警觉，手指谢琳骂道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转为内心活动与对话的衔接"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 11,
+      "role": "妖童",
+      "api": {
+        "voice": {
+          "text": "狗丫头，我知你还有同党，无须鬼鬼祟祟，放光明些，有本事，只随我去。",
+          "role": "妖童",
+          "role_voice": "妖童",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "依然嚣张，试图挑衅"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 12,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "随说随试探着斜飞而上。谢琳立意扫尽妖邪，为川峡行旅除害，一面还骂，一面指定宝光，随同沿崖而上，往崖后飞去。谢璎忙追近前，传声悄问谢琳与妖童争斗经过。才知谢琳因风平浪静，而纤拉不动，心疑有异，先向四外查看，并无异状。也是合该有事。江船倒退时，二女遁光正停在那危崖的近侧江岸之上，纤夫们往后一倒，谢琳目光恰也扫向对崖，一眼瞥见危崖壁立千切，都是上下如削，沿江而西。惟独纤夫经行的对面，好似昔年曾崩塌过，空出半里长一大段，日受风日雨水侵蚀冲刷，成了一片大崖坡，由上斜行向下，直与水面相接。赤石童山，寸草不生，虽可上通崖顶，山石革确，势极险峻，上面也无人家。近水滨处却立着一个年约十五六岁的道童，生得豹头虎项，浓眉如帚，一双突出的鱼眼直泛凶光，嘻着一张阔口；鼻子大得出奇，只是横扁不高；前额、下巴与两腮齐向外凸，更显得脸往里凹；一双大耳，左边戴着一枚两寸大小的金环；手足粗短而大，穿着一身白麻布的短衣裤，赤着双足。通体肤黑如漆，相貌丑怪，神情甚是诡异。一手戟指下流的船，口中念念有词，看见船人惊惶号叫，对岸纤夫倒跌受伤，哭喊惨状，哈哈大笑，好似以此为乐。谢琳知是妖童闹鬼，不禁怒从心起，更不寻思，忙招呼谢璎速去救人，径直当先飞去。在有无相神光护身之下，身已隐去，妖童原不能见。只为谢琳疾恶心甚，去势忒急，未免略带破空之声。妖童虽是童装，年纪并不在小，又得过厉害妖人传授，邪法颇高。因是日前有土人侮慢了他，特意在此生事。先已暗用妖法，使那些拉纤的土人出了许多臭汗，意犹未足，末了竟施毒手，将船迫得顺流而下。看见船人纤夫狼狈滚跌之状，正在得意，忽觉疾风飒然，由斜空中迎头飞堕，便知来了敌人。仗着家传护身邪法，慌不迭忙纵遁光闪开来势，同时张口一喷，周身立在墨云笼罩之下。大头摇处，左耳金环忽化一圈红光飞起，戟指骂道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述细致，描绘妖童丑态与谢琳出手"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "哈哈",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "妖童狂笑",
+            "sound_cn": "妖童看到纤夫惨状时发出的得意狂笑。",
+            "sound_en": "loud, jeering laughter from the ugly boy, cruel and triumphant, echoing across the river as he watches the trackers' plight",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "疾风飒然",
+            "trigger_offset": -0.5,
+            "duration": 1,
+            "process_mode": "overlay",
+            "name": "破空疾风",
+            "sound_cn": "谢琳飞遁时带起的破空风声。",
+            "sound_en": "swift whoosh of air displaced by a fast-moving invisible flying spell, a sharp rustle as the Flying Fairy approaches unseen",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 13,
+      "role": "妖童",
+      "api": {
+        "voice": {
+          "text": "何方无知鼠辈，敢来暗算小祖师爷！有本领，现出原形，与小祖师爷见个高下，看你是什东西变的。鬼头鬼脑，掩藏则甚？",
+          "role": "妖童",
+          "role_voice": "妖童",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "凶悍狂妄，充满挑衅"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 14,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢氏姊妹素来行事光明，此行隐身，乃为省去途中遇敌耽延，原意也是将妖童擒到无人之处，问明来历，盘出罪状，再行处治，并非有意暗算。吃妖童一骂，再忍不住，立现身形。方要还口喝骂，不料妖童自负练就一双怪眼，差一点的隐身法决隐不住，竟看不出来人丝毫踪影，心中也是有些惊奇。素日机巧变诈，手下又毒又快，忙先行法护身，口中喝骂，暗打主意，准备敌人一现身，立下毒手，几面夹攻。人才照面，没等谢琳开口，早急不如快，双手齐扬，左手一蓬五色飞针，右手一道赤暗暗带有焰头的刀光，暴雨闪电一般发出。同时耳上金环所化光圈，也向谢琳当头罩下。妖童以为这三件法宝俱非寻常，来势又是极快，骤出不意；面对方赤手空拳，连道剑光都不曾有，好似轻敌太甚，隐身法初收，决无防备。心想任你多大神通，也难经我三宝齐施，哪知遇见对头克星。妖童原准备来人一现身，立即发动。及至瞥见来人是个美如天仙的少女，心方一动，三件法宝的光华已然到了敌人身上。正觉着收势不及，杀死可惜，猛见敌人一声清叱，也未见有什动作，飞针先到，首先消灭无踪，飞刀和金环也似被什东西挡住，不能再进。不禁大吃一惊。伎俩止此，敌人如此神通，别的邪法自更无效。知道情势危险，恐将这二宝又复失去，赶忙回收时，果然敌人一声叱罢，指上一道金碧光华飞出，先把金环一斩一绞，立成粉碎，洒了半崖星雨。飞刀虽幸勉强收回，人还未容破空飞起，少女扬手又是一道金光，当头罩下。那护身墨云竟似抵御不住，暂时虽未受伤，身已被人困住，逃遁不得。妖童急怒惊恨交加之下，把心一横，左右凶多吉少，索性破口大骂，欲用激将之计诱敌入巢。谢琳天性好胜，又觉得妖童小小年纪，敢于如此为恶横行，其师长可知，有意除恶务尽，正想押了同去。谢璎也已赶到，匆匆略说经过，仍用法宝押着妖童飞行。沿着巫峡崖顶连赶了四五座峰头，约飞行了二百余里，眼望前面危峰刺天，峭壁排云，山势益发险恶。谢璎见久未到，心早不耐，方欲就地拷问，杀了妖童，异日再寻他的巢穴和师长。忽听妖童连声厉啸，响振林谷。谢琳料想已到地头，因忿妖童恶口伤人，惟恐万一逃遁，忙把宝光止住，喝道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述战斗过程，节奏紧凑"
+        },
+        "effects": [
+          {
+            "trigger_delay": 6.0,
+            "trigger_keyword": "五色飞针",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "法宝破空",
+            "sound_cn": "妖童放出五色飞针与刀光时的尖啸破空声。",
+            "sound_en": "sharp whistle of magical needles and a rushing blade slicing through the air, a multi-colored flash and a dark red light streaking toward the target",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 11.0,
+            "trigger_keyword": "金环一斩",
+            "trigger_offset": 0,
+            "duration": 1.2,
+            "process_mode": "overlay",
+            "name": "金环粉碎",
+            "sound_cn": "金环被谢琳宝光斩碎时的清脆金属碎裂声。",
+            "sound_en": "crisp shattering sound of a gold ring being sliced and twisted by a powerful beam of light, metal fragments scattering with a tinkling noise",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 15,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "该死妖孽，你嗥什么？怎还不到你的妖窟？我们还有事，不耐烦了。现容你再叫三声，你那妖娘如不迎来，我便先取你的狗命！",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "愤怒急躁，语气严厉"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 16,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "妖童连受宝光侵削，身外墨云已去大半，早就不支。闻言知道不妙，心中还想巢穴就在前面，乃母如在洞中，必定出救，心虽胆怯，仍想延挨待救。故意厉声答道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述平静，为妖童的狡辩做铺垫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 17,
+      "role": "妖童",
+      "api": {
+        "voice": {
+          "text": "我娘便在前面乌树岭墨云峰洞中打坐。她名乌头婆，说出来，吓破你的狗胆。你如害怕，不敢前去，我便依你唤她三声。",
+          "role": "妖童",
+          "role_voice": "妖童",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "外强中干，企图以名头吓人"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 18,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳冷笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，引出谢琳的冷笑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 19,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "我先前因不知你巢穴，意欲一网打尽，故尔押你到此。现既知道地头，自会上门，何必你喊？",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "冷笑，语气轻蔑果断"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 20,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "妖童原以先前连唤未应，心疑乃母海外未回，虽有同门党羽，恐非敌人对手，本意欲借说话耽延，以便洞中同党乘机向乃母行法求救，只消挨上一会，以乃母的法力，多远都能赶回，不料弄巧反拙。闻言知无幸免，可是仍不肯说软话，意欲再以话激。口方喝得一声“狗丫头”，底下话未出口，谢琳自经佛法重炼的碧蜈钩已化一道金碧光华，龙飞电掣而出，围向妖童身上。二宝同施，妖童护身妖云将散，怎禁得住吃两道宝光齐施威力，接连绞了两三绞，当即了帐，化为一滩紫血，狼藉地上。妖童一死，那飞刀倏地乘隙往前飞去。谢琳先未防到，不及阻止，知道飞刀所去之处，必是妖窟，还待赶往除害。谢璎拦道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述妖童伏诛，节奏快"
+        },
+        "effects": [
+          {
+            "trigger_delay": 8.0,
+            "trigger_keyword": "碧蜈钩",
+            "trigger_offset": 0,
+            "duration": 1.8,
+            "process_mode": "overlay",
+            "name": "宝光绞杀",
+            "sound_cn": "谢琳祭出碧蜈钩，宝光绞杀妖童，发出激烈的切割声。",
+            "sound_en": "swift whoosh of a golden-green magical hook, slicing through the air with a sharp hiss, followed by a wet, squelching sound as it destroys the demon child",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 21,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "妹子，你忘记爹爹的话吗？照这沿途耽延，赶到川边也正是时候了，我们还要拜望芬陀师伯呢。日后得便再来，仍旧隐身走吧。",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温和劝阻，提醒父亲嘱托"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 22,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳本和乃姊一样天真和善，一时激怒疾恶，动了杀机。妖童一死，心气便和，又想起乃父之言，毕竟叶姑事关重大，一面应诺，便同起身。刚纵有无相神光飞起，猛觉眼前墨绿光华一闪即灭，知有妖人暗放冷箭。仗有神光护体，不曾受伤，身形已隐，故未再来。怒火重被勾动，又想往妖童所说的妖窟寻去。谢璎拦道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述过渡，表现谢琳心绪变化"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 23,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "这妖孽看她孽子被人杀死，只放冷箭，不敢出头，就上门去，能寻到吗？我们地理不熟，只听地名就在前面，但刀光越峰而过，未见落处。山峰林立，知道何处方是妖窟？就便寻到，妖人也早逃走。除非她记仇迎敌，自不甘休。看情势，妖人业已知道我们难惹，不敢明对，暗算无功，立即逃遁。去了白费心力，耽延时刻，所为何来？老妖名叫乌头婆，少时向叶姑一问，自知底细，除她容易，何必忙在一时？",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "理性分析，沉稳劝解"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 24,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳也觉此言有理，大声喝道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，引出谢琳的喝声"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 25,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "该死妖妇，暂时容你偷生。以后如不痛改前非，我们事完回来，你那儿子就是你的榜样！",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "高声叱喝，充满警告与愤怒"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 26,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "说罢，也无回应，二女便同催遁光往川边飞去。因在巫峡留连，又与妖童斗法，押同往寻妖窟，虽然为时不久，路却不是先前去向。前后算来，也有一个多时辰耽延。谢璎心料妖妇决不如此易于甘休，更恐途中再遇上别的枝节，父亲话已有些应验，估量决不止此，觉着早到倚天崖才妥。于是只催遁光，由高空中向前急驶，不再往下观看景物。行到午正时分，前面雪山矗立，翠嶂云横，倚天崖已然在望。心方一喜，忽听身后来路遥空密云层中，隐隐传来一种极尖锐悲愤的怪声，叫道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转急，氛围渐趋紧张"
+        },
+        "effects": [
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "尖锐悲愤",
+            "trigger_offset": -1.0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "乌头婆悲愤怪声",
+            "sound_cn": "远处传来乌头婆尖锐、悲愤的怪声，凄厉刺耳。",
+            "sound_en": "piercing, mournful howl from the far distance, cutting through the clouds, a sharp and sorrowful cry filled with rage and grief, echoing in the sky",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 27,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "何方贱婢，敢乘我老婆子不在山中，将我两生爱子杀死？快快回头与老身说个明白，要是我儿不好，只要理对，老身还可容你们活命；要是你们无故欺人，莫怪老身心狠。我知现今峨眉、青城两派，收了许多无知小狗男女，惯在外面无故欺人。休看你们师传隐身法神妙，人看不见，如与老身为仇，并无用处，上天下地，一样能取你们的狗命。再不回头与我理论，我一下手，就后悔无极了。",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "以旁白方式呈现乌头婆的远程传音，语调模仿其凄厉悲愤"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.5,
+            "trigger_keyword": "怪声",
+            "trigger_offset": 0,
+            "duration": 3,
+            "process_mode": "overlay",
+            "name": "怪声回响",
+            "sound_cn": "乌头婆的怪声在云层中回荡，带来压迫感。",
+            "sound_en": "the eerie howl reverberates through the clouds, sharp and sorrowful, a ghostly wail that seems to come from everywhere, creating a sense of dread and pursuit",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 28,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女遁光何等神速，急切间妖妇虽还不曾追上，但那怪声既是若远若近，听去又极凄厉酸楚，刺耳难耐。依了谢琳，便要停身相待，吃谢璎一把拉住。谢琳刚喊得一声：“姊姊！”声才出口，又听妖妇哭喊：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述紧凑，表现危机感"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 29,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "仇人，你回来呀！",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "模仿妖妇的哭喊声，凄厉酸楚"
+        },
+        "effects": [
+          {
+            "trigger_delay": 0.0,
+            "trigger_keyword": "仇人",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "哭喊声",
+            "sound_cn": "乌头婆凄厉的哭喊声，直接传入耳中。",
+            "sound_en": "a heart-wrenching, mournful cry, 'Enemy, come back!', filled with grief and rage, echoing sharply in the air",
+            "volume": "-14%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 30,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳底下话未出口，吃妖妇远远一喊，猛觉心神皆颤，似欲飞越。身在有无相神光护身之下，尚且如此，不禁大惊。幸是近来修炼佛法，功力精进，迥异往昔，一觉有异，忙运禅功把心神定住，方得无事。先前骤出不意，没料妖妇邪法如此神通，人一出声，立有感应。毕竟佛法真传，与众不同，一加戒备，便即无事。谢璎虽未出声，也已有些惊觉，情知是个强敌。暗忖：“无论多厉害的妖人，一到芬陀师伯那里便可无事，好在龙象庵就在眼前。只是妹子今日心性较暴，不似往日，恐有疏失。”忙用手揽住谢琳，加急同飞。哪知乌头婆乃邪教中有名人物，炼就独门邪法，专一摄人生魂，对方只要出声，生魂立被摄去。便是道力较高的人，如若事出不意，也都难免。不过妖妇虽然凶恶，除非人先犯她，或是爱子受了人欺，无故决不伤人。自己也知所习不正，乃子又喜在外为恶生事，平生钟爱只此一子，舐犊情深，视若性命。乃子偏不争气，百年前已因为恶大多，被仇家杀死，几于形神皆灭。乌头婆费了许多心力，将他元神炼好，重又转世，收回山去。因知乃子江山易改，本性难移，最喜在外惹祸，习法却不用功，浅尝辄止，现当正邪各派群仙四九重劫之期，如稍放纵，不特爱子自取灭亡，多半还要累及自己。盘算之下，特意带同爱子门人隐居在巫峡群峰最隐秘荒寒的无名乱山之中，闭洞隐修，不问外事，准备躲那四九大劫，平日直不许孽子离开她一步。孽子因当地僻陋荒凉，山又童秃，终年愁云惨雾笼罩，仅有正午前后略见晴明，而且险阻幽深，风景全无，自然不耐岑寂。每欲出外，总是乌头婆跟着，以防在外树敌结怨，居然隐避了将近百年，因她管束得严，并未生事。可是年月一久，未免疏懈下来。乃子又再三向母求说，想起前生受祸之惨，心胆已寒，就娘不在，也决不敢胡为。乌头婆虽然半信半疑，但疼子的心盛，知乃子天性好动，山中荒凉，委实无可游玩，口虽不曾明允，暗中却渐放任，只不准离开巫峡山境之外。孽子日常无事，每去江边闲游。也是夙孽太重，运数当终。前日偶往附近村集闲游，忽思饮食。土人见他相貌丑陋，出口不逊，已极厌恶。又见道童穿着，当是山中寺观逃出来的道童，身边未必有钱，便要他先钱后酒，于是争吵起来。孽子正待行法白吃，还要作些恶剧，恰值乃母寻来，将他带回，一口恶气不出，才有当日之事。事更凑巧，乃母因算计四九重劫越来越近，连日心神忽动，若有警兆。这等景象从来罕有，心中疑虑，欲往海外寻一多年未见的同党商议。偏那同党也是一个左道散仙，宫中美女甚多，惟恐乃子生心贻笑；没有带去。行时，也曾叮嘱：自己未回以前，不许离山一步。孽子本已应允，那天乃母去后，忽想起日前土民欺侮之恨，欲往报复。赶到一看，因非集期，只是一片空地。一时气无可出，见那些纤夫俱是当日指说嘲笑自己的土民，立生恶念捉弄，不想引出杀身之祸。后被谢琳制住之时，一看日影，乃母应早归山，心中还在打点复仇之念。做梦也没料到，乃母一生言行必践，所约时限永无差错，这日竟会在归途被一久别重逢的同类至好强行约往山中，小聚了半日。孽子死后，乌头婆在外忽觉有了警兆，跟着接到妖徒的警报，忙即赶回。当时悲愤已极，匆匆略问仇人情景、去路，便起身急追，同时施那七煞形音摄魂大法。二女幸仗神光护体，本身道力又高，没有吃亏。乌头婆见魂未摄到，大是惊异。痛子情殷，决计拼命，仍旧加急前进。快追上时，这里二女也快飞到倚天崖上，耳听身后怪声越来越近，觉着被妖人追往庵中，不大好看，心正盘算应敌与否。忽听霹雳一声，由头上越过，忙回头一看，一道金光，光中现出一只亩许大的金手，挟着千重雷火金星，其疾如电，正往身后怪声来路飞去。同时又听一声厉啸，发自遥空，这次却是由近而远，晃眼间只剩一缕余音摇曳天边。那大手和金光雷火，连同妖人怪声，全都消灭，无闻无见。二女也已飞抵庵前，刚按遁光落下，现出原身，忽见庵中走出一个老佛婆来，说道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转为背景介绍，交代乌头婆来历与追凶过程"
+        },
+        "effects": [
+          {
+            "trigger_delay": 45.0,
+            "trigger_keyword": "霹雳一声",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "霹雳雷火",
+            "sound_cn": "一声惊雷，金光大手挟雷火飞过，气势磅礴。",
+            "sound_en": "a sudden loud clap of thunder, followed by the whoosh of a giant golden hand surrounded by crackling lightning and fiery sparks, charging swiftly through the sky",
+            "volume": "-12%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 31,
+      "role": "老佛婆",
+      "api": {
+        "voice": {
+          "text": "芬陀大师师徒现往南海，令我在此延款二位道友。行时留有柬帖一封，请至里面再看吧。",
+          "role": "老佛婆",
+          "role_voice": "老佛婆",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "和蔼慈祥，语调平稳"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 32,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女见这老佛婆道气盎然，相貌祥和，料知是位前辈高人，忙即敬礼，请问法号。老佛婆道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述恭敬，引出对话"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 33,
+      "role": "老佛婆",
+      "api": {
+        "voice": {
+          "text": "我姓丘，素无法名。近在这里代主人看守庙宇。适才惊走乌头婆的，乃是大师化身妙用，与我无干。",
+          "role": "老佛婆",
+          "role_voice": "老佛婆",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "和蔼中带着谦逊"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 34,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "随说，随引二女去到禅堂坐定，袖中取出柬帖。大意是说：二女前途远大，功德无量，可喜可贺。丘道友是我昔年至交，但她屡世苦行，今生尚有一难，方得正果。到时，务望相助，玉成其事。另外附有一个小简，上记开视日期，令到时再看。二女一算，还有不少日月，便由谢琳收起。老佛婆道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述平静，展开情节"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 35,
+      "role": "老佛婆",
+      "api": {
+        "voice": {
+          "text": "道友理会得吗？",
+          "role": "老佛婆",
+          "role_voice": "老佛婆",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "和蔼，带着一丝考较的意味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 36,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女同声答道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，引出二女同答"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 37,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "师伯之命，焉有不遵？只是后辈道浅力薄，不知能否胜任，老前辈何妨先为指示机宜呢？",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "恭敬有礼，略带谦逊"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 38,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "老佛婆道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，引出老佛婆的回答"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 39,
+      "role": "老佛婆",
+      "api": {
+        "voice": {
+          "text": "如论此时，二位道友自难为谋。可是将来，二位道友只一举手便可为我解厄，绝非今日之比了。事情还早，说之徒乱人意。可惜一粒灵珠被它飞去，否则老婆子得益更多呢。",
+          "role": "老佛婆",
+          "role_voice": "老佛婆",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "神秘而安详，点到为止"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 40,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女知她不肯深说，便改谈别的。谁知这老佛婆竟是法理精微，妙谛如珠，只身世来历不肯明言，二女好生敬佩。又把乌头婆的来历深浅谈了一阵，说二女夙根深厚，回山不久便有旷世佛缘遇合，以后更无足虑，不必在心。谈了一阵，二女见时将到，便起身辞别。老佛婆并不留客，送到庵外，便自作别回身。二女立往双杉坪飞去，到的时刻原早算准，二三十里之遥晃眼飞到。见当地乃是一片危崖，崖顶有一小峰，峰前一片平地，崖顶地势十分平坦。因当时雪山边界气候高寒，山风劲疾，草木稀少，疏落落生着一些杂树，都不高大，形态也均敬斜瘦硬，偏向一方的多。惟独孤峰前面一左一右，生着两株大杉树。峰在崖顶当中，高仅十多丈，孤零零矗立其间，玲珑奇秀，势绝生动，石色也与崖石迥不相同，直似何方移来的小山，不是原有。那两株大杉尤为奇特，其高约在二三十丈，大约十围，亭亭勃勃，直上十余丈才生枝叶，虬枝纷披，形如翔凤。全崖草木黄落，生机将瘁，独这双杉铁干撑空，荫被十亩，枝叶葱茏，翠色欲流，直似两幢极大华盖张在小峰前面。最难得的是这两株大小如一，雄奇伟秀，汇为奇观。二女虽然久居仙山，似此灵杉古木，也所罕见，互相赞赏了几句。再走向峰前一看，这峰远看虽是洞窍玲珑，通体却是一块整石，最深的洞穴不过丈许，均不甚大。知道叶姑就在里面，只是无门可入。二女心想：“武夷行时，虽未说到如何入门，爹爹曾有叩关之言。细观全峰上下，到处层峦叠蟑，奇石若飞，惟独近峰顶处有丈许大一块圆形石壁，玉色匀细，又圆又阔，映日回光，闪闪生辉。前面山原林木，影照其中，宛如一轮明月悬在上面。估量这圆石许是洞门，经叶姑行法封闭。”正在商议飞往石上叩关求见，忽听一女子声音笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转入新场景，描绘双杉坪奇景"
+        },
+        "effects": [
+          {
+            "trigger_delay": 15.0,
+            "trigger_keyword": "双杉",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "山风杉响",
+            "sound_cn": "山风劲吹，吹动双杉枝叶，发出沙沙声响。",
+            "sound_en": "strong mountain wind rustling through the huge fir trees, their branches creaking and leaves whispering with a soft, sweeping sound, as ancient and majestic trees stand tall",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 41,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "璎、琳二女来得真巧。你二人速退双杉前面，待我放你姊妹进来。",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "模仿叶缤的口吻，带着笑意与慈爱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 42,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女一听声由圆石发出，正是叶缤的口音，久别依恋，不禁动了天真，喜得拍手争唤叶姑，一面飞退双杉前面。身刚立定，忽听地底殷殷雷鸣，好似地轴正转，小峰也在往前移动。晃眼声止，便听叶缤唤道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述欢快，表现二女欣喜"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "雷鸣",
+            "trigger_offset": 0,
+            "duration": 2.5,
+            "process_mode": "overlay",
+            "name": "地轴雷鸣",
+            "sound_cn": "地底传来低沉的雷鸣声，山峰移动，洞门开启。",
+            "sound_en": "low rumbling sound like thunder from deep underground, as the earth turns and the small peak moves, a heavy grinding of stone against stone",
+            "volume": "-16%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 43,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "峰移洞现，你姊妹快进来吧。",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "模仿叶缤的声音，温和中带着指引"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 44,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "这次话声却由地底传来，听去甚深。二女边答边往前赶，这座小峰倒退了十多丈，正当峰底现出一个洞穴，方圆约有丈许，看去深约千丈。近口七八丈，悬着一团碗大银光，照得洞中明如白日。知是叶姑用来接引自己的宝光，忙把有无相神光一变，现身往下飞降。才落十丈，地轴又鸣，一片殷雷响过，再看上面，小峰已复原位，压向洞口。那团银光也似飞星下坠，赶向脚底。二女便随银光飞落，转瞬快要到底，银光忽往横里飞去，同时看到壁间现出一个圆门。二女以为里面地方必大，忙赶进去一看，洞并不大，迎面是间大只方丈的石室，当中一个矮圆石墩，空无余物。方一迟疑，忽又听叶缤在石壁中笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述进入石室过程，充满神秘感"
+        },
+        "effects": [
+          {
+            "trigger_delay": 3.0,
+            "trigger_keyword": "银光",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "银光引路",
+            "sound_cn": "一团碗大银光如飞星下坠，带着轻微的风声，引二女入洞。",
+            "sound_en": "soft hum of a large silver orb of light descending like a shooting star, gently lighting the path ahead, its glow warm and guiding",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 45,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "今日大功告成，你姊妹便寻了来。只顾欣喜，竟忘将内层门户开放。我也如此粗心，岂非笑话？",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "模仿叶缤的笑语，带着些许自嘲与宠溺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 46,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "话还未毕，一片奇光闪过，正面石壁忽隐，全洞大放光明，叶缤已在面前出现。二女忙抢过去，谢琳首先拉着叶缤的手，喜跳道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述转为欢快，展现重逢之喜"
+        },
+        "effects": [
+          {
+            "trigger_delay": 1.0,
+            "trigger_keyword": "奇光闪过",
+            "trigger_offset": 0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "奇光闪烁",
+            "sound_cn": "一片奇光闪过，石壁消隐，洞内大放光明。",
+            "sound_en": "a flash of wondrous light, shimmering and bright, as the stone wall fades away, revealing a brightly lit chamber",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 47,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "叶姑，几时炼此妙法？快教我吧。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "天真活泼，充满好奇与欣喜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 48,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "这些下乘法术，有什希罕？你要学时，闲来我再传你，忙它作计？你二人怎会寻到此地？",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语气淡然，带着对二女的疼爱，随口一问"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 49,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "叶姑神通广大，还算不出吗？",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "俏皮反问，带着撒娇意味"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 50,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "说罢，又道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，衔接谢琳下句话"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 51,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "啊！今天不许叶姑算，你猜，我们怎会寻来的？估中便罢，估不中时，须把移山之法传我。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "天真活泼，提出打赌"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 52,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "这还有估不到的？这一打赌，只怕你法术却学不成了。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "带着笑意，语气宠溺"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 53,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女同笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，引出二女同笑回答"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 54,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "却不许你按神光占算呢。",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温柔笑着，提出要求"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 55,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "我最爱你姊妹天真，须和常人一般说笑，才有意思，占算出来就无趣了。我还有部书未收拾，事完再长谈吧。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "温和，带着长者的慈爱与随意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 56,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳早已瞥见，发现这间石室甚是广大，中设法坛，坛上立着一座金光灿烂的宝幢，坛前有一矮石案，案上陈着一本道书，旁有一堆金沙，案前一个石墩。闻言，故作不知，含笑将头连摇道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，刻画谢琳故作不知的神态"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 57,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "叶姑，不收书有什要紧？莫非还不许我们看吗？你不知我姊妹这几个月来多么想你，出门有多难呢。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "撒娇，语气娇憨，意图转移话题"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 58,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "此书以前乃神泥封合，被我化成散沙，方得取出。现须还原，并非易事，我已忙了些日。久别思念，先谈一会也好。我习此书，关系非小，你们却是习它不得。莫非你们此来，还不知底细吗？",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语气转为认真，略带探究"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 59,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "说时，叶缤因无坐处，便拉二女同去石墩上落座，笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，动作描写"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 60,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "那么，我先猜吧。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "带着笑意，准备猜谜"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 61,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女见叶缤一昧欣喜，毫未生疑，越发高兴，故意互相争唤叶姑，各要传授一点有趣味的法术。叶缤笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，展现二女计谋得逞的喜悦"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 62,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "没见你姊妹都不小了，仍是当年童心稚气，习法只为好玩。你们可是由小寒山来？",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "带着宠溺的调侃"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 63,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女拍手笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 64,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "这头一估，就估错了。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "俏皮得意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 65,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "我答还未完呢。那么，你姊妹必是武夷省亲，听你父亲说的了？",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "依然带着笑意，继续猜测"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 66,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢璎闻言，微笑未答。谢琳却拉着叶缤的手，笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 67,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "全估不对。我们倒是往武夷看望了爹爹，爹爹只说叶姑想念我们，前日还曾通灵，别的并未怎提说。我们现由龙象庵来，叶姑想不到吧？",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语速快，带着一丝掩饰的兴奋"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 68,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "叶缤也是爱怜二女太甚，又当大功告成之际，心中高兴，全未想到别的。事情偏极凑巧，谢琳灵慧异常，这次巫峡途中与妖人结仇，事本无心，后往龙象庵听人说起乌头婆的厉害，便留了心。及听叶缤一问，猛想起此事现成资料，如加上去，岂不比爹爹所教还圆得多？故意忿忿答道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，交代谢琳的机心"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 69,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "我二人是让一个名叫乌头婆的妖妇，追到那里去的。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "故作气愤"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 70,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "那老妖妇邪法厉害，最为狠毒。不过她已匿迹多年，久已无人见到；并且她虽妖邪，向不无故寻事。你二人怎会与她为敌？",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语气转为严肃，带着关切与疑惑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 71,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢璎正要开口，谢琳抢口说道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 72,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "姊姊莫插话，由我一人来说。我姊妹不能白受人家欺负。师父所传佛法，只是防身御魔，遇见厉害一点的妖人，便难除他。说完，我还要求叶姑传授仙法，破妖妇的形音摄魂邪法，报仇除害呢。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语速快，带着激愤与请求"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 73,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "说罢，随即添枝加叶，假说：“久不见爹爹和叶姑，日夕思念，昨日苦求师父允准，去往武夷。本心省亲之后，问明叶姑行踪，再往问候。哪知爹爹见面不久，便说有事他去。命即回山，日内当同叶姑往小寒山相见。我和姊姊问叶姑师徒何往。爹爹说叶姑近有要事，独自一人在此炼法，连门人都未带一个。此时正在闭关，谁也不见，你二人便去也见不到，还是回山等候我们来吧。今早分手，觉着好容易出一次门，师父惟恐有人欺侮，还传我们有无相神光护身，本心想和爹爹、叶姑聚上十天半月，一同回去，不料如此，岂不冤枉？特意绕着路走，想就便看看山水景致。身为神光所隐，外人原看不出，也没想到多事。哪知行经巫峡，见一妖童用邪法无故残害苦人，是我不忿，将他追往深山之中杀死。这厮死前，说他娘是乌头婆，还叫了两声，也未见人来救。除去之后，正往回走，老妖妇忽然追来，先用形音摄魂邪法，如非神光护身，差点没吃她亏。姊姊看出是个劲敌，下山时师父又曾叮嘱，不许与人交手。先杀妖童，已然忘诫，又听妖妇一喊，心神便乱。更恐毒手摩什发觉寻仇，众寡不敌，本意飞回小寒山去。谁知妖妇厉害，三面俱有怪声呼应，恐有疏失。双杉坪只听说在雪山附近，不知何处。倚天崖却知不远，心料芬陀师伯必能相助，正好是这一方，便往倚天崖龙象庵飞去。妖妇飞行竟比我们还快，我们才到庵前，她已追近。方觉被人追上门去，不是意思，待要回身一拼，忽由庵中飞出一只大金手，将妖妇赶走。随走出一位姓丘的老佛婆，将我们接进庵去。才知芬陀师伯已然他出，早算就妖妇追来，用化身将她逐走。随给我们一封柬帖。丘老前辈谈起妖妇的厉害，以后不免相遇，吃她的亏，只有叶姑能有法力制她。又问出了地点，因而寻来。叶姑怎估得到呢？叶姑自然不愿妖妇欺负我们，传法破她那不消说。现又打赌输了，请连那移山之法一齐传授了吧。改日寻到妖窟，一出手便先把她巢穴行法移去，再与交手，有多快心呢。”",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，转述谢琳的一段长篇假话，语速稍快，模仿其机巧"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 74,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "叶缤以为忍大师欲令二女承她衣钵，自己炼法断无不知之理，万不会令二女来向自己学步，闻言果然深信。略微沉吟，答道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，叶缤被成功欺骗"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 75,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "那妖妇既与你们结下杀子之仇，委实是你二人隐患。此人神通变化，邪法高强，便我亲去除她，也是难极。尚幸机缘凑巧，我近炼此书，乃东晋神僧绝尊者《灭魔宝箓》，内中恰有制她之法。不过习了此书，虽具无上降魔威力，但亦利害相兼。尤其是习后不慎，妄肆威力，不特多造孽因，于本身修为上害处更大，必须慎重。妖妇和轩辕师徒、蚩尤坟中三怪，都是来去如电，声到人到。你二人不久便要下山，虽有佛法护身，一则皈依佛门未久，遇上寻常妖邪自然不在话下，似这类强敌，却是难料；二则你二人经历甚浅，无什机心，妖妇捷如响应，仇恨又深，说来就来，随时随地都可侵害。你们毕竟不能终年均在神光护身之下，一个不曾防备，变出非常，吃她骤然暗算，便难抵御。固然你们累世修为，福缘深厚，不致遭她毒手，但吃亏却所不免。这部《灭魔宝箓》，你二人完全习去，无益有害；并且你们将来成就远大，到时自具佛家上乘法力，也无须乎此，本来万不能传。我想你二人此时功候未到，妖妇毒害不可不防，只把破她的法习去，以为目前防身之计，也还无碍。只是你二人俱是天资灵慧，此书注释详明，一见即可通晓。只要当时记下，日后自能练习应用。传授不难，但只许习此一法，不许窥读别章，若是那样，便不传授。不要贪多好奇，少时学完，又来缠磨要学别的。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语重心长，既有告诫又有疼爱"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 76,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "二女闻言，知已上套，好生欢喜，同声应诺不迭。叶缤随将桌上那本宝箓检出一章，令二女同阅，并加讲解。二女见这宝箓长约一尺三寸，宽只三四寸，非纸非绢，色作金黄，异香芬馥，不知何质所制。上面满是篆引符箓，并且另有注释和偈咒用法，果然详明，一见即可通晓。于是故意装作者实听话的情景，不去翻动，静听讲解。眼看一章习完，叶缤待要将书合上，重新叙谈，忽见洞顶白光连闪。叶缤笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，计划顺利进行"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 77,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "你父亲不知有何要事与我通灵，时间也不知久暂。现用法力将此书禁制，你二人不许淘气，设法偷看。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "带着笑意，半是叮嘱半是玩笑"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 78,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "叶姑既不放心我们，请收起来吧。放在桌上，我们是要偷了逃走的啊。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "故作顽皮，实则掩盖心虚"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 79,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "叶缤急于和谢山问答，微笑了笑，也未答话，将手一指，案上那堆金砂立化成一幢金花宝焰，将书笼罩。跟着双目垂帘，便在座上入定。二女知道是其父暗助她们，并且调虎离山之计已成，方在欣幸，不料叶姑有此一着，见那金花宝焰强烈异常，宝箓就在其内，连施法力，不能移动分毫。心知时机瞬息，少纵即逝，正干看着发急。谢璎比较沉稳，见伎俩已穷，只师传有无相神光不曾施为。传时师父曾说，此法不特护身神妙，并能制压敌人法宝，何不姑且一试？佛家妙法果然不可思议，那桌上金光宝焰吃那有无相神光一压，立即光华锐减。谢琳见状大喜，知道宝焰乃神泥所化，佛光既可克制此宝，自可随意取携。适才匆忙，只见宝焰威力甚强，没想到运用神光，几乎误事。当下更不怠慢，忙在神光护身之下，一伸手便把书取到手内，纵向一旁，从头往下默记。谢璎见神光生效，本想伸手去取，一见妹子捷足先登，想起父亲来时语气，以及妹子近日言动与前稍异，知是定数，只得罢了。那宝箓共是正反各五十三章，谢琳已是神仙中人，本书既易通晓，先前叶缤又曾指教，早得玄珠，一通百通。谢琳阅看迅速，不消片刻，便即默记胸中。见叶缤仍在定中，忙把书仍放原处，并朝谢璎打手势，告以已全记住，书已还原，叶姑许可瞒过，少时说是不说？谢璎见她喜形于色，笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述紧张而关键的一幕，偷书过程"
+        },
+        "effects": [
+          {
+            "trigger_delay": 5.0,
+            "trigger_keyword": "金花宝焰",
+            "trigger_offset": 0,
+            "duration": 2,
+            "process_mode": "overlay",
+            "name": "金花宝焰",
+            "sound_cn": "金砂化成金花宝焰，发出嗡鸣声，笼罩宝箓。",
+            "sound_en": "soft crackling and humming of golden sand transforming into a brilliant flame, a protective barrier of light and energy surrounding the book",
+            "volume": "-18%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 12.0,
+            "trigger_keyword": "有无相神光",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "神光压制",
+            "sound_cn": "有无相神光压制宝焰，发出轻微的消融声。",
+            "sound_en": "soft sizzling sound as the invisible divine light presses down on the golden flame, reducing its intensity with a gentle, subduing energy",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    },
+    {
+      "id": 80,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "你今日怎这粗心？叶姑怜爱我们太过，只是一时疏忽，她是能瞒的人吗？你看神尼宝焰虽仍放光，经过有无相神光一照，已无先前强烈，分明是破绽。乖乖认错吧。",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "笑着指出漏洞，语气温和却带着了然"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 81,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳含笑点头，方去叶缤身侧跪下。叶缤已经醒转，似已觉察，面有愠色，也不答理谢琳，只向谢璎道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，气氛转为微妙"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 82,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "我起初只当你二人孪生姊妹，平日言行心性无不如一。今日看来，还是你好得多。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语气带着一丝不悦，但仍有爱意"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 83,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢璎也忙跪下道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 84,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "此事休怪琳妹一人，叶姑此时料已得知详情。这也是爹爹惟恐叶姑故交情重，来日多事，无人驱策，朱鸾、朱红二位师妹又难胜任，特意商准师父，设下此计。知叶姑疼爱我们，算准时刻，乘虚盗习宝箓。原定我姊妹不论何人先到手，便算她的，只着一人学习。璎儿也未始不想学习，只被琳妹抢先，慢了一步。叶姑不要生气，都是璎、琳不好，没先禀告，请叶姑降责吧。",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "诚恳认错，语气温婉，条理清晰"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 85,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳因从小便受叶缤爱怜，从未受过一句重话，叶缤这等词色，生平从未受过，不禁动了童心，眼圈一红，几乎要哭。叶缤见她玉颊红生，泪珠莹然，星波欲流，先前嗔怪半属装乔，见状不禁生怜。忙用双手将二女一同拉起，揽向身旁坐下，笑道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，描绘谢琳委屈与叶缤心软"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 86,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "痴儿，我岂不知此是你师父和你姊妹对我的好意？可是你们知道习法的弊害吗？我是为了前生与黄道友同门患难至交，并有好些渊源因果，不得不完此愿力。你们却是何苦？尚幸习法只琳儿一人，适与你父通灵，他算计琳儿已将此书默记，对我明言。并说天蒙老禅师已示先机，你二人不久还有奇遇，虽习宝箓，决可无害，我才放心。就这样，琳儿异日正经修为，仍不免于延误。璎儿自然也被连带，延迟正果。可笑你师父虽修佛家上乘大法，玄功超妙，情关依然不能全尽。对你二人破关相见，不必说了。即以此次而论，她先前连你们降魔行道均所不愿，恨不能和她一样清净无为，专以慈悲愿力度世，才对心思。这次为了助我，却许你们学此下乘降魔之法，不也是为情之一字所摇动的吗？固然佛家重在因果，随缘自如，无损于明，可是她那强欲你们学她的念头，经此一来，想必不致坚持的了。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "转为语重心长，既有感慨又有剖析"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 87,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢琳吃叶缤一抚慰，早已破啼为笑，只是玉颊仍泛红潮，娇羞未退。闻言乘机笑答道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述，谢琳情绪好转"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 88,
+      "role": "谢琳",
+      "api": {
+        "voice": {
+          "text": "爹爹和叶姑至今还不知师父用意，我看师父本来就无成见，有什坚持之处？她平日那等口气，好似另有深意在内，如真令我姊妹学她的样，这有无相神光也不会就传授了。还有，我们和师父同在一处参禅学道，我们的功课与师父所习，好多不同之处。并且拜师不久，师父还曾说过，她那禅功最难，以前初坐关时，不知受了多少魔扰和诸般苦难。相由心生，心即是魔。休看禁制严密，外魔易御，内魔难消，一样受它侵害。并说：‘你二人夙根缘福深厚，取法乎上，固是佳事；但与性情不合，不如先固根本，循序渐进。因为一是先难后易，一是先易后难，却是功力与日俱深，无什弊害。好在殊途同归，姑先往容易路上走吧。事尚未定，能够学我更好，且等二三年后，看修为如何再定，先不要说。’我二人谨遵师命，见了爹爹、叶姑，不知怎的，从未想到禀告，这时才得想起。照此情形，定不会固执什成见了。",
+          "role": "谢琳",
+          "role_voice": "谢琳",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语速恢复正常，带着对师父用意的揣测"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 89,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "你师父对我真个故人情重呢。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "感慨，声音低缓"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 90,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "谢璎接口问道：",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 91,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "叶姑和师父几生至交，不必说了。今日忽说此言，内中当有文章。还有叶姑这次习练宝箓，为的是一位姓黄的老前辈，他与叶姑到底是何渊源因果呢？",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "恭敬提问，带着好奇"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 92,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "详情此时不便明言，时至自知。只是琳儿已将宝箓盗习，事已如此，我索性再指点她一番，使她更易习练。此事于正经修为上实有弊害，璎儿以后却须谨记我诫，万万习它不得。这样，你二人长短互补，彼此均有大益。如你也同学会，不特将来你不能助她，反而同受连累，那就更为不值了。",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语气转为严肃谨慎，谆谆告诫"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 93,
+      "role": "谢璎",
+      "api": {
+        "voice": {
+          "text": "叶姑如此叮嘱，爹爹也曾说过，怎敢违背？",
+          "role": "谢璎",
+          "role_voice": "谢璎",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "恭敬回答，表示谨记"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 94,
+      "role": "叶缤",
+      "api": {
+        "voice": {
+          "text": "你爹不是不知，只因事关重大，不得不如此。连你师父也是如此。不然的话，那西方八功德池中神泥何等威力，你们怎伸得进手去？也是定数。我为行事谨慎，明知这里邪魔不敢来犯，依然戒备甚严，除绝尊者原设禁制外，又在峰顶悬起一面宝镜。此宝功能传声照远，方圆数十里内人物动静，我在地底均可一望而知。你们初来时，因有神光隐形，我并未见。嗣在峰前突现身形，方使得知。久别欢叙，竟没想到你们神光已然练成，更忘了神泥受它克制。你父要我通灵，心虽微动，恐你姊妹好奇淘气，以为神泥宝焰威力胜于雷火，又无多时耽延。哪知稍微疏忽，错便铸成。我爱你姊妹，反使你们为我迟延正果，心如何安呢？",
+          "role": "叶缤",
+          "role_voice": "叶缤",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "语气转为自责与感慨"
+        },
+        "effects": []
+      },
+      "mix": {
+        "mode": "voice_on_bgm"
+      }
+    },
+    {
+      "id": 95,
+      "role": "旁白",
+      "api": {
+        "voice": {
+          "text": "说罢，便令谢璎立向一旁。手指处，先收了桌上金花宝焰。跟着面前飞起一片金霞，谢璎便被隔断，再也听不见叶缤、谢琳说话声音了。",
+          "role": "旁白",
+          "role_voice": "旁白",
+          "speed": "",
+          "volume": "",
+          "pitch": "",
+          "instruct": "叙述收尾，留下余韵"
+        },
+        "effects": [
+          {
+            "trigger_delay": 2.0,
+            "trigger_keyword": "金花宝焰",
+            "trigger_offset": 0,
+            "duration": 1.5,
+            "process_mode": "overlay",
+            "name": "宝焰收束",
+            "sound_cn": "金花宝焰被收回，发出轻微的消散声。",
+            "sound_en": "soft fading sound as the golden flame is dispersed, a gentle whisper of energy dissipating into the air",
+            "volume": "-20%",
+            "pitch": "+0Hz"
+          },
+          {
+            "trigger_delay": 4.0,
+            "trigger_keyword": "金霞",
+            "trigger_offset": 0,
+            "duration": 1.0,
+            "process_mode": "overlay",
+            "name": "金霞隔断",
+            "sound_cn": "一片金霞飞起，将谢璎隔断，声音隔绝。",
+            "sound_en": "a soft whoosh as a golden haze rises, creating a barrier that muffles sound, a gentle hum of a protective field",
+            "volume": "-22%",
+            "pitch": "+0Hz"
+          }
+        ]
+      },
+      "mix": {
+        "mode": "mix"
+      }
+    }
+  ]
+}

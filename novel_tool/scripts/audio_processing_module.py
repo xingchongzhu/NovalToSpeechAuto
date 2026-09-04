@@ -233,6 +233,18 @@ class MixConfig:
     mode: str
     voice_delay: Optional[float] = None
 
+
+def _safe_float(value) -> float:
+    """安全地将数值（int/float/数字字符串）转为 float，失败返回 0.0。
+
+    剧本 JSON 中部分字段（如 trigger_offset）偶尔被写成字符串（如 "-0.8"），
+    直接参与算术会触发 float + str 的 TypeError，这里统一兜底。
+    """
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return 0.0
+
 @dataclass
 class LineAudioConfig:
     """单句音频配置数据类"""
@@ -2844,11 +2856,11 @@ class AudioGenerator:
                     sound_en=effect.get("sound_en", ""),
                     volume=effect.get("volume", "+0%"),
                     pitch=effect.get("pitch", "+0Hz"),
-                    trigger_delay=effect.get("trigger_delay", 0),
-                    duration=effect.get("duration", 1),
+                    trigger_delay=_safe_float(effect.get("trigger_delay", 0)),
+                    duration=_safe_float(effect.get("duration", 1)),
                     process_mode=effect.get("process_mode", "overlay"),
                     trigger_keyword=effect.get("trigger_keyword", ""),
-                    trigger_offset=effect.get("trigger_offset", 0.0)
+                    trigger_offset=_safe_float(effect.get("trigger_offset", 0.0))
                 ))
         
         mix_config = MixConfig(**line["api"].get("mix", {"mode": "mix"}))
